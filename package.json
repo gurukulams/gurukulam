@@ -1,32 +1,85 @@
 {
-  "name": "bootjs",
+  "name": "tectatpark",
   "version": "1.0.0",
-  "scripts": {
-    "clean": "rm -rf dist",
-    "postinstall": "npm run build",
-    "serve": "browser-sync start --server 'dist' --files 'dist'",
-    "watch": "npm run build && npm-run-all -p serve watch:html watch:js watch:css watch:images",
-    "watch:html": "cpx 'src/**/*.{html,htm}' dist --watch",
-    "watch:js": "cpx 'src/js/**' 'dist/js' --watch",
-    "watch:css": "onchange 'src/scss' -- npm run build:css",
-    "watch:images": "cpx 'src/**/*.{png,jpg,svg,ico}' dist --watch",
-    "build": "npm run clean && mkdir dist && npm run copy:vendorjs && npm run copy:vendorfonts && npm run build:js && npm run build:css && npm run build:html && npm run build:images",
-    "copy:vendorjs": "mkdir dist/js && uglifyjs node_modules/jquery/dist/jquery.js node_modules/bootstrap-sass/assets/javascripts/bootstrap.js -m -c -o dist/js/vendor.min.js",
-    "copy:vendorfonts": "cp -R node_modules/font-awesome/fonts dist/ && cp -R node_modules/bootstrap-sass/assets/fonts dist/",
-    "build:html": "cpx 'src/**/*.{html,htm}' dist",
-    "build:js": "cp -R 'src/js' dist",
-    "build:css": "node-sass --output-style compressed -o dist/css src/scss",
-    "build:images": "cpx 'src/**/*.{png,jpg,svg,ico}' dist"
+  "description": "",
+  "author": "Sathish",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sathishk/techatpark.git"
   },
+  "keywords": [
+    "npm",
+    "scripts",
+    "npm scripts",
+    "watch",
+    "minify",
+    "compress"
+  ],
+  "bugs": {
+    "url": "https://github.com/sathishk/techatpark/issues"
+  },
+  "homepage": "https://github.com/sathishk/techatpark#readme",
+  "main": "src/js/app.js",
   "devDependencies": {
-    "cpx": "^1.5.0",
-    "browser-sync": "^2.26.3",
+    "jquery": "3.3.1",
+    "popper.js": "1.14.7",
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "bootstrap": "^4.3.1",
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.1.0",
+    "imagemin-cli": "^5.0.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
-    "uglify-js": "^3.4.9",
-    "bootstrap-sass": "^3.4.0",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "node-sass": "^4.11.0",
-    "onchange": "^5.2.0"
+    "onchange": "^6.0.0",
+    "postcss-cli": "^6.1.3",
+    "posthtml": "^0.11.6",
+    "rimraf": "^2.6.3",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "svg-sprite-generator": "0.0.7",
+    "svgo": "^1.3.0",
+    "uglify-es": "^3.3.9"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "optimizecss": "postcss dist/css/app.css -c postcss.config.js -o dist/css/app.css",
+    "scss": "node-sass src/scss/app.scss -o dist/css",
+    "lint": "eslint src/js || true",
+    "lint-scss": "stylelint src/scss/*.scss --syntax scss  || eslint src/js",
+    "uglify": "mkdirp dist/js -p && uglifyjs node_modules/jquery/dist/jquery.slim.js node_modules/popper.js/dist/popper.js node_modules/bootstrap/dist/js/bootstrap.js -m -o dist/js/app.js && uglifyjs dist/js/app.js -m -c -o dist/js/app.min.js",
+    "imagemin": "imagemin src/images/* --out-dir=dist/images",
+    "icons": "svgo -f src/images/icons -o dist/images/icons && svg-sprite-generate -d dist/images/icons -o dist/images/icons/sprite.svg",
+    "serve": "browser-sync start --config browser-sync.js",
+    "build:css": "run-s lint-scss scss optimizecss",
+    "build:js": "run-s lint uglify",
+    "build:images": "run-s imagemin icons",
+    "build:html": "posthtml -c .posthtmlrc",
+    "build": "run-s clean build:*",
+    "watch:css": "onchange \"src/scss\" -- run-s build:css",
+    "watch:js": "onchange \"src/js\" -- run-s build:js",
+    "watch:html": "onchange \"src/**/*.html\" -- run-s build:html",
+    "watch:images": "onchange \"src/images\" -- run-s build:images",
+    "start": "npm run build && run-p serve watch:*",
+    "postinstall": "run-s build"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "eslintConfig": {
+    "extends": "eslint:recommended"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-recommended"
+  },
+  "dependencies": {
+    "posthtml-cli": "^0.5.1",
+    "posthtml-modules": "^0.4.2"
   }
 }
