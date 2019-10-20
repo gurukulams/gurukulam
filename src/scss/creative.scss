@@ -1,7 +1,5 @@
 
-$fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts";
-
-
+$fa-font-path: "../webfonts";
 
 @import '../../node_modules/@fortawesome/fontawesome-free/scss/regular';
 @import '../../node_modules/@fortawesome/fontawesome-free/scss/solid';
@@ -10,19 +8,16 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts";
 
 @import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
 
-// Custom.scss
-// Option B: Include parts of Bootstrap
+// Import custom variables (overrides Bootstrap default variables)
+@import "./variables.scss";
 
-// Your variable overrides
-@import 'variables';
 
-// Required
+
+// Import Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-
-
-
-
-
- 
-  
+// Import custom styles
+@import "./global.scss";
+@import "./navbar.scss";
+@import "./masthead.scss";
+@import "./portfolio.scss";
