@@ -1,4 +1,3 @@
-## NPM Script Starter for Bootstrap
 
 This projects contains Website of techatpark
 
