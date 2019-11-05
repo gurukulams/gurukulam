@@ -18415,6 +18415,10 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+  header.masthead img {
+    height: 120px;
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 1200px) {
   header.masthead h1 {
