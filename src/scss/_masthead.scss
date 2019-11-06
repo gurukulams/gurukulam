@@ -12,10 +12,22 @@ header.masthead {
   h1 {
     font-size: 2.25rem;
   }
-
+  
+  
   .carousel {
-    height: 110px;
+      height: 110px;
+      .carousel-item img{
+        border-radius: 50%;
+      }     
+     p{
+       font-size: 0.875rem;
+     }
+     .blockquote-footer{
+       color: rgba(255,255,255,0.54);
+     }
   }
+
+  
   @include media-breakpoint-up(lg) {
     height: 100vh;
     min-height: 40rem;
@@ -28,7 +40,7 @@ header.masthead {
       font-size: 3rem;
     }
     img{
-      height: 120px;
+      height: 100px;
       margin-bottom: 20px;
     }
   }
