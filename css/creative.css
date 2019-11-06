@@ -18402,6 +18402,9 @@ header.masthead {
 header.masthead h1 {
   font-size: 2.25rem;
 }
+header.masthead .carousel {
+  height: 110px;
+}
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
