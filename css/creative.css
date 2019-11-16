@@ -18332,7 +18332,7 @@ hr.light {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
   transition: background-color 0.2s ease;
-  visibility: hidden;
+  top: -74px;
 }
 #mainNav .navbar-brand {
   font-family: "Noto Sans", -apple-system, Roboto, "Merriweather Sans", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -18353,6 +18353,7 @@ hr.light {
   color: #f4623a !important;
 }
 #mainNav.navbar-scrolled {
+  top: 0px;
   visibility: visible;
 }
 @media (min-width: 992px) {
@@ -18395,7 +18396,7 @@ hr.light {
 }
 
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 6rem;
   padding-bottom: calc(10rem - 72px);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/intro-bg_gs.jpg");
   background-position: center;
