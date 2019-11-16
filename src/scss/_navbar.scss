@@ -3,6 +3,7 @@
   box-shadow: $box-shadow;
   background-color: $white;
   transition: background-color 0.2s ease;
+  visibility: hidden;
   .navbar-brand {
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-bold;
@@ -25,6 +26,10 @@
         }
       }
     }
+   
+  }
+  &.navbar-scrolled {
+    visibility: visible;
   }
   @include media-breakpoint-up(lg) {
     // Base styling for the navbar - screen sizes greater than the large breakpoint
@@ -56,6 +61,7 @@
     &.navbar-scrolled {
       box-shadow: $box-shadow;
       background-color: $white;
+      
       .navbar-brand {
         color: $gray-900;
         &:hover {
