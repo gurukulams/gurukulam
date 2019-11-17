@@ -18384,8 +18384,8 @@ hr.light {
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
   }
-  #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+  #mainNav.navbar-scrolled .navbar-brand .green {
+    color: #28a745;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
@@ -18440,42 +18440,6 @@ header.masthead .carousel .blockquote-footer {
   header.masthead h1 {
     font-size: 3.5rem;
   }
-}
-
-#portfolio .container-fluid {
-  max-width: 1920px;
-}
-#portfolio .container-fluid .portfolio-box {
-  position: relative;
-  display: block;
-}
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  opacity: 0;
-  color: #fff;
-  background: rgba(244, 98, 58, 0.9);
-  transition: opacity 0.25s ease;
-  text-align: center;
-}
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
-  font-family: "Noto Sans", -apple-system, Roboto, "Merriweather Sans", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem;
-}
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
 }
 
 .timeline {
