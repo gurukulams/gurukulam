@@ -66,8 +66,8 @@
       
       .navbar-brand {
         color: $gray-900;
-        &:hover {
-          color: $primary;
+        .green{
+          color: $green;
         }
       }
       .navbar-nav {

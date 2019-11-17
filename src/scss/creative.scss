@@ -1,25 +1,17 @@
 
-$fa-font-path: "../webfonts";
-
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/regular';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims';
-
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
 
 // Import custom variables (overrides Bootstrap default variables)
 @import "./variables.scss";
 
 
+//Third Parties
+@import "fontawesome";
+@import "bootstrap";
 
-// Import Bootstrap
-@import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import custom styles
-@import "./global.scss";
-@import "./navbar.scss";
-@import "./masthead.scss";
-@import "./portfolio.scss";
-@import "./howItWorks.scss";
-@import "./achievement.scss";
+@import "global";
+@import "navbar";
+@import "masthead";
+@import "howItWorks";
+@import "achievement";
