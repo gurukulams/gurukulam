@@ -18450,4 +18450,10 @@ header.masthead .carousel .blockquote-footer {
   z-index: 400;
 }
 
+body > section.container {
+  background-color: green;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
 /*# sourceMappingURL=creative.css.map */
