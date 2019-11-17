@@ -1,5 +1,3 @@
-
-
 // Import custom variables (overrides Bootstrap default variables)
 @import "./variables.scss";
 
@@ -10,8 +8,6 @@
 
 
 // Import custom styles
-@import "global";
 @import "navbar";
 @import "masthead";
-@import "howItWorks";
-@import "achievement";
+@import "timeline";
