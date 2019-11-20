@@ -18349,7 +18349,7 @@ h3 {
 header.masthead {
   padding-top: 6rem;
   padding-bottom: calc(10rem - 2.5rem);
-  background: linear-gradient(to bottom, rgba(0, 255, 45, 0.1), rgba(0, 255, 45, 0.6)), url("../images/intro-bg_gs.jpg");
+  background: linear-gradient(to bottom, rgba(18, 30, 51, 0.4), rgba(18, 30, 51, 0.8)), url("../images/intro-bg_gs.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
