@@ -1,5 +1,5 @@
 // Import custom variables (overrides Bootstrap default variables)
-@import "./variables.scss";
+@import "./utils/variables";
 
 
 //Third Parties
@@ -8,6 +8,6 @@
 
 
 // Import custom styles
-@import "navbar";
-@import "masthead";
-@import "timeline";
+@import "./layout/navbar";
+@import "./layout/masthead";
+@import "./layout/timeline";
