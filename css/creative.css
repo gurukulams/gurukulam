@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
+  font-display: block;
   src: url("../webfonts/fa-regular-400.eot");
   src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
@@ -17,14 +17,14 @@
 }
 
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 900;
-  font-display: auto;
+  font-display: block;
   src: url("../webfonts/fa-solid-900.eot");
   src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
@@ -35,14 +35,14 @@
 }
 
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
   font-family: "Font Awesome 5 Brands";
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
+  font-display: block;
   src: url("../webfonts/fa-brands-400.eot");
   src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
@@ -52,7 +52,7 @@
 }
 
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa.fa-glass:before {
@@ -2838,7 +2838,7 @@
 }
 
 /*!
- * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -3633,6 +3633,10 @@ readers do not read off random characters that represent icons */
 
 .fa-box-open:before {
   content: "";
+}
+
+.fa-box-tissue:before {
+  content: "拏";
 }
 
 .fa-boxes:before {
@@ -4519,6 +4523,10 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-disease:before {
+  content: "";
+}
+
 .fa-divide:before {
   content: "";
 }
@@ -4825,6 +4833,10 @@ readers do not read off random characters that represent icons */
 
 .fa-fast-forward:before {
   content: "";
+}
+
+.fa-faucet:before {
+  content: "串";
 }
 
 .fa-fax:before {
@@ -5475,8 +5487,16 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-hand-holding-medical:before {
+  content: "樂";
+}
+
 .fa-hand-holding-usd:before {
   content: "";
+}
+
+.fa-hand-holding-water:before {
+  content: "";
 }
 
 .fa-hand-lizard:before {
@@ -5523,6 +5543,10 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-hand-sparkles:before {
+  content: "諾";
+}
+
 .fa-hand-spock:before {
   content: "";
 }
@@ -5535,8 +5559,20 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-hands-wash:before {
+  content: "丹";
+}
+
 .fa-handshake:before {
   content: "";
+}
+
+.fa-handshake-alt-slash:before {
+  content: "寧";
+}
+
+.fa-handshake-slash:before {
+  content: "怒";
 }
 
 .fa-hanukiah:before {
@@ -5565,6 +5601,22 @@ readers do not read off random characters that represent icons */
 
 .fa-hdd:before {
   content: "";
+}
+
+.fa-head-side-cough:before {
+  content: "率";
+}
+
+.fa-head-side-cough-slash:before {
+  content: "異";
+}
+
+.fa-head-side-mask:before {
+  content: "北";
+}
+
+.fa-head-side-virus:before {
+  content: "磻";
 }
 
 .fa-heading:before {
@@ -5663,6 +5715,10 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-hospital-user:before {
+  content: "";
+}
+
 .fa-hot-tub:before {
   content: "";
 }
@@ -5697,6 +5753,10 @@ readers do not read off random characters that represent icons */
 
 .fa-house-damage:before {
   content: "";
+}
+
+.fa-house-user:before {
+  content: "便";
 }
 
 .fa-houzz:before {
@@ -5947,6 +6007,10 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-laptop-house:before {
+  content: "復";
+}
+
 .fa-laptop-medical:before {
   content: "";
 }
@@ -6101,6 +6165,14 @@ readers do not read off random characters that represent icons */
 
 .fa-luggage-cart:before {
   content: "";
+}
+
+.fa-lungs:before {
+  content: "";
+}
+
+.fa-lungs-virus:before {
+  content: "不";
 }
 
 .fa-lyft:before {
@@ -6647,6 +6719,10 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-people-arrows:before {
+  content: "泌";
+}
+
 .fa-people-carry:before {
   content: "";
 }
@@ -6775,6 +6851,10 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-plane-slash:before {
+  content: "數";
+}
+
 .fa-play:before {
   content: "";
 }
@@ -6873,6 +6953,14 @@ readers do not read off random characters that represent icons */
 
 .fa-project-diagram:before {
   content: "";
+}
+
+.fa-pump-medical:before {
+  content: "索";
+}
+
+.fa-pump-soap:before {
+  content: "參";
 }
 
 .fa-pushed:before {
@@ -7255,6 +7343,10 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-shield-virus:before {
+  content: "塞";
+}
+
 .fa-ship:before {
   content: "";
 }
@@ -7453,6 +7545,10 @@ readers do not read off random characters that represent icons */
 
 .fa-snowplow:before {
   content: "";
+}
+
+.fa-soap:before {
+  content: "葉";
 }
 
 .fa-socks:before {
@@ -7675,12 +7771,24 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
+.fa-stopwatch-20:before {
+  content: "說";
+}
+
 .fa-store:before {
   content: "";
 }
 
 .fa-store-alt:before {
   content: "";
+}
+
+.fa-store-alt-slash:before {
+  content: "殺";
+}
+
+.fa-store-slash:before {
+  content: "辰";
 }
 
 .fa-strava:before {
@@ -7997,6 +8105,10 @@ readers do not read off random characters that represent icons */
 
 .fa-toilet-paper:before {
   content: "";
+}
+
+.fa-toilet-paper-slash:before {
+  content: "沈";
 }
 
 .fa-toolbox:before {
@@ -8413,6 +8525,18 @@ readers do not read off random characters that represent icons */
 
 .fa-vine:before {
   content: "";
+}
+
+.fa-virus:before {
+  content: "若";
+}
+
+.fa-virus-slash:before {
+  content: "掠";
+}
+
+.fa-viruses:before {
+  content: "略";
 }
 
 .fa-vk:before {
