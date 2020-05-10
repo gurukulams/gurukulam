@@ -1,5 +1,8 @@
-(function ($) {
-	"use strict"; // Start of use strict
+// Import lit-html
+import { html, render } from "lit-html";
 
-	console.log("Hi muthu");
-})(jQuery); // End of use strict
+// Define a template
+const myTemplate = (name) => html` <p>Hello ${name}</p> `;
+
+// Render the template to the document
+//render(myTemplate("World"), document.body);
