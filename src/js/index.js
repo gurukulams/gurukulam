@@ -5,4 +5,4 @@ import { html, render } from "lit-html";
 const myTemplate = (name) => html` <p>Hello ${name}</p> `;
 
 // Render the template to the document
-//render(myTemplate("World"), document.body);
+render(myTemplate("World"), document.getElementById("container-exams"));
