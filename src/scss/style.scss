@@ -1,13 +1,10 @@
 // Import custom variables (overrides Bootstrap default variables)
 @import "./utils/variables";
 
-
 //Third Parties
 @import "fontawesome";
 @import "bootstrap";
 
-
 // Import custom styles
 @import "./layout/navbar";
 @import "./layout/masthead";
-@import "./layout/timeline"; 
