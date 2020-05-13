@@ -1,20 +1,38 @@
-import { LitElement, html } from 'lit-element';
+// import { LitElement, css, html } from 'lit-element';
+const { LitElement, css, html } = litElement;
 
-class MyElement extends LitElement {
+class DropDownMenu extends LitElement {
+    static get properties() {
+        return {
+            open: { type: Boolean },
+        };
+    }
 
-    // Implement `render` to define a template for your element.
+    static get styles() {
+        return css`
+      ul.hidden {
+        display: none;
+      }
+    `;
+    }
+
+    constructor() {
+        super();
+        this.open = false;
+    }
+
+    toggleMenu() {
+        this.open = !this.open;
+    }
+
     render() {
-        /**
-         * Return a lit-html `TemplateResult`.
-         *
-         * To create a `TemplateResult`, tag a JavaScript template literal
-         * with the `html` helper function.
-         */
         return html`
-      <div>
-        <p>A paragraph</p>
-      </div>
+      <button class="btn btn-primary" @click=${this.toggleMenu} type="button"><i class="fa fa-plus-square-o pr-2" aria-hidden="true"></i>Create</button>
+      <ul class=${this.open ? '' : 'hidden'}>
+        <slot></slot>
+      </ul>
     `;
     }
 }
-customElements.define('my-element', MyElement);
+customElements.define('drop-down-menu', DropDownMenu);
+

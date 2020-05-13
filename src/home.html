@@ -14,7 +14,7 @@
 	<meta name="msapplication-TileColor" content="#ff0000" />
 	<meta name="msapplication-TileImage" content="images/icons/logo.jpg" />
 	<link rel="manifest" href="/manifest.json" />
-
+	<script src="https://bundle.run/lit-element@2.2.1"></script>
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
@@ -36,6 +36,7 @@
 	</nav>
 
 	<div class="container">
+
 		<div class="row">
 			<main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3">
 				<div
@@ -92,71 +93,76 @@
 						</tbody>
 					</table>
 				</div>
-				<form id="container-exams">
-					<h2 class="h2">Registration Form</h2>
-					<hr>
-					<div class="form-row">
 
-						<div class="form-group col-md-6">
-							<label for="inputEmail4"><b>First Name</b></label>
-							<input type="text" class="form-control" id="inputEmail4" placeholder="First Name" />
+
+				<drop-down-menu>
+					<form id="container-exams">
+						<h2 class="h2">Registration Form</h2>
+						<hr>
+						<div class="form-row">
+
+							<div class="form-group col-md-6">
+								<label for="inputEmail4"><b>First Name</b></label>
+								<input type="text" class="form-control" id="inputEmail4" placeholder="First Name" />
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputPassword4"><b>Last Name</b></label>
+								<input type="text" class="form-control" id="inputPassword4" placeholder="Last Name" />
+							</div>
 						</div>
-						<div class="form-group col-md-6">
-							<label for="inputPassword4"><b>Last Name</b></label>
-							<input type="text" class="form-control" id="inputPassword4" placeholder="Last Name" />
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputEmail4"><b>Email</b></label>
+								<input type="email" class="form-control" id="inputEmail4" placeholder="Email" />
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputPassword4"><b>Password</b></label>
+								<input type="password" class="form-control" id="inputPassword4"
+									placeholder="Password" />
+							</div>
 						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-md-6">
-							<label for="inputEmail4"><b>Email</b></label>
-							<input type="email" class="form-control" id="inputEmail4" placeholder="Email" />
+						<div class="form-group">
+							<label for="inputAddress"><b>Address</b></label>
+							<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
 						</div>
-						<div class="form-group col-md-6">
-							<label for="inputPassword4"><b>Password</b></label>
-							<input type="password" class="form-control" id="inputPassword4" placeholder="Password" />
+						<div class="form-group">
+							<label for="inputAddress2"><b>Address 2</b></label>
+							<input type="text" class="form-control" id="inputAddress2"
+								placeholder="Apartment, studio, or floor" />
 						</div>
-					</div>
-					<div class="form-group">
-						<label for="inputAddress"><b>Address</b></label>
-						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
-					</div>
-					<div class="form-group">
-						<label for="inputAddress2"><b>Address 2</b></label>
-						<input type="text" class="form-control" id="inputAddress2"
-							placeholder="Apartment, studio, or floor" />
-					</div>
-					<div class="form-row">
-						<div class="form-group col-md-6">
-							<label for="inputCity"><b>City</b></label>
-							<input type="text" class="form-control" id="inputCity" />
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputCity"><b>City</b></label>
+								<input type="text" class="form-control" id="inputCity" />
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputState"><b>State</b></label>
+								<select id="inputState" class="form-control">
+									<option selected>Choose...</option>
+									<option>...</option>
+								</select>
+							</div>
+							<div class="form-group col-md-2">
+								<label for="inputZip"><b>Zip</b></label>
+								<input type="text" class="form-control" id="inputZip" />
+							</div>
 						</div>
-						<div class="form-group col-md-4">
-							<label for="inputState"><b>State</b></label>
-							<select id="inputState" class="form-control">
-								<option selected>Choose...</option>
-								<option>...</option>
-							</select>
+						<div class="form-group">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" id="gridCheck" />
+								<label class="form-check-label" for="gridCheck">
+									Check me out
+								</label>
+							</div>
 						</div>
-						<div class="form-group col-md-2">
-							<label for="inputZip"><b>Zip</b></label>
-							<input type="text" class="form-control" id="inputZip" />
+						<div>
+							<a href="home.html" class="btn btn-primary">
+								Signin
+							</a>
 						</div>
-					</div>
-					<div class="form-group">
-						<div class="form-check">
-							<input class="form-check-input" type="checkbox" id="gridCheck" />
-							<label class="form-check-label" for="gridCheck">
-								Check me out
-							</label>
-						</div>
-					</div>
-					<div>
-						<a href="home.html" class="btn btn-primary">
-							Signin
-						</a>
-					</div>
-					<!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
-				</form>
+						<!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+					</form>
+				</drop-down-menu>
 			</main>
 		</div>
 	</div>
