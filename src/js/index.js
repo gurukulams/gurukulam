@@ -1,4 +1,3 @@
-// import { LitElement, css, html } from 'lit-element';
 import "./list"
 const {
 	LitElement,
