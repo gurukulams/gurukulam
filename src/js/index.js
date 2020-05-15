@@ -1,47 +1,47 @@
-import "./list"
+import "./list";
 const {
-	LitElement,
-	css,
-	html
+  LitElement,
+  css,
+  html
 } = litElement;
 
 class DropDownMenu extends LitElement {
-	static get properties() {
-		return {
-			open: {
-				type: Boolean
-			},
-		};
-	}
+  static get properties() {
+    return {
+      open: {
+        type: Boolean
+      },
+    };
+  }
 
-	static get styles() {
-		return css `
+  static get styles() {
+    return css`
       ul.hidden {
         display: none;
       }
     `;
-	}
+  }
 
-	constructor() {
-		super();
-		this.open = false;
-	}
+  constructor() {
+    super();
+    this.open = false;
+  }
 
-	toggleMenu() {
-		this.open = !this.open;
-	}
+  toggleMenu() {
+    this.open = !this.open;
+  }
 
-	render() {
-		return html `
+  render() {
+    return html`
     <q-list></q-list>
       <button class="btn btn-primary" @click=${this.toggleMenu} type="button"><i class="fa fa-plus-square-o pr-2" aria-hidden="true"></i>Create</button>
       <ul class=${this.open ? '' : 'hidden'}>
         <slot></slot>
       </ul>
     `;
-	}
-	createRenderRoot() {
-		return this;
-	}
+  }
+  createRenderRoot() {
+    return this;
+  }
 }
 customElements.define('drop-down-menu', DropDownMenu);

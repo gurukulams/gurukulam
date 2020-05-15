@@ -17,7 +17,7 @@ class List extends LitElement {
 	}
 
 	static get styles() {
-		return css `
+		return css`
             span {
                 display: none;
             }
@@ -37,9 +37,9 @@ class List extends LitElement {
 		}];
 	}
 	connectedCallback() {
-		super.connectedCallback()
+		super.connectedCallback();
 
-		console.log('connected')
+		console.log('connected');
 		// fetch("http://www.mocky.io/v2/5ebd805831000071285b147f").then(r => {
 		//     // console.log(r.json());
 
@@ -52,19 +52,19 @@ class List extends LitElement {
 		// })
 	}
 	_triggerEdit(id) {
-		console.log("edit event triggered", id)
+		console.log("edit event triggered", id);
 	}
 
 	_triggerDelete(id) {
-		console.log("delete event triggered", id)
+		console.log("delete event triggered", id);
 	}
 	_triggerElement(id) {
-		console.log("eho     event triggered", id)
+		console.log("eho     event triggered", id);
 	}
 
 
 	render() {
-		return html `
+		return html`
         <div class="table-responsive">
         <table class="table table-bordered table-hover">
             <thead class="thead-light">
@@ -92,9 +92,9 @@ class List extends LitElement {
         </table>
     </div>
         `;
-    }
-    createRenderRoot() {
-        return this;
-    }
+	}
+	createRenderRoot() {
+		return this;
+	}
 }
 customElements.define('q-list', List);
