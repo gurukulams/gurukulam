@@ -30,7 +30,11 @@ export let home = html`
 		<div class="checkbox mb-3">
 			<label> <input type="checkbox" value="remember-me" /> Remember me </label>
 		</div>
-		<a href="/about" class="btn btn-lg btn-primary btn-block">
+		<a
+			href="#"
+			onclick="onNavigate('/about'); return false;"
+			class="btn btn-lg btn-primary btn-block"
+		>
 			Sign in
 		</a>
 		<p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
