@@ -3,7 +3,7 @@ import resolve from "rollup-plugin-node-resolve";
 import commonjs from "rollup-plugin-commonjs";
 
 export default {
-	input: "./src/js/index.js",
+	input: "./src/js/app.js",
 	output: {
 		file: "./dist/js/bundle.min.js",
 		format: "iife",

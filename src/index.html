@@ -1,85 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Gurukulam - TECH@PARK</title>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-			f
-		/>
-		<meta name="description" content="BUILDING PRO-GRAMMERS !" />
-		<meta name="author" content="SathishKumar.Thiyagarajan" />
-		<meta
-			property="og:image"
-			content="http://techatpark.com/images/icons/logo_full.svg"
-		/>
-		<meta
-			property="og:description"
-			content="We help deserving candidates to find their first software job by providing free training. Our goal is to make sure the right opportunity meets the right talent!"
-		/>
-		<meta property="og:type" content="website" />
-		<meta name="msapplication-TileColor" content="#ff0000" />
-		<meta name="msapplication-TileImage" content="images/icons/logo.jpg" />
-		<link rel="manifest" href="/manifest.json" />
-
-		<!-- Google Fonts -->
-		<link
-			href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
-			rel="stylesheet"
-			type="text/css"
-		/>
-
-		<!-- Theme CSS - Includes Bootstrap -->
-		<link href="css/style.css" rel="stylesheet" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Simple Vanilla Router</title>
+		<script src="about.js"></script>
+		<script src="contact.js"></script>
+		<script src="home.js"></script>
 	</head>
-
 	<body>
-		<x-polymer-elements></x-polymer-elements>
-		<section id="hero" class="d-flex align-items-center">
-			
-			<div class="container">
-				<div class="row">
-					<div
-						class="col-lg-7 pt-5 pt-lg-0 order-2 text-center order-lg-1 d-flex flex-column justify-content-center"
-					>
-						<div class="row justify-content-center">
-							<div class="col-lg-3 pt-5 pt-lg-0 order-2 order-lg-1 flex-column">
-								<img
-									src="images/icons/logo.jpg"
-									class="img-fluid animated"
-									alt=""
-								/>
-							</div>
-						</div>
-						<br />
-						<h1>GURUKULAM</h1>
-						<h2>
-							Customized Learning portal made by the students for the students!
-						</h2>
-						<div class="d-flex justify-content-center">
-							<a href="home.html" class="btn btn-primary">
-								<i class="fab fa-github pr-2" aria-hidden="true"></i>Signin
-							</a>
-						</div>
-					</div>
-					<div class="col-lg-5 order-1 order-lg-2 hero-img">
-						<img src="/images/hero-img.png" class="img-fluid animated" alt="" />
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Bootstrap core JavaScript -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-
-		<!-- Custom scripts for this template -->
+		<ul class="navbar-list">
+			<li class="navbar-item">
+				<a href="#" onclick="onNavigate('/about'); return false;">About</a>
+			</li>
+			<li class="navbar-item">
+				<a href="#" onclick="onNavigate('/'); return false;">Home</a>
+			</li>
+			<li class="navbar-item">
+				<a href="#" onclick="onNavigate('/contact'); return false;">Contact</a>
+			</li>
+		</ul>
+		<div id="root"></div>
 		<script src="js/bundle.min.js"></script>
 	</body>
 </html>
-<link rel="shortcut icon" href="images/favico.ico" type="image/x-icon" />
