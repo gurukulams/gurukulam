@@ -1,13 +1,6 @@
-let about = `
-<h1>I am About Page.</h1>
-`;
-
-let home = `
-<h1>I am home Page</h1>
-`;
-let contact = `
-  <h1>I am contact Page</h1>
-`;
+import { about } from "./about";
+import { home } from "./home";
+import { contact } from "./contact";
 
 const routes = {
 	"/": home,
