@@ -1,6 +1,7 @@
 import { about } from "./about";
 import { home } from "./home";
 import { contact } from "./contact";
+import { render } from "lit-html";
 
 const routes = {
 	"/": home,
@@ -9,15 +10,15 @@ const routes = {
 };
 
 const rootDiv = document.getElementById("root");
-rootDiv.innerHTML = routes[window.location.pathname];
+render(routes[window.location.pathname], rootDiv);
 
 const onNavigate = (pathname) => {
 	window.history.pushState({}, pathname, window.location.origin + pathname);
-	rootDiv.innerHTML = routes[pathname];
+	render(routes[pathname], rootDiv);
 };
 
 window["onNavigate"] = onNavigate;
 
 window.onpopstate = () => {
-	rootDiv.innerHTML = routes[window.location.pathname];
+	render(routes[window.location.pathname], rootDiv);
 };

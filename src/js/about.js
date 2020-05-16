@@ -1,3 +1,3 @@
-export let about = `
-<h1>I am About Page.</h1>
-`;
+import { html } from "lit-html";
+
+export let about = html` <h1>I am About Page.</h1> `;
