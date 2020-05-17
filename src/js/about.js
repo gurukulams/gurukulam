@@ -22,7 +22,7 @@ export let about = html`
 		/>
 		<ul class="navbar-nav px-3">
 			<li class="nav-item text-nowrap">
-				<a href="#" onclick="onNavigate('/home')" class="nav-link">Sign out</a>
+				<a class="nav-link" href="#" onclick="onNavigate('#')">Sign out</a>
 			</li>
 		</ul>
 	</nav>

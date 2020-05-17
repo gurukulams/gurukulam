@@ -3,6 +3,7 @@ import { home } from "./home";
 import { contact } from "./contact";
 import { render } from "lit-html";
 
+const rootDiv = document.getElementById("root");
 
 const routes = {
 	"/": home,
@@ -22,5 +23,4 @@ window.onpopstate = () => {
 };
 
 // Default Page Load
-const rootDiv = document.getElementById("root");
 render(routes[window.location.pathname], rootDiv);
