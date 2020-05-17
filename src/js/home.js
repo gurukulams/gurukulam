@@ -110,8 +110,8 @@ export let home = html`
 					<li class="nav-item">
 						<a class="nav-link" href="#">
 							<span class="sidebar-icon"
-								><img src="images/log-out.png" alt=""
-							/></span>
+								><i class="fas fa-sign-out-alt"></i></i
+							></span>
 							<span
 								class="fadeInRight animated nav-link-name name-hide tax-show"
 								>Log Out</span
