@@ -1,8 +1,6 @@
-![GitHub Actions status | techatpark/website](https://github.com/techatpark/website/workflows/Node%20CI/badge.svg)
-
+![GitHub Actions status | techatpark/website](https://github.com/techatpark/gurukulam/workflows/Node%20CI/badge.svg)
 
 This projects contains Website of techatpark
-
 
 ### Usage
 

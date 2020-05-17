@@ -1,125 +1,16 @@
 import { html } from "lit-html";
 
 export let home = html`
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-		<!-- Brand/logo -->
-		<a class="navbar-brand" href="#">
-			<img
-				src="https://techatpark.com/images/icons/logo.svg"
-				width="30"
-				height="30"
-				class="d-inline-block align-top"
-				alt=""
-			/>
-			GURUKULAM
-		</a>
-	</nav>
+	<div class="container vh-100">
+		<div class="row h-100 justify-content-center align-items-center align-middle">
+			<div class="col-10 col-md-8 col-lg-6">
 
-	<section class="side-bar-warp">
-		<div class="sidebar-menu small-side-bar flowHide">
-			<nav class="">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"><i class="fas fa-columns"></i></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>Dashboard</span
-							>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"
-								><i class="far fa-question-circle"></i
-							></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>Creat a Quest</span
-							>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"
-								><img src="images/manage-quests.png" alt=""
-							/></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>Manage Quests</span
-							>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"
-								><img src="images/leaderboards.png" alt=""
-							/></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>Leaderboards</span
-							>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"
-								><img src="images/one-on-one.png" alt=""
-							/></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>One On Ones</span
-							>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"
-								><img src="images/give-kudos.png" alt=""
-							/></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>Give Kudos</span
-							>
-						</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"
-								><img src="images/settings.png" alt=""
-							/></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>Nation Settings</span
-							>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"
-								><img src="images/feedback.png" alt=""
-							/></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>Help/Feedback</span
-							>
-						</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<span class="sidebar-icon"
-								><i class="fas fa-sign-out-alt"></i></i
-							></span>
-							<span
-								class="fadeInRight animated nav-link-name name-hide tax-show"
-								>Log Out</span
-							>
-						</a>
-					</li>
-				</ul>
-			</nav>
+			<img class="mb-4" src="https://techatpark.com/images/icons/logo_full.svg" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Gurukulam</h1>
+    <p>எண்ணென்ப ஏனை எழுத்தென்ப இவ்விரண்டும் </br>
+	கண்ணென்ப வாழும் உயிர்க்கு</p>
+<button type="button" class="btn btn-outline-primary"><i class="fab fa-github"></i></button>
+			</div>
 		</div>
-	</section>
+	</div>
 `;
