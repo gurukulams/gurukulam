@@ -9,7 +9,9 @@ export let home = html`
     <h1 class="h3 mb-3 font-weight-normal">Gurukulam</h1>
     <p>எண்ணென்ப ஏனை எழுத்தென்ப இவ்விரண்டும் </br>
 	கண்ணென்ப வாழும் உயிர்க்கு</p>
-<button type="button" class="btn btn-outline-primary"><i class="fab fa-github"></i></button>
+<a href="#" onclick="onNavigate('/about')" class="btn btn-outline-primary">
+	<i class="fab fa-github"></i>
+</button>
 			</div>
 		</div>
 	</div>
