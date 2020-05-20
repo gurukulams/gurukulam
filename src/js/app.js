@@ -23,4 +23,6 @@ window.onpopstate = () => {
 };
 
 // Default Page Load
+console.log(window.location.pathname);
+
 render(routes[window.location.pathname], rootDiv);
