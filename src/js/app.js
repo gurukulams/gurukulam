@@ -1,14 +1,14 @@
-import { about } from "./about";
-import { home } from "./home";
-import { contact } from "./contact";
-import { render } from "lit-html";
+import { about } from './about';
+import { home } from './home';
+import { contact } from './contact';
+import { render } from 'lit-html';
 
-const rootDiv = document.getElementById("root");
+const rootDiv = document.getElementById('root');
 
 const routes = {
-	"/": home,
-	"/contact": contact,
-	"/about": about,
+	'/sql_exams/': home,
+	'/contact': contact,
+	'/about': about,
 };
 
 const onNavigate = (pathname) => {
@@ -16,7 +16,7 @@ const onNavigate = (pathname) => {
 	render(routes[pathname], rootDiv);
 };
 
-window["onNavigate"] = onNavigate;
+window['onNavigate'] = onNavigate;
 
 window.onpopstate = () => {
 	render(routes[window.location.pathname], rootDiv);
