@@ -1,22 +1,22 @@
-import babel from "rollup-plugin-babel";
-import resolve from "rollup-plugin-node-resolve";
-import commonjs from "rollup-plugin-commonjs";
+import babel from 'rollup-plugin-babel';
+import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
 
-export default {
-	input: "./src/js/app.js",
+export default ['sql_exams', 'presentations'].map((name, index) => ({
+	input: `./src/js/${name}/app.js`,
 	output: {
-		file: "./dist/js/bundle.min.js",
-		format: "iife",
-		name: "bundle",
+		file: `./dist/js/${name}.min.js`,
+		format: 'iife',
+		name: 'bundle',
 		globals: {
-			lodash: "_",
+			lodash: '_',
 		},
 	},
 	plugins: [
 		babel({
-			exclude: "node_modules/**",
+			exclude: 'node_modules/**',
 		}),
 		resolve(),
 		commonjs(),
 	],
-};
+}));
