@@ -1,14 +1,12 @@
-import { about } from './about';
 import { home } from './home';
-import { contact } from './contact';
+import { exam } from './exam';
 import { render } from 'lit-html';
 
 const rootDiv = document.getElementById('root');
 
 const routes = {
 	'/sql_exams/': home,
-	'/contact': contact,
-	'/about': about,
+	'/sql_exams/exam': exam,
 };
 
 const onNavigate = (pathname) => {
