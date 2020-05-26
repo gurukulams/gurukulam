@@ -7,20 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<link rel="stylesheet" href="/reveal.js/reveal.css" />
 	<link rel="stylesheet" href="/reveal.js/theme/white.css" />
-	<link rel="stylesheet" href="lib/css/monokai.css">
 	<title>Gurukulam</title>
 
 
 </head>
 
 <body class="text-center">
-
-	<script src="plugin/highlight/highlight.js"></script>
-	<script>
-		Reveal.initialize({
-			plugins: [RevealHighlight]
-		});
-	</script>
 
 	<div class="reveal">
 		<div class="slides">
@@ -121,7 +113,8 @@
 			<section data-auto-animate data-transition="convex">
 				<h3>Programs</h3>
 				<h6>1. Program to find the sum of two given numbers</h6>
-				<pre><code>
+				<pre>
+					<code data-trim data-noescape>
 						   #include <conio.h>
 							#include <stdio.h>
 							intain()
@@ -134,7 +127,8 @@
 							sum=a+b;
 							printf(“sum=%d\n”, sum);
 							}
-					</code></pre>
+					</code>
+				</pre>
 			</section>
 
 
@@ -142,7 +136,7 @@
 			<section data-auto-animate data-transition="convex">
 				<h3>Programs</h3>
 				<h6>2. Program to swap the contents of two variables</h6>
-				<pre><code>
+				<pre><code data-trim data-noescape>
 					    #include<conio.h>
 						#include<stdio.h>
 						int main()
@@ -171,13 +165,6 @@
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 	<script src="/js/presentations.min.js"></script>
-
-	<script src="plugin/highlight/highlight.js"></script>
-	<script>
-		Reveal.initialize({
-			plugins: [RevealHighlight]
-		});
-	</script>
 
 </body>
 
