@@ -27,19 +27,46 @@
 
 				<section data-auto-animate data-transition="convex">
 					<h3>Programs</h3>
-					<h6>3. Program for simple interest calculation</h6>
+					<h6>12. Program to find the roots of a given quadratic equation</h6>
 					<pre><code data-trim data-noescape>
-						    #include<conio.h>
-							#include<stdio.h>
-							int main()
-							{
-							flaot p, r, t, si;
-							clrscr();
-							printf(“\nEnter principal, rate of interest and time:\n”);
-							scanf(“%f%f”, &p, &r, &t);
-							si=(p*r*t)/100;
-							printf(“\n Simple Interest=0.2%f”,si);
-							}
+                            #include<conio.h>
+                            #include<stdio.h>
+                            #include<math.h>
+                            void main()
+                            {
+                            float a,b,c,disc,root1,root2,part_r,part_i;
+                            clrscr();
+                            printf(“\nEnter co-efficients of the quadratic equation”);
+                            scanf(“%f%f%f”,&a,&b,&c);
+                            printf(“\n Co-efficients are a=%f\tb=%f\t c=%f”,a,b,c);
+                            disc=b*b-4*a*c; /* Calculating discriminant */
+                            if(disc == 0)
+                            {
+                           
+                            printf(“\nRoots are real and equal”);
+                            root1 = - b / (2.0*a);
+                            root2=root1;
+                            printf(“\n Root1=%f\t Root2=%f”,root1,root2);
+                            }
+                            else
+                            {
+                            if(disc<0)
+                            {
+                            printf(“\nRoots are complex”);
+                            part_r = - b / (2.0*a);
+                            part_i = sqrt(-disc) / (2.0*a);
+                            printf(“\nRoot1=%f + i %f\t Root2 = %f - i%f”,part_r,part_i,part_r,part_i);
+                            }
+                            else
+                           
+                            {
+                            printf( “\nRoots are real and distinct”);
+                            root1 = (-b+sqrt(disc)) / (2.0*a);
+                            root2 = (-b-sqrt(disc)) / (2.0*a)
+                            printf(“\nRoot1=%f\tRoot2=%f”,root1,root2);
+                            }
+                            }
+                            } 
 						</code></pre>
 				</section>
 
