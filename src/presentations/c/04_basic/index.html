@@ -6,6 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="stylesheet" href="/reveal.js/reveal.css" />
 		<link rel="stylesheet" href="/reveal.js/theme/white.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/a11y-dark.min.css"
+			integrity="sha256-KkvzaoR5ChTXdxwPOewchEStWgiHQ3mPN8w/V1fJ++o="
+			crossorigin="anonymous"
+		/>
 		<title>Gurukulam</title>
 	</head>
 
@@ -27,46 +33,46 @@
 				<section data-auto-animate data-transition="convex">
 					<h3>Programs</h3>
 					<h6>12. Program to find the roots of a given quadratic equation</h6>
-					<pre><code data-trim data-noescape>
-						// <![CDATA[
-                            #include<conio.h>
-                            #include<stdio.h>
-                            #include<math.h>
+					<pre class="cpp hljs">
+						<code >
+						#include&lt;conio.h&gt;
+                            #include&lt;stdio.h&gt;
+                            #include&lt;math.h&gt;
                             void main()
                             {
                             float a,b,c,disc,root1,root2,part_r,part_i;
                             clrscr();
-                            printf(“\nEnter co-efficients of the quadratic equation”);
-                            scanf(“%f%f%f”,&a,&b,&c);
-                            printf(“\n Co-efficients are a=%f\tb=%f\t c=%f”,a,b,c);
+                            printf(&ldquo;\nEnter co-efficients of the quadratic equation&rdquo;);
+                            scanf(&ldquo;%f%f%f&rdquo;,&amp;a,&amp;b,&amp;c);
+                            printf(&ldquo;\n Co-efficients are a=%f\tb=%f\t c=%f&rdquo;,a,b,c);
                             disc=b*b-4*a*c; /* Calculating discriminant */
                             if(disc == 0)
                             {
                            
-                            printf(“\nRoots are real and equal”);
+                            printf(&ldquo;\nRoots are real and equal&rdquo;);
                             root1 = - b / (2.0*a);
                             root2=root1;
-                            printf(“\n Root1=%f\t Root2=%f”,root1,root2);
+                            printf(&ldquo;\n Root1=%f\t Root2=%f&rdquo;,root1,root2);
                             }
                             else
                             {
-                            if(disc<0)
+                            if(disc&lt;0)
                             {
-                            printf(“\nRoots are complex”);
+                            printf(&ldquo;\nRoots are complex&rdquo;);
                             part_r = - b / (2.0*a);
                             part_i = sqrt(-disc) / (2.0*a);
-                            printf(“\nRoot1=%f + i %f\t Root2 = %f - i%f”,part_r,part_i,part_r,part_i);
+                            printf(&ldquo;\nRoot1=%f + i %f\t Root2 = %f - i%f&rdquo;,part_r,part_i,part_r,part_i);
                             }
                             else
                            
                             {
-                            printf( “\nRoots are real and distinct”);
+                            printf( &ldquo;\nRoots are real and distinct&rdquo;);
                             root1 = (-b+sqrt(disc)) / (2.0*a);
                             root2 = (-b-sqrt(disc)) / (2.0*a)
-                            printf(“\nRoot1=%f\tRoot2=%f”,root1,root2);
+                            printf(&ldquo;\nRoot1=%f\tRoot2=%f&rdquo;,root1,root2);
                             }
                             }
-                            } // ]]>
+                            }
 						</code></pre>
 				</section>
 
