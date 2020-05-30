@@ -1,11 +1,11 @@
-import { home } from './home';
+import { list } from './list_exams';
 import { exam } from './exam';
 import { render } from 'lit-html';
 
 const rootDiv = document.getElementById('root');
 
 const routes = {
-	'/sql_exams/': home,
+	'/sql_exams/': list,
 	'/sql_exams/exam': exam,
 };
 
