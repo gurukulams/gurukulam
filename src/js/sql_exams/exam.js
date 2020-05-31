@@ -23,7 +23,7 @@ export let exam = html`
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <button class="btn btn-primary" onclick="onNavigate('/sql_exams/')">Save</button>
+  <button class="btn btn-primary" onclick="onNavigate('')">Save</button>
   <button class="btn btn-secondary">Cancel</button>
 </form>
 			</main>

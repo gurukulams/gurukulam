@@ -24,7 +24,7 @@ export let list = html`
 	</table>
 	<ul class="nav justify-content-end">
 		<li class="nav-item">
-			<a class="nav-link active" href="javascript://" onclick="onNavigate('/sql_exams/exam')">Create</a>
+			<a class="nav-link active" href="javascript://" onclick="onNavigate('#/exam')">Create</a>
 		</li>
 	</ul>
 `;

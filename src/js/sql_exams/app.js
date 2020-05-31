@@ -5,22 +5,22 @@ import { render } from 'lit-html';
 const rootDiv = document.getElementById('root');
 
 const routes = {
-	'/sql_exams/': list,
-	'/sql_exams/exam': exam,
+	'': list,
+	'#/exam': exam,
 };
 
-const onNavigate = (pathname) => {
-	window.history.pushState({}, pathname, window.location.origin + pathname);
-	render(routes[pathname], rootDiv);
+const onNavigate = (hash) => {
+	window.history.pushState({}, hash, window.location.origin + '/sql_exams/' + hash);
+	render(routes[hash], rootDiv);
+};
+
+window.onpopstate = () => {
+	render(routes[window.location.hash], rootDiv);
 };
 
 window['onNavigate'] = onNavigate;
 
-window.onpopstate = () => {
-	render(routes[window.location.pathname], rootDiv);
-};
-
 // Default Page Load
-console.log(window.location.pathname);
+console.log(window.location.hash);
 
-render(routes[window.location.pathname], rootDiv);
+onNavigate(window.location.hash);
