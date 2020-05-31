@@ -3,14 +3,13 @@ import { html } from 'lit-html';
 export let exam = html`
 	
 
-			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+			<main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-md-4">
 				<div
 					class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"
 				>
-					<h1 class="h2">Exam</h1>
-					
+					<h1 class="h2">Exam</h1>					
 				</div>
-				<form>
+				<form class="text-left">
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
