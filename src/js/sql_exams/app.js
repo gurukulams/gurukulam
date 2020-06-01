@@ -1,12 +1,14 @@
 import { list } from './list_exams';
 import { exam } from './exam';
 import { render } from 'lit-html';
+import { question } from './question';
 
 const rootDiv = document.getElementById('root');
 
 const routes = {
 	'': list,
 	'#/exam': exam,
+	'#/exam/question': question
 };
 
 const onNavigate = (hash) => {

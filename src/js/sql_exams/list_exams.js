@@ -15,14 +15,14 @@ export let list = html`
 				
 				<td>Product DB</td>
 				<td>Potgres</td>
-				<td><a class="nav-link active" href="javascript://" onclick="onNavigate('#/exam')">Add Question</a></td>
+				<td><a class="nav-link active" href="javascript://" onclick="onNavigate('#/exam/question')">Add Question</a></td>
 				
 			</tr>
 			<tr>
 				
 				<td>HR DB</td>
 				<td>MySQL</td>
-				<td><a class="nav-link active" href="javascript://" onclick="onNavigate('#/exam')">Take Exam</a></td>
+				<td><a class="nav-link active" href="javascript://" onclick="onNavigate('#/exam/question')">Take Exam</a></td>
 			</tr>
 		</tbody>
 	</table>
