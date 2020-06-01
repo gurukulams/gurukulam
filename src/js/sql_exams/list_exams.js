@@ -4,21 +4,25 @@ export let list = html`
 	<table class="table">
 		<thead>
 			<tr>
-				<th scope="col">#</th>
+				
 				<th scope="col">Exam Name</th>
 				<th scope="col">Exam Type</th>
+				<th scope="col">Actions</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th scope="row">1</th>
+				
 				<td>Product DB</td>
 				<td>Potgres</td>
+				<td><a class="nav-link active" href="javascript://" onclick="onNavigate('#/exam')">Add Question</a></td>
+				
 			</tr>
 			<tr>
-				<th scope="row">2</th>
+				
 				<td>HR DB</td>
 				<td>MySQL</td>
+				<td><a class="nav-link active" href="javascript://" onclick="onNavigate('#/exam')">Take Exam</a></td>
 			</tr>
 		</tbody>
 	</table>
