@@ -31,9 +31,10 @@ export let exam = html`
                   <label for="scriptUpload">Upload Script</label>
                   <input type="file" class="form-control-file" id="scriptUpload">
               </div>
-
-             <button class="btn btn-primary" onclick="onNavigate('')">Save</button>
+             
              <button class="btn btn-secondary">Cancel</button>
+             <button class="btn btn-primary" onclick="onNavigate('')">Save</button>
+             
 
         </form>
 
