@@ -29,6 +29,9 @@ const onRender = () => {
 		minLines: 10,
 		fontSize: 18,
 	});
+	var quill = new Quill('#rich-text-editor', {
+		theme: 'snow',
+	});
 };
 window.onpopstate = () => {
 	render(routes[window.location.hash], rootDiv);

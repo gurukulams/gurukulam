@@ -25,7 +25,7 @@ export let question = html`
 			<div class="row h-100 form-group">
 				<div class="col-6 col-md-6 col-lg-6 mt-4 border-right">
 					<label for="question">Question:</label>
-					<textarea class="form-control" rows="17" id="question"></textarea>
+					<div id="rich-text-editor"></div>
 				</div>
 				<div class="col-6 col-md-6 col-lg-6 mt-4">
 					<label for="answer">Answer:</label>
