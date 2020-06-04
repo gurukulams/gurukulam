@@ -5,19 +5,23 @@ export let question = html`
 		<nav class="navbar navbar-expand navbar-dark bg-dark">
 			<div class="col-11 col-md-11 col-lg-11 text-left">
 				<a class="navbar-brand" href="#">
-					<i class="fas fa-home"></i>
-				</a>
-				<a class="navbar-brand" href="#">
-					<i class="fas fa-bars"></i>
-				</a>
-				<a class="navbar-brand" href="#">
-					<i class="far fa-save"></i>
+					<img
+						src="https://techatpark.com/images/icons/logo_full.svg"
+						width="30"
+						height="30"
+						class="d-inline-block align-top"
+						alt=""
+						loading="lazy"
+					/>
+					Product DB - QNumber - Indicaorr - CLue - View - KIDS Mode
 				</a>
 			</div>
-			<div class="col-1 col-md-1 col-lg-1">
-				<a class="navbar-brand" href="#">
-					<button type="button" class="btn btn-success">Run</button>
-				</a>
+			<div class="col-3 col-md-3 col-lg-3">
+				<button type="button" class="btn btn-success">Previous</button>
+
+				<button type="button" class="btn btn-success">Run</button>
+
+				<button type="button" class="btn btn-success">Next</button>
 			</div>
 		</nav>
 
