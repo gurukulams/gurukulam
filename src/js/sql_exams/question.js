@@ -14,7 +14,7 @@ export let question = html`
 						<ul class="navbar-nav mr-auto"></ul>
 						<ul class="navbar-nav">
 							
-						    <a class="nav-link" href="#"><i class="fa fa-thumb-tack"></i></a>
+						    <a class="nav-link" href="#"><i class="fas fa-thumbtack"></i></a>
 							<a class="nav-link" href="#"><i class="fas fa-play-circle"></i></a>
 							<a class="nav-link" href="#"><i class="fas fa-arrow-circle-right"></i></a>
 							
@@ -26,8 +26,10 @@ export let question = html`
 			<div class="row form-group">
 				<div class="col-6 col-md-6 col-lg-6 mt-4 border-right">
 					<label for="question">Question:</label>
-					<div id="rich-text-editor">Query the names of all American cities in CITY with populations larger than 120000.<br> The CountryCode for America is USA.<br>
-					    Input Format<br>The CITY table is described as follows: 
+					<div id="rich-text-editor"><p>Query the names of all American cities in CITY with populations larger than 120000.</p><br> 
+						<p>The CountryCode for America is USA.</p><br>
+					    <p>Input Format.</p><br>
+						<p>The CITY table is described as follows: </p>
 					</div>
 				</div>
 				<div class="col-6 col-md-6 col-lg-6 mt-4">
