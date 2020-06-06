@@ -4,7 +4,7 @@ export let question = html`
 	<body class="text-center">
 		<nav class="navbar navbar-expand-md navbar-light bg-light">
 				<a class="navbar-brand" href="#">
-					<i class="fas fa-database"></i>
+				<a class="nav-link" href="#"><i class="fas fa-arrow-circle-left"></i></a>
 					Product DB
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -14,9 +14,8 @@ export let question = html`
 						<ul class="navbar-nav mr-auto"></ul>
 						<ul class="navbar-nav">
 							
-							<a class="nav-link" href="#"><i class="fas fa-tags"></i></a>
+						    <a class="nav-link" href="#"><i class="fa fa-thumb-tack"></i></a>
 							<a class="nav-link" href="#"><i class="fas fa-play-circle"></i></a>
-							<a class="nav-link" href="#"><i class="fas fa-arrow-circle-left"></i></a>
 							<a class="nav-link" href="#"><i class="fas fa-arrow-circle-right"></i></a>
 							
 						</ul>
@@ -27,11 +26,13 @@ export let question = html`
 			<div class="row form-group">
 				<div class="col-6 col-md-6 col-lg-6 mt-4 border-right">
 					<label for="question">Question:</label>
-					<div id="rich-text-editor"></div>
+					<div id="rich-text-editor">Query the names of all American cities in CITY with populations larger than 120000.<br> The CountryCode for America is USA.<br>
+					    Input Format<br>The CITY table is described as follows: 
+					</div>
 				</div>
 				<div class="col-6 col-md-6 col-lg-6 mt-4">
 					<label for="answer">Answer:</label>
-					<div id="editor"></div>
+					<div id="editor">SELECT * FROM employee</div>
 		 		</div>
 			</div>
 		</div>
