@@ -6,7 +6,8 @@ export let question = html`
 			<a class="navbar-brand" href="#">
 				<a class="nav-link" href="#"><i class="fas fa-arrow-circle-left"></i></a>
 				Product DB -
-				<p class="lead">Posgress</p>
+				<p class="lead">MySQL</p>
+				<small>Guided Exam like Google Email bottom arraw</small>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 				<span class="navbar-toggler-icon"></span>
@@ -17,6 +18,8 @@ export let question = html`
 					<a class="nav-link" href="#"><i class="fas fa-thumbtack"></i></a>
 					<a class="nav-link" href="#"><i class="fas fa-play-circle"></i></a>
 					<a class="nav-link" href="#"><i class="fas fa-arrow-circle-right"></i></a>
+
+					<a class="nav-link" class="disabled" href="#">Save</a>
 				</ul>
 			</div>
 		</nav>
