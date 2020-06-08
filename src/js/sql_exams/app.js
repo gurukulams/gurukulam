@@ -31,6 +31,7 @@ const onRender = () => {
 	});
 	var quill = new Quill('#rich-text-editor', {
 		theme: 'snow',
+		placeholder: 'Type your question',
 	});
 };
 window.onpopstate = () => {
