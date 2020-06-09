@@ -55,7 +55,7 @@
     "build:js": "run-s lint rollup",
     "build:html": "html-minifier --input-dir ./src --output-dir ./dist --collapse-whitespace --file-ext html",
     "build": "run-s clean copy build:*",
-    "watch:js": "onchange \"src/js\" -- run-s build:js",
+    "watch:js": "rollup -c -w",
     "watch:html": "onchange \"src/**/*.html\" -- run-s build:html",
     "start": "npm run build && run-p serve watch:*",
     "postinstall": "run-s build"

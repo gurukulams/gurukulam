@@ -104,3 +104,5 @@ const loadjscssfile = (filename, filetype) => {
 window['login'] = login;
 
 loadApp();
+
+console.log('444');
