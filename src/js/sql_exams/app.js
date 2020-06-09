@@ -10,13 +10,13 @@ import 'ace-builds/src-noconflict/theme-dracula';
 const rootDiv = document.getElementById('root');
 
 const routes = {
-	'': list,
-	'#/exam': exam,
-	'#/exam/question': question,
+	'#/sql_exams': list,
+	'#/sql_exams/exam': exam,
+	'#/sql_exams/exam/question': question,
 };
 
 const onNavigate = (hash) => {
-	window.history.pushState({}, hash, window.location.origin + '/sql_exams/' + hash);
+	//window.history.pushState({}, hash, window.location.origin + '#/sql_exams/' + hash);
 	render(routes[hash], rootDiv);
 	onRender();
 };
@@ -44,4 +44,4 @@ window['onNavigate'] = onNavigate;
 // Default Page Load
 console.log(window.location.hash);
 
-onNavigate(window.location.hash);
+onNavigate('#/sql_exams');
