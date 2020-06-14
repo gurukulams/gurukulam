@@ -2,8 +2,10 @@ import { html } from 'lit-html';
 
 export let question = html`
 	<nav class="navbar navbar-expand-md navbar-light bg-light">
-		<a class="navbar-brand" href="#">
-			<a class="nav-link" href="#"><i class="fas fa-arrow-circle-left"></i></a>
+		<a class="navbar-brand">
+			<a class="nav-link" onclick="onNavigate('#/sql_exams')" href="javascript://"
+				><i class="fas fa-arrow-circle-left"></i
+			></a>
 			Product DB -
 			<p class="lead">MySQL</p>
 			<small>Guided Exam like Google Email bottom arraw</small>

@@ -16,7 +16,7 @@ const routes = {
 };
 
 const onNavigate = (hash) => {
-	//window.history.pushState({}, hash, window.location.origin + '#/sql_exams/' + hash);
+	window.history.pushState({}, hash, window.location.origin + hash);
 	render(routes[hash], rootDiv);
 	onRender();
 };

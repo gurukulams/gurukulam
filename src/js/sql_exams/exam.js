@@ -28,7 +28,7 @@ export let exam = html`
 			</div>
 
 			<button class="btn btn-secondary">Cancel</button>
-			<button class="btn btn-primary" onclick="onNavigate('')">Save</button>
+			<button class="btn btn-primary" onclick="onNavigate('#/sql_exams')">Save</button>
 		</form>
 	</main>
 `;
