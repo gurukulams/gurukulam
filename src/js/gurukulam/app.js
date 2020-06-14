@@ -67,7 +67,7 @@ const layout = html`<nav class="navbar navbar-expand navbar-dark bg-dark">
 			</ul>
 		</div>
 	</nav>
-	<div class="container-fluid mt-3" id="root"></div>`;
+	<div class="container-fluid mt-3 vh-100" id="root"></div>`;
 
 const login = () => {
 	render(layout, document.body);
