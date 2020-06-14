@@ -74,13 +74,14 @@ const login = () => {
 	if (!window.location.hash) {
 		window.location.hash = '#/sql_exams';
 		loadApp();
+	} else {
+		loadApp();
 	}
 };
 
 const loadApp = () => {
 	if (window.location.hash) {
 		var module = window.location.hash.replace('#/', '').split('/')[0];
-
 		loadjscssfile('/js/' + module + '.min.js', 'js');
 	}
 };
@@ -98,11 +99,9 @@ const loadjscssfile = (filename, filetype) => {
 		fileref.setAttribute('type', 'text/css');
 		fileref.setAttribute('href', filename);
 	}
-	if (typeof fileref != 'undefined') document.getElementsByTagName('head')[0].appendChild(fileref);
+	if (typeof fileref != 'undefined') document.getElementsByTagName('body')[0].appendChild(fileref);
 };
 
 window['login'] = login;
 
-loadApp();
-
-console.log('444');
+login();
