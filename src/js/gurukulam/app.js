@@ -30,7 +30,7 @@ const layout = html`<nav class="navbar navbar-expand navbar-dark bg-dark">
 					<a class="nav-link" href="#">SQL <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">C</a>
+					<a class="nav-link" href="javascript://" onclick="loadApp('/presentations')">C</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">PHP</a>
@@ -67,7 +67,7 @@ const layout = html`<nav class="navbar navbar-expand navbar-dark bg-dark">
 			</ul>
 		</div>
 	</nav>
-	<div class="container-fluid mt-3 vh-100" id="root"></div>`;
+	<div class="container-fluid mt-3 vh-100 pb-5" id="root"></div>`;
 
 const login = () => {};
 
