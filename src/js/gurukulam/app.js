@@ -30,10 +30,7 @@ const layout = html`<nav class="navbar navbar-expand navbar-dark bg-dark">
 					<a class="nav-link" href="#">SQL <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript://" onclick="loadApp('/presentations')">C</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">PHP</a>
+					<a class="nav-link" href="javascript://" onclick="loadApp('/presentations/c')">C</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Javascript</a>
