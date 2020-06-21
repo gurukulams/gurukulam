@@ -1,7 +1,7 @@
 import { html, render } from 'lit-html';
 
 const layout = html`<nav class="navbar navbar-expand navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="/">
 			<img
 				src="https://techatpark.com/images/icons/logo_full.svg"
 				width="30"
@@ -69,18 +69,12 @@ const layout = html`<nav class="navbar navbar-expand navbar-dark bg-dark">
 	</nav>
 	<div class="container-fluid mt-3 vh-100" id="root"></div>`;
 
-const login = () => {
-	render(layout, document.body);
-	if (!window.location.hash) {
-		window.location.hash = '#/sql_exams';
-		loadApp();
-	} else {
-		loadApp();
-	}
-};
+const login = () => {};
 
-const loadApp = () => {
-	if (window.location.hash) {
+const loadApp = (path) => {
+	if (path) {
+		window.location.hash = path;
+		render(layout, document.body);
 		var module = window.location.hash.replace('#/', '').split('/')[0];
 		loadjscssfile('/js/' + module + '.min.js', 'js');
 	}
@@ -103,5 +97,4 @@ const loadjscssfile = (filename, filetype) => {
 };
 
 window['login'] = login;
-
-login();
+window['loadApp'] = loadApp;
