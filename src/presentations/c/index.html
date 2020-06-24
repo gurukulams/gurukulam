@@ -1,76 +1,85 @@
-<html>
-	<style>
-		body {
-		   font-family: "Cabin Sketch";
-		   color: rgb(3, 16, 136);
-		}
-		.left,.right {
-		   height: 100%;
-		   width: 50%;
-		   position: fixed;
-		   z-index: 1;
-		   top: 0;
-		   overflow-x: hidden;
-		   padding-top: 20px;
-		}
-		.left {
-		   padding-left: 73px;
-		   padding-right: 30px;
-		   left: 0;
-		   background-color: rgb(255, 255, 255);
-		}
-		.right {
-		   right: 0;
-		   background-color: rgb(255, 255, 255);
-		}
-		.centered {
-		   position: absolute;
-		   top: 50%;
-		   left: 50%;
-		   transform: translate(-50%, -50%);
-		   text-align: center;
-		}
-		.centered img {
-		   width: 150px;
-		   border-radius: 50%;
-		}
-		.centered text {
-		   width: 150px;
-		   border-radius: 50%;
-		}
-	 </style>
-	<body>
+<div class="container">
+
+	<div class="row">
+	  <div class="col">
+		<ol>
+			<li>
+				<a href="javascript://" onclick="loadApp('/presentations/c/introduction')">Introduction</a>
+				<i class="fas fa-arrow-circle-down" data-toggle="collapse" data-target="#demo"></i>
+				<div id="demo" class="collapse">
+					<ul>
+						<li>dhgsjdhf</li>
+						<li>dfnhjdfh</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="javascript://" onclick="loadApp('/presentations/c/instructions')">C Instructions</a>
+				<i class="fas fa-arrow-circle-down" data-toggle="collapse" data-target="#demo1"></i>
+				<div id="demo1" class="collapse">
+					<ul>
+						<li><a href="javascript://" onclick="loadApp('/presentations/c/instructions')">C Instructions</a></li>
+						<li>dfnhjdfh</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="javascript://" onclick="loadApp('/presentations/c/decisioncontrol')">Decision Control Instruction</a>
+				<i class="fas fa-arrow-circle-down" data-toggle="collapse" data-target="#demo2"></i>
+				<div id="demo2" class="collapse">
+					<ul>
+						<li>dhgsjdhf</li>
+						<li>dfnhjdfh</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="javascript://" onclick="loadApp('/presentations/c/complexdecision')">More Complex Decision Making</a>
+				<i class="fas fa-arrow-circle-down" data-toggle="collapse" data-target="#demo3"></i>
+				<div id="demo3" class="collapse">
+					<ul>
+						<li>dhgsjdhf</li>
+						<li>dfnhjdfh</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="javascript://" onclick="loadApp('/presentations/c/loopcontrol')">Loop Control Instruction</a>
+				<i class="fas fa-arrow-circle-down" data-toggle="collapse" data-target="#demo4"></i>
+				<div id="demo4" class="collapse">
+					<ul>
+						<li>dhgsjdhf</li>
+						<li>dfnhjdfh</li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="javascript://" onclick="loadApp('/presentations/c/complexrepitition')">More Complex Repetitions</a></li>
+			<li><a href="javascript://" onclick="loadApp('/presentations/c/casecontrol')">Case Control Instruction</a></li>
+			<li><a href="javascript://" onclick="loadApp('/presentations/c/function')">Functions</a></li>
+			<li><a href="javascript://" onclick="loadApp('/presentations/c/pointer')">Pointers</a></li>
+			<li><a href="javascript://" onclick="loadApp('/presentations/c/recursion')">Recursion</a></li>
+			<li><a href="javascript://" onclick="loadApp('/presentations/c/moredatatypes')">Data Types Revisited</a></li>
+		</ol>
+	  </div>
+	  <div class="col">
+	 	<ol>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/cpreprocessor')">The C Preprocessor</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/array')">Arrays</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/multidimensionalarray')">Multi-dimensional Arrays</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/strings')">Strings</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/multistrings')">Handling MUltiple Strings</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/structures')">Structures</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/consoleio')">Console Input/Output</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/fileio')">File Input/Output</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/issuesinio')">More Issues in Input/Output</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/operationsonbits')">Operations On Bits</a></li>
+				<li><a href="javascript://" onclick="loadApp('/presentations/c/miscellaneous')">Miscellaneous Features</a></li>
+	  	</ol>
+	  </div>
+	  <div class="col">
+			<img src="https://images-na.ssl-images-amazon.com/images/I/51H52tr3KHL._SX346_BO1,204,203,200_.jpg">
+	  </div>
+	</div>
+  </div>
 	
-		<div class="left">
-	    <ul>
-	    <li><a href="javascript://" onclick="loadApp('/presentations/c/introduction')">Introduction</a></li>
-		<li><a href="">C Instructions</a></li>
-		<li><a href="">Decision Control Instruction</a></li>
-		<li><a href="">More Complex Decision Making</a></li>
-		<li><a href="">Loop Control Instruction</a></li>
-		<li><a href="">More Complex Repetitions</a></li>
-		<li><a href="">Case Control Instruction</a></li>
-		<li><a href="">Functions</a></li>
-		<li><a href="">Pointers</a></li>
-		<li><a href="">Recursion</a></li>
-		<li><a href="">Data Types Revisited</a></li>
-		<li><a href="">The C Preprocessor</a></li>
-		<li><a href="">Arrays</a></li>
-		<li><a href="">Multi-dimensional Arrays</a></li>
-		<li><a href="">Strings</a></li>
-		<li><a href="">Handling MUltiple Strings</a></li>
-		<li><a href="">Structures</a></li>
-		<li><a href="">Console Input/Output</a></li>
-		<li><a href="">File Input/Output</a></li>
-		<li><a href="">More Issues in Input/Output</a></li>
-		<li><a href="">Operations On Bits</a></li>
-		<li><a href="">Miscellaneous Features</a></li>
-	  </ul>
-</div>
-
-<div class="right">
-	<img src="https://images-na.ssl-images-amazon.com/images/I/51H52tr3KHL._SX346_BO1,204,203,200_.jpg">
-
-</div>
-</body>
-</html>
+	
