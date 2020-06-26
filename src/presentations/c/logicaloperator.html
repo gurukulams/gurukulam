@@ -1,0 +1,201 @@
+<div class="reveal">
+    <div class="slides">
+        <!-- slide 1 content -->
+
+        <section data-auto-animate>
+            <h2>
+                <p>
+                    Use of Logical Operators >>>
+                </p>
+            </h2>
+        </section>
+
+        <!-- slide 2 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h4>
+                <ul>
+                    <li>C allows the usage of three Logical Operators.</li> <br>
+
+                    <li>They are:-</li>
+                    <ul>
+                        <li>&& (AND)</li>
+                        <li>|| (OR)</li>
+                        <li> ! (NOT)</li>
+                    </ul>
+                    <br>
+                    <li><a href="#">Example Program >>></a></li>
+                </ul>
+            </h4>
+        </section>
+
+        <!-- slide 3 content -->
+        <section data-auto-animate data-transition="fade">
+            <h4><b>What is Logical Operator ?</b></h4>
+            <h7>
+                <ul>
+                    <li>It perform logical operations on the given expressions</li> <br>
+                    <li>It allow a program to make a decision based on multiple conditions</li> <br>
+                    <li>Each operand is considered a condition that can be evaluated to a true or false value.</li> <br>
+                </ul>
+            </h7>
+        </section>
+
+        <!-- slide 4 content -->
+        <section data-auto-animate data-transition="vertical up">
+
+            <p>
+            <h3><b>The Three Logical Operators are:-</b></h3>
+            <p>
+            <h5>
+                <ul>
+                    <li><b>AND-&& :-</b></li>
+                    <p>
+                        The ‘&&’ operator returns true when both the conditions are satisfied. Otherwise, it returns
+                        false.
+                    </p>
+                </ul>
+                <table>
+                    <tr>
+                        <td>
+                            <img
+                                src="https://images.all-free-download.com/images/graphicthumb/fresh_red_apple_stock_photo_167147.jpg">
+                        </td>
+                        <td><img
+                                src="https://www.3d-hdwallpaper.com/wp-content/uploads/2019/07/mango-fruit-slice-wallpaper-1024x678.jpeg">
+                        </td>
+                    </tr>
+                </table>
+                </ul>
+            </h5>
+            </p>
+        </section>
+
+        <!-- slide 4 content -->
+        <section data-auto-animate data-transition="convex">
+            <h5>
+                <ul>
+                    <li><b>OR-|| :-</b></li>
+                    <p>
+                        The ‘||’ operator returns true even if one (or both) of the conditions is satisfied. Otherwise
+                        it returns false.
+                    </p>
+                    <li><b>NOT-!:-</b></li>
+                    <p>
+                        The ‘!’ operator returns true the condition is not satisfied. Otherwise it returns false.
+                    </p>
+                </ul>
+            </h5>
+            <img src="https://www.petmd.com/sites/default/files/barking-golden-retriever-picture-id640123748.jpg">
+
+        </section>
+
+        <!-- slide 5 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3><u><b>Program to Prepare the Markstatement of the Student</b></u></h3>
+
+            <pre>
+                <code data-trim data-noescape>
+                    #include<stdio.h>
+                        int main()
+                        {
+                            int m1,m2,m3,m4,m5,per;
+                        
+                            printf("Enter marks in five subjects");
+                            scanf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
+                            per=(m1+m2+m3+m4+m5)*100/500;
+                        
+                            if(per>=60)
+                                printf("First division\n");
+                            else
+                            {
+                                if(per>=50)
+                                    printf("Second division\n");
+                                else
+                                {
+                                if(per>=40)
+                                    printf("Third division\n");
+                                else
+                                    printf("Fail\n");
+                                }
+                            }
+                            return 0;
+                            }
+                        
+                </code>
+            </pre>
+        </section>
+
+        <!-- slide 7 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3>
+                <p><b>In the Above Program, there are 3 Disadvantages:-</b></p>
+            </h3>
+            <ol>
+                <li>Number of Conditions increased, then the program gets larger</li>
+                <li>Difficult to match Coressponding if and else</li>
+                <li>And also Difficult to match Coressponding Braces ({}) </li>
+            </ol>
+            <p>To Overcome these Difficulties, we simplify the Program using Logical Operator.</p>
+        </section>
+
+        <!-- slide 9 content -->
+
+        <section data-auto-animate>
+            <h3>
+                <p>
+                    Let's see the Program using Logical Operator which rectifies those Disadvantages >>>
+                </p>
+            </h3>
+        </section>
+
+        <!-- slide 10 content -->
+
+        <section data-auto-animate>
+            <h2>
+                <p>
+                    The else if-clause >>>
+                </p>
+            </h2>
+        </section>
+
+        <!-- slide 11 content -->
+
+        <section data-auto-animate data-transition="convex">
+            <h3><u>Else-If Clause</u></h3>
+            <pre>
+                <code data-trim data-noescape>
+                    if(per>=60)
+		                printf("First division\n");
+	                elseif(per>=50)
+		                printf("Second division\n");
+	                elseif(per>=40)
+		                printf("Third division\n");
+	                else
+                        printf("Fail\n");
+                </code>
+            </pre>
+        </section>
+
+        <!-- slide 12 content -->
+        <section data-auto-animate data-transition="convex">
+            <h4><b><u>The ! Operator</u></b></h4>
+            <h7>
+                <ul>
+                    <li>Not Operator is the Third Operator.</li>
+                    <li>This Operator Reverse the Result of the expression.</li>
+                    <li>If the expression evaluates to true, the Not Operator(!) returns false.</li>
+                    <li>So, this Operator returns the value as vice-versa.</li>
+                </ul>
+                <p class="fragment fade-up"><img src="http://cs.loc.edu/~chu/JAVA1/Ch5/logica4.jpg"></p>
+            </h7>
+        </section>
+
+        <section>
+            <h2>
+                <p><I><b>Thank you...</b></I></p>
+            </h2>
+            <img
+                src="https://images.all-free-download.com/images/graphicthumb/thank_you_inscription_02_hd_pictures_170886.jpg">
+        </section>
+    </div>
+</div>
