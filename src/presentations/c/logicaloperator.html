@@ -2,7 +2,7 @@
     <div class="slides">
         <!-- slide 1 content -->
 
-        <section data-auto-animate>
+        <section data-auto-animate data-transition="convex">
             <h2>
                 <p>
                     Use of Logical Operators >>>
@@ -11,25 +11,22 @@
         </section>
 
         <!-- slide 2 content -->
-        <section data-auto-animate data-transition="zoom">
-            <h4>
-                <ul>
-                    <li>C allows the usage of three Logical Operators.</li> <br>
+        <section data-auto-animate data-transition="convex">
+            <h4> Logical Operator in C</h4>
+            <ul>
+                <li>C allows the usage of three Logical Operators.</li> <br>
 
-                    <li>They are:-</li>
-                    <ul>
-                        <li>&& (AND)</li>
-                        <li>|| (OR)</li>
-                        <li> ! (NOT)</li>
-                    </ul>
-                    <br>
-                    <li><a href="#">Example Program >>></a></li>
+                <li>They are:-</li>
+                <ul>
+                    <li>&& (AND)</li>
+                    <li>|| (OR)</li>
+                    <li> ! (NOT)</li>
                 </ul>
-            </h4>
+            </ul>
         </section>
 
         <!-- slide 3 content -->
-        <section data-auto-animate data-transition="fade">
+        <section data-auto-animate data-transition="convex">
             <h4><b>What is Logical Operator ?</b></h4>
             <h7>
                 <ul>
@@ -41,7 +38,7 @@
         </section>
 
         <!-- slide 4 content -->
-        <section data-auto-animate data-transition="vertical up">
+        <section data-auto-animate data-transition="convex">
 
             <p>
             <h3><b>The Three Logical Operators are:-</b></h3>
@@ -70,7 +67,7 @@
             </p>
         </section>
 
-        <!-- slide 4 content -->
+        <!-- slide 5 content -->
         <section data-auto-animate data-transition="convex">
             <h5>
                 <ul>
@@ -89,7 +86,7 @@
 
         </section>
 
-        <!-- slide 5 content -->
+        <!-- slide 6 content -->
         <section data-auto-animate data-transition="convex">
             <h3><u><b>Program to Prepare the Markstatement of the Student</b></u></h3>
 
@@ -98,21 +95,21 @@
                     #include<stdio.h>
                         int main()
                         {
-                            int m1,m2,m3,m4,m5,per;
+                            int mark1,mark2,mark3,mark4,mark5,percentage;
                         
                             printf("Enter marks in five subjects");
-                            scanf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
-                            per=(m1+m2+m3+m4+m5)*100/500;
+                            scanf("%d%d%d%d%d",&mark1,&mark2,&mark3,&mark4,&mark5);
+                            percentage=(mark1+mark2+mark3+mark4+mark5)*100/500;
                         
-                            if(per>=60)
+                            if(percentage>=60)
                                 printf("First division\n");
                             else
                             {
-                                if(per>=50)
+                                if(percentage>=50)
                                     printf("Second division\n");
                                 else
                                 {
-                                if(per>=40)
+                                if(percentage>=40)
                                     printf("Third division\n");
                                 else
                                     printf("Fail\n");
@@ -138,9 +135,9 @@
             <p>To Overcome these Difficulties, we simplify the Program using Logical Operator.</p>
         </section>
 
-        <!-- slide 9 content -->
+        <!-- slide 8 content -->
 
-        <section data-auto-animate>
+        <section data-auto-animate data-transition="convex">
             <h3>
                 <p>
                     Let's see the Program using Logical Operator which rectifies those Disadvantages >>>
@@ -148,9 +145,25 @@
             </h3>
         </section>
 
+        <!-- slide 9 content -->
+
+        <section data-auto-animate data-transition="convex">
+            <h4><b><u>Disadvantages of Previous Program</u></b></h4>
+
+            <ul>
+                <li>
+                    In the previous program also we have some disadvantages.</li>
+                <li>Even though, the first condition gets true and gives the output too.</li>
+                <li>The balance conditions (statements) are still checked and executed.</li>
+                <li>It increases the Time of Execution of the Program</li>
+                <li>These issues are avoided using the <a href="#javascript://">Else-if Clause</a></li>
+            </ul>
+
+        </section>
+
         <!-- slide 10 content -->
 
-        <section data-auto-animate>
+        <section data-auto-animate data-transition="convex">
             <h2>
                 <p>
                     The else if-clause >>>
@@ -164,11 +177,11 @@
             <h3><u>Else-If Clause</u></h3>
             <pre>
                 <code data-trim data-noescape>
-                    if(per>=60)
+                    if(percentage>=60)
 		                printf("First division\n");
-	                elseif(per>=50)
+	                elseif(percentage>=50)
 		                printf("Second division\n");
-	                elseif(per>=40)
+	                elseif(percentage>=40)
 		                printf("Third division\n");
 	                else
                         printf("Fail\n");
@@ -190,12 +203,234 @@
             </h7>
         </section>
 
-        <section>
+        <!-- slide 13 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3><u><b>Example:- Simple Program Using NOT(!)Operator</b></u></h3>
+
+            <pre>
+                <code data-trim data-noescape>
+                    #include <stdio.h>
+                        int main()
+                        {
+                            int r = 37, s = 73;
+                        
+                            if (!(r > s))
+                            {
+                                printf("1 \n");
+                            }
+                            else
+                            {
+                                printf("2 \n");
+                            }
+                            return 0;
+                        }
+                        
+                </code>
+            </pre>
+        </section>
+
+        <!-- slide 14 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3><u><b>Example Program Using all Three Logical Operators</b></u></h3>
+
+            <pre>
+                <code data-trim data-noescape>
+                    #include <stdio.h>
+
+                        int main()
+                        {
+                            int m = 40, n = 20;
+                            if (m > n && m != 0)
+                            {
+                                printf("And Operator Performs\n");
+                            }
+                            if (n > m || m != 20)
+                            {
+                                printf("OR Operator Performs\n");
+                            }
+                            if (!(m > n && m != 0))
+                            {
+                                printf("NOT Operator Performs\n");
+                            }
+                            else
+                            {
+                                printf("NOT Operator Returns False\n");
+                            }
+                        }
+                        
+                </code>
+            </pre>
+        </section>
+
+        <!-- slide 15 content -->
+
+        <section data-auto-animate data-transition="convex">
             <h2>
-                <p><I><b>Thank you...</b></I></p>
+                <p>
+                    Hierarchy of Operators Revisited >>>
+                </p>
             </h2>
-            <img
-                src="https://images.all-free-download.com/images/graphicthumb/thank_you_inscription_02_hd_pictures_170886.jpg">
+        </section>
+
+        <!-- slide 16 content -->
+        <section data-auto-animate>
+
+            <section data-transition="verticalup">
+                <img
+                    src="https://cdn4.vectorstock.com/i/1000x1000/11/53/cute-smile-happy-elderly-couple-old-man-love-woman-vector-17871153.jpg">
+            </section>
+            <section>
+                <img src="https://c0.wallpaperflare.com/preview/641/282/456/silhouette-adoption-parents-boy.jpg">
+            </section>
+            <section>
+                <img
+                    src="https://cdn2.vectorstock.com/i/1000x1000/67/06/cartoon-boy-and-girl-studying-with-laptop-vector-1536706.jpg">
+            </section>
+        </section>
+
+        <!-- slide 17 content -->
+
+        <section data-auto-animate data-transition="convex">
+            <table>
+                <tr>
+                    <th>
+                        Operators
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        !
+                    </td>
+                    <td>
+                        Logical NOT
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        *, /, %
+                    </td>
+                    <td>
+                        Arithmetic and Modulus
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        +, -
+                    </td>
+                    <td>
+                        Arithmetic
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        >, >=
+                    </td>
+                    <td>
+                        Relational
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ==, !=
+                    </td>
+                    <td>
+                        Relational
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &&
+                    </td>
+                    <td>
+                        Logical AND
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ||
+                    </td>
+                    <td>
+                        Logical OR
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        =
+                    </td>
+                    <td>
+                        Assignment
+                    </td>
+                </tr>
+
+            </table>
+        </section>
+
+        <!-- slide 18 content -->
+
+        <section data-auto-animate data-transition="convex">
+            <h2>
+                <p>
+                    The Conditional Operators >>>
+                </p>
+            </h2>
+        </section>
+
+        <!-- slide 19 content -->
+        <section data-auto-animate data-transition="convex">
+            <h4><b>What is Conditional Operator ?</b></h4>
+            <h7>
+                <ul>
+                    <li>The Conditional Operators are ? and :</li>
+                    <li>The Conditional Operator, also called a Ternary operator</li>
+                    <li>It is used in the decision-making process.</li>
+                    <li>It return first value if condition is true,
+                        Otherwise, it returns another value, if condition is false.</li>
+                </ul>
+            </h7>
+        </section>
+
+        <!-- slide 20 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3><u>
+                    The Conditional Operators Syntax:-
+                </u>
+            </h3>
+            <br />
+            <br />
+            <span
+                class="badge badge-secondary">Expression(condition)?Expression(statement)-1:Expression(statement)-2</span>
+            <br />
+            <br />
+            <img src="http://www.trytoprogram.com/images/conditional-operator.jpg">
+        </section>
+
+        <!-- slide 21 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3><u><b>Program Using Conditional Operators</b></u></h3>
+
+            <pre>
+                <code data-trim data-noescape>
+                    #include <stdio.h>
+
+                        int main()
+                        {
+                            int a, b;
+                        
+                            printf("Enter a & b: \n ");
+                            scanf("%d%d", &a, &b);
+                            (a > b)?printf("The Value of 'a' is Greater than 'b'\n") : printf("The Value of 'a' is Lesser than 'b'\n");                        
+                            return 0;
+                        }
+                </code>
+            </pre>
+        </section>
+
+        <!-- slide 22 content -->
+        <section data-auto-animate data-transition="convex">
+            <img src="http://wallpaperping.com/wp-content/uploads/2019/08/Dollarphotoclub_77959340-1024x577.jpg">
         </section>
     </div>
 </div>
