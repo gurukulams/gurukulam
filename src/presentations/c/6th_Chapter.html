@@ -401,11 +401,125 @@
          </pre>
         </section>
 
+        <!-- slide 22 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3>
+                The do-while Loop >>>
+            </h3>
+        </section>
 
+        <!-- slide 23 content -->
+        <section data-auto-animate data-transition="convex">
+            <p><u>Definition:-</u></p>
+            <ul>
+                <li>A do-while loop is similar to while loop, but in this it executes the statements
+                    inside the body of do-while before checking the condition.</li>
+                <li>On the other hand in while loop, it first checks the condition and then the statements in
+                    while loop gets executed. </li>
+                <li>So, it is called as exit controlled loop.</li>
+                <li>The special feature of a do-while loop is that it executes the body of the loop at least once
+                    even if the condition is false.</li>
+            </ul>
+        </section>
 
+        <!-- slide 24 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3><b><u>Synatx of do-while Loop</u></b></h3>
+            <img src="http://www.btechsmartclass.com/c_programming/cp_images/do-while-syntax.png">
+        </section>
 
+        <!-- slide 25 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3><b><u>Flowchart for do-while Loop</u></b></h3>
+            <img src="https://www.completecsharptutorial.com/basics/images/dowhile.jpg">
+        </section>
 
-        <!-- slide 31 Content --->
+        <!-- slide 26 content -->
+        <section data-auto-animate data-transition="convex">
+            <h4>
+                <p><u> Example Program for do-while Loop</u></p>
+            </h4>
+            <pre>
+           <code>
+            #include&lt;stdio.h&gt;
+                int main()
+                {
+                    int j=0;
+                    do
+                    {
+                        printf("Value of variable j is: %d\n", j);
+                        j++;
+                    }while (j&lt;=3);
+                    return 0;
+                }
+           </code>
+           </pre>
+        </section>
+
+        <!-- slide 27 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3><b><u>Difference Between while & do-while Loop</u></b></h3>
+            <img
+                src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_645/https://masterprograming.com/wp-content/uploads/2019/09/While-and-Do-While-flowchart_structure_loop.png">
+        </section>
+
+        <!-- slide 28 content -->
+        <section data-auto-animate data-transition="convex">
+            <h3>
+                The Odd Loop >>>
+            </h3>
+        </section>
+
+        <!-- slide 29 content -->
+        <section data-auto-animate data-transition="convex">
+            <ul>
+                <li>The loops used so far executed the statements within them a finite number of times.</li>
+                <li>In real life programming, there are many times comes a situation when we don't know how many times
+                    the statements in the loop are to be executed.</li>
+                <li>There is comes concept of odd loop.</li>
+                <li>Execution of loop an unknown number of times can be done by while for and do-while loops.</li>
+            </ul>
+        </section>
+
+        <!-- slide 30 content -->
+        <section data-auto-animate data-transition="convex">
+            <p><u>This situation can be programmed as shown below:-</u></p>
+            <pre>
+            <code>
+            # include&lt;stdio.h&gt;
+            int main()
+            {
+            char another;
+            int num;
+            do
+            {
+            printf(“Enter a number”);
+            scanf(“%d”, &num);
+            printf(“square of %d is %d\n”,num,num*num);
+            printf(“Want to enter another number y/n”);
+            fflush(stdin);
+            scanf(“%c”, & another);
+            }while(another==‘y’);
+            return 0;
+            }
+           </code>
+           </pre>
+        </section>
+
+        <!-- slide 31 content -->
+        <section data-auto-animate data-transition="convex">
+            <h4>
+                What is fflush..?, Why we use fflush...?
+            </h4>
+            <ul>
+                <li>The function fflush(stdin) is used to flush the output buffer of the stream.</li>
+                <li>It is designed to remove or ‘flush out’ any data remaining in the buffer.</li>
+                <li>Here we have used ‘stdin’, which means buffer related with standard input device, i.e., keyboard.
+                </li>
+            </ul>
+        </section>
+
+        <!-- slide 32 Content --->
         <section data-auto-animate data-transition="convex">
             <img src="https://www.finbucket.com/wp-content/uploads/2017/11/thank-you-hd-pics.jpg">
         </section>
