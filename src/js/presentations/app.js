@@ -37,6 +37,8 @@ const renderPresentation = (html) => {
 		plugins: [Markdown, Highlight],
 	});
 	deck.initialize();
+	//TODO. This is ti fix Navbar Misalignment. Check any other approach
+	document.body.classList.remove('reveal-viewport');
 };
 
 onNavigate();
