@@ -27,13 +27,13 @@ const layout = html`<nav class="navbar navbar-expand navbar-dark bg-dark">
 		<div class="collapse navbar-collapse" id="navbarsExample02">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="javascript://" onclick="loadApp('/presentations/c')">C</a>
+					<a class="nav-link active" href="javascript://" onclick="loadApp('/presentations/c')">C</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript://" onclick="loadApp('/presentations/java/corejava')">Java</a>
+					<a class="nav-link active" href="javascript://" onclick="loadApp('/presentations/java/corejava')">Java</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">SQL <span class="sr-only">(current)</span></a>
+					<a class="nav-link active" href="#">SQL <span class="sr-only">(current)</span></a>
 				</li>
 			</ul>
 			<form class="form-inline my-2 my-md-0">
@@ -95,3 +95,6 @@ const loadjscssfile = (filename, filetype) => {
 
 window['login'] = login;
 window['loadApp'] = loadApp;
+if (location.hash) {
+	loadApp(location.hash.substring(1));
+}
