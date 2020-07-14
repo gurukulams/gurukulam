@@ -1,1 +1,39 @@
-chapter 2
+<div class="reveal">
+	<div class="slides">
+		<!-- slide 1 content -->
+
+		<!-- slide 8 content -->
+		<section data-auto-animate data-transition="convex">
+			<h3>Programs</h3>
+			<h6>1. Program to find the sum of two given numbers</h6>
+			<pre><code data-trim data-line-numbers="3,8-10">
+				#include<stdio.h>
+					int main()
+					{
+						int mark1,mark2,mark3,mark4,mark5,percentage;
+					
+						printf("Enter marks in five subjects");
+						scanf("%d%d%d%d%d",&mark1,&mark2,&mark3,&mark4,&mark5);
+						percentage=(mark1+mark2+mark3+mark4+mark5)*100/500;
+					
+						if(percentage>=60)
+							printf("First division\n");
+						else
+						{
+							if(percentage>=50)
+								printf("Second division\n");
+							else
+							{
+							if(percentage>=40)
+								printf("Third division\n");
+							else
+								printf("Fail\n");
+							}
+						}
+						return 0;
+						}
+					
+				</code></pre>
+		</section>
+	</div>
+</div>
