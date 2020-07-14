@@ -53,7 +53,7 @@
     "lint-scss": "stylelint src/scss/*.scss --syntax scss  || eslint src/js",
     "serve": "browser-sync start --config browser-sync.js",
     "build:js": "run-s lint rollup",
-    "build:html": "html-minifier --input-dir ./src --output-dir ./dist --collapse-whitespace --file-ext html",
+    "build:html": "html-minifier --input-dir ./src --output-dir ./dist --collapse-whitespace --no-include-auto-generated-tags --file-ext html",
     "build": "run-s clean copy build:*",
     "watch:js": "rollup -c -w",
     "watch:html": "onchange \"src/**/*.html\" -- run-s build:html",
