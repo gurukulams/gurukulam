@@ -1,1 +1,389 @@
-chapter 8
+<div class="reveal">
+    <div class="slides">
+
+        <!-- slide 1 content -->
+        <section data-auto-animate data-transition="convex" data-background-color="black">
+            <img src="http://www.republicnorwood.com.au/images/logo-functions.png">
+        </section>
+
+        <!-- slide 2 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>What is Function...?</h3>
+        </section>
+
+        <!-- slide 3 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Function</u></p>
+            <ul>
+                <li>A function is a group of statements that together perform a task.</li>
+                <li>It divide a large program into the basic building blocks known as function.</li>
+                <li>The function contains the set of programming statements enclosed by {}.</li>
+                <li> A function can be called multiple times to provide reusability and modularity to the program.
+                </li>
+            </ul>
+
+        </section>
+
+        <!-- slide 4 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Why we use Function..?</h3>
+        </section>
+
+        <!-- slide 5 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Functions are used because of following reasons:-</u></p>
+            <ul>
+                <li>To improve the readability of code.</li>
+                <li>Improves the reusability of the code, same function can be used in any program rather than writing
+                    the same code from scratch.</li>
+                <li>Debugging of the code would be easier if you use functions, as errors are easy to be traced.</li>
+                <li> Reduces the size of the code, duplicate set of statements are replaced by function calls.</li>
+            </ul>
+        </section>
+
+        <!-- slide 6 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Advantages of Function</u></p>
+            <ul>
+                <li>
+                    By using functions, we can avoid rewriting same logic/code again and again in a program.
+                </li>
+                <li>We can call functions any number of times in a program and from any place in a program.</li>
+                <li>We can track a large program easily when it is divided into multiple functions.</li>
+                <li>Reusability is the main achievement of functions.</li>
+
+            </ul>
+        </section>
+
+        <!-- slide 7 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Types of Function</h3>
+        </section>
+
+        <!-- slide 8 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Types of Function</u></p>
+            <ul>
+                <li>There are Two Types of Function.</li>
+                <li>They are Listed Below:-</li>
+                <ul>
+                    <li>Library Function</li>
+                    <li>User-defined Function</li>
+                </ul>
+            </ul>
+            <img src="https://static.javatpoint.com/cpages/images/c-function.jpg">
+        </section>
+
+        <!-- slide 9 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p>The standard library functions are built-in functions, they are defined in header files.</p>
+            <ul>
+                <li>The printf() is a standard library function to send formatted output to the screen (display output
+                    on the screen). This function is defined in the stdio.h header file.
+                    Hence, to use the printf()function, we need to include the stdio.h header file using
+                    #include&lt;stdio.h&gt;.</li>
+                <li>The sqrt() function calculates the square root of a number.The function is defined in the math.h
+                    header file.</li>
+            </ul>
+        </section>
+
+        <!-- slide 10 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>User-Defined Function are:-</u></p>
+            <ul>
+                <li>You can also create functions as per your need.</li>
+                <li>Such functions created by the user are known as user-defined functions.</li>
+                <ul>
+                    <p>Advantages</p>
+                    <li>The program will be easier to understand, maintain and debug.</li>
+                    <li>Reusable codes that can be used in other programs.</li>
+                    <li>A large program can be divided into smaller modules.</li>
+                </ul>
+            </ul>
+        </section>
+
+        <!-- slide 11 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Function Aspects</h3>
+        </section>
+
+        <!-- slide 12 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Function Aspects</u></p>
+            <ul>
+                <li>There are Three Aspects in a Function. They are Listed Below:-</li>
+                <ul>
+                    <li>Function Declaration</li>
+                    <li>Function Call</li>
+                    <li>Function Definition</li>
+                </ul>
+            </ul>
+        </section>
+
+        <!-- slide 13 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li><u>Function Declaration</u></li>
+                <ul>
+                    <li>In a Program, the function must be declared Globally.</li>
+                    <li>To tell the compiler about the function name, function parameters, and return type.</li>
+                </ul>
+            </ul>
+        </section>
+
+        <!-- slide 14 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li><u>Function Call</u></li>
+                <ul>
+                    <li>Function can be called from anywhere in the program.</li>
+                    <li>The parameter list must not differ in function calling and function declaration.</li>
+                    <li>We must pass the same number of functions as it is declared in the function declaration.</li>
+                </ul>
+            </ul>
+        </section>
+
+        <!-- slide 15 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li><u>Function Definition</u></li>
+                <ul>
+                    <li>The Function Definition, contains the actual statements which are to be executed.</li>
+                    <li>It is the most important aspect to which the control comes when the function is called.</li>
+                    <li>Here, we must notice that only one value can be returned from the function.</li>
+                </ul>
+            </ul>
+        </section>
+
+        <!-- slide 16 content -->
+        <section data-auto-animate data-transition="zoom">
+            <img src="https://cdn.programiz.com/sites/tutorial2program/files/function-c-programming.jpg">
+        </section>
+
+        <!-- slide 17 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Sample Program to Describe about Function</u></p>
+            <pre>
+            <code data-trim data-noescape>
+            #include&lt;stdio.h&gt;  
+            int sum(); //Function Declaration 
+            int main()  
+            {  
+             printf("\nGoing to calculate the sum of two numbers:");  
+             sum(); //Function Call 
+            }  
+            
+            int sum() //Function Definition  
+            {  
+             int a,b;   
+             printf("\nEnter two numbers");  
+             scanf("%d %d",&a,&b);   
+             printf("The sum is %d",a+b);  
+            }  
+            </code>
+        </pre>
+        </section>
+
+        <!-- slide 18 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Passing Values Between Functions</h3>
+        </section>
+
+        <!-- slide 19 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li>In, this section we are going to study about how the values are passing between the called function
+                    and calling function.</li>
+                <li>The mechanism used to convey information to the function is the ‘argument'.</li>
+                <li>You have unknowingly used the arguments in the printf( ) and scanf( ) functions;</li>
+                <li>The format string and the list of variables used inside the parentheses in these functions are
+                    arguments.</li>
+                <li>The arguments are sometimes also called ‘parameters’.</li>
+            </ul>
+        </section>
+
+        <!-- slide 20 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li>In the following program, in main() we receive the values of a, b and c through the keyboard and
+                    then output the sum of a, b and c.</li>
+                <li>However, the calculation of sum is done in a different function called calsum().</li>
+                <li>If sum is to be calculated in calsum() and values of a, b and c are received in main(), then we
+                    must pass on these values to calsum(), and once calsum() calculates the sum we must return it from
+                    calsum() back to main().</li>
+            </ul>
+        </section>
+
+        <!-- slide 21 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p>Sample Program for Passing values between function</p>
+            <pre>
+     <code data-trim data-noescape>
+        #include&lt;stdio.h&gt;
+        int calsum(int, int, int);
+        int main()
+        {
+            int a, b, c, sum;
+            printf("\nEnter any three numbers \n");
+            scanf("%d %d %d", &a, &b, &c);
+            sum = calsum(a, b, c);
+            printf("\nSum = %d \n", sum);
+        }
+        int calsum(int x, int y, int z)
+        {
+        
+            int d;
+            d = x + y + z;
+            return (d);
+        }
+    </code>
+</pre>
+        </section>
+
+        <!-- slide 22 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Types of Function call</h3>
+        </section>
+
+        <!-- slide 23 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Types of Function Calling</u></p>
+            <ul>
+                <li>There are two ways that a function can be called from a program. They are,
+                    <ul>
+                        <li>Call by Value</li>
+                        <li>Call by Reference</li>
+
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- slide 24 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Call By Value</h3>
+        </section>
+
+        <!-- slide 25 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Call By Value</u></p>
+            <ul>
+                <li>In call by value method, the value of the variable is passed to the function as parameter.</li>
+                <li>The value of the actual parameter can not be modified by formal parameter.</li>
+                <li>Different Memory is allocated for both actual and formal parameters.</li>
+                <li>Because, value of actual parameter is copied to formal parameter.</li>
+
+            </ul>
+        </section>
+
+        <!-- slide 26 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li>There are two types of Function Parameters in call by value method.</li>
+                <li>They are:-</li>
+                <ul>
+                    <li>Actual parameter – This is the argument which is used in function call.</li>
+                    <li>Formal parameter – This is the argument which is used in function definition.</li>
+
+                </ul>
+        </section>
+
+        <!-- slide 27 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p>Program to explain Call-By-Value</p>
+            <pre>
+     <code data-trim data-noescape>
+    #include&lt;stdio.h&gt;
+    // function prototype, also called function declaration
+    void swap(int a, int b);          
+    int main()
+    {
+       int r = 37, s = 73;
+       // calling swap function by value
+       printf(" values before swap \n R = %d and S = %d", r, s); 
+       swap(r, s);                         
+    }
+             
+    void swap(int a, int b)
+    { 
+      int tmp;
+      tmp = a;
+      a = b;
+      b = tmp;
+      printf(" \n values after swap \n R = %d and S = %d", a, b);
+    }
+    </code>
+     </pre>
+        </section>
+
+        <!-- slide 28 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p>The Explanation of the above program is given below.,</p>
+            <ul>
+                <li>In this program, the values of the variables “R” and “S” are passed to the function “swap”.</li>
+                <li>These values are copied to formal parameters “a” and “b” in swap function and used.</li>
+            </ul>
+        </section>
+
+        <!-- slide 29 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Call By Reference</h3>
+        </section>
+
+        <!-- slide 30 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Call By Reference</u></p>
+            <ul>
+                <li>In call by reference method, the address of the variable is passed to the function as parameter.
+                </li>
+                <li>The value of the actual parameter can be modified by formal parameter.</li>
+                <li>Same memory is used for both actual and formal parameters since only address is used by both
+                    parameters.</li>
+            </ul>
+        </section>
+
+        <!-- slide 31 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p>Program to explain Call-By-Reference</p>
+            <pre>
+     <code data-trim data-noescape>                
+    #include &lt;stdio.h&gt;
+    void swap(int *a, int *b);
+    int main()
+    {
+    int r = 37, s = 73;
+    //  calling swap function by reference
+    printf("Values Before Swap \n R = %d and S = %d", r, s);
+    swap(&r, &s);
+    }
+
+    void swap(int *a, int *b)
+    {
+    int tmp;
+    tmp = *a;
+    *a = *b;
+    *b = tmp;
+    printf("\n Values After Swap \n  a = %d and b = %d \n", *a, *b);
+    }
+    </code>
+    </pre>
+        </section>
+
+        <!-- slide 32 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li>In this program, the address of the variables “R” and “S” are passed to the function “swap”.</li>
+                <li>These values are not copied to formal parameters “a” and “b” in swap function.</li>
+                <li>Because, they are just holding the address of those variables.</li>
+                <li>This address is used to access and change the values of the variables.</li>
+            </ul>
+        </section>
+
+        <!-- slide 33 content -->
+        <section data-auto-animate data-transition="zoom">
+            <img
+                src="https://i2.wp.com/www.wishesquotesimages.com/wp-content/uploads/2018/09/thank-you-image.jpg?resize=768%2C432">
+        </section>
+
+    </div>
+</div>
