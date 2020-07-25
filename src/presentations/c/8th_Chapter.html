@@ -89,12 +89,12 @@
 
         <!-- slide 10 content -->
         <section data-auto-animate data-transition="zoom">
-            <p><u>User-Defined Function are:-</u></p>
+            <p><u><b>User-Defined Function are:-</b></u></p>
             <ul>
                 <li>You can also create functions as per your need.</li>
                 <li>Such functions created by the user are known as user-defined functions.</li>
                 <ul>
-                    <p>Advantages</p>
+                    <p><u><b>Advantages</b></u></p>
                     <li>The program will be easier to understand, maintain and debug.</li>
                     <li>Reusable codes that can be used in other programs.</li>
                     <li>A large program can be divided into smaller modules.</li>
@@ -242,188 +242,72 @@
 
         <!-- slide 22 content -->
         <section data-auto-animate data-transition="zoom">
-            <h3>Types of Function call</h3>
+            <h3>Order of Passing Arguments</h3>
         </section>
 
         <!-- slide 23 content -->
         <section data-auto-animate data-transition="zoom">
-            <p><u>Types of Function Calling</u></p>
             <ul>
-                <li>There are two ways that a function can be called from a program. They are,
-                    <ul>
-                        <li>Call by Value</li>
-                        <li>Call by Reference</li>
-
-                    </ul>
-                </li>
+                <li><u>Consider the following Function Call:-</u></li>
+                <li>func(a,b,c);</li>
+                <ul>
+                    <li>In the above function call, it doesn't matter whether the arguments are passed from left to
+                        right or from right to left.</li>
+                    <li>However, in some function calls, the order of passing arguments becomes an important
+                        consideration.</li>
+                </ul>
             </ul>
         </section>
 
         <!-- slide 24 content -->
         <section data-auto-animate data-transition="zoom">
-            <h3>Call By Value</h3>
+            <ul>
+                <li><u>For Example:-</u></li>
+                <li>Now Consider the Following Program</li>
+            </ul>
+            <pre>
+            <code data-trim data-noescape>
+                #include&lt;stdio.h&gt;
+                int main()
+                {
+                    int a=1;
+                    printf("%d%d%d \n",a,++a,a++);
+                    return 0;
+                }
+            </code>
+        </pre>
         </section>
 
         <!-- slide 25 content -->
         <section data-auto-animate data-transition="zoom">
-            <p><u>Call By Value</u></p>
             <ul>
-                <li>In call by value method, the value of the variable is passed to the function as parameter.</li>
-                <li>The value of the actual parameter can not be modified by formal parameter.</li>
-                <li>Different Memory is allocated for both actual and formal parameters.</li>
-                <li>Because, value of actual parameter is copied to formal parameter.</li>
-
+                <li>It appears that this printf() would gives the output as 1 2 2.</li>
+                <li>But suprisingly, it prints the output as 3 3 1.</li>
+                <li>This is Because, in c during a fuction call, the arguments are passed from right to left.</li>
+                <li>Which means, Firstly 1 is passed through the expression a++ and then a is incremented to 2.</li>
+                <li>Then result of ++a is passed. That is, a is incremented to 3 and then passed.</li>
             </ul>
         </section>
 
         <!-- slide 26 content -->
         <section data-auto-animate data-transition="zoom">
             <ul>
-                <li>There are two types of Function Parameters in call by value method.</li>
-                <li>They are:-</li>
-                <ul>
-                    <li>Actual parameter – This is the argument which is used in function call.</li>
-                    <li>Formal parameter – This is the argument which is used in function definition.</li>
-
-                </ul>
+                <li>Finally, latest value of a=3 is passed. Thus in right to left order 1,3,3 get passed.</li>
+                <li>Once, printf() collects them, it prints them in the order in which we have asked it to get them
+                    printed(and not the order in which they were passed).</li>
+                <li>Thus, 3 3 1 gets printed.</li>
+                <li>It is important to note that the order of passing arguments to a function is not specified by the
+                    language.</li>
+                <li>Hence it is a compiler-dependent.</li>
+            </ul>
         </section>
 
         <!-- slide 27 content -->
         <section data-auto-animate data-transition="zoom">
-            <p><u>Program to explain Call-By-Value</u></p>
-            <pre>
-     <code data-trim data-noescape>
-    #include&lt;stdio.h&gt;
-    // function prototype, also called function declaration
-    void swap(int a, int b);          
-    int main()
-    {
-       int r = 37, s = 73;
-       // calling swap function by value
-       printf(" values before swap \n R = %d and S = %d", r, s); 
-       swap(r, s);                         
-    }
-             
-    void swap(int a, int b)
-    { 
-      int tmp;
-      tmp = a;
-      a = b;
-      b = tmp;
-      printf(" \n values after swap \n R = %d and S = %d", a, b);
-    }
-    </code>
-     </pre>
-        </section>
-
-        <!-- slide 28 content -->
-        <section data-auto-animate data-transition="zoom">
-            <p><u>The Explanation of the above program is given below.,</u></p>
-            <ul>
-                <li>In this program, the values of the variables “R” and “S” are passed to the function “swap”.</li>
-                <li>These values are copied to formal parameters “a” and “b” in swap function and used.</li>
-            </ul>
-        </section>
-
-        <!-- slide 29 content -->
-        <section data-auto-animate data-transition="zoom">
-            <h3>Call By Reference</h3>
-        </section>
-
-        <!-- slide 30 content -->
-        <section data-auto-animate data-transition="zoom">
-            <p><u>Call By Reference</u></p>
-            <ul>
-                <li>In call by reference method, the address of the variable is passed to the function as parameter.
-                </li>
-                <li>The value of the actual parameter can be modified by formal parameter.</li>
-                <li>Same memory is used for both actual and formal parameters since only address is used by both
-                    parameters.</li>
-            </ul>
-        </section>
-
-        <!-- slide 31 content -->
-        <section data-auto-animate data-transition="zoom">
-            <p><u>Program to explain Call-By-Reference</u></p>
-            <pre>
-     <code data-trim data-noescape>                
-    #include &lt;stdio.h&gt;
-    void swap(int *a, int *b);
-    int main()
-    {
-    int r = 37, s = 73;
-    //  calling swap function by reference
-    printf("Values Before Swap \n R = %d and S = %d", r, s);
-    swap(&r, &s);
-    }
-
-    void swap(int *a, int *b)
-    {
-    int tmp;
-    tmp = *a;
-    *a = *b;
-    *b = tmp;
-    printf("\n Values After Swap \n  a = %d and b = %d \n", *a, *b);
-    }
-    </code>
-    </pre>
-        </section>
-
-        <!-- slide 32 content -->
-        <section data-auto-animate data-transition="zoom">
-            <ul>
-                <li>In this program, the address of the variables “R” and “S” are passed to the function “swap”.</li>
-                <li>These values are not copied to formal parameters “a” and “b” in swap function.</li>
-                <li>Because, they are just holding the address of those variables.</li>
-                <li>This address is used to access and change the values of the variables.</li>
-            </ul>
-        </section>
-
-        <!-- slide 33 content -->
-        <section data-auto-animate data-transition="zoom">
-            <h3>One Dicey Issue</h3>
-        </section>
-
-        <!-- slide 34 content -->
-        <section data-auto-animate data-transition="zoom">
-            <p><u>Now Consider the Following Program:-</u></p>
-            <pre>
-    <code data-trim data-noescape>
-        #include&lt;stdio.h&gt;
-        int main()
-        {
-        int i = 10, j = 20 ;
-        printf ( "%d%d%d \n", i, j);
-        printf ( "%d \n", i, j);
-        return 0;
-        }
-    </code>
-</pre>
-            <ul>
-                <li>The above functions get successfully compiled even though there is a mismatch in the format
-                    specifiers and the variables in the list.</li>
-            </ul>
-        </section>
-
-        <!-- slide 35 content -->
-        <section data-auto-animate data-transition="zoom">
-            <ul>
-                <li>This is because printf() accepts variable number of arguments (sometimes 2 arguments, sometimes 3
-                    arguments, etc.), and even with the mismatch above the call still matches with the prototype of
-                    printf() present in ‘stdio.h’.</li>
-                <li>At run-time when the first printf() is executed, since there is no variable matching with the last
-                    specifier %d, a garbage integer gets printed</li>
-                <li>Similarly, in the second printf() since the format specifier for j has not been mentioned its value
-                    does not get printed.</li>
-            </ul>
-        </section>
-
-        <!-- slide 36 content -->
-        <section data-auto-animate data-transition="zoom">
             <h3>Library Functions</h3>
         </section>
 
-        <!-- slide 37 content -->
+        <!-- slide 28 content -->
         <section data-auto-animate data-transition="zoom">
             <p><u>Some of the Library Functions and its Uses are listed below as table:-</u></p>
             <table>
@@ -444,7 +328,7 @@
             </table>
         </section>
 
-        <!-- slide 38 content -->
+        <!-- slide 29 content -->
         <section data-auto-animate data-transition="zoom">
             <table>
                 <tr>
@@ -466,7 +350,7 @@
             </table>
         </section>
 
-        <!-- slide 39 content -->
+        <!-- slide 30 content -->
         <section data-auto-animate data-transition="zoom">
             <table>
                 <tr>
@@ -486,7 +370,46 @@
             </table>
         </section>
 
-        <!-- slide 40 content -->
+        <!-- slide 31 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>One Dicey Issue</h3>
+        </section>
+
+        <!-- slide 32 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Now Consider the Following Program:-</u></p>
+            <pre>
+    <code data-trim data-noescape>
+        #include&lt;stdio.h&gt;
+        int main()
+        {
+        int i = 10, j = 20 ;
+        printf ( "%d%d%d \n", i, j);
+        printf ( "%d \n", i, j);
+        return 0;
+        }
+    </code>
+     </pre>
+            <ul>
+                <li>The above functions get successfully compiled even though there is a mismatch in the format
+                    specifiers and the variables in the list.</li>
+            </ul>
+        </section>
+
+        <!-- slide 33 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li>This is because printf() accepts variable number of arguments (sometimes 2 arguments, sometimes 3
+                    arguments, etc.), and even with the mismatch above the call still matches with the prototype of
+                    printf() present in ‘stdio.h’.</li>
+                <li>At run-time when the first printf() is executed, since there is no variable matching with the last
+                    specifier %d, a garbage integer gets printed</li>
+                <li>Similarly, in the second printf() since the format specifier for j has not been mentioned its value
+                    does not get printed.</li>
+            </ul>
+        </section>
+
+        <!-- slide 34 content -->
         <section data-auto-animate data-transition="zoom">
             <img
                 src="https://i2.wp.com/www.wishesquotesimages.com/wp-content/uploads/2018/09/thank-you-image.jpg?resize=1000%2C432">
