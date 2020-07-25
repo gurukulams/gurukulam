@@ -216,7 +216,7 @@
 
         <!-- slide 21 content -->
         <section data-auto-animate data-transition="zoom">
-            <p>Sample Program for Passing values between function</p>
+            <p><u>Sample Program for Passing values between function</u></p>
             <pre>
      <code data-trim data-noescape>
         #include&lt;stdio.h&gt;
@@ -290,7 +290,7 @@
 
         <!-- slide 27 content -->
         <section data-auto-animate data-transition="zoom">
-            <p>Program to explain Call-By-Value</p>
+            <p><u>Program to explain Call-By-Value</u></p>
             <pre>
      <code data-trim data-noescape>
     #include&lt;stdio.h&gt;
@@ -318,7 +318,7 @@
 
         <!-- slide 28 content -->
         <section data-auto-animate data-transition="zoom">
-            <p>The Explanation of the above program is given below.,</p>
+            <p><u>The Explanation of the above program is given below.,</u></p>
             <ul>
                 <li>In this program, the values of the variables “R” and “S” are passed to the function “swap”.</li>
                 <li>These values are copied to formal parameters “a” and “b” in swap function and used.</li>
@@ -344,7 +344,7 @@
 
         <!-- slide 31 content -->
         <section data-auto-animate data-transition="zoom">
-            <p>Program to explain Call-By-Reference</p>
+            <p><u>Program to explain Call-By-Reference</u></p>
             <pre>
      <code data-trim data-noescape>                
     #include &lt;stdio.h&gt;
@@ -381,8 +381,115 @@
 
         <!-- slide 33 content -->
         <section data-auto-animate data-transition="zoom">
+            <h3>One Dicey Issue</h3>
+        </section>
+
+        <!-- slide 34 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Now Consider the Following Program:-</u></p>
+            <pre>
+    <code data-trim data-noescape>
+        #include&lt;stdio.h&gt;
+        int main()
+        {
+        int i = 10, j = 20 ;
+        printf ( "%d%d%d \n", i, j);
+        printf ( "%d \n", i, j);
+        return 0;
+        }
+    </code>
+</pre>
+            <ul>
+                <li>The above functions get successfully compiled even though there is a mismatch in the format
+                    specifiers and the variables in the list.</li>
+            </ul>
+        </section>
+
+        <!-- slide 35 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li>This is because printf() accepts variable number of arguments (sometimes 2 arguments, sometimes 3
+                    arguments, etc.), and even with the mismatch above the call still matches with the prototype of
+                    printf() present in ‘stdio.h’.</li>
+                <li>At run-time when the first printf() is executed, since there is no variable matching with the last
+                    specifier %d, a garbage integer gets printed</li>
+                <li>Similarly, in the second printf() since the format specifier for j has not been mentioned its value
+                    does not get printed.</li>
+            </ul>
+        </section>
+
+        <!-- slide 36 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Library Functions</h3>
+        </section>
+
+        <!-- slide 37 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Some of the Library Functions and its Uses are listed below as table:-</u></p>
+            <table>
+                <tr>
+                    <th align="center">Library Function</th>
+                    <th align="center">Usage</th>
+                </tr>
+                <tr>
+                    <td>stdio.h</td>
+                    <td>Used to perform input and output operations like scanf() and printf().</td>
+                </tr>
+
+                <tr>
+                    <td>conio.h</td>
+                    <td>Used to perform console input and console output operations like clrscr() to clear the screen
+                        and getch() to get the character from the keyboard.</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- slide 38 content -->
+        <section data-auto-animate data-transition="zoom">
+            <table>
+                <tr>
+                    <th align="center">Library Function</th>
+                    <th align="center">Usage</th>
+                </tr>
+
+                <tr>
+                    <td>stdlib.h</td>
+                    <td>Used to perform standard utility functions like dynamic memory allocation such as malloc() and
+                        calloc().</td>
+                </tr>
+                <tr>
+                    <td>math.h</td>
+                    <td>Used to perform mathematical operations like sqrt(), pow(), sin(), cos() etc., to obtain the
+                        square root and
+                        the power, sin, cos value of a number respectively.</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- slide 39 content -->
+        <section data-auto-animate data-transition="zoom">
+            <table>
+                <tr>
+                    <th align="center">Library Function</th>
+                    <th align="center">Usage</th>
+                </tr>
+
+                <tr>
+                    <td>time.h</td>
+                    <td>Used to perform functions related to date and time like setdate() and getdate() to modify the
+                        system date and get the CPU time respectively.</td>
+                </tr>
+                <tr>
+                    <td>string.h</td>
+                    <td>Used to perform string manipulation operations like strlen and strcpy.</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- slide 40 content -->
+        <section data-auto-animate data-transition="zoom">
             <img
-                src="https://i2.wp.com/www.wishesquotesimages.com/wp-content/uploads/2018/09/thank-you-image.jpg?resize=768%2C432">
+                src="https://i2.wp.com/www.wishesquotesimages.com/wp-content/uploads/2018/09/thank-you-image.jpg?resize=1000%2C432">
         </section>
 
     </div>

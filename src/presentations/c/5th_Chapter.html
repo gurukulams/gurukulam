@@ -168,7 +168,6 @@
                 <p><u>Statement Block of the While Loop</u></p>
                 <pre>
             <code data-trim data-noescape>
-
                     {
                       do this;
 	                  and this;
@@ -236,11 +235,11 @@
             <code data-trim data-noescape>
             int main()
             {
-               int i=15;
-	            while (i>=10)
+               int i=1;
+	            while (i&lt;=10)
 	            {
 		            printf(“%d\n”,i);
-		            i=i-1;
+		            i=i+1;
 	            }       
 	            return 0;
             }
@@ -251,7 +250,7 @@
         <!-- slide 20 content -->
         <section data-auto-animate data-transition="convex">
             <ul>
-                <li>Instead of decreasing a loop counter,we can increement it and still manage to get the body of the
+                <li>Instead of increasing a loop counter,we can decrement it and still manage to get the body of the
                     loop executed repeatedly.</li>
                 <li>It is not necessary that a loop counter must only be an int.it can even be a float.</li>
                 <li>Even floating point loop counters can be decremented.once again,the increment and decrement could be
@@ -329,24 +328,19 @@
         <!-- slide 25 Content --->
         <section data-auto-animate data-transition="convex">
             <pre>
-            <code><script type="text/template">
-
-
-        (c)
-             int main()
-            {
-            int i=1;
-            while (i<=10);
-             {
-                printf(“%d\n”,i);
-                i +=1;
-             }
-            return 0;
-            }
-
-
-            </script>
-            </code>
+            <code data-trim data-noescape>
+    (c)
+         int main()
+        {
+        int i=1;
+        while (i&lt;=10);
+         {
+            printf(“%d\n”,i);
+            i +=1;
+         }
+        return 0;
+        }
+          </code>
             </pre>
         </section>
 
@@ -363,21 +357,17 @@
         <!-- slide 27 Content --->
         <section data-auto-animate data-transition="convex">
             <pre>
-            <code>
-            <script type="text/template">
-        
+            <code data-trim data-noescape>
             (d)
                 int main()
                 {
                 int i=0;
-                while ( i++< 10 )
+                while ( i++&lt;10 )
                 {
                 printf(“%d\n”,i);
                 }
                 return0;
                 }
-
-            </script>
             </code>
             </pre>
         </section>
@@ -396,21 +386,17 @@
         <!-- slide 29 Content --->
         <section data-auto-animate data-transition="convex">
             <pre>
-            <code>
-            <script type="text/template">
-        
+            <code data-trim data-noescape>
             (e)
             int main()
             {
                 int i=0;
-                while ( ++i <=10 )
+                while ( ++i&lt;=10 )
                 {
                     printf(“%d\n”,i);
                 }
                 return 0;
             }
-
-            </script>
             </code>
             </pre>
         </section>
