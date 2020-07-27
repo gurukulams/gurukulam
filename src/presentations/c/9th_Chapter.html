@@ -1,0 +1,149 @@
+<div class="reveal">
+    <div class="slides">
+
+        <!-- slide 1 content -->
+        <section>
+            <h3>Pointers</h3>
+        </section>
+
+        <!-- slide 22 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Types of Function call</h3>
+        </section>
+
+        <!-- slide 23 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Types of Function Calling</u></p>
+            <ul>
+                <li>There are two ways that a function can be called from a program. They are,
+                    <ul>
+                        <li>Call by Value</li>
+                        <li>Call by Reference</li>
+
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- slide 24 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Call By Value</h3>
+        </section>
+
+        <!-- slide 25 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Call By Value</u></p>
+            <ul>
+                <li>In call by value method, the value of the variable is passed to the function as parameter.</li>
+                <li>The value of the actual parameter can not be modified by formal parameter.</li>
+                <li>Different Memory is allocated for both actual and formal parameters.</li>
+                <li>Because, value of actual parameter is copied to formal parameter.</li>
+
+            </ul>
+        </section>
+
+        <!-- slide 26 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li>There are two types of Function Parameters in call by value method.</li>
+                <li>They are:-</li>
+                <ul>
+                    <li>Actual parameter – This is the argument which is used in function call.</li>
+                    <li>Formal parameter – This is the argument which is used in function definition.</li>
+
+                </ul>
+        </section>
+
+        <!-- slide 27 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Program to explain Call-By-Value</u></p>
+            <pre>
+<code data-trim data-noescape>
+#include&lt;stdio.h&gt;
+// function prototype, also called function declaration
+void swap(int a, int b);          
+int main()
+{
+int r = 37, s = 73;
+// calling swap function by value
+printf(" values before swap \n R = %d and S = %d", r, s); 
+swap(r, s);                         
+}
+     
+void swap(int a, int b)
+{ 
+int tmp;
+tmp = a;
+a = b;
+b = tmp;
+printf(" \n values after swap \n R = %d and S = %d", a, b);
+}
+</code>
+</pre>
+        </section>
+
+        <!-- slide 28 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>The Explanation of the above program is given below.,</u></p>
+            <ul>
+                <li>In this program, the values of the variables “R” and “S” are passed to the function “swap”.</li>
+                <li>These values are copied to formal parameters “a” and “b” in swap function and used.</li>
+            </ul>
+        </section>
+
+        <!-- slide 29 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Call By Reference</h3>
+        </section>
+
+        <!-- slide 30 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Call By Reference</u></p>
+            <ul>
+                <li>In call by reference method, the address of the variable is passed to the function as parameter.
+                </li>
+                <li>The value of the actual parameter can be modified by formal parameter.</li>
+                <li>Same memory is used for both actual and formal parameters since only address is used by both
+                    parameters.</li>
+            </ul>
+        </section>
+
+        <!-- slide 31 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><u>Program to explain Call-By-Reference</u></p>
+            <pre>
+<code data-trim data-noescape>                
+#include &lt;stdio.h&gt;
+void swap(int *a, int *b);
+int main()
+{
+int r = 37, s = 73;
+//  calling swap function by reference
+printf("Values Before Swap \n R = %d and S = %d", r, s);
+swap(&r, &s);
+}
+
+void swap(int *a, int *b)
+{
+int tmp;
+tmp = *a;
+*a = *b;
+*b = tmp;
+printf("\n Values After Swap \n  a = %d and b = %d \n", *a, *b);
+}
+</code>
+</pre>
+        </section>
+
+        <!-- slide 32 content -->
+        <section data-auto-animate data-transition="zoom">
+            <ul>
+                <li>In this program, the address of the variables “R” and “S” are passed to the function “swap”.</li>
+                <li>These values are not copied to formal parameters “a” and “b” in swap function.</li>
+                <li>Because, they are just holding the address of those variables.</li>
+                <li>This address is used to access and change the values of the variables.</li>
+            </ul>
+        </section>
+
+    </div>
+</div>
