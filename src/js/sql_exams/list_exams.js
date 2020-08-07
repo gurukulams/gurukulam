@@ -1,7 +1,6 @@
 import { html } from 'lit-html';
 
-import {until} from 'lit-html/directives/until.js';
-
+import { until } from 'lit-html/directives/until.js';
 
 const fetchExamas = async () => {
 	let myHeaders = new Headers();
@@ -14,7 +13,9 @@ const fetchExamas = async () => {
 		method: 'GET',
 		headers: myHeaders,
 	};
-	let myRequest = new Request('http://ec2-13-126-173-216.ap-south-1.compute.amazonaws.com/exams');
+	let myRequest = new Request(
+		' https://cors-anywhere.herokuapp.com/http://ec2-13-126-173-216.ap-south-1.compute.amazonaws.com/exams',
+	);
 	const data = await fetch(myRequest, format).then((r) => r.json());
 	return renderExam(data);
 };
