@@ -14,7 +14,7 @@ const fetchExamas = async () => {
 		headers: myHeaders,
 	};
 	let myRequest = new Request(
-		' https://cors-anywhere.herokuapp.com/http://ec2-13-126-173-216.ap-south-1.compute.amazonaws.com/exams',
+		'https://cors-anywhere.herokuapp.com/http://ec2-13-126-173-216.ap-south-1.compute.amazonaws.com/exams',
 	);
 	const data = await fetch(myRequest, format).then((r) => r.json());
 	return renderExam(data);
