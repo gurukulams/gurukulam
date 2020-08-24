@@ -134,9 +134,131 @@
             </ul>
         </section>
 
+        <!-- slide 3 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Accessing Array Elements</h3>
+
+        </section>
+
+        <!-- slide 3 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><b><u>
+                        <c>How to Access an Array Elements..?</c>
+                    </u></b></p>
+            <ul>
+                <li>Array elements are accessed by using an integer index.</li>
+                <li>Array index starts with 0 and goes till size of array minus 1.</li>
+            </ul>
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/Array-In-C.png" Height=250px>
+        </section>
+
+        <!-- slide 3 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Passing Array Elements to a Function</h3>
+        </section>
+
+        <!-- slide 3 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><b><u>
+                        <c>Passing array element by element to function :</c>
+                    </u></b></p>
+            <ul>
+                <li>Individual element is passed to function using Pass By Value parameter passing scheme.</li>
+                <li>Original Array elements remains same as Actual Element is never Passed to Function. Thus
+                    function body cannot modify Original Value.</li>
+                <li>Suppose we have declared an array ‘arr[5]’ then its individual elements are
+                    arr[0],arr[1]…arr[4]. Thus we need 5 function calls to pass complete array to a function.</li>
+            </ul>
+        </section>
+
+        <!-- slide 3 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><b><u>
+                        <c>List of Array Elements are given in Table</c>
+                    </u></b></p>
+            <div class="table-responsive">
+                <table style="width:100%; " class="easy-table easy-table-default " border="1">
+                    <thead>
+                        <tr>
+                            <th>S:No-</th>
+                            <th>Element Passed to Function</th>
+                            <th>Value of Element</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>arr[0]</td>
+                            <td>10</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>arr[1]</td>
+                            <td>22</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>arr[2]</td>
+                            <td>37</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>arr[3]</td>
+                            <td>23</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td>arr[4]</td>
+                            <td>73</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
         <!-- slide 2 content -->
         <section data-auto-animate data-transition="zoom">
-            <h3>Array</h3>
+            <h3>Example Program to Pass Array to Elements to Function </h3>
+        </section>
+
+        <!-- slide 3 content -->
+        <section data-auto-animate data-transition="zoom">
+            <p><b><u>
+                        <c>Program to Pass Array to Function Element by Element:- </c>
+                    </u></b></p>
+            <pre>
+                <code data-trim data-noescape>
+                    #include&lt;stdio.h&gt;
+                    void show(int b[3]);
+
+                    void main()
+                    {
+                      int arr[3] = {1,2,3};
+                      int i;
+                      for(i=0;i&lt;3;i++)
+                        show(arr[i]);
+                    }
+
+                    void show(int x)
+                    {
+                      printf("%d ",x);
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <!-- slide 2 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Pointers and Array</h3>
+        </section>
+
+        <!-- slide 2 content -->
+        <section data-auto-animate data-transition="zoom">
+            <h3>Array Example Program</h3>
         </section>
 
         <!-- slide 3 content -->
@@ -166,48 +288,7 @@
             <img src="https://cdn.pixabay.com/photo/2016/10/05/01/12/sign-1715890_960_720.png">
         </section>
 
-        <!-- slide 3 content
-         <section data-auto-animate data-transition="zoom">
-            <p><b><u>
-                        <c>Array-Declaration</c>
-                    </u></b></p> 
-
-            </section>
-
-                <-- slide 3 content 
-                <section data-auto-animate data-transition="zoom">
-                   <p><b><u>
-                               <c>Array-Declaration</c>
-                           </u></b></p>
-                   <ul>
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                   </ul>
-               </section>
-       
-               <!-- slide 2 content 
-               <section data-auto-animate data-transition="zoom">
-                   <h3>Array</h3>
-               </section>
-       
-               <!-- slide 3 content 
-               <section data-auto-animate data-transition="zoom">
-                   <p><b><u>
-                               <c>Array-Declaration</c>
-                           </u></b></p>
-                   <ul>
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                       <li></li>
-                   </ul>
-               </section>
-       
-               <!-- slide 2 content 
+        <!-- slide 2 content 
                <section data-auto-animate data-transition="zoom">
                    <h3>Array</h3>
                </section>
