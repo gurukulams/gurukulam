@@ -30,6 +30,9 @@ const layout = html`<nav class="navbar navbar-expand navbar-dark bg-dark">
 					<a class="nav-link active" href="javascript://" onclick="loadApp('/presentations/c')">C</a>
 				</li>
 				<li class="nav-item">
+					<a class="nav-link active" href="javascript://" onclick="loadApp('/presentations/python')">Python</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link active" href="javascript://" onclick="loadApp('/presentations/java/corejava')">Java</a>
 				</li>
 				<li class="nav-item active">
