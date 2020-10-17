@@ -1,8 +1,0 @@
-{
-  "copyFiles": [
-    {
-      "from": "/node_modules/reveal.js/dist/**/*.css",
-      "to": "dist/reveal.js/"
-    }
-  ]
-}
