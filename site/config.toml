@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "SQL Components"
+title = "Gurukulam"
 googlefonts = "//fonts.googleapis.com/css?family=Titillium Web|sans-serif"
 
 # RSS, categories and tags disabled for an easy start
