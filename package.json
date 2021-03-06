@@ -40,7 +40,7 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "copy":"copy-files-from-to",
+    "copy": "copy-files-from-to",
     "lint": "eslint src/js --ext .js",
     "serve": "browser-sync start --config browser-sync.js",
     "build:css": "postcss -o dist/app.css src/css/*.css",
