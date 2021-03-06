@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        ${require('./layouts/_common_head.html')}
+        ${require('./layouts/_head.html')}
     </head>
     
   <body>
@@ -36,9 +36,9 @@
               <!-- <h5 class="lead text-left mt-5 pt-3 font-weight-bolder">எண்ணென்ப ஏனை எழுத்தென்ப இவ்விரண்டும் </br> -->
               <!-- கண்ணென்ப வாழும் உயிர்க்கு</h5> -->
               <blockquote class=" text-left mt-5 pt-3 text-uppercase">Made with Love<br>
-                  For the students by the students of <a href="/sql_exams">Tech@Park</a></blockquote>
+                  For the students by the students of <a href="www.techatpark.com" target="_techatpark">Tech@Park</a></blockquote>
   
-              <a href="/home" class="btn btn-info btn-lg text-left mt-1">
+              <a href="/courses/c-programming/introduction/" class="btn btn-info btn-lg text-left mt-1">
                   Get Started | <i class="fab fa-github"></i>
               </a>
   
@@ -55,15 +55,7 @@
   
   
       </div>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    <script  src="/js/gurukulam.js"/>
-
-    <script >
-       gurukulam.foo.getFoo()
-    </script>
+      ${require('./layouts/_scripts.html')}
     
   </body>
 </html>

@@ -4,17 +4,11 @@ export default [{
     file: 'dist/js/bundle-main.js',
     format: 'cjs'
   }
-},{
-  input: 'src/js/sql-practices/index.js',
-  output: {
-    file: 'dist/js/bundle-sql.js',
-    format: 'cjs'
-  }
 },
 {
-  input: 'src/js/practice/index.js',
+  input: 'src/js/sql-practice/index.js',
   output: {
-    file: 'dist/js/practice-bundle.js',
+    file: 'dist/js/sql-practice.js',
     format: 'cjs'
   }}];
 
