@@ -1,13 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    hiii jji
+    <head>
+        ${require('../../../layouts/_head.html')}
+        ${require('../../../layouts/reveal/_head.html')}
+        
+    </head>
     
-</body>
+  <body>
+
+    ${require('../../../layouts/_nav.html')}
+  
+  <main class="container d-flex w-100 h-100">
+  
+    <div class="reveal">
+      <div class="slides">
+          <section>
+              <h3>C INSTRUCTIONS</h3>
+          </section>
+          <section>
+              <ul>
+                  <li>C instruction are the commands in the program
+                      that instructs that compiler to do certain action.  
+                  </li>
+                  <li>Basically it gives the instruction to the compiler on 
+                      how to achive the goals of the progrm.</li>
+                  <li>For example,when we add two numbers,the C
+                      compiler will not understand how to do it.
+                      but if we the write same in terms of code /
+                      command using arithmatic operater'+'And
+                      numbers or variable,it gives meaningful
+                      information to the compiler on how to get the 
+                      sum.</li>
+              </ul>
+          </section>
+          <section>
+              <h3>TYPES OF INSTRUCTIONS</h3>
+          </section>
+          <section>
+              <ul>
+                  <li>Ther are basically three types of instruction in C:</li>
+                  <ul>
+                      <li>Type Declaration Instruction – To declare the
+                          type of variables used in a C program.</li>
+                      <li>Arithmetic Instruction – To perform arithmetic 
+                          operations between constants and variables.</li>
+                      <li>Control Instruction – To control the sequence 
+                          of execution of various statements in a C 
+                          program.</li>
+                          </ul>
+              </ul>
+          </section>
+          <section>
+              <h3>TYPE DECLARATION INSTRUCTIONS
+            </h3>
+          </section>
+          <section>
+              <ul>
+                  <li>These instruction inform the compiler about the
+                      type of variable used.
+                  </li>
+                  <li>That means,whenever a variables is used in the 
+                      programe,we have to specify what types of data it
+                      can hold-like integer,float,double,character etc.
+                  </li>
+                  <li>This makes the compiler to share only those
+                      specify types of values in it.
+                  </li>
+              </ul>
+          </section>
+          <section>
+        <ul>
+            <li>For example, a variable intVar1 declared as int will 
+                accept and store only integer values.</li>
+            <li>It will never accept float or character values.</li>
+            <li>Declaration of variable is done at the beginning,
+                inside the main function.
+            </li>
+            <li>This function is the starting point of any C program
+                and all the variable used with main function 
+                needs to be declare at the beginning of it,before
+                using in the function.
+            </li>  
+            <li>Any other function in the program can also have
+                variable and they needs to be declared at the 
+                beginning of respective functions.
+            </li>
+        </ul>    
+          </section>
+          <section>
+        <ul>
+            <li><u><b>For Example</b></u></li>
+            <ul>
+                <li>int a;</li>
+                <li>When we declare any variable at that time we 
+                    are also eligible to initialize this variable.</li>
+                    <ul>
+                        <li>int i=5,j=7;</li>
+                        <li>float a=5.5;</li>
+                    </ul>
+                <li>when we declare and initialize variable
+                    together the issue of ordering occurs.
+                    sometime order of declartion matters and
+                    sometime not.
+                </li>    
+                <ul>
+                    <li>int i=10,j=25;</li>
+                    <li>float b=a+3.1,a=1.5;</li>
+                </ul>
+            </ul>
+        </ul>        
+        </section>
+        <section>
+            <h3>ARITHMATIC INSTRUCTION</h3>
+        </section>
+        <section>
+        <ul>    
+            <li>An Arithmetic instruction consists of a variable
+                name on the left hand side of equal to (=) and
+                variable names & condition on the right hand sideof equal to(=).
+            </li>
+            <li>The variables and constants appearing on the 
+                right hand side of equal to(=) are connected by
+                arithmatic operators like +,-,*,and/.
+            </li>
+            <li>For Example:-</li>
+            <ul>
+                <li>Sum=10+20+30;</li>
+                <li>avg=(a+b+c+num)/4;</li>
+            </ul>
+        </ul>
+        </section>
+        <section>
+            <h3>TYPES OF ARITHMATIC INSTRUCTIONS</h3>
+        </section>
+        <section>
+            <div>
+            <pre>
+                Arithmatic instructions 
+                1.Integer mod
+                2.Real mode
+                3.Mixed mode
+            </pre>
+            </div>
+        </section>
+        <section>
+            <h3>CONTROL INSTRUCTION</h3>
+        </section>
+        <section>
+            <ul>
+                <li>The 'Control Instruction' enable us to specify the 
+                    order in which the various instruction in a 
+                    program are to be executed by the computer.
+                </li>
+                <li>In other words the control instruction determine 
+                    the 'flow of control'in a program.
+                </li>
+                <li>There are four types of control instruction in C 
+                    They are:-
+                </li>
+                <ul>
+                    <li>sequence Control instruction</li>
+                    <li>Selection or decision control Instruction</li>
+                    <li>Repetition or Loop Control Instruction</li>
+                    <li>Case Control Instruction</li>
+                </ul>
+            </ul>
+        </section>
+        <section>
+            <img src="#" alt="thank you">
+        </section>
+      </div>
+    </div>
+        
+  
+  </main><!-- /.container -->
+      
+    
+
+    
+  ${require('../../../layouts/_scripts.html')}
+  ${require('../../../layouts/reveal/_scripts.html')}
+    
+  </body>
 </html>
