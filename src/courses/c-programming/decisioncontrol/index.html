@@ -1,12 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    decisioncontrol
-</body>
+    <head>
+        ${require('../../../layouts/_head.html')}
+        ${require('../../../layouts/reveal/_head.html')}
+        
+    </head>
+    
+  <body>
+
+    ${require('../../../layouts/_nav.html')}
+  
+  <main class="container d-flex w-100 h-100">
+  
+    <div class="reveal">
+      <div class="slides">
+       <!--slide 1-->
+       <section>
+           <img src="#" alt="images not available">
+       </section>
+       
+       <!--slide 2-->
+       <section>
+           <h3>DECISION CONTROL INSTRUCTIONS</h3>
+       </section>
+
+       <!--slide 3-->
+       <section>
+           <ul>
+               <li> In c programs,the collection of instructions and
+                    these instructions are executed one after another
+                    from top to button sequentially.
+               </li>
+               <li>But some times we have to take decision while 
+                   doing programming like executing some portion of 
+                   the program instead of the whole program so we
+                   use decision statements .</li>
+               <li>Decision Control statements we can able to take 
+                   decision on basis of one condition.</li>
+               <li>If condition is evaluates to true (1) then we will 
+                   execute some particular block and if it is false (0) 
+                   then we will execute another block</li>
+           </ul>
+       </section>
+
+       <!--slide 4-->
+       <section>
+           <h3>TYPES OF DECISION CONTROL INSTRUCTIONS</h3>
+       </section>
+
+       <!--slide 5-->
+       <section>
+           <ul>
+               <li>In C we have three different types of decision 
+                   control statements are there.</li>
+                <ul>
+                    <li>if Statements</li>
+                    <li>if-else Statements</li>
+                    <li>Nested if Statements</li>
+                </ul>    
+            </ul>
+       </section>
+
+       <!--slide 6-->
+       <section>
+           <h3>IF-ELSE</h3>
+       </section>
+
+       <!--slide 7-->
+       <section>
+           <h3>IF STATEMENT</h3>
+       </section>
+    
+        <!--slide 8-->
+        <section>
+            <ul>
+            <li>
+                <u>Syntax:-</u>
+            </li>
+            <pre>
+                <code>
+                    if (condition)
+            { 
+                Statements 1; 
+                Statements 2; 
+                Statements 3; 
+            }
+        
+                </code>
+            </pre>
+            </ul>
+        </section>
+        <!--slide 9-->
+        <section>
+            <ul>
+                <li>
+                    <u>
+                        Syntax:-
+                    </u>
+                </li>
+                <pre>
+                    <code>
+                        if (condition)
+            { 
+                Statement1; 
+                Statement2; 
+            }
+            else
+            { 
+                Statement3; 
+                Statement4; 
+            }
+                    </code>
+                </pre>
+            </ul>
+        </section>
+
+        <!--slide 10-->
+        <section>
+            <h3>NESTED IF-ELSE</h3>
+        </section>
+
+        <!--slide 11-->
+        <section>
+            <ul>
+                <li>
+                    <u>
+                        Syntax:-
+                    </u>
+                </li>
+                <pre>
+                    <code>
+                        if(condition1)
+                        { 
+                            Statements 1; 
+                            Statements 2; 
+                            Statements 3;  
+                        }
+                        else_if(condition2)
+                        { 
+                            Statement 4;
+                            Statement 5; 
+                        }
+                        else 
+                        Statement 6;
+                    
+                    </code>
+                </pre>
+            </ul>
+        </section>
+
+        <!--slide 12-->
+        <section>
+            <img src="#" alt="thank you">
+        </section>
+      </div>
+    </div>
+        
+  
+  </main><!-- /.container -->
+      
+    
+
+    
+  ${require('../../../layouts/_scripts.html')}
+  ${require('../../../layouts/reveal/_scripts.html')}
+    
+  </body>
 </html>
