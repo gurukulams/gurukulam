@@ -1,3 +1,3 @@
-import Todo from './todo';
+import SqlExams from './SqlExams';
 
-let todo = new Todo();
+let sqlExams = new SqlExams();
