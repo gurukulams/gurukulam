@@ -11,14 +11,7 @@
  |
  */
 module.exports = {
-
-    /*
-     |--------------------------------------------------------------------------
-     | Files to watch
-     |--------------------------------------------------------------------------
-     | https://github.com/shakyShane/browser-sync/wiki/options#wiki-files
-     */
     files: ["dist/css/*.css", "dist/js/*.js", "dist/**/*.html"],
-    serveStatic: ['dist']
-
+    serveStatic: ['dist'],
+    proxy: "http://localhost:8090"
 };

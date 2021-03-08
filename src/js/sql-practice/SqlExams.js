@@ -1,99 +1,23 @@
-let page = {
-  "content": [
-    {
-      "id": 1,
-      "name": "Sathish",
-      "database": "postgres"
-    },
-    {
-      "id": 2,
-      "name": "Sathish",
-      "database": "postgres"
-    },
-    {
-      "id": 3,
-      "name": "Sathish",
-      "database": "postgres"
-    },
-    {
-      "id": 4,
-      "name": "Sathish",
-      "database": "postgres"
-    }
-  ],
-  "pageable": {
-    "sort": {
-      "sorted": false,
-      "unsorted": true,
-      "empty": true
-    },
-    "offset": 0,
-    "pageNumber": 0,
-    "pageSize": 20,
-    "paged": true,
-    "unpaged": false
-  },
-  "last": true,
-  "totalPages": 1,
-  "totalElements": 4,
-  "size": 20,
-  "number": 0,
-  "sort": {
-    "sorted": false,
-    "unsorted": true,
-    "empty": true
-  },
-  "numberOfElements": 4,
-  "first": true,
-  "empty": false
-};
-
 class SqlExams {
 
   constructor() {
-    let self = this;
-
     this.list = document.querySelector('.list-group');
-    this.render();
-
-    document.querySelector('.btn-add-item').addEventListener('click', this.insertItem.bind(this));
-    document.querySelector('.btn-update').addEventListener('click', this.updateItem.bind(this));
-
-    document.addEventListener('click', event => {
-      if (!event.target) {
-        return;
-      }
-
-      if (event.target.classList.contains('btn-delete')) {
-        self.removeItem(event);
-      }
-
-      if (event.target.classList.contains('btn-edit')) {
-        self.renderEditForm(event);
-      }
-
-      if (event.target.classList.contains('btn-complete')) {
-        self.setTaskComplete(event);
-      }
-    });
+    fetch('/api/exams/sql')
+      .then(response => response.json())
+      .then(page => this.render(page));
   }
 
-  render() {
+  render(page) {
     this.list.innerHTML = '';
-
     const sqlExams = page.content;
-
     sqlExams.forEach(item => {
       this.createDomElements(item);
-
-
       this.list.appendChild(this.li);
     });
   }
 
   renderEditForm(event) {
     let id = event.target.getAttribute('data-id');
-
     document.querySelector('.edit-popup').classList.remove('hide');
     document.querySelector('.edit-popup').classList.add('show');
     document.querySelector('.btn-update').setAttribute('data-id', id);
@@ -107,10 +31,8 @@ class SqlExams {
 
   createDomElements(item) {
     this.li = document.createElement('li');
-
-
-    this.li.innerHTML = '<li class="list-group-item list-group-item-action"><div class="d-flex w-100 justify-content-between"> <h5 class="mb-1">'+item.name+'</h5> <small>'+item.database+'</small> </div> <p class="mb-1">Some placeholder content in a paragraph.</p> <small><a href="#">Add Question</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Delete</a></small></li>';
-
+    this.li.classList.add("list-group-item");
+    this.li.innerHTML = '<div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' + item.name + '</h5> <small>' + item.database + '</small> </div> <p class="mb-1">Some placeholder content in a paragraph.</p> <small><a href="#">Add Question</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Delete</a></small>';
   }
 
   insertItem() {
