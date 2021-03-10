@@ -13,5 +13,5 @@
 module.exports = {
     files: ["dist/css/*.css", "dist/js/*.js", "dist/**/*.html"],
     serveStatic: ['dist'],
-    proxy: "http://localhost:8090"
+    proxy: "http://localhost:8080"
 };

@@ -4,8 +4,8 @@ class SqlExam {
   }
 
   render() {
-    this.oldChildNodes = [];
 
+    this.oldChildNodes = [];
     while (this.parent.firstChild) {
       this.oldChildNodes.push(this.parent.removeChild(this.parent.firstChild));
     }
@@ -23,7 +23,7 @@ class SqlExam {
         <label for="database" class="form-label">Type</label>
         <select id="database" class="form-select">
           <option selected>Choose...</option>
-          <option>Postgres</option>
+          <option value='postgres'>Postgres</option>
         </select>
       </div>
       <div class="col-12">
@@ -40,49 +40,44 @@ class SqlExam {
       </div>`;
     this.parent.appendChild(formEl);
     formEl.addEventListener("submit", (e) => this.saveExam(e));
-    this.registerEvents();
-  }
-  backToList() {
-    this.parent.removeChild(this.parent.lastChild);
-    this.oldChildNodes.forEach((child) => {
-      this.parent.appendChild(child);
+
+    this.parent.querySelector(
+      "form > div:nth-child(5) > button.btn.btn-secondary"
+    ).addEventListener("click", (event) => {
+      event.preventDefault();
+      this.parent.removeChild(this.parent.lastChild);
+      this.oldChildNodes.forEach((child) => {
+        this.parent.appendChild(child);
+      });
     });
   }
-  saveExam(e) {
-    e.preventDefault();
-    const { name, database, description, scripts } = e.target;
+
+  saveExam(event) {
+    event.preventDefault();
+    const { name, database, description, scripts } = event.target;
     const formData = new FormData();
-    formData.append("name", name.value);
-    formData.append("database", database.value);
-    formData.append("description", description.value);
+
+    var obj = { name: name.value, database: database.value };
+
+    formData.append("exam", JSON.stringify(obj));
     formData.append("scripts", scripts.files[0]);
 
     fetch("/api/exams/sql/", {
       method: "POST",
       headers: {
-        "Content-Type": "text/html; charset=UTF-8",
-        "Content-Type": "multipart/form-data; boundary=something",
+        "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
       },
       body: formData,
     })
       .then((response) => {
         console.log(response);
-        this.backToList();
       })
       .catch((e) => {
         console.log(e);
       });
     return false;
   }
-  registerEvents() {
-    let cancelBtn = this.parent.querySelector(
-      "form > div:nth-child(5) > button.btn.btn-secondary"
-    );
-    cancelBtn.addEventListener("click", (event) => {
-      event.preventDefault();
-      this.backToList();
-    });
-  }
+
 }
 
 export default SqlExam;
