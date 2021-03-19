@@ -1,4 +1,3 @@
-import foo from '../core/core.js';
-export default {
-    foo
-}
+import Home from './Home';
+
+let home = new Home();

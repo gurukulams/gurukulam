@@ -1,7 +1,13 @@
 export default [{
+  input: 'src/js/core/Core.js',
+  output: {
+    file: 'dist/js/core.js',
+    format: 'cjs'
+  }
+},{
   input: 'src/js/main/index.js',
   output: {
-    file: 'dist/js/bundle-main.js',
+    file: 'dist/js/index.js',
     format: 'cjs'
   }
 },
