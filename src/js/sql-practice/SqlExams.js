@@ -8,7 +8,11 @@ class SqlExams {
   }
 
   render() {
-    fetch("/api/exams/sql")
+    fetch("/api/exams/sql",{
+      "headers": {
+          "content-type": "application/json",
+          "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+      }})
       .then((response) => {
         if (response.status == 200) {
           return response;

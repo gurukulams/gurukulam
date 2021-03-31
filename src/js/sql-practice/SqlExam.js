@@ -60,12 +60,14 @@ class SqlExam {
     var obj = { name: name.value, database: database.value };
 
     formData.append("exam", JSON.stringify(obj));
-    formData.append("scripts", scripts.files[0]);
+    formData.append("scripts", scripts.files[0],'1.jpg');
 
     fetch("/api/exams/sql/", {
       method: "POST",
+      mode: 'same-origin',
       headers: {
-        "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
+        "Authorization": "Bearer dXNlcjpwYXNzd29yZA==",
+        "Content-Type": "multipart/form-data;boundary=YourBoundaryOfChoiceHere"
       },
       body: formData,
     })
