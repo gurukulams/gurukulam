@@ -29,7 +29,7 @@ class Home {
         })
         .then(data => {
             sessionStorage.auth = JSON.stringify(data);
-            window.location.href = '/courses/c-programming/';
+            window.location.href = '/courses/c-programming';
         })
         .catch(err => {
             document.querySelector(".invisible").classList.remove("invisible");
