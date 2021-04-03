@@ -1,7 +1,7 @@
 class Home {
     constructor() {
         if(sessionStorage.auth) {
-            window.location.href = '/courses/c-programming/';
+            window.location.href = '/courses/c-programming';
         }
         this.registerEvents();
     }

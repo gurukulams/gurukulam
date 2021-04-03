@@ -9,7 +9,7 @@ class Core {
             document.querySelector(".secured").classList.add("invisible");
         }
 
-        console.log('i am the core dd');
+
     }
 }
 
