@@ -1,0 +1,46 @@
+@base = https://localhost:8443/api
+#### Login
+# @name login 
+POST {{base}}/auth/login
+Content-Type: application/json
+
+{
+    "userName":"user",
+    "password":"password"
+}
+
+#### Create Exam
+POST {{base}}/exams/sql
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+    "name": "Bank DB",
+    "database": "h2",
+    "script": "SELECT 1s"
+}
+
+#### Create Exam
+DELETE {{base}}/exams/sql/2
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "HR DB 2",
+    "database": "h2",
+    "script": "SELECT 4"
+}
+
+#### List Exams
+GET {{base}}/exams/sql
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+#### Logout
+POST {{base}}/auth/logout
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+#### Info
+GET {{base}}/info

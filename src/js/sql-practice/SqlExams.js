@@ -8,11 +8,12 @@ class SqlExams {
   }
 
   render() {
-    fetch("/api/exams/sql",{
+    fetch("/api/exams/sql", {
       "headers": {
-          "content-type": "application/json",
-          "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
-      }})
+        "content-type": "application/json",
+        "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+      }
+    })
       .then((response) => {
         if (response.status == 200) {
           return response;
@@ -115,12 +116,22 @@ class SqlExams {
             method: "DELETE",
             headers: {
               "Content-Type": "application/json",
+              "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
             },
           }).then((response) => {
             if (response.status == 200) {
               this.render();
             }
           });
+        });
+      });
+
+      this.parent
+      .querySelectorAll("div > div > ul > li > small")
+      .forEach((el) => {
+        const id = el.dataset.id;
+        el.querySelector(".edit-btn").addEventListener("click", (event) => {
+          this.sqlExam.render();
         });
       });
 
@@ -141,7 +152,7 @@ class SqlExams {
       item.database +
       '</small> </div> <p class="mb-1">Some placeholder content in a paragraph.</p> <small data-id="' +
       item.id +
-      '"><a href="#">Add Question</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
+      '"><a href="#">Add Question</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
     return liEl;
   }
 }

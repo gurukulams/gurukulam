@@ -1,0 +1,21 @@
+@base = https://localhost:8443/api
+#### Login
+# @name login 
+POST {{base}}/auth/login
+Content-Type: application/json
+
+{
+    "userName":"user",
+    "password":"password"
+}
+
+
+#### Profile
+GET {{base}}/auth/me
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+#### Logout
+POST {{base}}/auth/logout
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json

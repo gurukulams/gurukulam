@@ -41,10 +41,15 @@ class SqlExam {
       "form > div:nth-child(4) > button.btn.btn-secondary"
     ).addEventListener("click", (event) => {
       event.preventDefault();
-      this.parent.removeChild(this.parent.lastChild);
-      this.oldChildNodes.forEach((child) => {
-        this.parent.appendChild(child);
-      });
+      this.goBack(this);
+    });
+  }
+
+  goBack(btnComponent) {
+    // Navigate Back to Listing Screen
+    btnComponent.parent.removeChild(btnComponent.parent.lastChild);
+    btnComponent.oldChildNodes.forEach((child) => {
+      this.parent.appendChild(child);
     });
   }
 
@@ -54,10 +59,8 @@ class SqlExam {
 
     var examObj = { name: name.value, database: database.value,script: script.value };
 
-
     fetch("/api/exams/sql", {
       method: "POST",
-      
       headers: {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -65,6 +68,7 @@ class SqlExam {
       body: JSON.stringify(examObj),
     })
       .then((response) => {
+        this.goBack(this);
         console.log(response);
       })
       .catch((e) => {
