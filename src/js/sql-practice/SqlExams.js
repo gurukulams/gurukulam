@@ -5,11 +5,12 @@ class SqlExams {
     this.parent = _parent;
     this.sqlExam = new SqlExam(_parent);
     this._this=this;
+    this.pageNumber=0;
     this.render();
   }
 
   render() {
-    fetch("/api/exams/sql?size=6", {
+    fetch("/api/exams/sql?size=6&page="+this.pageNumber, {
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -94,7 +95,7 @@ class SqlExams {
      ${page.first ? '' : ` <li class="page-item"><a class="page-link" href="#">Previous</a></li> ` }
      ${page.totalPages !==1? Array(page.totalPages).join(0).split(0).map((item, i) => `
      <li class="page-item">
-     <a class="page-link" href="#"> ${i+1}</a>
+     <a class="page-link by-number" href="#"> ${i+1}</a>
    `).join(''): ''}
      ${page.last ? '' : `<li class="page-item"><a class="page-link" href="#">Next</a></li> `}
     </ul>`
@@ -127,6 +128,16 @@ class SqlExams {
           this.sqlExam.render();
         });
       });
+
+      this.parent
+      .querySelectorAll("#navbarsExample09 > ul > li > a.by-number")
+      
+      .forEach((el) => {
+      el.addEventListener("click", (event) => {
+        this.pageNumber=parseInt(event.currentTarget.innerHTML) - 1;
+        this.render();
+      })
+  });
 
     this.parent
       .querySelector("#navbarsExample09 > form > button.btn-primary")
