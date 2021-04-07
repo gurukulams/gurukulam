@@ -29,32 +29,13 @@ class SqlExams {
         return response.json();
       })
       .then((page) => {
+        var pageComponent=this.pagination(page);
         this.parent.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example"> 
           <div class="container-fluid"> 
             <div class="collapse navbar-collapse" id="navbarsExample09"> 
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination"> 
-                <li class="page-item">
-                  <a class="page-link" href="#">
-                    Previous
-                  </a>
-                </li> 
-                <li class="page-item">
-                  <a class="page-link" href="#">
-                    1
-                  </a>
-                </li> 
-                <li class="page-item">
-                  <a class="page-link" href="#">2</a>
-                </li> 
-                <li class="page-item">
-                  <a class="page-link" href="#">3</a>
-                  </li> 
-                <li class="page-item">
-                  <a class="page-link" href="#">Next</a>
-                </li> 
-              </ul> 
-              <form> 
+            ${pageComponent}
+               <form> 
                 <button type="button" class="btn btn-primary">Add</button> 
               </form> 
             </div> 
@@ -105,8 +86,28 @@ class SqlExams {
         }
       });
   }
-
-  registerEvents() {
+    
+     pagination(page) {
+     return `<ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination"> 
+     ${page.number==0 ? '' : ` <li class="page-item"><a class="page-link" href="#">Previous</a></li> ` }
+               
+                <li class="page-item">
+                  <a class="page-link" href="#">
+                    1
+                  </a>
+                </li> 
+                <li class="page-item">
+                  <a class="page-link" href="#">2</a>
+                </li> 
+                <li class="page-item">
+                  <a class="page-link" href="#">3</a>
+                  </li> 
+                <li class="page-item">
+                  <a class="page-link" href="#">Next 100</a>
+                </li> 
+              </ul>`
+     }
+     registerEvents() {
     this.parent
       .querySelectorAll("div > div > ul > li > small")
       .forEach((el) => {
