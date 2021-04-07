@@ -4,11 +4,12 @@ class SqlExams {
   constructor(_parent) {
     this.parent = _parent;
     this.sqlExam = new SqlExam(_parent);
+    this._this=this;
     this.render();
   }
 
   render() {
-    fetch("/api/exams/sql", {
+    fetch("/api/exams/sql?size=6", {
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -29,7 +30,7 @@ class SqlExams {
         return response.json();
       })
       .then((page) => {
-        var pageComponent=this.pagination(page);
+        var pageComponent=this._this.pagination(page);
         this.parent.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example"> 
           <div class="container-fluid"> 
@@ -89,23 +90,14 @@ class SqlExams {
     
      pagination(page) {
      return `<ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination"> 
-     ${page.number==0 ? '' : ` <li class="page-item"><a class="page-link" href="#">Previous</a></li> ` }
-               
-                <li class="page-item">
-                  <a class="page-link" href="#">
-                    1
-                  </a>
-                </li> 
-                <li class="page-item">
-                  <a class="page-link" href="#">2</a>
-                </li> 
-                <li class="page-item">
-                  <a class="page-link" href="#">3</a>
-                  </li> 
-                <li class="page-item">
-                  <a class="page-link" href="#">Next 100</a>
-                </li> 
-              </ul>`
+
+     ${page.first ? '' : ` <li class="page-item"><a class="page-link" href="#">Previous</a></li> ` }
+     ${page.totalPages !==1? Array(page.totalPages).join(0).split(0).map((item, i) => `
+     <li class="page-item">
+     <a class="page-link" href="#"> ${i+1}</a>
+   `).join(''): ''}
+     ${page.last ? '' : `<li class="page-item"><a class="page-link" href="#">Next</a></li> `}
+    </ul>`
      }
      registerEvents() {
     this.parent
