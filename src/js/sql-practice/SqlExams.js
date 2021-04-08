@@ -87,19 +87,20 @@ class SqlExams {
             });
         } else {
           console.log("Request failed:", error);
+
         }
       });
   }
     
      pagination(page) {
-     return `<ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination"> 
+     return `
+     <span>${ (page.size * page.number) + 1 } - ${ page.totalElements > (page.size * (page.number+1)) ? (page.size * (page.number+1)): page.totalElements } of ${page.totalElements}</span>
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination"> 
 
-     ${page.first ? '' : ` <li class="page-item"><a class="page-link" href="#">Previous</a></li> ` }
-     ${page.totalPages !==1? Array(page.totalPages).join(0).split(0).map((item, i) => `
-     <li class="page-item">
-     <a class="page-link by-number" href="#"> ${i+1}</a>
-   `).join(''): ''}
-     ${page.last ? '' : `<li class="page-item"><a class="page-link" href="#">Next</a></li> `}
+     ${page.first ? '' : ` <li class="page-item"><a class="page-link link-prev" href="#"><<</a></li> ` }
+     
+     ${page.last ? '' : `<li class="page-item"><a class="page-link link-next" href="#">>></a></li> `}
+     
     </ul>`
      }
      registerEvents() {
@@ -140,7 +141,23 @@ class SqlExams {
         this.render();
       })
   });
-
+    
+  var el=this.parent
+  .querySelector("#navbarsExample09 > ul > li > a.link-prev");
+  if(el) {
+  el.addEventListener("click", (event) => {
+    this.pageNumber=this.pageNumber-1;
+    this.render();
+  });
+}
+el=this.parent
+.querySelector("#navbarsExample09 > ul > li > a.link-next");
+if(el) {
+el.addEventListener("click", (event) => {
+  this.pageNumber=this.pageNumber+1;
+  this.render();
+});
+}
     this.parent
       .querySelector("#navbarsExample09 > form > button.btn-primary")
       .addEventListener("click", (event) => {
