@@ -4,13 +4,16 @@ class SqlExam {
     this.caller = _caller;
   }
 
-  render() {
+  render(_id) {
+
+
+
 
     this.oldChildNodes = [];
     while (this.parent.firstChild) {
       this.oldChildNodes.push(this.parent.removeChild(this.parent.firstChild));
     }
-
+    
     let formEl = document.createElement("form");
     formEl.classList.add("row");   
     formEl.classList.add("g-3");
@@ -44,8 +47,18 @@ class SqlExam {
       event.preventDefault();
       this.goBack(this);
     });
+  
+  
+  if(_id){
+    fetch('/api/exams/sql/'+_id,{
+      "headers": {
+        "content-type": "application/json",
+        "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+      }
+    }).then(response => response.json())
+    .then(exam => console.log(exam));
+    }
   }
-
   goBack(btnComponent) {
     // Navigate Back to Listing Screen
     btnComponent.parent.removeChild(btnComponent.parent.lastChild);

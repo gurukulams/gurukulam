@@ -128,19 +128,9 @@ class SqlExams {
       .forEach((el) => {
         const id = el.dataset.id;
         el.querySelector(".edit-btn").addEventListener("click", (event) => {
-          this.sqlExam.render();
+          this.sqlExam.render(id);
         });
       });
-
-      this.parent
-      .querySelectorAll("#navbarsExample09 > ul > li > a.by-number")
-      
-      .forEach((el) => {
-      el.addEventListener("click", (event) => {
-        this.pageNumber=parseInt(event.currentTarget.innerHTML) - 1;
-        this.render();
-      })
-  });
     
   var el=this.parent
   .querySelector("#navbarsExample09 > ul > li > a.link-prev");
