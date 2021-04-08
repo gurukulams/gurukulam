@@ -1,6 +1,7 @@
 class SqlExam {
-  constructor(_parent) {
+  constructor(_parent,_caller) {
     this.parent = _parent;
+    this.caller = _caller;
   }
 
   render() {
@@ -51,6 +52,7 @@ class SqlExam {
     btnComponent.oldChildNodes.forEach((child) => {
       this.parent.appendChild(child);
     });
+    this.caller.render();
   }
 
   saveExam(event) {

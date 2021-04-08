@@ -3,13 +3,15 @@ import SqlExam from "./SqlExam";
 class SqlExams {
   constructor(_parent) {
     this.parent = _parent;
-    this.sqlExam = new SqlExam(_parent);
+    _parent.render =this.render;
+    this.sqlExam = new SqlExam(_parent,this);
     this._this=this;
     this.pageNumber=0;
     this.render();
   }
 
   render() {
+    console.log(this);
     fetch("/api/exams/sql?size=6&page="+this.pageNumber, {
       "headers": {
         "content-type": "application/json",
@@ -31,7 +33,7 @@ class SqlExams {
         return response.json();
       })
       .then((page) => {
-        var pageComponent=this._this.pagination(page);
+        var pageComponent=this.pagination(page);
         this.parent.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example"> 
           <div class="container-fluid"> 
