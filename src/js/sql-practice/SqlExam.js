@@ -7,8 +7,6 @@ class SqlExam {
   render(_id) {
 
 
-
-
     this.oldChildNodes = [];
     while (this.parent.firstChild) {
       this.oldChildNodes.push(this.parent.removeChild(this.parent.firstChild));
@@ -47,7 +45,7 @@ class SqlExam {
       event.preventDefault();
       this.goBack(this);
     });
-  
+  this._id = _id;
   
   if(_id){
     fetch('/api/exams/sql/'+_id,{
@@ -56,7 +54,11 @@ class SqlExam {
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
       }
     }).then(response => response.json())
-    .then(exam => console.log(exam));
+    .then(exam => {
+      formEl.querySelector("#name").value = exam.name;
+      formEl.querySelector("#database").value = exam.database;
+      formEl.querySelector("#script").value = exam.script;
+    });
     }
   }
   goBack(btnComponent) {
@@ -73,22 +75,40 @@ class SqlExam {
     const { name, database, script } = event.target;
 
     var examObj = { name: name.value, database: database.value,script: script.value };
-
-    fetch("/api/exams/sql", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-        "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
-      },
-      body: JSON.stringify(examObj),
-    })
-      .then((response) => {
-        this.goBack(this);
-        console.log(response);
+    if(this._id) {
+      fetch("/api/exams/sql/"+this._id, {
+        method: "PUT",
+        headers: {
+          "content-type": "application/json",
+          "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+        },
+        body: JSON.stringify(examObj),
       })
-      .catch((e) => {
-        console.log(e);
-      });
+        .then((response) => {
+          this.goBack(this);
+          console.log(response);
+        })
+        .catch((e) => {
+          console.log(e);
+        });
+    }else {
+      fetch("/api/exams/sql", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+          "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+        },
+        body: JSON.stringify(examObj),
+      })
+        .then((response) => {
+          this.goBack(this);
+          console.log(response);
+        })
+        .catch((e) => {
+          console.log(e);
+        });
+    }
+    
     return false;
   }
 
