@@ -33,6 +33,10 @@ class SqlExam {
         <textarea class="form-control" id="script"></textarea>
       </div> 
       <div class="col-12">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" id="description"></textarea>
+      </div> 
+      <div class="col-12">
         <button type="submit" class="btn btn-primary">Create</button> 
         <button type="button" class="btn btn-secondary">Cancel</button>
       </div>`;
@@ -72,9 +76,9 @@ class SqlExam {
 
   saveExam(event) {
     event.preventDefault();
-    const { name, database, script } = event.target;
+    const { name, database, script, description} = event.target;
 
-    var examObj = { name: name.value, database: database.value,script: script.value };
+    var examObj = { name: name.value, database: database.value,script: script.value,description: description.value };
     if(this._id) {
       fetch("/api/exams/sql/"+this._id, {
         method: "PUT",
