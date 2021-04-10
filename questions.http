@@ -5,7 +5,7 @@ POST {{base}}/auth/login
 Content-Type: application/json
 
 {
-    "userName":"user",
+    "userName":"tom",
     "password":"password"
 }
 
@@ -17,7 +17,8 @@ Content-Type: application/json
 {
     "name": "Bank DB",
     "database": "h2",
-    "script": "SELECT 1s"
+    "script": "SELECT 1s",
+    "description": "ddddd"
 }
 
 #### Create Exam
