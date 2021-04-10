@@ -44,7 +44,7 @@ class SqlExam {
     formEl.addEventListener("submit", (e) => this.saveExam(e));
 
     this.parent.querySelector(
-      "form > div:nth-child(4) > button.btn.btn-secondary"
+      "form > div:nth-child(5) > button.btn.btn-secondary"
     ).addEventListener("click", (event) => {
       event.preventDefault();
       this.goBack(this);
@@ -62,6 +62,7 @@ class SqlExam {
       formEl.querySelector("#name").value = exam.name;
       formEl.querySelector("#database").value = exam.database;
       formEl.querySelector("#script").value = exam.script;
+      formEl.querySelector("#description").value = exam.description;
     });
     }
   }
