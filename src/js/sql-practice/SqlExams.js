@@ -1,10 +1,12 @@
 import SqlExam from "./SqlExam";
-
+import Question from "./Question.js";
 class SqlExams {
   constructor(_parent) {
     this.parent = _parent;
+    
     _parent.render =this.render;
     this.sqlExam = new SqlExam(_parent,this);
+    this.question= new Question(_parent,this);
     this._this=this;
     this.pageNumber=0;
     this.render();
@@ -121,16 +123,19 @@ class SqlExams {
             }
           });
         });
-      });
-
-      this.parent
-      .querySelectorAll("div > div > ul > li > small")
-      .forEach((el) => {
-        const id = el.dataset.id;
-        el.querySelector(".edit-btn").addEventListener("click", (event) => {
+        el.querySelector(".edit-btn")
+        .addEventListener("click", (event) => {
           this.sqlExam.render(id);
         });
+
+        el.querySelector(".add-q-btn")
+        .addEventListener("click", (event) => {
+          console.log("add question button clicked" + id);
+          this.question.render(id);
+        });
       });
+
+     
     
   var el=this.parent
   .querySelector("#navbarsExample09 > ul > li > a.link-prev");
@@ -148,9 +153,11 @@ el.addEventListener("click", (event) => {
   this.render();
 });
 }
+// Add exam event
     this.parent
       .querySelector("#navbarsExample09 > form > button.btn-primary")
       .addEventListener("click", (event) => {
+        console.log("add exam button clicked");
         this.sqlExam.render();
       });
   }
@@ -165,7 +172,7 @@ el.addEventListener("click", (event) => {
       item.database +
       `</small> </div> <p class="mb-1">${item.description}</p> <small data-id="` +
       item.id +
-      '"><a href="#">Add Question</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
+      '"><a href="javascript://" class="add-q-btn">Add Question</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
     return liEl;
   }
 }
