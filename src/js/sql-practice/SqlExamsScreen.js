@@ -1,20 +1,19 @@
-import SqlExamScreen from "./SqlExam";
-import QuestionScreen from "./QuestionScreen.js";
-class  SqlExamScreen {
+import SqlExamScreen from "./SqlExamScreen";
+import QuestionScreen from "./QuestionScreen";
+class SqlExamsScreen {
   constructor(_parent) {
     this.parent = _parent;
-    
-    _parent.render =this.render;
-    this.sqlExam = new SqlExamScreen(_parent,this);
-    this.question= new QuestionScreen(_parent,this);
-    this._this=this;
-    this.pageNumber=0;
+    _parent.render = this.render;
+    this.sqlExam = new SqlExamScreen(_parent, this);
+    this.question = new QuestionScreen(_parent, this);
+    this._this = this;
+    this.pageNumber = 0;
     this.render();
   }
 
   render() {
     console.log(this);
-    fetch("/api/exams/sql?size=6&page="+this.pageNumber, {
+    fetch("/api/exams/sql?size=6&page=" + this.pageNumber, {
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -35,7 +34,7 @@ class  SqlExamScreen {
         return response.json();
       })
       .then((page) => {
-        var pageComponent=this.pagination(page);
+        var pageComponent = this.pagination(page);
         this.parent.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example"> 
           <div class="container-fluid"> 
@@ -93,19 +92,19 @@ class  SqlExamScreen {
         }
       });
   }
-    
-     pagination(page) {
-     return `
-     <span>${ (page.size * page.number) + 1 } - ${ page.totalElements > (page.size * (page.number+1)) ? (page.size * (page.number+1)): page.totalElements } of ${page.totalElements}</span>
+
+  pagination(page) {
+    return `
+     <span>${(page.size * page.number) + 1} - ${page.totalElements > (page.size * (page.number + 1)) ? (page.size * (page.number + 1)) : page.totalElements} of ${page.totalElements}</span>
      <ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination"> 
 
-     ${page.first ? '' : ` <li class="page-item"><a class="page-link link-prev" href="#"><<</a></li> ` }
+     ${page.first ? '' : ` <li class="page-item"><a class="page-link link-prev" href="#"><<</a></li> `}
      
      ${page.last ? '' : `<li class="page-item"><a class="page-link link-next" href="#">>></a></li> `}
      
     </ul>`
-     }
-     registerEvents() {
+  }
+  registerEvents() {
     this.parent
       .querySelectorAll("div > div > ul > li > small")
       .forEach((el) => {
@@ -124,50 +123,50 @@ class  SqlExamScreen {
           });
         });
         el.querySelector(".edit-btn")
-        .addEventListener("click", (event) => {
-          this.sqlExam.render(id);
-        });
+          .addEventListener("click", (event) => {
+            this.sqlExam.render(id);
+          });
 
         el.querySelector(".add-q-btn")
-        .addEventListener("click", (event) => {
-          console.log("add question button clicked" + id);
-          this.question.render(id);
-        });
+          .addEventListener("click", (event) => {
+            console.log("add question button clicked" + id);
+            this.question.render(id);
+          });
       });
 
-     
-    
-  var el=this.parent
-  .querySelector("#navbarsExample09 > ul > li > a.link-prev");
-  if(el) {
-  el.addEventListener("click", (event) => {
-    this.pageNumber=this.pageNumber-1;
-    this.render();
-  });
-}
-el=this.parent
-.querySelector("#navbarsExample09 > ul > li > a.link-next");
-if(el) {
-el.addEventListener("click", (event) => {
-  this.pageNumber=this.pageNumber+1;
-  this.render();
-});
-}
-// Add exam event
+
+
+    var el = this.parent
+      .querySelector("#navbarsExample09 > ul > li > a.link-prev");
+    if (el) {
+      el.addEventListener("click", (event) => {
+        this.pageNumber = this.pageNumber - 1;
+        this.render();
+      });
+    }
+    el = this.parent
+      .querySelector("#navbarsExample09 > ul > li > a.link-next");
+    if (el) {
+      el.addEventListener("click", (event) => {
+        this.pageNumber = this.pageNumber + 1;
+        this.render();
+      });
+    }
+    // Add exam event
     this.parent
       .querySelector("#navbarsExample09 > form > button.btn-primary")
       .addEventListener("click", (event) => {
         console.log("add exam button clicked");
         this.sqlExam.render();
       });
-    
-  this.parent
-  .querySelector("#navbarsExample09 > form > button.btn-primary")
-  .addEventListener("click", (event) => {
-    console.log("add  question button clicked");
-    this.question.render();
-  });
-}   
+
+    this.parent
+      .querySelector("#navbarsExample09 > form > button.btn-primary")
+      .addEventListener("click", (event) => {
+        console.log("add  question button clicked");
+        this.question.render();
+      });
+  }
   createListElement(item) {
     let liEl = document.createElement("li");
     liEl.classList.add("list-group-item");
@@ -183,4 +182,4 @@ el.addEventListener("click", (event) => {
   }
 }
 
-export default  SqlExamScreen;
+export default SqlExamsScreen;

@@ -1,6 +1,6 @@
-import SqlExams from './SqlExams';
+import SqlExamsScreen from './SqlExamsScreen';
 
 
-let sqlExams = new SqlExams(document.getElementById("content"));
+let sqlExams = new SqlExamsScreen(document.getElementById("content"));
 
 
