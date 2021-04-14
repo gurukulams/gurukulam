@@ -3,16 +3,21 @@ class QuestionScreen {
     constructor(_parent, _caller) {
         this.parent = _parent;
         this.caller = _caller;
+
+        // Model Objects
+        this.questions = [];
     }
     render(examId) {
         console.log("fetch call examId");
-        fetch('/api/exams/sql/'+examId,{
+        fetch('/api/exams/sql/'+examId + '/questions',{
             "headers": {
               "content-type": "application/json",
               "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
             }
-        })
-        this.parent.innerHTML = `<div class="container">
+          }).then(response => response.json())  // Converting as JSON
+          .then(data => {
+            this.questions = data;
+            this.parent.innerHTML = `<div class="container">
         <div class="row">
           <div class="col-8">
           <nav aria-label="Page navigation example">
@@ -22,9 +27,8 @@ class QuestionScreen {
                 <span aria-hidden="true">&laquo;</span>
               </a>
             </li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            ${this.questions.map(question => `<li class="page-item active"><a class="page-link" href="#">${question.id}</a></li>`).join("")}
+            
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
@@ -55,6 +59,8 @@ class QuestionScreen {
           </div>
         </div>
       </div>`;
+          });
+        
     }
 }
 
