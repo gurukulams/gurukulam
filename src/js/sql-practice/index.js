@@ -1,5 +1,4 @@
-import SqlExamsScreen from './SqlExamsScreen';
-
+import SqlExamsScreen from './screens/SqlExamsScreen';
 
 let sqlExams = new SqlExamsScreen(document.getElementById("content"));
 
