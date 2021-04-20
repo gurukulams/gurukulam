@@ -12,7 +12,7 @@ class QuestionScreen {
 
   render(examId) {
     this.examId = examId;
-    fetch('/api/exams/sql/' + examId, {
+    fetch('/api/practices/sql/' + examId, {
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -72,14 +72,23 @@ class QuestionScreen {
   }
 
   addQuestion() {
-
+  console.log("add question button clicked");
+  function incrementValue()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+}
   }
 
   deleteQuestion() {
+    console.log("delete question button clicked");
 
   }
 
   saveExam() {
+    console.log("save exam question button clicked");
 
   }
 

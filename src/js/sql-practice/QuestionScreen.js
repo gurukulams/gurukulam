@@ -9,7 +9,7 @@ class QuestionScreen {
     }
     render(examId) {
         console.log("fetch call examId");
-        fetch('/api/exams/sql/'+examId + '/questions',{
+        fetch('/api/practices/sql/'+examId + '/questions',{
             "headers": {
               "content-type": "application/json",
               "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken

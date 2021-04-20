@@ -13,7 +13,7 @@ class SqlExamsScreen {
 
   render() {
     console.log(this);
-    fetch("/api/exams/sql?size=6&page=" + this.pageNumber, {
+    fetch("/api/practices/sql?size=6&page=" + this.pageNumber, {
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -110,7 +110,7 @@ class SqlExamsScreen {
       .forEach((el) => {
         const id = el.dataset.id;
         el.querySelector(".del-btn").addEventListener("click", (event) => {
-          fetch("/api/exams/sql/" + id, {
+          fetch("/api/practices/sql/" + id, {
             method: "DELETE",
             headers: {
               "Content-Type": "application/json",

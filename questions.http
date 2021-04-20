@@ -10,7 +10,7 @@ Content-Type: application/json
 }
 
 #### Create Exam
-POST {{base}}/exams/sql
+POST {{base}}/practices/sql
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
@@ -22,7 +22,7 @@ Content-Type: application/json
 }
 
 #### Create Exam
-DELETE {{base}}/exams/sql/2
+DELETE {{base}}/practices/sql/2
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
@@ -34,7 +34,7 @@ Content-Type: application/json
 }
 
 #### List Exams
-GET {{base}}/exams/sql
+GET {{base}}/practices/sql
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 

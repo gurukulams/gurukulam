@@ -52,7 +52,7 @@ class SqlExamScreen {
   this._id = _id;
   
   if(_id){
-    fetch('/api/exams/sql/'+_id,{
+    fetch('/api/practices/sql/'+_id,{
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -81,7 +81,7 @@ class SqlExamScreen {
 
     var examObj = { name: name.value, database: database.value,script: script.value,description: description.value };
     if(this._id) {
-      fetch("/api/exams/sql/"+this._id, {
+      fetch("/api/practices/sql/"+this._id, {
         method: "PUT",
         headers: {
           "content-type": "application/json",
@@ -97,7 +97,7 @@ class SqlExamScreen {
           console.log(e);
         });
     }else {
-      fetch("/api/exams/sql", {
+      fetch("/api/practices/sql", {
         method: "POST",
         headers: {
           "content-type": "application/json",
