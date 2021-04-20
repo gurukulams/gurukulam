@@ -24,8 +24,9 @@ class QuestionScreen {
         // See https://fetch.spec.whatwg.org/#dom-response-ok
         if (response.ok) {
           if (response.status == 204) {
-            this.parent.innerHTML = "No Questions";
-          }
+            this.parent.innerHTML = '<p class="lead">There are no questions. But you can create one <a href="javascript://">here</a></p>';
+            this.parent.querySelector("a").addEventListener("click",this.addQuestion);
+                  }
           return response.json();
         } else {
           // Raise an exception to reject the promise and trigger the outer .catch() handler.
@@ -82,19 +83,14 @@ class QuestionScreen {
         </div>
       </div>`;
       }).catch(function (error) {
-        this.parent.innerHTML = "No Questions";
+        console.log("SSSS");
       });;
 
   }
 
-  addQuestion() {
+  addQuestion(event) {
     console.log("add question button clicked");
-    function incrementValue() {
-      var value = parseInt(document.getElementById('number').value, 10);
-      value = isNaN(value) ? 0 : value;
-      value++;
-      document.getElementById('number').value = value;
-    }
+    
   }
 
   deleteQuestion() {
