@@ -12,13 +12,29 @@ class QuestionScreen {
 
   render(examId) {
     this.examId = examId;
-    fetch('/api/practices/sql/' + examId, {
+    fetch('/api/practices/sql/' + examId + '/questions', {
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
       }
     })
-      .then(response => response.json())
+      .then(response => {
+
+        // Shorthand to check for an HTTP 2xx response status.
+        // See https://fetch.spec.whatwg.org/#dom-response-ok
+        if (response.ok) {
+          if (response.status == 204) {
+            this.parent.innerHTML = "No Questions";
+          }
+          return response.json();
+        } else {
+          // Raise an exception to reject the promise and trigger the outer .catch() handler.
+          // By default, an error response status (4xx, 5xx) does NOT cause the promise to reject!
+          throw Error(response.statusText);
+        }
+
+
+      })
       .then(data => {
         this.questions = data;
         this.parent.innerHTML = `<div class="container">
@@ -31,9 +47,7 @@ class QuestionScreen {
                 <span aria-hidden="true">&laquo;</span>
               </a>
             </li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            ${this.questions.map((question, index) => `<li>${index}</li>`).join("")}
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
@@ -67,19 +81,20 @@ class QuestionScreen {
           </div>
         </div>
       </div>`;
-      });
+      }).catch(function (error) {
+        this.parent.innerHTML = "No Questions";
+      });;
 
   }
 
   addQuestion() {
-  console.log("add question button clicked");
-  function incrementValue()
-{
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('number').value = value;
-}
+    console.log("add question button clicked");
+    function incrementValue() {
+      var value = parseInt(document.getElementById('number').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value++;
+      document.getElementById('number').value = value;
+    }
   }
 
   deleteQuestion() {
