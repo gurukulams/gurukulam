@@ -5,6 +5,7 @@ class Core {
                 delete sessionStorage.auth;
                 window.location.href = '/';
             });
+            document.querySelector(".avatar").src = JSON.parse(sessionStorage.auth).profile_pic;
         } else {
             document.querySelector(".secured").classList.add("invisible");
         }
