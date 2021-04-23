@@ -6,6 +6,7 @@ class QuestionScreen {
 
     // Model Objects
     this.questions = [];
+    this.selectedQuestion = [];
     this.examId = null;
   }
 
@@ -32,7 +33,7 @@ class QuestionScreen {
         } else {
           // Raise an exception to reject the promise and trigger the outer .catch() handler.
           // By default, an error response status (4xx, 5xx) does NOT cause the promise to reject!
-          throw Error(response.statusText);
+          throw Error(response.statusText); z
         }
 
 
@@ -42,35 +43,40 @@ class QuestionScreen {
         this.renderQuestions(this);
 
       }).catch(function (error) {
-        console.error(error);
+        console.error(error); zzzz
       });;
 
   }
 
-  
 
-  deleteQuestion() {
-    console.log("delete question button clicked");
 
-  }
 
-  saveExam() {
-    console.log("save exam question button clicked");
-
-  }
 
   renderQuestions(screen) {
 
     const addFunction = (event) => {
       console.log("add question button clicked");
-      this.questions.push({});
+      this.selectedQuestion = {};
+      this.questions.push(this.selectedQuestion);
       this.renderQuestions(this);
-  
+
+    }
+
+    const deleteFn = (event) => {
+      console.log("delete question button clicked");
+      this.questions = this.questions.filter(q => q != this.selectedQuestion);
+      this.renderQuestions(this);
+
+    }
+
+    const saveFn = (event) => {
+      console.log("save exam question button clicked");
+
     }
 
     if (screen.questions.length == 0) {
-      screen.parent.innerHTML = '<p class="lead">There are no questions. But you can create one <a href="javascript://">here</a></p>';
-      screen.parent.querySelector("a").addEventListener("click", addFunction);
+      screen.parent.innerHTML = '<p class="lead">There are no questions. But you can create one <a class="add-btn" href="javascript://">here</a></p>';
+      
     }
     else {
       screen.parent.innerHTML = `<div class="container">
@@ -84,7 +90,7 @@ class QuestionScreen {
         </a>
       </li>
       ${this.questions.map((question, index) => ` <li class="page-item">
-      <a class="page-link" href="#" aria-label="${index}">${index+1}</a></li>`).join("")}
+      <a class="page-link" href="#" aria-label="${index}">${index + 1}</a></li>`).join("")}
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Next">
           <span aria-hidden="true">&raquo;</span>
@@ -96,9 +102,9 @@ class QuestionScreen {
     <div class="col-4 d-flex flex-row-reverse bd-highlight">
 
 <div class="p-2 bd-highlight">
-<button type="button" #id="btn-Add" class="btn">Add </button> 
-<button type="button" class="btn">Delete</button> 
-<button type="button" class="btn">Save</button> 
+<button type="button" class="add-btn" class="btn">Add </button> 
+<button type="button" class="delete-btn">Delete</button> 
+<button type="button" class="save-btn">Save</button> 
 </div>
 </div>
       
@@ -119,7 +125,11 @@ class QuestionScreen {
     </div>
   </div>
 </div>`;
+screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
+screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
     }
+
+    screen.parent.querySelector(".add-btn").addEventListener("click", addFunction);
 
 
   }
