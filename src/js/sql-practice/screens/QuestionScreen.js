@@ -64,7 +64,8 @@ class QuestionScreen {
 
     const deleteFn = (event) => {
       console.log("delete question button clicked");
-      this.questions = this.questions.filter(q => q != this.selectedQuestion);
+     // this.questions = this.questions.filter(q => q != this.selectedQuestion);
+      this.questions.pop(this.selectedQuestion);
       this.renderQuestions(this);
 
     }
@@ -73,6 +74,10 @@ class QuestionScreen {
       console.log("save exam question button clicked");
 
     }
+
+    const setQuestionFn = (event) => {
+      console.log('set va question')
+    };
 
     if (screen.questions.length == 0) {
       screen.parent.innerHTML = '<p class="lead">There are no questions. But you can create one <a class="add-btn" href="javascript://">here</a></p>';
