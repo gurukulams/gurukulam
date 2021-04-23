@@ -28,13 +28,23 @@
             <a class="nav-link" href="#"><i class="far fa-bell"></i></a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">
+            <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="img-circle img-thumbnail avatar" style="vertical-align: middle;width: 30px;height: 30px;border-radius: 50%;" alt="avatar">
             </a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+            <ul class="dropdown-menu drop" aria-labelledby="dropdown03">
               <li><a class="dropdown-item" href="#">Profile</a></li>
               <li><a class="dropdown-item logout" href="javascript://">Logout</a></li>
-            </ul>
+            </ul> -->
+            <div class="btn-group dropstart">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="img-circle img-thumbnail avatar" style="vertical-align: middle;width: 30px;height: 30px;border-radius: 50%;" alt="avatar">
+              </button>
+              <ul class="dropdown-menu mt-5" aria-labelledby="dropdown03">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item logout" href="javascript://">Logout</a></li>
+                <!-- Dropdown menu links -->
+              </ul>
+            </div>
           </li>
         </ul>
       </div>
