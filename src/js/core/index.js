@@ -6,7 +6,7 @@ class Core {
                 window.location.href = '/';
             });
             document.querySelector(".avatar").src = JSON.parse(sessionStorage.auth).profile_pic;
-        } else {
+        } else if(document.querySelector(".secured") != null ) {
             document.querySelector(".secured").classList.add("invisible");
         }
 
