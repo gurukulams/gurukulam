@@ -66,7 +66,8 @@ class QuestionScreen {
 
     const deleteFn = (event) => {
       console.log("delete question button clicked");
-      this.questions = this.questions.filter(q => q != this.selectedQuestion);
+     // this.questions = this.questions.filter(q => q != this.selectedQuestion);
+      this.questions.pop(this.selectedQuestion);
       this.renderQuestions(this);
 
     }
@@ -79,6 +80,7 @@ class QuestionScreen {
     const setQuestionFn = (event) => {
       console.log("Select Question Function");
       event.currentTarget.classList.add("active");
+      // console.log('set va question')
     };
 
     if (screen.questions.length == 0) {
