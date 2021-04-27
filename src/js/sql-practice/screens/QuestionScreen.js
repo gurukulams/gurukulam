@@ -78,8 +78,10 @@ class QuestionScreen {
     }
 
     const setQuestionFn = (event) => {
-      console.log("Select Question Function");
-      event.currentTarget.classList.add("active");
+      
+      const pageItem = event.currentTarget;
+      console.log("Select Question Function you selcted " + pageItem.getAttribute("aria-label"));
+      pageItem.parentElement.classList.add("active");
       // console.log('set va question')
     };
 
@@ -98,8 +100,8 @@ class QuestionScreen {
                   <span aria-hidden="true">&laquo;</span>
                 </a>
               </li>
-              ${this.questions.map((question, index) => ` <li class="page-item q-selector">
-              <a class="page-link" href="#" aria-label="${index}">${index + 1}</a></li>`).join("")}
+              ${this.questions.map((question, index) => ` <li class="page-item">
+              <a class="page-link q-selector" href="#" aria-label="${index}">${index + 1}</a></li>`).join("")}
               <li class="page-item">
                 <a class="page-link" href="#" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
