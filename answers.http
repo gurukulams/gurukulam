@@ -1,8 +1,0 @@
-@base = http://localhost:8090
-
-
-#### Correct Answer
-POST {{base}}/api/answers/1
-Content-Type: application/json
-
-SELECT * FROM audit_log WHERE code LIKE 'code1' OR code LIKE 'code2'

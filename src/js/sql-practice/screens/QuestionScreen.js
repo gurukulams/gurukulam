@@ -29,7 +29,7 @@ class QuestionScreen {
           if (response.status == 204) {
             this.questions = [];
             this.renderQuestions(this);
-
+            throw Error('Empty Content 3');
           }
           return response.json();
         } else {
@@ -45,7 +45,7 @@ class QuestionScreen {
         this.renderQuestions(this);
 
       }).catch(function (error) {
-        console.error(error); 
+        console.log(error); 
       });;
 
   }
@@ -69,8 +69,16 @@ class QuestionScreen {
 
     const saveFn = (event) => {
       console.log("save exam with id " + this.examId);
+      console.log("with selectedQuestion {}" , this.selectedQuestion);
       console.log("with questions {}" , this.questions);
+      
 
+    }
+
+          
+    const setQTxt = (event) => {
+      console.log("Set Q Value")
+      this.selectedQuestion.question = event.currentTarget.value;
     }
 
     const selectQuestionFn = (event) => {
@@ -123,14 +131,14 @@ class QuestionScreen {
           <div class="row">
             <div class="col-6">
             <div class="form-floating mb-3">
-            <input type="question" class="form-control" id="floatingInput" placeholder="Question">
-            <label for="floatingInput">Question</label>
+            <input type="question" class="form-control" id="qTxt" placeholder="Question">
+            <label for="qTxt">Question</label>
           </div>
             </div>
             <div class="col-6">
             <div class="form-floating mb-3">
             <input type="answer" class="form-control" id="floatingInput" placeholder="Answer">
-            <label for="floatingInput">Answer</label>
+            <label for="floatingInput" id="aTxt">Answer</label>
           </div>
             </div>
           </div>
@@ -139,6 +147,7 @@ class QuestionScreen {
       screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
 
 
+      screen.parent.querySelector("#qTxt").addEventListener("change", setQTxt);
         
         
       screen.parent.querySelector(".q-selector").parentElement.classList.add('active');
