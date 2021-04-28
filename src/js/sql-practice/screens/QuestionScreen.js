@@ -50,10 +50,6 @@ class QuestionScreen {
 
   }
 
-
-
-
-
   renderQuestions(screen) {
 
     const addFunction = (event) => {
@@ -61,7 +57,6 @@ class QuestionScreen {
       this.selectedQuestion = {};
       this.questions.push(this.selectedQuestion);
       this.renderQuestions(this);
-
     }
 
     const deleteFn = (event) => {
@@ -73,15 +68,19 @@ class QuestionScreen {
     }
 
     const saveFn = (event) => {
-      console.log("save exam question button clicked");
+      console.log("save exam with id " + this.examId);
+      console.log("with questions {}" , this.questions);
 
     }
 
-    const setQuestionFn = (event) => {
-      
+    const selectQuestionFn = (event) => {
       const pageItem = event.currentTarget;
-      console.log("Select Question Function you selcted " + pageItem.getAttribute("aria-label"));
+
+      pageItem.parentElement.parentElement.querySelector(".active").classList.remove("active");
       pageItem.parentElement.classList.add("active");
+
+      console.log("Select Question Function you selcted " + pageItem.getAttribute("aria-label"));
+      
       // console.log('set va question')
     };
 
@@ -113,9 +112,9 @@ class QuestionScreen {
             <div class="col-4 d-flex flex-row-reverse bd-highlight">
 
         <div class="p-2 bd-highlight">
-        <button type="button" class="add-btn btn-secondary" class="btn">Add </button> 
-        <button type="button" class="delete-btn btn-secondary">Delete</button> 
-        <button type="button" class="save-btn btn-secondary">Save</button> 
+        <button type="button" class="add-btn btn btn-secondary" class="btn">Add </button> 
+        <button type="button" class="delete-btn btn btn-secondary">Delete</button> 
+        <button type="button" class="save-btn btn btn-secondary">Save</button> 
         </div>
         </div>
               
@@ -139,8 +138,15 @@ class QuestionScreen {
       screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
       screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
 
+
+        
+        
+      screen.parent.querySelector(".q-selector").parentElement.classList.add('active');
+
       screen.parent.querySelectorAll(".q-selector")
-      .forEach(element => element.addEventListener("click", setQuestionFn));
+      .forEach(element => element.addEventListener("click", selectQuestionFn));
+
+      console.log(this.selectedQuestion);
 
 
     }
@@ -154,7 +160,4 @@ class QuestionScreen {
 
 
 }
-
-
-
 export default QuestionScreen;

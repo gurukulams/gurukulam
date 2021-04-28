@@ -12,7 +12,6 @@ class SqlExamsScreen {
   }
 
   render() {
-    console.log(this);
     fetch("/api/practices/sql?size=6&page=" + this.pageNumber, {
       "headers": {
         "content-type": "application/json",
