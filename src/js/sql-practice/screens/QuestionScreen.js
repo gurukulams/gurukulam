@@ -71,8 +71,6 @@ class QuestionScreen {
       console.log("save exam with id " + this.examId);
       console.log("with selectedQuestion {}" , this.selectedQuestion);
       console.log("with questions {}" , this.questions);
-      
-
     }
 
           
@@ -86,15 +84,12 @@ class QuestionScreen {
 
       pageItem.parentElement.parentElement.querySelector(".active").classList.remove("active");
       pageItem.parentElement.classList.add("active");
-
       console.log("Select Question Function you selcted " + pageItem.getAttribute("aria-label"));
-      
-      // console.log('set va question')
+
     };
 
     if (screen.questions.length == 0) {
       screen.parent.innerHTML = '<p class="lead">There are no questions. But you can create one <a class="add-btn btn" href="javascript://">here</a></p>';
-
     }
     else {
       screen.parent.innerHTML = `<div class="container">
@@ -146,27 +141,22 @@ class QuestionScreen {
       screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
       screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
 
-
       screen.parent.querySelector("#qTxt").addEventListener("change", setQTxt);
-        
-        
-      screen.parent.querySelector(".q-selector").parentElement.classList.add('active');
 
+      var nodes = screen.parent.querySelectorAll('.q-selector');
+      nodes[nodes.length- 1].parentElement.classList.add('active');
+  
       screen.parent.querySelectorAll(".q-selector")
       .forEach(element => element.addEventListener("click", selectQuestionFn));
 
       console.log(this.selectedQuestion);
 
-
     }
 
+    screen.parent.querySelector(".add-btn").parentElement.classList.add('active');
     screen.parent.querySelector(".add-btn").addEventListener("click", addFunction);
-
-
+    
   }
-
-
-
 
 }
 export default QuestionScreen;
