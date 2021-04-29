@@ -60,10 +60,19 @@ class QuestionScreen {
     }
 
     const deleteFn = (event) => {
-      console.log("delete question button clicked");
-     // this.questions = this.questions.filter(q => q != this.selectedQuestion);
-      this.questions.pop(this.selectedQuestion);
-      this.renderQuestions(this);
+      // Change the Data
+      const sIndex = this.questions.indexOf(this.selectedQuestion);
+      console.log("Item to be removed is at {}" , sIndex);
+      this.questions.splice(sIndex, 1);
+
+      // Change the UI
+      var nodes = this.parent.querySelectorAll('.q-selector');
+      nodes[sIndex].parentElement.remove(nodes[sIndex]);
+      if(sIndex == 0) {
+        this.renderQuestions(this);
+      }else {
+        this.parent.querySelectorAll('.q-selector')[sIndex].parentElement.classList.add("active");
+      }
 
     }
 
@@ -84,6 +93,8 @@ class QuestionScreen {
 
       pageItem.parentElement.parentElement.querySelector(".active").classList.remove("active");
       pageItem.parentElement.classList.add("active");
+
+      this.selectedQuestion = this.questions[pageItem.getAttribute("aria-label")];
       console.log("Select Question Function you selcted " + pageItem.getAttribute("aria-label"));
 
     };
