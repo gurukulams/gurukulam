@@ -89,6 +89,11 @@ class QuestionScreen {
       this.selectedQuestion.question = event.currentTarget.value;
     }
 
+    const setATxt = (event) => {
+      console.log("Set A Value")
+      this.selectedQuestion.answer = event.currentTarget.value;
+    }
+
     const selectQuestionFn = (event) => {
       const pageLink = event.currentTarget;
       const pageItem = pageLink.parentElement;
@@ -98,9 +103,8 @@ class QuestionScreen {
 
       this.selectedQuestion = this.questions[Array.from(pageItem.parentNode.children).indexOf(pageItem)-1];
       
-      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question;
-      
-      // console.log("Select Question Function you selcted " + pageLink.getAttribute("aria-label"));
+      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '' ;
+      this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '' ;    
 
     };
 
@@ -158,6 +162,7 @@ class QuestionScreen {
       screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
 
       screen.parent.querySelector("#qTxt").addEventListener("change", setQTxt);
+      screen.parent.querySelector('#aTxt').addEventListener("change", setATxt)
 
       var nodes = screen.parent.querySelectorAll('.q-selector');
       nodes[nodes.length- 1].parentElement.classList.add('active');
