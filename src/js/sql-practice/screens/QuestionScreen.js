@@ -71,6 +71,7 @@ class QuestionScreen {
       if(sIndex == 0) {
         this.renderQuestions(this);
       }else {
+        this.selectedQuestion = this.questions[sIndex];
         this.parent.querySelectorAll('.q-selector')[sIndex].parentElement.classList.add("active");
       }
 
@@ -89,13 +90,17 @@ class QuestionScreen {
     }
 
     const selectQuestionFn = (event) => {
-      const pageItem = event.currentTarget;
+      const pageLink = event.currentTarget;
+      const pageItem = pageLink.parentElement;
 
-      pageItem.parentElement.parentElement.querySelector(".active").classList.remove("active");
-      pageItem.parentElement.classList.add("active");
+      pageLink.parentElement.parentElement.querySelector(".active").classList.remove("active");
+      pageLink.parentElement.classList.add("active");
 
-      this.selectedQuestion = this.questions[pageItem.getAttribute("aria-label")];
-      console.log("Select Question Function you selcted " + pageItem.getAttribute("aria-label"));
+      this.selectedQuestion = this.questions[Array.from(pageItem.parentNode.children).indexOf(pageItem)-1];
+      
+      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question;
+      
+      // console.log("Select Question Function you selcted " + pageLink.getAttribute("aria-label"));
 
     };
 
@@ -114,7 +119,7 @@ class QuestionScreen {
                 </a>
               </li>
               ${this.questions.map((question, index) => ` <li class="page-item">
-              <a class="page-link q-selector" href="#" aria-label="${index}">${index + 1}</a></li>`).join("")}
+              <a class="page-link q-selector" href="#">${index + 1}</a></li>`).join("")}
               <li class="page-item">
                 <a class="page-link" href="#" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
@@ -143,8 +148,8 @@ class QuestionScreen {
             </div>
             <div class="col-6">
             <div class="form-floating mb-3">
-            <input type="answer" class="form-control" id="floatingInput" placeholder="Answer">
-            <label for="floatingInput" id="aTxt">Answer</label>
+            <input type="answer" class="form-control" id="aTxt" placeholder="Answer">
+            <label for="aTxt" >Answer</label>
           </div>
             </div>
           </div>
