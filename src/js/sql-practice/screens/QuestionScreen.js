@@ -61,18 +61,19 @@ class QuestionScreen {
 
     const deleteFn = (event) => {
       // Change the Data
-      const sIndex = this.questions.indexOf(this.selectedQuestion);
-      console.log("Item to be removed is at {}" , sIndex);
-      this.questions.splice(sIndex, 1);
+      const selectedIndex = this.questions.indexOf(this.selectedQuestion);
+      console.log("Item to be removed is at {}" , selectedIndex);
+      this.questions.splice(selectedIndex, 1);
 
       // Change the UI
       var nodes = this.parent.querySelectorAll('.q-selector');
-      nodes[sIndex].parentElement.remove(nodes[sIndex]);
-      if(sIndex == 0) {
+      nodes[selectedIndex].parentElement.remove(nodes[selectedIndex]);
+      if(selectedIndex == 0) {
         this.renderQuestions(this);
       }else {
-        this.selectedQuestion = this.questions[sIndex];
-        this.parent.querySelectorAll('.q-selector')[sIndex].parentElement.classList.add("active");
+        const nextIndexToSelect = selectedIndex == this.questions.length ? (selectedIndex - 1) : selectedIndex;
+        this.selectedQuestion = this.questions[nextIndexToSelect];
+        this.parent.querySelectorAll('.q-selector')[nextIndexToSelect].parentElement.classList.add("active");
       }
 
     }
