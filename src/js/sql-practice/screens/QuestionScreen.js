@@ -99,7 +99,7 @@ class QuestionScreen {
       this.selectedQuestion = this.questions[Array.from(pageItem.parentNode.children).indexOf(pageItem)-1];
       
       this.parent.querySelector('#qTxt').value = this.selectedQuestion.question;
-      
+      this.parent.querySelector('#aTxt').value = this.selectedQuestion.question;
       // console.log("Select Question Function you selcted " + pageLink.getAttribute("aria-label"));
 
     };
