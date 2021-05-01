@@ -84,15 +84,23 @@ class QuestionScreen {
       console.log("with questions {}" , this.questions);
 
       this.questions.forEach(question => {
-        fetch("/api/practices/sql/" +this.examId+ "/questions", {
-          method: "POST",
-          headers: {
-            "content-type": "application/json",
-            "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
-          },
-          body: JSON.stringify(question),
-        })
-      })
+
+        if(question.id) {
+//check whether the question is already in the list, with the help of id of the question
+        } else {
+          fetch("/api/practices/sql/" +this.examId+ "/questions", {
+            method: "POST",
+            headers: {
+              "content-type": "application/json",
+              "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+            },
+            body: JSON.stringify(question),
+          })
+        }
+     
+      });
+
+
     }
 
           
