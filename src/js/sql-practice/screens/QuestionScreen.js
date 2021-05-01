@@ -9,11 +9,19 @@ class QuestionScreen {
     this.selectedQuestion = null;
     this.examId = null;
 
+    this.deletedQuestionIds = [];
+    this.updatedQuestions = [];
 
   }
 
 
   render(examId) {
+
+    this.oldChildNodes = [];
+    while (this.parent.firstChild) {
+      this.oldChildNodes.push(this.parent.removeChild(this.parent.firstChild));
+    }
+
     this.examId = examId;
     fetch('/api/practices/sql/' + examId + '/questions', {
       "headers": {
@@ -54,7 +62,7 @@ class QuestionScreen {
 
     const addFunction = (event) => {
       console.log("add question button clicked");
-      this.selectedQuestion = {};
+      this.selectedQuestion = {question:'',answer:''};
       this.questions.push(this.selectedQuestion);
       this.renderQuestions(this);
     }
@@ -64,6 +72,12 @@ class QuestionScreen {
       const selectedIndex = this.questions.indexOf(this.selectedQuestion);
       console.log("Item to be removed is at {}" , selectedIndex);
       this.questions.splice(selectedIndex, 1);
+
+      // Store Deleted Question Id
+      if(this.selectedQuestion.id) {
+        this.deletedQuestionIds.push(this.selectedQuestion.id);
+      }
+      
 
       // Change the UI
       var nodes = this.parent.querySelectorAll('.q-selector');
@@ -78,6 +92,16 @@ class QuestionScreen {
 
     }
 
+    const goBack = () => {
+      // Navigate Back to Listing Screen
+      const screen = this;
+      this.parent.removeChild(this.parent.lastChild);
+      this.oldChildNodes.forEach((child) => {
+        screen.parent.appendChild(child);
+      });
+      this.caller.render();
+    }
+
     const saveFn = (event) => {
       console.log("save exam with id " + this.examId);
       console.log("with selectedQuestion {}" , this.selectedQuestion);
@@ -85,9 +109,7 @@ class QuestionScreen {
 
       this.questions.forEach(question => {
 
-        if(question.id) {
-//check whether the question is already in the list, with the help of id of the question
-        } else {
+        if(!question.id) {
           fetch("/api/practices/sql/" +this.examId+ "/questions", {
             method: "POST",
             headers: {
@@ -100,18 +122,49 @@ class QuestionScreen {
      
       });
 
+      this.updatedQuestions.forEach(question => {
 
+        
+          fetch("/api/practices/sql/" +this.examId+ "/questions/"+question.id, {
+            method: "PUT",
+            headers: {
+              "content-type": "application/json",
+              "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+            },
+            body: JSON.stringify(question),
+          })
+        
+     
+      });
+
+      this.deletedQuestionIds.forEach(dQuestionId => {
+        fetch("/api/practices/sql/" +this.examId+ "/questions/"+dQuestionId, {
+          method: "DELETE",
+          headers: {
+            "content-type": "application/json",
+            "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+          }
+        })
+      });
+
+      goBack();
     }
 
           
     const setQTxt = (event) => {
       console.log("Set Q Value")
       this.selectedQuestion.question = event.currentTarget.value;
+      if(this.selectedQuestion.id) {
+        this.updatedQuestions.push(this.selectedQuestion);
+      }
     }
 
     const setATxt = (event) => {
       console.log("Set A Value")
       this.selectedQuestion.answer = event.currentTarget.value;
+      if(this.selectedQuestion.id) {
+        this.updatedQuestions.push(this.selectedQuestion);
+      }
     }
 
     const selectQuestionFn = (event) => {
@@ -182,10 +235,13 @@ class QuestionScreen {
       screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
 
       screen.parent.querySelector("#qTxt").addEventListener("change", setQTxt);
-      screen.parent.querySelector('#aTxt').addEventListener("change", setATxt)
+      screen.parent.querySelector('#aTxt').addEventListener("change", setATxt);
 
       var nodes = screen.parent.querySelectorAll('.q-selector');
       nodes[nodes.length- 1].parentElement.classList.add('active');
+      this.selectedQuestion = this.questions[nodes.length- 1];
+      screen.parent.querySelector("#qTxt").value = this.selectedQuestion.question;
+      screen.parent.querySelector('#aTxt').value = this.selectedQuestion.answer;
   
       screen.parent.querySelectorAll(".q-selector")
       .forEach(element => element.addEventListener("click", selectQuestionFn));
