@@ -82,6 +82,17 @@ class QuestionScreen {
       console.log("save exam with id " + this.examId);
       console.log("with selectedQuestion {}" , this.selectedQuestion);
       console.log("with questions {}" , this.questions);
+
+      this.questions.forEach(question => {
+        fetch("/api/practices/sql/" +this.examId+ "/questions", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+            "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+          },
+          body: JSON.stringify(question),
+        })
+      })
     }
 
           
