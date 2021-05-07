@@ -56,5 +56,8 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "dependencies": {
+    "quill": "^1.3.6"
+  }
 }
