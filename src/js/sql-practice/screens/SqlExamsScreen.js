@@ -79,7 +79,7 @@ class SqlExamsScreen {
       .catch(function (error) {
         if (error.name == "NoContent") {
           error.root.parent.innerHTML =
-            '<p class="lead">There are no exams. But you can create one <a href="javascript://">here</a></p>';
+            '<p class="lead">There are no practices. But you can create one <a href="javascript://">here</a></p>';
           error.root.parent
             .querySelector("p > a")
             .addEventListener("click", (event) => {

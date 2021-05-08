@@ -16,11 +16,15 @@ class SqlExamScreen {
     formEl.classList.add("row");   
     formEl.classList.add("g-3");
     formEl.innerHTML = `
-      <div class="col-md-6">
+      <div class="col-12">
         <label for="name" class="form-label">Name</label>
         <input  class="form-control" id="name">
       </div>
-      <div class="col-md-6">
+      <div class="col-12">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" id="description"></textarea>
+      </div>
+      <div class="col-12">
         <label for="database" class="form-label">Type</label>
         <select id="database" class="form-select">
           <option selected>Choose...</option>
@@ -32,10 +36,7 @@ class SqlExamScreen {
         <label for="script" class="form-label">Script</label>
         <textarea class="form-control" id="script"></textarea>
       </div> 
-      <div class="col-12">
-        <label for="description" class="form-label">Description</label>
-        <textarea class="form-control" id="description"></textarea>
-      </div> 
+       
       <div class="col-12">
         <button type="submit" class="btn btn-primary">Create</button> 
         <button type="button" class="btn btn-secondary">Cancel</button>
