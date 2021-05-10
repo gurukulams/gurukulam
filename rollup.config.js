@@ -12,13 +12,6 @@ export default [{
   }
 },
 {
-  input: 'src/js/sql-practice/index.js',
-  output: {
-    file: 'dist/js/sql-practice.js',
-    format: 'cjs'
-  }
-},
-{
   input: 'src/js/java-practice/index.js',
   output: {
     file: 'dist/js/java-practice.js',
