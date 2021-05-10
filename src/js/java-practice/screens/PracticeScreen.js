@@ -1,4 +1,4 @@
-class ExamScreen {
+class PracticeScreen {
   constructor(_parent,_caller) {
     this.parent = _parent;
     this.caller = _caller;
@@ -107,4 +107,4 @@ class ExamScreen {
 
 }
 
-export default ExamScreen;
+export default PracticeScreen;

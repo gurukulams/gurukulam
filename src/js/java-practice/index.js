@@ -1,5 +1,5 @@
-import ExamsScreen from './screens/ExamsScreen';
+import PracticesScreen from './screens/PracticesScreen';
 
-let exams = new ExamsScreen(document.getElementById("content"));
+let exams = new PracticesScreen(document.getElementById("content"));
 
 

@@ -1,10 +1,10 @@
-import ExamScreen from "./ExamScreen";
+import PracticeScreen from "./PracticeScreen";
 import QuestionScreen from "./QuestionScreen";
-class ExamsScreen {
+class PracticesScreen {
   constructor(_parent) {
     this.parent = _parent;
     _parent.render = this.render;
-    this.sqlExam = new ExamScreen(_parent, this);
+    this.sqlExam = new PracticeScreen(_parent, this);
     this.question = new QuestionScreen(_parent, this);
     this._this = this;
     this.pageNumber = 0;
@@ -176,9 +176,9 @@ class ExamsScreen {
       item.database +
       `</small> </div> <p class="mb-1">${item.description}</p> <small data-id="` +
       item.id +
-      '"><a href="javascript://" class="add-q-btn">Add Question</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
+      '"><a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
     return liEl;
   }
 }
 
-export default ExamsScreen;
+export default PracticesScreen;

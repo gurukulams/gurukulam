@@ -61,8 +61,8 @@ class QuestionScreen {
   renderQuestions(screen) {
 
     const addFunction = (event) => {
-      console.log("add question button clicked");
-      this.selectedQuestion = {question:'',answer:''};
+      console.log("add question button clicked {}",event.currentTarget);
+      this.selectedQuestion = {question:'',answer:'', type: event.currentTarget.dataset.type};
       this.questions.push(this.selectedQuestion);
       this.renderQuestions(this);
     }
@@ -110,7 +110,7 @@ class QuestionScreen {
       this.questions.forEach(question => {
 
         if(!question.id) {
-          fetch("/api/practices/java/" +this.examId+ "/questions", {
+          fetch("/api/practices/java/" +this.examId+ "/questions/" +question.type , {
             method: "POST",
             headers: {
               "content-type": "application/json",
@@ -187,7 +187,7 @@ class QuestionScreen {
     else {
       screen.parent.innerHTML = `<div class="container">
           <div class="row">
-            <div class="col-8">
+            <div class="col-6">
             <nav aria-label="Page navigation example">
             <ul class="pagination">
               <li class="page-item">
@@ -205,13 +205,21 @@ class QuestionScreen {
             </ul>
           </nav>
             </div>
-            <div class="col-4 d-flex flex-row-reverse bd-highlight">
+            <div class="col-6 d-flex">
 
-        <div class="p-2 bd-highlight">
-        <button type="button" class="add-btn btn btn-secondary" class="btn">Add </button> 
+       
+            <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Add
+            </button>
+            <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
+              <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
+              <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
+            </ul>
+          </div>
         <button type="button" class="delete-btn btn btn-secondary">Delete</button> 
         <button type="button" class="save-btn btn btn-secondary">Save</button> 
-        </div>
+       
         </div>
               
           
@@ -250,8 +258,9 @@ class QuestionScreen {
 
     }
 
-    screen.parent.querySelector(".add-btn").parentElement.classList.add('active');
-    screen.parent.querySelector(".add-btn").addEventListener("click", addFunction);
+    //screen.parent.querySelector(".add-btn").parentElement.classList.add('active');
+    screen.parent.querySelector(".add-btns").childNodes
+    .forEach(element => element.addEventListener("click", addFunction));
     
   }
 
