@@ -182,7 +182,15 @@ class QuestionScreen {
     };
 
     if (screen.questions.length == 0) {
-      screen.parent.innerHTML = '<p class="lead">There are no questions. But you can create one <a class="add-btn btn" href="javascript://">here</a></p>';
+      screen.parent.innerHTML = `<p class="lead">There are no questions. But you can create one <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Add
+      </button>
+      <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
+        <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
+        <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
+      </ul>
+    </div></p>`;
     }
     else {
       screen.parent.innerHTML = `<div class="container">
