@@ -183,52 +183,67 @@ class QuestionScreen {
 
     const goPreviousFn = (event) => {
       console.log("Go previous Clicked", event.currentTarget);
+
+      const previousIndex = this.questions.indexOf(this.selectedQuestion) - 1;
+      this.selectedQuestion = this.questions[previousIndex];
+
+      const pageLink = event.currentTarget;
+      pageLink.parentElement.querySelector(".active").classList.remove("active");
+      pageLink.parentElement.children[previousIndex + 1].classList.add("active");
+
+      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
+      this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
     }
 
     const goNextFn = (event) => {
-      console.log("Go next Clicked", event.currentTarget);
+
+      const pageLink = event.currentTarget;
+      const nextIndex = this.questions.indexOf(this.selectedQuestion) + 1;
+      this.selectedQuestion = this.questions[nextIndex];
+      pageLink.parentElement.querySelector(".active").classList.remove("active");
+      pageLink.parentElement.children[nextIndex + 1].classList.add("active");
+
+      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
+      this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
+
     } 
 
 
     screen.parent.innerHTML = `<div class="container">
           <div class="row">
             <div class="col-6">
-            ${screen.questions.length != 0 ? `
-            <nav aria-label="Page navigation example">
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous" id="previousPagination">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              ${this.questions.map((question, index) => ` <li class="page-item">
-              <a class="page-link q-selector" href="#">${index + 1}</a></li>`).join("")}
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next" id="nextPagination">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>`: ``}
+              ${screen.questions.length != 0 ? `
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous" id="previousPagination">
+                    <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                    ${this.questions.map((question, index) => ` <li class="page-item">
+                  <a class="page-link q-selector" href="#">${index + 1}</a></li>`).join("")}
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next" id="nextPagination">
+                    <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>`: ``}
             </div>
-            <div class="col-6 d-flex">
-
-       
-            <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Add
-            </button>
-            <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
-              <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
-              <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
-            </ul>
-          </div>
-        <button type="button" class="delete-btn btn btn-secondary">Delete</button> 
-        <button type="button" class="save-btn btn btn-secondary">Save</button> 
-       
-        </div>
-              
-          
+            <div class="col-6 ">
+              <div class="dropdown float-end">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Add
+                  </button>
+                  <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
+                    <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
+                    <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
+                  </ul>
+                  <button type="button" class="delete-btn btn btn-secondary">Delete</button> 
+                  <button type="button" class="save-btn btn btn-secondary">Save</button> 
+              </div>
+             
+            </div>
           </div>
 
 
