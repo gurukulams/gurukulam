@@ -43,7 +43,7 @@ class QuestionScreen {
         } else {
           // Raise an exception to reject the promise and trigger the outer .catch() handler.
           // By default, an error response status (4xx, 5xx) does NOT cause the promise to reject!
-          throw Error(response.statusText); 
+          throw Error(response.statusText);
         }
 
 
@@ -53,7 +53,7 @@ class QuestionScreen {
         this.renderQuestions(this);
 
       }).catch(function (error) {
-        console.log(error); 
+        console.log(error);
       });;
 
   }
@@ -61,8 +61,8 @@ class QuestionScreen {
   renderQuestions(screen) {
 
     const addFunction = (event) => {
-      console.log("add question button clicked {}",event.currentTarget);
-      this.selectedQuestion = {question:'',answer:'', type: event.currentTarget.dataset.type};
+      console.log("add question button clicked {}", event.currentTarget);
+      this.selectedQuestion = { question: '', answer: '', type: event.currentTarget.dataset.type };
       this.questions.push(this.selectedQuestion);
       this.renderQuestions(this);
     }
@@ -70,21 +70,21 @@ class QuestionScreen {
     const deleteFn = (event) => {
       // Change the Data
       const selectedIndex = this.questions.indexOf(this.selectedQuestion);
-      console.log("Item to be removed is at {}" , selectedIndex);
+      console.log("Item to be removed is at {}", selectedIndex);
       this.questions.splice(selectedIndex, 1);
 
       // Store Deleted Question Id
-      if(this.selectedQuestion.id) {
+      if (this.selectedQuestion.id) {
         this.deletedQuestionIds.push(this.selectedQuestion.id);
       }
-      
+
 
       // Change the UI
       var nodes = this.parent.querySelectorAll('.q-selector');
       nodes[selectedIndex].parentElement.remove(nodes[selectedIndex]);
-      if(selectedIndex == 0) {
+      if (selectedIndex == 0) {
         this.renderQuestions(this);
-      }else {
+      } else {
         const nextIndexToSelect = selectedIndex == this.questions.length ? (selectedIndex - 1) : selectedIndex;
         this.selectedQuestion = this.questions[nextIndexToSelect];
         this.parent.querySelectorAll('.q-selector')[nextIndexToSelect].parentElement.classList.add("active");
@@ -104,13 +104,13 @@ class QuestionScreen {
 
     const saveFn = (event) => {
       console.log("save exam with id " + this.examId);
-      console.log("with selectedQuestion {}" , this.selectedQuestion);
-      console.log("with questions {}" , this.questions);
+      console.log("with selectedQuestion {}", this.selectedQuestion);
+      console.log("with questions {}", this.questions);
 
       this.questions.forEach(question => {
 
-        if(!question.id) {
-          fetch("/api/practices/java/" +this.examId+ "/questions/" +question.type , {
+        if (!question.id) {
+          fetch("/api/practices/java/" + this.examId + "/questions/" + question.type, {
             method: "POST",
             headers: {
               "content-type": "application/json",
@@ -119,26 +119,26 @@ class QuestionScreen {
             body: JSON.stringify(question),
           })
         }
-     
+
       });
 
       this.updatedQuestions.forEach(question => {
 
-        
-          fetch("/api/practices/java/" +this.examId+ "/questions/"+question.id, {
-            method: "PUT",
-            headers: {
-              "content-type": "application/json",
-              "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
-            },
-            body: JSON.stringify(question),
-          })
-        
-     
+
+        fetch("/api/practices/java/" + this.examId + "/questions/" + question.id, {
+          method: "PUT",
+          headers: {
+            "content-type": "application/json",
+            "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+          },
+          body: JSON.stringify(question),
+        })
+
+
       });
 
       this.deletedQuestionIds.forEach(dQuestionId => {
-        fetch("/api/practices/java/" +this.examId+ "/questions/"+dQuestionId, {
+        fetch("/api/practices/java/" + this.examId + "/questions/" + dQuestionId, {
           method: "DELETE",
           headers: {
             "content-type": "application/json",
@@ -150,11 +150,11 @@ class QuestionScreen {
       goBack();
     }
 
-          
+
     const setQTxt = (event) => {
       console.log("Set Q Value")
       this.selectedQuestion.question = event.currentTarget.value;
-      if(this.selectedQuestion.id) {
+      if (this.selectedQuestion.id) {
         this.updatedQuestions.push(this.selectedQuestion);
       }
     }
@@ -162,7 +162,7 @@ class QuestionScreen {
     const setATxt = (event) => {
       console.log("Set A Value")
       this.selectedQuestion.answer = event.currentTarget.value;
-      if(this.selectedQuestion.id) {
+      if (this.selectedQuestion.id) {
         this.updatedQuestions.push(this.selectedQuestion);
       }
     }
@@ -174,28 +174,26 @@ class QuestionScreen {
       pageLink.parentElement.parentElement.querySelector(".active").classList.remove("active");
       pageLink.parentElement.classList.add("active");
 
-      this.selectedQuestion = this.questions[Array.from(pageItem.parentNode.children).indexOf(pageItem)-1];
-      
-      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '' ;
-      this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '' ;    
+      this.selectedQuestion = this.questions[Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1];
+
+      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
+      this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
 
     };
 
-    if (screen.questions.length == 0) {
-      screen.parent.innerHTML = `<p class="lead">There are no questions. But you can create one <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        Add
-      </button>
-      <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
-        <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
-        <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
-      </ul>
-    </div></p>`;
+    const goPreviousFn = (event) => {
+      console.log("Go previous Clicked");
     }
-    else {
-      screen.parent.innerHTML = `<div class="container">
+
+    const goNextFn = (event) => {
+      console.log("Go next Clicked");
+    } 
+
+
+    screen.parent.innerHTML = `<div class="container">
           <div class="row">
             <div class="col-6">
+            ${screen.questions.length != 0 ? `
             <nav aria-label="Page navigation example">
             <ul class="pagination">
               <li class="page-item">
@@ -211,7 +209,7 @@ class QuestionScreen {
                 </a>
               </li>
             </ul>
-          </nav>
+          </nav>`: ``}
             </div>
             <div class="col-6 d-flex">
 
@@ -232,44 +230,55 @@ class QuestionScreen {
               
           
           </div>
-          <div class="row">
-            <div class="col-6">
-            <div class="form-floating mb-3">
-            <input type="question" class="form-control" id="qTxt" placeholder="Question">
-            <label for="qTxt">Question</label>
-          </div>
-            </div>
-            <div class="col-6">
-            <div class="form-floating mb-3">
-            <input type="answer" class="form-control" id="aTxt" placeholder="Answer">
-            <label for="aTxt" >Answer</label>
-          </div>
-            </div>
-          </div>
-        </div>`;
-      screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
-      screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
 
+
+          ${screen.questions.length == 0 ? `<p class="lead">There are no questions. But you can create one</p>`
+        : `<div class="row">
+           <div class="col-6">
+             <div class="form-floating mb-3">
+             <input type="question" class="form-control" id="qTxt" placeholder="Question">
+             <label for="qTxt">Question</label>
+             </div>
+             </div>
+           <div class="col-6">
+               <div class="form-floating mb-3">
+               <input type="answer" class="form-control" id="aTxt" placeholder="Answer">
+               <label for="aTxt" >Answer</label>
+             </div>
+           </div>
+         </div>`}
+
+          
+        </div>`;
+
+
+    if (this.questions.length != 0) {
       screen.parent.querySelector("#qTxt").addEventListener("change", setQTxt);
       screen.parent.querySelector('#aTxt').addEventListener("change", setATxt);
 
       var nodes = screen.parent.querySelectorAll('.q-selector');
-      nodes[nodes.length- 1].parentElement.classList.add('active');
-      this.selectedQuestion = this.questions[nodes.length- 1];
+      nodes[nodes.length - 1].parentElement.classList.add('active');
+      this.selectedQuestion = this.questions[nodes.length - 1];
       screen.parent.querySelector("#qTxt").value = this.selectedQuestion.question;
       screen.parent.querySelector('#aTxt').value = this.selectedQuestion.answer;
-  
+
       screen.parent.querySelectorAll(".q-selector")
-      .forEach(element => element.addEventListener("click", selectQuestionFn));
-
-      console.log(this.selectedQuestion);
-
+        .forEach(element => element.addEventListener("click", selectQuestionFn));
     }
+
 
     //screen.parent.querySelector(".add-btn").parentElement.classList.add('active');
     screen.parent.querySelector(".add-btns").childNodes
-    .forEach(element => element.addEventListener("click", addFunction));
-    
+      .forEach(element => element.addEventListener("click", addFunction));
+
+    screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
+    screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
+
+    const paginationElement = screen.parent.querySelector(".pagination");
+    if(paginationElement) {
+      paginationElement.firstChild.addEventListener("click", goPreviousFn);
+      paginationElement.lastChild.addEventListener("click", goNextFn);
+    }
   }
 
 }
