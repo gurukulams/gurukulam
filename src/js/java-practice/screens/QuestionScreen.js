@@ -182,7 +182,7 @@ class QuestionScreen {
     };
 
     const goPreviousFn = (event) => {
-      console.log("Go previous Clicked");
+      console.log("Go previous Clicked", event.currentTarget);
     }
 
     const goNextFn = (event) => {
@@ -197,14 +197,14 @@ class QuestionScreen {
             <nav aria-label="Page navigation example">
             <ul class="pagination">
               <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
+                <a class="page-link" href="#" aria-label="Previous" id="previousPagination">
                   <span aria-hidden="true">&laquo;</span>
                 </a>
               </li>
               ${this.questions.map((question, index) => ` <li class="page-item">
               <a class="page-link q-selector" href="#">${index + 1}</a></li>`).join("")}
               <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
+                <a class="page-link" href="#" aria-label="Next" id="nextPagination">
                   <span aria-hidden="true">&raquo;</span>
                 </a>
               </li>
@@ -274,10 +274,12 @@ class QuestionScreen {
     screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
     screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
 
+
     const paginationElement = screen.parent.querySelector(".pagination");
     if(paginationElement) {
-      paginationElement.firstChild.addEventListener("click", goPreviousFn);
-      paginationElement.lastChild.addEventListener("click", goNextFn);
+      screen.parent.querySelector("#previousPagination").addEventListener("click", goPreviousFn);
+      screen.parent.querySelector("#nextPagination").addEventListener("click", goNextFn);
+      console.log("Previous pagination",screen.parent.querySelector("#previousPagination"));
     }
   }
 
