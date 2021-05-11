@@ -80,14 +80,15 @@ class QuestionScreen {
 
 
       // Change the UI
-      var nodes = this.parent.querySelectorAll('.q-selector');
-      nodes[selectedIndex].parentElement.remove(nodes[selectedIndex]);
+      const paginationElement = screen.parent.querySelector(".pagination");
+      var liToKill = paginationElement.children[selectedIndex+1];
+      liToKill.parentNode.removeChild( liToKill );
+
       if (selectedIndex == 0) {
         this.renderQuestions(this);
       } else {
         const nextIndexToSelect = selectedIndex == this.questions.length ? (selectedIndex - 1) : selectedIndex;
-        this.selectedQuestion = this.questions[nextIndexToSelect];
-        this.parent.querySelectorAll('.q-selector')[nextIndexToSelect].parentElement.classList.add("active");
+        setSelectedQuestionIndex(nextIndexToSelect)
       }
 
     }
@@ -152,7 +153,6 @@ class QuestionScreen {
 
 
     const setQTxt = (event) => {
-      console.log("Set Q Value")
       this.selectedQuestion.question = event.currentTarget.value;
       if (this.selectedQuestion.id) {
         this.updatedQuestions.push(this.selectedQuestion);
@@ -160,7 +160,6 @@ class QuestionScreen {
     }
 
     const setATxt = (event) => {
-      console.log("Set A Value")
       this.selectedQuestion.answer = event.currentTarget.value;
       if (this.selectedQuestion.id) {
         this.updatedQuestions.push(this.selectedQuestion);
