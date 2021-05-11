@@ -186,7 +186,7 @@ class QuestionScreen {
     }
 
     const goNextFn = (event) => {
-      console.log("Go next Clicked");
+      console.log("Go next Clicked", event.currentTarget);
     } 
 
 
@@ -277,9 +277,8 @@ class QuestionScreen {
 
     const paginationElement = screen.parent.querySelector(".pagination");
     if(paginationElement) {
-      screen.parent.querySelector("#previousPagination").addEventListener("click", goPreviousFn);
-      screen.parent.querySelector("#nextPagination").addEventListener("click", goNextFn);
-      console.log("Previous pagination",screen.parent.querySelector("#previousPagination"));
+      paginationElement.firstElementChild.addEventListener("click", goPreviousFn);
+      paginationElement.lastElementChild.addEventListener("click", goNextFn);
     }
   }
 
