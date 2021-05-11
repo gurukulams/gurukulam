@@ -168,8 +168,7 @@ class QuestionScreen {
     }
 
     const selectQuestionFn = (event) => {
-      const pageLink = event.currentTarget;
-      const pageItem = pageLink.parentElement;
+      const pageItem = event.currentTarget;
       setSelectedQuestionIndex(Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1);
 
     };
@@ -182,7 +181,10 @@ class QuestionScreen {
 
       const paginationElement = screen.parent.querySelector(".pagination");
 
-      paginationElement.querySelector(".active").classList.remove("active");
+      if(paginationElement.querySelector(".active")) {
+        paginationElement.querySelector(".active").classList.remove("active");
+      }
+      
       paginationElement.children[selectedQIndex + 1].classList.add("active");
 
       this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
@@ -209,8 +211,8 @@ class QuestionScreen {
                     <span aria-hidden="true">&laquo;</span>
                     </a>
                   </li>
-                    ${this.questions.map((question, index) => ` <li class="page-item">
-                  <a class="page-link q-selector" href="#">${index + 1}</a></li>`).join("")}
+                    ${this.questions.map((question, index) => ` <li class="page-item q-selector">
+                  <a class="page-link" href="#">${index + 1}</a></li>`).join("")}
                   <li class="page-item">
                     <a class="page-link" href="#" aria-label="Next" id="nextPagination">
                     <span aria-hidden="true">&raquo;</span>
@@ -260,11 +262,7 @@ class QuestionScreen {
       screen.parent.querySelector("#qTxt").addEventListener("change", setQTxt);
       screen.parent.querySelector('#aTxt').addEventListener("change", setATxt);
 
-      var nodes = screen.parent.querySelectorAll('.q-selector');
-      nodes[nodes.length - 1].parentElement.classList.add('active');
-      this.selectedQuestion = this.questions[nodes.length - 1];
-      screen.parent.querySelector("#qTxt").value = this.selectedQuestion.question;
-      screen.parent.querySelector('#aTxt').value = this.selectedQuestion.answer;
+      setSelectedQuestionIndex(this.questions.length-1)
 
       screen.parent.querySelectorAll(".q-selector")
         .forEach(element => element.addEventListener("click", selectQuestionFn));
