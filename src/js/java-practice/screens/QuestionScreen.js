@@ -230,8 +230,9 @@ class QuestionScreen {
                     <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
                     <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
                   </ul>
-                  <button type="button" class="delete-btn btn btn-secondary">Delete</button> 
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
                   <button type="button" class="save-btn btn btn-secondary">Save</button> 
+
               </div>
              
             </div>
@@ -274,7 +275,7 @@ class QuestionScreen {
       .forEach(element => element.addEventListener("click", addFunction));
 
     screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
-    screen.parent.querySelector(".delete-btn").addEventListener("click", deleteFn);
+    document.getElementById('exampleModal').onConfirmation = deleteFn;
 
 
     const paginationElement = screen.parent.querySelector(".pagination");
