@@ -170,42 +170,31 @@ class QuestionScreen {
     const selectQuestionFn = (event) => {
       const pageLink = event.currentTarget;
       const pageItem = pageLink.parentElement;
-
-      pageLink.parentElement.parentElement.querySelector(".active").classList.remove("active");
-      pageLink.parentElement.classList.add("active");
-
-      this.selectedQuestion = this.questions[Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1];
-
-      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
-      this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
+      setSelectedQuestionIndex(Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1);
 
     };
 
-    const goPreviousFn = (event) => {
-      console.log("Go previous Clicked", event.currentTarget);
+    const setSelectedQuestionIndex = (selectedQIndex) => {
+      // Data Changes
+      this.selectedQuestion = this.questions[selectedQIndex];
 
-      const previousIndex = this.questions.indexOf(this.selectedQuestion) - 1;
-      this.selectedQuestion = this.questions[previousIndex];
+      // UI Changes
 
-      const pageLink = event.currentTarget;
-      pageLink.parentElement.querySelector(".active").classList.remove("active");
-      pageLink.parentElement.children[previousIndex + 1].classList.add("active");
+      const paginationElement = screen.parent.querySelector(".pagination");
+
+      paginationElement.querySelector(".active").classList.remove("active");
+      paginationElement.children[selectedQIndex + 1].classList.add("active");
 
       this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
       this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
     }
 
+    const goPreviousFn = (event) => {
+      setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) - 1)
+    }
+
     const goNextFn = (event) => {
-
-      const pageLink = event.currentTarget;
-      const nextIndex = this.questions.indexOf(this.selectedQuestion) + 1;
-      this.selectedQuestion = this.questions[nextIndex];
-      pageLink.parentElement.querySelector(".active").classList.remove("active");
-      pageLink.parentElement.children[nextIndex + 1].classList.add("active");
-
-      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
-      this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
-
+      setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) + 1)
     } 
 
 
