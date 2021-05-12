@@ -12,7 +12,7 @@ class PracticesScreen {
   }
 
   render() {
-    fetch("/api/practices/java?size=6&page=" + this.pageNumber, {
+    fetch("/api/practices/"+this.parent.dataset.type+"?size=6&page=" + this.pageNumber, {
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -109,7 +109,7 @@ class PracticesScreen {
       .forEach((el) => {
         const id = el.dataset.id;
         el.querySelector(".del-btn").addEventListener("click", (event) => {
-          fetch("/api/practices/java/" + id, {
+          fetch("/api/practices/"+this.parent.dataset.type+"/" + id, {
             method: "DELETE",
             headers: {
               "Content-Type": "application/json",

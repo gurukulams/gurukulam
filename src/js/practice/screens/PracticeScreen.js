@@ -42,7 +42,7 @@ class PracticeScreen {
   this._id = _id;
   
   if(_id){
-    fetch('/api/practices/java/'+_id,{
+    fetch('/api/practices/' + this.parent.dataset.type + '/'+_id,{
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -69,7 +69,7 @@ class PracticeScreen {
 
     var examObj = { name: name.value,description: description.value };
     if(this._id) {
-      fetch("/api/practices/java/"+this._id, {
+      fetch("/api/practices/" +this.parent.dataset.type+"/"+this._id, {
         method: "PUT",
         headers: {
           "content-type": "application/json",
@@ -85,7 +85,7 @@ class PracticeScreen {
           console.log(e);
         });
     }else {
-      fetch("/api/practices/java", {
+      fetch("/api/practices/"+this.parent.dataset.type, {
         method: "POST",
         headers: {
           "content-type": "application/json",

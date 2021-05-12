@@ -23,7 +23,7 @@ class QuestionScreen {
     }
 
     this.examId = examId;
-    fetch('/api/practices/java/' + examId + '/questions', {
+    fetch('/api/practices/'+this.parent.dataset.type+'/' + examId + '/questions', {
       "headers": {
         "content-type": "application/json",
         "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
@@ -111,7 +111,7 @@ class QuestionScreen {
       this.questions.forEach(question => {
 
         if (!question.id) {
-          fetch("/api/practices/java/" + this.examId + "/questions/" + question.type, {
+          fetch("/api/practices/"+this.parent.dataset.type+"/" + this.examId + "/questions/" + question.type, {
             method: "POST",
             headers: {
               "content-type": "application/json",
@@ -126,7 +126,7 @@ class QuestionScreen {
       this.updatedQuestions.forEach(question => {
 
 
-        fetch("/api/practices/java/" + this.examId + "/questions/" + question.id, {
+        fetch("/api/practices/"+this.parent.dataset.type+"/" + this.examId + "/questions/" + question.id, {
           method: "PUT",
           headers: {
             "content-type": "application/json",
@@ -139,7 +139,7 @@ class QuestionScreen {
       });
 
       this.deletedQuestionIds.forEach(dQuestionId => {
-        fetch("/api/practices/java/" + this.examId + "/questions/" + dQuestionId, {
+        fetch("/api/practices/"+this.parent.dataset.type+"/" + this.examId + "/questions/" + dQuestionId, {
           method: "DELETE",
           headers: {
             "content-type": "application/json",

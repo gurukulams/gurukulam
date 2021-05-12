@@ -12,9 +12,9 @@ export default [{
   }
 },
 {
-  input: 'src/js/java-practice/index.js',
+  input: 'src/js/practice/index.js',
   output: {
-    file: 'dist/js/java-practice.js',
+    file: 'dist/js/practice.js',
     format: 'cjs'
   }
 }
