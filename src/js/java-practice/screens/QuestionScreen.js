@@ -180,6 +180,22 @@ class QuestionScreen {
 
       const paginationElement = screen.parent.querySelector(".pagination");
 
+      if(selectedQIndex == 0 ) {
+        paginationElement.firstElementChild.classList.add("disabled");
+        paginationElement.firstElementChild.removeEventListener("click", goPreviousFn);
+      }else {
+        paginationElement.firstElementChild.classList.remove("disabled");
+        paginationElement.firstElementChild.addEventListener("click", goPreviousFn);
+      }
+
+      if(selectedQIndex == (this.questions.length -1) ) {
+        paginationElement.lastElementChild.classList.add("disabled");
+        paginationElement.lastElementChild.removeEventListener("click", goNextFn);
+      }else {
+        paginationElement.lastElementChild.classList.remove("disabled");
+        paginationElement.lastElementChild.addEventListener("click", goNextFn);
+      }
+
       if(paginationElement.querySelector(".active")) {
         paginationElement.querySelector(".active").classList.remove("active");
       }
