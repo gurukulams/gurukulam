@@ -204,6 +204,9 @@ class QuestionScreen {
 
       this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
       this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
+      
+      this.parent.querySelector('#qTxt').focus();
+
     }
 
     const goPreviousFn = (event) => {
