@@ -158,13 +158,6 @@ class PracticesScreen {
         console.log("add exam button clicked");
         this.sqlExam.render();
       });
-
-    this.parent
-      .querySelector("#navbarsExample09 > form > button.btn-primary")
-      .addEventListener("click", (event) => {
-        console.log("add  question button clicked");
-        this.question.render();
-      });
   }
   createListElement(item) {
     let liEl = document.createElement("li");
