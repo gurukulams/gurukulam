@@ -4,6 +4,19 @@
 <head>
   ${require('../../layouts/_head.html')}
 
+  <style>
+    ol {
+      counter-reset: item;
+      list-style-type: none;
+      list-style-position: inside;
+    }
+
+    ol li::before {
+      counter-increment: item;
+      content: counters(item, ".") ". ";
+    }
+  </style>
+
 </head>
 
 <body>
@@ -57,16 +70,61 @@
     </div>
   </main><!-- /.container -->
   <div class="container mt-5 mb-3" style="padding-left: 200px">
-      
-      <span class="badge rounded-pill bg-warning">Part 1</span>
-      <h4 class="pt-3">The JavaScript Language</h4>
-      <p>Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP.</br>
-     We concentrate on the language itself here, with the minimum of environment-specific notes.</p>
+
+    <span class="badge rounded-pill bg-warning">Part 1</span>
+    <h4 class="pt-3">The JavaScript Language</h4>
+    <p>Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP.</br>
+      We concentrate on the language itself here, with the minimum of environment-specific notes.</p>
   </div>
   <div class="container mt-3 mb-3" style="padding-left: 200px">
     <h5>An Introduction</h5>
-
-</div>
+    <ol>
+      <li>Introduction</li>
+      <li>What is software development
+      <li>
+        Whatever
+        <ol>
+          <li>Uhuh</li>
+        </ol>
+      </li>
+      </li>
+      <li>What is a software crafter</li>
+      <li>Important skills and practical advice</li>
+      <li>
+        Whatever
+        <ol>
+          <li>Uhuh</li>
+          <li>
+            Ohoh
+            <ol>
+              <li>
+                <ol>
+                  <li>Sub blublu</li>
+                  <li>Another sub-blublu</li>
+                </ol>
+              </li>
+              <li>Blop</li>
+              <ol>
+                <li>Blabla</li>
+                <li>Blublu
+                  <ol>
+                    <li>Sub blublu</li>
+                    <li>Another sub-blublu</li>
+                  </ol>
+                </li>
+                <li>
+                  One more time
+                  <ol>
+                    <li>This is too much already</li>
+                  </ol>
+                </li>
+              </ol>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </div>
 
 
   ${require('../../layouts/_scripts.html')}
