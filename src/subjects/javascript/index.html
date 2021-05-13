@@ -9,21 +9,69 @@
 <body>
 
   ${require('../../layouts/_nav.html')}
+  <div class="container">
+    <div class=" row pt-5 mt-5">
+      <div class="col-6 d-flex justify-content-start">
+        <nav class="nav">
+          <a class="nav-link active" href="#"><i class="fas fa-key"></i></a>
+          <a class="nav-link" href="#">JAVASCRIPT.INFO</a>
+        </nav>
+      </div>
+      <div class="col-6 d-flex justify-content-end">
+        <nav class="nav">
+          <a class="nav-link " href="#"><i class="far fa-user"></i></i></a>
+          <a class="nav-link " href="#"><i class="fas fa-key"></i></a>
+        </nav>
+      </div>
 
-  <main class="container mt-5">
-
-    <div class="row p-5 m-3" id="content" >
-javascript infor
-
-      
     </div>
+  </div>
 
+  <main class="container mt-5 pt-3">
+    <div class="row text-center">
+      <h2 class="pb-3">The Modern Javascript Tutorial</h2>
+      <h5 class="pb-3">How it's done now. From the basics to advanced topics with simple, but detailed explanations.
+      </h5>
+      <div>
+        <a href=""><i class="far fa-calendar-alt p-2">15th Marcg 2021</i></a>
+        <a href="">13425<i class="fas fa-star p-2"></i>github</a>
+        <span class="p-2 m-2">Share:</span><a href=""><i class="fab fa-twitter p-2"></i></a><a href=""><i
+            class="fab fa-facebook-f"></i></a>
+      </div>
+
+    </div>
+    <div class="row justify-content-center mt-3">
+      <div class="col-8 d-flex">
+        <div class="input-group m-2">
+          <input type="text" class="form-control" placeholder="Search in the tutorial">
+        </div>
+        <button class="btn btn-primary m-2" type="button" id="button-addon2">Search</button>
+      </div>
+    </div>
+    <div class="row text-center mt-5">
+      <h3>Table of contents</h3>
+      <div class="row justify-content-center">
+        <p class="col-6">Main course contains 2 parts which cover JavaScript as a programming language and working with
+          a browser. There are also additional series of thematic articles.</p>
+      </div>
+    </div>
   </main><!-- /.container -->
+  <div class="container mt-5 mb-3" style="padding-left: 200px">
+      
+      <span class="badge rounded-pill bg-warning">Part 1</span>
+      <h4 class="pt-3">The JavaScript Language</h4>
+      <p>Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP.</br>
+     We concentrate on the language itself here, with the minimum of environment-specific notes.</p>
+  </div>
+  <div class="container mt-3 mb-3" style="padding-left: 200px">
+    <h5>An Introduction</h5>
+
+</div>
 
 
   ${require('../../layouts/_scripts.html')}
 
-  
+
 
 </body>
 
