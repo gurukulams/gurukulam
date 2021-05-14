@@ -4,6 +4,8 @@ class QuestionScreen {
     this.parent = _parent;
     this.caller = _caller;
 
+    this.questionEditor = null;
+
     // Model Objects
     this.questions = [];
     this.selectedQuestion = null;
@@ -153,7 +155,7 @@ class QuestionScreen {
 
 
     const setQTxt = (event) => {
-      this.selectedQuestion.question = event.currentTarget.value;
+      this.selectedQuestion.question = this.questionEditor.getText();
       if (this.selectedQuestion.id) {
         this.updatedQuestions.push(this.selectedQuestion);
       }
@@ -202,10 +204,10 @@ class QuestionScreen {
       
       paginationElement.children[selectedQIndex + 1].classList.add("active");
 
-      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
+      this.questionEditor.setText(this.selectedQuestion.question ? this.selectedQuestion.question : '') ;
       this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
       
-      this.parent.querySelector('#qTxt').focus();
+      this.questionEditor.focus();
 
     }
 
@@ -260,11 +262,12 @@ class QuestionScreen {
           ${screen.questions.length == 0 ? `<p class="lead">There are no questions. But you can create one</p>`
         : `<div class="row">
            <div class="col-6">
-             <div class="form-floating mb-3">
-             <input type="question" class="form-control" id="qTxt" placeholder="Question">
-             <label for="qTxt">Question</label>
-             </div>
-             </div>
+           <div id="qTxt">
+           <p>Hello World!</p>
+           <p>Some initial <strong>bold</strong> text</p>
+           <p><br></p>
+         </div>
+           </div>
            <div class="col-6">
                <div class="form-floating mb-3">
                <input type="answer" class="form-control" id="aTxt" placeholder="Answer">
@@ -278,8 +281,20 @@ class QuestionScreen {
 
 
     if (this.questions.length != 0) {
-      screen.parent.querySelector("#qTxt").addEventListener("change", setQTxt);
+
       screen.parent.querySelector('#aTxt').addEventListener("change", setATxt);
+
+      var options = {
+        debug: 'info',
+        
+        placeholder: 'Compose a question...',
+    
+        theme: 'snow'
+      };
+      this.questionEditor = new Quill("#qTxt",options);  // First matching element will be used
+      this.questionEditor.on('text-change', function(delta, oldDelta, source) {
+        setQTxt();
+      });
 
       setSelectedQuestionIndex(this.questions.length-1)
 
