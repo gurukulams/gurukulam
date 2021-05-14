@@ -10,14 +10,23 @@ class Core {
             document.querySelector(".secured").classList.add("invisible");
         }
 
+        // Confirmation Modal pop up logic
         var myModalEl = document.getElementById('exampleModal')
+        let cRelatedTarget = null;
         myModalEl.addEventListener('shown.bs.modal', function (event) {
-            const modelElement = event.currentTarget;
-            modelElement.querySelector('.btn-primary').addEventListener("click", (event) => {
-                document.getElementById('exampleModal').onConfirmation();
-                var modal = bootstrap.Modal.getInstance(modelElement)
-                modal.hide();
 
+            cRelatedTarget = event.relatedTarget;
+            myModalEl.querySelector('.btn-primary').addEventListener("click", (event) => {
+                
+                if(!event.calledFlag) {
+                    event.calledFlag = true;
+                    const confirmationEvent = new Event('on-confirmation');
+                    cRelatedTarget.dispatchEvent(confirmationEvent,{ bubbles: false, detail: { text: () => "textarea.value" } });
+                    bootstrap.Modal.getInstance(myModalEl).hide();  
+                      
+                }
+                
+      
             });
         })
 
