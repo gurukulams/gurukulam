@@ -155,7 +155,7 @@ class QuestionScreen {
 
 
     const setQTxt = (event) => {
-      this.selectedQuestion.question = this.questionEditor.getText();
+      this.selectedQuestion.question = this.questionEditor.root.innerHTML;
       if (this.selectedQuestion.id) {
         this.updatedQuestions.push(this.selectedQuestion);
       }
@@ -204,7 +204,7 @@ class QuestionScreen {
       
       paginationElement.children[selectedQIndex + 1].classList.add("active");
 
-      this.questionEditor.setText(this.selectedQuestion.question ? this.selectedQuestion.question : '') ;
+      this.questionEditor.root.innerHTML = (this.selectedQuestion.question ? this.selectedQuestion.question : '') ;
       this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
       
       this.questionEditor.focus();
@@ -296,7 +296,7 @@ class QuestionScreen {
         setQTxt();
       });
 
-      setSelectedQuestionIndex(this.questions.length-1)
+      setSelectedQuestionIndex(0)
 
       screen.parent.querySelectorAll(".q-selector")
         .forEach(element => element.addEventListener("click", selectQuestionFn));

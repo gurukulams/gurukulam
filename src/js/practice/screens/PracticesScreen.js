@@ -165,9 +165,7 @@ class PracticesScreen {
     liEl.innerHTML =
       '<div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' +
       item.name +
-      "</h5> <small>" +
-      item.database +
-      `</small> </div> <p class="mb-1">${item.description}</p> <small data-id="` +
+      `</h5> </div> <p class="mb-1">${item.description}</p> <small data-id="` +
       item.id +
       '"><a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
     return liEl;
