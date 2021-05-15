@@ -20,7 +20,7 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
 
 #### Table of contents
 
-1. [Section 1](#section-1)
+1. [Section 1](books/javascript/introduction)
 2. [Section 2](#section-2)
    - [Subsection a](#subsection-a)
    - [Subsection b](#subsection-b)
