@@ -50,7 +50,7 @@
     "build:css": "postcss -o dist/app.css src/css/*.css",
     "build:js": "rollup -c",
     "build:html": "html-includes --src src --dest dist --minify",
-    "build": "run-s clean copy build:*",
+    "build": "run-s clean lint copy build:*",
     "watch:hugo": "onchange \"books\" -- run-s build:hugo",
     "watch:css": "onchange \"src/css\" -- run-s build:css",
     "watch:js": "onchange \"src/js\" -- run-s build:js",
