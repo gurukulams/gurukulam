@@ -1,12 +1,12 @@
 class Core {
     constructor() {
         if (sessionStorage.auth) {
-            document.querySelector(".logout").addEventListener("click", (event) => {
+            document.querySelector(".logout").addEventListener("click", () => {
                 delete sessionStorage.auth;
                 window.location.href = '/';
             });
             document.querySelector(".avatar").src = JSON.parse(sessionStorage.auth).profilePicture;
-        } else if(document.querySelector(".secured") != null ) {
+        } else if(document.querySelector(".secured") !== null ) {
             document.querySelector(".secured").classList.add("invisible");
         }
 
@@ -22,6 +22,7 @@ class Core {
                     event.calledFlag = true;
                     const confirmationEvent = new Event('on-confirmation');
                     cRelatedTarget.dispatchEvent(confirmationEvent,{ bubbles: false, detail: { text: () => "textarea.value" } });
+                    // eslint-disable-next-line no-undef
                     bootstrap.Modal.getInstance(myModalEl).hide();  
                       
                 }

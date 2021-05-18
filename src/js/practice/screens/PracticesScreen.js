@@ -19,9 +19,9 @@ class PracticesScreen {
       }
     })
       .then((response) => {
-        if (response.status == 200) {
+        if (response.status === 200) {
           return response;
-        } else if (response.status == 204) {
+        } else if (response.status === 204) {
           let e = new Error(response.statusText);
           e.name = "NoContent";
           e.root = this;
@@ -77,12 +77,12 @@ class PracticesScreen {
         this.registerEvents();
       })
       .catch(function (error) {
-        if (error.name == "NoContent") {
+        if (error.name === "NoContent") {
           error.root.parent.innerHTML =
             '<p class="lead">There are no practices. But you can create one <a href="javascript://">here</a></p>';
           error.root.parent
             .querySelector("p > a")
-            .addEventListener("click", (event) => {
+            .addEventListener("click", () => {
               error.root.sqlExam.render();
             });
         } else {
@@ -108,7 +108,7 @@ class PracticesScreen {
       .querySelectorAll("div > div > ul > li > small")
       .forEach((el) => {
         const id = el.dataset.id;
-        el.querySelector(".del-btn").addEventListener("click", (event) => {
+        el.querySelector(".del-btn").addEventListener("click", () => {
           fetch("/api/practices/"+this.parent.dataset.type+"/" + id, {
             method: "DELETE",
             headers: {
@@ -116,18 +116,18 @@ class PracticesScreen {
               "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
             },
           }).then((response) => {
-            if (response.status == 200) {
+            if (response.status === 200) {
               this.render();
             }
           });
         });
         el.querySelector(".edit-btn")
-          .addEventListener("click", (event) => {
+          .addEventListener("click", () => {
             this.sqlExam.render(id);
           });
 
         el.querySelector(".add-q-btn")
-          .addEventListener("click", (event) => {
+          .addEventListener("click", () => {
             console.log("add question button clicked" + id);
             this.question.render(id);
           });
@@ -138,7 +138,7 @@ class PracticesScreen {
     var el = this.parent
       .querySelector("#navbarsExample09 > ul > li > a.link-prev");
     if (el) {
-      el.addEventListener("click", (event) => {
+      el.addEventListener("click", () => {
         this.pageNumber = this.pageNumber - 1;
         this.render();
       });
@@ -146,7 +146,7 @@ class PracticesScreen {
     el = this.parent
       .querySelector("#navbarsExample09 > ul > li > a.link-next");
     if (el) {
-      el.addEventListener("click", (event) => {
+      el.addEventListener("click", () => {
         this.pageNumber = this.pageNumber + 1;
         this.render();
       });
@@ -154,7 +154,7 @@ class PracticesScreen {
     // Add exam event
     this.parent
       .querySelector("#navbarsExample09 > form > button.btn-primary")
-      .addEventListener("click", (event) => {
+      .addEventListener("click", () => {
         console.log("add exam button clicked");
         this.sqlExam.render();
       });

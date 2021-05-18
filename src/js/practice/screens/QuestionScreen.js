@@ -36,7 +36,7 @@ class QuestionScreen {
         // Shorthand to check for an HTTP 2xx response status.
         // See https://fetch.spec.whatwg.org/#dom-response-ok
         if (response.ok) {
-          if (response.status == 204) {
+          if (response.status === 204) {
             this.questions = [];
             this.renderQuestions(this);
             throw Error('Empty Content 3');
@@ -56,7 +56,7 @@ class QuestionScreen {
 
       }).catch(function (error) {
         console.log(error);
-      });;
+      });
 
   }
 
@@ -69,7 +69,7 @@ class QuestionScreen {
       this.renderQuestions(this);
     }
 
-    const deleteFn = (event) => {
+    const deleteFn = () => {
       // Change the Data
       const selectedIndex = this.questions.indexOf(this.selectedQuestion);
       console.log("Item to be removed is at {}", selectedIndex);
@@ -86,10 +86,10 @@ class QuestionScreen {
       var liToKill = paginationElement.children[selectedIndex+1];
       liToKill.parentNode.removeChild( liToKill );
 
-      if (selectedIndex == 0) {
+      if (selectedIndex === 0) {
         this.renderQuestions(this);
       } else {
-        const nextIndexToSelect = selectedIndex == this.questions.length ? (selectedIndex - 1) : selectedIndex;
+        const nextIndexToSelect = selectedIndex === this.questions.length ? (selectedIndex - 1) : selectedIndex;
         setSelectedQuestionIndex(nextIndexToSelect)
       }
 
@@ -105,7 +105,7 @@ class QuestionScreen {
       this.caller.render();
     }
 
-    const saveFn = (event) => {
+    const saveFn = () => {
       console.log("save exam with id " + this.examId);
       console.log("with selectedQuestion {}", this.selectedQuestion);
       console.log("with questions {}", this.questions);
@@ -154,7 +154,7 @@ class QuestionScreen {
     }
 
 
-    const setQTxt = (event) => {
+    const setQTxt = () => {
       this.selectedQuestion.question = this.questionEditor.root.innerHTML;
       if (this.selectedQuestion.id) {
         this.updatedQuestions.push(this.selectedQuestion);
@@ -182,7 +182,7 @@ class QuestionScreen {
 
       const paginationElement = screen.parent.querySelector(".pagination");
 
-      if(selectedQIndex == 0 ) {
+      if(selectedQIndex === 0 ) {
         paginationElement.firstElementChild.classList.add("disabled");
         paginationElement.firstElementChild.removeEventListener("click", goPreviousFn);
       }else {
@@ -190,7 +190,7 @@ class QuestionScreen {
         paginationElement.firstElementChild.addEventListener("click", goPreviousFn);
       }
 
-      if(selectedQIndex == (this.questions.length -1) ) {
+      if(selectedQIndex === (this.questions.length -1) ) {
         paginationElement.lastElementChild.classList.add("disabled");
         paginationElement.lastElementChild.removeEventListener("click", goNextFn);
       }else {
@@ -211,11 +211,11 @@ class QuestionScreen {
 
     }
 
-    const goPreviousFn = (event) => {
+    const goPreviousFn = () => {
       setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) - 1)
     }
 
-    const goNextFn = (event) => {
+    const goNextFn = () => {
       setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) + 1)
     } 
 
@@ -223,7 +223,7 @@ class QuestionScreen {
     screen.parent.innerHTML = `<div class="container">
           <div class="row">
             <div class="col-6">
-              ${screen.questions.length != 0 ? `
+              ${screen.questions.length !== 0 ? `
               <nav aria-label="Page navigation example">
                 <ul class="pagination">
                   <li class="page-item">
@@ -231,7 +231,7 @@ class QuestionScreen {
                     <span aria-hidden="true">&laquo;</span>
                     </a>
                   </li>
-                    ${this.questions.map((question, index) => ` <li class="page-item q-selector">
+                    ${this.questions.map((_question, index) => ` <li class="page-item q-selector">
                   <a class="page-link" href="#">${index + 1}</a></li>`).join("")}
                   <li class="page-item">
                     <a class="page-link" href="#" aria-label="Next" id="nextPagination">
@@ -259,7 +259,7 @@ class QuestionScreen {
           </div>
 
 
-          ${screen.questions.length == 0 ? `<p class="lead">There are no questions. But you can create one</p>`
+          ${screen.questions.length === 0 ? `<p class="lead">There are no questions. But you can create one</p>`
         : `<div class="row">
            <div class="col-6">
            <div id="qTxt">
@@ -280,7 +280,7 @@ class QuestionScreen {
         </div>`;
 
 
-    if (this.questions.length != 0) {
+    if (this.questions.length !== 0) {
 
       screen.parent.querySelector('#aTxt').addEventListener("change", setATxt);
 
@@ -291,8 +291,10 @@ class QuestionScreen {
     
         theme: 'snow'
       };
+      // eslint-disable-next-line no-undef
       this.questionEditor = new Quill("#qTxt",options);  // First matching element will be used
-      this.questionEditor.on('text-change', function(delta, oldDelta, source) {
+      // eslint-disable-next-line no-unused-vars
+      this.questionEditor.on('text-change', function(_delta, _oldDelta, _source) {
         setQTxt();
       });
 
