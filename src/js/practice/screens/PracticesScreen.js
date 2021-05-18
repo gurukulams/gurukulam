@@ -125,7 +125,7 @@ class PracticesScreen {
       .querySelectorAll("div > div > ul > li > small")
       .forEach((el) => {
         const id = el.dataset.id;
-        el.querySelector(".del-btn").addEventListener("click", () => {
+        el.querySelector(".del-btn").addEventListener("on-confirmation", () => {
           fetch("/api/practices/" + this.parent.dataset.type + "/" + id, {
             method: "DELETE",
             headers: {
@@ -181,7 +181,7 @@ class PracticesScreen {
       item.name +
       `</h5> </div> <p class="mb-1">${item.description}</p> <small data-id="` +
       item.id +
-      '"><a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
+      '"><a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a></small>';
     return liEl;
   }
 }
