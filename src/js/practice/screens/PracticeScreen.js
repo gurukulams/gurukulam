@@ -13,23 +13,43 @@ class PracticeScreen {
     let formEl = document.createElement("form");
     formEl.classList.add("row");
     formEl.classList.add("g-3");
+    formEl.classList.add("needs-validation");
+    formEl.noValidate = true;
     formEl.innerHTML = `
-      <div class="col-12">
+      <div class="col-12 form-check">
         <label for="name" class="form-label">Name</label>
-        <input  class="form-control" id="name">
+        <input class="form-control" id="name" required>
+        <div class="invalid-feedback">
+        Please choose a username.
       </div>
-      <div class="col-12">
+      </div>
+      <div class="col-12 form-check">
         <label for="description" class="form-label">Description</label>
-        <textarea class="form-control" id="description"></textarea>
+        <textarea class="form-control" id="description" required></textarea>
+        <div class="invalid-feedback">
+        Please choose a username.
+      </div>
       </div>
       
-       
       <div class="col-12">
         <button type="submit" class="btn btn-primary">Create</button> 
         <button type="button" class="btn btn-secondary">Cancel</button>
       </div>`;
     this.parent.appendChild(formEl);
-    formEl.addEventListener("submit", (e) => this.saveExam(e));
+    formEl.addEventListener(
+      "submit",
+      (e) => {
+        if (formEl.checkValidity()) {
+          this.saveExam(e);
+        } else {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+
+        formEl.classList.add("was-validated");
+      },
+      false
+    );
 
     this.parent
       .querySelector("form > div:nth-child(3) > button.btn.btn-secondary")
