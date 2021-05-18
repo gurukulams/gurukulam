@@ -12,16 +12,22 @@ class PracticesScreen {
   }
 
   render() {
-    fetch("/api/practices/"+this.parent.dataset.type+"?size=6&page=" + this.pageNumber, {
-      "headers": {
-        "content-type": "application/json",
-        "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+    fetch(
+      "/api/practices/" +
+        this.parent.dataset.type +
+        "?size=6&page=" +
+        this.pageNumber,
+      {
+        headers: {
+          "content-type": "application/json",
+          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+        },
       }
-    })
+    )
       .then((response) => {
-        if (response.status == 200) {
+        if (response.status === 200) {
           return response;
-        } else if (response.status == 204) {
+        } else if (response.status === 204) {
           let e = new Error(response.statusText);
           e.name = "NoContent";
           e.root = this;
@@ -77,76 +83,84 @@ class PracticesScreen {
         this.registerEvents();
       })
       .catch(function (error) {
-        if (error.name == "NoContent") {
+        if (error.name === "NoContent") {
           error.root.parent.innerHTML =
             '<p class="lead">There are no practices. But you can create one <a href="javascript://">here</a></p>';
           error.root.parent
             .querySelector("p > a")
-            .addEventListener("click", (event) => {
+            .addEventListener("click", () => {
               error.root.sqlExam.render();
             });
         } else {
           console.log("Request failed:", error);
-
         }
       });
   }
 
   pagination(page) {
     return `
-     <span>${(page.size * page.number) + 1} - ${page.totalElements > (page.size * (page.number + 1)) ? (page.size * (page.number + 1)) : page.totalElements} of ${page.totalElements}</span>
+     <span>${page.size * page.number + 1} - ${
+      page.totalElements > page.size * (page.number + 1)
+        ? page.size * (page.number + 1)
+        : page.totalElements
+    } of ${page.totalElements}</span>
      <ul class="navbar-nav me-auto mb-2 mb-lg-0 pagination"> 
 
-     ${page.first ? '' : ` <li class="page-item"><a class="page-link link-prev" href="#"><<</a></li> `}
+     ${
+       page.first
+         ? ""
+         : ` <li class="page-item"><a class="page-link link-prev" href="#"><<</a></li> `
+     }
      
-     ${page.last ? '' : `<li class="page-item"><a class="page-link link-next" href="#">>></a></li> `}
+     ${
+       page.last
+         ? ""
+         : `<li class="page-item"><a class="page-link link-next" href="#">>></a></li> `
+     }
      
-    </ul>`
+    </ul>`;
   }
   registerEvents() {
     this.parent
       .querySelectorAll("div > div > ul > li > small")
       .forEach((el) => {
         const id = el.dataset.id;
-        el.querySelector(".del-btn").addEventListener("click", (event) => {
-          fetch("/api/practices/"+this.parent.dataset.type+"/" + id, {
+        el.querySelector(".del-btn").addEventListener("on-confirmation", () => {
+          fetch("/api/practices/" + this.parent.dataset.type + "/" + id, {
             method: "DELETE",
             headers: {
               "Content-Type": "application/json",
-              "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+              Authorization:
+                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
             },
           }).then((response) => {
-            if (response.status == 200) {
+            if (response.status === 200) {
               this.render();
             }
           });
         });
-        el.querySelector(".edit-btn")
-          .addEventListener("click", (event) => {
-            this.sqlExam.render(id);
-          });
+        el.querySelector(".edit-btn").addEventListener("click", () => {
+          this.sqlExam.render(id);
+        });
 
-        el.querySelector(".add-q-btn")
-          .addEventListener("click", (event) => {
-            console.log("add question button clicked" + id);
-            this.question.render(id);
-          });
+        el.querySelector(".add-q-btn").addEventListener("click", () => {
+          console.log("add question button clicked" + id);
+          this.question.render(id);
+        });
       });
 
-
-
-    var el = this.parent
-      .querySelector("#navbarsExample09 > ul > li > a.link-prev");
+    var el = this.parent.querySelector(
+      "#navbarsExample09 > ul > li > a.link-prev"
+    );
     if (el) {
-      el.addEventListener("click", (event) => {
+      el.addEventListener("click", () => {
         this.pageNumber = this.pageNumber - 1;
         this.render();
       });
     }
-    el = this.parent
-      .querySelector("#navbarsExample09 > ul > li > a.link-next");
+    el = this.parent.querySelector("#navbarsExample09 > ul > li > a.link-next");
     if (el) {
-      el.addEventListener("click", (event) => {
+      el.addEventListener("click", () => {
         this.pageNumber = this.pageNumber + 1;
         this.render();
       });
@@ -154,16 +168,9 @@ class PracticesScreen {
     // Add exam event
     this.parent
       .querySelector("#navbarsExample09 > form > button.btn-primary")
-      .addEventListener("click", (event) => {
+      .addEventListener("click", () => {
         console.log("add exam button clicked");
         this.sqlExam.render();
-      });
-
-    this.parent
-      .querySelector("#navbarsExample09 > form > button.btn-primary")
-      .addEventListener("click", (event) => {
-        console.log("add  question button clicked");
-        this.question.render();
       });
   }
   createListElement(item) {
@@ -172,11 +179,9 @@ class PracticesScreen {
     liEl.innerHTML =
       '<div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' +
       item.name +
-      "</h5> <small>" +
-      item.database +
-      `</small> </div> <p class="mb-1">${item.description}</p> <small data-id="` +
+      `</h5> </div> <p class="mb-1">${item.description}</p> <small data-id="` +
       item.id +
-      '"><a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="del-btn">Delete</a></small>';
+      '"><a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a></small>';
     return liEl;
   }
 }

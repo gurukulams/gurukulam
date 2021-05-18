@@ -1,3 +1,3 @@
-import Home from './Home';
+import Home from "./Home";
 
-let home = new Home();
+new Home();

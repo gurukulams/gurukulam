@@ -1,0 +1,11 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Gurukulam School"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+[markup.goldmark.renderer]
+unsafe= true
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
