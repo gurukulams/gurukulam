@@ -1,5 +1,6 @@
 body{
     width: auto;
+    background-color: red;
 }
 :fullscreen {
     background-color: aliceblue;
@@ -41,3 +42,4 @@ body{
   .done {
     text-decoration: line-through;
   }
+

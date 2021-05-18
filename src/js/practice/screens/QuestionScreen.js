@@ -11,11 +11,41 @@ class QuestionScreen {
 
     this.deletedQuestionIds = [];
     this.updatedQuestions = [];
+    this.deleteFn= this.deleteFn.bind(this);
+    document.getElementById('exampleModal').onConfirmation = this.deleteFn;
 
   }
 
+   deleteFn = () => {
+      
+    // Change the Data
+    const selectedIndex = this.questions.indexOf(this.selectedQuestion);
+    console.log("Item to be removed is at {}", selectedIndex);
+    this.questions.splice(selectedIndex, 1);
 
+    // Store Deleted Question Id
+    if (this.selectedQuestion.id) {
+      this.deletedQuestionIds.push(this.selectedQuestion.id);
+    }
+
+
+    // Change the UI
+    const paginationElement = this.parent.querySelector(".pagination");
+    var liToKill = paginationElement.children[selectedIndex+1];
+    liToKill.parentNode.removeChild( liToKill );
+
+    if (selectedIndex == 0) {
+      this.renderQuestions(this);
+    } else {
+      const nextIndexToSelect = selectedIndex == this.questions.length ? (selectedIndex - 1) : selectedIndex;
+      this.setSelectedQuestionIndex(nextIndexToSelect)
+    }
+
+  }
   render(examId) {
+   
+    console.log(3);
+    
 
     this.oldChildNodes = [];
     while (this.parent.firstChild) {
@@ -57,9 +87,48 @@ class QuestionScreen {
       });;
 
   }
+  goPreviousFn = (event) =>{
+    this.setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) - 1)
+  }
+   goNextFn = (event)=> {
+    this.setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) + 1)
+  } 
+  setSelectedQuestionIndex (selectedQIndex) {
+    // Data Changes
+    this.selectedQuestion = this.questions[selectedQIndex];
 
+    // UI Changes
+
+    const paginationElement = this.parent.querySelector(".pagination");
+
+    if(selectedQIndex == 0 ) {
+      paginationElement.firstElementChild.classList.add("disabled");
+      paginationElement.firstElementChild.removeEventListener("click", this.goPreviousFn);
+    }else {
+      paginationElement.firstElementChild.classList.remove("disabled");
+      paginationElement.firstElementChild.addEventListener("click", this.goPreviousFn);
+    }
+
+    if(selectedQIndex == (this.questions.length -1) ) {
+      paginationElement.lastElementChild.classList.add("disabled");
+      paginationElement.lastElementChild.removeEventListener("click", this.goNextFn);
+    }else {
+      paginationElement.lastElementChild.classList.remove("disabled");
+      paginationElement.lastElementChild.addEventListener("click", this.goNextFn);
+    }
+
+    if(paginationElement.querySelector(".active")) {
+      paginationElement.querySelector(".active").classList.remove("active");
+    }
+    
+    paginationElement.children[selectedQIndex + 1].classList.add("active");
+
+    this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
+    this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
+  }
+   
   renderQuestions(screen) {
-
+console.log($)
     const addFunction = (event) => {
       console.log("add question button clicked {}", event.currentTarget);
       this.selectedQuestion = { question: '', answer: '', type: event.currentTarget.dataset.type };
@@ -67,31 +136,7 @@ class QuestionScreen {
       this.renderQuestions(this);
     }
 
-    const deleteFn = (event) => {
-      // Change the Data
-      const selectedIndex = this.questions.indexOf(this.selectedQuestion);
-      console.log("Item to be removed is at {}", selectedIndex);
-      this.questions.splice(selectedIndex, 1);
-
-      // Store Deleted Question Id
-      if (this.selectedQuestion.id) {
-        this.deletedQuestionIds.push(this.selectedQuestion.id);
-      }
-
-
-      // Change the UI
-      const paginationElement = screen.parent.querySelector(".pagination");
-      var liToKill = paginationElement.children[selectedIndex+1];
-      liToKill.parentNode.removeChild( liToKill );
-
-      if (selectedIndex == 0) {
-        this.renderQuestions(this);
-      } else {
-        const nextIndexToSelect = selectedIndex == this.questions.length ? (selectedIndex - 1) : selectedIndex;
-        setSelectedQuestionIndex(nextIndexToSelect)
-      }
-
-    }
+    
 
     const goBack = () => {
       // Navigate Back to Listing Screen
@@ -168,51 +213,15 @@ class QuestionScreen {
 
     const selectQuestionFn = (event) => {
       const pageItem = event.currentTarget;
-      setSelectedQuestionIndex(Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1);
+      this.setSelectedQuestionIndex(Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1);
 
     };
 
-    const setSelectedQuestionIndex = (selectedQIndex) => {
-      // Data Changes
-      this.selectedQuestion = this.questions[selectedQIndex];
+    
 
-      // UI Changes
+    
 
-      const paginationElement = screen.parent.querySelector(".pagination");
-
-      if(selectedQIndex == 0 ) {
-        paginationElement.firstElementChild.classList.add("disabled");
-        paginationElement.firstElementChild.removeEventListener("click", goPreviousFn);
-      }else {
-        paginationElement.firstElementChild.classList.remove("disabled");
-        paginationElement.firstElementChild.addEventListener("click", goPreviousFn);
-      }
-
-      if(selectedQIndex == (this.questions.length -1) ) {
-        paginationElement.lastElementChild.classList.add("disabled");
-        paginationElement.lastElementChild.removeEventListener("click", goNextFn);
-      }else {
-        paginationElement.lastElementChild.classList.remove("disabled");
-        paginationElement.lastElementChild.addEventListener("click", goNextFn);
-      }
-
-      if(paginationElement.querySelector(".active")) {
-        paginationElement.querySelector(".active").classList.remove("active");
-      }
-      
-      paginationElement.children[selectedQIndex + 1].classList.add("active");
-
-      this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
-      this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
-    }
-
-    const goPreviousFn = (event) => {
-      setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) - 1)
-    }
-
-    const goNextFn = (event) => {
-      setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) + 1)
-    } 
+    
 
 
     screen.parent.innerHTML = `<div class="container">
@@ -278,7 +287,7 @@ class QuestionScreen {
       screen.parent.querySelector("#qTxt").addEventListener("change", setQTxt);
       screen.parent.querySelector('#aTxt').addEventListener("change", setATxt);
 
-      setSelectedQuestionIndex(this.questions.length-1)
+      this.setSelectedQuestionIndex(this.questions.length-1)
 
       screen.parent.querySelectorAll(".q-selector")
         .forEach(element => element.addEventListener("click", selectQuestionFn));
@@ -290,13 +299,13 @@ class QuestionScreen {
       .forEach(element => element.addEventListener("click", addFunction));
 
     screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
-    document.getElementById('exampleModal').onConfirmation = deleteFn;
+    
 
 
     const paginationElement = screen.parent.querySelector(".pagination");
     if(paginationElement) {
-      paginationElement.firstElementChild.addEventListener("click", goPreviousFn);
-      paginationElement.lastElementChild.addEventListener("click", goNextFn);
+      paginationElement.firstElementChild.addEventListener("click", this.goPreviousFn);
+      paginationElement.lastElementChild.addEventListener("click", this.goNextFn);
     }
   }
 
