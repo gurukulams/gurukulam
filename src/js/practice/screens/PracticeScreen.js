@@ -1,19 +1,17 @@
 class PracticeScreen {
-  constructor(_parent,_caller) {
+  constructor(_parent, _caller) {
     this.parent = _parent;
     this.caller = _caller;
   }
 
   render(_id) {
-
-
     this.oldChildNodes = [];
     while (this.parent.firstChild) {
       this.oldChildNodes.push(this.parent.removeChild(this.parent.firstChild));
     }
-    
+
     let formEl = document.createElement("form");
-    formEl.classList.add("row");   
+    formEl.classList.add("row");
     formEl.classList.add("g-3");
     formEl.innerHTML = `
       <div class="col-12">
@@ -33,25 +31,26 @@ class PracticeScreen {
     this.parent.appendChild(formEl);
     formEl.addEventListener("submit", (e) => this.saveExam(e));
 
-    this.parent.querySelector(
-      "form > div:nth-child(3) > button.btn.btn-secondary"
-    ).addEventListener("click", (event) => {
-      event.preventDefault();
-      this.goBack(this);
-    });
-  this._id = _id;
-  
-  if(_id){
-    fetch('/api/practices/' + this.parent.dataset.type + '/'+_id,{
-      "headers": {
-        "content-type": "application/json",
-        "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
-      }
-    }).then(response => response.json())
-    .then(exam => {
-      formEl.querySelector("#name").value = exam.name;
-      formEl.querySelector("#description").value = exam.description;
-    });
+    this.parent
+      .querySelector("form > div:nth-child(3) > button.btn.btn-secondary")
+      .addEventListener("click", (event) => {
+        event.preventDefault();
+        this.goBack(this);
+      });
+    this._id = _id;
+
+    if (_id) {
+      fetch("/api/practices/" + this.parent.dataset.type + "/" + _id, {
+        headers: {
+          "content-type": "application/json",
+          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+        },
+      })
+        .then((response) => response.json())
+        .then((exam) => {
+          formEl.querySelector("#name").value = exam.name;
+          formEl.querySelector("#description").value = exam.description;
+        });
     }
   }
   goBack(btnComponent) {
@@ -65,15 +64,15 @@ class PracticeScreen {
 
   saveExam(event) {
     event.preventDefault();
-    const { name, description} = event.target;
+    const { name, description } = event.target;
 
-    var examObj = { name: name.value,description: description.value };
-    if(this._id) {
-      fetch("/api/practices/" +this.parent.dataset.type+"/"+this._id, {
+    var examObj = { name: name.value, description: description.value };
+    if (this._id) {
+      fetch("/api/practices/" + this.parent.dataset.type + "/" + this._id, {
         method: "PUT",
         headers: {
           "content-type": "application/json",
-          "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
         },
         body: JSON.stringify(examObj),
       })
@@ -84,12 +83,12 @@ class PracticeScreen {
         .catch((e) => {
           console.log(e);
         });
-    }else {
-      fetch("/api/practices/"+this.parent.dataset.type, {
+    } else {
+      fetch("/api/practices/" + this.parent.dataset.type, {
         method: "POST",
         headers: {
           "content-type": "application/json",
-          "Authorization": "Bearer " + JSON.parse(sessionStorage.auth).authToken
+          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
         },
         body: JSON.stringify(examObj),
       })
@@ -101,10 +100,9 @@ class PracticeScreen {
           console.log(e);
         });
     }
-    
+
     return false;
   }
-
 }
 
 export default PracticeScreen;
