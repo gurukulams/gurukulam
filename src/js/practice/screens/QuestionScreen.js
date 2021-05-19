@@ -12,48 +12,9 @@ class QuestionScreen {
 
     this.deletedQuestionIds = [];
     this.updatedQuestions = [];
-<<<<<<< HEAD
-    this.deleteFn= this.deleteFn.bind(this);
-    document.getElementById('exampleModal').onConfirmation = this.deleteFn;
-
-  }
-
-   deleteFn = () => {
-      
-    // Change the Data
-    const selectedIndex = this.questions.indexOf(this.selectedQuestion);
-    console.log("Item to be removed is at {}", selectedIndex);
-    this.questions.splice(selectedIndex, 1);
-
-    // Store Deleted Question Id
-    if (this.selectedQuestion.id) {
-      this.deletedQuestionIds.push(this.selectedQuestion.id);
-    }
-
-
-    // Change the UI
-    const paginationElement = this.parent.querySelector(".pagination");
-    var liToKill = paginationElement.children[selectedIndex+1];
-    liToKill.parentNode.removeChild( liToKill );
-
-    if (selectedIndex == 0) {
-      this.renderQuestions(this);
-    } else {
-      const nextIndexToSelect = selectedIndex == this.questions.length ? (selectedIndex - 1) : selectedIndex;
-      this.setSelectedQuestionIndex(nextIndexToSelect)
-    }
-
-  }
-  render(examId) {
-   
-    console.log(3);
-    
-
-=======
   }
 
   render(examId) {
->>>>>>> 9a343913be62449d378df8bfa98dfba29b1118a6
     this.oldChildNodes = [];
     while (this.parent.firstChild) {
       this.oldChildNodes.push(this.parent.removeChild(this.parent.firstChild));
@@ -97,52 +58,8 @@ class QuestionScreen {
         console.log(error);
       });
   }
-  goPreviousFn = (event) =>{
-    this.setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) - 1)
-  }
-   goNextFn = (event)=> {
-    this.setSelectedQuestionIndex(this.questions.indexOf(this.selectedQuestion) + 1)
-  } 
-  setSelectedQuestionIndex (selectedQIndex) {
-    // Data Changes
-    this.selectedQuestion = this.questions[selectedQIndex];
 
-    // UI Changes
-
-    const paginationElement = this.parent.querySelector(".pagination");
-
-    if(selectedQIndex == 0 ) {
-      paginationElement.firstElementChild.classList.add("disabled");
-      paginationElement.firstElementChild.removeEventListener("click", this.goPreviousFn);
-    }else {
-      paginationElement.firstElementChild.classList.remove("disabled");
-      paginationElement.firstElementChild.addEventListener("click", this.goPreviousFn);
-    }
-
-<<<<<<< HEAD
-    if(selectedQIndex == (this.questions.length -1) ) {
-      paginationElement.lastElementChild.classList.add("disabled");
-      paginationElement.lastElementChild.removeEventListener("click", this.goNextFn);
-    }else {
-      paginationElement.lastElementChild.classList.remove("disabled");
-      paginationElement.lastElementChild.addEventListener("click", this.goNextFn);
-    }
-
-    if(paginationElement.querySelector(".active")) {
-      paginationElement.querySelector(".active").classList.remove("active");
-    }
-    
-    paginationElement.children[selectedQIndex + 1].classList.add("active");
-
-    this.parent.querySelector('#qTxt').value = this.selectedQuestion.question ? this.selectedQuestion.question : '';
-    this.parent.querySelector('#aTxt').value = this.selectedQuestion.answer ? this.selectedQuestion.answer : '';
-  }
-   
   renderQuestions(screen) {
-console.log($)
-=======
-  renderQuestions(screen) {
->>>>>>> 9a343913be62449d378df8bfa98dfba29b1118a6
     const addFunction = (event) => {
       console.log("add question button clicked {}", event.currentTarget);
       this.selectedQuestion = {
@@ -154,9 +71,6 @@ console.log($)
       this.renderQuestions(this);
     };
 
-<<<<<<< HEAD
-    
-=======
     const deleteFn = () => {
       // Change the Data
       const selectedIndex = this.questions.indexOf(this.selectedQuestion);
@@ -183,7 +97,6 @@ console.log($)
         setSelectedQuestionIndex(nextIndexToSelect);
       }
     };
->>>>>>> 9a343913be62449d378df8bfa98dfba29b1118a6
 
     const goBack = () => {
       // Navigate Back to Listing Screen
@@ -280,23 +193,17 @@ console.log($)
 
     const selectQuestionFn = (event) => {
       const pageItem = event.currentTarget;
-<<<<<<< HEAD
-      this.setSelectedQuestionIndex(Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1);
-
-=======
       setSelectedQuestionIndex(
         Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1
       );
->>>>>>> 9a343913be62449d378df8bfa98dfba29b1118a6
     };
 
-    
+    const setSelectedQuestionIndex = (selectedQIndex) => {
+      // Data Changes
+      this.selectedQuestion = this.questions[selectedQIndex];
 
-<<<<<<< HEAD
-    
+      // UI Changes
 
-    
-=======
       const paginationElement = screen.parent.querySelector(".pagination");
 
       if (selectedQIndex === 0) {
@@ -345,7 +252,6 @@ console.log($)
         this.questions.indexOf(this.selectedQuestion) - 1
       );
     };
->>>>>>> 9a343913be62449d378df8bfa98dfba29b1118a6
 
     const goNextFn = () => {
       setSelectedQuestionIndex(
@@ -432,11 +338,7 @@ console.log($)
       var options = {
         debug: "info",
 
-<<<<<<< HEAD
-      this.setSelectedQuestionIndex(this.questions.length-1)
-=======
         placeholder: "Compose a question...",
->>>>>>> 9a343913be62449d378df8bfa98dfba29b1118a6
 
         theme: "snow",
       };
@@ -464,15 +366,6 @@ console.log($)
       );
 
     screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
-<<<<<<< HEAD
-    
-
-
-    const paginationElement = screen.parent.querySelector(".pagination");
-    if(paginationElement) {
-      paginationElement.firstElementChild.addEventListener("click", this.goPreviousFn);
-      paginationElement.lastElementChild.addEventListener("click", this.goNextFn);
-=======
     screen.parent
       .querySelector(".delete-btn")
       .addEventListener("on-confirmation", deleteFn);
@@ -484,7 +377,6 @@ console.log($)
         goPreviousFn
       );
       paginationElement.lastElementChild.addEventListener("click", goNextFn);
->>>>>>> 9a343913be62449d378df8bfa98dfba29b1118a6
     }
   }
 }

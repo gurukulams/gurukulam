@@ -25,7 +25,7 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
     - [Manuals and specifications](#subsection-b)
     - [Code editors](#subsection-b)
     - [Developer console](#subsection-b)
-2. [JavaScript Fundamentals](books/javascript/introduction)
+2. [JavaScript Fundamentals](books/javascript/)
    - [Hello, world!](#subsection-a)
    - [Code structure](#subsection-b)
    - [The modern mode, "use strict"](#subsection-b)
