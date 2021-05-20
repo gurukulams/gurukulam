@@ -32,6 +32,18 @@ class Core {
           }
         });
     });
+
+    window.showStatus = (type, statusMessage) => {
+      console.log("{} => {}", type, statusMessage);
+    };
+
+    // Toast
+
+    var toastElList = [].slice.call(document.querySelectorAll(".toast"));
+    toastElList.map(function (toastEl) {
+      // eslint-disable-next-line no-undef
+      return new bootstrap.Toast(toastEl, { autohide: true }).show();
+    });
   }
 }
 

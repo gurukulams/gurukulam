@@ -96,9 +96,9 @@ class PracticeScreen {
         },
         body: JSON.stringify(examObj),
       })
-        .then((response) => {
+        .then(() => {
           this.goBack(this);
-          console.log(response);
+          window.showStatus("success", "Added");
         })
         .catch((e) => {
           console.log(e);
