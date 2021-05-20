@@ -291,7 +291,7 @@ class QuestionScreen {
                   : ``
               }
             </div>
-            <div class="col-6 ">
+            <div class="col-6">
               <div class="dropdown float-end">
                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   Add
@@ -312,7 +312,7 @@ class QuestionScreen {
           ${
             screen.questions.length === 0
               ? `<p class="lead">There are no questions. But you can create one</p>`
-              : `<div class="row">
+              : `<div class="row h-100">
            <div class="col-6">
            <div id="qTxt">
            <p>Hello World!</p>
