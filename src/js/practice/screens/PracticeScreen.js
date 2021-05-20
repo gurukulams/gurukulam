@@ -18,7 +18,7 @@ class PracticeScreen {
     formEl.innerHTML = `
       <div class="col-12 form-check">
         <label for="name" class="form-label">Name</label>
-        <input class="form-control" id="name" required>
+        <input class="form-control" id="name">
         <div class="invalid-feedback">
         Please choose a username.
       </div>
@@ -45,7 +45,6 @@ class PracticeScreen {
           e.preventDefault();
           e.stopPropagation();
         }
-
         formEl.classList.add("was-validated");
       },
       false
@@ -96,12 +95,15 @@ class PracticeScreen {
         },
         body: JSON.stringify(examObj),
       })
-        .then(() => {
+        .then((response) => {
+          if (response.status >= 400 && response.status < 600) {
+            throw new Error("Bad response from server");
+          }
           this.goBack(this);
-          window.showStatus("success", "Updated");
+          window.success("Updated");
         })
         .catch((e) => {
-          console.log(e);
+          window.error("Failed to update", e);
         });
     } else {
       fetch("/api/practices/" + this.parent.dataset.type, {
@@ -112,12 +114,15 @@ class PracticeScreen {
         },
         body: JSON.stringify(examObj),
       })
-        .then(() => {
+        .then((response) => {
+          if (response.status >= 400 && response.status < 600) {
+            throw new Error("Bad response from server");
+          }
           this.goBack(this);
-          window.showStatus("success", "Added");
+          window.success("success", "Added");
         })
         .catch((e) => {
-          console.log(e);
+          window.error("Failed to add", e);
         });
     }
 
