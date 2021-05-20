@@ -98,7 +98,7 @@ class PracticeScreen {
       })
         .then(() => {
           this.goBack(this);
-          window.showStatus("success", "Added");
+          window.showStatus("success", "Updated");
         })
         .catch((e) => {
           console.log(e);
@@ -112,9 +112,9 @@ class PracticeScreen {
         },
         body: JSON.stringify(examObj),
       })
-        .then((response) => {
+        .then(() => {
           this.goBack(this);
-          console.log(response);
+          window.showStatus("success", "Added");
         })
         .catch((e) => {
           console.log(e);

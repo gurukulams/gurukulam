@@ -34,16 +34,28 @@ class Core {
     });
 
     window.showStatus = (type, statusMessage) => {
-      console.log("{} => {}", type, statusMessage);
-    };
+      var delay = 2000;
 
-    // Toast
-
-    var toastElList = [].slice.call(document.querySelectorAll(".toast"));
-    toastElList.map(function (toastEl) {
+      var toastConainerElement = document.getElementById("toast-container");
+      toastConainerElement.innerHTML = `<div class="toast align-items-center  border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          ${statusMessage}
+        </div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      </div>`;
       // eslint-disable-next-line no-undef
-      return new bootstrap.Toast(toastEl, { autohide: true }).show();
-    });
+      var toast = new bootstrap.Toast(toastConainerElement.firstElementChild, {
+        delay: delay,
+        animation: true,
+      });
+      toast.show();
+
+      console.log("SSSS");
+
+      // setTimeout(() => toastElement.remove(), delay + 3000); // let a certain margin to allow the "hiding toast animation"
+    };
   }
 }
 
