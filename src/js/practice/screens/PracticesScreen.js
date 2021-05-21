@@ -144,7 +144,6 @@ class PracticesScreen {
         });
 
         el.querySelector(".add-q-btn").addEventListener("click", () => {
-          console.log("add question button clicked" + id);
           this.question.render(id);
         });
       });

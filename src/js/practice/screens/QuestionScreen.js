@@ -14,6 +14,69 @@ class QuestionScreen {
     this.updatedQuestions = [];
   }
 
+  setSelectedQuestionIndex(selectedQIndex) {
+    // Data Changes
+    this.selectedQuestion = this.questions[selectedQIndex];
+
+    // UI Changes
+
+    const goPreviousFn = () => {
+      this.setSelectedQuestionIndex(
+        this.questions.indexOf(this.selectedQuestion) - 1
+      );
+    };
+
+    const goNextFn = () => {
+      this.setSelectedQuestionIndex(
+        this.questions.indexOf(this.selectedQuestion) + 1
+      );
+    };
+
+    const paginationElement = this.parent.querySelector(".pagination");
+
+    if (selectedQIndex === 0) {
+      paginationElement.firstElementChild.classList.add("disabled");
+      paginationElement.firstElementChild.removeEventListener(
+        "click",
+        goPreviousFn
+      );
+    } else {
+      paginationElement.firstElementChild.classList.remove("disabled");
+      paginationElement.firstElementChild.addEventListener(
+        "click",
+        goPreviousFn
+      );
+    }
+
+    if (selectedQIndex === this.questions.length - 1) {
+      paginationElement.lastElementChild.classList.add("disabled");
+      paginationElement.lastElementChild.removeEventListener("click", goNextFn);
+    } else {
+      paginationElement.lastElementChild.classList.remove("disabled");
+      paginationElement.lastElementChild.addEventListener("click", goNextFn);
+    }
+
+    if (paginationElement.querySelector(".active")) {
+      paginationElement.querySelector(".active").classList.remove("active");
+    }
+
+    paginationElement.children[selectedQIndex + 1].classList.add("active");
+
+    this.questionEditor.root.innerHTML = this.selectedQuestion.question
+      ? this.selectedQuestion.question
+      : "";
+
+    this.renderAnswerElement();
+
+    // Setting Answer
+    // this.parent.querySelector("#answerElement").value = this.selectedQuestion
+    //   .answer
+    //   ? this.selectedQuestion.answer
+    //   : "";
+
+    this.questionEditor.focus();
+  }
+
   render(examId) {
     this.oldChildNodes = [];
     while (this.parent.firstChild) {
@@ -53,15 +116,47 @@ class QuestionScreen {
       .then((data) => {
         this.questions = data;
         this.renderQuestions(this);
+        this.setSelectedQuestionIndex(0);
       })
       .catch(function (error) {
         console.log(error);
       });
   }
 
+  renderAnswerElement() {
+    const setATxt = (event) => {
+      this.selectedQuestion.answer = event.currentTarget.value;
+      if (this.selectedQuestion.id) {
+        this.updatedQuestions.push(this.selectedQuestion);
+      }
+    };
+
+    switch (this.selectedQuestion.type) {
+      case "ml":
+        this.parent.querySelector(
+          "#answerContainer"
+        ).innerHTML = `<textarea type="answer" class="form-control" 
+                           placeholder="Answer">${this.selectedQuestion.answer}</textarea>
+                          <label for="aTxt" >Answer</label>`;
+        this.parent
+          .querySelector("#answerContainer")
+          .firstElementChild.addEventListener("change", setATxt);
+        break;
+      default:
+        this.parent.querySelector(
+          "#answerContainer"
+        ).innerHTML = `<input type="answer" class="form-control" 
+                          placeholder="Answer" value="${this.selectedQuestion.answer}">
+                          <label for="aTxt" >Answer</label>`;
+        this.parent
+          .querySelector("#answerContainer")
+          .firstElementChild.addEventListener("change", setATxt);
+        break;
+    }
+  }
+
   renderQuestions(screen) {
     const addFunction = (event) => {
-      console.log("add question button clicked {}", event.currentTarget);
       this.selectedQuestion = {
         question: "",
         answer: "",
@@ -69,12 +164,13 @@ class QuestionScreen {
       };
       this.questions.push(this.selectedQuestion);
       this.renderQuestions(this);
+      this.setSelectedQuestionIndex(this.questions.length - 1);
     };
 
     const deleteFn = () => {
       // Change the Data
       const selectedIndex = this.questions.indexOf(this.selectedQuestion);
-      console.log("Item to be removed is at {}", selectedIndex);
+
       this.questions.splice(selectedIndex, 1);
 
       // Store Deleted Question Id
@@ -94,7 +190,7 @@ class QuestionScreen {
           selectedIndex === this.questions.length
             ? selectedIndex - 1
             : selectedIndex;
-        setSelectedQuestionIndex(nextIndexToSelect);
+        this.setSelectedQuestionIndex(nextIndexToSelect);
       }
     };
 
@@ -184,78 +280,10 @@ class QuestionScreen {
       }
     };
 
-    const setATxt = (event) => {
-      this.selectedQuestion.answer = event.currentTarget.value;
-      if (this.selectedQuestion.id) {
-        this.updatedQuestions.push(this.selectedQuestion);
-      }
-    };
-
     const selectQuestionFn = (event) => {
       const pageItem = event.currentTarget;
-      setSelectedQuestionIndex(
+      this.setSelectedQuestionIndex(
         Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1
-      );
-    };
-
-    const setSelectedQuestionIndex = (selectedQIndex) => {
-      // Data Changes
-      this.selectedQuestion = this.questions[selectedQIndex];
-
-      // UI Changes
-
-      const paginationElement = screen.parent.querySelector(".pagination");
-
-      if (selectedQIndex === 0) {
-        paginationElement.firstElementChild.classList.add("disabled");
-        paginationElement.firstElementChild.removeEventListener(
-          "click",
-          goPreviousFn
-        );
-      } else {
-        paginationElement.firstElementChild.classList.remove("disabled");
-        paginationElement.firstElementChild.addEventListener(
-          "click",
-          goPreviousFn
-        );
-      }
-
-      if (selectedQIndex === this.questions.length - 1) {
-        paginationElement.lastElementChild.classList.add("disabled");
-        paginationElement.lastElementChild.removeEventListener(
-          "click",
-          goNextFn
-        );
-      } else {
-        paginationElement.lastElementChild.classList.remove("disabled");
-        paginationElement.lastElementChild.addEventListener("click", goNextFn);
-      }
-
-      if (paginationElement.querySelector(".active")) {
-        paginationElement.querySelector(".active").classList.remove("active");
-      }
-
-      paginationElement.children[selectedQIndex + 1].classList.add("active");
-
-      this.questionEditor.root.innerHTML = this.selectedQuestion.question
-        ? this.selectedQuestion.question
-        : "";
-      this.parent.querySelector("#aTxt").value = this.selectedQuestion.answer
-        ? this.selectedQuestion.answer
-        : "";
-
-      this.questionEditor.focus();
-    };
-
-    const goPreviousFn = () => {
-      setSelectedQuestionIndex(
-        this.questions.indexOf(this.selectedQuestion) - 1
-      );
-    };
-
-    const goNextFn = () => {
-      setSelectedQuestionIndex(
-        this.questions.indexOf(this.selectedQuestion) + 1
       );
     };
 
@@ -323,9 +351,8 @@ class QuestionScreen {
          </div>
            </div>
            <div class="col-6">
-               <div class="form-floating mb-3">
-               <input type="answer" class="form-control" id="aTxt" placeholder="Answer">
-               <label for="aTxt" >Answer</label>
+               <div class="form-floating mb-3" id="answerContainer">
+               
              </div>
            </div>
          </div>`
@@ -335,11 +362,11 @@ class QuestionScreen {
         </div>`;
 
     if (this.questions.length !== 0) {
-      screen.parent.querySelector("#aTxt").addEventListener("change", setATxt);
+      // screen.parent
+      //   .querySelector("#answerElement")
+      //   .addEventListener("change", setATxt);
 
       var options = {
-        debug: "info",
-
         placeholder: "Compose a question...",
 
         theme: "snow",
@@ -351,7 +378,7 @@ class QuestionScreen {
         setQTxt();
       });
 
-      setSelectedQuestionIndex(0);
+      // setSelectedQuestionIndex(0);
 
       screen.parent
         .querySelectorAll(".q-selector")
@@ -371,15 +398,6 @@ class QuestionScreen {
     screen.parent
       .querySelector(".delete-btn")
       .addEventListener("on-confirmation", deleteFn);
-
-    const paginationElement = screen.parent.querySelector(".pagination");
-    if (paginationElement) {
-      paginationElement.firstElementChild.addEventListener(
-        "click",
-        goPreviousFn
-      );
-      paginationElement.lastElementChild.addEventListener("click", goNextFn);
-    }
   }
 }
 export default QuestionScreen;
