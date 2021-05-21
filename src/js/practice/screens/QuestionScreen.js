@@ -135,6 +135,30 @@ class QuestionScreen {
       setATxt(event.currentTarget.value);
     };
 
+    const setCodeEditor = (language) => {
+      this.parent.querySelector("#answerContainer").innerHTML = ``;
+      // eslint-disable-next-line no-undef
+      require.config({
+        paths: {
+          vs: "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.23.0/min/vs",
+        },
+      });
+      // eslint-disable-next-line no-undef
+      require(["vs/editor/editor.main"], () => {
+        // eslint-disable-next-line no-undef
+        const monEditor = monaco.editor.create(
+          this.parent.querySelector("#answerContainer"),
+          {
+            value: this.selectedQuestion.answer,
+            language: language,
+          }
+        );
+        monEditor.onDidChangeModelContent(function () {
+          setATxt(monEditor.getValue());
+        });
+      });
+    };
+
     switch (this.selectedQuestion.type) {
       case "ml":
         this.parent.querySelector(
@@ -147,27 +171,10 @@ class QuestionScreen {
           .firstElementChild.addEventListener("change", onChangeText);
         break;
       case "code-sql":
-        this.parent.querySelector("#answerContainer").innerHTML = ``;
-        // eslint-disable-next-line no-undef
-        require.config({
-          paths: {
-            vs: "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.23.0/min/vs",
-          },
-        });
-        // eslint-disable-next-line no-undef
-        require(["vs/editor/editor.main"], () => {
-          // eslint-disable-next-line no-undef
-          const monEditor = monaco.editor.create(
-            this.parent.querySelector("#answerContainer"),
-            {
-              value: this.selectedQuestion.answer,
-              language: "sql",
-            }
-          );
-          monEditor.onDidChangeModelContent(function () {
-            setATxt(monEditor.getValue());
-          });
-        });
+        setCodeEditor("sql");
+        break;
+      case "code-java":
+        setCodeEditor("java");
         break;
       default:
         this.parent.querySelector(
@@ -355,6 +362,7 @@ class QuestionScreen {
                     <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
                     <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
                     <li data-type="code-sql"><a class="dropdown-item" href="#">Sql</a></li>
+                    <li data-type="code-java"><a class="dropdown-item" href="#">Java</a></li>
                   </ul>
                   <button type="button" class="delete-btn btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
                   <button type="button" class="save-btn btn btn-secondary">Save</button> 
