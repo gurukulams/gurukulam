@@ -10,8 +10,9 @@
  |  https://github.com/shakyShane/browser-sync/wiki/Working-with-a-Config-File
  |
  */
+// eslint-disable-next-line no-undef
 module.exports = {
     files: ["dist/css/*.css", "dist/js/*.js", "dist/**/*.html"],
     serveStatic: ['dist'],
-    proxy: "https://gurukulam.techatpark.com"
+    proxy: "https://localhost:8443"
 };
