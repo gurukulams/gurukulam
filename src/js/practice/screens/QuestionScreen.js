@@ -124,11 +124,15 @@ class QuestionScreen {
   }
 
   renderAnswerElement() {
-    const setATxt = (event) => {
-      this.selectedQuestion.answer = event.currentTarget.value;
+    const setATxt = (value) => {
+      this.selectedQuestion.answer = value;
       if (this.selectedQuestion.id) {
         this.updatedQuestions.push(this.selectedQuestion);
       }
+    };
+
+    const onChangeText = (event) => {
+      setATxt(event.currentTarget.value);
     };
 
     switch (this.selectedQuestion.type) {
@@ -140,13 +144,29 @@ class QuestionScreen {
                           <label for="aTxt" >Answer</label>`;
         this.parent
           .querySelector("#answerContainer")
-          .firstElementChild.addEventListener("change", setATxt);
+          .firstElementChild.addEventListener("change", onChangeText);
         break;
       case "code-sql":
+        this.parent.querySelector("#answerContainer").innerHTML = ``;
         // eslint-disable-next-line no-undef
-        monaco.editor.create(document.getElementById("#answerContainer"), {
-          value: "function hello() {\n\talert('Hello world!');\n}",
-          language: "javascript",
+        require.config({
+          paths: {
+            vs: "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.23.0/min/vs",
+          },
+        });
+        // eslint-disable-next-line no-undef
+        require(["vs/editor/editor.main"], () => {
+          // eslint-disable-next-line no-undef
+          const monEditor = monaco.editor.create(
+            this.parent.querySelector("#answerContainer"),
+            {
+              value: this.selectedQuestion.answer,
+              language: "sql",
+            }
+          );
+          monEditor.onDidChangeModelContent(function () {
+            setATxt(monEditor.getValue());
+          });
         });
         break;
       default:
@@ -157,7 +177,7 @@ class QuestionScreen {
                           <label for="aTxt" >Answer</label>`;
         this.parent
           .querySelector("#answerContainer")
-          .firstElementChild.addEventListener("change", setATxt);
+          .firstElementChild.addEventListener("change", onChangeText);
         break;
     }
   }
@@ -359,7 +379,7 @@ class QuestionScreen {
          </div>
            </div>
            <div class="col-6">
-               <div class="form-floating mb-3" id="answerContainer">
+               <div class="form-floating mb-3 h-100" id="answerContainer">
                
              </div>
            </div>
