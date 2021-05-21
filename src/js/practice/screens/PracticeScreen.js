@@ -18,16 +18,16 @@ class PracticeScreen {
     formEl.innerHTML = `
       <div class="col-12 form-check">
         <label for="name" class="form-label">Name</label>
-        <input class="form-control" id="name">
+        <input class="form-control" id="name" required>
         <div class="invalid-feedback">
-        Please choose a username.
+        Please choose a Name.
       </div>
       </div>
       <div class="col-12 form-check">
         <label for="description" class="form-label">Description</label>
         <textarea class="form-control" id="description" required></textarea>
         <div class="invalid-feedback">
-        Please choose a username.
+        Please write Description.
       </div>
       </div>
       

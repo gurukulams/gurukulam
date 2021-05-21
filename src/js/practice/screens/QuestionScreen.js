@@ -142,6 +142,13 @@ class QuestionScreen {
           .querySelector("#answerContainer")
           .firstElementChild.addEventListener("change", setATxt);
         break;
+      case "code-sql":
+        // eslint-disable-next-line no-undef
+        monaco.editor.create(document.getElementById("#answerContainer"), {
+          value: "function hello() {\n\talert('Hello world!');\n}",
+          language: "javascript",
+        });
+        break;
       default:
         this.parent.querySelector(
           "#answerContainer"
@@ -327,6 +334,7 @@ class QuestionScreen {
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
                     <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
                     <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
+                    <li data-type="code-sql"><a class="dropdown-item" href="#">Sql</a></li>
                   </ul>
                   <button type="button" class="delete-btn btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
                   <button type="button" class="save-btn btn btn-secondary">Save</button> 
