@@ -259,7 +259,7 @@ class QuestionScreen {
       );
     };
 
-    screen.parent.innerHTML = `<div class="container h-75">
+    screen.parent.innerHTML = `<div class="container">
           <div class="row">
             <div class="col-6">
               ${
@@ -291,7 +291,7 @@ class QuestionScreen {
                   : ``
               }
             </div>
-            <div class="col-6 ">
+            <div class="col-6">
               <div class="dropdown float-end">
                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   Add
@@ -312,9 +312,14 @@ class QuestionScreen {
           ${
             screen.questions.length === 0
               ? `<p class="lead">There are no questions. But you can create one</p>`
+<<<<<<< HEAD
               : `<div class = "container h-100">
               <div class="row h-100">
            <div class="col-6 ">
+=======
+              : `<div class="row h-100">
+           <div class="col-6">
+>>>>>>> ebce54e544996b9cb70cc36d7db83514582f1f9d
            <div id="qTxt">
            <p>Hello World!</p>
            <p>Some initial <strong>bold</strong> text</p>
@@ -323,11 +328,10 @@ class QuestionScreen {
            </div>
            <div class="col-6">
                <div class="form-floating mb-3">
-               <input type="answer" class="form-control h-100" id="aTxt" placeholder="Answer">
+               <input type="answer" class="form-control" id="aTxt" placeholder="Answer">
                <label for="aTxt" >Answer</label>
              </div>
            </div>
-         </div>
          </div>`
           }
 
