@@ -259,7 +259,7 @@ class QuestionScreen {
       );
     };
 
-    screen.parent.innerHTML = `<div class="container">
+    screen.parent.innerHTML = `<div class="container h-75">
           <div class="row">
             <div class="col-6">
               ${
@@ -312,14 +312,10 @@ class QuestionScreen {
           ${
             screen.questions.length === 0
               ? `<p class="lead">There are no questions. But you can create one</p>`
-<<<<<<< HEAD
               : `<div class = "container h-100">
               <div class="row h-100">
            <div class="col-6 ">
-=======
-              : `<div class="row h-100">
-           <div class="col-6">
->>>>>>> ebce54e544996b9cb70cc36d7db83514582f1f9d
+
            <div id="qTxt">
            <p>Hello World!</p>
            <p>Some initial <strong>bold</strong> text</p>
