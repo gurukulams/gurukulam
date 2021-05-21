@@ -167,7 +167,7 @@ class QuestionScreen {
       case "ml":
         this.parent.querySelector(
           "#answerContainer"
-        ).innerHTML = `<textarea type="answer" class="form-control" 
+        ).innerHTML = `<textarea type="answer" class="form-control h-100" 
                            placeholder="Answer">${this.selectedQuestion.answer}</textarea>
                           <label for="aTxt" >Answer</label>`;
         this.parent
