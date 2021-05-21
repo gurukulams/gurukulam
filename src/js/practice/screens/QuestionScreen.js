@@ -151,6 +151,10 @@ class QuestionScreen {
           {
             value: this.selectedQuestion.answer,
             language: language,
+            roundedSelection: false,
+            scrollBeyondLastLine: false,
+            readOnly: false,
+            theme: "vs-dark",
           }
         );
         monEditor.onDidChangeModelContent(function () {
@@ -239,10 +243,6 @@ class QuestionScreen {
     };
 
     const saveFn = () => {
-      console.log("save exam with id " + this.examId);
-      console.log("with selectedQuestion {}", this.selectedQuestion);
-      console.log("with questions {}", this.questions);
-
       this.questions.forEach((question) => {
         if (!question.id) {
           fetch(
@@ -321,7 +321,7 @@ class QuestionScreen {
       );
     };
 
-    screen.parent.innerHTML = `<div class="container h-75">
+    screen.parent.innerHTML = `<div class="container vh-100">
           <div class="row">
             <div class="col-6">
               ${
@@ -376,8 +376,8 @@ class QuestionScreen {
           ${
             screen.questions.length === 0
               ? `<p class="lead">There are no questions. But you can create one</p>`
-              : `<div class = "container h-100">
-              <div class="row h-100">
+              : `
+              <div class="row h-50">
            <div class="col-6 ">
 
            <div id="qTxt">
@@ -387,11 +387,11 @@ class QuestionScreen {
          </div>
            </div>
            <div class="col-6">
-               <div class="form-floating mb-3 h-100" id="answerContainer">
+               <div class="form-floating mb-3 h-100" style="height:100%" id="answerContainer">
                
              </div>
            </div>
-         </div>`
+         `
           }
 
           
