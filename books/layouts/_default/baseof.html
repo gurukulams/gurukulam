@@ -28,11 +28,11 @@
 <body >
 
   
-<main class="container mt-5">
-
+<main class="container mt-5 min-vh-100">
+  {{ block "header" . }}{{ partial "header" . }}{{end}}
   <div class="row p-5 m-3" id="content" data-type="java">
 
-    {{ block "header" . }}{{ partial "header" . }}{{end}}
+    
 
     {{ block "main" . }}{{end}}
   
