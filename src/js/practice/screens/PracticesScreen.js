@@ -41,12 +41,12 @@ class PracticesScreen {
       .then((page) => {
         var pageComponent = this.pagination(page);
         this.parent.innerHTML = `
-        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example"> 
+        <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example"> 
           <div class="container-fluid"> 
             <div class="collapse navbar-collapse" id="navbarsExample09"> 
             ${pageComponent}
                <form> 
-                <button type="button" class="btn btn-primary">Add</button> 
+                <button type="button" class="btn">Add</button> 
               </form> 
             </div> 
           </div> 
@@ -121,32 +121,30 @@ class PracticesScreen {
     </ul>`;
   }
   registerEvents() {
-    this.parent
-      .querySelectorAll("div > div > ul > li > small")
-      .forEach((el) => {
-        const id = el.dataset.id;
-        el.querySelector(".del-btn").addEventListener("on-confirmation", () => {
-          fetch("/api/practices/" + this.parent.dataset.type + "/" + id, {
-            method: "DELETE",
-            headers: {
-              "Content-Type": "application/json",
-              Authorization:
-                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-            },
-          }).then((response) => {
-            if (response.status === 200) {
-              this.render();
-            }
-          });
-        });
-        el.querySelector(".edit-btn").addEventListener("click", () => {
-          this.sqlExam.render(id);
-        });
-
-        el.querySelector(".add-q-btn").addEventListener("click", () => {
-          this.question.render(id);
+    this.parent.querySelectorAll(".card-footer").forEach((el) => {
+      const id = el.dataset.id;
+      el.querySelector(".del-btn").addEventListener("on-confirmation", () => {
+        fetch("/api/practices/" + this.parent.dataset.type + "/" + id, {
+          method: "DELETE",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization:
+              "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+          },
+        }).then((response) => {
+          if (response.status === 200) {
+            this.render();
+          }
         });
       });
+      el.querySelector(".edit-btn").addEventListener("click", () => {
+        this.sqlExam.render(id);
+      });
+
+      el.querySelector(".add-q-btn").addEventListener("click", () => {
+        this.question.render(id);
+      });
+    });
 
     var el = this.parent.querySelector(
       "#navbarsExample09 > ul > li > a.link-prev"
@@ -175,12 +173,18 @@ class PracticesScreen {
   createListElement(item) {
     let liEl = document.createElement("li");
     liEl.classList.add("list-group-item");
-    liEl.innerHTML =
-      '<div class="d-flex w-100 justify-content-between"><h5 class="mb-1">' +
-      item.name +
-      `</h5> </div> <p class="mb-1">${item.description}</p> <small data-id="` +
-      item.id +
-      '"><a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a></small>';
+    liEl.innerHTML = `<div class="card">
+    <div class="card-header">
+      ${item.name}
+    </div>
+    <div class="card-body">
+    ${item.description}
+    </div>
+    <div class="card-footer" data-id="${item.id}">
+    <a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a>
+    </div>
+  </div>`;
+
     return liEl;
   }
 }

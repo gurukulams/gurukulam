@@ -355,7 +355,7 @@ class QuestionScreen {
             </div>
             <div class="col-6">
               <div class="dropdown float-end">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   Add
                   </button>
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
@@ -364,8 +364,8 @@ class QuestionScreen {
                     <li data-type="code-sql"><a class="dropdown-item" href="#">Sql</a></li>
                     <li data-type="code-java"><a class="dropdown-item" href="#">Java</a></li>
                   </ul>
-                  <button type="button" class="delete-btn btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
-                  <button type="button" class="save-btn btn btn-secondary">Save</button> 
+                  <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
+                  <button type="button" class="save-btn btn">Save</button> 
 
               </div>
              
