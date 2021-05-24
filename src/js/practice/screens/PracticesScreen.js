@@ -104,9 +104,23 @@ class PracticesScreen {
     </ul>`;
   }
   registerEvents() {
-    this.parent.querySelectorAll(".card-footer").forEach((el) => {
-      const id = el.parentElement.dataset.id;
-      el.querySelector(".del-btn").addEventListener("on-confirmation", () => {
+    this.parent.querySelectorAll("a.h5").forEach((el) => {
+      const id = el.parentElement.parentElement.dataset.id;
+      el.addEventListener("click", () => {
+        this.question.render(id);
+      });
+    });
+
+    this.parent.querySelectorAll("a.edit-btn").forEach((el) => {
+      const id = el.parentElement.parentElement.dataset.id;
+      el.addEventListener("click", () => {
+        this.sqlExam.render(id);
+      });
+    });
+
+    this.parent.querySelectorAll("a.del-btn").forEach((el) => {
+      const id = el.parentElement.parentElement.dataset.id;
+      el.addEventListener("on-confirmation", () => {
         fetch("/api/practices/" + this.parent.dataset.type + "/" + id, {
           method: "DELETE",
           headers: {
@@ -119,13 +133,6 @@ class PracticesScreen {
             this.render();
           }
         });
-      });
-      el.querySelector(".edit-btn").addEventListener("click", () => {
-        this.sqlExam.render(id);
-      });
-
-      el.querySelector(".add-q-btn").addEventListener("click", () => {
-        this.question.render(id);
       });
     });
 
@@ -160,11 +167,11 @@ class PracticesScreen {
     liEl.dataset.id = item.id;
     liEl.innerHTML = `
     <div class="card-body">
-    <h5 class="card-title">${item.name}</h5>
+    <a class="h5 card-title">${item.name}</a>
     <p class="card-text">${item.description}</p>
     </div>
     <div class="card-footer bg-transparent border-bottom border-top-0 pt-0">
-    <a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a>
+    <a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a>
     </div>`;
 
     return liEl;
