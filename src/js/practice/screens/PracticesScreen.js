@@ -156,14 +156,14 @@ class PracticesScreen {
   createListElement(item) {
     let liEl = document.createElement("div");
     liEl.classList.add("card");
-    liEl.classList.add("p-1");
+    liEl.classList.add("border-0");
     liEl.dataset.id = item.id;
     liEl.innerHTML = `
     <div class="card-body">
     <h5 class="card-title">${item.name}</h5>
     <p class="card-text">${item.description}</p>
     </div>
-    <div class="card-footer bg-transparent border-0 pt-0">
+    <div class="card-footer bg-transparent border-bottom border-top-0 pt-0">
     <a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a>
     </div>`;
 
