@@ -105,7 +105,7 @@ class PracticesScreen {
   }
   registerEvents() {
     this.parent.querySelectorAll(".card-footer").forEach((el) => {
-      const id = el.dataset.id;
+      const id = el.parentElement.dataset.id;
       el.querySelector(".del-btn").addEventListener("on-confirmation", () => {
         fetch("/api/practices/" + this.parent.dataset.type + "/" + id, {
           method: "DELETE",
@@ -157,14 +157,13 @@ class PracticesScreen {
     let liEl = document.createElement("div");
     liEl.classList.add("card");
     liEl.classList.add("p-1");
+    liEl.dataset.id = item.id;
     liEl.innerHTML = `
-    <div class="card-header bg-transparent border-0">
-      ${item.name}
-    </div>
     <div class="card-body">
-    ${item.description}
+    <h5 class="card-title">${item.name}</h5>
+    <p class="card-text">${item.description}</p>
     </div>
-    <div class="card-footer bg-transparent border-0" data-id="${item.id}">
+    <div class="card-footer bg-transparent border-0 pt-0">
     <a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a>
     </div>`;
 
