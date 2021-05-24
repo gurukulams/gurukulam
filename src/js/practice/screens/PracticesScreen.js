@@ -53,28 +53,11 @@ class PracticesScreen {
         </nav> 
         <div class="container"> 
           <div class="items"> 
-            <ul class="list-group"> 
-              <li class="list-group-item"> 
-                <div class="d-flex w-100 justify-content-between"> 
-                  <h5 class="mb-1">List group item heading</h5> 
-                  <small>3 days ago</small> 
-                </div> 
-                <p class="mb-1">Some placeholder content in a paragraph.</p> 
-                <small>And some small print.</small> 
-              </li> 
-              <li class="list-group-item">
-                <div class="d-flex w-100 justify-content-between"> 
-                  <h5 class="mb-1">List group item heading</h5> 
-                  <small>3 days ago</small> 
-                </div> 
-                <p class="mb-1">Some placeholder content in a paragraph.</p> 
-                <small>And some small print.</small> 
-              </li> 
-            </ul> 
+            
           </div> 
         </div>`;
 
-        let ulEl = this.parent.querySelector(".list-group");
+        let ulEl = this.parent.querySelector(".items");
         ulEl.innerHTML = "";
         const sqlExams = page.content;
         sqlExams.forEach((item) => {
@@ -164,26 +147,26 @@ class PracticesScreen {
     }
     // Add exam event
     this.parent
-      .querySelector("#navbarsExample09 > form > button.btn-primary")
+      .querySelector("#navbarsExample09 > form > button.btn")
       .addEventListener("click", () => {
         console.log("add exam button clicked");
         this.sqlExam.render();
       });
   }
   createListElement(item) {
-    let liEl = document.createElement("li");
-    liEl.classList.add("list-group-item");
-    liEl.innerHTML = `<div class="card">
-    <div class="card-header">
+    let liEl = document.createElement("div");
+    liEl.classList.add("card");
+    liEl.classList.add("p-1");
+    liEl.innerHTML = `
+    <div class="card-header bg-transparent border-0">
       ${item.name}
     </div>
     <div class="card-body">
     ${item.description}
     </div>
-    <div class="card-footer" data-id="${item.id}">
+    <div class="card-footer bg-transparent border-0" data-id="${item.id}">
     <a href="javascript://" class="add-q-btn">Questions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a>
-    </div>
-  </div>`;
+    </div>`;
 
     return liEl;
   }
