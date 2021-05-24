@@ -8,6 +8,8 @@ class Core {
       document.querySelector(".avatar").src = JSON.parse(
         sessionStorage.auth
       ).profilePicture;
+
+      document.querySelector(".navbar-brand").href = "/courses/c-programming";
     } else if (document.querySelector(".secured") !== null) {
       document.querySelector(".secured").classList.add("invisible");
     }
