@@ -32,7 +32,9 @@ class PracticeScreen {
       </div>
       
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Save</button> 
+        <button type="submit" class="btn btn-primary">${
+          _id ? "Save" : "Add"
+        }</button> 
         <button type="button" class="btn btn-secondary">Cancel</button>
       </div>`;
     this.parent.appendChild(formEl);
