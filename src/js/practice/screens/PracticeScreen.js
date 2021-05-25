@@ -32,7 +32,7 @@ class PracticeScreen {
       </div>
       
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Create</button> 
+        <button type="submit" class="btn btn-primary">Save</button> 
         <button type="button" class="btn btn-secondary">Cancel</button>
       </div>`;
     this.parent.appendChild(formEl);
@@ -100,7 +100,7 @@ class PracticeScreen {
             throw new Error("Bad response from server");
           }
           this.goBack(this);
-          window.success("Updated");
+          window.success("Saved Successfully");
         })
         .catch((e) => {
           window.error("Failed to update", e);
