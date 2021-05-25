@@ -429,6 +429,7 @@ class QuestionScreen {
       .childNodes.forEach((element) =>
         element.addEventListener("click", addFunction)
       );
+    document.getElementById("dropdown-menu add-btns").focus();
 
     screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
     screen.parent

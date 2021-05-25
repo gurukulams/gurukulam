@@ -71,7 +71,9 @@ class PracticeScreen {
           formEl.querySelector("#description").value = exam.description;
         });
     }
+    document.getElementById("name").focus();
   }
+
   goBack(btnComponent) {
     // Navigate Back to Listing Screen
     btnComponent.parent.removeChild(btnComponent.parent.lastChild);
