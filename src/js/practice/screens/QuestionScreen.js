@@ -168,7 +168,11 @@ class QuestionScreen {
         this.parent.querySelector(
           "#answerContainer"
         ).innerHTML = `<textarea type="answer" class="form-control h-100" 
-                           placeholder="Answer">${this.selectedQuestion.answer}</textarea>
+                           placeholder="Answer">${
+                             this.selectedQuestion.answer
+                               ? this.selectedQuestion.answer
+                               : ""
+                           }</textarea>
                           <label for="aTxt" >Answer</label>`;
         this.parent
           .querySelector("#answerContainer")
@@ -184,7 +188,11 @@ class QuestionScreen {
         this.parent.querySelector(
           "#answerContainer"
         ).innerHTML = `<input type="answer" class="form-control" 
-                          placeholder="Answer" value="${this.selectedQuestion.answer}">
+                          placeholder="Answer" value="${
+                            this.selectedQuestion.answer
+                              ? this.selectedQuestion.answer
+                              : ""
+                          }">
                           <label for="aTxt" >Answer</label>`;
         this.parent
           .querySelector("#answerContainer")
