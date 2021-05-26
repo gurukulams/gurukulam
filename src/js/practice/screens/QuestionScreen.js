@@ -9,6 +9,7 @@ class QuestionScreen {
     this.questions = [];
     this.selectedQuestion = null;
     this.examId = null;
+    this.isOwner = null;
 
     this.deletedQuestionIds = [];
     this.updatedQuestions = [];
@@ -61,10 +62,15 @@ class QuestionScreen {
     }
 
     paginationElement.children[selectedQIndex + 1].classList.add("active");
-
-    this.questionEditor.root.innerHTML = this.selectedQuestion.question
-      ? this.selectedQuestion.question
-      : "";
+    if (this.isOwner) {
+      this.questionEditor.root.innerHTML = this.selectedQuestion.question
+        ? this.selectedQuestion.question
+        : "";
+    } else {
+      this.questionEditor.innerHTML = this.selectedQuestion.question
+        ? this.selectedQuestion.question
+        : "";
+    }
 
     this.renderAnswerElement();
 
@@ -77,7 +83,9 @@ class QuestionScreen {
     this.questionEditor.focus();
   }
 
-  render(examId) {
+  render(examId, _owner) {
+    this.isOwner = _owner;
+
     this.oldChildNodes = [];
     while (this.parent.firstChild) {
       this.oldChildNodes.push(this.parent.removeChild(this.parent.firstChild));
@@ -363,6 +371,9 @@ class QuestionScreen {
             </div>
             <div class="col-6">
               <div class="dropdown float-end">
+              ${
+                screen.isOwner
+                  ? `
                   <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                   Add
                   </button>
@@ -373,7 +384,9 @@ class QuestionScreen {
                     <li data-type="code-java"><a class="dropdown-item" href="#">Java</a></li>
                   </ul>
                   <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
-                  <button type="button" class="save-btn btn">Save</button> 
+                  <button type="button" class="save-btn btn">Save</button>`
+                  : `<button type="button" class="submit-btn btn">Submit</button>`
+              }
 
               </div>
              
@@ -406,21 +419,21 @@ class QuestionScreen {
         </div>`;
 
     if (this.questions.length !== 0) {
-      // screen.parent
-      //   .querySelector("#answerElement")
-      //   .addEventListener("change", setATxt);
+      if (screen.isOwner) {
+        var options = {
+          placeholder: "Compose a question...",
 
-      var options = {
-        placeholder: "Compose a question...",
-
-        theme: "snow",
-      };
-      // eslint-disable-next-line no-undef
-      this.questionEditor = new Quill("#qTxt", options); // First matching element will be used
-      // eslint-disable-next-line no-unused-vars
-      this.questionEditor.on("text-change", function () {
-        setQTxt();
-      });
+          theme: "snow",
+        };
+        // eslint-disable-next-line no-undef
+        this.questionEditor = new Quill("#qTxt", options); // First matching element will be used
+        // eslint-disable-next-line no-unused-vars
+        this.questionEditor.on("text-change", function () {
+          setQTxt();
+        });
+      } else {
+        this.questionEditor = this.parent.querySelector("#qTxt");
+      }
 
       // setSelectedQuestionIndex(0);
 
@@ -432,15 +445,19 @@ class QuestionScreen {
     }
 
     //screen.parent.querySelector(".add-btn").parentElement.classList.add('active');
-    screen.parent
-      .querySelector(".add-btns")
-      .childNodes.forEach((element) =>
-        element.addEventListener("click", addFunction)
-      );
-    screen.parent.querySelector(".save-btn").addEventListener("click", saveFn);
-    screen.parent
-      .querySelector(".delete-btn")
-      .addEventListener("on-confirmation", deleteFn);
+    if (screen.isOwner) {
+      screen.parent
+        .querySelector(".add-btns")
+        .childNodes.forEach((element) =>
+          element.addEventListener("click", addFunction)
+        );
+      screen.parent
+        .querySelector(".save-btn")
+        .addEventListener("click", saveFn);
+      screen.parent
+        .querySelector(".delete-btn")
+        .addEventListener("on-confirmation", deleteFn);
+    }
   }
 }
 export default QuestionScreen;
