@@ -258,6 +258,47 @@ class QuestionScreen {
       this.caller.render();
     };
 
+    const submitFn = () => {
+      this.questions.forEach((question, index) => {
+        fetch(
+          "/api/practices/" +
+            this.parent.dataset.type +
+            "/" +
+            this.examId +
+            "/questions/" +
+            question.id +
+            "/answer/",
+          {
+            method: "POST",
+            headers: {
+              "content-type": "application/json",
+              Authorization:
+                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+            },
+            body: question.answer,
+          }
+        )
+          .then((response) => {
+            const paginationElement = this.parent.querySelector(".pagination");
+
+            // Shorthand to check for an HTTP 2xx response status.
+            // See https://fetch.spec.whatwg.org/#dom-response-ok
+            if (response.ok) {
+              paginationElement.children[
+                index + 1
+              ].firstElementChild.classList.add("bg-success");
+            } else if (response.status === 406) {
+              paginationElement.children[
+                index + 1
+              ].firstElementChild.classList.add("bg-danger");
+            }
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+      });
+    };
+
     const saveFn = () => {
       this.questions.forEach((question) => {
         if (!question.id) {
@@ -457,6 +498,10 @@ class QuestionScreen {
       screen.parent
         .querySelector(".delete-btn")
         .addEventListener("on-confirmation", deleteFn);
+    } else {
+      screen.parent
+        .querySelector(".submit-btn")
+        .addEventListener("click", submitFn);
     }
   }
 }
