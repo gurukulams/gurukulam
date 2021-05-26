@@ -171,7 +171,11 @@ class PracticesScreen {
     <p class="card-text">${item.description}</p>
     </div>
     <div class="card-footer bg-transparent border-bottom border-top-0 pt-0">
-    <a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a>
+    ${
+      JSON.parse(sessionStorage.auth).userName === item.owner
+        ? `<a href="javascript://" class="edit-btn">Edit</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript://" data-bs-toggle="modal" data-bs-target="#exampleModal" class="del-btn">Delete</a>`
+        : ``
+    }
     </div>`;
 
     return liEl;

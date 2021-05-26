@@ -20,7 +20,7 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
 
 #### Table of contents
 
-1. [An introduction](/books/javascript/introduction)
+1. [An introduction](/books/javascript/anIntroductionListView)
     - [An Introduction to JavaScript](#subsection-b)
     - [Manuals and specifications](#subsection-b)
     - [Code editors](#subsection-b)
