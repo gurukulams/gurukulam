@@ -21,10 +21,10 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
 #### Table of contents
 
 1. [An introduction](/books/javascript/anIntroductionListView)
-    - [An Introduction to JavaScript](/books/javascript/introduction)
-    - [Manuals and specifications](/books/javascript/introduction)
-    - [Code editors](/books/javascript/introduction)
-    - [Developer console](/books/javascript/introduction)
+    - [An Introduction to JavaScript](#subsection-b)
+    - [Manuals and specifications](#subsection-b)
+    - [Code editors](#subsection-b)
+    - [Developer console](#subsection-b)
 2. [JavaScript Fundamentals](/books/javascript/javascriptFundamentalsListView)
    - [Hello, world!](#subsection-a)
    - [Code structure](#subsection-b)
