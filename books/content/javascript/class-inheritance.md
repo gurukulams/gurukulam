@@ -37,7 +37,8 @@ So we can create new functionality on top of the existing.
 
 ___
 
-flow chart banding
+<img src="/images/cls.jpg" width="50%" height="400px" alt="flowchart">
+
 ___
 
 …And we would like to create another `class Rabbit`.
@@ -69,7 +70,9 @@ Internally, `extends` keyword works using the good old prototype mechanics. It s
 
 ___
 
-flow chart banding
+<img src="/images/clsi2.jpg" width="50%" height="400px" alt="flowchart">
+
+
 ___
 
 #### For instance, to find `rabbit.run `method, the engine checks (bottom-up on the picture):
