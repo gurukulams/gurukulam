@@ -43,7 +43,7 @@ If we’d like built-in methods like `map` or `filter` to return regular arrays,
 
 
 
-```javscript
+```javascript
 
     class PowerArray extends Array {
     isEmpty() {
