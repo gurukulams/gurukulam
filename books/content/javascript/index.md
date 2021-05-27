@@ -20,7 +20,7 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
 
 #### Table of contents
 
-1. [An introduction](/books/javascript/anIntroductionListView)
+1. [An introduction](/books/javascript/anIntroductionlistview)
     - [An Introduction to JavaScript](#subsection-b)
     - [Manuals and specifications](#subsection-b)
     - [Code editors](#subsection-b)
@@ -93,8 +93,8 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
    - [Prototypal inheritance](#subsection-b)
    - [F.prototype](#subsection-b)
    - [Native prototypes](#subsection-b)
-5. [Classes](books/javascript/classesListView)
-   - [Class basic syntax](#subsection-b)
+5. [Classes](books/javascript/classeslistview)
+   - [Class basic syntax](classbasicsyntax)
    - [Class inheritance](#subsection-b)
    - [Static properties and methods](#subsection-b)
    - [Private and protected properties and methods](#subsection-b)
