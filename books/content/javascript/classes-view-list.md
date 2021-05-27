@@ -2,7 +2,7 @@
 
 
 
-- [Class basic syntax](/books/javascrip/classesViewList)
+- [Class basic syntax](/books/javascript/class-basic-syntax)
 - [Class inheritance](/books/javascript/classesViewList)
 - [Static properties and methods](/books/javascript/classesViewList)
 - [Private and protected properties and methods](/books/javascript/classesViewList)
