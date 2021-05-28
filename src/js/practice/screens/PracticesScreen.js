@@ -105,9 +105,12 @@ class PracticesScreen {
   }
   registerEvents() {
     this.parent.querySelectorAll("a.h5").forEach((el) => {
-      const id = el.parentElement.parentElement.dataset.id;
+      const practice = el.parentElement.parentElement.practice;
       el.addEventListener("click", () => {
-        this.question.render(id);
+        this.question.render(
+          practice.id,
+          JSON.parse(sessionStorage.auth).userName === practice.owner
+        );
       });
     });
 
@@ -156,7 +159,6 @@ class PracticesScreen {
     this.parent
       .querySelector("#navbarsExample09 > form > button.btn")
       .addEventListener("click", () => {
-        console.log("add exam button clicked");
         this.sqlExam.render();
       });
   }
@@ -165,6 +167,7 @@ class PracticesScreen {
     liEl.classList.add("card");
     liEl.classList.add("border-0");
     liEl.dataset.id = item.id;
+    liEl.practice = item;
     liEl.innerHTML = `
     <div class="card-body">
     <a class="h5 card-title">${item.name}</a>
