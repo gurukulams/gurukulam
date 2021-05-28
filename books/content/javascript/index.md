@@ -111,6 +111,7 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
    - [Error handling with promises](#subsection-b)
    - [Promise API](#subsection-b)
    - [Promisification](#subsection-b)
+   - [Microtasks](#subsection-b)
    - [Async/await](#subsection-b)
 5. [Generators, advanced iteration](books/javascript/generators-advanced-iteration-list-view)
    - [Generators](#subsection-b)

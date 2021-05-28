@@ -1,6 +1,6 @@
 ### Promises, async/await
 
-- [Introduction: callbacks](books/javascript/PromisesAsyncListView)
+- [Introduction: callbacks](books/javascript/callbacks)
 - [Promise](books/javascript/PromisesAsyncListView)
 - [Promises chaining](books/javascript/PromisesAsyncListView)
 - [Error handling with promises](books/javascript/PromisesAsyncListView)
