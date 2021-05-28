@@ -810,7 +810,7 @@ We definitely need the cleanup after the work, doesn’t matter if there was an 
 Is there an advantage here in using `finally` or both code fragments are equal? If there is such an advantage, then give an example when it matters.
 
 
-**[solution]()**
+## **[solution]()**
 
 
 
