@@ -1,8 +1,8 @@
 #### Advanced working with functions
 
 
-- [Recursion and stack](books/javascript/advancedFunctionsListView)
-- [Rest parameters and spread syntax](books/javascript/advancedFunctionsListView)
+- [Recursion and stack](books/javascript/recursion)
+- [Rest parameters and spread syntax](books/javascript/rest-parameters-spread)
 - [Variable scope, closure](books/javascript/advancedFunctionsListView)
 - [The old "var"](books/javascript/advancedFunctionsListView)
 - [Global object](books/javascript/advancedFunctionsListView)
