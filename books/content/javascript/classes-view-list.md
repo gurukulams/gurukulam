@@ -9,4 +9,4 @@
 - [Extending built-in classes](/books/javascript/extend-natives)
 
 - [Class checking: "instanceof"](/books/javascript/instanceof)
-- [Mixins](/books/javascript/classesViewList)
+- [Mixins](/books/javascript/mixins)
