@@ -8,5 +8,5 @@
 - [Private and protected properties and methods](/books/javascript/private-protected-properties-methods)
 - [Extending built-in classes](/books/javascript/extend-natives)
 
-- [Class checking: "instanceof"](/books/javascript/classesViewList)
+- [Class checking: "instanceof"](/books/javascript/instanceof)
 - [Mixins](/books/javascript/classesViewList)
