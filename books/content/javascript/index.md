@@ -93,11 +93,7 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
    - [F.prototype](books/javascript/function-prototype)
    - [Native prototypes](books/javascript/native-prototypes)
    - [Prototype methods, objects without __proto__](/books/javascript/prototype-methods)
-<<<<<<< HEAD
-5. [Classes](books/javascript/classesviewlist)
-=======
-9. [Classes](books/javascript/classes-view-list)
->>>>>>> ded01eec196814d1f6b8adbbaee080f086821f9c
+9. [Classes](books/javascript/classesviewlist)
    - [Class basic syntax](#subsection-b)
    - [Class inheritance](#subsection-b)
    - [Static properties and methods](#subsection-b)
