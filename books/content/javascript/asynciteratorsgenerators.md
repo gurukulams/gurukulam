@@ -11,10 +11,12 @@ Let's recall the topic about iterables.
 
 The idea is that we have an object, such as `range` here:
 ```js
-let range = {
-  from: 1,
-  to: 5
-};
+
+  let range = {
+    from: 1,
+    to: 5
+  };
+
 ```
 
 ...And we'd like to use `for..of` loop on it, such as `for(value of range)`, to get values from `1` to `5`.
@@ -30,33 +32,35 @@ That can be implemented using a special method with the name `Symbol.iterator`:
 Here's an implementation for the iterable `range`:
 
 ```js run
-let range = {
-  from: 1,
-  to: 5,
 
-*!*
-  [Symbol.iterator]() { // called once, in the beginning of for..of
-*/!*
-    return {
-      current: this.from,
-      last: this.to,
+  let range = {
+    from: 1,
+    to: 5,
 
-*!*
-      next() { // called every iteration, to get the next value
-*/!*
-        if (this.current <= this.last) {
-          return { done: false, value: this.current++ };
-        } else {
-          return { done: true };
+  *!*
+    [Symbol.iterator]() { // called once, in the beginning of for..of
+  */!*
+      return {
+        current: this.from,
+        last: this.to,
+
+  *!*
+        next() { // called every iteration, to get the next value
+  */!*
+          if (this.current <= this.last) {
+            return { done: false, value: this.current++ };
+          } else {
+            return { done: true };
+          }
         }
-      }
-    };
-  }
-};
+      };
+    }
+  };
 
-for(let value of range) {
-  alert(value); // 1 then 2, then 3, then 4, then 5
-}
+  for(let value of range) {
+    alert(value); // 1 then 2, then 3, then 4, then 5
+  }
+
 ```
 
 If anything is unclear, please visit the chapter [](info:iterable), it gives all the details about regular iterables.
@@ -80,45 +84,47 @@ As a starting example, let's make an iterable `range` object, similar like the o
 All we need to do is to perform a few replacements in the code above:
 
 ```js run
-let range = {
-  from: 1,
-  to: 5,
 
-*!*
-  [Symbol.asyncIterator]() { // (1)
-*/!*
-    return {
-      current: this.from,
-      last: this.to,
+  let range = {
+    from: 1,
+    to: 5,
 
-*!*
-      async next() { // (2)
-*/!*
+  *!*
+    [Symbol.asyncIterator]() { // (1)
+  */!*
+      return {
+        current: this.from,
+        last: this.to,
 
-*!*
-        // note: we can use "await" inside the async next:
-        await new Promise(resolve => setTimeout(resolve, 1000)); // (3)
-*/!*
+  *!*
+        async next() { // (2)
+  */!*
 
-        if (this.current <= this.last) {
-          return { done: false, value: this.current++ };
-        } else {
-          return { done: true };
+  *!*
+          // note: we can use "await" inside the async next:
+          await new Promise(resolve => setTimeout(resolve, 1000)); // (3)
+  */!*
+
+          if (this.current <= this.last) {
+            return { done: false, value: this.current++ };
+          } else {
+            return { done: true };
+          }
         }
-      }
-    };
-  }
-};
+      };
+    }
+  };
 
-(async () => {
+  (async () => {
 
-*!*
-  for await (let value of range) { // (4)
-    alert(value); // 1,2,3,4,5
-  }
-*/!*
+  *!*
+    for await (let value of range) { // (4)
+      alert(value); // 1,2,3,4,5
+    }
+  */!*
 
-})()
+  })()
+
 ```
 
 As we can see, the structure is similar to regular iterators:
@@ -136,18 +142,24 @@ Here's a small table with the differences:
 | `next()` return value is              | any value         | `Promise`  |
 | to loop, use                          | `for..of`         | `for await..of` |
 
-````warn header="The spread syntax `...` doesn't work asynchronously"
-Features that require regular, synchronous iterators, don't work with asynchronous ones.
 
+
+>### ⚠️ **The spread syntax `...` doesn't work asynchronously**
+>
+>Features that require regular, synchronous iterators, don't work with asynchronous ones.
+>
 For instance, a spread syntax won't work:
+
 ```js
-alert( [...range] ); // Error, no Symbol.iterator
+
+  alert( [...range] ); // Error, no Symbol.iterator
+
 ```
 
-That's natural, as it expects to find `Symbol.iterator`, not `Symbol.asyncIterator`.
+>That's natural, as it expects to find `Symbol.iterator`, not `Symbol.asyncIterator`.
+>
+>It's also the case for `for..of`: the syntax without `await` needs `Symbol.iterator`.
 
-It's also the case for `for..of`: the syntax without `await` needs `Symbol.iterator`.
-````
 
 ## Recall generators
 
@@ -160,48 +172,54 @@ Generators are labelled with `function*` (note the star) and use `yield` to gene
 This example generates a sequence of values from `start` to `end`:
 
 ```js run
-function* generateSequence(start, end) {
-  for (let i = start; i <= end; i++) {
-    yield i;
-  }
-}
 
-for(let value of generateSequence(1, 5)) {
-  alert(value); // 1, then 2, then 3, then 4, then 5
-}
+  function* generateSequence(start, end) {
+    for (let i = start; i <= end; i++) {
+      yield i;
+    }
+  }
+
+  for(let value of generateSequence(1, 5)) {
+    alert(value); // 1, then 2, then 3, then 4, then 5
+  }
+
 ```
 
 As we already know, to make an object iterable, we should add `Symbol.iterator` to it.
 
 ```js
-let range = {
-  from: 1,
-  to: 5,
-*!*
-  [Symbol.iterator]() {
-    return <object with next to make range iterable>
+
+  let range = {
+    from: 1,
+    to: 5,
+  *!*
+    [Symbol.iterator]() {
+      return <object with next to make range iterable>
+    }
+  */!*
   }
-*/!*
-}
+
 ```
 
 A common practice for `Symbol.iterator` is to return a generator, it makes the code shorter, as you can see:
 
 ```js run
-let range = {
-  from: 1,
-  to: 5,
 
-  *[Symbol.iterator]() { // a shorthand for [Symbol.iterator]: function*()
-    for(let value = this.from; value <= this.to; value++) {
-      yield value;
+  let range = {
+    from: 1,
+    to: 5,
+
+    *[Symbol.iterator]() { // a shorthand for [Symbol.iterator]: function*()
+      for(let value = this.from; value <= this.to; value++) {
+        yield value;
+      }
     }
-  }
-};
+  };
 
-for(let value of range) {
-  alert(value); // 1, then 2, then 3, then 4, then 5
-}
+  for(let value of range) {
+    alert(value); // 1, then 2, then 3, then 4, then 5
+  }
+
 ```
 
 Please see the chapter [](info:generators) if you'd like more details.
@@ -221,44 +239,49 @@ The syntax is simple: prepend `function*` with `async`. That makes the generator
 And then use `for await (...)` to iterate over it, like this:
 
 ```js run
-*!*async*/!* function* generateSequence(start, end) {
 
-  for (let i = start; i <= end; i++) {
+  *!*async*/!* function* generateSequence(start, end) {
 
-*!*
-    // Wow, can use await!
-    await new Promise(resolve => setTimeout(resolve, 1000));
-*/!*
+    for (let i = start; i <= end; i++) {
 
-    yield i;
+  *!*
+      // Wow, can use await!
+      await new Promise(resolve => setTimeout(resolve, 1000));
+  */!*
+
+      yield i;
+    }
+
   }
 
-}
+  (async () => {
 
-(async () => {
+    let generator = generateSequence(1, 5);
+    for *!*await*/!* (let value of generator) {
+      alert(value); // 1, then 2, then 3, then 4, then 5 (with delay between)
+    }
 
-  let generator = generateSequence(1, 5);
-  for *!*await*/!* (let value of generator) {
-    alert(value); // 1, then 2, then 3, then 4, then 5 (with delay between)
-  }
+  })();
 
-})();
 ```
 
 As the generator is asynchronous, we can use `await` inside it, rely on promises, perform network requests and so on.
 
-````smart header="Under-the-hood difference"
-Technically, if you're an advanced reader who remembers the details about generators, there's an internal difference.
-
-For async generators, the `generator.next()` method is asynchronous, it returns promises.
-
-In a regular generator we'd use `result = generator.next()` to get values. In an async generator, we should add `await`, like this:
+>### ℹ️ **Under-the-hood difference**
+>
+>Technically, if you're an advanced reader who remembers the details about generators, there's an internal difference.
+>
+>For async generators, the `generator.next()` method is asynchronous, it returns promises.
+>
+>In a regular generator we'd use `result = generator.next()` to get values. In an async generator, we should add `await`, like this:
 
 ```js
-result = await generator.next(); // result = {value: ..., done: true/false}
+
+  result = await generator.next(); // result = {value: ..., done: true/false}
+
 ```
-That's why async generators work with `for await...of`.
-````
+>That's why async generators work with `for await...of`.
+
 
 ### Async iterable range
 
@@ -269,40 +292,43 @@ Similar to that, async generators can be used as `Symbol.asyncIterator` to imple
 For instance, we can make the `range` object generate values asynchronously, once per second, by replacing synchronous `Symbol.iterator` with asynchronous `Symbol.asyncIterator`:
 
 ```js run
-let range = {
-  from: 1,
-  to: 5,
 
-  // this line is same as [Symbol.asyncIterator]: async function*() {
-*!*
-  async *[Symbol.asyncIterator]() {
-*/!*
-    for(let value = this.from; value <= this.to; value++) {
+  let range = {
+    from: 1,
+    to: 5,
 
-      // make a pause between values, wait for something  
-      await new Promise(resolve => setTimeout(resolve, 1000));
+    // this line is same as [Symbol.asyncIterator]: async function*() {
+  *!*
+    async *[Symbol.asyncIterator]() {
+  */!*
+      for(let value = this.from; value <= this.to; value++) {
 
-      yield value;
+        // make a pause between values, wait for something  
+        await new Promise(resolve => setTimeout(resolve, 1000));
+
+        yield value;
+      }
     }
-  }
-};
+  };
 
-(async () => {
+  (async () => {
 
-  for *!*await*/!* (let value of range) {
-    alert(value); // 1, then 2, then 3, then 4, then 5
-  }
+    for *!*await*/!* (let value of range) {
+      alert(value); // 1, then 2, then 3, then 4, then 5
+    }
 
-})();
+  })();
+
 ```
 
 Now values come with a delay of 1 second between them.
 
-```smart
-Technically, we can add both `Symbol.iterator` and `Symbol.asyncIterator` to the object, so it's both synchronously (`for..of`) and asynchronously (`for await..of`) iterable.
+>### ℹ️ **Please note:**
+>
+>Technically, we can add both `Symbol.iterator` and `Symbol.asyncIterator` to the object, so it's both synchronously (`for..of`) and asynchronously (`for await..of`) iterable.
+>
+>In practice though, that would be a weird thing to do.
 
-In practice though, that would be a weird thing to do.
-```
 
 ## Real-life example: paginated data
 
@@ -325,35 +351,39 @@ Let's make a function `fetchCommits(repo)` that gets commits for us, making requ
 So the usage will be like this:
 
 ```js
-for await (let commit of fetchCommits("username/repository")) {
-  // process commit
-}
+
+  for await (let commit of fetchCommits("username/repository")) {
+    // process commit
+  }
+
 ```
 
 Here's such function, implemented as async generator:
 
 ```js
-async function* fetchCommits(repo) {
-  let url = `https://api.github.com/repos/${repo}/commits`;
 
-  while (url) {
-    const response = await fetch(url, { // (1)
-      headers: {'User-Agent': 'Our script'}, // github needs any user-agent header
-    });
+  async function* fetchCommits(repo) {
+    let url = `https://api.github.com/repos/${repo}/commits`;
 
-    const body = await response.json(); // (2) response is JSON (array of commits)
+    while (url) {
+      const response = await fetch(url, { // (1)
+        headers: {'User-Agent': 'Our script'}, // github needs any user-agent header
+      });
 
-    // (3) the URL of the next page is in the headers, extract it
-    let nextPage = response.headers.get('Link').match(/<(.*?)>; rel="next"/);
-    nextPage = nextPage?.[1];
+      const body = await response.json(); // (2) response is JSON (array of commits)
 
-    url = nextPage;
+      // (3) the URL of the next page is in the headers, extract it
+      let nextPage = response.headers.get('Link').match(/<(.*?)>; rel="next"/);
+      nextPage = nextPage?.[1];
 
-    for(let commit of body) { // (4) yield commits one by one, until the page ends
-      yield commit;
+      url = nextPage;
+
+      for(let commit of body) { // (4) yield commits one by one, until the page ends
+        yield commit;
+      }
     }
   }
-}
+
 ```
 
 More explanations about how it works:
@@ -370,22 +400,24 @@ More explanations about how it works:
 An example of use (shows commit authors in console):
 
 ```js run
-(async () => {
 
-  let count = 0;
+  (async () => {
 
-  for await (const commit of fetchCommits('javascript-tutorial/en.javascript.info')) {
+    let count = 0;
 
-    console.log(commit.author.login);
+    for await (const commit of fetchCommits('javascript-tutorial/en.javascript.info')) {
 
-    if (++count == 100) { // let's stop at 100 commits
-      break;
+      console.log(commit.author.login);
+
+      if (++count == 100) { // let's stop at 100 commits
+        break;
+      }
     }
-  }
 
-})();
+  })();
 
-// Note: If you are running this in an external sandbox, you'll need to paste here the function fetchCommits described above 
+  // Note: If you are running this in an external sandbox, you'll need to paste here the function fetchCommits described above
+   
 ```
 
 That's just what we wanted. 

@@ -8,11 +8,13 @@ Even when a Promise is immediately resolved, the code on the lines *below* `.the
 Here's a demo:
 
 ```js run
-let promise = Promise.resolve();
 
-promise.then(() => alert("promise done!"));
+  let promise = Promise.resolve();
 
-alert("code finished"); // this alert shows first
+  promise.then(() => alert("promise done!"));
+
+  alert("code finished"); // this alert shows first
+
 ```
 
 If you run it, you see `code finished` first, and then `promise done!`.
@@ -34,7 +36,10 @@ Or, to put it more simply, when a promise is ready, its `.then/catch/finally` ha
 
 That's why "code finished" in the example above shows first.
 
-![](promiseQueue.svg)
+____
+flowchart
+____
+
 
 Promise handlers always go through this internal queue.
 
@@ -45,9 +50,11 @@ If there's a chain with multiple `.then/catch/finally`, then every one of them i
 Easy, just put it into the queue with `.then`:
 
 ```js run
-Promise.resolve()
-  .then(() => alert("promise done!"))
-  .then(() => alert("code finished"));
+
+  Promise.resolve()
+    .then(() => alert("promise done!"))
+    .then(() => alert("code finished"));
+
 ```
 
 Now the order is as intended.
@@ -63,34 +70,40 @@ Now we can see exactly how JavaScript finds out that there was an unhandled reje
 Normally, if we expect an error, we add `.catch` to the promise chain to handle it:
 
 ```js run
-let promise = Promise.reject(new Error("Promise Failed!"));
-*!*
-promise.catch(err => alert('caught'));
-*/!*
 
-// doesn't run: error handled
-window.addEventListener('unhandledrejection', event => alert(event.reason));
+  let promise = Promise.reject(new Error("Promise Failed!"));
+  *!*
+  promise.catch(err => alert('caught'));
+  */!*
+
+  // doesn't run: error handled
+  window.addEventListener('unhandledrejection', event => alert(event.reason));
+
 ```
 
 But if we forget to add `.catch`, then, after the microtask queue is empty, the engine triggers the event:
 
 ```js run
-let promise = Promise.reject(new Error("Promise Failed!"));
 
-// Promise Failed!
-window.addEventListener('unhandledrejection', event => alert(event.reason));
+  let promise = Promise.reject(new Error("Promise Failed!"));
+
+  // Promise Failed!
+  window.addEventListener('unhandledrejection', event => alert(event.reason));
+
 ```
 
 What if we handle the error later? Like this:
 
 ```js run
-let promise = Promise.reject(new Error("Promise Failed!"));
-*!*
-setTimeout(() => promise.catch(err => alert('caught')), 1000);
-*/!*
 
-// Error: Promise Failed!
-window.addEventListener('unhandledrejection', event => alert(event.reason));
+  let promise = Promise.reject(new Error("Promise Failed!"));
+  *!*
+  setTimeout(() => promise.catch(err => alert('caught')), 1000);
+  */!*
+
+  // Error: Promise Failed!
+  window.addEventListener('unhandledrejection', event => alert(event.reason));
+
 ```
 
 Now, if we run it, we'll see `Promise Failed!` first and then `caught`.

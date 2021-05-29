@@ -9,14 +9,16 @@ For better understanding, let's see an example.
 For instance, we have `loadScript(src, callback)` from the chapter <info:callbacks>.
 
 ```js run
-function loadScript(src, callback) {
-  let script = document.createElement('script');
-  script.src = src;
 
-  script.onload = () => callback(null, script);
-  script.onerror = () => callback(new Error(`Script load error for ${src}`));
+  function loadScript(src, callback) {
+    let script = document.createElement('script');
+    script.src = src;
 
-  document.head.append(script);
+    script.onload = () => callback(null, script);
+    script.onerror = () => callback(new Error(`Script load error for ${src}`));
+
+    document.head.append(script);
+
 }
 
 // usage:
@@ -33,17 +35,19 @@ In other words, we pass it only `src` (no `callback`) and get a promise in retur
 
 Here it is:
 ```js
-let loadScriptPromise = function(src) {
-  return new Promise((resolve, reject) => {
-    loadScript(src, (err, script) => {
-      if (err) reject(err);
-      else resolve(script);
-    });
-  });
-};
 
-// usage:
-// loadScriptPromise('path/script.js').then(...)
+  let loadScriptPromise = function(src) {
+    return new Promise((resolve, reject) => {
+      loadScript(src, (err, script) => {
+        if (err) reject(err);
+        else resolve(script);
+      });
+    });
+  };
+
+  // usage:
+  // loadScriptPromise('path/script.js').then(...)
+
 ```
 
 As we can see, the new function is a wrapper around the original `loadScript` function. It calls it providing its own callback that translates to promise `resolve/reject`.
@@ -55,27 +59,29 @@ In practice we may need to promisify more than one function, so it makes sense t
 We'll call it `promisify(f)`: it accepts a to-promisify function `f` and returns a wrapper function.
 
 ```js
-function promisify(f) {
-  return function (...args) { // return a wrapper-function (*)
-    return new Promise((resolve, reject) => {
-      function callback(err, result) { // our custom callback for f (**)
-        if (err) {
-          reject(err);
-        } else {
-          resolve(result);
+
+  function promisify(f) {
+    return function (...args) { // return a wrapper-function (*)
+      return new Promise((resolve, reject) => {
+        function callback(err, result) { // our custom callback for f (**)
+          if (err) {
+            reject(err);
+          } else {
+            resolve(result);
+          }
         }
-      }
 
-      args.push(callback); // append our custom callback to the end of f arguments
+        args.push(callback); // append our custom callback to the end of f arguments
 
-      f.call(this, ...args); // call the original function
-    });
-  };
-}
+        f.call(this, ...args); // call the original function
+      });
+    };
+  }
 
-// usage:
-let loadScriptPromise = promisify(loadScript);
-loadScriptPromise(...).then(...);
+  // usage:
+  let loadScriptPromise = promisify(loadScript);
+  loadScriptPromise(...).then(...);
+
 ```
 
 The code may look a bit complex, but it's essentially the same that we wrote above, while promisifying `loadScript` function.
@@ -92,29 +98,31 @@ We can improve our helper. Let's make a more advanced version of `promisify`.
 - When called as `promisify(f, true)`, it should return the promise that resolves with the array of callback results. That's exactly for callbacks with many arguments.
 
 ```js
-// promisify(f, true) to get array of results
-function promisify(f, manyArgs = false) {
-  return function (...args) {
-    return new Promise((resolve, reject) => {
-      function *!*callback(err, ...results*/!*) { // our custom callback for f
-        if (err) {
-          reject(err);
-        } else {
-          // resolve with all callback results if manyArgs is specified
-          *!*resolve(manyArgs ? results : results[0]);*/!*
+
+  // promisify(f, true) to get array of results
+  function promisify(f, manyArgs = false) {
+    return function (...args) {
+      return new Promise((resolve, reject) => {
+        function *!*callback(err, ...results*/!*) { // our custom callback for f
+          if (err) {
+            reject(err);
+          } else {
+            // resolve with all callback results if manyArgs is specified
+            *!*resolve(manyArgs ? results : results[0]);*/!*
+          }
         }
-      }
 
-      args.push(callback);
+        args.push(callback);
 
-      f.call(this, ...args);
-    });
-  };
-}
+        f.call(this, ...args);
+      });
+    };
+  }
 
-// usage:
-f = promisify(f, true);
-f(...).then(arrayOfResults => ..., err => ...);
+  // usage:
+  f = promisify(f, true);
+  f(...).then(arrayOfResults => ..., err => ...);
+
 ```
 
 As you can see it's essentially the same as above, but `resolve` is called with only one or all arguments depending on whether `manyArgs` is truthy.
@@ -123,10 +131,11 @@ For more exotic callback formats, like those without `err` at all: `callback(res
 
 There are also modules with a bit more flexible promisification functions, e.g. [es6-promisify](https://github.com/digitaldesignlabs/es6-promisify). In Node.js, there's a built-in `util.promisify` function for that.
 
-```smart
-Promisification is a great approach, especially when you use `async/await` (see the next chapter), but not a total replacement for callbacks.
+>#### ℹ️**Please note:**
+>
+>Promisification is a great approach, especially when you use `async/await` (see the next chapter), but not a total replacement for callbacks.
+>
+>Remember, a promise may have only one result, but a callback may technically be called many times.
+>
+>So promisification is only meant for functions that call the callback once. Further calls will be ignored.
 
-Remember, a promise may have only one result, but a callback may technically be called many times.
-
-So promisification is only meant for functions that call the callback once. Further calls will be ignored.
-```
