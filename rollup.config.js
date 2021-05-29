@@ -14,7 +14,7 @@ export default [{
 {
   input: 'src/js/practice/index.js',
   output: {
-    file: 'dist/js/practice.js',
+    file: 'dist/js/practices.js',
     format: 'cjs'
   }
 }

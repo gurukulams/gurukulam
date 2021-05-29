@@ -56,7 +56,7 @@
   <body>
     <main class="container mt-5 min-vh-100">
       {{ block "header" . }}{{ partial "header" . }}{{end}}
-      <div class="row p-5 m-3" id="content" data-type="java">
+      <div class="row p-5 m-3" >
         {{ block "main" . }}{{end}}
       </div>
       {{ block "footer" . }}{{ partial "footer" . }}{{end}}
