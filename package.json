@@ -49,23 +49,19 @@
     "lint": "eslint src/js --ext .js",
     "serve": "browser-sync start --config browser-sync.js",
     "format:js": "prettier --write src/js",
+    "build:hugo": "hugo -d ../dist -s site -v",
     "build:css": "postcss -o dist/app.css src/css/*.css",
     "build:js": "rollup -c",
     "build:html": "html-includes --src src --dest dist --minify",
-    "build": "npm run clean && npm run hugo ; run-s format:js lint copy build:*",
-    "watch:hugo": "onchange \"books\" -- run-s hugo",
+    "build": "run-s clean format:js lint copy build:*",
+    "watch:hugo": "onchange \"site\" -- run-s build:hugo",
     "watch:css": "onchange \"src/css\" -- run-s build:css",
     "watch:js": "onchange \"src/js\" -- run-s format:js build:js",
     "watch:html": "onchange \"src/**/*.html\" -- run-s build:html",
-    "hugo": "hugo -d ../dist/books -s books -v",
     "start": "npm run build && run-p serve watch:*",
     "postinstall": "npm run build"
   },
   "browserslist": [
     "defaults"
-  ],
-  "dependencies": {
-    "monaco-editor": "^0.24.0",
-    "quill": "^1.3.6"
-  }
+  ]
 }
