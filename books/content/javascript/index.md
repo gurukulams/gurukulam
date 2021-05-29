@@ -120,7 +120,7 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
    - [Modules, introduction](books/content/javascript/../../../modulesintroduction)
    - [Export and Import](books/content/javascript/../../../exportimport)
    - [Dynamic imports](books/content/javascript/../../../modulesdynamicimport)
-7. [Miscellaneous](books/javascript/miscellaneous-list-view)
+7. [Miscellaneous](books/content/javascript/../../../miscellaneous)
    - [Proxy and Reflect](#subsection-b)
    - [Eval: run a code string](#subsection-b)
    - [Currying](#subsection-b)
