@@ -1,110 +1,276 @@
-What is JavaScript?
+# Data types
 
-JavaScript was initially created to “make web pages alive”.
+A value in JavaScript is always of a certain type. For example, a string or a number.
 
-The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
+There are eight basic data types in JavaScript. Here, we'll cover them in general and in the next chapters we'll talk about each of them in detail.
 
-Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
+We can put any type in a variable. For example, a variable can at one moment be a string and then store a number:
 
-In this aspect, JavaScript is very different from another language called Java.
+```js
+// no error
+let message = "hello";
+message = 123456;
+```
 
-Why is it called JavaScript?
+Programming languages that allow such things, such as JavaScript, are called "dynamically typed", meaning that there exist data types, but variables are not bound to any of them.
 
-When JavaScript was created, it initially had another name: “LiveScript”. But Java was very popular at that time, so it was decided that positioning a new language as a “younger brother” of Java would help.
+## Number
 
-But as it evolved, JavaScript became a fully independent language with its own specification called ECMAScript, and now it has no relation to Java at all.
+```js
+let n = 123;
+n = 12.345;
+```
 
-Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called the JavaScript engine.
+The *number* type represents both integer and floating point numbers.
 
-The browser has an embedded engine sometimes called a “JavaScript virtual machine”.
+There are many operations for numbers, e.g. multiplication `*`, division `/`, addition `+`, subtraction `-`, and so on.
 
-Different engines have different “codenames”. For example:
+Besides regular numbers, there are so-called "special numeric values" which also belong to this data type: `Infinity`, `-Infinity` and `NaN`.
 
-    V8 – in Chrome and Opera.
-    SpiderMonkey – in Firefox.
-    …There are other codenames like “Chakra” for IE, “ChakraCore” for Microsoft Edge, “Nitro” and “SquirrelFish” for Safari, etc.
-The terms above are good to remember because they are used in developer articles on the internet. We’ll use them too. For instance, if “a feature X is supported by V8”, then it probably works in Chrome and Opera.
-How do engines work?
+- `Infinity` represents the mathematical [Infinity](https://en.wikipedia.org/wiki/Infinity) ∞. It is a special value that's greater than any number.
 
-Engines are complicated. But the basics are easy.
+    We can get it as a result of division by zero:
 
-    The engine (embedded if it’s a browser) reads (“parses”) the script.
-    Then it converts (“compiles”) the script to the machine language.
-    And then the machine code runs, pretty fast.
+    ```js run
+    alert( 1 / 0 ); // Infinity
+    ```
 
-The engine applies optimizations at each step of the process. It even watches the compiled script as it runs, analyzes the data that flows through it, and further optimizes the machine code based on that knowledge.
-What can in-browser JavaScript do?
+    Or just reference it directly:
 
-Modern JavaScript is a “safe” programming language. It does not provide low-level access to memory or CPU, because it was initially created for browsers which do not require it.
+    ```js run
+    alert( Infinity ); // Infinity
+    ```
+- `NaN` represents a computational error. It is a result of an incorrect or an undefined mathematical operation, for instance:
 
-JavaScript’s capabilities greatly depend on the environment it’s running in. For instance, Node.js supports functions that allow JavaScript to read/write arbitrary files, perform network requests, etc.
+    ```js run
+    alert( "not a number" / 2 ); // NaN, such division is erroneous
+    ```
 
-In-browser JavaScript can do everything related to webpage manipulation, interaction with the user, and the webserver.
+    `NaN` is sticky. Any further operation on `NaN` returns `NaN`:
 
-For instance, in-browser JavaScript is able to:
+    ```js run
+    alert( "not a number" / 2 + 5 ); // NaN
+    ```
 
-    Add new HTML to the page, change the existing content, modify styles.
-    React to user actions, run on mouse clicks, pointer movements, key presses.
-    Send requests over the network to remote servers, download and upload files (so-called AJAX and COMET technologies).
-    Get and set cookies, ask questions to the visitor, show messages.
-    Remember the data on the client-side (“local storage”).
+    So, if there's a `NaN` somewhere in a mathematical expression, it propagates to the whole result.
 
-What CAN’T in-browser JavaScript do?
+```smart header="Mathematical operations are safe"
+Doing maths is "safe" in JavaScript. We can do anything: divide by zero, treat non-numeric strings as numbers, etc.
 
-JavaScript’s abilities in the browser are limited for the sake of the user’s safety. The aim is to prevent an evil webpage from accessing private information or harming the user’s data.
+The script will never stop with a fatal error ("die"). At worst, we'll get `NaN` as the result.
+```
 
-Examples of such restrictions include:
+Special numeric values formally belong to the "number" type. Of course they are not numbers in the common sense of this word.
 
-    JavaScript on a webpage may not read/write arbitrary files on the hard disk, copy them or execute programs. It has no direct access to OS functions.
+We'll see more about working with numbers in the chapter <info:number>.
 
-    Modern browsers allow it to work with files, but the access is limited and only provided if the user does certain actions, like “dropping” a file into a browser window or selecting it via an <input> tag.
+## BigInt
 
-    There are ways to interact with camera/microphone and other devices, but they require a user’s explicit permission. So a JavaScript-enabled page may not sneakily enable a web-camera, observe the surroundings and send the information to the NSA.
+In JavaScript, the "number" type cannot represent integer values larger than <code>(2<sup>53</sup>-1)</code> (that's `9007199254740991`), or less than <code>-(2<sup>53</sup>-1)</code> for negatives. It's a technical limitation caused by their internal representation.
 
-    Different tabs/windows generally do not know about each other. Sometimes they do, for example when one window uses JavaScript to open the other one. But even in this case, JavaScript from one page may not access the other if they come from different sites (from a different domain, protocol or port).
+For most purposes that's quite enough, but sometimes we need really big numbers, e.g. for cryptography or microsecond-precision timestamps.
 
-    This is called the “Same Origin Policy”. To work around that, both pages must agree for data exchange and contain a special JavaScript code that handles it. We’ll cover that in the tutorial.
+`BigInt` type was recently added to the language to represent integers of arbitrary length.
 
-    This limitation is, again, for the user’s safety. A page from http://anysite.com which a user has opened must not be able to access another browser tab with the URL http://gmail.com and steal information from there.
+A `BigInt` value is created by appending `n` to the end of an integer:
 
-    JavaScript can easily communicate over the net to the server where the current page came from. But its ability to receive data from other sites/domains is crippled. Though possible, it requires explicit agreement (expressed in HTTP headers) from the remote side. Once again, that’s a safety limitation.
+```js
+// the "n" at the end means it's a BigInt
+const bigInt = 1234567890123456789012345678901234567890n;
+```
 
-Such limits do not exist if JavaScript is used outside of the browser, for example on a server. Modern browsers also allow plugin/extensions which may ask for extended permissions.
-What makes JavaScript unique?
+As `BigInt` numbers are rarely needed, we don't cover them here, but devoted them a separate chapter <info:bigint>. Read it when you need such big numbers.
 
-There are at least three great things about JavaScript:
 
-    Full integration with HTML/CSS.
-    Simple things are done simply.
-    Support by all major browsers and enabled by default.
+```smart header="Compatibility issues"
+Right now, `BigInt` is supported in Firefox/Chrome/Edge/Safari, but not in IE.
+```
 
-JavaScript is the only browser technology that combines these three things.
+You can check [*MDN* BigInt compatibility table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt#Browser_compatibility) to know which versions of a browser are supported.
 
-That’s what makes JavaScript unique. That’s why it’s the most widespread tool for creating browser interfaces.
+## String
 
-That said, JavaScript also allows to create servers, mobile applications, etc.
-Languages “over” JavaScript
+A string in JavaScript must be surrounded by quotes.
 
-The syntax of JavaScript does not suit everyone’s needs. Different people want different features.
+```js
+let str = "Hello";
+let str2 = 'Single quotes are ok too';
+let phrase = `can embed another ${str}`;
+```
 
-That’s to be expected, because projects and requirements are different for everyone.
+In JavaScript, there are 3 types of quotes.
 
-So recently a plethora of new languages appeared, which are transpiled (converted) to JavaScript before they run in the browser.
+1. Double quotes: `"Hello"`.
+2. Single quotes: `'Hello'`.
+3. Backticks: <code>&#96;Hello&#96;</code>.
 
-Modern tools make the transpilation very fast and transparent, actually allowing developers to code in another language and auto-converting it “under the hood”.
+Double and single quotes are "simple" quotes. There's practically no difference between them in JavaScript.
 
-Examples of such languages:
+Backticks are "extended functionality" quotes. They allow us to embed variables and expressions into a string by wrapping them in `${…}`, for example:
 
-    CoffeeScript is a “syntactic sugar” for JavaScript. It introduces shorter syntax, allowing us to write clearer and more precise code. Usually, Ruby devs like it.
-    TypeScript is concentrated on adding “strict data typing” to simplify the development and support of complex systems. It is developed by Microsoft.
-    Flow also adds data typing, but in a different way. Developed by Facebook.
-    Dart is a standalone language that has its own engine that runs in non-browser environments (like mobile apps), but also can be transpiled to JavaScript. Developed by Google.
-    Brython is a Python transpiler to JavaScript that enables the writing of applications in pure Python without JavaScript.
-    Kotlin is a modern, concise and safe programming language that can target the browser or Node.
+```js run
+let name = "John";
 
-There are more. Of course, even if we use one of transpiled languages, we should also know JavaScript to really understand what we’re doing.
-Summary
+// embed a variable
+alert( `Hello, *!*${name}*/!*!` ); // Hello, John!
 
-    JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
-    Today, JavaScript has a unique position as the most widely-adopted browser language with full integration in HTML/CSS.
-    There are many languages that get “transpiled” to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.
+// embed an expression
+alert( `the result is *!*${1 + 2}*/!*` ); // the result is 3
+```
+
+The expression inside `${…}` is evaluated and the result becomes a part of the string. We can put anything in there: a variable like `name` or an arithmetical expression like `1 + 2` or something more complex.
+
+Please note that this can only be done in backticks. Other quotes don't have this embedding functionality!
+```js run
+alert( "the result is ${1 + 2}" ); // the result is ${1 + 2} (double quotes do nothing)
+```
+
+We'll cover strings more thoroughly in the chapter <info:string>.
+
+```smart header="There is no *character* type."
+In some languages, there is a special "character" type for a single character. For example, in the C language and in Java it is called "char".
+
+In JavaScript, there is no such type. There's only one type: `string`. A string may consist of zero characters (be empty), one character or many of them.
+```
+
+## Boolean (logical type)
+
+The boolean type has only two values: `true` and `false`.
+
+This type is commonly used to store yes/no values: `true` means "yes, correct", and `false` means "no, incorrect".
+
+For instance:
+
+```js
+let nameFieldChecked = true; // yes, name field is checked
+let ageFieldChecked = false; // no, age field is not checked
+```
+
+Boolean values also come as a result of comparisons:
+
+```js run
+let isGreater = 4 > 1;
+
+alert( isGreater ); // true (the comparison result is "yes")
+```
+
+We'll cover booleans more deeply in the chapter <info:logical-operators>.
+
+## The "null" value
+
+The special `null` value does not belong to any of the types described above.
+
+It forms a separate type of its own which contains only the `null` value:
+
+```js
+let age = null;
+```
+
+In JavaScript, `null` is not a "reference to a non-existing object" or a "null pointer" like in some other languages.
+
+It's just a special value which represents "nothing", "empty" or "value unknown".
+
+The code above states that `age` is unknown.
+
+## The "undefined" value
+
+The special value `undefined` also stands apart. It makes a type of its own, just like `null`.
+
+The meaning of `undefined` is "value is not assigned".
+
+If a variable is declared, but not assigned, then its value is `undefined`:
+
+```js run
+let age;
+
+alert(age); // shows "undefined"
+```
+
+Technically, it is possible to explicitly assign `undefined` to a variable:
+
+```js run
+let age = 100;
+
+// change the value to undefined
+age = undefined;
+
+alert(age); // "undefined"
+```
+
+...But we don't recommend doing that. Normally, one uses `null` to assign an "empty" or "unknown" value to a variable, while `undefined` is reserved as a default initial value for unassigned things.
+
+## Objects and Symbols
+
+The `object` type is special.
+
+All other types are called "primitive" because their values can contain only a single thing (be it a string or a number or whatever). In contrast, objects are used to store collections of data and more complex entities.
+
+Being that important, objects deserve a special treatment. We'll deal with them later in the chapter <info:object>, after we learn more about primitives.
+
+The `symbol` type is used to create unique identifiers for objects. We have to mention it here for the sake of completeness, but also postpone the details till we know objects.
+
+## The typeof operator [#type-typeof]
+
+The `typeof` operator returns the type of the argument. It's useful when we want to process values of different types differently or just want to do a quick check.
+
+It supports two forms of syntax:
+
+1. As an operator: `typeof x`.
+2. As a function: `typeof(x)`.
+
+In other words, it works with parentheses or without them. The result is the same.
+
+The call to `typeof x` returns a string with the type name:
+
+```js
+typeof undefined // "undefined"
+
+typeof 0 // "number"
+
+typeof 10n // "bigint"
+
+typeof true // "boolean"
+
+typeof "foo" // "string"
+
+typeof Symbol("id") // "symbol"
+
+*!*
+typeof Math // "object"  (1)
+*/!*
+
+*!*
+typeof null // "object"  (2)
+*/!*
+
+*!*
+typeof alert // "function"  (3)
+*/!*
+```
+
+The last three lines may need additional explanation:
+
+1. `Math` is a built-in object that provides mathematical operations. We will learn it in the chapter <info:number>. Here, it serves just as an example of an object.
+2. The result of `typeof null` is `"object"`. That's an officially recognized error in `typeof` behavior, coming from the early days of JavaScript and kept for compatibility. Definitely, `null` is not an object. It is a special value with a separate type of its own.
+3. The result of `typeof alert` is `"function"`, because `alert` is a function. We'll study functions in the next chapters where we'll also see that there's no special "function" type in JavaScript. Functions belong to the object type. But `typeof` treats them differently, returning `"function"`. That also comes from the early days of JavaScript. Technically, such behavior isn't correct, but can be convenient in practice.
+
+## Summary
+
+There are 8 basic data types in JavaScript.
+
+- `number` for numbers of any kind: integer or floating-point, integers are limited by <code>±(2<sup>53</sup>-1)</code>.
+- `bigint` is for integer numbers of arbitrary length.
+- `string` for strings. A string may have zero or more characters, there's no separate single-character type.
+- `boolean` for `true`/`false`.
+- `null` for unknown values -- a standalone type that has a single value `null`.
+- `undefined` for unassigned values -- a standalone type that has a single value `undefined`.
+- `object` for more complex data structures.
+- `symbol` for unique identifiers.
+
+The `typeof` operator allows us to see which type is stored in a variable.
+
+- Two forms: `typeof x` or `typeof(x)`.
+- Returns a string with the name of the type, like `"string"`.
+- For `null` returns `"object"` -- this is an error in the language, it's not actually an object.
+
+In the next chapters, we'll concentrate on primitive values and once we're familiar with them, we'll move on to objects.

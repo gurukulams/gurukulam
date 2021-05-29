@@ -1,110 +1,502 @@
-What is JavaScript?
 
-JavaScript was initially created to “make web pages alive”.
+# Objects
 
-The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
+As we know from the chapter <info:types>, there are eight data types in JavaScript. Seven of them are called "primitive", because their values contain only a single thing (be it a string or a number or whatever).
 
-Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
+In contrast, objects are used to store keyed collections of various data and more complex entities. In JavaScript, objects penetrate almost every aspect of the language. So we must understand them first before going in-depth anywhere else.
 
-In this aspect, JavaScript is very different from another language called Java.
+An object can be created with figure brackets `{…}` with an optional list of *properties*. A property is a "key: value" pair, where `key` is a string (also called a "property name"), and `value` can be anything.
 
-Why is it called JavaScript?
+We can imagine an object as a cabinet with signed files. Every piece of data is stored in its file by the key. It's easy to find a file by its name or add/remove a file.
 
-When JavaScript was created, it initially had another name: “LiveScript”. But Java was very popular at that time, so it was decided that positioning a new language as a “younger brother” of Java would help.
+![](object.svg)
 
-But as it evolved, JavaScript became a fully independent language with its own specification called ECMAScript, and now it has no relation to Java at all.
+An empty object ("empty cabinet") can be created using one of two syntaxes:
 
-Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called the JavaScript engine.
+```js
+let user = new Object(); // "object constructor" syntax
+let user = {};  // "object literal" syntax
+```
 
-The browser has an embedded engine sometimes called a “JavaScript virtual machine”.
+![](object-user-empty.svg)
 
-Different engines have different “codenames”. For example:
+Usually, the figure brackets `{...}` are used. That declaration is called an *object literal*.
 
-    V8 – in Chrome and Opera.
-    SpiderMonkey – in Firefox.
-    …There are other codenames like “Chakra” for IE, “ChakraCore” for Microsoft Edge, “Nitro” and “SquirrelFish” for Safari, etc.
-The terms above are good to remember because they are used in developer articles on the internet. We’ll use them too. For instance, if “a feature X is supported by V8”, then it probably works in Chrome and Opera.
-How do engines work?
+## Literals and properties
 
-Engines are complicated. But the basics are easy.
+We can immediately put some properties into `{...}` as "key: value" pairs:
 
-    The engine (embedded if it’s a browser) reads (“parses”) the script.
-    Then it converts (“compiles”) the script to the machine language.
-    And then the machine code runs, pretty fast.
+```js
+let user = {     // an object
+  name: "John",  // by key "name" store value "John"
+  age: 30        // by key "age" store value 30
+};
+```
 
-The engine applies optimizations at each step of the process. It even watches the compiled script as it runs, analyzes the data that flows through it, and further optimizes the machine code based on that knowledge.
-What can in-browser JavaScript do?
+A property has a key (also known as "name" or "identifier") before the colon `":"` and a value to the right of it.
 
-Modern JavaScript is a “safe” programming language. It does not provide low-level access to memory or CPU, because it was initially created for browsers which do not require it.
+In the `user` object, there are two properties:
 
-JavaScript’s capabilities greatly depend on the environment it’s running in. For instance, Node.js supports functions that allow JavaScript to read/write arbitrary files, perform network requests, etc.
+1. The first property has the name `"name"` and the value `"John"`.
+2. The second one has the name `"age"` and the value `30`.
 
-In-browser JavaScript can do everything related to webpage manipulation, interaction with the user, and the webserver.
+The resulting `user` object can be imagined as a cabinet with two signed files labeled "name" and "age".
 
-For instance, in-browser JavaScript is able to:
+![user object](object-user.svg)
 
-    Add new HTML to the page, change the existing content, modify styles.
-    React to user actions, run on mouse clicks, pointer movements, key presses.
-    Send requests over the network to remote servers, download and upload files (so-called AJAX and COMET technologies).
-    Get and set cookies, ask questions to the visitor, show messages.
-    Remember the data on the client-side (“local storage”).
+We can add, remove and read files from it any time.
 
-What CAN’T in-browser JavaScript do?
+Property values are accessible using the dot notation:
 
-JavaScript’s abilities in the browser are limited for the sake of the user’s safety. The aim is to prevent an evil webpage from accessing private information or harming the user’s data.
+```js
+// get property values of the object:
+alert( user.name ); // John
+alert( user.age ); // 30
+```
 
-Examples of such restrictions include:
+The value can be of any type. Let's add a boolean one:
 
-    JavaScript on a webpage may not read/write arbitrary files on the hard disk, copy them or execute programs. It has no direct access to OS functions.
+```js
+user.isAdmin = true;
+```
 
-    Modern browsers allow it to work with files, but the access is limited and only provided if the user does certain actions, like “dropping” a file into a browser window or selecting it via an <input> tag.
+![user object 2](object-user-isadmin.svg)
 
-    There are ways to interact with camera/microphone and other devices, but they require a user’s explicit permission. So a JavaScript-enabled page may not sneakily enable a web-camera, observe the surroundings and send the information to the NSA.
+To remove a property, we can use `delete` operator:
 
-    Different tabs/windows generally do not know about each other. Sometimes they do, for example when one window uses JavaScript to open the other one. But even in this case, JavaScript from one page may not access the other if they come from different sites (from a different domain, protocol or port).
+```js
+delete user.age;
+```
 
-    This is called the “Same Origin Policy”. To work around that, both pages must agree for data exchange and contain a special JavaScript code that handles it. We’ll cover that in the tutorial.
+![user object 3](object-user-delete.svg)
 
-    This limitation is, again, for the user’s safety. A page from http://anysite.com which a user has opened must not be able to access another browser tab with the URL http://gmail.com and steal information from there.
+We can also use multiword property names, but then they must be quoted:
 
-    JavaScript can easily communicate over the net to the server where the current page came from. But its ability to receive data from other sites/domains is crippled. Though possible, it requires explicit agreement (expressed in HTTP headers) from the remote side. Once again, that’s a safety limitation.
+```js
+let user = {
+  name: "John",
+  age: 30,
+  "likes birds": true  // multiword property name must be quoted
+};
+```
 
-Such limits do not exist if JavaScript is used outside of the browser, for example on a server. Modern browsers also allow plugin/extensions which may ask for extended permissions.
-What makes JavaScript unique?
+![](object-user-props.svg)
 
-There are at least three great things about JavaScript:
 
-    Full integration with HTML/CSS.
-    Simple things are done simply.
-    Support by all major browsers and enabled by default.
+The last property in the list may end with a comma:
+```js
+let user = {
+  name: "John",
+  age: 30*!*,*/!*
+}
+```
+That is called a "trailing" or "hanging" comma. Makes it easier to add/remove/move around properties, because all lines become alike.
 
-JavaScript is the only browser technology that combines these three things.
+## Square brackets
 
-That’s what makes JavaScript unique. That’s why it’s the most widespread tool for creating browser interfaces.
+For multiword properties, the dot access doesn't work:
 
-That said, JavaScript also allows to create servers, mobile applications, etc.
-Languages “over” JavaScript
+```js run
+// this would give a syntax error
+user.likes birds = true
+```
 
-The syntax of JavaScript does not suit everyone’s needs. Different people want different features.
+JavaScript doesn't understand that. It thinks that we address `user.likes`, and then gives a syntax error when comes across unexpected `birds`.
 
-That’s to be expected, because projects and requirements are different for everyone.
+The dot requires the key to be a valid variable identifier. That implies: contains no spaces, doesn't start with a digit and doesn't include special characters (`$` and `_` are allowed).
 
-So recently a plethora of new languages appeared, which are transpiled (converted) to JavaScript before they run in the browser.
+There's an alternative "square bracket notation" that works with any string:
 
-Modern tools make the transpilation very fast and transparent, actually allowing developers to code in another language and auto-converting it “under the hood”.
+```js run
+let user = {};
 
-Examples of such languages:
+// set
+user["likes birds"] = true;
 
-    CoffeeScript is a “syntactic sugar” for JavaScript. It introduces shorter syntax, allowing us to write clearer and more precise code. Usually, Ruby devs like it.
-    TypeScript is concentrated on adding “strict data typing” to simplify the development and support of complex systems. It is developed by Microsoft.
-    Flow also adds data typing, but in a different way. Developed by Facebook.
-    Dart is a standalone language that has its own engine that runs in non-browser environments (like mobile apps), but also can be transpiled to JavaScript. Developed by Google.
-    Brython is a Python transpiler to JavaScript that enables the writing of applications in pure Python without JavaScript.
-    Kotlin is a modern, concise and safe programming language that can target the browser or Node.
+// get
+alert(user["likes birds"]); // true
 
-There are more. Of course, even if we use one of transpiled languages, we should also know JavaScript to really understand what we’re doing.
-Summary
+// delete
+delete user["likes birds"];
+```
 
-    JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
-    Today, JavaScript has a unique position as the most widely-adopted browser language with full integration in HTML/CSS.
-    There are many languages that get “transpiled” to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.
+Now everything is fine. Please note that the string inside the brackets is properly quoted (any type of quotes will do).
+
+Square brackets also provide a way to obtain the property name as the result of any expression -- as opposed to a literal string -- like from a variable as follows:
+
+```js
+let key = "likes birds";
+
+// same as user["likes birds"] = true;
+user[key] = true;
+```
+
+Here, the variable `key` may be calculated at run-time or depend on the user input. And then we use it to access the property. That gives us a great deal of flexibility.
+
+For instance:
+
+```js run
+let user = {
+  name: "John",
+  age: 30
+};
+
+let key = prompt("What do you want to know about the user?", "name");
+
+// access by variable
+alert( user[key] ); // John (if enter "name")
+```
+
+The dot notation cannot be used in a similar way:
+
+```js run
+let user = {
+  name: "John",
+  age: 30
+};
+
+let key = "name";
+alert( user.key ) // undefined
+```
+
+### Computed properties
+
+We can use square brackets in an object literal, when creating an object. That's called *computed properties*.
+
+For instance:
+
+```js run
+let fruit = prompt("Which fruit to buy?", "apple");
+
+let bag = {
+*!*
+  [fruit]: 5, // the name of the property is taken from the variable fruit
+*/!*
+};
+
+alert( bag.apple ); // 5 if fruit="apple"
+```
+
+The meaning of a computed property is simple: `[fruit]` means that the property name should be taken from `fruit`.
+
+So, if a visitor enters `"apple"`, `bag` will become `{apple: 5}`.
+
+Essentially, that works the same as:
+```js run
+let fruit = prompt("Which fruit to buy?", "apple");
+let bag = {};
+
+// take property name from the fruit variable
+bag[fruit] = 5;
+```
+
+...But looks nicer.
+
+We can use more complex expressions inside square brackets:
+
+```js
+let fruit = 'apple';
+let bag = {
+  [fruit + 'Computers']: 5 // bag.appleComputers = 5
+};
+```
+
+Square brackets are much more powerful than the dot notation. They allow any property names and variables. But they are also more cumbersome to write.
+
+So most of the time, when property names are known and simple, the dot is used. And if we need something more complex, then we switch to square brackets.
+
+## Property value shorthand
+
+In real code we often use existing variables as values for property names.
+
+For instance:
+
+```js run
+function makeUser(name, age) {
+  return {
+    name: name,
+    age: age,
+    // ...other properties
+  };
+}
+
+let user = makeUser("John", 30);
+alert(user.name); // John
+```
+
+In the example above, properties have the same names as variables. The use-case of making a property from a variable is so common, that there's a special *property value shorthand* to make it shorter.
+
+Instead of `name:name` we can just write `name`, like this:
+
+```js
+function makeUser(name, age) {
+*!*
+  return {
+    name, // same as name: name
+    age,  // same as age: age
+    // ...
+  };
+*/!*
+}
+```
+
+We can use both normal properties and shorthands in the same object:
+
+```js
+let user = {
+  name,  // same as name:name
+  age: 30
+};
+```
+
+
+## Property names limitations
+
+As we already know, a variable cannot have a name equal to one of language-reserved words like "for", "let", "return" etc.
+
+But for an object property, there's no such restriction:
+
+```js run
+// these properties are all right
+let obj = {
+  for: 1,
+  let: 2,
+  return: 3
+};
+
+alert( obj.for + obj.let + obj.return );  // 6
+```
+
+In short, there are no limitations on property names. They can be any strings or symbols (a special type for identifiers, to be covered later).
+
+Other types are automatically converted to strings.
+
+For instance, a number `0` becomes a string `"0"` when used as a property key:
+
+```js run
+let obj = {
+  0: "test" // same as "0": "test"
+};
+
+// both alerts access the same property (the number 0 is converted to string "0")
+alert( obj["0"] ); // test
+alert( obj[0] ); // test (same property)
+```
+
+There's a minor gotcha with a special property named `__proto__`. We can't set it to a non-object value:
+
+```js run
+let obj = {};
+obj.__proto__ = 5; // assign a number
+alert(obj.__proto__); // [object Object] - the value is an object, didn't work as intended
+```
+
+As we see from the code, the assignment to a primitive `5` is ignored.
+
+We'll cover the special nature of `__proto__` in [subsequent chapters](info:prototype-inheritance), and suggest the [ways to fix](info:prototype-methods) such behavior.
+
+## Property existence test, "in" operator
+
+A notable feature of objects in JavaScript, compared to many other languages, is that it's possible to access any property. There will be no error if the property doesn't exist!
+
+Reading a non-existing property just returns `undefined`. So we can easily test whether the property exists:
+
+```js run
+let user = {};
+
+alert( user.noSuchProperty === undefined ); // true means "no such property"
+```
+
+There's also a special operator `"in"` for that.
+
+The syntax is:
+```js
+"key" in object
+```
+
+For instance:
+
+```js run
+let user = { name: "John", age: 30 };
+
+alert( "age" in user ); // true, user.age exists
+alert( "blabla" in user ); // false, user.blabla doesn't exist
+```
+
+Please note that on the left side of `in` there must be a *property name*. That's usually a quoted string.
+
+If we omit quotes, that means a variable, it should contain the actual name to be tested. For instance:
+
+```js run
+let user = { age: 30 };
+
+let key = "age";
+alert( *!*key*/!* in user ); // true, property "age" exists
+```
+
+Why does the `in` operator exist? Isn't it enough to compare against `undefined`?
+
+Well, most of the time the comparison with `undefined` works fine. But there's a special case when it fails, but `"in"` works correctly.
+
+It's when an object property exists, but stores `undefined`:
+
+```js run
+let obj = {
+  test: undefined
+};
+
+alert( obj.test ); // it's undefined, so - no such property?
+
+alert( "test" in obj ); // true, the property does exist!
+```
+
+In the code above, the property `obj.test` technically exists. So the `in` operator works right.
+
+Situations like this happen very rarely, because `undefined` should not be explicitly assigned. We mostly use `null` for "unknown" or "empty" values. So the `in` operator is an exotic guest in the code.
+
+
+## The "for..in" loop
+
+To walk over all keys of an object, there exists a special form of the loop: `for..in`. This is a completely different thing from the `for(;;)` construct that we studied before.
+
+The syntax:
+
+```js
+for (key in object) {
+  // executes the body for each key among object properties
+}
+```
+
+For instance, let's output all properties of `user`:
+
+```js run
+let user = {
+  name: "John",
+  age: 30,
+  isAdmin: true
+};
+
+for (let key in user) {
+  // keys
+  alert( key );  // name, age, isAdmin
+  // values for the keys
+  alert( user[key] ); // John, 30, true
+}
+```
+
+Note that all "for" constructs allow us to declare the looping variable inside the loop, like `let key` here.
+
+Also, we could use another variable name here instead of `key`. For instance, `"for (let prop in obj)"` is also widely used.
+
+### Ordered like an object
+
+Are objects ordered? In other words, if we loop over an object, do we get all properties in the same order they were added? Can we rely on this?
+
+The short answer is: "ordered in a special fashion": integer properties are sorted, others appear in creation order. The details follow.
+
+As an example, let's consider an object with the phone codes:
+
+```js run
+let codes = {
+  "49": "Germany",
+  "41": "Switzerland",
+  "44": "Great Britain",
+  // ..,
+  "1": "USA"
+};
+
+*!*
+for (let code in codes) {
+  alert(code); // 1, 41, 44, 49
+}
+*/!*
+```
+
+The object may be used to suggest a list of options to the user. If we're making a site mainly for German audience then we probably want `49` to be the first.
+
+But if we run the code, we see a totally different picture:
+
+- USA (1) goes first
+- then Switzerland (41) and so on.
+
+The phone codes go in the ascending sorted order, because they are integers. So we see `1, 41, 44, 49`.
+
+````smart header="Integer properties? What's that?"
+The "integer property" term here means a string that can be converted to-and-from an integer without a change.
+
+So, "49" is an integer property name, because when it's transformed to an integer number and back, it's still the same. But "+49" and "1.2" are not:
+
+```js run
+// Math.trunc is a built-in function that removes the decimal part
+alert( String(Math.trunc(Number("49"))) ); // "49", same, integer property
+alert( String(Math.trunc(Number("+49"))) ); // "49", not same "+49" ⇒ not integer property
+alert( String(Math.trunc(Number("1.2"))) ); // "1", not same "1.2" ⇒ not integer property
+```
+````
+
+...On the other hand, if the keys are non-integer, then they are listed in the creation order, for instance:
+
+```js run
+let user = {
+  name: "John",
+  surname: "Smith"
+};
+user.age = 25; // add one more
+
+*!*
+// non-integer properties are listed in the creation order
+*/!*
+for (let prop in user) {
+  alert( prop ); // name, surname, age
+}
+```
+
+So, to fix the issue with the phone codes, we can "cheat" by making the codes non-integer. Adding a plus `"+"` sign before each code is enough.
+
+Like this:
+
+```js run
+let codes = {
+  "+49": "Germany",
+  "+41": "Switzerland",
+  "+44": "Great Britain",
+  // ..,
+  "+1": "USA"
+};
+
+for (let code in codes) {
+  alert( +code ); // 49, 41, 44, 1
+}
+```
+
+Now it works as intended.
+
+## Summary
+
+Objects are associative arrays with several special features.
+
+They store properties (key-value pairs), where:
+- Property keys must be strings or symbols (usually strings).
+- Values can be of any type.
+
+To access a property, we can use:
+- The dot notation: `obj.property`.
+- Square brackets notation `obj["property"]`. Square brackets allow to take the key from a variable, like `obj[varWithKey]`.
+
+Additional operators:
+- To delete a property: `delete obj.prop`.
+- To check if a property with the given key exists: `"key" in obj`.
+- To iterate over an object: `for (let key in obj)` loop.
+
+What we've studied in this chapter is called a "plain object", or just `Object`.
+
+There are many other kinds of objects in JavaScript:
+
+- `Array` to store ordered data collections,
+- `Date` to store the information about the date and time,
+- `Error` to store the information about an error.
+- ...And so on.
+
+They have their special features that we'll study later. Sometimes people say something like "Array type" or "Date type", but formally they are not types of their own, but belong to a single "object" data type. And they extend it in various ways.
+
+Objects in JavaScript are very powerful. Here we've just scratched the surface of a topic that is really huge. We'll be closely working with objects and learning more about them in further parts of the tutorial.
