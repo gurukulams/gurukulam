@@ -1,6 +1,6 @@
-{{ define "main" }} 
-{{ $section := .Site.GetPage "section" .Section }}
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div class="p-5" id="content" data-type="java">
-    {{- .Content -}}Hello
+    {{- .Content -}}
 </div>
+
 {{ end }}

@@ -63,5 +63,12 @@
     </main>
     <!-- /.container -->
     {{ block "scripts" . }}{{ partial "scripts" . }}{{end}}
+
+    {{ if templates.Exists ( printf "partials/scripts-%s.html" .Type ) }}
+        {{ $partialPath := printf "scripts-%s" .Type }}
+        {{ partial $partialPath . }}
+      {{ else }}
+      {{printf "partials/scripts-%s" .Type}}
+    {{ end }}
   </body>
 </html>
