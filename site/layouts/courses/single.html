@@ -1,0 +1,6 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+<div class="container reveal d-flex w-100 h-100 m-4">
+    {{- .Content -}}
+</div>
+
+{{ end }}
