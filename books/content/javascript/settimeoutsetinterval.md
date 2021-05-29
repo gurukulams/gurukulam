@@ -200,7 +200,7 @@ setTimeout(function run() {
 
 For `setInterval` the internal scheduler will run `func(i++)` every 100ms:
 
-![](setinterval-interval.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/08-settimeout-setinterval/setinterval-interval.svg)
 
 Did you notice?
 
@@ -216,7 +216,7 @@ In the edge case, if the function always executes longer than `delay` ms, then t
 
 And here is the picture for the nested `setTimeout`:
 
-![](settimeout-interval.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/08-settimeout-setinterval/settimeout-interval.svg)
 
 **The nested `setTimeout` guarantees the fixed delay (here 100ms).**
 

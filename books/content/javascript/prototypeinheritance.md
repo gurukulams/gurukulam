@@ -10,7 +10,7 @@ For instance, we have a `user` object with its properties and methods, and want 
 
 In JavaScript, objects have a special hidden property `[[Prototype]]` (as named in the specification), that is either `null` or references another object. That object is called "a prototype":
 
-![prototype](object-prototype-empty.svg)
+![prototype](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/08-prototypes/01-prototype-inheritance/object-prototype-empty.svg)
 
 When we read a property from `object`, and it's missing, JavaScript automatically takes it from the prototype. In programming, this is called "prototypal inheritance". And soon we'll study many examples of such inheritance, as well as cooler language features built upon it.
 
@@ -58,7 +58,7 @@ Here the line `(*)` sets `animal` to be a prototype of `rabbit`.
 
 Then, when `alert` tries to read property `rabbit.eats` `(**)`, it's not in `rabbit`, so JavaScript follows the `[[Prototype]]` reference and finds it in `animal` (look from the bottom up):
 
-![](proto-animal-rabbit.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/08-prototypes/01-prototype-inheritance/proto-animal-rabbit.svg)
 
 Here we can say that "`animal` is the prototype of `rabbit`" or "`rabbit` prototypically inherits from `animal`".
 
@@ -89,7 +89,7 @@ rabbit.walk(); // Animal walk
 
 The method is automatically taken from the prototype, like this:
 
-![](proto-animal-rabbit-walk.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/08-prototypes/01-prototype-inheritance/proto-animal-rabbit-walk.svg)
 
 The prototype chain can be longer:
 
@@ -120,7 +120,7 @@ longEar.walk(); // Animal walk
 alert(longEar.jumps); // true (from rabbit)
 ```
 
-![](proto-animal-rabbit-chain.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/08-prototypes/01-prototype-inheritance/proto-animal-rabbit-chain.svg)
 
 Now if we read something from `longEar`, and it's missing, JavaScript will look for it in `rabbit`, and then in `animal`.
 
@@ -175,7 +175,7 @@ rabbit.walk(); // Rabbit! Bounce-bounce!
 
 From now on, `rabbit.walk()` call finds the method immediately in the object and executes it, without using the prototype:
 
-![](proto-animal-rabbit-walk-2.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/08-prototypes/01-prototype-inheritance/proto-animal-rabbit-walk-2.svg)
 
 Accessor properties are an exception, as assignment is handled by a setter function. So writing to such a property is actually the same as calling a function.
 
@@ -254,7 +254,7 @@ alert(animal.isSleeping); // undefined (no such property in the prototype)
 
 The resulting picture:
 
-![](proto-animal-rabbit-walk-3.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/08-prototypes/01-prototype-inheritance/proto-animal-rabbit-walk-3.svg)
 
 If we had other objects, like `bird`, `snake`, etc., inheriting from `animal`, they would also gain access to methods of `animal`. But `this` in each method call would be the corresponding object, evaluated at the call-time (before dot), not `animal`. So when we write data into `this`, it is stored into these objects.
 
@@ -314,7 +314,7 @@ for(let prop in rabbit) {
 
 Here we have the following inheritance chain: `rabbit` inherits from `animal`, that inherits from `Object.prototype` (because `animal` is a literal object `{...}`, so it's by default), and then `null` above it:
 
-![](rabbit-animal-object.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/08-prototypes/01-prototype-inheritance/rabbit-animal-object.svg)
 
 Note, there's one funny thing. Where is the method `rabbit.hasOwnProperty` coming from? We did not define it. Looking at the chain we can see that the method is provided by `Object.prototype.hasOwnProperty`. In other words, it's inherited.
 

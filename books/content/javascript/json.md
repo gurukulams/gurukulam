@@ -170,7 +170,7 @@ JSON.stringify(meetup); // Error: Converting circular structure to JSON
 
 Here, the conversion fails, because of circular reference: `room.occupiedBy` references `meetup`, and `meetup.place` references `room`:
 
-![](json-meetup.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/05-data-types/12-json/json-meetup.svg)
 
 
 ## Excluding and transforming: replacer

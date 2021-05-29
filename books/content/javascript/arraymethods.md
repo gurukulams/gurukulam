@@ -588,7 +588,7 @@ Let's see the details of what's going on.
 
 The calculation flow:
 
-![](reduce.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/05-data-types/05-array-methods/reduce.svg)
 
 Or in the form of a table, where each row represents a function call on the next array element:
 

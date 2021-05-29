@@ -451,7 +451,7 @@ alert(item2);  // Donut
 
 All properties of `options` object except `extra` that is absent in the left part, are assigned to corresponding variables:
 
-![](destructuring-complex.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/05-data-types/10-destructuring-assignment/destructuring-complex.svg)
 
 Finally, we have `width`, `height`, `item1`, `item2` and `title` from the default value.
 

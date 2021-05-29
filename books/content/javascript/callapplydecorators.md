@@ -51,7 +51,7 @@ By separating caching from the main function code we also keep the main code sim
 
 The result of `cachingDecorator(func)` is a "wrapper": `function(x)` that "wraps" the call of `func(x)` into caching logic:
 
-![](decorator-makecaching-wrapper.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/09-call-apply-decorators/decorator-makecaching-wrapper.svg)
 
 From an outside code, the wrapped `slow` function still does the same. It just got a caching aspect added to its behavior.
 

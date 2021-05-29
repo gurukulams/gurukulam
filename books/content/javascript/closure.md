@@ -171,7 +171,7 @@ The Lexical Environment object consists of two parts:
 
 In this simple code without functions, there is only one Lexical Environment:
 
-![lexical environment](lexical-environment-global.svg)
+![lexical environment](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/lexical-environment-global.svg)
 
 This is the so-called *global* Lexical Environment, associated with the whole script.
 
@@ -181,7 +181,7 @@ As the code starts executing and goes on, the Lexical Environment changes.
 
 Here's a little bit longer code:
 
-![lexical environment](closure-variable-phrase.svg)
+![lexical environment](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/closure-variable-phrase.svg)
 
 Rectangles on the right-hand side demonstrate how the global Lexical Environment changes during the execution:
 
@@ -214,7 +214,7 @@ That's why we can use a function, declared as Function Declaration, even before 
 
 For example, here's the initial state of the global Lexical Environment when we add a function:
 
-![](closure-function-declaration.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/closure-function-declaration.svg)
 
 Naturally, this behavior only applies to Function Declarations, not Function Expressions where we assign a function to a variable, such as `let say = function(name)...`.
 
@@ -235,7 +235,7 @@ For instance, for `say("John")`, it looks like this (the execution is at the lin
     say("John"); // Hello, John
     ```-->
 
-![](lexical-environment-simple.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/lexical-environment-simple.svg)
 
 During the function call we have two Lexical Environments: the inner one (for the function call) and the outer one (global):
 
@@ -253,7 +253,7 @@ In this example the search proceeds as follows:
 - For the `name` variable, the `alert` inside `say` finds it immediately in the inner Lexical Environment.
 - When it wants to access `phrase`, then there is no `phrase` locally, so it follows the reference to the outer Lexical Environment and finds it there.
 
-![lexical environment lookup](lexical-environment-simple-lookup.svg)
+![lexical environment lookup](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/lexical-environment-simple-lookup.svg)
 
 
 ### Step 4. Returning a function
@@ -276,19 +276,19 @@ At the beginning of each `makeCounter()` call, a new Lexical Environment object 
 
 So we have two nested Lexical Environments, just like in the example above:
 
-![](closure-makecounter.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/closure-makecounter.svg)
 
 What's different is that, during the execution of `makeCounter()`, a tiny nested function is created of only one line: `return count++`. We don't run it yet, only create.
 
 All functions remember the Lexical Environment in which they were made. Technically, there's no magic here: all functions have the hidden property named `[[Environment]]`, that keeps the reference to the Lexical Environment where the function was created:
 
-![](closure-makecounter-environment.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/closure-makecounter-environment.svg)
 
 So, `counter.[[Environment]]` has the reference to `{count: 0}` Lexical Environment. That's how the function remembers where it was created, no matter where it's called. The `[[Environment]]` reference is set once and forever at function creation time.
 
 Later, when `counter()` is called, a new Lexical Environment is created for the call, and its outer Lexical Environment reference is taken from `counter.[[Environment]]`:
 
-![](closure-makecounter-nested-call.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/closure-makecounter-nested-call.svg)
 
 Now when the code inside `counter()` looks for `count` variable, it first searches its own Lexical Environment (empty, as there are no local variables there), then the Lexical Environment of the outer `makeCounter()` call, where it finds and changes it.
 
@@ -296,7 +296,7 @@ Now when the code inside `counter()` looks for `count` variable, it first search
 
 Here's the state after the execution:
 
-![](closure-makecounter-nested-call-2.svg)
+![](https://raw.githubusercontent.com/javascript-tutorial/en.javascript.info/cf33b67042d72df14e41f6688695ef833467f7f7/1-js/06-advanced-functions/03-closure/closure-makecounter-nested-call-2.svg)
 
 If we call `counter()` multiple times, the `count` variable will be increased to `2`, `3` and so on, at the same place.
 
