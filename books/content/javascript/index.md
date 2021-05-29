@@ -121,11 +121,11 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
    - [Export and Import](books/content/javascript/../../../exportimport)
    - [Dynamic imports](books/content/javascript/../../../modulesdynamicimport)
 7. [Miscellaneous](books/content/javascript/../../../miscellaneous)
-   - [Proxy and Reflect](#subsection-b)
-   - [Eval: run a code string](#subsection-b)
-   - [Currying](#subsection-b)
-   - [Reference Type](#subsection-b)
-   - [BigInt](#subsection-b)
+   - [Proxy and Reflect](/books/content/javascript/proxyandreflect)
+   - [Eval: run a code string](/books/content/javascript/evalruncodestring)
+   - [Currying](/books/content/javascript/currying)
+   - [Reference Type](/books/content/javascript/referencetype)
+   - [BigInt](/books/content/javascript/bigint)
    
 
   
