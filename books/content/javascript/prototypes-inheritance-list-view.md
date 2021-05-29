@@ -1,7 +1,7 @@
 #### Prototypes, inheritance
 
 
-- [Prototypal inheritance](/books/javascript/prototypesInheritanceListView)
-- [F.prototype](/books/javascript/prototypesInheritanceListView)
-- [Native prototypes](/books/javascript/prototypesInheritanceListView)
-- [Prototype methods, objects without __proto__](/books/javascript/prototypesInheritanceListView)
+- [Prototypal inheritance](books/javascript/prototype-inheritance)
+- [F.prototype](books/javascript/function-prototype)
+- [Native prototypes](books/javascript/native-prototypes)
+- [Prototype methods, objects without __proto__](books/javascript/prototype-methods)
