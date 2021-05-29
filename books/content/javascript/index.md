@@ -113,7 +113,7 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
    - [Promisification](#subsection-b)
    - [Microtasks](#subsection-b)
    - [Async/await](#subsection-b)
-12. [Generators, advanced iteration](books/javascript/generators-advanced-iteration-list-view)
+12. [Generators, advanced iteration](books/javascript/generatorsadvancediterationlistview)
    - [Generators](#subsection-b)
    - [Async iteration and generators](#subsection-b)
 13. [Modules](books/javascript/modules)
