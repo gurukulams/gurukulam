@@ -1,5 +1,0 @@
-1. [Proxy and Reflect](/books/javascript/proxyandreflect)
-2. [Eval: run a code string](/books/javascript/evalruncodestring)
-3. [Currying](/books/javascript/currying)
-4. [Reference Type](/books/javascript/referencetype)
-5. [BigInt](/books/javascript/bigint)
