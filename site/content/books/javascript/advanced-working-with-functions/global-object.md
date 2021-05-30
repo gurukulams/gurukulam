@@ -1,6 +1,7 @@
 ---
 title: 'Global object'
 date: 2018-11-14T19:02:50-07:00
+weight: 6.5
 draft: false
 ---
 # Global object

@@ -1,6 +1,7 @@
 ---
 title: 'Decorators and forwarding, call/apply'
 date: 2018-11-14T19:02:50-07:00
+weight: 6.9
 draft: false
 ---
 # Decorators and forwarding, call/apply
