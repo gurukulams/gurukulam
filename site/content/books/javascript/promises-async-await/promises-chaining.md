@@ -1,4 +1,8 @@
-
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Promises chaining
 
 Let's return to the problem mentioned in the chapter <info:callbacks>: we have a sequence of asynchronous tasks to be performed one after another — for instance, loading scripts. How can we code it well?

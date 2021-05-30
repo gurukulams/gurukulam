@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Code structure
 
 The first thing we'll study is the building blocks of code.

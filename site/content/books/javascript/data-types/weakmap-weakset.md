@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # WeakMap and WeakSet
 
 As we know from the chapter <info:garbage-collection>, JavaScript engine keeps a value in memory while it is "reachable" and can potentially be used.

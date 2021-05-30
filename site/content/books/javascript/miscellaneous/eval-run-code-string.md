@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Eval: run a code string
 
 The built-in `eval` function allows to execute a string of code.

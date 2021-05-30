@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Proxy and Reflect
 
 A `Proxy` object wraps another object and intercepts operations, like reading/writing properties and others, optionally handling them on its own, or transparently allowing the object to handle them.

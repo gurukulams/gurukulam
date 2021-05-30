@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Function expressions
 
 In JavaScript, a function is not a "magical language structure", but a special kind of value.

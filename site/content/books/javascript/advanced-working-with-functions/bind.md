@@ -1,3 +1,8 @@
+---
+title: 'Function binding'
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Function binding
 
 When passing object methods as callbacks, for instance to `setTimeout`, there's a known problem: "losing `this`".

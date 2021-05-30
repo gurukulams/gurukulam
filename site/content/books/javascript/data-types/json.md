@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # JSON methods, toJSON
 
 Let's say we have a complex object, and we'd like to convert it into a string, to send it over a network, or just to output it for logging purposes.

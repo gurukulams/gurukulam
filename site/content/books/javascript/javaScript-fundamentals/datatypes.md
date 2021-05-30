@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Data types
 
 A value in JavaScript is always of a certain type. For example, a string or a number.

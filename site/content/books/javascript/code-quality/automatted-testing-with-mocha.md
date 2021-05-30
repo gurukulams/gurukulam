@@ -1,3 +1,8 @@
+---
+title: 'Automated testing with Mocha'
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Automated testing with Mocha
 
 Automated testing will be used in further tasks, and it's also widely used in real projects.

@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # An Introduction to JavaScript
 
 Let's see what's so special about JavaScript, what we can achieve with it, and what other technologies play well with it.

@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Date and time
 
 Let's meet a new built-in object: [Date](mdn:js/Date). It stores the date, time and provides methods for date/time management.

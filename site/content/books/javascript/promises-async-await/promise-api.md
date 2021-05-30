@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Promise API
 
 There are 6 static methods in the `Promise` class. We'll quickly cover their use cases here.

@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Array methods
 
 Arrays provide a lot of methods. To make things easier, in this chapter they are split into groups.

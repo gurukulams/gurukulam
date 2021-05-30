@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main>
+    <ul>
+    <!-- Ranges through content/posts/*.md -->
+    {{ range .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+    {{ end }}
+    </ul>
+</main>
+{{ end }}

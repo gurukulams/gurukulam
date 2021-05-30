@@ -1,4 +1,8 @@
-
+---
+title: 'Global object'
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Global object
 
 The global object provides variables and functions that are available anywhere. By default, those that are built into the language or the environment.

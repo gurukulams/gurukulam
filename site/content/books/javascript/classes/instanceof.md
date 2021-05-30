@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 ## **Class checking: "instanceof"**
 
 The `instanceof` operator allows to check whether an object belongs to a certain class. It also takes inheritance into account.

@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Prototypal inheritance
 
 In programming, we often want to take something and extend it.

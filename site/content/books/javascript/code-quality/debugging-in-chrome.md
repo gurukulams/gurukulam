@@ -1,3 +1,8 @@
+---
+title: 'Debugging in Chrome'
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Debugging in Chrome
 
 Before writing more complex code, let's talk about debugging.

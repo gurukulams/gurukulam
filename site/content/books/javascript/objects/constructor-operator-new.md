@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Constructor, operator "new"
 
 The regular `{...}` syntax allows to create one object. But often we need to create many similar objects, like multiple users or menu items and so on.

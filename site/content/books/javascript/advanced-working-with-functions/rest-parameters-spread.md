@@ -1,3 +1,8 @@
+---
+title: 'Rest parameters and spread syntax'
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Rest parameters and spread syntax
 
 Many JavaScript built-in functions support an arbitrary number of arguments.

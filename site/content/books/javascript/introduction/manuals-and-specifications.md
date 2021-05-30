@@ -1,4 +1,8 @@
-
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Manuals and specifications
 
 This book is a *tutorial*. It aims to help you gradually learn the language. But once you're familiar with the basics, you'll need other sources.

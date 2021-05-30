@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Arrow functions, the basics
 
 There's another very simple and concise syntax for creating functions, that's often better than Function Expressions.

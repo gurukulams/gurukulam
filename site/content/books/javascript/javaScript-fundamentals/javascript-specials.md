@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # JavaScript specials
 
 This chapter briefly recaps the features of JavaScript that we've learned by now, paying special attention to subtle moments.

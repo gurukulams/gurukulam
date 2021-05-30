@@ -1,3 +1,8 @@
+---
+title: 'Scheduling: setTimeout and setInterval'
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Scheduling: setTimeout and setInterval
 
 We may decide to execute a function not right now, but at a certain time later. That's called "scheduling a call".

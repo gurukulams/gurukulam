@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # F.prototype
 
 Remember, new objects can be created with a constructor function, like `new F()`.

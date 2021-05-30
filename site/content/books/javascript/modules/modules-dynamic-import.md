@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Dynamic imports
 
 Export and import statements that we covered in previous chapters are called "static". The syntax is very simple and strict.

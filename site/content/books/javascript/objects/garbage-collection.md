@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Garbage collection
 
 Memory management in JavaScript is performed automatically and invisibly to us. We create primitives, objects, functions... All that takes memory.

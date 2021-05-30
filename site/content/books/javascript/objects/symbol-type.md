@@ -1,4 +1,8 @@
-
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # Symbol type
 
 By specification, object property keys may be either of string type, or of symbol type. Not numbers, not booleans, only strings or symbols, these two types.

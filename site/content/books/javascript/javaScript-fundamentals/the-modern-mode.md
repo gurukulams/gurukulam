@@ -1,3 +1,8 @@
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 # The modern mode, "use strict"
 
 For a long time, JavaScript evolved without compatibility issues. New features were added to the language while old functionality didn't change.

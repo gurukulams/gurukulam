@@ -1,4 +1,8 @@
-
+---
+title: ''
+date: 2018-11-14T19:02:50-07:00
+draft: false
+---
 ## **Custom errors, extending Error**
 
 When we develop something, we often need our own error classes to reflect specific things that may go wrong in our tasks. For errors in network operations we may need `HttpError`, for database operations` DbError`, for searching operations `NotFoundError` and so on.
