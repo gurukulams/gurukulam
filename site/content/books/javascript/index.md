@@ -102,31 +102,36 @@ How it’s done now. From the basics to advanced topics with simple, but detaile
    - [Class checking: "instanceof"](books/javascript/instanceof)
    - [Mixins](books/javascript/mixins)
 10. [Error handling](books/javascript/errorhandlinglistview)
-   - [Error handling, "try...catch"](books/javascript/errorhandlingtrycatch)
-   - [Custom errors, extending Error](books/javascript/customerrors)
+
+    - [Error handling, "try...catch"](books/javascript/errorhandlingtrycatch)
+    - [Custom errors, extending Error](books/javascript/customerrors)
 11. [Promises, async/await](books/javascript/promisesasynclistview)
-   - [Introduction: callbacks](books/javascript/callbacks)
-   - [Promise](books/javascript/promisebasics)
-   - [Promises chaining](books/javascript/promiseschaining)
-   - [Error handling with promises](books/javascript/promiseerrorhandling)
-   - [Promise API](books/javascript/promiseapi)
-   - [Promisification](books/javascript/promisify)
-   - [Microtasks](books/javascript/microtaskqueue)
-   - [Async/await](books/javascript/asyncawait)
+
+      - [Introduction: callbacks](books/javascript/callbacks)
+      - [Promise](books/javascript/promisebasics)
+      - [Promises chaining](books/javascript/promiseschaining)
+      - [Error handling with promises](books/javascript/promiseerrorhandling)
+      - [Promise API](books/javascript/promiseapi)
+      - [Promisification](books/javascript/promisify)
+      - [Microtasks](books/javascript/microtaskqueue)
+      - [Async/await](books/javascript/asyncawait)
 12. [Generators, advanced iteration](books/javascript/generatorsadvancediterationlistview)
-   - [Generators](books/javascript/generators)
-   - [Async iteration and generators](books/javascript/asynciteratorsgenerators)
+
+      - [Generators](books/javascript/generators)
+      - [Async iteration and generators](books/javascript/asynciteratorsgenerators)
 13. [Modules](books/javascript/modules)
-   - [Modules, introduction](books/javascript/modulesintroduction)
-   - [Export and Import](books/javascript/exportimport)
-   - [Dynamic imports](books/javascript/modulesdynamicimport)
+
+      - [Modules, introduction](books/javascript/modulesintroduction)
+      - [Export and Import](books/javascript/exportimport)
+      - [Dynamic imports](books/javascript/modulesdynamicimport)
 14. [Miscellaneous](books/javascript/miscellaneous)
-   - [Proxy and Reflect](/books/javascript/proxyandreflect)
-   - [Eval: run a code string](/books/javascript/evalruncodestring)
-   - [Currying](/books/javascript/currying)
-   - [Reference Type](/books/javascript/referencetype)
-   - [BigInt](/books/javascript/bigint)
-   
+
+      - [Proxy and Reflect](/books/javascript/proxyandreflect)
+      - [Eval: run a code string](/books/javascript/evalruncodestring)
+      - [Currying](/books/javascript/currying)
+      - [Reference Type](/books/javascript/referencetype)
+      - [BigInt](/books/javascript/bigint)
+      
 
   
    
