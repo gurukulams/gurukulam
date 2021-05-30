@@ -9,7 +9,7 @@ draft: false
 In the first chapter of this section, we mentioned that there are modern methods to setup a prototype.
 
 The `__proto__` is considered outdated and somewhat deprecated (in browser-only part of the JavaScript standard).
-npm start
+
 The modern methods are:
 
 - [Object.create(proto, [descriptors])](mdn:js/Object/create) -- creates an empty object with given `proto` as `[[Prototype]]` and optional property descriptors.
