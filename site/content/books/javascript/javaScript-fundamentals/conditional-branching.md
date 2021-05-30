@@ -1,8 +1,9 @@
 ---
-title: ''
+title: 'Conditional branching'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 ---
+
 # Conditional branching: if, '?'
 
 Sometimes, we need to perform different actions based on different conditions.
@@ -242,3 +243,8 @@ if (company == 'Netscape') {
 Our eyes scan the code vertically. Code blocks which span several lines are easier to understand than a long, horizontal instruction set.
 
 The purpose of the question mark operator `?` is to return one value or another depending on its condition. Please use it for exactly that. Use `if` when you need to execute different branches of code.
+
+
+
+
+

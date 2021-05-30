@@ -1,13 +1,8 @@
 ---
-title: ''
+title: 'Currying'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 ---
-libs:
-  - lodash
-
----
-
 # Currying
 
 [Currying](https://en.wikipedia.org/wiki/Currying) is an advanced technique of working with functions. It's used not only in JavaScript, but in other languages as well.
