@@ -1,0 +1,10 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+
+{{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}">Previous</a>{{end}}
+{{if .NextInSection}}<a href="{{.NextInSection.Permalink}}">Next</a>{{end}}
+
+<div class="p-5" id="content">
+    {{- .Content -}}
+</div>
+
+{{ end }}
