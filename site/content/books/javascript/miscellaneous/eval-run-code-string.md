@@ -1,6 +1,7 @@
 ---
 title: 'Eval: run a code string'
 date: 2018-11-14T19:02:50-07:00
+weight: 14.2
 draft: false
 ---
 # Eval: run a code string
