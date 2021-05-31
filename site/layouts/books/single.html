@@ -1,7 +1,7 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
-{{if .NextInSection}}<a href="{{.NextInSection.Permalink}}">Previous</a>{{end}}
+{{if .NextInSection}}<a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}</a>{{end}}
 
-{{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}">Next</a>{{end}}
+{{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}" style="text-align: right;">{{.PrevInSection.Title}}</a>{{end}}
 
 <div class="p-5" id="content">
     {{- .Content -}}
