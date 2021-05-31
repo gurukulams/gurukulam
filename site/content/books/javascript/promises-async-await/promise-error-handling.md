@@ -1,7 +1,7 @@
 ---
 title: 'Error handling with promises'
 date: 2018-11-14T19:02:50-07:00
-weight: 11.4
+weight: 4
 draft: false
 ---
 # Error handling with promises

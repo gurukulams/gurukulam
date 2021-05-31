@@ -1,7 +1,7 @@
 ---
 title: 'Arrow functions, the basics'
 date: 2018-11-14T19:02:50-07:00
-weight: 2.17
+weight: 17
 draft: false
 ---
 # Arrow functions, the basics

@@ -1,7 +1,7 @@
 ---
 title: 'The "switch" statement'
 date: 2018-11-14T19:02:50-07:00
-weight: 2.14
+weight: 14
 draft: false
 ---
 # The "switch" statement

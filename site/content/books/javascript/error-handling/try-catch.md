@@ -1,7 +1,7 @@
 ---
 title: 'Error handling, "try...catch"'
 date: 2018-11-14T19:02:50-07:00
-weight: 10.1
+weight: 1
 draft: false
 ---
 # Error handling, "try...catch"

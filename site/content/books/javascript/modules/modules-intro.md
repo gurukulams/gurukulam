@@ -1,7 +1,7 @@
 ---
 title: 'Modules, introduction'
 date: 2018-11-14T19:02:50-07:00
-weight: 13.1
+weight: 1
 draft: false
 ---
 # Modules, introduction

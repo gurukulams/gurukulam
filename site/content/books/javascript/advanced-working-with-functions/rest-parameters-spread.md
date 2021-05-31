@@ -1,7 +1,7 @@
 ---
 title: 'Rest parameters and spread syntax'
 date: 2018-11-14T19:02:50-07:00
-weight: 6.2
+weight: 2
 draft: false
 ---
 # Rest parameters and spread syntax

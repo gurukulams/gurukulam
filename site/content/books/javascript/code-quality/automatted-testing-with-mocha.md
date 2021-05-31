@@ -1,7 +1,7 @@
 ---
 title: 'Automated testing with Mocha'
 date: 2018-11-14T19:02:50-07:00
-weight: 3.5
+weight: 5
 draft: false
 ---
 # Automated testing with Mocha

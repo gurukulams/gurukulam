@@ -1,7 +1,7 @@
 ---
 title: 'Scheduling: setTimeout and setInterval'
 date: 2018-11-14T19:02:50-07:00
-weight: 6.8
+weight: 8
 draft: false
 ---
 # Scheduling: setTimeout and setInterval

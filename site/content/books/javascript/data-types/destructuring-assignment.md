@@ -1,7 +1,7 @@
 ---
 title: 'Destructuring assignment'
 date: 2018-11-14T19:02:50-07:00
-weight: 5.10
+weight: 10
 draft: false
 ---
 # Destructuring assignment
