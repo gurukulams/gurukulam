@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hello OAuth 2</title>
 </head>
+
 <body>
-    Welcome Ji 
-</body> </html>
+    Welcome Ji
+    <script type="text/javascript">
+        const params = new URLSearchParams(window.location.search)
+        console.log("Welcome to OAuth {}", params.get("token"));
+
+        fetch('/api/auth/me', {
+            headers: {
+                "content-type": "application/json",
+                Authorization: "Bearer " + params.get("token"),
+            },
+        })
+            .then(response => response.json())
+            .then(data => {
+                data.token = params.get("token");
+                sessionStorage.auth = JSON.stringify(data);
+                window.location.href = "/courses/c-programming";
+            });
+
+        document.write("SSSS");
+    </script>
+</body>
+
+</html>

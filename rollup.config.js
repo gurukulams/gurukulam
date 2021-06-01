@@ -4,7 +4,14 @@ export default [{
     file: 'dist/js/core.js',
     format: 'cjs'
   }
-},{
+}, {
+  input: 'src/js/oauth/index.js',
+  output: {
+    file: 'dist/js/oauth.js',
+    format: 'cjs'
+  }
+},
+{
   input: 'src/js/main/index.js',
   output: {
     file: 'dist/js/index.js',
