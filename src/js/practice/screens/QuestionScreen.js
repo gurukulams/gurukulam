@@ -387,7 +387,7 @@ class QuestionScreen {
               <nav aria-label="Page navigation example">
                 <ul class="pagination">
                   <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous" id="previousPagination">
+                    <a class="page-link" href="javascript://" aria-label="Previous" id="previousPagination">
                     <span aria-hidden="true">&laquo;</span>
                     </a>
                   </li>
@@ -397,11 +397,13 @@ class QuestionScreen {
                           _question,
                           index
                         ) => ` <li class="page-item q-selector">
-                  <a class="page-link" href="#">${index + 1}</a></li>`
+                  <a class="page-link" href="javascript://">${
+                    index + 1
+                  }</a></li>`
                       )
                       .join("")}
                   <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next" id="nextPagination">
+                    <a class="page-link" href="javascript://" aria-label="Next" id="nextPagination">
                     <span aria-hidden="true">&raquo;</span>
                     </a>
                   </li>
@@ -419,10 +421,10 @@ class QuestionScreen {
                   Add
                   </button>
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
-                    <li data-type="sl"><a class="dropdown-item" href="#">Singleline</a></li>
-                    <li data-type="ml"><a class="dropdown-item" href="#">Multiline</a></li>
-                    <li data-type="code-sql"><a class="dropdown-item" href="#">Sql</a></li>
-                    <li data-type="code-java"><a class="dropdown-item" href="#">Java</a></li>
+                    <li data-type="sl"><a class="dropdown-item" href="javascript://">Singleline</a></li>
+                    <li data-type="ml"><a class="dropdown-item" href="javascript://">Multiline</a></li>
+                    <li data-type="code-sql"><a class="dropdown-item" href="javascript://">Sql</a></li>
+                    <li data-type="code-java"><a class="dropdown-item" href="javascript://">Java</a></li>
                   </ul>
                   <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
                   <button type="button" class="save-btn btn">Save</button>`
