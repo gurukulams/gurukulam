@@ -4,14 +4,14 @@
 <nav class="blog-header py-3">
   <div class="row flex-nowrap justify-content-between align-items-center">
     <div class="col-4 pt-1">
-      {{if .NextInSection}}<a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}</a>{{end}}
+      {{if .NextInSection}}<a href="{{strings.TrimRight "/" .NextInSection.Permalink}}">{{.NextInSection.Title}}</a>{{end}}
     </div>
     <div class="col-4 text-center">
       <a class="blog-header-logo text-dark"
-        href="#">{{.Parent.Title}}</a>
+        href="{{strings.TrimRight "/" .Parent.Permalink}}">{{.Parent.Title}}</a>
     </div>
     <div class="col-4 d-flex justify-content-end align-items-center">
-      {{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a>{{end}}
+      {{if .PrevInSection}}<a href="{{strings.TrimRight "/" .PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a>{{end}}
     </div>
   </div>
 </nav>
