@@ -4,6 +4,11 @@ class Home {
       window.location.href = "/courses/c-programming";
     }
 
+    const host = window.location.protocol + "//" + window.location.host;
+    document.querySelector(
+      ".fa-google"
+    ).parentElement.href = `/oauth2/authorize/google?redirect_uri=${host}/oauth2/redirect`;
+
     fetch("/api/info")
       .then((response) => response.json())
       .then((data) => {
