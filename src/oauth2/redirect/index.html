@@ -21,7 +21,7 @@
         })
             .then(response => response.json())
             .then(data => {
-                data.token = params.get("token");
+                data.authToken = params.get("token");
                 sessionStorage.auth = JSON.stringify(data);
                 window.location.href = "/courses/c-programming";
             });
