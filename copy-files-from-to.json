@@ -1,8 +1,0 @@
-{
-    "copyFiles": [
-        {
-            "from": "src/images/**",
-            "to": "dist/images"
-        }
-    ]
-}
