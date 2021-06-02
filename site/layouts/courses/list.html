@@ -4,7 +4,9 @@
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
         <li>
+            <p style="height: 6px;">
             <a href="{{.Permalink}}">{{.Title}}</a>
+        </p>
         </li>
     {{ end }}
     </ul>
