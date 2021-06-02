@@ -12,7 +12,10 @@
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
         <li>
-            <a href="{{strings.TrimRight "/" .Permalink}}">{{.Title}}</a>
+            <p style="height: 6px;">
+            <a href="{{.Permalink}}">{{.Title}}</a>
+            </p>
+
         </li>
     {{ end }}
     </ul>
