@@ -1,10 +1,18 @@
 {{ define "main" }}
-<main>
+
+<nav class="navbar border-1 border-bottom">
+    <div class="row w-100">
+        <h5 class="text-center">{{.Title}}</h5>
+    </div>
+  </nav>
+  
+
+<main class="pt-3">
     <ul>
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
         <li>
-            <a href="{{.Permalink}}">{{.Title}}</a>
+            <a href="{{strings.TrimRight "/" .Permalink}}">{{.Title}}</a>
         </li>
     {{ end }}
     </ul>
