@@ -9,3 +9,6 @@ title = "Gurukulam School"
 [markup.goldmark.renderer]
 unsafe= true
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[taxonomies]
+  tag = "tags"
