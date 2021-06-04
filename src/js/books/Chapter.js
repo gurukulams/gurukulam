@@ -9,6 +9,18 @@ class Chapter {
 
     this.notes.forEach((note) => this.highlightNotes(note));
 
+    // eslint-disable-next-line no-undef
+    this.myModal = new bootstrap.Modal(
+      document.getElementById("noteModel"),
+      {}
+    );
+
+    document
+      .getElementById("noteModel")
+      .addEventListener("shown.bs.modal", function () {
+        document.getElementById("noteText").focus();
+      });
+
     _parent.addEventListener("mousedown", () => {
       const strike = document.getSelection().toString().trim();
       if (!this.strikes.includes(strike) && strike.indexOf(" ") !== -1) {
@@ -34,6 +46,8 @@ class Chapter {
           .split(" ");
         var prevWord = allWordsBefore[allWordsBefore.length - 1];
         console.log(prevWord);
+
+        this.myModal.show();
       }
     });
   }
