@@ -6,14 +6,21 @@ class Chapter {
     this.strikes.forEach((strike) => this.highlight(strike));
 
     _parent.addEventListener("mousedown", () => {
-      const strike = document.getSelection().toString();
-      this.strikes.push(strike);
-      this.highlight(strike);
+      const strike = document.getSelection().toString().trim();
+      if (!this.strikes.includes(strike)) {
+        this.strikes.push(strike);
+        this.highlight(strike);
+      }
+    });
+
+    _parent.addEventListener("dblclick", (event) => {
+      var cursorX = event.pageX;
+      var cursorY = event.pageY;
+      console.log(cursorX + "=>" + cursorY);
     });
   }
 
   highlight(strike) {
-    strike = strike.trim();
     if (strike !== "") {
       let text = this.parent.innerHTML;
       let re = new RegExp(strike, "g"); // search for all instances
