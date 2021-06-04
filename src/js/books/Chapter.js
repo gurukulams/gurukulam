@@ -11,7 +11,7 @@ class Chapter {
 
     _parent.addEventListener("mousedown", () => {
       const strike = document.getSelection().toString().trim();
-      if (!this.strikes.includes(strike)) {
+      if (!this.strikes.includes(strike) && strike.indexOf(" ") !== -1) {
         var range = window.getSelection().getRangeAt(0);
         var allWordsBefore = range.startContainer.wholeText
           .substr(0, range.startOffset)
@@ -25,7 +25,16 @@ class Chapter {
     });
 
     _parent.addEventListener("dblclick", () => {
-      console.log(document.getSelection());
+      const selectedText = document.getSelection().toString().trim();
+      if (selectedText.indexOf(" ") === -1) {
+        var range = window.getSelection().getRangeAt(0);
+        var allWordsBefore = range.startContainer.wholeText
+          .substr(0, range.startOffset)
+          .trim()
+          .split(" ");
+        var prevWord = allWordsBefore[allWordsBefore.length - 1];
+        console.log(prevWord);
+      }
     });
   }
 
