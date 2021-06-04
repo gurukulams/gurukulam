@@ -1,3 +1,3 @@
 import Chapter from "./Chapter";
 
-new Chapter();
+new Chapter(document.getElementById("content"));
