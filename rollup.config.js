@@ -24,6 +24,13 @@ export default [{
     file: 'dist/js/practices.js',
     format: 'cjs'
   }
+},
+{
+  input: 'src/js/books/index.js',
+  output: {
+    file: 'dist/js/chapter.js',
+    format: 'cjs'
+  }
 }
 ];
 
