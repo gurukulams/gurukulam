@@ -13,6 +13,7 @@ class Chapter {
   }
 
   highlight(strike) {
+    strike = strike.trim();
     if (strike !== "") {
       let text = this.parent.innerHTML;
       let re = new RegExp(strike, "g"); // search for all instances
