@@ -485,6 +485,8 @@ class QuestionScreen {
         .forEach((element) =>
           element.addEventListener("click", selectQuestionFn)
         );
+    } else {
+      screen.parent.querySelector(".delete-btn").style.display = "none";
     }
 
     //screen.parent.querySelector(".add-btn").parentElement.classList.add('active');
