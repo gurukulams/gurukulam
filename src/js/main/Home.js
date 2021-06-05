@@ -5,9 +5,16 @@ class Home {
     }
 
     const host = window.location.protocol + "//" + window.location.host;
-    document.querySelector(
-      ".fa-google"
-    ).parentElement.href = `/oauth2/authorize/google?redirect_uri=${host}/oauth2/redirect`;
+
+    if (window.location.host.indexOf("localhost") === -1) {
+      document.querySelector(
+        ".fa-google"
+      ).parentElement.href = `/oauth2/authorize/google?redirect_uri=${host}/oauth2/redirect`;
+      const fEl = document.querySelector("form");
+      fEl.parentElement.removeChild(fEl);
+    } else {
+      this.registerEvents();
+    }
 
     fetch("/api/info")
       .then((response) => response.json())
@@ -17,8 +24,6 @@ class Home {
         ).innerHTML = `<br><b class="text-primary">v${data.appVersion}</b> runs on Java <b class="text-success">${data.javaVersion}</b>`;
         console.log(data);
       });
-
-    this.registerEvents();
   }
 
   registerEvents() {
