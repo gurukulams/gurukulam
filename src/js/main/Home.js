@@ -16,14 +16,14 @@ class Home {
       this.registerEvents();
     }
 
-    fetch("/api/info")
-      .then((response) => response.json())
-      .then((data) => {
-        document.querySelector(
-          ".app-info"
-        ).innerHTML = `<br><b class="text-primary">v${data.appVersion}</b> runs on Java <b class="text-success">${data.javaVersion}</b>`;
-        console.log(data);
-      });
+    // fetch("/api/info")
+    //   .then((response) => response.json())
+    //   .then((data) => {
+    //     document.querySelector(
+    //       ".app-info"
+    //     ).innerHTML = `<br><b class="text-primary">v${data.appVersion}</b> runs on Java <b class="text-success">${data.javaVersion}</b>`;
+    //     console.log(data);
+    //   });
   }
 
   registerEvents() {
