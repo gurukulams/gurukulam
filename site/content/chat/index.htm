@@ -5,73 +5,81 @@ weight:
 draft: false
 ---
 
-<div class="container">
+<div class="container" id="content">
   <div class="row">
     <div class="col-4 p-0">
       <div class="card">
         <div class="card-header">
-          <input
-            class="form-control"
-            list="datalistOptions"
-            id="exampleDataList"
-            placeholder="Type to search..."
-          />
-          <datalist id="datalistOptions">
-            <option value="San Francisco"></option>
-            <option value="New York"></option>
-            <option value="Seattle"></option>
-            <option value="Los Angeles"></option>
-            <option value="Chicago"></option>
-          </datalist>
+          <div class="input-group flex-nowrap">
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+              aria-describedby="addon-wrapping">
+            <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+          </div>
         </div>
 
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
             <div class="d-flex bd-highlight">
               <div class="img">
-                <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img" width="40px" height="40px">
+                <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img"
+                  width="40px" height="40px">
               </div>
               <div class="text-center">
                 <span><strong>Sathish Anna</strong></span>...<span><mark>8.37 PM</mark></span>
                 <p><small>We can connect now meet</small><span class="badge rounded-pill bg-primary">1</span></p>
               </div>
             </div>
-        </li>
-          <li class="list-group-item"> 
+          </li>
+          <li class="list-group-item">
             <div class="d-flex bd-highlight">
               <div class="img_cont">
-                <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img" width="40px" height="40px">
+                <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img"
+                  width="40px" height="40px">
               </div>
               <div class="text-center ">
                 <span><strong>Tajul Khan</strong></span>...<span><mark>10.00 PM</mark></span>
                 <p><small>Hii Every one memper</small><span class="badge rounded-pill bg-primary">5</span></p>
               </div>
             </div>
-         </li>
-          <li class="list-group-item"><div class="d-flex bd-highlight">
-            <div class="img_cont">
-              <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img" width="40px" height="40px">
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex bd-highlight">
+              <div class="img_cont">
+                <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img"
+                  width="40px" height="40px">
+              </div>
+              <div class="text-center ">
+                <span><strong>Manikanda</strong></span>...<span><mark>4.14 AM</mark></span>
+                <p><small>Learnning Java Script</small><span class="badge rounded-pill bg-primary">2</span></p>
+              </div>
             </div>
-            <div class="text-center ">
-              <span><strong>Manikanda</strong></span>...<span><mark>4.14 AM</mark></span>
-              <p><small>Learnning Java Script</small><span class="badge rounded-pill bg-primary">2</span></p>
-            </div>
-          </div></li>
+          </li>
         </ul>
       </div>
     </div>
     <div class="col-8 p-0">
       <div class="card w-100 h-100">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <h5 class="card-title">Primary card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card-header">
+          <span>
+            <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img"
+              width="40px" height="40px">
+          </span>
+
         </div>
-        <div class="card-footer">Footer</div>
+        <div class="card-body" id="messages-box">
+
+        </div>
+
+
+      </div>
+      <div class="card-footer">
+        <div class="input-group flex-nowrap">
+          <textarea class="form-control" placeholder="Type your message here .." aria-label="message"
+            aria-describedby="addon-wrapping"></textarea>
+          <span class="input-group-text" id="basic-addon2"><i class="far fa-paper-plane"></i></span>
+        </div>
       </div>
     </div>
   </div>
+</div>
 </div>

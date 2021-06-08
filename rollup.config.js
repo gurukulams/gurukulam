@@ -31,6 +31,13 @@ export default [{
     file: 'dist/js/chapter.js',
     format: 'cjs'
   }
+},
+{
+  input: 'src/js/chat/index.js',
+  output: {
+    file: 'dist/js/chat.js',
+    format: 'cjs'
+  }
 }
 ];
 
