@@ -143,6 +143,81 @@ class QuestionScreen {
       setATxt(event.currentTarget.value);
     };
 
+    const setChoices = (isSingle) => {
+      if (!this.selectedQuestion.choices) {
+        this.selectedQuestion.choices = [];
+      }
+
+      const answerContainer = this.parent.querySelector("#answerContainer");
+      answerContainer.innerHTML = `<ul class="list-group">
+      <li class="list-group-item">
+      <input class="form-control me-2" type="search" placeholder="Add New Choice" aria-label="Add New Choice">
+      </li>
+      
+    </ul>`;
+
+      const selectedQuestion = this.selectedQuestion;
+
+      const removeChoice = (event) => {
+        const parentLiEl = event.currentTarget.parentElement.parentElement;
+
+        const choiceIndex =
+          Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
+
+        selectedQuestion.choices.splice(choiceIndex, 1);
+        parentLiEl.parentElement.removeChild(parentLiEl);
+
+        console.log("remove {}", choiceIndex);
+      };
+
+      const renderChoice = (choice) => {
+        const ulEl = answerContainer.firstElementChild;
+        const liEl = document.createElement("li");
+        liEl.classList.add("list-group-item");
+        liEl.classList.add("d-flex");
+        liEl.classList.add("justify-content-between");
+        liEl.classList.add("align-items-center");
+        liEl.innerHTML = `<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      ${choice.value}
+    </label>
+  </div>
+  <span class="badge text-dark rounded-pill justify-content-end"><i class="far fa-trash-alt"></i></span>`;
+        ulEl.appendChild(liEl);
+
+        liEl
+          .querySelector(".fa-trash-alt")
+          .addEventListener("click", removeChoice);
+      };
+
+      const renderChoices = () => {
+        if (selectedQuestion.choices !== 0) {
+          this.selectedQuestion.choices.forEach((choice) => {
+            renderChoice(choice);
+          });
+        }
+      };
+
+      answerContainer
+        .querySelector(".form-control")
+        .addEventListener("keyup", function (event) {
+          if (event.keyCode === 13) {
+            event.preventDefault();
+            if (event.currentTarget.value !== "") {
+              const choice = {
+                value: event.currentTarget.value,
+              };
+              selectedQuestion.choices.push(choice);
+              event.currentTarget.value = "";
+              renderChoice(choice);
+            }
+          }
+        });
+
+      renderChoices();
+    };
+
     const setCodeEditor = (language) => {
       this.parent.querySelector("#answerContainer").innerHTML = ``;
       // eslint-disable-next-line no-undef
@@ -185,6 +260,9 @@ class QuestionScreen {
         this.parent
           .querySelector("#answerContainer")
           .firstElementChild.addEventListener("change", onChangeText);
+        break;
+      case "choose-the-best":
+        setChoices(true);
         break;
       case "code-sql":
         setCodeEditor("sql");
@@ -423,6 +501,7 @@ class QuestionScreen {
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
                     <li data-type="sl"><a class="dropdown-item" href="javascript://">Singleline</a></li>
                     <li data-type="ml"><a class="dropdown-item" href="javascript://">Multiline</a></li>
+                    <li data-type="choose-the-best"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
                     <li data-type="code-sql"><a class="dropdown-item" href="javascript://">Sql</a></li>
                     <li data-type="code-java"><a class="dropdown-item" href="javascript://">Java</a></li>
                   </ul>
