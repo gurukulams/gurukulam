@@ -13,23 +13,35 @@ class Chapter {
       myModal.show();
     };
 
-    this.strikes = [];
+    const tokens = window.location.href.split("/books/")[1].split("/");
 
-    const highlightNotes = (strike) => {
-      if (strike.text !== "") {
+    const bookName = tokens[0];
+
+    let chapterPath = "";
+
+    tokens.forEach((token, index) => {
+      if (index !== 0 && token) {
+        chapterPath = chapterPath + "/" + token;
+      }
+    });
+    console.log(bookName);
+    console.log(chapterPath);
+
+    const highlightMarkings = (marking) => {
+      if (marking.text !== "") {
         let text = this.parent.innerHTML;
-        //let re = new RegExp(strike.prevWord + " " + strike.text, "g"); // search for all instances
+        //let re = new RegExp(marking.prevWord + " " + marking.text, "g"); // search for all instances
 
-        let marked = strike.note
-          ? `<mark data-bs-toggle="tooltip" data-bs-placement="top" title="${strike.note}">
-        ${strike.text}
+        let marked = marking.note
+          ? `<mark data-bs-toggle="tooltip" data-bs-placement="top" title="${marking.note}">
+        ${marking.text}
         </mark>`
           : `<mark>
-        ${strike.text}
+        ${marking.text}
         </mark>`;
         let newText = text.replace(
-          strike.prevWord + " " + strike.text,
-          strike.prevWord + " " + marked
+          marking.prevWord + " " + marking.text,
+          marking.prevWord + " " + marked
         );
         this.parent.innerHTML = newText;
         _parent.querySelectorAll("mark").forEach((markEl) => {
@@ -39,8 +51,6 @@ class Chapter {
         });
       }
     };
-
-    this.strikes.forEach((strike) => highlightNotes(strike));
 
     _parent.querySelectorAll("mark").forEach((markEl) => {
       markEl.addEventListener("dblclick", (event) => {
@@ -79,7 +89,9 @@ class Chapter {
 
     _parent.addEventListener("mousedown", () => {
       const selectedText = document.getSelection().toString().trim();
-      let strike = this.strikes.find((strike) => strike.text === selectedText);
+      let marking = this.markings.find(
+        (marking) => marking.text === selectedText
+      );
 
       if (selectedText.indexOf(" ") !== -1) {
         var range = window.getSelection().getRangeAt(0);
@@ -89,16 +101,49 @@ class Chapter {
           .split(" ");
         var prevWord = allWordsBefore[allWordsBefore.length - 1];
 
-        if (strike && strike.prevWord === prevWord) {
+        if (marking && marking.prevWord === prevWord) {
           console.log(prevWord);
         } else {
-          strike = {};
-          strike.text = selectedText;
-          strike.prevWord = prevWord;
-          // strike.note = "DDDDQWQWQ";
-          this.strikes.push(strike);
-          highlightNotes(strike);
+          marking = {};
+          marking.text = selectedText;
+          marking.prevWord = prevWord;
+          // marking.note = "DDDDQWQWQ";
+          this.markings.push(marking);
+          highlightMarkings(marking);
         }
+      }
+    });
+
+    fetch("/api/books/" + bookName + "/note/_search", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+      },
+      body: chapterPath,
+    })
+      .then((response) => response.json())
+      .then((markings) => {
+        this.markings = markings;
+        this.markings.forEach((marking) => highlightMarkings(marking));
+      });
+
+    this.parent.addEventListener("mouseleave", () => {
+      if (this.markings !== 0) {
+        this.markings.forEach((marking) => {
+          if (!marking.id) {
+            marking.onSection = chapterPath;
+            fetch("/api/books/" + bookName + "/note", {
+              method: "POST",
+              headers: {
+                "content-type": "application/json",
+                Authorization:
+                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+              },
+              body: JSON.stringify(marking),
+            });
+          }
+        });
       }
     });
   }
