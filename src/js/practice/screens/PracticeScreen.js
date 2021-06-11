@@ -16,27 +16,49 @@ class PracticeScreen {
     formEl.classList.add("needs-validation");
     formEl.noValidate = true;
     formEl.innerHTML = `
-      <div class="col-12 form-check">
+
+    <div class="container vh-100">
+   <div class="row">
+      <div class="col-6">
+      </div>
+      <div class="col-6 ">
+
+      <ul class="nav justify-content-end">
+  
+  <li class="nav-item">
+  <button type="button" class="nav-link btn">Cancel</button>
+  </li>
+  <li class="nav-item">
+  <button type="submit" class="nav-link btn">${_id ? "Save" : "Add"}</button>
+  </li>
+</ul>
+      
+         
+        
+      
+      </div>
+   </div>
+   <div class="row">
+   <div class="col-12 form-check">
         <label for="name" class="form-label">Name</label>
         <input class="form-control" id="name" required>
         <div class="invalid-feedback">
-        Please choose a Name.
-      </div>
+          Please choose a Name.
+        </div>
       </div>
       <div class="col-12 form-check">
         <label for="description" class="form-label">Description</label>
         <textarea class="form-control" id="description" required></textarea>
         <div class="invalid-feedback">
-        Please write Description.
+          Please write Description.
+        </div>
       </div>
-      </div>
+   </div>
+</div>
+
       
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">${
-          _id ? "Save" : "Add"
-        }</button> 
-        <button type="button" class="btn btn-secondary">Cancel</button>
-      </div>`;
+      
+      `;
     this.parent.appendChild(formEl);
     formEl.addEventListener(
       "submit",
@@ -52,8 +74,10 @@ class PracticeScreen {
       false
     );
 
-    this.parent
-      .querySelector("form > div:nth-child(3) > button.btn.btn-secondary")
+    formEl
+      .querySelector(
+        "form > div > div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(1) > button"
+      )
       .addEventListener("click", (event) => {
         event.preventDefault();
         this.goBack(this);
