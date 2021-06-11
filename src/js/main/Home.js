@@ -13,6 +13,7 @@ class Home {
       const fEl = document.querySelector("form");
       fEl.parentElement.removeChild(fEl);
     } else {
+      document.querySelector("#userName").focus();
       this.registerEvents();
     }
 

@@ -173,7 +173,11 @@ class QuestionScreen {
         const choiceIndex =
           Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
 
-        selectedQuestion.choices[choiceIndex].answer = true;
+        selectedQuestion.choices.forEach((choice, index) => {
+          choice.answer = index === choiceIndex;
+        });
+
+        console.log(selectedQuestion);
       };
 
       const renderChoice = (choice) => {
