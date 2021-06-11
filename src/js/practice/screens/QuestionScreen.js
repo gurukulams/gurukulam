@@ -166,8 +166,14 @@ class QuestionScreen {
 
         selectedQuestion.choices.splice(choiceIndex, 1);
         parentLiEl.parentElement.removeChild(parentLiEl);
+      };
 
-        console.log("remove {}", choiceIndex);
+      const setChoiceAnswer = (event) => {
+        const parentLiEl = event.currentTarget.parentElement.parentElement;
+        const choiceIndex =
+          Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
+
+        selectedQuestion.choices[choiceIndex].answer = true;
       };
 
       const renderChoice = (choice) => {
@@ -178,7 +184,9 @@ class QuestionScreen {
         liEl.classList.add("justify-content-between");
         liEl.classList.add("align-items-center");
         liEl.innerHTML = `<div class="form-check">
-    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <input class="form-check-input" type="${isSingle ? "radio" : "checkbox"}" ${
+          choice.answer ? " checked " : ""
+        } name="flexRadioDefault" id="flexCheckDefault">
     <label class="form-check-label" for="flexCheckDefault">
       ${choice.value}
     </label>
@@ -189,6 +197,10 @@ class QuestionScreen {
         liEl
           .querySelector(".fa-trash-alt")
           .addEventListener("click", removeChoice);
+
+        liEl
+          .querySelector("#flexCheckDefault")
+          .addEventListener("change", setChoiceAnswer);
       };
 
       const renderChoices = () => {
