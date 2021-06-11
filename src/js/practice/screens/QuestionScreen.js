@@ -12,7 +12,6 @@ class QuestionScreen {
     this.isOwner = null;
 
     this.deletedQuestionIds = [];
-    this.updatedQuestions = [];
   }
 
   setSelectedQuestionIndex(selectedQIndex) {
@@ -135,7 +134,7 @@ class QuestionScreen {
     const setATxt = (value) => {
       this.selectedQuestion.answer = value;
       if (this.selectedQuestion.id) {
-        this.updatedQuestions.push(this.selectedQuestion);
+        this.selectedQuestion.updated = true;
       }
     };
 
@@ -413,27 +412,25 @@ class QuestionScreen {
               body: JSON.stringify(question),
             }
           );
+        } else if (question.updated) {
+          fetch(
+            "/api/practices/" +
+              this.parent.dataset.type +
+              "/" +
+              this.examId +
+              "/questions/" +
+              question.id,
+            {
+              method: "PUT",
+              headers: {
+                "content-type": "application/json",
+                Authorization:
+                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+              },
+              body: JSON.stringify(question),
+            }
+          );
         }
-      });
-
-      this.updatedQuestions.forEach((question) => {
-        fetch(
-          "/api/practices/" +
-            this.parent.dataset.type +
-            "/" +
-            this.examId +
-            "/questions/" +
-            question.id,
-          {
-            method: "PUT",
-            headers: {
-              "content-type": "application/json",
-              Authorization:
-                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-            },
-            body: JSON.stringify(question),
-          }
-        );
       });
 
       this.deletedQuestionIds.forEach((dQuestionId) => {
@@ -461,7 +458,7 @@ class QuestionScreen {
     const setQTxt = () => {
       this.selectedQuestion.question = this.questionEditor.root.innerHTML;
       if (this.selectedQuestion.id) {
-        this.updatedQuestions.push(this.selectedQuestion);
+        this.selectedQuestion.updated = true;
       }
     };
 
