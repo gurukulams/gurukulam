@@ -172,9 +172,18 @@ class QuestionScreen {
         const choiceIndex =
           Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
 
-        selectedQuestion.choices.forEach((choice, index) => {
-          choice.answer = index === choiceIndex;
-        });
+        if (this.isOwner) {
+          if (event.currentTarget.type === "radio") {
+            selectedQuestion.choices.forEach((choice, index) => {
+              choice.answer = index === choiceIndex;
+            });
+          } else {
+            selectedQuestion.choices[choiceIndex].answer =
+              event.currentTarget.checked;
+          }
+        } else {
+          selectedQuestion.answer = event.currentTarget.value;
+        }
 
         console.log(selectedQuestion);
       };
@@ -189,7 +198,7 @@ class QuestionScreen {
         liEl.innerHTML = `<div class="form-check">
     <input class="form-check-input" type="${isSingle ? "radio" : "checkbox"}" ${
           choice.answer ? " checked " : ""
-        } name="flexRadioDefault" id="flexCheckDefault">
+        } name="flexRadioDefault" value="${choice.id}" id="flexCheckDefault">
     <label class="form-check-label" for="flexCheckDefault">
       ${choice.value}
     </label>
@@ -278,6 +287,9 @@ class QuestionScreen {
         break;
       case "choose-the-best":
         setChoices(true);
+        break;
+      case "multichoice":
+        setChoices(false);
         break;
       case "code-sql":
         setCodeEditor("sql");
@@ -515,6 +527,7 @@ class QuestionScreen {
                     <li data-type="sl"><a class="dropdown-item" href="javascript://">Singleline</a></li>
                     <li data-type="ml"><a class="dropdown-item" href="javascript://">Multiline</a></li>
                     <li data-type="choose-the-best"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
+                    <li data-type="multichoice"><a class="dropdown-item" href="javascript://">Multichoice</a></li>
                     <li data-type="code-sql"><a class="dropdown-item" href="javascript://">Sql</a></li>
                     <li data-type="code-java"><a class="dropdown-item" href="javascript://">Java</a></li>
                   </ul>
