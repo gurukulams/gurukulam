@@ -149,9 +149,16 @@ class QuestionScreen {
 
       const answerContainer = this.parent.querySelector("#answerContainer");
       answerContainer.innerHTML = `<ul class="list-group">
-      <li class="list-group-item">
-      <input class="form-control me-2" type="search" placeholder="Add New Choice. Press Enter" aria-label="Add New Choice">
-      </li>
+
+      ${
+        this.isOwner
+          ? `<li class="list-group-item">
+          <input class="form-control me-2" type="search" placeholder="Add New Choice. Press Enter" aria-label="Add New Choice">
+          </li>`
+          : ``
+      }
+
+      
       
     </ul>`;
 
@@ -215,12 +222,22 @@ class QuestionScreen {
       ${choice.value}
     </label>
   </div>
-  <span class="badge text-dark rounded-pill justify-content-end"><i class="far fa-trash-alt"></i></span>`;
+  ${
+    this.isOwner
+      ? `<span class="badge text-dark rounded-pill justify-content-end"><i class="far fa-trash-alt"></i></span>`
+      : ``
+  }
+  
+  
+  
+  
+  `;
         ulEl.appendChild(liEl);
-
-        liEl
-          .querySelector(".fa-trash-alt")
-          .addEventListener("click", removeChoice);
+        if (this.isOwner) {
+          liEl
+            .querySelector(".fa-trash-alt")
+            .addEventListener("click", removeChoice);
+        }
 
         liEl
           .querySelector("#flexCheckDefault")
@@ -235,21 +252,23 @@ class QuestionScreen {
         }
       };
 
-      answerContainer
-        .querySelector(".form-control")
-        .addEventListener("keyup", function (event) {
-          if (event.keyCode === 13) {
-            event.preventDefault();
-            if (event.currentTarget.value !== "") {
-              const choice = {
-                value: event.currentTarget.value,
-              };
-              selectedQuestion.choices.push(choice);
-              event.currentTarget.value = "";
-              renderChoice(choice);
+      if (this.isOwner) {
+        answerContainer
+          .querySelector(".form-control")
+          .addEventListener("keyup", function (event) {
+            if (event.keyCode === 13) {
+              event.preventDefault();
+              if (event.currentTarget.value !== "") {
+                const choice = {
+                  value: event.currentTarget.value,
+                };
+                selectedQuestion.choices.push(choice);
+                event.currentTarget.value = "";
+                renderChoice(choice);
+              }
             }
-          }
-        });
+          });
+      }
 
       renderChoices();
     };
