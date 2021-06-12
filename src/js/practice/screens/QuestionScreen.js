@@ -150,7 +150,7 @@ class QuestionScreen {
       const answerContainer = this.parent.querySelector("#answerContainer");
       answerContainer.innerHTML = `<ul class="list-group">
       <li class="list-group-item">
-      <input class="form-control me-2" type="search" placeholder="Add New Choice" aria-label="Add New Choice">
+      <input class="form-control me-2" type="search" placeholder="Add New Choice. Press Enter" aria-label="Add New Choice">
       </li>
       
     </ul>`;
@@ -182,7 +182,19 @@ class QuestionScreen {
               event.currentTarget.checked;
           }
         } else {
-          selectedQuestion.answer = event.currentTarget.value;
+          if (event.currentTarget.type === "radio") {
+            selectedQuestion.answer = event.currentTarget.value;
+          } else {
+            if (event.currentTarget.checked) {
+              if (!selectedQuestion.answer) {
+                selectedQuestion.answer = [];
+              }
+
+              selectedQuestion.answer.push(event.currentTarget.value);
+            } else {
+              selectedQuestion.answer.slice(event.currentTarget.value, 1);
+            }
+          }
         }
 
         console.log(selectedQuestion);
@@ -318,7 +330,6 @@ class QuestionScreen {
     const addFunction = (event) => {
       this.selectedQuestion = {
         question: "",
-        answer: "",
         type: event.currentTarget.dataset.type,
       };
       this.questions.push(this.selectedQuestion);
@@ -365,42 +376,48 @@ class QuestionScreen {
 
     const submitFn = () => {
       this.questions.forEach((question, index) => {
-        fetch(
-          "/api/practices/" +
-            this.parent.dataset.type +
-            "/" +
-            this.examId +
-            "/questions/" +
-            question.id +
-            "/answer/",
-          {
-            method: "POST",
-            headers: {
-              "content-type": "application/json",
-              Authorization:
-                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-            },
-            body: question.answer,
-          }
-        )
-          .then((response) => {
-            const paginationElement = this.parent.querySelector(".pagination");
-
-            // Shorthand to check for an HTTP 2xx response status.
-            // See https://fetch.spec.whatwg.org/#dom-response-ok
-            if (response.ok) {
-              paginationElement.children[
-                index + 1
-              ].firstElementChild.classList.add("bg-success");
-            } else if (response.status === 406) {
-              paginationElement.children[
-                index + 1
-              ].firstElementChild.classList.add("bg-danger");
+        if (question.answer) {
+          const answer = Array.isArray(question.answer)
+            ? question.answer.join(",")
+            : question.answer;
+          fetch(
+            "/api/practices/" +
+              this.parent.dataset.type +
+              "/" +
+              this.examId +
+              "/questions/" +
+              question.id +
+              "/answer/",
+            {
+              method: "POST",
+              headers: {
+                "content-type": "application/json",
+                Authorization:
+                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+              },
+              body: answer,
             }
-          })
-          .catch(function (error) {
-            console.log(error);
-          });
+          )
+            .then((response) => {
+              const paginationElement =
+                this.parent.querySelector(".pagination");
+
+              // Shorthand to check for an HTTP 2xx response status.
+              // See https://fetch.spec.whatwg.org/#dom-response-ok
+              if (response.ok) {
+                paginationElement.children[
+                  index + 1
+                ].firstElementChild.classList.add("bg-success");
+              } else if (response.status === 406) {
+                paginationElement.children[
+                  index + 1
+                ].firstElementChild.classList.add("bg-danger");
+              }
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+        }
       });
     };
 
