@@ -302,7 +302,7 @@ class QuestionScreen {
     };
 
     switch (this.selectedQuestion.type) {
-      case "ml":
+      case "MULTI_LINE":
         this.parent.querySelector(
           "#answerContainer"
         ).innerHTML = `<textarea type="answer" class="form-control h-100" 
@@ -316,16 +316,16 @@ class QuestionScreen {
           .querySelector("#answerContainer")
           .firstElementChild.addEventListener("change", onChangeText);
         break;
-      case "choose-the-best":
+      case "CHOOSE_THE_BEST":
         setChoices(true);
         break;
-      case "multichoice":
+      case "MULTI_CHOICE":
         setChoices(false);
         break;
-      case "code-sql":
+      case "CODE_SQL":
         setCodeEditor("sql");
         break;
-      case "code-java":
+      case "CODE_JAVA":
         setCodeEditor("java");
         break;
       default:
@@ -560,12 +560,12 @@ class QuestionScreen {
                   Add
                   </button>
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
-                    <li data-type="sl"><a class="dropdown-item" href="javascript://">Singleline</a></li>
-                    <li data-type="ml"><a class="dropdown-item" href="javascript://">Multiline</a></li>
-                    <li data-type="choose-the-best"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
-                    <li data-type="multichoice"><a class="dropdown-item" href="javascript://">Multichoice</a></li>
-                    <li data-type="code-sql"><a class="dropdown-item" href="javascript://">Sql</a></li>
-                    <li data-type="code-java"><a class="dropdown-item" href="javascript://">Java</a></li>
+                    <li data-type="SINGLE_LINE"><a class="dropdown-item" href="javascript://">Singleline</a></li>
+                    <li data-type="MULTI_LINE"><a class="dropdown-item" href="javascript://">Multiline</a></li>
+                    <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
+                    <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multichoice</a></li>
+                    <li data-type="CODE_SQL"><a class="dropdown-item" href="javascript://">Sql</a></li>
+                    <li data-type="CODE_JAVA"><a class="dropdown-item" href="javascript://">Java</a></li>
                   </ul>
                   <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
                   <button type="button" class="save-btn btn">Save</button>`
