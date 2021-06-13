@@ -467,6 +467,8 @@ class QuestionScreen {
               "/" +
               this.examId +
               "/questions/" +
+              question.type +
+              "/" +
               question.id,
             {
               method: "PUT",
