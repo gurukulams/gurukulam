@@ -62,13 +62,13 @@ class QuestionScreen {
 
     paginationElement.children[selectedQIndex + 1].classList.add("active");
     if (this.isOwner) {
-      this.questionEditor.root.innerHTML = this.selectedQuestion.question
-        ? this.selectedQuestion.question
-        : "";
+      this.questionEditor.value(
+        this.selectedQuestion.question ? this.selectedQuestion.question : ""
+      );
     } else {
-      this.questionEditor.innerHTML = this.selectedQuestion.question
-        ? this.selectedQuestion.question
-        : "";
+      this.questionEditor.value(
+        this.selectedQuestion.question ? this.selectedQuestion.question : ""
+      );
     }
 
     this.renderAnswerElement();
@@ -79,7 +79,7 @@ class QuestionScreen {
     //   ? this.selectedQuestion.answer
     //   : "";
 
-    this.questionEditor.focus();
+    this.questionEditor.codemirror.focus();
   }
 
   render(examId, _owner) {
@@ -506,7 +506,7 @@ class QuestionScreen {
     };
 
     const setQTxt = () => {
-      this.selectedQuestion.question = this.questionEditor.root.innerHTML;
+      this.selectedQuestion.question = this.questionEditor.value();
       if (this.selectedQuestion.id) {
         this.selectedQuestion.updated = true;
       }
@@ -587,11 +587,11 @@ class QuestionScreen {
               <div class="row h-50">
            <div class="col-6 ">
 
-           <div id="qTxt">
-           <p>Hello World!</p>
-           <p>Some initial <strong>bold</strong> text</p>
-           <p><br></p>
-         </div>
+              <div class="form-floating mb-3 h-100">
+              
+              <textarea class="form-control h-100" placeholder="Question" id="qTxt" rows="3"></textarea>
+              
+            </div>
            </div>
            <div class="col-6">
                <div class="form-floating mb-3 h-100" style="height:100%" id="answerContainer">
@@ -606,19 +606,20 @@ class QuestionScreen {
 
     if (this.questions.length !== 0) {
       if (screen.isOwner) {
-        var options = {
-          placeholder: "Compose a question...",
-
-          theme: "snow",
-        };
         // eslint-disable-next-line no-undef
-        this.questionEditor = new Quill("#qTxt", options); // First matching element will be used
-        // eslint-disable-next-line no-unused-vars
-        this.questionEditor.on("text-change", function () {
+        this.questionEditor = new SimpleMDE({
+          autofocus: true,
+          element: this.parent.querySelector("#qTxt"),
+        });
+
+        this.questionEditor.codemirror.on("change", function () {
           setQTxt();
         });
       } else {
-        this.questionEditor = this.parent.querySelector("#qTxt");
+        // eslint-disable-next-line no-undef
+        this.questionEditor = new SimpleMDE({
+          element: this.parent.querySelector("#qTxt"),
+        });
       }
 
       // setSelectedQuestionIndex(0);
