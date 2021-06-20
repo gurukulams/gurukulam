@@ -1,9 +1,21 @@
 {{ define "main" }}
 
 <nav class="navbar">
-    <div class="row w-100">
-        <h5 class="text-center">{{.Title}}</h5>
-    </div>
+
+
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><i class="fas fa-book"></i></li>
+        {{if .Parent.Title}}
+        <li class="breadcrumb-item active" aria-current="page">
+            <a href="{{strings.TrimRight "/" .Parent.Permalink}}">{{.Parent.Title}}</a>
+        </li>
+        {{end}}
+        <li class="breadcrumb-item active" aria-current="page">{{.Title}}</li>
+      </ol>
+      
+
+   
   </nav>
   
 
