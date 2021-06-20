@@ -59,5 +59,8 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "dependencies": {
+    "marked": "^2.1.1"
+  }
 }

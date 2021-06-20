@@ -66,9 +66,11 @@ class QuestionScreen {
         this.selectedQuestion.question ? this.selectedQuestion.question : ""
       );
     } else {
-      this.questionEditor.value(
-        this.selectedQuestion.question ? this.selectedQuestion.question : ""
-      );
+      this.questionEditor.innerHTML = window
+        .markdownit()
+        .renderInline(
+          this.selectedQuestion.question ? this.selectedQuestion.question : ""
+        );
     }
 
     this.renderAnswerElement();
@@ -588,8 +590,12 @@ class QuestionScreen {
            <div class="col-6 ">
 
               <div class="form-floating mb-3 h-100">
+              ${
+                screen.isOwner
+                  ? `<textarea class="form-control h-100" placeholder="Question" id="qTxt" rows="3"></textarea>`
+                  : `<div class="h-100" id="qTxt"></div>`
+              }
               
-              <textarea class="form-control h-100" placeholder="Question" id="qTxt" rows="3"></textarea>
               
             </div>
            </div>
@@ -617,9 +623,7 @@ class QuestionScreen {
         });
       } else {
         // eslint-disable-next-line no-undef
-        this.questionEditor = new SimpleMDE({
-          element: this.parent.querySelector("#qTxt"),
-        });
+        this.questionEditor = this.parent.querySelector("#qTxt");
       }
 
       // setSelectedQuestionIndex(0);
