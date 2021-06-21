@@ -1,45 +1,5 @@
-body{
-    width: auto;
-    background-color: red;
-}
-:fullscreen {
-    background-color: aliceblue;
-}
 
-.container {
-    display: grid;
-    grid-template-columns: 200px 500px;
-  }
-  
-  .edit-popup {
-    display: none;
-    position: relative;
-    border: 1px solid #CCC;
-    padding: 10px;
-    background: #FFF;
-    border-radius: 10px;
-    width: 97%;
-    margin-bottom: 10px;
-  }
-  
-  .edit-item {
-    width: 80%;
-  }
-  
-  .btn-edit-item {
-    position: absolute;
-    right: 50px;
-  }
-  
-  .show {
-    display: block;
-  }
-  
-  .hide {
-    display: none;
-  }
-  
-  .done {
-    text-decoration: line-through;
-  }
 
+:root {
+    --bs-danger: #f8f9fa;
+}
