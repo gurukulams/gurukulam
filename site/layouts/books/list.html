@@ -3,16 +3,16 @@
 <nav class="navbar">
 
 
-
+    
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><i class="fas fa-book"></i></li>
+        <li class="px-2"><i class="fas fa-book fa-2x"></i></li>
         {{if .Parent.Title}}
         <li class="breadcrumb-item active" aria-current="page">
             <a href="{{strings.TrimRight "/" .Parent.Permalink}}">{{.Parent.Title}}</a>
         </li>
         {{end}}
-        <li class="breadcrumb-item text-danger" aria-current="page">{{.Title}}</li>
-      </ol>
+        <li class="breadcrumb-item" aria-current="page">{{.Title}}</li>
+    </ol>
       
 
    
