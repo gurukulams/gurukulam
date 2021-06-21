@@ -1,5 +1,5 @@
 
 
-:root {
-    --bs-danger: #f8f9fa;
+body {
+    --bs-info: #af1e1e !important;
 }

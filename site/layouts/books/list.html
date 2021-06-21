@@ -5,9 +5,9 @@
 
     
     <ol class="breadcrumb">
-        <li class="px-2"><i class="fas fa-book fa-2x"></i></li>
+        <li class="text-info px-2"><i class="fas fa-book fa-2x"></i></li>
         {{if .Parent.Title}}
-        <li class="breadcrumb-item active" aria-current="page">
+        <li class="breadcrumb-item" aria-current="page">
             <a href="{{strings.TrimRight "/" .Parent.Permalink}}">{{.Parent.Title}}</a>
         </li>
         {{end}}

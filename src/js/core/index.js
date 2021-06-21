@@ -9,7 +9,7 @@ class Core {
         sessionStorage.auth
       ).profilePicture;
 
-      document.querySelector(".navbar-brand").href = "/courses/c-programming";
+      document.querySelector(".navbar-brand").href = "/books/c";
     } else if (document.querySelector(".secured") !== null) {
       document.querySelector(".secured").classList.add("invisible");
     }
