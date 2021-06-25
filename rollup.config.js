@@ -38,6 +38,13 @@ export default [{
     file: 'dist/js/chat.js',
     format: 'cjs'
   }
+},
+{
+  input: 'src/js/search/index.js',
+  output: {
+    file: 'dist/js/search.js',
+    format: 'cjs'
+  }
 }
 ];
 
