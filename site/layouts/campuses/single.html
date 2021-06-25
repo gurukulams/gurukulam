@@ -23,8 +23,15 @@
  
 </nav>
 
-<main class="pt-3">
-  {{- .Content -}}
+<main class="container-fluid pt-3">
+
+  <div class="row">
+    <div class="col-sm-9 pe-5">{{- .Content -}}</div>
+    <div class="col-sm-3">
+      <img src="{{- .Params.Thumbnail -}}" class="rounded float-end" alt="...">
+    </div>
+  </div>
+  
 </main>
 
 {{ end }}
