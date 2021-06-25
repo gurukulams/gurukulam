@@ -1,0 +1,37 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+
+<nav class="navbar">
+
+
+    
+  <ol class="breadcrumb">
+      <li class="text-info px-2"><i class="fas fa-university fa-2x"></i></li>
+      {{if .Parent.Title}}
+      <li class="breadcrumb-item" aria-current="page">
+          <a href="{{strings.TrimRight "/" .Parent.Permalink}}">{{.Parent.Title}}</a>
+      </li>
+      {{end}}
+      <li class="breadcrumb-item" aria-current="page">{{.Title}}</li>
+  </ol>
+  {{if .Parent.Title}}
+  {{ $var := "Hugo Page" }}
+  <div class="text-end mb-3">
+      {{ $var = strings.TrimRight "/" .Permalink }}
+      <a href="{{replace $var "/books" "/courses/books"}}"><i class="fas fa-file-powerpoint fa-2x"></i></a>
+  </div>
+  {{end}}  
+ 
+</nav>
+
+<main class="container-fluid pt-3">
+
+  <div class="row">
+    <div class="col-sm-9 pe-5">{{- .Content -}}</div>
+    <div class="col-sm-3">
+      <img src="{{- .Params.Thumbnail -}}" class="rounded float-end" alt="...">
+    </div>
+  </div>
+  
+</main>
+
+{{ end }}
