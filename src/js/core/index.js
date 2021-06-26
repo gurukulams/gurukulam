@@ -8,7 +8,12 @@ class Core {
       document.querySelector(".avatar").src = JSON.parse(
         sessionStorage.auth
       ).profilePicture;
-
+      document
+        .getElementById("search-form")
+        .addEventListener("submit", (event) => {
+          event.preventDefault();
+          window.location.href = "/search";
+        });
       document.querySelector(".navbar-brand").href = "/books/c";
     } else if (document.querySelector(".secured") !== null) {
       document.querySelector(".secured").classList.add("invisible");
