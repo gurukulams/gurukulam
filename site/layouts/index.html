@@ -27,44 +27,48 @@
 
 
 
-      {{ if getenv "JAVA_HOME" }}
-      <form class="mt-3">
-        <div class="col-sm-3 pt-3">
-          <label class="visually-hidden" for="userName">Username</label>
-          <div class="input-group">
-            <div class="input-group-text"><i class="far fa-user"></i></div>
-            <input type="text" class="form-control" id="userName" placeholder="Username" required>
-          </div>
-        </div>
-        <div class="col-sm-3 pt-3">
-          <label class="visually-hidden" for="password">Password</label>
-          <div class="input-group">
-            <div class="input-group-text"><i class="fas fa-key"></i></div>
-            <input type="password" class="form-control" id="password" placeholder="Password">
-          </div>
-        </div>
-        <div class="col-sm-3 pt-3">
-          <p class="text-danger invisible">Invalid login</p>
-          <button type="submit" class="btn btn-primary btn-lg text-left mt-1">Signin</button>
-        </div>
-        <div class="col-sm-3 pt-3">
-          
-        </div>
-
-
-      </form>
+      {{ if getenv "BUILD_PRODUCTION" }}
+      <p class="lead">
+        Self organized, Customized Learning based on <a href="https://en.wikipedia.org/wiki/Gurukula">gurukulam</a> system.
+        <ul class="list-unstyled">
+          <li>Learner is a teacher for what he knows and a student for what he wants to know</li>
+          <li>Learner has the right to choose what he wants to learn and when.</li>
+          <li>The best Fee a Learner can bring is his willingness to learn commitment to practice. If yes he can just .</li>
+        </ul>
+      </p>
+      <a href="javascript://" class="btn btn-outline-primary btn-lg text-left mt-1">
+        Get Started | <i class="fab fa-google"></i>
+      </a>
 {{ else }}
-<p class="lead">
-  Self organized, Customized Learning based on <a href="https://en.wikipedia.org/wiki/Gurukula">gurukulam</a> system.
-  <ul class="list-unstyled">
-    <li>Learner is a teacher for what he knows and a student for what he wants to know</li>
-    <li>Learner has the right to choose what he wants to learn and when.</li>
-    <li>The best Fee a Learner can bring is his willingness to learn commitment to practice. If yes he can just .</li>
-  </ul>
-</p>
-<a href="javascript://" class="btn btn-outline-primary btn-lg text-left mt-1">
-  Get Started | <i class="fab fa-google"></i>
-</a>
+
+
+<form class="mt-3">
+  <div class="col-sm-3 pt-3">
+    <label class="visually-hidden" for="userName">Username</label>
+    <div class="input-group">
+      <div class="input-group-text"><i class="far fa-user"></i></div>
+      <input type="text" class="form-control" id="userName" placeholder="Username" required>
+    </div>
+  </div>
+  <div class="col-sm-3 pt-3">
+    <label class="visually-hidden" for="password">Password</label>
+    <div class="input-group">
+      <div class="input-group-text"><i class="fas fa-key"></i></div>
+      <input type="password" class="form-control" id="password" placeholder="Password">
+    </div>
+  </div>
+  <div class="col-sm-3 pt-3">
+    <p class="text-danger invisible">Invalid login</p>
+    <button type="submit" class="btn btn-primary btn-lg text-left mt-1">Signin</button>
+  </div>
+  <div class="col-sm-3 pt-3">
+    
+  </div>
+
+
+</form>
+
+
 {{ end }}
 
 

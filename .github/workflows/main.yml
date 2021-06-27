@@ -23,6 +23,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
+        export BUILD_PRODUCTION=Y
         npm install
         npm run build --if-present
         npm test

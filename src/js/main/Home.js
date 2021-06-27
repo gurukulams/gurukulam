@@ -6,15 +6,13 @@ class Home {
 
     const host = window.location.protocol + "//" + window.location.host;
 
-    if (window.location.host.indexOf("localhost") === -1) {
+    if (document.querySelector("#userName")) {
+      document.querySelector("#userName").focus();
+      this.registerEvents();
+    } else {
       document.querySelector(
         ".fa-google"
       ).parentElement.href = `/oauth2/authorize/google?redirect_uri=${host}/oauth2/redirect`;
-      const fEl = document.querySelector("form");
-      fEl.parentElement.removeChild(fEl);
-    } else {
-      document.querySelector("#userName").focus();
-      this.registerEvents();
     }
 
     // fetch("/api/info")
