@@ -15,26 +15,30 @@
 </head>
 
 <body>
+  
+  {{ if not .IsHome }}
+  {{ block "header" . }}{{ partial "header" . }}{{end}}
+  {{ end }}
+
   <main class="container mt-5 w-100 h-100">
-    {{ if not .IsHome }}
-    {{ block "header" . }}{{ partial "header" . }}{{end}}
-    {{ end }}
     <div class="row py-5 w-100 h-100">
       {{ block "main" . }}{{end}}
     </div>
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+    
   </main>
-  <!-- /.container -->
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+
+  {{ if .IsHome }}
+    <script type="text/javascript" src="/js/index.js"></script>
+    {{ else }}
+      <!-- /.container -->
   {{ block "scripts" . }}{{ partial "scripts" . }}{{end}}
 
   {{ if templates.Exists ( printf "partials/scripts-%s.html" .Type ) }}
   {{ $partialPath := printf "scripts-%s" .Type }}
   {{ partial $partialPath . }}
   {{ end }}
-
-
-  {{ if .IsHome }}
-    <script type="text/javascript" src="/js/index.js"></script>
     {{ end }}
   
 </body>
