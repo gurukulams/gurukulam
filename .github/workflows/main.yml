@@ -22,7 +22,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
-        sudo apt-get install asciidoc
+        sudo apt-get -y install asciidoc
+        which asciidoctor
         asciidoctor -v
         export BUILD_PRODUCTION=Y
         npm install
