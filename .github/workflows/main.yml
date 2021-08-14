@@ -14,7 +14,6 @@ jobs:
     strategy:
       matrix:
         node-version: [14.x]
-
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
@@ -24,6 +23,8 @@ jobs:
     - name: Get build container
       id: adocbuild
       uses: tonynv/asciidoctor-action@master   
+      with:
+          program: "asciidoctor -D docs --backend=html5 -o dist/index.html docs/index.adoc"
     - name: npm install, build, and test
       run: |
         export BUILD_PRODUCTION=Y
