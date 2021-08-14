@@ -20,11 +20,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Get build container
-      id: adocbuild
-      uses: tonynv/asciidoctor-action@master   
-      with:
-          program: "asciidoctor -D docs --backend=html5 -o dist/index.html docs/index.adoc"
+    - name: Install asciidoc
+      run: sudo apt-get install asciidoc
     - name: npm install, build, and test
       run: |
         export BUILD_PRODUCTION=Y
