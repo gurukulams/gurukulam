@@ -21,6 +21,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Get build container
+      id: adocbuild
+      uses: tonynv/asciidoctor-action@master   
     - name: npm install, build, and test
       run: |
         export BUILD_PRODUCTION=Y
