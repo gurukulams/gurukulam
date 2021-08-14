@@ -14,7 +14,7 @@ class Core {
           event.preventDefault();
           window.location.href = "/search";
         });
-      document.querySelector(".navbar-brand").href = "/books/c";
+      document.querySelector(".navbar-brand").href = "/books/thirukural";
     } else if (document.querySelector(".secured") !== null) {
       document.querySelector(".secured").classList.add("invisible");
     }

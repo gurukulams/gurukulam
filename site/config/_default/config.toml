@@ -10,5 +10,19 @@ title = "Gurukulams School"
 unsafe= true
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
+[markup]
+  [markup.asciidocExt]
+    backend = "html5"
+    extensions = []
+    failureLevel = "fatal"
+    noHeaderOrFooter = true
+    preserveTOC = false
+    safeMode = "unsafe"
+    sectionNumbers = false
+    trace = true
+    verbose = false
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+
 [taxonomies]
   tag = "tags"
