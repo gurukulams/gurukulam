@@ -21,7 +21,7 @@
             .then(data => {
                 data.authToken = params.get("token");
                 sessionStorage.auth = JSON.stringify(data);
-                window.location.href = "books/maths";
+                window.location.href = "/books/maths";
             });
 
         document.write("SSSS");
