@@ -1,4 +1,10 @@
 <div class="card">
+    <div class="card-header">
+        
+        <i class="text-info {{ if  .Get "type" | eq "objective" }}fas fa-bullseye{{else}}far fa-lightbulb{{ end }} fa-2x"></i> 
+        {{ .Get "title" }}
+
+      </div>
     <div class="card-body">
         {{$.Page.RenderString .Inner}}
     </div>
