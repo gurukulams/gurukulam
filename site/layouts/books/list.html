@@ -13,11 +13,13 @@
         {{end}}
         <li class="breadcrumb-item" aria-current="page">{{.Title}}</li>
     </ol>
-    {{if .Parent.Title}}
+    {{if .Pages}}
+    {{if (index .Pages 0).IsPage }}
     {{ $var := "Hugo Page" }}
     <div class="text-end mb-3">
         {{ $var = strings.TrimRight "/" .Permalink }}
         <a href="{{replace $var "/books" "/courses/books"}}">
+            
             <i class="fas fa-file-powerpoint fa-2x"></i>
         </a>
 
@@ -26,7 +28,7 @@
         </a>
     </div>
     {{end}}  
-   
+    {{end}}
   </nav>
   
 
