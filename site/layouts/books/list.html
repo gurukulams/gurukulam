@@ -18,14 +18,14 @@
     {{ $var := "Hugo Page" }}
     <div class="text-end mb-3">
         {{ $var = strings.TrimRight "/" .Permalink }}
-        <a href="{{replace $var "/books" "/courses/books"}}">
+        <!-- <a href="{{replace $var "/books" "/courses/books"}}">
             
             <i class="fas fa-file-powerpoint fa-2x"></i>
         </a>
 
         <a href="{{replace $var "/books" "/practices/books"}}">
             <i class="fas fa-user-check fa-2x px-2"></i>
-        </a>
+        </a> -->
     </div>
     {{end}}  
     {{end}}
