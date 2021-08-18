@@ -2,7 +2,7 @@
 
   <nav class="navbar border-1 border-bottom">
   <div class="row w-100">
-    <div class="col-4">
+    <div class="col-4 text-start">
       {{if .NextInSection}}<a href="{{strings.TrimRight "/" .NextInSection.Permalink}}">{{.NextInSection.Title}}</a>{{end}}
     </div>
     <div class="col-4 mb-2 text-center">
@@ -10,7 +10,7 @@
         href="{{strings.TrimRight "/" .Parent.Permalink}}">{{.Parent.Title}}</a>
          <h4>{{.Title}}</h4>
     </div>
-    <div class="col-4">
+    <div class="col-4 text-end">
       {{if .PrevInSection}}<a href="{{strings.TrimRight "/" .PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a>{{end}}
     </div>
   </div>
