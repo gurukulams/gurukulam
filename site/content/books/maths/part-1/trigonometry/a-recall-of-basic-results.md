@@ -17,6 +17,9 @@ weight: 2
 குறிப்பாக நுண்கணிதத்தில் பயன்படுத்துவது நமது குறிக்கோளாகும். முதலாவதாகக் க�ோணம் மற்றும்
 க�ோணத்தின் பாகை அளவின் வரையறைகளை நினைவு கூறுவ�ோம்.
 
+
+![MarineGEO circle logo](/books/maths/part-1/trigonometry/a-recall-of-basic-results/3-1.png "MarineGEO logo")
+
 3.2.1 க�ோணங்கள் (Angles)
 
 OA, OB ஆகிய இரண்டு கதிர்கள் O என்ற ப�ொதுவான புள்ளியைக்
