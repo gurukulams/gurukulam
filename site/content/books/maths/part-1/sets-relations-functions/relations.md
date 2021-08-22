@@ -51,7 +51,8 @@ weight: 5
 திறனறி தேர்வுகளில் வெகுவாகக் கையாளப்படுகிறது. இதனை அம்புக்குறி படம் மூலமும் (படம் 1.4)
 குறிப்பிடலாம்.
 
-image
+![MarineGEO circle logo](/books/maths/part-1/sets/relation/1-4.png "MarineGEO logo")
+
 
 இப்போது, \\( C = \lbrace L , E , T , U , S , W , I , N \rbrace  \ மற்றும் \ D = \lbrace  O , H , W , X , V , Z , L , Q  \rbrace \\) என எடுத்துக் கொண்டால் \\( C \times D\\) என்ற கார்டீசியன் பெருக்கலின் உட்கணமாக,
 
