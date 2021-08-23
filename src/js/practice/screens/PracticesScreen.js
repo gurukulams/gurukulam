@@ -39,31 +39,39 @@ class PracticesScreen {
         return response.json();
       })
       .then((page) => {
-        var pageComponent = this.pagination(page);
-        this.parent.innerHTML = `
-        <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example"> 
-          <div class="container-fluid"> 
-            <div class="collapse navbar-collapse" id="navbarsExample09"> 
-            ${pageComponent}
-               <form> 
-                <button type="button" class="btn">Add</button> 
-              </form> 
+        if (window.location.pathname.startsWith("/practices/books/")) {
+          const practice = page.content[0];
+          this.question.render(
+            practice.id,
+            JSON.parse(sessionStorage.auth).userName === practice.owner
+          );
+        } else {
+          var pageComponent = this.pagination(page);
+          this.parent.innerHTML = `
+          <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example"> 
+            <div class="container-fluid"> 
+              <div class="collapse navbar-collapse" id="navbarsExample09"> 
+              ${pageComponent}
+                 <form> 
+                  <button type="button" class="btn">Add</button> 
+                </form> 
+              </div> 
             </div> 
-          </div> 
-        </nav> 
-        <div class="container"> 
-          <div class="items"> 
-            
-          </div> 
-        </div>`;
+          </nav> 
+          <div class="container"> 
+            <div class="items"> 
+              
+            </div> 
+          </div>`;
 
-        let ulEl = this.parent.querySelector(".items");
-        ulEl.innerHTML = "";
-        const sqlExams = page.content;
-        sqlExams.forEach((item) => {
-          ulEl.appendChild(this.createListElement(item));
-        });
-        this.registerEvents();
+          let ulEl = this.parent.querySelector(".items");
+          ulEl.innerHTML = "";
+          const sqlExams = page.content;
+          sqlExams.forEach((item) => {
+            ulEl.appendChild(this.createListElement(item));
+          });
+          this.registerEvents();
+        }
       })
       .catch(function (error) {
         if (error.name === "NoContent") {
