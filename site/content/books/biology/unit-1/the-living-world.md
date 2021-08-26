@@ -814,3 +814,202 @@ SPIDA → Species Identified Automatically
 (spiders, wasp and bee wing characters).
 Draw wing → Honey bee wing
 identification.
+
+**Neo taxonomical tools** – This is based
+on Electron Microscopy images to study the
+molecular structures of cell organelles.
+**Ethology of taxonomical tools** – Based
+on the behaviour of the organisms it can
+be classified. For example sound of birds,
+bioluminescence, etc.
+**e-Taxonomic resources** – INOTAXA
+is an electronic resource for digital images
+and description about the species which
+was developed by Natural History Museum,
+London. **INOTAXA** means Integrated
+Open **TAX**onomic **A**ccess.
+
+#### Summary
+Earth has numerous habitats with a
+wide range of living organisms inhabiting it.
+Living organisms show a variety of unique
+characters different from non-living matter.
+Classification is the process by which
+anything is grouped in a convenient category
+based on some easily observable characters.
+Taxonomy is the science of
+arrangement of living organisms. R. H.
+Whittaker proposed the five kingdom
+classification. Three domain classification
+
+was proposed by Carl Woese and his co-
+workers.
+
+The taxonomical hierarchy includes
+seven categories namely kingdom, phylum,
+class, order, family, genus and species.
+The process of assigning scientific names
+to animal or taxonomic group is called
+nomenclature. Each scientific name has two
+components, generic name and a specific
+epithet. The important component of the
+taxonomical tools are field visits, survey,
+identification, classification, preservation
+and documentation. Molecular taxonomical
+tools are more accurate, authentic and
+significant for taxonimical classification.
+
+{{< box title="Activity" type="objective" >}}
+
+The main objective of this activity is to check
+the students understanding about animals and
+its characteristics before learning the lesson.
+Observe the picture given below, identify the
+animals and classify them according to your own
+understanding; write one character about each
+class of animals.
+Take the students to the school ground and ask
+them to observe and identify few invertebrates
+(insects, earthworm, spiders etc). Ask the students
+to write few characteristics of each animal which
+they have observed.
+
+![species](/books/biology/unit-1/the-living-world/activity.png "the living world")
+![species](/books/biology/unit-1/the-living-world/activity-2.png "the living world")
+
+{{< /box >}}
+
+### Evaluation
+1. A living organism is
+differentiated from non-
+living structure based on
+
+     a. Reproduction  
+
+     b. Growth
+ 
+     c. Metabolism   
+     
+     d. All the above
+
+2. A group of organisms having similar
+traits of a rank is
+
+    a. Species   
+
+    b. Taxon
+
+    c. Genus
+
+    d. Family
+
+3. Every unit of classification regardless of
+its rank is
+
+    a. Taxon 
+
+    b. Variety
+
+    c. Species 
+
+    d. Strain
+
+4. Which of the following is not present in
+same rank?
+
+    a. Primata 
+
+    b. Orthoptera
+
+    c. Diptera 
+
+    d. Insecta
+
+5. What taxonomic aid gives comprehensive
+information about a taxon?
+
+    a. Taxonomic Key 
+
+    b. Herbarium
+
+    c. Flora 
+
+    d. Monograph
+
+6. Who coined the term biodiversity?
+
+    a. Walter Rosen 
+
+    b. AG Tansley
+
+    c. Aristotle 
+
+    d. AP de Candole
+
+7. Cladogram considers the following
+characters
+
+    a. Physiological and Biochemical
+
+    b. Evolutionary and Phylogenetic
+
+    c. Taxonimic and systematic
+
+    d. None of the above
+
+8. Molecular taxonomic tool consists of
+
+    a. DNA and RNA
+
+    b. Mitochondria and Endocplamic reticulum
+
+    c. Cell wall and Membrane proteins
+
+    d. All the above
+
+9. Differentiate between probiotics and pathogenic bacteria.
+
+10. Why mule is sterile in nature?
+
+11. List any five salient features of the family
+Felidae.
+
+12. What is the role of Charles Darwin in
+relation to concept of species?
+
+13. Why elephants and other wild animals
+are entering into human living area?
+
+14. What is the difference between a Zoo
+and wild life sanctuary?
+
+15. Can we use recent molecular tools to
+identify and classify organisms?
+
+16. Explain the role of Latin and Greek
+names in Biology.
+
+{{< box title="Deep Tree" type="objective" >}}
+
+**Let’s do this activity to know the position of a
+particular species in the Evolution path.**
+
+##### Step – 1:
+Type the URL in the browser. Click ‘Play Game’ button then use your personal or school
+id to login. Otherwise use Guest Pass to enter. Then click the DEEP TREE icon that is given below
+The Evolution Lab to start the activity.
+###### Step – 2: 
+Input the common name of any animal in the SEARCH tab given at the bottom of the
+activity window, select the appropriate Zoological name from the list appeared.
+###### Step – 3: 
+The Classification and the place of the species in the animal Kingdom can be viewed by
+clicking the Icon placed next to the search tab.
+###### Step – 4:
+Two different species can be compared by clicking on the RELATE button given at the bottom
+of the activity window. The relation between those species can be learnt by clicking
+the DNA icon appeared.
+
+DEEP TREE url
+http://www.pbs.org/wgbh/nova/labs/lab/evolution/
+
+{{< /box >}}
