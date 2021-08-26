@@ -89,10 +89,8 @@ If it is not arranged in a well organized
 manner, customers and sales persons
 will waste lot of time in finding an item.
 In the same way, libraries also organize
-
 the books alphabetically or genres-
 wise into autobiographies, novels, kids
-
 stories, science fictions, etc. Likewise it
 is nearly impossible to study all the living
 organisms. Hence it becomes necessary to
