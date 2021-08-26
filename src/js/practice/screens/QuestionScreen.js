@@ -8,7 +8,11 @@ class QuestionScreen {
     // Model Objects
     this.questions = [];
     this.selectedQuestion = null;
-    this.examId = null;
+
+    this.practiceId = null;
+    this.bookName = null;
+    this.chaptorPath = null;
+
     this.isOwner = null;
 
     this.deletedQuestionIds = [];
@@ -84,7 +88,7 @@ class QuestionScreen {
     this.questionEditor.codemirror.focus();
   }
 
-  render(examId, _owner) {
+  render(_owner, practiceId, _chaptorName) {
     this.isOwner = _owner;
 
     this.oldChildNodes = [];
@@ -92,20 +96,30 @@ class QuestionScreen {
       this.oldChildNodes.push(this.parent.removeChild(this.parent.firstChild));
     }
 
-    this.examId = examId;
-    fetch(
-      "/api/practices/" +
+    let questionsUrl;
+    if (_chaptorName) {
+      this.practiceId = undefined;
+      this.bookName = practiceId;
+      this.chaptorPath = _chaptorName;
+      questionsUrl = "/api/books/" + this.bookName + "/questions";
+    } else {
+      this.bookName = undefined;
+      this.chaptorPath = undefined;
+      this.practiceId = practiceId;
+      questionsUrl =
+        "/api/practices/" +
         this.parent.dataset.type +
         "/" +
-        examId +
-        "/questions",
-      {
-        headers: {
-          "content-type": "application/json",
-          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        },
-      }
-    )
+        practiceId +
+        "/questions";
+    }
+
+    fetch(questionsUrl, {
+      headers: {
+        "content-type": "application/json",
+        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+      },
+    })
       .then((response) => {
         // Shorthand to check for an HTTP 2xx response status.
         // See https://fetch.spec.whatwg.org/#dom-response-ok
@@ -405,7 +419,7 @@ class QuestionScreen {
             "/api/practices/" +
               this.parent.dataset.type +
               "/" +
-              this.examId +
+              this.practiceId +
               "/questions/" +
               question.id +
               "/answer/",
@@ -449,7 +463,7 @@ class QuestionScreen {
             "/api/practices/" +
               this.parent.dataset.type +
               "/" +
-              this.examId +
+              this.practiceId +
               "/questions/" +
               question.type,
             {
@@ -467,7 +481,7 @@ class QuestionScreen {
             "/api/practices/" +
               this.parent.dataset.type +
               "/" +
-              this.examId +
+              this.practiceId +
               "/questions/" +
               question.type +
               "/" +
@@ -490,7 +504,7 @@ class QuestionScreen {
           "/api/practices/" +
             this.parent.dataset.type +
             "/" +
-            this.examId +
+            this.practiceId +
             "/questions/" +
             dQuestionId,
           {

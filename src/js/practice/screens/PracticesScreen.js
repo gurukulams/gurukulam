@@ -12,57 +12,75 @@ class PracticesScreen {
   }
 
   render() {
-    fetch(
-      "/api/practices/" +
-        this.parent.dataset.type +
-        "?size=6&page=" +
-        this.pageNumber,
-      {
+    if (window.location.pathname.startsWith("/practices/books/")) {
+      let bookName = window.location.pathname.replace("/practices/books/", "");
+      const chaptorName = bookName.substring(bookName.indexOf("/") + 1);
+      bookName = bookName.substring(0, bookName.indexOf("/"));
+      //this.question.render(true, bookName, chaptorName);
+
+      fetch("/api/books/" + bookName + "/owner", {
         headers: {
           "content-type": "application/json",
           Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
         },
-      }
-    )
-      .then((response) => {
-        if (response.status === 200) {
-          return response;
-        } else if (response.status === 204) {
-          let e = new Error(response.statusText);
-          e.name = "NoContent";
-          e.root = this;
-          throw e;
+      })
+        .then((response) => {
+          if (response.status === 202) {
+            this.question.render(true, bookName, chaptorName);
+          } else if (response.status === 406) {
+            this.question.render(false, bookName, chaptorName);
+          }
+          throw Error(response.statusText);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    } else {
+      fetch(
+        "/api/practices/" +
+          this.parent.dataset.type +
+          "?size=6&page=" +
+          this.pageNumber,
+        {
+          headers: {
+            "content-type": "application/json",
+            Authorization:
+              "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+          },
         }
-        throw Error(response.statusText);
-      })
-      .then(function (response) {
-        return response.json();
-      })
-      .then((page) => {
-        if (window.location.pathname.startsWith("/practices/books/")) {
-          const practice = page.content[0];
-          this.question.render(
-            practice.id,
-            JSON.parse(sessionStorage.auth).userName === practice.owner
-          );
-        } else {
+      )
+        .then((response) => {
+          if (response.status === 200) {
+            return response;
+          } else if (response.status === 204) {
+            let e = new Error(response.statusText);
+            e.name = "NoContent";
+            e.root = this;
+            throw e;
+          }
+          throw Error(response.statusText);
+        })
+        .then(function (response) {
+          return response.json();
+        })
+        .then((page) => {
           var pageComponent = this.pagination(page);
           this.parent.innerHTML = `
-          <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example"> 
-            <div class="container-fluid"> 
-              <div class="collapse navbar-collapse" id="navbarsExample09"> 
-              ${pageComponent}
-                 <form> 
-                  <button type="button" class="btn">Add</button> 
-                </form> 
+            <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example"> 
+              <div class="container-fluid"> 
+                <div class="collapse navbar-collapse" id="navbarsExample09"> 
+                ${pageComponent}
+                   <form> 
+                    <button type="button" class="btn">Add</button> 
+                  </form> 
+                </div> 
               </div> 
-            </div> 
-          </nav> 
-          <div class="container"> 
-            <div class="items"> 
-              
-            </div> 
-          </div>`;
+            </nav> 
+            <div class="container"> 
+              <div class="items"> 
+                
+              </div> 
+            </div>`;
 
           let ulEl = this.parent.querySelector(".items");
           ulEl.innerHTML = "";
@@ -71,21 +89,21 @@ class PracticesScreen {
             ulEl.appendChild(this.createListElement(item));
           });
           this.registerEvents();
-        }
-      })
-      .catch(function (error) {
-        if (error.name === "NoContent") {
-          error.root.parent.innerHTML =
-            '<p class="lead">There are no practices. But you can create one <a href="javascript://">here</a></p>';
-          error.root.parent
-            .querySelector("p > a")
-            .addEventListener("click", () => {
-              error.root.sqlExam.render();
-            });
-        } else {
-          console.log("Request failed:", error);
-        }
-      });
+        })
+        .catch(function (error) {
+          if (error.name === "NoContent") {
+            error.root.parent.innerHTML =
+              '<p class="lead">There are no practices. But you can create one <a href="javascript://">here</a></p>';
+            error.root.parent
+              .querySelector("p > a")
+              .addEventListener("click", () => {
+                error.root.sqlExam.render();
+              });
+          } else {
+            console.log("Request failed:", error);
+          }
+        });
+    }
   }
 
   pagination(page) {
@@ -116,8 +134,8 @@ class PracticesScreen {
       const practice = el.parentElement.parentElement.practice;
       el.addEventListener("click", () => {
         this.question.render(
-          practice.id,
-          JSON.parse(sessionStorage.auth).userName === practice.owner
+          JSON.parse(sessionStorage.auth).userName === practice.owner,
+          practice.id
         );
       });
     });
