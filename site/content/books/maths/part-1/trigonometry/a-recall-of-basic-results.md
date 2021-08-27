@@ -182,6 +182,7 @@ Angle) ஏற்படுத்தும்.
 
 (iii) தலைகீழ் விகித மதிப்புகளான cosecant, secant மற்றும் cotangent
 ஆகியவைகளை மேற்கண்ட அட்டவணையின் மூலம் பெறலாம்.
+
 (iv) cos 90° = 0 என்பதால், tan 90° மற்றும் sec 90° ஆகியவை வரையறுக்க
 இயலாதவையாகிறது.
 
@@ -201,17 +202,19 @@ Angle) ஏற்படுத்தும்.
 முக்கோணவியலில் அடிப்படை முற்றொருமைகளை (பித்தாகோரியன் முற்றொருமைகள்) நினைவு
 கூறுவோம், குறிப்பாக
 
-\\(\cos^2 \theta+\sin^2 \theta=1; \sec^2 \theta-\tan^2 \theta =1;\cosec^2 \theta-\cot^2 \theta=1\\)
+\\[\cos^2 \theta+\sin^2 \theta=1; \sec^2 \theta-\tan^2 \theta =1;\cosec^2 \theta-\cot^2 \theta=1\\]
 
 **குறிப:**
 
  (i) \\(\sin^2 \theta\\) என்பது \\((\sin \theta)^2\\) ஐக் குறிக்கும். இந்த முறை மற்ற முக்கோணவியல்
 விகிதங்களுக்கும் பொருந்தும்.
+
 (ii) \\(\theta = 90°\\) எனில் \\(\sec^2 \theta-\tan^2 \theta =1\\) என்பது அர்த்தமற்றதாகும்.
 \\(\sec \theta\\) மற்றும் \\(\tan \theta\\) ஆகியவை வரையறுக்கப்படும் அனைத்து
 \\(\theta\\) -வின் ம திப்புகளுக் கும் உண் மை இ ரு ப் பி னு ம் இ து ஒ ரு
 முற்றொருமையாகும். ஆகவே, சார்பகத்தின் அனைத்து மதிப்புகளுக்கும்
 முற்றொருமை ஒரு சமன்பாடு என்பது உண்மையாகும்.
+
 (iii) \\(\frac{\sin \theta}{1+\cos \theta}\\)என்ற கோவை, \\(1+\cos0 \ne 0\\) -விற்கு, \\(\theta\\)-ன் அனைத்து
 மதிப்புகளுக்கும் செல்லுபடியாகும் என்பதை நாம் புரிந்துகொள்ளவேண்டும்.
 
@@ -223,20 +226,98 @@ Angle) ஏற்படுத்தும்.
 **தீர்வு:**
 \\(\frac {\tan \theta +\sec \theta-1}{\tan \theta-\sec \theta+1}=\frac{1+\sin \theta}{\cos \theta}=\frac{\tan \theta+\sec \theta-(\sec^2 \theta-\tan^2 \theta}{\tan \theta-\sec \theta+1}\\)
 
-\\(\frac {(\tan \theta+\sec \theta)[1-(\sec \theta-\tan \theta)]}{\tan \theta -\sec \theta+1}\\)
+\\( \ \  \  \  \  \  \ \  \  \ \  \  \  \ \  \ \\ \ \ \ \\ \ \ \\ \ \ \ \\ \   \ \ \ \ \ \ \\ \ \ \ \ \ \ \ \ \ \= \frac {(\tan \theta+\sec \theta)[1-(\sec \theta-\tan \theta)]}{\tan \theta -\sec \theta+1}\\)
 
 
-\\(\tan \theta+\sec \theta=\frac{1+\sin \theta}{\cos \theta}\\)
+\\(  \ \  \  \  \  \  \ \  \  \ \  \  \  \ \  \ \\ \ \ \ \\ \ \ \\ \ \ \ \\ \   \ \ \ \ \ \ \\ \ \ \ \ \ \ \ \ \ \= \tan \theta+\sec \theta=\frac{1+\sin \theta}{\cos \theta}\\)
 
 {{< /box >}}
 
 
 {{< box title="எடுத்துக்காட்டு 3.2" type="objective" >}}
 
+##### நிறுவுக:
+\\(\sec A-\cosec A)(1+\tan A+\cot A)=\tan A \sec A-\cot A \cosec A\\)
 
+##### தீர்வு:
 
+இடப்புறம்=\\(\frac {1}{\cos A}-\frac{1}{\sin A}[1+\frac{\sin A}{\cos A}+\frac{\cos A}{\sin A}]\\)
+
+\\( \ \  \  \  \  \  \ \  \  \ \  \  \  \ \  \ \ \=  \frac{\sin^{3} A - \cos^{3} A} {\sin^{2} A - \cos^{2} A} \\)........(i)
+
+வலப்புறம்:
+
+\\( \ \  \  \  \  \  \ \  \  \ \  \  \  \ \  \ \ \=  \frac{\sin A}{cos^{2} A}-\frac{\cos A}{\sin^{2}A}=\frac{\sin^{3} A - \cos^{3} A} {\sin^{2} A - \cos^{2} A} \\)........(ii)
+
+(i) மற்றும் 
+
+(ii) இலிருந்து நமக்குத் தேவையான தீர்வு கிடைத்துள்ளது.
 
 {{< /box >}}
 
 
+{{< box title="எடுத்துக்காட்டு 3.3" type="objective" >}}
 
+\\(a \cos \theta=b\\) மற்றும் \\(c \sin \theta =d\\) லிருந்து \\(\theta\\) -ஐ நீக்குக, a, b, c, d ஆகியவை மாறிலிகள்.
+
+##### தீர்வு:
+
+\\(ac \cos \theta bc\\)மற்றும் \\(ac \sin \theta =ad\\) ஆகியவற்றை வர்க்கப்படுத்திக் கூட்டக்கிடைப்பது
+
+\\(a^2c^2=b^2c^2+a^2d^2\\)
+
+{{< /box >}}
+
+
+#### \\[பயிற்சி 3.1\\]
+
+1. கொடுக்கப்பட்ட கோணங்கள் எந்தக் காற்பகுதியில் அமையும் என்பதைக் காண்க.
+
+        (i) 25° 
+
+        (ii) 825° 
+
+        (iii) – 55° 
+
+        (iv) 328° 
+
+        (v) – 230°
+
+2. \\(0° \le \theta < 360°\\) -ல் கொடு க்கப ்ப ட ்ட ஒவ ் வ ொ ரு கோணத்தி ற்கான இணை
+முனையக்கோணத்தை காண்க.
+
+        (i) 395° 
+
+        (ii) 525° 
+
+        (iii) 1150°
+
+        (iv) – 270°
+
+        (v) – 450°
+
+3.  \\(a \cos \theta-b \sin \theta=c\\) னில், \\(a \sin \theta+b \sin \theta=\pm \sqrt{{a^2}+{b^2}+{c^2}}\\) என்பதை நிறுவுக.
+
+4.  \\(\sin \theta +\cos \theta=m\\)எனில், \\(\cos^{6} \theta + \sin^{6} \theta=\frac {4-3(m^{2}-1)}{4}\\)என நிறுவுக.(இங்கு \\(m^{2} \le 2\\)).
+
+5.  \\(\frac {cos^{4} \alpha}{cos^{2} \beta}+\frac {sin^{4} \alpha}{sin^{2} \beta}=1\\)எனில்,
+
+(i) \\(\sin^{4} \alpha +\sin^{4} \beta= 2 \sin^{2} \alpha \sin^{2} \beta\\).
+
+(ii) \\(\frac {cos^{4} \alpha}{cos^{2} \beta}+\frac {sin^{4} \alpha}{sin^{2} \beta}=1\\)என நிறுவுக.
+
+6.  \\(y=\frac{2 \sin \alpha}{1+ \cos \alpha+\sin \alpha}\\)எனில் \\(\frac {1-\cos \alpha+ \sin \alpha}{1+\sin \alpha}=y\\)என நிறுவுக.
+
+7.  \\(0< \theta <\frac{\pi}{2},x=\displaystyle\sum_{n=0}^\infty \cos^{2n} \theta ,y=\displaystyle\sum_{n=0}^\infty \sin^{2n} \theta மற்றும் z=\displaystyle\sum_{n=0}^\infty \cos^{2n} \theta \sin^{2n} \theta\\)எனில்,xyz=x+y+z என நிறுவுக.
+
+[குறிப்பு:\\(1+x^{2}+x^{3}+...=\frac{1}{1-x},|x|<1 \\)-ஐப் பயன்படுத்தலாம்].
+
+8.  \\(\tan^{2} \theta=1-k^{2}\\)எனில், \\(\sec \theta +\tan^{3} \theta cosec \theta=(2-k^{2})^{\frac {3}{2}}\\)
+
+9. \\(\sec \theta+\tan \theta= p\\)  எனில், \\(\sec \theta,\tan \theta\\)  மற்றும் \\(\sin \theta\\) ஆகியவற்றின் மதிப்பை p இன் வாயிலாகக் காண்க.
+
+10. \\(\cot \theta(1+\sin \theta)=4m\\) மற்றும் \\(\cot \theta(1-\sin \theta)=4n\\)  எனில்,\\( (m^{2}-n^{2})^{2}\\) என நிறுவுக.
+
+11. \\(\cosec \theta-\sin \theta=a^{3}\\) மற்றும் \\(\sec \theta-\cos \theta=b^{3}\\)எனில்,\\(a^{2}b^{2}(a^{2}+b^{2})=1\\) என நிறுவுக.
+
+12.  \\(a \sec \theta-c \tan \theta=b\\) மற்றும் \\(b\sec \theta+d\tan \theta=c\\)ஆகிய சமன்பாடுகளிலிருந்து iஐ நீக்குக.
