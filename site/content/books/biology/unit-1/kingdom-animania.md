@@ -842,3 +842,639 @@ found in Kurusadai islands in Tamilnadu)
 ![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
 
 ### Phylum: Chordata
+
+(G. Chorda –string)
+
+Chordata is the largest phylum with
+most familiar group of animals, such as
+fishes, amphibians, reptiles, birds and
+mammals and less known forms such
+as **lancelets** (Amphioxus) and **tunicates**
+(Ascidian). All chordates possess three
+fundamental distinct features at some stage
+of their life cycle (Figure 2.19), they are:
+
+**Figure 2.19 A Typical Chordate**
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+1. Presence of elongated rod like
+notochord below the nerve cord and
+above the alimentary canal. It serves
+as a primitive internal skeleton. It may
+persist throughout life in lancelets and
+lampreys. In adult vertebrates, it may
+be partially or completely replaced by
+backbone or vertebral column.
+
+2. A dorsal hollow or tubular fluid filled
+nerve cord lies above the notochord
+and below the dorsal body wall. It
+serves to integrate and co-ordinate the
+body functions. In higher chordates,
+the anterior end of the nerve cord gets
+enlarged to form the brain and the
+posterior part becomes the spinal cord,
+protected inside the vertebral column.
+
+3. Presence of pharyngeal gill slits or clefts
+in all chordates at some stage of their
+lifecycle. It is a series of gill slits or clefts
+that perforates the walls of pharynx and
+appears during the development of every
+
+**Table. 1 Comparison of chordates and non-chordates**
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+chordate. In aquatic forms, pharyngeal
+gill slits are vascular, lamellar and form
+the gills for respiration. In terrestrial
+chordates, traces of non-functional
+gill clefts appear during embryonic
+developmental stages and disappear later.
+Besides the above said features, chordates
+are bilaterally symmetrical, triploblastic,
+coelomates with organ system level of
+organisation; they possess post anal tail,
+closed circulatory system with a ventral
+myogenic heart except in Amphioxus.
+
+{{< box >}}
+List the three features common to
+all chordates at sometime in their life.
+{{< /box >}}
+
+#### Subphylum: Urochordata or Tunicata
+(G. Oura – A tail; L. Chord – cord)
+They are exclusively marine and are
+commonly called **sea squirts**. Mostly
+sessile, some pelagic or free swimming,
+exist as solitary and colonial forms. Body is
+unsegmented and covered by a test or tunic.
+Adult forms are sac like. Coelom is absent,
+but has an atrial cavity surrounding the
+pharynx. Notochord is present only in the
+tail region of the larval stage, hence named
+urochordata. Alimentary canal is complete
+and circulatory system is of open type. The
+heart is ventral and tubular. Respiration is
+through gill slits and clefts. Dorsal tubular
+nerve cord is present only in the larval
+stage and a single dorsal ganglion is present
+in the adults. Mostly hermaphrodites,
+development indirect and includes a free
+swimming **tadpole larva** with chordate
+characters. **Retrogressive metamorphosis**
+is seen (Figure 2.20).
+Examples: Ascidia, Salpa, Doliolum
+
+#### Subphylum: Cephalochordata
+( L. Cephalo- ‘head’ ; G. chorda ‘cord’.)
+
+Cephalochordates are marine forms,
+found in shallow waters, leading a
+burrowing mode of life. They are small
+
+**Figure 2.20 Examples of Urochordata**
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+fish like coelomate forms with chordate
+characters such us notochord, dorsal
+tubular nerve cord and pharyngeal gill
+slits throughout their life. Closed type of
+circulatory system is seen without heart.
+Excretion is by **protonephridia**. Sexes
+are separate, Fertilization is external.
+Development is indirect and includes a
+free swimming larva (Figure 2.21).
+
+Example: Branchiostoma (Amphioxus
+or lancelet)
+
+**Figure 2.21 Example of Cephalochordata- Amphioxus**
+
+
+#### Subphylum-Vertebrata
+(L. Vertebrus –back bone )
+
+Vertebrates are also called higher
+chordates and they possess notochord
+during embryonic stage only. The
+notochord is replaced by a cartilaginous or
+bony vertebral column in the adult. Hence
+**all vertebrates are chordates but all
+chordates are not vertebrates**. Vertebrates
+possess paired appendages such as fins or
+limbs. Skin is covered by protective skeleton
+comprising of scales, feathers, hairs, claws,
+nails, etc. Respiration is aerobic through
+gills, skin, buccopharyngeal cavity and
+lungs. Vertebrates have a ventral muscular
+heart with two, three or four chambers and
+kidneys for excretion and osmoregulation.
+Subphylum Vertebrata is divided
+into two divisions, Agnatha and
+**Gnathostomata**. **Agnatha** includes
+jawless fish-like aquatic vertebrateswithout paired appendages. Notochord
+persists in the adult. Gnathostomata
+includes jawed vertebrates with paired
+appendages. Notochord is replaced
+partly or wholly by the vertebral column.
+Agnatha includes one important class –
+Cyclostomata. **Gnathostomata** includes
+**jawed fishes** (Pisces) and **Tetrapoda**
+( amphibia, reptilia, aves and mammals).
+The superclass Pisces includes all fishes
+which are essentially aquatic forms with
+paired fins for swimming and gills for
+respiration. Pisces includes cartilaginous
+fishes (Chondrichthyes) and bony fishes
+(Osteichthyes).
+
+#### Class: Cyclostomata
+(G.cyklos–circle; stomata -mouth)
+
+All members of cyclostomata
+are primitive, poikilothermic, jawless
+aquatic vertebrates and are ectoparasites
+on some fishes. Body is slender and
+eel-like bearing six to fifteen pair of gill
+slits for respiration. Mouth is circular
+without jaws and suctorial. Heart is two
+chambered and circulation is of closed
+type. No paired appendages. Cranium
+and vertebral column are cartilaginous.
+Cyclostomes are marine but migrate to
+fresh waters for spawning (**anadromous
+migration**). After spawning within a few
+days they die. The larvae (**ammocoete**)
+after metamorphosis returns to the ocean.
+Examples: Petromyzon (Lamprey) and
+Myxine (Hag fish) (Figure 2.22).
+
+**Figure 2.22 Examples of Cyclostomata**
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+#### Class: Chondrichthyes
+(G. chondros –cartilage; ichthys -fish)
+They are marine fishes with cartilaginous
+endoskeleton. Notochord is persistent
+throughout life. Skin is tough covered by
+dermal **placoid scales** and the caudal fin is
+**heterocercal** (asymmetrical both externally
+and internally). Mouth is located ventrally
+and teeth are modified placoid scales which
+are backwardly directed. Their jaws are
+very powerful and are predaceous animals.
+Respiration by **lamelliform gills** without
+operculum (gill cover). Excretory organs are
+**mesonephric** kidneys. Two chambered heart
+is present. Cartilaginous fishes are **ureotelic**
+and store urea in their blood to maintain
+osmotic concentration of body fluids. They
+are **poikilothermic** and **viviparous**. Sexes
+are separate. In males pelvic fins bear claspers
+to aid in internal fertilisation.
+
+Examples: Scoliodon (Shark), Trygon
+(Sting ray), Pristis (Saw fish) (Figure 2.23).
+
+#### Class: Osteichthyes
+(G. osteon –bone; ichthys -fish)
+
+It includes both marine and freshwater
+fishes with bony endoskeleton and spindle
+shaped body. Skin is covered by **ganoid**,
+cycloid or ctenoid scales. Respiration is
+by four pairs of filamentous gills and is
+covered by an operculum on either side.
+Air bladder is present with or without a
+connection to the gut. It helps in gaseous
+exchange (lung fishes) and for maintaining
+buoyancy in most of the ray finned fishes.
+They have a ventrally placed two chambered
+heart. Excretory organs are **mesonephric**
+**kidneys** and are **ammonotelic**. Presence
+of well developed **lateral line sense organ**.
+Sexes are separate, external fertilization
+is seen and most forms are oviparous
+(Figure 2.24).
+
+**Figure 2.24 Examples of Osteichthyes**
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+Examples: Exocoetus (Flying fish),
+Hippocampus (Sea horse), Labeo (Rohu),
+Catla (Catla), Echeneis (Sucker fish),
+Pterophyllum (Angel fish)
+
+#### Class: Amphibia
+(G. amphi-both; bios -life)
+
+Amphibians are the first vertebrates and
+tetrapods to live both in aquatic as well as
+terrestrial habitats.They are **poikilothermic**.
+Their body is divisible into the head and
+trunk and most of them have two pairs of
+limbs; tail may or may not be present. Their
+skin is smooth or rough, moist, pigmented
+and glandular. Eyes have eyelids and the
+tympanum represents the ear. Respiration is by
+gills, lungs and through the skin. Heart is three
+chambered. Kidneys are **mesonephric**. Sexes
+are separate and fertilization is external. They
+are oviparous and development is indirect.
+They show **hibernation** and **aestivation**.
+
+Examples: Bufo (Toad), Rana (Frog),
+Hyla (Tree frog), Salamandra (Salamander),
+lcthyophis (Limbless amphibians)
+(Figure 2.25).
+
+Figure 2.25 Examples of Amphibia
+Frog Toad
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+
+#### Class: Reptilia
+(L. repere or reptum – to creep or crawl)
+
+They are mostly terrestrial animals
+and their body is covered by dry, and
+cornified skin with epidermal scales or
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+scutes. Reptiles have three chambered heart
+but four chambered in crocodiles. All are
+cold blooded amniotes (poikilotherms).
+Most reptiles lay **cleidoic eggs** with
+extraembryonic membranes like **amnion**,
+**allantois, chorion and yolk sac**. Excretion
+by metanephric kidneys and are uricotelic.
+Sexes are separate with well marked sexual
+dimorphism. Internal fertilization takes
+place and all are oviparous.
+
+Examples : Chelone (Turtle), Testudo
+(tortoise), Hemidactylus (House lizard),
+Chameleon (Tree lizard), Calotes (Garden
+lizard), Draco (Flying lizard), Crocodilus
+(crocodile), Poisonous snakes - Naja
+(Cobra), Bangarus (Krait), Vipera (Viper)
+(Figure 2.26).
+
+**Figure 2.26 Examples of Reptiles**
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+Class Aves (L. Avis –bird)
+
+Aves are commonly known as birds.
+The characteristic feature of Aves is the
+presence of feathers and the ability to fly
+except for flightless birds (Eg. Ostrich, Kiwi,
+Penguin). The forelimbs are modified into
+wings, and the hind limbs are adapted for
+walking, running, swimming and perching.
+The skin is dry and devoid of glands except
+the **oil gland** or **preen gland** at the base
+of the tail. The exoskeleton consists of
+epidermal feathers, scales, claws on legs
+and the horny covering on the beak. The
+endoskeleton is fully ossified (bony) and
+the long bones are hollow with air cavities
+(**pneumatic bones**). The pectoral muscles
+of flight (**pectoralis major** and **pectoralis
+minor**) are well developed. Respiration is
+by compact, elastic, spongy lungs that are
+continuous with air sacs to supplement
+respiration. The heart is four chambered.
+Aves are **homeothermic**. Migration and
+parental care is well marked. Urinary
+bladder is absent. Sexes are separate with
+well marked sexual dimorphism. In males,
+the testes are paired but in females, only the
+left ovary is well developed while the right
+ovary is atrophied. All birds are oviparous.
+Eggs are **megalecithal** and **cleidoic**.
+Fertilization is internal.
+
+{{< box >}}
+**Hooded Pitohui**
+(Pitohui dichrous)
+The Hooded
+Pitohui is a
+songbird found in the rain forests of
+New Guinea, The first poisonous bird
+to be documented A neurotoxin called
+Homobatrachotoxin is found in its skin
+and feathers, causes numbness and
+tingling in those touching the bird.
+{{< /box >}}
+
+Examples Corvus (Crow), Columba
+(Pigeon), Psittacula (Parrot), Pavo (Peacock),
+Aptenodytes (Penguin), Neophron (Vulture),
+Chalcophaps indica (Tamilnadu state bird,
+Common Emerald Dove) (Figure 2.27).
+
+**Figure 2.27 Examples of Aves**
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+#### Class: Mammalia
+(L. Mamma – Breast)
+
+They are found in a variety of habitats.
+Their body is covered by hair, a unique
+feature of mammals. Some of them are
+adapted to fly or live in water. Presence
+of **mammary glands** is the most unique
+feature of mammals. They have two pairs
+of limbs adapted for walking, running,
+climbing, burrowing, swimming and flying.
+Their skin is glandular in nature, consisting
+of sweat glands, scent glands and sebaceous
+glands. Exoskeleton includes horny
+epidermal horns, spines, scales, claws, nails,
+hooves and bony dermal plates. Teeth are
+**thecodont**, **heterodont** and **diphyodont**.
+External ears or pinnae are present. The
+heart is four chambered and possess a left
+systematic arch. Mature RBCs are circular,
+biconcave and non nucleated. Mammals
+have a large brain when compared to other
+animals They show greatest intelligence
+among all animals. Their kidneys are
+**metanephric** and are **ureotelic**. All are
+homeothermic, sexes are separate and
+fertilization is internal.
+
+Examples Oviparous-
+Ornithorhynchus (Platypus), Viviparous-
+Macropus (Kangaroo), Pteropus (Flying 
+fox), Macaca (Monkey), Canis (Dog),
+Felis (Cat), Elephas (Elephant), Equus
+(Horse), Delphinus (Common dolphin)
+Balaenoptera (Blue whale), Panthera tigris
+(Tiger), Panther leo (Lion), Homo sapiens
+(Human) Bos (Cattle) (Figure 2.28).
+
+**Figure 2.28 Examples of Mammals**
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+### **Summary**
+Kingdom Animalia comprises of a
+broad range of animal species, from tiny
+parasitic nematodes to the largest mammal
+the blue whale. The basic fundamental
+features such as levels of organisation,
+diploblastic and triploblastic organisation,
+patterns of symmetry, coelom, segmentation
+and notochord have enabled us to broadly
+classify the animal kingdom. Besides the
+fundamental features, there are many other
+distinctive characters which are specific for
+each phyla or class.
+
+Animals are broadly classified into
+invertebrates and chordates. The animals
+which lack vertebral column are called
+invertebrates. The chordates are characterized
+by the presence of notochord, solid
+ventral nerve cord and gill slits. Kingdom
+Animalia are classified into eleven animal
+phyla as Porifera, Cnidaria, Ctenophora,
+Platyhelminthes, Aschelminthes, Annelida,
+Arthropoda, Mollusca, Echinodermata,
+Hemichordata and Chordata. Chordata
+is the largest phylum with three sup
+phyla Urochordata, Cephalochordata and
+Vertebrata. Subphylum Vertebrata includes
+two divisions, Agnatha and Gnathostomata.
+Agnatha comprises of the class Cyclostomata.
+Gnathostomata includes jawed fishes (Pisces)
+and Tetrapoda which includes the classes
+amphibia, reptilia, aves and mammals.
+
+{{< box title="CASE STUDY" type="objective" >}}
+
+Sálim Moizuddin Abdul Ali is the leading pioneer of
+Indian Ornithology and generally referred as "**Bird Man of
+India**". He was born on 12 November 1896 in Bombay and
+he was the most respected and influential naturalist of 20th
+century in India, He passed away on 20 June 1987. Young
+Salim got interested in birds when he was at the age of
+ten. Later he has conducted many systematic bird surveys
+across India and the neighboring countries. He authored
+many bird books and popularized ornithology in India.
+‘Book of Indian birds’ and the ‘Hand book of Birds of
+India and Pakistan’ are the most important books he has
+written. His autobiography ‘**Fall of a sparrow**’ narrates
+the beginning and experience of his life with birds. Government of India honoured
+him with the award of Padma Bhusahan in 1958 and Padma Vibhushan 1976. He was
+nominated to Rajyasabha in 1985. Salim Ali through his books motivated thousands
+of people to the field of ornithology and natural history. Most of the environmentalists
+in India trace back their initial motivation to bird watching and Salim Ali’s books.
+In 1990, Government of India started a national research institution in his
+honour called Sálim Ali Centre for Ornithology and Natural History (SACON) in
+Coimbatore, Tamil Nadu. SACON is a Centre of excellence in research supported
+by the Ministry of Environment, Forest and Climate Change, Government of India.
+All the researches and activities of SACON is devoted to the cause of conservation
+of India’s Biodiversity with focus on birds. The main campus of SACON is situated
+in the sylvan surrounding of Anaikatty, 24 kilometers northwest of Coimbatore
+city, within the Nilgiri Biosphere Reserve. SACON’s mission is to help conserve
+India’s biodiversity and its sustainable use through research, education and people’s
+participation with birds at the centre stage. SACON conducts research in Ornithology
+covering all aspects of biodiversity and natural history. More than 50 research scholars
+have completed PhD in Ornithology and Natural history from SACON in its 25 years
+of existence. SACON is known for its many research papers published in national
+and international journals. Nature Education programme of SACON is very popular
+in the region which is inculcating love for birds and nature to thousands of people
+especially to school children every year. Children’s Ecology Congress of SACON
+and Salim Ali Trophy Nature Competitions are flagship events. Salim Ali Naturalist
+Forum of SACON is the people’s bird watching movement in Coimbatore facilitated
+by SACON.
+
+{{< /box >}}
+
+{{< box title="Activity" type="objective" >}}
+
+**Objectives**:
+Some Groups of organisms with their distinguishing characteristics are given. Construct a
+cladogram, interpret and analyze the cladogram in terms of how it shows common ancestry and
+degrees of evolutionary relationship.
+
+**Procedure:**
+Step 1. Refer your text book and identify the characteristics of the given animals. In the data table provided, place an “x” in the box if the animal has the characteristic.
+
+Step 2: Below the Data Table on the Worksheet, make a Venn diagram, placing animals in groups
+to illustrate those characteristics which different animals have in common.
+
+Step 3: Using the Venn diagram draw a cladogram to illustrate the ancestry of these animals. The
+diagram should reflect the shared characteristics as time proceeds.
+
+Step 4: Draw the Venn diagram to reflect the shared characteristics of the given animal and draw
+a cladogram.
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+### Evaluation
+1. The symmetry exhibited in cnidarians is
+
+        a. Radial
+
+        b. Bilateral
+
+        c. Pentamerous radial
+
+        d. Asymmetrical
+
+2. Sea anemone belongs to phylum
+
+        a. Protozoa
+
+        b. Porifera
+
+        c. Coelenterata
+
+        d. Echinodermata
+
+3. The excretory cells that are found in
+platyhelminthes are
+
+        a. Protonephridia 
+        b. Flame cells
+        c. Solenocytes 
+        d. All of these
+
+4. In which of the following organisms, self
+fertilization is seen.
+
+        a. Fish 
+
+        b. Round worm
+
+        c. Earthworm 
+
+        d. Liver fluke
+
+5. Nephridia of Earthworms are performing
+the same functions as
+
+        a. Gills of prawn
+        b. Flame cells of Planaria
+        c. Trachea of insects
+        d. Nematoblasts of Hydra
+
+6. Which of the following animals has a
+true coelom ?
+
+        a. Ascaris 
+
+        b. Pheretima
+
+        c. Sycon 
+
+        d. Taenia solium
+
+7. Metameric segmentation is the main
+feature of
+
+a. Annelida 
+
+b. Echinodermata
+
+c. Arthropoda 
+
+d. Coelenterata
+
+8. In Pheretima locomotion occurs with the
+help of
+
+a. circular muscles
+
+b. longitudinal muscles and setae
+
+c. circular, longitudinal muscles and setae
+
+d. parapodia
+
+9. Which of the following have the highest
+number of species in nature?
+
+a. Insects 
+
+b. Birds
+
+c. Angiosperms 
+
+d. Fungi
+
+10. Which of the following is a crustacean?
+
+a. Prawn 
+
+b. Snail
+
+c. Sea anemone
+
+d. Hydra
+
+11. The respiratory pigment in cockroach is
+a. Haemoglobin 
+
+b. Haemocyanin
+
+c. Haemoerythrin 
+
+d. None of the above
+
+12. Exoskeleton of which phylum consists of
+chitinous cuticle?
+
+a. Annelida 
+
+b. Porifera
+
+c. Arthropoda 
+
+d. Echinodermata
+
+13. Lateral line sense organs occur in
+
+a. Salamander 
+
+b. Frog
+
+c. Water snake 
+
+d. Fish
+
+14. The limbless amphibian is
+
+a. Icthyophis 
+
+b. Hyla
+
+c. Rana 
+
+d. Salamander
+
+15. Four chambered heart is present in
+
+a. Lizard 
+
+b. Snake
+c. Scorpion 
+
+d. Crocodile
+
+16. Which of the following is not correctly
+paired?
