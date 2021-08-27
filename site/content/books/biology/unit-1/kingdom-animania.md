@@ -1325,6 +1325,9 @@ a cladogram.
 
 ![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
 
+{{< /box >}}
+
+
 ### Evaluation
 1. The symmetry exhibited in cnidarians is
 
@@ -1387,94 +1390,269 @@ true coelom ?
 7. Metameric segmentation is the main
 feature of
 
-a. Annelida 
+        a. Annelida 
 
-b. Echinodermata
+        b. Echinodermata
 
-c. Arthropoda 
+        c. Arthropoda 
 
-d. Coelenterata
+        d. Coelenterata
 
 8. In Pheretima locomotion occurs with the
 help of
 
-a. circular muscles
+        a. circular muscles
 
-b. longitudinal muscles and setae
+        b. longitudinal muscles and setae
 
-c. circular, longitudinal muscles and setae
+        c. circular, longitudinal muscles and setae
 
-d. parapodia
+        d. parapodia
 
 9. Which of the following have the highest
 number of species in nature?
 
-a. Insects 
+        a. Insects 
 
-b. Birds
+        b. Birds
 
-c. Angiosperms 
+        c. Angiosperms 
 
-d. Fungi
+        d. Fungi
 
 10. Which of the following is a crustacean?
 
-a. Prawn 
+        a. Prawn 
 
-b. Snail
+        b. Snail
 
-c. Sea anemone
+        c. Sea anemone
 
-d. Hydra
+        d. Hydra
 
 11. The respiratory pigment in cockroach is
-a. Haemoglobin 
+        a. Haemoglobin 
 
-b. Haemocyanin
+        b. Haemocyanin
 
-c. Haemoerythrin 
+        c. Haemoerythrin 
 
-d. None of the above
+        d. None of the above
 
 12. Exoskeleton of which phylum consists of
 chitinous cuticle?
 
-a. Annelida 
+        a. Annelida 
 
-b. Porifera
+        b. Porifera
 
-c. Arthropoda 
+        c. Arthropoda 
 
-d. Echinodermata
+        d. Echinodermata
 
 13. Lateral line sense organs occur in
 
-a. Salamander 
+        a. Salamander 
 
-b. Frog
+        b. Frog
 
-c. Water snake 
+        c. Water snake 
 
-d. Fish
+        d. Fish
 
 14. The limbless amphibian is
 
-a. Icthyophis 
+        a. Icthyophis 
 
-b. Hyla
+        b. Hyla
 
-c. Rana 
+        c. Rana 
 
-d. Salamander
+        d. Salamander
 
 15. Four chambered heart is present in
 
-a. Lizard 
+        a. Lizard 
 
-b. Snake
-c. Scorpion 
+        b. Snake
 
-d. Crocodile
+        c. Scorpion 
+
+        d. Crocodile
 
 16. Which of the following is not correctly
 paired?
+
+        a. Humans – Ureotelic
+
+        b. Birds – Uricotelic
+
+        c. Lizards – Uricotelic
+
+        d. Whale – Ammonotelic
+
+17. Which of the following is an egg laying
+mammal?
+
+        a. Delphinus 
+        
+        b. Macropus
+
+        c. Ornithorhynchus 
+
+        d. Equus
+
+18. Pneumatic bones are seen in
+
+        a. Mammalia 
+
+        b. Aves
+
+        c. Reptilia
+
+        d. Sponges
+
+19. Match the following columns and select
+the correct option.
+
+        Column – I         Column – II
+
+        (p) Pila          (i) Devil fish
+
+        (q) Dentalium     (ii) Chiton
+
+        (r) Chaetopleura  (iii) Apple snail
+
+        (s) Octopus       (iv) Tusk shell
+
+        a. p – (ii), q – (i), r – (iii), s – (iv)
+
+        b. p – (iii), q – (iv), r – (ii), s – (i)
+
+        c. p – (ii), q – (iv), r – (i), s – (iii)
+
+        d. p – (i), q – (ii), r – (iii), s – (iv)
+
+20. In which of the following phyla, the adult
+shows radial symmetry but the larva
+shows bilateral symmetry?
+
+        a. Mollusca 
+
+        b. Echinodermata
+
+        c. Arthropoda 
+
+        d. Annelida
+
+21. Which of the following is correctly
+matched?
+
+        a. Physalia – Portugese man of war
+
+        b. Pennatula – Sea fan
+
+        c. Adamsia – Sea pen
+
+        d. Gorgonia – Sea anemone
+
+22. Why are spongin and spicules important
+to a sponge?
+
+23. What are the four characteristics
+common to most animals?
+
+24. List the features that all vertebrates show
+at some point in their development.
+
+25. Compare closed and opened circulatory
+system.
+
+26. Compare Schizocoelom with
+enterocoelom.
+
+27. Identify the structure that the archenteron
+becomes in a developing animal.
+
+28. Observe the animal below and answer
+the following questions.
+
+![germinal-layers](/books/biology/unit-1/kingdom-animania/asymetric-in-sponges.png "kingdom animania")
+
+a. Identify the animal.
+
+b. What type of symmetry does this
+animal exhibit?
+
+c. Is this animal Cephalized?
+
+d. How many germ layers does this
+animal have?
+
+e. How many openings does this
+animal’s digestive system have?
+
+f. Does this animal have neurons?
+
+29. Choose the term that does not belong in
+the following group and explain why it
+does not belong?
+Notochord, cephalisation, dorsal nerve
+cord and radial symmetry.
+
+30. Why flatworms are called acoelomates?
+
+31. What are flame cells?
+
+32. Concept Mapping - Use the following
+terms to create a concept map that shows
+the major characteristic features of the
+phylum nematoda:
+Round worms, pseudocoelomates,
+digestive tract, cuticle, parasite, sexual
+dimorphism
+
+33. In which phyla is the larva trochopore
+found?
+
+34. Which of the chordate characteristics do
+tunicates retain as adults?
+
+35. List the characteristic features that
+distinguish cartilaginous fishes with
+living jawless fishes.
+
+36. List three features that characterise bony
+fishes.
+
+37. List the functions of air bladder in fishes.
+
+38. Write the characteristics that contributes
+to the success of reptiles on land.
+
+39. List the unique features of bird’s
+endoskeleton.
+
+40. Could the number of eggs or young ones
+produced by an oviparous and viviparous
+female be equal? Why?
+
+{{< box title="Cladogram" type="objective" >}}
+
+**Let’s do this activity to know
+about Cladogram.**
+
+Step – 1 Type the URL given below in the browser. Press ‘Play Game’ button then use your personal or school id to login. Otherwise use Guest Pass to enter and start the activity.
+
+Step – 2 Initially you will be provided with two species and their characteristics. You should drag them into the small box provided and match them.
+
+Step – 3 Use the mouse to drag and place the characteristics on the tree.
+
+Step – 4 If you correctly match the tree, the game will proceed to the next level. If you fail
+to match them start from the beginning and play the game again until you learn the
+characteristics.
+
+Evolution Lab’s URL:
+http://www.pbs.org/wgbh/nova/labs/lab/evolution/
+
+* Pictures are indicative only
