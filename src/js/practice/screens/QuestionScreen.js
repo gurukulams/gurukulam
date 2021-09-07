@@ -458,55 +458,77 @@ class QuestionScreen {
 
     const saveFn = () => {
       this.questions.forEach((question) => {
-        if (!question.id) {
-          fetch(
-            "/api/practices/" +
-              this.parent.dataset.type +
-              "/" +
-              this.practiceId +
-              "/questions/" +
-              question.type,
-            {
-              method: "POST",
-              headers: {
-                "content-type": "application/json",
-                Authorization:
-                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-              },
-              body: JSON.stringify(question),
-            }
-          );
-        } else if (question.updated) {
-          fetch(
-            "/api/practices/" +
-              this.parent.dataset.type +
-              "/" +
-              this.practiceId +
-              "/questions/" +
-              question.type +
-              "/" +
-              question.id,
-            {
-              method: "PUT",
-              headers: {
-                "content-type": "application/json",
-                Authorization:
-                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-              },
-              body: JSON.stringify(question),
-            }
-          );
-        }
-      });
-
-      this.deletedQuestionIds.forEach((dQuestionId) => {
-        fetch(
-          "/api/practices/" +
+        const addEndPointUrl = this.bookName
+          ? "/api/books/" +
+            this.parent.dataset.type +
+            "/questions/" +
+            question.type +
+            "/" +
+            this.chaptorPath
+          : "/api/practices/" +
             this.parent.dataset.type +
             "/" +
             this.practiceId +
             "/questions/" +
-            dQuestionId,
+            question.type;
+
+        const updateEndPointUrl = this.bookName
+          ? "/api/books/" +
+            this.parent.dataset.type +
+            "/questions/" +
+            question.type +
+            "/" +
+            question.id
+          : "/api/practices/" +
+            this.parent.dataset.type +
+            "/" +
+            this.practiceId +
+            "/questions/" +
+            question.type +
+            "/" +
+            question.id;
+
+        if (!question.id) {
+          fetch(addEndPointUrl, {
+            method: "POST",
+            headers: {
+              "content-type": "application/json",
+              Authorization:
+                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+            },
+            body: JSON.stringify(question),
+          });
+        } else if (question.updated) {
+          fetch(updateEndPointUrl, {
+            method: "PUT",
+            headers: {
+              "content-type": "application/json",
+              Authorization:
+                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+            },
+            body: JSON.stringify(question),
+          });
+        }
+      });
+
+      this.deletedQuestionIds.forEach((dQuestionId) => {
+
+        const deleteEndPointUrl = this.bookName
+          ? "/api/books/" +
+          this.parent.dataset.type +
+          "/questions/" +
+          question.type +
+          "/" +
+          dQuestionId 
+          : "/api/practices/" +
+          this.parent.dataset.type +
+          "/" +
+          this.practiceId +
+          "/questions/" +
+          dQuestionId;
+
+        fetch(
+          deleteEndPointUrl,
           {
             method: "DELETE",
             headers: {
