@@ -512,32 +512,28 @@ class QuestionScreen {
       });
 
       this.deletedQuestionIds.forEach((dQuestionId) => {
-
         const deleteEndPointUrl = this.bookName
           ? "/api/books/" +
-          this.parent.dataset.type +
-          "/questions/" +
-          question.type +
-          "/" +
-          dQuestionId 
+            this.parent.dataset.type +
+            "/questions/" +
+            question.type +
+            "/" +
+            dQuestionId
           : "/api/practices/" +
-          this.parent.dataset.type +
-          "/" +
-          this.practiceId +
-          "/questions/" +
-          dQuestionId;
+            this.parent.dataset.type +
+            "/" +
+            this.practiceId +
+            "/questions/" +
+            dQuestionId;
 
-        fetch(
-          deleteEndPointUrl,
-          {
-            method: "DELETE",
-            headers: {
-              "content-type": "application/json",
-              Authorization:
-                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-            },
-          }
-        );
+        fetch(deleteEndPointUrl, {
+          method: "DELETE",
+          headers: {
+            "content-type": "application/json",
+            Authorization:
+              "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+          },
+        });
       });
 
       goBack();
