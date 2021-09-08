@@ -511,7 +511,7 @@ class QuestionScreen {
         }
       });
 
-      this.deletedQuestionIds.forEach((dQuestionId) => {
+      this.deletedQuestionIds.forEach((dQuestionId, question) => {
         const deleteEndPointUrl = this.bookName
           ? "/api/books/" +
             this.parent.dataset.type +
