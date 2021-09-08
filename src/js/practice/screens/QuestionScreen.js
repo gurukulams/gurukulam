@@ -101,7 +101,8 @@ class QuestionScreen {
       this.practiceId = undefined;
       this.bookName = practiceId;
       this.chaptorPath = _chaptorName;
-      questionsUrl = "/api/books/" + this.bookName + "/questions";
+      questionsUrl =
+        "/api/books/" + this.bookName + "/questions/" + this.chaptorPath;
     } else {
       this.bookName = undefined;
       this.chaptorPath = undefined;
@@ -535,8 +536,11 @@ class QuestionScreen {
           },
         });
       });
-
-      goBack();
+      if (this.bookName) {
+        window.location = "/books/" + this.bookName + "/" + this.chaptorPath;
+      } else {
+        goBack();
+      }
     };
 
     const setQTxt = () => {
@@ -596,12 +600,11 @@ class QuestionScreen {
                   Add
                   </button>
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
-                    <li data-type="SINGLE_LINE"><a class="dropdown-item" href="javascript://">Singleline</a></li>
-                    <li data-type="MULTI_LINE"><a class="dropdown-item" href="javascript://">Multiline</a></li>
                     <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
                     <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multichoice</a></li>
-                    <li data-type="CODE_SQL"><a class="dropdown-item" href="javascript://">Sql</a></li>
-                    <li data-type="CODE_JAVA"><a class="dropdown-item" href="javascript://">Java</a></li>
+                    <li data-type="SINGLE_LINE"><a class="dropdown-item" href="javascript://">Singleline</a></li>
+                    <li data-type="MULTI_LINE"><a class="dropdown-item" href="javascript://">Multiline</a></li>
+                    
                   </ul>
                   <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
                   <button type="button" class="save-btn btn">Save</button>`
