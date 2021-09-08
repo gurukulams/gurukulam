@@ -458,6 +458,8 @@ class QuestionScreen {
     };
 
     const saveFn = () => {
+      const promises = [];
+
       this.questions.forEach((question) => {
         const addEndPointUrl = this.bookName
           ? "/api/books/" +
@@ -490,25 +492,29 @@ class QuestionScreen {
             question.id;
 
         if (!question.id) {
-          fetch(addEndPointUrl, {
-            method: "POST",
-            headers: {
-              "content-type": "application/json",
-              Authorization:
-                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-            },
-            body: JSON.stringify(question),
-          });
+          promises.push(
+            fetch(addEndPointUrl, {
+              method: "POST",
+              headers: {
+                "content-type": "application/json",
+                Authorization:
+                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+              },
+              body: JSON.stringify(question),
+            })
+          );
         } else if (question.updated) {
-          fetch(updateEndPointUrl, {
-            method: "PUT",
-            headers: {
-              "content-type": "application/json",
-              Authorization:
-                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-            },
-            body: JSON.stringify(question),
-          });
+          promises.push(
+            fetch(updateEndPointUrl, {
+              method: "PUT",
+              headers: {
+                "content-type": "application/json",
+                Authorization:
+                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+              },
+              body: JSON.stringify(question),
+            })
+          );
         }
       });
 
@@ -527,20 +533,26 @@ class QuestionScreen {
             "/questions/" +
             dQuestionId;
 
-        fetch(deleteEndPointUrl, {
-          method: "DELETE",
-          headers: {
-            "content-type": "application/json",
-            Authorization:
-              "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-          },
-        });
+        promises.push(
+          fetch(deleteEndPointUrl, {
+            method: "DELETE",
+            headers: {
+              "content-type": "application/json",
+              Authorization:
+                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+            },
+          })
+        );
       });
-      if (this.bookName) {
-        window.location = "/books/" + this.bookName + "/" + this.chaptorPath;
-      } else {
-        goBack();
-      }
+
+      // eslint-disable-next-line no-undef
+      Promise.allSettled(promises).then(() => {
+        if (this.bookName) {
+          window.location = "/books/" + this.bookName + "/" + this.chaptorPath;
+        } else {
+          goBack();
+        }
+      });
     };
 
     const setQTxt = () => {
