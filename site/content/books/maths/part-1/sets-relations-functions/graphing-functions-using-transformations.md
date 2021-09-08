@@ -442,6 +442,7 @@ page no:61
 
 22. ### bending
    **page no 63**
+   **add the enviroment**
 
 
 23.\\(f : \R \rightarrow \R \\)–ல் சார்பு \\(f(x) = 1 – |x|\\) என வரையறுக்கப்படுகிறது எனில் \\(f\\) - ன் வீச்சகம்
