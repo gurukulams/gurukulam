@@ -330,8 +330,12 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 
 4.\\(f ( x ) = | x – 2 | + | x + 2 |, x \in \R\\) எனில்,
 
-### bending
-page no:61
+**page no 61 22.q&a  bending**
+##  <p>&#63;</p>
+
+
+\\((1) f(x)  x = \begin{cases} -2x & ; x \in  (- \infty , -2 ] \\ c &\text{if } d \end{cases}\\)
+
 
 
 5.R மெய்யெண்களின் கணம் என்க. \\( \R × \R \\) –ல் கீழ்க்கண்ட உட்கணங்களைக் கருதுக.
