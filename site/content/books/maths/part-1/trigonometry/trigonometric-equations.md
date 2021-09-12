@@ -329,3 +329,103 @@ extensions:
 {{< /box >}} 
 
 **குறிப்பு:** \\( tan^2θ = 3 \\) என எழுதித் தீர்வுகாண முயற்சி செய்க.
+
+{{< box title="எடுத்துக்காட்டு 3.46" type="objective" >}}
+
+**தீர்வு காண்** \\(sin x + sin 5 x = sin 3 x .\\)
+
+**தீர்வு:**
+
+\\( \ \ \ \ \ \ \ \ \ sin x + sin 5 x = sin 3 x ⟹ 2 sin 3 x cos 2 x = sin 3 x\\)
+
+\\( sin 3 x ( 2 cos 2 x - 1 ) = 0 \\)
+
+\\(எனவே, sin 3 x = 0 அல்லது cos 2 x = \frac{1}{2} \\)
+
+\\(sin 3 x = 0 \\) எனில், \\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 3x = n\pi  ⟹ x = \frac{n\pi}{3} , n \in \Z \\) \\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ .....(i)\\)
+
+\\(sin 2x = \frac{1}{2}\\) எனில், \\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cos2x = cos \frac{\pi}{3}\\)
+ 
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \    2x = 2n\pi \pm \frac{\pi}{3} ⟹ x = n\pi \pm \frac{\pi}{6},n \in \Z \\) \\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ .....(ii)\\) 
+
+\\( (i) \\) மற்றும் \\( (ii) \\) இலிருந்து பொதுத் தீர்வு \\( x = \frac{n\pi}{3} \\) அல்லது \\( x = n\pi \pm \frac{\pi}{6}, n \in \Z \\) ஆகும் 
+
+{{< /box >}} 
+
+{{< box title="எடுத்துக்காட்டு 3.47" type="objective" >}}
+ 
+**தீர்வு காண்க** \\( cos x + sin x = cos 2 x + sin 2 x .\\)
+
+**தீர்வு:** 
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cos x + sin x = cos 2x + sin 2x\\)
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ ⟹cosx - cos 2x = sin 2x - sin x \\)
+
+\\( \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ 2 sin ( \frac{x + 2x }{2}) sin ( \frac{2x - x}{x}) = 2cos (\frac{2x + x}{2})sin (\frac{2x - x}{2})\\)
+
+\\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 2sin(\frac{3x}{2})sin(\frac{x}{2}) = 2cos (\frac{3x}{2})sin (\frac{x}{2})\\)
+
+
+\\( \ \ \ \ \ \ \ \ \ \ \ sin (\frac{x}{2})[ sin(\frac{3x}{2}) - cos(\frac{3x}{2})] = 0 \\)
+
+\\( sin (\frac{x}{2}) = 0 அல்லது sin (\frac{3x}{2}) - cos (\frac{3x}{2}) = 0 \\)
+
+\\( sin(\frac{x}{2}) = 0\\) எனும்போது,
+
+\\( \frac{x}{2} = n \pi ⟹ x = 2n \pi , n \in \Z \\)
+
+**வலப்புறம்:** 
+
+\\( sin (\frac{3x}{2}) - cos(\frac{3x}{2}) = 0 \\) எனும்போது,
+
+\\( tan(\frac{3x}{2}) = 1 =  tan(\frac{\pi}{4}) \\)
+
+\\( ⟹ \frac{3x}{2} = n \pi + \frac{\pi}{4} ⟹ x = \frac{2n\pi}{3} + \frac{\pi}{6},n \in \Z \\)
+
+எனவே, பொதுத் தீர்வு \\( x = 2n\pi \\) அல்லது \\( x = \frac{2n\pi}{3} + \frac{\pi}{6} , n \in \Z \\) ஆகும்.
+
+
+{{< /box >}} 
+
+**குறிப்பு**: \\( sin θ = cos θ \\) எனில் , \\( θ \ne (2n +1) \frac{\pi}{2}, n \in \Z \\) எனவே, \\( \frac{sin\theta}{cos\theta} = 1 . \\)
+
+{{< box title="எடுத்துக்காட்டு 3.48" type="objective" >}}
+
+\\( sin 90 = sin \theta \\) என்ற சமன்பாட்டைத் தீர்க்க.
+
+**தீர்வு**: 
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ sin 9\theta = sin \theta ⟹ sin 9 \theta - sin \theta = 0 \\)
+ 
+ \\( 2 cos 5 \theta sin 4 \theta = 0 \Rightarrow cos 5\theta = 0 \\) அல்லது \\( sin 4 \theta = 0 \\)
+
+
+\\( cos5 \theta = 0 எனும்போது 5 \theta = (2n + 1 ) \frac{\pi}{2} \\)
+
+\\( \Rightarrow \theta = (2n + 1) \frac{\pi}{10},n \in \Z \\)
+
+ **வலப்புறம்**
+
+
+\\( sin4 \theta = 0 ⟹ 4 \theta = n\pi \\)
+
+\\( ⟹ \theta = \frac{n\pi}{4} , n \in \Z \\)
+
+எனவே, கொடுக்கப்பட்ட சமன்பாட்டின் பொதுத் தீர்வு \\(  \theta = (2n + 1) \frac{\pi}{10}, \\) \\(  \theta = \frac{n\pi}{4} , n \in \Z \\)ஆகும்.
+
+
+{{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு 3.49" type="objective" >}}
+
+**தீர்க்க** \\( tan2x = - cot (x+ \frac{\pi}{3}) \\)
+
+**தீர்வு**:
+
+\\[ tan 2 x = - cot (x+ \frac{\pi}{3}) = tan (\frac{\pi}{2}+x+\frac{\pi}{3}) = tan (\frac{5\pi}{6}+x) \\]
+
+\\[ 2x = n\pi + \frac{5\pi}{6}+ x , n \in \Z ⟹ x = n\pi + \frac{5\pi}{6} , n \in \Z . \\]
+
+{{< /box >}}
+
+
