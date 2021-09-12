@@ -86,6 +86,10 @@ class QuestionScreen {
     //   : "";
 
     this.questionEditor.codemirror.focus();
+
+    if (window.renderMath) {
+      window.renderMath(this.parent);
+    }
   }
 
   render(_owner, practiceId, _chaptorName) {
