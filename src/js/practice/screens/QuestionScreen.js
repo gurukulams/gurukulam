@@ -90,6 +90,8 @@ class QuestionScreen {
     if (this.questionEditor.codemirror) {
       this.questionEditor.codemirror.focus();
     }
+
+    document.dispatchEvent(new Event("onrender"));
   }
 
   render(_owner, practiceId, _chaptorName) {
@@ -240,7 +242,7 @@ class QuestionScreen {
           choice.answer ? " checked " : ""
         } name="flexRadioDefault" value="${choice.id}" id="flexCheckDefault">
     <label class="form-check-label" for="flexCheckDefault">
-    ${choice.value}
+   
     </label>
   </div>
   ${
@@ -263,7 +265,7 @@ class QuestionScreen {
         liEl
           .querySelector("#flexCheckDefault")
           .addEventListener("change", setChoiceAnswer);
-
+        liEl.firstElementChild.children[1].innerHTML = choice.value;
         return liEl;
       };
 

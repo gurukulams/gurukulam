@@ -35,7 +35,10 @@
 <script type="module">
     import renderMathInElement from "https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/contrib/auto-render.mjs";
 
-        renderMathInElement(document.body, {
+    document.addEventListener('onrender', function (e) { 
+
+      console.log(document.getElementById('main-container'));
+      renderMathInElement(document.getElementById('main-container'), {
           // customised options
           // • auto-render specific keys, e.g.:
           delimiters: [
@@ -48,8 +51,15 @@
           throwOnError : false,
           macros:{"\\f":"#1f(#2)"}
         });
-    
-        window.renderMath = function(element) {
+
+        Array.from(document.getElementsByClassName('form-check-label'))
+        .forEach((element) => {
+
+         
+
+
+
+
           renderMathInElement(element, {
           // customised options
           // • auto-render specific keys, e.g.:
@@ -63,7 +73,15 @@
           throwOnError : false,
           macros:{"\\f":"#1f(#2)"}
         });
-        }
+
+            });
+        
+     }, false);
+
+     
+     
+    
+        
         
 </script>
 {{ end }}
