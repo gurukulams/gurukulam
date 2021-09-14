@@ -1,5 +1,5 @@
 ---
-title: 'முக்கோணவியல் சார்புகளும் அதன் பண்புகளும்'
+title: 'ஆரையன் அளவு (Radian Measure)'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 3
