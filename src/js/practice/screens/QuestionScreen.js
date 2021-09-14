@@ -75,6 +75,9 @@ class QuestionScreen {
         .renderInline(
           this.selectedQuestion.question ? this.selectedQuestion.question : ""
         );
+      if (window.renderMath) {
+        window.renderMath(this.questionEditor);
+      }
     }
 
     this.renderAnswerElement();
@@ -84,11 +87,8 @@ class QuestionScreen {
     //   .answer
     //   ? this.selectedQuestion.answer
     //   : "";
-
-    this.questionEditor.codemirror.focus();
-
-    if (window.renderMath) {
-      window.renderMath(this.parent);
+    if (this.questionEditor.codemirror) {
+      this.questionEditor.codemirror.focus();
     }
   }
 
@@ -240,7 +240,7 @@ class QuestionScreen {
           choice.answer ? " checked " : ""
         } name="flexRadioDefault" value="${choice.id}" id="flexCheckDefault">
     <label class="form-check-label" for="flexCheckDefault">
-      ${choice.value}
+    ${choice.value}
     </label>
   </div>
   ${
@@ -263,14 +263,18 @@ class QuestionScreen {
         liEl
           .querySelector("#flexCheckDefault")
           .addEventListener("change", setChoiceAnswer);
+
+        return liEl;
       };
 
       const renderChoices = () => {
+        const choiceElms = [];
         if (selectedQuestion.choices !== 0) {
           this.selectedQuestion.choices.forEach((choice) => {
-            renderChoice(choice);
+            choiceElms.push(renderChoice(choice));
           });
         }
+        return choiceElms;
       };
 
       if (this.isOwner) {
@@ -291,7 +295,11 @@ class QuestionScreen {
           });
       }
 
-      renderChoices();
+      const choiceElms = renderChoices();
+
+      if (window.renderMath) {
+        console.log("choiceElms " + choiceElms);
+      }
     };
 
     const setCodeEditor = (language) => {
