@@ -428,4 +428,133 @@ extensions:
 
 {{< /box >}}
 
+{{< box title="எடுத்துக்காட்டு 3.50" type="objective" >}}
+
+தீர்க்க \\( sin x – 3 sin 2x + sin 3x = cos x – 3 cos 2x + cos 3x. \\)
+
+**தீர்வு**:
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sin x – 3 sin 2x + sin 3x = cos x – 3 cos 2x + cos 3x \\)
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sin 3x + sin x – 3 sin 2x = cos 3x + cos x – 3 cos 2x \\)
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 2 sin 2x cos x – 3 sin 2x = 2 cos 2x cos x – 3 cos 2x \\)
+
+\\( \ \ \ \ \ \ \ \ \ \ (sin 2x – cos 2x) (2cos x – 3) = 0 \\)
+
+எனவே,\\(  sin 2x – cos 2x = 0 \\) ஏனெனில், \\( 2 cos x - 3 \ne 0 \\)
+
+\\[sin 2x = cos2x \Rightarrow tan2x = 1 \Rightarrow x = \frac{n \pi}{2} + \frac{\pi}{8} , n \in \Z .\\]
+
+{{< /box >}}
+
+
+{{< box title="எடுத்துக்காட்டு 3.51" type="objective" >}}
+
+**தீர்க்க** \\(sin x + cos x = 1 + sin x cos x \\).
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sin x + cos x = t \\) என்க
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \Rightarrow 1 + 2 sinx cos x = t^2 \Rightarrow sinx cosx = \frac{t^2 - 1}{2} \\)
+
+எனவே, கொடுக்கப்பட்ட சமன்பாடு \\( t^2 - 2 t + 1 = 0 \Rightarrow t = 1 \\) என ஆகிறது.
+
+எனவே, \\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ sinx + cosx = 1 \\)
+
+\\( \ \ \ \ \ \ \ \ \  \ \  \ \  \  \ \sqrt{\smash[b]{2}} (\frac{1}{\sqrt{\smash[b]{2}}}sinx + \frac{1}{\sqrt{\smash[b]{2}}} cosx )  = 1 \\)
+
+\\[ \sqrt{\smash[b]{2}} cos (\frac{\pi}{4} - x ) = 1 \Rightarrow cos (\frac{\pi}{4} - x ) = \frac{1}{\sqrt{\smash[b]{2}}} \\]
+
+எனவே, நமக்குக் கிடைப்பது,
+
+\\[ x - \frac{\pi}{4} = \pm \frac{\pi}{4} + 2n\pi , n \in \Z \\]
+
+\\[ x = \frac{\pi}{2} + 2n\pi அல்லது x = 2n\pi , n \in \Z \\]
+
+{{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு 3.52" type="objective" >}}
+
+\\( தீர்க்க 2 sin^2 x + sin^2 2 x = 2 . \\)
+
+**தீர்வு**:
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ 2 sin^2 x + sin^2 2 x = 2 \Rightarrow 2 sin^2 x + ( 2 sin x cos x )^2 = 2 \\)
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \cos^2 x (2sin^2 x - 1) = 0 \\)
+
+\\( cos x = 0 \\) அல்லது \\( sin^2 x = \frac{1}{2} \\)
+
+\\( cosx = 0 \Rightarrow x = (2n + 1) \frac{\pi}{2} , n \in \Z \\)
+
+**வலப்புறம்** :
+
+\\( sin^2 x = \frac{1}{2} = sin^2 \frac{\pi}{4} \\)
+
+\\( \Rightarrow x = n\pi \pm \frac{\pi}{4} , n \in \Z \\) (எப்படி)
+
+எனவே, பொதுத் தீர்வு \\( x = (2 n + 1) \frac{\pi}{2} \\) அல்லது \\( x = n\pi \pm \frac{\pi}{4} , n \in Z \\) ஆகும்.
+
+{{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு 3.53" type="objective" >}}
+
+a மற்றும் b என்ற எந்த ஒரு மதிப்பிற்கும் \\( -\sqrt{\smash[b]{a^2 + b^2}}  ≤ a sin \theta + b cos \theta ≤ \sqrt{\smash[b]{a^2 + b^2}} \\) என நிறுவுக.
+
+**தீர்வு:**
+
+\\( asin \theta + bcos \theta \\) = \\[ \sqrt{\smash[b]{a^2 + b^2}} [ \frac{a}{\sqrt{\smash[b]{a^2 + b^2}} } sin \theta + \frac{b}{\sqrt{\smash[b]{a^2 + b^2}} } cos \theta ] \\]
+
+
+ \\[ = \sqrt{\smash[b]{a^2 + b^2}} [ cosα sinθ + sinα cosθ ] \\]
+
+இங்கு ,\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  cosα  \\) = \\[ \frac{a}{\sqrt{\smash[b]{a^2 + b^2}}} , sinα = \frac{b}{\sqrt{\smash[b]{a^2 + b^2}}} \\]
+
+\\[ = \sqrt{\smash[b]{a^2 + b^2}} , sin (α + \theta ) \\]
+
+எனவே , \\( |asin \theta + bcos \theta | ≤ a \sqrt{\smash[b]{a^2 + b^2}} \\)
+
+இவ்வாறாக, \\( - \sqrt{\smash[b]{a^2 + b^2}} ≤ asin \theta + bcos \theta ≤ \sqrt{\smash[b]{a^2 + b^2}} \\)
+
+
+{{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு 3.54" type="objective" >}}
+
+**தீர்வு:**
+
+\\[ \sqrt{\smash[b]{3}} sin \theta - cos \theta = \sqrt{\smash[b]{2}} \\]
+
+இங்கு,\\( a = - 1 ; b = \sqrt{\smash[b]{3}} ; c = \sqrt{\smash[b]{2}} ; r = \sqrt{\smash[b]{a^2 + b^2}} = 2 \\)
+
+எனவே கொடுக்கப்பட்ட சமன்பாட்டைப் பின்வருமாறு மாற்றி எழுதலாம்.
+
+\\( \ \ \  \  \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \  \ \ \frac{\sqrt{\smash[b]{3}}}{2} sin \theta - \frac{1}{2}cos \theta = \frac{1}{\sqrt{\smash[b]{2}}} \\)
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  sin \theta cos \frac{\pi}{6} - cos \theta sin \frac{\pi}{6} = sin\frac{\pi}{4} \\)
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \  sin (0 - \frac{\pi}{6}) = sin \frac{\pi}{4} \\)
+
+\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \  0 - \frac{\pi}{6} = n\pi \pm (-1)^n \frac{\pi}{4} , n \in \Z \\)
+
+எனவே,\\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 0 = n\pi + \frac{\pi}{6} \pm (-1)^n \frac{\pi}{4}
+, n \in \Z \\)
+
+{{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு 3.55" type="objective" >}}
+
+தீர்க்க \\( \sqrt{\smash[b]{3}} tan^2 \theta + (\sqrt{\smash[b]{3}} - 1 ) tan \theta - 1 = 0 .\\)
+
+**தீர்வு :**
+
+\\( \sqrt{\smash[b]{3}} tan^2 \theta + (\sqrt{\smash[b]{3}} - 1 ) tan \theta - 1 = 0 \\)
+
+\\( \sqrt{\smash[b]{3}} tan^2 \theta + \sqrt{\smash[b]{3}} tan \theta - tan \theta - 1 = 0 \\)
+
+\\( (\sqrt{\smash[b]{3}} tan \theta - 1)(tan \theta + 1) = 0 \\)
+
+எனவே,\\( \sqrt{\smash[b]{3}} tan \theta - 1 = 0 \\) அல்லது \\( tan \theta + 1 = 1 \\)
+
+{{< /box >}}
 
