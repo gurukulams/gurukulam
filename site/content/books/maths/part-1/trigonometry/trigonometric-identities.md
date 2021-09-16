@@ -102,3 +102,11 @@ O-ஐ மையமாகக் கொண்ட ஓரலகு வட்டத�
 #### pendind some matrix part-1 page no(136-center position)
 
 **முற்றொருமை 3.5 :**  \\(  tan ( \alpha + \beta ) = \dfrac {tan \alpha + tan \beta }{1- tan  \alpha tan \beta}    \\)
+
+
+**நிரூபணம் :**
+
+\\(  tan ( \alpha + \beta ) = \dfrac {sin ( \alpha + \beta )}{ cos ( \alpha + \beta )} = \dfrac {sin \alpha cos \beta + cos \alpha  sin \beta} {cos \alpha  cos \beta - sin \alpha  sin \beta} \\)
+
+\\( = \dfrac { \dfrac { sin \alpha \ cos \beta + cos \alpha \  sin \beta } { cos \alpha \ cos \beta } }  { \dfrac {cos \alpha \ cos \beta - sin \alpha \  sin \beta } { cos \alpha \ cos  \beta } }  = \dfrac { tan \alpha + tan \beta } { 1-tan\alpha \ tan \beta }  \\)
+
