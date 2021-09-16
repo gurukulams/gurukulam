@@ -184,7 +184,7 @@ tan (45° + 30°) என்றும் அதுபோல் cos 135°-ஐ cos 
 
 இதேபோல் இரண்டாம் காற்பகுதியில் \\( cos y = \dfrac {-12}{13} எனக்கொடுக்கப்பட்டுள்ளது
 
-\\( sin y = \pm \sqrt {1 - cos^2 y} .
+\\( sin y = \pm \sqrt {1 - cos^2 y}\\) .
 
 \\( \ \ \ \  \pm \sqrt{ 1 - \dfrac {144}{169} } = \pm \dfrac{5}{13}  \\)
 
@@ -195,4 +195,53 @@ tan (45° + 30°) என்றும் அதுபோல் cos 135°-ஐ cos 
 (ii)\\( cos ( x - y ) = cos x cos y + sin x sin y = \dfrac{3}{5} \bigg( \dfrac{-12}{13} \bigg) + \dfrac{4}{5} \bigg( \dfrac{5}{13} \bigg) = - \dfrac{16}{65} \\)
 
 {{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு 3.17 " type="objective" >}}
+
+\\( cos \bigg( \dfrac{3 \pi }{4} + x \bigg) - cos \bigg( \dfrac{3 \pi }{4} \bigg) = - \sqrt 2 \ sin x \\) என நிறுவுக.
+
+**தீர்வு:**
+
+இடப்பக்கம் \\( cos \dfrac{3 \pi}{4} cos x sin \dfrac{3 \pi}{4} sinx - cos \dfrac{3 \pi}{4} cosx - sin{3 \pi}{4} sin x \\)
+
+\\( = - 2 sin \bigg( \pi - \dfrac{ \pi }{4} \bigg) sin x = - 2 \bigg( \dfrac{1}{ \sqrt 2} \bigg) sin x = - \sqrt 2 sin x\\)
+
+
+{{< /box >}}
+
+
+**குறிப்பு:** \\(  cos ( A + x ) - cos ( A - x ) = - 2 sin A sin x \\)
+
+{{< box title="எடுத்துக்காட்டு 3.18 " type="objective" >}}
+
+நிறுவுக. A ( 9 , 12 ) என்ற புள்ளி தளத்தில் O ஐப் பொறுத்து இடஞ்சுழியாக
+60° கோணத்தில் சுழலும்போது அடையும் புதிய நிலை B என்க, B இன் ஆயத்தொலைவுகளை
+காண்க.
+
+**தீர்வு:**
+
+\\(A ( 9 , 12 ) = A ( r cos \theta , r sin \theta ) \\) இங்கு r = OA என்க.
+
+எனவே, \\(r cos \theta = 9 \ மற்றும் \ r sin \theta = 12 \\) ஆகும்.
+
+
+\\( \ \ \ \ \ \ r^2 = 81 + 144 = 225 \rightarrow r = 15 \\)
+
+எனவே, A என்பது \\( A ( 15 cos \theta , 15 sin \theta ) \\)
+
+இங்கு, B என்பது \\( B ( 15 cos ( \theta + 60° ), 15 sin ( \theta + 60° )) \\)
+
+\\( \ \ \ \ \ 15 cos ( \theta + 60° ) = 15 ( cos  \theta cos 60° - sin  \theta sin60°)\\)
+
+\\( \ \ \ \ \ \ \ \ \ = 1(5 cos  \theta ) cos 60° - ( 15sin  \theta) sin60°\\)
+
+\\( \ \ \ \ \ \ \ \ \ = 9 \times \dfrac{1}{2} - 12 \times \dfrac { \sqrt 3}{2} = \dfrac{3}{2} (3-4 \sqrt 3) \\)
+
+அதே போல், \\( \ \ \ \ 15 sin ( \theta + 60°) = \dfrac {3}{2} (4 + 3 \sqrt 3)\\
+
+எனவே, B என்பது \\( B \bigg \dfrac{3}{2} ( 3 - 4 \sqrt 3 ), \dfrac{3}{2} ( 4 + 3 \sqrt 3 ) \bigg) \\)  ஆகும்.
+
+
+{{< /box >}}
+
 
