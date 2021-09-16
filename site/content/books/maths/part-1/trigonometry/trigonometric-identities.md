@@ -225,7 +225,7 @@ tan (45° + 30°) என்றும் அதுபோல் cos 135°-ஐ cos 
 எனவே, \\(r cos \theta = 9 \ மற்றும் \ r sin \theta = 12 \\) ஆகும்.
 
 
-\\( \ \ \ \ \ \ r^2 = 81 + 144 = 225 \rightarrow r = 15 \\)
+\\( \ \ \ \ \ \ r^2 = 81 + 144 = 225 \Rightarrow r = 15 \\)
 
 எனவே, A என்பது \\( A ( 15 cos \theta , 15 sin \theta ) \\)
 
@@ -237,7 +237,7 @@ tan (45° + 30°) என்றும் அதுபோல் cos 135°-ஐ cos 
 
 \\( \ \ \ \ \ \ \ \ \ = 9 \times \dfrac{1}{2} - 12 \times \dfrac { \sqrt 3}{2} = \dfrac{3}{2} (3-4 \sqrt 3) \\)
 
-அதே போல், \\( \ \ \ \ 15 sin ( \theta + 60°) = \dfrac {3}{2} (4 + 3 \sqrt 3)\\
+அதே போல், \\( \ \ \ \ 15 sin ( \theta + 60°) = \dfrac {3}{2} (4 + 3 \sqrt 3) \\)
 
 எனவே, B என்பது \\( B \bigg( \dfrac{3}{2} ( 3 - 4 \sqrt 3 ), \dfrac{3}{2} ( 4 + 3 \sqrt 3 ) \bigg) \\)  ஆகும்.
 
@@ -245,3 +245,45 @@ tan (45° + 30°) என்றும் அதுபோல் cos 135°-ஐ cos 
 {{< /box >}}
 
 
+{{< box title="எடுத்துக்காட்டு 3.19 " type="objective" >}}
+
+இரண்டு நீரலைகள் இணைவதை விளக்கும் அலைத்தொட்டி ஒன்று உள்ளது. \\( h = 8 cos t \ மற்றும் \ h = 6 sin t \ இங்கு \ t \in [ 0 , 2 \pi )\\) 
+என இரண்டு அலைகள் உள்ளன. இங்கு நேரம் t விகலைகளிலும், அலையா நீர்மட்டத்திலிருந்து அலையின் உயரம் மில்லி
+மீட்டரிலும் அளக்கப்படுகிறது என்க. கொடுக்கப்பட்ட இரு அலைகளும் இணையும்போது
+உருவாகும் அலையின் அதிகபட்ச உயரம் மற்றும் t இன் மதிப்பையும் காண்க.
+
+**தீர்வு:**
+ 
+t நேரத்தில் விளைவு அலையின் உயரம் H எனக் கொள்க.
+
+\\(\ \ \ \ \ H = 8 cos t + 6 sin t \\)
+
+\\(\ \ 8 cos t + 6 sin t = k cos ( t - \alpha )\\)
+
+\\(\ \ \ \ \  = k ( cos t cos \alpha + sin t sin \alpha ) \\)
+
+இங்கு,\\(\ \ \ \ \ k = 10 மற்றும் tan \alpha = \dfrac {3}{4} \\)
+
+எனவே, \\(\ \ \ \ \ H = 10 cos ( t - \alpha )\\)
+
+\\( t = \alpha \\) எனும்போது மீப்பெரும் மதிப்பையடைகிறது. இங்கு \\(tan \alpha = \dfrac {3}{4}
+
+{{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு 3.20 " type="objective" >}}
+
+விரிவாக்குக. \\( (i) sin ( A + B + C ) \ \ \ \ (ii) tan ( A + B + C )\\) .
+
+**தீர்வு:**
+ 
+\\((i) sin ( A + B + C ) = sin [ A + ( B + C )] \\)
+
+\\( \ \ \ \ \ = sin A cos ( B + C ) + cos A sin ( B + C ) \\)
+
+\\( \ \ \ \ \  = sin A cos B cos C + cos A sin B cos C + cos A cos B sin C - sin A sin B sin C \\)
+
+\\( \ \ \ \ \  = \dfrac{ tan A + tan ( B + C ) }{1 - tan A tan ( B + C )} = \dfrac{ tan A + \dfrac {tan B + tan C} {1- tan B tan C} } { 1 - tan A \dfrac{ tan B + tan C}{1- tan B tan C}  } \\)
+
+\\( \ \ \ \ \  = \dfrac{tan A + tan B + tan C - tan A tan B tan C } {1 - tan A tan B - tan B tan C - tan C tan A} \\)
+
+{{< /box >}}
