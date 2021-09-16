@@ -554,7 +554,51 @@ a மற்றும் b என்ற எந்த ஒரு மதிப்ப
 
 \\( (\sqrt{\smash[b]{3}} tan \theta - 1)(tan \theta + 1) = 0 \\)
 
-எனவே,\\( \sqrt{\smash[b]{3}} tan \theta - 1 = 0 \\) அல்லது \\( tan \theta + 1 = 1 \\)
+எனவே,\\( \sqrt{\smash[b]{3}} tan \theta - 1 = 0 \\) அல்லது \\( tan \theta + 1 = 0 \\)
+
+\\( \sqrt{\smash[b]{3}} tan \theta - 1 = 0 \\) எனில்,
+
+\\( tan \theta = \frac{1}{\sqrt{\smash[b]{3}}} = tan \frac{\pi}{6}\\)
+
+\\( \Rightarrow \theta = n\pi + \frac{\pi}{6}, n \in \Z .....(i) \\)
+
+**வலப்புறம் :**
+
+\\( tan \theta + 1 = 0 \\) எனில்,
+
+\\( tan \theta = -1 = tan (\frac{-\pi}{4}) \\)
+
+\\( \Rightarrow \theta = n\pi - \frac{\pi}{4} , n \in \Z .....(ii) \\)
+
+\\( (i) \\)மற்றும் \\( (ii) \\)இலிருந்து நமக்குப் பொதுத் தீர்வு கிடைக்கிறது.
 
 {{< /box >}}
+
+\\[  பயிற்சி 3.8 \\]
+
+1 . பின்வருவனவற்றுக்கு முதன்மை தீர்வு மற்றும் பொதுத் தீர்வுகளைக் காண்க
+
+\\( (i) sin \theta = - \frac{1}{\sqrt{\smash[b]{2}}} \\) \\(\ \ \ \ \ \ \ \ \ (ii)cot \theta = \sqrt{\smash[b]{3}} \\)\\( \ \ \ \ \ \ \ \ (iii) tan \theta = -\frac{1}{
+\sqrt{\smash[b]{3}}} \\)
+
+2 . \\( 0° ≤ \theta ≤ 360° \\) என்ற இடைவெளியில் இருக்கும் கீழ்கண்ட சமன்பாடுகளுக்கு சரியான
+தீர்வுகளைக் காண்க.
+
+
+\\( (i) sin^4 x = sin^2  x \\) \\(\ \ \ \ \ \ \ (
+ii)2cos^2 x + 1 = -3cosx \\) \\(\ \ \ \ \ \ \ (iii)2 sin^2x + 1 = 3sin x \\) \\( \ \ \ \ \ \ \ (iv)cos 2x = 1 - 3sinx\\)
+
+3 . பின் வரும் சமன்பாடுகளைத் தீர்க்கவும்
+
+\\( (i) sin5x - sinx = cos3x \\) \\(\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  (ii)2cos^2 \theta + 3sin \theta - 3 = 0\\)
+
+\\((iii)cos \theta + cos3 \theta = 2 cos 2 \theta \\) \\(\ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ (iv)sin \theta + sin3 \theta + sin5 \theta = 0 \\)
+
+\\( (v)sin2 \theta - cos2 \theta - sin \theta + cos \theta = 0 \\) \\(\ \ \ \ \ \ \ \ (vi)sin \theta + cos \theta = \sqrt{\smash[b]{3}} \\)
+
+\\( (vii) sin \theta + \sqrt{\smash[b]{3}} cos \theta = 1 \\) \\( \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ (viii)cot \theta + cosec \theta = \sqrt{\smash[b]{3}}\\)
+
+\\((ix)tan \theta + tan (\theta + \frac{\pi}{3}) + tan (\theta + \frac{2\pi}{3}) = \sqrt{\smash[b]{3}} \\)
+
+\\((x) cos2 \theta = \frac{\sqrt{\smash[b]{5}}+1}{4}\\) \\( \ \ \ \ \ \  \ \ \ \ \ \  \ \ \ \ \ \  \ \ \ \ \ \  \ \ \ \ \ \  \ \ \ \ \ \  \ \ \ \ \ \ (xi) 2cos^2 x - 7 cosx + 3 = 0 \\)
 
