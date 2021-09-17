@@ -287,3 +287,34 @@ t நேரத்தில் விளைவு அலையின் உயர
 \\( \ \ \ \ \  = \dfrac{tan A + tan B + tan C - tan A tan B tan C } {1 - tan A tan B - tan B tan C - tan C tan A} \\)
 
 {{< /box >}}
+
+
+**குறிப்பு:**  (i) \\( A + B + C = 0 \ அல்லது \pi எனில், tan ( A + B + C ) = 0 மேலும்
+ tan A + tan B + tan C = tan A tan B tan C \\)
+
+ 	
+இம்முடிவு விரிகோண முக்கோணத்திற்கும் பொருந்தம்.
+
+(ii) \\( tan ( x - y ) + tan ( y - z ) + tan ( z - x ) = tan ( x - y ) tan ( y - z ) tan ( z - x ) \\)
+
+(iii)\\( tan 3 A - tan 2 A - tan A = tan 3 A + tan ( - 2 A ) + tan ( - A ) = tan 3 A tan 2 A tan A \\)
+
+(iv) \\( A + B + C = \dfrac { \pi }{2} \ எனில் \ tan A tan B + tan B tan C + tan C tan A = 1 \\) (எப்படி?)
+
+**பயிற்சி 3.4**
+
+1.\\( 0 < x < \dfrac{ \pi}{2}, 0 < y < \dfrac{ \pi}{2} , sin x = \dfrac{15}{7} \ மற்றும் \ cos y = \dfrac{15}{13} \\) , எனில்
+
+\\( (i) sin ( x + y ) (ii) cos ( x - y ) (iii) tan ( x + y ) \\) ஆகியவற்றின் மதிப்புகளைக் காண்க.
+
+2.\\( 0 < A < \dfrac{ \pi}{2}, 0 < B < \dfrac{ \pi}{2} , sin A = \dfrac{3}{5} \ மற்றும் \ cos B = \dfrac{9}{41}எனில் \\)
+
+(i)\\( sin ( A + B ) \ \ (ii) cos ( A - B ) \\)  ஆகியவற்றின் மதிப்புகளைக் காண்க.
+
+3.\\( cos x = - \dfrac{4}{5} , \pi < x < \ \dfrac{3 \pi }{2} \ மற்றும் sin y = - \dfrac{24}{25}, \pi < y < \dfrac{3 \pi}{2} \ எனில் \ cos ( x - y ) \\)இன்மதிப்பைக் காண்க. 
+
+4.\\( sin x = \dfrac{8}{17} , 0 < x < \dfrac{ \pi}{2} \ மற்றும் \ cos y = - \dfrac {24}{25} , \pi < y <  \dfrac{3 \pi}{2} \ எனில் \ sin ( x - y ) \\)இன் மதிப்பைக் காண்க.
+
+5.\\( (i) cos105° \ \ \ (ii) sin105° \ \ \ (iii) tan \dfrac{7 \pi}{12} \\) ஆகியவற்றின் மதிப்புகளைக் காண்க.
+
+6.நிறுவுக: \\( (i) cos ( 30° + x ) = \dfrac{ \sqrt 3 cos x - sin x}{2} \ \ \ (ii)cos ( \pi + \theta) = - cos \theta \\)
