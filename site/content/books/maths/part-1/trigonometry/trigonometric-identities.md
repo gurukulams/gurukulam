@@ -318,3 +318,58 @@ t நேரத்தில் விளைவு அலையின் உயர
 5.\\( (i) cos105° \ \ \ (ii) sin105° \ \ \ (iii) tan \dfrac{7 \pi}{12} \\) ஆகியவற்றின் மதிப்புகளைக் காண்க.
 
 6.நிறுவுக: \\( (i) cos ( 30° + x ) = \dfrac{ \sqrt 3 cos x - sin x}{2} \ \ \ (ii)cos ( \pi + \theta) = - cos \theta \\)
+
+\\( \ \ \ (ii) sin ( \pi + \theta ) = - sin \theta \\)
+
+7.sin 15° மற்றும் cos 15° ஆகியவற்றை மூலங்களாகக் கொண்ட இருபடிச் சமன்பாட்டைக்
+காண்க.
+
+8.\\( cos ( A + B + C ) \\)ஐ விரிவாக்கு. இங்கு \\( A + B + C = \dfrac { \pi }{2} \\)எனில், \\(cos A cos B cos C = sin A sin B cos C + sin B sin C cos A + sin C sin A cos B \\)என
+நிறுவுக.
+
+9.நிறுவுக \\( (i) sin ( 45° + \theta ) - sin ( 45° - \theta ) = \sqrt 2 sin   \theta \\)
+
+\\( \ \ \ \ \ (ii) sin ( 30° + \theta ) + cos ( 60° + \theta ) = cos \theta \\)
+
+10.\\( a cos ( x + y ) = b cos ( x - y ) \ எனில் \ ( a + b ) tan x = ( a - b ) cot y \\)எனக் காண்பி.
+
+
+11.\\(நிறுவுக. sin 105° + cos 105° = cos 45° \\)
+
+12.\\( நிறுவுக. sin 75° – sin 15° = cos 105° + cos 15° \\)
+
+13.\\(நிறுவுக. tan 75° + cot 75° = 4 \\)
+
+14.\\(நிறுவுக. cos ( A + B ) cos C - cos ( B + C ) cos A = sin B sin ( C - A ) \\)
+
+15.\\( நிறுவுக. sin ( n + 1 ) \theta sin ( n - 1 ) \theta + cos ( n + 1 ) \theta  cos ( n - 1 ) \theta = cos 2 \theta , n \in \Z \\).
+
+16.\\( x cos \theta = y cos  \bigg( \theta + \dfrac{2 \pi}{3} \bigg) = z cos \bigg( \theta + \dfrac{4 \pi}{3} \bigg) \ எனில் \ xy + yz + zx \\)இன் மதிப்பைக் காண்க.
+
+17.\\(நிறுவுக. (i) sin ( A + B ) sin ( A - B ) = sin^2 A - sin^2 B\\)
+
+\\( (ii) cos ( A + B ) cos ( A - B ) = cos^2 A - sin^2 B = cos^2 B - sin^2 A \\)
+
+\\( (iii) sin^2 ( A + B ) - sin^2 ( A - B ) = sin^2 A sin 2 B \\)
+
+\\( (iv) cos 8 \theta cos^2 \theta = cos^2 5 \theta - sin^2 3 \theta \\)
+
+18.\\( cos^2 A + cos^2 B - 2 cos A cos B cos ( A + B ) = sin^2 ( A + B ) \\)எனக் காண்பி.
+
+19.\\(cos ( \alpha - \beta ) + cos ( \beta - \gamma ) + cos ( \gamma - \alpha ) = - \dfrac{3}{2} \\)எனில்
+
+\\(cos \alpha + cos \beta + cos \gamma = sin \alpha + sin \beta + sin \gamma = 0 \\)எனக் காண்பி.
+
+20\\( (i) tan ( 45° + A ) = \dfrac{1 + tan A }{1 - tan A } \ \ \ (ii) tan ( 45° - A ) = \dfrac{1 - tan A}{ 1 + tan A} \\) எனக் காண்பி.
+
+21.\\( நிறுவு cot ( A + B ) = \dfrac{cot A cot B - 1}{ cot A + cot B} \\)
+
+22.\\( tan \ x = \dfrac{n}{n+1} \ மற்றும் \ tan \ y = \dfrac{1}{2n + 1} \ எனில், \ tan ( x + y ) \\)ஐக் காண்க.
+
+23.\\(நிறுவுக.tan \bigg( \dfrac{\pi}{4} + \theta \bigg) tan \bigg( \dfrac{3 \pi}{4} + \theta \bigg) = -1 \\)
+
+24.\\( cot \alpha = \dfrac{1}{2}, \alpha \in  \bigg( \pi , \dfrac{3 \pi}{2} \ மற்றும் \ sec \beta = - \dfrac{5}{3} , \beta \in \bigg( \dfrac{ \pi}{2} , \pi \bigg) \ எனில் \ tan ( \alpha + \beta ) \\) -இன் மதிப்பைக் காண்க.
+
+25.\\( \theta + \phi = \alpha \ மற்றும் \ tan \theta = k tan \phi \ எனில், sin ( \theta - \theta ) =
+ \dfrac {k - 1}{k + 1} sin \alpha \\) என நிறுவுக.
+
