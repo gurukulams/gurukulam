@@ -16,20 +16,56 @@ Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
 {
-	"question": "R மெய்யெண்களின் கணம் என்க. \\\\( \\R × \\R \\\\) –ல் கீழ்க்கண்ட உட்கணங்களைக் கருதுக.\\\\(S = \\lbrace (x , y): y = x + 1\\\\) மற்றும் \\\\(0 < x < 2 \\rbrace ; T = \\lbrace ( x , y ) : x – y \\in  \\Z\\\\)\n T சமானத் தொடர்பு ஆனால், S சமானத் தொடர்பு அல்ல.\n \n",
+	"question": " .\\\\(A=\\lbrace (x,y):Y=e^x,x \\in \\R \\rbrace \\\\) - மற்றும் \\\\(B=\\lbrace (x,y):Y=e^-x,x \\in \\R \\rbrace \\\\) எனில், \\\\(n(A \\cap B)\\\\) என்பது",
 	"type": "CHOOSE_THE_BEST",
 	"choices": [{
-		"id": 13,
-		"value": " T சமானத் தொடர்பு ஆனால், S சமானத் தொடர்பு அல்ல."
+		"id": 0,
+		"value": " \\( \\infty \\)"
 	}, {
-		"id": 14,
-		"value": " S , T இரண்டுமே சமானத் தொடர்பு அல்ல."
+		"id": 1,
+		"value": " 0"
 	}, {
-		"id": 15,
-		"value": " S, T இரண்டுமே சமானத் தொடர்பு."
+		"id": 2,
+		"value": " 1"
 	}, {
-		"id": 16,
-		"value": " S சமானத் தொடர்பு ஆனால், T சமானத் தொடர்பு அல்ல."
+		"id": 3,
+		"value": " 2"
+	}]
+}
+
+{
+	"question": "\\\\(A=\\lbrace (x,y):y=sin x,x \\in \\R \rbrace \\\\), மற்றும்\\\\(A=\\lbrace (x,y):y=cos x,x \\in \\R \rbrace \\\\), எனில், \\\\(A \\cap B\\\\)- ல்",
+	"type": "CHOOSE_THE_BEST",
+	"choices": [{
+		"id": 4,
+		"value": " உறுப்புகளில்லை"
+	}, {
+		"id": 5,
+		"value": " எண்ணிலடங்கா உறுப்புகள் உள்ளன"
+	}, {
+		"id": 6,
+		"value": " ஓரே ஒரு உறுப்பு உள்ளது"
+	}, {
+		"id": 7,
+		"value": " தீர்மானிக்க இயலாது"
+	}]
+}
+
+{
+	"question": "\\\\(A = {0, -1, 1, 2}\\\\) எனும் கணத்தில் \\\\(|x^2 + y^2| \\leq 2 \\\\) எனுமாறு \\\\(xRy\\\\) ஆக வரையறுக்கப்பட்ட தொடர்பு R எனில், கீழ்க்கண்டவற்றில் எது சரியானது ?"
+	"type": "CHOOSE_THE_BEST",
+	"choices": [{
+		"id": 8,
+		"value": " \\(R = \\lbrace ( 0 , 0 ), ( 0 , – 1 ), ( 0 , 1 ), ( – 1 , 0 ), ( – 1 , 1 ), ( 1 , 2 ), ( 1 , 0 ) \\rbrace \\)"
+	}, {
+		"id": 9,
+		"value": " \\(R -1 = \\lbrace( 0 , 0 ), ( 0 , – 1 ), ( 0 , 1 ), ( – 1 , 0 ), ( 1 , 0 )\\rbrace \\)"
+	}, {
+		"id": 10,
+		"value": " \\(R - ன்  சார்பகம்  \\lbrace 0, -1, 1, 2 \\rbrace \\)"
+	}, {
+		"id": 11,
+		"value": " \\(R - ன்  வீச்சகம்  \\lbrace 0, -1, 1 \\rbrace \\)"
 	}]
 }
 
