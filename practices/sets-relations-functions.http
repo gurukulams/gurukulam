@@ -16,7 +16,7 @@ Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
 {
-	"question": " .\\\\(A=\\lbrace (x,y):Y=e^x,x \\in \\R \\rbrace \\\\) - மற்றும் \\\\(B=\\lbrace (x,y):Y=e^-x,x \\in \\R \\rbrace \\\\) எனில், \\\\(n(A \\cap B)\\\\) என்பது",
+	"question": " \\\\(A=\\lbrace (x,y):Y=e^x,x \\in \\R \\rbrace \\\\) - மற்றும் \\\\(B=\\lbrace (x,y):Y=e^-x,x \\in \\R \\rbrace \\\\) எனில், \\\\(n(A \\cap B)\\\\) என்பது",
 	"type": "CHOOSE_THE_BEST",
 	"choices": [{
 		"id": 0,
@@ -39,7 +39,7 @@ Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
 {
-	"question": "\\\\(A=\\lbrace (x,y):y=sin x,x \\in \\R \rbrace \\\\), மற்றும்\\\\(A=\\lbrace (x,y):y=cos x,x \\in \\R \rbrace \\\\), எனில், \\\\(A \\cap B\\\\)- ல்",
+	"question": "\\\\(A=\\lbrace (x,y):y=sin x,x \\in \\R \\rbrace \\\\), மற்றும்\\\\(A=\\lbrace (x,y):y=cos x,x \\in \\R \rbrace \\\\), எனில், \\\\(A \\cap B\\\\)- ல்",
 	"type": "CHOOSE_THE_BEST",
 	"choices": [{
 		"id": 4,
@@ -56,8 +56,13 @@ Content-Type: application/json
 	}]
 }
 
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
 {
-	"question": "\\\\(A = {0, -1, 1, 2}\\\\) எனும் கணத்தில் \\\\(|x^2 + y^2| \\leq 2 \\\\) எனுமாறு \\\\(xRy\\\\) ஆக வரையறுக்கப்பட்ட தொடர்பு R எனில், கீழ்க்கண்டவற்றில் எது சரியானது ?"
+	"question": "\\\\(A = {0, -1, 1, 2}\\\\) எனும் கணத்தில் \\\\(|x^2 + y^2| \\leq 2 \\\\) எனுமாறு \\\\(xRy\\\\) ஆக வரையறுக்கப்பட்ட தொடர்பு R எனில், கீழ்க்கண்டவற்றில் எது சரியானது ?",
 	"type": "CHOOSE_THE_BEST",
 	"choices": [{
 		"id": 8,
@@ -74,3 +79,469 @@ Content-Type: application/json
 	}]
 }
 
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\(A = {0, -1, 1, 2}\\\\) எனும் கணத்தில் \\\\(|x^2 + y^2| \\leq 2 \\\\) எனுமாறு \\\\(xRy\\\\) ஆக வரையறுக்கப்பட்ட தொடர்பு R எனில், கீழ்க்கண்டவற்றில் எது சரியானது ?",
+	"type": "CHOOSE_THE_BEST",
+	"choices": [{
+		"id": 8,
+		"value": " \\(R = \\lbrace ( 0 , 0 ), ( 0 , – 1 ), ( 0 , 1 ), ( – 1 , 0 ), ( – 1 , 1 ), ( 1 , 2 ), ( 1 , 0 ) \\rbrace \\)"
+	}, {
+		"id": 9,
+		"value": " \\(R -1 = \\lbrace( 0 , 0 ), ( 0 , – 1 ), ( 0 , 1 ), ( – 1 , 0 ), ( 1 , 0 )\\rbrace \\)"
+	}, {
+		"id": 10,
+		"value": " \\(R - ன்  சார்பகம்  \\lbrace 0, -1, 1, 2 \\rbrace \\)"
+	}, {
+		"id": 11,
+		"value": " \\(R - ன்  வீச்சகம்  \\lbrace 0, -1, 1 \\rbrace \\)"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "R மெய்யெண்களின் கணம் என்க. \\\\( \\R × \\R \\\\) –ல் கீழ்க்கண்ட உட்கணங்களைக் கருதுக. \\\\(S = \\lbrace (x , y): y = x + 1\\\\) மற்றும் \\\\(0 < x < 2 \\rbrace ; T = \\lbrace ( x , y ) : x – y \\in  \\Z \\\\) எனில் கீழ்க்காணும் கூற்றில் எது மெய்யானது?)",
+	"type": "CHOOSE_THE_BEST",
+	"choices": [{
+		"id": 12,
+		"value": " T சமானத் தொடர்பு ஆனால், S சமானத் தொடர்பு அல்ல."
+	}, {
+		"id": 13,
+		"value": " S , T இரண்டுமே சமானத் தொடர்பு அல்ல."
+	}, {
+		"id": 14,
+		"value": " S, T இரண்டுமே சமானத் தொடர்பு."
+	}, {
+		"id": 15,
+		"value": " S சமானத் தொடர்பு ஆனால், T சமானத் தொடர்பு அல்ல."
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "இயல் எண்களின் அனைத்துக்கணம்  \\\\( \\N \\\\) - க்கு  A மற்றும் B உட்கணங்கள் எனில் \\\\(A^{'} \\cup [(A \\cap B ) \\cup B^{'}] \\\\) என்பது",
+	"type": "CHOOSE_THE_BEST",
+	"choices": [{
+		"id": 16,
+		"value": " A"
+	}, {
+		"id": 17,
+		"value": " \\(A^{'}\\)"
+	}, {
+		"id": 18,
+		"value": " B"
+	}, {
+		"id": 19,
+		"value": " \\( \\N \\)"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "கணிதம் மற்றும் வேதியியல் இரண்டும் பாடங்களாக ஏற்ற மாணவர்களின் எண்ணிக்கை 70.இது கணிதத்தை ஏற்றவர்களின் 10% மற்றும் வேதியியல் ஏற்றவர்களின் 14% ஆகும்.இவற்றில் ஏதாவதொன்றைப் பாடமாக ஏற்ற மாணவர்களின் எண்ணிக்கை",
+	"type": "CHOOSE_THE_BEST",
+	"choices": [{
+		"id": 20,
+		"value": " 1120"
+	}, {
+		"id": 21,
+		"value": " 1130"
+	}, {
+		"id": 22,
+		"value": " 1100"
+	}, {
+		"id": 23,
+		"value": " போதுமான தகவல் இல்லை."
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\( n[ (A \times B) \\cap (A \times C) ) ] = 8  மற்றும்   n (B \\cap C) = 2  எனில், \\ n(A)\\\\) என்பது",
+	"type": "CHOOSE_THE_BEST",
+	"choices": [{
+		"id": 24,
+		"value": " 6"
+	}, {
+		"id": 25,
+		"value": " 4"
+	}, {
+		"id": 26,
+		"value": " 8"
+	}, {
+		"id": 27,
+		"value": " 16"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\( n(A)= 2 \\ மற்றும் \\ n(B \\cup C = 3 , எனில் n [( A \times B ) \\cup ( A \times C )]\\\\) என்பது",
+	"choices": [{
+		"id": 28,
+		"value": " \\(1^3\\)"
+	}, {
+		"id": 29,
+		"value": " \\(3^2\\)"
+	}, {
+		"id": 30,
+		"value": " 6"
+	}, {
+		"id": 31,
+		"value": " 5"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "A மற்றும் B எனும் இரு கணங்களில் 17 உறுப்புகள் பொதுவானவை எனில், \\\\(A \\times B \\\\) மற்றும் \\\\(B \\times A \\\\) ஆகிய கணங்களில் உள்ள பொது உறுப்புகளின் எண்ணிக்கை",
+	"choices": [{
+		"id": 32,
+		"value": " \\(2^{17}\\)"
+	}, {
+		"id": 33,
+		"value": " \\(17^2\\)"
+	}, {
+		"id": 34,
+		"value": " 34"
+	}, {
+		"id": 35,
+		"value": " போதுமான தகவல் இல்லை"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "வெற்றற்ற கணங்கள் A மற்றும் B என்க. \\\\(A \\subset B \\\\) எனில் \\\\( (A \\times B) \\cap (B \\times A) =\\\\)",
+	"choices": [{
+		"id": 36,
+		"value": " \\(A \\cap B\\)"
+	}, {
+		"id": 37,
+		"value": " \\(A \times A\\)"
+	}, {
+		"id": 38,
+		"value": " \\(B \times B\\)"
+	}, {
+		"id": 39,
+		"value": " இவற்றுள் எதுவும் இல்லை"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "3 உறுப்புகள் கொண்ட கணத்தின் மீதான தொடர்புகளின் எண்ணிக்கை",
+	"choices": [{
+		"id": 40,
+		"value": " 9"
+	}, {
+		"id": 41,
+		"value": " 81"
+	}, {
+		"id": 42,
+		"value": " 512"
+	}, {
+		"id": 43,
+		"value": " 1024"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "ஒன்றுக்கு மேற்பட்ட உறுப்புகளைக் கொண்ட கணம் X - ன் மீதான அனைத்துத்தொடர்பு R எனில் R என்பது",
+	"choices": [{
+		"id": 44,
+		"value": " தற்சுட்டுத் தொடர்பு அல்ல"
+	}, {
+		"id": 45,
+		"value": " சமச்சீர் தொடர்பல்ல"
+	}, {
+		"id": 46,
+		"value": " கடப்புத் தொடர்பு"
+	}, {
+		"id": 47,
+		"value": " இவற்றுள் எதுவுமன்று"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\(X = \\lbrace 1, 2, 3, 4 \\rbrace\\\\) மற்றும் \\\\( R= \\lbrace (1,1),(1,2),(1,3),(2,2),(3,3),(2,1),(3,1),(1,4),(4,1) \\rbrace \\\\) எனில் R என்பது",
+	"choices": [{
+		"id": 48,
+		"value": " தற்சுட்டுத் தொடர்பு"
+	}, {
+		"id": 49,
+		"value": " சமச்சீர் தொடர்பு"
+	}, {
+		"id": 50,
+		"value": " கடப்புத் தொடர்பு"
+	}, {
+		"id": 51,
+		"value": " சமானத் தொடர்பு"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\( \\dfrac {1} {1- 2 sinx} \\\\) என்ற சார்பின் வீச்சகம்",
+	"choices": [{
+		"id": 52,
+		"value": " \\((- \\infty ,-1)\\cup ( \\dfrac {1}{3},\\infty)\\)"
+	}, {
+		"id": 53,
+		"value": " \\(\\big(-1, \\dfrac {1}{3}\\big)\\)"
+	}, {
+		"id": 54,
+		"value": " \\( \\big[ - 1 , \\dfrac {1}{3} \\big] \\)"
+	}, {
+		"id": 55,
+		"value": " \\( (- \\infty , - 1),\\cup \\big[ \\dfrac{1}{3},\\infty) \\)"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\( f (x) = | [ x ]-x | ,x \\in \\R\\\\) என்ற சார்பின் வீச்சகம்",
+	"choices": [{
+		"id": 56,
+		"value": " [0, 1]"
+	}, {
+		"id": 57,
+		"value": " \\([0, \\infty )\\)"
+	}, {
+		"id": 58,
+		"value": " [0, 1)"
+	}, {
+		"id": 59,
+		"value": " (0, 1)"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\(f(x) = x^2\\\\) என்ற சார்பு இருபுறச் சார்பாக அமைய வேண்டுமெனில் அதன் சார்பகமும்,துணைச்சார்பகமும் முறையே",
+	"choices": [{
+		"id": 60,
+		"value": " \\(\\R,\\R\\)"
+	}, {
+		"id": 61,
+		"value": " \\(\\R,(0,-\\infty)\\)"
+	}, {
+		"id": 62,
+		"value": " \\((0, -\\infty ),\\R\\)"
+	}, {
+		"id": 63,
+		"value": " \\([0, \\infty), [0, \\infty)\\)"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "m உறுப்புகள் கொண்ட ஒரு கணத்திலிருந்து n உறுப்புகள்  கொண்ட ஒரு கணத்திற்கு வரையறுக்கப்படும் மாறிலிச் சார்புகளின் எண்ணிக்கை",
+	"choices": [{
+		"id": 64,
+		"value": " mn"
+	}, {
+		"id": 65,
+		"value": " m"
+	}, {
+		"id": 66,
+		"value": " n"
+	}, {
+		"id": 67,
+		"value": " m+n"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\( f:[ 0 , 2 \\pi ] \\rightarrow  [ – 1 , 1 ] \\\\)என்ற சார்பு, \\\\(f(x)= sin x\\\\) என வரையறுக்கப்படுகிறது எனில், அது",
+	"choices": [{
+		"id": 68,
+		"value": " ஒன்றுக்கொன்று "
+	}, {
+		"id": 69,
+		"value": " மேற்கோர்த்தல்"
+	}, {
+		"id": 70,
+		"value": " இருபுறச் சார்பு"
+	}, {
+		"id": 71,
+		"value": " வரையறுக்க இயலாது"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\(f : [ – 3 , 3 ] \\rightarrow \\ S \\ என்ற \\ சார்பு \\ f(x) = x^2\\\\) என வறையறுக்கப்பட்டு மேற்கோர்த்தல் எனில், S என்பது",
+	"choices": [{
+		"id": 72,
+		"value": " [-9, 9] "
+	}, {
+		"id": 73,
+		"value": " \\(\\R\\)"
+	}, {
+		"id": 74,
+		"value": " [-3, 3]"
+	}, {
+		"id": 75,
+		"value": " [0, 9]"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\(X = \\lbrace 1 , 2 , 3 , 4 \\rbrace , Y = \\lbrace a, b , c , d \\rbrace , \\ மற்றும் \\  f=\\lbrace (1,a),(4,b),(2,c),(3,d),(2,d)\\rbrace\\\\)  எனில் f என்பது",
+	"choices": [{
+		"id": 76,
+		"value": " ஒன்றுக்கொன்றானச் சார்பு "
+	}, {
+		"id": 77,
+		"value": " மேற்கோர்த்தல் சார்பு"
+	}, {
+		"id": 78,
+		"value": " ஒன்றுக்கொன்று அல்லாத சார்பு"
+	}, {
+		"id": 79,
+		"value": " சார்பன்று"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\(f : \\R \\rightarrow \\R \\\\)–ல் சார்பு \\\\(f(x) = 1 – |x|\\\\) என வரையறுக்கப்படுகிறது எனில் \\\\(f\\\\) - ன் வீச்சகம்",
+	"choices": [{
+		"id": 80,
+		"value": " \\(\\R\\) "
+	}, {
+		"id": 81,
+		"value": " \\((1, \\infty )\\)"
+	}, {
+		"id": 82,
+		"value": " \\((-1, \\infty )\\)"
+	}, {
+		"id": 83,
+		"value": " \\((- \\infty , 1]\\)"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\(f : \\R \\rightarrow \\R \\\\)- ல்  \\\\(f(x) =sin x + cos x\\\\)எனில் f ஆனது",
+	"choices": [{
+		"id": 84,
+		"value": " ஒரு ஒற்றைப்படைச் சார்பு "
+	}, {
+		"id": 85,
+		"value": " ஒற்றைப்படையுமல்ல இரட்டைப்படையுமல்ல"
+	}, {
+		"id": 86,
+		"value": " ஒரு இரட்டைப்படைச் சார்பு)"
+	}, {
+		"id": 87,
+		"value": " ஒற்றைப்படை மற்றும் இரட்டைப்படைச் சார்பு"
+	}]
+}
+
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "\\\\(f : \\R \\rightarrow \\R \\\\)- ல்  \\\\(f(x) =\\dfrac{(x^2+cos \\ x)(1+x^4)}{(x-sin \\ x)(2x-x^3)} + e^{-|x|}\\\\)எனில் f",
+	"choices": [{
+		"id": 88,
+		"value": " ஒரு ஒற்றைப்படைச் சார்பு "
+	}, {
+		"id": 89,
+		"value": " ஒற்றைப்படையுமல்ல இரட்டைப்படையுமல்ல"
+	}, {
+		"id": 90,
+		"value": " ஒரு இரட்டைப்படைச் சார்பு)"
+	}, {
+		"id": 91,
+		"value": " ஒற்றைப்படை மற்றும் இரட்டைப்படைச் சார்பு"
+	}]
+}
