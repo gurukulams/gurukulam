@@ -478,10 +478,24 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 
 எனவே,\\( \ \ \ \ tan 2 A = \dfrac{2 tan A}{1 - tan^2 A} \\)
 
-**முற்றொருமை 3.9 :** \\( sin 2A = \dfrac{2 tan A}{1 + tan^2 A}  \\)
+**முற்றொருமை 3.10 :** \\( sin 2A = \dfrac{2 tan A}{1 + tan^2 A}  \\)
 
 **நிரூபணம்**
 
 \\( \ \ \ \ sin 2 A = 2 sin A cos A \\) என நமக்குத் தெரியும்
 
-\\( \ \ \ \ = \dfrac {}
+\\( \ \ \ \ = \dfrac {2 sin A cos A} {sin^2 A + cos^2 A}  \\)
+
+\\( \ \ \ \ = \dfrac { \dfrac {2 sin A cos A} {cos^2 A}   }    { \dfrac {sin^2A cos^2 A } {cos^2 A}  } =\dfrac {2 tan A} {1 + tan^2 A}\\)
+
+**முற்றொருமை 3.11 :** \\( cos 2 A = \dfrac{1 - tan^2 A}{1 + tan^2 A}  \\)
+
+**நிரூபணம்**
+
+\\( \ \ \ \ cos 2 A= cos^2 A - sin^2 A \\) என நமக்குத் தெரியும்
+
+\\( \ \ \ \ =dfrac{cos^2 A - sin^2 A} {cos^2 A + sin^2 A} \\)
+
+\\( \ \ \ \ = \dfrac{ \dfrac{cos^2 A - sin^2 A} {cos^2 A} } { \dfrac{cos^2 A + sin^2 A} {cos^2 A}  } \\)
+
+எனவே, \\( cos 2 A = \dfrac{1 - tan^2 A}{1 + tan^2 A}  \\)
