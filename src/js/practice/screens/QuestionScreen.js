@@ -627,9 +627,8 @@ class QuestionScreen {
                   </button>
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
                     <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
-                    <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multichoice</a></li>
-                    <li data-type="SINGLE_LINE"><a class="dropdown-item" href="javascript://">Singleline</a></li>
-                    <li data-type="MULTI_LINE"><a class="dropdown-item" href="javascript://">Multiline</a></li>
+                    <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multi-choice</a></li>
+                
                     
                   </ul>
                   <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 

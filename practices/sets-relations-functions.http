@@ -1,0 +1,35 @@
+@base = https://localhost:3000/api 
+#### Login
+# @name login 
+POST {{base}}/auth/login
+Content-Type: application/json
+
+{
+    "userName": "tom",
+    "password": "password"
+}
+
+#### Create Questions
+# @name practice
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+	"question": "R மெய்யெண்களின் கணம் என்க. \\\\( \\R × \\R \\\\) –ல் கீழ்க்கண்ட உட்கணங்களைக் கருதுக.\\\\(S = \\lbrace (x , y): y = x + 1\\\\) மற்றும் \\\\(0 < x < 2 \\rbrace ; T = \\lbrace ( x , y ) : x – y \\in  \\Z\\\\)\n T சமானத் தொடர்பு ஆனால், S சமானத் தொடர்பு அல்ல.\n \n",
+	"type": "CHOOSE_THE_BEST",
+	"choices": [{
+		"id": 13,
+		"value": " T சமானத் தொடர்பு ஆனால், S சமானத் தொடர்பு அல்ல."
+	}, {
+		"id": 14,
+		"value": " S , T இரண்டுமே சமானத் தொடர்பு அல்ல."
+	}, {
+		"id": 15,
+		"value": " S, T இரண்டுமே சமானத் தொடர்பு."
+	}, {
+		"id": 16,
+		"value": " S சமானத் தொடர்பு ஆனால், T சமானத் தொடர்பு அல்ல."
+	}]
+}
+
