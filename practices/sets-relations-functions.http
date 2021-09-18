@@ -33,6 +33,11 @@ Content-Type: application/json
 	}]
 }
 
+#### Create Questions
+POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
 {
 	"question": "\\\\(A=\\lbrace (x,y):y=sin x,x \\in \\R \rbrace \\\\), மற்றும்\\\\(A=\\lbrace (x,y):y=cos x,x \\in \\R \rbrace \\\\), எனில், \\\\(A \\cap B\\\\)- ல்",
 	"type": "CHOOSE_THE_BEST",
