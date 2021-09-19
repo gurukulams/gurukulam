@@ -1,4 +1,5 @@
 @base = https://localhost:3000/api 
+
 #### Login
 # @name login 
 POST {{base}}/auth/login
@@ -9,13 +10,13 @@ Content-Type: application/json
     "password": "password"
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
 {
-	"question": " \\\\(A=\\lbrace (x,y):Y=e^x,x \\in \\R \\rbrace \\\\) - மற்றும் \\\\(B=\\lbrace (x,y):Y=e^-x,x \\in \\R \\rbrace \\\\) எனில், \\\\(n(A \\cap B)\\\\) என்பது",
+	"question": "\\\\(A=\\lbrace (x,y):Y=e^x,x \\in \\R \\rbrace \\\\) - மற்றும் \\\\(B=\\lbrace (x,y):Y=e^-x,x \\in \\R \\rbrace \\\\) எனில், \\\\(n(A \\cap B)\\\\) என்பது",
 	"type": "CHOOSE_THE_BEST",
 	"choices": [{
 		"value": "\\( \\infty \\)"
@@ -29,7 +30,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -49,7 +50,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -69,7 +70,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -89,7 +90,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -109,7 +110,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -129,7 +130,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -149,7 +150,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -169,7 +170,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -188,7 +189,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -207,7 +208,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -226,7 +227,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -245,7 +246,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -264,7 +265,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -283,7 +284,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -302,7 +303,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -321,7 +322,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -340,7 +341,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -359,7 +360,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -378,7 +379,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -397,7 +398,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -416,7 +417,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -435,7 +436,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
@@ -454,7 +455,7 @@ Content-Type: application/json
 	}]
 }
 
-#### Create Questions
+#### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json

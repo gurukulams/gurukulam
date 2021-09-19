@@ -425,6 +425,18 @@ class QuestionScreen {
     };
 
     const submitFn = () => {
+      this.parent
+        .querySelectorAll(".pagination>.page-item>.page-link")
+        .forEach((el) => {
+          el.parentElement.classList.remove("active");
+          el.classList.remove("border-2");
+          el.classList.remove("border-success");
+          el.classList.remove("border-danger");
+          el.classList.remove("text-danger");
+          el.classList.remove("text-decoration-line-through");
+          el.classList.remove("fw-bolder");
+        });
+
       this.questions.forEach((question, index) => {
         if (question.answer) {
           const answer = Array.isArray(question.answer)
@@ -457,12 +469,26 @@ class QuestionScreen {
               if (response.ok) {
                 paginationElement.children[
                   index + 1
-                ].firstElementChild.classList.add("bg-success");
+                ].firstElementChild.classList.add("border-success");
               } else if (response.status === 406) {
                 paginationElement.children[
                   index + 1
-                ].firstElementChild.classList.add("bg-danger");
+                ].firstElementChild.classList.add("border-danger");
+                paginationElement.children[
+                  index + 1
+                ].firstElementChild.classList.add("text-danger");
+                paginationElement.children[
+                  index + 1
+                ].firstElementChild.classList.add(
+                  "text-decoration-line-through"
+                );
+                paginationElement.children[
+                  index + 1
+                ].firstElementChild.classList.add("fw-bolder");
               }
+              paginationElement.children[
+                index + 1
+              ].firstElementChild.classList.add("border-2");
             })
             .catch(function (error) {
               console.log(error);
