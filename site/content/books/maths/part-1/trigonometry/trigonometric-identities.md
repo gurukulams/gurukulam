@@ -678,3 +678,28 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 \\( sin x = 2^10 sin \dfrac{x}{2^10} cos \dfrac{x}{2} cos \dfrac{x}{2^2} ...cos \dfrac{x}{2^10}\\)
 
 {{< /box >}}
+
+**குறிப்பு:** மேலே உள்ள முடிவானது எந்த முடிவுறு எண்ணிக்கைக்கும் நீட்டிக்க முடியும்.
+
+{{< box title="எடுத்துக்காட்டு  3.26" type="objective" >}} 
+
+நிறுவுக.\\( \dfrac {sin \theta + sin 2 \theta }{1 + cos \theta + cos 2 \theta}  = tan \theta\\)
+
+**தீர்வு:**
+
+\\( \dfrac {sin \theta + sin 2 \theta }{1 + cos \theta + cos 2 \theta}  =  \dfrac {sin \theta + 2 sin  \theta cos \theta }{cos \theta (1 + cos 2 \theta } = \dfrac{ sin \theta ( 1 + 2 cos \theta) }{cos \theta ( 1 + 2 cos \theta) }  = tan \theta \\)
+
+{{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு  3.27" type="objective" >}} 
+
+நிறுவுக.\\( 1 - \dfrac {1}{2} sin 2x = \dfrac{sin^3 x + cos^3 x}{sin x + cos x}  \\)
+
+**தீர்வு:**
+
+\\(  \dfrac{sin^3 x + cos^3 x}{sin x + cos x}  = \dfrac{ (sinx + cosx)(sin^2 x - sin x cos x + cos^2 x) }{sin x + cos x}  \\)
+
+\\( = 1 - sin x cos x = 1 - \dfrac {1}{2} sin 2 x\\)
+
+{{< /box >}}
+
