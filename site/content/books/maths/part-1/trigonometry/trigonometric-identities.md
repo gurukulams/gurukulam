@@ -642,3 +642,39 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 
 
 {{< /box >}}
+
+**குறிப்பு:** முக்கோணத்தை வடிவமைக்காமல் நாம் \\( cos \theta = \pm \sqrt {1 - sin^2 \theta} \\) எனும்
+கொசைன் சூத்திரத்தை பயன்படுத்தி cos θ மதிப்பைக் காணலாம்.
+
+
+
+{{< box title="எடுத்துக்காட்டு  3.24" type="objective" >}} 
+
+நிறுவுக. \\( sin 4 A = 4 sin A cos^3 A - 4 cos A sin^3 A\\)
+
+**தீர்வு:**
+
+\\( 4 sin A cos^3 A - 4 cos A sin^3 A = 4 sin A cos A ( cos^2 A - sin ^2 A ) \\)
+
+\\( \ \ \ = 4 sin A cos A cos 2 A = 2 ( 2 sin A cos A ) cos 2 A \\)
+
+\\( = 2 ( sin 2 A ) cos 2 A = sin 4 A \\)
+
+{{< /box >}}
+
+
+{{< box title="எடுத்துக்காட்டு  3.25" type="objective" >}} 
+
+நிறுவுக. \\( sin x = 2^10 sin \big(  \dfrac{x}{2^10} \big) cos \big(  \dfrac{x}{2} \big) cos \big(  \dfrac{x}{2^2 } \big) ... cos \big(  \dfrac{x}{2^10} \big) \\)
+
+**தீர்வு:**
+
+\\( sin x = 2 sin \dfrac{x}{2} cos \dfrac{x}{2} = 2 \times 2 \times sin \dfrac{x}{2^2 } cos \dfrac{x}{2^2 } \dfrac{x}{2}\\)
+
+\\( \ \ \ =  2^2 sim \dfrac {x}{2^2} cos \dfrac{x}{2} \dfrac{x}{2^2 }\\)  
+
+அரைக்கோண sine சூத்திரத்தை மீண்டும் மீண்டும் பயன்படுத்தினால் நமக்குக் கிடைப்பது,
+
+\\( sin x = 2^10 sin \dfrac{x}{2^10} cos \dfrac{x}{2} cos \dfrac{x}{2^2} ...cos \dfrac{x}{2^10}\\)
+
+{{< /box >}}
