@@ -789,3 +789,23 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 \\( = \bigg[ \dfrac{ sin 60° cos 20° - cos 60° sin 20°} {sin 40°} \bigg] = 4 \\)
 
 {{< /box >}}
+
+{{< box title="எடுத்துக்காட்டு  3.32" type="objective" >}} 
+
+நிறுவுக. \\( cos A cos 2 A cos 2^2 A cos 2^3 A ... cos 2^{n - 1} A =  \dfrac{sin 2^n A}{2^n sin A} \\)இன் மதிப்பைக் காண்க.
+
+**தீர்வு:**
+
+இடப்பக்கம் \\( = cos A cos 2 A cos 2^2 A cos 2^3 A ... cos 2^{n - 1} A \\)
+
+\\( = \dfrac{1}{2 sin A} 2 sin A cos A cos 2 A cos 2^2 A cos 2^3 A g cos 2^{n - 1} A \\)
+
+\\( = \dfrac{1}{2 sin A} sin 2 A cos 2^2 A cos 2^3 A ... cos 2^{n - 1 } A \\)
+
+\\( = \dfrac{1}{2^2 sin A} sin 4 A cos 2^2 A cos 2^3 A ... cos 2^{n - 1 } A \\)
+
+இவ்வாறு, தொடர்ந்து செய்தால் நமக்குக் கிடைப்பது,
+
+\\( = \dfrac{sin 2^n A}{2^n sin A}\\)
+
+{{< /box >}}
