@@ -768,4 +768,14 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 
 {{< box title="எடுத்துக்காட்டு  3.30" type="objective" >}} 
 
+\\( tan \dfrac{ \theta }{2} =  \sqrt { \dfrac{1-a}{1+a} } tan \dfrac{ \phi}{2} \ எனில் \ cos \phi = \dfrac{cos \theta - a}{1 - a cos \theta } \\) என நிறுவுக.
+
+**தீர்வு:**
+
+அரைக்கோண முற்றொருமைகளின்படி நமக்குக் கிடைப்பது
+
+\\( cos \phi = \dfrac{ 1 - tan^2 \dfrac{ \phi }{2} }{ 1 + tan^2 \dfrac{ \phi }{2} } =  \dfrac{ 1- \bigg( \dfrac{1 + a}{ 1- a} \bigg) tan^2 \dfrac{ \theta }{2} } { 1+ \bigg( \dfrac{1 + a}{ 1- a} \bigg) tan^2 \dfrac{ \theta }{2}}  =  \dfrac{ \bigg(  \dfrac{1- tan^2 \dfrac{ \theta }{2} } {1+ tan^2 \dfrac{ \theta }{2}}  \bigg) - a }{ 1 - a \bigg(  \dfrac{1- tan^2 \dfrac{ \theta }{2} } {1+ tan^2 \dfrac{ \theta }{2}}  \bigg)}  = \dfrac{cos \theta - a}{ 1 - a cos \theta } \\)
+
+
+
 {{< /box >}}
