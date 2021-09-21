@@ -723,3 +723,49 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 
 {{< /box >}}
  
+ {{< box title="எடுத்துக்காட்டு  3.29" type="objective" >}} 
+
+\\( (i) sin 18° \ (ii) cos 18° \ (iii) sin 72° \ (iv) cos 36° \ (v) sin 54° \\)
+
+**தீர்வு:**
+
+(i) \\( \ \ \ \theta = 18° \\) என்க.
+
+இவ்வாறாக, \\( \ \ 5 \theta = 90° \\)
+
+\\( \ \ 3 \theta + 2 \theta = 90° \Rightarrow 2 \theta = 90° - 3 \theta \\)
+
+\\( \ \ sin 2 \theta = sin ( 90° - 3 \theta ) = cos 3 \theta  \\)
+
+\\( \ \ 2 sin \theta cos \theta = 4 cos^3 \theta - 3 cos \theta  \\)
+
+\\( \ \ cos \theta = cos 18° \ne 0 \\) ஆதலால் நமக்கு கிடைப்பது  
+
+\\( \ \  2 sin \theta = 4 cos^2 \theta - 3 = 4 ( 1 - sin^2 \theta ) - 3 \\)
+
+\\( 4 sin^2 \theta + 2 sin \theta - 1 = 0  \\)
+
+
+எனவே, \\(  sin 18° =  \\) (மிகைக் குறி எடுக்கப்பட்டுள்ளது. ஏன்?)
+
+(ii) \\(  \ \ cos 18° = \sqrt {1 - sin^2 18° } \\)
+
+\\( \ \ = \sqrt { 1- \bigg[ \dfrac{ \sqrt 5   - 1}{4} \bigg] ^2 } = \dfrac{1}{4} \sqrt { 16 - ( 5 + 1 - 2 \sqrt {5} ) } \\)s
+
+\\( \ \ = \dfrac{1}{4} \sqrt { 10 + 2 \sqrt {5} } \\)
+
+(iii) \\( sin 72° = sin (90° - 18° ) = cos 18° \\)
+
+\\( \ \  = \dfrac{1}{2} \sqrt{10 + 2 \sqrt{5} } \\)
+
+(iv) \\( cos 36° = 1 -2 sin ^2 18° = 1 -2  \bigg[ \dfrac{ \sqrt {5} -1 }{4} \bigg]^2 = \dfrac{ \sqrt {5} + 1}{4} \\)
+
+(iv) \\( sin 54° = sin ( 90° - 36° ) = cos 36° = \dfrac{ \sqrt {5} + 1}{4} \\)
+
+{{< /box >}}
+
+**குறிப்பு:** sin 18° = cos 72° , cos 18° = sin 72° மற்றும்  cos 36° = sin 54° என கவனிக்கவும்.
+
+{{< box title="எடுத்துக்காட்டு  3.30" type="objective" >}} 
+
+{{< /box >}}
