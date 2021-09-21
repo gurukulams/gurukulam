@@ -776,6 +776,16 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 
 \\( cos \phi = \dfrac{ 1 - tan^2 \dfrac{ \phi }{2} }{ 1 + tan^2 \dfrac{ \phi }{2} } =  \dfrac{ 1- \bigg( \dfrac{1 + a}{ 1- a} \bigg) tan^2 \dfrac{ \theta }{2} } { 1+ \bigg( \dfrac{1 + a}{ 1- a} \bigg) tan^2 \dfrac{ \theta }{2}}  =  \dfrac{ \bigg(  \dfrac{1- tan^2 \dfrac{ \theta }{2} } {1+ tan^2 \dfrac{ \theta }{2}}  \bigg) - a }{ 1 - a \bigg(  \dfrac{1- tan^2 \dfrac{ \theta }{2} } {1+ tan^2 \dfrac{ \theta }{2}}  \bigg)}  = \dfrac{cos \theta - a}{ 1 - a cos \theta } \\)
 
+{{< /box >}}
 
+{{< box title="எடுத்துக்காட்டு  3.31" type="objective" >}} 
+
+\\( \sqrt {3}  cosec 20° - sec 20° \\)இன் மதிப்பைக் காண்க.
+
+**தீர்வு:**
+
+\\( \sqrt {3}  cosec 20° - sec 20° =  \dfrac{ \sqrt {3} } { sin 20°}  -  \dfrac{ 1} { cos 20°} = 4 \bigg[ \dfrac{ \dfrac{ \sqrt 3}{  sin 20°}cosec 20° - \dfrac{1}{2} sin 20° } {2 sin 20° \ cos 20°} \bigg] \\)
+
+\\( = \bigg[ \dfrac{ sin 60° cos 20° - cos 60° sin 20°} {sin 40°} \bigg] = 4 \\)
 
 {{< /box >}}
