@@ -1,5 +1,5 @@
 ---
-title: 'Transport in Plants'
+title: 'தாவரங்களில் கடத்து முறைகள்'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 11
