@@ -851,3 +851,33 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 16.\\( x cos \theta = y cos \bigg( \theta + \dfrac{2 \pi}{3} \bigg) = z cos  \bigg( \theta + \dfrac{4 \pi}{3} \bigg) \\) எனில் \\(xy + yz + zx \\)இன் மதிப்பைக் காண்க.
 
 17.நிறுவுக \\( (i) sin ( A + B ) sin ( A - B ) = sin^2 A - sin^2 B \\)
+
+\\( \ (ii) cos ( A + B ) cos ( A - B ) = cos^2 A - sin^2 B = cos^2 B - sin^2 A\\)
+
+\\( \ (iii) sin^2 ( A + B ) - sin^2 ( A - B ) = sin^2 A sin^2 B\\)
+
+\\( \ (iv) cos 8 \theta cos 2 \theta = cos^2 5 \theta - sin^2 3 \theta \\)
+
+18.\\( cos^2 A + cos^2 B - 2 cos A cos B cos ( A + B ) = sin^2 ( A + B ) \\)எனக் காண்பி.
+
+19.\\(( \alpha - \beta ) +  cos ( \beta - \gamma ) + cos( \gamma - \alpha)  = - \dfrac{3}{2} \\)எனில்
+
+\\( cos \alpha + cos \beta + cos \gamma = sin \alpha+ sin \beta + sin \gamma = 0 \\)எனக் காண்பி.
+
+20.\\( (i) tan ( 45° + A ) = \dfrac{1 + tan A}{1 - tan A} \ \ (ii) tan ( 45° - A ) = \dfrac{1 + tan A}{1 - tan A} \\)எனக் காண்பி.
+
+21.நிறுவுக. \\(cot ( A + B ) = \dfrac{cot A cot B - 1}{cot A + cot B} \\)
+
+22.\\( tan x = \dfrac{n}{ n + 1} \ மற்றும் \ tan y =  \dfrac{n}{2 n + 1} \ எனில், \ tan ( x + y ) \\)ஐக் காண்க.
+
+23.நிறுவுக. \\(tan \bigg( \dfrac{ \pi }{4} + \theta \bigg) tan \bigg( \dfrac{ 3 \pi }{4} + \theta \bigg) = -1 \\)
+
+24.\\(cot \alpha  = \dfrac{1}{2} , \alpha \in \bigg( \pi , \dfrac{3 \pi }{2} \bigg) \  மற்றும் \ sec \beta = - \dfrac{5}{3}, \beta \in \bigg( \pi , \dfrac{ \pi }{2} \bigg) \ எனில் \ tan ( \alpha + \beta )\\) -இன் மதிப்பைக் காண்க.
+
+25.\\( \theta + \phi = \alpha \ மற்றும் \ tan \theta = k tan \phi \ எனில் \ , sin ( \theta - \phi ) = \dfrac{k -1}{k + 1} sin \alpha \\) என நிறுவுக.
+
+
+
+
+
+
