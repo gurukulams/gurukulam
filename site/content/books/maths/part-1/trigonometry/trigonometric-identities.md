@@ -837,3 +837,17 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 \\( \ \ (ii) sin ( 30° + \theta ) + cos \theta 60 c + \theta ) = cos \theta\\)
 
 10.\\( a cos ( x + y ) = b cos ( x - y ) \ எனில் \ ( a + b ) tan x = ( a - b ) cot y \\) எனக் காண்பி.
+
+11.நிறுவுக. \\(sin 105° + cos 105° = cos 45° \\)
+
+12.நிறுவுக. \\( sin 75° – sin 15° = cos 105° + cos 15°\\)
+
+13.நிறுவுக. \\( tan 75° + cot 75° = 4\\)
+
+14.நிறுவுக. \\(cos ( A + B ) cos C - cos ( B + C ) cos A = sin B sin ( C - A )\\)
+
+15.நிறுவுக. \\(sin ( n + 1 ) \theta sin ( n - 1 ) \theta + cos ( n + 1 ) \theta cos ( n - 1 ) \theta = cos 2 \theta , n \in \Z\\) .
+
+16.\\( x cos \theta = y cos \bigg( \theta + \dfrac{2 \pi}{3} \bigg) = z cos  \bigg( \theta + \dfrac{4 \pi}{3} \bigg) \\) எனில் \\(xy + yz + zx \\)இன் மதிப்பைக் காண்க.
+
+17.நிறுவுக \\( (i) sin ( A + B ) sin ( A - B ) = sin^2 A - sin^2 B \\)
