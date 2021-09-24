@@ -746,7 +746,7 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 \\( 4 sin^2 \theta + 2 sin \theta - 1 = 0  \\)
 
 
-எனவே, \\(  sin 18° =  \\) (மிகைக் குறி எடுக்கப்பட்டுள்ளது. ஏன்?)
+எனவே, \\(  sin 18° =  \\) ( மிகைக்  குறி எடுக்கப்பட்டுள்ளது. ஏன்?)
 
 (ii) \\(  \ \ cos 18° = \sqrt {1 - sin^2 18° } \\)
 
@@ -811,3 +811,29 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 {{< /box >}}
 
 **பயிற்சி 3.4**
+
+1.\\(0 < x < \dfrac{ \pi}{2} , 0 < y < \dfrac{ \pi}{2} , sin x = \dfrac{15}{17} \ மற்றும் \ cos y = \dfrac{12}{13}\\), எனில்
+
+\\( (i) sin ( x + y )  \ \ (ii) cos ( x - y ) \ \ (iii) tan ( x + y ) \\)ஆகியவற்றின் மதிப்புகளைக் காண்க. 
+
+2.\\(0 < A < \dfrac{ \pi}{2} , 0 < B < \dfrac{ \pi}{2} , sin A = \dfrac{3}{5} \ மற்றும் \ cos B = \dfrac{9}{41}\\)
+
+\\( (i) sin ( A + B )  \ \ (ii) cos ( A - B )\\) ஆகியவற்றின் மதிப்புகளைக் காண்க.
+
+3.\\( cos x = - \dfrac{4}{5}, \pi < x < \dfrac{3 \pi}{2} \ மற்றும் \ sin y = - \dfrac{25}{25} , \pi < y <  \dfrac{3 \pi}{2} \ எனில் \ cos ( x - y ) \\) இன் மதிப்பைக் காண்க.
+
+4.\\(sin x = \dfrac{8}{17} \ , 0 < x < \dfrac{ \pi}{2} \ மற்றும் \ cos y = - \dfrac{24}{25}, \pi < y < \dfrac{3 \pi}{2}  \  எனில் \ sin ( x - y ) \\)இன் மதிப்பைக் காண்க.
+
+5.\\((i)cos 105° \ \ \ (ii)sin 105° \ \ (iii)tan \dfrac{ 7 \pi}{2}  \\) ஆகியவற்றின் மதிப்புகளைக் காண்க.
+
+6.நிறுவுக: \\( (i) cos ( 30° + x ) = \dfrac{ \sqrt{3} cos x - sin x}{2} \ (ii) cos ( \pi + \theta ) = - cos \theta \ (iii) sin ( \pi + \theta ) = - sin \theta \\)
+
+7.\\( sin 15° \ மற்றும் \ cos 15°\\) ஆகியவற்றை மூலங்களாகக் கொண்ட இருபடிச் சமன்பாட்டைக் காண்க.
+
+8.\\(cos ( A + B + C ) \\)ஐ விரிவாக்கு. இங்கு \\(A + B + C = \dfrac{ \pi}{2} \ எனில், \ cos A cos B cos C = sin A sin B cos C + sin B sin C cos A + sin C sin A cos B \\)என நிறுவுக.
+
+9.நிறுவுக \\( (i) sin ( 45° + \theta ) - sin ( 45° - \theta ) = \sqrt {2} sin \theta\\)
+
+\\( \ \ (ii) sin ( 30° + \theta ) + cos \theta 60 c + \theta ) = cos \theta\\)
+
+10.\\( a cos ( x + y ) = b cos ( x - y ) \ எனில் \ ( a + b ) tan x = ( a - b ) cot y \\) எனக் காண்பி.
