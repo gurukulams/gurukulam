@@ -815,3 +815,40 @@ A என்பது ஒரு கோணம் எனில், பிறகு 
 1.A முதல் காற்பகுதியில் இருக்கும்போது cos 2A-ன் மதிப்பைக் காண்க.
 
 \\( (i)cos A = \dfrac{15}{17} \ \ \ (ii) sin A = \dfrac{4}{5} \ \ \ (iii) tan A = \dfrac{16}{63}\\)
+
+2.\\( \theta  \\)ஒரு குறுங்கோணம் எனில்,
+
+\\( (i)sin \theta = \dfrac{1}{25} \ எனும்போது \ sin \bigg( \dfrac{ \pi }{4} -\dfrac{ \theta}{2} \bigg)\\)
+
+\\( (ii)sin \theta = \dfrac{8}{9} \  எனில் cos \bigg( \dfrac{ \pi }{4} + \dfrac{ \theta}{2} \bigg) \\) -ன் மதிப்புகளைக் காண்க.
+
+3.\\( cos \theta = \dfrac{1}{2} \bigg(a + \dfrac{ 1}{a} \bigg) \ எனில் \ cos 3 \theta  = \dfrac{1}{2} \bigg(a^3 + \dfrac{ 1}{a^3 } \bigg) \\) எனக் காண்பி.
+
+4.\\( cos 5 \theta = 16 cos^5 \theta - 20 cos^3 \theta + 5 cos \theta \\)என நிறுவுக
+
+5.\\( sin 4 \alpha = 4 tan \alpha \dfrac{1 - tan^2 a}{( 1 + tan^2 a )^2} \\)என நிறுவுக.
+
+6.\\(A + B = 45° \ எனில், \ ( 1 + tan A ) ( 1 + tan B ) = 2 \\)என நிறுவுக.
+
+7.\\( ( 1 + tan 1 ° ) ( 1 + tan 2 ° ) ( 1 + tan 3 ° ) g ( 1 + tan 44 ° ) \\)என்பது 4 இன் மடங்கு என நிறுவுக.
+
+8.\\( tan \bigg(  \dfrac{ \pi}{4} + \theta   \bigg) - tan \bigg(  \dfrac{ \pi}{4} - \theta   \bigg) = 2 tan 2 \theta \\)என நிறுவுக.
+
+9.\\\(cot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
