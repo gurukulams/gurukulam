@@ -1289,7 +1289,9 @@ O
 முந்தைய மரபு கொள்கையின் அடிப்படையில்
 அழைக்கப்பட்டன.
 
-### படம் : 1.3 அன்றாடவாழ்வில் ஆக்ஸிஜனேற்ற வினைகள் pageno:20
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/1-3.png "") 
+
+**படம் : 1.3 அன்றாடவாழ்வில் ஆக்ஸிஜனேற்ற வினைகள்**
 
 பின்வரும் இருவினைகளைக் கருதுக.
 
@@ -1395,5 +1397,9 @@ CuO + C → Cu + CO (குப்ரிக் ஆக்ஸைடில்
 காைணைமாக ேைய்னடு உடபகாணடவர்
 வியைவாக மைணைமயடகி்றார்.
 
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/ex3.png "") 
+
 
 {{< / box >}} 
+
+
