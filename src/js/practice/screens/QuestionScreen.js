@@ -75,6 +75,9 @@ class QuestionScreen {
         .renderInline(
           this.selectedQuestion.question ? this.selectedQuestion.question : ""
         );
+      if (window.renderMath) {
+        window.renderMath(this.questionEditor);
+      }
     }
 
     this.renderAnswerElement();
@@ -84,8 +87,11 @@ class QuestionScreen {
     //   .answer
     //   ? this.selectedQuestion.answer
     //   : "";
+    if (this.questionEditor.codemirror) {
+      this.questionEditor.codemirror.focus();
+    }
 
-    this.questionEditor.codemirror.focus();
+    document.dispatchEvent(new Event("onrender"));
   }
 
   render(_owner, practiceId, _chaptorName) {
@@ -101,7 +107,8 @@ class QuestionScreen {
       this.practiceId = undefined;
       this.bookName = practiceId;
       this.chaptorPath = _chaptorName;
-      questionsUrl = "/api/books/" + this.bookName + "/questions";
+      questionsUrl =
+        "/api/books/" + this.bookName + "/questions/" + this.chaptorPath;
     } else {
       this.bookName = undefined;
       this.chaptorPath = undefined;
@@ -235,7 +242,7 @@ class QuestionScreen {
           choice.answer ? " checked " : ""
         } name="flexRadioDefault" value="${choice.id}" id="flexCheckDefault">
     <label class="form-check-label" for="flexCheckDefault">
-      ${choice.value}
+   
     </label>
   </div>
   ${
@@ -258,14 +265,18 @@ class QuestionScreen {
         liEl
           .querySelector("#flexCheckDefault")
           .addEventListener("change", setChoiceAnswer);
+        liEl.firstElementChild.children[1].innerHTML = choice.value;
+        return liEl;
       };
 
       const renderChoices = () => {
+        const choiceElms = [];
         if (selectedQuestion.choices !== 0) {
           this.selectedQuestion.choices.forEach((choice) => {
-            renderChoice(choice);
+            choiceElms.push(renderChoice(choice));
           });
         }
+        return choiceElms;
       };
 
       if (this.isOwner) {
@@ -286,7 +297,11 @@ class QuestionScreen {
           });
       }
 
-      renderChoices();
+      const choiceElms = renderChoices();
+
+      if (window.renderMath) {
+        console.log("choiceElms " + choiceElms);
+      }
     };
 
     const setCodeEditor = (language) => {
@@ -410,6 +425,18 @@ class QuestionScreen {
     };
 
     const submitFn = () => {
+      this.parent
+        .querySelectorAll(".pagination>.page-item>.page-link")
+        .forEach((el) => {
+          el.parentElement.classList.remove("active");
+          el.classList.remove("border-2");
+          el.classList.remove("border-success");
+          el.classList.remove("border-danger");
+          el.classList.remove("text-danger");
+          el.classList.remove("text-decoration-line-through");
+          el.classList.remove("fw-bolder");
+        });
+
       this.questions.forEach((question, index) => {
         if (question.answer) {
           const answer = Array.isArray(question.answer)
@@ -442,12 +469,26 @@ class QuestionScreen {
               if (response.ok) {
                 paginationElement.children[
                   index + 1
-                ].firstElementChild.classList.add("bg-success");
+                ].firstElementChild.classList.add("border-success");
               } else if (response.status === 406) {
                 paginationElement.children[
                   index + 1
-                ].firstElementChild.classList.add("bg-danger");
+                ].firstElementChild.classList.add("border-danger");
+                paginationElement.children[
+                  index + 1
+                ].firstElementChild.classList.add("text-danger");
+                paginationElement.children[
+                  index + 1
+                ].firstElementChild.classList.add(
+                  "text-decoration-line-through"
+                );
+                paginationElement.children[
+                  index + 1
+                ].firstElementChild.classList.add("fw-bolder");
               }
+              paginationElement.children[
+                index + 1
+              ].firstElementChild.classList.add("border-2");
             })
             .catch(function (error) {
               console.log(error);
@@ -457,16 +498,42 @@ class QuestionScreen {
     };
 
     const saveFn = () => {
+      const promises = [];
+
       this.questions.forEach((question) => {
+        const addEndPointUrl = this.bookName
+          ? "/api/books/" +
+            this.parent.dataset.type +
+            "/questions/" +
+            question.type +
+            "/" +
+            this.chaptorPath
+          : "/api/practices/" +
+            this.parent.dataset.type +
+            "/" +
+            this.practiceId +
+            "/questions/" +
+            question.type;
+
+        const updateEndPointUrl = this.bookName
+          ? "/api/books/" +
+            this.parent.dataset.type +
+            "/questions/" +
+            question.type +
+            "/" +
+            question.id
+          : "/api/practices/" +
+            this.parent.dataset.type +
+            "/" +
+            this.practiceId +
+            "/questions/" +
+            question.type +
+            "/" +
+            question.id;
+
         if (!question.id) {
-          fetch(
-            "/api/practices/" +
-              this.parent.dataset.type +
-              "/" +
-              this.practiceId +
-              "/questions/" +
-              question.type,
-            {
+          promises.push(
+            fetch(addEndPointUrl, {
               method: "POST",
               headers: {
                 "content-type": "application/json",
@@ -474,19 +541,11 @@ class QuestionScreen {
                   "Bearer " + JSON.parse(sessionStorage.auth).authToken,
               },
               body: JSON.stringify(question),
-            }
+            })
           );
         } else if (question.updated) {
-          fetch(
-            "/api/practices/" +
-              this.parent.dataset.type +
-              "/" +
-              this.practiceId +
-              "/questions/" +
-              question.type +
-              "/" +
-              question.id,
-            {
+          promises.push(
+            fetch(updateEndPointUrl, {
               method: "PUT",
               headers: {
                 "content-type": "application/json",
@@ -494,31 +553,46 @@ class QuestionScreen {
                   "Bearer " + JSON.parse(sessionStorage.auth).authToken,
               },
               body: JSON.stringify(question),
-            }
+            })
           );
         }
       });
 
-      this.deletedQuestionIds.forEach((dQuestionId) => {
-        fetch(
-          "/api/practices/" +
+      this.deletedQuestionIds.forEach((dQuestionId, question) => {
+        const deleteEndPointUrl = this.bookName
+          ? "/api/books/" +
+            this.parent.dataset.type +
+            "/questions/" +
+            question.type +
+            "/" +
+            dQuestionId
+          : "/api/practices/" +
             this.parent.dataset.type +
             "/" +
             this.practiceId +
             "/questions/" +
-            dQuestionId,
-          {
+            dQuestionId;
+
+        promises.push(
+          fetch(deleteEndPointUrl, {
             method: "DELETE",
             headers: {
               "content-type": "application/json",
               Authorization:
                 "Bearer " + JSON.parse(sessionStorage.auth).authToken,
             },
-          }
+          })
         );
       });
 
-      goBack();
+      // eslint-disable-next-line no-undef
+      Promise.allSettled(promises).then(() => {
+        if (this.bookName) {
+          window.location = "/books/" + this.bookName + "/" + this.chaptorPath;
+        } else {
+          goBack();
+        }
+      });
     };
 
     const setQTxt = () => {
@@ -578,12 +652,10 @@ class QuestionScreen {
                   Add
                   </button>
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
-                    <li data-type="SINGLE_LINE"><a class="dropdown-item" href="javascript://">Singleline</a></li>
-                    <li data-type="MULTI_LINE"><a class="dropdown-item" href="javascript://">Multiline</a></li>
                     <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
-                    <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multichoice</a></li>
-                    <li data-type="CODE_SQL"><a class="dropdown-item" href="javascript://">Sql</a></li>
-                    <li data-type="CODE_JAVA"><a class="dropdown-item" href="javascript://">Java</a></li>
+                    <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multi-choice</a></li>
+                
+                    
                   </ul>
                   <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
                   <button type="button" class="save-btn btn">Save</button>`
