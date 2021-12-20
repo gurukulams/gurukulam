@@ -45,7 +45,7 @@ class Chat {
       .querySelector(".fa-search")
       .addEventListener("click", (event) => {
         this.userName =
-          event.currentTarget.parentElement.parentElement.firstElementChild.value.trim();
+          event.currentTarget.parentElement.nextElementSibling.value.trim();
         if (this.userName) {
           console.log("Connect me {}", this.userName);
           // eslint-disable-next-line no-undef
