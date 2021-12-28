@@ -6,12 +6,10 @@ DefaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
-title = "Gurukulams School"
 weight = 0
 languagename = "English"
 
 [Languages.tm]
-title = "Gurukulams School"
 weight = 1
 languagename = "Tamil"
 
