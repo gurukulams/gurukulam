@@ -3,12 +3,14 @@
     <span class="navbar-brand lh-1">
       <span class="h5"><strong>Gurukulams</strong></span><br>
       
-      <div class="text-muted text-end w-100 p-0 mb-0 dropdown">
+      <div class="text-muted text-end w-100 p-0 mb-0 dropdown border-0">
         <small class="dropdown-toggle" type="button" id="languageBtn" data-bs-toggle="dropdown" aria-expanded="false">
-          தமிழ்
+          {{$.Site.Home.Language.LanguageName}}
         </small>
         <ul class="dropdown-menu" aria-labelledby="languageBtn">
-          <li><a class="dropdown-item" href="#">English</a></li>
+          {{ range $.Site.Home.Translations }}
+          <li><a class="dropdown-item" href="#">{{ .Language.LanguageName }}</a></li>
+          {{ end }}
         </ul>
       </div>
 
