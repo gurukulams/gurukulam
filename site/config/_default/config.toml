@@ -2,18 +2,16 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Gurukulams School"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ta"
 
 [Languages]
 [Languages.en]
-title = "Gurukulams School"
 weight = 0
 languagename = "English"
 
-[Languages.tm]
-title = "Gurukulams School"
+[Languages.ta]
 weight = 1
-languagename = "Tamil"
+languagename = "தமிழ்"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

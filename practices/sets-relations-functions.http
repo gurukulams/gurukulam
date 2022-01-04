@@ -6,9 +6,14 @@ POST {{base}}/auth/login
 Content-Type: application/json
 
 {
-    "userName": "tom",
+    "userName": "tom@email.com",
     "password": "password"
 }
+
+###
+GET {{base}}/learner
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
 
 #### 
 POST {{base}}/books/maths/questions/CHOOSE_THE_BEST/part-1/sets-relations-functions

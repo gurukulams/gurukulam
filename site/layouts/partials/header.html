@@ -1,11 +1,22 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white py-0 fixed-top">
   <div class="container-fluid border-bottom border-top-1 shadow-sm bg-body">
-    <a class="navbar-brand lh-1" href="/">
-        <span class="h5"><strong>Gurukulams</strong></span><br>
-        <p class="text-muted text-end w-100 p-0 mb-0"><small class="dropdown-toggle">தமிழ்</small></p>
-      </a>
+    <span class="navbar-brand lh-1">
+      <span class="h5"><strong>Gurukulams</strong></span><br>
+      
+      <div class="text-muted text-end w-100 p-0 mb-0 dropdown border-0">
+        <small class="dropdown-toggle" type="button" id="languageBtn" data-bs-toggle="dropdown" aria-expanded="false">
+          {{$.Site.Home.Language.LanguageName}}
+        </small>
+        <ul class="dropdown-menu" aria-labelledby="languageBtn">
+          {{ range $.Site.Home.Translations }}
+          <li><a class="dropdown-item" href="#">{{ .Language.LanguageName }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
+    </span>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,26 +56,26 @@
       <ul class="navbar-nav secured">
         <!-- F -->
         <li class="nav-item">
-          <a class="nav-link" href="chat"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav-link" href="chat"><i class="fas fa-search fa-2x pt-2"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="chat"><i class="far fa-comment fa-2x"></i></a>
+          <a class="nav-link" href="chat"><i class="far fa-comment fa-2x pt-2"></i></a>
         </li>
         <li class="nav-item pe-0 dropdown">
-          
+
           <div class="btn-group bg-light">
             <a class="btn btn-toggle pe-0" data-bs-toggle="dropdown" aria-expanded="false">
               <div class="d-flex bd-highlight">
                 <div class="w-100 bd-highlight text-end">
                   <h6 class="fw-bold">தமிழக பள்ளிக் கல்வி</h6>
                   <small class="text-muted">11 ம் வகுப்பு</small>
-               </div>
+                </div>
                 <div class="flex-shrink-1 bd-highlight">
                   <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="img-circle img-thumbnail avatar"
-                style="vertical-align: middle;border-radius: 50%; width: 3rem; margin-right: 10px;" alt="avatar">
+                    style="vertical-align: middle;border-radius: 50%; width: 3rem; margin-right: 10px;" alt="avatar">
                 </div>
-                
-                
+
+
               </div>
             </a>
             <ul class="dropdown-menu" aria-labelledby="dropdown03">
