@@ -50,9 +50,12 @@ extensions:
 - ஆக்சிஜனேற்ற - ஒடுக்க வினைகளை
 வகைப்படுத்துதல்.
 - இரு அரைவினைகளிலிருந்து ஆக்சிஜனேற்ற - ஒடுக்க வினைக்கான
-சமன்படுத்தப்பட்ட சமன்பாட்டை உருவாக்குதல்,
+சமன்படுத்தப்பட்ட சமன்பாட்டை உருவாக்குதல், ஆகிய திறன்களை மாணவர்கள் பெற இயலும்.
 
-ஆகிய திறன்களை மாணவர்கள் பெற இயலும்.
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.png"")
+
+
 
  **1.1 வேதியியல் - வாழ்க்கையின் மையம்**
 
@@ -104,7 +107,7 @@ extensions:
 உனது இருக்கை, மேசை, கரும்பலகை போன்றவற்றை நீ  கண்டிருப்பாய்.
 இவை அனைத்தும் எதனால் ஆக்கப்பட்டவை? இவை அனைத்தும் பருப்பொருள்களால் ஆக்கப்பட்டவை.
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/1-1.png"")
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.1.png"")
 
 நிறையுள்ள, இடத்தை அடைத்துக்கொள்ளும் தன்மையுடைய அனைத்தும், பருப்பொருட்கள் என வரையறுக்கப்படுகின்றன. அனைத்து பருப்பொருட்களும் அணுக்களால் ஆக்கப்பட்டவை. பருப்பொருள் பற்றிய இந்த அறிவானது, நமது சூழலில் இருந்து நாம்
 பெறும் அனுபவங்களை விளக்குவதற்கு பயனுள்ளதாக அமையும். பருப்பொருட்களின் பண்புகளை புரிந்து கொள்ளும் பொருட்டு,
@@ -330,7 +333,7 @@ SI அலகு முறையில் பயன்படுத்தப்ப
 மூலக்கூறுகளின் எண்ணிக்கையினை நாம்
 கணக்கிடுவோம்.    
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/1-2.png"")
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.2.png"")
 
 
 **அட்டவணை 1.2. ஒரு மோல் பொருளில் காணப்படும் உட்பொருட்களின் எண்ணிக்கையினைக் கணக்கிடுதல்.**
@@ -359,7 +362,8 @@ SI அலகு முறையில் பயன்படுத்தப்ப
 அல்லது ஏதேனும் ஒரு வரையறுக்கப்பட்ட
 துகளைக் குறிப்பிடுகிறது.
 
-**இரைப்பை அமிலம் மற்றும் அமில நீக்கிகள்**
+{{< box title="உங்களுக்குத் தெரியுமா ?"  >}} 
+#### இரைப்பை அமிலம் மற்றும் அமில நீக்கிகள் ####
 
 அமிலத்தன்மை மற்றும்
 நெஞ்செரிச்சலை குணப்படுத்த
@@ -421,6 +425,9 @@ SI அலகு முறையில் பயன்படுத்தப்ப
 நிலைக்கு மீள
 கொண்டு வரும்.
 
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.x.png "") 
+
+{{< /box >}}
 **1.4.1 அவகாட்ரோ எண்**
 
 ஒரு மோல் அளவுடைய எந்தவொரு
@@ -468,9 +475,8 @@ SI அலகு முறையில் பயன்படுத்தப்ப
 
 
 {{< box title="" type="objective" >}} 
-லாரன்ஸோ ரோமானோ அமிடியோ கார்லோ அவகாட்ரோ (1776-1856)
 
-### iimg bendig
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.x.1.png "") 
 
 அவகாட்ரோ கருதுகோளை வழங்கியவர்.
 இவருடைய பங்களிப்பினை நினைவுகூறும் வகையில்,
@@ -577,10 +583,10 @@ SI அலகு முறையில் பயன்படுத்தப்ப
 
 துத்தநாகத்தின் சமான நிறை = 32.69
 
-துத்தநாகத்தின் கிராம் சமான நிறை \\(= 32.69 g eq- ^1\\)
+துத்தநாகத்தின் கிராம் சமான நிறை \\(= 32.69 g eq ^{-1}\\)
 
 சமான நிறைக்கு அலகு இல்லை.
-ஆனால், கிராம் சமான நிறை \\(g eq ^-1\\) என்ற
+ஆனால், கிராம் சமான நிறை \\(g eq ^{-1}\\) என்ற
 அலகால் குறிப்பிடப்படுகிறது.
 
 ஹைட்ரஜன், ஆக்சிஜன், குளோரின்
@@ -603,7 +609,7 @@ SI அலகு முறையில் பயன்படுத்தப்ப
 
 **1.5.1 அமிலம், காரம், ஆக்சிஜனேற்றி மற்றும் ஆக்சிஜன் ஒடுக்கியின் சமான நிறையினை கணக்கிடுதல்.**
 
-### table bending 
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Table1.x.png "") 
 
 மோல் கோட்பாட்டினை
 பயன்படுத்தி ஒரு வேதிவினையில் ஈடுபடும்
@@ -737,7 +743,7 @@ C : H : O இவற்றிற்கிடையேயான விகிதம
 ஹைட்ரஜன், 64% ஆக்சிஜன். அச்சேர்மத்தின்
 எளிய விகித வாய்ப்பாபாட்டினைக் கண்டறிக..
 
-### table bending 12pageno Right side 1st
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Table1.x.1.png "") 
 
 எளிய விகித வாய்பாடு \\(C_2H_3O_3\\)
 
@@ -747,7 +753,7 @@ C : H : O இவற்றிற்கிடையேயான விகிதம
 சேர்மத்தின் எளிய விகித வாய்ப்பாட்டினைக்
 கண்டறிக.
 
-### table bending 12pageno Right side 2st
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Table1.x.2.png "") 
 
 எளிய விகித வாய்பாடு \\(CH_2O\\)
 
@@ -772,7 +778,7 @@ C=54.55%, H=9.09%, O=36.36%
 
 **1.6.2 எளிய விகித வாய்ப்பாட்டிலிருந்து மூலக்கூறு வாய்பாட்டினைக் கணக்கிடுதல்:**
 
-### table bending 13pageno Left side last
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Table1.x.3.png "") 
 
 மூலக்கூறு வாய்ப்பாட்டினை
 கண்டறிவதை பின்வரும் எடுத்துக்காட்டின்
@@ -862,22 +868,21 @@ iii) சேர்மத்தின் மூலக்கூறு
 பொருட்களை நம்மால் பின்வருமாறு
 கணக்கிட இயலும்.
 
- 1 கப் ரவை
-
-\\( \dfrac{1 கப் ரவை}{ \sout{6 கப ்கேசரி} / 2 } \times கப் கேசரி = \dfrac{1}{2} கப் ரவை \\)
+\\( \dfrac{1 கப் ரவை}{ \sout{6 கப ்கேசரி} 2 } \times \sout{ 3 கப் கேசரி } = \dfrac{1}{2} கப் ரவை \\)
 
 மாற்றாக, 3 கப் ரவையைக் கொண்டு
 தயார் செய்ய இயலும் கேசரியின் அளவினை
 பின்வருமாறு கணக்கிடலாம்.
 
 
-\\( \dfrac{6  கப்  கேசரி}{ \sout{ 1 கப் ரவை}  } \times 3 \dfrac{3}{ \sout{ கப் ரவை }} = 18 கப் கேசரி \\)
+\\( \dfrac{6  கப்  கேசரி}{ \sout{ 1 கப் ரவை}  } \times { 3 \sout{  கப் ரவை }} = 18 கப் கேசரி \\)
 
 இதைப் போலவே தேவையான
 மற்ற பொருட்களின் அளவினையும் நம்மால்
 கண்டறிய இயலும்.
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/ex1.png "") 
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.x.4.png "") 
+
 இந்தக் கணக்கீட்டு முறையினை,
 ஒரு வேதிவினையின், வேதிவினைக்
 கூறுகளின் விகிதங்களைக் கண்டறிய
@@ -919,7 +924,10 @@ stoicheion என்பதற்கு தனிமம் எனவும் met
 
 ![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/ex2.png "") 
 
-### table bending 15pageno  last row
+மீத்தேனின் எரிதல் வினையினை கருத்திற் கொண்டு, இந்த மாற்றங்களை நாம் விளக்க
+முடியும்,\\( CH_4 (g) + 2 O_2 (g) → CO_2 (g) + 2 H_2O(g) \\)
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Table1.x.4.png "") 
 
 வேதிவினைக் கூறு விகித அடிப்படையிலான
 கணக்கீடுகள்
@@ -941,7 +949,7 @@ stoicheion என்பதற்கு தனிமம் எனவும் met
 ஃ 10 மோல் அம்மோனியாவை
 உருவாக்க.
 
-\\( \dfrac{3 மோல் H_2}{ \sout{2 மோல் NH_3 } }  \times \dfrac{5}{ \sout{10 மோல் NH_3 } }\\)
+\\( \dfrac{3 மோல் H_2}{ \sout{(2 மோல் NH_3) } }  \times 5 { \sout{(10 மோல் NH_3) } }\\)
 
 = 15 மோல் ஹைட்ரஜன் தேவை.
 
@@ -956,21 +964,11 @@ stoicheion என்பதற்கு தனிமம் எனவும் met
 எரிதலின் போது 2 மோல் (2 x 18 = 36 g)
 நீரினைத் தருகிறது.
 
-\\(CH_4\\)
-
-↓  ↓
-
-\\((12) + (4 ×1) = 16 g மோல்^{–1}\\)
-
-\\(H_2O\\)
-
-↓ ↓
-
-\\((2×1) + (1 ×16) = 18 g மோல்^{–1}\\)
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.x.5.png "") 
 
 ஃ 32 g மீத்தேன் எரிதலின் போது
 
-\\( \dfrac{36 g H_2O}{ \sout{16 g CH_4}} \times \dfrac{2}{ \sout{32 g CH_4}} \\)
+\\( \dfrac{36 g H_2O}{ \sout{(16 g CH_4)}} \times 2 \sout{(32 g CH_4)} \\)
 
 = 72 g நீரைத் தருகிறது
 
@@ -988,9 +986,7 @@ stoicheion என்பதற்கு தனிமம் எனவும் met
 1 மோல் (100g) \\(CaCO_3\\) ஐ வெப்பப்படுத்தும்
 போது 1 மோல் \\(CO_2\\) உருவாகிறது.
 
-\\(CaCO_3\\)
-
-\\( (40) + (12) + (3 × 16) = 100 g மோல்^{–1} \\)
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.x.6.png "") 
 
 திட்ட வெப்ப அழுத்த நிலைகளில்,
 1 மோல் \\(CO_2\\) ஆனது 22.7 லிட்டர் கனஅளவை
@@ -1021,14 +1017,14 @@ H2 (g) + Cl2 (g) → 2 HCl (g)
 
 ஃ 11.2 லிட்டர் HCl ஐ உருவாக்க,
 
-\\( \dfrac{22.4 லி Cl2}{ \sout{44.8 லி HCl} / 4}  \times \sout{11.2லி HCl}\\)
+\\( \dfrac{22.4 லி Cl_2}{ \sout{(44.8 லி HCl)}  4}  \times \sout{(11.2லி HCl)}\\)
 
 = 5.6 லிட்டர் குளோரின் வாயு
 தேவைப்படும்.
 5. மெக்னீசியம் கார்பனேட்டில் அடங்கியுள்ள
 தனிமங்களின் சதவீத இயைபினைக்
 கண்டறிக. 90% தூய்மையான
-1 kg \\(MgCO3\\) ஐ வெப்பப்படுத்தும்
+1 kg \\(MgCO_3\\) ஐ வெப்பப்படுத்தும்
 போது உருவாகும் \\(CO_2\\) ன் நிறையை
 கிலோகிராமில் கணக்கிடுக.
 சமன்படுத்தப்பட்ட சமன்பாடு
@@ -1041,7 +1037,7 @@ H2 (g) + Cl2 (g) → 2 HCl (g)
 ∴ 100 g \\(MgCO_3\\) ல்
 
 
-\\( \dfrac{24 g Mg}{ \sout{84 g MgCO_3} \times 1.19 \sout{× 100 g MgCO_3}  }  \\)
+\\( \dfrac{24 g Mg}{ \sout{(84 g MgCO_3)}} \times 1.19 \sout{(100 g MgCO_3)}  \\)
 
 = 28.57 g Mg
 மெக்னீசியம் உள்ளது
@@ -1050,15 +1046,11 @@ H2 (g) + Cl2 (g) → 2 HCl (g)
 
 \\(84 g MgCO_3 \\)ல் 12 g கார்பன் உள்ளது
 
-\\(MgCO_3\\)
-
-↓ ↓ ↓
-
-(24) + (12) + (3 × 16) = 84 g மோல்–1
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.x.7.png "") 
 
 \\(∴ 100 g \ MgCO_3\\) ல்
 
-\\( \dfrac{12 g C}{ \sout{84 g MgCO3} } \times 1.19 / \sout{100 g MgCO3} \\)
+\\( \dfrac{12 g C}{ \sout{(84 g MgCO_3)} } \times 1.19  \sout{(100 g MgCO3)} \\)
 
 = 14.29 g கார்பன் உள்ளது
 
@@ -1068,7 +1060,7 @@ H2 (g) + Cl2 (g) → 2 HCl (g)
 
 ∴ 100 g \\(MgCO_3\\) ல்
 
-\\( \dfrac{48 g O}{ \sout{84 g MgCO_3} } \times 1.19 / \sout{MgCO_3} \\)
+\\( \dfrac{48 g O}{ \sout{(84 g MgCO_3)} } \times 1.19  \sout{(100 g MgCO3)} \\)
 
 = 57.14 g ஆக்சிஜன் உள்ளது
 
@@ -1194,11 +1186,7 @@ iii) வினையின் இறுதியில், மிகுதிய
 ஆக்ஸைடு ஆகிய வினை பொருட்களுக்கு இடையே நிகழும் பின்வரும் வேதிவினையின் மூலம்
 தயாரிக்கப்படுகிறது.
 
-O
-
-| |
-
-\\(2 NH_3 (g)+ CO_2 (g) → H_2N–C–NH_2 (aq)+H_2O(l)\\)
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image1.x.8.png "") 
 
 (யூரியா)
 
@@ -1210,7 +1198,8 @@ O
 வினைக்காரணியைக் கண்டறிக.
 சமன்படுத்தப்பட்ட சமன்பாடு, \\(2 NH_3(g) + CO_2 (g) → H_2NCONH_2 (aq) + H_2O (l)\\)
 
-### table bending 19pageno  center
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Table1.x.5.png "") 
+
 
 தீர்வு :
 
@@ -1472,13 +1461,11 @@ ii) ஹைட்ரஜன் பெராக்ஸைடில் (\\((H_2O_2)\\
 
 ⇒ x = –1
 
-iii) \\(KO_2\\) போன்ற சூப்பர் ஆக்ஸைடுகளில்
-
-\\( - \dfrac{1}{2}\\)
+iii) \\(KO_2\\) போன்ற சூப்பர் ஆக்ஸைடுகளில் \\( - \dfrac{1}{2}\\)
 
 +1 + 2x = 0 ;
 
-2x = – 1 ; \\( x = - \dfrac{1}{2}\\)
+2x = – 1 ; x = \\( - \dfrac{1}{2}\\)
 
 iv) ஆக்சிஜன் டைபுளூரைடில் \\((OF_2)\\) + 2.
 
@@ -1486,11 +1473,8 @@ x + 2 (–1) = 0; x = + 2
 
 7) அனைத்துச் சேர்மங்களிலும், கார உலோகங்கள் +1 ஆக்சிஜனேற்ற நிலையினையும்,
 காரமண் உலோகங்கள் +2 ஆக்சிஜனேற்ற நிலையினையும் பெற்றுள்ளன.
-மேற்க்கண்டுள்ள விதிகளைப் பயன்படுத்தி ஆக்சிஜனேற்ற எண்ணைக் கணக்கிடுதல்
 
-**மேற்கண்டுள்ள விதிகளைப் பயன்படுத்தி ஆக்சிஜனேற்ற எண்ணைக் கணக்கிடுதல்**
-
-### table bending 23pageno  center
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Table1.x.6.png "") 
 
 **ஆக்சிஜனேற்ற எண் அடிப்படையில் ஆக்சிஜனேற்ற - ஒடுக்க வினைகள்.**
 
@@ -1880,13 +1864,13 @@ b) ஒரு எலக்ட்ரானை இழப்பதால், \\(FeSO
 கூட்டுவதால் சமன்படுத்தப்பட்ட சமன்பாடு (6)
 கிடைக்கிறது
 
-(1)\\( x 5 \ \ \ ⇒ 5Fe^{2+} → 5Fe^{3+} + 5e^-\\) --------------------- (4)
+(1)x 5       ⇒ \\( 5Fe^{2+} → 5Fe^{3+} + \sout{5e^-} \\) --------------------- (4)
 
-(3)\\( x 1 ⇒ MnO^− _4 + \sout{5e^-} + 8H^+ → Mn^{2+} + 4H_2O \\)------------------(5)
+(3) x 1      ⇒ \\( MnO^-_4 + \sout{5e^-} + 8H^+ → Mn^{2+} + 4H_2O \\)------------------(5)
 
 ---
 
-(4) + (5) \\(5Fe^{2+} + MnO^− _4 + 8H^+ → 5Fe^{3+} + Mn^{2+} + 4H_2O\\)------------(6)
+(4) + (5)    ⇒ \\(5Fe^{2+} + MnO^− _4 + 8H^+ → 5Fe^{3+} + Mn^{2+} + 4H_2O\\)------------(6)
 
 ---
 
@@ -2385,6 +2369,9 @@ iii) \\(Na_2S_2O_3 + I_2 → Na_2S_4O_6 + NaI\\)
 
 iv) \\(Zn +NO_3^- → Zn^{2+} + NO \\)(அமில ஊடகத்தில்)
 
-### img pending 38pageno கருத்து வரைபடம்
-### img pending 39pageno இணையச்செயல்பாடு
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image_s1.png "") 
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/Image_s2.png "") 
+
 
