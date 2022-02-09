@@ -61,28 +61,29 @@
         <li class="nav-item">
           <a class="nav-link" href="chat"><i class="far fa-comment fa-2x pt-2"></i></a>
         </li>
-        <li class="nav-item pe-0 dropdown">
+        <li class="nav-item">
 
           <div class="btn-group bg-light">
-            <a class="btn btn-toggle pe-0" data-bs-toggle="dropdown" aria-expanded="false">
+            
               <div class="d-flex bd-highlight">
                 <div class="w-100 bd-highlight text-end">
                   <h6 class="fw-bold">தமிழக பள்ளிக் கல்வி</h6>
                   <small class="text-muted">11 ம் வகுப்பு</small>
                 </div>
-                <div class="flex-shrink-1 bd-highlight">
+                <a class="btn btn-toggle pe-0" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="flex-shrink-1 bd-highlight dropdown">
                   <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="img-circle img-thumbnail avatar"
                     style="vertical-align: middle;border-radius: 50%; width: 3rem; margin-right: 10px;" alt="avatar">
                 </div>
-
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                <li><a class="dropdown-item" href="/learner/tom">Profile</a></li>
+                <li><a class="dropdown-item" href="/campuses/tamil-sangam">Campus</a></li>
+                <li><a class="dropdown-item logout" href="javascript://">Logout</a></li>
+              </ul>
 
               </div>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown03">
-              <li><a class="dropdown-item" href="/learner/tom">Profile</a></li>
-              <li><a class="dropdown-item" href="/campuses/tamil-sangam">Campus</a></li>
-              <li><a class="dropdown-item logout" href="javascript://">Logout</a></li>
-            </ul>
+            
           </div>
         </li>
       </ul>
