@@ -1,4 +1,4 @@
-@base = https://localhost:8443/api 
+@base = http://localhost:8080/api 
 
 #### Login
 # @name login 
@@ -6,7 +6,7 @@ POST {{base}}/auth/login
 Content-Type: application/json
 
 {
-    "userName": "tom@email.com",
+    "userName": "tom",
     "password": "password"
 }
 
