@@ -4,38 +4,62 @@ languageLang = "en"
 title = "Gurukulams School"
 defaultContentLanguage = "en"
 
+
+
 [Languages]
 [Languages.en]
 weight = 0
 languagename = "English"
 
-[Languages.ta]
-weight = 1
-languagename = "தமிழ்"
-
-menu = 'main'
-
-[menu]
-[[menu.main]]
+[[Languages.en.menu.main]]
   identifier = 'maths'
   name = 'Maths'
   url = '/books/maths'
   weight = 1
-[[menu.main]]
+[[Languages.en.menu.main]]
   identifier = 'physics'
   name = 'Physics'
   url = '/books/physics'
   weight = 2
-[[menu.main]]
+[[Languages.en.menu.main]]
   identifier = 'chemistry'
   name = 'Chemistry'
   url = '/books/chemistry'
   weight = 3
-[[menu.main]]
+[[Languages.en.menu.main]]
   identifier = 'biology'
   name = 'Biology'
   url = '/books/biology'
   weight = 4
+
+[Languages.ta]
+weight = 1
+languagename = "தமிழ்"
+
+[[Languages.ta.menu.main]]
+  identifier = 'maths'
+  name = 'கணிதவியல்'
+  url = '/books/maths'
+  weight = 1
+[[Languages.ta.menu.main]]
+  identifier = 'physics'
+  name = 'இயற்பியல்'
+  url = '/books/physics'
+  weight = 2
+[[Languages.ta.menu.main]]
+  identifier = 'chemistry'
+  name = 'வேதியியல்'
+  url = '/books/chemistry'
+  weight = 3
+[[Languages.ta.menu.main]]
+  identifier = 'biology'
+  name = 'உயிரியல்'
+  url = '/books/biology'
+  weight = 4
+
+menu = 'main'
+
+
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
