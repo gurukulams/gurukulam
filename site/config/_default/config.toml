@@ -35,6 +35,7 @@ languagename = "English"
 [Languages.ta]
 weight = 1
 languagename = "தமிழ்"
+contentDir = 'content/tamil'
 
 [[Languages.ta.menu.main]]
   identifier = 'maths'
