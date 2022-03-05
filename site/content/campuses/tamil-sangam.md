@@ -6,5 +6,5 @@ draft: false
 tags: ["t1"]
 ---
 
-மாண்புமிகு தமிழ்நாடு முதலமைச்சர் பாரதரத்னா எம்.ஜி.ஆர் “உலகத் தமிழர்கள் மற்றும் தமிழ் அமைப்புகளை ஒருங்கிணைத்து ஒரு குடையின்கீழ் செயல்படும் வகையில் உலகத்தமிழ்ச் சங்கம் இயங்கும்” என 1981 ஆம் ஆண்டு மதுரை மாநகரில் நடைபெற்ற 5வது உலகத்தமிழ் மாநாட்டில் அறிவித்தார்.
+Hon'ble Chief Minister of Tamil Nadu Bharat Ratna MGR declared at the 5th World Tamil Conference held in Madurai in 1981 that "the World Tamil Association will work under one umbrella to unite the world Tamils ​​and Tamil organizations".
 

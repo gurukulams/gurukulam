@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Gurukulams School"
-DefaultContentLanguage = "ta"
+defaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
