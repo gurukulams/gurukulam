@@ -9,9 +9,12 @@
         </small>
         <ul class="dropdown-menu" aria-labelledby="languageBtn">
           {{ range $.Site.Home.Translations }}
-          <li><a class="dropdown-item" href="#">{{ .Language.LanguageName }}</a></li>
+          
+          <li><a class="dropdown-item" href="{{ if (ne .Language.Lang "en") }}{{ .Language.Lang }}{{ $.Permalink }} {{ else }}{{ substr $.Permalink 3 }}{{ end }}">{{ .Language.LanguageName }}</a></li>
           {{ end }}
         </ul>
+
+        
       </div>
 
     </span>
@@ -34,14 +37,13 @@
                 <ul class="sub-menu">
                     {{ range .Children }}
                         <li class="nav-item">
-                            <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                            <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL | absLangURL}}">{{ .Name }}</a>
                         </li>
                     {{ end }}
                 </ul>
             {{ else }}
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ .URL }}">
-                        
+                    <a class="nav-link" href="{{ .URL | absLangURL}}">
                        {{ .Name }}
                     </a>
                 </li>
