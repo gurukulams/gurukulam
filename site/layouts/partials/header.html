@@ -23,7 +23,31 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+                <li class="nav-item">
+                    <a class="nav-link {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}" href="#">
+                        {{ .Name }}
+                    </a>
+                </li>
+                <ul class="sub-menu">
+                    {{ range .Children }}
+                        <li class="nav-item">
+                            <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ else }}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ .URL }}">
+                        
+                       {{ .Name }}
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+        <!-- <li class="nav-item">
           <a class="nav-link active" href="/books/maths">கணிதவியல்</a>
         </li>
         <li class="nav-item">
@@ -34,7 +58,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/books/biology">உயிரியல்</a>
-        </li>
+        </li> -->
         <!-- <li class="nav-item">
           <a class="nav-link active" href="/books/javascript">Javascript</a>
         </li>

@@ -13,6 +13,30 @@ languagename = "English"
 weight = 1
 languagename = "தமிழ்"
 
+menu = 'main'
+
+[menu]
+[[menu.main]]
+  identifier = 'maths'
+  name = 'Maths'
+  url = '/books/maths'
+  weight = 1
+[[menu.main]]
+  identifier = 'physics'
+  name = 'Physics'
+  url = '/books/physics'
+  weight = 2
+[[menu.main]]
+  identifier = 'chemistry'
+  name = 'Chemistry'
+  url = '/books/chemistry'
+  weight = 3
+[[menu.main]]
+  identifier = 'biology'
+  name = 'Biology'
+  url = '/books/biology'
+  weight = 4
+
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
