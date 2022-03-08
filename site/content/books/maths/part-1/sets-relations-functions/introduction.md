@@ -1,11 +1,20 @@
 ---
-title: 'அறிமுகம்'
+title: 'Introductions'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 2
 ---
 
-
+The concepts of sets, relations and functions occupy a fundamental place in the mainstream of
+mathematical thinking. As rightly stated by the Russian mathematician Luzin the concept of functions
+did not arise suddenly. It underwent profound changes in time. Galileo (1564-1642) explicitly used
+the dependency of one quantity on another in the study of planetary motions. Descartes (1596-
+1650) clearly stated that an equation in two variables, geometrically represented by a curve, indicates
+dependence between variable quantities. Leibnitz (1646-1716) used the word “function”, in a 1673
+manuscript, to mean any quantity varying from point to point of a curve. Dirichlet (1805-1859),
+a student of Gauss, was credited with the modern “formal” definition of function with notation
+y = f(x). In the 20th century, this concept was extended to include all arbitrary correspondence
+satisfying the uniqueness condition between sets and numerical or non-numerical values.
 
 
 

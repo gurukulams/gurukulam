@@ -8,36 +8,6 @@ class Chat {
 
     let stompClient;
 
-    fetch("/api/learner", {
-      headers: {
-        "content-type": "application/json",
-        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-      },
-    })
-      .then((response) => response.json())
-      .then((learners) => {
-        var html = [];
-        learners.forEach((learner) => {
-          html.push(`
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item align-center border-end-0"><img
-                src="${learner.imageUrl}" class="rounded-circle" width="50px"
-                height="50px"></li>
-            <li class="list-group-item bg-muted w-100 p-1">
-              <div class="d-flex w-100 justify-content-between">
-                <h5>${learner.name}</h5>
-                <small>8:00 AM</small>
-              </div>
-              <div class="d-flex w-100 justify-content-between">
-                <p class="mb-1"><small>Typing...</small></p>
-                <small><span class="badge bg-primary rounded-pill">4</span></small>
-              </div>
-            </li>
-          </ul>`);
-          document.getElementById("chat-rooms").innerHTML = html.join("");
-        });
-      });
-
     const onMessageReceived = (payload) => {
       var message = JSON.parse(payload.body);
       console.log("Message received {}", message);
