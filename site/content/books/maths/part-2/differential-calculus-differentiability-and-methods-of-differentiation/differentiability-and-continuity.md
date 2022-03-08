@@ -1,5 +1,5 @@
 ---
-title: 'வகைமை மற்றும் தொடர்ச்சி'
+title: 'Differentiability and Continuity'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 3

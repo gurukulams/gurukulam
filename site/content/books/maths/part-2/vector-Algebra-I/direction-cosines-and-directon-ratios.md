@@ -1,5 +1,5 @@
 ---
-title: 'திசைக் கொசைன்கள் மற்றும் திசை விகிதங்கள்'
+title: 'Direction cosines and directon ratios'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 7
