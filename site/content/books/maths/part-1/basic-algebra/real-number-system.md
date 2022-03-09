@@ -1,5 +1,5 @@
 ---
-title: 'மெய்யெண்களின் அமைப்பு'
+title: 'Real number system'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 2

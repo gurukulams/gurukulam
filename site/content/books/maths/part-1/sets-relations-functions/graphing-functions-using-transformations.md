@@ -1,5 +1,5 @@
 ---
-title: 'உருமாற்றத்தைப் பயன்படுத்தி சார்புகளை வரைபடமாக்குதல்'
+title: 'Constants and variables, intervals and neighbourhoods'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 7

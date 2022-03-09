@@ -1,5 +1,5 @@
 ---
-title: 'ஈருறுப்புத் தேற்றம்'
+title: 'Binomial theorem'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 2

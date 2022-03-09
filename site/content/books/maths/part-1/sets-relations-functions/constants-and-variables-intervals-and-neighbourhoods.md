@@ -1,5 +1,5 @@
 ---
-title: 'மாறிலிகள், மாறிகள், இடைவெளிகள் மற்றும் அண்மைப்பகுதிகள்'
+title: 'Constants and variables, intervals and neighbourhoods'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 4
