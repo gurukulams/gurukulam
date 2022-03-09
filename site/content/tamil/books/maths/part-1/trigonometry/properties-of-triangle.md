@@ -21,7 +21,7 @@ extensions:
 பக்கங்கள் மற்றும் மூன்று கோணங்களுக்கிடையே உள்ள தொடர்புகளை பற்றி விவாதிப்போம் மற்றும்
 சைன் மற்றும் கொசைன் விதிகளைத் தருவிப்போம்.
 
-img1
+![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.1.png "trigonometry")
 
 
 குறியீடு : ஒரு முக்கோணம் ABC என்க. \\(\Delta ABC\\) இன் மூன்று முனைகள் \\(A,B,C\\) இன்
@@ -63,7 +63,7 @@ img1
 விரிகோணமாகவோ இருக்கலாம். இங்கு \\(O\\) என்பது \\(\Delta ABC\\)-இன் சுற்றுவட்ட மையம் எனவும் மற்றும்
 R என்பது ஆரம் எனவும் கொள்வோம்.
 
-img 2
+![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.2.png "trigonometry")
 
 ###### நிலை I
 
@@ -159,6 +159,9 @@ img 2
 மற்றும் இடைப்பட்ட கோணமும் கொடுக்கப்பட்டால் முக்கோணத்தின்
 பரப்பைக் காணும் சூத்திரத்தை வருவிக்கப் பயன்படுகிறது.
 
+![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.3.png "trigonometry")
+
+
 ###### தேற்றம் 3.3 (கொசைன் விதி)
 
 \\(\Delta ABC\\) இல்,
@@ -185,7 +188,7 @@ img 2
 
 \\(a^2 + b^2 - 2ab cos C \\)
 
-எனவே, \\(c^2 = a^2 + b^2 - 2ab cos C\\) அல்லது \\(cos C = \frac{a^2 + b^2 - c^2}\\)
+எனவே, \\(c^2 = a^2 + b^2 - 2ab cos C\\) அல்லது \\( cos C = \frac{a^2 + b^2 - c^2}{2ab}\\)
 
 இதேபோன்று, மற்ற இரு சூத்திரங்களையும் நிரூபிக்கலாம். அவையாவன,
 
@@ -226,6 +229,8 @@ img 2
 
 ##### 3.7.3. வீழல் சூத்திரம் (Projection Formula)
 
+###### தேற்றம் 3.4
+
 \\(\Delta ABC\\) இல் நமக்குக் கிடைப்பது,
  
 \\( (i) a = b cos C + c cos B
@@ -245,7 +250,7 @@ img 2
 
 \\(a = b cosC + c cosB\\)
 
-img 3
+![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.4.png "trigonometry")
 
 இதேபோல், மற்ற இரு வீழல் சூத்திரங்களையும் நிரூபிக்கலாம்.
 
@@ -263,9 +268,9 @@ img 3
 விரிகோணமுக்கோணத்தில் பரப்பளவு சூத்திரத்தைப்
 பயன்படுத்துவதற்கு முன் உயரம் h-ன் மதிப்பை நாம் காணவேண்டும்.
 
-img 4
+![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.5.png "trigonometry")
 
-**தேற்றம் 3.5**
+###### தேற்றம் 3.5
 
 \\(\Delta ABC\\) இல், முக்கோணத்தின் பரப்பு
 
@@ -291,7 +296,7 @@ img 4
 \\(r\\) என்பது வட்டத்தின் ஆரம் மற்றும் \\(q\\) என்பது
 வட்டநாண் \\(AB\\) மையத்தில் தாங்கு கோணம் என்க.
   
-  img 5
+![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.6.png "trigonometry")
 	
 வட்டத்துண்டு \\(ABD\\) இன் பரப்பு = வட்டக் கோணப் பகுதியின் பரப்பு - \\(\Delta OAB\\)
 
@@ -310,7 +315,7 @@ img 4
 
 8 கி.மீ. விட்டமுள்ள வட்ட வடிவ மிருகக்காட்சி பூங்கா ஒன்றை அமைக்க அரசு திட்டமிடுகிறது. கால்நடை மருத்துவமனை அமைக்க 4 கி.மீ. நிளமுடைய வட்ட நாண் கொண்ட வட்டத்துண்டு தனியாக ஒதுக்கப்படுகிறது. கால்நடை மருத்துவமனை அமைக்க  ஒதுக்கப்பட்ட வட்டத்துண்டின் பரப்பைக் காண்க.
 
-img 6
+![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.7.png "trigonometry")
 
 **தீர்வு:**
 
