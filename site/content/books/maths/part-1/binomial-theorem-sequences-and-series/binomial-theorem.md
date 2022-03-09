@@ -3,107 +3,153 @@ title: 'Binomial theorem'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 2
+extensions:
+    - katex
 ---
 
+The prefix bi in the words bicycle, binocular, binary and in many more words means two. The word
+binomial stands for expressions having two terms. For examples \\( (1 + x), (x + y), (x 2 + xy) \\) and
+\\((2a + 3b)\\) are some binomial expressions.
 
-இரு சக்கர வாகனம், இரு கண் நோக்கி, இரண்டடிமானம் என்பவற்றைப் போன்று இரண்டு
-உறுப்புகளைக் கொண்ட கோவைகள் ஈருறுப்புக் கோவை எனப்படும். எடுத்துக்காட்டாக,
-\\( (1+x),( x+y),( x^2 +xy) \\) மற்றும் \\( (2a+3b)\\)  என்பன ஈருறுப்புக் கோவைகளுக்கு சில
-எடுத்துக்காட்டுகளாகும்.
 
-#### ஈருறுப்புக் கெழுக்கள் (Binomial Coefficients)
+#### 5.2.1 Binomial Coefficients
 
-பாடப்பகுதி 4-இல் , \\(^n C_r\\) என்ற குறியீடும் அதன் பயன்பாடும் பற்றி கற்றுள்ளோம் மேலும் அதன் வரையறை 
- \\( ^n C_r= \frac{n( n-1)( n-2)...(n-(r-1))}{r(r-1)(r-2)...1}\\) = \\(\frac {n!}{(n-r)!r!}\\)என்பது பற்றியும் நாம்
-அறிந்துள்ளோம். \\(^nc_r\\) என்பது,\\( (1+x)^n\\)இல் \\(x^n\\) -ன் கெழுவாகவும் மற்றும் \\( (a+b)^n\\)இல் \\(a^rb^{n-r}\\)-ன்
-கெழுவாகவும் இருப்பதால், இவை ஈருறுப்புக் கெழுக்கள் (Binomial Coefficients) எனப்படும்.\\(^n C_r\\)  -ன்
-மதிப்புகளை சூத்திரங்களை பயன்படுத்திக் காண இயலும் என்றாலும் அதைவிட எளிமையான முறையிலும் காணலாம்.
+In Chapter 4 we have learnt and used the symbol \\( ^nC_r\\) which is defined as
+ 
+ \\( ^n C_r= \frac{n( n-1)( n-2)...(n-(r-1))}{r(r-1)(r-2)...1}\\) = \\(\frac {n!}{(n-r)!r!}\\)
 
-#### பாஸ்கல் முக்கோணம்
+Since \\( ^n C_r \\) occurs as the coefficients of \\(x^r\\) in \\((1 + x)^n\\) \\(n ∈ \N\\) and as the coefficients of \\(a^r b^{n−r}\\)
+in \\((a + b)^n\\) , they are called binomial coefficients. Though the values of \\( ^n C_r\\) can be computed by
+formula, there is an interesting simple way to find \\( ^n C_r\\) without doing cumbersome multiplications.
 
-பாஸ்கல் முக்கோணம் என்பது \\(^nc_r\\)-ன் மதிப்புகளை முக்கோண வடிவில் எழுதுதல் ஆகும்.
-இங்கு \\( (k+1)\\)ஆவது வரிசையானது \\(^kc_0,^kc_1,^kc_2,^kc_3,...,^kc_k\\)
- ஆகிய மதிப்புகளை உறுப்புகளாகப்
-பெற்றிருக்கும்.
 
-\\[^0c_0\\] \\(1\\)
+#### Pascal Triangle
+
+The Pascal triangle is an arrangement of the values of \\( ^n C_r \\) in a triangular form. The \\((k + 1)^{st}\\) row
+consists values of
+
+ \\(^kc_0,^kc_1,^kc_2,^kc_3,...,^kc_k\\)
+ 
+
+ In fact, the Pascal triangle is
+
+\\[^0c_0\\]
 \\[^1c_0  \  ^1c_1\\]
-\\[\ ^2c_0 \ ^2c_1 \ ^2c_2   \iff\\]
+\\[\ ^2c_0 \ ^2c_1 \ ^2c_2  \\]
 \\[^3c_0 \ ^3c_1 \ ^3c_2 \ ^3c_3\\]
 \\[^4c_0 \ ^4c_1 \ ^4c_2 \ ^4c_3 \ ^4c_4\\]
 \\[... \ ... \ ... \ ...\\]
-\\[... \ ... \ ... \...\\]
+\\[... \ ... \ ... \ ...\\]
+ 
+\\(\iff\\)
 
-\\( (a+b)^0,(a+b)^1,(a+b)^2,(a+b)^3\\) என்ற முற்றொருமைகளை நினைவுபடுத்தி அவற்றின்
-உறுப்புகளின் கெழுக்களை கவனிப்போம். அந்தக் கெழுக்களின் அமைப்பில் ஒரு அமைப்பு முறை
-உள்ளதைக் காணலாம்.
+\\[ 1 \\]
+\\[ 1  \  1 \\]
+\\[ 1  \  2 \ 1  \\]
+\\[ 1 \  3  \  3  \  1 \\]
+\\[ 1  \  4  \  6  \  4  \ 1 \\]
+\\[... \ ... \ ... \ ...\\]
+\\[... \ ... \ ... \ ...\\]
+
+Recall the expansion and observe the coefficients of each term of the identities \\( (a+b)^0,(a+b)^1,(a+b)^2,(a+b)^3\\) . There is a pattern in the arrangements of coefficents
+
 
 \\[(a+b)^0=1\\]
 \\[(a+b)^1=a+b\\]
 \\[(a+b)^2=a^2+2ab+b^2\\]
 \\[(a+b)^3=a^3+3a^2b+3ab^2+b^3\\]
 
-பாஸ்கலின் முக்கோணத்தை உற்று நோக்கும்போது, ஒவ்வொரு வரிசையின் ஆரம்பமும்,
-முடிவும் 1 ஆகவும் மற்றவை முன் வரிசையில் அதற்கு மேல் உள்ள இரு உறுப்புகளை கூட்ட
-கிடைப்பதாகவும் உள்ளது. எடுத்துக்காட்டாக, ‘3’ என்பது அதற்கு முன் வரிசையில் உள்ள 1 மற்றும்
-2-ன் கூடுதல் ஆகும். 10 என்பது அதற்குமுன் வரிசையில் 10-க்கு நேர்மேலே உள்ள இரு எண்கள் 4
-மற்றம் 6-ன் கூடுதலாகும். \\( (a+b)^n=^ncoa^nb^0+^nc1a^{n-1}b^1+...^nc_ra^{n-r}b^r+...+^nc_na^0b^n\\) என்பது
-\\( (a+b)^n\\)-ன் ஈருறுப்பு விரிவாகும். இதனை பின்னர் நிரூபிப்போம் n-ன் அனைத்து மதிப்புகளுக்கும்,
-\\( (a+b)^n\\)-ன் ஈருறுப்பு விரிவை பாஸ்கலின் முக்கோணத்தைப் பயன்படுத்தி எழுதலாம்.
-எடுத்துக்காட்டாக, பாஸ்கல் முக்கோணத்தின் ஐந்தாவது வரிசையை பயன்படுத்தி \\( (a+b)^4\\) -ன்
-விரிவையும், ஆறாவது வரிசையைப் பயன்படுத்தி \\( (a+b)^5\\)-ன் விரிவையும் எழுதலாம்.
 
-\\( (a+b)^5\\)-ன் விரிவில், கெழுக்கள் இல்லாமல் உறுப்புகள்
-\\(a^5,a^4,b,a^3b^2,a^2b^3,ab^4,b^5\\) என்ற வடிவில் அமையும்
-பாஸ்கல் முக்கோணத்தின் 6 ஆவது வரிசை,
-1 5 10 10 5 1 என்பதாகும்.
+\\[   1 \\]
+\\[   1  \ \ 1 \\]
+\\[   1 \  2  \ 1 \\]
+\\[   1 \ 3 \ 3 \ 1 \\]
+ 
 
-இவை இரண்டையும் பயன்படுத்தி, \\( (a+b)^5=a^5+5a^4b+10a^3b^2+10a^2b^3+5ab^4+b5\\) என
-எழுதலாம்.
-பெருக்கல், வகுத்தல் இல்லாமல் கூட்டலை மட்டுமே பயன்படுத்தி பாஸ்கல் முக்கோணம்
-உருவாக்கப்பட்டுள்ளது. எனவே,\\( (a+b)^n,n\in \N \\)என்ற ஈருறுப்பு விரிவினை எந்த வித பெருக்கலும்
-இல்லாமல் எழுத இயலும்.
+If we observe carefully the Pascal triangle, we may notice that each row starts and ends with 1
+and other entries are the sum of the two numbers just above it. For example ‘3’ is the sum of 1 and 2
+above it; ‘10’ is the sum of 4 and 6 above it. We will prove in a short while that
 
-மேற்கண்ட முக்கோண வடிவம், 17ஆம் நூற்றாண்டைச் சேர்ந்த பிரஞ்ச் கணித மேதை பிளய்சு
-பாஸ்கலின் கண்டுபிடிப்பாகும். இவர், இந்த அமைப்பின் கணித பண்புகளை கண்டறிந்து சரியான
-முறையில் நிகழ்தகவியலில் பயன்படுத்தியவர்.
 
-#### மிகை முழு எண் அடுக்குக்கான ஈருறுப்புத் தேற்றம்(Binomial Theorem for Positive Integral Index)
+\\( (a+b)^ n = ^nC_o a^n b^0+ ^nC_1 a^{n-1} b^1 +...+ ^nC_r a^{n-r} b^r+...+ ^nC_n a^0b^n\\)
 
-இப்போது, மிகவும் புகழ் வாய்ந்த தேற்றங்களில் ஒன்றான ஈருறுப்புத் தேற்றத்தினைக்
-காண்போம்.
 
-#### தேற்றம் 5.1 மிகை முழு எண் அடுக்குக்கான ஈருறுப்புத் தேற்றம்(Binomial Theorem for Positive Integral Index)
-ஏதேனும் ஒரு இயல் எண் n-க்கு,\\( (a+b)^n=^nc_0a^nb^0+^nc_1a^{n-1}b^1+...+^nc_ra^{n-r}b^r+...+^nc_na^0b^n\\)ஆகும்.
-நிரூபணம் கணிதத் தொகுத்தறிதல் மூலம் இந்தத் தேற்றத்தை நிரூபிக்கலாம். ஏதேனும் ஒரு மிகை
-முழு எண் n-க்கு, P(n) என்பது \\( (a+b)^n=^nc_0a^nb^0+^nc_1a^{n-1}b^1+...+^nc_ra^{n-r}+...^nc_na^0b^n,^1c_0=1\\)மற்றும் \\( ^1c_1=1\\), எனவே, P(1)-ன் வலப்பக்கம் \\(a^1b^0+a^0b^1\\)ஆகும். இது இடப்பக்கம் உள்ள
-\\( (a+b)^1\\) -க்குச் சமம். இதனால் P(1) மெய் ஆகும். ஏதேனும் ஒரு மிகை முழு எண் k-க்கு P(k) மெய்
-எனக் கொள்வோம். அதாவது,
+which is the binomial expansion of \\((a + b)^n\\) . The binomial expansion of \\((a + b)^n\\) for any \\(n ∈ \N \\) can
+be written using Pascal triangle. For example, from the fifth row we can write down the expansion of
+\\((a + b)^4\\) and from the sixth row we can write down the expansion of \\((a + b)^5\\) and so on. We know the
+terms (without coefficients) of \\((a + b)^5\\) are
 
-\\( (a+b)^k=^kc_0a^kb^0+^kc_1a^{k-1}b^1+...+^kc^ra^{k-r}b^r+...+^kc^ka^0b^k\\)
 
-\\( (a+b)^{k+1}=(a+b)(a+b)^k\\)
+\\(a^5,a^4,b,a^3b^2,a^2b^3,ab^4,b^5\\)
 
-\\(=(a+b)[^kc_0a^kb^0+^kc_1a^{k-1}b^1+...+^kc_ra{k-r}b^r+...+^kc_ka^0b^k]\\)
+and the sixth row of the Pascal triangle is
+ 
+ 1  5  10  10  5  1
 
-\\(=[^kc_0a^{k+1}b^0+^kc_1a^kb^1+...+^kc_ra{k-r+1}b^r+...+^kc_ka^1b^k]+[^kc_0a^kb^1+^kc_1a^{k-1}b^2+...+^kc_ra^{k-r}b^{r+1}+...+^kc_ka^0b{k+1}]\\)
+ Using these two we can write
 
- \\(=^kc_0a^{k+1}b^0+[^kc_1+^kc_0]a^kb^1+...+[^kc_r+^kc_{r-1}]a{k-r+1}b^r+...+[^kc_k+^kc_{k-1}]a^1b^k+^kc_ka^0b^{k+1}\\)
+ \\( (a+b)^5=a^5+5a^4b+10a^3b^2+10a^2b^3+5ab^4+b5\\)
 
- \\(^nc_r+^nc_{r-1}=^{n+1}c_r\\)என்ற சேர்வுகளின் பண்பின்படி,
+The Pascal triangle can be constructed using addition alone, without using any multiplication or
+division. So without multiplication we can write down the binomial expansion for \\((a + b)^n\\) for any
+\\(n ∈ \N\\).
 
-\\(=^{k+1}c_0a^{k+1}b^0+^{k+1}c_1a^kb^1+^{k+1}c_2a^{k-1}b^2+...+^{k+1}c_ra^{k-r+1}b^r\\)
+The above pattern resembling a triangle, is credited in the name of the seventeenth century French
+Mathematician Blaise Pascal, who studied mathematical properties of this structure and used this
+concept effectively in Probability Theory
 
-\\(+...+^{k+1}c_ka^1b^k+^{k+2}c_{k+1}a^0b^{k+1}\\)
 
-\\( (a+b)^{k+1}=^{k+1}c_0a{(k+1)}b^0+^{k+1}c_1a^{(k+1)-1}b^1+^{k+1}c_2a^{(k+1)-2}b^2+...\\)
+##### 5.2.2 Binomial Theorem for Positive Integral Index
 
-\\(+^{k+1}c_ra^{(k+1)-r}b^r+...+^{k+1}c_ka^1b^{(k+1)-1}+^{k+1}c_{k+1}a^0b^{k+1}\\)
+Now we prove the most celebrated theorem called Binomial Theorem.
 
-எனவே, P(k) மெய் எனில் P(k+1) மெய் ஆகும். இதனால் கணித தொகுத்தறிதல் மூலம் எல்லா
-இயல் எண் n-க்கும் P(n) மெய் என நிரூபணமாகிறது.
+###### theorem 5.1 (Binomial Theorem for Positive Integral Index) : 
+If n is any positive integer, then
 
-எனவே,\\( (a+b)^n=^nc_0a^nb^o+^nc_1a^{n-1}b^1+...+^nc_ra^{n-r}b^r+...+^nc_na^0b^n,n\in \N\\)
+
+\,\\( (a+b)^n=^nc_0a^nb^0+^nc_1a^{n-1}b^1+...+^nc_ra^{n-r}b^r+...+^nc_na^0b^n\\)
+
+Proof. We prove the theorem by using mathematical induction. For any positive integer n, let P (n)
+be the statement
+
+
+ \\( (a+b)^n = ^nC_0a^nb^0 + ^nC_1a^{n-1}b^1 + ...+ ^nc_ra^{n-r} +...+ ^nc_na^0b^n.\\)
+
+Since
+
+ \\( ^1C_0 = 1\\) and \\( ^1C_1 = 1\\)
+ 
+the expression in the right hand side of \\(P(1)\\) is \\(a^1 b^0 + a^0 b^1\\) which is same as \\(a + b\\); the left hand side
+is \\((a + b)^1\\) . Hence \\(P(1)\\) is true.
+We assume that for a positive integer \\( k, P(k)\\) is true. That is,
+
+\\( (a+b)^k = ^kC_0 a^kb^0 + ^kC_1 a^{k-1}b^1 + ... + ^kC^r a^{k-r}b^r + ... + ^kC^k a^0b^k\\)
+
+Let us use the identity
+
+\\(^nC_r + ^rC_{r - 1} = ^{n+1}C_r\\) 
+
+in the proof. Now
+
+\\( (a+b)^{k+1} = (a+b)(a+b)^k\\)
+
+\\(= (a+b) [^kC_0a^kb^0+^kC_1a^{k-1}b^1 + ... + ^kC_ra^{k-r}b^r+...+^kC_ka^0b^k] \\)
+
+
+\\( = [^kC_0a^{k+1}b^0+^kC_1a^kb^1 + ... + ^kC_ra^{k-r+1}b^r +...+ ^kC_ka^1b^k] + [^kC_0a^kb^1+^kC_1a^{k-1}b^2 + ... + ^kC_ra^{k-r}b^{r+1} + ... + ^kC_ka^0b^ {k+1}] \\)
+
+
+ \\( = ^kC_0a^{k+1}b^0+[^kC_1 + ^kC_0 ]a^kb^1 +...+[^kC_r+^kC_{r-1} ]a^{k-r+1}b^r +...+ [ ^kC_k+^kC_{k-1}]a^1b^k+^kC_ka^0b^{k+1}\\)
+
+
+\\( =^{k+1}C_0a^{k+1}b^0+^{k+1}C_1a^kb^1+^{k+1}C_2a^{k-1}b^2 +...+ ^{k+1}C_ra^{k-r+1}b^r + ... + ^{k+1}C_ka^1b^k+^{k+2}C_{k+1}a^0b^{k+1} \\)
+
+\\( (a+b)^{k+1} = ^{k+1}C_0a^{(k+1)}b^0+^{k+1}C_1a^{(k+1)-1}b^1+^{k+1}C_2a^{(k+1)-2}b^2 + ... +^{k+1}C_ra^{(k+1)-r}b^r + ... + ^{k+1}C_ka^1b^{(k+1)-1} + ^{k+1}C_{k+1}a^0b^{k+1} \\)
+
+This shows that \\(P(k + 1)\\) is true whenever \\(P(k)\\) is true. Thus, by the principle of mathematical
+induction, \\(P(n)\\) is true for all natural numbers n. Hence,
+
+\\( (a+b)^n=^nC_0a^nb^o+^nC_1a^{n-1}b^1+...+^nC_ra^{n-r}b^r+...+^nC_na^0b^n,n\in \N\\)
 
 
 
