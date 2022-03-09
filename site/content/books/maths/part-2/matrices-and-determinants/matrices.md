@@ -2,13 +2,40 @@
 title: 'Matrices'
 date: 2018-11-14T19:02:50-07:00
 draft: false
+extensions:
+    - katex
 weight: 2
 ---
 
 
 
-## அணிகள்(Matrices)
+A matrix is a rectangular array or arrangement of entries or elements displayed in rows and
+columns put within a square bracket [ ].
 
-உறுப்புகள் அல்லது மூலகங்களை செவ்வக வடிவில் நிரைகள் மற்றும் நிரல்களாக   [ ] என்ற அடைப்புக்குறியினுள் குறிப்பிடுவது அணியாகும்.
-ஓர் அணியின் உறுப்புகள் துவாக மெய்யெண்கள், கலப்பெண்கள், ஒருமாறிச் சார்புகள்,
-(அதாவது பல்லுறுப்புக் க�ோவைகள், முக்கோணவியல் சார்புகள் மற்றும் இவற்றின் கலப்பாக)
+In general, the entries of a matrix may be real or complex numbers or functions of one variable
+(such as polynomials, trigonometric functions or a combination of them) or more variables or any
+other object. Usually, matrices are denoted by capital letters A, B, C, ... etc. In this chapter the entries
+of matrices are restricted to either real numbers or real valued functions on real variables.
+
+#### General form of a matrix
+If a matrix A has m rows and n columns, then it is written as
+
+\\(\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}, 1 \le i \le m, 1 \le j \le n
+    \\)
+
+\\(\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    a_{11} & a_{12} & \cdots & a_{1f} & \cdots & a_{1n} \\\\ 
+    c & d \end{bmatrix}
+    \\)
+
+\\(\begin{bmatrix} 
+    a & b \\\\ 
+    c & d \end{bmatrix}\\)
+
+
+(i) |x|<r எனில், தேவையானதும் மற்றும் போதுமானதுமான நிபந்தனை -r<x<r என நாம்
+நிறுவுவோம். \\(|x| \ge 0\\) என்பதால் r>0 என குறிக்கலாம். x-ன் குறியீட்டினைப் பொறுத்து
+இரண்டு நிலைகள் உள்ளன.
