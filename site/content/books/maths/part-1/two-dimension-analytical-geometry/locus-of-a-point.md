@@ -10,7 +10,7 @@ extensions:
 
 **Definition 6.1**
 
-**A point ** is an exact position or location on a plane surface.
+A **point** is an exact position or location on a plane surface.
 
 It is important to understand that a point is not a thing, but a place. We indicate the position of a point
 by placing a dot. In plane analytical geometry, points are defined as ordered pairs of real numbers,
