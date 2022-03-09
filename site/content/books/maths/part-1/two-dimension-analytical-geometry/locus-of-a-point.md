@@ -8,148 +8,126 @@ extensions:
 ---
 
 
-**வரையறை 6.1**
+**Definition 6.1**
 
-**ஒரு புள்ளி (point)** என்பது ஒரு தளத்தின் மேற்பரப்பில் உள்ள ஒரு
-குறிப்பிட்ட இடத்தை *(location)* குறிப்பதாகும். புள்ளியானது
-ஒரு
-பொருளையோ அல்லது வடிவத்தையோ குறிப்பதல்ல.
+**A point ** is an exact position or location on a plane surface.
 
-இருபரிமாணபகுமுறை வடிவியலில் புள்ளிகளை ஆயத்தொலை அமைப்பு முறையில்
-மெய்யெண்களின் வரிசைப்படுத்தப்பட்ட சோடிகளாக அதாவது *(x, y)* எனக் குறிப்பிடுகிறோம்.
-பொதுவாக, கிடைமட்டக் கோட்டை *x* -அச்சு எனவும் *x* -அச்சுக்கு செங்குத்தான கோட்டை *y*-அச்சு
-எனவும் அழைக்கிறோம். இவ்விரு அச்சுகளின் வெட்டும் புள்ளியை ஆதிப்புள்ளி அல்லது ஆதி என
-அழைக்கிறோம். ஒரு தளத்தின் மீது ஏதேனும் ஒரு புள்ளி *P*-யை ஒரு தனித்த வரிசைப்படுத்தப்பட்ட
-சோடி (*x*, *y*) எனக் குறிப்பிடலாம். இங்கு *x* என்பது புள்ளி *P* -க்கும் *y* -அச்சுக்கும் இடைப்பட்ட
-தொலைவு மற்றும் *y* என்பது புள்ளி *P* -க்கும் *x* -அச்சுக்கும் இடைப்பட்ட தொலைவு ஆகும்.
-*y* -அச்சின் இடப்புறத்தில் *x* குறை மதிப்பு கொண்டதாகவும் இதேபோன்று, *x* -அச்சிற்குக் கீழ்புறம்
-*y* குறை மதிப்பாக இருக்கும். பயன்பாட்டின்போது *x* மற்றும் *y* -க்குப் பதிலாக வேறு எழுத்துக்களையும்
-பயன்படுத்தலாம். மேலும், அச்சுகளுக்கு வெவ்வேறு அளவுத்திட்டங்களையும் பயன்படுத்தலாம்.
+It is important to understand that a point is not a thing, but a place. We indicate the position of a point
+by placing a dot. In plane analytical geometry, points are defined as ordered pairs of real numbers,
+say, *(x, y)* with reference to the coordinate system.  
 
-**வரையறை 6.2**
+Generally, a horizontal line is called the *x*-axis; and the line vertical to the *x*-axis is called the
+*y*-axis. Intersection of these two axes is called the origin. Any point *P* in the plane can be located by
+a unique ordered pair of numbers(*x*, *y*) where *x* gives the distance between the point *P* and the *y*-axis
+and *y* denote the distance between the point *P* and the *x*-axis. Note that if *x* is negative it lies left of
+*y* − axis, similarly if y is negative it lies below the *x*-axis. In applications, often letters other than *x*
+and *y* are used, and different scales are chosen in the horizontal and vertical directions.
 
-ஒரு புள்ளியானது சில குறிப்பிட்ட நிபந்தனைகளுக்கு உட்பட்டு இயங்கும்போது, அப்புள்ளி
-நகர்ந்து செல்லும் பாதை அதன் **நியமப்பாதை (Locus)** எனப்படும்.
+**Definition 6.2**
 
-கீழ்காணும் விளக்க எடுத்துக்காட்டுகளில் நியமப்பாதை மற்றும் அதன் பயன்களை பற்றியும்
-அறியலாம்.
+The path traced out by a moving point under certain conditions is called the locus of that point.
+Alternatively, when a point moves in accordance with a geometrical law, its path is called **locus**.
+The plural of locus is loci. 
 
+The following illustrations shows some cases of loci and its different uses.
 
-**விளக்க எடுத்துக்காட்டு 6.1** 
+**Illustration 6.1:** 
 
-கிரிக்கெட் விளையாட்டில் பந்து வீசுபவர், ஒரு பந்தை வீசும்போது
-அப்பந்து செல்லும் பாதை அதன் நியமப்பாதையாகும். பந்து வீசுபவர் மூலம் வீசியபந்தை
-மட்டையாளர் காலில் தடுத்தாடும்போது, பந்து வீசும் அணியினருக்கும் மட்டையாளருக்கும்,
-இடையே ஏற்படும் பிரச்சனைக்கு *(LBW)* தீர்வுகாண மூன்றாவது நடுவரின் முடிவுக்கு விடப்படும்.
-அவர் பந்து செல்லும் பாதையைத் திரையில்
-மெதுவாக
-இயக்கச்
-செய்து
-அப்பந்து
-மட்டையாளர் காலில் பட்டு பின்னர் ஸ்டம்பில்
-பட வாய்ப்பு உள்ளதா எனச் சரிபார்த்து
-பின்னர் சரியான முடிவினை அறிவிப்பார்.
-இங்கு பந்து புள்ளியாகவும் அப்பந்து செல்லும்
-பாதை நியமப்பாதையாகவும் கருதப்படுகிறது.
-இம்முறையானது அகில உலகக் கிரிக்கெட்
-போட்டிகளில்
-தற்போது
-அனுமதிக்கப்படுகிறது.
+In cricket, when a ball is bowled by a bowler, the path traced out by the ball is the
+locus of the ball. Whenever there is dispute between batsmen and the fielders for leg before wicket
+*(LBW)* decisions, the locus of the ball
+solves the crises, raised by the players
+for review, through the third umpire. The
+likely path of the ball can be projected
+forward, through the batsman’s legs, to
+see whether it would have hit the stumps
+or not. Consultation of the third umpire,
+for conventional slow motion or HawkEye, the probable decision will be taken.
+This method is currently sanctioned in
+international cricket.
+https://www.hawkeyeinnovations.com/sports
 
 
 ![relation](/books/maths/part-1/twodimension/locusofapoint/6.3.png "relation")
 
 
-https://www.hawkeyeinnovations.com/sports என்ற இணையதளத்தில் காணலாம்.
+**Illustration 6.2**
 
-**விளக்க எடுத்துக்காட்டு 6.2**
-
- *P* என்ற ஒரு புள்ளியானது ஒரு வட்டத்தின் விளிம்பில் உள்ளது என்க.
-அந்த வட்டமானது ஒரு நேர்க்கோட்டின் மீது சறுக்கி (நழுவி) செல்லாமல் உருண்டு செல்கிறது.
-அவ்வாறு உருண்டு செல்லும்போது வட்டத்தின் விளிம்பில் உள்ள *P* என்ற புள்ளி உருவாக்கும்
-நியமப்பாதையை உருள்வளை *(cycloid)* என அழைக்கலாம்.
-
-இவ்வளைவரையை www.mathworld.wolfram.com/cyloid மற்றும் www.gogebra.org/b/bd2ADu2I வளைதளத்தில் காணலாம்.
+ Suppose *P* be a point on the rim (circumference) of a circular wheel. When the
+circle is rolling without slipping along a straight line, the locus of the point P on the rim is shown in
+figure. The path traced out by the point P is known as cycloid. (Try yourself by taking a point inside
+the circle. Find the names of the curve from the web site: www.mathworld.wolfram.com
+https://www.geogebra.org/b/bd2ADu2I
 
 ![relation](/books/maths/part-1/twodimension/locusofapoint/6.4.png "relation")
 
-**விளக்க எடுத்துக்காட்டு 6.3** 
+**Illustration 6.3** 
 
-ஒரு இலக்கைத் தாக்குவதற்கு இராணுவக்கப்பலில் இருந்து ஒரு
-ஏவுகணை ஏவப்படுகிறது. எதிர்வரும் ஏவுகணையை இடைமறித்து அழிக்கத் தரையில் இருந்து
-மற்றொரு
-ஏவுகணை
-ஏவப்படுகிறது.
-ஏவுகணைகளின்
-நியமப்பாதைகள்
-படத்தில்
-காட்டப்பட்டுள்ளன. இது போன்ற நிகழ்வுகள் பல போர்களில் முன் கூட்டியே துல்லியமாக
-நடைமுறைப்படுத்த
-நியமப்பாதையின்
-கருத்தாக்கம் மிக முக்கியப் பங்கு வகிக்கிறது.
-வளைகுடா போரின் (2 ஆகஸ்ட் 1990 முதல்
-28 பிப்ரவரி 1991 முடிய) போது இஸ்ரேலின்
-நகரங்களை ஈராக் ஸ்கட் *(Scud)* ரக
-ஏவுகணைகளை
-கொண்டு
-தாக்கியது.
-அவற்றை இடைமறித்து அழிக்க இஸ்ரேல்
-பேட்ரியாட் *(Patriot)* ரக ஏவுகணைகளைப்
-பயன்படுத்தியது.
+A missile is launched from the army ship to attack and another from the land to
+intercept it. The loci of the missiles are shown in figure.
+
+Locus of missiles play a vital role in
+many wars. During the Gulf War (2
+Aug1990-28 Feb 1991), Iraq attacked
+Israeli cities with *(Scud)* missiles. To
+defend from Scud attack, Israel used
+Patriot missiles to shoot down enemy
+missiles. 
+
+To launch a satellite or space
+shuttle successfully, the determination
+of path  plays an crucial role in space
+research.
 
 ![relation](/books/maths/part-1/twodimension/locusofapoint/6.5.png "relation")
 
-உலக அரங்கில் விண்வெளி ஆராய்ச்சியாளர்கள் செயற்கைக் கோளை வெற்றிகரமாக
-விண்ணில் செலுத்துவதற்கும் அதன் சுற்று வட்டப் பாதையில் நிலை நிறுத்துவதற்கும்
-நியமப்பாதையின் கருத்தாக்கம் முக்கியப் பங்கு வகிக்கிறது.
+An equation in the two variables  *x* and *y* will ordinarily be satisfied by infinitely many pair of
+real value of *x* and *y*. Every such pair is called a real solution of the equation. Each real solution of
+the equation will have its graph. The collection of all these graphs is called the locus of the given
+equation.
 
-*x* மற்றும் *y* என்ற இரு மாறிகளைக் கொண்ட சமன்பாட்டைச் சாதாரணமாக *x* மற்றும் *y*
-ஆகிய மெய்மதிப்புக்களை கொண்ட எண்ணற்ற ஜோடிகள் நிறைவு செய்கின்றன. நிறைவு செய்யும்
-ஒவ்வொரு ஜோடியும் அச்சமன்பாட்டின் மெய்யெண் தீர்வு எனப்படும். சமன்பாட்டின் ஒவ்வொரு
-மெய்யெண் தீர்வும் அதனுடைய வரைபடத்தைப் பெற்றிருக்கும். இவ்வரைபடங்களின் தொகுப்பு
-கொடுக்கப்பட்ட சமன்பாட்டின் நியமப்பாதை எனப்படும்.
 
-கணிதத்தில் உள்ள சில முக்கிய நியமப்பாதைகள் பின்வரும் அட்டவணையில்
-கொடுக்கப்பட்டுள்ளன.
+The following table shows some important loci in mathematics
 
 
 ![relation](/books/maths/part-1/twodimension/locusofapoint/6.6.png "relation")
 
-ஒரு புள்ளியின் நியமப்பாதையை காணும் வழிமுறைகளைப்பற்றி இங்கு விவாதிக்கலாம்.
-நியமப்பாதையின் சமன்பாடு என்பது அப்பாதையில் அமைந்துள்ள அனைத்து புள்ளிகளின்
-ஆயத்தொலைவுகளுக்கு இடையே உள்ள தொடர்பு ஆகும்.
+Now let us discuss the ways of finding the locus of the points. The equation of the locus is the
+relation that exists between the coordinates of all the points strictly lying on the path.
 
-**ஒரு புள்ளியின் நியமப் பாதையின் சமன்பாடு காணும் செயல்முறைகள்**
+**Procedure for finding the equation of the locus of a point**
 
-(i) P என்ற புள்ளியின் நியமப் பாதையைக் காண வேண்டும் எனில் புள்ளி P-ன்
-ஆயக்கூறுகளை (h, k) என எடுத்துக் கொள்க.
-(ii) தெரிந்த அளவுகளையும் மற்றும் தெரியாத துணையலகுகளையும் (Parameter)
-பயன்படுத்திக் கொடுக்கப்பட்ட நிபந்தனைகளை சமன்பாடுகளாக எழுதுக.
-(iii) தெரியாத துணையலகுகளை நீக்கி h, k மற்றும் தெரிந்த அளவுகள் மட்டும் இருக்குமாறு
-சமன்பாட்டைக் காண்க.
-(iv) கிடைக்கும் சமன்பாட்டில் h-க்கு பதிலாக x மற்றும் k-க்கு பதிலாக y எனப் பிரதியிடக்
-கிடைக்கும் சமன்பாடு புள்ளி p-ன் நியமப்பாதையின் சமன்பாடாகும்.
+(i) If we are finding the equation of the locus of a point P, assign coordinates, say *(h, k)* to *P*
+(ii) Express the given conditions as equations in terms of the known quantities and unknown
+parameters.
+(iii) Eliminate the parameters, so that the resulting equation contains only *h*, *k* and known quantities.
 
-{{< box title="எடுத்துக்காட்டு 6.1 " type="objective" >}}
+(iv) Replace *h* by *x*, and *k* by *y*, in the resulting equation. The resulting equation is the equation of
+the locus of point *P*.
 
-x -அச்சிலிருந்து உள்ள தொலைவானது y -அச்சுலிருந்து உள்ள தொலைவுக்கு சமமாக இருக்குமாறு நகரும் ஒரு புள்ளியின் நியமப்பாதையைக் காண்க.
+{{< box title="Example 6.1 " type="objective" >}}
 
-**தீர்வு :**
+Find the locus of a point which moves such that its distance from the x-axis is equal
+to the distance from the y-axis.
 
-*P* (h ,k) என்பது நியமப்பாதையின் மீது அமைந்துள்ள ஏதேனும் ஒரு புள்ளி என்க.
-புள்ளி \\( P\\)-லிருந்து *x* மற்றும் *y*-அச்சுகளுக்கு வரையப்படும் செங்குத்துக்கோடுகளின்
-அடிப்புள்ளிகள் முறையே \\(A, B\\) என்க.
+**Solution :**
 
-புள்ளி P என்பது \\((OA ,OB )\\) = \\((BP,AP)\\) = \\((h,k)\\)
+Let *P* (h ,k) be a point on the locus.
+Let \\(A, B\\) be the foot of the perpendiculars drawn
+from the point \\( P\\) on the *x*-axis and the *y*-axis respectively.
 
-கொடுக்கப்பட்ட நிபந்தனையின்படி,
+Therefore P is  \\((OA ,OB )\\) = \\((BP,AP)\\) = \\((h,k)\\)
+
+Given that,
 
 \\(AP = BP \Rightarrow k = h\\)
 
-\\( h = x \\)மற்றும் \\(k =y \\)ஐப் பிரதியிட
+replacing *h* and *k* by substituting
 
-\\(P\\)-ன் நியமப்பாதை \\(y = x\\) என்ற ஆதி வழியே செல்லும்
-கோடாகும்.
+\\( h = x \\) and  \\(k =y \\)ஐப் பிரதியிட
+
+The locus of \\(P\\) is, \\(y = x\\) , is a line passing through the
+origin.
 
 ![relation](/books/maths/part-1/twodimension/locusofapoint/6.7.png "relation")
 
