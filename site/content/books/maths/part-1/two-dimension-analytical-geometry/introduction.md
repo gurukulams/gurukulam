@@ -6,124 +6,91 @@ weight: 1
 ---
 
 
-பிரான்காஸ்வைட் *(Francois Viete-1540-1603)* என்பவர்
-முதன்முதலில் முறையான இயற்கணிதக் குறியீடுகளைக் கண்டறிந்து
-அவற்றைச் சமன்பாடுகளின் கருத்தாக்கத்தில் *(Theory of Equation)*
-அறிமுகப்படுத்தினார். *1630* -களில் பிரெஞ்சு நாட்டின் கணித
-மேதைகளும்-தத்துவ அறிஞர்களுமான **ரெனி டெகார்டே** மற்றும்
-**பியரி டி ஃபெர்மர்ட்** இருவரும் பிரான்காஸ் வைட்டின் இயற்
-கணிதத்தைத் தழுவிய பகுமுறை வடிவியலை தனித்தனியாக
-கண்டறிந்தார்கள். டெகார்டே அவர்கள் பகுமுறை வடிவியலானது
-“இயற்கணித
-சூத்திரங்களை
-படமாக
-சித்தரிப்பதற்கான
-வழிமுறையாகவும்”மற்றும்
-ஆயத்தொலை
-அமைப்பானது
-“புள்ளிகளை ஒரு தளத்தில் குறிப்பதற்கான வழிமுறையாகவும்”
-மேம்படுத்தினார். இயற்கணிதத்தை வடிவியலுடன் தொடர்புபடுத்தியதே அவருடைய அரிய
-சாதனையாகும். இயற்கணித சமன்பாடுகளை வடிவியலில் உள்ள வடிவங்களைப் பயன்படுத்தி
-எவ்வாறு எழுதி விவரிக்கலாம் என்பதை விரிவாக விளக்கினார். ‘பகுமுறை வடிவியல்’ என்பது
-டெகார்டே பெயரில் “கார்டீசியன் வடிவியல்” *(Cartesian Geometry)* எனவும் அழைக்கப்படுகிறது.
+Francois viete(1540-1603) introduced the first systematic algebraic
+notation and contributed to the theory of equations.Two French
+mathematicians-philosophers *(Rene Descartes ´)* and *(Pierre de Fermat)*
+independently founded analytical geometry in the-1630s by adapting
+Francois viete’s algebra to the study of geometric loci. Descartes
+established analytical geometry as“a way of visualizing algebraic
+formulas” and developed the coordinate system as “a device to locate
+points on a plane”. His main achievement was to bridge the gap between
+algebra and geometry. With regard to algebra, he explained in detail that
+how algebraic equations can be expressed and explained through the
+use of geometrical shapes. Analytical geometry is a great invention of
+Descartes and Fermat. Cartesian geometry, the alternative term used for
+analytical geometry is named after him.
 
-17ஆம் நூற்றாண்டிலிருந்து கணிதவியலானது அடிப்படை அல்லது தூய கணிதம் *(pure
-mathematics)* மற்றும் பயன்பாட்டு கணிதம் *(applied mathematics)* என இருவேறு திசைகளில்
-வளர்ச்சியடைந்து வருகிறது. 17 ஆம் நூற்றாண்டில், ஒரு நேர்க்கோட்டில் இயங்கும் ஒரு
-பொருளின் இயக்கம் பற்றி பயன்பாட்டுக் கணிதத்தில் முதன்முதலில் கண்டறியப்பட்ட பகுதியாகும்.
-வணிகம், பொருளாதாரம், சமூக அறிவியல், இயற்பியல் மற்றும் மருத்துவம் ஆகிய துறைகளில்
-நேர்க்கோட்டின் வரைபடங்கள் பெரிதும் பயன்படுகின்றன. அடிப்படை வடிவியலில் மிகக் குறைந்த
-நீளம் சார்ந்த கோடுகள் மிகமுக்கியப் பங்காற்றுவது மட்டுமல்லாமல் வரலாற்று முக்கியத்துவம்
-வாய்ந்ததாகவும் கருதப்படுகிறது.
+René Descartes
+1596–1650 A.D
 
-அன்றாட வாழ்வில் நடைபெறும் ஒவ்வொரு செயல்பாட்டினையும் கணிதவியல் மொழிக்கு
-மாற்றி அமைப்பதே நமது முதல் பணியாகும். கணித மாதிரிகளை உருவாக்கப் பல உத்திகள்
-பயன்படுத்தப்படுகின்றன. கொடுக்கப்பட்ட தகவல்களின் தொகுப்பைப் பயன்படுத்தி எவ்வாறு
-ஒருபடிச் சமன்பாடுகளை உருவாக்குவது மற்றும் அவற்றைப் பொருத்தமான கணிதவியல்
-உத்திகளைப் பயன்படுத்தி எவ்வாறு தீர்ப்பது என்பதையும் காண்போம். கீழே விளக்கப்பட்டுள்ள
-சில நடைமுறை கணக்குகளைப் பார்ப்போம்.
+From the17th century onwards, mathematics is being developed in two directions: pure and applied
+mathematics. One of the first areas of applied mathematic studied in the 17th century was the motion
+of an object in a straight line. The straight line graphs can be used in the fields of study as diverse as
+business, economics, social sciences, physics, and medicine. The problem of the shortest line plays a
+chief and historically important role in the foundations of geometry.
 
-**நடைமுறை எடுத்துக்காட்டு 6.1** ஒரு மாணவன், அவனுடைய வீட்டிலிருந்து பள்ளிக்குச் சராசரியாக
-மணிக்கு 6 கி.மீ. வேகத்தில் நடந்து சென்றால் பள்ளி தொடங்குவதற்கு 10 நிமிடம் முன்னதாகப்
-பள்ளியைச் சென்றடைகிறான். அதே வேளையில், சராசரியாக மணிக்கு 4 கி.மீ வேகத்தில் நடந்து
-செல்லும்போது 5 நிமிடம் தாமதமாகப் பள்ளியைச் சென்றடைகிறான். அம்மாணவன் தினமும்
-காலை 8.00 மணிக்கு வீட்டிலிருந்து பள்ளிக்குப் புறப்பட்டுச் சென்றால் பின்வரும் வினாக்களுக்கு
-எவ்வாறு விடைகாணலாம்.
+Given a real-world problem, our first task is to formulate the problem using the language of
+mathematics. Many techniques are used in the construction of mathematical models. Let us see
+how linear equations (models) can be constructed from a given set of information and solved using
+appropriate mathematical techniques. Consider some of the real-world, simple problems as illustrated
+below:
 
-(i) அவனுடைய வீட்டிற்கும் பள்ளிக்கும் இடைப்பட்ட தொலைவு
+**Real life situation 6.1:** When a student walks from his house, at an average speed of 6 kmph, reaches
+his school by ten minutes before school starts. When his average speed is 4 kmph, he reaches his
+school five minutes late. If he starts to walk to school every day at 8.00 A.M, then how to find 
+(i) the
+distance between house and the school 
+(ii) the minimum average speed to reach the school on time
+and time taken to reach the school 
+(iii) the time at which the school starts 
+(iv) the pair of straight lines
+of his path of walk (Combined equation of two straight lines).
 
-(ii) சரியான நேரத்திற்கு அவன் பள்ளிக்குச் செல்ல ஆகும் குறைந்தபட்சச் சராசரி வேகம்
-மற்றும் மாணவன் பள்ளியைச் சென்றடைய ஆகும் நேரம்
+**Real life situation 6.2**
+Suppose the Government has decided to erect a new Electrical Power Transmission Substation to provide better power supply to two villages namely *A* and *B*. The substation has Two Dimensional Analytical Geometry
+to be on the line *l*. The distances of villages *A* and *B* from the foot of the perpendiculars *P* and *Q*
+on the line l are *3* km and *5* km respectively and
+the distance between *P* and *Q* is *6* km. How to
+calculate the smallest length of cable required to
+connect the two villages (or the roads that connect
+the villages as well as the power station) from the
+power station and to find the equations of the cable
+lines (or roads) that connect the power station to
+two villages.
 
-(iii) பள்ளி தொடங்கும் நேரம்
+**Real life situation 6.3:** Consider a hollow cylindrical vessel, with circumference 24 cm and height 10
+cm. An ant is located on the outside of vessel 4 cm from the bottom. There is a
+drop of honey at the diagrammatically opposite inside of the vessel, 3 cm from
+the top. What is the shortest distance the ant would need to crawl to get the
+honey? What is the equation of the path traced out by the ant. Here is a picture
+that illustrates the position of the ant and the honey.
 
-(iv) மாணவன் நடந்து செல்லும் பாதையின் இரட்டை நேர்க்கோடுகளின் சமன்பாடு.
-(இரு நேர்க்கோடுகளின் சேர்ப்புச் சமன்பாடு)
+**Real life situation 6.4:** The quantity demanded of a certain type of Compact Disk is *22,000* units
+when a unit price is *₹8*. The customer will not buy the disk, at a unit price of *₹30* or higher. On
+the other side the manufacturer will not market any disk if the price is *₹6* or lower. However, if
+the price is *₹14* the manufacturer can supply *24,000* units. Assume that the quantity demanded and
+quantity supplied are linearly proportional to the price. 
 
-**நடைமுறை எடுத்துக்காட்டு** **6.2**
-*A* மற்றும் *B* ஆகிய இரு
-கிராமங்களுக்குச் சிறப்பான மின்சாரம் அளிக்க ஒரு துணை மின்
-நிலையத்தை l என்ற சாலையில் அமைப்பதற்காக அரசு
-திட்டமிட்டுள்ளது. A மற்றும் *B* ஆகிய கிராமங்களுக்கும் l என்ற
-சாலையிலுள்ள முறையே *P* மற்றும் *Q* என்ற செங்குத்து அடி
-புள்ளிகளுக்கும் இடையே உள்ள தொலைவுகள் முறையே *3* கிமீ
-மற்றும் *5* கிமீ ஆகும். *P* மற்றும் *Q* இவற்றுக்கு இடைப்பட்ட தொலைவு
-*6* கிமீ எனில், (i) இரு கிராமங்களை துணை மின்நிலையத்துடன் இணைக்கும் கம்பியின் மிகக்
-குறைந்த நீளம் (கிராமங்களையும் துணை மின்நிலையத்தையும் இணைக்கும் சாலைகள்) மற்றும்
-(ii) மின் கம்பி செல்லும் பாதையின் சமன்பாடுகள் ஆகியவற்றை எவ்வாறு கணக்கிடலாம்.
+(i) the Demand Equation
 
-**நடைமுறை எடுத்துக்காட்டு 6.3** அடிச்சுற்றளவு 24 செமீ மற்றும் உயரம் 10 செமீ கொண்ட ஒரு
-உள்ளீடற்ற உருளை வடிவக் கலனின் வெளிப்புறத்தின் அடிப்பகுதியில் இருந்து
-4 செமீ உயரத்தில் ஒரு எறும்பு உள்ளது. அதற்கு நேர் எதிரே கலனின் உட்புறத்தில்
-மேல்பகுதியிலிருந்து 3 செமீ கீழே தேன் துளி ஒன்று உள்ளது.எறும்பு தேன் துளியை
-அடைய நகர்ந்து செல்லும் மிகக் குறைந்த தூரம் என்னவாக இருக்கும்? எறும்பு
-நகர்ந்து செல்லும் பாதையின் சமன்பாடு என்னவாக இருக்கும்? (படம் 6.2 -ல் எறும்பு
-மற்றும் தேன் துளி உள்ள இடங்களில் காட்டப்பட்டுள்ளன.)
+(ii) supply equation
 
-**நடைமுறை எடுத்துக்காட்டு 6.4** ஒரு குறிப்பிட்ட வகை குறுந்தகடு ஒன்றின் விலை
-*₹8* ஆக இருக்கும் போது *22,000* குறுந்தகடுகளை வாடிக்கையாளர்கள் வாங்குவார்கள். ஒரு
-குறுந்தகட்டினை *₹30* அல்லது அதற்கு மேல் விலை கொடுத்து வாங்க மாட்டார்கள். அதே சமயத்தில்
-ஒரு குறுந்தகட்டின் விலை *₹6* அல்லது அதற்குக் குறைவாக இருக்கும் போது உற்பத்தியாளர்
-விற்பனை செய்ய மாட்டார். இருப்பினும், குறுந்தகடு ஒன்றின் விலை *₹14* ஆக இருக்கும் போது
-உற்பத்தியாளரால் *24,000* குறுந்தகடுகளை வழங்க இயலும். தேவை மற்றும் வழங்கல் அளவுகள்,
-விலைக்கு நேர்விகித சமமாக
+(iii) the market equilibrium quantity and price
 
-எடுத்துக்கொண்டால் பின்வருவனவற்றை எவ்வாறு காணலாம்.
+(iv) The quantity of demand and supply when the price is*₹10* .
 
-(i) தேவைச் சமன்பாடு *(Demand Equation)*
+The equation of the straight line for each of the problems stated above, not only solves the specific
+case of solutions but also helps us get many information through it. Later, in this chapter, let us try
+to solve these types of problems by using the concepts of straight lines. In order to understand the
+straight line, we need to get acquainted with some of its basic concepts. Let us discuss those in detail
 
-(ii) வழங்கல் சமன்பாடு *(Supply Equation)*
+{{< box title="Learning objectives" type="objective" >}}
 
-(iii) சந்தை சமநிலையில் குறுந்தகடுகளின் எண்ணிக்கை மற்றும் விலை
-
-(iv) ஒரு குறுந்தகட்டின் விலை *₹10* எனில் தேவை மற்றும் வழங்கல் அளவு.
-
-மேலே விளக்கப்பட்டுள்ள நேர்கோட்டு கணக்குகளின் சமன்பாடுகள் ஒரு குறிப்பிட்ட வகை
-தீர்வுகளை மட்டும் அளிக்காமல், அவற்றிலிருந்து மேலும் பல தகவல்களை நாம் தெரிந்து
-கொள்வதற்கும் உதவுகிறது. நேர்க்கோடுகள் பற்றிய கருத்தாக்கத்தைப் பயன்படுத்தி மேற்குறிப்பிட்ட
-வகை கணக்குகளின் தீர்வுகளை பின்னர் இப்பாடப்பகுதியில் காணலாம். நேர்க்கோட்டைப் பற்றி
-புரிந்துள்ள, நேர்க்கோட்டுடன் தொடர்புடைய சில அடிப்படை கருத்துக்களை நாம் அறிந்து
-கொள்ள வேண்டியது அவசியமாகிறது. அவை பற்றி இனி விரிவாக விவாதிக்கலாம்.
-
-
-{{< box title="கற்றலின் நோக்கங்கள் (Learning objectives)" type="objective" >}}
-
-இந்த இயலைப் படித்தபின் மாணவர்கள் அறிந்திருக்க வேண்டியவைகள்
-
-- வெவ்வேறு வடிவங்களில் நேர்க்கோட்டின் சமன்பாட்டினை எழுதுதல்
-
-- கொடுக்கப்பட்ட
-இரு
-நேர்க்கோடுகள்
-செங்குத்தானவையா எனக் கண்டறிதல்
-
-- கொடுக்கப்பட்ட கோட்டிலிருந்து குறிப்பிட்ட புள்ளிக்கு உள்ள தூரத்தைக் காணல்
-மற்றும் இருஇணை கோடுகளுக்கு இடைப்பட்ட தூரத்தைக் காணல்.
-
-- கொடுக்கப்பட்ட நிபந்தனைகளின்படி நேர்க்கோடுகளின் சமன்பாட்டு தொகுதிகளை
-*(Family of Straight Lines)* காணல்
-
-- இரட்டைக் கோடுகளின் சமன்பாடுகள், அவற்றுக்கு இடைப்பட்ட கோணம், மற்றும்
-அவற்றின் கோண இரு சமவெட்டி ஆகியவற்றைக் கண்டறிதல்
+On completion of this chapter, the students expected to know
+• the equation of a line in different forms
+• whether two given lines are parallel or perpendicular;
+• the distance of a given point from a given line and between two parallel lines,
+• the family of straight lines for a given condition
+• the equation of pair of straight lines, angle between them and angle bisectors
 
 {{< /box >}}
