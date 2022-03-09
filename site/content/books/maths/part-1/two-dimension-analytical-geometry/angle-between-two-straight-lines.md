@@ -1,5 +1,5 @@
 ---
-title: 'இரு நேர்க்கோடுகளுக்கு இடைப்பட்ட கோணம்'
+title: 'Angle between two straight lines'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 4

@@ -1,5 +1,5 @@
 ---
-title: 'இரட்டை நேர்க்கோடுகள்'
+title: 'Pair of straight lines'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 5
