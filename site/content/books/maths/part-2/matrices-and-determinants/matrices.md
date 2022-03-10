@@ -539,16 +539,25 @@ By the definition of sum of matrices, we have
 Simplify :
 \\(sec \theta \begin{bmatrix} 
     sec \theta & tan \theta \\\\ 
-    sec \theta & sec \theta \end{bmatrix}\\)-\\(tan \theta \begin{bmatrix} 
-    cos^2 \theta & 0\\\\ 
-    -cosec^2 \theta & 1 \end{bmatrix}\\) and \\(C=\begin{bmatrix} 
-    0  & -1 \\\\ 
-    -1  & 0 \end{bmatrix}\\)
+    tan \theta & sec \theta \end{bmatrix}\\)-\\(tan \theta \begin{bmatrix} 
+    tan \theta & sec \theta\\\\ 
+    sec \theta & tan \theta \end{bmatrix}\\)
 
 ##### Solution
-By the definition of sum of matrices, we have
-\\(A+B+C=\begin{bmatrix} 
-    sin^2 \theta+cos^2 \theta+0 & 1+0-1\\\\ 
-    cot^2 \theta-cosec^2 \theta  & 0+1+0\end{bmatrix}\\)=\\(A+B+C=\begin{bmatrix} 
-    1 & 0\\\\ 
-    -2  & 1\end{bmatrix}\\)
+If we denote the given expression by A, then using the scalar multiplication rule, we get
+\\(A=\begin{bmatrix} 
+    sec^2 \theta & sec \theta tan \theta\\\\ 
+    sec \theta tan \theta  & sec^2 \theta \end{bmatrix}\\)=\\(A+B+C=\begin{bmatrix} 
+    tan^2 \theta & tan \theta sec \theta\\\\ 
+    sec \theta tan \theta  & tan^2 \theta\end{bmatrix}\\)
+
+##### **Definition 7.15**
+A matrix A is said to be conformable for multiplication with a matrix B if the number of
+columns of A is equal to the number of rows of B.
+
+That is, if \\(A=[a_{ij}]_{m×n}\\) and \\(B=[b_{ij}]_{n×p}\\) are given two matrices, then the product of matrices A and
+B is denoted by AB and its order is m × p.
+The order of AB is m ×p = (number of rows of A)(number of columns of B).
+
+### IMAGE
+
