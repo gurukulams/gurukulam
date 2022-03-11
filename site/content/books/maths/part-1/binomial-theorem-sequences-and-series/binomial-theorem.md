@@ -152,12 +152,35 @@ induction, \\(P(n)\\) is true for all natural numbers n. Hence,
 \\( (a+b)^n=^nC_0a^nb^o+^nC_1a^{n-1}b^1+...+^nC_ra^{n-r}b^r+...+^nC_na^0b^n,n\in \N\\)
 
 
+(i) The expansion of (a + b) n , n ∈ N can also be written as
 
+\\( (a + b)^n = \sum _{k = 0}^n \\)
+\\(^nC_k a^{n-k}b^k or \sum _{k = 0}^n \\)
+\\(^nC_k a^k b^{n-k}\\)
 
+(ii) The expansion of \\((a + b) n , n ∈ \N\\), contains exactly \\((n + 1)\\) terms.
 
+(iii) In \\((a + b) n = Σ ^n_{k=0} n C_k a^{n−k} b^k\\) , the powers of a decreases by 1 in each term,
+whereas the powers of b increases by 1 in each term. However, the sum of powers
+of a and b in each term is always n.
 
+(iv) The \\((r + 1)^{th}\\) term in the expansion of \\((a + b) n , n ∈ \N\\), is
 
+\\(T_{r+1} = ^nC_r b^r , r = 0,1,2,...,n. \\)
+ 
+(v) In the product \\((a + b)(a + b) · · · (a + b)\\), n times, to get \\(b^r\\) , we need any r factors
+out of these *n* factors. This can be done in \\(^nC_r\\) ways. That is why, we have \\(^nC_r\\)
+as the coefficient of \\(a^{n−r} b^r \\).
 
+(vi) In the expansion of \\((a + b)^n , n ∈ \N\\), the coefficients at equidistant from the
+beginning and from the end are equal due to the fact that \\(^n C_r\\) = \\(^n C_{n−r}\\) .
+
+(vii) In the expansion of \\((a + b)^n , n ∈ \N\\), the greatest coefficient is \\(^n C_\frac{n}{2}\\) if *n* is even
+and the greatest coefficients are \\(^n C \frac{n−1}{2} or ^n C _frac{n+1}{2} \\), if *n* is odd.
+
+(viii) In the expansion of \\((a + b)^n , n ∈ \N\\),
+if *n* is even, the middle term i\\(T \frac{2} 1 = n C n 2 a n− 2 b \\) . If n is odd, then the two
+middle terms are T \\(n−1_+1  and  T_{n+1} +1 \\).
 
 
 
