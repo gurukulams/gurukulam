@@ -179,14 +179,28 @@ beginning and from the end are equal due to the fact that \\(^n C_r\\) = \\(^n C
 and the greatest coefficients are \\(^n C \frac{n−1}{2} or ^n C _frac{n+1}{2} \\), if *n* is odd.
 
 (viii) In the expansion of \\((a + b)^n , n ∈ \N\\),
-if *n* is even, the middle term i\\(T \frac{2} 1 = n C n 2 a n− 2 b \\) . If n is odd, then the two
-middle terms are T \\(n−1_+1  and  T_{n+1} +1 \\).
+if *n* is even, the middle term is \\(T_{\frac{n}{2}+1}\\) = \\(^n C_{\frac{n}{2}}\\) \\(a^n-\frac{n}{2} b \frac{n}{2} \\). If n is odd, then the two
+middle terms are \\(T_{\frac{n-1}{2}+1}\\) and \\(T_{\frac{n+1}{2}+1}\\)
+
+##### 5.3 Particular cases of Binomial Theorem
+
+(i) Replacing *b* by (−b), in the binomial expansion of \\((a + b)^n , n ∈ \N\\), we get
+
+\\((a - b)^n\\) = \\(^n C_0 a^n b^0 -\\) \\(^n C_1 a^{n-1} b^1\\) \\(+ ^n C_2 a^{n-2} b^2 -\\) \\(... +(-1)^{r n} C_r a^{n - r}b^r\\) \\( + ... + (-1)^{r n} C_r a^0b^n\\)
+
+Observe that the sign ‘+’ and ‘−’ appear alternately in the binomial expansion of \\((a − b)^n\\) .
+
+(ii) Replacing \\(a\\) by \\(1\\) and \\(b\\) by \\(x\\), in the binomial expansion of \\((a + b)^n\\) , we get
+
+\\((1 + x)^n = ^n C_0 + ^n C_1 x + ^n C_2 x^2 + ... + ^n C_r x^r + ... + ^n C_n x^n .\\)      
+
+In particular, when \\(x = 1\\), \\(^n C_0 + ^n C_1 + ^n C_2 + ··· + ^n C_n = 2 n .\\)
 
 
+If \\(X\\) is a set containing n elements, then we know that \\(^n C_r\\) is the number of
+subsets of \\(X\\) having exactly r elements. So by adding \\(^n C_r\\) for \\(r = 0, 1, 2, . . . , n\\)
+we get the number of subsets of \\(X\\). So by using the above identity we see that **a**
+**set of n elements has** \\(2^n\\) **subsets**.
 
 
-
-
-
-
-
+(iii) \\((1 - x)^n  = ^n C_0 - ^n C_1 x + ^n C_2 x^2 - ... + (-1)^{r  n} C_r  x^r + ... + (-1)^n x^n \\) In particular, when \\(x = 1, ^n C_0 + ^n C_2 + ^n C_2 + n C_4 + ... = n C_1 + ^n C_3 + ^n C^5 + ... = 2^{n-1} \\)
