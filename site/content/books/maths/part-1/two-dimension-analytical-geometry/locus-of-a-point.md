@@ -124,7 +124,7 @@ Given that,
 
 replacing *h* and *k* by substituting
 
-\\( h = x \\) and  \\(k =y \\)ஐப் பிரதியிட
+\\( h = x \\) and  \\(k =y \\)
 
 The locus of \\(P\\) is, \\(y = x\\) , is a line passing through the
 origin.
@@ -133,113 +133,115 @@ origin.
 
 {{< /box >}}
 
-{{< box title="எடுத்துக்காட்டு 6.2" type="objective" >}}
+{{< box title="Example 6.2" type="objective" >}}
 
 
-\\((ct, \frac{c}{t}) \\) என்ற புள்ளி நகர்வதால் உண்டாகும் பாதையைக் காண்க.
-இங்கு \\(t \ne \\)0 என்பது துணையலகு மற்றும் c என்பது ஒரு மாறிலியாகும்.
+Find the path traced out by the point \\((ct, \frac{c}{t}) \\) Here \\(t \ne \\)0 is the parameter and c is a
+constant
 
-**தீர்வு**
+**Solution :**
 
-தேவையான நியமப்பாதையின் மீதுள்ள ஏதேனும் ஒரு புள்ளி P(h,k) என்க.
+Let P (h, k)be a point on the locus. From the given information, we have
 
-கொடுக்கப்பட்ட விவரங்களிலிருந்து,\\(h = ct\\) மற்றும்\\(k = \frac{t}{c}\\) ஆகும்.
+\\(h = ct\\) and \\(k = \frac{c}{t}\\).
 
-இவ்விரு சமன்பாடுகளைப் பெருக்கி t-ஐ நீக்கலாம்.
+To eliminate t, taking product of these two equations,
 
-\\((t)(k) = (ct) (\frac{c}{t}) \Rightarrow hk = c^2 , h= x\\) மற்றும் \\(k = y\\) எனப் பிரதியிட
+\\((h)(k) = (ct) (\frac{c}{t}) \Rightarrow hk = c^2 \\)
 
-ஃ தேவையான நியமப்பாதையின் சமன்பாடு \\( xy = c^2 \\)
+ஃ Therefore, the required locus is \\( xy = c^2 \\)
 
 {{< /box >}}
 
-{{< box title="எடுத்துக்காட்டு 6.3" type="objective" >}}
+{{< box title="Example 6.3" type="objective" >}}
 
- \\(A(1,0)\\) மற்றும் \\( B(5,0)\\) என்ற புள்ளிகளிலிருந்து சம தூரத்திலிருக்குமாறு
-நகரும் புள்ளியின் நியமப்பாதையின் சமன்பாட்டைக் காண்க.
+ Find the locus of a point P moves such that its distances from two fixed points\\(A(1,0)\\) and \\( B(5,0)\\), are always equal.
 
-**தீர்வு**
+**Solution :**
 
-கொடுக்கப்பட்ட இரு புள்ளிகள் A(1 ,0) மற்றும்
-B(5,0) ஆகும்.
+Given that A(1 ,0) and B(5,0)
 
-\\(P(h,k)\\) என்பது தேவையான பாதையின்மீது
-அமைந்துள்ள ஏதேனும் ஒரு புள்ளி என்க.
+Let \\(P(h,k)\\) be any point on the required path.
 
-கொடுக்கப்பட்ட நிபந்தனையின்படி, \\(AP = BP\\)
+From the information we have \\(AP = BP\\)
 
-அதாவது
+That is
 
 \\(\sqrt{\smash[b]{(h-1)^2 + (k-0)^2}} =  \sqrt{\smash[b]{(h-5)^2 + (k-0)^2}}\\)
 
 \\( \Rightarrow h = 3 \\) 
 
-எனவே, புள்ளி \\(P(h,k)\\) -ன் நியமப்பாதை, \\(x = 3\\)
+Therefore the locus of P is  \\(x = 3\\)
 
-இது \\(y\\)-அச்சிற்கு இணையாக உள்ள நேர்க்கோடு ஆகும்.
+which is a straight line parallel to the \\(y\\)-axis.
+
 
 ![relation](/books/maths/part-1/twodimension/locusofapoint/6.8.png "relation")
 
 {{< /box >}}
 
 
-{{< box title="எடுத்துக்காட்டு 6.4" type="objective" >}}
+{{< box title="Example 6.4" type="objective" >}}
 
-\\((asec θ,btan θ)\\) என்ற நகரும் புள்ளியின் நியமப்பாதையின் சமன்பாட்டைக்
-காண்க. இங்கு θ என்பது துணையலகு ஆகும்.
+If θ is a parameter, find the equation of the locus of a moving point, whose coordinates
+are \\((asec θ,btan θ)\\).
 
-**தீர்வு**
+**Solution :**
 
-\\(P (h,k)\\) என்பது தேவையான பாதையின் மீது அமைந்துள்ள ஏதேனும் ஒரு புள்ளி என்க.
+Let \\(P (h,k)\\) be any point on the required path. 
 
-கொடுக்கப்பட்ட நிபந்தனையின்படி
+From the given information we have
 
-\\(h = a sec θ\\) மற்றும் \\(k = b tan θ \\)
+\\(h = a sec θ\\) and \\(k = b tan θ \\)
 
 \\( \Rightarrow \frac{h}{a} = sec θ , \frac{k}{b} = tan θ \\)
 
-முக்கோணவியல் சூத்திரத்தைப் பயன்படுத்தி, துணையலகு θ -ஐ நீக்கலாம்.
+To eliminate the parameter θ, squaring and subtracting, we get
  
 \\( (\frac{h}{a})^2 - (\frac{k}{b})^2 = sec^2 θ - tan^2 θ\\)
 
-\\( (\frac{h}{a})^2 - (\frac{k}{b})^2 = 1 . \Rightarrow \frac{h^2}{a^2} - \frac{k^2}{b^2} = 1 \\)
+\\( (\frac{h}{a})^2 - (\frac{k}{b})^2 = 1  \Rightarrow \frac{h^2}{a^2} - \frac{k^2}{b^2} = 1 \\)
 
-\\( P(h,k) \\)என்ற புள்ளியின் நியமப்பாதை \\( \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1\\)
+Therefore the locus of the given point is \\( \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1\\)
 
 https://www.geogebra.org/geometry
 
 
 {{< /box >}}
 
-**குறிப்பு:** துணையலகானது முக்கோணவியல் அமைப்பில் இருப்பின் கீழ்க்காணும் முற்றொருமைகளைப் பயன்படுத்தி துணையலகுகளை நீக்கலாம்.
+**Note:** Whenever the parameters are in trigonometric form, try to use trigonometric identities
+to eliminate θ
 
-\\( sin^2 θ + cos^2 θ = 1 , sec^2 θ + tan^2 θ = 1 , cosec^2 θ - cot^2 = 1 \\)
+\\( sin^2 θ + cos^2 θ = 1 , sec^2 θ - tan^2 θ = 1 , cosec^2 θ - cot^2 = 1 \\)
 
-{{< box title="எடுத்துக்காட்டு 6.5" type="objective" >}}
+{{< box title="Example 6.5" type="objective" >}}
 
- நீளம் \\(6\\) அலகுகள் கொண்ட ஒரு நேரான கம்பியின் முனைகள் \\(A\\) மற்றும் \\(B\\)
-ஆனது முறையே எப்போதும் \\(x\\) மற்றும் \\(y\\)-அச்சுகளைத் தொடுமாறு நகர்கிறது. \\(O\\)-ஐ ஆதியாகக்
-கொண்ட \\(\\Delta \\)AB என்ற முக்கோணத்தின் நடுப்புள்ளியின் (centroid) நியமப்பாதையின்
-சமன்பாட்டைக் காண்க
+ A straight rod of the length 6 units, slides with its ends\\(A\\) and \\(B\\) always on the \\(x\\) and
+\\(y\\) axes respectively. If \\(O\\) is the origin, then find the locus of the centroid of \\(\\Delta \\)OAB.
 
-**தீர்வு**
+**Solution :**
 
-\\(P(h,k)\\) என்பது தேவையான பாதையின் மீதுள்ள ஏதேனும் ஒரு புள்ளி என்க.
+Let the coordinates of the points \\(O , A\\)  and \\(B\\) are
 
-\\(O , A\\) மற்றும் \\(B\\)  ஆகிய புள்ளிகளின் ஆயக் கூறுகள்
-முறையே \\((0, 0), (a,0)\\) மற்றும் \\((0, b)\\) என்க.
+\\((0, 0), (a,0)\\) and \\((0, b)\\) respectively.
 
-\\(\Delta OAB \\) -ன் நடுப்புள்ளி \\((\frac{0 + a + 0}{3},\frac{0 + 0 + b }{3}) = (h,k). \\)
+Observed that the points \\(A\\) and \\(B\\) are moving points.
+
+Let \\((h, k) \\) be a centroid of \\(\\Delta \\)OAB.
+
+Centroid of \\(\\Delta \\)OAB is
+
+ \\((\frac{0 + a + 0}{3},\frac{0 + 0 + b }{3}) = (h,k). \\)
 
 \\(\frac{a}{3} = h \Rightarrow a = 3h , \frac{b}{3} = k \Rightarrow b = 3k \\)
 
-செங்கோணம் \\(\Delta BOA \\)-லிருந்து 
+From right \\(\Delta OAB \\),
 
 \\(OA^2 + OB^2 = AB^2\\)
 
 \\((3h)^2 + (3k)^2 = (6)^2 \Rightarrow h^2 + k^2 = 4 \\)
 
-எனவே, \\(P (h,k) \\)என்ற புள்ளியின் நியமப்பாதை, \\(x^2 + y^2 = 4\\)
+Locus of \\( (h,k) \\)is a circle, \\(x^2 + y^2 = 4\\)
 
 ![relation](/books/maths/part-1/twodimension/locusofapoint/6.9.png "relation")
 
