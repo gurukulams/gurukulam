@@ -170,37 +170,36 @@ parallel to the \\(y\\)-axis. However, this presents no difficulty, since for an
 line the abscissa of any point on the line is \\(x_1\\) . Therefore, the equation of such a
 line is \\(x = x_1\\).
 
-###### (iii) இரு புள்ளிகள் வடிவம் (Two-points form)
+###### (iii) Two-points form
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.18.png "relation")
 
-\\((x_1 , y_1)\\) மற்றும் \\((x_2 , y_2 \\)) இவ்விரு புள்ளிகளை
-இணைக்கும் கோட்டின் சமன்பாட்டின்
+If \\((x_1 , y_1)\\) and \\((x_2 , y_2 \\)) are any two points on the line with \\(x_2 \ne x_1 \\)   and \\(y_1 \ne y_2 \\) then the slope is,
 
-சாய்வு \\(m = \frac{(y_2 - y_1)}{(x_2 - y_1)}\\) ஆகும்
+ \\(m = \frac{(y_2 - y_1)}{(x_2 - y_1)}\\) 
 
-புள்ளி- சாய்வு வடிவம் பயன்படுத்தி
+The equation using point- slope form, we get
 
 \\(y - y_1 = \frac{y_2 - y_1}{x_2 - x_1} (x - x_1)\\)
 
-என எழுதலாம். இங்கு \\(x_2 \ne x_1 \\) மற்றும்
-மேற்கண்ட சமன்பாட்டை
-
+Rewriting the above equation, we get
 \\(\frac{y - y_1}{y_2 - y_1} = \frac{x - x_1}{x_2 - x_1} (6.7)\\)
 
-எனவும் எழுதலாம். இது இரு புள்ளிகள் வடிவ நேர்க்கோட்டின் சமன்பாடாகும். இரு புள்ளிகள்
-வடிவ நேர்க்கோட்டின்சமன்பாட்டை கீழ்க்காணுமாறு அணிக்கோவை வடிவத்திலும் குறிப்பிடலாம்.
+This equation is called two points form.
+Two points form can also be represented in terms of the determinant as
 
 \\(\begin{vmatrix} x - x_1 \\ y - y_1 \end{vmatrix}\\)
 
 \\(\begin{vmatrix} x_2 - x_1 \\ y_2 - y_1 \end{vmatrix}\\) = 0
 
-###### (iv) வெட்டுத்துண்டு வடிவம் (Intercept Form)
+###### (iv) Intercepts Form
 
-ஒரு கோடு \\(x\\) மற்றும் \\(y\\) -அச்சுகளில் ஏற்படுத்தும் வெட்டு துண்டுகள் தெரியும் எனில், அதன்
-சமன்பாட்டை இங்குக் காணலாம். x -ன் வெட்டுத் துண்டு \\(OA = a\\) மற்றும் \\(y\\) -ன் வெட்டுத்துண்டு \\(OB
-= b\\) என்க. இங்கு, \\(a, b\\) என்பன பூச்சியமற்ற மதிப்புகள் ஆகும். \\(A(a, 0)\\) மற்றும் \\(B(0, b)\\) என்ற
-இவ்விரு புள்ளிகள் வழியேசெல்லக்கூடியநேர்க்கோட்டின்சமன்பாடு,
+If the intercepts of a line on the \\(x\\)-axis and the \\(y\\)-axis
+are known then the equation of the line can also be
+found using intercepts. Suppose \\(x\\)-intercept \\(OA = a\\) and
+\\(y\\)-intercept \\(OB= b\\), where  \\(a,b\\)  are non-zero, then the
+line passes through two points \\(A(a, 0)\\) and \\(B(0, b)\\)  is
+
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.19.png "relation")
 
@@ -208,28 +207,27 @@ line is \\(x = x_1\\).
 
 \\(\frac{x}{a} = \frac{y}{b} = 1 \\) \\( (6.8)\\)
 
-மேற்கண்ட நேர்க்கோட்டின் சமன்பாடு வெட்டுத்துண்டு
-வடிவம் ஆகும்.
+The above equation is called an intercept form.
 
-ஒரு நேர்க்கோடு ஆதிப்புள்ளி வழியாகவோ, கிடைமட்டக்
-கோடாகவோ, நிலைக்குத்துக் கோடாகவோ அல்லது a, b இவற்றில் ஏதேனும் ஒன்று பூஜ்ஜியமாக
-இருப்பின் இந்த வடிவத்தில் *(Intercept form)* எழுத முடியாது. வரைபடமாக வரைவதற்கு இந்த
-வடிவத்தில் சமன்பாடுகளை அமைத்தால் மிக எளிதாக இருக்கும்.
+Lines that pass through the origin or which are horizontal or vertical or violate the nonzero
+condition on \\(a\\) or \\(b\\) cannot be represented in this form.
 
-###### (v) செங்குத்து வடிவம் (Normal Form)
+In most of the cases this form is used to draw the graph of the line in easy way.
 
-ஒரு நேர்க்கோடு ஆயஅச்சுகளை வெட்டும் புள்ளிகள் \\(A\\) மற்றும் \\(B\\) என்க. \\(p\\) என்பது ஆதிப்
-புள்ளியிலிருந்து \\(AB\\) என்ற கோட்டிற்கு வரையப்படுள்ள \\(OP\\) என்ற செங்குத்துத்கோட்டின் நீளம்
-என்க. \\(OP\\) என்ற கோடு மிகை திசையில் அச்சுடன் ஏற்படுத்தும் கோணம் \\(\alpha\\) என்க.
+###### (v) Normal form:
 
-செங்கோண \\(\Delta OPA\\) -ல், \\(\frac{OP}{OA} = cos\alpha\\) மற்றும்
+Let \\(A\\) and \\(B\\) be the intercepts made by the line.
+Let \\(p\\) be the length of the normal \\(OP\\) drawn from the
+origin to a line \\(AB\\), which makes an angle \\(\alpha\\) with the \\(x\\)-axis.
 
-செங்கோண \\(\Delta OPB\\) -ல், \\(\frac{OP}{OA} = cos (\frac{\pi}{2} - \alpha) = sin \alpha \\)
 
-\\(\Rightarrow \frac{1}{OA} = \frac{cos\alpha}{p}\\) மற்றும் \\(\frac{1}{OB} = \frac{sin \alpha}{p}\\)
+In right \\(\Delta OPA\\), \\(\frac{OP}{OA} = cos\alpha\\) and
 
-மேற்கண்ட மதிப்புகளை வெட்டுத்துண்டு வடிவத்தில்,
-பயன்படுத்த
+in right \\(\Delta OPB\\), \\(\frac{OP}{OA} = cos (\frac{\pi}{2} - \alpha) = sin \alpha \\)
+
+\\(\Rightarrow \frac{1}{OA} = \frac{cos\alpha}{p}\\) and \\(\frac{1}{OB} = \frac{sin \alpha}{p}\\)
+
+Using the above data in intercepts form
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.20.png "relation")
 
@@ -239,59 +237,53 @@ line is \\(x = x_1\\).
 
 \\(\Rightarrow xcos\alpha + ysin\alpha = p  (6.9)\\)
 
-என்பது நேர்கோட்டின் செங்குத்து வடிவமாகும்.
+is called the normal form of equation.
 
-ஒரு நேர்கோட்டின் எல்லா நிலையிலும் p ஆனது மிகை ஆகும். மற்றும் \\(a\\) என்பது
-\\(x\\) -அச்சுக்கு மிகை திசையில் (*Anti clockwise*-கடிகார எதிர் திசை) மதிப்பிடப்படுகிறது எனில் எல்லா
-வகைகளிலும் உள்ள கோடுகள் செங்குத்து வடிவத்தில் அமைக்கலாம். இவற்றை கீழ்க்கண்ட
-படத்தில் காணலாம்.
+If \\(p\\) is positive in all positions of the line and if \\( \alpha \\) is always measured from \\(x\\)-axis in the
+positive direction, this equation holds in every case as shown in the figure.
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.21.png "relation")
 
-###### (vi) துணையலகு வடிவம் (Parametric Form)
+###### (vi) Parametric Form
 
-நேர்க்கோட்டின் துணையலகு சமன்பாட்டின் வடிவமானது
+Parametric equations of a straight line is of the form
 
-\\(x = ar + x_1\\) மற்றும் \\(y = br + y_1\\) . இங்கு \\(a\\) மற்றும் \\(b\\)
-என்பன மாறிலிகள் மற்றும் \\(r\\) என்பது துணையலகு ஆகும்.
+\\(x = ar + x_1\\) and \\(y = br + y_1\\) 
+
+where \\(a\\) and \\(b\\) are constants and \\(r\\) is the parameter.
+
 
 \\(\frac{x - x_1}{a} = \frac{y - y_1}{b} = r , (a \ne 0 , b \ne 0 ) \\)
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.22.png "relation")
 
-ஒரு நேர்க்கோடு \\(Q(x_1 , y_1)\\) என்ற புள்ளி வழியே
-செல்வதாக எடுத்துக்கோள்வோம். இக்கோடானது
-\\(x\\) -அச்சுடன் ஏற்படுத்தும் கோணம் \\(\theta\\) என்க.
+Suppose we have the equation of the line passing through the point \\(Q(x_1 , y_1)\\) and making an angle \\(\theta\\) with \\(x\\)-axis. Let \\(P(x, y)\\) be a point on the line at a distance \\(r\\) from \\(Q\\). Drop perpendiculars \\(QN\\) and \\(PM\\) respectively from \\(Q\\) and \\(P\\) to the \\(x\\)-axis-axis and perpendicular \\(QR \bot PM\\).
 
-புள்ளி \\(Q\\) -ல் இருந்து \\(r\\) தொலைவில் இக்கோட்டின் மீதுள்ள புள்ளி \\(P(x, y)\\) என்க.
+From the right \\(\Delta QRP \\),
 
-\\(P\\) மற்றும் \\(Q\\) என்ற புள்ளிகளிலிருந்து \\(x\\) -அச்சுக்கு வரையப்படும் நிலைக்குத்துக் கோடுகள்
-முறையே \\(QN\\) மற்றும் \\(PM\\) ஆகும் மற்றும் \\(QR \bot PM\\)
+\\(x - x_1 = QR = PQ cos \theta = r cos \theta \\)
 
-செங்கோண \\(\Delta QRP \\) -ல்,
+\\(Therefore, \frac{x - x_1}{cos\theta} = r \\) (6.10)
 
-\\(x - x_1 = QR = PQ cos \theta r cos \theta \\)
-
-\\(எனவே, \frac{x - x_1}{cos\theta} = r \\) (6.10)
-
-இதைப்போன்று, \\(y - y_1 = 1 RP = QP sin\theta = rsin \theta \\)
+Similarly, \\(y - y_1 =  RP = QP sin\theta = rsin \theta \\)
 
 \\(\Rightarrow \frac{y - y_1 }{sin\theta} = r \\) (6.11)
 
-சமன்பாடுகள் (6.10) மற்றும் (6.11) -லிருந்து
+From (6.10) and (6.11) we get
 
 \\(\frac{x - x_1}{cos\theta} = \frac{y - y_1}{sin\theta} = r \\) (6.12)
 
-இங்கு, துணையலகு r என்பது ஒரு கோட்டின் மீது அமைந்துள்ள \\((x_1,y_1)\\) மற்றும் \\((x,y)\\)
-என்ற புள்ளிகளுக்கு இடைப்பட்ட தூரம் ஆகும். மேற்கண்ட வடிவத்தினைக் கோட்டின் சமச்சீர்
-வடிவம் அல்லது துணையலகு வடிவம் என அழைக்கலாம்.
+where the parameter \\(r\\) is the distance between \\((x_1,y_1)\\) and any point \\((x,y)\\) on the line. This is
+called the symmetric form or parametric form of the line.
 
-குறிப்பு: ஒரு நேர்க்கோட்டின் மீது உள்ள எந்த ஒரு புள்ளியையும் \\(( x_1 + rcos \theta , y_1 + rsin \theta)\\) என
-எழுதலாம், இப்புள்ளியின் ஆயத்தொலைவுகள் துணையலகு \\(r\\) -ஐ சார்ந்து இருக்கும்
-என்பதால் \\(x = x_1 + rcos \theta , y = y_1 + rsin \theta\\) என்ற சமன்பாடுகள் நேர்க்கோட்டின்
-துணையலகு சமன்பாடு எனப்படும். \\(r\\) -ஐ மிகையாகக் கொண்ட புள்ளிகள் மற்றும் \\(r\\) -ஐ
-குறையாகக் கொண்ட புள்ளிகள் முறையே கோட்டின் மீது கொடுக்கப்பட்ட புள்ளிக்கு
-வெவ்வேறு பக்கங்களில் நேர்க்கோட்டின்மேல் அமையும்.
+**Note :** 
+The co-ordinates of any point on this line can be written as
+\\(( x_1 + rcos \theta , y_1 + rsin \theta)\\). Clearly coordinates of the point depend on the value
+of \\(r\\). This variable \\(r\\) is called parameter. Since \\(r\\) is a parameter the equations,
+\\(x = x_1 + rcos \theta , y = y_1 + rsin \theta\\), is called the parametric equations of the line.
+The value of \\(r\\) is positive for all points lying on the line one side of the given
+point and negative for all points lying on the line other side of the given point.
+
 
 ###### (vii) பொது வடிவம் (General form)
 
