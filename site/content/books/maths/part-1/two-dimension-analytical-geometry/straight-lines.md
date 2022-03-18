@@ -9,175 +9,166 @@ extensions:
 
 
 
-நேரிய சமன்பாடுகளை இயற்கணித அடிப்படை விதிகளைப் பயன்படுத்திப் பல்வேறு
-வடிவங்களில் எழுதலாம். இதுபோன்ற நேரிய சமன்பாடுகளைப் பெரும்பாலும் ”நேர்க்கோடுகளின்
-சமன்பாடுகள்” எனக் குறிப்பிடப்படுகின்றன. நேரிய சமன்பாடுகளின் பொது வடிவத்தை
+Linear equations can be rewritten using the laws of elementary algebra into several different forms.
+These equations are often referred to as the “equations of the straight line.”
+In the general form the linear equation is written as:
 
 **ax + by + c = 0** (6.4)
 
-என எழுதலாம். இங்கு a மற்றும் b இவற்றில் குறைந்தது ஒன்றாவது பூச்சியமற்றதாக
-இருக்கவேண்டும். ஓர் சமன்பாட்டின் தீர்வுகள் அனைத்தும் ஒரு தளத்தின் ஒரு நேர்க்கோட்டில்
-அமைந்தால் அந்தச் சமன்பாட்டை “நேரிய (Linear)” சமன்பாடு எனக் குறிப்பிடலாம்.
+where a and b are not both equal to zero. The name “linear” comes from the fact that the set of
+solutions of such an equation forms a straight line in the plane. In this chapter “line”, we mean a
+straight line unless otherwise stated.
 
-ஒரு நேர்க்கோட்டின் சமன்பாட்டைப் பல வடிவங்களில் இயற்கணித அடிப்படை விதிகளைக்
-கொண்டு மாற்றி எழுத முடியும். இவ்வடிவங்களின் பெயர்கள், அதை எழுதுவதற்குத் தேவையான
-தகவல்களின் அடிப்படையில் அமைக்கப்பட்டுள்ளன. இவற்றில் **புள்ளிகள் (Points), சாய்வு (Slope)**
-மற்றும் **வெட்டுத்துண்டுகள் (Intercepts)** ஆகியவை முக்கியத் தகவல்களாகும்.
-
-
-#### 6.3.1 ஒரு நேர்க்கோட்டின் சாய்வுக் கோணத்திற்கும் சாய்வுக்கும் இடையே உள்ள தொடர்பு 
-#### (The relationship between the angle of inclination and slope)
+There are many ways to write the equation of a line which can all be converted from one to another
+by algebraic manipulation. These forms are generally named by the type of information (data) about
+the line that is needed to write down the form. Some of the important data are **points, slope,** and
+**intercepts**
 
 
-**வரையறை 6.3**
+#### 6.3.1 The relationship between the angle of inclination and slope
 
-ஒரு நேர்க்கோட்டின் சாய்வுக் கோணம் **(Angle of Inclination)** என்பது அக்கோடானது கடிகார எதிர்
-திசையில் (மிகை) x-அச்சுடன் ஏற்படுத்தும் கோணம்
-ஆகும். இதனை \\(\theta\\) என குறிப்பிடலாம்.
+**Definition 6.3**
+
+The **angle of inclination** of a straight line is the angle, say \\(\theta\\), made by the line with the x-axis
+measured in the counter clockwise (positive) direction.
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.11.png "relation")
 
-**வரையறை 6.4**
+**Definition 6.4**
 
-ஒரு நேர்க்கோட்டின் **சாய்வு (slope)** என்பது திசை மற்றும் சரிவு ஆகியவற்றைக்
-குறிக்கும் ஒரு எண் ஆகும்.
+**The slope** or gradient of a straight line is a number that measures its “direction and steepness”.
 
-x மற்றும் y -அச்சுகளைக் கொண்ட தளத்தில் ஒரு கோட்டின் சாய்வு பொதுவாக ‘m’ என்ற
-எழுத்தால் குறிப்பிடுகிறோம். இந்தச் சாய்வு கொடுக்கப்பட்ட விவரங்களைக் கொண்டு காணலாம்.
+The slope of a line in the plane containing the x and y axes, is generally represented by the letter m.
+It can be measured in many ways as given below:
 
-(i) ஒரு கோடு கடிகார எதிர் திசையில் x -அச்சுடன் ஏற்படுத்தும் சாய்வுக் கோணம் i
-எனில் கோட்டின் **சாய்வு (slope)**
+(i) When \\(\theta\\) is the angle of inclination of the line with the x-axis measured in the counter clockwise
+direction then the **slope** 
 
 \\(m = tan\theta \\)
 
-இங்கு \\(\theta\\) -ன் மதிப்பு \\(\frac{\pi}{2}\\) எனும்போது \\(m = tan \frac{\pi}{2}\\) என்பது வரையறுக்கப்படாதவை.
+When \\(\theta\\) - is \\(\frac{\pi}{2}\\), \\(\Rightarrow \\) \\(m = tan \frac{\pi}{2}\\) is undefined.
 
-(ii) \\((x_1,y_1)\\) மற்றும் \\((x_2 , y_2)\\) என்ற புள்ளிகள் ஒரு கோட்டின்
-மீது அமைந்துள்ளது எனில், இக்கோட்டின் சாய்வு
-\\( y\\) -ஆயத்தின் மாறுபாட்டை \\(x\\) -ஆயத்தின் மாறுபாட்டால்
-வகுக்கக் கிடைக்கும் எண் ஆகும். இங்கு \\(x_2 \ne x_1 \\) 
-இதனைக் கீழ்க்கண்டவாறு விவரிக்கலாம்.
+(ii) When \\((x_1,y_1)\\) and \\((x_2 , y_2)\\) are any two points on the line with
+\\(x_2 \ne x_1 \\)  , then the slope is the change in the \\( y\\) coordinate divided
+by the corresponding change in the \\(x\\)coordinate.
+This is described by the following equation 
 
-
-\\(m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1} = \frac{செங்குத்து நிலைமாற்றம்}{கிடைமட்ட நிலைமாற்றம்} \\) 
+\\(m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1} = \frac{vertical change}{horizontal change} \\) 
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.12.png "relation")
 
-(iii) நேர்க்கோடு \\(ax + by + c = 0 \\) என்ற பொது வடிவில்
-கொடுக்கப்பட்டால்,
-
-இக்கோட்டின் சாய்வு
+(iii) When the general form of the linear equation \\(ax + by + c = 0 \\) is given, then the slope of the
+line is ,
 
 \\(m = \frac{a}{b} , b \ne 0 \\)
 
-இங்கு \\(b = 0\\) எனில், \\(m\\) வரையறுக்கப்படாதவை.
+\\(m\\) is undefined when \\(b = 0\\)
 
-###### ஒரு கோட்டின் மிகை, குறை, பூச்சியம் மற்றும் வரையறுக்கப்படாத சாய்வுகள்
+###### The slope of a line can be a positive or negative or zero or undefined as shown below:
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.13.png "relation")
 
-**வரையறை 6.5**
+**Definition 6.5**
 
-ஒரு தளத்தில் மூன்று அல்லது அதற்கு மேற்பட்ட புள்ளிகள் ஒரே கோட்டில் அமைந்தால்,
-அப்புள்ளிகளை **ஒரே கோடமைப் புள்ளிகள் (Collinear)** எனக் கூறலாம்.
+In a plane three or more points are said to be **collinear**, if they lie on a same straight line.
 
-\\(A, B\\) மற்றும் \\(C\\) என்பன ஒரு தளத்தின் மீது அமைந்துள்ள ஏதேனும் மூன்றுப் புள்ளிகள் என்க.
-\\(AB\\) -ன் சாய்வு \\(BC\\) (அல்லது \\(AC\\)) -ன் சாய்வுக்குச் சமம் எனில், \\(A, B\\) மற்றும் \\(C\\) ஆகிய புள்ளிகள் ஒரே
-கோடமைப் புள்ளிகள் ஆகும்.
+Let \\(A, B\\) and \\(C\\)be any three points on a plane. If the slope of \\(AB\\)is equal to the slope of \\(BC\\) (or \\(AC\\)),then they are collinear.
+
 
 ###### 6.3.2 நேர்க்கோட்டின் வெட்டுத்துண்டுகள் அல்லது இடைமறி (Intercepts of a Line)
 
-**வரையறை 6.6**
+**Definition 6.6**
 
-ஒரு நேர்க்கோட்டின் **வெட்டுத்துண்டுகள் அல்லது இடைமறி (intercepts)** என்பது
-\\(x\\) -அச்சு அல்லது \\(y\\) -அச்சினை வெட்டும் புள்ளி ஆகும்.
+The **intercept** of a line is the point at which the line crosses
+either the \\(x\\) or the \\(y\\).  
 
-\\(y\\) - மதிப்பு பூஜ்ஜியம் எனில் கிடைக்கும் புள்ளி \\(x\\) -ன் வெட்டு ஆகும். மேலும், \\(x\\)-ன் மதிப்பு பூஜ்ஜியம்
-எனில், கிடைக்கும் புள்ளி \\(y\\) -ன் வெட்டு ஆகும். கிடைமட்டம்
-மற்றும் நேர்குத்து அச்சுகளை வெட்டும் புள்ளிகள் ஒரு கோட்டின்
-வெட்டுகள் எனப்படும். இவற்றிலிருந்து,
+The \\(x\\)-intercept is a point where the \\(y\\) value is zero, and the
+\\(y\\)-intercept is a point where the \\(x\\)-value is zero.
 
-(i) \\(x\\) -அச்சின் சமன்பாடு \\(9y = 0\\) எனவும்
+Therefore the intercepts of a line are the points where the line
+intersects, or crosses, the horizontal and vertical axes.
 
-(ii) \\(y\\) -அச்சின் சமன்பாடு \\(x = 0\\) எனவும் ெதளிவாகிறது.
-படத்திலிருந்து \\(OA\\) என்பது \\(x\\) -ன் வெட்டுத்துண்டு
-மற்றும் \\(OB\\) என்பது \\(y\\) -ன் வெட்டுத்துண்டு ஆகும்.
+Therefore it is clear that
+
+(i) the equation of the \\(y\\)-axis is \\(x\\)  = 0.
+(ii) the equation of the \\(x\\) -axis is \\(y\\) = 0.
+
+In the figure \\(OA\\) is the \\(x\\)-intercept and \\(OB\\)  is the \\(y\\)-intercept.
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.14.png "relation")
 
-\\(x\\) மற்றும் \\(y\\) -**ன் வெட்டுத்துண்டுகளின் வெவ்வேறு வகைகள்**
+Different types of \\(x\\) and \\(y\\)Intercepts:
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.15.png "relation")
 
-**புள்ளிகள், சாய்வு** மற்றும் **வெட்டுத் துண்டுகள்** ஆகியவற்றின் வரையறை மற்றும் விரிவான
-தகவல்களை அறிந்துள்ளோம். இத்தகவல்களைப் பயன்படுத்தி வெவ்வேறான வடிவமுடைய
-நேர்கோட்டின் சமன்பாட்டை நினைவு கூறுவோம்.
+We have learnt the definition and detailed information about the **points**, **slope** and **intercepts**. Using
+these information, let us recall the different forms of an equation of a straight line.
 
 
-###### 6.3.3 நேர்க்கோட்டின் வெவ்வேறு வடிவங்கள் (Different forms of a straight line)
+###### 6.3.3 Different Forms of an equation of a straight line
 
-நேர்க்கோட்டின் சமன்பாட்டை அமைப்பதற்கு இரண்டு தகவல்கள் போதுமானதாகும். **சாய்வு,**
-**வெட்டுத்துண்டுகள்** மற்றும் **புள்ளிகள்** இவைகளில் ஏதேனும் இரண்டு தகவல்களைக் கொண்டு
-பலவகையான நேர்க்கோட்டின் சமன்பாடுகளின் வகைகளை உருவாக்க முடியும்.
+Two conditions are sufficient to determine uniquely the equation of a straight line. Using the
+combination of any two information from slope, intercepts and points, we can now form different
+types of straight lines such as
 
-**(i) சாய்வு மற்றும் வெட்டுத்துண்டு வடிவம்**
+**(i) Slope and intercept form**
 
-**(ii) புள்ளி மற்றும் சாய்வு வடிவம்**
+**(ii) Point and Slope form**
 
-**(iii) இரு புள்ளிகள் வடிவம்**
+**(iii) The two Point form**
 
-**(iv) வெட்டுத்துண்டு வடிவம்**
+**(iv) Intercepts form**
+and 
+**two more special types are**
 
-மேலும் கீழ்க்கண்ட இரண்டு சிறப்பு வகைச் சமன்பாடுகள்.
+**(v) Normal form**
 
-**(v) செங்குத்து வடிவம்**
+**(vi) Parametric form** 
 
-**(vi) துணையலகு வடிவம்,** மேலும்
+Now let us look at an important way of describing the relationship between two quantities using
+the notion of a function.
 
-**(vii) பொது வடிவம்**
+###### Slope and Intercept form
 
-ஆகிய நேர்க்கோடுகளின் வடிவங்களை இரண்டு தகவல்களைப் பயன்படுத்திக் காணலாம்.
-
-###### (i) சாய்வு மற்றும் வெட்டுத்துண்டு வடிவம் (Slope-Intercept form)
-
-விகிதச் சமமான நேரிய சார்புகளை \\(y = mx\\) என்ற
-வடிவத்தில் எழுதலாம். இங்கு \\(m\\) என்பது கோட்டின் சாய்வு.
-விகிதச் சமமற்ற நேரிய சார்புகளை
-
+Proportional linear functions can be written in the form
+ \\(y = mx\\) , where \\(m\\) is the slope of the line. Non
+proportional linear functions can be written in the form
+ 
 \\(y = mx + b , b \ne 0\\)  (6.5)
 
-என்ற வடிவத்தில் எழுதலாம். இந்த வடிவம் கொண்ட
-சமன்பாடு ஒரு நேர்க்கோட்டின் சாய்வு– வெட்டுத்துண்டு வடிவம்
-ஆகும். ஏனெனில், இங்குச் சாய்வு m மற்றும் y வெட்டுத்துண்டு b ஆகும்.
+This is called the slope-intercept form of a straight line
+because \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.
+
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.16.png "relation")
 
-**குறிப்பு :** (i) \\(b = 0\\) மற்றும் \\(m \ne 0 \\)எனும்போது நேர்க்கோடு ஆதிப்புள்ளி வழியே செல்கிறது. மேலும்
+**Note :** (i) when \\(b = 0\\) and \\(m \ne 0 \\), the line passes through the origin and its equation is
+\\(y = mx\\).
 
-அதன் சமன்பாடு \\(y = mx\\)
+(ii) when \\(b = 0\\) and \\(m = 0\\), the line coincides with the \\(x -\\)axis and its equation is \\(y = 0\\).
 
-(ii) \\(b = 0\\) மற்றும் \\(m = 0\\) எனில் இந்த வகை நேர்க்கோடுகள் \\(x -\\) அச்சுடன் ஒன்றியிருக்கும்.
+(iii) when \\(b \ne 0\\) and \\(m = 0\\), the line is parallel to the \\(x\\)-axis and its equation is \\(y = b\\).
 
-மேலும் அதன் சமன்பாடு \\(y = 0\\)
-
-(iii) \\(b \ne 0\\) மற்றும் \\(m = 0\\) எனில் இந்த வகையான நேர்க்கோடு \\(x\\) -அச்சிக்கு இணையாக
-இருக்கும். அதன் சமன்பாடு \\(y = b\\) ஆகும்.
-
-###### (ii) புள்ளி மற்றும் சாய்வு வடிவம் (Point and Slope form)
+###### (ii) Point-Slope form
 
 ![relation](/books/maths/part-1/twodimension/straightlines/6.17.png "relation")
 
-\\(m\\) என்பது நேர்கோட்டின் சாய்வு மற்றும் \\(A(x_1,y_1)\\)
-என்பது கோட்டின் மீதுள்ள புள்ளி என்க. இக்கோட்டின்
-மீது அமைந்துள்ள \\(A\\) -ஐ தவிர ஏதேனும் ஒரு புள்ளி \\(P(x,y)\\)
-எனில், \\(A(x_1,y_1)\\) மற்றும் \\(P(x,y)\\) ஆகியவற்றை
-இணைக்கும் நேர்க்கோட்டின் சாய்வு
+Let \\(m\\) be the slope of the line and \\(A(x_1,y_1)\\) be the given
+point on the line. Let \\(P(x,y)\\) be any point other than \\(A\\)
+on the given line. Slope of the line joining \\(A(x_1,y_1)\\) and \\(P(x,y)\\)  is given by
 
 \\(m + \frac{y - y_1}{x - x_1}\\)
 
 \\(\Rightarrow y - y_1 = m(x - x_1) \\)  (6.6) 
 
-இவ்வடிவத்தை புள்ளி - சாய்வு வடிவம் எனக் கூறலாம்.
+which is known as point-slope form.
+
+**Note :**
+Since, the slope \\(m\\) is undefined for lines parallel to the \\(y\\)-axis, the point-slope
+form of the equation will not give the equation of a line through \\(A(x_1,y_1)\\) 
+parallel to the \\(y\\)-axis. However, this presents no difficulty, since for any such
+line the abscissa of any point on the line is \\(x_1\\) . Therefore, the equation of such a
+line is \\(x = x_1\\).
 
 ###### (iii) இரு புள்ளிகள் வடிவம் (Two-points form)
 
