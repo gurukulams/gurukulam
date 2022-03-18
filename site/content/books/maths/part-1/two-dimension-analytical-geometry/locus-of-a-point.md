@@ -247,104 +247,80 @@ Locus of \\( (h,k) \\)is a circle, \\(x^2 + y^2 = 4\\)
 
 {{< /box >}}
 
-{{< box title="எடுத்துக்காட்டு 6.6" type="objective" >}}
+{{< box title="Example 6.6" type="objective" >}}
 
-நகரும் புள்ளியின் ஆயக்கூறு \\((a(θ - sinθ),a(1 - cosθ)) \\)இங்கு\\(θ\\) என்பது
-துணையலகு எனில், இப்புள்ளி நகரும் நியமப்பாதையின் சமன்பாட்டைக் காண்க.
+If θ is a parameter, find the equation of the locus of a moving point, whose coordinates
+are  \\((a(θ - sinθ),a(1 - cosθ)) \\).
 
-**தீர்வு**
+**Solution :**
 
-\\(P(h,k)\\) என்பது தேவையான நியமப்பாதையின் மீதுள்ள ஏதேனும் ஒரு புள்ளி என்க.
+Let P (h, k) be any point on the required path. From the given information we have\\(P(h,k)\\).
 
 \\(h = a(θ - sinθ)   \ \ \ \ \ \ (6.1)\\)
 
 \\(k = a(θ - cosθ)    \ \ \ \ \ \ (6.2)\\)
 
-மேற்கண்ட சமன்பாடு (6.2) இலிருந்து
-\\(θ\\) மற்றும் \\(sin θ\\) மதிப்புகளைக் காணலாம்.
+Let us find the value of \\(θ\\) and \\(sin θ\\) from equation (6.2).
 
 \\(k = a (1 - cosθ))\\)
 
-\\(cos θ = \frac{a - k}{a} \Rightarrow θ = cos^{-1} (\frac{a - k}{a} ) \\) மற்றும் \\(sinθ = \frac{\sqrt{\smash[b]{2ak - k^2}}}{a} \\)
+\\(cos θ = \frac{a - k}{a} \Rightarrow θ = cos^{-1} (\frac{a - k}{a} ) \\) and \\(sinθ = \frac{\sqrt{\smash[b]{2ak - k^2}}}{a} \\)
 
-θ மற்றும் sin θ  மதிப்புகளை சமன்பாடு (6.1) இல் பிரதியிட,
+Substituting above values in (6.1) we get(6.1),
 
 \\(h = a cos^{-1} (\frac{a - k}{a}) - \sqrt{\smash[b]{2ak - k^2}}  \\)
 
-எனவே,என்ற புள்ளியின் நியமப்பாதை 
+The locus of \\( ((h, k) \\) is
 
 \\(x = a cos^{-1} (\frac{a - y}{a}) - \sqrt{\smash[b]{2ay - y^2}}  \ \ \ \ \(6.3)  \\)  
 
 https://www.geogebra.org/b/bd2ADu2I#material/zCKMj8kE
 
-**குறிப்பு:** மேற்கூறிய சமன்பாடானது துணையலகு வடிவத்திலிருந்து கார்டீசியன் வடிவத்திற்கு
-மாற்றப்பட்டுள்ளது. ஆனால் சில நேரங்களில் கார்டீசியன் வடிவத்தைவிடத் துணையலகு
-வடிவமே கையாள்வதற்கு எளிதாக பயன்படுகிறது.
+**Note:** Though, the parametric form given above is converted to Cartesian form, in some cases
+the parametric form may be more useful to work with than the cartesian form.
 
 ![relation](/books/maths/part-1/twodimension/locusofapoint/6.10.png "relation")
 
 {{< /box >}}
 
-#### பயிற்சி 6.1
+#### Exercise 6.1
 
-1. கீழே கொடுக்கப்பட்டுள்ள ஆயத்தொலைகளை உடைய நகரும் புள்ளி P -ன் நியமப்பாதையின்
-சமன்பாட்டைக் காண்க. இங்கு \\(\alpha \\)ஒரு துணையலகு ஆகும்.
+1. Find the locus of P , if for all values of \\(\alpha \\), the co-ordinates of a moving point P is 
 
 (i) (\\( 9 cos \alpha , 9 sin \alpha ) 	 (ii) ( 9 cos \alpha , 6 sin \alpha )\\)
 
-2. \\((i) x\\)-அச்சிலிருந்து இரண்டு அலகுகள் மற்றும் \\((ii) y \\)-அச்சிலிருந்து மூன்று அலகுகள் என்ற
-மாறாத தொலைவில் நகரும் புள்ளி \\(P\\) -ன் நியமப்பாதையின் சமன்பாட்டைக் காண்க.
+2. Find the locus of a point P that moves at a constant distant of (i) two units from the \\((i) x\\) (ii)
+three units from the \\((ii) y \\).
 
-3. \\(\theta\\) ஒரு துணையலகு எனில், \\(x = a cos^3 \theta , y = a sin^3 \theta \\)ஆகிய ஆயத்தொலைகளை உடைய
-நகரும் புள்ளியின் நியமப்பாதையின் சமன்பாட்டைக் காண்க.
+3. If \\(\theta\\) is a parameter, find the equation of the locus of a moving point, whose coordinates are\ \\(x = a cos^3 \theta , y = a sin^3 \theta \\).
 
-4. \\(x^2 - 5 x + ky = 0\\) என்ற நியமப்பாதையின் மீது புள்ளிகள் \\(P(-3,1)\\) மற்றும் \\(Q(2,b)\\) அமையும்
-எனில் \\(k\\) மற்றும் \\(b\\) -ன் மதிப்புகளைக் காண்க.
+4. Find the value of \\(k\\) and \\(b\\), if the points \\(P(-3,1)\\) and  \\(Q(2,b)\\) lie on the locus of \\(x^2 - 5 x + ky = 0\\).
 
-5. 8 அலகுகள் நீளமுள்ள ஒரு நேரான கம்பியின் முனைகள் \\(A\\) மற்றும் \\(B\\) ஆகியவை முறையே
-எப்போதும் \\(x\\) மற்றும் \\(y\\)-அச்சுகளைத் தொடுமாறு நகர்ந்து கொண்டு இருக்கிறது, எனில்
-வெட்டுத்துண்டு \\(AB\\) -ன் நடுப்புள்ளியின் நியமப்பாதையின் சமன்பாட்டைக் காண்க.
+5. A straight rod of length 8 units slides with its ends \\(A\\) and \\(B\\) always on the \\(x\\) and \\(y\\) axes respectively. Find the locus of the mid point of the line segment \\(AB\\).
 
-6. \\((3, 5)\\) மற்றும் \\((1,-1)\\)என்ற புள்ளிகளிலிருந்து ஒரு நகரும் புள்ளிக்கு இடைப்பட்ட
-தொலைவுகளின் வர்க்கங்களின் கூடுதல் 20-க்கு சமம் எனில் அப்புள்ளியின் நியமப்பாதையின்
-சமன்பாட்டைக் காண்க.
+6. Find the equation of the locus of a point such that the sum of the squares of the distance from the
+points \\((3, 5)\\) and \\((1,-1)\\) is equal to 20.
 
-7. \\(A(1,-6)\\) மற்றும் \\(B(4,-2)\\) என்ற புள்ளிகளை இணைக்கும் \\(AB\\) கோட்டுத் துண்டானது புள்ளி
-P-ல் தாங்கும் கோணம் செங்கோணம் எனில், புள்ளி P-ன் நியமப்பாதையின் சமன்பாட்டைக்
-காண்க.
+7. Find the equation of the locus of the point P such that the line segment \\(AB\\), joining the points \\(A(1,-6)\\) and \\(B(4,-2)\\), subtends a right angle at P.
 
-8. ஆதிப்புள்ளி \\(O\\) என்க. \\(y^2 = 4 x \\) என்ற வளைவரையின் மீது மாறிப்புள்ளி \\(R\\) அமைந்துள்ளது
-எனில் கோட்டுத்துண்டு \\(OR\\) -ன் நடுப்புள்ளியின் நியமப்பாதையின் சமன்பாட்டைக் காண்க
+8. If \\(O\\) is origin and \\(R\\) is a variable point on \\(y^2 = 4 x \\) then find the equation of the locus of the
+mid-point of the line segment \\(OR\\).
 
-9. நகரும் புள்ளி \\(P\\)-ன் ஆயக் கூறுகள் \\(\frac{a}{2} ( cosec \theta + sin \theta ), \frac{b}
-{2} ( cosec \theta - sin \theta ) k \\) எனில், \\(P\\)-ன்
-நியமப்பாதையின் சமன்பாடு \\(b^2 x^2 − a^2 y^2 = a^2 b^2\\) எனக் காட்டுக. இங்கு \\(\theta\\) என்பது ஒரு
-துணையலகு மாறி ஆகும்.
+9. The coordinates of a moving point \\(P\\) are \\(\frac{a}{2} ( cosec \theta + sin \theta ), \frac{b}
+{2} ( cosec \theta - sin \theta ) \\) where \\(\theta\\) is a variable parameter. Show that the equation of the locus \\(P\\) is \\(b^2 x^2 − a^2 y^2 = a^2 b^2\\).
 
-10. \\(Q\\) என்ற புள்ளி \\() 2 x^2 + 9 y^2 = 18\\) என்ற வளைவரையின் மீது அமைந்துள்ளது. \\(P(2,-7)\\)
-கொடுக்கப்பட்ட புள்ளி எனில் கோட்டுத்துண்டு \\(PQ\\)-ன் நடுப்புள்ளியின் நியமப்பாதையின்
-சமன்பாட்டைக் காண்க.
+10. If \\(P(2,-7)\\) is a given point and \\(Q\\) is a point on \\() 2 x^2 + 9 y^2 = 18\\), then find the equations of the locus of the mid-point of \\(PQ\\).
 
-11. \\(R\\) மற்றும் \\(Q\\) என்பன முறையே \\(x\\) மற்றும் \\(y\\) -அச்சுகளின் மீது அமைந்துள்ள புள்ளிகள், \\(P\\) என்ற
-நகரும் புள்ளி \\(RQ\\)-ன் மேல் உள்ளது. மேலும் \\(RP = b, PQ = a\\) என்றவாறு \\(RQ\\)-ன் மீது
-அமைந்துள்ள நகரும் \\(P\\)-ன் நியமப்பாதையின் சமன்பாட்டைக் காண்க.
+11. If \\(R\\) is any point on the \\(x\\)-axis and \\(Q\\) is any point on the \\(y\\)-axis and \\(P\\) is a variable point on \\(RQ\\) with \\(RP = b, PQ = a\\) then find the equation of locus of \\(P\\).
 
-12. \\(P(6 , 2) , Q(–2 , 1)\\) மற்றும் \\(R\\) என்பன \\(\Delta PQR\\)-ன் முனைப் புள்ளிகள் மற்றும் நியமப்பாதை
-\\(y = x^2 - 3 x + 4\\) -ன் மீது \\(R\\) என்ற புள்ளி அமைந்துள்ளது எனில், \\(\Delta PQR\\) -ன் மையக்கோட்டுச்
-சந்தியின் (Centroid) நியமப்பாதையின் சமன்பாட்டைக் காண்க.
+12. If the points \\(P(6 , 2) , Q(–2 , 1)\\) and \\(R\\) are the vertices of a \\(\Delta PQR\\) and \\(R\\) is the point on the locus \\(y = x^2 - 3 x + 4\\), then find the equation of the locus of centroid of \\(\Delta PQR\\).
 
-13. \\(x^2 + y^2 + 4^x - 3^y + 7 = 0\\) என்ற நியமப்பாதையின் மீது \\(Q\\) என்ற புள்ளி அமைந்துள்ளது. \\(P\\)
-என்ற புள்ளி கோட்டுத் துண்டு \\(OQ\\)-ஐ வெளிப்புறமாக \\(3:4\\) என்ற விகிதத்தில் பிரிக்கும் எனில்
-புள்ளி \\(P\\)-ன் நியமப்பாதையின் சமன்பாட்டைக் காண்க. இங்கு \\(O\\) என்பது ஆதிப்புள்ளியாகும்.
+13. If \\(Q\\) is a point on the locus of \\(x^2 + y^2 + 4x - 3y + 7 = 0\\), then find the equation of locus of \\(P\\) which divides segment \\(OQ\\) externally in the ratio \\(3:4\\),where \\(O\\) is origin. 
 
-14. கொடுக்கப்பட்ட \\(P(5,1)\\) புள்ளிக்கு \\(5\\) அலகுகள் மற்றும் \\(x\\)-அச்சிலிருந்து \\(3\\) அலகுகள் தூரம்
-கொண்ட ஒரு நியமப்பாதையின் மீது அமைந்துள்ள புள்ளிகள் எத்தனை?
-மேலும்
-அப்புள்ளிகளைக் காண்க
+14. Find the points on the locus of points that are \\(3\\) units from \\(x\\)-axis and \\(5\\) units from the point \\( (5, 1) \\).
 
-15. \\((-4, 0)\\) மற்றும் \\((4,0)\\) ஆகிய புள்ளிகளிலிருந்து ஒரு நகரும் புள்ளிக்கு இடைப்பட்ட
-தொலைவுகளின் கூடுதல் எப்போதும் \\(10\\) அலகுகள் எனில், நகரும் புள்ளியின்
-நியமப்பாதையின் சமன்பாட்டைக் காண்க
+15. The sum of the distance of a moving point from the points \\((-4, 0)\\) and \\((4,0)\\) is always \\(10\\) units.
+Find the equation of the locus of the moving point.
 
 
 
