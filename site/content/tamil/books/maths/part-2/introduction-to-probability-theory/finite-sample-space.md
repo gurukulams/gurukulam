@@ -182,22 +182,5 @@ S = \\(\lbrace H , T \rbrace × \lbrace H , T \rbrace\\) = \\(\lbrace( H , H ), 
 (iv) \\(( A \cap \bar{B} )\\) என்பது \\(A\\) மட்டும்
 நிகழ்வதைக் குறிக்கிறது .
 
-#### 12.4 நிகழ்தகவு (Probability)
-
-##### 12.4.1 நிகழ்தகவின் பழமையான (முன்னறி நிகழ்தகவு) வரையறை (பெர்னோலியின் சமவாய்ப்புக் கொள்கை)
-
-##### (Classical definition ( A p r i o r i ) of probability (Bernoulli’s principle of equally likely))
-
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.7.png "probability theory")
-
-முன்வகுப்பில்
-நிகழ்தகவின்
-வரையறையைப் 
-பயன்படுத்திக் 
-கணிதத்தில் தீர்வு கண்டோம். இங்கு நிகழ்தகவின் அடிப்படைக் 
-கொள்கைகளின் அணுகுமுறையைப் பற்றி அறிவோம் **(பின் நிகழ்தகவு)**.
-
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.8.png "probability theory")
-
 
 
