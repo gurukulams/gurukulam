@@ -230,7 +230,7 @@ in right \\(\Delta OPB\\), \\(\frac{OP}{OA} = cos (\frac{\pi}{2} - \alpha) = sin
 
 Using the above data in intercepts form
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.20.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.22.eng.png "relation")
 
 \\(\frac{x}{OA} + \frac{y}{OB} = 1\\)
 
