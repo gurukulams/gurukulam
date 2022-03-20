@@ -561,3 +561,86 @@ The order of AB is m ×p = (number of rows of A)(number of columns of B).
 
 ### IMAGE
 
+\\(if A= [a_1  a_2  ... a_n]_{m×n}\\) and 
+
+\\(B=
+    \begin{bmatrix} 
+    b_1 \\\\ 
+    b_{2}\\\\\\\\ 
+    \vdots \\\\ 
+    b_{n}  \end{bmatrix}_{m×n}\\) ,then AB is a matrix of order 1 × 1, that gives a single
+element which is defined by \\(if AB= [a_1  a_2  ... a_n]_{m×n}\\) \\(B=
+    \begin{bmatrix} 
+    b_1 \\\\ 
+    b_{2}\\\\\\\\ 
+    \vdots \\\\ 
+    b_{n}  \end{bmatrix}_{m×n}\\)=
+    \\([a_1 b_1 + a_2 b_2 + ... a_n b_n]\\)=
+    \\([ \displaystyle\sum_{k=1}^n a_k b_k]\\) 
+    
+    For instance,
+   \\(\begin{bmatrix} 
+    1 & 2 & 3\\\\ \end{bmatrix}\\)
+    \\(\begin{bmatrix} 
+    -2\\\\ 
+    3\\\\ 
+    5 \end{bmatrix}\\)= \\([1(-2)+2(3)+3(5)]=[-2+6+15]\\)=[19].
+
+    In general,
+
+\\(A=\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    a_{11} & a_{12} & \cdots & a_{1n}\\\\ 
+    a_{21} & a_{22} & \cdots & a_{2n}\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    a_{m1} & a_{m2} & \vdots & a_{mn} \\\\ 
+    \end{bmatrix}
+    \\)\\(B=\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    b_{11} & b_{12} & \cdots & b_{1p}\\\\ 
+    b_{21} & b_{22} & \cdots & b_{2p}\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    b_{n1} & b_{n2} & \vdots & b_{np} \\\\ 
+    \end{bmatrix}
+    \\) then
+
+\\(A=\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=\overrightarrow {
+    \begin{bmatrix} 
+    a_{11} & a_{12} & \cdots & a_{1n}\\\\ 
+    a_{21} & a_{22} & \cdots & a_{2n}\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    a_{m1} & a_{m2} & \vdots & a_{mn} \\\\ 
+    \end{bmatrix}}
+    \\)
+
+\\(B=\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    b_{11} & b_{12} & \cdots & b_{1p}\\\\ 
+    b_{21} & b_{22} & \cdots & b_{2p}\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    b_{n1} & b_{n2} & \vdots & b_{np} \\\\ 
+    \end{bmatrix}
+    \\) 
+    
+    and the product
+\\(AB=\begin{bmatrix} 
+    {c_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    c_{11} & c_{12} & \cdots & c_{1p}\\\\ 
+    c_{21} & c_{22} & \cdots & c_{2p}\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    c_{m1} & c_{m2} & \vdots & c_{mp} \\\\ 
+    \end{bmatrix}
+    \\)
+where 
+\\(if AB= [a_{i1}  a_{i2}  ... a_{in}]\\) \\(B=
+    \begin{bmatrix} 
+    b_{1f} \\\\ 
+    b_{2f}\\\\\\\\ 
+    \vdots \\\\ 
+    b_{nf}  \end{bmatrix}\\)=
+    \\([ \displaystyle\sum_{k=1}^n a_{ik} b_{kj}]\\) since \\(c_{if}\\) is an element.
