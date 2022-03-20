@@ -591,17 +591,56 @@ element which is defined by \\(if AB= [a_1  a_2  ... a_n]_{m×n}\\) \\(B=
 \\(A=\begin{bmatrix} 
     {a_{ij}} \end{bmatrix}_{m×n}=
     \begin{bmatrix} 
-    a_{11} & 0 & \cdots & 0\\\\ 
-    0 & a_{22} & \cdots & 0\\\\ 
+    a_{11} & a_{12} & \cdots & a_{1n}\\\\ 
+    a_{21} & a_{22} & \cdots & a_{2n}\\\\ 
     \vdots & \vdots & \ddots & \vdots \\\\ 
-    0 & \vdots & \vdots & a_{mn} \\\\ 
+    a_{m1} & a_{m2} & \vdots & a_{mn} \\\\ 
     \end{bmatrix}
     \\)\\(B=\begin{bmatrix} 
     {a_{ij}} \end{bmatrix}_{m×n}=
     \begin{bmatrix} 
-    b_{11} & b_{12} & \cdots & 0\\\\ 
-    0 & b_{22} & \cdots & 0\\\\ 
+    b_{11} & b_{12} & \cdots & b_{1p}\\\\ 
+    b_{21} & b_{22} & \cdots & b_{2p}\\\\ 
     \vdots & \vdots & \ddots & \vdots \\\\ 
-    0 & \vdots & \vdots & b_{np} \\\\ 
+    b_{n1} & b_{n2} & \vdots & b_{np} \\\\ 
+    \end{bmatrix}
+    \\) then
+
+\\(A=\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=\overrightarrow {
+    \begin{bmatrix} 
+    a_{11} & a_{12} & \cdots & a_{1n}\\\\ 
+    a_{21} & a_{22} & \cdots & a_{2n}\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    a_{m1} & a_{m2} & \vdots & a_{mn} \\\\ 
+    \end{bmatrix}}
+    \\)
+
+\\(B=\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    b_{11} & b_{12} & \cdots & b_{1p}\\\\ 
+    b_{21} & b_{22} & \cdots & b_{2p}\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    b_{n1} & b_{n2} & \vdots & b_{np} \\\\ 
+    \end{bmatrix}
+    \\) 
+    
+    and the product
+\\(AB=\begin{bmatrix} 
+    {c_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    c_{11} & c_{12} & \cdots & c_{1p}\\\\ 
+    c_{21} & c_{22} & \cdots & c_{2p}\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    c_{m1} & c_{m2} & \vdots & c_{mp} \\\\ 
     \end{bmatrix}
     \\)
+where 
+\\(if AB= [a_{i1}  a_{i2}  ... a_{in}]\\) \\(B=
+    \begin{bmatrix} 
+    b_{1f} \\\\ 
+    b_{2f}\\\\\\\\ 
+    \vdots \\\\ 
+    b_{nf}  \end{bmatrix}\\)=
+    \\([ \displaystyle\sum_{k=1}^n a_{ik} b_{kj}]\\) since \\(c_{if}\\) is an element.
