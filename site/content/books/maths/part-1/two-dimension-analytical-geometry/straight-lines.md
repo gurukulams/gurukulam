@@ -32,7 +32,7 @@ the line that is needed to write down the form. Some of the important data are *
 The **angle of inclination** of a straight line is the angle, say \\(\theta\\), made by the line with the x-axis
 measured in the counter clockwise (positive) direction.
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.11.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.13.eng.png  "relation")
 
 **Definition 6.4**
 
@@ -55,7 +55,8 @@ This is described by the following equation
 
 \\(m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1} = \frac{vertical change}{horizontal change} \\) 
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.12.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.14.eng.png "relation")
+
 
 (iii) When the general form of the linear equation \\(ax + by + c = 0 \\) is given, then the slope of the
 line is ,
@@ -66,7 +67,7 @@ line is ,
 
 ###### The slope of a line can be a positive or negative or zero or undefined as shown below:
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.13.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.15.eng.png  "relation")
 
 **Definition 6.5**
 
