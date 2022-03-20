@@ -243,7 +243,7 @@ is called the normal form of equation.
 If \\(p\\) is positive in all positions of the line and if \\( \alpha \\) is always measured from \\(x\\)-axis in the
 positive direction, this equation holds in every case as shown in the figure.
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.21.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.23.eng.png "relation")
 
 ###### (vi) Parametric Form
 
@@ -256,7 +256,7 @@ where \\(a\\) and \\(b\\) are constants and \\(r\\) is the parameter.
 
 \\(\frac{x - x_1}{a} = \frac{y - y_1}{b} = r , (a \ne 0 , b \ne 0 ) \\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.22.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.24.eng.png "relation")
 
 Suppose we have the equation of the line passing through the point \\(Q(x_1 , y_1)\\) and making an angle \\(\theta\\) with \\(x\\)-axis. Let \\(P(x, y)\\) be a point on the line at a distance \\(r\\) from \\(Q\\). Drop perpendiculars \\(QN\\) and \\(PM\\) respectively from \\(Q\\) and \\(P\\) to the \\(x\\)-axis-axis and perpendicular \\(QR \bot PM\\).
 
