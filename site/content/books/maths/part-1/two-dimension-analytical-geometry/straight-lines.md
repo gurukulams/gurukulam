@@ -96,11 +96,11 @@ Therefore it is clear that
 
 In the figure \\(OA\\) is the \\(x\\)-intercept and \\(OB\\)  is the \\(y\\)-intercept.
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.14.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.16.eng.png "relation")
 
 Different types of \\(x\\) and \\(y\\)Intercepts:
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.15.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.17.eng.png "relation")
 
 We have learnt the definition and detailed information about the **points**, **slope** and **intercepts**. Using
 these information, let us recall the different forms of an equation of a straight line.
@@ -141,7 +141,7 @@ This is called the slope-intercept form of a straight line
 because \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.
 
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.16.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.18.eng.png "relation")
 
 **Note :** (i) when \\(b = 0\\) and \\(m \ne 0 \\), the line passes through the origin and its equation is
 \\(y = mx\\).
@@ -152,7 +152,7 @@ because \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.
 
 ###### (ii) Point-Slope form
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.17.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.19.eng.png "relation")
 
 Let \\(m\\) be the slope of the line and \\(A(x_1,y_1)\\) be the given
 point on the line. Let \\(P(x,y)\\) be any point other than \\(A\\)
@@ -173,7 +173,7 @@ line is \\(x = x_1\\).
 
 ###### (iii) Two-points form
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.18.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.20.eng.png "relation")
 
 If \\((x_1 , y_1)\\) and \\((x_2 , y_2 \\)) are any two points on the line with \\(x_2 \ne x_1 \\)   and \\(y_1 \ne y_2 \\) then the slope is,
 
@@ -202,7 +202,7 @@ found using intercepts. Suppose \\(x\\)-intercept \\(OA = a\\) and
 line passes through two points \\(A(a, 0)\\) and \\(B(0, b)\\)  is
 
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.19.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.21.eng.png "relation")
 
 \\(\frac{y - 0}{b - 0} + \frac{x - a}{0 - a}\\)
 
