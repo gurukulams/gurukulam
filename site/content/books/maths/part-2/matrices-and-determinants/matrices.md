@@ -561,3 +561,47 @@ The order of AB is m ×p = (number of rows of A)(number of columns of B).
 
 ### IMAGE
 
+\\(if A= [a_1  a_2  ... a_n]_{m×n}\\) and 
+
+\\(B=
+    \begin{bmatrix} 
+    b_1 \\\\ 
+    b_{2}\\\\\\\\ 
+    \vdots \\\\ 
+    b_{n}  \end{bmatrix}_{m×n}\\) ,then AB is a matrix of order 1 × 1, that gives a single
+element which is defined by \\(if AB= [a_1  a_2  ... a_n]_{m×n}\\) \\(B=
+    \begin{bmatrix} 
+    b_1 \\\\ 
+    b_{2}\\\\\\\\ 
+    \vdots \\\\ 
+    b_{n}  \end{bmatrix}_{m×n}\\)=
+    \\([a_1 b_1 + a_2 b_2 + ... a_n b_n]\\)=
+    \\([ \displaystyle\sum_{k=1}^n a_k b_k]\\) 
+    
+    For instance,
+   \\(\begin{bmatrix} 
+    1 & 2 & 3\\\\ \end{bmatrix}\\)
+    \\(\begin{bmatrix} 
+    -2\\\\ 
+    3\\\\ 
+    5 \end{bmatrix}\\)= \\([1(-2)+2(3)+3(5)]=[-2+6+15]\\)=[19].
+
+    In general,
+
+\\(A=\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    a_{11} & 0 & \cdots & 0\\\\ 
+    0 & a_{22} & \cdots & 0\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    0 & \vdots & \vdots & a_{mn} \\\\ 
+    \end{bmatrix}
+    \\)\\(B=\begin{bmatrix} 
+    {a_{ij}} \end{bmatrix}_{m×n}=
+    \begin{bmatrix} 
+    b_{11} & b_{12} & \cdots & 0\\\\ 
+    0 & b_{22} & \cdots & 0\\\\ 
+    \vdots & \vdots & \ddots & \vdots \\\\ 
+    0 & \vdots & \vdots & b_{np} \\\\ 
+    \end{bmatrix}
+    \\)
