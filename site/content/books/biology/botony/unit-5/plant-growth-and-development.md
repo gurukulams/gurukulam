@@ -1,5 +1,5 @@
 ---
-title: 'தாவர வளர்ச்சியும் படிம வளர்ச்சியும்'
+title: 'Plant Growth and Development'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 15

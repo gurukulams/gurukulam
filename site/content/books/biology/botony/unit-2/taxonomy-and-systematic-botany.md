@@ -1,6 +1,5 @@
 ---
-title: 'வகைப்பாட்டியல் மற்றும் குழுமப் பரிணாம
-வகைப்பாட்டியல் '
+title: 'Taxonomy and Systematic Botany'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 5
