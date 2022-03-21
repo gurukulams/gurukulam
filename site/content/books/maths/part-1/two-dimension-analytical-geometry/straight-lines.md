@@ -294,7 +294,7 @@ The general form of the equation of the straight line is
 
 The below table summarizes the types of straight lines related to the given information.
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.23.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.25.eng.png "relation")
 
 If we have two variable quantities, then each can be represented by a variable. If the rate of change
 of one variable with respect to the other variable is constant, then the relationship between them is
@@ -334,7 +334,7 @@ Slope and angle of inclination of the line with the x-axis are 3π respectively,
 
 \\(m = -1\\) and \\(\theta = \frac{3\pi}{4} \\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.24.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.26.eng.png "relation")
 
 {{< /box >}}
 
@@ -363,7 +363,7 @@ That is, \\(y = -\frac{1}{\sqrt{3}} x - 5\\)
 
 \\(x + \sqrt{3}y + 5\sqrt{3} = 0\\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.25.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.27.eng.png "relation")
 
 {{< /box >}}
 
@@ -419,7 +419,7 @@ of the train \\(560\\) m is the negative \\(y\\)-intercept.
 The uniform speed 12.5 m/s is the slope of the motion of the distance train
 \\(  (Speed=(\frac{distance}{time}\\))
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.26.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.28.eng.png "relation")
 
 Since we are given slope and y-intercept, the equation of the
 line is \\(y = mx + b \\) (6.13)
@@ -480,7 +480,7 @@ Equations of lines are
 
 \\(y = \sqrt{3} x + 7 and y = - \sqrt{3}x + 7 \\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.27.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.29.eng.png "relation")
 
 {{< /box >}}
 
@@ -570,7 +570,7 @@ Using two point form, we get the supply function as   \\((Supply function)\\)
 
 \\(\Rightarrow y_S = \frac{1}{3}x + 6 \\) \\((supply function)\\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.28.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.30.eng.png "relation")
 
 (iii) At the market equilibrium the demand equals to supply,
 
@@ -622,7 +622,7 @@ Since it passes through (−1, 1)(-1, 1),
 
 Equation of the line is \\(x - y + 2 = 0 \\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.29.png "relation")
+![relation](/books/maths/part-1/twodimension/straightlines/6.31.eng.png "relation")
 
 {{< /box >}}
 
