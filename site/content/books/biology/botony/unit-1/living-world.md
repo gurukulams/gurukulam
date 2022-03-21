@@ -74,7 +74,7 @@ and distinct characteristic feature.
 The attributes of living organisms are given
 below and is represented in Figure 1.1. 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/1.1.png )
+![உயிரி உலகம்](/books/biology/unit-1/the-living-world/1.1.eng.png )
 
 
 **Growth**
@@ -135,15 +135,8 @@ fragmentation (Spirogyra), protonema
 Exceptions are the sterile worker bees
 and mules.
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/2.2.png )
+![உயிரி உலகம்](/books/biology/unit-1/the-living-world/2.2.eng.png )
 
-படம் 1.2: பாலிலா இனப்பெருக்க முறைகள்
-
-(அ) கொனிடியங்கள் தோன்றுதல் – பெனிசீலியம்
-
-(ஆ) மொட்டுவிடுதல் – ஈஸ்ட் 
-(இ) துண்டாதல் – ஸ்பைரோகைரா 
-(ஈ) மீளுருவாக்கம் - பிளனேரியா
 
 **Response to stimuli**
 
@@ -246,81 +239,69 @@ study of viruses is called Virology.
 
 **1.2.1 Milestones in Virology**
 
-1796 பெரியம்மைக்கு எட்வர்ட் ஜென்னர்
-தடுப்பூசி கண்டுபிடித்தார்.
+1796 Edward Jenner used vaccination for
+small pox
 
-1886 அடால் ப் மேயர் புகையிலை தேமல் நோய்
-வைரஸின் (Tobacco Mosaic Virus)
-தொற்றுத்தன்மையை, தேமல் பாதித்த
-இலைச்சாற்றைப் பயன்படுத்தி விளக்கினார்.
+1886 Adolf Mayer demonstrated the
+infectious nature of Tobacco mosaic
+virus using sap of mosaic leaves.
 
-1892 டிமிட்ரி ஐவான்ஸ்கி வைரஸ்கள்
-பாக்டீரியங்களை விடச்சிறியது என
-நிரூபித்தார்.
+1892 Dimitry Ivanowsky proved that
+viruses are smaller than bacteria.
 
-1898 M.W. பெய்ஜிரிங்க் புகையிலையில் உள்ள
-தொற்றுதல்
-காரணியை
-“தொற்றுத் தன்மை
-வாய்ந்த உயிருள்ள
-திரவம்” (Contagium
-vivum fluidum)
-என்று அழைத்தார்.
+1898 M.W. Beijierink defined the
+infectious agent in tobacco leaves as
+῾Contagium vivum fluidum’
 
-1915 F.W. ட்வார்ட் –
-பாக்டீரியங்களில்
-வைரஸ்
-தொற்றுதலை
-கண்டறிந்தார்.
+1915 F.W.Twort identified Viral infection
+in Bacteria.
 
-1917 டி’ ஹெரில்லி – “பாக்டீரியஃபாஜ்” எனும்
-சொல்லைப் பயன்படுத்தினார்.
+1917 d’Herelle coined
+the
+term
+‘Bacteriophage’.
 
-1984 லுக் மான்டக்னர் மற்றும் இராபர்ட் கேலோ
-- HIV-யை (மனித நோய் எதிர்ப்புசக்தி
-குறைக்கும் வைரஸ்) கண்டுபிடித்தனர்.
+1984 Luc Montagnier and Robert Gallo
+discovered HIV (Human Immuno
+Deficiency Virus).
 
-**1.2.2 அளவும் வடிவமும்**
+**1.2.2 Size and Shape**
 
-வைரஸ்கள் மிக நுண்ணிய துகள்களாகும்.
-இவை பாக்டீரியங்களை விடச் சிறியவை. பொதுவாக
-20nm முதல் 300nm வரை விட்டமுடையவை. (1nm
-(நானோமீட்டர்) = 10-9 மீட்டர்). பாக்டீரியஃபாஜ்கள்
-10nm முதல் 100nm வரை அளவுடையவை. TMV
-வைரஸின் அளவு 300 x 20 nm ஆகும்.
+Viruses are ultramicroscopic particles. They
+are smaller than bacteria and their diameter
+range from 20 to 300 nm. (1nm = 10 -9 metres).
+Bacteriophage measures about 10-100 nm
+in size. The size of TMV is 300×20 nm.
 
-வடிவம், சீரமைவின் அடிப்படையில்
-வைரஸ்கள் பொதுவாகக் கீழ்க்கண்ட மூன்று
-முக்கிய வகைகளாகக் காணப்ப டுகின்றன (படம் 1.4).
+Generally viruses are of three types
+based on shape and symmetry (Figure 1.4).
 
-i. கனசதுரவடிவம் –எடுத்துக்காட்டு: அடினோ
-வைரஸ், ஹெர்ப்பஸ் வைரஸ்
+i. Cuboid symmetry – Example:
+Adenovirus, Herpes virus.
+ii. Helical symmetry – Example: Influenza
+virus, TMV.
+iii. Complex or Atypical – Example:
+Bacteriophage, Vaccinia virus.
 
-ii. சுருள் வடிவம் –எடுத்துக்காட்டு:
-இன்புளுயன்சா வைரஸ், TMV
+**1.2.3 Characteristic Features of Viruses**
 
-iii. சிக்கலான அல்லது இயல்பற்ற வடிவம்
-எடுத்துக்காட்டு: பாக்டீரியஃபாஜ்,
-வாக்ஸினியா வைரஸ்.
+**Living Characters**
 
-**1.2.3 வைரஸ்களின் பண்புகள்**
+• Presence of nucleic acid and protein.
+• Capable of mutation
+• Ability to multiply within living cells.
+• Able to infect and cause diseases in living
+beings.
+• Show irritability.
+• Host –specific
 
-**உயிருள்ள பண்புகள்**
+**Non-living Characters**
 
-- உட்கரு அமிலம், புரதம் கொண்டிருத்தல்.
-- திடீர்மாற்றம் அடையும் திறன்.
-- உயிருள்ள செல்லுக்குள் மட்டுமே
-பெருக்கமடையும் திறன்.
-- உயிரினங்களில் நோயை
-உண்டாக்கும் திறன்.
-- உறுத்துணர்வு உள்ளவை.
-- குறிப்பிட்ட ஓம்புயிர்ச்சார்பு
-கொண்டவை.
-
-**உயிரற்ற பண்புகள்**
-
- - படிகங்களாக்க முடியும்.
- - வளர்சிதை மாற்றம் காணப்படுவதில்லை.
+ • Can be crystallized.
+• Absence of metabolism.
+• Inactive outside the host.
+• Do not show functional autonomy.
+• Energy producing enzyme system is absent.
 
  ![உயிரி உலகம்](/books/biology/unit-1/the-living-world/6.6.png ) 
 
