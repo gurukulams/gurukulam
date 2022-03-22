@@ -135,7 +135,7 @@ fragmentation (Spirogyra), protonema
 Exceptions are the sterile worker bees
 and mules.
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/2.2.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/2.2.eng.png )
 
 
 **Response to stimuli**
