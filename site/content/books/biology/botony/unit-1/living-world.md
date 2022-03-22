@@ -189,10 +189,9 @@ end in Biosphere. Each level cannot exist
 in isolation instead they form levels of
 integration as given in Figure 1.3.
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/3.3.png )
+![உயிரி உலகம்](/books/biology/unit-1/the-living-world/3.3.eng.png )
 
-**படம் 1.3: உயிரினங்களின் அமைப்புமுறையின்
-படிநிலைகள் மற்றும் ஒருங்கமைப்பு**
+
 
 **Activity 1.1**
 
@@ -219,7 +218,7 @@ the attributes of living world in the previous
 chapter. Now we shall discuss about viruses
 which connect the living and nonliving world. 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/4.4.png )
+![உயிரி உலகம்](/books/biology/unit-1/the-living-world/4.4.eng.png )
 
 
 The word virus is derived from
@@ -231,11 +230,9 @@ contain only a single type of nucleic acid
 which may be either DNA or RNA. The
 study of viruses is called Virology.
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/5.5.png ) 
+![உயிரி உலகம்](/books/biology/unit-1/the-living-world/5.5.eng.png ) 
 
-அமெரிக்க விஞ்ஞானியான இவர் 1935 ஆம் ஆண்டில் நோயுற்ற
-புகையிலைச் சாற்றிலிருந்து வைரஸ்களைப் படிகப்படுத்தினார். இவர் 1946 ஆம் ஆண்டு வேதியியல்
-பிரிவிற்கான நோபல் பரிசை Dr. J.H. நார்த்ட்ராப்புடன் சேர்ந்து பெற்றார்.
+
 
 **1.2.1 Milestones in Virology**
 
@@ -303,107 +300,80 @@ beings.
 • Do not show functional autonomy.
 • Energy producing enzyme system is absent.
 
- ![உயிரி உலகம்](/books/biology/unit-1/the-living-world/6.6.png ) 
+ ![உயிரி உலகம்](/books/biology/unit-1/the-living-world/6.6.eng.png ) 
 
-**அட்டவணை 1.2: வைரஸ்களின் பல்வேறு வகுப்புகள்**
 
-| வகுப்பு |  எடுத்துக்காட்டு |   |   |   |
-|---|---|---|---|---|
-| வகுப்பு 1 - dsDNA கொண்ட வைரஸ்கள்  | அடினோ வைரஸ்கள் |   |   |   |
-| வகுப்பு 2 - வெளிப்பாடடையும் ssDNA கொண்ட வைரஸ்கள் | பார்வோ வைரஸ்கள் |   |   |   |
-| வகுப்பு 3 - dsRNA கொண்ட வைரஸ்கள | ரியோ வைரஸ்கள் |  |   |   |
-| வகுப்பு 4 - வெளிப்பாடடையும் ssRNA கொண்ட வைரஸ்கள் | டோகா வைரஸ்கள் |  |   |   |
-| வகுப்பு 5 - வெளிப்பாடடையாத ssRNA கொண்ட வைரஸ்கள் | ராப்டோ வைரஸ்கள் |  |   |   |
-| வகுப்பு 6 - வெளிப்பாடடையும் ssRNA-RT: கொண்ட வைரஸ்கள் வாழ்க்கைச் சுழற்சியில்
-DNAவுடன் பெருக்கம் அடைபவை | ரெட்ரோ வைரஸ்கள் |  |   |   |
-| வகுப்பு 7 - dsDNA-RT: கொண்ட வைரஸ்கள், வாழ்க்கைச் சுழற்சியில் RNA-வுடன் பெருக்கம் 
-அடைபவை  | ஹெபாட்னா வைரஸ்கள்
- | |||
-- ஓம்புயிரிக்கு வெளியேசெயல்படும் திறனற்றவை
 
-- தன்னிச்சையான செயல்பாடுகள் எதுவும் காணப்படுவதில்லை.
+**1.2.4 Classification of Viruses**
 
-- ஆற்றலை வெளிப்படுத்தும் நொதிகளின் தொகுப்பு காணப்படுவதில்லை.
+Among various classifications proposed
+for viruses the classification given by David
+Baltimore in the year 1971 is given below. The
+classification is based on mechanism of RNA
+production, the nature of the genome (single
+stranded –ss or double stranded - ds), RNA or
+DNA, the use of reverse transcriptase (RT), ss
+RNA may be (+) sense or (–) antisense. Viruses
+are classified into seven classes (Table 1.2).
 
-**1.2.4 வைரஸ்களின் வகைப்பாடு**
+**Viral genome**
 
-வைரஸ்களுக்கான பல்வேறு வகைப்பாடுகள்
-வெளிவந்தபோதிலும் 1971 ஆம் ஆண்டில் டேவிட்
-பால்டிமோர் வெளியிட்ட வகைப்பாடு இங்கே
-கொடுக்கப்பட்டுள்ளது. இவ்வகைப்பாடு RNA
-பெருக்கமடையும் தன்மை, மரபணு தொகையத்தின்
-(Genome) இயற்கைத்தன்மை (ஓரிழை (ss) அல்லது
-ஈரிழை (ds)), மரபணுக்கள் RNA அல்லது DNA,
-தலைகீழ் மாற்றத்திற்கான நொதியை (Reverse
-transcriptase – RT) பயன்படுத்துதல், ஓரிழை RNA
-வெளிப்பாடடையும் அல்லது வெளிப்பாடடையாத
-ஆகிய பண்புகளை அடிப்படையாக வைத்து
-உருவாக்கப்பட்டது. இந்த வகைப்பாட்டில்
-வைரஸ்கள் ஏழு வகுப்புகளாக
-வகைப்படுத்தப்பட்டுள்ளன (அட்டவணை 1.2).
+Each virus possesses only one type of nucleic
+acid either DNA or RNA. The nucleic acid
+may be in a linear or circular form. Generallynucleic acid is present as a
+single unit but in wound
+tumour virus and in
+influenza virus it is found
+in segments. The viruses
+possessing DNA are called
+‘Deoxyviruses’ whereas those possessing
+RNA are called ‘Riboviruses’. Majority of
+animal and bacterial viruses are DNA viruses
+(HIV is the animal virus which possess
+RNA). Plant viruses generally contain RNA
+(Cauliflower Mosaic virus possess DNA). The
+nucleic acids may be single stranded or double
+stranded. On the basis of nature of nucleic
+acid viruses are classified into four Categories.
+They are Viruses with ssDNA (Parvo viruses),
+dsDNA (Bacteriophages), ssRNA (TMV)and
+dsRNA(Wound Tumour Virus).
 
-**வைரஸ்களின் மரபணுதொகையம்**
 
-இரண்டு வகையான உட்கரு அமிலங்களில்
-வைரஸ்கள் DNA அல்லது RNA ஒன்றை மட்டுமே
-கொண்டிருக்கும். வைரஸ்களில் காணக்கூடிய
-உட்கரு அமிலங்கள் நீண்ட இழை போன்றோ,
-வட்டமாகவோ இருக்கும். பொதுவாக உட்கரு
-அமிலம் ஒரே அலகாகக் காணப்ப டுகிறது. ஆனால்
-காயக்கழலை (Wound tumour) வைரஸ்களிலும்,
-இன்புளுயன்சா வைரஸ்களிலும் உட்கரு அமிலம்
-சிறுசிறு துண்டுகளாகக் காணப்படும். DNA வைக்
-கொண்டுள்ள வைரஸ்கள் ‘டீஆக்ஸிவைரஸ்கள்’
-என்றும், RNA வைக் கொண்டுள்ள வைரஸ்கள்
-‘ரிபோவைரஸ்கள்’ என்றும் அழைக்கப்படுகின்றன.
-பெரும்பாலான விலங்கு, பாக்டீரிய வைரஸ்கள்
-DNA வைரஸ்களாகும். (HIV விலங்கு வைரஸாக
-இருப்பினும் RNA வைக் கொண்டுள்ளது). தாவர
-வைரஸ்கள் பொதுவாக RNA வைக் கொண்டுள்ளன .
-(காலிஃபிளவர் தேமல் வைரஸ்கள் DNA வைப் பெற்றுள்ளன). உட்கரு அமிலங்கள் ஓரிழை
-அல்லது ஈரிழையால் ஆனவை. உட்கரு
-அமிலங்களின் அடிப்படையில் வைரஸ்கள் நான்கு
-வகைகளாகப் பிரிக்கப்பட்டுள்ளன. அவை ssDNA
-வைரஸ்கள் (பார்வோ வைரஸ்கள்), dsDNA
-வைரஸ்கள் (பாக்டீரியஃபாஜ்கள்), ssRNA
-வைரஸ்கள் (TMV) மற்றும் dsRNA வைரஸ்கள்
-(காயக்கழலை வைரஸ்).
 
-#### 1.2.5 புகையிலை தேமல் வைரஸ் (TMV)
-புகையிலை தேமல் வைரஸ், 1892 ஆம் ஆண்டில்
-டிமிட்ரி ஐவனாஸ்கி என்பவரால் நோயுற்ற
-புகையிலைத் தாவரத்திலிருந்து கண்டறியப்பட்டது.
-இது செடிப்பேன் (Aphids), வெட்டுக்கிளி (Locust),
-போன்ற கடத்திகள் வழியாக நோயுற்ற
-தாவரங்களிலிருந்து பிற தாவரங்களுக்குப் பரவுகிறது.
-முதன்முதலாகக் கண்ணுக்குப் புலப்படக்கூடிய
-நோயின் முக்கிய அறிகுறியாக நரம்பிடைப்
-பச்சையசோகையைக் கூறலாம். மேலும்
-குறிப்பிடத்தக்க மஞ்சள் மற்றும் பசுமைநிற தேமல்
-புள்ளிகள் இலைகளில் காணப்படுகின்றன. இதுவே
-தேமல் நோயின் அறிகுறிகளாகும். உருக்குலைந்த,
-கீழ்நோக்கி மடிந்த இளம் இலைகள் தோன்றுவதால்
-தாவரத்தின் வளர்ச்சி குன்றி மகசூல்பாதிக்கப்ப டுகிறது.
-அமைப்பு
-மின்னணு நுண்ணோக்கியைப் பயன்படுத்தி
-மேற்கொண்ட ஆய்வு புகையிலை தேமல் வைரஸ்கள்
-(TMV) கோல் வடிவமைப்பு பெற்றுள்ளதை
-உறுதிசெய்கிறது (படம் 1.4 ஆ). சுருளமைவுடைய
-இந்த வைரஸின் அளவு 300 x 20nm எனக்
-கண்டறியப்பட்டுள்ளது. இதன் மூலக்கூறு எடை
-39 x 106 டால்டன்க ள் ஆகும். விரியான் எனப்படும்
-வைரஸ் துகள் இரண்டு முக்கியப்
-பகுதிப்பொருட்களான கேப்சிட் என்ற புரத
-உறையையும், மையத்தில் உட்கரு அமிலத்தையும்
-கொண்டுள்ளது. புரதஉறைஏறத்தாழ 2130 அமைப்பில்
-ஒத்த கேப்சோமியர்கள் என்று அழைக்கப்படும் புரதத்
-துணை அலகுகளால் ஆனது. இவை வைரஸின்
-மையத்தில் காணப்படுகின்ற ஓரிழை RNA வைச் சூழ்ந்து அமைந்திருக்கின்றன. ஒரு முழு TMV துகள்
-உருவாவதற்கான மரபியல் தகவல் முழுவதும் RNA
-வில் உள்ளது. TMV வைரஸின் RNA 6,500
-நியூக்லியோடைட்களைக் கொண்டுள்ளது.
 
-#### 1.2.6 பாக்டீரியஃபாஜ் (Bacteriophage)
+![உயிரி உலகம்](/books/biology/unit-1/the-living-world/7.7.eng.png ) 
+
+
+ 
+#### 1.2.5 Tobacco Mosaic Virus (TMV)
+Tobacco mosaic virus was discovered in 1892
+by Dimitry Ivanowsky from the Tobacco
+plant. Viruses infect healthy plants through
+vectors like aphids, locusts etc. The first
+visible symptom of TMV is discoloration of
+leaf colour along the veins and show typical
+yellow and green mottling which is the
+mosaic symptom. The downward curling
+and distortion of young apical leaves occurs,
+plant becomes stunted and yield is affected.
+
+Structure
+Electron microscopic studies have revealed
+that TMV is a rod shaped (Figure 1.4b). helical virus measuring about 300x20nm
+with a molecular weight of 39x10 6 Daltons.
+The virion is made up of two constituents, a
+protein coat called capsid and a core called
+nucleic acid. The protein coat is made up
+of approximately 2130 identical protein
+subunits called capsomeres which are
+present around a central single stranded
+RNA molecule. The genetic information
+necessary for the formation of a complete
+TMV particle is contained in its RNA. The
+RNA consists of 6,500 nucleotides.
+
+#### 1.2.6 Bacteriophage
 பாக்டீரியங்களைத்தாக்கி அழிக்கும் வைரஸ்கள்
 பாக்டீரியஃபாஜ்கள் என்று அழைக்கப்படுகின்றன.
 இதன் நேரடியான பொருள் 'பாக்டீரிய உண்ணிகள்'
