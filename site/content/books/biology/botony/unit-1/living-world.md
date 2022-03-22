@@ -374,102 +374,109 @@ TMV particle is contained in its RNA. The
 RNA consists of 6,500 nucleotides.
 
 #### 1.2.6 Bacteriophage
-பாக்டீரியங்களைத்தாக்கி அழிக்கும் வைரஸ்கள்
-பாக்டீரியஃபாஜ்கள் என்று அழைக்கப்படுகின்றன.
-இதன் நேரடியான பொருள் 'பாக்டீரிய உண்ணிகள்'
-(கிரேக்கம்: ஃபாஜின் = உண்ணுவது). மண், கழிவுநீர்,
-பழங்கள், காய்கறிகள், பால் போன்றவற்றில்
-ஃபாஜ்கள் அதிகளவில் காணப்படுகின்றன.
-T4 பாக்டீரியஃபாஜின் அமைப்பு
-T4ஃபாஜ்கள் தலைப்பிரட்டை வடிவம்
-கொண்டவை. இவை தலை, கழுத்துப்பட்டை, வால்,
-அடித்தட்டு, வால் நார்கள் ஆகியவற்றைக்
-கொண்டுள்ளன (படம் 1.4 இ). அறுங்கோணவடிவம்
-கொண்ட தலைப்பகுதி 2000 ஒத்த புரதத்துணை
-அலகுகளால் ஆனது. நீண்ட சுருள் வடிவத்தைக்
-கொண்ட வாலின் மையப்பகுதி உள்ளீடற்றது. இது
-தலையுடன் கழுத்துப்பட்டை மூலம்
-இணைக்கப்பட்டுள்ளது. வாலின் முடிவுப்பகுதியில்
-அடித்தட்டு இணைந்துள்ளது. அடித்தட்டு ஆறு வால்
-நார்களையும், ஆறு முட்களையும் பெற்றுள்ளது.
-இத்தகைய, நார்கள் பெருக்க ச் சுழற்சியின்போது
-ஓம்புயிரி பாக்டீரிய செல்லின் செல் சுவருடன்
-ஃபாஜ்கள் ஒட்டிக்கொள்ள உதவுகின்றன.
-தலைப்பகுதியில் 50µm அளவுடைய ஈரிழை DNA
-மூலக்கூறு இறுக்கமாக அடைக்கப்பட்டுள்ளது.
-ஃபாஜின் நீளத்தை விட அதன் DNA மூலக்கூறின்
-நீளம் 1000 மடங்கு அதிகமாகும்.
+Viruses infecting bacteria are called
+Bacteriophages. It literally means ‘eaters
+of bacteria’ (Gr: Phagein = to eat). Phages
+are abundant in soil, sewage water, fruits,
+vegetables, and milk.
 
-### 1.2.7 பெருக்கமுறை அல்லது ஃபாஜ்களின்
-வாழ்க்கைச் சுழற்சி
-இரண்டு வெவ்வேறு வகையான வாழ்க்கைச்
-சுழற்சிகள் மூலம் ஃபாஜ்கள் பெருக்கமடைகின்றன.
-(அ) சிதைவு அல்லது வீரியமுள்ள சுழற்சி
-(ஆ) உறக்கநிலை அல்லது வீரியமற்ற சுழற்சி.
-அ. சிதைவு சுழற்சி
-இதில் புதிதாகத் தோன்றும் வைரஸ்கள்
-செல்லுக்குள்ளேபெருக்க மடைந்து ஓம்புயிர் பாக்டீரிய
-செல் வெடித்து விரியான்கள் வெளியேற்றப்படுகின்றன
-படம் 1.5 (அ ). வீரியமுள்ள ஃபாஜின் பெருக்க ம்
-கீழ்க்கண்ட படிநிலைகளில் நடைபெறுகிறது.
-(i) ஒட்டிக் கொள்ளுதல் (Adsorption)
-முதலில் ஃபாஜ் (T4) துகள்கள் (வைரஸ்கள்)
-ஓம்புயிர்ச் செல்லின் (ஈ. கோலை) சுவருடன் ஒரு
-தொடர்பினை ஏற்படுத்திக் கொள்கின்றன.
-இவ்விரண்டிற்கும் இடையே ஃபாஜின் நார்கள் ஒரு
-பிணைப்பை ஏற்படுத்துகின்றன. இது பாக்டீரிய 
-செல்பரப்பில் குறிப்பிட்ட ஏற்பெல்லை மூலமாக
-நிகழ்கிறது. வால்நார்களின்
-லிப்போபாலிசாக்கரைட்கள் ஃபாஜ்களின்
-ஏற்பிகளாகச் செயல்படுகின்றன. பாக்டீரியத்துடன்
-ஃபாஜ்கள் ஏற்படுத்தும் ஒத்தேற்பு நிகழ்வுகள்
-அனைத்தும் உள்ளடக்கியது பரப்பிரங்கல்
-(Landing) எனப்படும். வால்நார்க ளுக்கும் பாக்டீரிய
-செல்களுக்கும் இடையேயான தொடர்பு உறுதி
-செய்யப்பட்டவுடன் வால் நார்கள் வளைந்து
-பொருந்தி அடித்தட்டு மற்றும் முட்களினால்
-பாக்டீரிய செல்களின் மீது நன்கு பொருத்தப்படுகிறது.
-இந்நிகழ்வானது குத்துதல் (Pinning) எனப்படுகிறது.
-(ii) ஊடுருவுதல் (Penetration)
-இயங்கு முறை மற்றும் நொதியைப் பயன்படுத்தி
-ஓம்புயிரி செல்சுவர் கரைக்கப்பட்டு ஊடுருவுதல்
-நடைபெறுகிறது. இந்நிகழ்வின் போது பிணைக்கப்பட்ட
-பகுதியில் வைரஸின் நொதியான லைசோசைம்களைப்
-பயன்படுத்திப் பாக்டீரியத்தின் செல்சுவர்
-சிதைக்கப்படுகிறது. வாலுறை சுருங்குவதால் (ATP
-ஆற்றலைப் பயன்படுத்தி) ஃபாஜ் தடித்தும்
-குட்டையாகவும் காணப்படுகிறது. இதனையடுத்து
-அடித்தட்டின் மையப்பகுதி விரிவடைகிறது. இதன்
-வழியாக ஃபாஜின் DNA மூலக்கூறான து
-தலைப்பகுதியிலிருந்து பாக்டீரிய செல்லுக்குள்
-உள்ளீடற்ற மையக்குழாய் வழியாக வளர்சிதை மாற்ற
-ஆற்றல் செலவின்றிச் செலுத்தப்படுகிறது. இவ்வாறு
-பாக்டீரியாவினுள் DNA துகள் தன்னிச்சையாகச்
-செலுத்தப்படுவது ஊடுதொற்றல் என
-அழைக்கப்படுகிறது. ஊடுருவலுக்குப் பிறகு ஓம்புயிர்
-செல்லுக்கு வெளியே காணப்படும் ஃபாஜின் வெற்று
-புரத உறை ’வெறும் கூடு’ என்று அழைக்கப்படுகிறது.
-(iii) உற்பத்தி செய்யப்படுதல் (Synthesis)
-இந்நிலையில் பாக்டீரிய குரோமோசோமினை
-சிதைவடையச் செய்வதுடன் புரத உற்பத்தியும் DNA
-இரட்டிப்படைதலும் நடைபெறுகிறது. ஃபாஜின்
-உட்கரு அமிலம், ஓம்புயிரி உயிரிணைவாக்கத்தை
-(Biosynthetic machinery) தனது கட்டுப்பாட்டில்
-கொண்டு வருகிறது. ஓம்புயிரியின் DNA செயலிழப்பு
-செய்யப்பட்டு, பின்னர் துண்டுகளாக
-உடைக்கப்படுகிறது. இந்நிலையில் ஃபாஜ் DNA
-பாக்டீரியாவின் புரத உற்பத்தியை தடுத்து நிறுத்தி,
-பாக்டீரிய செல்லின் வளர்சிதைமாற்றச் செயல்கள்
-மூலம் ஃபாஜ் துகள்களின் புரத உற்பத்தியைத்
-தூண்டுகிறது. அதேசமயத்தில் ஃபாஜ் DNAக்களும்
-பெருக்கமடைகின்றன.
-(iv) தொகுப்பும் முதிர்ச்சியும் (Assembly and
-Maturation)
-ஃபாஜ் DNA-க்களும் புரத உறைகளும் ஓம்புயிர்
-செல்லினுள் தனித்தனியே உருவாக்கப்படுகின்றன. 
-ின்னர் இவை த�ொகுக்கப்பட்டு (Assembly)
-முழுமையான வைரஸ்களாக மாற்றப்படுகின்றன.
-ஃபாஜ்களின் பகுதிகள் ஒன்று சேர்ந்து முழு வைரஸ்
-துகள்களாக
-மாறும்
-நிகழ்ச்சியினை
+Structure of T 4 bacteriophage
+
+The T 4 phage is tadpole shaped and consists
+of head, collar, tail, base plate and fibres
+(Figure 1.4). The head is hexagonal which
+consists of about 2000 identical protein
+subunits. The long helical tail consists of
+an inner tubular core which is connected
+to the head by a collar. There is a base plate
+attached to the end of tail. The base plate
+contains six spikes and tail fibres. These
+fibres are used to attach the phage on the
+cell wall of bacterial host during replication.
+A dsDNA molecule of about 50 µm is tightly
+packed inside the head. The DNA is about
+1000 times longer than the phage itself.
+
+### 1.2.7 Multiplication or Life Cycle ofPhages
+
+Phages multiply through two different types
+of life cycle. 
+
+a. Lytic or Virulent cycle 
+
+b.Lysogenic or Avirulent life cycle.
+
+a. Lytic Cycle
+During lytic cycle of phage, disintegration
+of host bacterial cell occurs and the progeny
+virions are released (Figure 1.5a). The steps
+involved in the lytic cycle are as follows:
+(i) Adsorption
+Phage (T 4 ) particles interact with cell wall of
+host (E. coli). The phage tail makes contact
+between the two, and tail fibres recognize the
+specific receptor sites present on bacterial cell
+surface. The lipopolysaccharides of tail fibres
+act as receptor in phages. The process involving
+the recognition of phage to bacterium is called
+landing. Once the contact is established
+between tail fibres and bacterial cell, tail fibres
+bend to anchor the pins and base plate to the
+cell surface. This step is called pinning.
+
+(ii) Penetration
+The penetration process involves mechani-
+cal and enzymatic digestion of the cell wall
+of the host. At the recognition site phage
+digests certain cell wall structure by viral
+enzyme (lysozyme). After pinning the tail
+sheath contracts (using ATP) and appears
+shorter and thicker. After contraction of the
+base plate enlarges through which DNA is
+injected into the cell wall without using met-
+abolic energy. The step involving i ­ njection of
+DNA particle alone into the bacterial cell is
+called Transfection. The empty protein coat
+leaving outside the cell is known as ‘ghost’.
+(iii) Synthesis
+This step involves the degradation of
+bacterial chromosome, protein synthesis
+and DNA replication. The phage nucleic
+acid takes over the host biosynthetic
+machinery. Host DNA gets inactivated and
+breaks down. Phage DNA suppresses the
+synthesis of bacterial protein and directs
+the metabolism of the cell to synthesis
+the proteins of the phage particles and
+simultaneously replication of Phage DNA
+also takes place.
+(iv) Assembly and Maturation
+The DNA of the phage and protein coat are
+synthesized separately and are assembled
+to form phage particles. The process of
+assembling the phage particles is known as
+maturation. After 20 minutes of infection,
+about 300 new phages are assembled.
+(v) Release
+The phage particle gets accumulated inside
+the host cell and are released by the lysis of
+host cell wall.
+
+
+![உயிரி உலகம்](/books/biology/unit-1/the-living-world/8.8.eng.png )
+
+b. Lysogenic Cycle
+In the lysogenic cycle the phage DNA gets
+integrated into host DNA and gets multiplied
+along with nucleic acid of the host. No independent
+viral particle is formed (Figure 1.5b).
+As soon as the phage injects its linear
+DNA into the host cell, it becomes circular
+and integrates into the bacterial chromosome
+by recombination. The integrated phage DNA
+is now called prophage. The activity of the
+prophage gene is repressed by two repressor
+proteins which are synthesized by phage genes.
+This checks the synthesis of new phages within
+the host cell. However, each time the bacterial
+
