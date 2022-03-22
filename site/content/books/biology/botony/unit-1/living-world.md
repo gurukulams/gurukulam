@@ -535,3 +535,77 @@ were employed as potential insecticides
 {{< /box >}}
 
 ![Living World](/books/biology/unit-1/the-living-world/Tab1.3.eng.png )
+
+## 1.3 Classification of Living World
+
+
+From the previous chapter we know that the
+planet earth is endowed with living and non
+-living things. In our daily life we see several
+things in and around us. Imagine, you are
+on a trip to Hill station. You are enjoying the
+beauty of mountains, dazzling colour of the
+flowers, and melodious sound of the birds. You
+may be capturing most of the things you come
+across in the form of photography. Now, from
+this experience can you mention the objects
+you have come across? Can you record your
+observations and tabulate them?. How will you
+organize the things? Will you place mountain
+and flowers together or tall trees and trailing
+herbs in one category or place it in different
+category? If you place it in different category,
+what made you to place them in different
+category? So classification is essential and could
+be done only by understanding and comparing
+the things based on some characters. In this
+chapter we shall learn about classification of
+living world.
+
+Many attempts have made in the past to
+classify the organisms on earth. **Theophrastus**,
+“Father of Botany” used the morphological
+characters to classify plants into trees, shrubs
+and herbs. Aristotle classified animals into
+two groups. i.e., *Enaima* (with red blood) and
+*Anaima* (without red blood).
+
+Carl Linnaeus classified living world into two groups namely Plants and Animals based on morphological characters. His classification faced major setback because Prokaryotes and Eukaryotes were grouped together. Similarly
+fungi, heterotrophic organisms were placed
+along with the photosynthetic plants. In course
+of time, the development of tools compelled
+taxonomists to look for different areas like
+cytology, anatomy, embryology, molecular
+biology, phylogeny etc., for classifying
+organisms on earth. Thus, new dimensions to
+classifications were put forth from time to time.
+
+#### 1.3.1 Need of Classification
+Classification is essential to achieve
+following needs.
+• To relate things based on common
+characteristic features.
+• To define organisms based on the salient
+features.
+• Helps in knowing the relationship
+amongst different groups of organisms.
+• It helps in understanding the evolutionary
+relationship between organisms.
+
+#### 1.3.2 Classification of Living World
+A comparison of classification proposed
+for classification of living world is given in
+Table 1.4.
+
+#### 1.3.3 Five Kingdom Classification
+R.H.Whittaker, an American taxonomist
+proposed five Kingdom classification in the
+year 1969. The Kingdoms include Monera,Protista, Fungi, Plantae and Animalia.(Figure 1.7).
+
+![Living World](/books/biology/unit-1/the-living-world/Tab1.4.eng.png )
+
+![Living World](/books/biology/unit-1/the-living-world/Tab1.5.eng.png )
+
+The criteria adopted for the classification include cell structure, thallus organization, mode of nutrition, reproduction and phylogenetic relationship. A comparative account of the salient features of each Kingdom is given in Table 1.5.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
