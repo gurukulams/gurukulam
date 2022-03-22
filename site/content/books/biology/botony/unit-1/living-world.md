@@ -178,8 +178,6 @@ anabolism and catabolism**
 | Smaller molecules
 combine together
 to form larger molecule | Larger molecule break into smaller units |   |   |   |
-| வேதிய ஆற்றல் உருவாக்கப்பட்டு சேமிக்கப்படுகிறத |  சேமிக்கப்பட்ட வேதிய ஆற்றல் வெளிவிடப்பட்டு பயன்படுத்தப்படுகிறத |  |   |   |
-| எடுத்துக்காட்டு: அமினோ அமிலங்கள் சேர்ந்து புரதம் உற்பத்தியா | எடுத்துக்காட்டு: குளுக்கோஸ் மூலக்கூறு நீராகவும்,\\(CO_2\\) ஆகவும் சிதைவுறுதல். | |||
 
 Movement, Nutrition, Respiration and
 Excretion are also considered as the property
@@ -218,7 +216,7 @@ the attributes of living world in the previous
 chapter. Now we shall discuss about viruses
 which connect the living and nonliving world. 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/4.4.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/4.4.eng.png )
 
 
 The word virus is derived from
@@ -300,7 +298,7 @@ beings.
 • Do not show functional autonomy.
 • Energy producing enzyme system is absent.
 
- ![உயிரி உலகம்](/books/biology/unit-1/the-living-world/6.6.eng.png ) 
+ ![Living World](/books/biology/unit-1/the-living-world/6.6.eng.png ) 
 
 
 
@@ -342,7 +340,7 @@ dsRNA(Wound Tumour Virus).
 
 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/7.7.eng.png ) 
+![Living World](/books/biology/unit-1/the-living-world/7.7.eng.png ) 
 
 
  
@@ -478,5 +476,23 @@ is now called prophage. The activity of the
 prophage gene is repressed by two repressor
 proteins which are synthesized by phage genes.
 This checks the synthesis of new phages within
-the host cell. However, each time the bacterial
+the host cell. However, each time the bacterial cell divides, the prophage multiplies along with
+the bacterial chromosome. On exposure to UV
+radiation and chemicals the excision of phage
+DNA may occur and results in lytic cycle.
+
+{{< box title="Do You Know?" type="objective" >}}
+Streaks on Tulip flowers
+are due to Tulip Breaking
+Virus which belong to
+Potyviridae group.
+Viruses of Baculoviridae group
+are commercially exploited as insecticides.
+Cytoplasmic Polyhedrosis Granulo viruses
+and Entomopox viruses
+were employed as potential insecticides
+{{< /box >}}
+
+
+
 
