@@ -478,5 +478,9 @@ is now called prophage. The activity of the
 prophage gene is repressed by two repressor
 proteins which are synthesized by phage genes.
 This checks the synthesis of new phages within
-the host cell. However, each time the bacterial
+the host cell. However, each time the bacterial cell divides, the prophage multiplies along with
+the bacterial chromosome. On exposure to UV
+radiation and chemicals the excision of phage
+DNA may occur and results in lytic cycle.
+ 
 
