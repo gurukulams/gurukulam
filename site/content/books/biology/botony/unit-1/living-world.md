@@ -230,7 +230,7 @@ contain only a single type of nucleic acid
 which may be either DNA or RNA. The
 study of viruses is called Virology.
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/5.5.eng.png ) 
+![Living World](/books/biology/unit-1/the-living-world/5.5.eng.png ) 
 
 
 
@@ -463,7 +463,7 @@ the host cell and are released by the lysis of
 host cell wall.
 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/8.8.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/8.8.eng.png )
 
 b. Lysogenic Cycle
 In the lysogenic cycle the phage DNA gets
