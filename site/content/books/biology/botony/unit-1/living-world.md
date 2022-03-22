@@ -74,7 +74,7 @@ and distinct characteristic feature.
 The attributes of living organisms are given
 below and is represented in Figure 1.1. 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/1.1.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/1.1.eng.png )
 
 
 **Growth**
