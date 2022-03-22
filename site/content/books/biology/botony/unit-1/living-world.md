@@ -57,7 +57,7 @@ hydrogen, oxygen, nitrogen and phosphorus.
 thus nonliving and living things exist together
 to make our planet unique.
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/0.1.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/0.1.eng.png )
 
 
  According to a survey made by
@@ -74,7 +74,7 @@ and distinct characteristic feature.
 The attributes of living organisms are given
 below and is represented in Figure 1.1. 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/1.1.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/1.1.eng.png )
 
 
 **Growth**
@@ -135,7 +135,7 @@ fragmentation (Spirogyra), protonema
 Exceptions are the sterile worker bees
 and mules.
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/2.2.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/2.2.eng.png )
 
 
 **Response to stimuli**
@@ -178,8 +178,6 @@ anabolism and catabolism**
 | Smaller molecules
 combine together
 to form larger molecule | Larger molecule break into smaller units |   |   |   |
-| வேதிய ஆற்றல் உருவாக்கப்பட்டு சேமிக்கப்படுகிறத |  சேமிக்கப்பட்ட வேதிய ஆற்றல் வெளிவிடப்பட்டு பயன்படுத்தப்படுகிறத |  |   |   |
-| எடுத்துக்காட்டு: அமினோ அமிலங்கள் சேர்ந்து புரதம் உற்பத்தியா | எடுத்துக்காட்டு: குளுக்கோஸ் மூலக்கூறு நீராகவும்,\\(CO_2\\) ஆகவும் சிதைவுறுதல். | |||
 
 Movement, Nutrition, Respiration and
 Excretion are also considered as the property
@@ -218,7 +216,7 @@ the attributes of living world in the previous
 chapter. Now we shall discuss about viruses
 which connect the living and nonliving world. 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/4.4.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/4.4.eng.png )
 
 
 The word virus is derived from
@@ -230,7 +228,7 @@ contain only a single type of nucleic acid
 which may be either DNA or RNA. The
 study of viruses is called Virology.
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/5.5.eng.png ) 
+![Living World](/books/biology/unit-1/the-living-world/5.5.eng.png ) 
 
 
 
@@ -300,7 +298,7 @@ beings.
 • Do not show functional autonomy.
 • Energy producing enzyme system is absent.
 
- ![உயிரி உலகம்](/books/biology/unit-1/the-living-world/6.6.eng.png ) 
+ ![Living World](/books/biology/unit-1/the-living-world/6.6.eng.png ) 
 
 
 
@@ -342,7 +340,7 @@ dsRNA(Wound Tumour Virus).
 
 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/7.7.eng.png ) 
+![Living World](/books/biology/unit-1/the-living-world/7.7.eng.png ) 
 
 
  
@@ -463,7 +461,7 @@ the host cell and are released by the lysis of
 host cell wall.
 
 
-![உயிரி உலகம்](/books/biology/unit-1/the-living-world/8.8.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/8.8.eng.png )
 
 b. Lysogenic Cycle
 In the lysogenic cycle the phage DNA gets
@@ -482,5 +480,58 @@ the host cell. However, each time the bacterial cell divides, the prophage multi
 the bacterial chromosome. On exposure to UV
 radiation and chemicals the excision of phage
 DNA may occur and results in lytic cycle.
- 
 
+{{< box title="Do You Know?" type="objective" >}}
+Viruses infecting blue green algae are called Cyanophages and are first reported by Safferman
+and Morris in the year 1963(Example LPP1- Lyngbya, Plectonema and Phormidium).
+
+Similarly, Hollings(1962) reported viruses infecting cultivated Mushrooms and causing
+die back disease. The viruses attacking fungi are called **Mycoviruses** or **Mycophages**.
+{{< /box >}}
+
+**Virion** is an intact infective virus particle
+which is non-replicating outside a host cell.
+
+**Viroid** is a circular molecule of ssRNA
+without a capsid and was discovered by
+T.O.Diener in the year 1971. The RNA of viroid
+has low molecular weight. Viroids cause citrus
+exocortis and potato spindle tuber disease in
+plants.
+
+**Virusoids** were discovered by J.W.Randles
+and Co-workers in 1981.They are the small
+circular RNAs which are similar to viroids but
+they are always linked with larger molecules of
+the viral RNA.
+
+**Prions** were discovered by Stanley
+B. Prusiner in the year 1982 and are protein-
+aceous infectious particles. They are the caus-
+ative agents for about a dozen ­fatal ­degenerative
+disorders of the central ­nervous system of
+humans and other a ­ nimals. For example
+Creutzfeldt – Jakob Disease (CJD), Bovine
+Spongiform Encephalopathy (BSE) – com-
+monly known as mad cow disease and scrapie
+disease of sheep.
+
+### 1.2.8 Viral diseases
+
+Viruses are known to cause disease in plants,animals and Human beings (Figure 1.6). A list of viral disease is given in Table 1.3.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.6.eng.png )
+
+{{< box title="Do You Know?" type="objective" >}}
+Streaks on Tulip flowers
+are due to Tulip Breaking
+Virus which belong to
+Potyviridae group.
+Viruses of Baculoviridae group
+are commercially exploited as insecticides.
+Cytoplasmic Polyhedrosis Granulo viruses
+and Entomopox viruses
+were employed as potential insecticides
+{{< /box >}}
+
+![Living World](/books/biology/unit-1/the-living-world/Tab1.3.eng.png )
