@@ -1091,18 +1091,278 @@ called specialized or restricted transduction.
 | Header | Title |
 | Paragraph | Text |
 
-
-
-
-
-
-
-
-
-
-
-
 ![Living World](/books/biology/unit-1/the-living-world/Fig1.15.eng.png )
+
+{{< box title="Have you heard about the word *Probiotics* " type="objective" >}} 
+Probiotic milk products and
+tooth paste are available in
+the market. Lactobacillus and Bifidobacterium are
+used to prepare probiotic yoghurt and tooth paste
+{{< /box >}}
+
+### Activity 1.3
+
+Collect some root nodules of leguminous
+crops. Draw diagram. Wash it in tap water and
+prepare a smear by squeezing the content into
+a clean slide. Follow Gram staining method
+and identify the bacteria.
+
+{{< box title="Do You Know ?" type="objective" >}} 
+Bacteria forms Biofilmsand leads to dental caries
+and Urinary tract infection (UTI) *Ralstonia* synthesize
+PHB (Poly-β-hydroxyl butyrate) a
+microbial plastic which is biodegradable.
+{{< /box >}}
+
+### 1.4.8 Archaebacteria
+Archaebacteria are primitive prokaryotes and
+are adapted to thrive in extreme environments
+like hot springs, high salinity, low pH and so
+on. They are mostly chemoautotrophs. The
+unique feature of this group is the presence of
+lipids like glycerol & isopropyl ethers in their
+cell membrane. Due to the unique chemical
+composition the cell membrane show resistance
+against cell wall antibiotics and lytic agents.
+Example: *Methanobacterium*, *Halobacterium*,
+*Thermoplasma*.
+
+#### 1.4.9 Cyanobacteria (Blue Green Algae)
+
+**How old are Cyanobacteria ? Stromatolites reveals the truth**
+Stromatolites are deposits
+formed when colonies of
+cyanobacteria bind with
+calcium carbonate. They have
+a geological age of 2.7 billion
+years. Their abundance in
+the fossil record indicates that cyanobacteria
+helped in raising the level of free oxygen in
+the atmosphere.!
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.0.1x.eng.png )
+
+{{< box title="Do You Know ?" type="objective" >}} 
+• *Pseudomonas* putida is
+a superbug genetically
+engineered
+which
+breakdown hydrocarbons.
+• “Pruteen” is a single cell protein derived from
+*Methylophilus methylotrophus*.
+• *Agrobacterium tumefaciens* cause crown gall
+disease in plants but its inherent tumour
+inducing principle helps to carry the
+desired gene into the plant through Genetic
+engineering.
+• *Thermus aquaticus* is a thermophilic gram
+negative bacteria which produces Taq
+Polymerase a key enzyme for Polymerase
+Chain Reaction (PCR).
+• *Methanobacterium* is employed in biogas
+production. *Halobacterium*, an extremophilic
+bacterium grows in high salinity. It is exploited
+for the production β carotene.
+{{< /box >}}
+
+**Cyanobacteria** are popularly called as
+'Blue green algae' or 'Cyanophyceae'. They
+are photosynthetic, prokaryotic organisms.
+According to evolutionary record Cyanobacteria
+are primitive forms and are found in different
+habitats. Most of them are fresh water and few
+are marine (*Trichodesmium and Dermacarpa*)
+*Trichodesmium erythraeum* a cyanobacterium
+imparts red colour to Red sea. Species of
+*Nostoc, Anabaena* lead an endophytic life in the
+coralloid root of *Cycas*, leaves of aquatic fern
+*Azolla* by establishing a symbiotic association
+and fix atmospheric nitrogen. Members like
+*Gloeocapsa, Nostoc, Scytonema* are found as
+phycobionts in lichen thalli.
+
+**Salient features**
+• The members of this group are prokaryotes
+and lack motile reproductive structures.
+
+• The thallus is unicellular in *Chroococcus*,
+Colonial in *Gloeocapsa* and filamentous
+trichome in *Nostoc*
+.
+• Gliding movement is noticed in some
+species (*Oscillatoria*).
+
+• The protoplasm is differentiated into
+central region called centroplasm and
+peripheral region bearing chromatophore
+called chromoplasm.
+
+• The photosynthetic pigments include
+c-phyocyanin and c-phycoerythrin along
+with myxoxanthin and myxoxanthophyll.
+
+• The reserve food material is Cyanophycean
+starch.
+
+• In some forms a large colourless cell is found
+in the terminal or intercalary position
+called Heterocysts. They are involved in
+nitrogen fixation.
+
+• They reproduce only through vegetative
+methods and produce Akinetes (thick wall
+dormant cell formed from vegetative cell),
+Hormogonia (a portion of filament get
+detached and reproduce by cell division),
+fission and endospores.
+
+• The presence of mucilage around the
+thallus is characteristic feature of this
+group. Therefore, this group is also called
+Myxophyceae.
+
+• Sexual reproduction is absent.
+
+• Microcystis aeruginosa,
+Anabaena flos-aquae cause water blooms and release
+toxins and affect the aquatic organism.
+Most of them fix atmospheric nitrogen and
+are used as biofertilizers (Example: *Nostoc*,
+*Anabaena*). Spirulina is rich in protein
+hence it is used as single cell protein.
+The thallus organisation and methods of
+reproduction is given in Figure 1.16.
+
+{{< box title="Do You Know ?" type="objective" >}} 
+A prokaryote takes a joy ride
+on polar bear (*Aphanocapsa*
+*montana* - a cynobacterium
+grow on the fur of polar bear.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.0.2x.eng.png )
+
+{{< /box >}}
+
+
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.16.eng.png )
+
+### 1.4.10 Mycoplasma or Mollicutes
+
+The Mycoplasma are very small (0.1–0.5µm),
+pleomorphic gram negative microorganisms.
+They are first isolated by Nocard and co-
+workers in the year 1898 from pleural fluid of
+cattle affected with bovine pleuropneumonia.
+They lack cell wall and appear like “Fried Egg”
+in culture. The DNA contains low Guanine
+and Cytosine content than true bacteria. They
+cause disease in animals and plants. Little leaf
+of brinjal, witches broom of legumes phyllody
+of cloves, sandal spike are some plant diseases
+caused by mycoplasma. Pleuropneumonia is
+caused by *Mycoplasma mycoides*. The structure
+of Mycoplasma is given in Figure 1.17.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.17.eng.png )
+
+### 1.4.11 Actinomycetes (Actinobacteria)
+
+Actinomycetes are also called ‘Ray fungi’ due to
+their mycelia like growth. They are anaerobic
+or facultative anaerobic microorganisms and
+are Gram positive. They do not produce an
+aerial mycelium. Their DNA contains high
+guanine and cytosine content (Example:
+­ *Streptomyces*).
+
+*Frankia* is a symbiotic actinobacterium
+which produces root nodules and fixes
+nitrogen in non – leguminous plants such
+as *Alnus* and *Casuarina*. They produce
+multicellular sporangium. *Actinomyces bovis*
+grows in oral cavities and cause lumpy jaw.
+
+*Streptomyces* is a mycelial forming
+Actinobacteria which lives in soil, they impart
+“earthy odour” to soil after rain which is due
+to the presence of Geosmin (volatile organic
+compound). Some important antibiotics
+namely, Streptomycin, Chloramphenicol, and
+Tetracycline are produced from this genus.
+
+### 1.5 Fungi
+
+## World War II and Penicillin History speaks on fungi
+
+**Sir Alexander** Fleming
+Discovery of Penicillin
+in the year 1928 is a
+serendipity in the world
+of medicine. The History
+of World War II recorded
+the use of Penicillin in the form of yellow
+powder to save lives of soldiers. For this
+discovery - The wonderful antibiotic he
+shared Nobel Prize in Medicine in the year
+1945 along with Ernest Boris chain and Sir
+Howard Walter Florey.
+![Living World](/books/biology/unit-1/the-living-world/Fig.0.3x.eng.png )
+
+### 1.5.1 Milestones in Mycology
+1729 P.A.Micheli conducted spore culture experiments
+
+1767 Fontana proved that Fungi could cause disease in plants
+
+1873 C.H. Blackley proved fungi could
+cause allergy in Human beings
+
+1904 A.F.Blakeslee reported heterothallism in fungi
+
+1952 Pontecorvo and Roper reported parasexual cycle
+
+The word ‘fungus’ is derived from Latin
+meaning ‘mushroom’. Fungi are ubiquitous,
+eukaryotic, achlorophyllous heterotrophic
+organisms. They exist in unicellular or
+multicellular forms. The study of fungi is
+called mycology. (Gr. mykes – mushroom:
+logos – study). P.A. Micheli is considered
+as founder of Mycology. Few renowned
+mycologists include Arthur H.R. Buller, John
+Webster, D.L.Hawksworth, G.C.Ainsworth,
+B.B.Mundkur, K.C.Mehta, C.V. Subramanian
+and T.S. Sadasivan.
+
+{{< box title="" type="objective" >}} 
+E.J. Butler is the Father of Indian Mycology. He
+established Imperial Agricultural
+Research Institute at Pusa, Bihar.
+It was later shifted to New Delhi and at
+present known as IndianAgr icultural
+Research E.J. Butler (1874-1943)
+Insitute (IARI). He published a book, ‘Fungi and Disease
+in Plants’ on Indian plant diseases in the
+year 1918.
+![Living World](/books/biology/unit-1/the-living-world/Fig.0.4x.eng.png )
+{{< /box >}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
