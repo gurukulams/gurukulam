@@ -70,7 +70,7 @@ There are two principal groups:
 1. Meristematic tissues
 2. Permanent tissues
 
-##### 9.1 Meristematic Tissue
+#### 9.1 Meristematic Tissue
 **9.1.1 Characteristics and classification**
 The characters of meristematic tissues:
 (Gr. Meristos-Divisible)
