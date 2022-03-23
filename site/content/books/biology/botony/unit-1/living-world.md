@@ -1481,6 +1481,475 @@ classes – Oomycetes, Zygomycetes,
 Ascomycetes, Basidiomycetes and Form
 class Deuteromycetes are discussed below.
 
+**Oomycetes**
+
+Coenocytic mycelium is present. The cell
+wall is made up of Glucan and Cellulose.
+Zoospore with one whiplash and one tinsel
+flagellum is present. Sexual reproduction is
+oogamous. Example: *Albugo*.
+
+**Zygomycetes**
+
+• Most of the species are saprophytic and
+live on decaying plant and animal matter
+in the soil. Some lead parasitic life
+(Example: *Entomophthora on housefly*).
+• Bread mold fungi (Example: *Mucor*,
+*Rhizopus*) and coprophilous fungi (Fungi
+growing on dung Example: *Pilobolus*)
+belong to this group (Figure 1.20).
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.20.eng.png )
+
+• The mycelium is branched and coenocytic.
+
+• Asexual reproduction by means of spores
+produced in sporangia.
+
+• Sexual reproduction is by the fusion of
+the gametangia which results in thick
+walled zygospore. It remains dormant for
+long periods. The zygospore undergoes
+meiosis and produce spores.
+
+**Ascomycetes**
+• Ascomycetes include a wide range of
+fungi such as yeasts, powdery mildews,
+cup fungi, morels and so on (Figure 1.21).
+
+• Although majority of the species live in
+terrestrial environment, some live in aquatic
+environments both fresh water and marine.
+
+• The mycelium is well developed, branched
+with simple septum.
+
+• Majority of them are saprophytes but few
+parasites are also known (Powdery mildew
+– *Erysiphe*).
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.21.eng.png )
+
+• Asexual reproduction takes place by
+fission, budding, oidia, conidia, and
+chlamydospore.
+
+• Sexual reproduction takes place by the
+fusion of two compatible nuclei.
+
+• Plasmogamy is not immediately followed
+by karyogamy, instead a dikaryotic
+condition is prolonged for several
+generations.
+
+• A special hyphae called ascogenous hyphae
+is formed.
+
+• A crozier is formed when the tip of the
+ascogenous hyphae recurves forming
+a hooked cell. The two nuclei in the
+penultimate cell of the hypha fuse to form
+a diploid nucleus. This cell forms young
+ascus.
+
+• The diploid nucleus undergo meiotic
+division to produce four haploid nuclei,
+which further divide mitotically to form
+eight nuclei. The nucleus gets organised
+into 8 ascospores.
+
+• The ascospores are found inside a bag like
+structure called ascus. Due to the presence
+of ascus, this group is popularly called "Sac
+fungi".
+
+• Asci gets surrounded by sterile hyphae
+forming fruit body called ascocarp.
+
+• There are 4 types of ascocarps namely
+**Cleistothecium** (Completely closed),
+**Perithecium** (Flask shaped with ostiole),
+**Apothecium** (Cup shaped, open type) and
+**Pseudothecium**.
+
+**Basidiomycetes**
+
+• Basidiomycetes include puff balls,
+toad stools, Bird’s nest fungi, Bracket
+fungi, stink horns, rusts and smuts
+(Figure 1.22).
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.22.eng.png )
+
+• The members are terrestrial and lead a
+saprophytic and parasitic mode of life.
+
+• The mycelium is well developed, septate
+with dolipore septum(bracket like).
+Three types of mycelium namely primary
+(Monokaryotic), secondary (Dikaryotic)
+and tertiary are found.
+
+• Clamp connections are formed to maintain
+dikaryotic condition.
+
+• Asexual reproduction is by means of
+conidia, oidia or budding.
+
+• Sexual reproduction is present but sex
+organs are absent. Somatogamy or
+spermatisation results in plasmogamy.
+Karyogamy is delayed and dikaryotic
+phase is prolonged. Karyogamy takes place
+in basidium and it is immediately followed
+by meiotic division.
+
+• The four nuclei thus formed are
+transformed into basidiospores which are
+borne on sterigmata outside the basidium
+(Exogenous ). The basidium is club shaped
+with four basidiospores, thus this group of
+fungi is popularly called “Club fungi”. The
+fruit body formed is called Basidiocarp.
+
+**Deuteromycetes or Fungi Imperfecti**
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.23.eng.png )
+
+The fungi belonging to this group
+lack sexual reproduction and are
+called imperfect fungi. A large number of
+species live as saprophytes in soil and many
+are plant and animal parasites. Asexual
+reproduction takes place by the production of
+conidia, chlamydospores, budding, oidia etc.,
+Conidia are also produced in special structures
+called **pycnidium**, **acervulus**, **sporodochium**
+and **synnemata**    (Figure 1.23). Parasexual cycle
+operates in this group of fungi. This brings
+genetic variation among the species.
+
+##### 1.5.5 Economic importance
+
+Fungi provide delicious and nutritious food
+called mushrooms. They recycle the minerals
+by decomposing the litter thus adding fertility
+to the soil. Dairy industry is based on a single
+celled fungus called yeast. They deteriorate
+the timber. Fungi cause food poisoning due
+the production of toxins. The Beneficial and
+harmful activities of fungi are discussed below:
+
+**Beneficial activities**
+
+**Food**
+
+Mushrooms like *Lentinus edodes*,*Agaricus*
+*bisporus*, *Volvariella volvaceae* are ­consumed
+for their high nutritive value. Yeasts provide
+vitamin B and *Eremothecium ashbyii* is a rich
+source of Vitamin B 12.
+
+**Medicine**
+
+Fungi produce antibiotics which arrest the
+growth or destroy the b­ acteria. Some of the
+antibiotics produced by fungi ­include Peni-
+cillin (*Penicillium ­notatum*) ­Cephalosporins
+(*Acremonium ­
+chrysogenum*) Griseofulvin
+(*Penicillium griseofulvum*). Ergot alkaloids
+(Ergotamine) ­ produced by Claviceps purpurea
+is used as vasoconstrictors.
+
+**Industries**
+
+**Production of Organic acid**: 
+
+For the
+commercial production of organic acids fungi
+are employed in the Industries. Some of the
+organic acids and fungi which help in the
+production of organic acids are: citric acid and
+gluconic acid – *Aspergillus niger*, Itaconic acid
+– *Aspergillus terreus*, Kojic acid – *Aspergillus
+oryzae*.
+
+**Bakery and Brewery**
+
+Yeast(Saccharomyces cerevisiae) is used for
+fermentation of sugars to yield alcohol.Bakeries
+utilize yeast for the production of Bakery
+products like Bread, buns, rolls etc., *Penicillium roquefortii*
+ and *Penicillium camemberti* were
+employed in cheese production.
+
+**Production of enzymes**
+
+*Aspergillus oryzae*, *Aspergillus niger* were
+employed in the production of enzymes
+like amylase, protease, lactase etc.
+**Rennet** which helps in the coagulation of
+milk in cheese manufacturing is derived from
+*Mucor* spp.
+
+**Agriculture**
+
+Mycorrhiza forming fungi
+like *Rhizoctonia*, *Phallus*, *Scleroderma* helps in
+absorption of water and minerals.
+
+Fungi like *Beauveria bassiana*, *Metarhizium*
+**anisopliae* are used as Biopesticides to eradicate
+the pests of crops. Gibberellin, produced by a
+fungus *Gibberella fujikuroi* induce the plant
+growth and is used as growth promoter.
+
+**Harmful activities**
+
+Fungi like *Amanita phalloides*, **Amanita verna*,
+Boletus satanus are highly poisonous due to
+the production of Toxins. These fungi are
+commonly referred as **“Toad stools”**.
+
+*Aspergillus*, *Rhizopus**, *Mucor* and
+*Penicilium* are involved in spoilage of food
+materials. *Aspergillus* flavus infest dried
+foods and produce carcinogenic toxin called
+aflatoxin.
+
+   Patulin, ochratoxin A are some of the
+toxins produced by fungi.Fungi cause diseases
+in Human beings and plants (Table 1.11).
+
+**Activity 1.4**
+
+Get a button mushroom. Draw diagram
+of the fruit body. Take a thin longitudinal
+section passing through the gill and observe
+the section under a microscope. Record your
+observations.
+
+
+{{< box title="Do You Know ?" type="objective" >}} 
+Dermatophytes are fungi which cause infection
+in skin.
+Example:­
+*Trichophyton*,
+*Tinea*,
+*Microsporum* and *Epidermophyton*
+
+The late blight disease of Potato by
+*Phytophthora infestans* caused a million
+deaths, and drove more to emigrate
+from Ireland (1843-1845). In India
+*Helminthosporium oryzae*, Blight of
+Paddy is also a factor for Bengal famine
+in 1942-1943.
+{{< /box >}}
+
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+##### Activity 1.5
+
+Keep a slice of bread in a clean plastic tray or
+plate. Wet the surface with little water. Leave
+the setup for 3 or 4 days. Observe the mouldy
+growth on the surface of the bread. Using a
+needle remove some mycelium and place it on a
+slide and stain the mycelium using lactophenol
+cotton blue. Observe the mycelium and
+sporangium under the microscope and record
+your observation and identify the fungi and its
+group based on characteristic features.
+
+##### 1.5.6 Mycorrhizae
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.24.eng.png )
+
+The symbiotic association between fungal
+mycelium and roots of plants is called as
+mycorrhizae. In this relationship fungi
+absorb nutrition from the root and in
+turn the hyphal network of mycorrhizae
+forming fungi helps the plant to absorb
+water and mineral nutrients from the soil
+(Figure 1.24). Mycorrhizae is classified into
+three types (Table 1.12)
+
+**Importance of Mycorrhizae**
+
+• Helps to derive nutrition in Monotropa,
+a saprophytic angiosperm,
+• Improves the availability of minerals and
+water to the plants.
+• Provides drought resistance to the plants
+• Protects roots of higher plants from the
+attack of plant pathogens.
+
+##### 1.5.7 Lichens
+
+The symbiotic association between algae and
+fungi is called lichens. The algal partner is
+called Phycobiont or Photobiont., and the
+fungal partner is called Mycobiont. Algae
+provide nutrition for fungal partner in turn
+fungi provide protection and also help to
+fix the thallus to the substratum through
+rhizinae. Asexual reproduction takes
+place through fragmentation, Soredia and
+Isidia. Phycobionts reproduce by akinetes,
+hormogonia, aplanospore etc., Mycobionts
+undergo sexual reproduction and produce
+ascocorps.
+
+**Classification**
+
+• Based on the habitat lichens are classified
+into following types: **Corticolous**on Bark) **Lignicolous**(on Wood)
+**Saxicolous**(on rocks) **Terricolous**(on
+ground) Marine(on siliceous rocks of
+sea) Fresh water(on siliceous rock of fresh water).
+
+• On the basis of morphology of the thallus
+they are divided into **Leprose** (a distinct
+fungal layer is absent) **Crustose**-crust like;
+Foliose-leaf like; **Fruticose**- branched
+pendulous shrub like (Figure 1.25).
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.25.eng.png )
+
+
+• The distribution of algal cells
+distinguishes lichens into two forms
+namely **Homoiomerous** (Algal cells
+evenly distributed in the thallus) and
+**Heteromerous** (a distinct layer of algae and
+fungi present).
+
+
+• If the fungal partner of lichen belongs
+to ascomycetes, it is called **Ascolichen**
+and if it is basidiomycetes it is called
+**Basidiolichen**.
+
+
+Lichens secrete organic acids like Oxalic
+acids which corrodes the rock surface and
+helps in weathering of rocks, thus acting as
+pioneers in Xerosere. Usnic acid produced
+from lichens show antibiotic properties.
+Lichens are sensitive to air pollutants
+especially to sulphur-di-oxide. Therefore,
+they are considered as pollution indicators.
+The dye present in litmus paper used as
+acid base indicator in the laboratories is
+obtained from *Roccella montagnei*. *Cladonia*
+*rangiferina* (Reindeer mose) is used as food
+for animals living in Tundra regions.
+
+##### Summary
+
+Earth is endowed with living and nonliving
+things. The attributes of living things
+include growth, metabolism, reproduction,
+irritability and so on. Viruses are considered
+as Biological puzzle and exhibit both living
+and non living characteristic features. They
+are ultramicroscopic, obligate parasites and
+cause disease in plants and animals. They
+multiply by lytic and lysogenic cycle.
+
+
+Five Kingdom classification was
+proposed by Whittaker, which include
+Monera, Protista, Fungi, Plantae and
+Animalia. Carl woese divided the living
+world into 3 domains- Bacteria, Archaeae
+and Eukarya. The domain Eukarya include
+Plantae, Animalia and Fungi. A new
+Kingdom called Chromista was erected
+to include Diatoms, Cryptomonads and
+Oomycetes. Bacteria are microscopic,
+prokaryotic organisms and possess
+peptidoglycan in their cell wall. Based on
+Gram Staining method they are classified
+into Gram positive and Gram negative
+type. They reproduce asexually by binary
+fission. Sexual reproduction occurs
+through conjugation, transformation
+and transduction. Archaebacteria are
+prokaryotic and are adapted to thrive in
+extreme environments.
+
+
+Cyanobacteria are prokaryotic organisms
+and are also called Blue Green Algae. The
+members of this group are ensheathed by
+mucilage cover. They reproduce by vegetative
+sexual methods.
+
+Fungi are eukaryotic, heterotrophic,
+unicellular or multicellular organisms. The
+cell wall is made up of chitin. They reproduce
+asexually by producing sporangiospores,
+conidia, thallospores, chlamydospores etc.,
+The sexual reproduction is isogamous,
+ansiogamous and oogamous. In addition,
+gametic copulation, gametic fusion,
+spermatisation are also found. They are
+beneficial to mankind. Some are known to
+cause disease in plants and human beings.
+
+
+The symbiotic association between the
+roots of higher plants and fungal mycelium is
+called mycorrhizae. Lichen thallus includes
+both phycobiont and mycobiont. It is an
+example for symbiotic association.
+
+##### Evaluation
+
+1. Which one of the
+following statement
+about virus is correct?
+
+a. Possess their own
+metabolic system
+
+b. They are facultative
+parasites
+
+c. They contain DNA or RNA
+
+2. Identify the incorrect statement about
+the Gram positive bacteria
+
+a. Teichoic acid absent
+
+b. High percentage of peptidoglycan is
+found in cell wall
+
+c. Cell wall is single layered
+
+d. Lipopolysaccharide is present in cell
+
+
+
+
+
+
+
+
+
+
+
 
 
 
