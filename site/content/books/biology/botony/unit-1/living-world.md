@@ -1348,6 +1348,147 @@ year 1918.
 ![Living World](/books/biology/unit-1/the-living-world/Fig.0.4x.eng.png )
 {{< /box >}}
 
+### 1.5.2 General characteristic features
+
+• Majority of fungi are made up of thin,
+filamentous branched structures called
+hyphae. A number of hyphae get
+interwoven to form mycelium.The cell wall
+of fungi is made up of a polysaccharide
+called **chitin** (polymer of N-acetyl
+glucosamine) and fungal cellulose.
+
+• The fungal mycelium is categorised
+into two types based on the presence or
+absence of septa (Figure 1.18). In lower
+fungi the hypha is aseptate, multinucleate
+and is known as coenocytic mycelium
+(Example: *Albugo*). In higher fungi a
+septum is present between the cells of
+the hyphae. Example: *Fusarium*.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.18.eng.png )
+
+• The mycelium is organised into loosely
+or compactly interwoven fungal tissues
+called **plectenchyma**. It is further
+divided into two types **prosenchyma** and
+**pseudoparenchyma**. In the former type
+the hyphae are arranged loosely but parallel
+to one another. In the latter hyphae are
+compactly arranged and loose their identity.
+
+• In holocarpic forms the entire thallus is
+converted into reproductive structure
+whereas in Eucarpic some regions of the
+thallus are involved in the reproduction
+other regions remain vegetative. Fungi
+reproduce both by asexual and sexual
+methods. The asexual phase is called
+**Anamorph** and the sexual phase is called
+**Teleomorph**. Fungi having both phases are
+called **Holomorph**.
+
+General sexual reproduction in fungi includes
+three steps 1. Fusion of two protoplasts
+(plasmogamy) 2. Fusion of nuclei (karyogamy)
+and 3. Production of haploid spores through
+meiosis. Methods of reproduction in fungi is
+given in Figure 1.19.
+
+### 1.5.3 Methods of Reproduction in Fungi
+
+**Asexual Reproduction**
+1. Zoospores: They are flagellate structures
+produced in zoosporangia (Example:
+Chytrids).
+
+2. Conidia: The spores produced on
+condiophores (Example:*Aspergillus*,*Penicillium*).
+
+3. Oidia/Thallospores/Arthrospores:
+The hypha divided and developed in to spores
+called oidia (Example: *Erysiphe*).
+
+4. Fission: The vegetative cell divides
+into 2 daughter cells. (Example:
+*Schizosaccharomyces*-yeast).
+
+5. Budding: A small outgrowth is developed on
+parent cell, which gets detached and becomes
+independent. (Example: *Saccharomyces*-
+yeast)
+
+6. Chlamydospore: Thick walled resting
+spores are called chlamydospores (Example:*Fusarium*)
+
+**Sexual Reproduction**
+
+1.Planogametic copulation: Fusion of motile
+gamete is called planogametic copulation.
+a. Isogamy – Fusion of morphologically and
+physiologicall similar gametes. (Example:
+*Synchytrium*). b. Anisogamy – Fusion
+of morphologically or physiologically
+dissimilar gametes (Example: *Allomyces*).
+c. Oogamy – Fusion of both morphologically
+and physiologically dissimilar gametes.
+(Example: *Monoblepharis*).
+
+2. Gametangial contact: During sexual
+reproduction a contact is established
+between antheridium and Oogonium
+(Example: *Albugo*).
+
+3. Gametangial copulation: Fusion of
+gametangia to form zygospore (Example:
+*Mucor*, *Rhizopus*).
+
+4. Spermatization: In this method a uninucleate
+pycniospore/microconidium is transferred
+to receptive hyphal cell (Example: *Puccinia*,
+*Neurospora*)
+
+5. Somatogamy: Fusion of two somaticells of
+the hyphae (Example: *Agaricus*)
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.19.eng.png )
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.1.19a.eng.png )
+
+### 1.5.4 Classification of Fungi
+
+Many mycologists have attempted to classify
+fungi based on vegetative and reproductive
+characters.Traditional classifications
+categorise fungi into 4 classes – Phycomycetes,
+Ascomycetes,Basidiomycetes and Deuteromycetes. Among these ‘Phycomycetes’
+include fungal species of Oomycetes,
+Chytridiomycetes and Zygomycetes which
+are considered as lower fungi indicating algal
+origin of fungi. Constantine J. Alexopoulos and
+Charles W. Mims in the year 1979 proposed
+the classification of fungi in the book entitled
+‘Introductory Mycology’. They classified fungi
+into three divisions namely Gymnomycota,
+Mastigomycota and Amastigomycota. There
+are 8 subdivisions, 11 classes, 1 form class and
+3 form subclasses in the classification proposed
+by them.
+
+The salient features of some of the
+classes – Oomycetes, Zygomycetes,
+Ascomycetes, Basidiomycetes and Form
+class Deuteromycetes are discussed below.
+
+
+
+
+
+
+
+
+
 
 
 
