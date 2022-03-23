@@ -609,3 +609,270 @@ year 1969. The Kingdoms include Monera,Protista, Fungi, Plantae and Animalia.(Fi
 The criteria adopted for the classification include cell structure, thallus organization, mode of nutrition, reproduction and phylogenetic relationship. A comparative account of the salient features of each Kingdom is given in Table 1.5.
 
 ![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
+
+**Merits**
+
+• The classification is based on the complexity
+of cell structure and organization of thallus.
+
+• It is based on the mode of nutrition
+
+• Separation of fungi from plants
+
+• It shows the phylogeny of the organisms
+
+**Demerits**
+
+
+• The Kingdom Monera and protista
+accommodate both autotrophic and
+heterotrophic organisms, cell wall lacking
+and cell wall bearing organisms thus making
+these two groups more heterogeneous.
+
+• Viruses were not included in the system.
+
+Carl Woese and co-workers in the year 1990 introduced three domains of life viz., Bacteria,
+Archaea and Eukarya based on the difference in rRNA nucleotide sequence, lipid structure
+of the cell membrane. A revised six Kingdom classification for living world was proposed 
+by Thomas Cavalier-Smith in the year 1998 and the Kingdom Monera is divided in to
+Archaebacteria and Eubacteria. Recently Ruggierio et al., 2015 published
+a seven Kingdom classification which is a practical extension of
+Thomas Cavalier’s six Kingdom scheme. According to this classification there are two
+Super Kingdoms. (Prokaryota and Eukaryota) Prokaryota includes two Kingdoms
+namely Archaebacteria and Eubacteria. Eukaryota includes the Protozoa, Chromista,
+Fungi, Plantae and Animalia.A new Kingdom, the Chromista was erected and it included
+all algae whose chloroplasts contain chlorophyll a and c, as well as various colourless forms
+that are closely related to them.Diatoms, Brown algae, Cryptomonads and
+Oomycetes were placed under this Kingdom.
+
+#### Activity 1.2
+Visit to a pond and record the names of the biotic components of it with the help of your
+teacher. Tabulate the data and segregate them according to Five Kingdom Classification.
+
+{{< box title="Do You Know?" type="objective" >}}
+Red tide is caused by toxic bloom of Dinoflagellates like Gymnodinium
+breve and Gonyaulax tamarensis.A major red tide incident in west coast of Florida in
+the year 1982 killed Hundreds and thousands of fishes.
+{{< /box >}}
+
+
+#### 1.4 Bacteria
+#### *Bacteria Friends or Foes?*
+
+Have you noticed the preparation of curd in our home? A little drop of curd turns
+the milk into curd after some time. What is responsible for this change? Why it Sours?
+The change is brought by Lactobacillus lactis, a bacterium present in the curd. The
+sourness is due to the formation of Lactic acid. Have you been a victim of Typhoid? It
+is a bacterial disease caused by Salmonella
+typhi, a bacterium. So we can consider this
+prokaryotic organism as friend and foe, due
+to their beneficial and harmful activities.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
+
+#### 1.4.1 Milestones in Bacteriology
+1829 C.G. Ehrenberg coined the term Bacterium
+
+1884 Christian Gram introduced Gram staining method
+
+1923 David H. Bergy published First editionof  Bergey’s Manual
+1928 Fredrick Griffith discovered Bacterial
+transformation
+
+1952 Joshua Lederberg discovered of Plasmid
+Bacteria are prokaryotic, unicellular, ubiq-
+uitous, microscopic organisms. The study
+of Bacteria is called Bacteriology. Bacteria
+were first discovered by a Dutch scientist,
+Anton van Leeuwenhoek in 1676 and were
+called “animalcules”.
+#### 1.4.2 General characteristic features of Bacteria
+• They are Prokaryotic organisms and
+lack nuclear membrane and membrane
+bound organelles.
+
+• The Genetic material is called nucleoid
+or genophore or incipient nucleus
+
+• The cell wall is made up of Polysaccharides
+and proteins
+
+• Most of them lack chlorophyll, hence
+they are heterotrophic (Vibrio cholerae)
+but some are autotrophic and possess
+Bacteriochlorophyll (Chromatium)
+
+• They reproduce vegetatively by Binary
+fission and endospore formation.
+
+• They exhibit variations which are due to
+genetic recombination and is achieved
+through conjugation, transformation
+and transduction.
+The shape and flagellation of the bacteria
+varies and is given in Figure 1.8.
+
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
+
+**Capsule/Glycocalyx**
+
+The bacterial cell reveals three
+layers (i) Capsule/Glycocalyx (ii) Cell
+wall and (iii) Cytoplasm (Figure 1.9).
+Capsule/Glycocalyx
+Some bacteria are surrounded by a
+gelatinous substance which is composed of
+polysaccharides or polypeptide or both. A
+thick layer of glycocalyx bound tightly to the
+
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
+
+
+
+cell wall is called capsule. It protects cell from
+desiccation and antibiotics. The sticky nature
+helps them to attach to substrates like plant
+root surfaces, Human teeth and tissues. It
+helps to retain the nutrients in bacterial cell.
+
+{{< box title="Do You Know?" type="objective" >}}
+Duodenal and Gastric ulcers are caused by
+Helicobacter pylori,a Gram negative
+bacterium • Bt toxin from Bacillus thuringiensis
+finds application in raising insect
+resistant crops (Bt Crops).
+{{< /box >}}
+
+**Cell wall**
+The bacterial cell wall is granular and is rigid. It
+provides protection and gives shape to the cell.
+The chemical composition of cell wall is rather
+complex and is made up of peptidoglycan
+or mucopeptide (N-acetyl glucosamine,
+N-acetyl muramic acid and peptide chain of
+4 or 5 aminoacids). One of the most abundant
+polypeptide called porin is present and it helps
+in the diffusion of solutes.
+
+**Plasma membrane**
+The plasma membrane is made up of
+lipoprotein. It controls the entry and exit
+of small molecules and ions. The enzymes
+involved in the oxidation of metabolites (i.e., the
+respiratory chain) as well as the photosystems
+used in photosynthesis are present in the
+plasma membrane.
+
+**Cytoplasm**
+Cytoplasm is thick and semitransparent. It
+contains ribosomes and other cell inclusions.
+Cytoplasmic inclusions like glycogen, poly-β-
+hydroxybutyrate granules, sulphur granules
+and gas vesicles are present.
+
+**Bacterial chromosome**
+The bacterial chromosome is a single circular
+DNA molecule, tightly coiled and is not
+enclosed in a membrane as in Eukaryotes.
+This genetic material is called **Nucleoid or
+Genophore**. It is amazing to note that the DNA
+of E.coli which measures about 1mm long when
+uncoiled, contains all the genetic information of
+the organism. The DNA is not bound to **histone**
+proteins. The single chromosome or the DNA
+molecule is circular and at one point it is attached
+to the plasma membrane and it is believed that
+this attachment may help in the separation of
+two chromosomes after DNA replication.
+
+**Plasmid**
+Plasmids are extra chromosomal double
+stranded, circular, self-replicating, autonomous
+elements. The size of a plasmid varies from
+1 to 500 kb usually plasmids contribute to
+about 0.5 to 5.0% of the total DNA of bacteria.
+They contain genes for ­
+fertility, antibiotic
+resistant and heavy metals. It also help in the
+production of bacteriocins and toxins which
+are not found in bacterial chromosome. The
+number of plasmids per cell varies. Plasmids
+are classified into different types based on
+the function. Some of them are F (Fertility)
+factor, R ­(Resistance) plasmids, Col (Colicin)
+plasmids, Ri (Root i ­ nducing) plasmids and Ti
+(Tumour inducing) plasmids.
+
+**Mesosomes**
+These are localized infoldings of plasma
+membrane produced into the cell in the form
+of vesicles, tubules and lamellae. They are
+clumped and folded together to maximize
+their surface area and helps in respiration and
+in binary fission.
+
+**Polysomes / Polyribosomes**
+The ribosomes are the site of protein
+synthesis. The number of ribosome
+per cell varies from 10,000 to 15,000.
+The ribosomes are 70S type and consists of two
+subunits (50S and 30S). The ribosomes are held
+together by mRNA and form polyribosomes
+or polysomes.
+
+**Flagella**
+Certain motile bacteria have numerous thin
+hair like projections of variable length emerge
+from the cell wall called flagella. It is 20–30 μm
+in diameter and 15 μm in length. The flagella
+of Eukaryotic cells contain 9+2 microtubles
+but each flagellum in bacteria is made up of a
+single fibril. Flagella are used for locomotion.
+Based on the number and position of flagella
+there are different types of bacteria (Figure 1.8)
+
+**Fimbriae or Pili**
+Pili or fimbriae are hair like appendages found
+on surface of cell wall of gram-negative bacteria
+(Example: Enterobacterium). The pili are 0.2 to
+20 µm long with a diameter of about 0.025µm.
+In addition to normal pili there are special type
+of pili which help in conjugation called sex pili
+are also found.
+
+#### 1.4.4 Gram staining procedure
+
+The Gram staining method to differentiate
+bacteria was developed by Danish Physician
+Christian Gram in the year1884. It is a
+differential staining procedure and it classifies
+bacteria into two classes - Gram positive and
+Gram negative. The steps involved in Gram
+staining procedure is given in Figure 1.10. The
+Gram positive bacteria retain crystal violet and
+appear dark violet whereas Gram negative type
+loose the crystal violet and when counterstained
+by safranin appear red under a microscope.
+Most of the gram positive cell wall contain
+considerable amount of teichoic acid and
+teichuronic acid. In addition, they may contain
+polysaccharide molecules. The gram negative
+cell wall contains three components that lie
+outside the peptidoglycan layer. 1. Lipoprotein
+2. Outer membrane 3.Lipopolysaccharide.
+Thus the different results in the gram stain
+
+
+
+
+
+
+
+
+
+
+
+
