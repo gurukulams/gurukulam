@@ -1947,9 +1947,13 @@ the Gram positive bacteria
     d. presence of floridean starch
 
 5. Identify the correctly matched pair
+   
     a. Actinomycete –   a) Late blight
+
     b. Mycoplasma   –   b) lumpy jaw
+
     c. Bacteria     –   c) Crown gall
+
     d. Fungi        –   d) sandal spike
 
 6. Differentiate homoiomerous and heteromerous lichens.
