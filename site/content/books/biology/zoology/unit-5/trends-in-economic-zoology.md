@@ -3055,3 +3055,9 @@ b. Triploblastic, coelomate
 c. Diploblastic, acoelomate
 d. Diploblastic, coelomate
 8. Osphradium of Pila
+a. A combination of aquaculture and
+fish culture
+b. A combination of aquaculture and
+hydroponics
+c. A combination of vermiculture and
+hydroponics
