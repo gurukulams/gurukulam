@@ -1060,6 +1060,56 @@ strains. Thus the phenomenon of changing
 the character of one strain by transferring the DNA of another strain into the former is called
 Transformation.
 
+![Living World](/books/biology/unit-1/the-living-world/Fig1.13.eng.png )
+
+**3. Transduction**
+Zinder and Lederberg (1952) discovered
+Transduction in *Salmonella typhimurum*.
+Phage mediated DNA transfer is called
+Transduction (Figure 1.14).
+
+**Transduction is of two types**
+(i) Generalized transduction (ii) Special-
+ized or Restricted transduction
+
+**(i) Generalized Transduction**
+The ability of a bacteriophage to carry
+genetic material of any region of bacterial
+DNA is called generalised transduction.
+
+**(ii) Specialized or Restricted Transduction**
+The ability of the bacteriophage to carry
+only a specific region of the bacterial DNA is
+called specialized or restricted transduction.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.14.eng.png )
+
+### Table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+
+
+
+
+
+
+
+
+
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.15.eng.png )
+
+
+
+
+
+
+
 
 
 
