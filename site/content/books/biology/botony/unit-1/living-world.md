@@ -1916,32 +1916,53 @@ example for symbiotic association.
 
 ##### Evaluation
 
-1. Which one of the
-following statement
-about virus is correct?
+1. Which one of the following statement about virus is correct?
 
-a. Possess their own
-metabolic system
+    a. Possess their own metabolic system
 
-b. They are facultative
-parasites
+    b. They are facultative parasites
 
-c. They contain DNA or RNA
+    c.  They contain DNA or RNA
 
 2. Identify the incorrect statement about
 the Gram positive bacteria
 
-a. Teichoic acid absent
+    a. Teichoic acid absent
 
-b. High percentage of peptidoglycan is
-found in cell wall
+    b. High percentage of peptidoglycan is
+    found in cell wall
 
-c. Cell wall is single layered
+    c. Cell wall is single layered
 
-d. Lipopolysaccharide is present in cell
+    d. Lipopolysaccharide is present in cell
 
+3. Identify the Archaebacterium
+    a. Acetobacter b. Erwinia
+    c. Treponema d. Methanobacterium
+    
+4. The correct statement regarding Blue green algae is ____________
+    a. lack of motile structures
+    b. presence of cellulose in cell wall
+    c. absence of mucilage around the thallus
+    d. presence of floridean starch
 
+5. Identify the correctly matched pair
+    a. Actinomycete –   a) Late blight
+    b. Mycoplasma   –   b) lumpy jaw
+    c. Bacteria     –   c) Crown gall
+    d. Fungi        –   d) sandal spike
 
+6. Differentiate homoiomerous and heteromerous lichens.
+
+7. Write the distinguishing features of monera.
+
+8. Why do farmers plant leguminous crops in crop rotations/mixed cropping?
+
+9. Briefly discuss on five Kingdom classification. Add a note on merits and demerits.
+
+10. Give a general account on lichens.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.ict.eng.png )
 
 
 
