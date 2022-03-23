@@ -32,9 +32,13 @@ Mycorrhizae and Lichens.
 **Chapter Outline**
 
 1.1 Attributes of Living organisms
+
 1.2 Viruses
+
 1.3 Classification of Living world
+
 1.4 Bacteria
+
 1.5 Fungi
 
 Earth was formed some 4.6 billion years ago.
@@ -170,7 +174,6 @@ between anabolism and catabolism is given
 in Table 1.1.
 **Table 1.1: Difference between
 anabolism and catabolism**
-
 
 | Anabolism |  Catabolism |   |   |   |
 |---|---|---|---|---|
@@ -669,7 +672,7 @@ typhi, a bacterium. So we can consider this
 prokaryotic organism as friend and foe, due
 to their beneficial and harmful activities.
 
-![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/Fig1.7.x.eng.png )
 
 #### 1.4.1 Milestones in Bacteriology
 1829 C.G. Ehrenberg coined the term Bacterium
@@ -714,7 +717,7 @@ The shape and flagellation of the bacteria
 varies and is given in Figure 1.8.
 
 
-![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/Fig1.8.eng.png )
 
 **Capsule/Glycocalyx**
 
@@ -728,7 +731,7 @@ polysaccharides or polypeptide or both. A
 thick layer of glycocalyx bound tightly to the
 
 
-![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
+![Living World](/books/biology/unit-1/the-living-world/Fig1.9.eng.png )
 
 
 
@@ -863,12 +866,199 @@ polysaccharide molecules. The gram negative
 cell wall contains three components that lie
 outside the peptidoglycan layer. 1. Lipoprotein
 2. Outer membrane 3.Lipopolysaccharide.
-Thus the different results in the gram stain
+Thus the different results in the gram stain are due to differences in the structure and
+composition of the cell wall. The difference
+between Gram Positive and Gram negative
+bacteria is given in Table 1.6.
 
+![Living World](/books/biology/unit-1/the-living-world/Fig1.10.eng.png )
 
+![Living World](/books/biology/unit-1/the-living-world/Tab1.6.eng.png )
 
+{{< box title="What are Magnetosomes ?" type="objective" >}} 
+Intracellular chains of 40-50 magnetite
+(Fe 3 O 4 ) particles are found in bacterium
+Aquaspirillum magnetotacticum. and it
+help the bacterium to locate nutrient rich
+sediments.
+{{< /box >}}
 
+### 1.4.5 Life processes in Bacteria Respiration
 
+Two types of respiration are found in
+Bacteria. They are 1. Aerobic respiration
+2. Anaerobic respiration.
+
+**1. Aerobic respiration**
+These bacteria require oxygen as terminal
+acceptor and will not grow under anaerobic
+conditions. (i.e. in the absence of O 2 )
+**Example**: Streptococcus.
+
+**Obligate aerobes**
+Some Micrococcus **species** are obligate
+aerobes (i.e. they must have oxygen to survive)
+
+**2. Anaerobic respiration**
+These bacteria do not use oxygen for growth
+and metabolism but obtain their energy from
+fermentation reactions.**Example**: *Clostridium*
+
+**Facultative anaerobes**
+There are bacteria that can grow e ­ ither
+using oxygen as a terminal electron a ­ cceptor
+or anaerobically using fermentation reaction
+to obtain energy. When a facultative anaerobe
+such as E. coli is present at a site of infection like
+an abdominal ­abscess, it can rapidly consume all
+available O 2 and change to anaerobic metabolism
+producing an anaerobic environment and thus
+allow the anaerobic bacteria that are present to
+grow and cause disease. **Example**: Escherichia
+coli and ­Salmonella.
+
+**Capnophilic Bacteria**
+Bacteria which require CO 2 for their growth
+are called as capnophilic bacteria. **Example**:
+Campylobacter.
+
+#### Nutrition
+On the basis of their mode of nutrition
+bacteria are classified into two types namely
+autotrophs and heterotrophs.
+
+**I Autotrophic Bacteria**
+Bacteria which can synthesise their own food
+are called autotrophic bacteria. They may be
+further subdivided as
+
+**A. Photoautotrophic bacteria**
+Bacteria use sunlight as their source of energy
+to synthesize food. They may be
+
+**1. Photolithotrophs**
+In photolithotrophs the hydrogen donor is an
+inorganic substance.
+
+**a. Green sulphur bacteria**: In this type of
+bacteria the hydrogen donor is H 2 S and
+possess pigment called **Bacterioviridin**.
+Example: Chlorobium.
+
+**b. Purple sulphur bacteria**: For bacteria
+belong to this group the hydrogen donor is
+thiosulphate, **Bacteriochlorophyll** is present.
+Chlorophyll containing chlorosomes are
+present Example: *Chromatium*
+
+**2. Photoorganotrophs**
+They utilize organic acid or alcohol as
+hydrogen donor. Example: Purple non
+sulphur bacteria – *Rhodospirillum*.
+
+**B. Chemoautotrophic bacteria**
+They do not have photosynthetic pigment
+hence they cannot use sunlight energy. This
+type of bacteria obtain energy from organic
+or inorganic substance.
+
+**1. Chemolithotrophs**
+This type of bacteria oxidize inorganic
+compound to release energy.
+Examples:
+1. Sulphur bacteria - *Thiobacillus thiooxidans*
+2. Iron bacteria - *Ferrobacillus ferrooxidans*
+3. Hydrogen bacteria - *Hydrogenomonas*
+4. Nitrifying bacteria - *Nitrosomonas and Nitrobacter*
+
+**2. Chemoorganotrophs**
+This type of bacteria oxidize organic
+compounds to release energy.
+Examples:
+1. Methane bacteria –*Methanococcus*
+2. Acetic acid bacteria – *Acetobacter*
+3. Lactic acid bacteria – *Lactobacillus*
+
+**II. Heterotrophic Bacteria**
+They are Parasites (*Mycobacterium*) Saprophytes
+(*Bacillus mycoides*) or Symbiotic (*Rhizobium*) in root nodules of leguminous crops.
+
+#### 1.4.6 Reproduction in Bacteria
+Bacteria reproduces asexually by binary
+fission, conidia and endospore formation
+(Figure 1.11). Among these, binary fission
+is the most common one.
+
+**Binary fission**
+Under favourable conditions the cell divides
+into two daughter cells. The nuclear material
+divides first and it is followed by the formation
+of a simple median constriction which finally
+results in the separation of two cells.
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.11.eng.png )
+
+**Endospores**
+During unfavourable condition bacteria
+produce endospores. Endospores are produced
+in *Bacillus megaterium*, *Bacillus sphaericus*
+and *Clostridium tetani*. Endospores are thick
+walled resting spores. During favourable
+condition, they germinate and form bacteria.
+
+**Sexual Reproduction**
+Typical sexual reproduction involving the
+formation and fusion of gametes is absent in
+bacteria. However gene recombination can
+occur in bacteria by three different methods
+they are
+1. Conjugation
+2. Transformation
+3. Transduction
+
+**1. Conjugation**
+J. Lederberg and Edward L. Tatum
+demonstrated conjugation in E. coli. in the
+year 1946. In this method of gene transfer
+the donor cell gets attached to the recipient
+cell with the help of pili. The pilus grows
+in size and forms the conjugation tube.
+The plasmid of donor cell which has the F +
+(fertility factor) undergoes replication. Only
+one strand of DNA is transferred to the
+recipient cell through conjugation tube. The
+recipient completes the structure of double
+stranded DNA by synthesizing the strand
+that complements the strand acquired from
+the donor (Figure 1.12).
+
+![Living World](/books/biology/unit-1/the-living-world/Fig1.12.eng.png )
+
+**2. Transformation**
+
+Transfer of DNA from one bacterium to
+another is called transformation (Figure 1.13).
+In 1928 the bacteriologist Frederick Griffith
+demonstrated transformation in Mice using
+Diplococcus pneumoniae. Two strains of this
+bacterium are present. One strain produces
+smooth colonies and are virulent in nature
+(S-type). In addition another strain produce
+rough colonies and are avirulent (R-type).
+When S-type of cells were injected into the
+mouse, the mouse died. When R-type of
+cells were injected, the mouse survived. He
+injected heat killed S-type cells into the mouse.
+The mouse did not die. When the mixture of
+heat killed S-type cells and R-type cells were
+injected into the mouse, the mouse died. The
+avirulent rough strain of Diplococcus had been
+transformed into S-type cells. The hereditary
+material of heat killed S-type cells had
+transformed R-type cell into virulent smooth
+strains. Thus the phenomenon of changing
+the character of one strain by transferring the DNA of another strain into the former is called
+Transformation.
 
 
 
