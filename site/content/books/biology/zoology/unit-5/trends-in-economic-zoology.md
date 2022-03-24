@@ -401,8 +401,8 @@ soil conditions are used for planting.
 The favourable season for cultivating
 of the mulberry plants is June, July,
 November and December. The mulberry
-crop production technology includes![](/books/biology/unit-12/trends-in-economic-zoology/12.8.png)
-![](/books/biology/unit-12/trends-in-economic-zoology/12.9.png)
+crop production technology includes![](/books/biology/unit-12/trends-in-economic-zoology/12.19.png)
+![](/books/biology/unit-12/trends-in-economic-zoology/12.11.png)
 land preparation, preparation of cutting,
 planting techniques, maintenance of
 mulberry nursery, disease and pest
@@ -419,8 +419,8 @@ silkworm. A typical rearing house (6m x
 place under shade to accommodate 100
 dfls (disease free layings). Space of 1m
 should be provided surrounding the
-rearing house. Sufficient windows and![](/books/biology/unit-12/trends-in-economic-zoology/12.8.png)
-![](/books/biology/unit-12/trends-in-economic-zoology/12.9.png)
+rearing house. Sufficient windows and![](/books/biology/unit-12/trends-in-economic-zoology/12.12.png)
+![](/books/biology/unit-12/trends-in-economic-zoology/12.13.png)
 ventilators should be provided for free
 circulation of air inside the rearing house.
 The windows and ventilators should be
@@ -490,7 +490,7 @@ obtained is processed through several
 treatments to bring about the luster on the
 thread.
 
-![](/books/biology/unit-12/trends-in-economic-zoology/12.12.png)
+![](/books/biology/unit-12/trends-in-economic-zoology/12.14.png)
 
 ### Uses of Silk
 * Silk fibers are utilized in preparing silk
@@ -506,7 +506,7 @@ military purposes.
 * It is used in the manufacture of fishing
 fibers, parachutes, cartridge bags,
 insulation coils for telephone, wireless
-![](/books/biology/unit-12/trends-in-economic-zoology/12.13.png)
+
 receivers, tyres of racing cars, filter
 fibres, in medical dressings and as
 suture materials.
@@ -561,7 +561,7 @@ mellifera (European bee) and Apis adamsoni
 In honey bees, a highly organized division
 of labour is found. A well developed
 honey bee colony consists of the Queen,
-![](/books/biology/unit-12/trends-in-economic-zoology/12.14.png)
+![](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)
 Drones and Workers (Figure 12.4). All the
 three types depend on each other for their
 existence. There is normally one queen,
@@ -572,7 +572,7 @@ present in each hive and feeds on Royal Jelly.
 Its sole function is to lay eggs throughout its
 life span. The virgin queen bee mates only
 once in her life. During the breeding season
-![](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)
+![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
 in winter, a unique flight takes place by the
 queen bee followed by several drones. This
 flight is called “nuptial flight”. The queen
@@ -602,10 +602,6 @@ jelly, prepares bee-bread to feed the larvae,
 feeds the queen, takes care of the queen and
 drones, secretes bees wax, builds combs,
 cleans and fans the bee hive.
-
-![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
-
-![](/books/biology/unit-12/trends-in-economic-zoology/12.17.png)
 
 
 Then she becomes a soldier and guards
@@ -652,7 +648,7 @@ developed to improve the texture of hives.
 In India, there are two types of beehives in
 practice namely, Langstroth and Newton.
 
-![](/books/biology/unit-12/trends-in-economic-zoology/12.18.png)
+![](/books/biology/unit-12/trends-in-economic-zoology/12.17.png)
 The Langstroth bee hive is made up
 of wood and consists of six parts (Figure
 12.6) namely Stand, Bottom board,
@@ -680,9 +676,9 @@ of plants. It is a natural food, the smell and
 taste depends upon the pollen taken by the
 honey bee. It is used as an antiseptic, laxative
 and as a sedative. It is generally used in
-Ayurvedic and Unani systems of medicine.![](/books/biology/unit-12/trends-in-economic-zoology/12.10.png)
+Ayurvedic and Unani systems of medicine.
 
-![](/books/biology/unit-12/trends-in-economic-zoology/12.11.png)
+
    ### Life cycle of Bombyx mori
 It is also used in the preparation of cakes,
 breads and biscuits
@@ -799,9 +795,8 @@ pesticides is avoided and hence it is eco-
 friendly.
 
 ### Weeds: 
-Since the plants are cultured![](/books/biology/unit-12/trends-in-economic-zoology/12.10.png)
+Since the plants are culture
 
-![](/books/biology/unit-12/trends-in-economic-zoology/12.11.png)
    ### Life cycle of Bombyx mori
 nutrient by plants is high in this method
 Artificial food for fishes: In this
@@ -826,7 +821,7 @@ by-products such as ammonia.
 b. Growing plants in a nutrient solution
 instead of soil. Fish kept in the water
 provide the required nutrients.
-Write the appropriate scientific![](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)
+Write the appropriate scientific
 terms for above (a) and (b) and
 differentiate between them..
 
@@ -836,7 +831,7 @@ chemical fertilizers is not required for this
 system since the plants in the aquaponics
 utilize the nutrients from the fish wastes
 dissolved in water
-![](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)
+![](/books/biology/unit-12/trends-in-economic-zoology/12.18.png)
 koi, gold fish, bass
 etc., are cultured in
 aquaponics. Common
@@ -849,7 +844,7 @@ in this method.
 ### Aquaculture
 Aquaculture has been
 practiced in varying
-forms for centuries![](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)
+forms for centuries
 dating to the time of
 the Phoenicians. India
 offers a huge potential
@@ -881,7 +876,7 @@ its life in river mouths (estuaries) back
 waters, mangrove swamps and coastal
 lagoons. Estuarine fish are more common
 in Bengal and Kerala. Culturing of
-animals in the water having salinity range![](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)
+animals in the water having salinity range
 0.5 2 30 ppt are called as brackish water
 culture. Fishes cultured in brackish water
 are Milk fish (Chanos Chanos), Sea bass
@@ -901,7 +896,7 @@ water salinity ranges from 30 - 35 ppt is called
 Mariculture. Some fishes like Chanos sp,
 Mugil cephalus are cultured here. Culturing
 of animals in the salinity ranges from 36
-- 40 ppt is called Metahaline culture. Eg,![](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)
+- 40 ppt is called Metahaline culture. Eg,
 Brine shrimp (Artemia salina). Artemia is
 commonly known as the brine shrimp. It is
 a crustacean and lives in high saline waters
@@ -946,7 +941,7 @@ slightly higher temperature
 other easily.
 * They are highly nutritive and palatable.
 
-![](/books/biology/unit-12/trends-in-economic-zoology/12.12.png)
+
 
 ### External factors affecting fish culture
 The factors that affect fish culture are
@@ -1038,9 +1033,6 @@ hatching happens. Hatching hapas are
 rectangular trough shaped tanks made
 up of mosquito net cloth supported by
 bamboo poles and fixed in the river
-
-![](/books/biology/unit-12/trends-in-economic-zoology/12.13.png)
-
 ### Nursery pond
 The newly hatched fries are transported
 from the hatching happa to nursery ponds
@@ -1251,7 +1243,7 @@ using different types of nets such as cast
 nets, bag nets, drag nets, trawl nets and
 barrier nets. Preservation of prawns
 is done by peeling and deveining or by
-cooking and pee![](/books/biology/unit-12/trends-in-economic-zoology/12.14.png)ling.
+cooking and peeling.
 ### Culture of marine prawn
 Several factors that determine the success
 of marine prawn culture includes selection
@@ -1325,7 +1317,7 @@ from the marine oysters (Mishra, 1961).
 12.8 Animal Husbandry and
 Management
 Animal husbandry is the practice of
-breeding and ra![](/books/biology/unit-12/trends-in-economic-zoology/12.14.png)ising livestock cattles like
+breeding and raising livestock cattles like
 cows, buffaloes, and goats and birds etc.
 that are useful to human beings. Parameters
 such as adequate ventilation, temperature,
@@ -1546,7 +1538,7 @@ produced by the process of interspecific
 hybridization between a male donkey and
 a female horse.
 
-Controlled breeding experiments![](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)
+Controlled breeding experiments
 Artificial insemination:
 Artificial insemination is a technique in
 which the semen collected from the male
@@ -1598,8 +1590,6 @@ production. Some of the breeds of cattle
 that are good milkers are Jamunapari in
 Ganga-Jamuna riverine tracts, Beetal in
 Punjab, Bar–bari in Uttarpradesh.
-
-t-12![](/books/biology/uni/trends-in-economic-zoology/12.16.png)
 ### Common diseases of cattle: A healthy
 animal eat, drinks and sleeps well regularly.
 Healthy cattle appear bright, alert and active
@@ -1737,7 +1727,7 @@ chicken are reared as pets in addition to
 their use for egg production and meat.
 Silkie: It is a breed of chicken has a
 typical fluffy plumage, which is said to feel
-like silk and satin. The breed has numerous![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
+like silk and satin. The breed has numerous![](/books/biology/unit-12/trends-in-economic-zoology/12.5.png)
 additional special characters, such as black
 skin and bones, blue earlobes, and five toes
 on each foot, while the majority chickens
@@ -1755,7 +1745,7 @@ method and Furnished cage method.
 
 Among these, Battery cage method is
 widely used in large scale poultry farms. The
-Free range, Organic and Yarding methods![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
+Free range, Organic and Yarding methods![](/books/biology/unit-12/trends-in-economic-zoology/12.7.png)
 are eco-friendly and the eggs produced by
 such farming practices are preferred in the
 market.
@@ -1805,7 +1795,7 @@ the primary aim of poultry farming is to
 obtain eggs. The eggs and poultry meat are
 the richest sources of proteins and vitamins.
 Poultry byproducts:
-The feathers of poultry birds are used for making![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
+The feathers of poultry birds are used for making![](/books/biology/unit-12/trends-in-economic-zoology/12.8.png)
 pillows and quilts. Droppings of poultry can be
 used as manure in fields. The droppings are rich
 in nitrogen, potash and phosphates.
@@ -1820,7 +1810,7 @@ byproducts supply proteins, fats, vitamins
 and good amount of minerals.
 Poultry diseases: Ranikhet, Coccidiosis,
 and Fowl pox are some common poultry
-diseases.![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
+diseases.![](/books/biology/unit-12/trends-in-economic-zoology/12.9.png)
 Benefits of Poultry farming:
 The advantages of poultry farming are
 * It does not require high capital for
@@ -1831,7 +1821,7 @@ poultry farming.
 * It ensures high return of investment
 within a very short period of time.
 *  It provides fresh and nutritious food
-and has a huge global demand.![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
+and has a huge global demand.![](/books/biology/unit-12/trends-in-economic-zoology/12.10.png)
 *  It provides employment opportunities
 for the people.
 Chickens communicate with more than
@@ -1857,14 +1847,14 @@ prevents it from getting wet. They lay eggs at
 night or in the morning. The ducks feed on
 rice bran, kitchen wastes, waste fish and snails.
 Types of breeds: There are three types of
-ducks depending on the purpose for w[](/books/biology/unit-12/trends-in-economic-zoology/12.15.png)hich
+ducks depending on the purpose for which
 it is formed. They are meat productive duck
 breeds, egg productive duck breeds, and
 breeds for both meat and egg production.
 Advantages of duck farming:
 They can be reared in small backyards where
 water is available and needs less care and
-management as they are very hardy. They can![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
+management as they are very hardy. They can
 adapt themselves to all types of environmental
 conditions and are breed for feed efficiency,
 growth rate and resistance to diseases.
@@ -1894,7 +1884,7 @@ of honey is called Apiculture. Lac is produced
 by the lac insect.
 Aquaponics is a combined technique of
 aquaculture and hydroponics.It prevents toxic
-water runoff and also maintains ecosystem![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
+water runoff and also maintains ecosystem
 deals with the farming of aquatic organisms
 such as fish, molluscs, crustaceans and aquatic
 plants. On the basis of water resources,
@@ -1909,7 +1899,7 @@ etc. that are useful to human beings.
 Dairying is the production and marketing
 of milk and its products. Dairy operation
 consists of proper maintenance of cattle,
-collection and processing the milk and![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)
+collection and processing the milk and
 its byproducts. Poultry refers to the
 rearing and propagation of avian species
 such as chicken, ducks, turkeys, geese,
@@ -1918,9 +1908,6 @@ farmed chicken breeds are categorized into
 five based on the purpose for which it is
 farmed. They are egg layers, broiler type,
 dual type, games and ornamental types.
-
-![](/books/biology/unit-12/trends-in-economic-zoology/12.17.png)
-
 ### Evaluation
 *  Which one of the
 following is not related
@@ -1997,11 +1984,7 @@ hydroponics
 c. A combination of vermiculture and
 hydroponics
 
-TN_GOVT_XI_Bio Zoology_Ch12.indd 240 09-01-2020 5.33.22 PM
 
-www.tntextbooks.in
-
-241
 d. A combination of aquaculture and
 prawn culture.
 9. Prawn belongs to the class
@@ -2075,11 +2058,6 @@ in cattle breeding?
 29. Write the peculiar characters of duck.
 30. Explain the life cycle of bombyx mori.
 
-TN_GOVT_XI_Bio Zoology_Ch12.indd 241 09-01-2020 5.33.22 PM
-
-www.tntextbooks.in
-
-242
 
 GLOSSARY
 Acetylecholine – A neurotransmitter found
@@ -2142,7 +2120,7 @@ for great tensile strength.
 Dioecious – Animals in which male and female
 reproductive organs occur in separate individuals.
 Drilosphere – is the part of the soil influenced by
-earthworm se![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)cretions, burrowing and castings.
+earthworm se![](/books/biology/unit-12/trends-in-economic-zoology/12.20.png)cretions, burrowing and castings.
 Dyspnoea – painful respiration.
 Electromagnetic (EM) radiation –
 Electromagnetic radiation is a form of energy
@@ -2170,11 +2148,8 @@ microbiological cultures or cell cultures. and
 maintains optimal temperature, humidity and
 other conditions such as the carbon dioxide
 
-TN_GOVT_XI_Bio-Zoology_Glossary_Pages.indd 242 09-01-2020 5.33.47 PM
 
-www.tntextbooks.in
 
-243
 (CO2) and oxygen content of the atmosphere
 inside.
 Isovolumetric ventricular contraction –
@@ -2241,7 +2216,7 @@ opening and these help in copulation.
 Shared character – A shared character is one
 that two lineages have in common
 Spawning - Process of shedding of mass eggs or
-sperms in wat![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)er.
+sperms in water.
 Sphincter of boydon – Sphincter which guard
 opening of the bile duct before it joins with the
 pancreatic duct
@@ -2249,7 +2224,7 @@ Sphincter of oddi – Sphincter which guard
 the opening of the ampulla of vater into the
 duodenum
 Taeniae coli – Longitudinal muscular chords in
-the colon![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png) of several types of animals, including
+the colonof several types of animals, including
 the earthworm,
 Valves of kerkring or plicae circulares –
 Circular folds in the lumen of ileum
@@ -2265,11 +2240,7 @@ intestinal lining of vertebrates
 Yawning – prolonged inspiration due to increase
 in CO2 concentration.
 
-TN_GOVT_XI_Bio-Zoology_Glossary_Pages.indd 243 09-01-2020 5.33.47 PM
 
-www.tntextbooks.in
-
-244
 
 பாடம் 1 : Living world-உயிருலகு
 Diversity பல்லுயிரியல்பு / பல்லுயிர்த்தன்மை
@@ -2353,7 +2324,7 @@ Digestive glands செரிமான சுரப்பிகள்
 Salivary glands உமிழ்நீர் சுரப்பிகள்
 Liver கல்லீரல்
 Pancreas கணையம்
-Gastro intest![](/books/biology/unit-12/trends-in-economic-zoology/12.16.png)inal hormones இரைப்பை-குடல் ஹார்மோன்கள்
+Gastro intestஇரைப்பை-குடல் ஹார்மோன்கள்
 Digestive enzymes செரிமான நொதிகள்
 Absorption உட்கிரகித்தல்
 Assimilation தன்மயமாதல்
@@ -3061,3 +3032,907 @@ b. A combination of aquaculture and
 hydroponics
 c. A combination of vermiculture and
 hydroponics
+
+Cardiac activity இதயச்செயல்பாடுகள்
+Cardiac cycle இதய சுழற்சி
+Blood coagulating factors இரத்த உறைதல் காரணிகள்
+Vasovagal syncope வேகஸ் நரம்பின் அதிகரித்த செயலால்
+
+ஏற்படும் மயக்கம்
+Perfusion மேற்பரவல்
+Capillary தந்துகி
+Arteriole நுண்தமனி
+Hydrostatic pressure இரத்த திரவ அழுத்தம்
+Osmosis ஊடுகலப்பு
+Arterial end தமனி முடிவுப் பகுதி
+Venous end சிரை முடிவுப்பகுதி
+Formed elements இரத்தச் செல்கள்
+Hepatic portal vein கல்லீரல் போர்ட்டல் சிரை
+Hepatic vein கல்லீரல் சிரை
+Hepatic artery கல்லீரல் தமனி
+Erythropoiesis சிவப்பணு உருவாக்கம்
+Granulocytes துகளுடையவெள்ளையணுக்கள்
+Agranulocytes துகளற்ற வெள்ளையணுக்கள்
+Phagocytic nature விழுங்கும் தன்மையுடைய
+Pus சீழ்
+Inflammatory reaction வீக்கம் ஏற்படுதல்
+Cell mediated immunity செல்வழி நோய்த்தடைகாப்பு
+Macrophages மாக்ரோஃபேஜ்கள்
+Sinusoids குழிப்பைஅடைப்பு
+Antigen எதிர்ப் பொருள்
+Antibody எதிர்வினைப்பொருள்
+Blood transfusion இரத்தம் செலுத்துதல்
+Trauma விபத்து
+Meshwork வலைப்பின்னல்
+Lymph nodes நிணநீர் முடிச்சுகள்
+Inguinal தொடைப்பகுதி
+Axillaries அக்குள் பகுதிகள்
+Sub clavian vein சப்கிளேவியன் (அ) சிரை
+Lacteals லாக்டியல் நாளங்கள்
+Vasoconstriction இரத்தக்குழல் சுருக்கம்
+Vasodilation இரத்தக் குழல் விரிவடைதல்
+Anastomoses இருவேறு தமனிகள் இணைப்பிடங்கள்
+Abdominal cramps வயிற்றுப்புறப் பிடிப்புகள்
+Venules நுண்சிரைகள்
+
+Unidirectional flow ஒருதிசை ஓட்டம்
+Ventricular septum வென்ட்ரிகுலார் இடைத்தடுப்பு
+Auricular septum ஆரிகுளார் இடைத்தடுப்பு
+Double circulation இரட்டைச் சுற்று ஓட்டம்
+Pulmonary circuit நுரையீரல் இரத்த ஓட்டம் (சுற்றோட்டம்)
+Systemic circuit சிஸ்டமிக்(அ) உடல் இரத்த ஓட்டம்
+
+(சுற்றோட்டம்)
+Papillary muscles பாப்பில்லரித் தசைகள்
+Pericardial space பெரிக்கார்டியல் குழி
+Pericardial fluid பெரிக்கார்டிய திரவம்
+Auriculo ventricular valves ஆரிக்குலோ வென்ட்ரிகுலார் வால்வுகள்
+Inferior vena cava கீழ்ப்பெருஞ்சிரை
+Superior vena cava மேற்பெருஞ்சிரை
+Pulmonary veins நுரையீரல் சிரைகள்
+Myogenic heart மயோஜெனிக் வகை இதயம்
+Depolariation மின்காந்த முனைப்பியக்கம்அகன்ற நிலை
+Tachycardia டாக்கி கார்டியா
+Brady cardia பிராடிகார்டியா
+Stroke volume(SV) வீச்சுக் கொள்ளவு
+Semilunar valves அரைச்சந்திர வால்வுகள்
+Heart rate(HR) இதயத்துடிப்பு வீதம்
+Cardiac output (CO) இதயத்திலிருந்து வெளிப்படும் இரத்த அளவு
+Sphygmomanometer இரத்தஅழுத்தமாணி
+Pulse rate நாடித்துடிப்பு
+Atheroma தமனிச்சுவரில் கொழுப்புப்படிவு
+Hypertension மிகையழுத்தம்
+Atherosclerosis இதய இரத்தக்குழல் அடைப்பு
+Brain haemorrhage மூளையில் இரத்தக் கசிவு
+Cerebral infarction பெருமூளைத் திசுச் சிதைவு
+Myocardial infarction இதயத்தசை நசிவுறல் நோய்
+Angina pectoris தீவிர மார்பு வலி
+Rheumatoid heart disease ருமாட்டிக் இதய நோய்
+Rheumatic fever ருமாட்டிக் காய்ச்சல்
+Varicose veins இரத்தநாளங்கள்சுருளுதல்
+Embolism தமனியில் இரத்தக் கட்டி அடைப்பு
+Aneurysm தமனி விரிசல், குருதிநாள நெளிவு
+Catheter உட்செலுத்திக் குழாய்
+Scaffolding சாரக்கட்டு, தூக்கிக் கட்டுதல்
+Pump oxygenator பம்ப்ஆச்சிஜனோட்டர் (ஆக்சிஜன்செலுத்தி)
+Resuscitation செயல் தூண்டல்
+Cessation of breath மூச்சு நிறுத்துதல்
+பாடம் 8 : Excretion - கழிவுநீக்கம்
+Nephron நெஃப்ரான்
+Nephron tubules நெஃப்ரான் நுண்குழல்கள்
+Osmoregulation ஊடுகலப்பு ஒழுங்குபாடு
+Ionic regulation அயனி ஒழுங்குபாடு
+Ammonotelic அம்மோனோடெலிக் – அம்மோனியா நீக்கிகள்
+Uriotelic யூரியோடெலிக் – யூரியா நீக்கிகள்
+Uricotelic யூரிக்கோடேலிக்-யூரிக்அமில நீக்கிகள்
+Flamecells சுடர்ச்செல்கள்
+Green glands பச்சை சுரப்பிகள்
+Malpighian tubules மால்பிஜியன் நுண்குழல்கள்
+Congenital heart disease பிறவிக்குறை இதய நோய்
+Hyperbarisim மிகைஅழுத்தத் தன்மை
+Suffocation மூச்சுத்திணறல்
+Conjugated protein இணைவுப்புரதம்
+Haem moieties ஹீம் பகுதியின் ஒரு பாதி
+Respiratory quotient சுவாசக்கெழு எண்
+Cat ions நேர்மின்அயனிகள்
+Electrostatic attraction மின்னிலைக் கவர்ச்சி
+Irritants எரிச்சலூட்டும் பொருட்கள்
+Hiccups விக்கல்
+Aerobic respiration காற்றுடைச் சுவாசம்
+Anaerobic respiration காற்றற்ற சுவாசம்
+பாடம் 7 : Body fluids and circulation - உடல் திரவங்கள் மற்றும் சுற்றோட்டம்
+Cardiac activity இதயச்செயல்பாடுகள்
+Cardiac cycle இதய சுழற்சி
+Blood coagulating factors இரத்த உறைதல் காரணிகள்
+Vasovagal syncope வேகஸ் நரம்பின் அதிகரித்த செயலால்
+
+ஏற்படும் மயக்கம்
+Perfusion மேற்பரவல்
+Capillary தந்துகி
+Arteriole நுண்தமனி
+Hydrostatic pressure இரத்த திரவ அழுத்தம்
+Osmosis ஊடுகலப்பு
+Arterial end தமனி முடிவுப் பகுதி
+Venous end சிரை முடிவுப்பகுதி
+Formed elements இரத்தச் செல்கள்
+Hepatic portal vein கல்லீரல் போர்ட்டல் சிரை
+Hepatic vein கல்லீரல் சிரை
+Hepatic artery கல்லீரல் தமனி
+Erythropoiesis சிவப்பணு உருவாக்கம்
+Granulocytes துகளுடையவெள்ளையணுக்கள்
+Agranulocytes துகளற்ற வெள்ளையணுக்கள்
+Phagocytic nature விழுங்கும் தன்மையுடைய
+Pus சீழ்
+Inflammatory reaction வீக்கம் ஏற்படுதல்
+Cell mediated immunity செல்வழி நோய்த்தடைகாப்பு
+Macrophages மாக்ரோஃபேஜ்கள்
+Sinusoids குழிப்பைஅடைப்பு
+Antigen எதிர்ப் பொருள்
+Antibody எதிர்வினைப்பொருள்
+Blood transfusion இரத்தம் செலுத்துதல்
+Trauma விபத்து
+Meshwork வலைப்பின்னல்
+Lymph nodes நிணநீர் முடிச்சுகள்
+Inguinal தொடைப்பகுதி
+Axillaries அக்குள் பகுதிகள்
+Sub clavian vein சப்கிளேவியன் (அ) சிரை
+Lacteals லாக்டியல் நாளங்கள்
+Vasoconstriction இரத்தக்குழல் சுருக்கம்
+Vasodilation இரத்தக் குழல் விரிவடைதல்
+Anastomoses இருவேறு தமனிகள் இணைப்பிடங்கள்
+Abdominal cramps வயிற்றுப்புறப் பிடிப்புகள்
+Venules நுண்சிரைகள்
+
+Unidirectional flow ஒருதிசை ஓட்டம்
+Ventricular septum வென்ட்ரிகுலார் இடைத்தடுப்பு
+Auricular septum ஆரிகுளார் இடைத்தடுப்பு
+Double circulation இரட்டைச் சுற்று ஓட்டம்
+Pulmonary circuit நுரையீரல் இரத்த ஓட்டம் (சுற்றோட்டம்)
+Systemic circuit சிஸ்டமிக்(அ) உடல் இரத்த ஓட்டம்
+
+(சுற்றோட்டம்)
+Papillary muscles பாப்பில்லரித் தசைகள்
+Pericardial space பெரிக்கார்டியல் குழி
+Pericardial fluid பெரிக்கார்டிய திரவம்
+Auriculo ventricular valves ஆரிக்குலோ வென்ட்ரிகுலார் வால்வுகள்
+Inferior vena cava கீழ்ப்பெருஞ்சிரை
+Superior vena cava மேற்பெருஞ்சிரை
+Pulmonary veins நுரையீரல் சிரைகள்
+Myogenic heart மயோஜெனிக் வகை இதயம்
+Depolariation மின்காந்த முனைப்பியக்கம்அகன்ற நிலை
+Tachycardia டாக்கி கார்டியா
+Brady cardia பிராடிகார்டியா
+Stroke volume(SV) வீச்சுக் கொள்ளவு
+Semilunar valves அரைச்சந்திர வால்வுகள்
+Heart rate(HR) இதயத்துடிப்பு வீதம்
+Cardiac output (CO) இதயத்திலிருந்து வெளிப்படும்
+
+பாடம் 9 : Locomotion and movement - இடப்பெயர்ச்சி மற்றும்இயக்கம்
+Amoeboid movement அமீபா போன்ற இயக்கம்
+Ciliary movement குறு இழை இயக்கம்
+Flagellar movement நீளிழை இயக்கம்
+Muscular movement தசை இயக்கம்
+Myocytes தசை செல்கள்
+Skeletal muscles எலும்புத் தசை
+Visceral muscles உள்ளுறுப்புத் தசைகள்
+Cardiac muscles இதயத் தசைகள்
+Tendon தசை நாண்
+Fascicle ஃபாசிகிள்
+Epimysium எபிமைசியம்
+periusium பெரிமைசியம்
+Endomysium என்டோமைசியம்
+Sarcolemma சார்கோலெம்மா
+Anisotropic bands (A bands) மாறுபட்டதன்மையுடைய பட்டைகள்
+Isotropic bands (I bands) ஒத்த தன்மையுடைய பட்டைகள்
+Muscle fibre தசையிழை
+Myofibril தசை நுண்ணிழை
+Myo filaments தசை நாண்
+Meromyosin மீரோளமையோசின்
+Troponin ட்ரோபோனின்
+Tropomyosin ட்ரோபோமையோசின்
+Sliding – filament hypothesis சறுக்கும் இழை கோட்பாடு
+Neuro muscular junction நரம்பு தசை சந்திப்பு
+Motor end plate இயக்க முடிவுத் தட்டு
+Dark band அடர்த்தி மிகு பட்டை
+Light band அடர்த்தி குறை பட்டை
+Active sites/ செயற்படு பகுதி/செயல் மிகு பகுதி
+Cross bridge குறுக்குப்பாலம்
+Power stroke விசைத்தாக்கம்
+Motor unit இயக்க அலகு
+All or none principle உண்டு அல்லது இல்லை விதி
+Isotonic contraction சமநீளச் சுருக்கம்
+Isometric contraction சம இழுப்புச் சுருக்கம்
+Oxidative contraction ஆக்ஸிஜனேற்ற தசைச் சுருக்கம்
+Glycolytic contraction கிளைக்கோஜன் சிதைவு தசைச் சுருக்கம்
+fast fibres துரித இழைகள்
+Slow fibres மெதுவான இழைகள்
+Skeletal system எலும்பு மண்டலம்
+Hydrostatic skeleton நீர்ம நிலைச் சட்டகம்
+
+Exoskeleton புறச் சட்டகம்
+Endoskeleton அகச்சட்டகம்
+Axial skeleton அச்சுக் சட்டகம்
+Appendicular skeleton இணையுறுப்புச் சட்டகம்
+External auditory meatus வெளிச் செவித்துளை
+Ear ossicles செவிச்சிற்றெலும்புகள்
+Foramen magnum மண்டையோட்டுப் பெருந்துளை
+Neural canal நரபுக் கால்வாய்
+True ribs உண்மை விலா எலும்புகள்
+False ribs போலி விலா எலும்புகள்
+Floating ribs மிதக்கும் விலா எலும்புகள்
+Girdle வளையம்
+Collar bone காரை எலும்பு
+Acromion ஏகுரோமியன்
+Olecranon process ஓலிகிரானன் நீட்சி
+accetalrlum எலும்புக்குழி
+Pubic symphysis பூப்பெலும்பு இணைவு
+Miscle fatigue தசைக் சோர்வு
+Muscle pull தசைப் பிடிப்பு
+Muscular dystrophy தசைச்சிதைவு நோய்
+Rigor mortis மரண விறைப்பு
+Arthritis மூட்டு வலி
+Osteoarthritis ஆஸ்டியோ மூட்டு வலி
+Rheumatiod arthritis ருமாடிக் மூட்டுவலி
+Gout கௌட்
+Osteoporosis எலும்புப்புரை
+Parietal bone சுவரெலும்பு
+Temporal bone பொட்டெலும்பு
+Frontal bone நெற்றி எலும்பு
+Sphenoid ஆப்புருவ எலும்பு/ஸ்பீனாய்டு
+Occipital பிடரிஎலும்பு
+Ethmoid எத்மாய்டு
+Maxilla மேல்தாடை எலும்பு
+Zygomatic கன்னத்தின் வளையயெலும்பு
+Palatine அண்ணவெலும்பு
+Lacrymal கண்ணீர்ச் சுரப்பியன்மை எலும்பு
+Nasal மூக்கினிடைத்தட்டெலும்பு
+Inferior nasal koncha மூக்கினிடைக்கீழ் காஞ்சா
+Mandible கீழ்த்தாடை எலும்பு
+Vomer இடைராசி எலும்பு
+Malleus சுத்தி எலும்பு
+Incus பட்டடை எலும்பு
+Stapes அங்கவடி எலும்பு
+பாடம் -10 : Neural control and Co- ordination - நரம்பு கட்டுப்பாடு மற்றும்
+ஒருங்கிணைப்பு
+Neuron நியூரான் (நரம்பு செல்)
+Sensory neuron உணர்வு நியூரான்
+Motor neuron இயக்கு நியூரான்
+Automatic functions தானியங்கு வேலைகள்
+Afferent neurons உட்செல் நியூரான்கள்
+Efferent neurons வெளிச் செல் நியூரான்கள்
+Inter neurons இடை நியூரான்கள்
+Nissles granules நிஸ்சல் துகள்கள்
+Node of Ranvier ரான்வியர் முடிச்சு / கணு
+Myelin sheath மயலின் உறை
+Nerve impulse நரம்புத் தூண்டல்
+Axon hillock ஆக்ஸான் மேடு
+Synapsis நரம்பு செல் சந்திப்பு
+
+
+Synaptic knob நரம்பு செல் சந்திப்பு முடிச்சு
+Synaptic vesicles நரம்பு செல் சந்திப்பு பகுதி நுண்பைகள்
+Neurotransmitters நரம்புணர்வு கடத்திகள்
+Extra cellular fluid செல்வெளித் திரவம்
+Intra cellular fluid செல்உள் திரவம்
+Resting membrane potential ஓய்வுநிலை சவ்வின் மின் அழுத்த அளவு
+Action potential செயல்நிலை மின் அழுத்தம்
+Polarization முனைப்பியக்கம்
+Sodium-potassium pump சோடியம்-பொட்டாசியம் உந்திக் கடத்தல்
+Depolarization முனைப்பியக்க நீக்கம்
+Threshold stimulus அவசியமான குறைந்தபட்ச தூண்டல்
+Repolarization முனைப்பியக்க மீட்சி
+Spike potential கூர்முனை மின் அழுத்த அளவு
+Hyper polarization மிகை முனைப்பியக்கம்
+Synaptic cleft நரம்பு செல் சந்திப்பு இடைவெளி
+Exocytosis செல்வெடித்தல்
+All or none principle உண்டு – இல்லை கோட்பாடு
+Cranial nerves மூளை நரம்புகள்
+Olfactory nerve நுகர்ச்சி நரம்பு
+Optic nerve பார்வை நரம்பு
+Trigeminal nerve முக்கிளை நரம்பு
+Facial nerve முக நரம்பு
+Hypoglossal nerve நாவடி நரம்பு
+Sympathetic nervous system பரிவு நரம்பு மண்டலம்
+Para sympathetic nervous system இணைப் பரிவு நரம்பு மண்டலம்
+Mechanoreceptors தொடு உணர்விகள்
+Myopia கிட்டப் பார்வை
+Hyper metropia தூரப் பார்வை
+Cataract கண்புரை
+Proprioception அசைவுகளை உணரும் உணர்வு
+பாடம் 11: Chemical co- ordination and integration - வேதி ஒருங்கிணைப்பு
+Goose bumps ரோமங்கள்சிலிர்த்த நிலை
+Hormones ஹார்மோன்கள்
+Homeostasis உடல்சமநிலைப் பேணுதல்
+Exclusive endocrinme glands முழுமையான நாளமில்லாச் சுரப்பிகள்
+Neuroendocrine glands நரம்புசார் நாளமில்லாச் சுரப்பிகள்
+Partial endocrine glands பகுதி நாளமில்லாச் சுரப்பிகள்
+Neuro secretory cells நரம்பு சுரப்பு செல்கள்
+Releasing hormone விடுவிக்கும்ஹார்மோன்
+Inhibiitory homone மட்டுப்படுத்தும் ஹார்மோன்
+Hypothalamic hypophyseal
+portal blood vessel
+
+ஹைபோதலாமிக் ஹைபோஃபைசியல்
+போர்ட்டல் இரத்தக் குழல்
+
+Hypothalamic hypophyseal axis ஹைபோதலாமிக் ஹைபோஃபைசியஸ்அச்சு
+Limbic system உணர்வுச் செயலித் தொகுப்பு
+Sella turlica செல்ல டர்சிகா
+Infundibulam இன்ஃபன்டிபுலம்
+Anterior lobe முன் கதுப்பு
+Tropic hormone தூண்டும் ஹார்மோன்
+Feed back பின்னூட்டம்
+பாடம் 12 : Basic medical instrument ad techniques - அடிப்படை மருத்துவக்
+கருவிகள் மற்றும் தொழில்
+நுட்பங்கள்
+
+Diagnostic and monitoring
+Instruments
+
+பரிசோதனை மற்றும் கண்காணிப்புக்
+கருவிகள்
+Imaging Instruments நிழலுரு கருவிகள்
+Therapeutic Instruments சிகிச்சை கருவிகள்
+Biomedical Techniques உயிரி – மருத்துவ தொழில் நுட்பம்
+Stethoscope ஸ்டெத்தஸ்போப்
+Sphygmomanometer ஸ்பிக்மோமானோமீட்டர் (இரத்த
+
+அழுத்தமானி)
+
+Autoanalyser ஆட்டோ அனலைசர் (தானியங்கி பகுப்பய்வி)
+ECG எலக்ட்ரோகார்டியோகிராம் (இதய துடிப்புமின்
+
+வரைவி)
+
+EEG எலக்ட்ரோ என்செஃபாலோகிராம்
+Ultra ound scanner
+
+
+
+Carman,R.H, 2008. Handbook of Medical
+Laboratory Technology. Second Edition. Christian
+Medical Association of India, New Delhi1.
+Guyton and Hall. J. E, (2006) Textbook of Medical
+Physiology- Eleventh Edition Elsevier saunders.
+International Edition.
+3. Chatterjee C.C., Human Physiology (Vol. I & Vol.
+II), Medical Allied Agency, Calcutta, 11th edition,
+1985.
+4. Christopher D. Moyes and Patricia M. Schulte,
+Principles of animal physiology 2nd edition (2016)
+Pearson publications.
+5. Darrell S. V and R Moore (2004) Biology:
+Laboratory Manual 7th Edition. McGraw-Hill
+College.
+6. Dee Unglaub Silverthron, [2016] Human
+physiology –an integrated approach - 7th Edition
+- Pearson Global edition.
+7. Dee Unglaub Silverthron, Human physiology –an
+integrated approach – 7th Edition – Pearson Global
+edition.
+8. Elaine N. Marieb and Katja Hoehn (2010). Human
+Anatomy and Physiology Eighth Edition, Benjamin
+Cummings, Pearson. New York.
+9. Guyton A.C. and Hall. J. E, (2006) Textbook of
+Medical Physiology– Eleventh Edition Elsevier
+Saunders, International Edition ISBN 0–8089–
+2317–X.
+10. Janet L. Hopson and John Postlethwait (2006)
+Modern Biology Published by Holt Rinehart &
+Winston Harcourt Education Company.
+11. John H. Postlethwait and Janet L. Hopson ; Holt,
+Rinehart and Winston, Modern Biology; A
+Harcourt Education Company, Orlando. Austin.
+NewYork. San Diego. Toronto. London.
+12. Jordan E. L, Verman P. S, Revised Edition- (2009);
+Invertebrate Zoology, S. Chand & Company Ltd.,
+13. Kenneth R.R.Miller and Joseph Levine1998.
+Biology –fourth edition. Prentice – hall .inc, New
+Jersy 07458.
+
+14. Kotpal R. L. (2014) Modern text book of zoology
+: Invertebrates : animal diversity- I. 11th Edition.
+Meerut : Rastogi Publications.
+15. Lauralee Sherwood and Robert kell.(2007). Human
+physiology from cells to systems. First Canadian
+Edition Nelson Education Ltd, Toronto, Ontario
+16. Mackean D.G. and Hayward D (2014). AS and
+A level biology book, Cambridge International,
+3rd edition, Hodder Education, An Hachette UK
+company, London NWI 3BH.
+17. Marieb. E.K., and Hoehn . K., 2010. In. Human
+Anatomy and physiology. Eighth Edition. Pearson
+education, Inc.1114 pp.
+18. Mary Jones, Richard Fosbery, Jennifer Gregory and
+Dennis Taylor, Cambridge International AS and A
+level Biology Course book 4th edition, Cambridge
+University Press.
+19. Moyes and Schulte, 2016 Principles of Animal
+Physiology– 2 nd edition, Pearson
+20. Muthayya N.M., 2010 Human physiology– 4th
+edition, Jaypee brother medical publishers.
+21. Peter H. Raven, George B. Johnson, Kenneth A.
+Mason, Jonathan B. Losos, Susan R. Singer (2013)
+Biology 9th Edition. Published by McGraw-Hill
+Science.
+22. Shailendra Singh, (2008) Economic Zoology, 1 st
+Edition, Campus books internationals, New Delhi.
+23. Sherwood. L, and Kell. R., 2010. Human Physiology,
+Nelson Education Ltd., Thomson Brooks/Cole.,
+24. Shukla, G.S. and Upadhyay V.B (1997) Economics
+Zoology, Rastogi Publication, Meerut.
+25. Silverthorn D-U 2016, Human Physiology,
+Seventh Edition, Pearson Benjamin Cummings
+Publishing Ltd.,
+26. Sultan Ismail, S A 1992, The Earthworm Book
+Other India Press India.
+27. Ekambaranatha Ayyar, Anantha Krishnan,
+5th Edition- (1987); Manual of Zoology, Vol I
+Invertebrata - S.Viswanathan Publishers and
+Printers Pvt. Ltd.
+
+a. Thermoreceptor
+b. Pheretima
+c. Chemoreceptor
+d. Tangoreceptor
+9. The endocrine gland of insects, wich secretes
+they juvenile hormone, is (UP-CPMT 1995)
+a. corpora allata
+b. corpora albicans
+c. corpora myecaena
+d. all of these
+10. Wuchereria is found in (UP-CPMT 2007)
+a. lymph nodes b. lungs
+c. eye d. gonds
+“Turbellarians” are free living
+(UP-CPMT 2008)
+a. flatworms b. trematodes
+c. nematodes d. cesrtodes
+11. Mouth parts of housefly are
+a. Piercing and sucking type
+b. Biting and sucking type
+c. Sponging and sucking type
+d. biting and chewing type
+12. Fasciola hepatica is (AFMC 2007)
+a. hermaphrodite. Self fertilizing
+b. hermaphrodite, cross fertilizing
+c. unisexual
+d. both (a) and (b)
+13.Match the excretory organs listed under
+column I with the animals given under
+column II. Choose the answer which gives
+the correct combination of alphabets of the
+column.
+Column I Column II
+A Nephridia p Hydra
+B Malpighian tubules q Leech
+C protonephridia r Shark
+D kidneys s Round worms
+t Cockroack
+a. A = q; B = t; C= s; D = r
+b. A =s ; B= q; C= p; D= t
+c. A = t; B = q; C = s; D = r
+d. A = q; B = s ; C =t ; D= p
+14.Which of the following cell type is capable of
+giving rise to other cell types in sponges?
+a. Pinacocytes
+
+1. Taxonomically a species is ..........(PMT-94)
+a. A group of evolutionary related population
+b. A fundamental unit in the phylogeny of
+organisms
+c. Classical evolutionary taxonomy
+d. A community taken into considerationa.
+an evolutionary base
+2. A community includes .......... (CET-98)
+a. a group of same genera
+b. a group of same population
+c. a group of individuals from same species
+d. different populations interacting with
+each other
+3. Carl Linnaeus is famous for .... (GGSPU-2002)
+a. coining the term ‘systematics’
+b. introducing binomial nomenclature
+c. giving all natural system of classification
+d. all of these
+4. Which form of reproduction is correctly
+matched? (AIIMS 2007)
+a. Euglena - transvers binary fission
+b. Paramecium - longitudinal binary fission
+c. Amoeba - multiple fission
+d. Plasmodium - binary fission
+5. The primitive prokaryotes responsible for
+the production of biogas from the ruminant
+animals (2016)
+a. Thermoacidophiles
+b. methanogens
+c. Eubacteria
+d. Halophiles
+6. Salient features of Arthropoda is (RPMT-2003)
+a. Aquatic and free living
+b. Chitinous exoskeleton and jointed
+appendages
+c. Radulla
+d. None of those
+7. Mollusca is (JCECE-2006)
+a. Triploblastic, acoelomate
+b. Triploblastic, coelomate
+c. Diploblastic, acoelomate
+d. Diploblastic, coelomate
+8. Osphradium of Pila globosa
+b. Archaeocytes
+c. Thesocytes
+d. Collenocytes
+15. Sea cucumbers belong to class
+a. Echinoidea
+b. Holothuroidea
+c. Ophiuroidea
+d. Asteroidea
+16.Camouflage of chameleon is associated with
+(AIIMS1995)
+a. Chromoplast
+b. Chromosome
+c. Chromatophore
+d. Chromomere
+17.Which of the following are uricotelic animals?
+(AIIMS2002)
+a. rohu and frog
+b. camela and frog
+c. lizard and crow
+d. earthworm and eagle
+18.Which of the following does not come under
+the class mammals?(AIIMS2007)
+a. flying fox
+b. hedgehog
+c. manatee
+d. lamprey
+19.Excretory organ in Balanoglossus are (DPMT
+1991,2008)
+a. nephridia
+b. antennary gland
+c. collar cord
+d. proboscis gland
+20.Reptiles share which of the following
+character with birds and mammals?(DPMT
+1994)
+a. Amnion
+b. Homeothermy
+c. Diaphragm
+d. nipple
+21.Match the names of branches of science listed
+under column- I with the field study given
+under column-II choose the choice which
+gives the correct combination of the alphabets.
+(AMU2000)
+Colum – I (Branch of
+Science) Colum –II (Field of study)
+A Mycology p Study of birds
+
+B Ornithology q Study of worms
+C Herpetology R Study of fishes
+D lethylogy S Study of fungi
+t Study of reptiles
+
+a. A=s, B=p, C=t, D=r
+b. A=q, B=s C=r, D=t
+c. A=s, B=t, C=p, D=r
+d. A=p, B=s, C=r, D=t
+22. Which of the following statements is
+true?(AMU 2003)
+a. All chordates are vertebrates
+b. All vertebrates are chordates
+c. Invertebrates possess a tubular nerve cord
+d. Nonchordates a have a vertebral column
+23.An important characteristic that
+Hemichordates share with chordates is
+(NEET 2017)
+a. Ventral tubular nerve cord
+b. Pharynx with gill slits
+c. Pharynx without gill slits
+d. Absence of notochord
+24.Match the animals listed in column-I to
+blood listed in column-II. (KCET 2010)
+Column-I Column-II
+(P) Man (i) Plasma and cells are
+
+colourless
+
+(Q) Earth worm (ii) Plasma colourless
+and nucleated RBC
+(R) Cockroach (iii) Plasma colourless
+and enucleated RBC
+(S) Frog (iv) Plasma red and
+nucleated colourless RBC
+(v) Plasma and RBS have
+
+haemoglobin
+a. (P-iii), (Q-iv), (R-i), (S-ii)
+b. (P-iv), (Q-v), (R-iii), (S-ii)
+c. (P-i), (Q-iv), (R-ii), (S-iii)
+d. (P-v), (Q-iii), (R-i), (S-iv)
+25. The body cells in cockroach discharge their
+nitrogenous waste in the haemolymph
+mainly in the form of (NEET 2015)
+a. Calcium carbonate
+b. Ammonia
+c. Potassium urate
+d. Urea
+
+26.Frog's heart when taken out of the body
+continues to beat for sometime. Select the
+best option from the following statements.
+(NEET 2017)
+(i) Frog is a poikilotherm.
+(ii) Frog does not have any coronary
+circulation.
+(iii) Heart is "myogenic" in nature.
+(iv) Heart is autoexcitable Options:
+(a) Only(iv) (b) (i) and (ii)
+(c) (iii)and(iv) (d) Only(iii)
+27.How pepsin is differing from trypsin?
+(DPMT – 1993)
+a. It digests protein in acidic medium
+b. It digests protein in alkaline medium
+c. It digests carbohydrate in acidic medium
+d. It digests carbohydrate in alkaline medium
+28. In human being cellulose is digested by
+a. Enzyme
+b. Symbiotic bacteria
+c. Symbiotic protozoans
+d. None of the above
+29.Dental formula shows (M.P.P.M.T. -2000)
+a. Structure of teeth
+b. Monophyodont or diphyodont condition
+c. Number and type of teeth in both jaws
+d. Number and type of teeth in one half of
+both jaws
+30.Which of the following statement is not
+correct ?( NEET 2015)
+a. Bruner’s glands are present in the
+submucosa of stomach and secrete
+pepsinogen
+b. Goblet cells are present in the mucosa of
+intestine and secrete mucus.
+c. Oxyntic cells are present in the mucosa of
+stomach and secrete Hcl.
+d. Acini are present in the pancreas and
+secrete carboxypeptidse
+31.Which hormones stimulate the production of
+pancreatic juice and bicarbonates ? (NEET
+2016)
+a. Cholycystokinin and secretin
+b. Insulin and glucogon
+c. Angiotensin and epinephrine
+d. Gastrin and Insuline
+
+32.A baby aged two years is admitted to play
+
+school and passes through a dental check-
+up . The dentist observed that the boy had
+
+twenty teeth . Which teeth were absent.
+(NEET 2017)
+a. Canines
+b. Pre- Molars
+c. Molars
+d. Incisors
+33.Which cells of Crypts of Lieberkuhn’ secrete
+antibacterial lysozyme ? (NEET 2017)
+a. paneth cells
+b. Zymase cells
+c. Kupffer cells.
+d. Argentaffin cells
+34.Volume of air remaining in lungs
+after maximum respiratory effort is
+(J.K.C.M.E.E.1992,Har.PMT.2003)
+a. Vital capacity
+b. Residual volume
+c. Total lung capacity
+d. Tidal volume
+35.Presence of large number of alveoli around
+alveolar ducts opening into bronchioles in
+mammalian lungs is
+a. Inefficient system of ventilation with little
+of residual air
+b. Inefficient system of ventilation with high
+percentage of residual air
+c. An efficient system of ventilation with no
+residual air
+d. An efficient system of ventilation with
+little residual air
+36.CO2
+is transported
+a. dissolved in blood plasma
+b. As carbonic acid
+c. In carbaminohaemoglobin
+d. As carbaminolaemoglobin and carbonic
+acid
+37.Bicarbonate formed inside erythrocytes moves
+out to plasma while chloride of plasma pass
+into erythrocytes. The phenomenon is called
+a. Bicarbonate shift
+b. Carbonation
+c. Hamburger phenomenon
+d. None of the above
+38.Vital capacity of lung is equal to
+a. IRV+ERV+TV
+
+
+b. IRV+ERV+TV-RV
+c.IRV+ERV+TV+RV
+d.IRV+ERV
+39. Asthma may be attributed to (AIPMT/NEET
+2016)
+a. bacterial infection of the lungs
+b. allergic reaction of the mast cells in the
+lungs
+c. inflammation of the trachea
+d. accumulation of fluid in the lungs
+40.Name the chronic respiratory disorder
+
+caused mainly by cigarette smoking: (RE-
+NEET 2016)
+
+a. Emphysema
+b. Asthma
+c. Respiratory acidosis
+d. Respiratory alkalosis
+41.Lungs are made up of air-filled sacs, the
+alveoli. They do not collapse even after
+forceful expiration. (NEET 2017)
+a. Inspiratory Reserve Volume
+b. Tidal Volume
+c. Expriatory Reserve Volume
+d. Residual Volume
+42.Regulation and initiation of heartbeat is
+indicated by (CBSE - 95)
+a. AV Node – bundle of His muscule – SA
+node – purkinje fiber
+b. SA Node – purkinje fiber – AV Node –
+Bundle of His muscle
+c. Purkinje fiber – AV Node – SA node –
+Bundle of His muscle
+d. SA Node – AV Node – Bundle of His
+muscle – Purkinje fiber
+43.Which is the correct statement for blood ?
+(APMEE – 96)
+a. WBC is more than RBC
+b. RBC is more than WBC
+c. RBC is less than platelets
+d. Platelets is less than RBC
+44.There is no DNA in
+a. Mature RBCs
+b. Mature spermatozoa
+c. Hair root
+d. Ovum
+45.What P indicates in ECG ?
+a. End of atrium systole
+
+b. Starting of atrium systole
+c. End of ventricle systole
+d. Starting of ventricle systole
+46.The mechanism of urine formation in
+nephrone involves (CPMT 1992)
+a. Utrafiltration b. Secretion
+c. Reabsorption
+d. All of the above
+47.Part not belonging to uriniferous
+tubule is
+a. Glomerules
+b. Henle’s loop
+c. Distal convoluted tubule
+d. Connecting tubule
+48.Angiotensinogen is a protein produced and
+secreted by. (AIPMT 2006)
+a. Juxtaglomerular (JG) cells
+b. Macula densa cells
+c. Endothelial cells of blood vessels
+d. Liver cells
+49.Grafted kidney may be rejected in a patient
+due to (RE-AIPMT 2015)
+a. Innate immune response
+b. Humoral immune response
+c. Cell-mediated immune response
+d. Passive immune response
+50. Which of the following statement is correct?
+(NEET 2017)
+a. The descending limb of loop of Henle is
+impermeable to water.
+b. The ascending limb of loop of Henle is
+permeable to water
+c. The descending limb of loop of Henle is
+permeable to electrolytes.
+d. The ascending limb of loop of Henle is
+impermeable to water
+51.Ratio of which is more in red muscle?
+
+a. Myoglobin b. Actin
+c. Myosin d. Albumin
+52.Given below is a table comparing the
+effects of sympathetic and parasympathetic
+nervous system for four features (1-4)
+which one feature is correctly described
+
+
+General Instruction
+
+In order to get maximum benefit and good training it is necessary for the
+students to follow the following instructions.
+1. The students must attend all practical classes. Each experiment in
+practicals has got important relevance to theory subjects.
+2. Bring this practical manual to your practicals class.
+3. Bring the following objects to the practicals class – Pencils (HB), Pen,
+Eraser, a scale and a small hand towel.
+4. Record the title, date and findings of the experiment in the observation
+note book.
+5. Carefully listen to the instructions given by your Teacher.
+6. While observation slides or models draw the structure of the specimen
+as you see it neatly in your observation note book. Use pencil for
+drawing.
+7. While doing experiments neither consult your neighbours nor look
+into their readings or observations.
+8. If the object under the microscope remains without proper focusing
+immediately bring it to the notice of the Teacher.
+9. Do not touch or lift the models or equipments kept for your
+identification.
+10.No need to draw diagrams from part III to VII in the record note.
+Relevant photograph can be collected, pasted and notes to be
+
+
+I. Identify the given animal ‘A’ (picture/specimen) draw and
+write any 2 diagnostic features. (1)
+II. Identify the given animal tissue ‘B’ (slide/photograph /picture)
+and write any 2 comments with diagram (1)
+III. Identify and comment on the given bone/joint ‘C’. (1)
+IV. Identify the deficiency disease / disorder in the given
+picture/photograph “D”. Write any three symptoms. (1)
+V. 1. Identify the given sample solution ‘E’ for the
+presence/activity of Ammonia/Urea/Salivary amylase (Any one). (11⁄2)
+2. Observe and write about the given
+experiment ‘F’ - Determine Your Blind Spot / Identify the sex
+of cockroach (Any one) (1)
+VI. Identify the photograph / picture and
+write its economic importance ‘G’ (1)
+Total (71⁄2)
+
+
+I. Identification and Diagram - 1⁄2 ; (1)
+Diagnostic features (any 2 points) -1⁄2
+II. Identification and Diagram - 1⁄2; 
+S.No List of Experiments
+1 Test for Ammonia
+2 Test for Urea
+3 Test for Salivary Amylase
+4 Determine Your Blind Spot
+5 Identify the sex of cockroach (using hand lens)
+
+S.No List of Photographs/pictures
+1 Kangayam bull
+2 Aquaponics
+3 Honey bee
+4 Bombyx mori
+
+S.No List of Experiments
+1 Test for Ammonia
+2 Test for Urea
+3 Test for Salivary Amylase
+4 Determine Your Blind Spot
+5 Identify the sex of cockroach (using hand
+
+S.No List of Photographs/pictures
+1 Kangayam bull
+2 Aquaponics
+3 Honey bee
+4 Bombyx more
+
+![](/books/biology/unit-12/trends-in-economic-zoology/12.19.png)
+
+![](/books/biology/unit-12/trends-in-economic-zoology/12.19.png)
+
+
+![](/books/biology/unit-12/trends-in-economic-zoology/12.20.png)
+
+[](/books/biology/unit-12/trends-in-economic-zoology/12.22.png)
+
+
+![](/books/biology/unit-12/trends-in-economic-zoology/12.21.png)
