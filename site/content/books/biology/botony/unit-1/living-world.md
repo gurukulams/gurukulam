@@ -3,8 +3,9 @@ title: 'Living World'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 1
+markup: mmark
 extensions:
-    - katex
+  - katex
 ---
 
 
@@ -172,15 +173,18 @@ metabolism. It is broadly divided into
 anabolism and catabolism. The difference
 between anabolism and catabolism is given
 in Table 1.1.
-**Table 1.1: Difference between
-anabolism and catabolism**
 
-| Anabolism |  Catabolism |   |   |   |
-|---|---|---|---|---|
-|Building up process  | Breaking down process |   |   |   |
-| Smaller molecules
-combine together
-to form larger molecule | Larger molecule break into smaller units |   |   |   |
+
+
+{.table}
+|     Table 1.1: Difference between anabolism and catabolism    |                                                       |
+|:-------------------------------------------------------------:|-------------------------------------------------------|
+|                         **Anabolism**                         |                     **Catabolism**                    |
+| Building up process                                           | Breaking down process                                 |
+| Smaller molecules combine together to form larger<br>molecule | Larger molecule break into smaller<br>units           |
+| Chemical energy is formed and stored                          | The stored chemical energy is released<br>and used    |
+| Example: Synthesis of proteins from amino acids               | Example: Breaking down of glucose to<br>CO2 and water |
+
 
 Movement, Nutrition, Respiration and
 Excretion are also considered as the property
@@ -340,10 +344,15 @@ They are Viruses with ssDNA (Parvo viruses),
 dsDNA (Bacteriophages), ssRNA (TMV)and
 dsRNA(Wound Tumour Virus).
 
+## Different Classes of viruses          
+{.table}
+| Class                                                                                                                                                                                                                                                                                                                                                            	| Example                                                                                           	|
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------------	|
+| Class 1 – Viruses with dsDNA
+ Class 2 –Viruses with (+) sense ssDNA
+  Class 3 – Viruses with dsRNA Class 4 – Viruses with (+)sense ssRNA Class 5 – Viruses with (–)sense ssRNA Class 6 – Viruses with (+) sense ssRNA –RT: that replicate with DNA intermediate in life cycle Class 7 – Viruses with ds DNA –RT: that replicate with RNA intermediate in life cycle 	| Adeno viruses Parvo viruses Reo viruses Toga viruses Rhabdo viruses Retro viruses Hepadna viruses 	|
 
 
-
-![Living World](/books/biology/unit-1/the-living-world/7.7.eng.png ) 
 
 
  
@@ -537,7 +546,12 @@ and Entomopox viruses
 were employed as potential insecticides
 {{< /box >}}
 
-![Living World](/books/biology/unit-1/the-living-world/Tab1.3.eng.png )
+| Table 1.3: Viral diseases 	|  	|  	|
+|---	|---	|---	|
+| **Plant diseases** 	| **Animal diseases** 	| **Human diseases** 	|
+| 1.Tobacco mosaic<br>2. Cauliflower mosaic<br>3. Sugarcane mosaic<br>4. Potato leaf roll<br>5. Bunchy top of banana<br>6. Leaf curl of papaya<br>7. Vein clearing of Lady’s finger<br>8. Rice Tungro disease<br>9. Cucumber mosaic<br>10. Tomato mosaic disease 	| 1. Foot and mouth disease of<br>cattle<br>2. Rabies of dog<br>3. Encephalomyelitis of horse 	| 1. Common cold<br>2. Hepatitis B<br>3. Cancer<br>4. SARS(Severe Acute<br>Respiratory Syndrome)<br>5. AIDS(Acquired Immuno<br>Deficiency Syndrome)<br>6. Rabies<br>7. Mumps<br>8. Polio<br>9. Chikungunya<br>10. Small Pox<br>11. Chicken pox<br>12. Measles 	|
+
+
 
 ## 1.3 Classification of Living World
 
@@ -607,9 +621,23 @@ year 1969. The Kingdoms include Monera,Protista, Fungi, Plantae and Animalia.(Fi
 
 ![Living World](/books/biology/unit-1/the-living-world/Tab1.4.eng.png )
 
-![Living World](/books/biology/unit-1/the-living-world/Tab1.5.eng.png )
 
 The criteria adopted for the classification include cell structure, thallus organization, mode of nutrition, reproduction and phylogenetic relationship. A comparative account of the salient features of each Kingdom is given in Table 1.5.
+
+
+
+| Table 1.5: Comparison of Five Kingdoms 	|  	|  	|  	|  	|  	|
+|---	|---	|---	|---	|---	|---	|
+|                            **Kingdom** 	|  	|  	|  	|  	|  	|
+| **Criteria** 	| **Monera** 	| **Protista** 	| **Fungi** 	| **Plantae** 	| **Animalia** 	|
+| **Cell type** 	| Prokaryotic 	| Eukaryotic 	| Eukaryotic 	| Eukaryotic 	| Eukaryotic 	|
+| **Level of organization** 	| Mostly Unicellular,<br>rarely multicellur 	| Unicellular 	| Multicellular<br>and unicellular 	| Tissue/organ 	| Tissue/organ/organ<br>system 	|
+| **Cell wall** 	| Present<br>(made up of<br>Peptidoglycan and<br>Mucopeptides) 	| Present in some<br>(made up of<br>cellulose), absent in<br>others 	| Present (made up of<br>chitin or cellulose) 	| Present (made up of<br>cellulose) 	| absent 	|
+| **Nutrition** 	| Autotrophic<br>(Phototrophic,<br>Chemoautotrophic)<br>Heterotrophic<br>(parasitic and<br>saprophytic) 	| AutotrophicPhotosynthetic.<br>Heterotrophic 	| Heterotrophicparasitic or<br>Saprophytic 	| Autotrophic<br>(Photosynthetic) 	| Heterotrophic<br>(Holozoic) 	|
+| **Motility** 	| Motile or<br>non-motile 	| Motile or<br>non-motile 	| Non-motile 	| Mostly Non-motile 	| Mostly motile 	|
+| **Organisms** 	| Archaebacteria,<br>Eubacteria,<br>Cyanobacteria,<br>Actinomycetes and<br>Mycoplasma 	| Chrysophytes,<br>Dinoflagellates,<br>Euglenoids, Slime<br>molds, Amoeba,<br>Plasmodium,<br>Trypanosoma,<br>Paramecium 	| Yeast, Mushrooms<br>and Molds 	| Algae, Bryophytes,<br>Pteridophytes,<br>Gymnosperms and<br>Angiosperms 	| Sponges,<br>Invertebrates and<br>Vertebrates 	|
+
+
 
 ![Living World](/books/biology/unit-1/the-living-world/Fig1.7.eng.png )
 
@@ -873,7 +901,24 @@ bacteria is given in Table 1.6.
 
 ![Living World](/books/biology/unit-1/the-living-world/Fig1.10.eng.png )
 
-![Living World](/books/biology/unit-1/the-living-world/Tab1.6.eng.png )
+
+
+| Table 1.6: Difference <br>between <br>Gram Positive and <br>Gram Negative Bacteria 	|  	|  	|  	|
+|---	|---	|---	|---	|
+| **S. No** 	| **Characteristics** 	| **Gram positive Bacteria** 	| **Gram negative Bacteria** 	|
+| 1 	| Cell wall 	| Thick layered with<br>(0.015 µm-0.02µm) 	| Thin layered with<br>(0.0075µm–0.012µm) 	|
+| 2 	| Rigidity of cell wall 	| Rigid due to presence<br>of Peptidoglycans 	| Elastic due to presence of lipoproteinpolysaccharide mixture 	|
+| 3 	| Chemical composition 	| Peptidoglycans-80%<br>Polysaccharide-20%<br>Teichoic acid present 	| Peptidoglycans-3 to 12% rest is<br>polysaccharides and lipoproteins.<br>Teichoic acid absent 	|
+| 4 	| Outer membrane 	| Absent 	| Present 	|
+| 5 	| Periplasmic space 	| Absent 	| Present 	|
+| 6 	| Susceptibility to penicillin 	| Highly susceptible 	| Low susceptible 	|
+| 7 	| Nutritional requirements 	| Relatively complex 	| Relatively simple 	|
+| 8 	| Flagella 	| Contain 2 basal body rings 	| Contain 4 basal body rings 	|
+| 9 	| Lipid and lipoproteins 	| Low 	| High 	|
+| 10 	| Lipopolysaccharides 	| Absent 	| present 	|
+
+
+
 
 {{< box title="What are Magnetosomes ?" type="objective" >}} 
 Intracellular chains of 40-50 magnetite
@@ -1090,6 +1135,72 @@ called specialized or restricted transduction.
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
+
+
+Bacteria are known to cause disease in plants, animals and Human beings. The List is given in
+Table 1.8, 1.9, 1.10 and Figure 1.15.
+
+
+| Table 1.8: Plant <br>diseases <br>caused by Bacteria 	|  	|  	|  	|
+|:---:	|---	|---	|---	|
+| **S.No.** 	| **Name of the host** 	| **Name of the disease** 	| **Name of the pathogen** 	|
+| 1 	| Rice 	| Bacterial blight 	| *Xanthomonas oryzae* 	|
+| 2 	| Apple 	| Fire blight 	| *Erwinia amylovora* 	|
+| 3 	| Carrot 	| Soft rot 	| *Erwinia caratovora* 	|
+| 4 	| Citrus 	| Citrus canker 	| *Xanthomonas citri* 	|
+| 5 	| Cotton 	| Angular leaf spot 	| *Xanthomonas malvacearum* 	|
+| 6 	| Potato 	| Ring rot 	| *Clavibacter michiganensis subsp*.<br>*sepedonicus* 	|
+| 7 	| Potato 	| Scab 	| *Streptomyces scabies* 	|
+
+
+
+
+
+
+
+
+
+| Table 1.9: Animal diseases<br> caused by BactTable<br>  	|  	|  	|  	|
+|:---:	|---	|---	|---	|
+| **S.No.** 	| **Name of the Animal** 	| **Name of the disease** 	| **Name of the pathogen** 	|
+| 1 	| Sheep 	| Anthrax 	| *Bacillus anthracis* 	|
+| 2 	| Cattle 	| Brucellosis 	| *Brucella abortus* 	|
+| 3 	| Cattle 	| Bovine tuberculosis 	| *Mycobacterium bovis* 	|
+| 4 	| Cattle 	| Black leg 	| *Clostridium chauvoei* 	|
+
+
+
+
+
+
+
+
+| Table 1.10: Human diseases<br> caused by <br>Bacteria 	|  	|  	|
+|:---:	|---	|---	|
+| **S.No.** 	| **Name of the disease** 	| **Name of the pathogen** 	|
+| 1 	| Cholera 	| *Vibrio cholerae* 	|
+| 2 	| Typhoid 	| *Salmonella typhi* 	|
+| 3 	| Tuberculosis 	| *Mycobacterium tuberculosis* 	|
+| 4 	| Leprosy 	| *Mycobacterium leprae* 	|
+| 5 	| Pneumonia 	| *Diplococcus pneumoniae* 	|
+| 6 	| Plague 	| *Yersinia pestis* 	|
+| 7 	| Diphtheria 	| Corynebacterium diptheriae* 	|
+| 8 	| Tetanus 	| *Clostridium tetani* 	|
+| 9 	| Food<br>poisoning 	| *Clostridium botulinum* 	|
+| 10 	| Syphilis 	| *Treponema pallidum* 	|
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![Living World](/books/biology/unit-1/the-living-world/Fig1.15.eng.png )
 
@@ -1750,10 +1861,21 @@ in 1942-1943.
 {{< /box >}}
 
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Table 1.11: Diseases caused by fungi 	|  	|
+|:---:	|---	|
+| **Name of the disease** 	| **Causal organism** 	|
+| **Plant diseases** 	|  	|
+| Blast of Paddy 	| *Magnaporthe grisea* 	|
+| Red rot of sugarcane 	| *Colletotrichum falcatum* 	|
+| Anthracnose of Beans 	| *Colletotrichum lindemuthianum* 	|
+| White rust of crucifers 	| *Albugo candida* 	|
+| Peach leaf curl 	| *Taphrina deformans* 	|
+| Rust of wheat 	| *Puccinia graminis tritici* 	|
+| **Human diseases** 	|  	|
+| Athlete’s foot 	| *Epidermophyton floccosum* 	|
+| Candidiasis 	| *Candida albicans* 	|
+| Aspergillosis 	| *Coccidioides immitis* 	|
+| Aspergillosis 	| *Aspergillus fumigatus* 	|
 
 
 ##### Activity 1.5
@@ -1808,6 +1930,16 @@ Isidia. Phycobionts reproduce by akinetes,
 hormogonia, aplanospore etc., Mycobionts
 undergo sexual reproduction and produce
 ascocorps.
+
+
+
+| Table 1.12: Types of Mycorrhizae 	|  	|  	|
+|:---:	|---	|---	|
+| **Ectomycorrhizae** 	| **Endomycorrhizae** 	| **Ectendomycorrhizae** 	|
+| The fungal mycelium forms a dense<br>sheath around the<br>root called mantle.<br>The hyphal network penetrate the<br>intercellular spaces of the epidermis<br>and cortex to form<br>Hartig net. Example: *Pisolithus tinctorius* 	| The hyphae grows mainly inside the roots,<br>penetrate the outer cortical cells of the plant<br>root. A small portion of the mycelium is<br>found outside the root. This form is also called<br>Vesicular Arbuscular Mycorrhizal fungi (VAM<br>Fungi) due to the presence of Vesicle or arbuscle<br>like haustoria<br>1. Arbuscular mycorrhizae(AM)<br>Example: Gigaspora<br>2. Ericoid mycorrhizae -Example: *Oidiodendron*<br>3. Orchid mycorrhizae -Example: *Rhizoctonia* 	| The fungi form both 	|
+
+
+
 
 **Classification**
 
