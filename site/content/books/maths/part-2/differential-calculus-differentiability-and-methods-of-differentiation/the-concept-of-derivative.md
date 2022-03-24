@@ -8,44 +8,30 @@ extensions:
 ---
 
 
+Calculus grew out of four major problems that mathematicians were working on during the
+seventeenth century.
 
-### வகையிடுதலின் கருத்தாக்கம் (The concept of derivative)
-பதினேழாம் நூற்றாண்டில் கணிதவியலாளர்கள் தீர்வு காண முயன்ற நான்கு முக்கியமான
-கணக்குகளிலிருந்து வகைநுண் கணிதம் தோன்றி வளர்ச்சி பெற்றது. அவை
+(1) The tangent line problem
+(2) The velocity and acceleration problem
+(3) The minimum and maximum problem
+(4) The minimum and maximum problem
 
-(1) தொடுகோடுக் கணக்கு
-(2) திசைவேகம் மற்றும் முடுக்கக் கணக்கு
-(3) சிறுமம் மற்றும் பெருமக் கணக்கு
-(4) பரப்பளவுக் கணக்கு.
 
-முதலிரண்டு கணக்குகளைப் பற்றி இப்பாடப்பகுதியில் காண்போம். ஏனைய இரண்டினைப்
-பின்னர் வரும் பாடப்பகுதியில் காணலாம்.
+We take up the above problems 1 and 2 for discussion in this chapter while the last two problems
+are dealt with in the later chapters.
 
-#### தொடுகோடுக் கணக்கு(The tangent line problem)
-ஒரு வளைவரையில் குறிப்பிட்ட ஒரு புள்ளியில் ஒரு
-நேர்க்கோடு தொடுகோடாக அமைகின்றது என்பதன் பொருள்
-என்ன? ஒரு வட்டத்தில் ‘P’ எனும் புள்ளியின் மீது தொட்டுச்
-செல்லும் தொடுகோடு என்பது படம் 10.1-ல் கண்டுள்ளவாறு
-‘P’ எனும் புள்ளியைச் சந்திக்கும் ஆரக்கோட்டிற்குச் செங்குத்துக்
-கோடாக (radial line) அமையும்.
-ஆனால் பொதுவான வளைவரையாக இருந்தால் தொடுகோட்டைக்
-கண்டறிவது மிகக் கடினமான செயலாகும். எடுத்துக்காட்டாக
-கீழ்க்காணும் 10.2-லிருந்து 10.4 வரையிலான படங்களில்
-உள்ளவற்றிற்குத் தொடுககோடுகளை எவ்வாறு வரையறுக்க இயலும்
 
-‘P’ எனும் புள்ளியில் வளைவரையை வெட்டிச் செல்லாமல் தொட்டுச் செல்லும் கோடுதான்
-தொடுககோடாக அமையும் எனக் கூற முனையலாம். இந்த வரையறை படம் 10.2-ல் உள்ளது போன்ற
-வளைவரைக்குப் பொருந்தும், ஆனால் 10.3-ல் உள்ள வளைவரைக்குப் பொருந்தாது, அல்லது ஒரு
-வளைவரைக்கு ஒரு கோடு தொடுகோடாக அமைய வேண்டுமெனில்,கோடும் வளைவரையும்
-ஒரே ஒரு புள்ளியில் தொட்டுச் செல்லவன் அல்லது சந்திக்கவன் வேண்டும். ஆனால் இந்த
-வரையறை வட்டத்திற்குப் பொருந்தக் கூடும். ஆனால் படம் 10.4-ல் உள்ளது போன்ற பொதுவான
-வளைவரைகளுக்கு இந்த வரையறை பொருந்தாது.
-அடிப்படையில் ‘P’ எனும் புள்ளியில் உள்ள தொடுகோட்டைக் கண்டறிய முயல்வது ‘P’ எனும்
-புள்ளியில் தொடுகோட்டின் சாய்வினைக் கண்டறிவதாக மாறுகிறது.
-இச்சாய்வினை, தொடுவரைப்புள்ளி (point of tangency) மற்றும் வளைவரையின் மீதான
-மற்றொரு புள்ளி வழியாகச் செல்லும் வெட்டுக் கோட்டின் சாய்வுக்குத் தோராயமாகப் படம் 10.5ல்
-காண்பதுபோல் காணலாம்.
-தொடுவரைப்புள்ளியாக \\(P(x_{0})\\) எனவும் இரண்டாவது புள்ளியாக \\(Q(x_{0}+\vartriangle x, f(x_{0}+\vartriangle x))\\) எனவும் கருதுவோம்.
+#### The tangent line problem
+What does it mean to say that a line is tangent to a curve at a point? For a circle, the tangent line
+at a point P is the line that is perpendicular to the radial line at a point P, as shown in fig. 10.1.
+
+For a general curve, however, the problem is more difficult, for example, how would you define the tangent lines shown in the following figures 10.2 to 10.4.
+
+You might say that a line is tangent to a curve at a point P if it touches, but does not cross, the curve at point P. This definition would work for the first curve (Fig. 10.2), but not for the second (Fig. 10.3). Or you might say that a line is tangent to a curve if the line touches or intersects the curve exactly at one point. This definition would work for a circle but not for more general curves, as the third curve shows (Fig. 10.4).
+
+Essentially, the problem of finding the tangent line at a point P boils down to the problem of finding the slope of the tangent line at point P. You can approximate this slope using a secant line through the point of tangency and a second point on the curve as in the following Fig. 10.5.
+
+Let \\(P(x_{0})\\) be the point of tangency and \\(Q(x_{0}+\vartriangle x, f(x_{0}+\vartriangle x))\\) be the second point. 
 
 m=\\(\frac{y_{2}-y_{1}}{x_2-x_1}\\) எனும் சாய்வு விதியில் பிரதியிடுவதன் மூலம் இரு புள்ளிகள் வழியாகச் செல்லும்
 
