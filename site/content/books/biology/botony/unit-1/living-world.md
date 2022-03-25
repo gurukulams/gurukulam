@@ -347,9 +347,11 @@ dsRNA(Wound Tumour Virus).
 ## Different Classes of viruses          
 {.table}
 
-
-
-
+|  	|  	|
+|---	|---	|
+| **Table 1.2: Different Classes of viruses** 	|  	|
+| **Class** 	| **Example** 	|
+| Class 1 – Viruses with dsDNA<br>Class 2 –Viruses with (+) sense ssDNA<br>Class 3 – Viruses with dsRNA<br>Class 4 – Viruses with (+)sense ssRNA<br>Class 5 – Viruses with (–)sense ssRNA<br>Class 6 – Viruses with (+) sense ssRNA<br>–RT: that replicate with DNA<br>intermediate in life cycle<br>Class 7 – Viruses with ds DNA –RT:<br>that replicate with RNA<br>intermediate in life cycle 	| Adeno viruses<br>Parvo viruses<br>Reo viruses<br>Toga viruses<br>Rhabdo viruses<br>Retro viruses<br>Hepadna<br>viruses 	|
 
  
 #### 1.2.5 Tobacco Mosaic Virus (TMV)
