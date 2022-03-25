@@ -346,11 +346,10 @@ dsRNA(Wound Tumour Virus).
 
 ## Different Classes of viruses          
 {.table}
-| Class                                                                                                                                                                                                                                                                                                                                                            	| Example                                                                                           	|
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------------	|
-| Class 1 – Viruses with dsDNA
- Class 2 –Viruses with (+) sense ssDNA
-  Class 3 – Viruses with dsRNA Class 4 – Viruses with (+)sense ssRNA Class 5 – Viruses with (–)sense ssRNA Class 6 – Viruses with (+) sense ssRNA –RT: that replicate with DNA intermediate in life cycle Class 7 – Viruses with ds DNA –RT: that replicate with RNA intermediate in life cycle 	| Adeno viruses Parvo viruses Reo viruses Toga viruses Rhabdo viruses Retro viruses Hepadna viruses 	|
+| **Table 1.2: Different Classes of viruses** 	|  	|
+|---	|---	|
+| **Class** 	| **Example** 	|
+| Class 1 – Viruses with dsDNA<br>Class 2 –Viruses with (+) sense ssDNA<br>Class 3 – Viruses with dsRNA<br>Class 4 – Viruses with (+)sense ssRNA<br>Class 5 – Viruses with (–)sense ssRNA<br>Class 6 – Viruses with (+) sense ssRNA<br>–RT: that replicate with DNA<br>intermediate in life cycle<br>Class 7 – Viruses with ds DNA –RT:<br>that replicate with RNA<br>intermediate in life cycle 	| Adeno viruses<br>Parvo viruses<br>Reo viruses<br>Toga viruses<br>Rhabdo viruses<br>Retro viruses<br>Hepadna<br>viruses 	|
 
 
 
