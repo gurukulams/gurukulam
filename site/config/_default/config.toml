@@ -4,7 +4,10 @@ languageLang = "en"
 title = "Gurukulams School"
 defaultContentLanguage = "en"
 
-
+[security]
+enableInlineShortcodes = true
+[security.funcs]
+getenv = ['^HUGO_','CONTEXT','BUILD_PRODUCTION']
 
 [Languages]
 [Languages.en]
