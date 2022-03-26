@@ -1,5 +1,5 @@
 ---
-title: 'நிலைமத் திருப்புத்திறன்'
+title: 'Moment of Inertia'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 4
