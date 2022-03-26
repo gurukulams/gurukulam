@@ -1,5 +1,5 @@
 ---
-title: 'இயல் உலகத்தின் தன்மையும் அளவீட்டியலும்'
+title: 'Nature of Physical world and measurement'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 1
