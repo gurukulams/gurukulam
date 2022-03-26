@@ -1,7 +1,5 @@
 ---
-title: 'தொழில் நுட்பம் மற்றும்
-சமுதாயத்துடன் இயற்பியலின்
-தொடர்பு'
+title: 'Physics in relation to technology and society'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 3

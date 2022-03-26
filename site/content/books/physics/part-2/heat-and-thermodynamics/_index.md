@@ -1,5 +1,5 @@
 ---
-title: 'வெப்பமும் வெப்ப இயக்கவியலும்'
+title: 'Heat and Thermodynamics'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 3

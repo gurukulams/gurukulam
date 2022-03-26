@@ -6,3 +6,5 @@ weight: 4
 extensions:
     - katex
 ---
+
+# Lessons coming soon!

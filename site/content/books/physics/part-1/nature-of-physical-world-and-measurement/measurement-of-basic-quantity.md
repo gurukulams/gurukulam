@@ -1,6 +1,5 @@
 ---
-title: 'அடிப்படை அளவுகளின்
-அளவீட்டியல்'
+title: 'Measurement of basic quantity'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 5
