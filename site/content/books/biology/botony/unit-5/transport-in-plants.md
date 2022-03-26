@@ -5,4 +5,4 @@ draft: false
 weight: 11
 ---
 
-THis is my new page
+# Lessons coming soon!
