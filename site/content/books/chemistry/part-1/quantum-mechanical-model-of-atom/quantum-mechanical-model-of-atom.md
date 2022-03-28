@@ -1,5 +1,5 @@
 ---
-title: 'அணுவின் குவாண்டம் இயக்கவியல் மாதிரி'
+title: 'Quantum Mechanical Model of Atom'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 1

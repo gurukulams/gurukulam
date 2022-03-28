@@ -1,5 +1,6 @@
 ---
-title: 'வேதியியலின் அடிப்படைக் கருத்துக்கள் மற்றும் வேதிக் கணக்கீடுகள்'
+title: 'Basic Concepts of Chemistry and Chemical
+Calculations'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 markup: mmark

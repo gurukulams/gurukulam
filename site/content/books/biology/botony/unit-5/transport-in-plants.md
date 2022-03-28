@@ -5,6 +5,7 @@ draft: false
 weight: 11
 ---
 
+<<<<<<< HEAD
 {{<box title="Learning Objectives" type="objective" >}} 
 
 The learner will be able to,
@@ -382,3 +383,6 @@ Na + -K + -ATPase pump (Table 11.1).
               diffusion      diffusion|
              ----------|:--------------|
          
+=======
+# Lessons coming soon!
+>>>>>>> d238302af6c5066e94d9f80a0f5aaace61b6488e

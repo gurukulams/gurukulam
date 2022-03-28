@@ -1,5 +1,5 @@
 ---
-title: 'இயற்பியல் – அறிமுகம்'
+title: 'Physics - Introduction'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 2
