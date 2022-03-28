@@ -6,7 +6,7 @@ weight: 11
 ---
 
 <<<<<<< HEAD
-{{<box title="Learning Objectives" type="objective" >}} 
+{{<box title="Learning Objectives" type="objective" >}}
 
 The learner will be able to,
 
@@ -87,8 +87,8 @@ interconnected and depend on each other.
 (a) Short distance (Cell to cell transport)
 and (b) Long distance transport.
 
-{{<box title="The Plumbing system of Plants and Humans">}} 
-                                  
+{{<box title="The Plumbing system of Plants and Humans">}}
+
 ![Plumbing system of plants](/books/biology/unit-5/01.png) <br>
 
 ![Plumbing system of Human](books/biology/unit-5/02.png)
@@ -119,7 +119,6 @@ area will improve our understanding of
 natural world.
 
 {{</box>}}
-
 
 **i. Short-distance (Cell to cell transport):**
 Involvement of few cells, mostly in the
@@ -156,6 +155,7 @@ obtained
 from respiration. It is an uphill process.
 
 #### 11.2 Cell to Cell Transport
+
 Cell to cell or short distance transport covers
 the limited area and consists of few cells. They
 are the facilitators or tributaries to the longdistance
@@ -166,8 +166,8 @@ the various types of cell to cell transport:
 
 ![cell to cell transport](/books/biology/unit-5/03.png)
 
-
 ##### 11.2.1 Passive Transport
+
 1. **Diffusion**
 When we expose a lightened incense stick
 or mosquito coil or open a perfume bottle
@@ -180,8 +180,6 @@ is continuous and random in order in all
 directions **(Figure 11.2)**.
 
 ![Distributionofmoleculesindiffusion,Initialstage](/books/biology/unit-5/04.png)
-
-
 
 {{<box title="Diffusion:">}}
 The net movement of molecules
@@ -204,7 +202,6 @@ v. The rate of diffusion is determined by
 temperature, concentration gradient and
 relative density.<br>
 
-
 #### Significance of diffusion in Plants
 
 i. Gaseous exchange of O2 and CO2
@@ -220,7 +217,6 @@ process of diffusion.<br>
 iii. The transport of ions in mineral salts
 during passive absorption also takes place
 by this process.<br>
-
 
 {{<box title="Do you know">}}
 
@@ -281,7 +277,9 @@ without the expenditure of ATP.
 There are two types of transport proteins
 present in the cell membrane. They are
 channel protein and a carrier protein.
+
 ##### I. Channel Protein
+
 Channel protein forms a channel or tunnel
 in the cell membrane for the easy passage of
 molecules to enter the cell. The channels are
@@ -311,6 +309,7 @@ salt stress tolerance.<br>
 ![Aquaporin](/books/biology/unit-5/05.png)
 
 ##### II. Carrier Protein
+
 Carrier protein acts as a vehicle to carry
 molecules from outside of the membrane to
 inside the cell and vice versa (Figure 11.4). Due
@@ -342,14 +341,15 @@ in opposite directions, across the
 membrane.
 
 {{<box title="Discovery of Aquaporin">}}
-          
-![](/books/biology/unit-5/08.png)          Peter Agre, 
-                                           discovered the “Water  Pore” Aquaporin in RBC     and received Nobel Prize for chemistry in 2003    
+
+![](/books/biology/unit-5/08.png)          Peter Agre,
+                                           discovered the “Water  Pore” Aquaporin in RBC     and received Nobel Prize for chemistry in 2003
 ![](/books/biology/unit-5/09.png)
 
 {{</box>}}
 
 #### 11.2.2 Active Transport
+
 The main disadvantage of passive transport
 processes like diffusion is the lack of control
 over the transport of selective molecules. There
@@ -374,15 +374,295 @@ of ions or molecules. The pump action is
 an example of active transport. Example:
 Na + -K + -ATPase pump (Table 11.1).
 
-| Table 11.1 Comparison of Diffrent 
-        transport mechnanisms  |
---------------------------------
-|   Property   |     Passive transport      | Active Transport |
--------------------------------------------------------------
-               simple   | Faciltated
-              diffusion      diffusion|
-             ----------|:--------------|
-         
-=======
-# Lessons coming soon!
->>>>>>> d238302af6c5066e94d9f80a0f5aaace61b6488e
+| Table 11.1                   Comparison of different<br>                                   transport mechanisms |                   |                       |                      |
+| --------------------------------------------------------------------------------------------------------------- | ----------------- | --------------------- | -------------------- |
+| Property                                                                                                        | Passive Transport |                       | Active <br>Transport |
+|                                                                                                                 | Simple Diffusion  | Facilitated Diffusion |                      |
+| Nature of Process                                                                                               | Physical          | Biological            | Biological           |
+| Requirement<br>for presence of<br>membrane protein                                                              | No                | Yes                   | Yes                  |
+| Selectivity of<br>molecule                                                                                      | No                | Yes                   | Yes                  |
+| Saturation of<br>transport                                                                                      | No                | Yes                   | Yes                  |
+| Uphill transport                                                                                                | No                | No                    | Yes                  |
+| Energy<br>requirement<br>(ATP)                                                                                  | No                | No                    | Yes                  |
+| Sensitivity to<br>inhibitors                                                                                    | No                | Yes                   | Yes                  |
+
+{{<box title="">}}
+**Check your grasp!<br>
+What are the similarities and differences<br>
+between co- transport and counter transport?<br>
+Solution:**<br>
+Similarity: In both system two molecules are
+involved for the unidirectional transport.<br>
+Difference: In co-transport, two molecules
+are transported together whereas, in counter
+transport two molecules are transported in
+opposite direction to each other.
+
+{{</box>}}
+
+#### 11.3 Plant Water Relations
+
+Water plays an essential role in the life of the
+plant. The availability of water influences the
+external and internal structures of plants as
+protoplasm is made of 60-80% water. Water is a
+**universal solvent** since most of the substances
+get dissolved in it and the high tensile strength
+of water molecule is helpful in the ascent of sap.
+Water maintains the internal temperature of
+the plant as well as the turgidity of the cell.
+
+#### 1.3.1 Imbibition
+
+Colloidal systems such as **gum, starch,**
+**proteins, cellulose, agar, gelatin** when placed
+in water, will absorb a large volume of water and
+swell up. These substances are called **imbibants**
+and the phenomenon is i**imbibition.**
+**Examples:** 1. The swelling of dry seeds
+2.The swelling of wooden windows, tables, doors
+due to high humidity during the rainy season.
+
+{{<box title="">}}
+**The Power of Imbibition**
+In olden days, small wooden
+pegs were inserted into
+crevices of rocks followed by
+continuous hydration. Due to imbibition
+the volume of wooden peg increases and
+cuts off rocks precisely.
+
+**///create Box**
+{{</box>}}
+
+**Significance of imbibition**
+
+i. During germination of seeds, imbibition
+increases the volume of seed enormously
+and leads to bursting of the seed coat.
+ii. It helps in the absorption of water by roots
+at the initial level.
+
+{{<box title="">}}
+Activity
+
+#### Imbibition experiment
+
+Collect 5 gm of gum from Drumstick tree
+or Babool tree or Almond tree. Immerse in
+100ml of water. After 24 hours observe the
+changes and discuss the results with your
+teacher.<br>
+
+![](/books/biology/unit-5/10.png)
+
+{{</box>}}
+
+
+
+#### 11.3.2 Water Potential (Ψ)
+The concept of water potential
+was introduced in 1960 by
+**Slatyer and Taylor**. Water
+potential is potential energy
+of water in a system compared
+to pure water when both temperature and
+pressure are kept the same. It is also a measure
+of how freely water molecules can move in
+a particular environment or system. Water
+potential is denoted by the Greek symbol **Ψ**
+(psi) and measured in **Pascal (Pa)**. At standard
+temperature, the water potential of pure water is
+**zero.** Addition of solute to pure water decreases
+the kinetic energy thereby decreasing the water
+potential. Comparatively a solution always
+has low water potential than pure water. In a
+group of cells with different water potential, a
+water potential gradient is generated. Water
+will move from higher water potential to lower
+water potential.
+Water potential **(Ψ)** can be determined by,
+1. Solute concentration or Solute ­potential
+**(Ψ S)**
+2. Pressure potential **(Ψ P )**
+By correlating two factors, water potential is
+written as,
+
+{{<box title="" >}}
+         Ψ W = Ψ S + Ψ P
+Water Potential = Solute potential +
+Pressure potential
+
+{{</box>}}
+
+
+**1. Solute Potential (Ψ S )**
+Solute potential, otherwise known as **osmotic**
+**potential** denotes the effect of dissolved solute
+on water potential. In pure water, the addition
+of solute reduces its free energy and lowers the
+water potential value from zero to negative.
+Thus the value of solute potential is always
+negative. In a solution at standard atmospheric
+pressure, water potential is always equal to
+solute potential (Ψ W = Ψ S ).
+**2. Pressure Potential (Ψ P )**
+
+Pressure potential is a mechanical force working
+against the effect of solute potential. Increased
+pressure potential will increase water potential
+and water enters cell and cells become 
+This **positive hydrostatic pressure** within
+the cell is called **Turgor pressure.** Likewise,
+withdrawal of water from the cell decreases the
+water potential and the cell becomes **flaccid.**
+**3. Matric Potential (Ψ M )**
+
+Matric potential represents the attraction
+between water and the **hydrating colloid
+or gel-like organic molecules in the cell
+wall** which is collectively termed as **matric
+potential.** Matric potential is also known as
+**imbibition pressure.** The matric potential
+is maximum (most negative value) in a dry
+material.**Example:** The swelling of soaked
+seeds in water.
+#### 11.3.3 Osmotic Pressure and Osmotic Pressure
+
+When a solution and its solvent (pure water)
+are separated by a semipermeable membrane,
+a pressure is developed in the solution, due to
+the presence of dissolved solutes. This is called
+**osmotic pressure (OP)**. Osmotic pressure
+is increased with the increase of dissolved
+solutes in the solution. More concentrated
+solution (low **Ψ** or Hypertonic) has high
+osmotic pressure. Similarly, less concentrated
+solution (high **Ψ** or Hypotonic) has low
+osmotic pressure. The osmotic pressure of
+pure water is always **zero** and it increases
+with the increase of solute concentration.
+Thus **osmotic pressure** always has a positive
+value and it is represented as π.
+Osmotic potential is defined as the ratio
+between the number of solute particles and
+the number of solvent particles in a solution.
+Osmotic potential and osmotic pressure are
+numerically equal. Osmotic potential has a
+negative value whereas on the other hand
+osmotic pressure has a positive value.
+#### 11.3.4 Turgor Pressure and Wall Pressure
+­ 
+When a plant cell is placed in pure water
+(hypotonic solution) the diffusion of water into
+the cell takes place by endosmosis. It creates a
+positive hydrostatic pressure on the rigid cell
+wall by the cell membrane. Henceforth the
+pressure exerted by the cell membrane towards
+the cell wall is **Turgor Pressure (TP).**
+The cell wall reacts to this turgor pressure
+with **equal and opposite force,** and the
+counter-pressure exerted by the cell wall
+towards cell membrane is **wall pressure (WP)**.
+Turgor pressure and wall pressure make
+the cell fully turgid.
+**TP + WP = Turgid.**
+
+{{<box title="">}}
+ ##### Activity
+Find the role of turgor pressure in
+sudden closing of leaves when we
+touch the ‘touch me not’ plant.
+{{</box>}}
+
+#### 11.3.5 Diffusion Pressure Deficit (DPD) or Suction Pressure (SP)
+
+Pure solvent (hypotonic) has higher diffusion
+pressure. Addition of solute in pure solvent
+lowers its diffusion pressure. The difference
+between the diffusion pressure of the solution
+and its solvent at a particular temperature and
+atmospheric pressure is called as **Diffusion
+Pressure Deficit (DPD)** termed by **Meyer
+(1938)**. DPD is increased by the addition of
+solute into a solvent system. Increased DPD
+favours endosmosis or it sucks the water from
+hypotonic solution; hence **Renner** (1935)
+called it as **Suction pressure**. It is equal to
+the difference of osmotic pressure and turgor
+pressure of a cell. The following three situations
+are seen in plants:
+• **DPD in normal cell**: DPD = OP – TP.
+• **DPD in fully turgid cell**: Osmotic pressure
+is always equal to turgor pressure in a fully
+turgid cell.
+• **OP = TP or OP-TP =0**. Hence DPD of fully
+turgid cell is zero.
+• **DPD in flaccid cell**: If the cell is in flaccid
+condition there is no turgor pressure or
+TP=0. Hence DPD = OP.
+
+#### 11.3.6 Osmosis
+
+Osmosis (Latin: Osmos-impulse, urge) is a
+**special type of diffusion**. It represents the
+movement of **water or solvent molecules**
+through a selectively permeable membrane
+**from the place of its higher concentration
+(high water potential) to the place of its lower
+concentration (low water potential).**
+
+Types of Solutions based on concentration
+**i. Hypertonic** (Hyper = High; tonic = solute):
+This is a strong solution (low solvent/ high
+solute / low **Ψ**) which **attracts solvent**
+from other solutions.
+
+**ii. Hypotonic** (Hypo = low; tonic = s ­ olute):
+This is a weak solution (high solvent /low
+or zero solute / high **Ψ**) and it out to other solutions **(­Figure 11.7)**.
+
+**iii. Isotonic** (Iso = identical; tonic = soute):
+It refers to two solutions having same
+concentration. In this condition the net
+movement of water molecule will be zero.
+The term hyper, hypo and isotonic are
+**relative terms **which can be used only in
+comparison with another solution.
+
+{{<box title="">}}
+ 
+ ![](/books/biology/unit-5/11.png)<br>
+ **Figure 11.6: Thistle Funnel Experiment**
+
+ Mouth of a thistle funnel is tied with
+goat bladder. It acts as a semipermeable
+membrane. Pour concentrated sugar
+solution in the thistle funnel and mark
+the level of solution. Place this in a beaker
+of water. After some time, water level in
+the funnel rises up steadily. This is due to
+the inward diffusion of water molecules
+through the semipermeable membrane
+(Figure 11.6).
+Conversely, if water in the beaker is
+replaced by a sugar solution and sugar
+solution in the thistle funnel replaced by
+water, what will be happen?
+
+**4. Reverse Osmosis**
+Reverse Osmosis follows the same principles
+of osmosis, but in the reverse direction. In
+this process movement of water is reversed by
+applying pressure to force the water against a
+concentration gradient of the solution. In regular
+osmosis, the water molecules move from the
+higher concentration (pure water = hypotonic)
+to lower concentration (salt water = hypertonic).
+But in reverse osmosis, the water molecules
+move from the lower concentration (salt water =
+hypertonic) to higher concentration (pure water
+= hypotonic) through a selectively permeable
+membrane (Figure 11.9).
+
+{{</box>}}
