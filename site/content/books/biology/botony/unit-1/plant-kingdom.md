@@ -94,12 +94,57 @@ and Spermatophyta (Gymnospermae and
 Angiospermae). An outline Classification of
 Plant Kingdom is given in Figure 2.1
 
+
+![Plant-kingdom](/books/biology/unit-1/plant-kingdom/Fig2.1.eng.png )
+
 ##### 2.2 Life Cycle Patterns in Plants
 
 **Alternation of Generation**
 
 Alternation of generation is common
 in all plants. Alternation of the haploid
+gametophytic phase (n) with diploid
+sporophytic phase (2n) during the life
+cycle is called alternation of generation.
+Following type of life cycles are found in
+plants (Figure 2.2).
+
+
+![Plant-kingdom](/books/biology/unit-1/plant-kingdom/Fig2.2.eng.png )
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Plant-kingdom](/books/biology/unit-1/plant-kingdom/Fig2.3.eng.png )
+
+
+
+
+![Plant-kingdom](/books/biology/unit-1/plant-kingdom/Fig2.4.eng.png )
+
+
+![Plant-kingdom](/books/biology/unit-1/plant-kingdom/Fig2.5.eng.png )
+
+
+![Plant-kingdom](/books/biology/unit-1/plant-kingdom/Fig2.6.eng.png )
+
+
+![Plant-kingdom](/books/biology/unit-1/plant-kingdom/Fig2.7.eng.png )
+
+![Plant-kingdom](/books/biology/unit-1/plant-kingdom/Fig2.8.eng.png )
+
+
+
+
 
 
 
