@@ -80,14 +80,19 @@ The attributes of living organisms are given
 below and is represented in Figure 1.1. 
 
 ```goat
-      .               .                .               .--- 1          .-- 1     / 1
-     / \              |                |           .---+            .-+         +
-    /   \         .---+---.         .--+--.        |   '--- 2      |   '-- 2   / \ 2
-   +     +        |       |        |       |    ---+            ---+          +
-  / \   / \     .-+-.   .-+-.     .+.     .+.      |   .--- 3      |   .-- 3   \ / 3
- /   \ /   \    |   |   |   |    |   |   |   |     '---+            '-+         +
- 1   2 3   4    1   2   3   4    1   2   3   4         '--- 4          '-- 4     \ 4
 
+                        .
+                        Attributes of living organisms
+                                         |
+        .---------.--------.----------.----------.------------.-----------.----------.     
+        |         |        |          |          |            |           |          |  
+      growth  nutrition movement reproduction excretion irritability respiration metabolism
+
+
+
+
+
+            
 ```
 
 **Growth**
@@ -319,8 +324,7 @@ beings.
 
 **1.2.4 Classification of Viruses**
 
-Among various classifications proposed
-for viruses the classification given by David
+Among various classifications proposed for viruses the classification given by David
 Baltimore in the year 1971 is given below. The
 classification is based on mechanism of RNA
 production, the nature of the genome (single
