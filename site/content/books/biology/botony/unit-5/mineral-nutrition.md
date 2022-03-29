@@ -45,7 +45,7 @@ time to observe the nature. You can notice
 {{<box title="">}}
    **A Solution to pollution**
 
- ![](/books/biology/unit-5/Mineral Nutrition/00.png)
+ ![](/books/biology/unit-5/mineral-nutrition/00.png)
 
 A new solution has come up for high
 nutrient pollution and eutrophication
