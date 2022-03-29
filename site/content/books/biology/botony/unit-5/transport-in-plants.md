@@ -5,7 +5,7 @@ draft: false
 weight: 11
 ---
 
-<<<<<<< HEAD
+
 {{<box title="Learning Objectives" type="objective" >}}
 
 The learner will be able to,
@@ -89,9 +89,9 @@ and (b) Long distance transport.
 
 {{<box title="The Plumbing system of Plants and Humans">}}
 
-![Plumbing system of plants](/books/biology/unit-5/01.png) <br>
+![Plumbing system of plants](/books/biology/unit-5/transports-in-plants/01.png) <br>
 
-![Plumbing system of Human](books/biology/unit-5/02.png)
+![Plumbing system of Human](books/biology/unit-5/transports-in-plants/02.png)
 
 Plants and animals
 evolved separately but   developed
@@ -458,9 +458,8 @@ teacher.<br>
 
 {{</box>}}
 
-
-
 #### 11.3.2 Water Potential (Ψ)
+
 The concept of water potential
 was introduced in 1960 by
 **Slatyer and Taylor**. Water
@@ -482,6 +481,7 @@ water potential gradient is generated. Water
 will move from higher water potential to lower
 water potential.
 Water potential **(Ψ)** can be determined by,
+
 1. Solute concentration or Solute ­potential
 **(Ψ S)**
 2. Pressure potential **(Ψ P )**
@@ -494,7 +494,6 @@ Water Potential = Solute potential +
 Pressure potential
 
 {{</box>}}
-
 
 **1. Solute Potential (Ψ S )**
 Solute potential, otherwise known as **osmotic**
@@ -511,7 +510,7 @@ solute potential (Ψ W = Ψ S ).
 Pressure potential is a mechanical force working
 against the effect of solute potential. Increased
 pressure potential will increase water potential
-and water enters cell and cells become 
+and water enters cell and cells become
 This **positive hydrostatic pressure** within
 the cell is called **Turgor pressure.** Likewise,
 withdrawal of water from the cell decreases the
@@ -527,6 +526,7 @@ potential.** Matric potential is also known as
 is maximum (most negative value) in a dry
 material.**Example:** The swelling of soaked
 seeds in water.
+
 #### 11.3.3 Osmotic Pressure and Osmotic Pressure
 
 When a solution and its solvent (pure water)
@@ -551,8 +551,10 @@ Osmotic potential and osmotic pressure are
 numerically equal. Osmotic potential has a
 negative value whereas on the other hand
 osmotic pressure has a positive value.
+
 #### 11.3.4 Turgor Pressure and Wall Pressure
-­ 
+
+­
 When a plant cell is placed in pure water
 (hypotonic solution) the diffusion of water into
 the cell takes place by endosmosis. It creates a
@@ -569,7 +571,9 @@ the cell fully turgid.
 **TP + WP = Turgid.**
 
 {{<box title="">}}
- ##### Activity
+
+##### Activity
+
 Find the role of turgor pressure in
 sudden closing of leaves when we
 touch the ‘touch me not’ plant.
@@ -627,11 +631,11 @@ It refers to two solutions having same
 concentration. In this condition the net
 movement of water molecule will be zero.
 The term hyper, hypo and isotonic are
-**relative terms **which can be used only in
+**relative terms**which can be used only in
 comparison with another solution.
 
 {{<box title="">}}
- 
+
  ![](/books/biology/unit-5/11.png)<br>
  **Figure 11.6: Thistle Funnel Experiment**
 
@@ -667,18 +671,16 @@ membrane (Figure 11.9).
 
 {{</box>}}
 
-| Table 11.2: Difference between plasmolysis types.<br>  	|  	|  	|
-|---	|---	|---	|
-|       Incipient plasmolysis 	|         Evident plasmolysis 	| Final plasmolysis 	|
-| No morphological symptoms<br>appear in plants.<br> 	| Wilting of leaves appear. 	| Severe wilting and drooping<br>of leaves appear. 	|
-| The plasma membrane<br>separates only at the corner<br>from the cell wall of cells.<br> 	| Plasma membrane completely<br>detaches from the cell wall. 	| Plasma membrane<br>completely detaches from<br>cell wall with maximum<br>shrinkage of volume. 	|
-| It is reversible. 	| It is reversible.<br> 	| It is irreversible. 	|
-
-
+| Table 11.2: Difference between plasmolysis types.<br>   |   |   |
+|--- |--- |--- |
+|       Incipient plasmolysis  |         Evident plasmolysis  | Final plasmolysis  |
+| No morphological symptoms<br>appear in plants.<br>  | Wilting of leaves appear.  | Severe wilting and drooping<br>of leaves appear.  |
+| The plasma membrane<br>separates only at the corner<br>from the cell wall of cells.<br>  | Plasma membrane completely<br>detaches from the cell wall.  | Plasma membrane<br>completely detaches from<br>cell wall with maximum<br>shrinkage of volume.  |
+| It is reversible.  | It is reversible.<br>  | It is irreversible.  |
 
 ![](/books/biology/unit-5/12.png)<br>
  **Figure 11.9: Reverse Osmosis**
- 
+
  **Uses:** Reverse osmosis is used for
 purification of drinking water and desalination
 of sea water.
@@ -696,10 +698,12 @@ high DPD (hypodermis 2 atm to cortex 5 atm).
 {{</box>}}
 
 #### 11.4 Absorption of Water
+
 Terrestrial plants have to absorb water from
 the soil to maintain turgidity, metabolic
 activities and growth. Absorption of water
 from soil takes place in two steps:
+
 1. From soil to root hairs – either actively
 or passively.
 2. From root hairs further transport in
@@ -707,6 +711,7 @@ the lateral direction to reach xylem, the
 superhighway of water transport.
 
 #### 11.4.1 Water Absorbing Organs
+
 Usually, absorption of water occurs in plants
 through young roots. The zone of rapid water
 absorption is **root hairs**. They are delicate
@@ -763,7 +768,7 @@ cross more membrane, till it reaches xylem.
 In transmembrane pathway water sequentially
 enters a cell on one side and exits from the
 cell on the other side. In this pathway, water
-crosses at least two membranes for each cell. 
+crosses at least two membranes for each cell.
 Transport across the **tonoplast** is also
 involved.
 
@@ -836,16 +841,17 @@ path of water may be symplastic or apoplastic.
 It accounts for about 98% of the total water
 uptake by plants.
 
-| Table: 11.3     Differences between Active<br>     Absorption and Passive Absorption  	|  	|
-|---------|------------	|
-|         Active<br>    Absorption 	|         Passive <br>     Absorption 	|
-| Active absorption <br>takes place by the <br>activity of root and root hairs 	| The pressure for<br>absorption is notdeveloped in <br>rootsand <br>hence roots play<br>passive role 	|
-| Transpiration has no effect on active<br>absorption 	| Absorption regulated<br>by transpiration 	|
-| The root hairs<br>have high DPD<br>as compared to<br>soil solution and<br>therefore water is<br>taken by tension 	| The absorption<br>occurs due to tension<br>created in xylem sap<br>by transpiration pull,thus water <br>is sucked in by tension 	|
-| Respiratory energy needed 	| Respiratory energy not required 	|
-| It involves symplastic<br>movement of water 	| Both symplast and apoplast movement of<br>water involved 	|
+| Table: 11.3     Differences between Active<br>     Absorption and Passive Absorption   |   |
+|---------|------------ |
+|         Active<br>    Absorption  |         Passive <br>     Absorption  |
+| Active absorption <br>takes place by the <br>activity of root and root hairs  | The pressure for<br>absorption is notdeveloped in <br>rootsand <br>hence roots play<br>passive role  |
+| Transpiration has no effect on active<br>absorption  | Absorption regulated<br>by transpiration  |
+| The root hairs<br>have high DPD<br>as compared to<br>soil solution and<br>therefore water is<br>taken by tension  | The absorption<br>occurs due to tension<br>created in xylem sap<br>by transpiration pull,thus water <br>is sucked in by tension  |
+| Respiratory energy needed  | Respiratory energy not required  |
+| It involves symplastic<br>movement of water  | Both symplast and apoplast movement of<br>water involved  |
 
 #### 11.5 Ascent of Sap
+
 In the last chapter, we studied about water
 absorption from roots to xylem in a lateral
 direction and here we will learn about the
@@ -926,7 +932,7 @@ the sap laterally into xylem cells.
 
 **Objections to vital force theories**
 
-**i. Strasburger** (1889) and **Overton **(1911)
+**i. Strasburger** (1889) and **Overton**(1911)
 experimentally proved that living cells are
 not mandatory for the ascent of sap. For this,
 he selected an old oak tree trunk which when
@@ -937,6 +943,7 @@ ascent of sap took place.
 ii. Pumping action of living cells should be
 in between two xylem elements (vertically)
 and not on lateral sides.
+
 #### 11.5.3 Root Pressure Theory
 
 If a plant which is watered well is cut a few
@@ -968,13 +975,13 @@ up to few feet only, whereas the tallest trees
 are more than 100m high.
 
 #### 11.5.4 Physical Force Theory
+
 Physical force theories suggest that ascent of
 sap takes place through the dead xylem vessel
 and the mechanism is entirely physical and
 living cells are not involved.
 
 ![](/books/biology/unit-5/19.png)<br>
-
 
 **1.Capillary theory**
 
@@ -1159,6 +1166,7 @@ Different theories have been proposed
 regarding opening and closing of stomata. The
 important theories of stomatal movement are
 as follows,
+
 1. Theory of Photosynthesis in guard cells
 2. Starch – Sugar interconversion theory
 3. Active potassium transport ion concept
@@ -1177,6 +1185,7 @@ The above process vice versa in night leads to
 closure of stomata.
 
 **Demerits**
+
 1. Chloroplast of guard cells is
 poorly developed and incapable of
 performing photosynthesis.
@@ -1219,7 +1228,7 @@ versa takes place during the night.
 
 ![](/books/biology/unit-5/21.png)
 
-iv. **Steward (1964) **proposed a
+iv. **Steward (1964)**proposed a
 slightly modified scheme of starch-sugar
 interconversion theory. According to
 him, Glucose-1-phosphate is osmotically
@@ -1304,6 +1313,7 @@ Closing of stomata
 
 The factors affecting the rate of transpiration
 can be categorized into two groups. They are
+
 1. External or Environmental factors and 2.
 Internal or plant factors.
 
@@ -1339,7 +1349,9 @@ leads to a reduced rate of transpiration and
 stomata remain closed.
 
 {{<box title="">}}
+
 #### Activity
+
 What will happen if an indoor plant is
 placed under fan and AC?
 {{</box>}}
@@ -1852,6 +1864,7 @@ adsorbed on root cells (Figure 11.24).
 Exchange theory
 
 #### 11.8.2 Active Absorption
+
 Absorption of ions against the concentration
 gradient with the expenditure of metabolic
 energy is called **active absorption**. In plants,
@@ -1862,7 +1875,7 @@ theories of passive absorption. Mechanism
 of active absorption of salts can be explained
 through carrier concept.
 
-#### Carrier Concept:
+#### Carrier Concept
 
 This concept was proposed by **Van den**
 **Honert** in 1937. The cell membrane is
@@ -1963,7 +1976,7 @@ electrical balance or equilibrium controlled
 by electrical as well as diffusion phenomenon
 is known as the **Donnan equilibrium.**
 
-#### Summary 
+#### Summary
 
 There are two types of transports namely short
 and long distance in plants to translocate sap
@@ -2064,7 +2077,6 @@ Evaluation
 stomata in starch sugar interconversion
 theory?
 
-
 8. List out the non-photosynthetic parts of
 a plant that need a supply of sucrose?
 
@@ -2086,7 +2098,6 @@ more turgid or stay in original size?
 e. With reference to artificial cell state, is
 the process endosmosis or exosmosis?
 Give reasons
-
 
 {{<box title="ICT Corner">}}
         Membrane Transport
@@ -2116,5 +2127,5 @@ the molecules movement.
 **URL:**
 <https://phet.colorado.edu/>
 
-  * Pictures are indicative only
+* Pictures are indicative only
 {{</box>}}
