@@ -164,7 +164,7 @@ cell to cell transport can be passive or active
 **(Figure 11.1)**. The following chart illustrate
 the various types of cell to cell transport:
 
-![cell to cell transport](/books/biology/unit-5/03.png)
+![cell to cell transport](/books/biology/unit-5/transports-in-plants/03.png)
 
 ##### 11.2.1 Passive Transport
 
@@ -179,7 +179,7 @@ In **diffusion**, the movement of molecules
 is continuous and random in order in all
 directions **(Figure 11.2)**.
 
-![Distributionofmoleculesindiffusion,Initialstage](/books/biology/unit-5/04.png)
+![Distributionofmoleculesindiffusion,Initialstage](/books/biology/unit-5/transports-in-plants/04.png)
 
 {{<box title="Diffusion:">}}
 The net movement of molecules
@@ -306,7 +306,7 @@ like glycerol, urea, CO2, NH3, metalloids, and
 to water. They increase the permeability of the
 membrane to water. They confer drought and
 salt stress tolerance.<br>
-![Aquaporin](/books/biology/unit-5/05.png)
+![Aquaporin](/books/biology/unit-5/transports-in-plants/05.png)
 
 ##### II. Carrier Protein
 
@@ -317,13 +317,13 @@ to association with molecules to be transported,
 the structure of carrier protein gets modified
 until the dissociation of the molecules.
 
-![CarrierProtien](/books/biology/unit-5/06.png)
+![CarrierProtien](/books/biology/unit-5/transports-in-plants/06.png)
 
 There are 3 types of carrier proteins classified
 on the basis of handling of molecules and
 direction of transport (Figure 11.5). They are,
 i) **Uniport** ii) **Symport** iii) **Antiport.**
-![Directionoftransport](/books/biology/unit-5/07.png)
+![Directionoftransport](/books/biology/unit-5/transports-in-plants/07.png)
 
 **i. <em>Uniport</em>:** In this molecule of a single type
 move across a membrane independent of
@@ -342,9 +342,9 @@ membrane.
 
 {{<box title="Discovery of Aquaporin">}}
 
-![](/books/biology/unit-5/08.png)          Peter Agre,
+![](/books/biology/unit-5/transports-in-plants/08.png)          Peter Agre,
                                            discovered the “Water  Pore” Aquaporin in RBC     and received Nobel Prize for chemistry in 2003
-![](/books/biology/unit-5/09.png)
+![](/books/biology/unit-5/transports-in-plants/09.png)
 
 {{</box>}}
 
@@ -454,7 +454,7 @@ or Babool tree or Almond tree. Immerse in
 changes and discuss the results with your
 teacher.<br>
 
-![](/books/biology/unit-5/10.png)
+![](/books/biology/unit-5/transports-in-plants/10.png)
 
 {{</box>}}
 
@@ -636,7 +636,7 @@ comparison with another solution.
 
 {{<box title="">}}
 
- ![](/books/biology/unit-5/11.png)<br>
+ ![](/books/biology/unit-5/transports-in-plants/11.png)<br>
  **Figure 11.6: Thistle Funnel Experiment**
 
  Mouth of a thistle funnel is tied with
@@ -678,7 +678,7 @@ membrane (Figure 11.9).
 | The plasma membrane<br>separates only at the corner<br>from the cell wall of cells.<br>  | Plasma membrane completely<br>detaches from the cell wall.  | Plasma membrane<br>completely detaches from<br>cell wall with maximum<br>shrinkage of volume.  |
 | It is reversible.  | It is reversible.<br>  | It is irreversible.  |
 
-![](/books/biology/unit-5/12.png)<br>
+![](/books/biology/unit-5/transports-in-plants/12.png)<br>
  **Figure 11.9: Reverse Osmosis**
 
  **Uses:** Reverse osmosis is used for
@@ -722,7 +722,7 @@ Root hairs are extremely thin and numerous
 and they provide a large surface area for
 absorption (Figure 11.10).
 
-![](/books/biology/unit-5/13.png)<br>
+![](/books/biology/unit-5/transports-in-plants/13.png)<br>
 **Figure 11.10:** Structure of Root Hair
 
 #### 11.4.2 Path of Water Across Root Cells
@@ -739,7 +739,7 @@ water (Figure 11.11). They are **i) Apoplast**
 The **apoplast** (Greek: **apo** = away;
 **plast**= cell) consists of everything external
 
-![](/books/biology/unit-5/14.png)<br>
+![](/books/biology/unit-5/1transports-in-plants/14.png)<br>
   **Figure 11.11:** Path of water across root cells
 
 to the plasma membrane of the living cell.
@@ -785,7 +785,7 @@ forces generated in the root itself is called **active
 absorption**. Active absorption may be osmotic
 or non-osmotic.
 
-![](/books/biology/unit-5/15.png)<br>
+![](/books/biology/unit-5/transports-in-plants/15.png)<br>
 
 **i. Osmotic active absorption**
 
@@ -876,10 +876,10 @@ of sap? The following experiment will prove
 that xylem is the only element through which
 water moves up.
 
-![](/books/biology/unit-5/16.png)<br>
+![](/books/biology/unit-5/transports-in-plants/16.png)<br>
 Cross Section of Balsam stem after Experiment<br>
 
-![](/books/biology/unit-5/17.png)<br>
+![](/books/biology/unit-5/transports-in-plants/17.png)<br>
 **Figure 11.12:** Balsam plant and eosin
 dye experiment
 
@@ -927,7 +927,7 @@ sap. He concluded that cells associated with
 xylem exhibit pumping action and pumps
 the sap laterally into xylem cells.
 
-![](/books/biology/unit-5/18.png)<br>
+![](/books/biology/unit-5/transports-in-plants/18.png)<br>
 **Figure 11.13:** J. C. Bose
 
 **Objections to vital force theories**
@@ -981,7 +981,7 @@ sap takes place through the dead xylem vessel
 and the mechanism is entirely physical and
 living cells are not involved.
 
-![](/books/biology/unit-5/19.png)<br>
+![](/books/biology/unit-5/transports-in-plants/19.png)<br>
 
 **1.Capillary theory**
 
@@ -1147,7 +1147,7 @@ the interior into a cavity called **sub-stomatal
 cavity** which remains connected with the
 intercellular spaces.
 
-![](/books/biology/unit-5/20.png)
+![](/books/biology/unit-5/transports-in-plants/20.png)
 
 Figure 11.14: Structure of Stomata
 
@@ -1226,7 +1226,7 @@ and high pH followed by endosmosis and
 the opening of stomata during light. The vice
 versa takes place during the night.
 
-![](/books/biology/unit-5/21.png)
+![](/books/biology/unit-5/transports-in-plants/21.png)
 
 iv. **Steward (1964)**proposed a
 slightly modified scheme of starch-sugar
@@ -1238,7 +1238,7 @@ which is osmotically active and increases
 the concentration of guard cell leading to
 opening of stomata (Figure 11.15).
 
-![](/books/biology/unit-5/22.png)
+![](/books/biology/unit-5/transports-in-plants/22.png)
 
 **Figure 11.15:** Steward Scheme
 
@@ -1257,7 +1257,7 @@ elaborated by **Raschke** (1975). According to
 this theory, the following steps are involved
 in the stomatal opening:
 
-![](/books/biology/unit-5/23.png)
+![](/books/biology/unit-5/2transports-in-plants/23.png)
 
 **Figure 11.16:** Theory of K + transport
 Opening of stomata
@@ -1304,7 +1304,7 @@ v. Loss of water from guard cell reduces
 turgor pressure and causes closure of stomata
 (Figure 11.17).
 
-![](/books/biology/unit-5/24.png)
+![](/books/biology/unit-5/transports-in-plants/24.png)
 
 **Figure 11.17:** Theory of K + transport
 Closing of stomata
@@ -1436,7 +1436,7 @@ nurseries.
 
 #### 11.6.6 Guttation
 
-![](/books/biology/unit-5/25.png)
+![](/books/biology/unit-5/transports-in-plants/25.png)
 
 **Figure 11.18:** Structure of Hydathode
 
@@ -1489,7 +1489,7 @@ through the xylem portion of the twig. Thus,
 the rate of water absorption is equal to the
 rate of transpiration.
 
-![](/books/biology/unit-5/26.png)
+![](/books/biology/unit-5/transports-in-plants/26.png)
 
 **Figure 11.19:** Ganongs Potometer
 
@@ -1549,7 +1549,7 @@ phloem.
 
 #### 11.7.2 Ringing or girdling experiment
 
-![](/books/biology/unit-5/27.png)
+![](/books/biology/unit-5/transports-in-plants/27.png)
 
 **Figure 11.20:** Ringing experiment
 
@@ -1602,7 +1602,7 @@ leaves, germinating seeds.
 which receives food from source.Example:
 Roots, tubers, developing fruits and immature
 leaves (Figure 11.21).
-![](books/biology/unit-5/28.png)
+![](books/biology/unit-5/transports-in-plants/28.png)
 
 **Figure 11.21:** Source and Sink
 
@@ -1627,7 +1627,7 @@ iii. From sieve tube to sink by
 
 {{<box titile=" ">}}
 
-![](/books/biology/unit-5/29.png)
+![](/books/biology/unit-5/transports-in-plants/29.png)
 
 **Why plants transport
 sugars as sucrose and
@@ -1714,7 +1714,7 @@ involved in this hypothesis can be explained
 by a simple physical system as shown
 in figure 11.22.
 
-![](books/biology/unit-5/30.png)
+![](books/biology/unit-5/transports-in-plants/30.png)
 
 **Figure 11.22:** A model demonstrating
 the Mass flow hyphothesis
@@ -1832,7 +1832,7 @@ acid exchange.
 
 **i. Contact exchange Theory**
 
-![](/books/biology/unit-5/31.png)
+![](/books/biology/unit-5/transports-in-plants/31.png)
 
 **Figure 11.23:** Contact Exchange theory
 
@@ -1858,7 +1858,7 @@ adsorbed on clay particles and the cations from
 micelles get released into soil solution and gets
 adsorbed on root cells (Figure 11.24).
 
-![](books/biology/unit-5/32.png)
+![](books/biology/unit-5/transports-in-plants/32.png)
 
 **Figure 11.24:** Carbonic Acid
 Exchange theory
@@ -1889,7 +1889,7 @@ breaks apart releasing ions into cell while
 carrier goes back to the outer surface to pick
 up fresh ions (Figure 11.25).
 
-![](books/biology/unit-5/33.png)
+![](books/biology/unit-5/transports-in-plants/33.png)
 
 **Figure 11.25:** Carrier Concept
 
@@ -1924,7 +1924,7 @@ oxidase and are transferred to other members
 of chain as they transfer the electron to the
 next component (Figure 11.26).
 
-![](books/biology/unit-5/34.png)
+![](books/biology/unit-5/transports-in-plants/34.png)
 
 **Figure 11.26:** Cytochrome Pump theory
 
@@ -1955,7 +1955,7 @@ gets regenerated from **phosphatidic acid** and
 acetylase and choline esterase (Figure 11.27).
 ATP is required for regeneration of lecithin.
 
-![](/books/biology/unit-5/35.png)
+![](/books/biology/unit-5/transports-in-plants/35.png)
 
 **Figure 11.27:** Protein-Lecithin theory
 
@@ -2072,7 +2072,7 @@ the field is thoroughly irrigated. Explain
 Evaluation
 7. How phosphorylase enzyme open the
 
-![](/books/biology/unit-5/36.png)
+![](/books/biology/unit-5/transports-in-plants/36.png)
 
 stomata in starch sugar interconversion
 theory?
@@ -2103,7 +2103,7 @@ Give reasons
         Membrane Transport
 
 Lets Play with Membrane Proteins
-  ![](/books/biology/unit-5/37.png)
+  ![](/books/biology/unit-5/transports-in-plants/37.png)
 
 #### Steps
 
@@ -2122,7 +2122,7 @@ Method 2: Through Google – Open PhET by typing PhET<br>
 • Use leakage channel and gated channel in closed and open position and observe
 the molecules movement.
 
-![](/books/biology/unit-5/38.png)
+![](/books/biology/unit-5/transports-in-plants/38.png)
 
 **URL:**
 <https://phet.colorado.edu/>
