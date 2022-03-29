@@ -667,7 +667,12 @@ membrane (Figure 11.9).
 
 {{</box>}}
 
-////Table....
+| Table 11.2: Difference between plasmolysis types.<br>  	|  	|  	|
+|---	|---	|---	|
+|       Incipient plasmolysis 	|         Evident plasmolysis 	| Final plasmolysis 	|
+| No morphological symptoms<br>appear in plants.<br> 	| Wilting of leaves appear. 	| Severe wilting and drooping<br>of leaves appear. 	|
+| The plasma membrane<br>separates only at the corner<br>from the cell wall of cells.<br> 	| Plasma membrane completely<br>detaches from the cell wall. 	| Plasma membrane<br>completely detaches from<br>cell wall with maximum<br>shrinkage of volume. 	|
+| It is reversible. 	| It is reversible.<br> 	| It is irreversible. 	|
 
 
 
@@ -831,7 +836,14 @@ path of water may be symplastic or apoplastic.
 It accounts for about 98% of the total water
 uptake by plants.
 
-//////Table
+| Table: 11.3     Differences between Active<br>     Absorption and Passive Absorption  	|  	|
+|---------|------------	|
+|         Active<br>    Absorption 	|         Passive <br>     Absorption 	|
+| Active absorption <br>takes place by the <br>activity of root and root hairs 	| The pressure for<br>absorption is notdeveloped in <br>rootsand <br>hence roots play<br>passive role 	|
+| Transpiration has no effect on active<br>absorption 	| Absorption regulated<br>by transpiration 	|
+| The root hairs<br>have high DPD<br>as compared to<br>soil solution and<br>therefore water is<br>taken by tension 	| The absorption<br>occurs due to tension<br>created in xylem sap<br>by transpiration pull,thus water <br>is sucked in by tension 	|
+| Respiratory energy needed 	| Respiratory energy not required 	|
+| It involves symplastic<br>movement of water 	| Both symplast and apoplast movement of<br>water involved 	|
 
 #### 11.5 Ascent of Sap
 In the last chapter, we studied about water
@@ -1275,7 +1287,7 @@ ii. Accumulation of CO 2 in cell lowers
 the pH level.
 iii. Low pH and a shortage of water in
 the guard cell activate the stress hormone
-**Abscisic acid **(ABA).
+**Abscisic acid**(ABA).
 iv. ABA stops further entry of K + ions and
 also induce K + ions to leak out to subsidiary
 cells from guard cell.
