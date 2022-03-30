@@ -261,7 +261,7 @@ cell walls.
 both solvent and solute molecules through
 them.**Example:** Cellulosic cell wall.
 **Semi permeable:** Semi permeable
-allow diffusion of solvent molecules
+allow diffusion of solvent molecule
 but do not allow the passage of solute
 molecule. **Example:** Parchment paper.
 **Selectively permeable:** All bio
