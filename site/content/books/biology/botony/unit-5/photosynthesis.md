@@ -849,7 +849,7 @@ of 3-carbon compound phospho glyceric acid
 (PGA) (Figure 13.17).<br>
 RUBP + CO2 ---Rubisco--->  2 molecules PGA
 
-![](/books/biology/unit-5/photosynthsis/22.png)<br>
+![](/books/biology/unit-5/photosynthesis/22.png)<br>
 **Figure 13.17:** Calvin cycle<br>
 
 #### Phase 2 – Glycolytic Reversal / Reduction <br>
@@ -860,7 +860,7 @@ acid is reduced to glyceraldehyde 3 Phosphate
 (G-3-P) by using the reducing power NADPH + H+ . Glyceraldehyde 3 phosphate is converted
 into its isomeric form di hydroxy acetone
 phosphate (DHAP).<br>
-![](/books/biology/unit-5/photosynthsis/23.png) <br>
+![](/books/biology/unit-5/photosynthesis/23.png) <br>
 #### Phase 3 – Regeneration <br>
 Regeneration of RUBP involves the formation
 of several intermediate compounds of 6-carbon,
@@ -870,9 +870,9 @@ and 2 NADPH + H+ , and for the fixation of 6
 CO2 requires 18 ATPs and 12 NADPH + H+
 during C3 cycle. One 6 carbon compound is the
 net gain to form hexose sugar. <br>
-![](/books/biology/unit-5/photosynthsis/24.png) <br>
+![](/books/biology/unit-5/photosynthesis/24.png) <br>
 {{<box title="">}}
-![](/books/biology/unit-5/photosynthsis/25.png) <br>
+![](/books/biology/unit-5/photosynthesis/25.png) <br>
 RUBISCO – RUBP
 Carboxylase
 Oxygenase
@@ -924,7 +924,7 @@ Fixation of CO 2 with minimal loss is due
 to absence of photorespiration. C 4 plants
 require 5 ATP and 2 NADPH + H+ to fix
 one molecule of CO 2 .<br>
-![](/books/biology/unit-5/photosynthsis/26.png)<br>
+![](![](/books/biology/unit-5/photosynthesis/26.png)<br>
 **Figure 13.18:** C 4 Cycle 
 
 #### 13.12.1 Stage: I Mesophyll Cells
@@ -960,7 +960,7 @@ anatomy).
 {{</box>}}<br>
 
 {{<box title ="">}}
-![](/books/biology/unit-5/photosynthsis/25.png)<br>
+![![](/books/biology/unit-5/photosynthesis/25.png)<br>
 **Kranz Anatomy:** It is the
 German term meaning
 a halo or wreath. In C4
@@ -1029,7 +1029,7 @@ decarboxylated into pyruvic acid resulting in
 the decrease of acidity. CO 2 thus formed enters
 into Calvin Cycle and produces carbohydrates
 (Figure13.19).<br>
-![](/books/biology/unti-5/photosynthesis/27.png) <br>
+![](/books/biology/unit-5/photosynthesis/27.png) <br>
 **Figure 13.19:** CAM cycle <br>
 
 #### 13.14 Photorespiration or C2 Cycle or Photosynthetic Carbon Oxidation (PCO) Cycle <br>
@@ -1073,7 +1073,7 @@ nucleotides.<br>
 2. It consumes excess NADH + H+ generated.<br>
 3. Glycolate protects cells from Photo
 oxidation.<br>
-![](/books/biology/unti-5/photosynthesis/28.png)<br>
+![](/books/biology/unit-5/photosynthesis/28.png) <br>
 **Figure 13.20:** Photorespiration <br>
 #### 13.15.2 Carbon Dioxide Compensation Point <br>
 When the rate of photosynthesis equals
@@ -1123,7 +1123,7 @@ temperature, water, mineral and pollutants.<br>
 **II. Internal factors:** Pigments, protoplasmic
 factor, accumulation of carbohydrates,
 anatomy of leaf and hormones.<br>
-![](/books/biology/unit-5/photosynthesis/29.png)<br>
+![](/books/biology/unit-5/photosynthesis/29.png) <br>
 **Figure 13.21:** Blackman’s Law of Limiting Factors <br>
 #### 13.15.1. External factors <br>
 **1. Light** <br>
@@ -1179,8 +1179,10 @@ spring photosynthesis is 75 o C. Whether high
 temperature or low temperature it will close
 the stomata as well as inactivate the enzymes
 responsible for photosynthesis (Figure 13.22).<br>
+
 ![](/books/biology/unit-5/photosynthesis/30.png) <br>
 **Figure 13.22:** Factors affecting Photosynthesis <br>
+
 **5. Water** <br>
 Photolysis of water provides electrons and
 protons for the reduction of NADP, directly.
@@ -1242,3 +1244,143 @@ three groups:<br>
 3.Purple non-sulphur bacteria. <br>
 **Example:**<br>
 *Rhodopseudomonas* and *Rhodospirillum*.<br>
+
+Test tube funnel experiment or
+Experiment to prove oxygen evolved
+during Photosynthesis <br>
+1.Place Hydrilla plant at the bottom of a
+beaker containing water.<br>
+2.Cover the plant with an inverted funnel.<br>
+3.Invert a test tube over the funnel.<br>
+4.Keep this setup in sunlight.<br>
+Note your observations (Figure 13.23).<br>
+![](/books/biology/unit-5/photosynthesis/31.png) <br>
+**Figure 13.23:** Test tube funnel experiment <br>
+#### Summary <br>
+Photosynthesis is an oxidation and reduction
+process. It has two phases: the light reaction
+and dark reaction. During light reaction
+water is oxidised to release O2 and during
+dark reaction CO2 is reduced to form sugars.
+Solar energy is trapped by pigment system
+I and pigment system II. P700 and P680
+act as reaction centres for PS I and PS II
+respectively. Splitting of water molecule
+(Photolysis) produces electrons, protons and
+oxygen. Photophosphorylation takes place
+through cyclic and non-cyclic mechanisms
+and generates energy and reducing power.
+Dark reaction or biosynthetic phase of
+photosynthesis use the products of light
+energy (ATP and NADPH + H+ ) and
+carbon dioxide is reduced to Carbohydrates.
+Carbon pathway in C 3 cycle has RUBP as
+the acceptor molecule and the first product
+is PGA (3C). Carbon pathway in C 4 plants
+involves mesophyll and bundle sheath cells,
+Kranz anatomy. Dimorphic chloroplast, no
+photorespiration, acceptor molecule as PEP
+and first product as OAA (4C) are some of
+the unique characters of C4 cycle. C2 Cycle
+or photorespiration is operated when less
+amount of CO2 is used for reduction and O2
+increases. Rubisco starts to play oxygenase
+role. Succulent and xerophytic plants show
+reverse stomatal rhythm as they open during
+night time and close during day time and
+follow CAM cycle. Night time produces
+malic acid and during day time malate
+is converted into pyruvate and produces
+CO 2 which is reduced to carbohydrates.
+Photosynthesis is affected by
+internal and external factors.
+Bacterial photosynthesis is the primitive type of
+photosynthesis and it involves only photosystem I.
+
+#### Evaluation <br>
+**1. Assertion (A):** Increase in Proton
+gradient inside lumen responsible for
+ATP synthesis <br>
+**Reason (R):** Oxygen evolving complex
+of PS I located on thylakoid membrane
+facing Stroma, releases H+ ions <br>
+a. Both Assertion and Reason are True.<br>
+b. Assertion is True and Reason is False.<br>
+c. Reason is True and Assertion is False.<br>
+d. Both Assertion and Reason are False.<br>
+**2.** Which chlorophyll molecule does not
+have a phytol tail? <br>
+a. Chl- a b. Chl-b c. Chl- c d. Chl -d  <br>
+**3.** The correct sequence of flow of
+electrons in the light reaction is <br>
+a. PS II, plastoquinone, cytochrome,
+PS I, ferredoxin.<br>
+b. PS I, plastoquinone, cytochrome,
+PS II ferredoxin.<br>
+c. PS II, ferredoxin, plastoquinone,
+cytochrome, PS I.<br>
+d. PS II, plastoquinone, cytochrome,
+PS II, ferredoxin.<br>
+**4.** For every CO 2 molecule entering the C 3
+cycle, the number of ATP & NADPH
+required <br>
+a. 2ATP 1 2NADPH <br>
+b. 2ATP 1 3NADPH <br>
+c. 3ATP 1 2NADPH <br>
+d. 3ATP 1 3NADPH <br>
+**5.** Identify true statement regarding light
+reaction of photosynthesis. <br>
+a. Splitting of water molecule is
+associate with PS I.<br>
+b. PS I and PS II involved in the
+formation of NDPH1H 1.<br>
+c. The reaction center of PS I is
+Chlorophyll a with absorption peak
+at 680 nm.<br>
+d. The reaction center of PS II is
+Chlorophyll a with absorption peak
+at 700 nm.<br>
+**6.** Two groups (A & B) of bean plants of
+similar size and same leaf area were
+placed in identical conditions. Group
+A was exposed to light of wavelength <br>
+400-450nm & Group B to light of
+wavelength of 500-550nm. Compare
+the photosynthetic rate of the 2 groups
+giving reasons.<br>
+**7.** A tree is believed to be releasing oxygen
+during night time. Do you believe the
+truthfulness of this statement? Justify
+your answer by giving reasons.<br>
+**8.** Grasses have an adaptive mechanism
+to compensate photorespiratory losses-
+Name and describe the mechanism.<br>
+**9.** In Botany class, teacher explains,
+Synthesis of one glucose requires
+30 ATPs in C 4 plants and only 18 ATPs
+in C 3 plants. The same teacher explains
+C 4 plants are more advantageous than
+C 3 plants. Can you identify the reason
+for this contradiction?<br>
+10.When there is plenty of light and
+higher concentration of O 2 , what
+kind of pathway does the plant
+undergo?Analyse the reasons.<br>
+
+{{<box title="ICT Corner">}}
+![](/books/biology/unit-5/photosynthesis/32.png)  
+**Steps** <br>
+• Scan the QR code <br>
+• Start a new game and tap <br>
+• Click light dependent reaction and follow the steps <br>
+• After completion – move back and Click Calvin cycle reaction and
+  follow the steps  <br>
+#### Activity
+• Observe the cycle and record it • Check your grasp by click the Quiz tap  • Conclude your observations. <br>
+![](/books/biology/unit-5/photosynthesis/33.png) <br>
+**Web URL :** <br>
+<https://biomanbio.com/HTML5GamesandLabs/PhotoRespgames/­photointeractivehtml5page.html>
+
+
+* Pictures are indicative only
+{{</box >}}
