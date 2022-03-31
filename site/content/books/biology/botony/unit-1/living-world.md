@@ -2108,7 +2108,55 @@ the Gram positive bacteria
 
 10. Give a general account on lichens.
 
-![Living World](/books/biology/unit-1/the-living-world/Fig.ict.eng.png )
+
+
+
+
+{{< box title="ICT corner" type="objective" >}}
+
+**Bacteria**
+
+Let’s explore the structure
+and shapes of **Bacteria**.
+
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.ict1.eng.png )
+
+##### Steps
+
+• Scan the QR code or go to google play store and type bacteria interactive
+educational VR 3D
+
+
+• Download the app and install it
+
+
+• Follow the above steps and explore the interactives of each part and its functions.
+
+
+##### Activity
+
+• Select structure tap and note the internal structure of bacteria
+
+
+• Click cell wall and note the difference between different shapes
+
+
+
+
+![Living World](/books/biology/unit-1/the-living-world/Fig.ict2.eng.png )
+
+
+URL:
+
+<https://play.google.com/store/apps/details?id=com.rendernet.bacteria&hl=en>
+
+
+
+* Pictures are indicative only
+
+{{</box>}}
+
 
 
 
