@@ -1570,14 +1570,14 @@ are same?
 
 
 
-**URL**:
+**URL**
 
-[Hyperlink](https://play.google.com/store/apps/details?id=in.edu.olabs.olabs&hl=en)
+<https://play.google.com/store/apps/details?id=in.edu.olabs.olabs&hl=en>
 
 
 **Alternate web**:
 
-[plant life cycle](http://www.phschool.com/atschool/phbio/active_art/plant_life_cycle/plantlifecycle.swf)
+<http://www.phschool.com/atschool/phbio/active_art/plant_life_cycle/plantlifecycle.swf>
 
 * Pictures are indicative only
 
