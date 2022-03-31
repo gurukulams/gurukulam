@@ -726,7 +726,7 @@ there is availability of NADP 1 for reduction
 and when there is splitting of water molecules
 both PS I and PS II are activated (Table 13.3).
 
-![](/books/biology/unit-5/photosynthesis/18.png)<br>
+![](/books/biology/unit-5/photosynthesis/19.png)<br>
 **Figure 13.14:** Non-Cyclic Photophosphorylation <br>
 
 #### 13.10.3 Bio energetics of light reaction
