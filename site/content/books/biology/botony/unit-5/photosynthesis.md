@@ -1368,6 +1368,7 @@ kind of pathway does the plant
 undergo?Analyse the reasons.<br>
 
 {{<box title="ICT Corner">}}
+ **Photosynthesis**
 ![](/books/biology/unit-5/photosynthesis/32.png)  
 **Steps** <br>
 • Scan the QR code <br>
