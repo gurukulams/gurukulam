@@ -78,8 +78,10 @@ class Core {
         var myDropDownEla = document.querySelector("#dropdownMenuButton1 > a");
         if (response == undefined) {
           myDropDownEla.innerText = "-";
+          document.getElementById("subjectList").style.visibility = "hidden";
         } else if (response.length == 1) {
           myDropDownEla.innerText = response[0].title;
+          document.getElementById("subjectList").style.visibility = "visible";
         } else {
           var ulEl = document.createElement("ul");
           ulEl.classList.add("dropdown-menu");
@@ -90,6 +92,8 @@ class Core {
           response.forEach((item) => {
             ulEl.appendChild(this.createSpanElement(item));
           });
+
+          ulEl.firstChild.click();
         }
       });
 
@@ -117,7 +121,13 @@ class Core {
 
     liEl.addEventListener("click", () => {
       document.querySelector("#dropdownMenuButton1 > a").innerText = item.title;
-      document.querySelector("#dropdownMenuButton1 > ul").removeChild(liEl);
+      document
+        .querySelectorAll("#dropdownMenuButton1 > ul > li")
+        .forEach((el) => {
+          el.style.display = "block";
+        });
+
+      liEl.style.display = "none";
     });
     return liEl;
   }
