@@ -283,22 +283,54 @@ develop from the base of the stem or nodes or
 internodes. Example: *Monstera deliciosa*, *Piper*
 *nigrum*. In most of the monocots the primary
 root of the seedling is short lived and lateral
-
-
-
-tables
-
-
-
-
-
-
-
 roots arise from various regions of the plant
 body. These are bunch of thread-like roots
 nearly equal in size which are collectively called
 **fibrous** root system generally found in grasses.
 Example: *Oryza sativa, Eleusine coracana*.
+
+
+
+
+
+| **Table 3.1: Root zones** 	|  	|  	|  	|
+|---	|---	|---	|---	|
+| **Feature** 	| **1. Meristematic Zone<br>Feature<br>(Region of cell division)** 	| **2. Zone of Elongation** 	| **3. Zone of Maturation** 	|
+| **Position** 	| It lies just above the root<br>cap 	| It lies just above the<br>meristematic zone 	| It lies above the zone of elongation. 	|
+| **Types of cells** 	| Meristematic cells, actively<br>divide and continuously<br>increase in nnumber 	| Elongated cells 	| Mature differentiated cells 	|
+| **Functions** 	| This is the main growing<br>tip of the root 	| The cells increase the length<br>and cause enlargement of root 	| The cells differentiate into various tissues like<br>epidermis, cortex and<br>vascular bundles. It also<br>produces root hairs which<br>absorb water and minerals<br>from the soil 	|
+
+
+```goat
+
+
+                    Root Modification                        
+                          . 
+                          | 
+                      .---+------------------.  
+                      |                      |       
+Tap root modifications          Adventitious root modifications    
+     .                                                  .
+     |                                                  |
+ .---+----.                 .----------------.----------+----------------.                                 
+ |        |                 |                |                           |   
+Storage   Breathing   Storage        Mechanical support              Vital function  
+ .                        .                       .                      .
+ |                        |                       |                      |
+ i.conical          i.Tuberous root             i.Prop root        i.Epiphytic root
+ii.Fusiform       ii.Fasciculated root         ii.Stilt root      ii.Foliar root
+iii.Napiform      iii.Nodulose root           iii.Climbing root  iii.Sucking root
+                 iv.Moniliform root            iv.Buttress root   iv.Photosynthetic root
+                  v Annulated root
+
+
+                                        
+```
+
+
+
+
+
 
 ##### 3.5.2 Functions of root
 
@@ -858,7 +890,44 @@ Example: *Asparagus* (cylindrical cladode),
 *Ruscus *(flattened cladode).
 
 
-flowchart
+```goat
+    
+             
+             Stem modification
+    .--------.-----.-------------.                        
+    |        |     |             |
+Aerial       |   Sub-Aerial      Underground
+modification |   modification    modification
+             |       .                    .
+             |       |                    |
+             | .-----.------.-------.     | 
+             | |     |      |       |     |
+             |Runner Stolon Sucker offset | 
+             |                            |
+             |                            |
+             |       .------.-------.-----.
+             |       |      |       |     |
+             |       Bulb Corm   Rhizome  Tuber
+             |
+             |
+             |
+             |
+.------------.------.-------.-----------.--------.
+|            |      |       |           |        |
+Creepers   Trailer Climber Phylloclade Cladode  Thorns   
+             .         .
+             |         |
+      Procumbent   Root climber
+      Decumbent    Stem climber (Twiner)
+      Diffuse      Tendril climber
+                   Hook climber
+                   Lianas
+                   Thorn climber
+
+
+
+```
+
 
 
 
@@ -1302,19 +1371,169 @@ rice, water hyacinth.
 
 ##### 3.7.3 Phyllotaxy
 
+The mode of arrangement
+of leaves on the stem is
+known as **phyllotaxy** **(Gk**.
+**Phyllon = leaf** ; **taxis =**
+**arrangement**). Phyllotaxy
+is to avoid over crowding of leaves and
+expose the leaves maximum to the sunlight
+for photosynthesis. The four main types of
+phyllotaxy are (1) Alternate (2) Opposite (3)
+Ternate (4) Whorled.
 
 
+**1. Alternate phyllotaxy**
 
 
+In this type there is only one leaf per node and
+the leaves on the successive nodes are arranged
+alternate to each other. Spiral arrangement
+of leaves show vertical rows are called
+**orthostichies**. They are of two types.
 
 
+a) **Alternate spiral**: In which the leaves are
+arranged alternatively in a spiral manner.
+Example: *Hibiscus, Ficus*.
 
 
+b) **Alternate distichous** or **Bifarious**: In which
+the leaves are organized alternatively in two
+rows on either side of the stem. Example:
+*Monoon longifolium (Polyalthia longifolia)*.
 
+**2. Opposite phyllotaxy**
+
+
+In this type each node possess two leaves
+opposite to each other. They are organized in
+two different types.
+
+
+i. **Opposite superposed**: The pair of leaves
+arranged in succession are in the same
+direction, that is two opposite leaves
+at a node lie exactly above those at the
+lower node. Example: *Psidium* (Guava),
+*Quisqualis* (Rangoon creeper).
+
+ii. **Opposite decussate**: In this type of
+phyllotaxy one pair of leaves is placed at
+right angles to the next upper or lower pair
+of leaves. Example: *Calotropis, Ocimum*
+
+
+**3. Ternate phyllotaxy**
+
+In this type there are three leaves attached at
+each node. Example: *Nerium*
+
+**4. Whorled (verticillate) type of phyllotaxy**
+
+In this type more than three leaves are present
+in a whorl at each node forming a circle or
+whorl. Example: *Allamanda*.
+
+
+##### 3.7.4 Leaf mosaic
+
+In leaf mosaic leaves tend to fit in with one
+another and adjust themselves in such a
+way that they may secure the maximum
+amount of sunlight with minimum amount
+of overlapping. The lower leaves have longer
+petioles and successive upper leaves possess
+shorter petioles. Example: *Acalypha*.
+
+
+##### 3.7.5 Leaf type
+
+The pattern of division of a leaf into discrete
+components or segments is termed leaf type.
+Based on the number of segments.
+
+
+##### I. Simple leaf
+
+
+A leaf is said to be simple when the petiole
+bears a single lamina; lamina may be entire
+(undivided) Example: Mango or incised to
+any depth but not upto the midrib or petiole.
+Example: *Cucurbita*.
 
 
 
 ![vegetative-morphology](/books/biology/unit-2/vegetative/Fig3.14.eng.png )
+
+
+##### II. Compound leaf
+
+
+Compound leaf is one in which the main
+rachis bears more than one lamina surface,
+called **leaflets**. Compound leaves have evolved
+to increase total lamina surface. There is one
+axillary bud in the axil of the whole compound
+leaf. The leaflets however, do not possess
+axillary buds.
+
+
+**1. Pinnately compound leaf**
+
+
+A pinnately compound leaf is defined as one
+in which the rachis, bears laterally a number
+of leaflets, arranged alternately or in an
+opposite manner, as in Tamarindus, *Cassia*.
+
+
+i. **Unipinnate**: The rachis is simple and
+unbranched which bears leaflets directly
+on its sides in alternate or opposite manner.
+Example: *Rose, Neem*. Unipinnate leaves
+are of two types.
+
+ a. when the leaflets are even in number,
+ the leaf is said to be **paripinnate**.
+Example: *Tamarindus*.
+
+b. when the leaflets are odd in number,
+the leaf is said to be **imparipinnate**.
+Example: *Azadirachta* (Neem).
+
+
+ii. **Bipinnate**: The primary rachis produces
+secondary rachii which bear the leaflets.
+The secondary rachii are known as **pinnae**.
+Number of pinnae varies depending on
+the species. Example: *Delonix*.
+
+iii. **Tripinnate**: When the rachis branches
+thrice the leaf is called **tripinnate**. (i.e) the
+secondary rachii produce the tertiary rachii
+which bear the leaflets. Example: *Moringa*.
+
+
+iv. **Decompound**: When the rachis of leaf
+is branched several times it is called
+**decompound**. Example: *Daucus carota*,
+*Coriandrum sativum*
+
+
+**2. Palmately compound leaf**
+
+
+A palmately compound leaf is defined as one
+in which the petiole bears terminally, one or
+more leaflets which seem to be radiating from
+a common point like fingers from the palm.
+
+
+i. **Unifoliolate**: When a single leaflet is
+articulated to the petiole is said to be
+unifoliolate. Example: *Citrus*.
 
 
 
@@ -1322,6 +1541,120 @@ rice, water hyacinth.
 
 
 ![vegetative-morphology](/books/biology/unit-2/vegetative/Fig3.16.eng.png )
+
+
+
+
+**ii. Bifoliolate**: When there are two leaflets
+articulated to the petiole it is said to be
+bifoliolate. Example: *Zornia diphylla*
+
+
+**iii. Trifoliolate**: There are three leaflets
+articulated to the petiole it is said to be
+trifoliolate. Example: wood apple (*Aegle*
+*marmelos*), Clover (*Trifolium*).
+
+
+**iv. Quadrifoliolate**: There are four leaflets
+articulated to the petiole it is said to
+be quadrifoliolate. Example: *Paris*
+*quadrifolia, Marsilia*
+
+
+**v. Multifoliolate or digitate**: Five or more
+leaflets are joined and spread like fingers
+from the palm, as in *Cleome pentaphylla*,
+*Bombax ceiba*
+
+
+##### 3.7.6 Modification of Leaf
+
+
+The main function of the leaf is food
+preparation by photosynthesis. Leaves
+modified to perform some specialized
+functions. They are described below.
+
+
+##### I. Leaf tendrils
+
+
+In some plants stem is very weak and
+hence they have some special organs for
+attachment to the support. So some leaves
+are partially or wholly modified into tendril.
+Tendril is a slender wiry coiled structure
+which helps in climbing the support. Some
+of the modification of leaf tendrils are given
+below:
+
+
+Entire leaf—*Lathyrus*, stipules—*Smilax*,
+terminal leaflet—*Naravelia*, Leaf tip— *Gloriosa*,
+Apical leaflet—*Pisum*, petiole— *Clematis*.
+
+
+##### II. Leaf hooks
+
+
+In some plants, leaves are modified into
+hook-like structures and help the plant to
+climb. In cat,s nail (*Bignonia unguis-cati*)
+an elegant climber, the terminal leaflets
+become modified into three, very sharp,
+stiff and curved hooks, very much like the
+nails of a cat. These hooks cling to the bark
+of a tree and act as organs of support for
+climbing. The leaf spines of *Asparagus* also
+act as hooks.
+
+
+![vegetative-morphology](/books/biology/unit-2/vegetative/Fig3.17a.eng.png )
+
+
+
+##### III. Leaf Spines and Prickles
+
+
+Leaves of certain plants develop spinesent
+structures. Either on the surface or on the
+margins as an adaptation to herbivory
+and xeric conditions. Example: *Zyzypus*
+*Argemone mexicana* (Prickly poppy),
+*Solanum trilobatum*. In xerophytes such as
+*Opuntia* (Prickly pear) and *Euphorbia* leaves
+and stipules are modified into spines.
+
+
+Prickles are small, sharp structure which
+are the outgrowths from epidermal cells of
+stem or leaf. It helps the plant in scrambling
+over other plants. It is also protective against
+herbivory. Example: *Rosa spp*.
+
+
+##### IV. Storage Leaves
+
+
+Some plants of saline and xerophytic habitats
+and members of the family Crassulaceae
+commonly have fleshy or swollen leaves.
+These succulent leaves store water, mucilage
+or food material. Such storage leaves
+resist desiccation. Example: *Aloe, Agave*,
+*Bryophyllum*
+
+##### V. Phyllode 
+
+
+Phyllodes are flat, green-coloured leaf-
+like modifications of petioles or rachis.
+The leaflets or lamina of the leaf are highly
+reduced or caducous. The phyllodes perform
+photosynthesis and other functions of leaf.
+Example: *Acacia auriculiformis* (Australian
+Acacia), *Parkinsonia*.
 
 
 
@@ -1334,7 +1667,263 @@ rice, water hyacinth.
 
 
 
+##### VI. Pitcher
 
+
+The leaf becomes modified into a pitcher in
+*Nepenthes* and *Sarracenia*. In *Nepenthes* the
+basal part of the leaf is laminar and the midrib
+continues as a coiled tendrillar structure.
+The apical part of the leaf is modified into a
+pitcher the mouth of the pitcher is closed by
+a lid which is the modification of leaf apex.
+
+
+##### VII. Bladder
+
+In bladderwort (*Utricularia*), a rootless free-
+floating or slightly submerged plant common
+in many water bodies, the leaf is very much
+segmented. Some of these segments are
+modified to form ­bladder-like structures,
+with a trap-door entrance that traps aquatic
+animalcules.
+
+##### VIII Floral leaves
+
+Floral parts such as sepals, petals, stamens
+and carpels are modified leaves. Sepals
+and petals are leafy. They are protective
+in function and considered non-essential
+reproductive parts. Petals are usually
+coloured which attract the insects for
+pollination. Stamens are considered pollen
+bearing microsporophylls and carpels are
+ovule bearing megasporophylls.
+
+
+##### 3.7.7 Leaf duration
+
+
+Leaves may stay and function for few days
+to many years, largely determined by the
+adaptations to climatic conditions.
+
+
+**Caducuous (Fagacious)**
+Falling off soon after formation. Example:
+*Opuntia*, *Cissus quadrangularis*.
+
+**Deciduous**
+
+
+Falling at the end of growing season so that
+the plant (tree or shrub) is leafless in winter/
+summer season. Example: *Maple, Plumeria*,
+*Launea, Erythrina*.
+
+
+**Evergreen**
+
+
+Leaves persist throughout the year, falling
+regularly so that tree is never leafless. Example:
+*Mimusops, Calophyllum*.
+
+
+**Marcescent**
+
+
+Leaves not falling but withering on the plant as
+in several members of Fagaceae.
+
+
+#### Summary
+
+
+Flowering plants consist of two major organ
+systems: Underground root system and aerial
+shoot system. Roots perform the functions of
+anchoring and absorbing nutrients from the
+soil. However some roots perform additional
+functions for which they undergo various
+modifications in shape, form and structure.
+Tap root continue the growth from the radicle
+which further branches into secondary roots.
+Adventitious roots arise from different parts
+of the plant other than radicle. Stem helps to
+display the leaves to get maximum sunlight
+and positioning flowers and fruits to attract
+pollination and dispersal agents. Apart from
+the normal functions the stems are modified
+to perform various functions such as food
+storage, perennation and protection. Leaves
+are exogenous in origin and function as food
+synthesizing and gaseous exchange sites. Some
+leaves also perform additional functions for
+which they are modified in their morphology
+Leaves possess vascular tissues in the form of
+veins which render support to the lamina and
+help in transport of water, nutrients and food in
+and out of leaves. Phyllotaxy is the arrangement
+or distribution of leaves on the stem or its
+branches in such a way that they receive
+maximum sunlight to perform photosynthesis.
+
+
+
+{{< box title="Activity" type="objective">}}
+
+
+1. Collection of medicines prepared
+from root, stem, leaf of organic plants.
+2. Prepare a report of traditional
+medicines.
+3. Classroom level exhibition on Siddha
+and Ayurvedic medicine prepared
+from root, leaf, stem.
+4. Growing micro greens in class room
+– project work. (Green seed sprouts)
+
+{{</box>}}
+
+
+##### Evaluation
+
+1.Which of the following is
+polycarpic plant?
+
+     a. Mangifera
+
+     b. Bambusa
+
+     c. Musa
+
+     d. Agave
+
+
+2. Roots are
+
+
+    a. Descending, negatively
+geotropic, positively phototropic
+
+    b.Descending, positively geotropic,
+negatively phototropic
+
+    c.Ascending, positively geotropic,
+negatively phototropic
+
+    d.Ascending, negatively geotropic,
+positively phototropic    
+
+
+3.	Bryophyllum and Dioscorea are example for
+
+    a. Foliar bud, apical bud
+
+    b. Foliar bud, cauline bud
+
+    c. Cauline bud, apical bud
+
+    d. Cauline bud, foliar bud
+
+
+4.	Which of the following is the correct
+statement?
+
+    a.	In Pisum sativum leaflets modified into
+tendrils
+
+    b.	In Atalantia terminal bud is modified
+into thorns
+
+    c.	In Nepenthes midrib is modified into lid
+
+    d.	In Smilax inflorescence axis is modified
+into tendrils
+
+
+5. Select the mismatch pair
+
+
+    a. Musa- Unicostate
+
+    b. Lablab- Trifoliolate
+
+    c. Acalypha- Leaf mosaic
+
+    d. Allamanda - Ternate phyllotaxy
+
+
+6. Draw and label the parts of regions of root.
+
+7.Write the similarities and differences
+between
+
+   1. Avicennia and Trapa
+
+
+   2. Radical buds and foliar buds
+
+
+   3. Phylloclade and cladode
+
+
+8.How root climbers differ from stem
+climbers?
+
+9.Compare sympodial branching
+monopodial branching.
+
+10.Differentiate pinnate unicostate
+palmate multicostate venation 
+
+
+
+{{< box title="ICT Corner">}}
+
+**Monocot and Dicot plants**
+
+![vegetative-morphology](/books/biology/unit-2/vegetative/Figict1.eng.png ) &rarr; ![vegetative-morphology](/books/biology/unit-2/vegetative/Figict2.eng.png )
+
+
+##### Steps
+
+• Scan the QR code or go to google play store
+
+• Type online labs and install it.
+
+• Select biology and select Characteristics of plants
+
+• Click theory to know the basic about Characteristics of plants
+
+• Register yourself with mail-id and create password to access online lab simulations
+
+##### Activity
+
+• Select video and record your observations of different forms of plant group.
+
+
+![vegetative-morphology](/books/biology/unit-2/vegetative/Figict3.eng.png )
+ 
+
+ URL:
+
+ <https://play.google.com/store/apps/details?id=in.edu.olabs.olabs&hl=en>
+
+
+ * Pictures are indicative only
+
+
+{{</box>}}
+
+
+
+
+
+
+                            
 
 
 
