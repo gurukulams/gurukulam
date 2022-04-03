@@ -25,7 +25,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="subjectList">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
@@ -65,17 +65,14 @@
             
               <div class="d-flex bd-highlight">
                 <div class="w-100 bd-highlight text-end">
-                  <div class="dropdown">
-                    <a href="javascript://" class="text-decoration-none h6 fw-bold" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                      தமிழக பள்ளிக் கல்வி
+                  <div class="dropdown" id="dropdownMenuButton1">
+                    <a href="javascript://" class="text-decoration-none h6 fw-bold"  data-bs-toggle="dropdown" aria-expanded="false">
+                      Board
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><span class="dropdown-item">தமிழ்ச்சங்கம்</span></li>
-                      <li><span class="dropdown-item">TECH@PARK</span></li>
-                    </ul>
+                  
                   </div>
                   
-                  <small class="text-muted">11 ம் வகுப்பு</small>
+                  <small class="text-muted">11 Standard</small>
                 </div>
                 <a class="btn btn-toggle pe-0" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="flex-shrink-1 bd-highlight dropdown">

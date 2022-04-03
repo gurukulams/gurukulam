@@ -57,6 +57,46 @@ class Core {
       // setTimeout(() => toastElement.remove(), delay + 3000); // let a certain margin to allow the "hiding toast animation"
     };
 
+    fetch("/api/board", {
+      headers: {
+        "content-type": "application/json",
+        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+      },
+    })
+      .then((response) => {
+        if (response.status === 200) {
+          return response.json();
+        } else if (response.status === 204) {
+          return response.json();
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      })
+      .then((response) => {
+        var myDropDownEl = document.getElementById("dropdownMenuButton1");
+        var myDropDownEla = document.querySelector("#dropdownMenuButton1 > a");
+        if (response == undefined) {
+          myDropDownEla.innerText = "-";
+          document.getElementById("subjectList").style.visibility = "hidden";
+        } else if (response.length == 1) {
+          myDropDownEla.innerText = response[0].title;
+          document.getElementById("subjectList").style.visibility = "visible";
+        } else {
+          var ulEl = document.createElement("ul");
+          ulEl.classList.add("dropdown-menu");
+          ulEl.setAttribute("aria-labelledby", "dropdownMenuButton1");
+          ulEl.innerHTML = "";
+
+          myDropDownEl.appendChild(ulEl);
+          response.forEach((item) => {
+            ulEl.appendChild(this.createSpanElement(item));
+          });
+
+          ulEl.firstChild.click();
+        }
+      });
+
     window.success = (statusMessage) => {
       showStatus("success", statusMessage);
     };
@@ -72,6 +112,24 @@ class Core {
     window.info = (statusMesaage) => {
       showStatus("info", statusMesaage);
     };
+  }
+
+  createSpanElement(item) {
+    let liEl = document.createElement("li");
+    liEl.dataset.id = item.id;
+    liEl.innerHTML = `<span class="dropdown-item">${item.title}</span>`;
+
+    liEl.addEventListener("click", () => {
+      document.querySelector("#dropdownMenuButton1 > a").innerText = item.title;
+      document
+        .querySelectorAll("#dropdownMenuButton1 > ul > li")
+        .forEach((el) => {
+          el.style.display = "block";
+        });
+
+      liEl.style.display = "none";
+    });
+    return liEl;
   }
 }
 

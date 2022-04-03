@@ -8,68 +8,57 @@ extensions:
 ---
 
 
-வரிசை மாற்றம் என்றால் என்ன?  
+What is a permutation ?
 
-வரிசை மாற்றங்களை பல்வேறு சூழல்களில் எதிர்கொள்கிற�ோம்.
+Permuations come in various disguises.
 
-மூன்று நண்பர்கள் A, B மற்றும் C ஒரு புகைப்படம் எடுக்க வரிசையாக
-நிற்கவேண்டும். எத்தனை விதமான வரிசைகளில் நிற்கலாம்? இவை இடமிருந்து
-வலமாக கீழே தரப்பட்டுள்ளது.
+Suppose three friends A, B and C have to stand in line for a
+photograph. In how many order can they stand? Some of the possible arrangements (from left to right) are
 
 A, B, C : A, C, B : B, A, C
 
 B, C, A : C, A, B : C, B, A
 
-ஆகவே, மொத்தமாக புகைப்படம் எடுக்க 6 வழிகளில் தங்களுக்குள்
-வரிசையாக நிற்க வைக்கலாம்.
+Thus there are six possible ways in which they can arrange themselves for the photograph.
 
-ஆகவே, 3 பொருட்களை ஒரு வரிசையில் அடுக்க 3×2×1 = 3!வரிசை மாற்றங்கள் இருக்கும்.
-நான்கு பொருட்களை ஒரு சமயத்தில் எடுக்கும் போது கிடைக்கும் வரிசை மாற்றங்களின் எண்ணிக்கை
-4×3×2×1=4!ஆகும். எனவே, பொதுவாக n பொருட்களை ஒரு வரிசையில் அடுக்க மொத்தம்
-n×(n-1)×(n-2)×...×3×2×1 = n! வரிசை மாற்றங்கள் இருக்கும்.
+Thus if 3 objects have to be arranged in a row there are 3 × 2 × 1 = 3! possible permutations. The number of permutations of 4 objects taken all at a time is 4×3×2×1 = 4! Thus if n objects have to be arranged in a line there are n × (n − 1) × (n − 2) × · · · × 3 × 2 × 1 = n! possible arrangements or permutations.
 
-நம்மிடம் உள்ள A, B, C, D, E, F மற்றும் G என்ற 7 எழுத்துகளில் நாம் 4 எழுத்துகளை கொண்டு
-எழுத்துச் சரங்களை உருவாக்கும் போது, முதல் எழுத்தினை தேர்ந்தெடுக்க நம்மிடம் 7 வழிகள்
-உள்ளன. முதல் எழுத்தை தேர்ந்தெடுத்த பின்னர், நம்மிடம் இரண்டாம் இடத்திற்கு 6 எழுத்துகள்
-உள்ளன. இதுபோல தொடர, 4 ஆவது எழுத்திற்கு 4 வாய்ப்புகள் உள்ளன.
+Suppose you have 7 letters A,B,C,D,E,F and G. We want to make a 4 letter string. We have 7 choices for the 1st letter. Having chosen the first letter, we have 6 choices for the second letter. Proceeding this way, we have 4 choices for the 4th letter.
 
-எனவே, 7 எழுத்துகளில் இருந்து உருவாக்கப்படும் 4 எழுத்துச் சரங்களின் எண்ணிக்கை
+Hence, the number of permutations of 4 letters chosen from 7 letters is
 
 7×6×5×4=\\(\frac{7×6×5×4×3×2×1}{3×2×1}\\)=\\(\frac{7!}{3!}\\)=\\(\frac{7!}{(7-4)!}\\)
 
-பொதுவாக, n வெவ்வேறான பொருட்களில் இருந்து r பொருட்களை கொண்டு உருவாக்கும்
-வரிசை மாற்றங்களின் எண்ணிக்கை \\(\frac{n!}{(n-r)!}\\) இதனை குறியீட்டால் \\(^n P_r\\) என குறிக்கலாம்.இதற்கான முறையான நிரூபணத்தை இந்தப் பகுதியில் காண்போம்.
 
-**4.4.1 வெவ்வேறான பொருட்களின் மீதான வரிசை மாற்றங்கள் (Permutations of Distinct Objects)**
+More generally, the number of distinct permutations of r objects which can be made from n distinct
+objects is \\(\frac{n!}{(n-r)!}\\) . It is denoted by \\(^n P_r\\). The formal proof of this result will be proved in this section.
 
-சார்புகளின் வாயிலாக வரிசை மாற்றத்தை S = \\({x_1,x_2,....,x_n}\\) என்ற முடிவுற்ற கணத்திலிருந்து
-S-ன் மீதே வரையறுக்கப்பட்ட ஓர் இருபுற சார்பை ஓர் வரிசை மாற்றம் என வரையறுக்கலாம். S-ன்
-வரிசை மாற்றங்களின் எண்ணிக்கையும் S-ன் மீது வரையறுக்கப்பட்ட இருபுற சார்புகளின்
-எண்ணிக்கையும் சமம்.
+**4.4.1 Permutations of distinct objects**
 
-இந்த வரிசை மாற்றங்களின் எண்ணிக்கையை \\(^n P_r\\)என குறிக்கலாம்.
+In terms of function on any finite set say S = \\({x_1,x_2,....,x_n}\\), a permutation can be defined as a bijective mapping on the set S onto itself. The number of permutation on the set S is the same as the total number of bijective mappings on the set S.
 
-**தேற்றம் 4.1**
+We denote the number of permutations by \\(^n P_r\\).
 
-n, r ஆகியவை மிகை முழு எண்கள் மேலும் r  எனில், n\\(\le\\) nவெவ்வேறான பொருட்களில்
-இருந்து ஒரு சமயத்தில் r பொருட்களை கொண்டு உருவாக்கும் வரிசை மாற்றங்களின் எண்ணிக்கை
-n(n - 1)(n - 2)...(n - r + 1) ஆகும்.
+**Theorem 4.1**
 
-**நிரூபணம்**ஒரு வரிசை மாற்றம் என்பது வரிசையில் அமைத்தலாகும். n வெவ்வேறான
-பொருட்களிலிருந்து ஒரு சமயத்தில் r பொருட்களை கொண்டு உருவாக்கும் வரிசை மாற்றத்தினை,
-n பொருட்களை r இடங்களில் அமைத்து பெறலாம்.
-
-முதல் இடத்தை நிரப்ப n பொருட்கள் உள்ளன இரண்டாவது இடத்தை நிரப்புவதற்கு n - 1
-பொருட்கள் உள்ளன. மூன்றாம் இடத்தை நிரப்ப n - 2 பொருட்கள் உள்ளன. இதுபோல கடைசி வரை
-தொடர, அதாவது r ஆவது இடத்தை நிரப்ப (n - (r - 1)) பொருட்கள் உள்ளன. பெருக்கல் விதியின்
-படி நாம் \\(^n P_r\\) = n(n - 1)(n - 2)...(n - r + 1) எனப் பெறலாம்.
+If n, r are positive integers and r ≤ n, then the number of permutations of n distinct
+objects taken r at a time is n (n − 1) (n − 2) · · · (n − r + 1).
 
 
-**தேற்றம் 4.2**
+**Proof**
 
-n\\(\ge\\) 1 மற்றும் 0\\(\le\\) r \\(\le\\) n எனில்  \\(^n P_r\\)=\\(\frac{n!}{(n-r)!}\\)
+A permutation is an ordering. A permutation of n distinct objects taken r at a time is formed
+by filling of r positions, in a row with objects chosen from the given n distinct objects.
 
-**நிரூபணம் தேற்றம் 4.1** -லிருந்து,
+There are n objects that can be filled in the first position. For the second position there are remaining n − 1 objects. There are n − 2 objects for the third position. Continuing like this until finally we place one of the (n − (r − 1)) possible objects in the rth position. By the rule of product we conclude 
+
+n\\(^n P_r\\) =n(n−1)(n−2)···(n−r+1).
+
+
+**Theorem 4.2**
+If n\\(\ge\\) 1 , and 0\\(\le\\) r \\(\le\\) n , then \\(^n P_r\\)=\\(\frac{n!}{(n-r)!}\\)
+
+**Proof**
 
 \\(^n P_r\\)=n×(n-1)×(n-2)×...×(n-r+1)
 
@@ -77,10 +66,6 @@ n\\(\ge\\) 1 மற்றும் 0\\(\le\\) r \\(\le\\) n எனில்  \\(
 
 =\\(\frac{n!}{(n-r)!}\\)
 
-**குறிப்பு:** 
 
-குறிப்பாக எந்த ஒரு மிகை முழு எண் n மற்றும் குறையற்ற முழு எண் r-க்கும்,
-
-இதனை
 
 

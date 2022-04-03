@@ -116,3 +116,5 @@ src/js/practice/screens/QuestionScreen.js
 src/js/search/index.js
 src/js/search/Search.js
 package-lock.json
+
+pdfminer/samples
