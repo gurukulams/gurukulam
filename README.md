@@ -25,3 +25,9 @@ To download the dependencies and build
 To watch the application on your local browser
 
 > npm start
+
+### Document Converter
+
+> docker-compose up --build -d
+
+> docker run -ti -v `pwd`:/docs my-pdfminer:v1 pdf2txt.py -o pdfminer/samples/<<FILE>>.md pdfminer/samples/<<FILE>>.pdf
