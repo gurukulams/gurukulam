@@ -473,7 +473,31 @@ atmospheric nitrogen \\(N_2\\) into ammonia is
 termed as nitrogen fixation. Nitrogen fixation
 can occur by two methods: 1. Biological;
 2. ­­Non-Biological (Figure 12.5).<br>
-![](books/biology/unit-5/mineral-nutrition/06.png)<br>
+```goat
+                NITROGEN FIXATION
+                       .
+                       |
+                       v
+         .-------------+--------------.
+         |                            |
+         v                            v
+Non-Biological                       Biological
+       .                                    .
+       |                                    |
+       v                                    v
+.------+------------.            .----------+-----------.
+|                   |            |                      |
+v                   v            v                      v
+Industrial       Lightening     Non-symbiotic           Symbiotic
+                                                            .
+                                                            |
+                                                            v
+                                            .---------------+------------.
+                                            |                            |
+                                            v                            v
+                                            Legume                     Non legume
+
+```
 **Figure 12.5:** Nitrogen fixation
 
 {{<box title="">}}
