@@ -2117,9 +2117,8 @@ the process endosmosis or exosmosis?
 Give reasons
 
 {{<box title="ICT Corner">}}
-        Membrane Transport
-
-Lets Play with Membrane Proteins
+        Membrane Transport <br>
+Lets Play with Membrane Proteins --->
   ![](/books/biology/unit-5/transports-in-plants/36.png)
 #### Steps
 
