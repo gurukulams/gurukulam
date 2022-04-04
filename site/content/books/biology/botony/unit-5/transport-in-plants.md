@@ -117,7 +117,6 @@ animals, xylem in plants, and the respiratory
 system of insects. Further research in this
 area will improve our understanding of
 natural world.
-
 {{</box>}}
 
 **i. Short-distance (Cell to cell transport):**
@@ -134,11 +133,9 @@ transport.
 **Examples:** Ascent of Sap and
 Translocation
 of Solutes. <br>
-
  Based on energy expenditure during
 transport, they are classified as **(a) passive transport and**
 **(b) active transport.** <br>
-
 **i. Passive transport:** It is a downhill process
 which utilizes physical forces
 like gravity
@@ -146,25 +143,49 @@ and concentration. No energy
 expenditure
 is required. It includes
 diffusion, facilitated
-diffusion, imbibition, and osmosis.
-
+diffusion, imbibition, and osmosis.<br>
 **ii. Active transport:** It is a biological
 process
 and it runs based on the energy
 obtained
-from respiration. It is an uphill process.
-
-#### 11.2 Cell to Cell Transport
-
+from respiration. It is an uphill process.<br>
+#### 11.2 Cell to Cell Transport<br>
 Cell to cell or short distance transport covers
 the limited area and consists of few cells. They
 are the facilitators or tributaries to the longdistance
 transport. The driving force for the
 cell to cell transport can be passive or active
 **(Figure 11.1)**. The following chart illustrate
-the various types of cell to cell transport:
+the various types of cell to cell transport:<br>
+```goat
+              Cell to cell transport
+                       .
+                       |
+                       v
+             .---------+-----------.
+             |                     |
+             v                     v
+      Passive Transport         Active Transport
+             .                         .
+             |                         |
+             v                         v
+    .--------+---------.          Channel Protein
+    |                  |             Carrier Protein
+    v                  v                   Pumps
+   Diffusion         Facilitated  
+                     Diffusion 
+                        .
+                        |
+                        v
+               .--------+---------.
+               |                  |
+               v                  v 
+          Channel           Carrier
+          Protein            Protein
+           
+```
 
-![cell to cell transport](/books/biology/unit-5/transports-in-plants/03.png)
+
 
 ##### 11.2.1 Passive Transport
 
@@ -261,8 +282,7 @@ cell walls.
 both solvent and solute molecules through
 them.**Example:** Cellulosic cell wall.
 **Semi permeable:** Semi permeable
-allow diffusion of solvent molecule
-but do not allow the passage of solute
+allow diffusion of solvent moleculbut do not allow the passage of solute
 molecule. **Example:** Parchment paper.
 **Selectively permeable:** All bio
 membranes allow some solutes to pass

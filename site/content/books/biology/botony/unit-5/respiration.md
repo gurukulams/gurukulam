@@ -92,7 +92,7 @@ Phosphate) as well as liberated heat. Respiration
 occurs in all the living cells of organisms. The
 overall process of respiration corresponds to a
 reversal of photosynthesis.<br>
-${C_6H_{12}O_6 + 6O_2   --> 6CO_2 + 6H_2O + Energy}$  <br>
+${C_6H_{12}O_6 + 6O_2   --> 6CO_2 + 6H_2O + Energy}$<br>
 686 K cal or 2868 KJ) <br>
  (1K cal = 4.184 KJ)  <br>
 Depending upon the nature of respiratory
