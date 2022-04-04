@@ -460,20 +460,19 @@ a motor driven rotor (Figure 12.4).<br>
 ![](books/biology/unit-5/mineral-nutrition/05.png)<br>
 **Figure 12.4:** Aeroponics
 
-**12.7 Nitrogen Fixation**
+**12.7 Nitrogen Fixation**<br>
 Inspiring act of nature is self-regulation.
 As all living organisms act as tools for
 biogeochemical cycles, nitrogen cycle is
 highly regulated. Life on earth depends on
 nitrogen cycle. Nitrogen occurs in atmosphere
-in the form of N2 (N≡N), two nitrogen
+in the form of \\(N_2\\) (N≡N), two nitrogen
 atoms joined together by strong triple
 covalent bonds. The process of converting
-atmospheric nitrogen (N 2 ) into ammonia is
+atmospheric nitrogen \\(N_2\\) into ammonia is
 termed as nitrogen fixation. Nitrogen fixation
 can occur by two methods: 1. Biological;
-2. ­­Non-Biological (Figure 12.5).
-
+2. ­­Non-Biological (Figure 12.5).<br>
 ![](books/biology/unit-5/mineral-nutrition/06.png)<br>
 **Figure 12.5:** Nitrogen fixation
 
