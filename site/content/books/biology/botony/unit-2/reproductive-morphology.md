@@ -374,7 +374,7 @@ central axis ends with a flower. The lateral axis
 branches repeatedly. Example: *Nerium*
 
 
-{{< box title="**Sympodial Cyme**">}}
+{{< box title="Sympodial Cyme">}}
 In monochasial cyme,
 successive axis at first
 develop in a zigzag
@@ -1164,6 +1164,10 @@ hypanthium, if present ( Figure 4.25).
 
 **Hypanthium ( Staminal disk**) a fleshy
 elevated often nectariferous cup like thalamus
+
+{{</box>}}
+
+
 
 
 ##### 4.6 Construction of floral diagram and floral formula
