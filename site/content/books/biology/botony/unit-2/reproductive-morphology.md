@@ -745,19 +745,7 @@ petals in the flower bud is said to be aestivation.
 
 
 
-```goat
-
-            Aestivation: Arrangement of Sepals and Petals in the
-                          flower bud
-                                    .
-                                    |      
-.-------------------.---------------.---------------.------------------.
-|                   |
-
-
-
-
-```
+![reproductive-morphology](/books/biology/unit-2/reproductive/Figflow1.eng.png )
 
 
 
@@ -1199,7 +1187,7 @@ Brl : Bracteolate
 
 Ebrl : Ebracteolate
 
- Actinomorphic
+\\(\oplus\\): Actinomorphic
 
 % : Zygomorphic
 
@@ -1211,9 +1199,45 @@ Ebrl : Ebracteolate
 
 
 
-**K** : Calyx, **K** ~5 five sepals, aposepalous, 
-K (~ 5 )
-five sepals **synsepalous**.
+
+
+
+
+
+**K** : Calyx, \\(K_5\\) five sepals, aposepalous,\\( K_{(5)} \\)
+five sepals synsepalous.
+
+**C** : Corolla, \\(C_5\\) five petals, apopetalous,
+\\( C_{(5)}\\) five petals sympetalous \\(C_{(2+3)}\\) corolla
+bilabiate with upper lib two lobes.
+
+**A** : Androecium \\(A_3\\) three stamens free,
+\\(A_{(2 + 2)}\\) , Stamens 4, two whorls (**didynamous**)
+each whorl two stamens (free)
+
+\\(A_{(9)+1}\\) – stamens ten, two bundles
+(**diadelphous**) 9 stamens unite to form one
+bundle,1 stamen form another bundle.
+
+
+\\( \overgroup{C_5A_5} \\)—Epipetalous represented by an arc
+
+\\(A^0\\) :**Staminode**(sterile stamen)
+
+G. Gynoecium or pistil – \\(G_2\\) – Carpels two,
+free (**apocarpous**)
+
+\\(G_{(3)}\\) – Carpels three, united (**syncarpous**)
+
+\\(G_0\\) – pistillode (sterile carpel)
+
+\\(\underbar{G}\\) – superior ovary
+
+G inferior ovary
+
+G– – semi-inferior ovary
+
+∞ – Indefinite number of units
 
 
 
