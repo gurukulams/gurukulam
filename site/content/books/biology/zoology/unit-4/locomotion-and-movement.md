@@ -8,32 +8,44 @@ weight: 9
 
 ##### UNIT IV Chapter 9
 
-```
+
 Leaping movement is effected by the coordination
 of skeletal and neuromuscular systems.
-```
+
 ##### Locomotion and
 
 ##### Movement
 
-```
+
 Chapter Outline
-```
-```
+
+
+
 9.1 Types of movement
+
 9.2 Types of muscles
+
 9.3 Skeletal muscle
+
 9.4 Structure of contractile proteins
+
 9.5 Mechanism of muscle contraction
+
 9.6 Types of skeletal muscle contraction
+
 9.7 Skeletal system and its functions
+
 9.8 The Axial skeleton
+
 9.9 The Appendicular skeleton
+
 9.10 Types of joints
+
 9.11 Disorders of muscular and skeletal
 system
+
 9.12 Benefits of regular Exercise
-```
+
 - Relates the structure
     of skeletal muscle with
     its function.
@@ -46,7 +58,7 @@ system
 - Understands the benefits of regular
     exercise.
 
-```
+
 Have you ever wondered how a dancer
 performs intricate dance steps or how
 a swimmer skillfully does a butterfly
@@ -63,28 +75,29 @@ from the gentle blinking of eye to running
 a 20 km marathon. Movement of organism
 from one place to another in search of food,
 shelter, mate and to escape from predators
-```
+
 **Learning Objectives:Learning Objectives:**
 
-```
+
 is called locomotion. Locomotion has
 evolutionary significance.
-```
-```
-9.1 Types of movement
+
+
+
+#### 9.1 Types of movement
 The different types of movements that
 occur in the cells of our body are amoeboid,
 ciliary, flagellar and muscular movement.
 Amoeboid movement - Cells such as
 macrophages exhibit amoeboid movement
-```
-```
-151
-```
 
-```
-152
-```
+
+
+
+
+
+
+
 for engulfing pathogens by pseudopodia
 formed by the streaming movement of the
 cytoplasm.
@@ -106,7 +119,7 @@ by the contraction and relaxation of the
 muscle which is termed as the muscular
 movement.
 
-**9.2. Types of muscles**
+#### 9.2. Types of muscles**
 
 Muscles are specialized tissues which are
 derived from the embryonic **mesoderm**.
@@ -118,7 +131,7 @@ muscular tissue. The muscles are classified
 into three types, namely **skeletal, visceral**
 and **cardiac muscles.**
 
-**9.3 Skeletal muscle**
+#### 9.3 Skeletal muscle**
 
 **(Voluntary muscle)**
 
@@ -131,7 +144,7 @@ to thousands of rod-like structures
 called **myofibrils** that run parallel to its
 length. The connective tissue covering
 
-```
+
 the whole muscle is the epimysium ,
 the covering around each fascicle is the
 perimysium and the muscle fibre is
@@ -139,9 +152,10 @@ surrounded by the endomysium. They
 control the voluntary actions such as
 walking, running, swimming, writing
 hence termed as voluntary muscles.
-```
-```
-9.3.1. Structure of a skeletal muscle
+
+
+
+##### 9.3.1 Structure of a skeletal muscle
 fibre
 Each muscle fibre is thin and elongated.
 Most of them taper at one or both ends.
@@ -162,7 +176,8 @@ myosin are muscle proteins present in the
 muscle fibre.
 Along the length of each myofibril
 there are a repeated series of dark and light
-bands (Figure 9.1). The dark A-bands
+bands (Figure 
+9.1). The dark A-bands
 (Anisotropic bands) and the light I-bands
 (Isotropic bands) are perfectly aligned
 with one another. This type of arrangement
@@ -174,11 +189,11 @@ by a dark line called the M-line (M-for
 middle). The light I-bands also have
 a darker mid line area called the
 Z–disc (from the German
-```
 
-```
-153
-```
+
+
+
+
 "Zwischenscheibe" the disc inbetween the
 I-bands).
 
@@ -202,25 +217,26 @@ junction between the A and I-bands.
 
 **Muscle Terminology**
 
-```
+
 General Term Muscle Equivalent
 Cell Muscle fibre/ Myofibril
 Plasma membrane Sarcolemma
 Cytoplasm Sarcoplasm
 Endoplasmic
 reticulum
-```
-```
+
+
 Sarcoplasmic reticulum
-```
-**9.4 Structure of contractile**
+
+#### 9.4 Structure of contractile**
 
 **proteins**
 Contraction of the muscle depends on the
 presence of contractile proteins (Figure
+
 9.2) such as **actin** and **myosin** in the
 
-```
+
 myofilaments. The thick filaments are
 composed of the protein myosin which are
 bundled together whose heads produce
@@ -244,61 +260,18 @@ F-actins helically wound to each other.
 Each F-actin is a polymer of monomeric
 G-actins. It also contains a binding site
 for myosin. The thin filaments also
-```
-```
-)DVFLFOH
-```
-```
-(SLP\VLXP
-%ORRGYHVVHO )DVFLFOHZUDSSHGE\
-SHULP\VLXP
-(QGRP\VLXP
-EHWZHHQLQGLYLGXDOPXVFOHILEUHV
-```
-```
-3HULP\VLXP 0XVFOHILEUH
-```
-```
-7HQGRQ
-```
-```
-(SLP\VLXP )DVFLFOH 0XVFOH 7HQGRQ
-```
-```
-3DUWRIIDVFLOH 3HULP\VLXP 0XVFOHILEUH
-```
-```
-6DUFROHPPD
-0LWRFKRQGULRQ
-0\RILEULO
-```
-```
-1XFOHXV
-```
-```
-'DUN$EDQG /LJKW,EDQG DFWLQ7KLQ
-=GLVF +]RQH ILODPHQW
-```
-```
-7KLFNP\RVLQILODPHQW ,EDQG $EDQG 0OLQH
-0OLQH
-```
-```
-=GLVF
-```
-```
-,EDQG
-=GLVF 6DUFRPHUH =GLVF
-```
-```
-Figure 9.1 Organizational level of a
-skeletal muscle
-```
 
-```
-154
-```
-```
+
+
+Figure 
+9.1 Organizational level of a
+skeletal muscle
+
+
+
+
+
+
 sliding-filament theory to explain muscle
 contraction. According to this theory,
 overlapping actin and myosin filaments of
@@ -330,6 +303,7 @@ on thin filaments. The tropomyosin uncovers
 the myosin-binding sites on thin filaments.
 Now the active sites are exposed to the heads
 of myosin to form a cross-bridge (Figure
+
 9.3). During cross-bridge formation actin
 and myosin form a protein complex called
 actomyosin. Utilizing the energy released
@@ -339,64 +313,20 @@ axis of the filament. In this position myosin
 binds to an actin and activates a contraction –
 relaxation cycle which is followed by a power
 stroke.
-```
-```
-Figure 9. 2 Composition of thick and thin
+
+
+Figure 
+9. 2 Composition of thick and thin
 filaments
-```
-```
-7KLQILODPHQW
-$WKLQILODPHQWFRQVLVWVRIWZRVWUDQGVRIDFWLQVXEXQLWVWZLVWHGLQWRDKHOL[SOXVWZRW\SHVRI
-UHJXODWRU\SURWHLQVWURSRQLQDQGWURSRP\RVLQ
-```
-```
-7URSRQLQ $FWLQ
-```
-```
-$FWLQVXEXQLWV
-```
-```
-VXEXQLW$FWLQV $FWLYHVLWHV
-IRUP\RVLQ
-DWWDFKPHQW
-```
-```
-3RUWLRQRIDWKLQILODPHQW
-7URSRP\RVLQ
-```
-```
-*DFWLQPROHFXOHV)DFWLQVWUDQGV
-```
-```
-7KLFNILODPHQW
-(DFKWKLFNILODPHQWFRQVLVWVRIPDQ\P\RVLPROHFXOHVZKRVHKHDGVSURGXFHDWRSSRVLWQH
-HQGVRIWKHILODPHQW
-3RUWLRQRIDWKLFNILODPHQW
-0\RVLQKHDG
-```
-```
-$FWLQELQGLQJVLWHV
-+HDGV
-$73ELQGLQJVLWH
-```
-```
-KLQJHUHJLRQ)OH[LEOH
-```
-```
-7DLO
-```
-```
-0\RVLQPROHFXOH
-```
-```
-+00 /00
-```
+
+
+
 contain several regulatory proteins like
 **tropomyosin** and **troponin** which help
 in regulating the contraction of muscles
 along with **actin** and **myosin**.
 
-**9.5 Mechanism of muscle**
+#### 9.5 Mechanism of muscle**
 
 **contraction**
 
@@ -404,12 +334,12 @@ along with **actin** and **myosin**.
 Huxley and Rolf Niedergerke proposed the
 
 
-```
-155
-```
-```
+
+
+
+
 The power stroke (cross-bridge tilting)
-```
+
 begins after the myosin head and hinge region
 tilt from a 90° angle to a 45° angle. The cross-
 bridge transforms into strong, high-force
@@ -423,7 +353,7 @@ head of the myosin and the cross-bridge is
 broken. At the end of each power stroke, each
 myosin head detaches from actin, then swivels
 
-```
+
 back and binds to a new
 actin molecule to start
 another contraction
@@ -464,76 +394,19 @@ result in the masking of the active sites of the
 actin filaments.The myosin head fails to bind
 with the active sites of actin and these changes
 cause the return of Z- discs back to their
-original position, i.e. relaxation. (Figure 9.3)
-```
-```
-&URVVEULGJH
-IRUPDWLRQ (QHUJL]HG
-P\RVLQKHDGDWWDFKHV
-WRDFWLQP\RILODPHQW
-IRUPLQJ
-DFURVVEULGJH
-```
-```
-7KHSRZHUZRUNLQJ
-VWURNH $'3DQG3LDUH
-UHOHDVHGDQGWKHP\RVLQ
-KHDGSLYRWVDQGEHQGV
-FKDQJLQJWRLWVEHQW
-ORZHQHUJ\VKDSH$VD
-UHVXOWLWSXOOVRQWKHDFWLQ
-ILODPHQWVOLGLQJLWWRZDUG
-WKH0OLQH
-```
-```
-&URVVEULGJH
-GHWDFKPHQW $IWHU$73
-DWWDFKHVWRP\RVLQWKH
-OLQNEHWZHHQP\RVLQ
-DQGDFWLQZHDNHQVDQG
-WKHP\RVLQKHDG
-GHWDFKHVWKHFURVV
-EULGJHEUHDNV
-```
-```
-&RFNLQJRIP\RVLQ
-KHDG $V$73LV
-K\GURO\]HGWR$'3DQG
-3LWKHP\RVLQKHDG
-UHWXUQVWRLWVSUHVWULNH
-KLJKHQHUJ\RU
-³FRFNHG ́SRVLWLRQ
-```
-```
-6DUFRPHUH
-7KLFNILODPHQW
-7KLQILODPHQW
-```
-```
-$FWLQ &D 7KLQILODPHQW
-```
-```
-7KLFNILODPHQW
-```
-```
-0\RVLQKHDG
-```
-```
-$'3
-3 $'3^3 
-```
-(^3) 
-$'3
-0\RVLQ
-$7 3
-$7 3
-**Figure 9.3** Cross-bridge cycle of muscle contraction
+original position, i.e. relaxation. (Figure 
+9.3)
 
 
-```
-156
-```
-```
+**Figure 
+9.3** Cross-bridge cycle of muscle contraction
+
+
+
+
+
+
+
 9.6. Types of skeletal muscle
 contraction
 There are two primary types of muscle
@@ -542,8 +415,8 @@ contraction and isometric contraction.
 The types of contractions depend on the
 changes in the length and tension of the
 muscle fibres at the time of its contraction.
-```
-```
+
+
 Isotonic contraction (iso- same, ton-
 weight/resistance)
 In isotonic contraction the length of the
@@ -551,8 +424,8 @@ muscle changes but the tension remains
 constant. Here, the force produced is
 unchanged. Example: lifting dumb bells and
 weightlifting.
-```
-```
+
+
 Isometric contraction ( iso- same,
 metric-distance)
 In isometric contraction the length of the
@@ -560,109 +433,61 @@ muscle does not change but the tension
 of the muscle changes. Here, the force
 produced is changed. Example: pushing
 against a wall, holding a heavy bag.
-```
-```
+
+
 Types of skeletal muscle fibres
 The muscle fibres can be classified on the
 basis of their rate of shortening, either fast
-```
-```
-=GLVF +
-,EDQG $EDQG ,EDQG
-```
-```
-,EDQG $EDQG ,EDQG
-```
-```
-)XOO\UHOD[HGVDUFRPHUHRIDPXVFOHILEUH
-```
-```
-0OLQH
-```
-```
-)XOO\FRQWUDFWHGVDUFRPHUHRIDPXVFOHILEUH
-```
-```
-=GLVF =GLVF
-```
-```
-=GLVF
-```
-```
-0OLQH
-```
-```
-=GLVF +
-,EDQG $EDQG ,EDQG
-```
-```
-,EDQG $EDQG ,EDQG
-```
-```
-)XOO\UHOD[HGVDUFRPHUHRIDPXVFOHILEUH
-```
-```
-0OLQH
-```
-```
-)XOO\FRQWUDFWHGVDUFRPHUHRIDPXVFOHILEUH
-```
-```
-=GLVF =GLVF
-```
-```
-=GLVF
-```
-```
-0OLQH
-```
-```
-Figure 9.4 Sliding filament model of muscle contraction
-```
-```
+
+
+
+Figure 
+##### 9.4 Sliding filament model of muscle contraction
+
+
 Tropomyosin masks the binding sites. Filaments
 pulled back to the original position (relaxation)
-```
+
 Signal from CNS stops; calcium ions are pumped back
 into the sarcoplasmic reticulum
 
-```
+
 Actin filament slides towards the centre of sarcomere
 (contraction)
-```
-```
+
+
 Myosin head executes power stroke
-```
-```
+
+
 Myosin binding sites on actin exposed. Myosin head
 binds to actin
-```
-```
+
+
 Calcium ions combine with troponin and
 tropomyosin uncovers the binding sites on actin and
 initiates contraction
-```
-```
+
+
 Triggers the release of calcium ions from
 sarcoplasmic reticulum
-```
-```
+
+
 Causes action potential in muscle fibre
-```
-```
+
+
 Release of acetylcholine at the neuromuscular junction
-```
-```
+
+
 Muscle contraction is initiated by the signal from CNS
-```
-```
+
+
 Schematic Presentation of Muscle
 Contraction
-```
 
-```
-157
-```
+
+
+
+
 or slow and the way in which they produce
 the ATP needed for contraction, either
 oxidative or glycolytic. Fibres containing
@@ -706,16 +531,16 @@ fast – glycolytic fibres.
     ATP as oxidative fibres, because their
     source of ATP is glycolysis. These fibres
 
-```
+
 are best suited for rapid, intense actions,
 such as short sprint at maximum speed.
-```
-```
+
+
 Which myofilament has the binding
 sites for calcium? Name the specific
 molecule that binds with calcium.
-```
-```
+
+
 Skeletal Muscle
 Glycogen Analysis
 (SMGA) –Used to
@@ -733,9 +558,10 @@ longer in duration. A single glycogen
 molecule may contain 5000 glucose
 units compared to that of 5000
 individual glucose molecules.
-```
-```
-9.7 Skeletal system and its
+
+
+
+##### 9.7 Skeletal system and its
 function
 The skeletal system is
 constituted by a framework
@@ -750,11 +576,11 @@ Hydrostatic skeleton, which is found
 in soft-bodied invertebrates. It is a fluid
 filled-cavity encircled by muscles (e.g. Earth
 worm).
-```
 
-```
-158
-```
+
+
+
+
 **Exoskeleton,** which is found in invertebrates.
 It is a rigid hard case present outside the body of
 animals (e.g. Cockroach).
@@ -769,7 +595,8 @@ grouped into two principal divisions – the
 **axial skeleton** and the **appendicular skeleton**.
 The axial skeleton consists of 80 bones and the
 appendicular skeleton consists of 126 bones
-(Figure 9.6 and Table.1).
+(Figure 
+##### 9.6 and Table.1).
 
 **Functions of skeletal system**
 
@@ -799,20 +626,22 @@ only skeletal muscle is responsible for
 locomotion. What is meant by this
 statement?
 
-```
+
+
 9.8 The Axial skeleton
 Axial skeleton forms the main axis of the
 body. It consists of the skull, hyoid bone,
 vertebral column and thoracic cage.
 a) The Skull
 The skull is composed of two sets of bones
-```
+
 - cranial and facial bones. It consists of 22
 bones of which 8 are cranial bones and 14
-are facial bones (Figure 9.5). The cranial
+are facial bones (Figure 
+9.5). The cranial
 bones form the hard protective outer
 covering of the brain and called the brain
-box. The capacity of the cranium is 1500
+box. The capacity of the cranium is 0
 cm3..^ These bones are joined by sutures
 which are immovable. They are a **paired
 parietal, paired temporal** and **individual
@@ -843,15 +672,16 @@ opening the medulla oblongata of the brain
 descends down as the spinal cord.
 
 
-```
-159
-```
+
+
+
 **b) The Vertebral Column**
 Vertebral column is also called the back
 bone. It consists of 33 serially arranged
 vertebrae which are interc onnected by
 cartilage known as intervertebral disc
-(Figure 9.6). The vertebral column
+(Figure 
+9.6). The vertebral column
 extends from the base of the skull to
 the pelvis and forms the main frame
 work of the trunk. The vertebral column
@@ -875,131 +705,31 @@ spinal cord, supports the head and serves
 as the point of attachment for the ribs and
 musculature of the back.
 
-```
-Figure 9. 5 Structure of the skull
-```
-```
-Anterior view Lateral view
-```
-```
-([WHUQDODXGLWRU\PHDWXV
-RSHQLQJRIWKHHDU
-```
-```
-3DULHWDOERQH )URQWDOERQH
-```
-```
-7HPSRUDOERQH
-```
-```
-6SKHQRLGERQH
-(WKPRLGERQH
-/DFULPDOERQH
-=\JRPDWLFERQH
-0D[LOOD
-```
-```
-0DQGLEOH
-```
-```
-2FFLSLWDOERQH
-```
-```
-1DVDOERQH
-```
-```
-3DULHWDOERQH
-```
-1DVDOERQH
-6SKHQRLGERQH
-7HPSRUDOERQH
-(WKPRLGERQH
-/DFULPDOERQH
-=\JRPDWLFERQH
 
-```
-0D[LOOD
-0DQGLEOH YRPHU
-```
-```
-&HUYLFDO
-YHUWHEUDH
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
-
-
-
-
-
-
-
-
-```
-```
-
-```
-```
-7KRUDFLF
-YHUWHEUDH
-```
-```
-/XPEDU
-YHUWHEUDH
-,QWHUYHUWHEUDO
-GLVF
-6DFUXP
-IXVHG
-&RFF\[
-IXVHG
-Figure 9. 6 Vertebral Column
+Figure 
+##### 9. 5 Structure of the skull
+
+
+Anterior view Lateral view
+
+
+(Figure 
+##### 9. 6 Vertebral Column
 (c) The Sternum (Chest bone)
 Sternum is a flat bone on the mid ventral
 line of the thorax. It provides space for
 the attachment of the thoracic ribs and
 abdominal muscles.
 (d) The Rib cage
-There are 12 pairs of ribs (Figure 9.7). Each
+There are 12 pairs of ribs (Figure 
+##### 9.7). Each
 rib is a thin flat bone connected dorsally to
-```
 
-```
-160
-```
-```
+
+
+0
+
+
 the vertebral column and ventrally to the
 sternum. It has two articulation surfaces
 on its dorsal end, hence called bicephalic.
@@ -1019,34 +749,12 @@ or vertebral ribs. Thoracic vertebrae, ribs
 and sternum together form the ribcage.
 Rib cage protects the lungs, heart, liver
 and also plays a role in breathing.
-```
-```
-7UXHULEV
-```
-```
-        
-```
-```
-
-```
-```
-
-
-```
-)DOVHULEV
 
-```
-)ORDWLQJULEV
-```
-```
-6WHUQXP
-```
-```
-9HUWHEUDOERQH
-```
-```
-Figure 9.7 Rib cage
-9.9 The Appendicular
+
+Figure 
+##### 9.7 Rib cage
+
+##### 9.9 The Appendicular
 skeleton
 The bones of the upper and lower limbs
 along with their girdles constitute the
@@ -1055,12 +763,13 @@ skeleton is composed of 126 bones.
 (a) The Pectoral girdle
 The upper limbs are attached to the pectoral
 girdles. These are very light and allow the
-```
-```
+
+
 upper limbs a degree of mobility not seen
 anywhere else in the body. The girdle is
 formed of two halves. Each half of the
-pectoral girdle (Figure 9.8) consists of a
+pectoral girdle (Figure 
+##### 9.8) consists of a
 clavicle or collar bone and a scapula. The
 scapula is a large, thin, triangular bone
 situated in the dorsal surface of the ribcage
@@ -1075,8 +784,8 @@ to form the shoulder joint. Each clavicle is
 a long slender bone with two curvatures
 which lies horizontally and connects axial
 skeleton with appendicular skeleton.
-```
-```
+
+
 The Upper limb
 The upper limb consists of 30 separate
 bones and is specialized for mobility. The
@@ -1098,12 +807,12 @@ anterior surface of the wrist has tunnel-
 like appearance, due to the arrangement of
 carpals with the ligaments. This tunnel is
 termed as carpal tunnel.
-```
 
-```
-161
-```
-```
+
+
+1
+
+
 CTS-(Carpal Tunnel Syndrome ) –
 The narrow passage (tunnel) bounded
 by bones and ligaments in the wrist
@@ -1112,63 +821,25 @@ nerve. This syndrome is mostly seen
 among the clerks, software professionals
 and pregnant women and people who
 constantly play or text in mobile phones.
-```
+
 **Metacarpals,** the palm bones are 5 in
 number and **phalanges** the digits bones are
 14 in number.
 
-```
-&DUSDOV
-```
-```
-&ODYLFOH
-```
-```
-6FDSXOD
-```
-```
-+XPHUXV
-```
-```
-8OQD
-```
-```
-5DGLXV
-```
-```
-*OHQRLG
-FDYLW\
-6KRXOGHUMRLQW
-```
-```
-(OERZMRLQW
-```
-```
-:ULVWMRLQW
-```
-```
-0HWDFDUSDOV
-3KDODQJHV
-```
-```
-$FURPLRQ
-```
-```
-2OHFUDQRQ
-SURFHVV
-```
-```
-Figure 9. 8 Pectoral girdle with upper limb
-```
+
+Figure 
+##### 9. 8 Pectoral girdle with upper limb
+
 **(b) Pelvic Girdle**
 
 The pelvic girdle is a heavy structure
 specialized for weight bearing. It is composed
 
-```
+
 of two hip bones called coxal bones that
 secure the lower limbs to the axial skeleton
-(Figure 9.9). Together, with the sacrum and
+(Figure 
+##### 9.##### 9.. Together, with the sacrum and
 coccyx, the hip bones form the basin-like
 bony pelvis.
 Each coxal bone consists of three fused
@@ -1182,50 +853,14 @@ articulation of the femur. Ventrally the two
 halves of the pelvic girdle meet and form
 the pubic symphysis containing fibrous
 cartilage.
-```
-```
-Figure 9.9 Pelvic girdle with lower limb
-```
-```
-3KDODQJHV
-```
-```
-,OLXP
-$FHWDEXOXP
-+LSMRLQW
-```
-```
-.QHH
-MRLQW
-```
-```
-$QNOH
-MRLQW
-```
-```
-3XELV
-,VFKLXP
-3XELF
-V\PSK\VLV
-```
-```
-)HPXU
-```
-```
-7DUVDOV
-0HWDWDUVDOV
-```
-```
-3DWHOOD
-```
-```
-7LELD
-)LEXOD
-```
 
-```
-162
-```
+
+Figure 
+##### 9.##### 9.Pelvic girdle with lower limb
+
+
+2
+
 The **ilium** is the superior flaring
 portion of the hip bone. Each ilium forms
 a secure joint with the sacrum posteriorly.
@@ -1237,11 +872,11 @@ and the female is shallow, wide and flexible
 in nature, and this helps during pregnancy
 which is influenced by female hormones.
 
-```
+
 The pelvic girdle is a heavy, strong
 girdle. How does its structure reflect its
 function?
-```
+
 **The Lower limb**
 The lower limb consists of 30 bones which
 carries the entire weight of the erect body
@@ -1269,18 +904,19 @@ as a lever to propel the body forward,
 while walking and running. **The tarsus**
 is made up of seven bones called tarsals.
 
-```
+
 The metatarsus consists of five bones
 called metatarsals. The arrangement of
 the metatarsals is parallel to each other.
 There are 14 phalanges in the toes which
 are smaller than those of the fingers.
-```
-```
+
+
 Structure of a typical long bone
 A typical long bone has a diaphysis ,
 epiphyses (singular-epiphysis) and
-membranes (Figure 9.10). A tubular
+membranes (Figure 
+##### 9.10). A tubular
 diaphysis or shaft, forms the long axis of
 the bone. It is constructed of a thick collar
 of compact bone that surrounds a central
@@ -1311,60 +947,61 @@ the compact bone. It also contains both
 osteoblasts and osteoclasts. Between the
 epiphysis and diaphysis epiphyseal plate or
 growth plate is present.
-```
 
-```
-163
-```
-```
-Table: 9.1 Bones of the skeletal system
-```
-```
+
+
+3
+
+
+Table: 
+##### 9.1 Bones of the skeletal system
+
+
 Skeleton Name of Bone
-```
-```
+
+
 Number of
 bones
-```
-```
+
+
 To t a l
 number
 of bones
-```
+
 **Axial skeleton**
 
 **(80 bones)**
 
-```
+
 Skull
-```
-```
+
+
 Cranium 8
-```
-```
+
+
 29
-```
-```
+
+
 Facial bone 14
 Bones of middle
 ear
-```
-```
+
+
 6
 (2 × 3)
 Hyoid bone 1
-```
-```
+
+
 Vertebral column
-```
-```
+
+
 Cervical 7
-```
-```
+
+
 26
 (in adults)
-```
-```
+
+
 Thoracic 12
 Lumbar 5
 Sacral 5 bones fused to
@@ -1373,39 +1010,39 @@ Coccyx 4 bones fused to
 1 bone
 Sternum 1 1
 Ribs 12 × 2 = 24 24
-```
+
 **Appendicular
 skeleton**
 
 **(126bones** )
 
-```
+
 Fore limb
-```
-```
+
+
 Humerus
 Radius
 Ulna
 Carpals
 Metacarpals
 Phalanges
-```
-```
+
+
 1
 1
 1
 8
 5
 14
-```
-```
+
+
 (2 × 30)
 60
-```
-```
+
+
 Hind limb
-```
-```
+
+
 Femur
 Tibia
 Fibula
@@ -1413,8 +1050,8 @@ Ta r s a l
 Metatarsals
 Phalanges
 Patella (Knee bone)
-```
-```
+
+
 1
 1
 1
@@ -1422,76 +1059,78 @@ Patella (Knee bone)
 5
 14
 1
-```
-```
+
+
 (2 × 30)
 60
-```
-```
+
+
 Pectoral girdle Scapula
 Clavicle
-```
-```
+
+
 1
 1
-```
-```
+
+
 (2 × 2)
 4
 Pelvic girdle Innominate
 (Ilium, ischium
 and pubis fused
 into one bone)
-```
-```
+
+
 1 (1 × 2)
 2
-```
-```
-Total number of bones in adults 206
-```
 
-```
-164
-```
-```
-Figure 9.10 Structure of a long bone
-```
-```
+
+Total number of bones in adults 206
+
+
+
+4
+
+
+Figure 
+##### 9.10 Structure of a long bone
+
+
 Medullary
 cavity
-```
-```
+
+
 Compact bone
-```
-```
+
+
 Proximal
 epiphysis
-```
+
 Metaphysis
 
-```
+
 Diaphysis
-```
-```
+
+
 Distal
 epiphysis
-```
+
 Metaphysis
 
-**9.10 Types of joints**
+#### ##### 9.10 Types of joints**
 
 Joints are essential for all types of movements
 
 performed by the bony parts of the body.
 
-The joints are points of contact (Figure 9.11)
+The joints are points of contact (Figure 
+##### 9.11)
 
 between bones.
 
-```
+
 Sometimes they are playing a protective
-```
+
 role in the process. Force generated by the
 
 muscles are used to carry out the movement
@@ -1504,102 +1143,103 @@ joint acts as a fulcrum of a lever.
 
 (i) **Fibrous joints or Synarthroses:** They
 
-```
+
 are immovable fixed joints in which no
 movement between the bones is possible.
 Sutures of the flat skull bones are fibrous
 joints.
-```
-```
+
+
 (ii) Cartilaginous joints or Amphiarthroses:
 They are slightly movable joints in which
 the joint surfaces are separated by a
 cartilage and slight movement is only
 possible. E.g., Joints of adjacent vertebrae
 of the vertebral column.
-```
-```
+
+
 (iii) Synovial joints or Diarthroses
 joints: They are freely movable joints,
 the articulating bones are seperated by a
 cavity which is filled with synovial fluid.
-```
-```
+
+
 SoBall cket anjointd
-```
-```
+
+
 Sw/ Pivoivel t jojointint
-```
-```
+
+
 Fibrous
 joint
-```
-```
+
+
 Ball-ajointnd-socket
-```
-```
+
+
 Plane joint
-```
-```
+
+
 Hinge joint
-```
-```
+
+
 Saddle joint
-```
-```
+
+
 Synchondrosis
-```
-```
+
+
 Cartilaginous joint
-```
-```
+
+
 Ellijointpsoidal
-```
-```
-Figure 9. 11 Types of joints
-```
-```
+
+
+Figure 
+##### 9. 11 Types of joints
+
+
 Pivot joint
-```
-```
+
+
 between atlas and
 axis
 Plane/gliding joint between the carpals
-```
-```
+
+
 Saddle joint
-```
-```
+
+
 between the carpal
 and metacarpal
 Ball and socket
 joint
-```
-```
+
+
 between humerus
 and pectoral girdle
 Hinge joint knee joint
 Condyloid or
 Angular or
 Ellipsoid
-```
-```
+
+
 between radius and
 carpal
-```
 
-```
-165
-```
-```
+
+
+5
+
+
 An exhausted student was attending a
 lecture. After 30 minutes or so, he lost
 interest and he let go with a tremendous
 yawn. To his great distress he couldn’t close
 his mouth –his lower jaw was locked open.
 What do you think would have caused it?
-```
-**9.11 Disorders of muscular**
+
+#### ##### 9.11 Disorders of muscular**
 
 **and skeletal system**
 
@@ -1638,7 +1278,7 @@ makes the muscle to become weak, which
 occurs with lack of usage as in chronic
 bedridden patients.
 
-```
+
 Muscle pull: Muscle pull is actually
 a muscle tear. A traumatic pulling of the
 fibres produces a tear known as sprain.
@@ -1658,7 +1298,7 @@ Muscular Dystrophy (DMD).
 b) Disorders of skeletal system
 Arthritis and osteoporosis are the major
 disorders of skeletal system.
-```
+
 **1. Arthritis:** Arthritis is an inflammatory
     (or) degenerative disease that damages the
     joints. There are several types of arthritis.
@@ -1680,9 +1320,9 @@ disorders of skeletal system.
        It gets deposited in synovial joints.
 
 
-```
-166
-```
+
+6
+
 **2. Osteoporosis:** It occurs due to deficiency
     of vitamin D and hormonal imbalance. The
     bone becomes soft and fragile. It causes
@@ -1691,7 +1331,7 @@ disorders of skeletal system.
     adequate calcium intake, vitamin D
     intake and regular physical activities.
 
-**9.12 Benefits of regular**
+#### ##### 9.12 Benefits of regular**
 
 **Exercise**
 
@@ -1771,9 +1411,9 @@ changes:
     cartilaginous and synovial joints.
 
 
-```
-167
-```
+
+7
+
 The disorders related to muscular system
 are myasthenia gravis, muscular dystrophy,
 tetany, muscle fatigue, muscle pull,
@@ -1814,12 +1454,13 @@ c. myosin d. actin
 8. The protein present in the thick filament is
 a. myosin b. actin
 c. pectin d. leucin
-9. The protein present in the thin filament is
 
-```
+##### 9. The protein present in the thin filament is
+
+
 a. myosin b. actin
 c. pectin d. leucin
-```
+
 10. The region between two successive
     Z-discs is called a
 a. sarcomere b. microtubule
@@ -1858,10 +1499,11 @@ c. skull and vertebral column
 d. ribs and sternum
 
 
-```
-168
-```
-19. The type of movement exhibits by the
+
+8
+
+1
+9. The type of movement exhibits by the
     macrophages are
 
 a. flagellar b. ciliary
@@ -1888,7 +1530,8 @@ d. symphysis
        27. Name the bones of the skull.
        28. Which is the only jointless bone in
           human body?
-       29. List the three main parts of the axial
+       2
+9. List the three main parts of the axial
           skeleton
        30. How is tetany caused?
        31. How does rigor mortis happen?
@@ -1902,18 +1545,18 @@ d. symphysis
        36. What are the benefits of regular
           exercise?
 
-```
+
 Skeletal System’s URL:
-```
-```
+
+
 https://www.getbodysmart.com/skeletal-system
-```
+
 **ICT Corner We like to move**
 
-```
+
 Step 1 Step 2 Step 3 Step 4
-```
-```
+
+
 Step – 1 Use the URL to reach the ‘Skeletal System’ page. From grid select ‘Skeleton Organization’
 and explore the skeleton's general anatomical arrangement and functions.
 Step – 2 Then reach the ‘Skeleton Organization page by clicking back button on the top of the
@@ -1921,31 +1564,30 @@ window or use the ‘Backspace’ key. Select ‘Upper Limb Bones’ from the gr
 anatomy and functions of the clavicle, scapula, humerus, radius, ulna, carpal, and hand bones.
 Step – 3 Follow the above steps and explore the interactives of each part and its functions.
 Step – 4 Use the reference given below the page to acquire additional details about ‘Skeletal System’.
-```
-```
+
+
 SoBall cket anjointd
-```
-```
+
+
 Sw/ Pivoivel t jojointint
-```
-```
+
+
 Fibroujoints
-```
-```
+
+
 Ball-and-sockejoint t
 Plane joint Hinge joint
-```
-```
+
+
 Saddle joint
-```
-```
+
+
 Ellipsoidajointl CaSyrtilaginnchondrosious josint
-```
-```
+
+
 Let’s explore the skeletal system
 page to understand the skeletal
 organization.
-```
-```
+
+
 * Pictures are indicative only
-```
