@@ -26,7 +26,7 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="subjectList">
-        {{ $currentPage := . }}
+      <!-- {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
                 <li class="nav-item">
@@ -48,7 +48,7 @@
                     </a>
                 </li>
             {{ end }}
-        {{ end }}
+        {{ end }}-->
       </ul>
 
       <ul class="navbar-nav secured">
@@ -71,8 +71,11 @@
                     </a>
                   
                   </div>
-                  
-                  <small class="text-muted">11 Standard</small>
+                  <div class="dropdown" id="dropdownMenuButton2">
+                    <a href="javascript://" class="text-decoration-none "  data-bs-toggle="dropdown" aria-expanded="false">
+                      Grade
+                    </a>
+                  </div>
                 </div>
                 <a class="btn btn-toggle pe-0" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="flex-shrink-1 bd-highlight dropdown">
