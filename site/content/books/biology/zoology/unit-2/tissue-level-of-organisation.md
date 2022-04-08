@@ -100,7 +100,6 @@ epithelium and
 
 ![](/books/biology/unit-7/tissu-level-of-organization/2.png)
 
-
                                                             
                                                             
                                                             
