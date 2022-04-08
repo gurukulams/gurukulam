@@ -7,9 +7,6 @@ extensions:
     - katex
 ---
 
-
-
-
 {{< box title="Learning Objectives" type="objective" >}}
 
 The learner will be able to,
