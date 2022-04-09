@@ -98,7 +98,21 @@ different levels in different cells. Hence, it is
 also called pseudostratified                                                 
 epithelium and                                                           
 
-![](/books/biology/unit-7/tissu-level-of-organization/2.png)
+![](/books/biology/unit-7/tissu-level-of-organization/pic2.png)
+
+#### 3.2 Epithelial Tissue
+
+Epithelial tissue is a sheet of cells that
+covers the body surface or lines the body
+cavity. It occurs in the body as a **covering**,
+**as a lining epithelium and as glandular**,
+**epithelium. The functions of epithelium**
+**includes protection, absorption, filtration**,
+**excretion, secretion and sensory reception**.
+
+
+
+
 
                                                             
                                                             
