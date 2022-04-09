@@ -98,7 +98,7 @@ class Core {
           ulEl.firstChild.click();
         }
       });
-    fetch("/api/grades/" + "1", {
+    fetch("/api/grades/", {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
