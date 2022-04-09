@@ -693,9 +693,18 @@ botanical illustrations.
 
 ##### Preparation of herbarium Specimen
 
-tables
 
 
+
+
+| **Plant Collection**<br>Plant specimen with flower or fruit is collected<br><br>\\(\darr\\) 	|  	|
+|---	|---	|
+| **Documentation of field site data**<br>Certain data are to be recorded at the<br>time of plant collection. It includes date,<br>time, country, state, city, specific locality<br>information, latitude, longitude, elevation<br>and land mark information. These data<br>will be typed onto a herbarium label.<br>       \\(\darr\\) 	| ![taxonomy and systematic botany](/books/biology/unit-2/taxonomy/Figect5.eng.png ) 	|
+| **Preparation of plant specimen**<br>Plant specimen collected from the field<br>is pressed immediately with the help of<br>portable field plant press. plant specimen<br>is transferred to a standard plant press<br>(12” x 18”) which between two outer<br>12” x 18” frames and secured by two straps.<br>\\(\darr\\) 	| ![taxonomy and systematic botany](/books/biology/unit-2/taxonomy/Figect6.eng.png ) 	|
+| **Mounting herbarium specimen**<br>The standard size of herbarium sheet is used<br>for mounting the specimen (29cm x 41cm).<br>specimens are affixed to herbarium<br>sheet with standard white glue<br>or solution of Methyl cellulose<br>\\(\darr\\) 	| ![taxonomy and systematic botany](/books/biology/unit-2/taxonomy/Figect7.eng.png ) 	|
+| **Herbarium label**<br>Herbarium label size is generally 4-5’’ wide<br>and 2-3’’ tall. A typical label contains all in-<br>formation like habit, habitat, vegetation type,<br>land mark information, latitude, l ­ ongitude,<br>image document, collection number, date<br>of collection and name of the collector.<br>\\(\darr\\) 	|  	|
+| **Protection of herbarium sheets against**<br>Apply cation of 2% Mercuric chloride,<br>Naphthalene, DDT, carbon disulphide. Fu-<br>migation using formaldehyde. Presently deep<br>freezing(-20 o C) method is followed through-<br>out the world. 	|  	|
+|  	|  	|
 
 
 
@@ -1888,7 +1897,12 @@ Fruit: Legume
 Seed: Non-endospermous, reniform.
 
 Floral Formula:
-**Br**.,**Brl**.,**%**.,\\(K_{(5)}\\).,\\(C_5\\).,\\(A_{(9)+1}\\).,\\(\underbar{G}_1\\)
+**Br**.,**Brl**.,**%**.,⚥.,\\(K_{(5)}\\).,\\(C_5\\).,\\(A_{(9)+1}\\).,\\(\underbar{G}_1\\) 
+
+
+
+
+
 
 
 
@@ -2114,7 +2128,7 @@ four apical valves with persistent calyx.
 **Seed**: Endospermous.
 
 **Floral Formula**:
-**Br**.,**Ebrl**.,\\(\bigoplus\\).,\\(K_{(5)}\\).,\\(C_{(5)}\\).,\\(A_{(5)}\\).,\\(\underbar{G}_2\\)
+**Br**.,**Ebrl**.,\\(\bigoplus \\),⚥,\\(K_{(5)} \\), \\(\overbrace{C_{(5)},A_5} \\), \\(\underbar{G}_2 \\)
 
 
 
@@ -2126,7 +2140,18 @@ four apical valves with persistent calyx.
 
 
 
-table
+
+##### Economic importance
+
+
+
+
+| **S.No.** 	| **Economic importance** 	| **Binomial** 	| **Useful parts** 	| **Uses** 	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|
+| 1 	| Food plant 	| Solanum tuberosum (potato)<br><br>Lycopersicon esculentum<br>(tomato)<br><br>Solanum melongena<br>(brinjal)<br><br>Capsicum annuum (bell<br>peppers & chilli papers)<br>C. frutescens (மிளகாய்)<br><br>Physalis peruviana (cape<br>gooseberry / சடக்கு<br>தக்காளி) 	| Underground<br>stem tubers<br>Ripened fruits<br><br>Tender fruits<br><br><br><br><br><br>Fruits<br><br><br>Fruit 	| Used as vegetables and also used<br>for the production of starch.<br><br><br>Used as delicious vegetable<br>and eaten raw.<br><br><br><br><br>Cooked and eaten as<br>vegetable.<br><br>Used as vegetables and<br>powdered chilli is the dried<br>pulverized fruit which is used<br>as spice to add pungency or<br>piquancy and flavour to dishes.<br>Used as delicious fruit. 	|
+| 2 	| Medicinal<br>plant 	| Atropa belladonna<br>(deadly nightshade)<br><br><br>Datura stramonium<br>(ஊமத்தை)<br><br><br>Solanum trilobatum<br>(தூதுவளை)<br>Withania somnifera<br>(Ashwagandha / அமுக்காரா) 	| Roots<br><br><br><br><br><br><br><br>Leaves and roots<br><br><br><br><br>Leaves, flowers<br>and berries<br>Roots 	| A powerful alkaloid ‘atropine’<br>obtained from root is used in<br>belladonna plasters, tinctures<br>etc. for relieving pain and also<br>for dialating pupils of eyes for<br>eye –testing.<br><br><br>Stramonium drug obtained<br>from the leaves and roots of<br>this is used to treat asthma<br>and whooping cough.<br><br><br><br>Used to treat cough<br><br>Used in curing cough and<br>(Ashwagandha / அமுக்காரா)<br>rheumatism.<br><br><br><br> 	|
+| 3 	| Tobacco 	| Nicotiana tabaccum<br>(tobacco / புகையிலை) 	| Leaves are dried<br>and made into<br>tobacco 	| Used in cigarette, beedi,<br>hukkah, pipes as well as<br>for chewing and snuffing,<br>alkaloids like nicotine,<br>nornicotine and anabasin are<br>present in tobacco. 	|
+| 4 	| Ornamental<br>plants 	| Cestrum diurnum<br>(Day Jasmine)<br>Cestrum nocturnum (Night<br>Jasmine) Nicotiana alata<br>Petunia hybrida, Schizanthus<br>pinnatus 	| Plant 	| Grown in garden as<br>ornamental plants for their<br>aesthetic nature.<br><br>![taxonomy and systematic botany](/books/biology/unit-2/taxonomy/Figect2.eng.png ) 	|
 
 
 
@@ -2134,9 +2159,17 @@ table
 
 ##### 5.13.3 Family: Liliaceae (Lily Family)
 
-**Systematic position**
+**Systematic position**  ![taxonomy and systematic botany](/books/biology/unit-2/taxonomy/Figect4.eng.png )
 
-table
+| **APG Classification** 	| **Bentham and Hooker<br>Classification** 	|  	|  	|
+|:---:	|:---:	|---	|---	|
+| Kingdom 	| Plantae 	| Kingdom 	| Plantae 	|
+| Clade 	| Angiosperms 	| Class 	| Monocotyledons 	|
+| Clade 	| Monocots 	| Series 	| Coronarieae 	|
+| Order 	| Liliales 	| Order 	| Liliales 	|
+| Family 	| Liliaceae 	| Family 	| Liliaceae 	|
+
+
 
 
 
@@ -2144,8 +2177,8 @@ table
 
 
 Note: Liliaceae of Bentham and Hooker
-included Allium, Gloriosa, Smilax,
-Asparagus, Scilla, Aloe, Dracaena etc.
+included *Allium*, *Gloriosa*, *Smilax*,
+*Asparagus*, *Scilla*, *Aloe*, *Dracaena* etc.
 Now under APG, it includes only **Lilium**
 and **Tulipa**. All others are placed under
 different families
@@ -2284,16 +2317,32 @@ Style simple, slender with simple stigma.
 
 
 
-floral formula
+**Fruit**: A loculicidal capsule.
+
+**Seed**: Endospermous
+
+**Floral Formula**:
+
+**Br**.,**Ebrl**.,\\(\bigoplus\\).,⚥., \\(\overbrace{P_{(3+3)}A_{(3+3)}}\\),.\\(\underbar{G}_3\\)
+
+
 
 
 
 ![taxonomy and systematic botany](/books/biology/unit-2/taxonomy/Fig5.15.eng.png )
 
 
+##### Economic importance of the family Liliaceae
 
-
-table
+| **S.No** 	| **Economic<br>importance** 	| **Binomial** 	| **Useful part** 	| **Uses** 	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|
+|  	| Food plant 	| Allium cepa<br><br><br>Allium sativum<br><br><br><br>Asparagus officinalis 	| Bulbs<br><br><br>Bulbs<br><br><br><br>Fleshy shoots 	| Used as vegetable, stimulative,<br>diuretic, expectorant with<br>bactericidal properties<br>Used as condiment and also<br>good for heart<br><br><br>Used as vegetables 	|
+|  	| Medicinal plant 	| Aloe vera 	| Leaves 	| Gelatinous glycoside called aloin<br>from succulent leaves are used<br>in soothing lotions, piles and<br>inflammations, hemorrhoidal<br>salves and shampoos. 	|
+|  	|  	| Asparagus racemosus<br><br><br>Colchichum luteum<br><br><br>Gloriosa superba 	| Roots<br><br><br>Roots<br><br><br>Tubers 	| Medicinal oil is prepared from<br>the root is used for nervous and<br>rheumatic complaints and also<br>in skin diseases.<br><br>Used in the treatment of gout<br>and rheumatism<br><br>Tubers helpful in promoting<br>labour pains in women 	|
+|  	| Fibre yielding<br>plant 	| Phormium tenax 	| Fibre 	| Used for cordage, fishing net,<br>mattings, twines. 	|
+|  	| Raticides<br>Insecticides 	| Urginea indica<br>Veratrum album 	| Bulbs<br><br>Bulbs 	| Used for killing rats<br><br>Used as insecticide. 	|
+|  	| Polyploidy 	| Colchicum luteum 	| Corm 	| Colchicine (alkaloid) used to<br>induce polyploidy. 	|
+|  	| Ornamental<br>plants 	| Agapanthus africanus<br>(African Lily)<br>Gloriosa superba<br>(Malabar glory lily)<br>Lilium giganteum<br>Ruscus aculeatus<br>(Butchers Broom)<br>Yucca alcifolia and<br>Y.gloriosa 	| Plant 	| Some of the well known garden<br>ornamentals.<br><br><br>![taxonomy and systematic botany](/books/biology/unit-2/taxonomy/Figect3.eng.png ) 	|
 
 
 
@@ -2535,6 +2584,7 @@ URL:
 * Pictures are indicative only
 
 {{</box>}}
+
 
 
 
