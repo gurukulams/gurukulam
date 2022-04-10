@@ -7,7 +7,7 @@ markup: mmark
 extensions:
     - katex
 ---
----
+
 
 #### கற்றலின் நோக்கங்கள்:
 

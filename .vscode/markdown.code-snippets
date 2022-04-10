@@ -1,0 +1,23 @@
+{
+
+	"2-column-table": {
+		"prefix": "md-tbl-2",
+		"body": [
+			"{.table}",
+			"|  $1 | $2  |",
+			"|---|---|",
+			"| $3  |  $4 |"
+		],
+		"description": "Generate 2 Column Table"
+	},
+	"3-column-table": {
+		"prefix": "md-tbl-3",
+		"body": [
+			"{.table}",
+			"|  $1 | $2  | $3 |",
+			"|---|---|---|",
+			"| $4  |  $5 |  $6 |"
+		],
+		"description": "Generate 2 Column Table"
+	}
+}
