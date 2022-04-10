@@ -503,7 +503,7 @@ that may cause stimulation or inhibition
 of adjacent neurons and other cells (You
 will study in detail in Chapter 10)
 
-{{< box title ="Diseases of Nervous System:" type="objective" >}}
+{{< box title="Diseases of Nervous System" >}}
 
 * 1. Parkinson’s disease: A degenerative
 disorder of the nervous system that
@@ -515,12 +515,6 @@ includes the symptoms of difficulty in
 remembering recent events, problems
 with language, disorientation and
 mood swings.
-
-{{< /box >}}
-
-
-
-{{< box title="Learning objectives" type="objective" >}}
 
 * 1. **Biopsyis** an examination of tissue or liquid
 removed from a living body to discover the
@@ -549,7 +543,7 @@ carry away with you is that tissues, despite
 their unique abilities, cooperate to keep the
 body safe, healthy, viable and whole.
 
-{{< box title= "Activity" type ="objective" >}}
+{{< box title="Diseases of Nervous System" >}}
 
 * 1.Students are asked to identify the
 unlabelled slides of tissues and to

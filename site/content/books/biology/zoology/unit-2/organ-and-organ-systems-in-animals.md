@@ -673,7 +673,6 @@ Why is it said to be more efficient than
 that of earthworm? Why inspiration of
 cockroach is said to be a passive process
 while it is an active process in man?
-
 {{< /box >}} 
 
 ##### Circulatory system
