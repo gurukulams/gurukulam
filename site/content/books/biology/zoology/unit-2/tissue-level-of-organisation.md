@@ -252,6 +252,7 @@ Tissues                 Tissues                    Tissues
 3. Reticular Tissue     3. Elastic                  3. Blood
 
 ```
+
 {{< box >}}
  * 1. What type of connective tissue is
 damaged when one get cut on his
