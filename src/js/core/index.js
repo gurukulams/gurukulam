@@ -90,11 +90,79 @@ class Core {
 
           myDropDownEl.appendChild(ulEl);
           response.forEach((item) => {
-            ulEl.appendChild(this.createSpanElement(item));
+            ulEl.appendChild(
+              this.createSpanElement(item, "dropdownMenuButton1")
+            );
           });
 
           ulEl.firstChild.click();
         }
+      });
+    fetch("/api/grades/", {
+      headers: {
+        "content-type": "application/json",
+        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+      },
+    })
+      .then((response) => {
+        if (response.status === 200) {
+          return response.json();
+        } else if (response.status === 204) {
+          return response.json();
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      })
+      .then((response) => {
+        var myDropDownEl = document.getElementById("dropdownMenuButton2");
+        var myDropDownEla = document.querySelector("#dropdownMenuButton2 > a");
+        if (response == undefined) {
+          myDropDownEla.innerText = "-";
+          document.getElementById("subjectList").style.visibility = "hidden";
+        } else if (response.length == 1) {
+          myDropDownEla.innerText = response[0].title;
+          document.getElementById("subjectList").style.visibility = "visible";
+        } else {
+          var ulEl = document.createElement("ul");
+          ulEl.classList.add("dropdown-menu");
+          ulEl.setAttribute("aria-labelledby", "dropdownMenuButton2");
+          ulEl.innerHTML = "";
+
+          myDropDownEl.appendChild(ulEl);
+          response.forEach((item) => {
+            ulEl.appendChild(
+              this.createSpanElement(item, "dropdownMenuButton2")
+            );
+          });
+
+          ulEl.firstChild.click();
+        }
+      });
+
+    fetch("/api/syllabus/", {
+      headers: {
+        "content-type": "application/json",
+        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+      },
+    })
+      .then((response) => {
+        if (response.status === 200) {
+          return response.json();
+        } else if (response.status === 204) {
+          return response.json();
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      })
+      .then((response) => {
+        var subjectUl = document.getElementById("subjectList");
+        response.forEach((item) => {
+          subjectUl.appendChild(this.createLiElement(item));
+        });
+
+        // ulEl.firstChild.click();
       });
 
     window.success = (statusMessage) => {
@@ -114,21 +182,26 @@ class Core {
     };
   }
 
-  createSpanElement(item) {
+  createSpanElement(item, id) {
     let liEl = document.createElement("li");
     liEl.dataset.id = item.id;
     liEl.innerHTML = `<span class="dropdown-item">${item.title}</span>`;
 
     liEl.addEventListener("click", () => {
-      document.querySelector("#dropdownMenuButton1 > a").innerText = item.title;
-      document
-        .querySelectorAll("#dropdownMenuButton1 > ul > li")
-        .forEach((el) => {
-          el.style.display = "block";
-        });
-
+      document.querySelector("#" + id + " > a").innerText = item.title;
+      document.querySelectorAll("#" + id + " > ul > li").forEach((el) => {
+        el.style.display = "block";
+      });
       liEl.style.display = "none";
     });
+    return liEl;
+  }
+
+  createLiElement(item) {
+    let liEl = document.createElement("li");
+    liEl.dataset.id = item.id;
+    liEl.innerHTML = `<a class="nav-link" href="/books/${item.title}">${item.title}</a>`;
+
     return liEl;
   }
 }
