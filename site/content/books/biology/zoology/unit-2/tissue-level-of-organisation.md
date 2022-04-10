@@ -106,8 +106,7 @@ and severe asthma
 {{< /box >}}
 
 ### Glandular epithelium
-
- Some of the cuboidal or columnar
+Some of the cuboidal or columnar
 cells get specialized for secretion and are
 called **glandular epithelium** (Figure 3.3).
 They are mainly of two types: unicellular,
@@ -262,7 +261,7 @@ adipose tissue. Are they coloured?
 why?      
 {{< /box >}}                                                  
                                                           
-### Components of connective tissue
+#### Components of connective tissue
     All connective tissues consist of three
 main components namely fibres, ground
 substance and cells. The **‘Fibres’** of
@@ -472,7 +471,7 @@ stimulated to contract.
 
 ![](/books/biology/unit-7/tissu-level-of-organization/7.png)
 
-{{< box title="Palmaris muscle:" >}}
+{{< box title="Palmaris muscle:" type="objective" >}}
 This long narrow muscle runs from the
 elbow to the wrist and is important for
 hanging and climbing in primates, is
@@ -503,8 +502,7 @@ that may cause stimulation or inhibition
 of adjacent neurons and other cells (You
 will study in detail in Chapter 10)
 
-
-{{< box title ="Diseases of Nervous System:" >}}
+{{< box title ="Diseases of Nervous System:" type="objective" >}}
 
 * 1. Parkinson’s disease: A degenerative
 disorder of the nervous system that
@@ -516,12 +514,20 @@ includes the symptoms of difficulty in
 remembering recent events, problems
 with language, disorientation and
 mood swings.
-* 3. Biopsyis an examination of tissue or liquid
+
+{{< /box >}}
+
+
+
+{{< box title="Learning objectives" type="objective" >}}
+
+* 1. **Biopsyis** an examination of tissue or liquid
 removed from a living body to discover the
 presence, cause or extent of a disease.
-* 4. Autopsy is a post-mortem (dissection of
+* 2. **Autopsy** is a post-mortem (dissection of
 a dead body) examination to discover the
 cause of death or the extent of disease.
+
    The field of **Forensic science** effectively
 uses the histological techniques to trace
 out crimes.
@@ -597,28 +603,21 @@ neonates produces heat through
 * c. Yellow fat 
 * d. Colourless fat
 
-6. Some epithelia are pseudostratified.What does this mean?
-
+6. Some epithelia are pseudostratified.
+What does this mean?
 7. Differentiate white adipose tissue from
 brown adipose tissue.8. Why blood is considered as a typical
 connective tissue?
-
-
 9. Differentiate between elastic fibres and
 elastic connective tissue.
-
 10. Name any four important functions of
 epithelial tissue and provide at least one
 example of a tissue that exemplifies each
 function.
-
 11. Write the classification of connective
 tissue and their functions
-
 12. What is an epithelium? Enumerate the
 characteristic features of different epithelia.
 
 ![](/books/biology/unit-7/tissu-level-of-organization/9.png)
-
-
 
