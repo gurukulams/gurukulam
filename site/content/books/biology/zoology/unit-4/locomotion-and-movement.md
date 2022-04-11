@@ -298,11 +298,11 @@ original position, i.e. relaxation. (Figure 9.3)
 
 ```goat
 
-
                  .--------+--------------------------.          
                  |  Schematic Presentation of Muscle  |
                  |    Contraction                     |             
                  '---------+-------------------------' 
+                           .
                            |
                            v
                   .--------+--------------------------.          
