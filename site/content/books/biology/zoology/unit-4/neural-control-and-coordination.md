@@ -1569,6 +1569,13 @@ d. Thalamus <br>
 nerves in column I with their respective
 number in column II and choose the
 correct option <br>
+| column I 	| column II 	|
+|---	|---	|
+| P. Cervical nerves 	| i. 5 pairs<br> 	|
+| Q. Thoracic nerve 	| ii. 1 pair 	|
+| R. Lumbar nerve 	| iii. 12 pair 	|
+| S. Coccygeal nerve 	| iv. 8 pair 	|
+
 a. ( P-iv ),( Q-iii ),( R-i ),( S-ii )
 b. ( P-iii ), ( Q-i ), ( R-ii ), ( S-iv )
 c. ( P-iv ),( Q-i ),( R-ii ),( S-iii )
