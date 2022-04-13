@@ -3,7 +3,13 @@ title: 'Chapter 9: Locomotion and Movement'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 9
+markup: mmark
+extensions: mhchem
+extensions: 
+  - katex
 ---
+
+
 {{<box title="">}}
 **Chapter Outline**
 9.1 Types of movement<br>

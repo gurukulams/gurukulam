@@ -9,6 +9,8 @@ extensions:
   - katex
 ---
 
+
+
 {{<box title="">}}
 **Chapter Outline** <br>
 10.1 Neural system <br>
@@ -19,13 +21,14 @@ unit of neural system <br>
 10.5 Reflex action and reflex arc <br>
 10.6 Sensory reception and processing <br>
 
-![](/books/zoology/unit-4/neural-control-and-coordination/01.png)<br>
+![](/books/biology/zoology/unit-4/neural-control-and-coordination/01.png)<br>
 
  Gamma-aminobutyric acid, or GABA, is the brain’s
  major inhibitory neurotransmitter that reduces
  neuronal excitability.
  {{</box>}}
 
+     
  **Learning Objectives:** <br>
  • *Understands the structure of neuron and neural system of human beings*  <br>
 • *Learns to differentiate the functions of sensory and motor neuron* <br>
@@ -155,7 +158,7 @@ the same organelles found in the dendrites
 and cell body but lacks Nissl’s granules
 and Golgi apparatus.<br>
 
-![](/books/zoology/unit-4/neural-control-and-coordination/02.png)<br>
+![](/books/biology/zoology/unit-4/neural-control-and-coordination/02.png)<br>
 **Figure 10.1** Neuron <br>
 The axon, particularly of peripheral
 nerves is surrounded by **Schwann cells**
