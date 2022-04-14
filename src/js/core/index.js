@@ -99,29 +99,6 @@ class Core {
         }
       });
 
-    fetch("/api/syllabus/", {
-      headers: {
-        "content-type": "application/json",
-        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-      },
-    })
-      .then((response) => {
-        if (response.status === 200) {
-          return response.json();
-        } else if (response.status === 204) {
-          return response.json();
-        }
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
-      .then((response) => {
-        var subjectUl = document.getElementById("subjectList");
-        response.forEach((item) => {
-          subjectUl.appendChild(this.createLiElement(item));
-        });
-      });
-
     window.success = (statusMessage) => {
       showStatus("success", statusMessage);
     };
@@ -152,6 +129,50 @@ class Core {
       liEl.style.display = "none";
 
       this.addGradeByBoardId(liEl.dataset.id);
+    });
+    return liEl;
+  }
+
+  listSyllabus(id) {
+    fetch("/api/grades/" + id + "/syllabus", {
+      headers: {
+        "content-type": "application/json",
+        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+      },
+    })
+      .then((response) => {
+        if (response.status === 200) {
+          return response.json();
+        } else if (response.status === 204) {
+          return response.json();
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      })
+      .then((response) => {
+        var subjectUl = document.getElementById("subjectList");
+        subjectUl.innerHTML = "";
+        response.forEach((item) => {
+          subjectUl.appendChild(this.createLiElementForSyllabus(item));
+        });
+      });
+  }
+
+  createLiElementForSyllabus(item, id) {
+    let liEl = document.createElement("li");
+    liEl.dataset.id = item.id;
+    liEl.innerHTML = `<a class="nav-link" href="/books/${item.title}">${item.title}</a>`;
+
+    liEl.addEventListener("click", () => {
+      document.querySelector("#" + id + " > a").innerText = item.title;
+      document.querySelectorAll("#" + id + " > ul > li").forEach((el) => {
+        el.style.display = "block";
+      });
+
+      liEl.style.display = "none";
+
+      // this.addGradeByBoardId(liEl.dataset.id);
     });
     return liEl;
   }
@@ -217,15 +238,8 @@ class Core {
       });
 
       liEl.style.display = "none";
+      this.listSyllabus(liEl.dataset.id);
     });
-    return liEl;
-  }
-
-  createLiElement(item) {
-    let liEl = document.createElement("li");
-    liEl.dataset.id = item.id;
-    liEl.innerHTML = `<a class="nav-link" href="/books/${item.title}">${item.title}</a>`;
-
     return liEl;
   }
 }
