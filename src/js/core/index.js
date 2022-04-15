@@ -83,6 +83,7 @@ class Core {
           myDropDownEla.innerText = response[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
         } else {
+          document.getElementById("subjectList").style.visibility = "visible";
           var ulEl = document.createElement("ul");
           ulEl.classList.add("dropdown-menu");
           ulEl.setAttribute("aria-labelledby", "dropdownMenuButton1");
@@ -161,6 +162,7 @@ class Core {
           myDropDownEla.innerText = response[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
         } else {
+          document.getElementById("subjectList").style.visibility = "visible";
           var ulEl = document.querySelector("#dropdownMenuButton2 > ul");
           if (ulEl == null) {
             ulEl = document.createElement("ul");
@@ -173,34 +175,39 @@ class Core {
           myDropDownEl.appendChild(ulEl);
           response.forEach((item) => {
             ulEl.appendChild(
-              this.createSpanElementForGrade(item, "dropdownMenuButton2")
+              this.createSpanElementForGrade(item, "dropdownMenuButton2", id)
             );
           });
 
           ulEl.firstChild.click();
+
+          //this.listSyllabus(id, ulEl.firstChild.dataset.id);
         }
       });
   }
 
-  createSpanElementForGrade(item, id) {
+  createSpanElementForGrade(item, elementId, boardId) {
     let liEl = document.createElement("li");
     liEl.dataset.id = item.id;
+    liEl.dataset.boardId = boardId;
     liEl.innerHTML = `<span class="dropdown-item">${item.title}</span>`;
 
     liEl.addEventListener("click", () => {
-      document.querySelector("#" + id + " > a").innerText = item.title;
-      document.querySelectorAll("#" + id + " > ul > li").forEach((el) => {
-        el.style.display = "block";
-      });
+      document.querySelector("#" + elementId + " > a").innerText = item.title;
+      document
+        .querySelectorAll("#" + elementId + " > ul > li")
+        .forEach((el) => {
+          el.style.display = "block";
+        });
 
       liEl.style.display = "none";
-      this.listSyllabus(liEl.dataset.id);
+      this.listSyllabus(liEl.dataset.boardId, liEl.dataset.id);
     });
     return liEl;
   }
 
-  listSyllabus(id) {
-    fetch("/api/grades/" + id + "/syllabus", {
+  listSyllabus(boardId, gradeId) {
+    fetch("/api/board/" + boardId + "/grades/" + gradeId + "/syllabus", {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
@@ -230,7 +237,7 @@ class Core {
     liEl.dataset.id = item.id;
     liEl.innerHTML = `<a class="nav-link" href="/books/${item.title}">${item.title}</a>`;
 
-    liEl.addEventListener("click", () => {
+    /* liEl.addEventListener("click", () => {
       document.querySelector("#" + id + " > a").innerText = item.title;
       document.querySelectorAll("#" + id + " > ul > li").forEach((el) => {
         el.style.display = "block";
@@ -239,7 +246,7 @@ class Core {
       liEl.style.display = "none";
 
       // this.addGradeByBoardId(liEl.dataset.id);
-    });
+    });*/
     return liEl;
   }
 }
