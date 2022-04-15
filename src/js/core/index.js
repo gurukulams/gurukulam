@@ -232,7 +232,7 @@ class Core {
       });
   }
 
-  createLiElementForSyllabus(item, id) {
+  createLiElementForSyllabus(item) {
     let liEl = document.createElement("li");
     liEl.dataset.id = item.id;
     liEl.innerHTML = `<a class="nav-link" href="/books/${item.title}">${item.title}</a>`;
