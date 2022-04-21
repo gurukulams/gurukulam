@@ -207,7 +207,7 @@ class Core {
   }
 
   listSyllabus(boardId, gradeId) {
-    fetch("/api/board/" + boardId + "/grades/" + gradeId + "/syllabus", {
+    fetch("/api/board/" + boardId + "/grades/" + gradeId + "/subjects", {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
