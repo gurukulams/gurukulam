@@ -8,6 +8,7 @@ extensions:
 weight: 6
 ---
 
+<<<<<<< Updated upstream
 ### Chapter Outline
 
 6.1 Respiratory function
@@ -1307,4 +1308,6 @@ Schematics of Gas exchange:
 {{</box>}}
 
 
+=======
+>>>>>>> Stashed changes
 

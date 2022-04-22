@@ -777,6 +777,91 @@ helpful in treating hypertension.
 {{< /box >}}
 
 
+<<<<<<< Updated upstream
+=======
+
+
+
+
+                                 .--------------------------.
+                 .-------------- |  Decreased extracellular | --------------
+                 |               |  fluid volume            |               |
+                 |               '--------------------------'               |
+                 |                           |                              |
+      .--------------------.      .----------------------.   .----------------------------.
+      | Decreased          |      |Increased sympathetic |   | Decreased Fluid(andorsodium|
+      | blood pressure     |      | stimulation          |   | delivery to the distale    |
+      '--------------------'      '----------------------'   '--------------------------'     
+                  |                          |                              |
+                  |                          |                              |
+                  |            .---------------------------.                |
+                  -------------| Increased renin se-retion |---------------.           
+                               '---------------------------'
+                                              |
+                                              |
+                                              |
+  .---------------------.           .-----------------------.
+  |Increased            |           | Increased conversion  |
+  |plasma               |           | of angiotensinogen to |
+  |concentration        |           | angiotensin I         |
+  |of potassium         |           '-----------------------'
+  '---------------------'    
+                             
+   .---------------------.            ----------------------.
+   |Severe decrease in   |           | Increased conversion  |      
+   |plasma concentration |           | of angiotensin I to   |    
+   | of sodium           |           | angiotensin II by     |        
+   '---------------------'           | converting enzyme     |
+                                     '-----------------------'
+                              
+                            
+               .------------------------.
+               |Increased secreation of |
+               |aldosterone             |
+               '------------------------'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 (synthesized in the liver) to angiotensin
 I. Angiotensin converting enzyme (ACE)
 converts angiotensin I to angiotensin II.
@@ -1403,6 +1488,7 @@ What hormone is this?
 
 
 
+<<<<<<< Updated upstream
 
 +                                 .--------------------------.
 +                       /-------- |  Decreased extracellular | -----\
@@ -1440,3 +1526,5 @@ What hormone is this?
 +
 +
 +
+=======
+>>>>>>> Stashed changes
