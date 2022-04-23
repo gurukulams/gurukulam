@@ -53,7 +53,10 @@ Simple                                            Compound
         1.Keratinized
         2.Non-Keratinized 
         
-        ``` 
+     
+
+```
+
 into squamous epithelium, cuboidal
 epithelium, columnar epithelium, ciliated
 epithelium and pseudostratified epithelium
@@ -143,6 +146,8 @@ holocrine and apocrine.
 
 
 ```goat
+                               
+                               
                                Glandular Epithelium
                                         .
                                         |
@@ -169,7 +174,13 @@ structure                       secretory units                   mode of secret
 1. Simple glands                1. Tubular                        1. Merocrine
 2. Compound glands              2. Alveolar(Acinus)               2. Holocrine                    
                                 3. Tubulo alveolar                3. Apocrine
+ 
+ 
+ 
  ``` 
+
+
+
 **Compound epithelium** is made of more
 than one layer (multi-layered) of cells and
 thus has a limited role in secretion and
@@ -221,6 +232,8 @@ for rapid transfer of ions, small molecules
 and sometimes big molecules.
 
 {{< box >}}
+
+
 Stratified epithelia are “built” for
 protection or to resist abrasion. What
 are the simple epithelia better at?
@@ -239,7 +252,8 @@ tissue. Major functions of connective tissues
 are **binding, support, protection, insulation**
 **and transportation**  
 ```goat
-                                                  
+
+
                      Connective Tissues
   .--------------------------+------------------------------.
   |                          |                              |
@@ -251,7 +265,10 @@ Tissues                 Tissues                    Tissues
 2. Adipose Tissue       2. Dense Irregular          2. Bone
 3. Reticular Tissue     3. Elastic                  3. Blood
 
+
+
 ```
+
 
 {{< box >}}
  * 1. What type of connective tissue is
@@ -263,6 +280,8 @@ why?
 {{< /box >}}                                                  
                                                           
 #### Components of connective tissue
+
+
     All connective tissues consist of three
 main components namely fibres, ground
 substance and cells. The **‘Fibres’** of
@@ -278,6 +297,7 @@ dense irregular and elastic) and **Specialized**
 blood).                           
 
 #### Loose connective tissues
+
 In this tissue the cells and fibres are
 loosely arranged in a semi fluid ground
 substances. For example the **Areolar**
@@ -318,7 +338,9 @@ lymphocytes) in the lymph nodes, spleen
 and bone marrow.
 
 #### Dense connective tissues
+
 **(connective tissue proper)**
+
 Fibres and fibroblasts are compactly
 packed in the dense connective tissues.
 Orientation of fibres show a regular or
