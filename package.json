@@ -23,6 +23,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-eslint": "^8.0.2",
     "@rollup/plugin-multi-entry": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@rollup/plugin-replace": "^4.0.0",
@@ -46,14 +47,13 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "lint": "eslint src/js --ext .js",
     "serve": "browser-sync start --config browser-sync.js",
     "format:js": "prettier --write src/js",
     "build:hugo": "hugo -d ../dist -s site -v",
     "build:sass": "sass src/scss:dist/css",
     "build:css": "postcss src/css --dir dist/css",
     "build:js": "rollup -c",
-    "build": "run-s clean format:js lint build:*",
+    "build": "run-s clean format:js build:*",
     "watch:hugo": "onchange \"site\" -- run-s build:hugo",
     "watch:sass": "onchange \"src/scss\" -- run-s build:sass",
     "watch:css": "onchange \"src/css\" -- run-s build:css",
