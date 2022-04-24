@@ -8,6 +8,7 @@ weight:
 ---
 
 {{< box title="Learning objectives" type="objective" >}}
+
 * Recognises the types of
 tissues based on their
 characteristic features
@@ -18,9 +19,12 @@ modification of tissues.
 * Understands the significance of
 muscles, connective and neural
 tissues.
+
 {{< /box >}}
 
 ![](/books/biology/unit-7/tissu-level-of-organization/1.png)
+
+
 
 ```goat
                        Classification of Animal Tissues
@@ -57,6 +61,7 @@ Simple                                            Compound
 
 ```
 
+
 into squamous epithelium, cuboidal
 epithelium, columnar epithelium, ciliated
 epithelium and pseudostratified epithelium
@@ -75,7 +80,9 @@ ducts and secretory portions of small glands
 and surface of the ovary. Its main functions
 are secretion and absorption. The **columnar**
 **epithelium**is composed of single layer of tall
-cells with round to oval nuclei at the base. It lines the digestive tract from the stomach tothe rectum. The two modifications of this
+cells with round to oval nuclei at the base. 
+It lines the digestive tract from the stomach 
+tothe rectum. The two modifications of this
 lining are the presence of microvilli on the
 apical surface of the absorptive cells and
 Goblet cell which secretes the protective
@@ -93,7 +100,8 @@ Pseudo-stratified epithelial cells are
 columnar, but unequal in size. Although the
 epithelium is single layered yet it appears
 to be multi-layered because the nuclei lie at
-different levels in different cells. Hence, it is also called pseudostratified epithelium and
+different levels in different cells. Hence, it is also
+ called pseudostratified epithelium and
 
 ![](/books/biology/unit-7/tissu-level-of-organization/2.png)
 
@@ -104,11 +112,15 @@ ciliated forms, line the epididymis, large
 ducts of a glands and tracts of male urethra
 
 {{< box title = "Important epithelial tissue disorders:" >}}
+
 Eczema, Psoriasis, Epithelial carcinoma
 and severe asthma
+
 {{< /box >}}
 
 ### Glandular epithelium
+
+
 Some of the cuboidal or columnar
 cells get specialized for secretion and are
 called **glandular epithelium** (Figure 3.3).
@@ -155,7 +167,7 @@ holocrine and apocrine.
                     --------------------+------------------------.
                     |                                            |
                     v                                            v
-              Endocrine glands                           Endocrine glands            
+              Endocrine glands                           Exocrine glands            
                                                                  .
                                                                  | 
                                                                  v
@@ -178,6 +190,7 @@ structure                       secretory units                   mode of secret
  
  
  ``` 
+
 
 
 
@@ -216,6 +229,8 @@ together with little intercellular material.
 In most of the animal tissues, specialized
 junctions provide both structural and
 
+
+
 ![](/books/biology/unit-7/tissu-level-of-organization/4.png)
 
 functional links between its individual cells.
@@ -251,6 +266,8 @@ connective tissue and Specialized connective
 tissue. Major functions of connective tissues
 are **binding, support, protection, insulation**
 **and transportation**  
+
+
 ```goat
 
 
@@ -270,14 +287,21 @@ Tissues                 Tissues                    Tissues
 ```
 
 
+
+
 {{< box >}}
+
+
  * 1. What type of connective tissue is
 damaged when one get cut on his
 index finger accidently?
  * 2. The stored lipids are in the form of
 adipose tissue. Are they coloured?
 why?      
-{{< /box >}}                                                  
+
+
+{{< /box >}}           
+
                                                           
 #### Components of connective tissue
 
@@ -337,6 +361,7 @@ that supports the blood cells (largely
 lymphocytes) in the lymph nodes, spleen
 and bone marrow.
 
+
 #### Dense connective tissues
 
 **(connective tissue proper)**
@@ -349,6 +374,7 @@ packed in the dense connective tissues.
 Orientation of fibres show a regular or
 
 ![](/books/biology/unit-7/tissu-level-of-organization/5.png)
+
 
 irregular pattern and is called dense regular
 and dense irregular tissues. **Dense regular**
@@ -371,6 +397,7 @@ also present. It is found in the skin as the
 leathery dermis and forms fibrous capsules
 of organs such as kidneys, bones, cartilages,
 muscles, nerves and joints.
+
 
 **Elastic connective tissue** contains high
 proportion of elastic fibres. It allows recoil
@@ -416,7 +443,11 @@ wastes, respiratory gases throughout the
 body. You will learn more about blood in
 Chapter 7.
 
+
+
 ![](/books/biology/unit-7/tissu-level-of-organization/6.png)
+
+
 
 {{< box >}}
 
@@ -427,6 +458,8 @@ connect with one another. What type of
 muscle are you viewing?
 
 {{< /box >}}
+
+
 
 {{< box title="Important connective tissue disorders: (Heritable types)" type="objective" >}}
 
@@ -440,6 +473,8 @@ and results in facial abnormalities.
 threatening soft tissue tumour of
 head, neck and urinogenital tract.
 
+
+
 **Autoimmune connective tissue disorders**
 
 * 1. Rheumatoid arthritis: The immune
@@ -452,6 +487,7 @@ inability to secrete saliva and tears.
 {{< /box >}}
 
 ### 3.4 Muscle Tissue
+
 Each muscle is made of many long,
 cylindrical fibres arranged in parallel arrays.
 These fibres are composed of numerous
@@ -495,13 +531,17 @@ stimulated to contract.
 ![](/books/biology/unit-7/tissu-level-of-organization/7.png)
 
 {{< box title="Palmaris muscle:" type="objective" >}}
+
 This long narrow muscle runs from the
 elbow to the wrist and is important for
 hanging and climbing in primates, is
 missing in 11% of humans today.
+
 {{< /box >}}
 
 ##### 3.5 Neural Tissue
+
+
 Nervous tissue exerts the greatest control
 over the body’s responsiveness to changing 
 conditions. Neurons, the
@@ -515,6 +555,7 @@ up more than one-half of the volume of
 neural tissue in our body.
 
 ![](/books/biology/unit-7/tissu-level-of-organization/8.png)
+
 
 When a neuron is suitably stimulated,
 an electrical disturbance is generated which
@@ -551,6 +592,8 @@ out crimes.
 
 {{< /box >}}
 
+
+
 ### Summary
 
 The body cells combine to form
@@ -581,7 +624,10 @@ lining of cheek allows the students to
 make their own slides using biological
 stain. They will have the experience of
 examining their cheek cells.
+
+
 {{< /box >}}
+
 
 #### Evaluation
 

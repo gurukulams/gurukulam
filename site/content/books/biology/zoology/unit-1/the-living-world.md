@@ -4,6 +4,32 @@ date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 1
 ---
+---
+
+### Chapter Outline
+
+---------------------
+
+
+1.1. Diversity in the Living world
+
+1.2. Need for Classification
+
+1.3. Taxonomy and Systematics
+
+1.4. Three Domains of life
+
+1.5. Taxonomic Hierarchy
+
+1.6. Nomenclature
+
+1.7. Concept of Species
+
+1.8. Tools for study of taxonomy
+
+
+![chpter1](/books/biology/unit-1/zoology-livingworld/pic1.png )
+
 
 
 {{< box title="Learning objectives" type="objective" >}}
@@ -22,7 +48,7 @@ and their uses
 
 {{< /box >}}
 
-![chpter1](/books/biology/unit-1/livingworld/pic1.png )
+
 
 
 All living forms co-exist with each
@@ -121,6 +147,7 @@ nomenclature and classification are the
 scientific stages that are basic to taxonomy.
 
 The basic need for classifications are:
+
 * To identify and differentiate closely
 related species
 * To know the variation among the
@@ -133,6 +160,8 @@ among the different groups
 organisms
 
 ### **Taxonomy and Systematics**
+
+
 Taxonomy (G. taxis- arrangement;
 nomos-law) is the science of arrangement of
 living organisms along with classification,
@@ -149,6 +178,7 @@ the father of taxonomy (classical) and
 taxonomy.
 
 ### Systematics (G. System/sequence)
+
 The objectives of taxonomy and
 systematics are very similar; their goal
 is to classify organisms with stipulated
@@ -162,6 +192,7 @@ and interrelationship between species are
 also being investigated in systematics.
 
 {{< box title="DoYou Know" type="objective" >}}
+
 Carolus Linnaeus is
 the father of modern
 taxonomy, which is
@@ -192,8 +223,8 @@ characteristics such as the habitat and
 morphology only.
 
 **Aristotle** (384 to 322 BC), was the first
-to classify all animals in his **History of
-Animals** (Historia Animalium in Latin).
+to classify all animals in his **History of**
+**Animals** (Historia Animalium in Latin).
 He attempted a basic classification of all
 living organisms into Plants and Animals.
 Animals were classified based on
@@ -202,7 +233,7 @@ locomotion; walking (terrestrial), flying
 on the presence or absence of red blood he
 classified the animals into two as Enaima
 with blood and those without blood as
-Anaima.
+*Anaima*.
 
 Aristotle’s classification system had
 limitations and many organisms were not
@@ -244,8 +275,8 @@ as opposed to earlier taxonomists. John
 Ray also aimed at publishing a complete
 system of nature, which included works
 on mammals, reptiles, birds, fishes and
-insects. The Swedish biologist **Carolus
-Linnaeus (1707 - 1788)** father of modern
+insects. The Swedish biologist **Carolus**
+**Linnaeus (1707 - 1788)** father of modern
 taxonomy and founder of modern
 systematics developed a scientific system
 of taxonomy and binomial nomenclature,
@@ -280,6 +311,8 @@ in the ‘phylogenetic tree’. **Ernst Haeckal**
 introduced the method of representing
 evolutionary relationships with the help
 of a tree diagram known as **cladogram**.
+
+
 This system of classification takes
 into account ancestral characters (traits
 of basic body design which would be in
@@ -297,33 +330,37 @@ seen in organisms below the particular
 branch point. Arranging organisms
 on the basis of their similar or derived
 characters which differ from the ancestral
+characters produced a **phylogenetic tree**
+**or cladogram** (Figure 1.1).
 
-![The Living World](/books/biology/unit-1/the-living-world/clodogram.png "clodogram")
+![chpter1](/books/biology/unit-1/zoology-livingworld/pic2.png )
 
-characters produced a **phylogenetic tree
-or cladogram** (Figure 1.1).
+
 Depending on the system of
 classification, organisms were classified
 into two or three kingdoms. Later into four,
 five, six and now into seven kingdoms.
-**R.H.Whittaker** (1969) proposed the **Five
-kingdom Classification,** the Kingdoms
-defined by him were **Monera, Protista,
-Fungi, Plantae, and Animalia** based
+**R.H.Whittaker** (1969) proposed the **Five**
+**kingdom Classification,** the Kingdoms
+defined by him were **Monera, Protista,**
+**Fungi, Plantae, and Animalia** based
 on the cell structure, mode of nutrition,
 mode of reproduction and phylogenetic
 relationships. Table 1. gives a comparative
 account of different characteristics of the
 five kingdoms.
+
 Classification has come a long way and
 now takes into an account even molecular
 level DNA and RNA identification. The
 advancement in molecular techniques
 and biochemical assays has led to a new
-classification - The “Three Domain”
-classification.
+classification - The **“Three Domain”**
+**classification.**
 
 ### **Three Domains of life**
+
+
 Three domain classification was
 proposed by **Carl Woese** (1977) and his
 co-workers. They classified organisms
@@ -332,7 +369,7 @@ genes. The three domain system adds the
 taxon ‘domain’ higher than the kingdom.
 This system emphasizes the separation of
 Prokaryotes into two domains, Bacteria
-and Archaea, and all the eukaryotes
+and Archaea, and all the eukaryotes are
 
 ![three-domains](/books/biology/unit-1/the-living-world/three-domains.png "three-domains")
 
