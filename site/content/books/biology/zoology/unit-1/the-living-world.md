@@ -7,6 +7,7 @@ weight: 1
 
 
 {{< box title="Learning objectives" type="objective" >}}
+
 * Learns the importance
 of the living world and
 its diversity
@@ -20,6 +21,9 @@ animals
 and their uses
 
 {{< /box >}}
+
+![chpter1](/books/biology/unit-1/livingworld/pic1.png )
+
 
 All living forms co-exist with each
 other. There are about 8.7 million species
