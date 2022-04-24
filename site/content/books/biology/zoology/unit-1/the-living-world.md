@@ -28,7 +28,7 @@ weight: 1
 1.8. Tools for study of taxonomy
 
 
-![chpter1](/books/biology/unit-1/zoology-livingworld/pic1.png )
+![chpter1](/books/biology/unit-1/zoologylivingworld/pic1.png )
 
 
 
@@ -333,7 +333,7 @@ characters which differ from the ancestral
 characters produced a **phylogenetic tree**
 **or cladogram** (Figure 1.1).
 
-![chpter1](/books/biology/unit-1/zoology-livingworld/pic2.png )
+![chpter1](/books/biology/unit-1/zoologylivingworld/pic2.png )
 
 
 Depending on the system of

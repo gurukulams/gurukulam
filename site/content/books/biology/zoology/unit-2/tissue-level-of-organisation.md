@@ -7,9 +7,29 @@ extensions:
 weight: 
 ---
 
+---
+
+### Chapter Outline
+
+---------------------
+
+3.1 Animal Tissues
+
+3.2 Epithelial Tissue
+
+3.3 Connective Tissue
+
+3.4 Muscle Tissue
+
+3.5 Neural Tissue
+
+![](/books/biology/unit-7/tissu-level-of-organization/pic1.png)
+
+
+
 {{< box title="Learning objectives" type="objective" >}}
 
-* Recognises the types of
+* <i> Recognises the types of
 tissues based on their
 characteristic features
 * Understands the
@@ -18,11 +38,12 @@ functions and
 modification of tissues.
 * Understands the significance of
 muscles, connective and neural
-tissues.
+tissues.</i>
 
 {{< /box >}}
 
-![](/books/biology/unit-7/tissu-level-of-organization/1.png)
+
+![](/books/biology/unit-7/tissu-level-of-organization/pic2.png)
 
 
 
@@ -103,7 +124,8 @@ to be multi-layered because the nuclei lie at
 different levels in different cells. Hence, it is also
  called pseudostratified epithelium and
 
-![](/books/biology/unit-7/tissu-level-of-organization/2.png)
+![](/books/biology/unit-7/tissu-level-of-organization/pic3.png)
+
 
 its functions are protection, secretion and
 absorption. Ciliated forms line the trachea
