@@ -159,8 +159,11 @@ class Core {
           myDropDownEla.innerText = "-";
           document.getElementById("subjectList").style.visibility = "hidden";
         } else if (response.length == 1) {
+          var ulEl = document.querySelector("#dropdownMenuButton2 > ul");
+          ulEl.style.visibility = "hidden";
           myDropDownEla.innerText = response[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
+          this.listSyllabus(id, response[0].id);
         } else {
           document.getElementById("subjectList").style.visibility = "visible";
           var ulEl = document.querySelector("#dropdownMenuButton2 > ul");
@@ -170,6 +173,7 @@ class Core {
             ulEl.setAttribute("aria-labelledby", "dropdownMenuButton2");
           }
 
+          ulEl.style.visibility = "visible";
           ulEl.innerHTML = "";
 
           myDropDownEl.appendChild(ulEl);
@@ -224,11 +228,16 @@ class Core {
         console.log(error);
       })
       .then((response) => {
-        var subjectUl = document.getElementById("subjectList");
-        subjectUl.innerHTML = "";
-        response.forEach((item) => {
-          subjectUl.appendChild(this.createLiElementForSyllabus(item));
-        });
+        if (response !== undefined) {
+          var subjectUl = document.getElementById("subjectList");
+          subjectUl.innerHTML = "";
+          response.forEach((item) => {
+            subjectUl.appendChild(this.createLiElementForSyllabus(item));
+          });
+        } else {
+          var subjectUl = document.getElementById("subjectList");
+          subjectUl.innerHTML = "";
+        }
       });
   }
 
