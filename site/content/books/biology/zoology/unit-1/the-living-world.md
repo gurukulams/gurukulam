@@ -71,6 +71,7 @@ for classification, types of classification,
 taxonomical hierarchy, nomenclature and
 tools for studying taxonomy.
 
+
 ### **Diversity in the Living World**
 Earth has numerous habitats with a
 wide range of living organisms inhabiting
@@ -110,6 +111,7 @@ of living organisms and the study of their
 interrelationships.
 
 ### **Need for classification**
+
 We come across many places where
 things are arranged in specific categories.
 In super markets, the shelves can have
@@ -177,7 +179,8 @@ the father of taxonomy (classical) and
 **Carolus Linnaeus is** the father of modern
 taxonomy.
 
-### Systematics (G. System/sequence)
+
+#### **Systematics (G. System/sequence)**
 
 The objectives of taxonomy and
 systematics are very similar; their goal
@@ -371,7 +374,9 @@ This system emphasizes the separation of
 Prokaryotes into two domains, Bacteria
 and Archaea, and all the eukaryotes are
 
-![three-domains](/books/biology/unit-1/the-living-world/three-domains.png "three-domains")
+
+![chpter1](/books/biology/unit-1/zoologylivingworld/pic3.png )
+
 
 are placed into the domain Eukarya. Archaea
 appears to have more in common with the
@@ -434,25 +439,9 @@ linear chromosome with histone proteins,
 ribsosomes of 80S type in the cytosol
 and 70S type in the chloroplast and
 
-**The Three-Domain System**
+![chpter1](/books/biology/unit-1/zoologylivingworld/pic4.png )
 
-![three-domains](/books/biology/unit-1/the-living-world/three-domain-system.png "three-domains")
 
-**The traditional Five – Kingdom system**
-
-![five-domains](/books/biology/unit-1/the-living-world/five-domain-system.png "three-domains")
-
-**The Six –Kingdom system**
-
-![six-domains](/books/biology/unit-1/the-living-world/six-domain-system.png "three-domains")
-
-**The Seven – Kingdom system**
-
-![seven-domains](/books/biology/unit-1/the-living-world/seven-kingdom-system.png "three-domains")
-
-**Table 1.1 Five Kingdom Classification**
-
-![kingdom-classification](/books/biology/unit-1/the-living-world/kingdom-classification.png "three-domains")
 
 mitochondria. Organisms in this domain
 are classified under kingdoms, namely,
@@ -479,7 +468,7 @@ e.g. Lactobacillus sp.
 
 {{< /box >}}
 
-### **Taxonomic hierarchy**
+### **1.5 Taxonomic hierarchy**
 In biological classification, the
 taxonomical hierarchy includes seven
 major categories namely kingdom, phylum,
@@ -490,7 +479,8 @@ subphylum, superclass, subclass,
 superorder, suborder, superfamily,
 subfamily and subspecies.
 
-##### Species
+##### **SpecieS**
+
 Species is the basic
 unit of classification in
 the taxonomic hierarchial
@@ -508,7 +498,8 @@ ancestor. In some genus there is only one
 species which is called as **monotypic**
 
 **Figure 1.2 Sterile offsprings**
-![species](/books/biology/unit-1/the-living-world/species.png "the living world")
+
+![chpter1](/books/biology/unit-1/zoologylivingworld/pic5.png )
 
 {{< box >}}
 
@@ -561,12 +552,13 @@ the order Carnivora which includes dogs
 and cats.
 
 **Systematics of Human being**
-![species](/books/biology/unit-1/the-living-world/systematics-of-human-being.png "the living world")
+
+![chpter1](/books/biology/unit-1/zoologylivingworld/pic6.png )
 
 {{< box >}}
 
-**Recently discovered species in
-South India**
+**Recently discovered species in**
+**South India**
 
 Scientists have discovered a new and
 unusual species of frog in the West-
@@ -578,6 +570,10 @@ purple frog (Nasikabatrachus bhupathi)
 to honour Dr.Subramaniam Bhupathy,
 herpetologist who lost his life in the
 Western Ghats in 2014.
+
+![chpter1](/books/biology/unit-1/zoologylivingworld/pic7.png )
+
+
 
 {{< /box >}}
 
