@@ -244,18 +244,9 @@ class Core {
   createLiElementForSyllabus(item) {
     let liEl = document.createElement("li");
     liEl.dataset.id = item.id;
-    liEl.innerHTML = `<a class="nav-link" href="/books/${item.title}">${item.title}</a>`;
-
-    /* liEl.addEventListener("click", () => {
-      document.querySelector("#" + id + " > a").innerText = item.title;
-      document.querySelectorAll("#" + id + " > ul > li").forEach((el) => {
-        el.style.display = "block";
-      });
-
-      liEl.style.display = "none";
-
-      // this.addGradeByBoardId(liEl.dataset.id);
-    });*/
+    liEl.innerHTML = `<a class="nav-link" href="/books/${item.title.toLowerCase()}">${
+      item.title
+    }</a>`;
     return liEl;
   }
 }
