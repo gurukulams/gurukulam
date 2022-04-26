@@ -26,29 +26,6 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="subjectList">
-      <!-- {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-                <li class="nav-item">
-                    <a class="nav-link {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}" href="#">
-                        {{ .Name }}
-                    </a>
-                </li>
-                <ul class="sub-menu">
-                    {{ range .Children }}
-                        <li class="nav-item">
-                            <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL | absLangURL}}">{{ .Name }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
-            {{ else }}
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ .URL | absLangURL}}">
-                       {{ .Name }}
-                    </a>
-                </li>
-            {{ end }}
-        {{ end }}-->
       </ul>
 
       <ul class="navbar-nav secured">
@@ -65,7 +42,7 @@
             
               <div class="d-flex bd-highlight">
                 <div class="w-100 bd-highlight text-end">
-                  <div class="dropdown" id="dropdownMenuButton1">
+                  <div class="dropdown" id="boardsDropdown">
                     <a href="javascript://" class="text-decoration-none h6 fw-bold"  data-bs-toggle="dropdown" aria-expanded="false">
                       Board
                     </a>

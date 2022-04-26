@@ -1,20 +1,13 @@
 class Core {
   constructor() {
-    if (sessionStorage.auth) {
-      document.querySelector(".logout").addEventListener("click", () => {
-        delete sessionStorage.auth;
-        window.location.href = "/";
-      });
-      document.querySelector(".avatar").src = JSON.parse(
-        sessionStorage.auth
-      ).profilePicture;
+    this.handleSecurity();
 
-      document.querySelector(".navbar-brand").href = "books/maths";
-    } else if (document.querySelector(".secured") !== null) {
-      document.querySelector(".secured").classList.add("invisible");
-    }
+    this.handleModelDialogs();
 
-    // Confirmation Modal pop up logic
+    this.loadBoards();
+  }
+
+  handleModelDialogs() {
     var myModalEl = document.getElementById("exampleModal");
     let cRelatedTarget = null;
     myModalEl.addEventListener("shown.bs.modal", function (event) {
@@ -57,49 +50,6 @@ class Core {
       // setTimeout(() => toastElement.remove(), delay + 3000); // let a certain margin to allow the "hiding toast animation"
     };
 
-    fetch("/api/board", {
-      headers: {
-        "content-type": "application/json",
-        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-      },
-    })
-      .then((response) => {
-        if (response.status === 200) {
-          return response.json();
-        } else if (response.status === 204) {
-          return response.json();
-        }
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
-      .then((response) => {
-        var myDropDownEl = document.getElementById("dropdownMenuButton1");
-        var myDropDownEla = document.querySelector("#dropdownMenuButton1 > a");
-        if (response == undefined) {
-          myDropDownEla.innerText = "-";
-          document.getElementById("subjectList").style.visibility = "hidden";
-        } else if (response.length == 1) {
-          myDropDownEla.innerText = response[0].title;
-          document.getElementById("subjectList").style.visibility = "visible";
-        } else {
-          document.getElementById("subjectList").style.visibility = "visible";
-          var ulEl = document.createElement("ul");
-          ulEl.classList.add("dropdown-menu");
-          ulEl.setAttribute("aria-labelledby", "dropdownMenuButton1");
-          ulEl.innerHTML = "";
-
-          myDropDownEl.appendChild(ulEl);
-          response.forEach((item) => {
-            ulEl.appendChild(
-              this.createSpanElementForBoard(item, "dropdownMenuButton1")
-            );
-          });
-
-          ulEl.firstChild.click();
-        }
-      });
-
     window.success = (statusMessage) => {
       showStatus("success", statusMessage);
     };
@@ -117,6 +67,67 @@ class Core {
     };
   }
 
+  handleSecurity() {
+    if (sessionStorage.auth) {
+      document.querySelector(".logout").addEventListener("click", () => {
+        delete sessionStorage.auth;
+        window.location.href = "/";
+      });
+      document.querySelector(".avatar").src = JSON.parse(
+        sessionStorage.auth
+      ).profilePicture;
+
+      document.querySelector(".navbar-brand").href = "books/maths";
+    } else if (document.querySelector(".secured") !== null) {
+      document.querySelector(".secured").classList.add("invisible");
+    }
+  }
+
+  loadBoards() {
+    fetch("/api/board", {
+      headers: {
+        "content-type": "application/json",
+        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+      },
+    })
+      .then((response) => {
+        if (response.status === 200) {
+          return response.json();
+        } else if (response.status === 204) {
+          return response.json();
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      })
+      .then((boards) => {
+        var myDropDownEl = document.getElementById("boardsDropdown");
+        var myDropDownEla = document.querySelector("#boardsDropdown > a");
+        if (boards == undefined) {
+          myDropDownEla.innerText = "-";
+          document.getElementById("subjectList").style.visibility = "hidden";
+        } else if (boards.length == 1) {
+          myDropDownEla.innerText = boards[0].title;
+          document.getElementById("subjectList").style.visibility = "visible";
+        } else {
+          document.getElementById("subjectList").style.visibility = "visible";
+          var ulEl = document.createElement("ul");
+          ulEl.classList.add("dropdown-menu");
+          ulEl.setAttribute("aria-labelledby", "boardsDropdown");
+          ulEl.innerHTML = "";
+
+          myDropDownEl.appendChild(ulEl);
+          boards.forEach((item) => {
+            ulEl.appendChild(
+              this.createSpanElementForBoard(item, "boardsDropdown")
+            );
+          });
+
+          ulEl.firstChild.click();
+        }
+      });
+  }
+
   createSpanElementForBoard(item, id) {
     let liEl = document.createElement("li");
     liEl.dataset.id = item.id;
@@ -129,13 +140,13 @@ class Core {
       });
       liEl.style.display = "none";
 
-      this.addGradeByBoardId(liEl.dataset.id);
+      this.loadGrades(liEl.dataset.id);
     });
     return liEl;
   }
 
-  addGradeByBoardId(id) {
-    fetch("/api/board/" + id + "/grades", {
+  loadGrades(boardId) {
+    fetch("/api/board/" + boardId + "/grades", {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
@@ -163,7 +174,7 @@ class Core {
           ulEl.style.visibility = "hidden";
           myDropDownEla.innerText = response[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
-          this.listSyllabus(id, response[0].id);
+          this.loadSyllabus(boardId, response[0].id);
         } else {
           document.getElementById("subjectList").style.visibility = "visible";
           var ulEl = document.querySelector("#dropdownMenuButton2 > ul");
@@ -179,7 +190,11 @@ class Core {
           myDropDownEl.appendChild(ulEl);
           response.forEach((item) => {
             ulEl.appendChild(
-              this.createSpanElementForGrade(item, "dropdownMenuButton2", id)
+              this.createSpanElementForGrade(
+                item,
+                "dropdownMenuButton2",
+                boardId
+              )
             );
           });
 
@@ -205,12 +220,12 @@ class Core {
         });
 
       liEl.style.display = "none";
-      this.listSyllabus(liEl.dataset.boardId, liEl.dataset.id);
+      this.loadSyllabus(liEl.dataset.boardId, liEl.dataset.id);
     });
     return liEl;
   }
 
-  listSyllabus(boardId, gradeId) {
+  loadSyllabus(boardId, gradeId) {
     fetch("/api/board/" + boardId + "/grades/" + gradeId + "/subjects", {
       headers: {
         "content-type": "application/json",
