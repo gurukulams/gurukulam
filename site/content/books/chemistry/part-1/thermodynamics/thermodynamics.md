@@ -626,7 +626,438 @@ the piston during the compression and F
 is the force acting on the gas.
 
 
+
 ![Figure 7.3 showing work involved in
 compression processes] (/books/chemistry/part-1/thermodynamics/pic3.png)
 
+F = P<sub>ext</sub> A---- (7.3)
 
+             Substituting 7.3 in 7.2
+
+w = – P<sub>ext</sub> . A. Δx    
+
+A.Δx = change in volume = V<sub>f</sub>-V<sub>i</sub>
+
+w = – P<sub>ext</sub> . (V<sub>f</sub>-V<sub>i</sub>) -––––– (7.4)
+
+
+ w = –P<sub>ext</sub> . (–ΔV) –––––– (7.5)
+
+= P<sub>ext</sub> . ΔV
+
+Since work is done on the system, it
+is a positive quantity.
+If the pressure is not constant, but
+changes during the process such that it
+is always infinitesimally greater than the
+pressure of the gas, then, at each stage of
+compression, the volume decreases by an
+infinitesimal amount, dV. In such a case
+we can calculate the work done on the gas
+by the relation
+
+In a compression process, Pext the
+external pressure is always greater than
+the pressure of the system.
+
+i.e P<sub>ext</sub> = (P<sub>int</sub> + dP).
+
+In an expansion process, the
+external pressure is always less than the
+pressure of the system
+
+i.e. P<sub>ext</sub> = (P<sub>int</sub> - dP).
+
+![Figure 7.4](/books/chemistry/part-1/thermodynamics/pic4.png)
+
+When pressure is not constant and changes
+in infinitesimally small steps (reversible
+conditions) during compression from V<sub>i</sub>
+to V<sub>f</sub>
+, the P-V plot looks like in fig 7.4
+Work done on the gas is represented by
+the shaded area.
+
+In general case we can write,
+
+P<sub>ext</sub> = (P<sub>int</sub> + dP). Such processes
+are called reversible processes. For a
+compression process work can be related
+to internal pressure of the system under
+reversible conditions by writing equation
+
+For a given system with an ideal gas
+
+P<sub>int</sub> V = <sub>n</sub>RT
+
+P<sub>int</sub> = <sub>n</sub>RT/V
+
+If V<sub>f</sub> > V<sub>i</sub> (expansion), the sign of work
+done by the process is negative.
+
+If V<sub>f</sub> < V <sub>i</sub>
+(compression) the sign of work
+done on the process is positive.
+
+**Table: 7.3 Summary of sign conventions**
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-eg6j{background-color:#96FFFB;font-weight:bold;text-align:right;vertical-align:top}
+.tg .tg-fw9x{background-color:#96FFFB;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-fw9x">1.</th>
+    <th class="tg-fw9x">If heat is absorbed by the system</th>
+    <th class="tg-eg6j">      :      </th>
+    <th class="tg-fw9x">+q        </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">2.</td>
+    <td class="tg-0lax">If heat is evolved by the system</td>
+    <td class="tg-amwm">:</td>
+    <td class="tg-0lax">-q</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3.</td>
+    <td class="tg-0lax">work is done by the system</td>
+    <td class="tg-amwm">:</td>
+    <td class="tg-0lax">-w</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">4.</td>
+    <td class="tg-0lax">work is done on the system</td>
+    <td class="tg-amwm">:</td>
+    <td class="tg-0lax">+w</td>
+  </tr>
+</tbody>
+</table>
+ 
+  
+
+**7.3 Zeroth law of thermodynamics:**
+
+The zeroth law of thermodynamics,
+also known as the law of thermal
+equilibrium, was put forward much after
+the establishment of the first and second
+laws of thermodynamics. It is placed
+before the first and second laws as it
+provides a logical basis for the concept of
+temperature of the system.
+
+![Figure : 7.5 Zeroth law of thermodynamics:](/books/chemistry/part-1/thermodynamics/pic5.png)
+
+
+The law states that `If two systems
+are separately in thermal equilibrium with
+a third one, then they tend to be in thermal
+equilibrium with themselves'.
+
+
+According to this law, if systems
+B and C separately are in thermal
+equilibrium with another system A, then
+systems B and C will also be in thermal
+equilibrium with each other. This is also
+the principle by which thermometers are
+used.
+
+**7.4 First Law of Thermodynamics:**
+
+The first law of thermodynamics,
+known as the law of conservation of
+energy, states that the total energy of an
+isolated system remains constant though
+it may change from one form to another.
+
+When a system moves from state 1
+to state 2, its internal energy changes from
+U<sub>1</sub> to U<sub>2</sub>. Then change in internal energy
+
+
+ΔU = U<sub>2</sub> – U<sub>1</sub>.
+
+This internal energy change is
+brought about by the either absorption
+or evolution of heat and/or by work being
+done by/on the system.
+
+Because the total energy of the
+system must remain constant, we can
+write the mathematical statement of the
+First Law as:
+
+ΔU = q + w –––––––––––––––––(7.7)
+
+Where q - the amount of heat supplied to
+the system; w - work done on the system
+Other statements of first law of
+thermodynamics
+
+(1) Whenever an energy of a particular type
+disappears, an equivalent amount of
+another type must be produced.
+
+
+(2) The total energy of a system and
+surrounding remains constant (or
+conserved)
+
+
+(3) "Energy can neither be created nor
+destroyed, but may be converted from
+one form to another".
+
+
+(4) "The change in the internal energy of
+a closed system is equal to the energy
+that passes through its boundary as
+heat or work".
+
+
+(5) "Heat and work are two ways of
+changing a system's internal energy".
+
+### 7.4.1 Mathematical statement of the first law
+
+The mathematical statement of the first
+law of thermodynamics is
+
+ΔU = q + w --------- (7.7)
+
+Case 1 : For a cyclic process
+involving isothermal expansion of an
+ideal gas,
+
+ΔU = 0.
+
+eqn (7.7) ⇒∴ q = -w
+
+In other words, during a cyclic
+process, the amount of heat absorbed by
+the system is equal to work done by the
+system.
+
+
+Case 2 : For an isochoric process
+(no change in volume) there is no work of
+expansion. i.e. ΔV = 0
+
+
+ΔU = q + w
+
+   = q - PΔV
+
+ΔV = 0
+
+ΔU = q<sub>v</sub>
+
+In other words, during an isochoric
+process, the amount of heat supplied to the
+system is converted to its internal energy.
+
+
+Case 3 : For an adiabatic process
+there is no change in heat. i.e. q= 0. Hence
+
+q = 0
+eqn (7.7) ⇒ ΔU = w
+
+In other words, in an adiabatic
+process, the decrease in internal energy
+is exactly equal to the work done by the
+system on its surroundings.
+
+
+Case 4 : For an isobaric process.
+There is no change in the pressure. P
+remains constant. Hence
+
+ΔU = q + w
+
+ΔU = q - P ΔV
+
+In other words, in an isobaric
+process a part of heat absorbed by the
+system is used for P-V expansion work
+and the remaining is added to the internal
+energy of the system.
+
+**Problem: 7.1**
+
+A gas contained in a cylinder fitted
+with a frictionless piston expands against
+a constant external pressure of 1 atm from
+a volume of 5 litres to a volume of 10 litres.
+In doing so it absorbs 400 J of thermal
+energy from its surroundings. Determine
+the change in internal energy of system.
+
+**Solution:**
+
+Given data q = 400 J V<sub>1</sub>=5L V2 = 10L
+
+Δu = q-w (heat is given to
+the system (+q); work is done by the
+system(-w)
+Δu = q - PdV
+
+   = 400 J - 1 atm (10-5)L
+
+   = 400 J - 5 atm L
+
+[∴1L atm = 101.33 J]
+
+         = 400 J - 5 × 101.33 J
+
+         = 400 J - 506.65 J
+
+         = - 106.65 J
+
+**7.5 Enthalpy (H)**
+
+
+The enthalpy (H), is a
+thermodynamic property of a system, is
+defined as the sum of the internal energy
+(U) of a system and the product of pressure
+and volume of the system. That is,
+
+H = U + PV –––––––––––––––––(7.8)
+
+It reflects the capacity to do
+mechanical work and the capacity to
+release heat by the system. When a process
+occurs at constant pressure, the heat
+involved (either released or absorbed) is
+equal to the change in enthalpy.
+Enthalpy is a state function which
+depends entirely on the state functions T,
+P and U. Enthalpy is usually expressed as
+the change in enthalpy (ΔH) for a process
+between initial and final states at constant
+pressure.
+
+ΔH = ΔU + PΔV ––––––––––––––––(7.9)
+
+The change in enthalpy (ΔH) is
+equal to the heat supplied at the constant
+pressure to a system (as long as the system
+does no additional work).
+
+ΔH=q<sub>q</sub>
+
+In an endothermic reaction heat
+is absorbed by the system from the
+surroundings that is q>0 (positive).
+Therefore, ΔH is also positive. In an
+exothermic reaction heat is evolved by the
+system to the surroundings that is, q<0
+(negative). If q is negative, then ΔH will
+also be negative.
+
+
+**7.5.1 Relation between enthalpy `H' and internal energy U'**
+
+When the system at constant
+pressure undergoes changes from an
+initial state with H<sub>1</sub>, U<sub>1</sub> and V<sub>1</sub> to a final
+state with H<sub>2</sub>, U<sub>2</sub> and V<sub>2</sub> the change in
+enthalpy ΔH, can be calculated as follows:
+
+H = U + PV 
+
+In the initial state
+
+H<sub>1</sub> = U<sub>1</sub> + PV<sub>1</sub>−−−−−(7.10)
+
+In the final state
+
+H<sub>2</sub> = U<sub>2</sub> + PV<sub>2</sub>    −−−−(7.11)
+
+change in enthalpy is (7.11) - (7.10)
+
+(H<sub>2</sub>−H<sub>1</sub>) = (U<sub>2</sub>−U<sub>1</sub>) + P(V<sub>2</sub>−V<sub>1</sub>)
+
+
+ΔH=ΔU + PΔV --------- (7.12)
+
+As per first law of thermodynamics,
+
+ΔU = q+w
+
+Equation 7.12 becomes
+
+ΔH = q + w + PΔV
+
+w= -PΔV
+
+ΔH = q<sub>p</sub> - PΔV + PΔV
+
+ΔH = q<sub>p</sub>–––––––––– (7.13)
+
+q<sub>p</sub> − is the heat absorbed at constant
+pressure and is considered as heat content.
+Consider a closed system of gases
+which are chemically reacting to form
+gaseous products at constant temperature
+and pressure with V<sub>i</sub>
+and V<sub>f</sub> as the total
+volumes of the reactant and product gases
+respectively, and n<sub>i</sub> and n<sub>f</sub>
+as the number of moles of gaseous reactants and products,
+then,
+
+For reactants (initial state) :
+
+PV<sub>i</sub> = n<sub>i</sub> RT --------- (7.14)
+
+For products (final state) :
+
+PV<sub>f</sub>= n<sub>f</sub> RT --------- (7.15)
+
+(7.15) - (7.14)
+
+P (V<sub>f</sub> -V<sub>i</sub>) = (n<sub>f</sub>- n<sub>i</sub> ) RT
+
+P ΔV= Δn<sub>(g)</sub> RT –––––––(7.16)
+
+
+Substituting in 7.16 in 7.12
+
+ΔH = ΔU +Δn<sub>(g)</sub> RT–––––––(7.17)
+
+### 7.5.2 Enthalpy Changes for Different Types of Reactions and Phase Transitions:
+
+
+The heat or enthalpy changes
+accompanying chemical reactions is
+expressed in different ways depending
+on the nature of the reaction. These are
+discussed below.
+
+Standard heat of formation
+The standard heat of formation of
+a compound is defined as “the change in
+enthalpy that takes place when one mole of
+a compound is formed from its elements,
+present in their standard states (298 K
+and 1 bar pressure)". By convention the
+standard heat of formation of all elements
+is assigned a value of zero.
+
+
+Fe(s)+ S(s) → FeS(s)
+
+ΔH<sub>f</sub>0 = – 100.42 kJ mol<sup>-1</sup>
