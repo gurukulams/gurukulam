@@ -147,3 +147,4 @@ table to be add
 Alkali metals have the lowest ionisation enthalpy compared to other elements present in the respective period.As we go down the group, the ionisation enthalpy decreases due to the increase in atomic size. In addition, the number of inner shells also increases, which in turn increases the magnitude of screening effect and consequently, the ionisation enthalpy decreases down the group.The second ionisation enthalpies of
 alkali metals are very high. The removal of an electron from the alkali metals gives monovalent cations having stable
 electronic configurations similar to the noble gas. Therefore, it becomes very difficult to remove the second electron from the stable configurations already attained.
+
