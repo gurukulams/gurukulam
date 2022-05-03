@@ -1038,7 +1038,8 @@ Substituting in 7.16 in 7.12
 
 ΔH = ΔU +Δn<sub>(g)</sub> RT–––––––(7.17)
 
-### 7.5.2 Enthalpy Changes for Different Types of Reactions and Phase Transitions:
+
+### <ins>7.5.2 Enthalpy Changes for Different Types of Reactions and Phase Transitions:</ins>
 
 
 The heat or enthalpy changes
@@ -1061,3 +1062,426 @@ is assigned a value of zero.
 Fe(s)+ S(s) → FeS(s)
 
 ΔH<sub>f</sub>0 = – 100.42 kJ mol<sup>-1</sup>
+
+2C(s)+H<sub>2</sub>(g)→ C<sub>2</sub>H2<sub>(g)</sub>
+
+ΔH<sub>f</sub> <sup>0</sup>= + 222.33 kJ mol<sup>-1</sup>
+
+1/2 Cl<sub>2</sub>(g) + 1/2H<sub>2</sub>(g) --> HCl(g)
+
+ΔH<sub>f</sub> 0 = – 92.4 kJ mol<sup>-1</sup>
+
+The standard heats of formation of
+some compounds are given in Table 7.4.
+
+**<ins>Table: 7.4 standard heat of formation of some compunds</ins>**
+
+| **substance**     | **ΔHf<sub>0</sub>(k)mol<sup>-1</sup>** | **substance**                 | **ΔHf<sub>0</sub>(k)mol<sup>-1</sup>** |
+|-------------------|----------------------------------------|-------------------------------|----------------------------------------|
+| H2<sub>o</sub>(l) | −242                                   | CH<sub>4</sub>(g)             | -74.85                                 |
+| HCl(g)            | −92.4                                  | C<sub>2</sub>H<sub>6</sub>(g) | −84.6                                  |
+| HBr(g)            | −36.4                                  | C<sub>6</sub>H<sub></sub>(g)  | +49.6                                  |
+| NH3(g)            | −46.1                                  | C<sub>2</sub>H<sub>2</sub>(g) | +222.33                                |
+| CO2(g)            | -393.5                                 | CH<sub>3</sub>OH
+(l)           | −239.2 
+                                               |
+
+**<ins>7.6 Thermochemical Equations:**</ins>
+
+
+A thermochemical equation is
+a balanced stoichiometric chemical
+equation that includes the enthalpy
+change (ΔH). The following conventions
+are adopted in thermochemical equations:
+
+(i) The coefficients in a balanced
+thermochemical equation refer to
+number of moles of reactants and
+products involved in the reaction.
+
+(ii) The enthalpy change of the reaction
+ΔHr has to be specified with
+appropriate sign and unit.
+
+(iii) When the chemical reaction is
+reversed, the value of ΔH is reversed
+in sign with the same magnitude.
+
+(iv) The physical states (gas, liquid,
+aqueous, solid in brackets) of all
+species are important and must
+be specified in a thermochemical
+reaction, since ΔH depends on
+the physical state of reactants and
+products.
+
+(v) If the thermochemical equation is
+multiplied throughout by a number,
+the enthalpy change is also multiplied
+by the same number.
+
+(vi) The negative sign of ΔHr
+
+indicates
+that the reaction is exothermic and
+the positive sign of ΔHr
+indicates an endothermic reaction.
+
+For example, consider the following
+reaction,
+
+2 H<sub>2</sub>(g)+O<sub>2</sub>(g)→2 H<sub>2</sub>O(g)
+
+  ΔH<sub>r</sub>0 =− 967.4 kJ
+
+  2 H<sub>2</sub> O (g) → 2 H<sub>2</sub>(g) + O<sub>2</sub>(g)
+
+  ΔH<sub>r</sub>0 = + 967.4 kJ
+
+  Standard enthalpy of reaction (ΔH<sub>r</sub><sup>o</sup>) from standard enthalpy of formation (ΔHf) <sup>o</sup>
+
+  The standard enthalpy of a reaction
+is the enthalpy change for a reactionwhen all the reactants and products are
+present in their standard states. Standard
+conditions are denoted by adding the
+superscript 0 to the symbol (ΔH<sup>o</sup>)
+
+We can calculate the enthalpy of
+a reaction under standard conditions
+from the values of standard enthalpies
+of formation of various reactants and
+products. The standard enthalpy of
+reaction is equal to the difference between
+standard enthalpy of formation of products
+and the standard enthalpies of formation
+of reactants.
+
+ΔHr<sup>0</sup>= Σ ΔHr<sup>0</sup><sub>(products)</sub>
+
+For a general reaction
+
+aA + bB → cC +dD
+
+ΔHf<sup>0</sup> = Σ ΔHr<sup>0</sup><sub>(products) -  Σ ΔHr<sup>0</sup><sub>(reactants)
+
+ΔHf<sup>0</sup> = { c ΔHf<sup>0</sup>(C) + d ΔHf<sup>0</sup>(D)} –
+ {a ΔHf<sup>0</sup>(A) + b ΔHf<sup>0</sup>(B)}
+
+ **<ins>Problem : 7.2</ins>**
+
+ The standard enthalpies of formation of C<sub>2</sub>H<sub>5</sub>OH(l),CO<sub>2</sub>(g)CO<sub>2</sub>(g) are - 277,-393.5 and -285.5 kJ mol-1 respectively.
+
+Calculate the standard enthalpy change
+for the reaction
+
+C<sub>2</sub>H<sub>5</sub>OH(l)+3O<sub>2</sub>(g)→2CO<sub>2</sub>(g)+3 H<sub>2</sub>O(l)
+
+The enthalpy of formation of O<sub>2</sub>(g) in the
+standard state is Zero, by definition
+
+**<ins>Solution:</ins>**
+
+For example, the standard enthalpy
+change for the combustion of ethanol can
+be calculated from the standard enthalpies
+of formation of C<sub>2</sub>H<sub>5</sub>OH(l), CO<sub>2</sub>(g)
+and H<sub>2</sub>O(l). The enthalpies of formation
+are –277, – 393.5 and –285.5 kJ mol–1
+respectively.
+
+C<sub>2</sub>H<sub>5</sub>OH(l) + 3O<sub>2</sub>(g) → 2CO<sub>2</sub>(g) + 3H<sub>2</sub>O(l)
+
+∆H<sub>r</sub><sup>0</sup>  = {(∆H<sub>r</sub><sup>0</sup><sub>products</sub>)  - 
+(∆H<sub>r</sub><sup>0</sup><sub>rectants</sub>) }
+
+∆H<sub>r</sub><sup>0</sup> = -1366.5 J
+
+
+{{< box title="Evaluate Yourself - 1" type="objective" >}} 
+
+Calculate ∆H<sub>r</sub><sup>0</sup> for the reaction
+
+CO<sub>2</sub>(g)+ H<sub>2</sub>(g) → CO(g)+ H<sub>2</sub>O(g)
+
+given that ∆H<sub>r</sub><sup>0</sup>  for  CO<sub>2</sub>(g), CO(g) and
+H<sub>2</sub>O(g) are – 393.5, – 111.31 and – 242
+kJ mol–1 respectively.
+
+{{< /box >}}
+
+**<ins>Heat of combustion</ins>**
+
+The heat of combustion of a
+substance is defined as “The change in
+enthalpy of a system when one mole of the
+substance is completely burnt in excess
+of air or oxygen”. It is denoted by ΔH<sub>C</sub>.
+For example, the heat of combustion of
+methane is – 87.78 kJ mol<sup>-1</sup>.
+
+CH<sub>4</sub>(g)+ 2O<sub>2</sub>(g)→ CO<sub>2</sub>(g)+ 2H<sub>2</sub>O(l)
+
+ΔHC = – 87.78 kJ mol<sup>-1</sup>
+
+For the combustion of carbon,
+
+C (s)+ O<sub>2</sub>(g) → CO<sub>2</sub>(g)
+
+ΔHC = – 394.55 kJ mol<sup>-1</sup>
+
+Combustion reactions are always
+exothermic. Hence the enthalpy change is
+always negative.
+
+**<ins>Molar heat capacities</ins>**
+
+When heat (q) is supplied to a system, the
+molecules in the system absorb the heat
+and hence their kinetic energy increases,
+which in turn raises the temperature of the
+system from T<sub>1</sub> to T<sub>2</sub>. This increase (T2 - T1)
+in temperature is directly proportional to
+the amount of heat absorbed and inversely
+proportional to mass of the substance. In
+other words,
+
+q α mΔT
+
+q = c m ΔT
+
+c = q/m ΔT
+
+The constant c is called heat
+capacity.
+
+<!-- Equation coming here-->
+
+when m=1 kg and (T<sub>2</sub> - T<sub>1</sub>) = 1 K
+then the heat capacity is referred as specific
+heat capacity. The equation 7.18 becomes
+c = q
+
+Thus specific heat capacity of a
+system is defined as “The heat absorbed
+by one kilogram of a substance to raise its
+temperature by one Kelvin at a specified
+temperature”.
+
+The heat capacity for 1 mole of
+substance, is called molar heat capacity
+(c<sub>m</sub>). It is defined as “The amount of heat
+absorbed by one mole of the substance to
+raise its temperature by 1 kelvin”.
+
+**<ins>Units of Heat Capacity:</ins>**
+
+The SI unit of molar heat capacity
+is JK<sup>-1</sup>mol<sup>-1</sup>
+
+The molar heat capacities can be
+expressed either at constant volume (C<sub>v</sub>)
+or at constant pressure (C<sub>p</sub>).
+
+According to the first law of
+thermodynamics
+
+U = q + w or U = q - PdV
+
+q = U + PdV ---------------------(7.19)
+
+Differentiate (7.19) with respect to
+temperature at constant volume i.e dV=0,
+
+<!-- equation comming here-->
+
+Thus the heat capacity at constant
+volume (C<sub>V</sub>) is defined as the rate of
+change of internal energy with respect to
+temperature at constant volume.
+Similarly the molar heat capacity at
+constant pressure (C<sub>P</sub>) can be defined as
+the rate of change of enthalpy with respect
+to temperature at constant pressure.
+
+<!-- equation coming soon-->
+
+**<ins>Relation between Cp and Cv for an ideal gas.</ins>**
+
+
+From the definition of enthalpy
+
+H=U+PV ------(7.8)
+
+for 1 mole of an ideal gas
+
+PV = nRT -----(7.22)
+
+By substituting (7.22) in (7.8)
+
+H = U + nRT ---- (7.23)
+
+Differentiating the above equation with
+respect to T,
+
+At constant pressure processes,
+a system has to do work against the
+surroundings. Hence, the system would
+require more heat to effect a given
+temperature rise than at constant volume,
+so C<sub>p</sub> is always greater than C<sub>v</sub>
+
+### <ins>Calculation of ΔU and ΔH</ins>
+
+For one mole of an ideal gas, we have
+
+C<sub>v</sub> = dU /dt
+
+For a finite change, we have
+
+ΔU = C<sub>V</sub> ΔT
+
+ΔU= C<sub>V</sub> (T<sub>2</sub> – T<sub>1</sub>)
+
+and for n moles of an ideal gas we get
+
+ΔU = n C<sub>v</sub>(T<sub>2</sub> – T<sub>1</sub>) –––––––––– (7.25)
+
+Similarly for n moles of an ideal gas we get
+
+Δ H = n CP (T<sub>2</sub>-T<sub>1</sub>)–––––– (7.26)
+
+**Problem 7.3**
+
+Calculate the value of ΔU and ΔH
+on heating 128.0 g of oxygen from 0o C
+to 1000 C. C<sub>V</sub> and C<sub>P</sub> on an average are
+21 and 29 J mol<sup>-1</sup> K<sup>-1</sup>. (The difference is
+8Jmol-1 K-1 which is approximately equal
+to R)
+
+**Solution.**
+
+We know
+
+ΔU = n C<sub>v</sub> (T<sub>2</sub>-T<sub>1</sub>)
+
+ΔU = n C<sub>P</sub> (T<sub>2</sub>-T<sub>1</sub>)
+
+Here n =  128 /32 = 4 moles ;
+
+T2 = 100<sup>0</sup> C =373K; T<sub>1</sub> = 00 C = 273K
+
+ΔU = n C<sub>v</sub> (T<sub>2</sub>-T<sub>1</sub>)
+
+ΔU = 4 x 21 x (373 - 273)
+
+ΔU = 8400 J
+
+ΔU = 8.4 KJ
+
+ΔH = n C<sub>p</sub> (T<sub>2</sub>- T<sub>1</sub>)
+
+ΔH = 4 × 29 × (373- 273)
+
+ΔH = 11600 J
+
+ΔH = 11.6 kJ
+
+
+{{< box title="Evaluate Yourself - 2" type="objective" >}} 
+
+Calculate the amount of heat necessary
+to raise 180 g of water from 250 C to
+1000 C. Molar heat capacity of water is
+75.3 J mol<sup>-1</sup> K<sup>-1</sup>
+
+{{< /box >}}
+
+### <ins>7.7 Measurement of ΔU and ΔH using Calorimetry.</ins><hr>
+
+Calorimeter is used for measuring
+the amount of heat change in a chemical
+or physical change. In calorimetry, the
+temperature change in the process is
+measured which is inversely proportional
+to the heat change. By using the expression
+C = q/mΔT, we can calculate the amount
+of heat change in the process. Calorimetric
+measurements are made under two
+different conditions
+
+i) At constant volume (q<sub>V</sub>)
+
+ii) At constant pressure (q<sub>p</sub>)
+
+**(A) ΔU Measurements**
+
+For chemical reactions, heat
+evolved at constant volume, is measured
+in a bomb calorimeter.
+
+The inner vessel (the bomb) and its
+cover are made of strong steel. The cover
+is fitted tightly to the vessel by means of
+metal lid and screws.
+
+
+![Figure 7.6 Bomb calorimeter:](/books/chemistry/part-1/thermodynamics/pic6.png)
+
+A weighed amount of the substance
+is taken in a platinum cup connected with
+electrical wires for striking an arc instantly
+to kindle combustion. The bomb is then
+tightly closed and pressurized with excess
+oxygen. The bomb is immersed in water,
+in the inner volume of the calorimeter.
+A stirrer is placed in the space between
+the wall of the calorimeter and the bomb,
+so that water can be stirred, uniformly.
+The reaction is started by striking the
+substance through electrical heating.
+
+A known amount of combustible
+substance is burnt in oxygen in the
+bomb. Heat evolved during the reaction
+is absorbed by the calorimeter as well as
+the water in which the bomb is immersed.
+The change in temperature is measured
+using a Beckman thermometer. Since the
+bomb is sealed its volume does not change
+and hence the heat measurements is equal
+to the heat of combustion at a constant
+volume (ΔU<sub>c</sub><sup>0</sup>).
+
+The amount of heat produced in
+the reaction (ΔU<sub>c</sub><sup>0</sup>) is equal to the sum of
+the heat abosrbed by the calorimeter and
+water.
+
+
+Heat absorbed by the calorimeter
+
+q<sub>1</sub> = k.ΔT
+
+where k is a calorimeter constant
+equal to m<sub>c</sub>C<sub>c</sub> ( m<sub>c</sub> is mass of the
+calorimeter and C<sub>c</sub> is heat capacity of
+calorimeter)
+
+Heat absorbed by the water
+
+q<sub>2</sub> = m<sub>w</sub> C<sub>w</sub> ΔT
+
+where m<sub>w</sub> is molar mass of water
+
+C<sub>w</sub> is molar heat capacity of water
+(75.29 J K<sup>-1</sup> mol<sup>-1</sup>).
+
+
+
+
+
+
+
+
