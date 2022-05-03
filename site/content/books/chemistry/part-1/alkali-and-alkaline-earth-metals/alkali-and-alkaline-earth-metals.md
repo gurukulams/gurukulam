@@ -301,3 +301,172 @@ The distinctive behaviour of Li+ ion is due to its exceptionally small size, hig
 
 Similarity between the first member of group 1 (Li) and the diagonally placed second element of group 2 (Mg) is called diagonal relationship. It is due to similar size (r<sub>Li</sub>+ = 0.766 Å and r<sub>Mg</sub>2+ = 0.72 Å) and comparable electronegativity values
 (Li = 1.0; Mg = 1.2).
+
+
+5.2.3 **Chemical properties of alkali metals**
+
+Alkali metals exhibit high chemical
+reactivity. The reactivity of alkali metals
+increases from Li to Cs, since the ionisation
+energy decreases down the group. All alkali metals are highly reactive towards the more electronegative elements such as oxygen and halogens. Some characteristic chemical properties of alkali metals are
+described below
+
+
+**Reaction with oxygen.**
+
+
+All the alkali metals on exposure
+to air or oxygen burn vigorously, forming
+oxides on their surface. Lithium forms only
+monoxide, sodium forms the monoxide
+and peroxide and the other elements form
+monoxide, peroxide, and superoxides.
+These oxides are basic in nature.
+
+
+4 Li +O<sub>2</sub><span>&#8594;</span>2Li<sub>2</sub>O (simple oxide)
+
+
+2 Na +O<sub>2</sub><span>&#8594;</span>Na<sub>2</sub>O<sub>2</sub> (peroxide)
+
+
+M + O<sub>2</sub><span>&#8594;</span>MO<sub>2</sub> (superoxide)  
+(M= K, Rb,Cs)
+
+
+**Reaction with hydrogen**
+
+
+   All alkali metals react with hydrogen at about 673 K (lithium at 1073 K) to form the corresponding ionic hydrides. Reactivity of alkali metals with hydrogen decreases from Li to Cs.
+
+   2M + H<sub>2</sub> <span>&#8594;</span> 
+   2 M<sup>+</sup>  +H <sup>-</sup>
+
+   (M = Li, Na, K, Rb, Cs)
+
+   The ionic character of the hydrides increases from Li to Cs and their stability decreases. The hydrides behave as strong reducing agents and their reducing nature increases down the group.
+
+
+**Reaction with halogen**
+   
+   
+   Alkali metals combine readily with halogens to form ionic halides MX.Reactivity of alkali metals with halogens increases down the group because of corresponding decrease in ionisation enthalpy.
+
+
+2M + X<sub>2</sub><span>&#8594;</span>2 MX
+
+(M= Li, Na, K, Rb, Cs) (X= F, Cl, Br, I)
+
+    All metal halides are ionic crystals.However Lithium iodide shows covalent character, as it is the smallest cation that exerts high polarising power on the iodide anion. Additionally, the iodide ion being the largest can be polarised to a greater extent by Li<sup>+</sup> ion.
+
+**Reaction with liquid ammonia:**
+    Alkali metals dissolve in liquid ammonia to give deep blue solutions that are conducting in nature. The conductivity is similar to that of pure metals (The specific conductivity of Hg is 10<sup>4</sup>Ω<sup>-1</sup> and for sodium in liquid ammonia is 0.5 x <sup>4</sup>Ω<sup>-1</sup>). This happens because the alkali metal atom readily loses its valence electron in ammonia solution. Both the cation and the electron are ammoniated to give ammoniated cation and ammoniated electron.
+
+
+  M + (x + y)NH<sub>3</sub><span>&#8594;</span>[M(NH<sub>3</sub>)<sub>x</sub> ]<sup>+</sup>+ [e(NH<sub>3</sub>)<sub>y</sub> ]<sup>-</sup>
+
+
+  The blue colour of the solution is due to the ammoniated electron which absorbs energy in the visible region of light and thus imparts blue colour to the solution. The solutions are paramagnetic and on standing slowly liberate hydrogen resulting in the formation of an amide.
+
+  M<sup>+</sup> + e <sup>-</sup> + NH<sub>3</sub> → MNH<sub>2</sub>+ ½H<sub>2</sub>
+
+
+   In concentrated solution, the blue colour changes to bronze colour and become diamagnetic.
+
+
+**Reaction with water:**
+
+   Alkali metals react with water to give corresponding hydroxides with the liberation of hydrogen.
+
+
+   2 Li + 2 H<sub>2</sub>O → 2 LiOH+ H<sub>2</sub>
+
+
+   They also react with alcohol,and alkynes which contain active hydrogens.
+
+   2 Na + 2 C<sub>2</sub>H<sub>5</sub>OH → 2 C<sub>2</sub>H<sub>5</sub>ONa + H<sub>2</sub>
+
+equation to be add....
+
+
+**Reducing activity:**
+
+   Alkali metals can lose their valence electron readily hence they act as good reducing agents.
+   
+   M <sub>(s)</sub> → M <sup>+</sup><sub>(g)</sub>  + e<sup>-</sup> 
+
+**Reaction with carbon:**
+
+   Lithium directly reacts with carbon to form the ionic compound, lithium carbide. Other metals do not react with carbon directly. However, when they are treated with compounds like acetylene they form acetelydes.
+
+   2 Li + 2C → Li <sub>2</sub> C <sub>2</sub>
+
+**5.2.4 Uses of alkali metals:**
+
+  *Lithium metal is used to make useful alloys. For example with lead it is used to make ‘white metal’ bearings for motor engines, with aluminium to make aircraft parts, and with magnesium to make armour plates. It is used in thermonuclear reactions.
+
+  *Lithium is also used to make electrochemical cells.
+
+   *Sodium is used to make Na/Pb alloy needed to make Pb(Et)4 and Pb(Me)4. These organolead compounds were earlier used as anti-knock  additives to petrol, but nowadays lead-free petrol in use.
+
+   *Liquid sodium metal is used as a coolant in fast breeder nuclear reactors.
+
+   *Potassium has a vital role in biological systems.Potassium chloride is used as a fertilizer.
+
+   *Potassium hydroxide is used in the manufacture of soft soap. It is also used as an excellent absorbent of carbon dioxide.
+
+   *Caesium is used in devising photoelectric cells.
+
+**5.3 General characteristics of the compounds of alkali metals:**
+
+All the common compounds of the alkali metals are generally ionic in nature. General characteristics of some of their compounds are discussed here.
+
+**Oxides and Hydroxides:**
+
+On combustion in excess of air, alkali metals forms normal oxides with formula M<sub>2</sub>O. They react with water to form corresponding hydroxides which are basic in nature.
+
+
+M<sub>2</sub>O + H<sub>2</sub>O → 2 MOH
+
+Alkali metals apart from lithium form peroxides in addition to normal oxides upon combustion with excess air. These peroxides produce hydroxides and
+H<sub>2</sub>O<sub>2</sub> upon reacting with water.
+
+
+M<sub>2</sub>O<sub>2</sub>+2 H<sub>2</sub>O → 2MOH+H<sub>2</sub>O<sub>2</sub>
+
+(M = Na, K, Rb, Cs)
+
+Except lithium and sodium, all the other alkali metals form superoxides also. These superoxides also gives basic hydroxides upon treatment with water.
+
+
+2 MO<sub>2</sub> + 2 H<sub>2</sub>O → 2 MOH + H<sub>2</sub>O<sub>2</sub> + O<sub>2</sub>
+
+(M = K, Rb, Cs)
+
+Under appropriate conditions pure
+compounds M<sub>2</sub>O, M<sub>2</sub>O<sub>2</sub> or MO<sub>2</sub> may be
+prepared
+
+
+**Properties of oxides and hydroxides:**
+
+
+The oxides and the peroxides are colourless when pure, but the superoxides are yellow or orange in colour. The peroxides are diamagnetic while the
+superoxides are paramagnetic. Sodium peroxide is widely used as an oxidising agent. The hydroxides which are obtained by the reaction of the oxides with water are all white crystalline solids. The alkali metal hydroxides are strong bases. They dissolve in water with evolution of heat on account of intense hydration.
+
+
+**Halides:**
+The alkali metal halides, MX,(X=F, Cl, Br, I) are colourless crystalline solids with high melting points. They can be prepared by the reaction of the
+appropriate oxide, hydroxide or carbonate with aqueous hydrohalic acid (HX). As the electropositive character of alkali metal increases from Li to Cs, the ease with which the metals form halides increases from Li to Cs. All halides are ionic in nature except LiBr and LiI. Except LiF, all other halides are soluble in water. The low solubility of LiF in water is due to its high lattice enthalpy (small size of Li+ and
+F-).Due to the presence of covalent nature both LiBr and LiI are soluble in organic solvents.
+
+**Salts of oxo-acids:**
+Alkali metals form salts with all the oxo-acids. Most of these salts are soluble in water and are thermally stable. As the electropositive character increases down the group, the stability of the carbonates and bicarbonates increases. This is due to the decrease in polarising power of alkali metal cations. The carbonates (M<sub>2</sub>CO<sub>3</sub>) of alkali metals are remarkably stable up to 1273 K, above which they first melt and then eventually decompose to form oxides. However, Li<sub>2</sub>CO<sub>3</sub> is considerably less stable and decomposes readily.
+
+
+equation to be add p.n 132
+
+This is presumably due to large size
+difference between Li<sup>+</sup> and CO<sub>3</sub><sup>-2</sup> which makes the crystal lattice unstable. Being strongly basic, alkali metals except lithium form solid bicarbonates. No other metal forms solid bicarbonates.
+
+
