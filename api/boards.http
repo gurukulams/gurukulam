@@ -1,0 +1,60 @@
+@base = http://localhost:8080/api 
+
+#### Login
+# @name login 
+POST {{base}}/auth/login
+Content-Type: application/json
+
+{
+    "userName": "tom",
+    "password": "password"
+}
+
+### Listing boards
+GET {{base}}/boards
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+### Create board
+# @name board 
+POST {{base}}/boards
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+    "title": "PTU",
+    "description": "PTU"
+}
+
+### Update board
+PUT {{base}}/boards/{{board.response.body.id}}
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+Accept-Language: pa
+
+{
+    "title": "ਪੀ.ਟੀ.ਯੂ",
+    "description": "ਪੀ.ਟੀ.ਯੂ"
+}
+
+### Get board by id
+GET {{base}}/boards/{{board.response.body.id}}
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+### Get board by id for punjob
+GET {{base}}/boards/{{board.response.body.id}}
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+Accept-Language: pa
+
+### List boards
+GET {{base}}/boards
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+### List boards for Punjob
+GET {{base}}/boards
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+Accept-Language: pa

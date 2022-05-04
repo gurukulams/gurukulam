@@ -1,0 +1,72 @@
+@base = http://localhost:8080/api 
+
+#### Login 
+# @name login 
+POST {{base}}/auth/login
+Content-Type: application/json
+
+{
+    "userName": "tarun",
+    "password": "password"
+}
+
+#### Create Practice
+# @name practice 
+POST {{base}}/practices/basic
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+  "name": "Sports",
+  "description": "Sports related practices"
+}
+
+#### Create Question
+# @name question 
+POST {{base}}/practices/basic/{{practice.response.body.id}}/questions/CHOOSE_THE_BEST
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+  "question": "Who is the best cricketer?",
+  "type": "CHOOSE_THE_BEST",
+  "choices": [{
+    "value": "Sachin"
+  }, {
+    "value": "Dhoni"
+  }, {
+    "value": "Dravid",
+    "answer": true
+  }, {
+    "value": "Kapil"
+  }]
+}
+
+#### Answer Question
+POST {{base}}/practices/basic/{{practice.response.body.id}}/questions/{{question.response.body.id}}/answer
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+3
+
+#### Update Practice for Tamil
+PUT {{base}}/practices/basic/{{practice.esponse.body.id}}
+Authorization: Bearer {{login.response.body.authToken}}
+Accept-Language: ta
+Content-Type: application/json
+
+{
+  "name": "விளையாட்டு",
+  "description": "விளையாட்டு விபரம்"
+}
+
+#### Get Practice
+GET {{base}}/practices/basic/{{practice.response.body.id}}
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+#### Get Practice for Tamil
+GET {{base}}/practices/basic/{{practice.response.body.id}}
+Authorization: Bearer {{login.response.body.authToken}}
+Accept-Language: ta
+Content-Type: application/json
