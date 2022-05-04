@@ -386,7 +386,8 @@ M + O<sub>2</sub><span>&#8594;</span>MO<sub>2</sub> (superoxide)
 
    2 Na + 2 C<sub>2</sub>H<sub>5</sub>OH → 2 C<sub>2</sub>H<sub>5</sub>ONa + H<sub>2</sub>
 
-equation to be add....
+H-C ≡ C-H Na H-C ≡ C-Na
+Na-C ≡ C-Na Na
 
 
 **Reducing activity:**
@@ -456,17 +457,462 @@ superoxides are paramagnetic. Sodium peroxide is widely used as an oxidising age
 
 
 **Halides:**
+
+
 The alkali metal halides, MX,(X=F, Cl, Br, I) are colourless crystalline solids with high melting points. They can be prepared by the reaction of the
 appropriate oxide, hydroxide or carbonate with aqueous hydrohalic acid (HX). As the electropositive character of alkali metal increases from Li to Cs, the ease with which the metals form halides increases from Li to Cs. All halides are ionic in nature except LiBr and LiI. Except LiF, all other halides are soluble in water. The low solubility of LiF in water is due to its high lattice enthalpy (small size of Li+ and
 F-).Due to the presence of covalent nature both LiBr and LiI are soluble in organic solvents.
 
 **Salts of oxo-acids:**
+
+
 Alkali metals form salts with all the oxo-acids. Most of these salts are soluble in water and are thermally stable. As the electropositive character increases down the group, the stability of the carbonates and bicarbonates increases. This is due to the decrease in polarising power of alkali metal cations. The carbonates (M<sub>2</sub>CO<sub>3</sub>) of alkali metals are remarkably stable up to 1273 K, above which they first melt and then eventually decompose to form oxides. However, Li<sub>2</sub>CO<sub>3</sub> is considerably less stable and decomposes readily.
 
 
-equation to be add p.n 132
+Li2CO3 →Δ Li2O + CO2
 
 This is presumably due to large size
 difference between Li<sup>+</sup> and CO<sub>3</sub><sup>-2</sup> which makes the crystal lattice unstable. Being strongly basic, alkali metals except lithium form solid bicarbonates. No other metal forms solid bicarbonates.
 
 
+M<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O → 2 MHCO<sub>3</sub>
+
+(M = Na, K, Rb, Cs)
+
+All the carbonates and bicarbonates are soluble in water and their solubilities increase rapidly on descending the group. This is due to the reason that lattice energies decrease more rapidly than their hydration energies on moving down the group.
+
+**5.3.1 Important compounds of alkali metals:**
+
+
+**Sodium Carbonate Na<sub>2</sub>CO<sub>3</sub>.10H<sub>2</sub>O (Washingsoda):**
+
+Sodium carbonate is one of the important inorganic compounds used in industries. It is prepared by Solvay process. In this process, ammonia is converted into ammonium carbonate which then
+converted to ammonium bicarbonate by passing excess carbon dioxide in a sodium chloride solution saturated with ammonia. The ammonium bicarbonate thus formed reacts with the sodium chloride to give sodium bicarbonate and ammonium
+chloride. As sodium bicarbonate has poor solubility, it gets precipitated. The sodium
+bicarbonate is isolated and is heated to give sodium carbonate. The equations involved in this process are,
+
+
+2NH<sub>3</sub> + H<sub>2</sub>O + CO<sub>2</sub> → (NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub>
+
+
+(NH<sub>4</sub>)<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O + CO<sub>2</sub> → 2 NH<sub>4</sub>HCO<sub>3</sub>
+
+
+NH<sub>4</sub>HCO<sub>3</sub>+ NaCl → NH<sub>4</sub>Cl + NaHCO<sub>3</sub>
+
+2 NaHCO<sub>3</sub> → Na<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O
+
+The ammonia used in this process can be recovered by treating the resultant ammonium chloride solution with calcium hydroxide. Calcium chloride is formed as a by-product.
+
+**Properties:**
+
+Sodium carbonate, commonly known as washing soda, crystallises as decahydrate which is white in colour. It is soluble in water and forms an alkaline solution. Upon heating, it looses the water of crystallisation to form monohydrate. Above 373 K, the monohydrate becomes completely anhydrous and changes to a white powder called soda ash.
+
+
+Na<sub>2</sub>CO<sub>3</sub>·10H<sub>2</sub>O → Na<sub>2</sub>CO<sub>3</sub>·H<sub>2</sub>O + 9H<sub>2</sub>O
+
+Na<sub>2</sub>CO<sub>3</sub>·H<sub>2</sub>O → Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O
+
+
+**Uses:**
+
+
+i.
+Sodium carbonate known as washing
+soda and is used mainly for laundering.
+
+
+ii. It is also used in water treatment to
+convert the hard water to soft water.
+
+
+iii. It is used in the manufacturing of
+glass, paper, paint etc...
+
+
+**Sodium chloride NaCl (Cooking salt or Table salt:**
+
+Sodium chloride is isolated by evaporation from sea water which contains 2.7 to 2.9% by mass. Approximately 50 lakh tons of salt are produced annually in India by solar evaporation. Crude sodium chloride can be obtained by crystallisation
+of brine solution which contains sodium sulphate, calcium sulphate, calcium chloride and magnesium chloride as impurities. Pure sodium chloride can
+be obtained from crude salt as follows.Firstly removal of insoluble impurities by filtration from the crude salt solution with minimum amount of water. Sodium chloride can be crystallised by passing HCl gas into this solution. Calcium and
+magnesium chloride, being more soluble than sodium chloride, remain in solution.
+
+Sodium chloride melts at 1081K. It has a solubility of 36.0 g in 100 g of water at 273 K. The solubility does not increase appreciably with increase in temperature.
+
+
+**Uses:**
+
+(i) It is used as a common salt or table salt for domestic purpose.
+
+
+ii) It is used for the preparation of many inorganic compounds such as NaOH and Na<sub>2</sub>CO<sub>3</sub>
+
+
+**Sodium hydroxide:**
+Sodium hydroxide is prepared commercially by the electrolysis of brine solution in Castner-Kellner cell using a mercury cathode and a carbon anode.
+Sodium metal is discharged at the cathode and combines with mercury to form sodium amalgam. Chlorine gas is evolved at the anode. The sodium amalgam thus obtained is treated with water to give
+sodium hydroxide.
+
+
+
+At cathode: Na<sup>+</sup> + e<sup>-</sup> → Na(amalgam)
+
+At anode: Cl<sup>-</sup>→ ½ Cl<sub>2</sub> ↑+ e<sup>-</sup>
+
+2Na(amalgam)+2H<sub>2</sub>O→2NaOH+2Hg+H<sub>2</sub>↑
+
+
+Sodium hydroxide is a white,translucent and deliquescent solid, that dissolves in water to give a strong alkaline solution. It melts at 591 K. The sodium hydroxide solution at the surface reacts with the CO2 in the atmosphere to form
+Na<sub>2</sub>CO<sub>3</sub>
+
+
+**Uses:**
+• Sodium hydroxide is used in the purification of bauxite (ore of Aluminium) and petroleum refining
+
+• It is used in the textile industries for
+mercerising cotton fabrics
+
+• It is used in the manufacture of soap,
+paper and artificial silks.
+
+
+**Sodium bicarbonate NaHCO3 (Baking soda):**
+
+
+odium hydrogen carbonate or sodium bicarbonate is used in baking cakes pastries etc. It is called so because it decomposes on heating to generate
+bubbles of carbon dioxide, leaving holes in cakes or pastries and making them lightand fluffy. This compound is prepared by saturating a solution of sodium carbonate with carbon dioxide. The white crystalline powder of sodium bicarbonate, being less soluble, precipitated out.
+
+
+**Uses:**
+
+• Primarily used as an ingredient in
+baking.
+
+• Sodium hydrogen carbonate is a mild
+antiseptic for skin infections.
+
+• It is also used in fire extinguishers.
+
+
+**5.4 Biological importance of sodium and potassium**
+
+
+Monovalent sodium and potassium ions are found in large proportions in biological fluids. These ions perform important biological functions such as
+maintenance of ion balance and nerve impulse conduction. A typical 70 kg man contains about 90 g of sodium and 170 g of potassium compared with only 5 g of iron and 0.06 g of copper.
+
+Sodium ions are found primarily on the outside of cells, being located in blood plasma and in the interstitial fluid which surrounds the cells. These
+ions participate in the transmission of nerve signals, in regulating the flow of water across cell membranes and in the transport of sugars and amino acids into cells. Sodium and potassium, although so similar chemically, differ quantitatively in their ability to penetrate cell membranes, in their transport mechanisms and in
+their efficiency to activate enzymes. Thus,
+potassium ions are the most abundant cations within cell fluids, where they activate many enzymes, participate in the oxidation of glucose to produce ATP and, with sodium, are responsible for the transmission of nerve signals.
+
+Sodium–potassium pump play an important role in transmitting nerve signals.
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.4.png)
+
+
+**5.5 Alkaline earth metals:**
+
+Group 2 in the modern periodic table contains the elements beryllium, magnesium, calcium, strontium, barium and radium. These elements with the exception of beryllium are commonly known as the alkaline earth metals because their oxides and hydroxides are alkaline in nature and these metal oxides are found in the earth’s crust.
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.5.png)
+
+
+**Table 5.7 Abundance of important alkaline earth metals and their sources**
+
+
+
+
+| Element 	| Abundance in Earth crust by weight (ppm) 	| Mineral source                                                                               	|
+|---------	|------------------------------------------	|----------------------------------------------------------------------------------------------	|
+| Be      	| 2.0                                      	| beryl Be<sub>3</sub>Al<sub>2</sub>Si<sub>6</sub>O<sub>18 </sub>                              	|
+| Mg      	| 27640                                    	| Carnallite (KCl.MgCl<sub>2</sub>.6H<sub>2</sub>O) Dolomite MgCO<sub>3</sub> CaCO<sub>3</sub> 	|
+| Ca      	| 1.84                                     	| Fluorapatite Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub> F                                    	|
+| sr      	| 384                                      	| Celestite SrSO<sub>4</sub>                                                                   	|
+| Ba      	| 930                                      	| barytes BaSO<sub>4</sub>                                                                     	|
+
+
+
+**5.5.1 General characteristics of alkaline earth metals:**
+
+
+**Physical state**
+
+Beryllium is rare and radium is the rarest of all comprising only 10 % of igneous rocks. Magnesium and calcium are very common in the earth’s crust,
+with calcium the fifth-most-abundant element, and magnesium the eighth. Magnesium and calcium are found in many rocks and minerals: magnesium
+in carnallite, magnesite, dolomite and calcium in chalk, limestone, gypsum. Most strontium is found in the minerals celestite and strontianite. Barium is slightly less common, much of it in the mineral
+barite. Radium, being a decay product of uranium, is found in all uranium-bearing ores
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.5.1.png)
+
+
+**Electronic configuration:**
+
+
+These elements have two electrons in the valence shell of their atoms, preceded by the noble gas configuration. Their general electronic configuration is written as [Noble gas]ns2 where ‘n’ represents the valence shell.
+
+
+**Table 5.8 Electronic configuration of alkaline earth metals:**
+
+
+| Element 	| Atomic no. 	| Electronic cofiguration 	|
+|---	|---	|---	|
+| Be 	| 4 	| [He]2s<sup>2</sup> 	|
+| Mg 	| 12 	| [Ne]3s<sup>2</sup> 	|
+| Ca 	| 20 	| [Ar]4s<sup>2</sup> 	|
+| Sr 	| 38 	| [Kr]5s<sup>2</sup> 	|
+| Ba 	| 56 	| [Xe]6s<sup>-2</sup> 	|
+| Ra 	| 88 	| [Rn]7s<sup>2</sup> 	|
+
+
+
+**Atomic and ionic radii:**
+
+
+The atomic and ionic radii of alkaline earth metals are smaller than the corresponding members of the alkali metals. This is due to the fact the Group 2 elements having a higher nuclear charge
+that allows electrons to be attracted more
+strongly towards the nucleus. On moving down the group, the radii increases due to gradual increase in the number of the shells and the screening effect.
+
+
+**Common oxidation state:**
+
+The group 2 elements have two electrons in their valence shell and by losing these electrons, they acquire the stable noble gas configuration. So these elements exhibit +2 oxidation state in their compounds.
+
+
+**Ionisation enthalpy:**
+Due to a fairly large size of the atoms, alkaline earth metals have low ionisation enthalpies when compared to ‘p’ block elements. Down the group the
+ionisation enthalpy decreases as atomic size increases. This is due to the addition of new shells as well as increase in the magnitude of the screening effect of inner shell electrons. Members of group 2 have higher ionization enthalpy values than group 1 because of their smaller size, with
+electrons being more attracted towards the nucleus of the atoms. Correspondingly they are less electropositive than alkali metals.
+
+
+**Table 5.9 Physical properties of alkaline earth metals**
+
+
+
+| Physical property 	| Be 	| Mg 	| Ca 	| Sr 	| Ba 	|
+|---	|---	|---	|---	|---	|---	|
+| Atomic radius -non bonded (Å) 	| 1.12 	| 1.60 	| 1.97 	| 2.15 	| 2.22 	|
+| Ionic radius (Å) 	| 0.27(0.31) 	| 0.72 	| 1.00 	| 1.18 	| 1.35 	|
+| First ionization energy  (kJ mol<sup>-1</sup>) 	| 899.5 	| 737.8 	| 589.8 	| 549.5 	| 502.9 	|
+| Second ionization energy  (kJ mol<sup>-1</sup>) 	| 1757.1 	| 1450.7 	| 1145.5 	| 1064.2 	| 965.2 	|
+| Hydration enthalpy  (kJ mol<sup>-1</sup>) 	| – 2494 	| – 1921 	| –1577 	| -1145 	| -1305 	|
+| Melting Point (<sup>0</sup>C) 	| 1257 	| 651 	| 851 	| 789 	| 729 	|
+| Boiling Point (<sup>0</sup>C) 	| 2472 	| 1090 	| 1494 	| 1382 	| 1805 	|
+| ensity (g cm<sup>-3</sup>) 	| 1.84 	| 1.74 	| 1.55 	| 2.6 	| 3.59 	|
+| tandard Potential  E<sup>Ѳ</sup> for M<sup>+</sup>/M (V) 	| -1.97 	| -2.36 	| -2.84 	| -2.89 	| -2.92 	|
+| Electronegativity (Paulings scale) 	| 1.6 	| 1.2 	| 1.0 	| 1.0 	| 0.9 	|
+
+
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/graph.png)
+
+
+**Figure 5.6 Variation of ionisation energy - Alkaline earth metals.**
+
+
+
+Although IE<sub>1</sub>values of alkaline
+earth metals are higher than that of alkali
+metals, the IE<sub>2</sub> values of alkaline earth
+metals are much smaller than those of alkali metals. This occurs because in alkali metals the second electron is to be removed from a cation, which has already acquired a noble gas configuration. In the case of alkaline earth metals, the second electron is to be removed from a
+monovalent cation, which still has one electron in the outermost shell. Thus, the second electron can be removed more easily in the case of group 2 elements than in group 1 elements.
+
+**Hydration Enthalpies**
+
+
+Compounds of alkaline earth metals are more extensively hydrated than those of alkali metals, because the hydration enthalpies of alkaline earth metal ions are larger than those of alkali metal ions.
+
+
+Like alkali metal ions, the hydration enthalpies of alkaline earth metal ions also decrease with increase in ionic size down the group.
+
+Be > Mg > Ca > Sr > Ba
+
+e.g., Magnesium chloride and calcium
+chloride exist as their hydrated crystals
+MgCl<sub>2</sub>.6H<sub>2</sub>
+O and CaCl<sub>2</sub>. 6H<sub>2</sub>
+O respectively.whereas NaCl and KCl do not form such hydrates.
+
+
+**Electronegativity**
+
+
+In alkaline earth metals the electronegativity values decrease as we go down the group as seen in the alkali metals.
+
+
+**Flame colour and the spectra:**
+
+
+When the alkaline earth metal salts moistened with concentrated hydrochloric acid are heated on a platinum wire in a flame, they show characteristic coloured flame as shown below.
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cohe{background-color:#a1e4ee;border-color:#471eb2;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-bucx{border-color:#471eb2;text-align:left;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 364px">
+<colgroup>
+<col style="width: 149px">
+<col style="width: 97px">
+<col style="width: 118px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-cohe">Element</th>
+    <th class="tg-cohe">colour</th>
+    <th class="tg-cohe">Wavelength(nm)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-bucx">Calcium</td>
+    <td class="tg-bucx">Brick - Red</td>
+    <td class="tg-bucx">622</td>
+  </tr>
+  <tr>
+    <td class="tg-bucx">Strontium</td>
+    <td class="tg-bucx">Crimson- Red</td>
+    <td class="tg-bucx">689</td>
+  </tr>
+  <tr>
+    <td class="tg-bucx"><span style="font-weight:400;font-style:normal">Barium</span></td>
+    <td class="tg-bucx">Apple Green</td>
+    <td class="tg-bucx">554</td>
+  </tr>
+</tbody>
+</table>
+
+
+The heat in the flame excites the
+valence electron to a higher energy level.
+when it drops back to its actual energy
+level, the excess energy is emitted as light,
+whose wavelength is in the visible region
+as shown in the above table.
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.7.png)
+
+
+
+**5.5.2 Distinctive behavior of beryllium**
+
+
+flow chat to be add...
+
+
+The anomalous properties of beryllium is mainly due to its small size, high electronegativity, high ionisation energy and high polarising power compared to the other elements in the block. The anomalous properties of beryllium compared to other elements of the group are mentioned in Table 5.11
+
+
+
+**Table 5.11 Comparison of Properties of Beryllium with other elements of the group**
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-je54{background-color:#a2ece9;border-color:#eb82ec;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-mhbj{border-color:#ee1ce8;text-align:left;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 572px">
+<colgroup>
+<col style="width: 288px">
+<col style="width: 284px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-je54">Beryllium</th>
+    <th class="tg-je54">Other elements of the family</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-mhbj">Forms covalent compounds</td>
+    <td class="tg-mhbj">form ionic compounds</td>
+  </tr>
+  <tr>
+    <td class="tg-mhbj">High melting and boiling point</td>
+    <td class="tg-mhbj">Low melting and boiling point</td>
+  </tr>
+  <tr>
+    <td class="tg-mhbj">Does not react with water even at elevated<br>temperature</td>
+    <td class="tg-mhbj">React with water</td>
+  </tr>
+  <tr>
+    <td class="tg-mhbj">Does not combine directly with hydrogen</td>
+    <td class="tg-mhbj">Combine directly with hydrogen</td>
+  </tr>
+  <tr>
+    <td class="tg-mhbj">Does not combine directly with halogens.<br>Halides are covalent.</td>
+    <td class="tg-mhbj">Combine directly with halogens<br>Halides are electrovalent.</td>
+  </tr>
+  <tr>
+    <td class="tg-mhbj">Hydroxide and oxides of beryllium are<br>amphoteric in nature</td>
+    <td class="tg-mhbj">Basic in nature.</td>
+  </tr>
+  <tr>
+    <td class="tg-mhbj">It is not readily attacked by acids because of<br>the presence of an oxide film</td>
+    <td class="tg-mhbj">Readily attacked by acids</td>
+  </tr>
+  <tr>
+    <td class="tg-mhbj">Beryllium carbide evolves methane with<br>water.</td>
+    <td class="tg-mhbj">evolve acetylene with water.</td>
+  </tr>
+  <tr>
+    <td class="tg-mhbj">Salts of Be are extensively hydrolysed</td>
+    <td class="tg-mhbj">Hydrolysed</td>
+  </tr>
+</tbody>
+</table>
+
+
+**Diagonal Relationship:**
+
+
+As observed in alkali metals, beryllium (the first member of group 2) shows a
+diagonal relationship with aluminium. In this case, the size of these ions (r<sub>Be</sub><sup>2+</sup> = 0.45 Å
+and r<sub>Al</sub><sup>3+</sup> = 0.54 Å) is not as close. However, their charge per unit area is closer (Be<sup>2+</sup> = 2.36
+and Al<sup>3+</sup> = 2.50). They also have same electronegativity values (Be = 1.5; Al = 1.5).
+
+
+**Table 5.12 Similarities between Beryllium and Aluminium**
+
+
+
+| s.No 	| Properties 	|
+|---	|---	|
+| 1 	| Beryllium chloride forms a dimeric structure like aluminium chloride with chloride bridges. Beryllium chloride also forms polymeric chain structure in addition to dimer. Both are soluble in organic solvents and are strong Lewis acids. 	|
+| 2 	| Beryllium hydroxide dissolves in excess of alkali and gives beryllate ion and [Be(OH)<sub>4</sub>]<sup>2-</sup> and hydrogen as aluminium hydroxide which gives aluminateion, [Al(OH)<sub>4</sub>]<sup>-</sup> 	|
+| 3 	| Beryllium and aluminium ions have strong tendency to form complexes, BeF<sub>4</sub><sup>2-</sup>, AlF<sub>6</sub>3-<sub></sup>  . 	|
+| 4 	| Both beryllium and aluminium hydroxides are amphoteric in nature. 	|
+| 5 	| Carbides of beryllium (Be<sub>2</sub>C) like aluminium carbide (Al<sub>4</sub>C<sub>3</sub>) give methaneon hydrolysis. 	|
+| 6 	| Both beryllium and aluminium are rendered passive by nitric acid. 	|
+
+
+
+**5.5.3 Chemical properties of alkaline earth metals**
+
+
+The alkaline earth metals are less reactive than the alkali metals. The reactivity of these elements increases on going down the group.
+
+
+**Reactivity towards the halogens:**
+
+
+All the alkaline earth metals combine with halogen at elevated temperatures to form their halides.
+
+M + X<sub>2</sub>
+→ MX<sub>2</sub>
