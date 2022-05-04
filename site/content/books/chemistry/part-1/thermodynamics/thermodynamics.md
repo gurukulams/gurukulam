@@ -1478,6 +1478,454 @@ where m<sub>w</sub> is molar mass of water
 C<sub>w</sub> is molar heat capacity of water
 (75.29 J K<sup>-1</sup> mol<sup>-1</sup>).
 
+Therefore ΔU<sub></sub>c = q<sub>1</sub> + q<sub>2</sub>
+
+= k.ΔT + m<sub>w</sub>C<sub>w</sub> ΔT
+
+= (k+m<sub>w</sub> C<sub>w</sub>)ΔT
+
+Calorimeter constant can be determined
+by burning a known mass of standard
+sample (benzoic acid) for which the heat
+of combustion is known (-3227 kJmol<sup>-1</sup>
+
+The enthalpy of combustion at
+constant pressure of the substance is
+calculated from the equation (7.17)
+
+ΔHC<sup>0</sup>
+(pressure) = ΔU<sub>c</sub><sup>0</sup>
+(Vol) + Δn<sub>g</sub>RT
+
+
+**Applications of bomb** **calorimeter:**
+
+1. Bomb calorimeter is used to determine
+the amount of heat released in
+combustion reaction.
+
+2. It is used to determine the calorific
+value of food.
+
+3. Bomb calorimeter is used in many
+industries such as metabolic study, food
+processing, explosive testing etc.
+
+
+**(b) ΔH Measurements**
+
+Heat change at constant pressure (at
+atmospheric pressure) can be measured
+using a coffee cup calorimeter. A schematic
+representation of a coffee cup calorimeter
+is given in Figure 7.7. Instead of bomb, a
+styrofoam cup is used in this calorimeter.
+It acts as good adiabatic wall and doesn't
+allow transfer of heat produced during
+the reaction to its surrounding. This
+entire heat energy is absorbed by the
+water inside the cup. This method can be
+used for the reactions where there is noappreciable change in volume. The change
+in the temperature of water is measured
+and used to calculate the amount of heat
+that has been absorbed or evolved in the
+reaction using the following expression.
+
+
+q = m<sub>w</sub> C<sub>w</sub> ΔT
+
+where m<sub>w</sub> is the molar mass of
+water and C<sub>w</sub> is the molar heat capacity of
+water (75.29 J K<sup>-1</sup> mol<sup>-1</sup>)
+
+![Figure 7.7 Coffee cup Calorimeter:](/books/chemistry/part-1/thermodynamics/pic7.png)
+
+**Problem 7. 4**
+
+Calculate the enthalpy of combustion of
+ethylene at 300 K at constant pressure, if
+its heat of combustion at constant volume
+(ΔU) is −1406 kJ .
+
+The complete ethylene combustion
+reaction can be written as,
+
+C<sub>2</sub>H<sub>4</sub> (g) + 3O2(g) → 2CO<sub>2</sub> (g)+2H<sub>2</sub>O(l)
+
+ΔU = −1406 kJ
+
+Δn = np<sub>(g)</sub> - nr<sub>(g)</sub>
+
+Δn = 2 - 4 = -2
+
+ΔH = ΔU + RTΔn<sub>g</sub>
+
+ΔH = -1406 + (8.314 × 10-3 × 300 ×(-2)
+
+ΔH = -1410.9 kJ
+
+{{< box title="Evaluate Yourself - 3" type="objective" >}} 
+
+From the following data at constant
+volume for combustion of benzene,
+calculate the heat of this reaction at
+constant pressure condition.
+
+C<sub>6</sub>H<sub>6</sub>(l) + 71⁄2 O<sub>2</sub>(g) →
+
+6CO<sub>2</sub>(g) + 3 H<sub>2</sub>O(l)
+
+ΔU at 250 C = -3268.12 kJ
+
+{{< /box >}}
+
+
+**Applications of the heat of combustion:**
+
+**(1) Calculation of heat of**
+**formation:** Since the heat of combustion
+of organic compounds can be determined
+with considerable ease, they are employed
+to calculate the heat of formation of other
+compounds.
+
+For example let us calculate
+the standard enthalpy of formation
+ΔH<sub>f</sub>0 of CH<sub>4</sub> from the values
+of enthalpy of combustion for
+H<sub>2</sub>, C(graphite) and CH<sub>4</sub> which are - 285.8,
+- 393.5, and -890.4 kJ mol-1 respectively.
+
+Let us interpret the information
+about enthalpy of formation by writing
+out the equations. It is important to note
+that the standard enthalpy of formation
+of pure elemental gases and elements
+is assumed to be zero under standard
+conditions. Thermochemical equation
+for the formation of methane from its
+constituent elements is,
+
+C<sub>(graphite)</sub> + 2H<sub>2</sub>(g) → CH<sub>4</sub>(g)
+
+ΔH<sub>f</sub><sup>0</sup> = X kJ mol<sup>-1</sup>    --- (i)
+
+Thermo chemical equations for the
+combustion of given substances are,
+
+H<sub>2</sub>(g)+1/2O<sub>2</sub>--> H<sub>2</sub>0(I)
+
+
+ΔH0 = –285.8 kJ <sup>-1</sup>--- (ii)
+
+C<sub>(graphite)</sub> + O<sub>2</sub> → CO<sub>2</sub>
+
+ΔH0 = –393.5 kJ mol<sup>-1</sup>--- (iii)
+
+CH<sub>4</sub>(g) + 2 O<sub>2</sub> → CO<sub>2</sub>(g)+ 2H<sub>2</sub>O(l)
+
+ΔH0 = –890.4 kJ mol<sup>-1</sup>--- (iv)
+
+Since methane is in the product side
+of the required equation (i), we have to
+reverse the equation (iv)
+
+CO<sub>2</sub> (g)+2 H<sub>2</sub>O (l) → CH<sub>4</sub> (g) + 2 O<sub>2</sub>
+
+ΔH0 = + 890.4 kJ mol<sup>-1</sup>--- (v)
+
+In order to get equation (i) from the
+remaining,
+
+
+(i) = [(ii) × 2] + (iii) + (v)
+
+X = [(–285.8) × 2] + [–393.5] + [+ 890.4]
+
+= –74.7 kJ
+
+Hence, the amount of energy required
+for the formation of 1 mole of methane is
+-74.7 kJ
+
+The heat of formation methane =
+-74.7 kJ mol<sup>-1</sup>.
+
+**(2) Calculation of calorific**
+**value of food and fuels:** The calorific
+value is defined as the amount of heat
+produced in calories (or joules) when one
+gram of the substance is completely burnt.
+The SI unit of calorific value is J kg<sup>-1</sup>.
+However, it is usually expressed in cal g<sup>-1</sup>.
+
+**Heat of solution:**
+
+Heat changes are usually observed
+when a substance is dissolved in a solvent.
+The heat of solution is defined as the
+change in enthalpy when one mole of
+a substance is dissolved in a specified
+quantity of solvent at a given temperature.
+
+**Heat of neutralisation:**
+
+The heat of neutralisation is defined
+as “The change in enthalpy when one
+gram equivalent of an acid is completely
+neutralised by one gram equivalent of a
+base or vice versa in dilute solution”.
+
+HCl(aq)+NaOH(aq)→ NaCl (aq)+ H<sub>2</sub>O(l)
+
+ΔH = – 57.32 kJ
+
+H+(aq) + OH-(aq) → H<sub>2</sub>O(l)
+
+ΔH = – 57.32 kJ
+
+The heat of neutralisation of a
+strong acid and strong base is around –
+57.32 kJ, irrespective of nature of acid or
+base used which is evident from the below
+mentioned examples.
+
+HCl (aq) + KOH(aq) → KCl (aq) + H<sub>2</sub>O(l)
+
+ΔH = – 57.32 kJ
+
+HNO<sub>3</sub>(aq)+KOH(aq) → KNO<sub>3</sub>(aq)+ H<sub>2</sub>O(l)
+
+ΔH = – 57.32 kJ
+
+H<sub>2</sub>SO<sub>4</sub>(aq) + 2KOH(aq) →
+
+K<sub>2</sub>SO<sub>4</sub>(aq) + 2 H<sub>2</sub>O(l)
+
+ΔH = – 57.32 kJ x 2
+
+The reason for this can be explained
+on the basis of Arrhenius theory of acids
+and bases which states that strong acids
+and strong bases completely ionise in
+aqueous solution to produce H+ and OH-
+ions respectively. Therefore in all the above
+mentioned reactions the neutralisation
+can be expressed as follows.
+
+H+(aq) + OH-(aq) → H<sub>2</sub>O(l)
+
+ΔH = – 57.32 kJ
+
+**Molar heat of fusion**
+
+The molar heat of fusion is defined
+as “the change in enthalpy when one mole
+of a solid substance is converted into the
+liquid state at its melting point”.
+
+For example, the heat of fusion of
+ice can be represented as
+                  
+H<sub>2</sub>O(s)  ___273k_______> H2O(l) ΔH<sub>fusion</sub> = + 5.98kJ 
+
+
+**Molar heat of vapourisation**
+
+The molar heat of vaporisation is
+defined as “the change in enthalpy when
+one mole of liquid is converted into
+vapour state at its boiling point”.
+
+For example, heat of vaporisation
+of water can be represented as
+
+H<sub>2</sub>O(l) __373k______>H2O(v)  ΔH<sub>vap</sub>= + 40.626 kJ 
+
+**Molar heat of sublimation**
+
+Sublimation is a process when a
+solid changes directly into its vapour state
+without changing into liquid state. Molar
+heat of sublimation is defined as “the
+change in enthalpy when one mole of a
+solid is directly converted into the vapour
+state at its sublimation temperature”. For
+example, the heat of sublimation of iodine
+is represented as
+
+I<sub>2</sub>(s)__373k________> I2(v) ΔH<sub.sub> = + 62.42 kJ 
+
+
+Another example of sublimation process
+is solid CO<sub>2</sub> to gas at atmospheric pressure
+at very low temperatures.
+
+**Heat of transition**
+
+The heat of transition is defined as
+“The change in enthalpy when one mole
+of an element changes from one of its
+allotropic form to another. For example,
+the transition of diamond into graphite
+may be represented as
+
+C<sub>(diamond)</sub> C<sub>(graphite)</sub>
+
+ΔH<sub>trans</sub>= +13.81 kJ
+
+Similarly the allotropic transitions in
+sulphur and phsphorous can be represented
+as follows,
+
+S<sub>(monoclinic)</sub> S<sub>(rhombic)</sub>
+
+ΔHtrans= – 0.067 kJ
+
+P<sub>(white)</sub>------------>  P(red)
+
+ΔHtrans = – 4.301 kJ
+
+**7.8 Hess’s law of constant heat summation**
+
+We have already seen that the heat
+changes in chemical reactions are equal
+to the difference in internal energy (ΔU)
+or heat content (ΔH) of the products and
+reactants, depending upon whether the
+reaction is studied at constant volume
+or constant pressure. Since ΔU and ΔH
+are functions of the state of the system,
+the heat evolved or absorbed in a given
+reaction depends only on the initial state
+and final state of the system and not on
+the path or the steps by which the change
+takes place.
+
+This generalisation is known as
+**Hess’s law** and stated as:
+
+The enthalpy change of a reaction
+either at constant volume or constant
+pressure is the same whether it takes place
+in a single or multiple steps provided the
+initial and final states are same.
+
+**Application of Hess's Law:** Hess's law can be
+applied to calculate enthalpies of reactions
+that are difficult to measure. For example,
+it is very difficult to measure the heat of
+combustion of graphite to give pure CO.
+
+However, enthalpy for the oxidation of
+graphite to CO2 and CO to CO2 can easily
+be measured. For these conversions, the
+heat of combustion values are –393.5 kJ
+and – 283.5 kJ respectively.
+
+From these data the enthalpy of
+combustion of graphite to CO can be
+calculated by applying Hess's law.
+
+The reactions involved in this process can
+be expressed as follows
+O2(g) C(graphite)
+
+ΔH<sub>1</sub> = ΔH<sub>2</sub> + ΔH<sub>3</sub>
+
+–393.5 kJ= X – 283.5 kJ
+
+X= -110.5 kJ
+
+**7.9 Lattice energy (ΔH<sub>lattice</sub>)**
+
+Lattice energy is defined as the
+amount of energy required to completely
+remove the constituent ions from its
+crystal lattice to an infinite distance from
+one mole of crystal. It is also referred as
+lattice enthalpy.
+
+NaCl(s) → Na<sup>+</sup>(g) + Cl<sup>-</sup>(g)
+
+ΔH<sub>lattice</sub> = + 788 kJ mol<sup>-1</sup>
+
+From the above equation it is clear
+that 788 kJ of energy is required to separate
+Na<sup>+</sup> and Cl<sup>-</sup> ions from 1 mole of NaCl.
+
+**Born - Haber cycle**
+
+The Born–Haber cycle is an
+approach to analyse reaction energies. It
+was named after two German scientists
+Max Born and Fritz Haber who developed
+this cycle. The cycle is concerned with the
+formation of an ionic compound from the
+reaction of a metal with a halogen or other
+non-metallic element such as oxygen.
+
+Born–Haber cycle is primarily used
+in calculating lattice energy, which cannot
+be measured directly. The Born–Haber
+cycle applies Hess's law to calculate the
+lattice enthalpy. For example consider the
+formation of a simple ionic solid such as
+an alkali metal halide MX, the following
+steps are considered.
+
+ΔH<sub>1</sub> - enthalpy change for the sublimation
+M(s) to M(g)
+
+ΔH<sub>2</sub>- enthalpy change for the dissociation of 1/2X2(g)toX(g).
+
+ΔH<sub>3</sub>- Ionisation energy for M(g) to M<sup>+</sup>(g)
+
+ΔH<sub>4</sub> - electron affinity for the conversion
+of X(g) to X<sup>-</sup>(g)
+
+U - the lattice enthalpy for the formation
+of solid MX
+
+ΔH<sub>f</sub>- enthalpy change for the formation of
+solid MX directly form elements
+According to Hess's law of heat summation
+
+∆H<sub>f</sub> =∆H<sub>1</sub> +∆H<sub>2</sub> +∆H<sub>3</sub> +∆H<sub>4</sub>+U
+
+Let us use the Born - Haber cycle for
+determining the lattice enthalpy of NaCl
+as follows:
+
+Since the reaction is carried out with
+reactants in elemental forms and products
+in their standard states, at 1 bar, the overall
+enthalpy change of the reaction is also the
+enthalpy of formation for NaCl. Also, the
+formation of NaCl can be considered in 5
+steps. The sum of the enthalpy changes of
+these steps is equal to the enthalpy change
+for the overall reaction from which the
+lattice enthalpy of NaCl is calculated.
+
+ Let us calculate the lattice energy of
+sodium chloride using Born-Haber cycle
+
+∆H<sub>f</sub> = heat of formation of sodium chloride = – 411.3 kJ mol<sup>-1</sup>
+
+∆H<sub>1</sub> = heat of sublimation of Na(g) =
+108.7 kJ mol<sup>-1</sup>
+
+∆H<sub>2</sub> = ionisation energy of Na(g) =
+495.0 kJ mol<sup>-1</sup>.
+
+∆H<sub>3</sub> = dissociation energy of Cl2(g)
+= 244 kJ mol<sup>-1</sup>
+
+∆H<sub>4</sub> = Electron affinity of Cl(S)=
+– 349.0 kJ mol<sup>-1</sup>
+
+U = lattice energy of NaCl
 
 
 
