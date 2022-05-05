@@ -6,14 +6,13 @@ weight: 5
 ---
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/alkaline1.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline1.png)
 
 ### Learning Objectives
 
 After studying this unit, students will be able to
 
-* Explain the properties of alkali metals and alkaline
-earth metals
+* Explain the properties of alkali metals and alkaline earth metals
 
 * Recognise the anomalous properties of Li and Be
 
@@ -106,7 +105,8 @@ plaster of paris.
 </table>
 
 
-  ![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image1.png)
+  ![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline2.png)
+  
 
   **Electronic configuration**
 
@@ -916,3 +916,851 @@ All the alkaline earth metals combine with halogen at elevated temperatures to f
 
 M + X<sub>2</sub>
 → MX<sub>2</sub>
+
+
+(M= Be, Mg, Ca, Sr, Ba, Ra ,
+X = F, Cl, Br, l )
+
+Thermal decomposition of
+(NH<sub>4</sub>)<sub>2</sub>BeF<sub>4</sub>
+is the best route for the preparation of BeF<sub>2</sub>. BeCl<sub>2</sub> is conveniently made from the oxide.
+
+**Reactivity towards hydrogen:**
+
+All the elements except beryllium,
+combine with hydrogen on heating to form
+their hydrides with general formula MH<sub>2</sub>.
+BeH<sub>2</sub> can be prepared by the reaction of
+BeCl<sub>2</sub> with LiAlH<sub>4</sub>
+
+2BeCl<sub>2</sub>+ LiAlH<sub>4</sub>→ 2BeH<sub>2</sub>+ LiCl + AlCl<sub>3</sub>
+
+
+**5.5.4 Uses of alkaline earth metals**
+
+**Uses of beryllium**
+
+1. Because of its low atomic number and
+very low absorption for X-rays, it is
+used as radiation windows for X-ray
+tubes and X-ray detectors.
+
+2. The sample holder in X-ray emission
+studies usually made of beryllium
+
+3. Since beryllium is transparent to
+energetic particles, it is used to build
+the ‘beam pipe’ in accelerators.
+
+4. Because of its low density and
+diamagnetic nature, it is used in
+various detectors.
+
+
+**Uses of magnesium**
+
+1. Removal of sulphur from iron and
+steel.
+
+2. Used as photoengrave plates in printing
+industry.
+
+3. Magnesium alloys are used in aeroplane
+and missile construction.
+
+
+4. Mg ribbon is used in synthesis of
+Grignard reagent in organic synthesis.
+
+5. It alloys with aluminium to improve its
+mechanical, fabrication and welding
+property.
+
+6. As a desiccant .
+
+7. As sacrificial anode in controlling
+galvanic corrosion.
+
+
+**Uses of calcium:**
+
+1. As a reducing agent in the metallurgy
+of uranium, zirconium and thorium.
+
+2. As a deoxidiser, desulphuriser or
+decarboniser for various ferrous and
+non-ferrous alloys.
+
+3. In making cement and mortar to be
+used in construction.
+
+4. As a getter in vacuum tubes.
+
+5. In dehydrating oils
+
+6. In fertilisers, concrete and plaster of
+paris.
+
+**Uses of strontium**
+
+
+1. <sup>90</sup>Sr is used in cancer therapy.
+
+2. <sup>87</sup>Sr / <sup>86</sup>Sr ratios are commonly used in marine investigations as well as in teeth, tracking animal migrations or in criminal forensics.
+
+3. Dating of rocks.
+
+4. As a radioactive tracer in determining
+the source of ancient archaeological
+materials such as timbers and coins.
+
+**Uses of Barium**
+
+1. Used in metallurgy, its compounds are used in pyrotechnics, petroleum mining and radiology.
+
+2. Deoxidiser in copper refining.
+
+3. Its alloys with nickel readily emits electrons hence used in electron tubes and in spark plug electrodes.
+
+4. As a scavenger to remove last traces of oxygen and other gases in television and other electronic tubes.
+
+5. An isotope of barium <sup>133</sup>Ba, used as a source in the calibration of gamma ray detectors in nuclear chemistry.
+
+**Uses of Radium:**
+
+Used in self-luminous paints for watches, nuclear panels, aircraft switches, clocks and instrument dials.
+
+
+**5.6. General characteristics of the compounds of the alkaline earth metals:**
+
+The dipositive oxidation state (M<sup>2+</sup>) is the predominant valence of group 2 elements. The alkaline earth metals form compounds which are predominantly ionic. However, they are less ionic than metals. This is due to increased nuclear
+charge and smaller size. The general characteristics of some of the compounds of alkaline earth metals are described below.
+
+
+**(a) Oxides:**
+
+Generally alkaline earth metals form monoxides and peroxides.
+
+
+**Monoxides:**
+
+Monoxides are obtained by heating the metals in oxygen. BeO and MgO are almost insoluble in water. On the other hand, oxides of other elements form
+hydroxides. BeO is amphoteric; MgO is weakly basic while CaO, SrO and BaO are strongly basic.
+
+BeO oxide is covalent due to the small size of 
+Be<sup>2+</sup>ion,while other oxides are ionic in nature.
+
+
+**Peroxides:**
+
+Except beryllium, all the remaining metals form peroxides. It is prepared by heating monoxides with oxygen at high temperature.
+
+2 BaO +O<sub>2</sub> -------> 2 BaO<sub>2</sub>
+
+**b)Hydroxides:**
+
+All the oxides except BeO are basic in nature and react with water to form sparingly soluble hydroxides.
+
+MO + H<sub>2</sub>O →M(OH)<sub>2</sub>
+
+The solubility, thermal stability and the basic character of the hydroxides increase down the group. The alkaline earth metal hydroxides are, however, less basic and less stable than alkali
+metal hydroxides. Beryllium hydroxide
+is amphoteric in nature as it reacts with
+both acid and alkali.
+
+Be(OH)<sub>2</sub>+ 2 NaOH → Na<sub>2</sub>BeO<sub>2</sub>+2H<sub>2</sub>O
+
+Be(OH)<sub>2</sub>+ 2HCl → BeCl<sub>2</sub> +2H<sub>2</sub>O
+
+**c) Halides:**
+
+
+Alkaline earth metals form halides
+with general formula MX<sub>2</sub> hey can be
+prepared by heating metals with halogens
+on heating.
+
+M +X<sub>2</sub>-----> MX<sub>2</sub>
+
+
+Beryllium halides are covalent on account of smaller size of Be<sup>2+</sup>. Beryllium
+halides are hygroscopic, fume in moist air
+and soluble in organic solvents. Beryllium
+chloride has a chain structure in the solid
+state as shown in figure 5.9 (structure-a).
+In the vapour phase BeCl<sub>2</sub> tends to form
+a chloro-bridged dimer (structure-c)
+which dissociates into the linear monomer
+at high temperatures of the order of 1200 K.
+(structure-b).
+
+Except beryllium halides, all the other halides of alkaline earth metals are ionic in nature. Chloride and fluorides of the other metals are ionic solids. These are good conductors of electricity in fused state and in aqueous solutions. The tendency to form halide hydrates gradually decreases
+(for example, MgCl<sub>2</sub>.8H<sub>2</sub> O, CaCl<sub>2</sub>.6H<sub>2</sub> O,SrCl<sub>2</sub>
+.6H<sub>2</sub>O and BaCl<sub>2</sub>.2H<sub>2</sub>O) down the group.
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.9.png)
+
+
+**Salts of oxo acids**
+
+The alkaline earth metals form salts of
+oxo acids. Some of these are given below:
+**Carbonates:**
+
+All the carbonates decompose on
+heating to give carbon dioxide and the
+oxide.
+
+equation to be add MCO3---->MO + CO2
+
+• The solubility of carbonates in water
+decreases down the group.
+
+• The thermal stability increases down
+the group with increasing cationic size.
+
+
+**Table 5.13 Decomposition temperature of alkaline metal carbonates and sulphates**
+
+
+| Element 	| Decomposition temp for carbonates (in o C) 	| Decomposition temp for sulphates (in<sup> o </sup>C) 	|
+|---	|---	|---	|
+| Be  	| 25 	| 500 	|
+| Mg  	| 540 	| 895 	|
+| Ca  	| 900 	| 1149 	|
+| Sr  	| 1290 	| 1374 	|
+| Ba  	| 1360 	| - 	|
+
+
+
+
+**Sulphates:**
+
+
+The sulphates of the alkaline earth
+metals are all white solids and stable to
+heat. BeSO<sub>4</sub>, and MgSO<sub>4</sub>
+are readily soluble in water; the solubility decreases from CaSO<sub>4</sub> to BaSO<sub>4</sub>
+The greater hydration enthalpies of Be<sup>2+</sup> and Mg<sup>2+</sup> ions overcome the lattice enthalpy factor and therefore their sulphates are soluble in water.
+
+**Nitrates:**
+
+The nitrates are made by dissolution of the carbonates in dilute nitric acid. Magnesium nitrate crystallises with six molecules of water, whereas barium nitrate crystallises as the anhydrous salt. This again shows a decreasing tendency to form hydrates with increasing size. All
+of them decompose on heating to give the oxide.
+
+
+**5.6.1 Important compounds of calcium Quick lime, CaO**
+
+
+**Preparation**
+It is produced on a commercial
+scale by heating limestone in a lime kiln
+in the temperature range 1070-1270K.
+
+
+eqn to be add....
+
+
+The reaction being reversible,carbon dioxide is removed as soon as it is produced to enable the reaction to proceed to completion.
+
+**Properties**
+
+Calcium oxide is a white amorphous solid.
+It has a melting point of 2870 K.
+
+(i)It absorbs moisture and carbon dioxide
+on exposure to atmosphere.
+
+
+CaO + H<sub>2</sub> O → Ca(OH)<sub>2</sub>
+
+CaO + CO<sub>2</sub> → CaCO<sub>3</sub>
+
+(ii)The addition of limited amount of
+water breaks the lump of lime. This
+process is called slaking of lime and the
+product is slaked lime.
+
+CaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub>
+
+(iii)The mixtureof Quick lime(CaO) and
+sodium hydroxide is called soda lime.
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.10.png)
+
+
+(iv)It combines with acidic oxides such
+as SiO<sub>2</sub>and P<sub>4</sub>O<sub>10</sub> to form CaSiO<sub>3</sub> andCa<sub>3</sub>
+(PO<sub>4</sub>)<sub>2</sub>, respectively.
+
+CaO + SiO<sub>2</sub>→ CaSiO<sub>3</sub>
+
+6CaO + P<sub>4</sub>O<sub>10</sub> → 2Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>
+
+**Uses**
+
+Calcium oxide is used
+
+(i) to manufacture cement, mortar and
+glass.
+
+(ii) in the manufacture of sodium
+carbonate and slaked lime.
+
+(iii) in the purification of sugar.
+
+(iv) as a drying agent.
+
+
+**5.6.2 Calcium hydroxide**
+
+**Preparation**
+
+Calcium hydroxide is prepared by adding water to quick lime, CaO.
+
+**Properties**
+
+It is a white powder. It is sparingly soluble in water. The aqueous solution is known as lime water and a suspension of slaked lime in water is known as milk of lime. When carbon dioxide is passed
+through lime water, it turns milky due to the formation of calcium carbonate.
+
+
+Ca(OH)<sub>2</sub>+ CO<sub>2</sub> → CaCO<sub>3</sub>+ H<sub>2</sub>O
+
+On passing excess of carbon dioxide, the precipitate dissolves to form calcium hydrogen carbonate.
+
+
+CaCO<sub>3</sub>+ CO<sub>2</sub>+ H<sub>2</sub>
+O → Ca(HCO<sub>3</sub>)<sub>2</sub>
+
+
+Milk of lime reacts with chlorine to form hypochlorite, a constituent of bleaching powder.
+
+2Ca (OH)<sub>2</sub>+ 2Cl<sub>2</sub> →CaCl<sub>2</sub>+ Ca(OCl)<sub>2</sub> + 2H<sub>2</sub>O
+
+**Uses:**
+
+Calcium hydroxide is used
+
+(i) in the preparation of mortar, a building material.
+
+(ii) in white wash due to its disinfectant nature.
+
+(iii) in glass making, in tanning industry, in the preparation of bleaching powder and for the purification of sugar.
+
+
+**5.6.3 Gypsum (CaSO<sub>4</sub>.2H<sub>2</sub>O)**
+
+Gypsum beds were formed due to the evaporation of water from the massive prehistoric sea basins. When
+water evaporates, the minerals present in it become concentrated, and crystallise.
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.11.png)
+
+
+**Properties of Gypsum**
+
+• Gypsum is a soft mineral, which is moderately soluble in water. The solubility of this mineral in water is affected by temperature. Unlike other
+salts, gypsum becomes less soluble in water as the temperature increases. This is known as retrograde solubility, which is a distinguishing characteristic of gypsum.
+
+• Gypsum is usually white, colorless, or gray in color. But sometimes, it can also be found in the shades of pink, yellow, brown, and light green, mainly due to the presence of impurities.
+
+• Gypsum crystals are sometimes found to occur in a form that resembles the petals of a flower. This type of formation is referred to as ‘desert rose’,
+as they mostly occur in arid areas or
+desert terrains.
+
+• Gypsum is known to have low thermal conductivity, which is the reason why it is used in making drywalls or wallboards. Gypsum is also known as a natural insulator.
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.12.png)
+
+
+• Alabaster is a variety of gypsum, that is
+highly valued as an ornamental stone. It has
+been used by the sculptors for centuries.
+Alabaster is granular and opaque.
+
+• Gypsum has hardness between 1.5 to 2 on Moh’s Hardness Scale. Its specific gravity is 2.3 to 2.4.
+
+**Uses of Gypsum**
+
+• The alabaster variety of gypsum was used in ancient Egypt and Mesopotamia by the sculptors. The ancient Egyptians knew how to turn gypsum into plaster of Paris about 5,000 years ago. Today,
+gypsum has found a wide range of uses and applications in human society,some of which are enlisted below.
+
+• Gypsum is used in making drywalls or plaster boards. Plaster boards are used as the finish for walls and ceilings, and for partitions.
+
+• Another important use of gypsum is the production of plaster of Paris. Gypsum is heated to about 300 degree Fahrenheit to produce plaster of Paris, which is also known as gypsum plaster.
+It is mainly used as a sculpting material.
+
+• Gypsum is used in making surgical and orthopedic casts, such as surgical splints and casting moulds.
+
+• Gypsum plays an important role in agriculture as a soil additive, conditioner, and fertilizer. It helps loosen up compact or clay soil, and
+provides calcium and sulphur, which are essential for the healthy growth of a plant. It can also be used for removing sodium ion from soils having excess salinity.
+
+
+• Gypsum is used in toothpastes, shampoos, and hair products, mainly due to its binding and thickening properties.
+
+• Gypsum is a component of Portland cement, where it acts as a hardening retarder to control the speed at which concrete sets.
+
+• To sum up, gypsum is one of the most abundant minerals that have endless uses and applications. Mining of gypsum is simple and easy, as the mineral occurs in large thick beds near the Earth’s surface. However, large-scale mining of gypsum involves considerable damage to the environment. Gypsum can also be recycled, but not much importance has been given to recycle this mineral due to its abundance.
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.13.png)
+
+
+**5.6.4 Plaster of paris**
+
+**Calcium Sulphate hemihydrate : CaSO<sub>4</sub>·1⁄2 H<sub>2</sub>O (Plaster of Paris)**
+
+It is a hemihydrate of calcium sulphate. It is obtained when gypsum,CaSO<sub>4</sub>·1⁄2 H<sub>2</sub>O is heated to 393 K.
+
+2CaSO<sub>4</sub>·2 H<sub>2</sub>O(s)→ 2 CaSO<sub>4</sub>·1⁄2 H<sub>2</sub>O+3H<sub>2</sub>O
+
+Above 393 K, no water of crystallisation is left and anhydrous calcium sulphate,CaSO<sub>4</sub>
+is formed. This is known as ‘dead burnt plaster’.
+
+It has a remarkable property of setting with water. On mixing with an adequate quantity of water it forms a plastic mass that gets into a hard solid in 5 to 15 minutes.
+
+**Uses:**
+
+ Plaster of Paris is used as/in,
+
+1. The building industry as well as plasters.
+
+2. For immobilising the affected part of organ where there is a bone fracture or sprain.
+
+3. Employed in dentistry, in ornamental work and for making casts of statues and busts.
+
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.14.png)
+
+
+
+**5.7 Biological importance of magnesium and calcium**
+
+Magnesium and calcium also plays a vital role in biological functions. A typical adult human body contains about 25 g of magnesium and 1200 g of calcium. Magnesium plays an important role in many biochemical reactions catalysed by enzymes. It is the co-factor of all enzymes that utilize ATP in phosphate transfer and energy release. It also
+essential for DNA synthesis and is responsible for the stability and proper functioning of DNA. It is also used for balancing electrolytes in our body. Deficiency of magnesium results into convulsion and neuromuscular irritation.
+
+Calcium is a major component of bones and teeth. It is also present in in blood and its concentration is maintained by hormones (calcitonin and parathyroid hormone). Deficiency of calcium in blood causes it to take longer time to clot. It is also important for muscle contraction.
+
+The main pigment that is responsible for photosynthesis, chlorophyll, contains
+magnesium which plays an important role in photosynthesis.
+
+
+**SUMMARY**
+
+
+The elements belonging to groups 1 and 2 of the modern periodic table are called s-block elements. They are called so because the valence electron occupies the s orbitals. The group 1 elements have
+a general outer electronic configuration
+ns<sup>1</sup> and are called alkali metals. The
+group 2 elements have a general outer electronic configuration ns<sup>2</sup> and these are called alkaline earth metals as they are found in earth’s crust and their oxides and hydroxides are alkaline in nature. Elements belonging to group 1 and 2 are
+highly reactive and forms M<sup>+</sup> and M2<sup>-</sup> cations respectively. Their physical and chemical properties of both groups show a regular trend as we move down the group. The atomic and ionic radii increase as we move down the group while their ionisation enthalpies decrease.
+
+
+The first element in each of these groups, lithium in Group 1 and beryllium in Group 2 shows some difference in behaviour with the elements in rest of their groups and show similarities in properties
+to the second member of the next group. This behaviour is known as the ‘diagonal relationship’ in the periodic table.
+
+The alkali metals are soft and silvery white in colour with low melting points. They are highly reactive. The compounds of alkali metals are
+predominantly ionic. They form metal hydrides and halides with hydrogen and halogens respectively. Their oxides and hydroxides are soluble in water forming strong alkalies. Important compounds of
+sodium include sodium carbonate, sodium chloride, sodium hydroxide and sodium hydrogen carbonate. Sodium hydroxide is manufactured by Castner-Kellner process and sodium carbonate by Solvay process.
+
+The chemistry of alkaline earth metals is similar to alkali metals. However, we observe some differences because of their reduced atomic and ionic sizes and increased cationic charges.
+Their oxides and hydroxides are less basic than the alkali metal oxides and hydroxides. They also form hydrides and halides with hydrogen and halogens respectively. Industrially important
+compounds of calcium include calcium oxide (lime), calcium hydroxide (slaked lime), calcium sulphate hemihydrate (Plaster of Paris), calcium carbonate
+(limestone) and cement. Portland cement is an important constructional material. It is manufactured by heating a pulverised mixture of limestone and clay in a rotary kiln. The clinker thus obtained is mixed with some gypsum (2-3%) to give a fine powder of cement. All these substances
+find variety of uses in different areas.
+
+Monovalent sodium and potassium ions and divalent magnesium and calcium ions are found in large proportions in biological fluids. These ions perform important biological functions such as
+maintenance of ion balance and nerve impulse conduction.
+
+
+**EVALUATION**
+
+1. For alkali metals, which one of the following trends is incorrect ?
+
+a) Hydration energy : Li > Na > K > Rb
+
+b) Ionisation energy : Li > Na > K > Rb
+
+c) Density : Li < Na < K < Rb
+
+d) Atomic size : Li < Na < K < Rb
+
+
+2. Which of the following statements is incorrect ?
+
+a) Li<sup>+</sup> has minimum degree of hydration among alkali metal cations.
+
+b) The oxidation state of K in KO<sub>2</sub>
+ is +1
+
+c) Sodium is used to make Na / Pb alloy
+
+d) MgSO<sub>4</sub> is readily soluble in water
+
+
+3. Which of the following compounds will not evolve H<sub>4</sub>gas on reaction with alkali
+metals ?
+
+
+a) ethanoic acid
+
+b) ethanol
+
+c) phenol       
+
+d) none of these
+
+
+
+4. Which of the following has the highest tendency to give the reaction
+
+
+
+a) Na 
+
+b) Li 
+
+c) Rb 
+
+d) K
+
+
+
+5. sodium is stored in
+
+a) alcohol
+
+b) water 
+
+c) kerosene 
+
+d) none of these
+
+
+6. RbO<sub>2</sub> is
+
+a) superoxide and paramagnetic 
+
+b) peroxide and diamagnetic
+
+c) superoxide and diamagnetic 
+
+d) peroxide and paramagnetic
+
+
+7. Find the wrong statement
+
+a) sodium metal is used in organic qualitative analysis
+
+b) sodium carbonate is soluble in water and it is used in inorganic qualitative analysis
+
+c) potassium carbonate can be prepared by solvay process
+
+d) potassium bicarbonate is acidic salt
+
+
+8. Lithium shows diagonal relationship with
+
+a) sodium 
+
+b) magnesium 
+
+c) calcium 
+
+d) aluminium
+
+
+9. Incase of alkali metal halides, the ionic character increases in the order
+
+a) MF < MCl < MBr < MI
+
+b) MI < MBr < MCl < MF
+
+c) MI < MBr < MF < MCl
+
+d) none of these
+
+
+10. In which process, fused sodium hydroxide is electrolysed for extraction of sodium ?
+
+a) Castner's process 
+
+b) Cyanide process
+
+c) Down process 
+
+d) All of these
+
+
+
+11. The product obtained as a result of a reaction of nitrogen with CaC<sub>2</sub> is (NEET -Phase I)
+
+a) Ca(CN)<sub>3</sub>
+
+b) CaN<sub>2</sub>
+
+c) Ca(CN)<sub>2</sub>
+
+d) Ca<sub>3</sub>N<sub>2</sub>
+
+
+12. Which of the following has highest hydration energy
+
+a) MgCl<sub>2</sub>
+
+b) CaCl<sub>2</sub>
+
+c) BaCl<sub>2</sub>
+
+d) SrCl<sub>2</sub>
+
+
+13. Match the flame colours of the alkali and alkaline earth metal salts in the bunsen burner
+
+(p) Sodium    ---->(1) Brick red
+
+(q) Calcium   ---> (2) Yellow
+
+(r) Barium    ---> (3) Lilac (violet)
+
+(s) Strontium ---> (4) Apple green
+
+(t) Cesium    ---> (5) Crimson red
+
+(u) Potassium ---> (6) Blue
+
+
+a) p - 2, q - 1, r - 4, s - 5, t - 6, u - 3
+
+b) p - 1, q - 2, r - 4, s - 5, t - 6, u - 3
+
+c) p - 4, q - 1, r - 2, s - 3, t - 5, u - 6
+
+d) p - 6, q - 5, r - 4, s - 3, t - 1, u - 2
+
+
+14. Assertion : Generally alkali and alkaline earth metals form superoxides
+
+Reason : There is a single bond between O and O in superoxides.
+
+a) both assertion and reason are true and reason is the correct explanation of asser-tion
+
+b) both assertion and reason are true but reason is not the correct explanation of assertion
+
+c) assertion is true but reason is false
+
+d) both assertion and reason are false
+
+
+15. Assertion : BeSO<sub>4</sub> is soluble in water while BaSO<sub>4</sub> is not
+
+Reason : Hydration energy decreases down the group from Be to Ba and lattice energy remains almost constant.
+
+
+a) both assertion and reason are true and reason is the correct explanation of asser-tion
+
+b) both assertion and reason are true but reason is not the correct explanation of assertion
+
+c) assertion is true but reason is false
+
+d) both assertion and reason are false
+
+
+16. Which is the correct sequence of solubility of carbonates of alkaline earth metals ?
+a) BaCO<sub>3</sub>> SrCO<sub>3</sub>> CaCO<sub>3</sub>> MgCO<sub>3</sub>
+
+b) MgCO<sub>3</sub> > CaCO<sub>3</sub> > SrCO<sub>3</sub> > BaCO<sub>3</sub>
+
+c) CaCO<sub>3</sub> > BaCO<sub>3</sub> > SrCO<sub>3</sub>> MgCO<sub>3</sub>
+
+d) BaCO<sub>3</sub>> CaCO<sub>3</sub>> SrCO<sub>3</sub>> MgCO<sub>3</sub>
+
+
+17. In context with beryllium, which one of the following statements is incorrect ?(NEET Phase - 2)
+
+a) It is rendered passive by nitric acid
+
+b) It forms Be<sub>2</sub>C
+
+c) Its salts are rarely hydrolysed
+
+d) Its hydride is electron deficient and polymeric
+
+18. The suspension of slaked lime in water is known as (NEET Phase - II)
+
+a) lime water 
+
+b) quick lime
+
+c) milk of lime 
+
+d) aqueous solution of slaked lime
+
+
+19. A colourless solid substance (A) on heating evolved CO<sub>2</sub> and also gave a white resi-
+due, soluble in water.Residue also gave CO<sub>2</sub> when treated with dilute HCl.
+
+a) Na<sub>2</sub>CO<sub>3</sub>
+
+b) NaHCO<sub>3</sub>
+
+c) CaCO<sub>3</sub>
+
+d) Ca(HCO<sub>3</sub>)<sub>2</sub>
+
+20. The compound (X) on heating gives a colourless gas and a residue that is dissolved in water to obtain (B). Excess of CO<sub>2</sub> is bubbled through aqueous solution of B, C is formed. Solid (C) on heating gives back X. (B) is
+
+a) CaCO<sub>3</sub>
+
+b) Ca(OH)<sub>2</sub>
+
+c) Na<sub>2</sub>CO<sub>3</sub>
+
+d) NaHCO<sub>3</sub>
+
+
+21. Which of the following statement is false ? (NEET - Phase - I)
+
+a) Ca<sup>2+</sup> ions are not important in maintaining the regular beating of the heart
+
+b) Mg<sup>2+</sup> ions are important in the green parts of the plants
+
+c) Mg<sup>2+</sup> ions form a complex with ATP
+
+d) Ca<sup>2+</sup> ions are important in blood clotting
+
+
+22. The name 'Blue John' is given to which of the following compounds ?
+
+a) CaH<sub>2</sub>
+
+b) CaF<sub>2</sub>
+
+c) Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>
+
+d) CaO
+
+
+23. Formula of Gypsum is
+
+a) CaSO<sub>4</sub>. 2H<sub>2</sub>O 
+
+b) CaSO<sub>4</sub>. 1⁄2 H<sub>2</sub>O
+
+c) 3 CaSO<sub>4</sub>. H<sub>2</sub>O 
+
+d) 2CaSO<sub>4</sub>. 2H<sub>2</sub>O
+
+
+24. When CaC<sub>2</sub> is heated in atmospheric nitrogen in an electric furnace the compound
+formed is
+
+a) Ca(CN)<sub>2</sub>
+
+b) CaNCN
+
+c) CaC<sub>2</sub>N<sub>2</sub>
+
+d) CaNC<sub>2</sub>
+
+
+25. Among the following the least thermally stable is
+
+(a) K<sub>2</sub> CO<sub>3</sub> 
+
+(b) Na<sub>2</sub>CO<sub>3</sub>
+
+(c) BaCo<sub>3</sub> 
+
+(d) Li<sub>2</sub>CO<sub>3</sub>
+
+
+**II. Write brief answer to the following questions:**
+
+
+26. Why sodium hydroxide is much more water soluble than sodium chloride?
+
+27. Write the chemical equations for the reactions involved in solvay process of preparation of sodium carbonate.
+
+
+28. An alkali metal (x) forms a hydrated sulphate, X<sub>2</sub>SOv. 10H<sub>2</sub>O. Is the metal more likely to be sodium (or) potassium.
+
+
+29. Write balanced chemical equation for each of the following chemical reactions.
+
+(i) Lithium metal with nitrogen gas
+
+(ii) heating solid sodium bicarbonate
+
+(iii) Rubidum with oxygen gas
+
+(iv) solid potassium hydroxide with CO<sub>2</sub>
+
+(v) heating calcium carbonate
+
+(vi) heating calcium with oxygen
+
+
+30. Discuss briefly the similarities between beryllium and aluminium.
+
+31. Give the systematic names for the following
+
+(i) milk of magnesia 
+
+(ii) lye 
+
+(iii) lime 
+
+(iv) Caustic potash
+
+(v) washing soda 
+
+(vi) soda ash 
+
+(v) trona
+
+
+32. Substantiate Lithium fluoride has the lowest solubility among group one metal fluorides.
+
+33. Mention the uses of plaster of paris
+
+34. Beryllium halides are covalent whereas magnesium halides are ionic why?
+
+35. Alkaline earth metal 
+
+(A), belongs to 3rd period reacts with oxygen and nitrogen to form compound 
+
+(B) and 
+
+(C) respectively. It undergoes metal displacement reaction with AgNO<sub>3</sub>solution to form compound 
+
+(D). Identify A,B.C and D.
+
+36. Write balanced chemical equation for the following processes
+
+(a) heating calcium in oxygen
+
+(b) heating calcium carbonate
+
+(c) evaporating a solution of calcium hydrogen carbonate
+
+(d) heating calcium oxide with carbon
+
+37. Explain the important common features of Group 2 elements.
+
+38. Discuss the similarities between beryllium and aluminium.
+
+39. Why alkaline earth metals are harder than alkali metals.
+
+40. How is plaster of paris prepared?
+
+41. Give the uses of gypsum.
+
+42. Describe briefly the biological importance of Calcium and magnesium.
+
+43. Which would you expect to have a higher melting point, magnesium oxide or magnesium fluoride? Explain your reasoning.
+
+
+flow chat to be add...
+
