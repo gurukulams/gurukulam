@@ -1927,9 +1927,485 @@ sodium chloride using Born-Haber cycle
 
 U = lattice energy of NaCl
 
+∆H<sub>f</sub> = ∆H<sub>1</sub> + ∆H<sub>2</sub> + 1/2 ∆H<sub>3</sub> + ∆H<sub>4</sub> +U
+
+therfore U = (∆H<sub>f</sub>) -  (∆)H<sub>1</sub> + ∆H<sub>2</sub> + 1/2 ∆H<sub>3</sub> + ∆H<sub>4</sub>)
+
+⇒ U = (–411.3) – (108.7 + 495.0 + 122 –
+349)
+
+ U = (–411.3) – (376.7)
+
+ ∴ U = – 788 kJ mol<sup>-1</sup>
+
+ This negative sign in lattice energy indicates
+that the energy is released when sodium is
+formed from its constituent gaseous ions Na<sup>+</sup> and Cl<sup>-</sup>.
+
+{{< box title="Evaluate Yourself - 2" type="objective" >}} 
+
+When a mole of magnesium bromide
+is prepared from 1 mole of magnesium
+and 1 mole of liquid bromine, 524
+kJ of energy is released.The heat of
+sublimation of Mg metal is 148 kJ mol–1.
+The heat of dissociation of bromine gas
+into atoms is 193 kJ mol–1. The heat of
+vapourisation of liquid bromine is 31 kJ
+mol–1. The firat and second ionisation
+energies of magnesium are IE1=737.5 kJ
+mol–1 and IE2=1450.5 kJ mol–1 and the
+electron affinity of bromine is – 324.5
+kJ mol–1. Calculate the lattice energy of
+magnesium bromide.
 
 
+{{< /box >}}
+
+##### 7.10. Second Law of thermodynamics:
+
+###### Need for the second law of thermodynamics:
+
+We know from the first law of
+thermodynamics, the energy of the
+universe is conserved. Let us consider the
+following processes:
+
+1. A glass of hot water over time loses
+heat energy to the surrounding and
+becomes cold.
+
+2. When you mix hydrochloric acid with
+sodium hydroxide, it forms sodium
+chloride and water with evolution of
+heat.
+
+In both these processes, the total
+energy is conserved and are consistent
+with the first law of thermodynamics.
+However, the reverse process i.e. cold
+water becoming hot water by absorbing
+heat from surrounding on its own does
+not occur spontaneously even though the
+energy change involved in this process is
+also consistent with the first law. However,
+if the heat energy is supplied to cold water,
+then it will become hot. i.e. the change
+that does not occur spontaneously and an
+be driven by supplying energy.
+
+Similarly, a solution of sodium
+chloride does not absorb heat energy
+on its own, to form hydrochloric acid
+and sodium hydroxide. But, this process
+can not be driven even by supplying
+energy. From these kinds of our natural
+experiences, we have come to know that
+certain processes are spontaneous while
+the others are not, and some processes
+have a preferred direction. In order to
+explain the feasibility of a process, we
+need the second law of thermodynamics.
+
+##### 7.10.1 Various statements of the second law of thermodynamics
+
+###### Entropy
+
+The second law of thermodynamics
+introduces another state function called
+entropy. Entropy is a measure of the
+molecular disorder (randomness) of a
+system. But thermodynamic definition of
+entropy is concerned with the change in
+entropy that occurs as a result of a process.
+
+It is defined as, dS = dqrev / T
+
+##### Entropy statement:
+
+The second law of thermodynamics
+can be expressed in terms of entropy.
+i.e “the entropy of an isolated system
+increases during a spontaneous process”.
+For an irreversible process such as
+spontaneous expansion of a gas,
+
+ΔS<sub>total</sub> > 0
+
+ΔS<sub>total</sub> > ΔS<sub>system</sub> + ΔS<sub>surrounding</sub>
+
+i.e. ΔS<sub>total</sub> > ΔS<sub>system</sub> + ΔS<sub>surrounding</sub>
+
+For a reversible process such as melting of
+ice,
+
+ΔS<sub>system</sub> = - ΔS<sub>surrounding</sub>
+
+ΔS<sub>total</sub> = 0
+
+**Kelvin-Planck statement:**
+
+It is impossible to construct a machine
+that absorbs heat from a hot source and
+converts it completely into work by a
+cyclic process without transferring a part
+of heat to a cold sink. The second law of
+thermodynamics explains why even an
+ideal, frictionless engine cannot convert
+100% of its input heat into work. Carnot
+on his analysis of heat engines, found that
+the maximum efficiency of a heat engine
+which operates reversibly, depends only
+on the two temperatures between which it
+is operated.
+
+Efficiency = work performed / heat
+absorbed
+
+η = (q<sub>h</sub> - q<sub>r</sub>) / q<sub>h</sub>
+
+q<sub>h</sub> - heat absorbed from the hot reservoir
+
+q<sub>c</sub> - heat transferred to cold reservoir
+
+η = 1- q<sub>c</sub> / q<sub>h</sub> --- (7.27) 
+
+For a reversible cyclic process
+
+ΔS<sub>total</sub> = ΔS<sub>system</sub> + ΔS<sub>surroundings</sub>= 0
+
+ΔS<sub>system</sub> = - ΔS<sub>surroundings</sub>
+
+q<sub>h</sub> / T<sub>h</sub> = -q<sub>c</sub> /t<sub>c</sub>
+
+T<sub>c</sub> / T<sub>h</sub>  = -q<sub>c</sub> / q<sub>h</sub>
+
+T<sub>c</sub> / T<sub>h</sub>  = -q<sub>c</sub> / q<sub>h</sub> ----> 7.28
+
+Sustituting 7.28 into 7.27
+
+⇒  η = T<sub>c</sub> / T<sub>h</sub> −−−−−−> 7.29
+
+T<sub>h</sub> >> T<sub>c</sub>
+
+Hence, η < 1
+
+efficiency in percentage can be expressed
+as 
+
+Efficiency  in percentage  = [ 1-( T<sub>c</sub> / T<sub>h</sub>) ]
+
+Clausius statement:
+It is impossible to transfer heat
+from a cold reservoir to a hot reservoir
+without doing some work.
+
+**Problem: 7.10**
+
+If an automobile engine burns
+petrol at a temperature of 816o C and if
+the surrounding temperature is 21o C,
+calculate its maximum possible efficiency.
+
+**Solution:**
+
+% Efficiency = [ T<sub>h</sub>- T<sub>c</sub> / T<sub>h</sub>]  * 100
+
+Here
+
+T<sub>h</sub> = 816+273= 1089 K;
 
 
+T<sub>c</sub>  = 21+273= 294K
 
+
+% Efficiency = [ 1089 -294 / 1089] * 100
+
+% Efficiency=73%
+
+{{< box title="Evaluate Yourself - 2" type="objective" >}} 
+
+An engine operating between 1270 C
+and 470 C takes some specified amount
+of heat from a high temperature
+reservoir. Assuming that there are
+no frictional losses, calculate the
+percentage efficiency of an engine.
+
+{{< /box >}}
+
+**Unit of entropy:**
+
+The entropy (S) is equal to heat
+energy exchanged (q) divided by the
+temperature (T) at which the exchange
+takes place. Therefore, The SI unit of
+entropy is JK<sup>-1</sup>.
+
+**Spontaneity and Randomness**
+
+Careful examination shows that
+in each of the processes viz., melting of
+ice and evaporation of water, there is an
+increase in randomness or disorder of
+the system. The water molecules in ice
+are arranged in a highly organised crystal
+pattern which permits little movement. As
+the ice melts, the water molecules become
+disorganised and can move more freely.
+The movement of molecules becomes
+freer in the liquid phase and even more
+free in the vapour phase. In other words,
+we can say that the randomness of the
+water molecules increases, as ice melts
+into water or water evaporates. Both are
+spontaneous processes which result in a
+increase in randomness (entropy).
+
+
+![Figure 7.8 Illustration showing an increase in disorder.](/books/chemistry/part-1/thermodynamics/pic8.png)
+
+**Standard Entropy Change(ΔS<sup>0</sup>):**
+
+It is possible to calculate the actual
+entropy of a substance at any temperature
+above 0 K. The absolute entropy of a
+substance at 298 K and one bar pressure is
+called the standard entropy So
+
+. The third
+law of thermodynamics states, according
+to Nernst, that the absolute entropy of
+elements is zero only at 0 K in a perfect
+crystal, and standard entropies of all
+substances at any temperature above 0 K
+always have positive values. Once we know
+the entropies of different substances, we
+can calculate the standard entropy change
+( ∆Sr<sup>0</sup> ) for chemical reactions.
+
+( ∆Sr<sup>0</sup>) = E S<sup>0</sup><sub>products></sub> - E S<sup>0</sup><sub>rectants
+</sub>
+
+
+Standard Entropy of Formation:
+Standard entropy of formation is
+defined as “the entropy of formation of 1
+mole of a compound from the elements
+under standard conditions”. It is denoted
+>as ∆Sf<suP>0</suP>. We can calculate the value of
+entropy of a given compound from the
+values of S0 of elements.
+
+**Problem: 7.6**
+
+Calculate the standard entropy
+change for the following reaction( ∆Sf<sup>0</sup>),
+given the standard entropies of CO<sub>2</sub>(g),
+C(s),O<sub>2</sub>(g) as 213.6 , 5.740 and 205 JK<sup>-1</sup>
+respectively.
+
+C(g) + O<sub>2</sub>(g) → CO<sub>2</sub>(g)
+
+
+( ∆Sr<sup>0</sup>) = E S<sup>0</sup><sub>products></sub> - E S<sup>0</sup><sub>rectants
+</sub>
+
+( ∆Sr<sup>0</sup>) = 213.6 - [5.74+205]
+
+( ∆Sr<sup>0</sup>) = 213.6 - [210.74]
+
+( ∆Sr<sup>0</sup>) = 2.86 JK<sup>-1</sup>
+
+
+{{< box title="Evaluate Yourself - 6" type="objective" >}} 
+
+Urea on hydrolysis produces ammonia
+and carbon dioxide. The standard
+entropies of urea, H2O, CO2, NH3 are
+173.8, 70, 213.5 and 192.5J mole-1K-1
+respectively. Calculate the entropy
+change for this reaction.
+
+{{< /box >}}
+
+**Entropy change accompanying change**
+**of phase**
+
+
+When there is a change of state from
+solid to liquid (melting), liquid to
+vapour (evaporation) or solid to vapour
+(sublimation) there is a change in entropy.
+This change may be carried out at constant
+temperature reversibly as two phases are
+in equilibrium during the change.
+
+**Entropy of fusion:**
+
+The heat absorbed, when one mole of a
+solid melts at its melting point reversibly,
+is called molar heat of fusion. The entropy
+change for this process is given by
+
+
+( ∆S<sub>rev</sub>) = dq<sub>rev</sub> / T
+
+
+( ∆S<sub>fusion</sub>) = ( ∆H<sub>fusion</sub>) / T<sub>f</sub>  --- > 7.32
+
+where ΔH<sub>fusion</sub> is Molar heat of fusion. Tf
+is the melting point.
+
+**Entropy of vapourisation:**
+
+The heat absorbed, when one mole of liquid
+is boiled at its boiling point reversibly, is
+called molar heat of vapourisation. The
+entropy change is given by
+
+ ∆S<sub>v</sub>  =   ∆H<sub>v</sub> / T<sub>h</sub>  ......>(7.33)
+
+ where ΔH<sub>v</sub> is Molar heat of vaporisation.
+T<sub>b</sub> is the boiling point.
+
+**Entropy of transition:**
+
+The heat change, when one mole
+of a solid changes reversibly from one
+allotropic form to another at its transition
+temperature is called enthalpy of
+transition. The entropy change is given
+
+ ∆S<sub>t</sub> =  ∆H<sub>t</sub>  / T<sub>h</sub> ------->   7.34
+
+where ΔH<sub>t</sub> is the molar heat of transition, T<sub>t</sub> is the transition temperature.
+
+**Problem: 7.7**
+
+Calculate the entropy change
+during the melting of one mole of ice into
+water at 00 C and 1 atm pressure. Enthalpy
+of fusion of ice is 6008 J mol<sup>-1</sup>
+
+**Given:**
+
+ ∆H<sub>fusion</sub> = 6008 JMol<sup>-1</sup>
+
+T<sub>f</sub> = 0<sup>o</sup> C = 273 k
+
+H<sub>2</sub>O(S) = H<sub>2</sub>O(l)
+
+∆S<sub>fusion</sub> = ∆H<sub>fusion</sub>  / T<sub>f</sub>
+
+
+∆S<sub>fusion</sub> = 6008 / 273
+
+∆S<sub>fusion</sub> = 22.007 K<sup>-1</sup> mole <sup>-1</sup>
+
+
+{{< box title="Evaluate Yourself - 7 " type="objective" >}} 
+
+Calculate the entropy change when 1
+mole of ethanol is evaporated at 351
+K. The molar heat of vaporisation of
+ethanol is 39.84 kJ mol-1
+
+{{< /box >}}
+
+**7.11 Gibbs free energy (G)**
+
+One of the important applications
+of the second law of thermodynamics is to
+predict the spontaneity of a reaction under
+a specific set of conditions. A reaction that
+occurs under the given set of conditions
+without any external driving force is
+called a spontaneous reaction. Otherwise,
+it is said to be non-spontaneous. In our
+day today life, we observe many
+spontaneous physical and chemical
+processes, which includes the following
+examples.
+
+1. A waterfall runs downhill, but never
+uphill, spontaneously.
+
+2. A lump of sugar dissolves spontaneously
+in a cup of coffee, but never reappears
+in its original form spontaneously.
+
+3. Heat flows from hotter object to a
+colder one, but never flows from colder
+to hotter object spontaneously.
+
+4. The expansion of a gas into an evacuated
+bulb is a spontaneous process, the
+reverse process that is gathering of
+all molecules into one bulb is not.
+spontaneous.
+
+![Figure 7.9 Spontaneous process illustration](/books/chemistry/part-1/thermodynamics/pic9.png)
+
+These examples show that the
+processes that occur spontaneously in one
+direction, cannot take place in opposite
+direction spontaneously.
+
+Similarly a large number of
+exothermic reactions are spontaneous. An
+example is combustion of methane.
+
+CH<sub>4</sub>+ 2O<sub>2</sub> → CO<sub>2</sub> + 2 H<sub>2</sub>O
+
+ΔH<sup>0</sup> = −890.4 kJ mol<sup>-1</sup>
+
+Another example is acid-base
+neutralization reaction:
+
+H<sup>+</sup> + OH<sup>-</sup> → H<sub>2</sub>O
+
+
+ΔH<sup>0</sup> = −57.32 kJ mol<sup>-1</sup>
+
+However, some endothermic
+processes are also spontaneous. For
+example ammonium nitrate dissolves
+in water spontaneously though this
+dissolution is endothermic.
+
+From the above examples we can
+come to the conclusion that exothermicity
+favors the spontaneity but does not
+guarantee it. We cannot decide whether
+or not a chemical reaction will occur
+spontaneously solely on the basis of
+energy changes in the system. We know
+from second law of thermodynamics that
+in a spontaneous process, the entropy
+increases. But not all the processes which
+are accompanied by an increase in entropy
+are spontaneous. In order to predict the
+spontaneity of a reaction, we need some
+other thermodynamic function.
+
+The second law of thermodynamics
+introduces another thermodynamic
+function called Gibbs free energy which
+finds useful in predicting the spontaneity
+of a reaction. The Gibbs free energy (G)
+was developed in the 1870’s by Josiah
+Willard Gibbs. He originally termed this
+energy as the “available energy” to do work
+in a system. This quantity is the energy
+associated with a chemical reaction that
+can be used to do work.
+
+Gibbs free energy is defined as below
+
+G = H - TS ------------ (7.35)
+
+Gibbs free energy (G) is an
+extensive property and it is a single valued
+state function.
 
