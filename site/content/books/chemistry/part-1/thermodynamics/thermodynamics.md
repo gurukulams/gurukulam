@@ -2409,3 +2409,472 @@ Gibbs free energy (G) is an
 extensive property and it is a single valued
 state function.
 
+Let us consider a system which
+undergoes a change of state from state (1)
+to state (2) at constant temperature.
+
+G<sub>2</sub> – G<sub>1</sub> = (H<sub>2</sub> – H<sub>1</sub>) – T(S<sub>2</sub> – S<sub>1</sub>)
+
+
+ΔG =ΔH – T ΔS−−−−−−(7.36)
+
+Now let us consider how ΔG is
+related to reaction spontaneity.
+
+We know that
+
+ΔS<sub>total</sub> = ΔS<sub>Sys</sub> + ΔS<sub>surr</sub>
+
+For a reversible process
+(equilibrium), the change in entropy of
+universe is zero. ΔS<sub>total</sub> = 0
+
+[∴ΔS<sub>Sys</sub> = − ΔS <sub>surr</sub>]
+
+Similarly, for an equilibrium process
+ΔG=0
+
+For spontaneous process, ΔS<sub>total</sub>>0
+
+
+ΔS<sub>sys</sub> + ΔS<sub>surr</sub> >0
+
+ΔS<sub>sys</sub> + dq<sub>sys</sub> >0
+
+ΔS<sub>sys</sub> – ΔH<sub>sys</sub> >0
+
+TΔS<sub>sys</sub> − ΔH<sub>sys</sub> >0
+
+− (ΔH<sub>sys</sub> − TΔS<sub>sys</sub>)>0
+
+− ΔG>0
+
+hence for a spontaneous process,
+
+ΔG < 0
+
+i.e. ΔH – T ΔS < 0 −−−−−−(7.37)
+
+ΔH<sub>sys</sub> is the enthalpy change of
+a reaction, TΔSsys is the energy which is
+not available to do useful work. So ΔG
+is the net energy available to do useful
+work and is thus a measure of the ‘free
+energy’. For this reason, it is also known
+as the free energy of the reaction. For non
+spontaneous process, ΔG > 0
+
+**Gibbs free energy and the net work done**
+**by the system:**
+
+For any system at constant pressure
+and temperature
+
+ΔG = ΔH – T ΔS −−−− (7.36)
+
+We know that,
+
+ΔH =ΔU + PΔV
+
+∴ ΔG = ΔU + PΔV – TΔS
+
+from first law of thermodynamics
+if work is done by the system
+
+ΔU = q – w
+
+from second law of thermodynamics
+
+∆ = S q / t
+
+∆ = q - w + P∆V  - T [ q/t]
+
+ΔG = –w + PΔV
+
+−ΔG = w − PΔV ............(7.38)
+
+Here, −PΔV represents the work
+done due to expansion against a constant
+external pressure. Therefore, it is clear
+that the decrease in free energy (–ΔG)
+accompanying a process taking place
+at constant temperature and pressure is
+equal to the maximum work obtainable
+from the system other than the work of
+expansion.
+
+**7.11.1 Criteria for spontaneity of a process**
+
+The spontaneity of any process depends
+on three different factors.
+
+• If the enthalpy change of a process
+is negative, then the process is
+exothermic and may be spontaneous.
+(ΔH is negative)
+
+• If the entropy change of a process is
+positive, then the process may occur
+spontaneously. (ΔS is positive)
+
+• The gibbs free energy which is the combination of the above two (ΔH -TΔS) should
+be negative for a reaction to occur spontaneously, i.e. the necessary condition for a
+reaction to be spontaneous is ΔH -TΔS < 0
+
+**Table 7.5 Effect of Temperature on Spontaneity of Reactions:**
+
+| **ΔH<sub>r</sub>** | **ΔS<sub>r</sub>** | **ΔG<sub>r</sub> = ΔH<sub>r</sub> −TΔS<sub>r</sub>** | **Description**                         | **Example**                                                             |
+|--------------------|--------------------|------------------------------------------------------|-----------------------------------------|-------------------------------------------------------------------------|
+| **-**              | **+**              | **− (at all T)**                                     | **Spontaneous at all temperature**      | **2O<sub>3</sub>(g) → 3O<sub>2</sub> (g)**                              |
+| **-**              | **-**              | **− (at low T)**                                     | **spontaneous at low temperature**      | **Adsorption of gases**                                                 |
+| **+**              | **+**              | **− (at high T)**                                    | **non-spontaneous at low temperature**  | **Melting of a solid**                                                  |
+| **+**              | **-**              | **+ (at all T)**                                     | **spontaneous at high temperature**     | **Melting of a solid**                                                  |
+|                    |                    |                                                      | **non spontaneous at all temperatures** | **2H<sub>2</sub>O(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>o<sub>2</sub>** |<hr>
+
+
+The Table assumes ΔH and ΔS will remain
+the way indicated for all temperatures.
+It may not be necessary that way. The
+Spontaneity of a chemical reaction is only
+the potential for the reaction to proceed
+as written. The rate of such processes is
+determined by kinetic factors, outside of
+thermodynamical prediction.
+
+**Problem: 7. 8**
+
+Show that the reaction 
+
+CO+[1/2]O<sub>2</sub> ----> CO<sub>2</sub>
+
+at 300K is spontaneous. The standard Gibbs
+free energies of formation of CO2 and CO
+are –394.4 and −137.2 kJ mole<sup>-1</sup> respectively.
+
+CO+[1/2]O<sub>2</sub> ----> CO<sub>2</sub>
+
+
+ΔG<sup>0</sup><sub>(reaction)</sub> = ∑ ΔG<sup>0</sup><sub>(products)</sub> -  ∑ ΔG<sup>0</sup><sub>(rectanants)</sub>
+
+
+ΔG<sup>0</sup><sub>(reaction)</sub> = -394.4  + [ 137.2 + 0]
+
+
+ΔG<sup>0</sup><sub>(reaction)</sub> = -257.2 KJ Mol<sup>-1</sup>
+
+ΔG<sub>(reaction)</sub> of a reaction at a given
+temperature is negative hence the reaction
+is spontaneous.
+
+
+{{< box title="Evaluate Yourself - 8 " type="objective" >}} 
+
+For a chemical reaction the values of ΔH
+and ΔS at 300K are − 10 kJ mole−1 and
+−20 J deg−1 mole−1 respectively. What is
+the value of ΔG of the reaction? Calculate
+the ΔG of a reaction at 600 K assuming
+ΔH and ΔS values are constant. Predict
+the nature of the reaction.
+
+
+{{< /box >}}
+
+**7.11.2 Relationship between standard free energy change ΔG<sup>0</sup><sub>****(reaction)</sub> and equilibrium constant (K<sub>eq</sub>):**
+
+In a reversible process, the system is in
+perfect equilibrium with its surroundings
+at all times. A reversible chemical
+reaction can proceed in either direction
+simultaneously, so that a dynamic
+equilibrium is set up. This means that the
+reactions in both the directions should
+proceed with decrease in free energy,
+which is impossible. It is possible only if
+at equilibrium, the free energy of a system
+is minimum. Lets consider a general equilibrium reaction
+
+A+B ⇌ C + D
+
+The free energy change of the
+above reaction in any state (ΔG) is related
+to the standard free energy change of the
+reaction (ΔG<sup>0</sup> ) according to the following
+equation.
+
+
+ΔG= ΔG<sup>0</sup> + RT ln Q −−−−−−(7.39)
+
+where Q is reaction quotient and
+is defined as the ratio of concentration
+of the products to the concentrations
+of the reactants under non equilibrium
+condition.
+
+
+When equilibrium is attained, there
+is no further free energy change i.e. ΔG
+= 0 and Q becomes equal to equilibrium
+constant. Hence the above equation
+becomes.
+
+  ΔG<sup>0</sup> = –RT ln Keq
+
+  This equation is known as Van’t
+Hoff equation.
+
+ΔG<sup>0</sup> = –2.303 RT log Keq ----------(7.40)
+
+We also know that
+ΔG<sup>0</sup>= ΔH<sup>0</sup> – T ΔS<sup>0</sup> = − RT ln Keq
+
+
+**Problem: 7.9**
+
+Calculate ΔG<sup>0</sup> for conversion of
+oxygen to ozone 3/2 O2 O3(g) at 298
+K, if Kp for this conversion is 2.47 × 10−29
+in standard pressure units.
+Solution:
+
+ΔG<sup>0</sup> = − 2.303 RT log K<sub>p</sub>
+
+Where
+
+R = 8.314 JK<sup>-1</sup>mol<sup>-1</sup>
+
+K<sub>p</sub> = 2.47 × 10−29
+
+T = 298K
+
+ΔG<sup>0</sup>=−2.303(8.314)(298)log(2.47×10<sup>-29</sup>)
+
+ΔG<sup>0</sup> = 163229 Jmol<sup>-1</sup>
+
+ΔG<sup>0</sup> = 163.229 KJ mol<sup>-1</sup>
+
+**7.12 Third law of Thermodynamics**
+
+The entropy of a substance varies
+directly with temperature. Lower the
+temperature, lower is the entropy. For
+example, water above 1000 C at one
+atmosphere exists as a gas and has higher
+entropy (higher disorder). The water
+molecules are free to roam about in
+the entire container. When the system
+is cooled, the water vapour condenses
+to form a liquid. The water molecules
+in liquid phase still can move about
+somewhat freely. Thus the entropy of
+the system has decreased. On further
+cooling, water freezes to form ice crystal.
+The water molecules in the ice crystal are
+highly ordered and entropy of the system
+is very low.
+
+If we cool the solid crystal still
+further, the vibration of molecules held
+in the crystal lattice gets slower and they
+have very little freedom of movement
+(very little disorder) and hence very small
+entropy.
+
+At absolute zero {0 K (or) − 2730C},
+theoretically all modes of motion stop.
+
+Absolute zero is a temperature that an object can get arbitrarily close to but absolute zero will remain unattainable.
+
+Thus the third law of thermodynamics states that the entropy of pure crystalline
+substance at absolute zero is zero. Otherwise it can be stated as it is impossible to lower the temperature of an object to absolute zero in a finite number of steps. 
+
+Mathematically,
+
+T<sup>tim</sup> --> 0<sup>S=0</sup> for a perfectly ordered crystalline state.
+
+
+
+![Figure 7.10 Third law of Thermodynamics](/books/chemistry/part-1/thermodynamics/pic10.png)
+
+Crystals with defects (imperfection) at absolute zero, have entropy greater than zero.
+Absolute entropy of a substance can never be negative.
+
+
+
+### SUMMARY
+
+The branch of science which deals
+the relation between energy, heat and work
+is called Thermodynamics. The main aim
+of the study of chemical thermodynamics
+is to learn (i) transformation of energy
+from one form into another form (ii)
+Utilization of various forms of energies.
+
+System: A system is defined as
+any part of universe under consideration.
+There are three types of thermodynamic
+systems. They are (i) isolated system (ii)
+closed system and (iii) open system.
+
+**Surrounding**: Everything in the
+universe that is not the part of the system
+is called surrounding.
+
+**Boundary:** Anything which
+separates the system from its surrounding
+is called boundary.
+
+**Thermodynamic Properties:**
+
+Any quantity that depends only on the
+state of system is called thermodynamic
+property of a system. There are two kinds
+of thermodynamic properties called (1)
+intensive - independent of the quantity
+of material and (2) extensive - directly
+proportional to the quantity of material.
+There are five basic thermodynamic
+properties. (U,H,S and G)
+
+
+**Thermodynamic Processes:**
+
+Adiabatic process in which no heat
+transfer takes place (q = 0)
+Isothermal process in which
+temperature remains constant (dT =0).
+
+Isobaric process in which pressure
+remains constant(dP =0).
+
+Isochoric process in which volume
+remains constant(dV =0).
+
+Cyclic process in which the system
+returns to its original state after completing
+a series of changes.
+
+**Internal energy (U):** Internal
+energy of a system is equal to the energy
+possessed by all its constituents namely
+atoms, ions and molecules. The energy of
+a system of molecules is equal to the sum
+of its translational energy, vibrational
+energy, rotational energy, bond energy,
+electronic energy and energy due to
+molecular interactions.
+
+**Heat:** Heat is regarded as the energy in
+transit across the boundary separating
+a system from its surrounding. Heat is a
+path function. The SI unit of heat is joule
+(J)
+
+**Work :** Work is defined as the force (F)
+multiplied by the displacement -w=F.x,
+work is measured in Joules, i.e the SI
+unit of work is Joule. During expansion
+or compression of a gas the work done is
+calculated by the relation w= -P∆V.
+
+The sign conventions for heat and work
+are as follows:
+If heat is absorbed by the system : +q
+
+If heat is evolved by the system : -q
+
+If work is done by the system : -w
+
+If work is done on the system : +w
+
+**Laws of Thermodynamics:**
+
+**Zeroth law :** When two systems
+are separately in equilibrium with a third
+system, they are in equilibrium with each
+other.
+
+
+**First law:** "Energy can neither
+be created nor destroyed, but may be
+converted from one form to another".
+∆U = q + w.
+
+Enthalpy is a thermodynamic
+property of a system. Enthalpy H is
+defined as the sum of the internal energy
+and pressure volume work.
+
+H=U+PV.
+
+Enthalpy change, ∆H = ∆U + ∆n<sub>g</sub>RT.
+
+Hess's law: It states that “the enthalpy
+change of a reaction either at constant
+volume or constant pressure is the same
+whether it takes place in a single or
+multiple steps”. Hess's law can be applied
+to calculate enthalpies of reactions that
+are difficult to measure.
+Heat capacities: [Cp and Cv]
+Heat capacity is defined as the
+amount of energy required to increase
+the temperature of one unit quantity of
+material by one degree, under specific
+conditions. It can be measured under two
+different conditions, namely,
+
+
+(a) constant pressure C<sub>p</sub> = (dH/dT)<sub>p</sub>
+
+(b) constant volume C<sub>v</sub> = (dU/dT)<sub>v</sub>
+
+**Second law of thermodynamics:**
+
+The second law of thermodynamics
+helps us to predict whether the reaction is
+feasible or not and also tells the direction
+of the flow of heat.
+
+To predict spontaneity of a process,
+a new thermodynamic quantity namely
+entropy (S) was introduced. Entropy
+is a measure of the randomness or
+disorderliness of the system.
+
+**Entropy statement:** “whenever a
+spontaneous process takes place, it is
+accompanied by an increase in the total
+entropy of the universe”.
+Kelvin-Planck statement: It is
+impossible to take heat from a hotter
+reservoir and convert it completely
+into work by a cyclic process without
+transferring a part of that heat to a colder
+reservoir.
+
+**Clausius statement:** This statement
+recognises that heat flows spontaneously
+from hot objects to cold objects and to get
+it flow in the opposite direction, we have
+to spend some work.
+
+
+**Gibbs Free Energy (G):**
+
+G is expressed as G=H-TS, free
+energy change of a process is given by the
+relation ∆G= ∆H-T∆S.
+
+Standard free energy change and
+equilibrium constants are related by the
+equation ∆G<sup>0</sup> = -RTlnK<sub>eq</sub>
+
+**Third law:**
+The entropy of a perfectly crystalline
+material at absolute zero is zero.
+
+
+
+
