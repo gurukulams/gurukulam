@@ -1425,10 +1425,12 @@ d) none of these
 
 4. Which of the following has the highest tendency to give the reaction
 
+  
+ 
    Aqueous
 
-M<sup>+</sup>(g)--------->M<sup>+</sup>(aq)
-
+M<sup>+</sup>(g)--------------->M<sup>+</sup>(aq)
+  
        Medium
        
                 
