@@ -160,6 +160,7 @@ Being the first element of each period, alkali metals have the largest atomic an
 
 
 **Ionisation enthalpy**
+
 Alkali metals have the lowest ionisation enthalpy compared to other elements present in the respective period.As we go down the group, the ionisation enthalpy decreases due to the increase in atomic size. In addition, the number of inner shells also increases, which in turn increases the magnitude of screening effect and consequently, the ionisation enthalpy decreases down the group.The second ionisation enthalpies of
 alkali metals are very high. The removal of an electron from the alkali metals gives monovalent cations having stable
 electronic configurations similar to the noble gas. Therefore, it becomes very difficult to remove the second electron from the stable configurations already attained.
@@ -179,7 +180,7 @@ size Li+ ion.
 
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.2.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline3.png)
 
 **Figure 5.2 Hydration enthalphy of alkali metals**
 
@@ -255,8 +256,7 @@ When the alkali metal salts moistened with concentrated hydrochloric acid are he
 </table>
 
 
-
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.3.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline4.png)
 
 
 **Figure 5.3 Flame colours of alkali metal salt**
@@ -266,7 +266,7 @@ When the alkali metal salts moistened with concentrated hydrochloric acid are he
   **5.2.2 Distinctive behavior of lithium**
 
 
-The distinctive behaviour of Li+ ion is due to its exceptionally small size, high polarising power,high hydration energy and non availability of d-orbitals.
+The distinctive behaviour of Li<sup>+</sup>ion is due to its exceptionally small size, high polarising power,high hydration energy and non availability of d-orbitals.
 
 
 
@@ -337,30 +337,31 @@ M + O<sub>2</sub><span>&#8594;</span>MO<sub>2</sub> (superoxide)
 **Reaction with hydrogen**
 
 
-   All alkali metals react with hydrogen at about 673 K (lithium at 1073 K) to form the corresponding ionic hydrides. Reactivity of alkali metals with hydrogen decreases from Li to Cs.
+All alkali metals react with hydrogen at about 673 K (lithium at 1073 K) to form the corresponding ionic hydrides. Reactivity of alkali metals with hydrogen decreases from Li to Cs.
 
-   2M + H<sub>2</sub> <span>&#8594;</span> 
-   2 M<sup>+</sup>  +H <sup>-</sup>
+ 2M + H<sub>2</sub> <span>&#8594;</span> 
+ 2 M<sup>+</sup>  +H <sup>-</sup>
 
-   (M = Li, Na, K, Rb, Cs)
+ (M = Li, Na, K, Rb, Cs)
 
-   The ionic character of the hydrides increases from Li to Cs and their stability decreases. The hydrides behave as strong reducing agents and their reducing nature increases down the group.
+The ionic character of the hydrides increases from Li to Cs and their stability decreases. The hydrides behave as strong reducing agents and their reducing nature increases down the group.
 
 
 **Reaction with halogen**
    
    
-   Alkali metals combine readily with halogens to form ionic halides MX.Reactivity of alkali metals with halogens increases down the group because of corresponding decrease in ionisation enthalpy.
+ Alkali metals combine readily with halogens to form ionic halides MX.Reactivity of alkali metals with halogens increases down the group because of corresponding decrease in ionisation enthalpy.
 
 
 2M + X<sub>2</sub><span>&#8594;</span>2 MX
 
 (M= Li, Na, K, Rb, Cs) (X= F, Cl, Br, I)
 
-    All metal halides are ionic crystals.However Lithium iodide shows covalent character, as it is the smallest cation that exerts high polarising power on the iodide anion. Additionally, the iodide ion being the largest can be polarised to a greater extent by Li<sup>+</sup> ion.
+  All metal halides are ionic crystals.However Lithium iodide shows covalent character, as it is the smallest cation that exerts high polarising power on the iodide anion. Additionally, the iodide ion being the largest can be polarised to a greater extent by Li<sup>+</sup> ion.
 
 **Reaction with liquid ammonia:**
-    Alkali metals dissolve in liquid ammonia to give deep blue solutions that are conducting in nature. The conductivity is similar to that of pure metals (The specific conductivity of Hg is 10<sup>4</sup>Ω<sup>-1</sup> and for sodium in liquid ammonia is 0.5 x <sup>4</sup>Ω<sup>-1</sup>). This happens because the alkali metal atom readily loses its valence electron in ammonia solution. Both the cation and the electron are ammoniated to give ammoniated cation and ammoniated electron.
+
+Alkali metals dissolve in liquid ammonia to give deep blue solutions that are conducting in nature. The conductivity is similar to that of pure metals (The specific conductivity of Hg is 10<sup>4</sup>Ω<sup>-1</sup> and for sodium in liquid ammonia is 0.5 x <sup>4</sup>Ω<sup>-1</sup>). This happens because the alkali metal atom readily loses its valence electron in ammonia solution. Both the cation and the electron are ammoniated to give ammoniated cation and ammoniated electron.
 
 
   M + (x + y)NH<sub>3</sub><span>&#8594;</span>[M(NH<sub>3</sub>)<sub>x</sub> ]<sup>+</sup>+ [e(NH<sub>3</sub>)<sub>y</sub> ]<sup>-</sup>
@@ -386,8 +387,15 @@ M + O<sub>2</sub><span>&#8594;</span>MO<sub>2</sub> (superoxide)
 
    2 Na + 2 C<sub>2</sub>H<sub>5</sub>OH → 2 C<sub>2</sub>H<sub>5</sub>ONa + H<sub>2</sub>
 
-H-C ≡ C-H Na H-C ≡ C-Na
-Na-C ≡ C-Na Na
+H-C ≡ C-H ----Na---> H-C = C-Na
+
+                         |
+                         |Na
+                         |
+                         \/
+
+                     Na-C=C-Na
+
 
 
 **Reducing activity:**
@@ -469,7 +477,7 @@ F-).Due to the presence of covalent nature both LiBr and LiI are soluble in orga
 Alkali metals form salts with all the oxo-acids. Most of these salts are soluble in water and are thermally stable. As the electropositive character increases down the group, the stability of the carbonates and bicarbonates increases. This is due to the decrease in polarising power of alkali metal cations. The carbonates (M<sub>2</sub>CO<sub>3</sub>) of alkali metals are remarkably stable up to 1273 K, above which they first melt and then eventually decompose to form oxides. However, Li<sub>2</sub>CO<sub>3</sub> is considerably less stable and decomposes readily.
 
 
-Li2CO3 →Δ Li2O + CO2
+Li<sub>2</sub>CO<sub>3</sub> ---Δ--> Li<sub>2</sub>O + CO<sub>2</sub>
 
 This is presumably due to large size
 difference between Li<sup>+</sup> and CO<sub>3</sub><sup>-2</sup> which makes the crystal lattice unstable. Being strongly basic, alkali metals except lithium form solid bicarbonates. No other metal forms solid bicarbonates.
@@ -549,6 +557,7 @@ ii) It is used for the preparation of many inorganic compounds such as NaOH and 
 
 
 **Sodium hydroxide:**
+
 Sodium hydroxide is prepared commercially by the electrolysis of brine solution in Castner-Kellner cell using a mercury cathode and a carbon anode.
 Sodium metal is discharged at the cathode and combines with mercury to form sodium amalgam. Chlorine gas is evolved at the anode. The sodium amalgam thus obtained is treated with water to give
 sodium hydroxide.
@@ -567,6 +576,7 @@ Na<sub>2</sub>CO<sub>3</sub>
 
 
 **Uses:**
+
 • Sodium hydroxide is used in the purification of bauxite (ore of Aluminium) and petroleum refining
 
 • It is used in the textile industries for
@@ -608,7 +618,7 @@ potassium ions are the most abundant cations within cell fluids, where they acti
 Sodium–potassium pump play an important role in transmitting nerve signals.
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.4.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline5.png)
 
 
 **5.5 Alkaline earth metals:**
@@ -616,7 +626,7 @@ Sodium–potassium pump play an important role in transmitting nerve signals.
 Group 2 in the modern periodic table contains the elements beryllium, magnesium, calcium, strontium, barium and radium. These elements with the exception of beryllium are commonly known as the alkaline earth metals because their oxides and hydroxides are alkaline in nature and these metal oxides are found in the earth’s crust.
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.5.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline5.5.png)
 
 
 **Table 5.7 Abundance of important alkaline earth metals and their sources**
@@ -645,7 +655,7 @@ in carnallite, magnesite, dolomite and calcium in chalk, limestone, gypsum. Most
 barite. Radium, being a decay product of uranium, is found in all uranium-bearing ores
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.5.1.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline7.png)
 
 
 **Electronic configuration:**
@@ -682,6 +692,7 @@ The group 2 elements have two electrons in their valence shell and by losing the
 
 
 **Ionisation enthalpy:**
+
 Due to a fairly large size of the atoms, alkaline earth metals have low ionisation enthalpies when compared to ‘p’ block elements. Down the group the
 ionisation enthalpy decreases as atomic size increases. This is due to the addition of new shells as well as increase in the magnitude of the screening effect of inner shell electrons. Members of group 2 have higher ionization enthalpy values than group 1 because of their smaller size, with
 electrons being more attracted towards the nucleus of the atoms. Correspondingly they are less electropositive than alkali metals.
@@ -707,7 +718,7 @@ electrons being more attracted towards the nucleus of the atoms. Correspondingly
 
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/graph.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline8.png)
 
 
 **Figure 5.6 Variation of ionisation energy - Alkaline earth metals.**
@@ -722,9 +733,7 @@ monovalent cation, which still has one electron in the outermost shell. Thus, th
 
 **Hydration Enthalpies**
 
-
 Compounds of alkaline earth metals are more extensively hydrated than those of alkali metals, because the hydration enthalpies of alkaline earth metal ions are larger than those of alkali metal ions.
-
 
 Like alkali metal ions, the hydration enthalpies of alkaline earth metal ions also decrease with increase in ionic size down the group.
 
@@ -739,12 +748,10 @@ O respectively.whereas NaCl and KCl do not form such hydrates.
 
 **Electronegativity**
 
-
 In alkaline earth metals the electronegativity values decrease as we go down the group as seen in the alkali metals.
 
 
 **Flame colour and the spectra:**
-
 
 When the alkaline earth metal salts moistened with concentrated hydrochloric acid are heated on a platinum wire in a flame, they show characteristic coloured flame as shown below.
 
@@ -800,14 +807,14 @@ whose wavelength is in the visible region
 as shown in the above table.
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.7.png)
 
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline9.png)
 
 
 **5.5.2 Distinctive behavior of beryllium**
 
 
-flow chat to be add...
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline17.png)
 
 
 The anomalous properties of beryllium is mainly due to its small size, high electronegativity, high ionisation energy and high polarising power compared to the other elements in the block. The anomalous properties of beryllium compared to other elements of the group are mentioned in Table 5.11
@@ -881,7 +888,6 @@ The anomalous properties of beryllium is mainly due to its small size, high elec
 
 **Diagonal Relationship:**
 
-
 As observed in alkali metals, beryllium (the first member of group 2) shows a
 diagonal relationship with aluminium. In this case, the size of these ions (r<sub>Be</sub><sup>2+</sup> = 0.45 Å
 and r<sub>Al</sub><sup>3+</sup> = 0.54 Å) is not as close. However, their charge per unit area is closer (Be<sup>2+</sup> = 2.36
@@ -905,7 +911,6 @@ and Al<sup>3+</sup> = 2.50). They also have same electronegativity values (Be = 
 
 **5.5.3 Chemical properties of alkaline earth metals**
 
-
 The alkaline earth metals are less reactive than the alkali metals. The reactivity of these elements increases on going down the group.
 
 
@@ -923,7 +928,10 @@ X = F, Cl, Br, l )
 
 Thermal decomposition of
 (NH<sub>4</sub>)<sub>2</sub>BeF<sub>4</sub>
-is the best route for the preparation of BeF<sub>2</sub>. BeCl<sub>2</sub> is conveniently made from the oxide.
+is the best route for the preparation of BeF <sub>2</sub>. BeCl<sub>2</sub> is conveniently made from the oxide.
+
+
+BeO + C + cl<sub>2</sub> ---600to800K---> Becl<sub>2</sub>+CO
 
 **Reactivity towards hydrogen:**
 
@@ -1099,7 +1107,7 @@ Except beryllium halides, all the other halides of alkaline earth metals are ion
 .6H<sub>2</sub>O and BaCl<sub>2</sub>.2H<sub>2</sub>O) down the group.
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.9.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline10.png)
 
 
 **Salts of oxo acids**
@@ -1112,7 +1120,8 @@ All the carbonates decompose on
 heating to give carbon dioxide and the
 oxide.
 
-equation to be add MCO3---->MO + CO2
+MCO<sub>3</sub> --∆-->MO + CO<sub>2</sub> 
+
 
 • The solubility of carbonates in water
 decreases down the group.
@@ -1159,7 +1168,7 @@ scale by heating limestone in a lime kiln
 in the temperature range 1070-1270K.
 
 
-eqn to be add....
+CaCO<sub>3</sub>  ⇌ CaO+CO<sub>2</sub>
 
 
 The reaction being reversible,carbon dioxide is removed as soon as it is produced to enable the reaction to proceed to completion.
@@ -1187,7 +1196,8 @@ CaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub>
 (iii)The mixtureof Quick lime(CaO) and
 sodium hydroxide is called soda lime.
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.10.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline11.png)
+
 
 
 (iv)It combines with acidic oxides such
@@ -1255,7 +1265,7 @@ Gypsum beds were formed due to the evaporation of water from the massive prehist
 water evaporates, the minerals present in it become concentrated, and crystallise.
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.11.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline12.png)
 
 
 **Properties of Gypsum**
@@ -1272,7 +1282,7 @@ desert terrains.
 • Gypsum is known to have low thermal conductivity, which is the reason why it is used in making drywalls or wallboards. Gypsum is also known as a natural insulator.
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.12.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline13.png)
 
 
 • Alabaster is a variety of gypsum, that is
@@ -1305,7 +1315,7 @@ provides calcium and sulphur, which are essential for the healthy growth of a pl
 • To sum up, gypsum is one of the most abundant minerals that have endless uses and applications. Mining of gypsum is simple and easy, as the mineral occurs in large thick beds near the Earth’s surface. However, large-scale mining of gypsum involves considerable damage to the environment. Gypsum can also be recycled, but not much importance has been given to recycle this mineral due to its abundance.
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.13.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline14.png)
 
 
 **5.6.4 Plaster of paris**
@@ -1332,7 +1342,7 @@ It has a remarkable property of setting with water. On mixing with an adequate q
 3. Employed in dentistry, in ornamental work and for making casts of statues and busts.
 
 
-![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/image5.14.png)
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline15.png)
 
 
 
@@ -1414,6 +1424,14 @@ d) none of these
 
 
 4. Which of the following has the highest tendency to give the reaction
+
+   Aqueous
+
+M<sup>+</sup>(g)--------->M<sup>+</sup>(aq)
+
+       Medium
+       
+                
 
 
 
@@ -1762,5 +1780,5 @@ d) CaNC<sub>2</sub>
 43. Which would you expect to have a higher melting point, magnesium oxide or magnesium fluoride? Explain your reasoning.
 
 
-flow chat to be add...
+![chemistry](/books/chemistry/part-1/alkali-alkaline/alkaline18.png)
 
