@@ -1,5 +1,11 @@
 class Core {
   constructor() {
+    this.locale = document.getElementById("languageBtn").dataset.code;
+
+    if (this.locale === "en") {
+      this.locale = undefined;
+    }
+
     this.handleSecurity();
 
     this.handleModelDialogs();
@@ -84,10 +90,11 @@ class Core {
   }
 
   loadBoards() {
-    fetch("/api/board", {
+    fetch("/api/boards", {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+        "Accept-Language": this.locale,
       },
     })
       .then((response) => {
@@ -146,7 +153,7 @@ class Core {
   }
 
   loadGrades(boardId) {
-    fetch("/api/board/" + boardId + "/grades", {
+    fetch("/api/boards/" + boardId + "/grades", {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
@@ -226,7 +233,7 @@ class Core {
   }
 
   loadSyllabus(boardId, gradeId) {
-    fetch("/api/board/" + boardId + "/grades/" + gradeId + "/subjects", {
+    fetch("/api/boards/" + boardId + "/grades/" + gradeId + "/subjects", {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
