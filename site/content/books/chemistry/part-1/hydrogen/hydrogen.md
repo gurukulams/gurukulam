@@ -492,7 +492,292 @@ is also attractive for rechargeable metal
 hydride battery.
 
 
+![Figure 4.2 Laboratory preparation of hydrogen](/books/chemistry/part-1/Hydrogen/pic5.png)
+
+
+#### 4.5 Compounds of Hydrogen
+
+##### 4.5.1 Water
+
+Water is one of the most abundant
+compounds of hydrogen and our earth’s
+surface contains approximately 70 % of
+ocean which is the major source of water.
+However, sea water contains many dissolved
+salts hence it can not be used directly. Water
+is essential for all living things and our body
+contains about 65% water.
+
+
+![](/books/chemistry/part-1/Hydrogen/pic6.png)
+
+{{< box title=" Do You Know"="objective" >}} 
+
+
+**Ortho-H<sub>2</sub>O and Para-H<sub>2</sub>O**
+
+Water exists in the
+interstellar clouds and icy satellites
+of the solar system. In particular, the
+ortho-to-para ratio (OPR) of water in
+space has recently received attention.
+Like hydrogen, water can also be
+classified into ortho-H<sub>2</sub>O, in which
+the spin directions of the nuclei of
+the hydrogen atoms are parallel, and
+para-H<sub>2</sub>O, in which the directions
+are antiparallel. OPR of H<sub>2</sub> (300K) on
+earth should be 3:1. OPR of H2
+O(50K)
+in interstellar clouds and comets
+should be 2:5:1.
+
+{{< /box >}}
+
+**4.5.2 Physical Properties:**
+
+Water is a colourless and volatile
+liquid. The peculiar properties of water
+in the condensed phases are due to the
+presence of inter molecular hydrogen
+bonding between water molecules.
+Hydrogen bonding is responsible for the
+high melting and boiling points of water.
+Some of the physical parameters of water
+are listed in Table 4.2.
+
+![](/books/chemistry/part-1/Hydrogen/pic7.png)
+
+†
+Unless otherwise stated, all data are at 298 K.
+
+
+**4.5.3 Chemical Properties:**
+
+Water reacts with metals, non-metals and other compounds differently. The most
+reactive metals are the alkali metals. They decompose water even in cold with the evolution of
+hydrogen leaving an alkali solution.
+
+2Na + 2 H<sub></sub>2 O → 2 NaOH + H<sub>2</sub>
+
+The group 2 metals (except beryllium) react in a similar way but less violently. The
+hydroxides are less soluble than those of Group 1.
+
+Ba + 2H<sub>2</sub>O → Ba(OH)<sub>2</sub> + H<sub>2</sub>
+
+Some transition metals react with hot water or steam to form the corresponding oxides.
+For example, steam passed over red hot iron results in the formation of iron oxide with the
+release of hydrogen.
+
+3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub>+ 4H<sub>2</sub>
+
+Lead and copper decompose water only at a white heat. Silver, gold, mercury and
+platinum do not have any effect on water. In the elemental form, the non-metals such as
+carbon, sulphur and phosphorus normally do not react with water. However, as we have seen
+earlier, carbon will react with steam when it is red (or white) hot to give <i>water gas.</i>
+
+On the other hand, the halogens react
+with water to give an acidic solution. For
+example, chlorine forms hydrochloric acid
+and hypo chlorous acid. It is responsible for
+the antibacterial action of chlorine water,
+and for its use as bleach.
+
+Cl<sub>2</sub>+ H<sub>2</sub>O→ HCl + HOCl
+
+Fluorine reacts diff erently to liberate
+oxygen from water.
+
+2F<sub>2</sub> + 2 H<sub>2</sub>O → 4HF + O<sub>2</sub>
+
+In a similar way, compounds of non-
+metals react with water to give acidic or
+alkaline solutions. For example, solutions
+of carbonates are slightly alkaline.
+
+CO<sub>3</sub><sup>-2</sup> + H<sub>2</sub>O → HCO<sub>3</sub><sup>-</sup> + OH<sup>-</sup>
+
+Water is an amphoteric oxide. It has
+the ability to accept as well as donate protons
+and hence it can act as an acid or a base. For
+example, in the reaction with HCl it accepts
+proton where as in the reaction with weak
+base ammonia it donates proton.
+
+NH<sub>3</sub> + H<sub>2</sub>O → NH<sub>4</sub> <sup>+</sup> + OH<suP>-</suP>
+
+HCl + H<sub>2</sub>O → H<sub>3</sub>O<sup>+</sup> + Cl<sup>-</sup>
+
+Water dissolves ionic compounds. In
+addition, it also hydrolyses some covalent
+compounds.
+
+SiCl<sub>4</sub> + 2 H<sub>2</sub>O → SiO<sub>2</sub> + 4 HCl
+
+
+P<sub>4</sub>O<sub>10</sub> + 6 H<sub>2</sub>O → 4 H<sub>3</sub>PO<sub>4</sub>
+
+Many salts crystallized from aqueous
+solutions form hydrated crystals. Th e water
+in the hydrated salts may form co-ordinate
+bond or just present in interstitial positions
+of crystals.
+
+Examples: [Cr(H<sub>6</sub>O)6]Cl<sub>3</sub> – All six water molecules form co-ordinate bond
+
+BaCl<sub>2</sub>.2H<sub>2</sub>O – Both the water molecules are present in interstitial
+positions.
+
+CuSO<sub>4</sub> .5H<sub>2</sub>O – In this compound
+four water molecules form co-ordinate
+bonds while the fi ft h water molecule,
+present outside the co-ordination, can form
+intermolecular hydrogen bond with another
+molecule. [Cu(H<sub>2</sub>O)<sub>4</sub>]SO<sub>4</sub>.H<sub>2</sub>O
+
+![](/books/chemistry/part-1/Hydrogen/pic8.png)
+
+
+#### 4.5.4 Hard and Soft Water:
+
+Hard water contains high amounts of
+mineral ions. Th e most common ions found
+in hard water are the soluble metal cations
+such as magnesium & calcium, though iron,
+aluminium, and manganese may also be
+found in certain areas. Presence of these
+metal salts in the form of bicarbonate,
+chloride and sulphate in water makes water
+‘hard’. When hard water is boiled carbonates
+of magnesium and calcium present in it gets
+precipitated. On the other hand, water free
+from soluble salts of calcium and magnesium
+is called soft water. The hardness of water is
+of two types, viz., temporary hardness and
+permanent hardness.
+
+#### Temporary Hardness and its removal:
+
+Temporary hardness is primarily
+due to the presence of soluble bicarbonates
+of magnesium and calcium. This can be
+removed by boiling the hard water followed
+by filtration. Upon boiling, these salts
+decompose into insoluble carbonate which
+leads to their precipitation. The magnesium
+carbonate thus formed further hydrolysed
+to give insoluble magnesium hydroxide.
+
+Ca(HCO<sub>3</sub>)<sub>2</sub> → CaCO<sub>3</sub> + H<sub>2</sub>O + CO<sub>2</sub>O
+
+Mg(HCO<sub>3</sub>)<sub>2</sub> → MgCO<sub>3</sub>+ H<sub>2</sub>O + CO<sub>2</sub>
+
+MgCO<sub>3</sub> + H<sub>2</sub>O → Mg(OH)<sub>2</sub> + CO<sub>2</sub>
+
+The resulting precipitates can be
+removed by filtration.
+
+Alternatively, we can use Clark’s
+method in which, calculated amount of
+lime is added to hard water containing the
+magnesium and calcium, and the resulting
+carbonates and hydroxides can be filtered-
+off.
+
+Ca(HCO<sub>3</sub>)<sub>2</sub> + Ca(OH )<sub>2</sub> → 2CaCO<sub>3</sub> + 2H<sub>2</sub>O
+
+  Mg (HCO<sub>3</sub>)<sub>2</sub> + 2 Ca(OH )<sub>2</sub>
+
+  2CaCO<sub>3</sub> + Mg(OH)<sub>2</sub> +2 H<sub>2</sub>O
+
+#####  Permanent Hardness:
+
+Permanent hardness of water is due
+to the presence of soluble salts of magnesium
+and calcium in the form of chlorides and
+sulphates in it. It can be removed by adding
+washing soda, which reacts with these metal
+(M = Ca or Mg) chlorides and sulphates in
+hard water to form insoluble carbonates.
+
+MCl<sub>2</sub> + Na<sub>2</sub>CO<sub>3</sub> → MCO<sub>3</sub> + 2 NaCl
+
+MSO<sub>4</sub> + Na<sub>2</sub>CO<sub>3</sub> → MCO<sub>3</sub> + Na<sub>2</sub> SO<sub>4</sub>
+
+In another way to soften the hard
+
+water is by using a process called ion-
+exchange. That is, hardness can be removed
+
+by passing through an ion-exchange bed
+
+like zeolites or column containing ion-
+exchange resin. Zeolites are hydrated
+
+sodium alumino-silicates with a general
+formula, Na<sub>2</sub>O∙Al<sub>2</sub>O<sub>3</sub>∙xSiO<sub>2</sub>∙yH<sub>2</sub>O<br>
+(x = 2 to10, y = 2 to 6). Zeolites have porous structure
+in which the monovalent sodium ions are
+loosely held and can be exchanged with
+hardness producing metal ions (M = Ca<sup>2+</sup> or
+Mg<sup>2+</sup>) in water. The complex structure can
+conveniently be represented as Na<sub>2</sub>
+-Z with sodium as exchangeable cations.
+
+
+Na<sub>2</sub> -Z + M<sub>2</sub>+ → M-Z + 2 Na<sup>+</sup>
+
+When exhausted, the materials can be
+regenerated by treating with aqueous
+sodium chloride. The metal ions (Ca<sup>2+</sup>
+and Mg<sup>2+</sup>) caught in the zeolite (or resin)
+are released and they get replenished with
+sodium ions.
+
+M-Z + 2NaCl → Na<sub>2</sub>-Z + MCl<sub>2</sub>
+
+
+![](/books/chemistry/part-1/Hydrogen/pic9.png)
+
+##### 4.6 Heavy Water:
+
+Heavy water (D<sub>2</sub>O) is the oxide
+of heavy hydrogen. One part of heavy
+water is present in 5000 parts of ordinary
+water. It is mainly obtained as the product
+of electrolysis of water, as D<sub>2</sub>O does not
+undergo electrolysis as easily as H<sub>2</sub>O.
+
+{{< box title="<b>Hard water produces
+less foam with
+detergents. Do You Know why??</b>"="objective" >}} 
 
 
 
+Th e cleaning capacity of soap is reduced
+when used in hard water. Soaps are
+sodium or potassium salts of long chain
+fatty acids (e.g., coconut oil). When
+soap is added to hard water, the divalent
+magnesium and calcium ions present in
+hard water react with soap. Th e sodium
+salts present in soaps are converted to
+their corresponding magnesium and
+calcium salts which are precipitated as
+scum/precipitate.
+
+M<sup>2+</sup> + 2RCOONa → (RCOO)<sub>2</sub>
+M + 2Na<sup>+</sup>
+
+M = Ca or Mg
+
+R = C<sub>17</sub>H<sub>35</sub>
+
+{{< /box >}}
+
+##### 4.6.1 Chemical properties of heavy water:
+
+When compounds containing
+hydrogen are treated with D2O, hydrogen
+undergoes an exchange for deuterium
 
