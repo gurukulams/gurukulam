@@ -212,3 +212,211 @@ from an ice cold water bath to a boiling water bath, the temperature of the gas 
 The plot of the volume of the gas
 against its temperature at a given pressure is shown in the figure 6.5. From the graph it is clear that the volume of the gas linearly increases with temperature at a given pressure. Such lines are called isobars. It can be expressed by the following straight line equation.
 
+V = mT + C 
+
+where T is the temperature in degree Celsius and m & C are constants.
+
+When T= 0 <sup>o</sup>C the volume becomes V<sub>0</sub>
+. Hence, V<sub>0</sub>= C and slope of the straight
+line m is equal to ΔV / ΔT. Therefore the above equation can be written in the following form.
+
+
+V = [∆V/ΔT]T + V<sub>0</sub>
+
+(n, P are constant) Divide the equation 6.7 by V<sub>0</sub>
+
+
+V/V<sub>0</sub> = 1/V<sub>0</sub>[∆V/ΔT]T + 1
+
+Charles and Gay Lussac found
+that under constant pressure, the relative increase in volume per degree increase in temperature is same for all gases. The relative increase in volume per <sup>0</sup> C (α)is 
+equal to 1/V<sub>0</sub>[∆V/ΔT]T + 1
+
+Therefore
+
+V/V<sub>0</sub>=αT+1
+
+V=V<sub>0</sub>(αT+1) ------ (6.9)
+
+Charles found that the coefficient
+of expansion is approximately equal to 1/273. It means that at constant pressure for a given mass, for each degree rise in temperature, all gases expand by 1/273 of their volume at 0 <sup>0</sup>C
+
+
+![chemistry](/books/chemistry/part-1/Gaseousstate/gas8.png)
+
+
+If we extrapolate the straight line in the figure 6.5 beyond the experimental measurements, the straight line intersects the temperature axis (x-axis) at -273 <sup>0</sup>C. This shows that the volume of the gas becomes zero at -273 <sup>0</sup> C, more precisely this temperature is -273.15 <sup>0</sup>C. Beyond this temperature the gas would have a negative volume which is physically impossible. For this reason, this temperature was defined as absolute zero by Kelvin and he proposed a new temperature scale with absolute zero as starting point which is now called Kelvin scale. The only difference between the Kelvin scale of temperature and Celsius scale of temperature is that the zero position is shifted. The boiling and freezing point of water in both scales are given below.
+
+
+<table>
+  <tr>
+    <th></th>
+    <th>Kelvin scale</th>
+    <th>Celcious scale</th>
+  </tr>
+  <tr>
+    <td>Absolute zero</td>
+    <td>0 K</td>
+    <td>-273.15<sup>0</sup>C</td>
+  </tr>
+  <tr>
+    <td>freezing point of water</td>
+    <td>273.15K</td>
+    <td>0<sup>0</sup>C</td>
+  </tr>
+  <tr>
+    <td>Boiling point of water</td>
+    <td>373.15K</td>
+    <td>100<sup>0</sup>C</td>
+  </tr>
+</table>
+
+Example:
+In figure 6.6 let us find the missingc parameters (volume in 6.6 (b) and temperature in 6.6(c))
+
+
+![chemistry](/books/chemistry/part-1/Gaseousstate/gas9.png)
+
+Solution:
+
+According to Charles law,
+
+V<sub>1</sub>/T<sub>1</sub>=V<sub>2</sub>/T<sub>2</sub>=V<sub>3</sub>/T<sub>3</sub>
+
+0.3dm<sup>3</sup>/200K=V<sub>2</sub>/300K=0.15dm<sup>3</sup>/T<sub>3</sub>
+
+
+V<sub>2</sub>/300K=0.3dm<sup>3</sup>/200K
+
+V<sub>2</sub>=300Kx0.3dm<sup>3</sup>/200K
+
+V<sub>2</sub>=o.45dm<sup>3</sup>
+
+0.15dm<sup>3</sup>/T<sub>3</sub>=0.3dm<sup>3</sup>/200K
+
+T<sub>3</sub>=0.15dm<sup>3</sup>x200K/0.3dm<sup>3</sup>
+
+T<sub>3</sub>=100K
+
+Evaluate Yourself
+3. A sample of gas has a volume of 3.8 dm<sub>3</sub>at an unknown temperature. When the sample is submerged in ice water at 0°C, its volume gets reduced to 2.27 dm<sub>3</sub>.What is its initial temperature?
+
+**6.2.3 Gay-Lussac’s Law (Pressure-temperature relationship)**
+
+Joseph Gay-Lussac stated that, at
+constant volume the pressure of a fixed mass of a gas is directly proportional to temperature.
+
+  P α T
+
+
+  or
+
+P/T = Constant k
+
+If P<sub>1</sub> and P<sub>2</sub> are the pressures at temperatures T<sub>1</sub> and T<sub>2</sub> , respectively, then from Gay Lussac’s law
+
+P<sub>1</sub>/T<sub>1</sub>= P<sub>2</sub>/T<sub>2</sub>
+
+
+**Activity -1*
+
+The table below contains the values of pressure measured at different temperatures for 1 mole of an ideal gas. Plot the values in a graph and verify the Gay Lussac’s law. [Lines in the pressure vs temperature graph are known as iso chores (constant volume) of a gas]
+
+<table><td></td>
+  <tr>
+    <td>Temperature
+(in deg
+celcius)</td>
+    <td>32</td>
+    <td>69</td>
+    <td>94</td>
+    <td>130</td>
+    <td>154</td>
+    <td>191</td>
+  </tr>
+  <tr>
+    <td>Pressure
+in 50 L
+container
+(atm)</td>
+    <td>0.51</td>
+    <td>0.56</td>
+    <td>0.6</td>
+    <td>0.66</td>
+    <td>0.7</td>
+    <td>0.76</td>
+  </tr>
+  <tr>
+    <td>Pressure
+in 75 L
+container
+(atm)</td>
+    <td>0.34</td>
+    <td>0.37</td>
+    <td>0.4</td>
+    <td>0.44</td>
+    <td>0.47</td>
+    <td>0.51</td>
+  </tr>
+  <tr>
+</table>
+
+6.2.4 Avogadro’s Hypothesis
+Avogadro hypothesised that equal
+volumes of all gases under the same conditions of temperature and pressure contain equal number of molecules. The mathematical form of Avogadro’s hypothesis may be expressed as
+
+V α n
+
+v<sub>1</sub>/n<sub>1</sub>=v<sub>2</sub>/n<sub>2</sub>=constant -------- (6.10)
+
+where V1<sub>1</sub> & n1<sub>1</sub> are the volume and number
+of moles of a gas and V<sub>2</sub>& n<sub>2</sub> are a different set of values of volume and number of moles of the same gas at same temperature and pressure.
+
+**Evaluate Yourself*
+
+
+4. An athlete in a kinesiology research study has his lung volume of 7.05 dm<sup>3</sup>during a deep inhalation. At this volume the lungs contain 0.312 mole of air. During exhalation the volume of his lung decreases to 2.35 dm<sup>3</sup> . How many moles of air does the athlete exhale during exhalation? (assume pressure and temperature remain constant)
+
+
+**6.3. Ideal gas equation**
+
+The gaseous state is described
+completely using the following four variables T, P, V and n and their relationships were governed by the gas laws studied so far.
+
+
+Boyle’s law
+V/P α 1
+
+Charles law V α T
+
+Avogadro’s law V α n
+
+We can combine these equations
+into the following general equation that describes the physical behaviour of all gases.
+
+V α nT/P
+
+V α nRT/P
+
+where, R is the proportionality
+constant called universal gas constant. The above equation can berearranged to give the ideal gas equation
+
+PV = nRT. ------ (6.11)
+
+We already know that pressure is
+expressed in many different units (Table 6.1) hence it is important to know the values of gas constant R in different units as well.
+
+We can calculate R using the
+equation,
+
+R= PV/nT
+
+For Conditions in which P is 1
+atm., volume 22.414 dm<sup>3</sup>. for 1 mole at273.15 K.
+
+R = 1atm. x 22.414dm<sup>3</sup>/1 mol. x 273.15K
+
+= 0.0821 dm<sup>3</sup> atm. mol<sup>-1</sup> K<sup>-1</sup>
+
+Under standard conditions (STP)
+Where P = 1 bar (10<sup>5</sup> pascal), V= 22.71 × 10<sup>-3</sup> m<sup>3</sup> for 1 mole of a gas at 273.15 K
