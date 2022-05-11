@@ -982,6 +982,7 @@ and metal cations (Mn<sup>+</sup>).
 2 Ca + 2H<sub>2</sub> → 2 CaH<sub>2</sub>
 
 **Covalent (Molecular) hydrides:**
+
 They are compounds in which hydrogen
 is attached to another element by sharing
 of electrons. The most common examples
@@ -999,6 +1000,7 @@ liquids.
 
 
 **Metallic (Interstitial) hydrides:**
+
 Metallic hydrides are usually obtained by
 hydrogenation of metals and alloys in which
 hydrogen occupies the interstitial sites
@@ -1055,6 +1057,7 @@ Intramolecular hydrogen bonds are
 those which occur within a single molecule.
 
 ![](/books/chemistry/part-1/Hydrogen/pic12.png)
+
 
 
 
