@@ -633,7 +633,9 @@ four water molecules form co-ordinate
 bonds while the fi ft h water molecule,
 present outside the co-ordination, can form
 intermolecular hydrogen bond with another
-molecule. [Cu(H<sub>2</sub>O)<sub>4</sub>]SO<sub>4</sub>.H<sub>2</sub>O
+molecule. 
+
+[Cu(H<sub>2</sub>O)<sub>4</sub>]SO<sub>4</sub>.H<sub>2</sub>O
 
 ![](/books/chemistry/part-1/Hydrogen/pic8.png)
 
@@ -748,13 +750,10 @@ water. It is mainly obtained as the product
 of electrolysis of water, as D<sub>2</sub>O does not
 undergo electrolysis as easily as H<sub>2</sub>O.
 
-{{< box title="<b>Hard water produces
-less foam with
-detergents. Do You Know why??</b>"="objective" >}} 
+{{< box title=**"Hard water produces  less foam with detergents. Do You Know why??**"="objective" >}} 
 
 
-
-Th e cleaning capacity of soap is reduced
+The cleaning capacity of soap is reduced
 when used in hard water. Soaps are
 sodium or potassium salts of long chain
 fatty acids (e.g., coconut oil). When
@@ -766,8 +765,7 @@ their corresponding magnesium and
 calcium salts which are precipitated as
 scum/precipitate.
 
-M<sup>2+</sup> + 2RCOONa → (RCOO)<sub>2</sub>
-M + 2Na<sup>+</sup>
+M<sup>2+</sup> + 2RCOONa → (RCOO)<sub>2</sub>M + 2Na<sup>+</sup>
 
 M = Ca or Mg
 
@@ -775,9 +773,289 @@ R = C<sub>17</sub>H<sub>35</sub>
 
 {{< /box >}}
 
-##### 4.6.1 Chemical properties of heavy water:
+#### 4.6.1 Chemical properties of heavy water:
 
 When compounds containing
 hydrogen are treated with D2O, hydrogen
 undergoes an exchange for deuterium
+
+2NaOH + D<sub>2</sub>O → 2NaOD + HOD
+
+HCl + D<sub>2</sub>O → DCl + HOD
+
+NH<sub>4</sub>Cl + 4D<sub>2</sub>O → ND<sub>4</sub>Cl + 4HOD
+
+These exchange reactions are
+useful in determining the number of ionic
+hydrogens present in a given compound.
+
+For example, when D2
+
+O is treated with of
+hypo-phosphorus acid only one hydrogen
+atom is exchanged with deuterium. It
+indicates that, it is a monobasic acid.
+
+H<sub>3</sub>PO<sub>2</sub>+ D<sub>2</sub>O → H<sub>2</sub>DPO<sub>2</sub>+ HDO
+
+It is also used to prepare some deuterium
+compounds:
+
+Al<sub>4</sub>C<sub>3</sub>+ 12D<sub>2</sub>O → 4Al(OD)<sub>3</sub>+ 3CD<sub>4</sub>
+
+CaC<sub>2</sub> + 2 D<sub>2</sub>O → Ca(OD)<sub>2</sub>+ C<sub>2</sub>D<sub>2</sub>
+
+Mg<sub>3</sub>N<sub>2</sub>N2  + 6D<sub>2</sub>O   →   3Mg(OD)<sub>2</sub> + 2 ND<sub>3</sub>
+
+Ca<sub>3</sub>P<sub>2</sub> + 6D<sub>2</sub>O  →  3Ca(OD)<sub>2</sub> + 2PD<sub>3</sub>
+
+#### 4.6.2 Uses of heavy water:
+
+1. Heavy water is widely used as
+moderator in nuclear reactors as
+it can lower the energies of fast
+neutrons
+
+2. It is commonly used as a tracer to
+study organic reaction mechanisms
+and mechanism of metabolic
+reactions
+
+3. It is also used as a coolant in nuclear
+reactors as it absorbs the heat
+generated.
+
+#### 4.7 Hydrogen Peroxide:
+
+Hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) is one
+of the most important peroxides. It can be
+prepared by treating metal peroxide with
+dilute acid.
+
+BaO<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + H<sub>2</sub>O<sub>2</sub>
+
+
+
+Na<sub>2</sub>O<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → Na<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O<sub>2</sub>
+
+On an industrial scale, hydrogen
+peroxide is now prepared exclusively by
+autoxidation of 2-alkyl anthraquinol.
+
+![](/books/chemistry/part-1/Hydrogen/pic10.png)
+
+
+#### 4.7.1 Physical properties:
+
+Pure hydrogen peroxide is almost a
+colorless liquid (pale blue), less volatile and
+more viscous than water.
+
+A 30 % solution of hydrogen peroxide
+is marketed as ‘100-volume’ hydrogen
+peroxide indicating that at S.T.P., 100 ml of
+oxygen is liberated by 1 ml of this solution
+on heating.
+
+
+#### 4.7.2 Chemical properties:
+
+Hydrogen peroxide is highly unstable
+and the aqueous solution spontaneously
+disproportionates to give oxygen and
+water. The reaction is, however, slow but
+is explosive when catalyzed by metal. If it
+is stored in glass container, it dissolves the
+alkali metals from the glass, which catalyzes
+the disproportionation reaction. For this
+reason, H<sub>2</sub>O<sub>2</sub>
+solutions are stored in plastic bottles.
+
+H<sub>2</sub>O<sub>2</sub> → H<sub>2</sub>O +  1⁄2 O<sub>2</sub>
+
+Hydrogen peroxide can act both as
+an oxidizing agent and a reducing agent.
+Oxidation is usually performed in acidic
+medium while the reduction reactions are
+performed in basic medium
+
+**In acidic conditions:**
+
+H<sub>2</sub>O<sub>2</sub>+ 2 H<sup>+</sup> +2 e<sup>-</sup> → 2 H<sub>2</sub>O (E0
+= + 1.77 V)
+
+
+For example
+
+2FeSO<sub>4</sub>O + +H<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O<sub>2</sub> → Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + 2H<sub>2</sub>O
+
+In basic conditions:
+
+HO<sub>2</sub><sup>-</sup> + OH<sup>-</sup> → O<sub>2</sub>+ H<sub>2</sub>O + 2 e<sup>-</sup>
+
+(E<sup>0</sup>= + 0.08 V)
+
+For Example,
+
+2KMnO<sub>4</sub>(aq)+ 3H<sub>2</sub>O<sub>2</sub> (aq)
+
+2MnO<sub>4</sub> + 2 KOH + 2 H<sub>2</sub>O +3O<sub>2</sub> (g)
+
+#### 4.7.3 Uses of hydrogen peroxide:
+
+The oxidizing ability of hydrogen
+peroxide and the harmless nature of its
+products, i.e., water and oxygen, lead to
+its many applications. It is used in water
+treatment to oxidize pollutants, as a mild
+antiseptic, and as bleach in textile, paper
+and hair-care industry.
+Hydrogen peroxide is used to restore
+the white colour of the old paintings which
+was lost due to the reaction of hydrogen
+sulphide in air with the white pigment
+Pb<sub>3</sub>(OH)<sub>2</sub>(CO<sub>3</sub>)<sub>2</sub>
+to form black colored lead
+sulphide. Hydrogen peroxide oxidises black
+coloured lead sulphide to white coloured
+lead sulphate, there by restoring the colour.
+
+PbS + 4H<sub>2</sub>O<sub>2</sub> → PbSO<sub>4</sub> + 4 H<sub>2</sub>O
+
+#### 4.7.4 Structure of hydrogen peroxide:
+
+Both in gas-phase and solid-phase,
+the molecule adopts a skew conformation
+due to repulsive interaction of the OH bonds
+with lone-pairs of electrons on each oxygen
+atom. Indeed, it is the smallest molecule
+known to show hindered rotation about a
+single bond.
+
+![](/books/chemistry/part-1/Hydrogen/pic11.png)
+
+
+H<sub>2</sub>O<sub>2</sub> has a non-planar structure.
+The molecular dimensions in the gas phase
+and solid phase differ as shown in figure
+4.5. Structurally, H<sub>2</sub>O<sub>2</sub> is represented by the
+dihydroxyl formula in which the two OH-
+groups do not lie in the same plane. One
+way of explaining the shape of hydrogen
+peroxide is that the hydrogen atoms would
+lie on the pages of a partly opened book,
+and the oxygen atoms along the spine. In the
+solid phase of molecule, the dihedral angle
+reduces to 90.2<sup>o</sup>
+due to hydrogen bonding
+and the O-O-H angle expands from 94.8<sup>o</sup>
+to 101.9<sup>o</sup>
+
+#### 4.8 Hydrides
+
+Hydrogen forms binary hydrides with
+many electropositive elements including
+metals and non-metals. It also forms ternary
+hydrides with two metals. E.g., LiBH<sub>4</sub>
+and LiAlH<sub>4</sub>
+. The hydrides are classified as ionic,
+covalent and metallic hydrides according
+to the nature of bonding. Hydrides formed
+with elements having lower electronegativity
+than hydrogen are often ionic, whereas with
+elements having higher electronegativity
+than hydrogen form covalent hydrides.
+
+Ionic (Saline) hydrides: These are
+hydrides composed of an electropositive
+metal, generally, an alkali or alkaline-earth
+metal, except beryllium and magnesium,
+formed by transfer of electrons from metal
+to hydrogen atoms. They can be prepared
+by the reaction of elements at about 400°
+C. These are salt-like, high-melting, white
+crystalline solids having hydride ions (H<sup>-</sup>)
+and metal cations (Mn<sup>+</sup>).
+
+2 Li + H<sub>2</sub> → 2 LiH
+
+2 Ca + 2H<sub>2</sub> → 2 CaH<sub>2</sub>
+
+**Covalent (Molecular) hydrides:**
+They are compounds in which hydrogen
+is attached to another element by sharing
+of electrons. The most common examples
+of covalent hydrides of non-metals are
+methane, ammonia, water and hydrogen
+chloride. Covalent hydrides are further
+divided into three categories, viz., electron
+precise (CH<sub>4</sub> , C<sub>2</sub>H<sub>6</sub> ,SiH<sub>4</sub>, GeH<sub>4</sub>), electron-
+deficient (B<sub>2</sub>H<sub>6</sub>) and electron-rich hydrides
+(NH<sub>3</sub>, H<sub>2</sub>O). Since most of the covalent
+hydrides consist of discrete, small molecules
+that have relatively weak intermolecular
+forces, they are generally gases or volatile
+liquids.
+
+
+**Metallic (Interstitial) hydrides:**
+Metallic hydrides are usually obtained by
+hydrogenation of metals and alloys in which
+hydrogen occupies the interstitial sites
+(voids). Hence, they are called interstitial
+hydrides; the hydrides show properties
+similar to parent metals and hence they
+are also known as metallic hydrides. Most
+of the hydrides are non-stoichiometric
+with variable composition (TiH1.5-1.8 and
+PdH0.6-0.8), some are relatively light,
+inexpensive and thermally unstable which
+make them useful for hydrogen storage
+applications. Electropositive metals and
+some other metals form hydrides with the
+stoichiometry MH or sometimes MH2
+(M = Ti, Zr, Hf, V, Zn).
+
+**4.9 Hydrogen Bonding**
+
+Hydrogen bonding is one of the most
+important natural phenomena occurring
+in chemical and biological sciences.
+These interactions play a major role in the
+structure of proteins and DNA. When a
+hydrogen atom (H) is covalently bonded
+to a highly electronegative atom such as
+fluorine (F) or oxygen (O) or nitrogen (N),
+the bond is polarized. Due to this effect, the
+polarized hydrogen atom is able to form a
+weak electrostatic interaction with another
+electronegative atom present in the vicinity.
+This interaction is called as a hydrogen bond
+(20-50 kJ mol<sup>-1</sup>) and is denoted by dotted
+lines (...).
+
+It is weaker than covalent bond (>
+100 kJ mol<sup>-1</sup>) but stronger than the van der
+Waals interaction (< 20 kJ mol<sup>-1</sup>). Hydrogen
+bond has profound effect on various physical
+properties including vapour pressure (H<sub>2</sub>O
+and H<sub>2</sub>S), boiling point, miscibility of
+liquids (H<sub>2</sub>O and C<sub>2</sub>H<sub>5</sub>
+OH), surface tension,
+densities, viscosity, heat of vaporization and
+fusion, etc. Hydrogen bonds can occur
+within a molecule (<i>intramolecular hydrogen
+bonding</i>) and between two molecules of the
+same type or different type (<i>intermolecular
+hydrogen bonding)</i>.
+
+**Intramolecular Hydrogen Bond**
+
+Intramolecular hydrogen bonds are
+those which occur within a single molecule.
+
+![](/books/chemistry/part-1/Hydrogen/pic12.png)
+
+
+
 
