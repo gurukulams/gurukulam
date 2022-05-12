@@ -1059,8 +1059,297 @@ those which occur within a single molecule.
 ![](/books/chemistry/part-1/Hydrogen/pic12.png)
 
 
+**Intermolecular hydrogen bond**
+
+Intermolecular hydrogen bonds occur
+between two separate molecules. They can
+occur between any numbers of like or unlike
+molecules as long as hydrogen donors and
+acceptors are present in positions which
+enable the hydrogen bonding interactions. For
+example, intermolecular hydrogen bonds can
+occur between ammonia molecule themselves
+or between water molecules themselves or
+between ammonia and water.
+
+Water molecules form strong
+hydrogen bonds with one another. For
+example, each water molecule is linked to
+four others through hydrogen bonds. The
+shorter distances (100 pm) correspond to
+covalent bonds (solid lines), and the longer
+distances (180 pm) correspond to hydrogen
+bonds (dotted lines).
+
+In ice, each atom is surrounded
+tetrahedrally by four water molecules through
+hydrogen bonds. That is, the presence of two
+hydrogen atoms and two lone pairs of electron
+on oxygen atoms in each water molecule allows
+formation of a three-dimensional structure.
+This arrangement creates an open structure,
+which accounts for the lower density of ice
+compared with water at 0°C. While in liquid
+water, unlike ice where hydrogen bonding
+occurs over a long-range, the strong hydrogen
+bonding prevails only in a short range and
+therefore the denser packing.
 
 
+![](/books/chemistry/part-1/Hydrogen/pic13.png)
 
 
+![Figure 4.7 (b) Hydrogen bonding in water](/books/chemistry/part-1/Hydrogen/pic14.png)
+
+Hydrogen bond occurs not only in simple molecules but also in complex biomolecules
+such as proteins, and they are crucial for biological processes. For example, hydrogen bonds
+play an important role in the structure of deoxyribonucleic acid (DNA), since they hold
+together the two helical nucleic acid chains (strands).
+
+
+![Figure 4.8 Hydrogen bonding in DNA molecules](/books/chemistry/part-1/Hydrogen/pic15.png)
+
+
+**Significant developments related to hydrogen**
+
+![Significant developments related to hydrogen](/books/chemistry/part-1/Hydrogen/pic16.png)
+
+
+![Significant developments related to hydrogen](/books/chemistry/part-1/Hydrogen/pic17.png)
+
+
+#### SUMMARY
+
+Hydrogen is the simplest atom which
+contains one electron and one proton. It has
+three isotopes namely protium, deuterium
+and tritium. The hydrogen exists as diatomic
+gaseous molecule. The molecule has two
+
+nuclear spin isomers namely ortho and para-
+hydrogen. Elemental hydrogen having an
+electronic configuration of 1s<sup>1</sup>
+, has properties similar to alkali metals as well as halogens.
+Based on its electronic configuration and
+existence of the +1 oxidation state in most of
+the compounds it is placed in group 1 along
+with alkali metals.
+
+
+Hydrogen is prepared by the action
+of metal with mineral acids in laboratory. In
+industrial scale, hydrogen is produced by the
+steam-reforming of hydrocarbons. Deuterium
+can be synthesized by the electrolysis of
+heavy water, while the radioactive tritium
+is prepared by the nuclear transmutation
+reaction of lithium with slow neutrons.
+
+
+Hydrogen reacts with nonmetals
+like oxygen and halogens to form water and
+hydrogen halides respectively. It reacts with
+metals to form metal hydrides. It acts as
+good reducing agent. Deuterium undergoes
+exchange reactions with hydrogen. Tritium
+with a half-life period of 12.3 years and emits
+β-particles spontaneously. Hydrogen has
+many uses including in the preparation of
+ammonia, methanol, and hydrogenation of
+oils and reduction of metal oxides. It can also
+be used as fuel.
+
+
+Water is an important amphoteric
+oxide of hydrogen and used a universal
+solvent. It hydrolyses oxides and forms metal
+hydroxides with metals such as sodium and
+barium. Due to the presence of soluble salts
+of calcium and magnesium in water, the
+water shows hardness. Clark's method can
+be used to remove temporary hardness. Like
+water, another important oxide is hydrogen
+peroxide. It is used as a mild antiseptic and
+as a bleaching agent in textile and paper
+industries. Hydrogen bound to strong
+electronegative atoms such as fluorine,
+nitrogen or oxygen atoms, forms a peculiar
+type of electrostatic interactions with another
+strong electronegative atom. This is called
+hydrogen bond. This is one of important
+interactions observed in many biological
+molecules such as proteins, DNA etc...
+
+#### EVALUATION
+
+**I. Choose the best answer**
+
+1. Which of the following statements about hydrogen is incorrect ? (NEET - 2016)
+a) Hydrogen ion, H<sub>3</sub>O<sup>-</sup> exists freely in solution.
+
+b) Dihydrogen acts as a reducing agent.
+
+c) Hydrogen has three isotopes of which tritium is the most common.
+
+d) Hydrogen never acts as cation in ionic salts.
+
+
+2. Water gas is
+
+a) H<sub>2</sub>O(g) 
+
+b) CO + H<sub>2</sub>O
+
+c) CO + H<sub>2</sub>
+
+d) CO + N<sub>2</sub>
+
+
+3. Which one of the following statements is incorrect with regard to ortho and para
+dihydrogen ?
+
+a) They are nuclear spin isomers
+
+b) Ortho isomer has zero nuclear spin whereas the para isomer has one nuclear spin
+
+c) The para isomer is favoured at low temperatures
+
+d) The thermal conductivity of the para isomer is 50% greater than that of the ortho
+isomer.
+
+4. Ionic hydrides are formed by
+
+a) halogens 
+
+b) chalcogens 
+
+c) inert gases 
+
+d) group one elements
+
+
+5. Tritium nucleus contains
+
+a) 1p + 0 n 
+
+b) 2 p + 1n 
+
+c) 1p + 2n 
+
+d) none of these
+
+6. Non-stoichiometric hydrides are formed by
+
+a) palladium, vanadium 
+
+b) carbon, nickel
+
+c) manganese, lithium 
+
+d) nitrogen, chlorine
+
+7. Assertion : Permanent hardness of water is removed by treatment with washing soda.
+
+Reason : Washing soda reacts with soluble calcium and magnesium chlorides and
+sulphates in hard water to form insoluble carbonates
+
+a) Both assertion and reason are true and reason is the correct explanation of assertion.
+
+b) Both assertion and reason are true but reason is not the correct explanation of
+assertion.
+
+c) Assertion is true but reason is false
+
+d) Both assertion and reason are false
+
+8. If a body of a fish contains 1.2 g hydrogen in its total body mass, if all the hydrogen is
+replaced with deuterium then the increase in body weight of the fish will be
+
+a) 1.2 g 
+
+b) 2.4 g 
+
+c) 3.6 g 
+
+d) 4 8. g
+
+9. The hardness of water can be determined by volumetrically using the reagent
+
+a) sodium thio sulphate 
+
+b) potassium permanganate
+
+c) hydrogen peroxide 
+
+d) EDTA
+
+
+10. The cause of permanent hardness of water is due to
+
+a) Ca(HCO<sub>3</sub>)<sub>2</sub>
+
+b) Mg(HCO<sub>3</sub>)<sub>2</sub> 
+
+c) CaCl<sub>2</sub>
+
+d) MgCO<sub>3</sub>
+
+
+11. Zeolite used to soften hardness of water is, hydrated
+
+a) Sodium aluminium silicate 
+
+b) Calcium aluminium silicate
+
+c) Zinc aluminium borate 
+
+d) Lithium aluminium hydride
+
+12. A commercial sample of hydrogen peroxide marked as 100 volume H<sub>2</sub>O<sub>2</sub>, it means that
+
+a) 1 ml of H<sub>2</sub>O<sub>2</sub> will give 100 ml O<sub>2</sub>
+at STP
+
+b) 1 L of H<sub>2</sub>O<sub>2</sub>
+will give 100 ml O<sub>2</sub> at STP
+
+c) 1 L of H<sub>2</sub>O<sub>2</sub>
+will give 22.4 L O<sub>2</sub>
+
+d) 1 ml of H<sub>2</sub>O<sub>2</sub>
+will give 1 mole of O<sub>2</sub>
+at STP
+
+
+13. When hydrogen peroxide is shaken with an acidified solution of potassium dichromate
+in presence of ether, the ethereal layer turns blue due to the formation of
+
+a) Cr<sub>2</sub>O<sub>3</sub>
+
+b) CrO<sub>4</sub>2<sup>-</sup> 
+
+c) CrO(O<sub>2</sub>)<sub>2</sub>
+
+d) none of these
+
+15. Volume strength of 1.5 N H<sub>2</sub>O<sub>2</sub>
+is
+
+a) 1.5 
+
+b) 4.5 
+
+c) 16.8 
+
+d) 8.4
+
+16. The hybridisation of oxygen atom is H<sub>2</sub>O and H<sub>2</sub> O<sub>2</sub> are, respectively
+
+a) sp and sp<sup>3</sup>
+
+b) sp and sp 
+
+c) sp and sp<sup>2</sup>
+
+d) sp<sup>3</sup>  and sp<sup>3</sup>
 
