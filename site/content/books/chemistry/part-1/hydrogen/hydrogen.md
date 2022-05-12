@@ -1353,3 +1353,140 @@ c) sp and sp<sup>2</sup>
 
 d) sp<sup>3</sup>  and sp<sup>3</sup>
 
+
+17. The reaction H<sub>3</sub>PO<sub>2</sub> + D<sub>2</sub>O → H2
+DPO<sub>2</sub>
++ HDO indicates that hypo-phosphorus acid is
+
+a) tribasic acid 
+
+b) dibasic acid 
+
+c) mono basic acid 
+
+d) none of these
+
+18. In solid ice, oxygen atom is surrounded
+
+a) tetrahedrally by 4 hydrogen atoms
+
+b) octahedrally by 2 oxygen and 4 hydrogen atoms
+
+c) tetrahedrally by 2 hydrogen and 2 oxygen atoms
+
+d) octahedrally by 6 hydrogen atoms
+
+19. The type of H-bonding present in ortho nitro phenol and p-nitro phenol are respectively
+
+a) inter molecular H-bonding and intra molecular H-bonding
+
+b) intra molecular H-bonding and inter molecular H-bonding
+
+c) intra molecular H - bonding and no H - bonding
+
+d) intra molecular H - bonding and intra molecular H - bonding
+
+20. Heavy water is used as
+a) moderator in nuclear reactions 
+
+b) coolant in nuclear reactions
+
+c) both (a) and (b) 
+
+d) none of these
+
+21. Water is a
+
+a) basic oxide 
+
+b) acidic oxide
+
+c) amphoteric oxide 
+
+d) none of these
+
+**II. Write brief answer to the following questions:**
+
+22. Explain why hydrogen is not placed with the halogen in the periodic table.
+
+23. Discuss the three types of Covalent hydrides.
+
+
+24. Predict which of the following hydrides is a gas on a solid (a) HCl (b) NaH. Give your
+reason.
+
+25. Write the expected formulas for the hydrides of 4th period elements. What is the
+trend in the formulas? In what way the first two members of the series different from
+the others ?
+
+
+26. Write chemical equation for the following reactions.
+
+i) reaction of hydrogen with tungsten (VI) oxide on heating.
+
+ii) hydrogen gas and chlorine gas.
+
+27. Complete the following chemical reactions and classify them in to (a) hydrolysis
+(b) redox (c) hydration reactions.
+
+
+i) KMnO<sub>4</sub>+ H<sub>2</sub>O<sub>2</sub> →
+
+ii) CrCl<sub>3</sub>+ H<sub>2</sub>O →
+
+
+iii) CaO + H<sub>2</sub>O →
+
+iii) CaO + H2
+O →
+
+28. Hydrogen peroxide can function as an oxidising agent as well as reducing agent.
+substantiate this statement with suitable examples.
+
+29. Do you think that heavy water can be used for drinking purposes ?
+
+30. What is water-gas shift reaction ?
+
+31. Justify the position of hydrogen in the periodic table ?
+
+32. What are isotopes? Write the names of isotopes of hydrogen.
+
+33. Give the uses of heavy water.
+
+34. Explain the exchange reactions of deuterium.
+
+35. How do you convert para hydrogen into ortho hydrogen ?
+
+36. Mention the uses of deuterium.
+
+37. Explain preparation of hydrogen using electrolysis.
+
+38. A group-1 metal (A) which is present in common salt reacts with (B) to give compound (C)
+in which hydrogen is present in –1 oxidation state. (B) on reaction with a gas (C) to give
+universal solvent (D). The compound (D) on reacts with (A) to give (E), a strong base.
+Identify A, B, C, D and E. Explain the reactions.
+
+39. An isotope of hydrogen (A) reacts with diatomic molecule of element which occupies
+group number 16 and period number 2 to give compound (B) is used as a moderator in nuclear reaction.(A) adds on to a compound (C), which has the molecular formula C<sub>3</sub>H<sub>6</sub>
+to give (D). Identify A, B, C and D.
+
+
+40. NH<sub>3</sub> has exceptionally high melting point and boiling point as compared to those of the
+hydrides of the remaining element of group 15 - Explain.
+
+
+41. Why interstitial hydrides have a lower density than the parent metal.
+
+42. How do you expect the metallic hydrides to be useful for hydrogen storage ?
+
+
+43. Arrange NH<sub>3</sub>, H<sub>2</sub>O and HF in the order of increasing magnitude of hydrogen bonding
+and explain the basis for your arrangement.
+
+
+44. Compare the structures of H<sub>2</sub>O and H<sub>2</sub>
+O<sub>2</sub>.
+
+
+
+![](/books/chemistry/part-1/Hydrogen/pic18.png)
