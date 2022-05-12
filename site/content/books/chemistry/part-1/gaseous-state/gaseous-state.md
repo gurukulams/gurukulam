@@ -420,3 +420,349 @@ R = 1atm. x 22.414dm<sup>3</sup>/1 mol. x 273.15K
 
 Under standard conditions (STP)
 Where P = 1 bar (10<sup>5</sup> pascal), V= 22.71 × 10<sup>-3</sup> m<sup>3</sup> for 1 mole of a gas at 273.15 K
+
+
+R=10<sup>5</sup>pa x 22.17x10<sup>-3</sup> m<sup>3</sup>/1 mol.x 273.15K
+
+
+= 8.314 Pa m<sup>3</sup>
+K<sup>-1</sup> mol<sup>-1</sup>
+
+= 8.314 × 10<sup>-5</sup> bar m<sup>3</sup>
+K<sup>-1</sup> mol<sup>-1</sup>
+
+= 8.314 × 10<sup>-2</sup> bar dm<sup>3</sup>
+K<sup>-1</sup> mol<sup>-1</sup>
+
+= 8.314 × 10<sup>-2</sup> bar L
+K<sup>-1</sup> mol<sup>-1</sup>
+
+8.314 J K<sup>-1</sup> mol<sup>-1</sup>
+
+The ideal gas equation is a
+relationship between four variables (P, V,T, n). Since it describes the state of any
+gas, it is referred to as the equation of state of gases.
+
+Let us calculate the pressure
+exerted by 2 moles of sulphur hexafluoride
+in a steel vessel of volume 6 dm<sup>3</sup> at 70 °C assuming it is an ideal gas.
+
+We will use the ideal gas equation for this calculation as below:
+
+
+P=nRT/V
+
+P=2 mol x 0.0821 L K<sup>-1</sup> mol<sup>-1</sup> x (70+ 273K) / 6 dm <sup>3</sup>
+
+P=9.39 atm
+
+**Evaluate Yourself*
+
+5. A small bubble rises from the bottom of a lake where the temperature and pressure are 8° C and 6.4 atm. to the water surface, where the temperature is 25°C and pressure is 1 atm. Calculate the final volume in (mL) of the bubble, if its initial volume is 2.1 mL.
+
+**6.4 Mixture of gases - Dalton’s law of partial pressures**
+
+Studies of non-reacting gaseous mixtures showed that in a gaseous mixture each component behaves independently. For a gaseous mixture, it is important to know, how the pressure of individual component contributes to the total pressure of the mixture.
+
+John Dalton stated that "the total pressure of a mixture of non-reacting gases is the sum of partial pressures of the gases present in the mixture" where the partial pressure of a component gas is the pressure that it would exert if it were present alone in the same volume and temperature. This is known as Dalton’s law of partial pressures.
+
+
+i.e., for a mixture containing three
+gases 1, 2 and 3 with partial pressures p<sub>1</sub>,p<sub>2</sub> and p<sub>3</sub> in a container with volume V, the total pressure Ptotal will be give by
+
+P<sub>total</sub>=P<sub>1</sub>+P<sub>2</sub> +P<sub>3</sub>
+
+Assuming that the gases behave
+ideally,
+
+P<sub>1</sub>=n<sub>1</sub>RT/V
+
+P<sub>2</sub>=n<sub>2</sub>RT/V
+
+P<sub>3</sub>=n<sub>3</sub>RT/V
+
+P<sub>total</sub>=P<sub>1</sub>=n<sub>1</sub>RT/V + P<sub>2</sub>=n<sub>2</sub>RT/V + P<sub>3</sub>=n<sub>3</sub>RT/V
+
+
+P<sub>total</sub>=(n<sub>1</sub>+n<sub>2</sub>+n<sub>3</sub>)RT/V
+
+P<sub>total</sub>=n<sub>total</sub>(RT/V) ----(6.13)
+
+The partial pressure can also be expressed as
+
+RT/V) can be expressed as P<sub>1</sub>/n<sub>1</sub> or P<sub>2</sub>/n<sub>2</sub> or P<sub>3</sub>/n<sub>3</sub>
+
+or in general P<sub>1</sub>/n<sub>1</sub> 
+
+P<sub>total</sub>=n<sub>total</sub>P<sub>1</sub>/n<sub>1</sub> 
+
+P<sub>total</sub>=n<sub>total</sub>/n<sub>1</sub>.(P<sub>1</sub>)
+
+P<sub>1</sub>=n<sub>1</sub>/n<sub>total</sub>.(P<sub>total</sub>)
+
+P<sub>1</sub>=X<sub>1</sub>P<sub>total</sub>------- (6.14)
+
+where x<sub>1</sub> is the mole fraction of the i
+<sup>th</sup> component.
+
+
+**Application of Dalton’s law**
+
+In a reaction involving the collection of gas by downward displacement of water,
+the pressure of dry vapor collected can be calculated using Dalton’s law.
+
+
+P<sub>dry gas collected</sub>=P<sub>total</sub> - P<sub>water vapour</sub> 
+
+P<sub>water vapour</sub> is generally referred as aqueous tension and its values are available for air at various temperatures.
+
+Let us understand Dalton's law by solving this problem. A mixture of gases contains 4.76 mole of Ne, 0.74 mole of Ar and 2.5 mole of Xe. Calculate the partial pressure of gases, if the total pressure is 2
+atm. at a fixed temperature.
+
+**Solution:**
+
+P<sub>Ne</sub>=X<sub>Ne</sub>+  P<sub>toatl</sub>
+
+X<sub>Ne</sub>=n<sub>Ne</sub>/n<sub>Ne</sub>+n<sub>Ar</sub>+n<sub>Xe</sub>
+
+X<sub>Ne</sub> = 4.76/4.76+0.74+2.5 = 0.595
+
+X<sub>Ar</sub>=n<sub>Ar</sub>/n<sub>Ne</sub>+n<sub>Ar</sub>+n<sub>Xe</sub>
+
+X<sub>AR</sub> = 0.74/4.76+0.74+2.5 = 0.093
+
+X<sub>Xe</sub>=n<sub>Xe</sub>/n<sub>Ne</sub>+n<sub>Ar</sub>+n<sub>Xe</sub>
+
+X<sub>Xe</sub>= 2.5/4.76+0.74+2.5 = 0.312
+
+P<sub>Ne</sub> = X<sub>Ne</sub> + P<sub>total</sub>
+
+P<sub>Ne</sub> = 0.595 x 2 = 1.19 atm
+
+P<sub>Ar</sub> = X<sub>Ar</sub> + P<sub>total</sub> = 0.093 × 2
+= 0.186 atm.
+
+P<sub>Xe</sub> = X<sub>Xe</sub> + P<sub>total</sub> = 0.312 × 2 = 0.624 atm.
+
+**Evaluate Yourself*
+
+6. (a) A mixture of He and O<sub>2</sub> were used in the ‘air’ tanks of underwater divers
+for deep dives. For a particular dive
+12 dm<sup>3</sup>
+of O<sub>2</sub>
+at 1 atm. and 46 dm3
+of He, at 1 atm. were both pumped into a 5 dm<sup>3</sup>
+tank. Calculate the partial pressure of each gas and the total pressure in the tank at 298 K (b) A sample of solid KClO<sub>3</sub>
+
+(potassium chlorate) was heated in a test tube to obtain O<sub>2</sub> according to the reaction
+
+2KClO<sub>3</sub>
+→ 2KCl + 3O<sub>2</sub>
+
+The oxygen gas was collected by downward displacement of water at 295 K. The total pressure of the mixture is 772 mm of Hg. The vapour pressure of water is 26.7 mm of Hg at 300K. What is the partial pressure of the oxygen gas?
+
+
+**6.4.1 Graham’ s Law of Diffusion** 
+
+Gases have a tendency to occupy all the available space. When two non -reactive gases are allowed to mix, the gas molecules migrate from region of higher concentration to a region of lower
+concentration. This property of gas which involves the movement of the gas molecules through another gases is called diffusion. Effusion is another process in which a gas escapes from a container
+through a very small hole.
+
+![chemistry](/books/chemistry/part-1/Gaseousstate/gas10.png)
+
+
+
+Figure. 6.7 Diffusion and effusion of gases
+The rate of diffusion or effusion is inversely proportional to the square root of molar mass. This statement is called Graham's law of diffusion/effusion.
+
+Mathematically rate of diffusion
+&alpha; = 1/&#8730;M
+
+Otherwise
+
+r<sub>A</sub>/r<sub>b</sub> = &#8730;M<sub>A</sub>/M<sub>B</sub>−−−−−−− (6.15)
+
+When diffusing gases are at different pressures (P<sub>A</sub>, P<sub>B</sub> ),
+
+r<sub>A</sub>/r<sub>b</sub> =P<sub>A</sub>/P<sub>B</sub> &#8730;M<sub>A</sub>/M<sub>B</sub>−−−−−−− (6.16)
+
+
+where r<sub>A</sub> and r<sub>B</sub> are the rates of diffusion
+of A and B and the M<sub>A</sub> and M<sub>B</sub> are their
+respective molar masses.
+
+Graham’s Law forms the
+basis of the process of
+enriching the isotopes
+of U<sup>235</sup> from other isotopes.
+
+
+**Example:*
+
+1. An unknown gas diffuses at a rate of
+0.5 time that of nitrogen at the same temperature and pressure. Calculate
+the molar mass of the unknown gas
+
+Solution:
+
+
+rate<sub>unkown</sub>/rate N<sub>2</sub>=&#8730;M<sub>N<sub>2</sub></sub>/M<sub>unkown</sub>
+
+0.5=&#8730;28 g mol<sup>-1</sup> /M<sub>unkown</sub>
+
+
+squarin on both side
+
+(0.5)<sup>2</sup>=28 g mol<sup>-1</sup> /M<sub>unkown</sub>
+
+M<sub>unkown</sub>=28/0.25= 112 g mol<sup>-1</sup>
+
+
+**Evaluate Yourself ?*
+
+7. A flammable hydrocarbon gas of particular volume is found to diffuse through a small hole in 1.5 minutes. Under the same conditions
+of temperature and pressure an equal volume of bromine vapour takes 4.73 min to diffuse through the same hole. Calculate the molar
+mass of the unknown gas and
+suggest what this gas might be. (Given that molar mass of bromine = 159.8 g/mole)
+
+**6.5 Deviation from ideal gas behaviour**
+
+The kinetic theory of gases
+(postulates of kinetic theory of gases are
+described in physics text book) which is the basis for the gas equation (PV=nRT),assumes that the individual gas molecules
+occupy negligible volume when compared to the total volume of the gas and there
+is no attractive force between the gas molecules. Gases whose behaviour is
+consistent with these assumptions under all conditions are called ideal gases. But in practice both these assumptions are not
+valid under all conditions. For example, the fact that gases can be liquefied shows
+that the attractive force exists among molecules. Hence, there is no gas which
+behaves ideally under all conditions. The non-ideal gases are called real gases.
+The real gases tend to approach the ideal behaviour under certain conditions.
+
+**6.5.1 Compressibility factor Z**
+
+The deviation of real gases from ideal behaviour is measured in terms of a ratio of PV to nRT. This is termed as compressibility factor. Mathematically,
+
+Z = PV/nRT
+
+For ideal gases PV = nRT, hence the compressibility factor, Z = 1 at all
+temperatures and pressures. For these gases the plot of Z vs P should be a straight line parallel to the pressure axis. When a gas deviates from ideal behaviour, its Z value deviates from unity. For all gases, at very low pressures and very high temperature the compressibility factor
+approaches unity and they tend to behave ideally. The plot of the compressibility
+factor vs pressure for some common gases are shown in Figure 6.8.
+
+![chemistry](/books/chemistry/part-1/Gaseousstate/gas11.png)
+
+
+**Figure. 6.9 Compressibility factor vs pressure at different temperatures for Nitrogen**
+
+
+
+When the pressure is low, the volume of the container is very large compared to
+the volume of the gas molecules so that individual volume of the gas molecules can be neglected. In addition, the molecule in a gas are far apart and attractive forces
+are negligible. As the pressure increases,the density of gas also increases and the molecules are much closer to one another. Hence, the intermolecular force becomes
+significant enough to affect the motion of the molecules and the gas will not behave ideally.
+
+At high temperatures the average kinetic energy of the molecules is very high
+and hence inter moleclular attractions will become insignificant. As the temperature decreases, the average kinetic energy
+of molecules also decreases, hence the
+molecular attraction is enhanced. The temperature at which a real gas obeys
+ideal gas law over an appreciable range of pressure is called Boyle temperature or Boyle point. The Boyle point varies with
+the nature of the gas. Above the Boyle point, for real gases, Z > 1, ie., the real gases show positive deviation. Below the Boyle point, the real gases first show a decrease for Z, reaches a minimum and then increases with the increase in pressure. So, it is clear that at low pressure
+and at high temperature, the real gases behave as ideal gases.
+
+**6.5.2 Compressibility factor for real gases**
+
+The compressibility factor Z for real gases can be rewritten
+
+z = PV<sub>real</sub>/nRT----(6.17)
+
+V<sub>ideal</sub> = nRT/P ----(6.18)
+
+Substituting 6.18 in 6.17
+
+Z = V<sub>real</sub>/V<sub>ideal</sub> ----(6.19)
+
+Where V<sub>real</sub> is the molar volume of
+the real gas and V<sub>ideal</sub> is the molar volume of it when it behaves ideally.
+
+**6.5.3 Van der Waals Equation**
+
+J. D. Van der Waals made the first mathematical analysis of real gases. His
+treatment provides us an interpretation of real gas behaviour at the molecular
+level. He modified the ideal gas equation PV = nRT by introducing two correction factors, namely, pressure correction and
+volume correction.
+
+**Pressure Correction:**
+
+The pressure of a gas is directly proportional to the force created by the
+bombardment of molecules on the walls of the container. The speed of a molecule
+moving towards the wall of the container is reduced by the attractive forces exerted by its neighbours. Hence, the measured gas
+pressure is lower than the ideal pressure of the gas. Hence, van der Waals introduced a correction term to this effect.
+
+
+![chemistry](/books/chemistry/part-1/Gaseousstate/gas12.png)
+
+Van der Waals found out the forces of attraction experienced by a molecule
+near the wall are directly proportional to the square of the density of the gas.
+
+
+P' α ρ<sup>2</sup>
+
+ρ<sup>2</sup>=n/V
+
+
+where n is the number of moles of gas and V is the volume of the container
+
+P' α n<sup>2</sup>/V<sup>2</sup>
+
+P' = an<sup>2</sup>/V<sup>2</sup>
+
+where a is proportionality constant and depends on the nature of gas
+
+P<sub>ideal</sub>= P+an<sup>2</sup>/V<sup>2</sup> ------ (6.20)
+
+**Volume Correction**
+
+As every individual molecule of a gas occupies a certain volume, the actual
+volume is less than the volume of the container, V. Van der Waals introduced
+a correction factor V' to this effect. Let us calculate the correction term by considering gas molecules as spheres.
+
+![chemistry](/books/chemistry/part-1/Gaseousstate/gas13.png)
+
+
+V = excluded volume
+Excluded volume for two molecules
+    
+  = 4/3 &pi;(2r)<sup>3</sup>
+
+  = 8[4/3 &pi;r<sup>3</sup>]
+  
+  = 8 V<sub>m</sub>
+
+  where v<sub>m</sub> is a volume of a single molecule
+
+  Excluded volume for single molecule
+
+  =8 V<sub>m</sub>/2
+  =4 V<sub>m</sub>
+
+  Excluded volume for n molecule
+  =n(4 V<sub>m</sub>)
+  =nb
+
+  where b is van der walls constant 4 V<sub>m</sub>
+
+  V'= nb
+
+  v<sub>ideal</sub>=v-nb-----(6.21)
+
+Replacing the corrected pressure and volume in the ideal gas equation PV=nRT we get the van der Waals equation of state for real gases as below,
+
+[ P+an<sup>2</sup>/V<sup>2</sup> ](V - nb)= nRT -----(6.22)
+
+
+**6.6 Pressure-Volume isotherms of Carbon dioxide**
+
+**Andrew's isotherm**
+
+Thomas Andrew gave the first
+complete data on pressure-volume- temperature of a substance in the gaseous and liquid states. He plotted isotherms of carbon dioxide at different temperatures which is shown in Figure. 6.12. From the plots we can infer the following.
