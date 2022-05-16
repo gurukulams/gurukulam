@@ -145,7 +145,7 @@ occurring hydrogen exists as H<sub>2</sub>
 , HD, D<sub>2</sub>, HT, T<sub>2</sub>, and DT. Th e properties of these
 isotopes are shown in Table 4.1.
 
-**<ins>Table 4.1 Properties of Hydrogen, Deuterium and Tritium molecules.</ins>**
+**Table 4.1 Properties of Hydrogen, Deuterium and Tritium molecules**
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -750,7 +750,7 @@ water. It is mainly obtained as the product
 of electrolysis of water, as D<sub>2</sub>O does not
 undergo electrolysis as easily as H<sub>2</sub>O.
 
-{{< box title="Hard water produces  less foam with detergents. Do You Know why??"="objective" >}} 
+{{< box title="Do You Know why??"="objective" >}} 
 
 
 The cleaning capacity of soap is reduced
@@ -1036,9 +1036,8 @@ This interaction is called as a hydrogen bond
 (20-50 kJ mol<sup>-1</sup>) and is denoted by dotted
 lines (...).
 
-It is weaker than covalent bond (>
-100 kJ mol<sup>-1</sup>) but stronger than the van der
-Waals interaction (< 20 kJ mol<sup>-1</sup>). Hydrogen
+It is weaker than covalent bond (100 kJ mol<sup>-1</sup>) but stronger than the van der
+Waals interaction (20 kJ mol<sup>-1</sup>). Hydrogen
 bond has profound effect on various physical
 properties including vapour pressure (H<sub>2</sub>O
 and H<sub>2</sub>S), boiling point, miscibility of
@@ -1111,6 +1110,7 @@ together the two helical nucleic acid chains (strands).
 
 
 **Significant developments related to hydrogen**
+
 
 ![Significant developments related to hydrogen](/books/chemistry/part-1/Hydrogen/pic16.png)
 
@@ -1437,8 +1437,7 @@ ii) CrCl<sub>3</sub>+ H<sub>2</sub>O →
 
 iii) CaO + H<sub>2</sub>O →
 
-iii) CaO + H2
-O →
+iii) CaO + H2O →
 
 28. Hydrogen peroxide can function as an oxidising agent as well as reducing agent.
 substantiate this statement with suitable examples.
