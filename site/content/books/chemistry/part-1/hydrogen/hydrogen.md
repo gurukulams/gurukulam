@@ -750,7 +750,7 @@ water. It is mainly obtained as the product
 of electrolysis of water, as D<sub>2</sub>O does not
 undergo electrolysis as easily as H<sub>2</sub>O.
 
-{{< box title=**"Hard water produces  less foam with detergents. Do You Know why??**"="objective" >}} 
+{{< box title="Hard water produces  less foam with detergents. Do You Know why??"="objective" >}} 
 
 
 The cleaning capacity of soap is reduced

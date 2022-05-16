@@ -69,8 +69,7 @@ on their composition, all the gases have
 remarkably similar physical behaviour.
 
 
-{{< box title="Do you know the difference
-between gas and vapour?" type="objective" >}}
+{{< box title="Do you know the difference between gas and vapour?" type="objective" >}}
 
 
 Gas is a substance that is normally
