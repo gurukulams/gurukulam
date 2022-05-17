@@ -265,8 +265,157 @@ In figure (6.3) let us find the
 missing parameters (volume in 6.3 (b) and
 pressure in 6.3(c))
 
+**Solution:**
 
-![Figure. 6.2](/books/chemistry/part-1/gas/pic3.png)
+According to Boyle’s law, at constant
+temperature for a given mass of gas at
+constant temperature,
+
+P<sub>1</sub>V<sub>1</sub> = P<sub>1</sub> V<sub>2</sub>= P<sub>3</sub> V<sub>3</sub>
+
+1 atm × 1 dm<sup>3</sup> = 2 atm × V<sub>2</sub> = P<sub>3</sub>  × 0.25 dm<sup>3</sup>
+
+∴ 2 atm × V<sub>2</sub>  = 1 atm × 1 dm<sub>3</sub> 
+
+V<sub>2</sub> = 0.5 dm<sup>3</sup>
+
+and P<sub>3</sub> * 0.25 dm<sup?>3</sup> = 1 atm * 1 dm<sup>3</sup>
+
+p<sub>3</sub> = 4 atm
+
+**Evaluate Yourself**
+
+1. Freon-12, the compound widely
+used in the refrigerator system as
+coolant causes depletion of ozone
+layer. Now it has been replaced by
+eco-friendly compounds. Consider
+1.5 dm3 sample of gaseous Freon at
+a pressure of 0.3 atm. If the pressure
+is changed to 1.2 atm. at a constant
+temperature, what will be the volume
+of the gas increased or decreased?
+
+2. Inside a certain automobile engine,
+the volume of air in a cylinder is
+0.375 dm<sup>3</sup>, when the pressure is 1.05
+atm. When the gas is compressed to
+a volume of 0.125 dm<sup>3</sup> at the same
+temperature, what is the pressure of
+the compressed air?
+
+**6.2.2 Charles Law (Volume-temperature relationship)**
+
+The relationship between volume
+of a gas and its temperature was examined
+by J. A. C. Charles. He observed that for
+a fixed mass of a gas at constant pressure,
+the volume is directly proportional to its
+temperature (K). Mathematically it can be
+represented as (at constant P and n)
+
+V = kT ------- (6.5)
+
+or V/T = Constant
+
+If the temperature of the gas
+increases, the volume also increases in
+direct proportion, so that V/T
+is a constant.
+For the same system at constant pressure,
+one can write
+
+V<sub>1</sub> / T<sub>1</sub>  = V<sub>2</sub> / T<sub>2</sub>  = constant --------> (6.6)
+
+For example, if a balloon is moved
+from an ice cold water bath to a boiling
+water bath, the temperature of the gas
+increases. As a result, the gas molecules
+inside the balloon move faster and gas
+expands. Hence, the volume increases.
+
+
+![Figure. 6.4](/books/chemistry/part-1/gas/pic4.png)
+
+**Variation of volume with temperature at constant pressure**
+
+The plot of the volume of the gas
+against its temperature at a given pressure
+is shown in the figure 6.5. From the graph
+it is clear that the volume of the gas linearly
+increases with temperature at a given
+pressure. Such lines are called isobars. It
+can be expressed by the following straight
+line equation.
+
+V = mT + C where T is the
+temperature in degree Celsius and m & C
+are constants.
+
+When T= 0 oC the volume becomes
+V0. Hence, V0= C and slope of the straight
+line m is equal to ΔV / ΔT. Therefore
+the above equation can be written in the
+following form.
+
+V  = [ ∆V / ∆T ] T + V<sub>0</sub>  ------- (6.7)
+
+(n, P are constant)
+
+Divide the equation 6.7 by V<sub>0</sub>
+
+
+![Figure. 6.5](/books/chemistry/part-1/gas/pic5.png)
+
+If we extrapolate the straight line
+in the figure 6.5 beyond the experimental
+measurements, the straight line intersects
+the temperature axis (x-axis) at -2730 C.
+This shows that the volume of the gas
+becomes zero at -2730 C, more precisely
+this temperature is -273.150 C. Beyond this
+temperature the gas would have a negative
+volume which is physically impossible. For
+this reason, this temperature was defined
+as absolute zero by Kelvin and he proposed
+a new temperature scale with absolute
+zero as starting point which is now called
+Kelvin scale. The only difference between
+the Kelvin scale of temperature and
+Celsius scale of temperature is that the
+zero position is shifted. The boiling and
+freezing point of water in both scales are
+given below.
+
++------------------------+--------------+---------------+
+|                        | Kelvin Scale | Celsius scale |
++------------------------+--------------+---------------+
+| Absolute Zero          | 0 K          | -273.15 °C    |
++------------------------+--------------+---------------+
+| Freezing pointof water | 273.15 K     | 0 °C          |
++------------------------+--------------+---------------+
+| Boiling point of water | 373.15 K     | 100 °C        |
++------------------------+--------------+---------------+
+
+**Example:**
+
+In figure 6.6 let us find the missing
+parameters (volume in 6.6 (b) and
+temperature in 6.6(c))
+
+![Figure. 6.5](/books/chemistry/part-1/gas/pic6.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
