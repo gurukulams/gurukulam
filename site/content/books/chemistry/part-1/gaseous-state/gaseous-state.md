@@ -397,6 +397,9 @@ given below.
 | Boiling point of water | 373.15 K     | 100 °C        |
 +------------------------+--------------+---------------+
 
+
+
+
 **Example:**
 
 In figure 6.6 let us find the missing
