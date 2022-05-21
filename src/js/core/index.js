@@ -157,6 +157,7 @@ class Core {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+        "Accept-Language": this.locale,
       },
     })
       .then((response) => {
@@ -237,6 +238,7 @@ class Core {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+        "Accept-Language": this.locale,
       },
     })
       .then((response) => {
