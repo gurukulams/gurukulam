@@ -79,7 +79,7 @@ explained the cell theory by adding a
 feature stating that all living cells arise from
 pre-existing living cells by ‘cell division’.
 
-![biomolecules](/books/biology/unit-3/bio/Fig8.1.eng.png)
+![](/books/botany/pic1.png)
 
 #### 6.2. Microscopy
 
@@ -181,7 +181,7 @@ essential for withstanding electrons and
 also for contrast of the image.
 
 
-![biomolecules](/books/biology/unit-3/bio/Fig8.2.eng.png)
+![](/books/botany/pic2.png)
 
 There are two kinds of electron
 microscopes namely:
@@ -204,9 +204,9 @@ screen. The magnification is 1–3 lakhs times
 and resolving power is 2–10 Å. It is used
 for studying detailed structrue of viruses,
 
-![biomolecules](/books/biology/unit-3/bio/Fig8.3.eng.png)
+![](/books/botany/pic3.png)
 
-![biomolecules](/books/biology/unit-3/bio/Fig8.4.eng.png)
+![](/books/botany/pic4.png)
 
 
 
@@ -229,7 +229,7 @@ then imaged on fluorescent screen. The
 magnification is 2,00,000 times and resolution
 is 5–20 nm (Figure 6.4 a and b).
 
-![biomolecules](/books/biology/unit-3/bio/Fig8.5.eng.png)
+![](/books/botany/pic5.png)
 
 #### 6.3. Cell Theory
 
@@ -389,120 +389,7 @@ envelope varies from round to hexagonal or
 ‘T’ shaped. In fungi, globular to elongated
 cylindrical cells and the spores of fungi vary
 
-
-
-
-
-
-
-
-
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.6.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.7.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.8.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.8a.eng.png)
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.8b.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.9.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.10.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.11a.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.11b.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.12.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.13.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.14.eng.png)
-
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.15.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.16.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.17.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.18.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.19.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.19a.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.20.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.21.eng.png)
-
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.22.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.23.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.24.eng.png)
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.25.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.26.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.27.eng.png)
-
-
-![biomolecules](/books/biology/unit-3/bio/Fig8.28.eng.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](/books/botany/pic6.png)
 
 
 
