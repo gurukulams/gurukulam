@@ -605,6 +605,37 @@ maintaining the osmotic pressure.
 5. Plays a major role by acting as a
 mechanism of defense for the cells.
 
+**6.5.4 Cell Membrane**
+
+The cell membrane is also called cell surface
+(or) plasma membrane. It is a thin structure
+which holds the cytoplasmic content called
+‘cytosol’. It is extremely thin (less than 10nm).
+
+
+![](/books/botany/pic14.png)
+
+**Fluid Mosaic Model**
+
+**Jonathan Singer**and Garth Nicolson
+(1972) proposed fluid mosaic model.
+It is made up of lipids and proteins
+together with a little amount of carbohydrate.
+The lipid membrane is made up of
+phospholipid. The phospholipid molecule
+has a hydrophobic tail and hydrophilic
+head. The hydrophobic tail repels water and
+hydrophilic head attracts water. The proteins
+of the membrane are globular proteins which
+are found intermingled between the lipid
+bilayer most of which are projecting beyond
+the lipid bilayer. These proteins are called
+as integral proteins. Few are superficially
+attached on either surface of the lipid bilayer
+which are called as peripheral proteins.
+The proteins are involved in transport of
+molecules across the membranes and also
+act as enzymes, receptors (or) antigens.
 
 
 
