@@ -510,9 +510,100 @@ to the presence of large number of vacuoles.
 It responds to the stimuli like heat, electric
 shock, chemicals and so on.
 
+![](/books/botany/pic12.png)
+
+**6.5.3 Cell Wall**
+
+Cell wall is the outermost protective cover
+of the cell. It is present in bacteria, fungi
+and plants whereas it is absent in animal
+cell. It was first observed by **Robert Hooke**.
+It is an actively growing portion. It is made
+up of different complex material in various
+organism. In bacteria it is composed of
+peptidoglycan, in fungi chitin and fungal
+cellulose, in algae cellulose, galactans and
+mannans. In plants it is made up of cellulose,
+hemicellulose, pectin, lignin, cutin, suberin
+and silica.
+
+In plant, cell wall shows three distinct
+regions (a) Primary wall (b) Secondary wall
+(c) Middle lamellae (Figure 6.10).
+
+**a. Primary wall**
+
+It is the first layer inner to middle lamella,
+primarily consisting of loose network of
+cellulose microfibrils in a gel matrix. It is
+thin, elastic and extensible.In most plants the
+microfibrils are made up of cellulose oriented
+differently based on shape and thickness
+of the wall. The matrix of the primary
+wall is composed of hemicellulose, pectin,
+glycoprotein and water. Hemicellulose binds
+the microfibrils with matrix and glycoproteins
+control the orientation of microfibrils while
+pectin serves as filling material of the matrix.
+Cells such as parenchyma and meristems
+have only primary wall.
+
+**b. Secondary wall**
+
+Secondary wall is laid during maturation of
+the cell. It plays a key role in determining the
+shape of a cell. It is thick, inelastic and is made
+up of cellulose and lignin. The secondary
+wall is divided into three sublayers termed as
+S1, S2 and S3 where the cellulose microfibrils
+are compactly arranged with different
+orientation forming a laminated structure
+and the cell wall strength is increased.
+
+**c. Middle lamellae**
+It is the outermost layer made up of calcium
+and magnesium pectate, deposited at the
+time of cytokinesis. It is a thin amorphous
+layer which cements two adjacent cells. It is
+optically inactive (isotropic).
+
+**Plasmodesmata and Pits**
+
+Plasmodesmata act as a channel between the
+protoplasm of adjacent cells through which
+many substances pass through. Moreover,
+at few regions, the secondary wall layer is
+laid unevenly whereas the primary wall and
+middle lamellae are laid continuously such
+regions are called pits. The Pits of adjacent
+cells are opposite to each other. Each pit has
+a pit chamber and a pit membrane. The pit
+membrane has many minute pores and thus
+they are permeable. The pits are of two types
+namely simple and bordered pit.
 
 
+![](/books/botany/pic13.png)
 
+**Functions of cell wall**
+
+The cell wall plays a vital role in holding
+several important functions given below
+
+1. Offers definite shape and rigidity to the
+cell.
+
+2. Serves as barrier for several molecules to
+enter the cells.
+
+3. Provides protection to the internal
+protoplasm against mechanical injury.
+
+4. Prevents the bursting of cells by
+maintaining the osmotic pressure.
+
+5. Plays a major role by acting as a
+mechanism of defense for the cells.
 
 
 
