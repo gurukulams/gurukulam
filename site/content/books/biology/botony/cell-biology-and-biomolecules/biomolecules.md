@@ -463,6 +463,53 @@ to function inside the host cell.
 ![](/books/botany/pic8.png)
 
 
+#### 6.5. Plant and Animal cell
+
+**6.5.1 Ultra Structure of an Eukaryotic Cell**
+An eukaryotic cell is highly distinct in its
+organisation. It shows several variations in
+different organisms. For instance, eukaryotic cells
+in plants and animals vary greatly (Figure 6.7).
+
+![](/books/botany/pic9.png)
+
+**Animal Cell**
+Animal cells are surrounded by cell membrane
+or plasma membrane. Inside this membrane
+a gelatinous matrix called protoplasm is
+seen to contain nucleus and other organelles
+which include the endoplasmic reticulum,
+mitochondria, golgi bodies, centrioles,
+lysosomes, ribosomes and cytoskeleton.
+
+**Plant cell**
+A typical plant cell has prominent
+cell wall, a large central vacuole and plastids
+in addition to other organelles present in
+animal cell (Figure 6.8).
+
+![](/books/botany/pic10.png)
+
+**6.5.2 Protoplasm**
+Protoplasm is the living content of cell that
+is surrounded by plasma membrane. It is a
+colourless material that exists throughout
+the cell together with cytoplasm, nucleus and
+other organelles. Protoplasm is composed
+of a mixture of small particles, such as
+
+![](/books/botany/pic11.png)
+
+
+ions, amino acids, monosaccharides, water,
+macromolecules like nucleic acids, proteins,
+lipids and polysaccharides. It appears
+colourless, jelly like gelatinous, viscous
+elastic and granular. It appears foamy due
+to the presence of large number of vacuoles.
+It responds to the stimuli like heat, electric
+shock, chemicals and so on.
+
 
 
 
