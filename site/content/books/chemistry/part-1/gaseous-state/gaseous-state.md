@@ -38,7 +38,7 @@ So many properties of properties of matter, especially when in gaseous form, can
 **James Clerk Maxwell*
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas1.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas1.png)
 
 
 
@@ -66,8 +66,7 @@ role in the development of chemistry. The physical properties of all gases are g
 Pressure = Force N or kg m      s<sup>-2</sup>/Area m<sup>2</sup>
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas2.png)
-
+![chemistry](/books/chemistry/part-1/gaseous/gas2.png)
 
 **6.2.1 Boyle’s Law: Pressure-Volume Relationship**
 
@@ -75,8 +74,7 @@ Robert Boyle performed a series of
 experiments to study the relation between the pressure and volume of gases. The schematic of the apparatus used by him is shown in figure 6.1.
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas3.png)
-
+![chemistry](/books/chemistry/part-1/gaseous/gas3.png)
 
 Mercury was added through the
 open end of the apparatus such that the mercury level on both ends are equal as shown in the figure 6.1(a). Add more amount of mercury until the volume of the trapped air is reduced to half of its original volume as shown in figure 6.1(b). The pressure exerted on the gas by the addition of excess mercury is given by the difference in mercury levels of the tube. Initially the pressure exerted by the gas is equal to 1 atm as the difference in height of the mercury levels is zero. When the volume is reduced to half, the difference in mercury levels increases to 760 mm. Now the pressure exerted by the gas is equal to 2 atm. It led him to conclude that at a given temperature the volume occupied by a fixed mass of a gas is inversely proportional to its pressure.
@@ -104,11 +102,9 @@ P<sub>1</sub>V<sub>1</sub>= P<sub>2</sub>V<sub>2</sub>= k ------ (6.3)
 
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas4.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas4.png)
 
-
-The PV relationship can be
-understood as follows. The pressure is due to the force of the gas particles on the walls of the container. If a given amount of gas is compressed to half of its volume, the density is doubled and the number of particles hitting the unit area of the container will be doubled. Hence, the pressure would increase twofold.
+The PV relationship can be understood as follows. The pressure is due to the force of the gas particles on the walls of the container. If a given amount of gas is compressed to half of its volume, the density is doubled and the number of particles hitting the unit area of the container will be doubled. Hence, the pressure would increase twofold.
 
 
 **Consequence of Boyle’s law**
@@ -135,7 +131,7 @@ Most commercial aeroplanes fly at
 about 30,000 feet altitude. The pressure decreases with the increase in altitude as there are fewer molecules per unit volume of air. Hence, while at air, the pressure around the aeroplane will be so low that one could pass out for lack of oxygen. For this reason aeroplanes cabins are artificially pressurized.
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gasd.png)
+![chemistry](/books/chemistry/part-1/gaseous/gasd.png)
 
 
 Similarly, the effect of drop in
@@ -146,7 +142,7 @@ In figure (6.3) let us find the
 missing parameters (volume in 6.3 (b) and pressure in 6.3(c))
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas5.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas5.png)
 
 
 **Solution:**
@@ -204,7 +200,7 @@ For example, if a balloon is moved
 from an ice cold water bath to a boiling water bath, the temperature of the gas increases. As a result, the gas molecules inside the balloon move faster and ga expands. Hence, the volume increases.
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas7.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas7.png)
 
 
 **Variation of volume with temperature at constant pressure**
@@ -242,7 +238,7 @@ Charles found that the coefficient
 of expansion is approximately equal to 1/273. It means that at constant pressure for a given mass, for each degree rise in temperature, all gases expand by 1/273 of their volume at 0 <sup>0</sup>C
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas8.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas8.png)
 
 
 If we extrapolate the straight line in the figure 6.5 beyond the experimental measurements, the straight line intersects the temperature axis (x-axis) at -273 <sup>0</sup>C. This shows that the volume of the gas becomes zero at -273 <sup>0</sup> C, more precisely this temperature is -273.15 <sup>0</sup>C. Beyond this temperature the gas would have a negative volume which is physically impossible. For this reason, this temperature was defined as absolute zero by Kelvin and he proposed a new temperature scale with absolute zero as starting point which is now called Kelvin scale. The only difference between the Kelvin scale of temperature and Celsius scale of temperature is that the zero position is shifted. The boiling and freezing point of water in both scales are given below.
@@ -275,7 +271,7 @@ Example:
 In figure 6.6 let us find the missingc parameters (volume in 6.6 (b) and temperature in 6.6(c))
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas9.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas9.png)
 
 Solution:
 
@@ -568,7 +564,7 @@ Gases have a tendency to occupy all the available space. When two non -reactive 
 concentration. This property of gas which involves the movement of the gas molecules through another gases is called diffusion. Effusion is another process in which a gas escapes from a container
 through a very small hole.
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas10.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas10.png)
 
 
 
@@ -649,7 +645,7 @@ temperatures and pressures. For these gases the plot of Z vs P should be a strai
 approaches unity and they tend to behave ideally. The plot of the compressibility
 factor vs pressure for some common gases are shown in Figure 6.8.
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas11.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas11.png)
 
 
 **Figure. 6.9 Compressibility factor vs pressure at different temperatures for Nitrogen**
@@ -699,7 +695,7 @@ moving towards the wall of the container is reduced by the attractive forces exe
 pressure is lower than the ideal pressure of the gas. Hence, van der Waals introduced a correction term to this effect.
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas12.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas12.png)
 
 Van der Waals found out the forces of attraction experienced by a molecule
 near the wall are directly proportional to the square of the density of the gas.
@@ -726,7 +722,7 @@ As every individual molecule of a gas occupies a certain volume, the actual
 volume is less than the volume of the container, V. Van der Waals introduced
 a correction factor V' to this effect. Let us calculate the correction term by considering gas molecules as spheres.
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas13.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas13.png)
 
 
 V = excluded volume
@@ -783,7 +779,7 @@ temperature or critical temperature of CO<sub>2</sub>
 Above this temperature CO<sub>2</sub>remains as a gas at all pressure values. It is then proved that many real gases behave in a similar manner to carbon dioxide.
 
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas14.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas14.png)
 
 Though the nature of isotherm remains similar, the critical temperature, the corresponding pressure and volume
 are characteristics of a particular gas.
@@ -794,7 +790,8 @@ is defined as the volume occupied by 1
 mole of a gas at its critical temperature and critical pressure. The critical constants of
 some common gases are given in Table 6.2
 
-![chemistry](/books/chemistry/part-1/Gaseousstate/gas15.png)
+![chemistry](/books/chemistry/part-1/gaseous/gas15.png)
+
 
 **Evaluate Yourself*
  
@@ -833,4 +830,133 @@ powers of V
 
 V<sup>3</sup> - [RT/P + b] V<sup>2</sup> + [a / P]V - [ab /P]=0 --- (6.26)
 
-The equation (6.26) is a cubic equation in V. On solving this equation,
+The equation (6.26) is a cubic equation in V. On solving this equation,we will get three solutions. At the critical point all these three solutions of V are equal to the critical volume V<sub>c</sub>. The
+pressure and temperature becomes P<sub>c</sub>
+andT<sub>c</sub>
+respectively
+
+
+V=V<sub>c</sub>
+
+V - V<sub>c</sub>=0
+
+(V -V<sub>c</sub>)<sup>3</sup>=0
+
+V<sup>3</sup> - 3V<sub>c</sub>V<sup>2</sup> + 3V<sub>c</sub><sup>2</sup>V - V<sub>c</sub><sup>3</sup> = 0 ---- (6.27)
+
+As equation (6.26) is identical with equation (6.27), we can equate the coefficients of V<sup>2</sup>, V and constant terms in
+(6.26) and (6.27).
+
+ -3V<sub>c</sub>V<sup>2</sup> = -[RT <sub>c</sub> / P<sub>c</sub> + b]  V<sup>2</sup>
+
+ 3V<sub>c</sub> = [RT <sub>c</sub> / P<sub>c</sub> + b]---- (6.28)
+
+ 3V<sub>c</sub><sup>2</sup> = a/P <sub>c</sub>---- (6.29)
+
+ V<sub>c</sub><sup>3</sup> = ab/P <sub>c</sub> ---- (6.30)
+
+ Divide equation (6.30) by equation (6.29)
+
+ V<sub>c</sub><sup>3</sup>/3V<sub>c</sub><sup>2</sup> =   ab/P <sub>c</sub>/(a/P <sub>c</sub>)
+
+ V<sub>c</sub>/3 = b
+
+ i.e. V<sub>c</sub> = 3b ------- (6.31)
+
+ when equation (6.31) is substituted in
+(6.29)
+
+3V<sub>c</sub><sup>2</sup> = a/P <sub>c</sub>
+
+P = a/3V<sub>c</sub><sup>2</sup> = a/3(9b<sup>2</sup>) 
+
+P = = a/27b<sup>2</sup>------ (6.32) 
+
+substituting the values of V<sub>c</sub>
+and P<sub>c</sub> in
+equation (6.28),
+
+3(3b) = b + [RT<sub>c</sub>/P ]
+
+3(3b) = b + [RT<sub>c</sub>/ a/27b<sup>2</sup>]
+
+9b - b = [RT<sub>c</sub>/ ]27b<sup>2</sup>
+
+8b = [T<sub>c</sub> R 27b<sup>2</sup> / a]
+
+T<sub>c</sub>= 8ab / 27 Rb<sup>2</sup> = 8a / 27 R<sup>2</sup>
+
+T<sub>c</sub>= 8a / 27 R<sup>2</sup>------ (6.33)
+
+The critical constants can be calculated using the values of van der
+waals constant of a gas and vice versa.
+
+a = 3V<sub>c</sub><sup>2</sup>P<sub>c</sub> and b = V<sub>c</sub>/3
+
+**6.7 Liquefaction of gases**
+
+For important commercial
+operations such as LPG and rocket fuels,
+we require gases in their liquid state.
+The liquefication methods are based on
+the Joule-Thomson effect. He observed
+appreciable cooling when the compressed
+gas is forced through an orifice plug into a low-pressure region. This phenomenon
+of lowering of temperature when a gas
+is made to expand adiabatically from
+a region of high pressure into a region
+of low pressure is known as Joule- Thomson effect. This effect is observed only below a certain temperature, which is a characteristic one for each gas. This temperature below which a gas obeys Joule-Thomson effect is called inversion
+temperature (T<sub>i</sub>). This value is given using van der waals constants a and b.
+
+T<sub>i</sub> = 2a / Rb --------- (6.34)
+
+Gases like O<sub>2</sub>
+, He, N<sub>2</sub>
+and H<sub>2</sub>
+have very low T<sub>c</sub> , hence Joule-Thomson effect
+can be applied for cooling effectively.
+At the inversion temperature, no rise or
+fall in temperature of a gas occurs while
+expanding. But above the inversion
+temperature, the gas gets heated up when
+allowed to expand through a hole.
+
+**There are different methods used for liquefaction of gases:**
+
+1) In <b>Linde’s method</b>, Joule-Thomson
+effect is used to get liquid air or any
+other gas.
+
+2) In <b>Claude’s process</b>, the gas is
+allowed to perform mechanical work in addition to Joule-Thomson
+effect so that more cooling is produced.
+
+3) In<b> Adiabatic process</b>, cooling is
+produced by removing the magnetic property of magnetic material such as gadolinium sulphate. By this
+method, a temperature of 10<sup>-4</sup> K i.e.as low as 0 K can be achieved.
+
+<u>SUMMARY</u>
+
+The state of a gas is defined by a relationship between the four independent variables
+pressure (P), volume (V), temperature (T) and number of moles (n). The relationship between
+these parameters is governed by different gas laws as summarised below.
+
+![chemistry](/books/chemistry/part-1/gaseous/gas17.png)
+
+Gases that obey the equation PV=nRT under all conditions are called ideal gases. But
+in practice there is no ideal gas. Gases tend to behave ideally at high temperatures and at low pressures. For real gases, van der Waals modified the ideal gas equation as
+
+P + [an <sup>2</sup>/V<sup>2</sup>] (V-nb) = nRT
+
+
+Critical temperature (T<sub>c</sub>) of a gas is defined as the temperature above which it cannot be liquefied at any pressure. Critical pressure (P<sub>c</sub>) of a gas is defined as the minimum pressurerequired to liquefy 1 mole of a gas at its critical temperature. Critical volume (V<sub>c</sub>) is defined as the volume occupied by 1 mole of a gas at its critical temperature and critical pressure.
+
+The critical constants are related to Van der Waals constants as follows
+
+T<sub>c</sub> = 8a/27Rb,
+P<sub>c</sub> = 8a/27Rb<sup>2</sup> and V<sub>c</sub> = 3b
+
+When a gas is made to expand adiabatically from a region of high pressure into a region
+
+of low pressure, the temperature of the gas is reduced rapidly and this is known as Joule-
+Thomson effect. This effect is used in the liquefication of gases.
