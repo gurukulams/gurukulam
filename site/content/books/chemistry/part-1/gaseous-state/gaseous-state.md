@@ -960,3 +960,264 @@ When a gas is made to expand adiabatically from a region of high pressure into a
 
 of low pressure, the temperature of the gas is reduced rapidly and this is known as Joule-
 Thomson effect. This effect is used in the liquefication of gases.
+
+
+
+**<u>EVALUATION*</u>
+
+**I. Choose the best answer**
+
+1. Gases deviate from ideal behavior at high pressure. Which of the following
+statement(s) is correct for non-ideality?
+
+a) at high pressure the collision between the gas molecule become enormous
+
+b) at high pressure the gas molecules move only in one direction
+
+c) at high pressure, the volume of gas become insignificant
+
+d) at high pressure the intermolecular interactions become significant
+
+2. Rate of diffusion of a gas is
+
+a) directly proportional to its density
+
+b) directly proportional to its molecular weight
+
+c) directly proportional to its square root of its molecular weight
+
+d) inversely proportional to the square root of its molecular weight
+
+Which of the following is the correct expression for the equation of state of van der
+Waals gas?
+
+(a) [P + a/n<sup>2</sup>v<sup>2</sup>] (V-nb)= nRT
+
+(b) [P + na/n<sup>2</sup>V<sup>2</sup>] (V-nb)= nRT
+
+(c) [P + an<sup>2</sup>/V<sup>2</sup>] (V-nb)= nRT
+
+(d) [P + n<sup>2</sup>a<sup>2</sup>/V<sup>2</sup>] (V-nb)= nRT
+
+4. When an ideal gas undergoes unrestrained expansion, no cooling occurs because the
+molecules
+
+a) are above inversion temperature
+
+b) exert no attractive forces on each other
+
+c) do work equal to the loss in kinetic energy
+
+d) collide without loss of energy
+
+5. Equal weights of methane and oxygen are mixed in an empty container at 298 K. The
+fraction of total pressure exerted by oxygen is
+
+(a) 1/3 
+
+(b)  1/2 
+
+(c) 2/3 
+
+(d) 1/3 ×  273 × 298
+
+6. The temperatures at which real gases obey the ideal gas laws over a wide range of pres-
+sure is called
+
+a) Critical temperature 
+
+b) Boyle temperature
+
+c) Inversion temperature 
+
+d) Reduced temperature
+
+7. In a closed room of 1000 m<sup>3</sup> a perfume bottle is opened up. The room develops a smell. This is due to which property of gases?
+
+a) Viscosity 
+
+b) Density
+
+c) Diffusion 
+
+d) None
+
+8. A bottle of ammonia and a bottle of HCl connected through a long tube are opened
+simultaneously at both ends. The white ammonium chloride ring first formed will be
+
+a) At the center of the tube
+
+b) Near the hydrogen chloride bottle
+
+c) Near the ammonia bottle
+
+d) Throughout the length of the tube
+
+9. The value of universal gas constant depends upon
+
+a) Temperature of the gas
+
+b) Volume of the gas
+
+c) Number of moles of the gas 
+
+d) units of Pressure and volume.
+
+10. The value of the gas constant R is
+
+a) 0.082 dm<sup>3</sup>atm.
+
+b) 0.987 cal mol<sup>-1</sup> K<sup>-1</sup>
+
+c) 8.3 J mol<sup>-1</sup> K<sup>-1</sup>
+
+d) 8 erg mol<sup>-1</sup> K<sup>-1</sup>
+
+11. Use of hot air balloon in sports and meteorological observation is an application of
+
+a) Boyle’s law 
+
+b) Newton’s law 
+
+c) Kelvin’s law 
+
+d) Brown’s law
+
+12. The table indicates the value of van der Waals constant ‘a’ in (dm<sup>3</sup>
+)<sup>2</sup>
+atm.mol<sup>-2</sup>
+<
+<table>
+<tr>
+ <td>gas</td>
+ <td>O<sub>2</sub></td>
+ <td>N<sub>2</sub></td>
+ <td>NH<sub>3</sub></td>
+ <td>CH<sub>4</sub> </td></tr>
+ <tr>
+    <td>a</td>
+    <td>1.360</td>
+    <td>1.390</td>
+    <td>4.170</td>
+    <td>2.253</td></tr>
+    </table>
+
+    The gas which can be most easily liquefied is
+
+  (a)O <sub> 2 </sub>
+
+  (b)N<sub> 2 </sub>
+
+  (c)NH <sub> 4 </sub>
+
+  (d)CH <sub> 4 </sub>
+
+
+  13. Consider the following statements
+
+i) Atmospheric pressure is less at the top of a mountain than at sea level
+
+ii) Gases are much more compressible than solids or liquids
+
+iii) When the atmospheric pressure increases the height of the mercury column rises
+Select the correct statement
+
+a) I and II 
+
+b) II and III 
+
+c) I and III 
+
+d) I, II and III
+
+14. Compressibility factor for CO<sub> 2 </sub>
+at 400 K and 71.0 bar is 0.8697. The molar volume of CO<sub> 4 </sub>
+under these conditions is
+
+a) 22.04 dm<sup> 3 </sup>
+
+b) 2.24 dm<sup> 3 </sup>
+
+c) 0.41 dm<sup> 3 </sup>
+
+d) 19.5dm<sup> 3 </sup>
+
+15. If temperature and volume of an ideal gas is increased to twice its values, the initial
+pressure P becomes
+
+a) 4P 
+
+b) 2P 
+
+c) P 
+
+d) 3P
+
+16. At identical temperature and pressure, the rate of diffusion of hydrogen gas is 3 &#8730;3 times
+that of a hydrocarbon having molecular formula C<sub> n </sub>
+H<sub> 2n-2 </sub>. What is the value of n ?
+
+a) 8 
+
+b) 4 
+
+c) 3 
+
+d) 1
+
+17. Equal moles of hydrogen and oxygen gases are placed in a container, with a pin-hole
+through which both can escape what fraction of oxygen escapes in the time required for one-half of the hydrogen to escape. (NEET phase I)
+
+a) 3/8 
+
+b) 1/2
+
+c) 1/8 
+
+d) 1/4
+
+18. The variation of volume V, with temperature T, keeping pressure constant is called the
+coefficient of thermal expansion ie α=118. The variation of volume V, with temperature T, keeping pressure constant is called the
+coefficient of thermal expansion ie α = 1/V[∂V/∂T]<sub> p </sub>
+. For an ideal gas α is equal to. 
+
+a) T 
+
+b) 1/T
+
+ c) P 
+ 
+ d) none of these
+
+19. Four gases P, Q, R and S have almost same values of 'b' but their 'a' values (a, b are Vander
+Waals Constants) are in the order Q < R < S < P. At a particular temperature, among the
+four gases the most easily liquefiable one is
+
+a) P 
+
+b) Q 
+
+c) R 
+
+d) S
+
+20. Maximum deviation from ideal gas is expected from (NEET)
+
+a) CH<sub> 4 </sub>(g) 
+
+b) NH<sub> 3 </sub> (g) 
+
+c) H<sub> 2 </sub> (g) 
+
+d) N<sub> 2 </sub> (g)
+
+21. The units of Vander Waals constants 'b' and 'a' respectively
+
+a) mol L<sup> -1 </sup> and L atm<sup> 2 </sup> mol<sup> -1 </sup> 
+
+b) mol L and L atm mol<sup> 2 </sup> 
+
+c) mol<sup> -1 </sup> L and L<sup> 2 </sup> 
+atm mol<sup> -2 </sup>  
+
+d) none of these
