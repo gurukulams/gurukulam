@@ -849,14 +849,133 @@ proton gradient that drives oxidative
 phosphorylation (Figure 6.15).
 
 
-
 ![](/books/botany/pic17.png)
 
+Mitochondria contain 73% of proteins,
+25-30% of lipids, 5-7 % of RNA, DNA (in
+traces) and enzymes (about 60 types).
+Mitochondria are called **Power house of a**
+**cell**, as they produce energy rich ATP.
+All the enzymes of Kreb’s cycle are found
+in the matrix except succinate dehydrogenase.
+Mitochondria consist of circular DNA and
+70S ribosome. They multiply by fission and
+replicates by strand displacement model.
+
+Because of the presence of DNAs it is semi-
+autonomous organelle. Unique characteristic
+of mitochondria is that they are inherited
+from female parent only. Mitochondrial
+DNA comparisons are used to trace human
+origins. It is also used to track and date
+recent evolutionary time because it mutates
+5 to 10 time faster than DNA in the nucleus.
+
+**6.6.5 Plastids**
+
+The term plastid is derived from the Greek
+word Platikas (formed/moulded) and used
+by A.F.U. Schimper in 1885. He classified
+plastids into following types according to
+their structure, pigments and function.
+Plastids multiply by fission.
 
 
+![](/books/botany/pic19.png)
+
+#### 6.6.6 Chloroplast
+
+Chloroplasts are vital organelle found in
+green plants. Chloroplast has a double
+membrane the outer membrane and the
+inner membrane separated by a space called
+**periplastidial space**. The space enclosed by
+the inner membrane of chloroplast is filled
+with gelatinous matrix, lipo-proteinaceous
+fluid called **stroma**. Inside the stroma there
+are flat interconnected sacs called **thylakoid.**
+The membrane of thylakoid enclose a space
+called **thylakoid lumen.**
+
+**Grana** (singular: Granum) are formed
+when many of these thylakoids are stacked
+together like pile of coins. Light is absorbed
+and converted into chemical energy in
+the granum, which is used in stroma to
+prepare carbohydrates. Thylakoid contain
+chlorophyll pigments. The chloroplast
+contains osmophilic granules, 70s
+ribosomes, DNA (circular and non histone)
+and RNA. These chloroplast genome
+encodes approximately 30 proteins involved
+in photosynthesis including the components
+of photosystem I & II, cytochrome bf complex
+and ATP synthase. One of the subunits of
+RuBisco is encoded by chloroplast DNA. It is
+the major protein component of chloroplast
+stroma, single most abundant protein on
+earth. The thylakoid contain small, rounded
+photosynthetic units called quantosomes.
+Chloroplast is a semi-autonomous organelle
+and divides by fission (Figure 6.16).
+
+**Functions:**
+
+• Photosynthesis
+
+• Light reactions takes place in granum,
+
+• Dark reactions take place in stroma,
+
+• Chloroplast is involved in photo-
+respiration.
+
+### 6.6.7 Ribosome
+
+Ribosomes were first observed by **George**
+**Palade** (1953) as dense particles or granules
+in the electron microscope. Electron
+microscopic observation reveals that
+ribosomes are composed of two rounded
+sub units, united together to form a complete
+unit. Mg2+ is required for structural cohesion
+of ribosomes. Biogenesis of ribosome is a
+de nova formation, auto replication and
+nucleolar origin. Each ribosome is made
+up of one small and one large sub-unit
+Ribosomes are the sites of protein synthesis
+in the cell. Ribosome is not a membrane
+bound organelle (Figure 6.17).
 
 
+![](/books/botany/pic20.png)
 
 
+![](/books/botany/pic21.png)
+
+
+{{<box title = "Learning Objectives">}}
+
+The size of ribosomes
+and their subunits
+are usually given in
+Svedberg unit (named after Theoder
+Svedberg, Swedish Chemist Noble
+Laureate 1929), a measure of a particle
+size dependent on the speed with which
+particle sediment in the ultracentrifuge.
+
+{{< /box >}}
+
+Ribosome consists of RNA and protein:
+RNA 60 % and protein 40%. During protein
+synthesis, many ribosomes are attached to
+the single mRNA and is called **polysomes** or
+**polyribosomes.** The function of polysomes is
+the formation of several copies of a particular
+polypeptide during protein synthesis. They
+are free in non-protein synthesising cells.
+In protein synthesising cells they are linked
+together with the help of Mg2<sup>+</sup> ions.
 
 
