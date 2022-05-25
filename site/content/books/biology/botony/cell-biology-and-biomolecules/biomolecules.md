@@ -638,6 +638,176 @@ molecules across the membranes and also
 act as enzymes, receptors (or) antigens.
 
 
+{{<box title = "Learning Objectives">}}
+
+enzymes, receptors (or) antigens.
+Water-loving polar
+molecule are called
+hydrophilic molecule.
+They have polar
+phosphate group responsible for
+attracting water.
+Water hating non-polar molecule are
+called as hydrophobic molecule. They
+have fatty acid which is non-polar which
+cannot attract water
+
+
+{{< /box >}}
+
+Carbohydrate molecules of cell membrane
+are short chain polysaccharides. These are either
+bound with ‘**glycoproteins**’ or ‘**glycolipids**’
+and form a ‘**glyocalyx**’ (Figure 6.11).
+The movement of membrane lipids from one
+side of the membrane to the other side by
+vertical movement is called **flip flopping** or
+**flip flop movement**. This movement takes
+place more slowly than lateral diffusion of
+lipid molecule. The Phospholipids can have
+flip flop movement because they have smaller
+polar regions, whereas the proteins cannot flip
+flop because the polar region is extensive.
+
+
+**Function of Cell Membrane**
+The functions of the cell membrane is
+enormous which includes cell signalling,
+transporting nutrients and water, preventing
+unwanted substances entering into the cell,
+and so on.
+
+
+**Cytoplasm**
+
+Cytoplasm is the main arena of various activities
+of a cell. It is the semifluid gelatinous substance
+that fills the cell. It is made up of eighty percent
+water and is usually clear and colourless. The
+cytoplasm is sometimes described as non
+nuclear content of protoplasm. The cytoplasm
+serves as a molecular soup where all the
+cellular organelles are suspended and bound
+together by a lipid bilayer plasma membrane. It
+constitutes dissolved nutrients, numerous salts
+and acids to dissolve waste products. It is a very
+good conductor of electricity. It gives support
+and protection to the cell organelles. It helps
+movement of the cellular materials around
+the cell through a process called **cytoplasmic**
+**streaming**. Further, most cellular activities
+such as many metabolic pathways including
+glycolysis and cell division occur in cytoplasm.
+
+#### 6.6 Cell Organelles
+
+**6.6.1 Endomembrane System**
+
+System of membranes in a eukaryotic cell,
+comprises the plasma membrane, nuclear
+membrane, endoplasmic reticulum, golgi
+apparatus, lysosomes and vacuolar membranes
+(tonoplast). Endomembranes are made up of
+phospholipids with embedded proteins that
+are similar to cell membrane which occur
+within the cytoplasm. The endomembrane
+system is evolved from the inward growth
+of cell membrane in the ancestors of the first
+eukaryotes (Figure 6.12).
+
+**6.6.2 Endoplasmic Reticulum**
+
+The largest of the internal membranes is called
+the endoplasmic reticulum (ER). The name
+**endoplasmic reticulum** was given by **K.R.**
+**Porter (1948)**. It consists of double membrane.
+Morphologically the structure of endoplasmic
+reticulum consists of the following:
+
+1. **Cisternae** are long, broad, flat, sac like
+structures arranged in parallel bundles or
+stacks to form lamella. The space between
+membranes of cisternae is filled with fluid.
+
+2. **Vesicles**are oval membrane bound
+vacuolar structure.
+
+3. **Tubules** are irregular in shape, branched,
+smooth walled, enclose a space
+
+
+
+![](/books/botany/pic15.png)
+
+**Endoplasmic reticulum** is associated
+with nuclear membrane and cell surface
+membrane. It forms a network in cytoplasm
+and gives mechanical support to the cell.
+Its chemical environment enables protein
+folding and undergo modification necessary
+for their function. Misfolded proteins are
+pulled out and are degraded in endoplasmic
+reticulum. When ribosomes are present in the
+outer surface of the membrane it is called as
+**rough endoplasmic reticulum(RER)**, when
+the ribosomes are absent in the endoplasmic
+reticulum it is called as **smooth Endoplasmic**
+**reticulum(SER)**. Rough endoplasmic
+reticulum is involved in protein synthesis and
+smooth endoplasmic reticulum are the sites
+of lipid synthesis. The smooth endoplasmic
+reticulum contains enzymes that detoxify lipid
+soluble drugs, certain chemicals and other
+harmful compounds.
+
+#### 6.6.3 Golgi Body (Dictyosomes)
+
+In 1898, **Camillo Golgi** visualized a netlike
+reticulum of fibrils near the nucleus, were
+named as **Golgi bodies**. In plant cells they
+are found as smaller vesicles termed asdictyosomes. Golgi apparatus is a stack of
+flat membrane enclosed sacs. It consist of
+cisternae, tubules, vesicles and golgi vacuoles.
+In plants, the cisternae are 10-20 in number
+placed in piles separated from each other by
+a thin layer of inter cisternal cytoplasm often
+flat or curved. Peripheral edge of cisternae
+forms a network of tubules and vesicles.
+Tubules interconnect cisternae and are
+30-50nm in dimension. Vesicles are large
+round or concave sac. They are pinched
+off from the tubules.They are smooth/
+secretary or coated type. Golgi vacuoles
+are large spherical structures filled with
+granular or amorphous substance, some
+function like lysosomes. Golgi apparatus
+compartmentalises a series of steps
+leading to the production of functional
+protein.
+
+Small pieces of rough endoplasmic
+reticulum are pinched off at the ends to form
+small vesicles. A number of these vesicles then
+join up and fuse together to make a Golgi
+body. Golgi complex plays a major role in post
+translational modification of proteins and
+glycosylation of lipids (Figure 6.13 and 6.14).
+
+**Functions:**
+
+• Production of glycoproteins and glycolipids
+
+• Transporting and storing of lipids.
+
+• Formation of lysosomes.
+
+• Production of digestive enzymes.
+
+• Cell plate and cell wall formation
+
+
+
+
 
 
 
