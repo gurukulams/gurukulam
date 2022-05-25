@@ -805,10 +805,52 @@ glycosylation of lipids (Figure 6.13 and 6.14).
 
 • Cell plate and cell wall formation
 
+• Secretion of carbohydrates for the formation
+of plant cell walls and insect cuticles.
+
+• Zymogen granules (proenzyme/precursor
+of all enzyme) are synthesised.
+
+
+![](/books/botany/pic16.png)
+
+**6.6.4 Mitochondria**
+
+It was first observed by A. **Kolliker** (1880).
+**Altmann** (1894) named it as Bioplasts. Later
+**Benda** (1897, 1898), named as mitochondria.
+They are ovoid, rounded, rod shape and
+pleomorphic structures. Mitochondrion
+consists of double membrane, the outer and
+inner membrane. The outer membrane is
+smooth, highly permeable to small molecules
+and it contains proteins called Porins, which
+form channels that allows free diffusion
+of molecules smaller than about 1000
+daltons and the inner membrane divides
+mitochondrion into two compartments,
+outer chamber between two membranes and
+the inner chamber is filled with matrix.
+The inner membrane is convoluted
+(infoldings), called **crista**(plural: cristae).
+Cristae contain most of the enzymes for
+electron transport system. Inner chamber of
+the mitochondrion is filled with proteinaceous
+material called **mitochondrial matrix**. The
+Inner membrane consists of stalked particles
+called **elementary particles** or **Fernandez**
+**Moran particles, F1 particles or Oxysomes.**
+Each particle consists of a base, stem and a
+round head. In the head, ATP synthase is
+present for oxidative phosphorylation. Inner
+membrane is impermeable to most ions,
+small molecules and maintains the
+proton gradient that drives oxidative
+phosphorylation (Figure 6.15).
 
 
 
-
+![](/books/botany/pic17.png)
 
 
 
