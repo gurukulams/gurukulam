@@ -997,3 +997,54 @@ cell itself (Figure 6.18).
 
 
 ![](/books/botany/pic22.png)
+
+**Functions:**
+
+* Intracellular digestion: They digest
+carbohydrates, proteins and lipids
+present in cytoplasm.
+
+* Autophagy: During adverse condition
+they digest their own cell organelles like
+mitochondria and endoplasmic reticulum
+
+* Autolysis: Lysosome causes self
+destruction of cell.
+
+*  Ageing: Lysosomes have autolytic enzymes
+that disrupts intracellular molecules.
+
+![](/books/botany/pic25.png)
+
+* Phagocytosis: Large cells or contents
+are engulfed and digested by
+macrophages, thus forming a phagosome
+in cytoplasm. These phagosome fuse
+with lysosome for further digestion.
+
+* Exocytosis: Lysosomes release their
+enzymes outside the cell to digest other
+cells (Figure 6.19).
+
+##### 6.6.9 Microbodies
+
+Eukaryotic cells contain many enzyme
+bearing membrane enclosed vesicles
+called **microbodies**. They are single unit
+membrane bound cell organelles. Example:
+Peroxisomes and glyoxysomes.
+
+##### 6.6.10 Peroxisomes
+
+![](/books/botany/pic24.png)
+
+Peroxisomes were identified as organelles
+by **Christian de Duve (1967)**. Peroxisomes
+are small spherical bodies and single
+membrane bound organelle. It takes part in
+photorespiration and associated with glycolate
+metabolism. In plants, leaf cells have many
+peroxisomes. It is also commonly found in liver
+and kidney of mammals. These are also found
+in cells of protozoa and yeast (Figure 6.20).
+
