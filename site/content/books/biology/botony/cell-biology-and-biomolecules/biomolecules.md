@@ -1048,3 +1048,84 @@ peroxisomes. It is also commonly found in liver
 and kidney of mammals. These are also found
 in cells of protozoa and yeast (Figure 6.20).
 
+##### 6.6.11 Glyoxysomes
+
+Glyoxysome was discovered by **Harry**
+**Beevers (1961)**. It is a single membrane
+bound organelle. It is a sub cellular organelle
+and contains enzymes of glyoxylate pathway.
+β-oxidation of fatty acid occurs in glyoxysomes
+of germinating seeds Example: Castor seeds.
+
+##### 6.6.12 Sphaerosomes
+
+It is spherical in shape and enclosed by
+single unit membrane. Example: Storage
+of fat in the endosperm cells of oil seeds.
+
+#### 6.6.13 Centrioles
+
+Centrioles consists of nine triplet peripheral
+fibrils made up of tubulin. The central part
+of the centriole is called hub, is connected to
+the tubules of the peripheral triplets by radial
+spokes (9+0 pattern). The centriole form the
+basal body of cilia or flagella and spindle fibers
+which forms the spindle apparatus in animal
+cells. The membrane is absent in centriole
+(non-membranous organelle) (Figure 6.21).
+
+![](/books/botany/pic26.png)
+
+##### 6.6.14 Vacuoles
+
+In plant cells vacuoles are large, bounded by
+a single unit membrane called Tonoplast.
+The Vacuoles contain cell sap, which is a
+solution of sugars, amino acids, mineral
+salts, waste chemical and anthocyanin
+pigments. Beetroot cells contain
+anthocyanin pigments in their vacuoles.
+Vacuoles accumulate products like tannins.
+The osmotic expansion of a cell kept in
+water is chiefly regulated by vacuole and the
+water enters the vacuole by osmosis.
+The major function of plant vacuole is
+to maintain water pressure known as turgor
+pressure, which maintains the plant structure.
+Vacuoles organises itself into a storage/
+sequestration compartment. Example:
+Vacuoles store, most of the sucrose of the cell.
+
+i. Sugar in Sugar beet and Sugar cane.
+
+ii. Malic acid in Apple.
+
+iii. Acids in Citrus fruits.
+
+iv. Flavonoid pigment cyanidin 3 rutinoside
+in the petals of Antirrhinum.
+
+##### 6.7. Nucleus
+Nucleus is an important unit of cell which
+controls all activities of the cell. Nucleus
+holds the hereditary information. It is the
+largest among all cell organelles. It may be
+spherical, cuboidal, ellipsoidal or discoidal.
+It is surrounded by a double membrane
+structure called **nuclear envelope**, which has
+the inner and outer membrane. The inner
+membrane is smooth without ribosomes and
+the outer membrane is rough by the presence
+of ribosomes and it continues with irregular
+and infrequent intervals with the endoplasmic
+reticulum. The membrane is perforated by
+pores known as **nuclear pores** which allows
+materials such as mRNA, ribosomal units,
+proteins and other macromolecules to pass
+in and out of the nucleus. The pores enclosed
+by circular structures called **annuli**. The
+pore and annuli form the **pore complex**.
+The space between two membranes is called
+**perinuclear space**.
+
