@@ -954,7 +954,6 @@ bound organelle (Figure 6.17).
 ![](/books/botany/pic21.png)
 
 
-{{<box title = "Learning Objectives">}}
 
 The size of ribosomes
 and their subunits
@@ -965,7 +964,7 @@ Laureate 1929), a measure of a particle
 size dependent on the speed with which
 particle sediment in the ultracentrifuge.
 
-{{< /box >}}
+
 
 Ribosome consists of RNA and protein:
 RNA 60 % and protein 40%. During protein
@@ -979,3 +978,22 @@ In protein synthesising cells they are linked
 together with the help of Mg2<sup>+</sup> ions.
 
 
+**6.6.8 Lysosomes (Suicidal Bags of Cell)**
+
+Lysosomes were discovered by Christian
+de Duve (1953), these are known as
+suicidal bags. They are spherical bodies
+enclosed by a single unit membrane. They
+are found in eukaryotic cell. Lysosomes
+are small vacuoles formed when small
+pieces of golgi body are pinched off from
+its tubules.
+
+They contain a variety of hydrolytic
+enzymes, that can digest material within
+the cell. The membrane around lysosome
+prevent these enzymes from digesting the
+cell itself (Figure 6.18).
+
+
+![](/books/botany/pic22.png)
