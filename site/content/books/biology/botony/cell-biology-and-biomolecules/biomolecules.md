@@ -1245,3 +1245,91 @@ sequence in Neurospora crassa and human
 beings). Maintenance of telomeres appears
 to be an important factor in determining
 the life span and reproductive capacity of
+cells, so studies of telomeres and telomerase
+have the promise of providing new insights
+into conditions such as ageing and cancer.
+Telomeres prevent the fusion of chromosomal
+ends with one another.
+
+**Chromonema fibre:** A
+chromatin fibre, 100 – 130
+nm in diameter, an element
+of higher order packing within the
+chromosome. During prophase the
+chromosomal material becomes visible as
+very thin filament called chromonemata,
+which is called as chromatids in early
+stages of condensation. Chromatid and
+chromonema are the two names for
+the same structure a single linear DNA
+molecule with its associated proteins
+
+**Chromomeres:** Chromomeres are
+bead like accumulations of chromatin
+material which are visible along interphase
+chromosomes. They can be seen in polytene
+chromosomes. At metaphase they are not
+visible.
+
+
+![](/books/botany/pic29.png)
+
+Based on the position of centromere,
+chromosomes are called **telocentric** (terminal
+centromere), **acrocentric** (terminal centromere
+capped by telomere), **sub metacentric**
+(centromere subterminal) and **metacentric**
+(centromere median). The eukaryotic
+chromosome may be rod shaped (telocentric
+and acrocentric), L-shaped (sub-metacentric)
+and V-shaped (metacentric) (Figure 6.24).
+
+
+Based on the functions of chromosome
+it can be divided into **autosomes** and sex
+**chromosomes.**
+
+
+Autosomes are present in all cells
+controlling somatic characteristics of
+an organism. In human diploid cell,
+44 chromosomes are autosomes whereas two
+are sex chromosomes. Sex chromosomes are
+involved in the determination of sex.
+
+
+**Special types of chromosomes**
+
+These chromosomes are larger in size
+and are called **giant chromosomes** in
+certain plants and they are found in the
+suspensors of the embryo. The polytene
+chromosome and lamp brush chromosome
+occur in animals and are also called as giant
+**chromosomes.**
+
+**Polytene chromosomes** observed in
+the salivary glands of Drosophila (fruit fly)
+by **E.G. Balbiani** in 1881. In larvae of many
+flies, midges (Dipthera) and some insects
+the interphase chromosomes duplicates and
+reduplicates without nuclear division. A single
+chromosome which is present in multiple
+copies form a structure called polytene
+chromosome which can be seen in light
+microscope. They are genetically active. There
+is a distinct alternating dark bands and light
+inter-bands. About 95% of DNA are present
+in bands and 5% in inter-bands. The **polytene**
+**chromosome** has extremely large puff called
+Balbiani rings which is seen in Chironomous
+larvae. It is also known as chromosomal puff.
+Puffing of bands are the sites of intense RNA
+synthesis. As this chromosome occurs in the
+salivary gland it is known as **salivary gland**
+chromosomes. Gene expression, transcription
+of genes and RNA synthesis occurs in the
+bands along the polytene chromosomes.
+
+
+![](/books/botany/pic30.png)
