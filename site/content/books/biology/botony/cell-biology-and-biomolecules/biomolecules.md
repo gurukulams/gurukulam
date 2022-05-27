@@ -1333,3 +1333,60 @@ bands along the polytene chromosomes.
 
 
 ![](/books/botany/pic30.png)
+
+
+**Lampbrush chromosomes** occur at the
+diplotene stage of first meiotic prophase
+in oocytes of an animal **Salamandar** and
+in giant nucleus of the unicellular alga
+Acetabularia. It was first observed by
+**Flemming** in 1882. The highly condensed
+chromosome forms the chromosomal axis,
+from which lateral loops of DNA extend as
+a result of intense RNA synthesis.
+
+![](/books/botany/pic31.png)
+
+#### 6.8. Flagella
+
+##### 6.8.1 Prokaryotic Flagellum
+
+Bacterial flagella are helical appendages helps
+in motility. They are much thinner than
+flagella or cilia of eukaryotes. The filament
+contains a protein called **flagellin**. The
+structure consists of a basal body associated
+with cytoplasmic membrane and cell wall
+with short hook and helical filament. Bacteria
+rotates their helical flagella and propels rings
+present in the basal body which are involved
+in the rotary motor that spins the flagellum.
+
+**Check your grasp ?**
+
+When E.coli are cultured in medium
+rich in glucose they lack flagella. When
+grown in nutritionally poor medium they
+possess flagella. What does this indicate
+about the value of flagella?
+Flagella is essential to seek out a
+nutritionally more favourable environment.
+
+**Structure of flagella in Bacteria**
+
+The gram positive bacteria contain only
+two basal rings. S-ring is attached to the
+inside of peptidoglycan and M-ring is
+attached to the cell membrane. In Gram
+negative bacteria two pairs of rings proximal
+and distal ring are connected by a central
+rod. They are L-Lipopolysaccharide ring,
+P-Peptidoglycan ring, S-Super membrane ring
+and M-membrane ring. The outer pair L and
+P rings is attached to cell wall and the inner
+pair S and M rings attached to cell membrane
+(Figure 6.27).
+
+![](/books/botany/pic32.png)
+
+##### Mechanism of flagellar movement – proton motive force
