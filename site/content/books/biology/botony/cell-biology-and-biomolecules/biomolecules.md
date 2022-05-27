@@ -1129,3 +1129,119 @@ pore and annuli form the **pore complex**.
 The space between two membranes is called
 **perinuclear space**.
 
+**Chromatin** is a viscous
+gelatinous substance that
+contains DNA, histone &
+non–histone proteins and
+RNA. H1, H2A, H2B, H3 and H4 are the
+different histones found in chromatin. It is
+formed by a series of repeated units called
+nucleosomes. Each nucleosome has a core
+of eight histone subunits.
+
+Nuclear space is filled with nucleoplasm,
+a gelatinous matrix has uncondensed
+chromatin network and a conspicuous
+nucleolius. The Chromatin network is an
+uncoiled, indistinct and remain thread like
+during the interphase. It has little amount of
+RNA and DNA bound to histone proteins in
+eukaryotic cells (Figure 6.22).
+
+![](/books/botany/pic27.png)
+
+During cell division chromatin is
+condensed into an organized form called
+**chromosome**. The portion an eukaryotic
+chromosome which is transcribed into mRNA
+contains active genes that are nottightly
+condensed during interphase is called
+Euchromatin. The portion of an eukaryotic
+chromosome that is not transcribed into
+mRNA which remains condensed during
+interphase and stains intensely is called
+**Heterochromatin**. **Nucleolus**is a small,
+dense, spherical structure either present singly
+or in multiples inside the nucleus and it’s not
+membrane bound. Nucleoli possess genes for
+rRNA and tRNA.
+
+##### Functions of the nucleus
+
+* Controlling all cellular activities
+
+* Storing the genetic or hereditary
+information.
+
+* Coding the information from DNA for
+the production of enzymes and proteins.
+
+* DNA duplication and transcription
+takes place in the nucleus.
+
+* In nucleolus ribosomal biogenesis takes
+place.
+
+##### 6.7.1 Chromosomes
+
+**Strasburger** (1875) first reported its present
+in eukaryotic cell and the term ‘chromosome’
+was introduced by **Waldeyer** in 1888. **Bridges**
+(1916) first proved that chromosomes are the
+physical carriers of genes. It is made up of
+DNA and associated proteins.
+
+**Structure of chromosome**
+
+The chromosomes are composed of thread
+like strands called **chromatin** which is
+made up of DNA, protein and RNA. Each
+chromosome consists of two symmetrical
+structures called **chromatids**. During cell
+division the chromatids forms a well organized
+chromosomes with definite size and shape.
+They are identical and are called sister
+chromatids. A typical chromosome has narrow
+zones called constrictions. There are two types
+of constrictions, namely **primary constriction**
+and secondary constriction. The primary
+constriction is made up of centromereand kinetochore. Both the chromatids are
+united at centromere, whose number varies.
+The **monocentric** chromosome has one
+centromere and the **polycentric** chromosome
+has many centromeres. Centromere contains
+a complex system of protein fibres called
+kinetochore. Kinetochore is the region of
+chromosome which is attached to the spindle
+fibre during mitosis.
+
+Besides primary there are few **secondary**
+**constrictions**, are present. Nucleoli develop
+from these secondary constrictions are
+called **nucleolar organizers**. Secondary
+constrictions contain the genes for ribosomal
+RNA which induce the formation of nucleoli
+and are called **nucleolar organizer regions**
+(Figure 6.23).
+
+A satellite or SAT Chromosome is a
+short chromosomal segment or rounded
+
+![](/books/botany/pic28.png)
+
+body separated from main chromosome by
+a relatively elongated secondary constriction.
+It is a morphological entity in certain
+chromosomes.
+
+
+**Telomere** is the terminal part of
+chromosome. It offers stability to the
+chromosome. DNA of the telomere has
+specific sequence of nucleotides. Telomere in
+all eukaryotes are composed of many repeats
+of short DNA sequences (**5’TTAGGG3’**
+sequence in Neurospora crassa and human
+beings). Maintenance of telomeres appears
+to be an important factor in determining
+the life span and reproductive capacity of
