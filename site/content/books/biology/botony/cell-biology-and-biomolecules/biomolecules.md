@@ -638,7 +638,7 @@ molecules across the membranes and also
 act as enzymes, receptors (or) antigens.
 
 
-{{<box title = "Learning Objectives">}}
+{{< box >}}
 
 enzymes, receptors (or) antigens.
 Water-loving polar
@@ -1577,5 +1577,6 @@ cell.
 
 10. Draw the ultra structure of plant cell.
 
-![](/books/botany/pic34.png)
+![](/books/botany/pic36.png)
+
 
