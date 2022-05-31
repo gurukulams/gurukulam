@@ -1424,5 +1424,158 @@ protein tubulin (Figure 6.28).
 
 ![](/books/botany/pic33.png)
 
+**Movement**
 
+Outer microtubule doublet
+is associated with axonemal
+dynein which generates force
+for movement. The movement
+is ATP driven. The interaction
+between tubulin and dynein
+is the mechanism for the
+contraction of cilia and flagella. Dynein
+molecules uses energy from ATP to shift
+the adjacent microtubules. This movement
+bends the cilium or flagellum.
+
+
+![](/books/botany/pic34.png)
+
+Cilia (plural) are short cellular, numerous
+microtubule bound projections of plasma
+membrane. Cilium (singular) is membrane
+bound structure made up of basal body,
+rootlets, basal plate and shaft. The shaft
+or **axoneme** consists of nine pairs of
+microtubule doublets, arranged in a circle
+along the periphery with a two central
+tubules, **(9+2)** arrangement of microtubules
+is present. Microtubules are made up of
+tubulin. The motor protein **dynein** connects
+the outer microtubule pair and links them to
+the central pair. Nexin links the peripheral
+doublets of microtubules (Figure 6.29).
+
+#### Summary
+
+Cell is the fundamental unit of all organisms
+which was identified 300 years ago. Microscope
+offers scope for observing smaller objects and
+organisms. It works on the principle of light
+and lenses. Different microscope offers clarity
+in observing objects depending on the features
+to be observed. Micrometric techniques
+are used in measurement of microscopic
+objects. Electron microscopes are used in
+understanding the ultra-structural details of
+cell. Cell theory and doctrine states that all
+organism are made up of cell and it contains
+genetic material. Protoplasm theory explains
+nature and different properties of protoplasm.
+Cell size and shape differ from type of tissue
+or organs and organisms. Based on cellular
+organization and nuclear characters the
+organisms are classified into prokaryote,
+eukaryote and mesokaryote.
+
+
+Key difference between plant cell and
+animal cell is the cell wall. Protoplasm is
+the colourless mass includes the cytoplasm,
+cell organelles and nucleus. Cell wall is the
+outermost protective covering with three
+regions primary, secondary wall and middle
+lamellae. Cell membrane holds the cytoplasmic
+content called cytosol. Cytoplasm includes
+the matrix and the cell organelles excluding
+nucleus. Endomembrane system includes
+endoplasmic reticulum, golgi apparatus,
+chloroplast, lysosomes, vacuoles, nuclear
+membrane and plasma membrane. Nucleus is
+the control unit of the cell, it carries hereditary
+information. Chromosomes are made up
+of DNA and associated proteins. Bacterial
+flagella are made up of helical polymers of a
+protein called flagellin. Proton motive force
+are involved in flagellar rotation. In Eukaryotes
+flagella are made up microtubules and protein
+called dynein and nexin and the movement is
+driven by ATP.
+
+![](/books/botany/pic35.png)
+
+#### Evaluation
+
+1. The two subunits of
+ribosomes remain
+united at critical ion
+level of
+a. Magnesium
+
+b. Calcium
+
+c. Sodium
+
+d. Ferrous
+
+2. Sequences of which of the following is
+used to know the phylogeny.
+
+a. mRNA
+
+b. rRNA
+
+c. tRNA 
+
+d. Hn RNA
+
+3. Many cells function properly and
+divide mitotically even though they do
+not have.
+
+a. Plasma membrane 
+
+b. cytoskeleton
+
+c. mitochondria 
+
+d. Plastids
+
+
+4. Keeping in view the fluid mosaic model
+for the structure of cell membrane,
+which one of the following statements
+is correct with respect to the movement
+of lipids and proteins from one lipid
+monolayer to the other.
+
+
+a. Neither lipid nor proteins can
+flip-flop
+
+b. Both lipid and proteins can flip flop
+
+c. While lipids can rarely flip-flop
+proteins cannot
+
+d. While proteins can flip-flop lipids
+cannot
+
+5. Match the columns and identify the
+correct option:
+
+6. Bring out the significance of
+Transmission Electron Microscope.
+
+7. State the protoplasm theory.
+
+8. Distinguish between prokaryotes and
+eukaryotes.
+
+9. Difference between plant and animal
+cell.
+
+10. Draw the ultra structure of plant cell.
+
+![](/books/botany/pic34.png)
 
