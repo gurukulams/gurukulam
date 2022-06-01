@@ -209,17 +209,43 @@ are synthesised and attach to the DNA. The
 centrioles duplicate in the cytoplasm. DNA
 content increases from 2C to 4C.
 
+#### 7.2.6 G<sub>2</sub> – The second Gap phase – 4C amount of DNA in cells of G<sub>2</sub> and mitosis
 
+Cell growth continues by protein and cell
+organelle synthesis, mitochondria and
+chloroplasts divide. DNA content remains as
+4C. Tubulin is synthesised and microtubules
+are formed. Microtubles organise to form
+spindle fibre. The spindle begins to form
+and nuclear division follows.
 
+One of the proteins synthesized only
+in the G2 period is known as **Maturation**
+**Promoting Factor (MPF).** It brings about
+condensation of interphase chromosomes
+into the mitotic form.
+DNA damage checkpoints operates in G1
+S and G2 phases of the cell cycle.
 
+### 7.3 Cell Division
 
+#### 7.3.1 Amitosis (Direct Cell Division)
 
-
-
-
-
+Amitosis is also called **direct or incipient cell**
+division. Here there is no spindle formation
+and chromatin material does not condense.
+It consist of two steps: (Figure 7.2).
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.2.eng.png )
+
+
+
+
+
+
+
+
+
 
 
 
