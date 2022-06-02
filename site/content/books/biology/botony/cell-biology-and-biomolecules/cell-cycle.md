@@ -345,26 +345,205 @@ are attached. It is a trilaminar disc like plate.
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.5.eng.png )
 
+**Anaphase**
+
+Each chromosome splits simultaneously and two
+daughter chromatids begin to migrate towards
+two opposite poles of a cell. Each centromere
+splits longitudinally into two, freeing the two
+sister chromatids from each other. When sister
+chromatids separate the actual partitioning of
+the replicated genome is complete.
+
+APC (Anaphase Promoting Complex) is
+a cluster of proteins that induces the breaking
+down of cohesion proteins which leads to
+the separation of chromatids during mitosis
+(Figure 7.5). Thus it helps in the transition of
+metaphase to anaphase.
+
+**Telophase**
+
+Two sets of daughter
+chromosomes reach opposite
+poles of the cell and mitotic
+spindle disappears. Division of
+genetic material is completed
+during karyokinesis, followed
+by cytokinesis (division of
+cytoplasm). Nucleolus and
+nuclear membranes reforms.
+Nuclear membrane form around
+each set of **chromosomes**.
+Now the chromosomes
+decondense. In plants, phragmoplast are
+formed between the daughter cells. Cell
+plate is formed between the two daughter
+cells, reconstruction of cell wall takes place.
+Finally cells are separated by the distribution
+of organelles, macromolecules into two
+newly formed daughter cells.
 
 
+#### 7.3.4 Cytokinesis
+
+**Cytokinesis in Animal Cells**
+
+It is a contractile process. The ring consists of
+a bundle of microfilaments assembled from
+**actin and myosin**. This fibril generates a
+contractile force, that draws the ring inward
+forming a cleavage furrow in the cell. Thus it
+divides the cell into two.
+
+**Check your grasp!**
+What effect does mitosis have on
+transcription?
+During mitosis transcription stops.
 
 
+**Cytokinesis in Plant Cell**
 
+Division of the cytoplasm often starts during
+telophase. In plants, cell plate grows from
+centre towards lateral walls.
 
-
-
-
-
-
-
-
+Phragmoplast contains microtubules, actin
+filaments and vesicles from golgi apparatus
+and ER. Microtubule of the pharagmoplast
+move to the equator, fuse to form a new plasma
+membrane and the materials which are placed
 
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.6.eng.png )
 
+there becomes new cell wall. The first stage
+of cell wall construction is a line dividing the
+newly forming cells called a **cell plate**. The cell
+plate eventually stretches right across the cell
+forming the middle lamella. Cellulose builds
+up on each side of the middle lamella to form
+the cell walls of two new plant cells.
 
+**Activity**
+
+Squash preparation
+of onion root tip to
+visualize and study
+various stages of mitosis.
+
+{{< box >}}
+
+A Culture of animal cells in which the cell
+cycles were asynchronous was incubated
+with 3H-Thymidine for 10 minutes.
+Autoradiography showed that 50% of the
+cells were labelled. If the cell cycle time
+(generation time) was 16 hrs how long
+was the S period?
+Length of the S period = Fraction of
+cells in DNA replication × generation time
+Length of the S period = 0.5 × 16
+hours = 8 hours
+
+
+{{< /box >}}
+
+
+{{< box >}}
+
+Skin cells and the cells lining
+our gut are constantly dying
+and are being replaced by
+identical cells.
+
+{{< /box >}}
+
+#### 7.3.5 Significance of Mitosis
+
+Exact copy of the parent cell is produced by
+mitosis (genetically identical).
+
+1. Genetic stability – daughter cells are
+genetically identical to parent cells.
+
+2. Growth – as multicellular organisms
+grow, the number of cells making up
+their tissue increases. The new cells must
+be identical to the existing ones.
+
+3. Repair of tissues - damaged cells must be
+replaced by identical new cells by mitosis.
+
+4. Asexual reproduction – asexual reproduction
+results in offspring that are identical to the
+parent. Example Yeast and Amoeba.
+
+5. In flowering plants, structure such
+as bulbs, corms, tubers, rhizomes
+and runners are produced by mitotic
+division. When they separate from the
+parent, they form a new individual.
+The production of large numbers of
+offsprings in a short period of time,
+is possible only by mitosis. In genetic
+engineering and biotechnology, tissues
+are grown by mitosis (i.e. in tissue culture).
+
+6. Regeneration – Arms of star fish.
+
+#### 7.3.6 Meiosis
+
+In Greek meioum means to reduce. Meiosis
+is unique because of synapsis, homologous
+recombination and reduction division.
+
+Meiosis takes place in the reproductive
+organs. It results in the formation of gametes
+with half the normal chromosome number.
+
+Haploid sperms are made in testes;
+haploid eggs are made in ovaries of animals.
+In flowering plants meiosis occurs
+during microsporogenesis in anthers and
+megasporogenesis in ovule. In contrast to
+mitosis, meiosis produces cells that are not
+genetically identical. So meiosis has a key
+role in producing new genetic types which
+results in genetic variation.
+
+#### Stages in Meiosis
+
+Meiosis can be studied under two divisions
+i.e., meiosis I and meiosis II. As with mitosis,
+the cell is said to be in interphase when it is
+not dividing.
+
+
+{{< box >}}
+
+Prophase I is the longest and most complex
+stage in meiosis. Pairing of homologous
+chromosomes (bivalents) take place.
+
+{{< /box >}}
+
+#### Meiosis I-Reduction Division
+
+**Prophase I** – Prophase I is of longer
+duration and it is divided into 5 substages –
+Leptotene, Zygotene, Pachytene, Diplotene
+and Diakinesis (Figure 7.7).
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.7.eng.png )
+
+
+
+
+
+
+
+
 
 
 
