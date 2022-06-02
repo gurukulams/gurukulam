@@ -238,25 +238,125 @@ It consist of two steps: (Figure 7.2).
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.2.eng.png )
 
+**Karyokinesis:**
 
+* Involves division of
+nucleus.
 
+*  Nucleus develops a
+constriction at the
+center and becomes
+dumbell shaped.
 
+* Constriction deepens and divides the
+nucleus into two.
 
+**Cytokinesis:**
 
+* Involves division of cytoplasm.
 
+* Plasma membrane develops a
+constriction along nuclear constriction.
 
+* It deepens centripetally and finally
+divides the cell into two cells.
+Example: Cells of mammalian cartilage,
+macronucleus of Paramecium and old
+degenerating cells of higher plants.
 
+**Drawbacks of Amitosis**
+
+* Causes unequal distribution of
+chromosomes.
+
+* Can lead to abnormalities in metabolism
+and reproduction.
+
+#### 7.3.2 Mitosis
+
+Mitosis occurs in shoot and root tips and
+other meristematic tissues of plants associated
+with growth. The number of chromosomes
+in the parent and the daughter (Progeny)
+cells remain the same so it is also called as
+**equational division.**
+
+#### 7.3.3 Closed and Open Mitosis
+
+In closed mitosis, the nuclear envelope
+remains intact and chromosomes migrate
+to opposite poles of a spindle within the
+nucleus (Figure 7.3).
+
+Example: Many single celled eukaryotes
+including yeast and slime molds.
+
+In open mitosis, the nuclear envelope
+breaks down and then reforms around the 2
+sets of separated chromosome.
+
+Example: Most plants and animals
+
+**Some animals are able to regenerate**
+**whole parts of the body.**
 
 
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.3.eng.png )
 
+Mitosis is divided into four stages
+prophase, metaphase, anaphase and
+telophase (Figure 7.6).
 
+**Prophase**
+
+Prophase is the longest phase in mitosis.
+Chromosomes become visible as long
+thin thread like structure, condenses to
+form compact mitotic chromosomes.
+In plant cells initiation of spindle fibres
+takes place, nucleolus disappears. Nuclear
+envelope breaks down. Golgi apparatus and
+endoplasmic reticulum disappear.
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.4.eng.png )
 
+In animal cell the centrioles extend a
+radial array of microtubules (Figure 7.4) and
+reach the poles of the cell. This arrangement
+of microtubules is called **an aster**. Plant cells
+do not form asters.
+
+**Metaphase**
+
+Chromosomes (two sister chromatids) are
+attached to the spindle fibres by kinetochore
+of the centromere. The spindle fibres are made
+up of tubulin. The alignment of chromosome
+into compact group at the equator of the cell
+is known as **metaphase plate**. This is the
+stage where the chromosomal morphology
+can be easily studied.
+
+Kinetochore is a DNA–Protein complex
+present at the centromere where microtubules
+are attached. It is a trilaminar disc like plate.
+
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.5.eng.png )
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
