@@ -691,13 +691,13 @@ through independent assortment.
 environmental stress.
 
 
-![cell-cycle](/books/biology/unit-3/cellcycle/table3.png )
+![](/books/botany/cellcycle/table3.png)
 
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.8.eng.png )
 
 
-![cell-cycle](/books/biology/unit-3/cellcycle/table4.png )
+![](/books/botany/cellcycle/table4.png)
 
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.9.eng.png )
@@ -818,4 +818,4 @@ and animal cells.
 of Prophase I.
 
 
-
+![](/books/botany/cellcycle/pic1.png)
