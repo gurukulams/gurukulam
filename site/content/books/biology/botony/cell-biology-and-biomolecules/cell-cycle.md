@@ -535,25 +535,287 @@ duration and it is divided into 5 substages –
 Leptotene, Zygotene, Pachytene, Diplotene
 and Diakinesis (Figure 7.7).
 
-![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.7.eng.png )
+![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.7.eng.png)
 
 
 
+**Leptotene** – Chromosomes are visible
+under light microscope. Condensation of
+chromosomes takes place. Paired sister
+chromatids begin to condense.
+
+**Zygotene**– Pairing of homologous
+chromosomes takes place and it is known
+as synapsis. Chromosome synapsis is made
+by the formation of synaptonemal complex.
+The complex formed by the homologous
+chromosomes are called as bivalent (tetrads).
+
+**Pachytene** – At this stage bivalent
+chromosomes are clearly visible as
+tetrads. Bivalent of meiosis I consists of 4
+chromatids and 2 centromeres. Synapsis
+is completed and recombination nodules
+appear at a site where crossing over takes
+place between non-sister chromatids of
+homologous chromosome. Recombination
+of homologous chromosomes is completed
+by the end of the stage but the chromosomes
+are linked at the sites of crossing over. This is
+mediated by the enzyme recombinase.
+
+**Diplotene** – Synaptonemal complex
+disassembled and dissolves. The homologous
+chromosomes remain attached at one or
+more points where crossing over has taken
+place. These points of attachment where
+‘X’ shaped structures occur at the sites of
+crossing over is called Chiasmata. Chiasmata
+are chromatin structures at sites where
+recombination has been taken place. They
+are specialised chromosomal structures that
+hold the homologous chromosomes together.
+Sister chromatids remain closely associated
+whereas the homologous chromosomes tend
+ to separate from each other but are held
+together by chiasmata. This substage may last
+for days or years depending on the sex and
+organism.
+
+**Diakinesis** – Terminalisation of chiasmata,
+homologous chromosomes become short and
+condensed. Nucleolus and nuclear envelope
+disappears. Spindle fibres assemble.
+
+**Metaphase I**
+
+Spindle fibres are attached to the centromeres
+of the two homologous chromosomes.
+Bivalent (pairs of homologous chromosomes)
+aligned at the equator of the cell known as
+**metaphase plate.**
+
+The random distribution of homologous
+chromosomes in a cell in Metaphase I is
+called **independent assortment**.
+
+**Anaphase I**
+
+Homologous chromosomes are separated
+from each other by shortening of spindle
+fibers. Each homologous chromosomes with
+its two chromatids and undivided centromere
+move towards the opposite poles of the
+cells. The actual reduction in the number
+of chromosomes takes place at this stage.
+Homologous chromosomes which move
+to the opposite poles are either paternal or
+maternal in origin. Sister chromatids remain
+attached with their centromeres.
+
+**Telophase I**
+
+Haploid set of chromosomes are present at
+each pole. The formation of two daughter cells,
+each with haploid number of chromosomes
+takes place. Nuclei reassembled. Nuclear
+envelope forms around the chromosome
+and the chromosomes becomes uncoiled.
+Nucleolus reappears.
+
+In plants after karyokinesis, cytokinesis
+takes place by which two daughter cells are
+formed by the cell plate between 2 groups
+of chromosomes known as **dyad of cells**
+**(haploid).**
+
+The stage between the two meiotic
+divisions is called **interkinesis** which is
+short-lived.
+
+**Meiosis II** – Equational division.
+This division is otherwise called mitotic
+meiosis because it resembles mitosis. Since it
+includes all the stages of mitotic divisions.
+
+**Prophase II**
+The chromosome with 2 chromatids becomes
+short, condensed, thick and becomes visible.
+New spindle develops at right angles to the
+cell axis. Nuclear membrane and nucleolus
+disappear.
+
+**Metaphase II**
+
+Chromosome arranged at the equatorial plane
+of the spindle. Microtubules of spindle gets
+attached to the centromere of sister chromatids.
+
+**Anaphase II**
+
+Sister chromatids separate. The
+daughter chromosomes move
+to the opposite poles due to
+shortening of spindle fibres.
+Centromere of each chromosome
+split, allowing to move towards
+opposite poles of the cells holding
+the sister chromatids.
+
+**Telophase II**
+Four groups of chromosomes are
+organised into four haploid nuclei.
+The spindle disappears. Nuclear
+envelope, nucleolus reappear.
+After karyokinesis,
+
+cytokinesis follows and four
+haploid daughter cells are
+formed, called **tetrads.**
+
+**7.3.7 Significance of Meiosis**
+
+* This maintains a definite
+constant number of
+chromosomes in organisms.
+
+* Crossing over takes place and exchange of
+genetic material leads to variations among
+species. These variations are the raw
+materials to evolution. Meiosis leads to
+genetic variability by partitioning different
+combinations of genes into gametes
+through independent assortment.
+
+* Adaptation of organisms to various
+environmental stress.
 
 
-
-
-
-
+![](/books/botany/cellcycle/table3.png)
 
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.8.eng.png )
 
 
+![](/books/botany/cellcycle/table4.png)
+
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.9.eng.png )
 
+**Evaluation**
+
+1. The correct sequence in
+cell cycle is
+
+a. S-M-G1-G2
+
+b. S-G1-G2-M
+
+c. G1-S-G2-M
+
+d. M-G-G2-S
+
+2. If mitotic division is restricted in G1
+phase of the cell cycle then the condition
+is known as
+
+a. S Phase 
+
+b. G2 Phase
+
+c. M Phase 
+
+d. G0 Phase
+
+3. Anaphase promoting complex APC is a
+protein degradation machinery necessary
+for proper mitosis of animal cells. If APC
+is defective in human cell, which of the
+following is expected to occur?
+
+a. Chromosomes will be fragmented
+
+b. Chromosomes will not condense
+
+c. Chromosomes will not segregate
+
+d. Recombination of chromosomes
+will occur
+
+4. In S phase of the cell cycle
+
+a. Amount of DNA doubles in each cell
+
+b. Amount of DNA remains same in
+each cell
+
+c. Chromosome number is increased
+
+d. Amount of DNA is reduced to half
+in each cell
 
 
+5. Centromere is required for
+
+a. transcription
+
+b. crossing over
+
+c. Cytoplasmic cleavage
+
+d. movement of chromosome towards
+pole
+
+6. Synapsis occur between
+
+a. mRNA and ribosomes
+
+b. spindle fibres and centromeres
+
+c. two homologous chromosomes
+
+d. a male and a female gamete
+
+7. In meiosis crossing over is initiated at
+
+a. Diplotene
+
+b. Pachytene
+
+c. Leptotene
+
+d. Zygotene
+
+8. Colchicine prevents the mitosis of the
+cells at which of the following stage
+
+a. Anaphase
+
+b. Metaphase
+
+c. Prophase
+
+d. interphase
+
+9. The paring of homologous
+chromosomes on meiosis is known as
+
+a. Bivalent
+b. Synapsis
+c. Disjunction
+d. Synergids
+
+10. Write any three significance of mitosis.
+
+11. Differentiate between mitosis and meiosis.
+
+12. Given an account of G0 phase.
+
+13. Differentiate cytokinesis in plant cells
+and animal cells.
+
+14. Write about Pachytene and Diplotene
+of Prophase I.
 
 
+![](/books/botany/cellcycle/pic1.png)
