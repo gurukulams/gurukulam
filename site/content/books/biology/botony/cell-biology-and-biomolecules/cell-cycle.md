@@ -694,24 +694,128 @@ environmental stress.
 ![cell-cycle](/books/biology/unit-3/cellcycle/table3.png )
 
 
-
-
-
-
-
-
-
-
-
-
-
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.8.eng.png )
 
+
+![cell-cycle](/books/biology/unit-3/cellcycle/table4.png )
 
 
 ![cell-cycle](/books/biology/unit-3/cellcycle/Fig7.9.eng.png )
 
+**Evaluation**
 
+1. The correct sequence in
+cell cycle is
+
+a. S-M-G1-G2
+
+b. S-G1-G2-M
+
+c. G1-S-G2-M
+
+d. M-G-G2-S
+
+2. If mitotic division is restricted in G1
+phase of the cell cycle then the condition
+is known as
+
+a. S Phase 
+
+b. G2 Phase
+
+c. M Phase 
+
+d. G0 Phase
+
+3. Anaphase promoting complex APC is a
+protein degradation machinery necessary
+for proper mitosis of animal cells. If APC
+is defective in human cell, which of the
+following is expected to occur?
+
+a. Chromosomes will be fragmented
+
+b. Chromosomes will not condense
+
+c. Chromosomes will not segregate
+
+d. Recombination of chromosomes
+will occur
+
+4. In S phase of the cell cycle
+
+a. Amount of DNA doubles in each cell
+
+b. Amount of DNA remains same in
+each cell
+
+c. Chromosome number is increased
+
+d. Amount of DNA is reduced to half
+in each cell
+
+
+5. Centromere is required for
+
+a. transcription
+
+b. crossing over
+
+c. Cytoplasmic cleavage
+
+d. movement of chromosome towards
+pole
+
+6. Synapsis occur between
+
+a. mRNA and ribosomes
+
+b. spindle fibres and centromeres
+
+c. two homologous chromosomes
+
+d. a male and a female gamete
+
+7. In meiosis crossing over is initiated at
+
+a. Diplotene
+
+b. Pachytene
+
+c. Leptotene
+
+d. Zygotene
+
+8. Colchicine prevents the mitosis of the
+cells at which of the following stage
+
+a. Anaphase
+
+b. Metaphase
+
+c. Prophase
+
+d. interphase
+
+9. The paring of homologous
+chromosomes on meiosis is known as
+
+a. Bivalent
+b. Synapsis
+c. Disjunction
+d. Synergids
+
+10. Write any three significance of mitosis.
+
+11. Differentiate between mitosis and meiosis.
+
+12. Given an account of G0 phase.
+
+13. Differentiate cytokinesis in plant cells
+and animal cells.
+
+14. Write about Pachytene and Diplotene
+of Prophase I.
 
 
 
