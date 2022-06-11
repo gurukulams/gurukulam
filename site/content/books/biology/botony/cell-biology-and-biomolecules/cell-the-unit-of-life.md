@@ -167,6 +167,63 @@ also for contrast of the image.
 
 ![](/books/botany/unitoflife/pic2.png)
 
+There are two kinds of electron
+microscopes namely:
+1. Transmission Electron Microscope (TEM)
+2. Scanning Electron Microscope (SEM)
+
+#### 1. Transmission electron microscope:
+
+This is the most commonly used electron
+microscope which provides two dimensional
+image. The components of the microscope
+are as follows:
+
+a. Electron generating system
+b. Electron condensor
+c. Specimen objective
+d. Tube lens
+e. Projector
+
+A beam of electron passes through the
+specimen to form an image on fluorescent
+screen. The magnification is 1–3 lakhs times
+and resolving power is 2–10 Å. It is used
+for studying detailed structrue of viruses,
+![](/books/botany/unitoflife/pic3.png)
+mycoplasma, cellular organelles, etc (Figure
+6.3 a and b).
+
+#### 2. Scanning Electron Microscope:
+image and has a lower resolving power than
+TEM. In this, electrons are focused by means
+of lenses into a very fine point. The interaction
+of electrons with the specimen results in the
+release of different forms of radiation (such
+as auger electrons, secondary electrons, back
+scattered electrons) from the surface of the
+specimen. These radiations are then captured
+by an appropriate detector, amplified and
+then imaged on fluorescent screen. The
+magnification is 2,00,000 times and resolution
+is 5–20 nm (Figure 6.4 a and b).
+
+![](/books/botany/unitoflife/pic4.png)
+
+#### 6.3. Cell Theory
+
+In 1833, German botanist **Matthias**
+**Schleiden** and German zoologist **Theodor**
+**Schwann** proposed that all plants and
+animals are composed of cells and that cells
+were the basic building blocks of life
+
+![](/books/botany/unitoflife/pic5.png)
+
+
+
+
+
 
 
 
