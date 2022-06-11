@@ -132,7 +132,8 @@ extensions:
 
 \\(X \ W \ X \ Y \ X \ Z \ W \ X \ Z\\) 
 
-(ii) image coming.....
+(ii) ![relation](/books/maths/part-1/sets/relation/image18.png "relation")
+
 
 (iii) \\( \lbrace (p, X), (p,W), (q,X),(q,Y),(r,X),(r, Z), (r, W), (s, X), (t, Z) \rbrace\\)
 
