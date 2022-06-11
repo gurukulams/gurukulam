@@ -9,7 +9,7 @@ extensions:
 ---
 
 
-# Lessons coming soon!
+
 
 {{<box title = "Learning Objectives">}}
 
