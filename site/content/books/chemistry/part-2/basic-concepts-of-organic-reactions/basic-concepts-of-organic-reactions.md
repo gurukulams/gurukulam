@@ -174,3 +174,6 @@ Highly electropositive atoms and atoms are groups which carry a negative charge 
 Example. Alkali metals, alkyl groups
 
 page no. 166
+
+////
+gcggvh
