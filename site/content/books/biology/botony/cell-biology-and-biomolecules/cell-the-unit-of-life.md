@@ -410,10 +410,48 @@ Gymnodinium, Peridinium and Dinoflagellates
 are representatives of mesokaryotes.
 
 
+#### 6.4.3 Eukaryotes
+
+Those organisms which have true nucleus
+are called **Eukaryotes** (Eu – True; karyon –
+nucleus). The DNA is associated with histones
+forming the chromosomes. Membrane bound
+organelles are present. Few organelles may
+have risen by **endosymbiosis** which is a cell
+living inside another cell. The Organelles like
+mitochondria and chloroplast well support
+this theory.
 
 
+**Origin of Eukaryotic cell:**
+
+**Endosymbiont theory:**Two eukaryotic
+organelles believed to be the descendants
+of the endosymbiotic prokaryotes. The
+ancestors of the eukaryotic cell engulfed
+a bacterium and the bacteria continued
+to function inside the host cell.
+
+![](/books/botany/unitoflife/pic8.png)
+
+#### 6.5. Plant and Animal cell
+
+**6.5.1 Ultra Structure of an Eukaryotic Cell**
+An eukaryotic cell is highly distinct in its
+organisation. It shows several variations in
+different organisms. For instance, eukaryotic cells
+in plants and animals vary greatly (Figure 6.7).
 
 
+![Figure 6.7: Animal and Plant cell](/books/botany/unitoflife/pic9.png)
 
+**Animal Cell**
+Animal cells are surrounded by cell membrane
+or plasma membrane. Inside this membrane
+a gelatinous matrix called **protoplasm** is
+seen to contain nucleus and other organelles
+which include the endoplasmic reticulum,
+mitochondria, golgi bodies, centrioles,
+lysosomes, ribosomes and cytoskeleton.
 
 
