@@ -454,4 +454,23 @@ which include the endoplasmic reticulum,
 mitochondria, golgi bodies, centrioles,
 lysosomes, ribosomes and cytoskeleton.
 
+**Plant cell**
+
+A typical plant cell has prominent
+cell wall, a large central vacuole and plastids
+in addition to other organelles present in
+animal cell (Figure 6.8).
+
+![Figure 6.8: Ultra Structure of Plant Cell](/books/botany/unitoflife/pic10.png)
+
+**6.5.2 Protoplasm**
+
+Protoplasm is the living content of cell that
+is surrounded by plasma membrane. It is a
+colourless material that exists throughout
+the cell together with cytoplasm, nucleus and
+other organelles. Protoplasm is composed
+of a mixture of small particles, such as
+
+![](/books/botany/unitoflife/pic11.png)
 
