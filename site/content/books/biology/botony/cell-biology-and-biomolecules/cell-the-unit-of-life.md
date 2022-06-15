@@ -221,11 +221,193 @@ were the basic building blocks of life
 ![](/books/botany/unitoflife/pic5.png)
 
 
+These observations led to the formulation
+of modern cell theory.
+
+* All organisms are made up of cells.
+
+* New cells are formed by the division of
+pre-existing cells.
+
+* Cells contains genetic material, which is
+passed on from parents to daughter cells.
+
+* All metabolic reactions take place
+inside the cells.
+
+#### 6.3.1 Exception to Cell Theory
+
+Viruses are puzzle in biology. Viruses,
+viroids and prions are the exception to cell
+theory. They lack protoplasm, the essential
+part of the cell and exists as obligate parasites
+which are sub-cellular in nature.
+
+#### 6.3.2 Protoplasm Theory
+
+**Corti** first observed protoplasm. **Felix**
+**Dujardin (1835)**observed a living juice in
+animal cell and called it **“Sarcode”**. Purkinje
+(1839) coined the term protoplasm for sap
+inside a plant cell. **Hugo Van Mohl** (1846)
+indicated importance of protoplasm.
+
+**Max Schultze** (1861) established
+similarity between **Protoplasm and Sarcode**
+and proposed a theory which later on called
+**“Protoplasm Theory”** by **O. Hertwig**
+(1892). **Huxley** (1868) proposed Protoplasm
+as a “physical basis of life”.
+
+#### Protoplasm as a Colloidal System
+
+Protoplasm is a complex colloidal system which
+was suggested by **Fisher** in 1894 and **Hardy** in
+1899. It is primarily made of water and various
+other solutes of biological importance such
+as glucose, fatty acids, amino acids, minerals,
+vitamins, hormones and enzymes.
+These solutes may be homogeneous
+(soluble in water) or heterogeneous mass
+(insoluble in water) which forms the basis
+for its colloidal nature.
+
+#### Physical Properties of Protoplasm
+
+The protoplasm exists either in semisolid
+(jelly-like) state called ‘gel ̓ due to suspended
+particles and various chemical bonds or
+may be liquid state called ‘sol ̓.The colloidal
+protoplasm which is in gel form can change
+into sol form by solation and the sol can
+change into gel by gelation. These gel-sol
+conditions of colloidal system are prime basis
+for mechanical behaviour of cytoplasm.
+
+ 1. Protoplasm is translucent, odourless and
+polyphasic fluid.
+
+2. It is a crystal colloid solution which is a
+mixture of chemical substances forming
+crystalloid i.e. true solution (sugars, salts,
+acids, bases) and others forming colloidal
+solution (Proteins and lipids)
+
+3. It is the most important property of the
+protoplasm by which it exhibits three main
+phenomena namely Brownian movement,
+amoeboid movement and cytoplasmic
+streaming or cyclosis. Viscosity of
+protoplasm is 2–20 centipoises. The
+Refractive index of the protoplasm is 1.4.
+
+4. The pH of the protoplasm is around 6.8,
+contain 90% water (10% in dormant seeds)
+
+5. Approximately 34 elements are present
+in protoplasm but only 13 elements are
+main or universal elements i.e. C, H, O, N,
+Cl, Ca, P, Na, K, S, Mg, I and Fe. Carbon,
+Hydrogen, Oxygen and Nitrogen form the
+96% of protoplasm.
+
+6. Protoplasm is neither a good nor a
+bad conductor of electricity. It forms a
+delimiting membrane in contact with
+water and solidifies when heated.
+
+7. Cohesiveness: Particles or molecules of
+protoplasm are adhered with each other by
+forces, such as Van der Waal’s bonds, that
+hold long chains of molecules together.
+This property varies with the strength of
+these forces.
+
+8. Contractility: The contractility of proto-
+plasm is important for the absorption and
+removal of water especially for stomatal
+operations.
+
+9. Surface tension: The proteins and lipids of
+the protoplasm have less surface tension,
+hence they are found at the surface forming
+the membrane. On the other hand the
+chemical substances (NaCl) have high
+surface tension, so they occur in deeper
+parts of the protoplasm.
+
+#### 6.3.3 Cell sizes and shapes
+
+Cell greatly vary in size, shape and also in
+function. Group of cells with similar structures
+are called tissue they integrate together to
+perform similar function, group of tissue
+join together to perform similar function
+called organ, group of organs with related
+function called organ system, organ system
+coordinating together to form an organism.
+
+#### Shape
+
+The shape of cell vary greatly from organism
+to organism and within the organism itself. In
+bacteria, cell shape vary from round (cocci)
+to rectangular (rod). In virus, shape of the
+envelope varies from round to hexagonal or
+‘T’ shaped. In fungi, globular to elongated
+cylindrical cells and the spores of fungi vary
+
+![](/books/botany/unitoflife/pic6.png)
 
 
 
+![](/books/botany/unitoflife/pic7.png)
 
+greatly in shape. In plants and animals cells
+vary in shape according to cell types such as
+parenchyma, mesophyll, palisade, tracheid,
+fiber, epithelium and others (Figure 6.6).
 
+#### 6.4. Types of cells
+
+On the basis of the cellular organization and
+the nuclear characteristics, the cell can be
+classified into
+
+* Prokaryotes
+
+* Mesokaryotes and
+
+* Eukaryotes
+
+#### 6.4.1 Prokaryotes
+
+Those organisms with primitive nucleus are
+called as prokaryotes (pro – primitive; karyon
+– nucleus). The DNA lies in the ‘nucleoid’
+which is not bound by the nuclear membrane
+and therefore it is not a true nucleus and is
+also a primitive type of nuclear material. The
+DNA is without histone proteins. Example:
+Bacteria, blue green algae, Mycoplasma,
+Rickettsiae and Spirochaetae.
+
+#### 6.4.2 Mesokaryotes
+In the year 1966, scientist **Dodge** and his
+coworkers proposed another kind of organisms
+called **mesokaryotes**. These organisms
+which shares some of the characters of both
+prokaryotes and eukaryotes. In other words
+these are organisms intermediate between
+pro and eukaryotes. These contains well
+organized nucleus with nuclear membrane
+and the DNA is organized into chromosomes
+but without histone protein components
+divides through amitosis similar with
+prokaryotes. Certain Protozoa like
+*Noctiluca*, some phytoplanktons like
+Gymnodinium, Peridinium and Dinoflagellates
+are representatives of mesokaryotes.
 
 
 
