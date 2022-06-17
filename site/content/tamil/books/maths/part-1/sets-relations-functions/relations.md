@@ -7,7 +7,7 @@ extensions:
     - katex
 ---
 
-
+#### 1.5 தொடர்புகள் ( Relations)
 
 தொடர்புகளைப்  பற்றிய கோட்பாட்டினை, அன்றாட வாழ்க்கையிலிருந்தும், சங்கேத
 மொழியியலிலிருந்தும், வடிவியலிலிருந்தும், கணங்களின் கார்டீசியன் பெருக்கலின் மூலமாகப்
@@ -132,7 +132,7 @@ extensions:
 
 \\(X \ W \ X \ Y \ X \ Z \ W \ X \ Z\\) 
 
-(ii) ![relation](/books/maths/part-1/sets/relation/image18.png "relation")
+(ii) ![](/books/maths/part-1/basic-algebra/pic6.png)
 
 
 (iii) \\( \lbrace (p, X), (p,W), (q,X),(q,Y),(r,X),(r, Z), (r, W), (s, X), (t, Z) \rbrace\\)

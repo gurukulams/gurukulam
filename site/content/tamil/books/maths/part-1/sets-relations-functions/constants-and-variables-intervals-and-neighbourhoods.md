@@ -115,6 +115,7 @@ extensions:
 
 \\('a'\\)எனும் புள்ளியினை உள்ளடக்கிய எந்தவொரு திறந்த இடைவெளியும் \\(a\\) எனும் புள்ளியின்
 அண்மைப்பகுதியாகும். \\(‘ \epsilon ’\\) என்பது ஒரு மிகை எண், குறிப்பாக மிகச்சிறியது எனில் \\(a\\) யின் \\(\epsilon\\) -அண்மைப் பகுதி என்பது \\((a- \epsilon,a+ \epsilon)\\)என்ற 
-இடைவெளியாகும்.\\(a-\epsilon,a+ \epsilon\\) என்பது \\(a\\) -ஐ நீக்கிய அண்மைப்பகுதி எனவும் அதனை \\(0< |x-a| < \epsilon =\lbrace a \rbrace\\)எனவும் குறிப்பிடப்படுகிறது. [படம் 1.3]
+இடைவெளியாகும்.\\(a-\epsilon,a+ \epsilon\\) - {a} என்பது \\(a\\) -ஐ நீக்கிய அண்மைப்பகுதி எனவும் அதனை \\(0< |x-a| < \epsilon =\lbrace a \rbrace\\)எனவும் குறிப்பிடப்படுகிறது. [படம் 1.3]
 
-![table](/books/maths/part-1/sets/constants-and-variables-intervals-and-neighbourhoods/constants-img3.png "MarineGEO logo")
+
+![](/books/maths/part-1/basic-algebra/pic5.png)
