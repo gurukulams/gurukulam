@@ -326,9 +326,6 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 
 \\((3) R - ன் \ சார்பகம் \ \lbrace 0, -1, 1, 2\rbrace \\)
 
-\\((4) R - ன் \ வீச்சகம் \ \lbrace 0, -1, 1\rbrace \\)
-
-
 ![](/books/maths/part-1/basic-algebra/pic13.png)
 
 5.R மெய்யெண்களின் கணம் என்க. \\( \R × \R \\) –ல் கீழ்க்கண்ட உட்கணங்களைக் கருதுக.
@@ -437,9 +434,7 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 
 \\((3) ஒன்றுக்கொன்று அல்லாத சார்பு \ \ \  (4) சார்பன்று\\)
 
-22. ### bending
-   **page no 63**
-   **add the enviroment**
+22. ![](/books/maths/part-1/basic-algebra/pic14.png)
 
 
 23.\\(f : \R \rightarrow \R \\)–ல் சார்பு \\(f(x) = 1 – |x|\\) என வரையறுக்கப்படுகிறது எனில் \\(f\\) - ன் வீச்சகம்
