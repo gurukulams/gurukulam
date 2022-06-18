@@ -2,9 +2,9 @@
 title: 'கார்டீசியன் பெருக்கல்'
 date: 2018-11-14T19:02:50-07:00
 draft: false
-weight: 2
+weight: 3
 extensions:
-    - katex
+  - katex
 ---
 
 ####  1.3 கார்டீசியன் பெருக்கல் (Cartesian Product)
