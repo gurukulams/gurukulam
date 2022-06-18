@@ -228,9 +228,8 @@ a மற்றும் b ஆகியவை \\(x^2-px+q=0\\) என்ற ச�
 
 {{< /box >}}
 
-![basic algebra Image graph](/books/maths/part-1/basic-algebra/2.44.png "MarineGEO logo")
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/basical7.png)
 
-![basic algebra Image graph](/books/maths/part-1/basic-algebra/2.45.png "MarineGEO logo")
 
 எனவே, அசமன்பாடு நிறைவு செய்யும் இடைவெளி \\([-2,\frac{1}{3}]\\) ஆகும
 
