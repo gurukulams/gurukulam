@@ -53,3 +53,5 @@ Sutras)வில் விகிதமுறா எண்களின் கட�
 
 
 {{< /box >}}
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/basical1.png)
