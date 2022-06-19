@@ -208,3 +208,41 @@ x மற்றும் y-ன் மதிப்புகள் மிகை அ
 
 
 \\(\theta, -\theta, \frac{\pi}{2} \pm \theta, \pi \pm \theta,\frac{3\pi}{2}\pm\theta,\\) 
+
+
+\\(\theta\\) மற்றும் - \\(\theta\\) ஆகிய தொடர்புடைய கோணங்களைக் கொண்ட முக்கோணவியல் விகிதங்களைக்
+காண்போம்.
+
+**\\(\theta\\)  வின் வாயிலாக - \\(\theta\\)இன் முக்கோணவியல் விகிதங்கள் (Trigonometric ratio of - \\(\theta\\) in terms of \\(\theta\\))**
+
+\\(\phase{AOL}\\) = \\(\theta\\)   மற்றும்  \\(\phase{AOM}\\) = -\\(\theta\\) என்க.OL மீது உள்ள புள்ளி P (a, b) என்க.
+
+OP = OP<sup>'</sup>  என்றமையும்படி OM மீது P<sup>'</sup> எடுத்துக்கொள்க.
+
+OA-க்கு செங்குத்தாக PN-ஐ வரையவும் அது OM ஐ P<sup>'</sup>  சந்திக்கட்டும்.
+
+
+\\(\phase{AOP}\\) =  \\(\phase{AOP}{'}\\)  மற்றும்  \\(\phase{PON}\\)  =  \\(\phase{PON}{'}\\)
+
+\\(\Delta PON\\) மற்றும் \\(\Delta\\)P<sup>'</sup>ON  ஆகியவை சர்வசமமுடையதாகும்.
+
+எனவே, PN = P<sup>'</sup>N மற்றும் P<sup>'</sup>-ன் கூறுகள் P<sup>'</sup>( a, - b)  என ஆகும்.
+
+முக்கோணவியல் சார்புகளின் வரையறைப்படி
+
+![](/books/maths/part-1/trigonometry/trig15.png)
+
+
+sin \\(\theta\\) = \\(\frac {b} {OP}\\) , cos  \\(\theta\\) = \\(\frac {a} {OP}\\) , tan \\(\theta\\) = \\(\frac {b} {a}\\) 
+
+எனவே, sin (-\\(\theta\\)) = - \\(\frac {b} {OP}{'}\\) = - \\(\frac {b} {OP}\\)  = - sin \\(\theta\\)
+
+மற்றும் cos (-\\(\theta\\)) =  \\(\frac {a} {OP}{'}\\) =  \\(\frac {a} {OP}\\) = cos \\(\theta\\) 
+
+tan (-\\(\theta\\)) = - tan \\(\theta\\) , cosec (-\\(\theta\\)) = - cosec \\(\theta\\)
+
+
+sec(-\\(\theta\\)) = sec\\(\theta\\), cot (-\\(\theta\\)) = - cot (-\\(\theta\\))
+
+ஆகியவற்றை எளிதில் பெறலாம்.
+
