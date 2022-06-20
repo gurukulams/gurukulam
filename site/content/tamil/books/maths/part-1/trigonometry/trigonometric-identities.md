@@ -901,6 +901,25 @@ sine மற்றும் cosine-களின் பெருக்கலைக
 \\( cosC - cosD   =  2sin \dfrac{C+D}{2} sin\dfrac{D-C}{2}    \implies \\)         (3.12)
 
 
+**முற்றொருமை 3.15 : நிறுவுக** 
+
+\\( sin (60 \degree  - A) sinA sin(60 \degree + A) = \dfrac{1}{4}sin3A \\)
+
+**நிரூபணம்**
+
+\\( sin  (60 \degree  - A) sinAsin (60 \degree  + A)  = sin (60 \degree  - A) sin (60 \degree  + A)sinA\\) 
+
+\\( = \dfrac{1}{2} [cos 2A - cos120 \degree]sinA \\)
+
+
+ \\( = \dfrac{1}{2} [cos2AsinA + \dfrac{1}{2}sinA] \\)
+
+
+ \\( = \dfrac{1}{2} [\dfrac{1}{2} sin3A] =  \dfrac{1}{4}sin3A] \\)
+
+ இதேபோல் பின்வரும் இரண்டு முக்கியமான முற்றொருமைகளை நாம் நிரூபிக்கலாம்
+
+ 
 
 
 
