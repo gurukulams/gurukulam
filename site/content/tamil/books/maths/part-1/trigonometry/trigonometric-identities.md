@@ -1076,5 +1076,7 @@ A = 40° மற்றும் B = 30°  என்க.
 
 10.நிறுவுக. sin \\(\dfrac{\theta}{2}  sin  \dfrac{7 \theta}{2} +  sin \dfrac { 3 \theta}{2} sin \dfrac {11 \theta}{2}\\)   = \\(sin 2 \theta sin 5 \theta\\)
 
-11.cos(30° - A)cos(30° + A) + cos(45° - A)cos(45° + A))  = cos2A +1 / 4
+11.cos(30° - A)cos(30° + A) + cos(45° - A)cos(45° + A)  =  cos2A +  1 / 4
+
+
 
