@@ -1078,5 +1078,97 @@ A = 40° மற்றும் B = 30°  என்க.
 
 11.cos(30° - A)cos(30° + A) + cos(45° - A)cos(45° + A)  =  cos2A +  1 / 4
 
+12. நிறுவுக. \\( \dfrac {sinx + sin3x + sin 5x + sin 7x}) {cos x + cos 3x + cos 5x + cos 7x} = tan4x \\)
+
+
+13.நிறுவுக. \\(\ dfrac {sin ( 4A - 2B) + sin ( 4B - 2A)}{ cos (4A - 2B) + cos ( 4B -2 A) = tan (A + B)}\\)
+
+14.\\( cot (A + 15°)  -  tan (A - 15° ) = \dfrac { 4 cos 2A }{1 + 2sin2A} \\)  எனக் காண்பி.
+
+
+
+#### 3.5.4 நிபந்தனைக்குட்பட்ட முக்கோணவியல் முற்றொருமைகள் (Conditional Trigonometric Identities)
+
+கொடுக்கப்பட்ட கோணத்தின் அனைத்து ஏற்றுக்கொள்ளக்கூடிய மதிப்புகளுக்கும் முக்கோணவியல்
+முற்றொருமைகள் உண்மை என்பதை நாம் அறிவோம். சில முக்கோணவியல் முற்றொருமைகள்
+கொடுக்கப்பட்ட கூடுதல் நிபந்தனையையும் நிறைவு செய்கிறது. அப்படிப்பட்ட முற்றொருமைகள்
+நிபந்தனைக்குட்பட்ட முக்கோணவியல் சமன்பாடுகள் ஆகும். முன் பகுதிகளில் கண்ட தொடர்புகளின்
+அடிப்படையில் சில நிபந்தனைக்குட்பட்ட முக்கோணவியல் முற்றொருமைகளை இப்பகுதியில்
+பார்ப்போம்.
+
+
+  **எடுத்துக்காட்டு 3.39**   A + B + C = \\(\PI) எனில், பின்வருவனவற்றை நிறுவுக.
+
+  (i) \\(cos A + cos B + cos C = 1  +  4 sin \dfrac ({A}{2}) sin (\dfrac {B}{2})  sin(\dfrac {C}{2}) \\)
+
+  (ii) \\(sin (\dfrac {A}{2}) sin (\dfrac {B}{2}) sin  (\dfrac {C}{2})  \leq \dfrac{1}{8}\\)
+
+  (iii) \\( 1 \le cos A + cos B + cos C \leq \dfrac {3}{2}\\)
+
+
+
+**தீர்வு:** 
+
+(i) \\( cos A + cos B + cos C  = 2 cos (\dfrac {A+B}{2}) cos (\dfrac {A - B}{2}) + cos C
+
+= \\( 2 cos  (\dfrac {\pi}{2} - {C}{2})  cos  (\dfrac (({A}{2}) - {B}{2}))  + cos C  (\dfrac ({A + B + C }{2}) = (\dfrac {\pi}{2})\\)
+
+= \\( 2 sin  (\dfrac {C}{2})  cos (\dfrac ({A}{2} - {B}{2})  + 1 - 2 sin^2 (\dfrac {C}{2}\\)
+
+=\\( 1 + 2 sin (\dfrac {C}{2}) [ cos (\dfrac {A}{2}  - \dfrac {B}{2})    -   sin (\dfrac {C}{2})]\\)
+
+=\\( 1 + 2 sin (\dfrac{c}{2})  [ cos (\dfrac {A}{2}  - \dfrac {B}{2})    -   cos (\dfrac {\pi}{2})  - (\dfrac {C}{2})]\\)
+
+=\\( 1 + 2 sin (\dfrac{c}{2})  [ cos (\dfrac {A}{2}  - \dfrac {B}{2})    -   cos (\dfrac {A}{2})  + (\dfrac {B}{2})]\\)
+
+=\\( 1 + 4 sin (\dfrac{A}{2}) sin (\dfrac {B}{2}) sin (\dfrac {C}{2})\\)
+
+
+
+(ii)\\(u = sin (\dfrac {A}{2}) sin (\dfrac {B}{2}) sin (\dfrac {C}{2}\\) என்க.
+
+  u = \\(- \dfrac {1}{2} [ cos (\dfrac {A + B} {2}) - cos (\dfrac {A -  B} {2})] sin (\dfrac {C}{2})\\)
+
+  = \\(- \dfrac {1}{2} [ cos (\dfrac {A + B} {2}) - cos (\dfrac {A -  B} {2})] cos (\dfrac {A + B}{2})\\)
+
+= \\( cos^2(\dfrac {A + B} {2}) - cos (\dfrac {A -  B} {2}) cos (\dfrac {A + B}{2}) + 2 u = 0 \\)
+
+
+
+இது cos \\(\dfrac {A + B} {2}\\) இன் இருபடிச்சமன்பாடாகும்.
+
+cos \\(\dfrac {A + B} {2}\\)  ஒரு மெய்யெண் என்பதால் இச்சமன்பாட்டிற்குத் தீர்வு உண்டு.
+
+எனவே, தன்மைகாட்டி \\(b^2  - 4ac ) \ge 0, தருவது யாதெனில்,
+
+\\(cos^2  \dfrac { A - B}{2} - 8u \ge 0  \Rightarrow  u \leq \dfrac {1}{8} cos^2 \dfrac {A - B}{2} \leq \dfrac{1}{8}\\)
+
+எனவே, \\(sin (\dfrac{A}{2})  sin (\dfrac{B}{2})  sin (\dfrac{C}{2}) \leq \dfrac{1}{8}\\) 
+
+(iii) இங்கு (i) மற்றும் (ii) இலிருந்து, cosA + cosB + cosC  \\(\gt\\) 1 எனக் கிடைக்கிறது மற்றும்
+
+cos A + cos B + cos C \\( \leq \\) \\(\dfrac{3}{2}\\) 
+
+**குறிப்பு:**
+
+\\( A + B + C =  \pi எனில் sin \dfrac {A}{2} sin \dfrac {B}{2} sin \dfrac {C}{2} \ge 0\\).
+
+
+  **எடுத்துக்காட்டு 3.40**    A + B + C = \\(\pi\\)  எனில்,
+
+\\( sin (\dfrac{A}{2})  + sin (\dfrac{B}{2})  +  sin (\dfrac{C}{2})  =  1 + 4 sin (\dfrac {\pi  - A}{4}) sin (\dfrac {\pi  - B}{4}) sin (\dfrac {\pi  - C}{4}\\) என நிறுவுக.
+
+**தீர்வு:**
+
+ இடப்பக்கம் =  \\( cos (\dfrac {\pi}{2} - \dfrac{A}{2})   + cos (\dfrac {\pi}{2} - \dfrac{B}{2})  +   cos (\dfrac {\pi}{2} - \dfrac{C}{2})\\)
+
+= \\([ 2 cos(\dfrac {\pi}{2} - \dfrac{A+B}{2})  cos(\dfrac {\pi}{2} - \dfrac{ B - A }{2})] + [1 - 2 sin^2 (\dfrac {\pi}{4}) -(\dfrac {C}{4}) ]\\)
+
+= \\( 1 +  2 sin(\dfrac {\pi}{4} - \dfrac{C}{4}) cos( \dfrac{ B - A }{4})- 2 sin^2 (\dfrac {\pi}{4} - \dfrac{C}{4})\\)
+
+=\\( 1 +  2 sin(\dfrac {\pi}{4} - \dfrac{C}{4}) cos( \dfrac{ B - A }{4})-  sin (\dfrac {\pi}{4} - \dfrac{C}{4})\\)
+
+
+
 
 
