@@ -1024,11 +1024,57 @@ A = 40° மற்றும் B = 30°  என்க.
 
 **NOTE** sin75° = cos15°  மற்றும் cos 75°  = sin15°  எனக் கொண்டு தீர்வு காண
 முயற்சி செய்க.
-  
 
 
 
+  **எடுத்துக்காட்டு 3.38**  
+
+  cos10° cos30° cos50° cos70°  = \\(\dfrac{3}{16}\\) எனக் காண்பி.
 
 
+**தீர்வு:**   
 
+
+ cos(60° - A )cosAcos(60° + A ) = \\(\dfrac{1}{4}cos3A)  என நமக்குத் தெரியும். 
+
+ cos 10° cos30° cos50°  cos70°  = cos 30°[ cos10° cos50° cos70°] 
+
+= cos30°[cos(60-10°)cos10°cos(60°+10°)]
+
+= \\(\dfrac {\sqrt3}{2}[\dfrac {1}{4}cos30°]\\)    =  \\((\dfrac{\sqrt3}{2})(\dfrac{1}{4})\\) \\((\dfrac{\sqrt3}{2})\\) = \\(\dfrac{3}{16}\\) 
+
+**பயிற்சி 3.6**
+
+**1. பின்வருவனவற்றைக் கூட்டல் அல்லது கழித்தலாக கூறுக.**
+
+(i) sin35°cos28°           (ii) sin4xcos2x    (iii) 2sin10\\(\theta\\)cos2\\(\theta\\)
+
+
+(iv)cos5\\(\theta\\)cos2\\(\theta\\)             (v)sin5\\(\theta\\)sin4\\(\theta\\)
+
+
+**2. பின்வருவனவற்றைப் பெருக்கலாக கூறுக.**
+
+(i) sin75° - sin35°                  (ii) cos65° + cos15°
+(iii)sin50° + sin40°                 (iv) cos35° - cos75°
+
+**3.sin12°sin48°sin54° = \\(\dfrac{1}{8})  எனக் காண்பி.**
+
+
+4.\\( cos \dfrac{\pi}{15}  cos \dfrac{2\pi}{15} cos \dfrac{3\pi}{15}cos \dfrac{4\pi}{15} cos \dfrac{5\pi}{15} cos \dfrac{6\pi}{15} cos \dfrac{7\pi}{15}\\) = \\(\dfrac{1}{128}\\) எனக் காண்பி.
+
+5.\\(\dfrac{sin8xcosx-sin6xcos3x}{cos2xcosx-sin3xsin4x}\\)  = tan2x எனக் காண்பி.
+
+
+6.\\(\dfrac{(cos \theta - cos 3 \theta)(sin8 \theta + sin 2 \theta)}{( sin 5 \theta - sin \theta) (cos 4 \theta - cos 6 \theta)}\\) = 1  எனக் காண்பி.
+
+7.நிறுவுக. sinx + sin2x + sin3x = sin 2x(1 + 2 cosx).
+
+8. நிறுவுக. \\(\dfrac { sin 4x + sin 2x}{ cos 4x + cos 2x}\\) = tan 3x
+
+9.நிறுவுக. 1 + cos2x+cos4x+cos6x = 4cosxcos2xcos3x
+
+10.நிறுவுக. sin \\(\dfrac{\theta}{2}  sin  \dfrac{7 \theta}{2} +  sin \dfrac { 3 \theta}{2} sin \dfrac {11 \theta}{2}\\)   = \\(sin 2 \theta sin 5 \theta\\)
+
+11.cos(30° - A)cos(30° + A) + cos(45° - A)cos(45° + A))  = cos2A +1 / 4
 
