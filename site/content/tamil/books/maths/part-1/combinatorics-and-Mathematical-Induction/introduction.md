@@ -86,3 +86,5 @@ A ஆனது துணை மின் நிலைய (Sub-station) அல்
 {{< /box >}}
 
 நாம் கீழ்க்காணும் பாடப்பகுதியில் இருந்து தொடங்குவோம்.
+
+![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/cmi1.png)
