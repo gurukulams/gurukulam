@@ -63,7 +63,7 @@ extensions:
 விரிகோணமாகவோ இருக்கலாம். இங்கு \\(O\\) என்பது \\(\Delta ABC\\)-இன் சுற்றுவட்ட மையம் எனவும் மற்றும்
 R என்பது ஆரம் எனவும் கொள்வோம்.
 
-![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.2.png "trigonometry")
+![](/books/maths/part-1/trigonometry/trig21.png)
 
 ###### நிலை I
 
@@ -75,7 +75,7 @@ R என்பது ஆரம் எனவும் கொள்வோம்.
 
 \\(∠BCD = 90°\\)
 
-\\(sin∠BDC = \frac{BC}{BD}\\) அல்லது \\(sinA = \frac{a}{2R} \Rightarrow \frac{a}{sinA}\\)
+\\(sin∠BDC = \frac{BC}{BD}\\) அல்லது \\(sinA = \frac{a}{2R} \Rightarrow \frac{a}{sinA}  = 2R\\)
 
 
 ###### நிலை II
@@ -83,7 +83,14 @@ R என்பது ஆரம் எனவும் கொள்வோம்.
 \\(∠A\\), ஒரு செங்கோணம்
 இந்நிலையில் \\(O\\) என்பது \\(\Delta ABC\\) இல் உள்ள \\(BC\\) -இன் பக்கம் மீது அமையும்.
 
-இங்கு, \\( \frac{a}{sinA} = \frac{BC}{sin90°} = \frac{2R}{1} \Rightarrow \frac{a}{sinA} = 2R \\)
+இங்கு, \\( \frac{a}{sinA} = \frac{BC}{sin90°} = \frac{2R}{1} = 2R  \Rightarrow \frac{a}{sinA} = 2R \\)
+
+###### நிலை III
+
+\\(∠A\\), ஒரு ஒரு விரிக�ோணம்.
+
+BO ஐ நீட்டும்போது வட்டத்தில் D என்ற புள்ளியைச் சந்திக்கின்றது.
+
         
 \\(∠BDC + ∠BAC = 180°\\)
 
@@ -104,6 +111,7 @@ R என்பது ஆரம் எனவும் கொள்வோம்.
 எனவே, \\( \frac{a}{sinA} = \frac{b}{sinB} = \frac{c}{sinC} = 2R \\)
 
 **குறிப்பு:** (i) சைன் விதியை மூன்று சமன்பாடுகளின் தொகுப்பாக எழுதலாம்.
+
 
 \\(\frac{a}{b} = \frac{sinA}{sinB} , \frac{a}{c} = \frac{sinA}{sinC} , \frac{b}{c} = \frac{sinB}{sinC} \\)
 
@@ -159,7 +167,7 @@ R என்பது ஆரம் எனவும் கொள்வோம்.
 மற்றும் இடைப்பட்ட கோணமும் கொடுக்கப்பட்டால் முக்கோணத்தின்
 பரப்பைக் காணும் சூத்திரத்தை வருவிக்கப் பயன்படுகிறது.
 
-![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.3.png "trigonometry")
+![](/books/maths/part-1/basic-algebra/pic22.png)
 
 
 ###### தேற்றம் 3.3 (கொசைன் விதி)
@@ -176,7 +184,7 @@ R என்பது ஆரம் எனவும் கொள்வோம்.
 
 \\(\Delta ABC\\) இன் உறுப்புகளின் மூலம் AD மற்றும் BD இன் மதிப்புகளைக் காணலாம்.
 
-\\( \frac{AD}{AC} = sinC \r\Rightarrow AD = b sin C \\)
+\\( \frac{AD}{AC} = sinC \r\Rightarrow  = b sin C \\)
 
 \\(BD = BC - DC = a - b cos C\\)
 
