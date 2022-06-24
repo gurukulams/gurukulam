@@ -513,13 +513,43 @@ BO ஐ நீட்டும்போது வட்டத்தில் D எ
 
 \\(\longrightarrow  a:b:c   =  sin30° : sin60° : sin90° \\)
 
+= \\(\frac{1}{2}  : \frac{\sqrt3}{2}  : 1  = 1: \sqrt3 : 2 \\)
 
 
 
 
+**எடுத்துக்காட்டு 3.60**   
+
+ \\(\Delta ABC\\) இல் , (b+c)cosA + (c+a)cosB + (a+b)cosC = a+b+c என  நிறுவுக.
+
+
+ **தீர்வு:**
+
+ இடப்பக்கம் =  b cos A + c cos A + c cos B + a cos B + a cos C + b cos C
+
+ = b cos C + c cos B + c cos A + a cos C + b cos A + a cos B
+
+ = a + b + c  (வீழல் சூத்திரத்தின் மூலம்)
 
 
 
+**எடுத்துக்காட்டு 3.61**   
+
+ \\(\Delta ABC\\) இல்  \\(\frac {a^2+b^2}{a^2+c^2} = \dfrac{ 1 + cos(A-B cosC)}{1 + cos(A-C)cosB}\\)   என நிறுவுக.
+
+
+ **தீர்வு:**
+
+ \\(\frac{a}{sinA}   =  \frac{b}{sinB}   \frac{c}{sinC}  = 2R\\)என்பது சைன் சூத்திரம்.
+
+ இடப்பக்கம் =  \\(\frac {a^2 +b^2}{a^2 + c^2}  = \frac{(2RsinA)^2 + (2RsinB)^2}{(2RsinA)^2 + (2RsinC)^2}\\)
+
+= \\(\frac{sin^2A + sin^2B}{sin^2A+sin^2C}  = \frac {1 - cos^2A + sin^2B}{ 1 - cos^2A + sin^2C}\\)
+
+= \\(\frac {1 - ( cos^2A - sin^2B )}{ 1 - (cos^2 A - sin^2C)}  = \frac{ 1 - cos(A+B)cos(A-B)}{1 - cos(A+C)cos(A-C)}\\)
+
+
+=\\(\frac { 1 + cos(A-B)cosC}{ 1 + cos(A-C)cosB}\\)
 
 
 
