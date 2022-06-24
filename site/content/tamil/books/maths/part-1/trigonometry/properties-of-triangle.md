@@ -469,14 +469,49 @@ BO ஐ நீட்டும்போது வட்டத்தில் D எ
 
 
 
-\\(\Delta ABC \\) இல்,  sin
+\\(\Delta ABC \\) இல்,  sin \\(\dfrac {(B-C)}{2} = \dfrac {b-c}{a} cos \dfrac{A}{2} \\) என நிறுவுக.
 
 
 
+**தீர்வு:**
+
+
+\\(\dfrac {b-c}{a} cos \dfrac {A}{2}  =  \dfrac {2RsinB  - 2RsinC}{2RsinA} cos \dfrac cos{A}{2})\\)
+
+\\[= \frac{sin\frac{B-C}{2} cos\frac{B+C}{2}} {2sin \frac{A}{2} cos\frac{A}{2}}cos \dfrac{A}{2}\\]
+
+
+\\[= \frac {sin \frac{B-C}{2}cos(90° - \frac{A}{2})} {sin \frac{A}{2}}\\]
+
+\\[= \frac {sin (\frac{B-C}{2}) sin (\frac{A}{2})}{sin (\frac{A}{2})}  =  sin (\frac {B-C}{2})\\]
+
+
+**எடுத்துக்காட்டு 3.59**   
+
+ஒரு முக்கோணத்தின் மூன்று க�ோணங்களின் விகிதங்கள் 1 : 2 : 3 எனில்
+அதன் பக்கங்களின் விகிதங்கள் 1 : \\(\sqrt3\\) : 2 என நிறுவுக.
 
 
 
+**தீர்வு:**
 
+முக்கோணத்தின் க�ோணங்கள் \\(\theta\\), 2\\(\theta\\), 3\\(\theta\\) என்க.
+
+எனவே,
+
+ 
+\\(\theta\\)  +   2\\(\theta\\)  + 3\\(\theta\\)  = 180°
+
+ஆகவே,
+
+\\(\theta\\)  = 30°
+
+\\(\frac{a}{sinA} =  \frac{b}{sinB}  =  \frac{c}{sinC}   = 2R \\) என்ற சைன் சூத்திரத்தைப் பயன்படுத்தி,
+
+
+\\(\frac{a}{sin30°} =  \frac{b}{sin60°}  =  \frac{c}{sin90°}\\)  என நமக்குக் கிடைக்கிறது,
+
+\\(\longrightarrow  a:b:c   =  sin30° : sin60° : sin90° \\)
 
 
 
