@@ -344,53 +344,14 @@ a மீட்டர் விட்டமுடைய வட்ட வடிவ
     (4)  (i) மற்றும் (ii) ஆகிய இரண்டும் உண்மையில்லை.
 
 
-##### \\[பாடத்தொகுப்பு (Summary)\\]
-
-கூட்டல் மற்றும் கழித்தல் முற்றொருமைகள் (தால்மியின் முற்றொருமைகள்)
-
-\\( \cos(\alpha \pm \beta)=\cos \alpha \cos \beta \mp \sin \alpha \sin \beta;\sin(\alpha \pm \beta)=\sin \alpha \cos \beta \mp \cos \alpha \sin \beta\\)
-
-\\( \tan(\alpha + \beta)=\dfrac{\tan \alpha + \tan \beta}{1-\tan \alpha \tan \beta};\tan(\alpha - \beta)=\dfrac{\tan \alpha - \tan \beta}{1+\tan \alpha \tan \beta}\\)
+![](/books/maths/part-1/trigonometry/trig30.png)
 
 
-{{< box >}}
+![](/books/maths/part-1/trigonometry/trig31.png)
 
-#### \\(sine\\)
 
-* \\(\sin 2A=2 \sin A \cos A\\)
+![](/books/maths/part-1/trigonometry/trig32.png)
 
-* \\(\sin 2A=\dfrac{2 \tan A}{1+ \tan^2 A} \\)
 
-* \\(\sin 3A=3 \sin A-4 \sin^3 A\\)
 
-* \\(\sin \theta=2 \sin \dfrac{\theta}{2} \cos \dfrac{\theta}{2}\\)
 
-* \\(\sin \theta =\dfrac{2 \tan \dfrac{\theta}{2}}{1+\tan^2 {\dfrac{\theta}{2}}}\\)
-
-#### \\(cosine\\)
-
-* \\(\cos2A=\cos^2 A-\sin^2 A\\)
-
-* \\(\cos2A=2\cos^2 A-1\\)
-
-* \\(\cos2A=1-\sin^2 A\\)
-
-  \\(\cos2A=\dfrac{1-\tan^2 A}{1+\tan^2 A}\\)
-
-  \\(\cos3A=4 \cos^3 A-3 \cos A\\)
-
-* \\(\cos \theta =\cos^2 {\dfrac{\theta}{2}}-\sin^2 {\dfrac{\theta}{2}}\\)
-
-* \\(\cos \theta =2\cos^2 {\dfrac{\theta}{2}}-1\\)
-
-* \\(\cos \theta =1-2\sin^2 {\dfrac{\theta}{2}}\\)
-
-#### \\(tangent\\)
-
-* \\(tan2A=\dfrac{2 \tan A}{1-\tan^2 A}\\)
-
-* \\(\tan 3A=\dfrac{3 \tan A- \tan^3 A}{1-\tan^2 A}\\)
-
-* \\(\tan \theta =\dfrac{2 \tan \dfrac{\theta}{2}}{1-\tan^2 {\dfrac{\theta}{2}}}\\)
-
-{{< /box >}}
