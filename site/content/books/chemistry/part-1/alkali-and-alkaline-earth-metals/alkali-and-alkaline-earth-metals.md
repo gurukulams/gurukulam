@@ -106,7 +106,7 @@ plaster of paris.
 </table>
 
 
-  ![chemistry](/books/chemistry/part-1/basic-concepts-of-chemistry-and-chemical-calculations/li na k.png)
+
 
   **Electronic configuration**
 
@@ -125,7 +125,8 @@ plaster of paris.
 
 
   
-    All these elements are highly electropositive in nature.They readily lose their valenceelectron to give monovalent cations (M+). Alkali metals have only one oxidation state which is +1.
+    All these elements are highly electropositive in nature.They readily lose their valenceelectron to give monovalent cations (M+). Alkali metals have 
+    only one oxidation state which is +1.
 **Atomic and ionic radii**
 
 
