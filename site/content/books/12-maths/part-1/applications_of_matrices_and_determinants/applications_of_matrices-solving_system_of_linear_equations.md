@@ -7,4 +7,3 @@ extensions:
     - katex
 ---
 
-## CONTENTS WILL BE ADDED SOON
