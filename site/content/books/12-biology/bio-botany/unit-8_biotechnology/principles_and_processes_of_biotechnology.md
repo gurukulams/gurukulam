@@ -43,6 +43,8 @@ The learner will be able to
 {{< /box >}}
 
 
+![bio-botant image](/books/12-biology/botany/4.1.png )
+
 Biotechnology is the science of applied biological processes. In other words it is science of development and utilization of biological processes, forms and systems for the benefit of mankind and other life forms. The term biotechnology was coined by Karl Ereky, a Hungarian Engineer in 1919 and has been extended to include any process in which organisms, tissues, cells ,organelles or isolated molecules such as enzymes are used to convert biological or other raw materials to products of greater value.
 
 #### 4.1 Development of Biotechnology
@@ -158,7 +160,7 @@ process includes distillation, centrifuging,filtration and solvent extraction. M
 this process involves the purification of the
 desired product.
 
-**figure 4.2**
+![bio-botant image](/books/12-biology/botany/4.2.png )
 
 ###### Procedure of Fermentation
 
@@ -265,7 +267,7 @@ carbohydrates, fats, vitamins and minerals. It is
 used by Astronauts and Antarctica expedition
 scientists.
 
-**figure 4.3**
+![bio-botant image](/books/12-biology/botany/4.3.png )
 
 Spirulina
 can
@@ -344,8 +346,7 @@ laboratory technique used to make copies
 
 - Generation of recombinant DNA (rDNA) molecule by insertion of the DNA fragment into a carrier molecule called a vector that can self-replicate within the host cell.
 
-**figure 4.4**
-
+![bio-botant image](/books/12-biology/botany/4.4.png )
 - Selection of the transformed host cells is carrying the rDNA and allowing them to multiply thereby multiplying the rDNA molecule.
 
 - The entire process thus generates either a large amount of rDNA or a large amount of protein expressed by the insert.
@@ -391,8 +392,7 @@ b. Endonucleases are enzymes which break
 the internal phosphodiester bonds within a DNA molecule. e.g. Hind II, EcoRI, Pvul,
 BamHI, TaqI.
 
-**table 4.1**
-
+![bio-botant image](/books/12-biology/botany/table_1.png )
 ##### Restriction endonucleases: Molecular scissors
 
 The restriction enzymes are called as molecular
@@ -454,7 +454,7 @@ producing protruding and recessed ends known
 as **sticky** or **cohesive end**. Such cut are called
 staggered or asymmetric cuts
 
-**figure 4.5**
+![bio-botant image](/books/12-biology/botany/4.5.png )
 
 Two other enzymes that play an important
 role in recombinant DNA technology are
@@ -468,7 +468,7 @@ DNA (dsDNA) with 5’-PO4 and a 3’-OH in
 an Adenosine Triphosphate (ATP) dependent
 reaction. This is isolated from T4 phage.
 
-**figure 4.6**
+![bio-botant image](/books/12-biology/botany/4.6.png )
 
 ##### 4.4.3 Alkaline Phosphatase
 
@@ -478,7 +478,7 @@ terminus of double stranded DNA (dsDNA) or single stranded DNA (ssDNA) or RNA. T
 prevents self ligation. This enzyme is purified
 from bacteria and calf intestine.
 
-**figure 4.7**
+![bio-botant image](/books/12-biology/botany/4.7.png )
 
 
 
