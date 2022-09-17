@@ -394,3 +394,93 @@ BamHI, TaqI.
 **table 4.1**
 
 ##### Restriction endonucleases: Molecular scissors
+
+The restriction enzymes are called as molecular
+scissors. These act as foundation of recombinant
+DNA technology. These enzymes exist in
+many bacteria where they function as a part
+of their defence mechanism called restrictionmodification system.
+
+There are three main classes of restriction
+endonucleases: Type I, Type II and Type III,
+which differ slightly by their mode of action.
+Only type II enzyme is preferred for use in
+recombinant DNA technology as they recognise
+and cut DNA within a specific sequence
+typically consisting of 4-8 bp. Examples of
+certain enzymes are given in table 5.1.
+
+The restriction enzyme **Hind II** always cut
+DNA molecules at a point of recognising a
+specific sequence of six base pairs. This sequence
+is known as recognition sequence. Today
+more than 900 restriction enzymes have been
+isolated from over 230 strains of bacteria with
+different recognition sequences. This sequence
+is referred to as a restriction site and is generally
+–palindromic which means that the sequence in
+both DNA strands at this site read same in 5’ – 3’
+direction and in the 3’-5’ direction
+
+Example: MALAYALAM: This phrase is
+read the same in either of the directions.
+
+**Palindromic repeats:** A symmetrical
+repeated sequence in DNA strands
+
+ 5’ ... CATTATATAATG ... 3’
+ 3’ ... GTAATATATTAC ... 5’
+
+Note: That the sequence of the base pairs in
+the reverse direction when compare to the
+first sequence.
+
+Restriction endonucleases are named by a
+standard procedure. The first letter of the enzymes
+indicates the genus name, followed by the first
+two letters of the species, then comes the strain
+of the organism and finally a roman numeral 
+
+indicating the order of discovery. For example,
+**EcoRI** is from Escherichia (**E**) coli (**co**), strain RY
+13 (**R**) and first endonuclease (**I**) to be discovered.
+The exact kind of cleavage produced by a
+restriction enzyme is important in the design
+of a gene cloning experiment. Some cleave both
+strands of DNA through the centre resulting
+in **blunt** or **flush end**. These are known as
+symmetric cuts. Some enzymes cut in a way
+producing protruding and recessed ends known
+as **sticky** or **cohesive end**. Such cut are called
+staggered or asymmetric cuts
+
+**figure 4.5**
+
+Two other enzymes that play an important
+role in recombinant DNA technology are
+DNA ligase and alkaline phosphatase
+
+##### 4.4.2 DNA Ligase
+
+DNA ligase enzyme joins the sugar and
+phosphate molecules of double stranded
+DNA (dsDNA) with 5’-PO4 and a 3’-OH in
+an Adenosine Triphosphate (ATP) dependent
+reaction. This is isolated from T4 phage.
+
+**figure 4.6**
+
+##### 4.4.3 Alkaline Phosphatase
+
+It is a DNA modifying enzyme and adds
+or removes specific phosphate group at 5’
+terminus of double stranded DNA (dsDNA) or single stranded DNA (ssDNA) or RNA. Thus it
+prevents self ligation. This enzyme is purified
+from bacteria and calf intestine.
+
+**figure 4.7**
+
+
+
+
+
