@@ -1,5 +1,5 @@
 ---
-title: 'UNIT 6: Reproduction in Plants'
+title: 'அலகு 6: தாவரங்களில் இனப்பெருக்கம்'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 1
