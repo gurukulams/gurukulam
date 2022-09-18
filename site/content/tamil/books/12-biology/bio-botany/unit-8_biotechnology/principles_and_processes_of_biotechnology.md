@@ -1,5 +1,5 @@
 ---
-title: 'Principles and Processes of Biotechnology'
+title: 'உயிரிதொழில்நுட்பவியல் நெறிமுறைகளும் செயல்முறைகளும்'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 1
