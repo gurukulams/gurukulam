@@ -110,10 +110,10 @@ class Core {
       .then((boards) => {
         var myDropDownEl = document.getElementById("boardsDropdown");
         var myDropDownEla = document.querySelector("#boardsDropdown > a");
-        if (boards == undefined) {
+        if (boards === undefined) {
           myDropDownEla.innerText = "-";
           document.getElementById("subjectList").style.visibility = "hidden";
-        } else if (boards.length == 1) {
+        } else if (boards.length === 1) {
           myDropDownEla.innerText = boards[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
         } else {
@@ -174,19 +174,20 @@ class Core {
         var myDropDownEl = document.getElementById("dropdownMenuButton2");
         var myDropDownEla = document.querySelector("#dropdownMenuButton2 > a");
 
-        if (response == undefined) {
+        var ulEl;
+        if (response === undefined) {
           myDropDownEla.innerText = "-";
           document.getElementById("subjectList").style.visibility = "hidden";
-        } else if (response.length == 1) {
-          var ulEl = document.querySelector("#dropdownMenuButton2 > ul");
+        } else if (response.length === 1) {
+          ulEl = document.querySelector("#dropdownMenuButton2 > ul");
           ulEl.style.visibility = "hidden";
           myDropDownEla.innerText = response[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
           this.loadSyllabus(boardId, response[0].id);
         } else {
           document.getElementById("subjectList").style.visibility = "visible";
-          var ulEl = document.querySelector("#dropdownMenuButton2 > ul");
-          if (ulEl == null) {
+          ulEl = document.querySelector("#dropdownMenuButton2 > ul");
+          if (ulEl === null) {
             ulEl = document.createElement("ul");
             ulEl.classList.add("dropdown-menu");
             ulEl.setAttribute("aria-labelledby", "dropdownMenuButton2");
@@ -252,14 +253,15 @@ class Core {
         console.log(error);
       })
       .then((response) => {
+        var subjectUl;
         if (response !== undefined) {
-          var subjectUl = document.getElementById("subjectList");
+          subjectUl = document.getElementById("subjectList");
           subjectUl.innerHTML = "";
           response.forEach((item) => {
             subjectUl.appendChild(this.createLiElementForSyllabus(item));
           });
         } else {
-          var subjectUl = document.getElementById("subjectList");
+          subjectUl = document.getElementById("subjectList");
           subjectUl.innerHTML = "";
         }
       });
