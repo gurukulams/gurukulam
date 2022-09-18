@@ -987,3 +987,837 @@ replace the endogenous DNA with the
 incoming DNA.
 
 ***Transfection: Introduction of foreign nucleic acids into cells by non-viral methods.***
+
+##### 4.6.7. Genome Sequencing and Plant Genome Projects
+
+The whole complement of genes that determine
+all characteristics of an organism is called
+genome. Which may be nuclear genome,
+mitochondrial genome or plastid genome.
+Genome of many plants contain both functional
+and non-expressive DNA proteins. Genome
+project refers to a project in which the whole
+genome of plant is analysed using sequence
+analysis and sequence homology with other
+plants. Such genome projects have so far
+been undertaken in Chlamydomonas(algae),
+Arabidopsis thaliana, rice and maize plants.
+
+Genome content of an organism is expressed in
+terms of number of base pairs or in terms of the
+content of DNA which is expressed as c-value.
+
+#### 4.6.8 Evolutionary pattern assessed using DNA.
+
+In recent years the evolutionary relationship between different plant taxa is assessed using
+DNA content as well as the similarities and
+differences in the DNA sequence (sequence
+homology). Based on such analysis the taxa and
+their relationship are indicated in cladogram.
+Which will show the genetic distance between
+two taxa. It also shows antiquity or modernity
+of any taxon with respect to one another (See
+also Unit-2, Chapter-5 of XI Std.)
+
+**figure**
+
+##### 4.6.9 Genome editing and CRISPR - Cas9
+
+Genome editing or gene editing is a group of
+technologies that has the ability to change an
+organism’s DNA. These technologies allow
+genetic material to be added, removed, or altered at particular locations in the genome.
+Several approaches to genome editing have
+been developed. A recent one is known
+as CRISPR-Cas9, which is short form of
+**Clustered Regularly Interspaced Short Palindromic Repeats** and CRISPR-associated
+protein 9. The CRISPR-Cas9 system has
+generated a lot of excitement in the scientific
+community because it is faster, cheaper,
+more accurate, and more efficient than other
+existing genome editing methods.
+
+Rice, was among the first plants to be used
+to demonstrate the feasibility of CRISPRmediated targeted mutagenesis  and gene
+replacement. The gene editing tool CRISPR
+can be used to make hybrid rice plants that
+can clone their seed. Imtiyaz Khand and
+Venkatesan Sundaresan and
+colleagues reported in a new
+study which clearly shows
+one can re-engineer rice to
+switch it from a sexual to an
+asexual mode.
+
+##### 4.6.10 RNA Interference (RNAi)
+
+All characters of organism are the result
+of expression of different genes which are
+regions of nuclear DNA. This expression
+involves transcription and translation.
+Transcription refers to the copying of
+genetic information from one strand of the
+DNA (called sense strand) by RNA. This
+RNA, as soon as it formed cannot be straight
+away sent to the cytoplasm to undertake the
+process of translation. It has to be edited and
+made suitable for translation which brings
+about protein synthesis. One of the main
+items removed from the RNA strand are the
+introns. All these changes before translation
+normally take place whereby certain regions
+of DNA are silence. However, there is an
+(RNAi) pathway. RNA interference is a
+biological process in which RNA molecules
+inhibit gene expression or translation.
+This is done by neutralising targetd mRNA
+molecules. 
+
+A simplified model for the RNAi pathway
+is based on two steps, each involving
+ribonuclease enzyme. In the first step, the
+trigger RNA (either dsRNA or miRNA primary
+transcript) is processed into a short interfering
+RNA (siRNA) by the RNase II enzymes
+called Dicer and Drosha. In the second step,
+siRNAs are loaded into the effector complex
+RNA-induced silencing complex (RISC). The
+siRNA is unwound during RISC assembly
+and the single-stranded RNA hybridizes with
+mRNA target. This RNAi is seen in plant
+feeding nematodes.
+
+#### 4.7 Transgenic Plants / Genetically Modified Crops (Gm Crops)
+
+##### 4.7.1 Herbicide Tolerant – Glyphosate
+
+Weeds are a constant problem in crop fields.
+Weeds not only compete with crops for
+sunlight, water, nutrients and space but also
+acts as a carrier for insects and diseases. If left
+uncontrolled, weeds can reduce crop yields
+significantly.
+
+***Transgenic plants contain a novel DNA introduced into the genome.***
+
+**Glyphosate herbicide** produced by Monsanto,
+USA company under the trade name ‘Round
+up’ kills plants by blocking the 5-enopyruvate
+shikimate-3 phosphate synthase (EPSPS)
+enzyme, an enzyme involved in the biosynthesis
+of aromatic amino acids, vitamins and many
+secondary plant metabolites. There are several
+ways by which crops can be modified to be
+glyphosate-tolerant.
+
+One strategy is to incorporate a soil bacterium
+gene that produces a glyphosate tolerant form
+of EPSPS. Another way is to incorporate a
+different soil bacterium gene that produces a
+glyphosate degrading enzyme.
+
+**Advantages of Herbicide Tolerant Crops**
+
+
+- Weed control improves higher crop yields;
+
+- Reduces spray of herbicide;
+
+- Reduces competition between crop plant and weed;
+
+- Use of low toxicity compounds which do not remain active in the soil; and
+
+- The ability to conserve soil structure and microbes.
+
+##### 4.7.2 Herbicide Tolerant - Basta
+
+Trade name ‘Basta’ refers to a non-selective
+herbicide containing the chemical compound
+phosphinothricin. Basta herbicide tolerant
+gene PPT (L-phosphinothricin) was isolated
+from Medicago sativa plant. It inhibits the
+enzyme glutamine synthase which is involved
+in ammonia assimilation. The PPT gene
+was introduced into tobacco and transgenic
+tobacco produced was resistant to PPT. Similar
+enzyme was also isolated from Streptomyces
+hygroscopicus with bar gene encodes for PAT
+(Phosphinothricin acetyl transferase) and was
+introduced into crop plants like potato and
+sugar-beet and transgenic crops have been
+developed.
+
+##### 4.7.3 Insect resistance - Bt Crops:
+
+**i. Bt Cotton**
+
+Bt cotton is a genetically modified organism
+(GMO) or genetically modified pest resistant
+plant cotton variety, which produces an
+insecticide activity to bollworm.
+
+Strains of the bacterium Bacillus thuringiensis
+produce over 200 different Bt toxins, each
+harmful to different insects. Most Bt toxins
+are insecticidal to the larvae of moths and
+butterflies, beetles, cotton bollworms and
+gatflies but are harmless to other forms of life. 
+
+The genes are encoded for toxic crystals in the
+Cry group of endotoxin. When insects attack
+and eat the cotton plant the Cry toxins are
+dissolved in the insect’s stomach.
+
+The epithelial membranes of the gut block
+certain vital nutrients thereby sufficient
+regulation of potassium ions are lost in the
+insects and results in the death of epithelial cells
+in the intestine membrane which leads to the
+death of the larvae.
+
+**Advantages**
+
+The advantages of Bt cotton are:
+
+
+- Yield of cotton is increased due to effective control of bollworms.
+
+- Reduction in insecticide use in the cultivation of Bt cotton
+
+- Potential reduction in the cost of cultivation.
+
+**figure 4.25**
+
+**Disadvantages**
+
+Bt cotton has some limitations:
+
+- Cost of Bt cotton seed is high.
+
+- Effectiveness up to 120 days after that efficiency is reduced
+
+- Ineffective against sucking pests like jassids, aphids and whitefly.
+
+- Affects pollinating insects and thus yield. 
+
+**ii. Bt Brinjal**
+
+**figure 4.26**
+
+The Bt brinjal is another
+transgenic plant created
+by inserting a crystal
+protein gene (Cry1Ac)
+from the soil bacterium
+Bacillus thuringiensis
+into the genome of
+various brinjal cultivars. The insertion of the
+gene, along with other genetic elements such
+as promoters, terminators and an antibiotic
+resistance marker gene into the brinjal plant is
+accomplished using Agrobacterium- mediated genetic transformation. The Bt brinjal has
+been developed to give resistance against
+Lepidopberan insects, in particular the Brinjal
+Fruit and Shoot Borer (Leucinodes orbonalis).
+
+**iii. Dhara Mustard Hybrid (DMH)**
+
+figure 4.27
+
+DMH -11 is transgenic
+mustard developed by
+a team of scientists at
+the Centre for Genetic
+Manipulation of Crop
+Plants Delhi University
+under Government
+sponsored project. It is genetically modified
+variety of Herbicide Tolerant (HT) mustard.
+It was created by using “barnase/barstar”
+technology for genetic modification by adding
+genes from soil bacterium that makes mustard,
+a self-pollinating plant. DMH -11 contains
+three genes viz. Bar gene, Barnase and Barstar
+sourced from soil bacterium. The bar gene had
+made plant resistant to herbicide named Basta.
+
+**4.7.4 Virus Resistance**
+
+Many plants are affected by virus attack
+resulting in series loss in yield and even death.
+Biotechnological intervention is used to
+introduce viral resistant genes into the host plant
+so that they can resist the attack by virus. This
+is by introducing genes that produce resistant
+enzymes which can deactivate viral DNA.
+
+**4.7.5 FlavrSavr Tomato**
+
+figure 4.28
+
+Agrobacterium mediated
+genetic engineering
+technique was followed
+to produce Flavr-Savr
+tomato, i.e., retaining the
+natural colour and flavor
+of tomato.
+
+Through genetic engineering, the ripening
+process of the tomato is slowed down and thus
+prevent it from softening and to increase the
+shelf life. The tomato was made more resistant
+to rotting by Agrobacterium mediated gene transfer mechanism of introducing an antisense
+gene which interferes with the production of
+the enzyme polygalacturonase, which help in
+delaying the ripening process of tomato during
+long storage and transportation. 
+
+##### 4.7.6 Golden rice - Biofortification
+
+Golden rice is a variety of Oryza sativa (rice)
+produced through genetic engineering of
+biosynthesized beta-carotene, a precursor of
+Vitamin-A in the edible parts of rice developed
+by Ingo Potrykus and his group. The aim is
+to produce a fortified food to be grown and
+consumed in areas with a shortage of dietary
+Vitamin-A. Golden rice differs from its parental
+strain by the addition of three beta-carotene
+biosynthesis genes namely ‘psy’ (phytoene
+synthase) from daffodil plant Narcissus
+pseudonarcissus and ‘crt-1’ gene from the
+soil bacterium Erwinia auredorora and ‘lyc’
+(lycopene cyclase) gene from wild-type rice
+endosperm.
+
+The endosperm of normal rice, does not contain
+beta-carotene. Golden-rice has been genetically
+altered so that the endosperm now accumulates
+Beta-carotene. This has been done using
+Recombinant DNA technology. Golden rice can
+control childhood blindness - Xerophthalmia.
+
+figure 4.29
+
+**GM Food - Benefits**
+
+
+- High yield without pest
+
+- 70% reduction of pesticide usage
+
+- Reduce soil pollution problem
+
+- Conserve microbial population in soil
+
+**Risks - believed to**
+
+
+- Affect liver, kidney function and cancer
+
+- Hormonal imbalance and physical disorder
+
+- Anaphylactic shock (sudden hypersensitive
+
+-eaction) and allergies.
+
+- Adverse effect in immune system because of bacterial protein.
+
+- Loss of viability of seeds seen in terminator seed technology of GM crops. 
+
+##### 4.7.7 Polyhydroxybutyrate (PHB)
+
+Synthetic polymers are non-degradable and
+pollute the soil and when burnt add dioxin in
+the environment which cause cancer. So, efforts
+were taken to provide an alternative eco-friendly
+biopolymers. Polyhydroxyalkanoates (PHAs)
+and polyhydroxybutyrate (PHB) are group of
+degradable biopolymers which have several
+medical applications such as drug delivery,
+scaffold and heart valves. PHAs are biological
+macromolecules and thermoplastics which are
+biodegradable and biocompatible.
+
+Several microorganisms have been utilized
+to produce different types of PHAs including
+Gram-positive like Bacillus megaterium,
+Bacillussubtilis and Corynebacterium
+glutamicum, Gram-negative bacteria like group
+of Pseudomonas sp. and Alcaligenes eutrophus.
+
+##### 4.7.8 Polylactic acid (PLA)
+
+Polylactic acid or
+polylactide (PLA)
+is a biodegradable
+and bioactive
+thermoplastic. It is
+an aliphatic polyester
+derived from
+renewable resources,
+such as corn starch,
+cassava root, chips or starch or sugarcane. For
+the production of PLA, two main monomers
+are used: lactic acid, and the cyclic diester,
+lactide. The most common route is the ringopening polymerization of lactide with metal catalysts like tin octoate in solution. The metalcatalyzed reaction results in equal amount of d
+and polylactic acid.
+
+FIGURE 4.30
+
+##### 4.7.9 Green Fluorescent Protein (GFP)
+
+The green fluorescent protein (GFP) is a protein
+containing 238 amino acid residues of 26.9 kDa
+that exhibits bright green fluorescence when
+exposed to blue to ultraviolet range (395 nm).
+GFP refers to the protein first isolated from the
+jellyfish Aequorea victoria. GFP is an excellent
+tool in biology due to its ability to form internal
+chromophore without requiring any accessory
+cofactors, gene products, enzymes or substrates
+other than molecular oxygen. In cell and
+molecular biology, the GFP gene is frequently
+used as a reporter of expression. It has been
+used in modified forms to make biosensors.
+
+##### 4.7.10 Biopharming
+
+Biopharming also known as molecular
+pharming is the production and use of
+transgenic plants genetically engineered to
+produce pharmaceutical substances for use of
+human beings. This is also called “**molecular farming or pharming**”. These plants are
+different from medicinal plants which are
+naturally available. The use of plant systems
+as bioreactors is gaining more significance in
+modern biotechnology. Many pharmaceutical
+substances can be produced using transgenic
+plants. Example: Golden rice
+
+##### 4.7.11 Bioremediation
+
+It is defined as the use of microorganisms or
+plants to manage environmental pollution. It
+is an approach used to treat wastes including
+wastewater, industrial waste and solid waste.
+Bioremediation process is applied to the
+removal of oil, petrochemical residues,
+pesticides or heavy metals from soil or ground
+water. In many cases, bioremediation is less
+expensive and more sustainable than other
+physical and chemical methods of remediation.
+An eco-friendly approach and can deal with lower concentrations of contaminants more
+effectively. The strategies for bioremediation in
+soil and water can be as follows:
+
+- Use of indigenous microbial population
+as indicator species for bioremediation
+process.
+
+- Bioremediation with the addition of adapted
+or designed microbial inoculants.
+
+- Use of plants for bioremediation - green
+technology.
+
+Some examples of bioremediation
+technologies are:
+
+- **Phytoremediation** - use of plants to bring
+about remediation of environmental
+pollutants.
+
+- **Mycoremediation** - use of fungi to bring
+about remediation of environmental
+pollutants.
+
+- **Bioventing** a process that increases
+the oxygen or air flow to accelerate the
+degradation of environmental pollutants.
+
+- **Bioleaching** use of microorganisms in
+solution to recover metal pollutants from
+contaminated sites.
+
+- **Bioaugmentation** a addition of selected
+microbes to speed up degradation process.
+
+- **Composting** process by which the solid
+waste is composted by the use of microbes
+into manure which acts as a nutrient for
+plant growth.
+
+- **Rhizofiltration** uptake of metals or
+degradation of organic compounds by
+rhizosphere microorganisms.
+
+- **Rhizostimulation** stimulation of plant
+growth by the rhizosphere by providing
+better growth condition or reduction in
+toxic materials.
+
+**Limitations**
+
+- Only biodegradable contaminants can
+be transformed using bioremediation
+processes.
+
+- Bioremediation processes must be
+specifically made in accordance to the
+conditions at the contaminated site.
+
+- Small-scale tests on a pilot scale must be
+performed before carrying out the procedure
+at the contaminated site.
+
+- The use of genetic engineering technology to
+create genetically modified microorganism
+or a consortium of microbes for
+bioremediation process has great potential.
+
+##### 4.7.12 Biofuel: Algal Biofuel
+
+Algal fuel, also known as algal biofuel, or
+algal oil is an alternative to liquid fossil fuels,
+the petroleum products. This is also used as a
+source of energy-rich oils. Also, algal fuels are
+an alternative to commonly known biofuel
+sources obtained from corn and sugarcane.
+The energy crisis and the world food crisis have
+initiated interest in algal culture (farming algae)
+for making biodiesel and other biofuels on lands
+unsuitable for agriculture. Botryococcus braunii
+is normally used to produce algal biofuel.
+
+figure 4.31
+
+**Biological hydrogen production by algae**
+
+The biological hydrogen production with
+algae is a method of photo biological water
+splitting. In normal photosynthesis the alga,
+Chlamydomonas reinhardtii releases oxygen.
+When it is deprived of sulfur, it switches to the
+production of hydrogen during photosynthesis
+and the electrons are transported to ferredoxins. 
+
+[Fe]-hydrogenase enzymes combine them into
+the production of hydrogen gas.
+
+figure 4.32
+
+4.8.13 Bioprospecting
+Bioprospecting is the process of discovery and
+commercialization of new products obtained
+from biological resources. Bioprospecting
+may involve biopiracy, in which indigenous
+knowledge of nature, originating with
+indigenous people, is used by others for profit,
+without authorization or compensation to the indigenous people themselves.
+
+###### Biopiracy
+
+Biopiracy can be defined as the manipulation of
+intellectual property rights laws by corporations
+to gain exclusive control over national genetic
+resources, without giving adequate recognition
+or remuneration to the original possessors of
+those resources. Examples of biopiracy include
+recent patents granted by the U.S. Patent and
+Trademarks Office to American companies on
+turmeric, ‘neem’ and, most notably, ‘basmati’
+rice. All three products are indigenous to the
+Indo-Pak subcontinent.
+
+**Biopiracy of Neem**
+
+The people of India used neem and its oil in many
+ways to controlling fungal and bacterial skin
+infections. Indian’s have shared the knowledge
+of the properties of the neem with the entire
+world. Pirating this knowledge, the United States
+Department of Agriculture (USDA) and an
+American MNC (Multi Nation Corporation)
+W.R.Grace in the early 90’s sought a patent from the European Patent Office (EPO) on the “method
+for controlling of diseases on plants by the aid of
+extracted hydrophobic neem oil”. The patenting
+of the fungicidal and antibacterial properties
+of Neem was an example of biopiracy but the
+traditional knowledge of the Indians was protected
+in the end.
+
+**Biopiracy of Turmeric**
+
+The United States Patent and Trademark Office, in
+the year 1995 granted patent to the method of use
+of turmeric as an antiseptic agent. Turmeric has
+been used by the Indians as a home remedy for the
+quick healing of the wounds and also for purpose
+of healing rashes. The journal article published by
+the Indian Medical Association, in the year 1953
+wherein this remedy was mentioned. Therefore, in
+this way it was proved that the use of turmeric as
+an antiseptic is not new to the world and is not a
+new invention, but formed a part of the traditional
+knowledge of the Indians. The objection in this
+case US patent and trademark office was upheld
+and traditional knowledge of the Indians was
+protected. It is another example of Biopiracy.
+
+**Biopiracy of Basmati**
+
+On September 2, 1997, the U.S. Patent and
+Trademarks Office granted Patent on “basmati
+rice lines and grains” to the Texas-based company
+RiceTec. This broad patent gives the company
+several rights, including exclusive use of the term
+'basmati', as well proprietary rights on the seeds and
+grains from any crosses. The patent also covers the
+process of breeding RiceTec’s novel rice lines and
+the method to determine the cooking properties
+and starch content of the rice grains.
+
+India had periled the United States to take the
+matter to the WTO as an infringement of the
+TRIPS agreement, which could have resulted
+in major embarrassment for the US. Hence
+voluntarily and due to few decisions take by the
+US patent office, Rice Tec had no choice but to
+lose most of the claims and most importantly
+the right to call the rice “Basmati”. In the year
+2002, the final decision was taken. Rice Tec
+dropped down 15 claims, resulting in clearing the path of Indian Basmati rice exports to the
+foreign countries. The Patent Office ordered the
+patent name to be changed to ‘Rice lines 867’.
+
+#### 4.8 Applications of Biotechnology
+
+- Biotechnology is one of the most important
+applied interdisciplinary sciences of the **21st century**. It is the trusted area that enables us
+to find the beneficial way of life.
+
+- Biotechnology has wide applications in
+various sectors like agriculture, medicine,
+environment and commercial industries.
+
+- This science has an invaluable outcome like
+**transgenic varieties** of plants e.g. transgenic
+cotton (Bt-cotton), rice, tomato, tobacco,
+cauliflower, potato and banana.
+
+- The development of transgenics as pesticide
+resistant, stress resistant and disease
+resistant varieties of agricultural crops is the
+immense outcome of biotechnology.
+
+- The synthesis of **human insulin** and
+blood protein in E.coli and utilized for
+insulin deficiency disorder in human is
+a breakthrough in biotech industries in
+medicine.
+
+- The synthesis of vaccines, enzymes,
+antibiotics, dairy products and beverages
+are the products of biotech industries.
+
+- **Biochip** based biological computer is one of
+the successes of biotechnology.
+
+- Genetic engineering involves genetic
+manipulation, tissue culture involves aseptic
+cultivation of totipotent plant cell into
+plant clones under controlled atmospheric
+conditions.
+
+- **Single cell protein** from Spirulina is utilized
+in food industries.
+
+- Production of **secondary metabolites**,
+biofertilizers, biopesticides and enzymes.
+
+- Biomass energy, biofuel, Bioremediation,
+phytoremediation for environmental
+biotechnology.
+
+#### Summary
+
+Biotechnology is the science of applied biological
+process in which there is a controlled use of
+biological agents such as microorganisms
+or cellular components for beneficial use. A
+Hungarian Engineer, Karl Ereky (1919) coined
+the term biotechnology. Biotechnology broadly
+categorized into traditional practices and modern
+practices. Traditional biotechnology includes our
+ancient practices such as fermentation. Single
+Cell Protein (SCP) organisms are grown in large
+quantities to produce goods rich in protein,
+minerals, fats, carbohydrates and vitamins. The
+modern biotechnology embraces all the genetic
+manipulations. The recombinant DNA technology
+is a technique of modern biotechnology in which
+transfer of DNA coding for a specific gene
+from one organism is introduced into another
+organism using specific agents like vectors or
+using instruments like electroporation, gene
+gun, liposome mediated, chemical mediated and
+micro injection. Other tools are enzymes and host
+organisms. The enzyme restriction endonuclease
+is a molecular scissor that cleaves DNA into
+fragments at or near specific recognition sites with
+the molecule known as restriction sites. Other
+enzymes are DNA ligase and alkaline phosphatase.
+DNA ligase enzyme joins the sugar and phosphate
+molecules of double stranded DNA. Alkaline
+phosphatase is an enzyme which adds or removes
+specific phosphate group of double stranded DNA.
+A vector is a small DNA molecule capable of
+self replication and used as a carrier of DNA
+inserted in the host cell. Few examples of vectors
+are plasmid – pBR 322, cosmid – Lambda phage,
+M13, Phagmid , BAC, YAC, transposon, shuttle
+vector and expression vector.
+
+After production of recombinant DNA molecule
+has been generated is introduced into a suitable
+host cell. Type of host cell depends upon the
+cloning experiment. E.coli is the most widely
+used host organism. There are two kinds of gene
+transfer methods in plants. They are direct or
+vectorless gene transfer and indirect or vector mediated gene transfer. Direct gene transfer
+includes chemical mediated gene transfer, micro
+injection, electroporation. Gene gun method and
+Liposome mediated method of gene transfer.
+Indirect or vector mediated gene transfer is
+a method of gene transfer with the help of a
+plasmid vector. In this method Ti-plasmid
+from Agrobactirum tumefeciens has been used
+extensively for vector mediated gene transfer.
+
+After the introduction of rDNA into a host
+cell, it is essential to identify those cells which
+have received the rDNA molecule. This process
+is called screening. One of the method of
+recombinant screening is blue white selection
+method Replica plating technique in which the
+pattern of colonies growing on a culture plate is
+copied. Electrophoresis is a separating technique
+used to separate different biomolecules.
+
+Blotting techniques are widely used tools for
+identification of desired DNA or RNA fragments
+from larger number of molecules. Some of the
+genetically modified crops are herbicide tolerant – Basta, Dhara mustard, insects resistance – Bt crops, flavrSavr – Tomato, Golden rice.
+Biopolymers are polyhydroxybutyrate (PHB),
+polylactic acid (PLA) and green fluorescent
+protein (GFP) is used to make biosensors. Other
+applications are biopharming, bioprospecting,
+biomedication and biofuel, etc.
+
+#### Glossary
+
+**3’ Hydroxy end**: The hydroxyl group attached
+to 3’ carbon atom of sugar of the terminal
+nucleotide of a nucleic acid.
+
+**Bacterial artificial chromosomes (BAC)**: A
+cloning vector for isolation of genomic DNA
+constructed on the basis of F-factor.
+
+**Chimeric DNA**: A recombinant DNA molecule
+containing unrelated genes.
+
+**Cleave**: To break phosphodiester bonds of
+dsDNA, usually with a restriction enzyme.
+
+**Cloning site:** A location on a cloning vector
+into which DNA can be inserted.
+
+**Cloning:** Incorporation of a DNA molecule
+into a chromosomal site or a cloning vector.
+
+**Cloning Vector:** A small, self-replicating DNA
+inserted in a cloning gene.
+
+**COS sites:** The 12-base, single strand, complementary extension of phage lambda (l)
+DNA.
+
+**DNA Polymerase:** An enzyme that catalyses the
+phosphodiester bond in the formation of DNA.
+
+**Endonucleases:** An enzyme that catalyses the
+cleavage of DNA at internal position, cutting
+DNA at specific sites.
+
+**Genome:** The entire complement of genetic
+material of an organism.
+
+**Insert DNA:** A DNA molecule incorporated
+into a cloning vector.
+
+**Ligase:** An enzyme used in genetic engineering
+experiment to join the cut ends of dsDNA.
+
+**M-13:** AssDNA bacteriophage used as vector
+for DNA sequencing.
+
+**Phagemid:** A cloning vector that contains
+components derived from both phage DNA and
+plasmid.
+
+**Plasmid:** Extrachromosomal, self-replicating,
+circular dsDNA containing some non-essential
+genes.
+
+**Restriction map:** A linear array of sites on DNA
+cleaved by various restriction enzymes.
+
+**Shuttle Vector:** A plasmid cloning vector
+that can replicate in two different organisms
+due to the presence of two different origin of
+replication OriEUK and OriE. coli
+
+**Taq polymerase:** A heat stable DNA polymerase
+isolated from a thermophilic bacterium Thermus
+aquaticus.
+
+**Vectors:** Vehicles for transferring DNA from
+one cell to another.
+
+**Biofuel:** Fuels like hydrogen, ethanol and
+methanol produced from a biological source by
+the action of microorganisms.
+
+**Bioleaching:** Process of using microorganisms
+to recover metals from their ores or contaminant environment
+
+**Bioremediation:** Process of using organisms
+to remove or reduce pollutants from the
+environment.
+
+**Green Technology:** Pollution-free technology
+in which pollution is controlled at source.
+
+**Phytoremediation:** Use of certain plants to
+remove contaminants or pollutants from the
+environment (soil, water or air).
+
+**Recombinant:** Cell / Organism formed by a
+recombination of genes.
+
+**Transformation:** Process of transferring
+a foreign DNA into a cell and changing its
+genome.
+
+**Vector:** Agent used in recombinant DNA
+technique to carry new genes into foreign cells.
+
+**Wild Type:** Natural form of organisms.
+
+
+
+
+
+
