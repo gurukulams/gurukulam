@@ -393,7 +393,6 @@ the internal phosphodiester bonds within a DNA molecule. e.g. Hind II, EcoRI, Pv
 BamHI, TaqI.
 
 ![bio-botant image](/books/12-biology/botany/table_1.png )
-
 ##### Restriction endonucleases: Molecular scissors
 
 The restriction enzymes are called as molecular
