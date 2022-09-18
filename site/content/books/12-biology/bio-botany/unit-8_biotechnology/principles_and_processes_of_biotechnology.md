@@ -480,9 +480,510 @@ from bacteria and calf intestine.
 
 ![bio-botant image](/books/12-biology/botany/4.7.png )
 
+#### 4.4.4 Vectors
+
+Another major component of a gene cloning
+experiment is a vector such as a plasmid. A
+Vector is a small DNA molecule capable of
+self-replication and is used as a carrier and
+transporter of DNA fragment which is inserted
+into it for cloning experiments. Vector is
+also called **cloning vehicle** or **cloning DNA**.
+Vectors are of two types: i) Cloning Vector, and
+ii) Expression Vector. Cloning vector is used for the
+cloning of DNA insert inside the suitable host cell.
+Expression vector is used to express the DNA insert
+for producing specific protein inside the host.
+
+##### Properties of Vectors
+
+Vectors are able to replicate autonomously to
+produce multiple copies of them along with
+their DNA insert in the host cell.
+
+- It should be small in size and of low molecular
+weight, less than 10 Kb (kilo base pair) in size
+so that entry/transfer into host cell is easy.
+
+- Vector must contain an origin of replication
+so that it can independetly replicate within
+the host.
+
+- It should contain a suitable marker such as antibiotic resistance, to permit its detection
+in transformed host cell.
+
+- Vector should have unique target sites for
+integration with DNA insert and should
+have the ability to integrate with DNA
+insert it carries into the genome of the host
+cell. Most of the commonly used cloning
+vectors have more than one restriction site.
+These are Multiple Cloning Site (MCS) or
+polylinker. Presence of MCS facilitates the
+use of restriction enzyme of choice
+
+**figure**
+
+The following are the features that are required
+to facilitate cloning into a vector.
+
+1. **Origin of replication (ori):** This is a
+sequence from where replication starts
+and piece of DNA when linked to this
+sequence can be made to replicate within
+the host cells
+
+**figure 4.8**
+
+2. **Selectable marker**: In addition to ori the
+vector requires a selectable marker, which
+helps in identifying and eliminating non
+transformants and selectively permitting
+the growth of the transformants.
+
+3. **Cloning sites**: In order to link the alien
+DNA, the vector needs to have very few,
+preferably single, recognition sites for the
+commonly used restriction enzymes.
+
+##### Types of vector
+
+Few types of vectors are discussed in detail below:
+
+**Plasmid**
+
+Plasmids are extra
+c h r o m o s o m a l ,
+self replicating ds
+circular DNA molecules, found in the bacterial
+cells in addition to the bacterial chromosome.
+Plasmids contain Genetic information for their
+own replication.
+
+**figure 4.9**
+
+**pBR 322 Plasmid**
+
+**figure 4.10**
+
+pBR 322 plasmid is a reconstructed plasmid
+and most widely used as cloning vector; it
+contains 4361 base pairs. In pBR, ***p*** denotes 
+plasmid, **B**and **R** respectively the names of
+scientist **B**oliver and **R**odriguez who developed
+this plasmid. The number **322** is the number
+of plasmid developed from their laboratory. It
+contains amp<sup>R</sup> and tet<sup>R</sup> two different antibiotic
+resistance genes and recognition sites for several
+restriction enzymes. (Hind III, EcoRI, BamH
+I, Sal I, Pvu II, Pst I, Cla I), ori and antibiotic
+resistance genes. Rop codes for the proteins
+involved in the replication of the plasmid.
 
 
+**Ti Plasmid Bacteria**
+
+**figure 4.11**
+
+Ti plasmid is found
+in Agrobacterium
+tumefaciens, a bacteria
+responsible for
+inducing tumours
+in several dicot
+plants. The plasmid
+carries transfer (tra)
+gene which help to transfer T- DNA from one
+bacterium to other bacterial or plant cell. It has
+Onc gene for oncogenecity, ori gene for origin
+for replication and inc gene for incompatibility.
+T-DNA of Ti-Plasmid is stably integrated with
+plant DNA. Agrobacterium plasmids have been
+used for introduction of genes of desirable traits
+into plants.
+
+#### 4.4.5 Competent Host (For Transformation with Recombinant DNA)
+
+The propagation of the recombinant DNA
+molecules must occur inside a living system or
+host. Many types of host cells are available for
+gene cloning which includes E.coli, yeast, animal
+or plant cells. The type of host cell depends
+upon the cloning experiment. E.coli is the most
+widely used organism as its genetic make-up
+has been extensively studied, it is easy to handle and grow, can accept a range of
+vectors and has also been studied
+for safety. One more important
+feature of E.coli to be preferred as
+a host cell is that under optimal
+growing conditions the cells divide
+every 20 minutes. 
+
+Since the DNA is a hydrophilic
+molecule,it cannot pass through
+cell membranes, In order to force
+bacteria to take up the plasmid,
+the bacterial cells must first be
+made competent to take up DNA.
+This is done by treating them with
+a specific concentration of a divalent cation
+such as calcium. Recombinant DNA can then
+be forced into such cells by incubating the cells
+with recombinant DNA on ice, followed by
+placing them briefly at 42<sup>0</sup>C (heatshock) and then putting them back on ice. This enables
+bacteria to take up the Recombinant DNA.
+
+For the expression of eukaryotic proteins,
+eukaryotic cells are preferred because to produce
+a functionally active protein it should fold
+properly and post translational modifications
+should also occur, which is not possible by
+prokaryotic cell (E.coli).
+
+#### 4.5 Methods of Gene Transfer
+
+The next step after a recombinant DNA molecule
+has been generated is to introduce it into a
+suitable host cell. There are many methods to
+introduce recombinant vectors and these are
+dependent on several factors such as the vector
+type and host cell.
+
+For achieving genetic transformation in
+plants, the basic pre-requisite is the construction
+of a vector which carries the gene of interest
+flanked by the necessary controlling sequences,
+i.e., the promoter and terminator, and deliver the
+genes into the host plant. There are two kinds of
+gene transfer methods in plants. It includes:
+
+- Direct or vectorless gene transfer
+
+- Indirect or vector – mediated gene transfer
 
 
+##### 4.5.1 Direct or Vectorless Gene Transfer
+
+In the direct gene transfer methods, the foreign
+gene of interest is delivered into the host plant
+without the help of a vector. The following are
+some of the common methods of direct gene
+transfer in plants.
+
+**a. Chemical mediated gene transfer:**
+Certain chemicals like polyethylene glycol
+(PEG) and dextran sulphate induce DNA
+uptake into plant protoplasts.
+
+**b. Microinjection:**
+The DNA is directly injected
+into the nucleus using fine tipped glass needle
+or micro pipette to transform plant cells.
+The protoplasts are immobilised on a solid
+support (agarose on a microscopic slide) or
+held with a holding pipette under suction.
+
+**c. Electroporation Methods of Gene Transfer**:
+
+A pulse of high voltage is applied
+to protoplasts, cells or tissues which makes
+transient pores in the plasma membrane
+through which uptake of foreign DNA
+occurs.
+
+**figure 4.14**
+
+**d. Liposome mediated method of Gene Transfer**: Liposomes the artificial
+phospholipid vesicles are useful in gene
+transfer. The gene or DNA is transferred
+from liposome into vacuole of plant
+cells. It is carried out by encapsulated
+DNA into the vacuole. This technique
+is advantageous because the liposome
+protects the introduced DNA from being
+damaged by the acidic pH and protease
+enzymes present in the vacuole. Liposome
+and tonoplast of vacuole fusion resulted
+in gene transfer. This process is called
+lipofection.
+
+**figure 4.15**
+
+**e. Biolistics:** The foreign DNA is coated onto
+the surface of minute gold or tungsten
+particles (1-3 µm) and bombarded onto
+the target tissue or cells using a particle gun
+(also called as gene gun/micro projectile
+gun/shotgun). Then the bombarded cells
+or tissues are cultured on selected medium to regenerate plants from the transformed
+cells.(Figure 4.16)
+
+**figure 4.16**
+
+##### 4.5.2 Indirect or Vector-Mediated Gene Transfer
+
+Gene transfer is mediated with the help of a
+plasmid vector is known as indirect or vector
+mediated gene transfer. Among the various
+vectors used for plant transformation, the
+Ti-plasmid from Agrobacterium tumefaciens
+has been used extensively. This bacterium
+has a large size plasmid, known as Ti
+plasmid (Tumor inducing) and a portion
+of it referred as T-DNA (transfer DNA) is
+transferred to plant genome in the infected
+cells and cause plant tumors (crown gall).
+Since this bacterium has the natural ability
+to transfer T-DNA region of its plasmid into
+plant genome, upon infection of cells at the
+wound site, it is also known as the natural
+genetic engineer of plants.
+
+The foreign gene (e.g. Bt gene for insect
+resistance) and plant selection marker
+gene, usually an antibiotic gene like npt
+II which confers resistance to antibiotic
+kanamycin are cloned in the T DNA region
+of Ti-plasmid in place of unwanted DNA
+sequences.(Figure 4.17)
+
+**Figure 4.17**
+
+#### 4.6 Screening for Recombinants
+
+After the introduction of r-DNA into a suitable
+host cell, it is essential to identify those cells
+which have received the r-DNA molecule. This process is called screening. The vector or foreign
+DNA present in recombinant cells expresses the
+characters, while the non-recombinants do not
+express the characters or traits. For this some of
+the methods are used and one such method is
+Blue-White Colony Selection method.
+
+##### 4.7.1 Insertional Inactivation - BlueWhite Colony Selection Method
+
+It is a powerful method used for screening
+of recombinant plasmid. In this method, a
+reporter gene **lacZ** is inserted in the vector.
+The lacZ encodes the enzyme β-galactosidase
+and contains several recognition sites for
+restriction enzyme.
+
+β-galactosidase breaks a synthetic substrate
+called X-gal (5-bromo-4-chloro-indolyl-βD-galacto-pyranoside) into an insoluble blue
+coloured product. If a foreign gene is inserted
+into lacZ, this gene will be inactivated.
+Therefore, no-blue colour will develop (white)
+because β-galactosidase is not synthesized due
+to inactivation of lacZ. Therefore, the host
+cell containing r-DNA form white coloured
+colonies on the medium contain X-gal, whereas
+the other cells containing non-recombinant
+DNA will develop the blue coloured colonies.
+On the basis of colony colour, the recombinants
+can be selected.
+
+**figure 4.18**
+
+##### 4.6.2 Antibiotic resistant markers
+
+An antibiotic resistance marker is a gene
+that produces a protein that provides cells
+with resistance to an antibiotic. Bacteria
+with transformed DNA can be identified by
+growing on a medium containing an antibiotic.
+Recombinants will grow on these media as they 
+contain genes encoding resistance to antibiotics
+such as  ampicillin, chloro amphenicol,
+tetracycline or kanamycin, etc., while others
+may not be able to grow in these media, hence it
+is considered useful selectable marker.
+
+##### 4.6.3. Replica plating technique
+
+A technique in which the pattern of colonies
+growing on a culture plate is copied. A sterile
+filter plate is pressed against the culture plate
+and then lifted. Then the filter is pressed against
+a second sterile culture plate. This results in the
+new plate being infected with cell in the same
+relative positions as the colonies in the original
+plate. Usually, the medium used in the second
+plate will differ from that used in the first. It may
+include an antibiotic or exclude a growth factor.
+In this way, transformed cells can be selected.
+
+**figure 4.19**
+
+##### 4.6.4 Molecular Techniques - Isolation of Genetic Material and Gel Electrophoresis
+
+Electrophoresis is a separating technique used
+to separate different biomolecules with positive
+and negative charges.
+
+**Principle**
+
+By applying electricity (DC) the molecules
+migrate according to the type of charges
+they have. The electrical charges on different
+molecules are variable. 
+
+**figure**
+
+**Agarose GEL Electrophoresis**
+
+It is used mainly for the purification of specific
+DNA fragments. Agarose is convenient for
+separating DNA fragments ranging in size
+from a few hundred to about 20000 base
+pairs. Polyacrylamide is preferred for the
+purification of smaller DNA fragments. The gel
+is complex network of polymeric molecules.
+DNA molecule is negatively charged molecule
+- under an electric field DNA molecule
+migrates through the gel. The electrophoresis
+is frequently performed with marker DNA
+fragments of known size which allow accurate
+size determination of an unknown DNA
+molecule by interpolation. The advantages of
+agarose gel electrophoresis are that the DNA
+bands can be readily detected at high sensitivity.
+The bands of DNA in the gel are stained with
+the dye Ethidium Bromide and DNA can be
+detected as visible fluorescence illuminated in
+UV light will give orange fluorescence, which
+can be photographed.
+
+**figure 4.20**
 
 
+{{< box title="" type="" >}}
+
+Agricultural diagnostics refers to a variety of tests
+that are used for detection of pathogens in plant
+tissues. Two of the most efficient methods are
+
+**1. ELISA (Enzyme Linked Immumo Sorbent Assay)**
+
+Elisa is a diagnostic tool for identification of
+pathogen species by using antibodies and
+diagnostic agents. Use of ELISA in plant pathology
+especially for weeding out virus infected plants
+from large scale planting is well known.
+
+**2. DNA Probes**
+
+DNA Probes, isotopic and non-isotopic (Northern
+and Southern blotting) are popular tools for
+identification of viruses and other pathogens
+
+{{< /box >}}
+
+##### 4.6.5 Nucleic Acid Hybridization - Blotting Techniques
+
+Blotting techniques are widely used analytical
+tools for the specific identification of desired
+DNA or RNA fragments from larger number
+of molecules. Blotting refers to the process of
+immobilization of sample nucleic acids or solid
+support (nitrocellulose or nylon membranes.)
+The blotted nucleic acids are then used as target
+in the hybridization experiments for their
+specific detection.
+
+###### Types of Blotting Techniques
+
+**Southern Blotting:** The transfer of DNA from
+agarose gels to nitrocellulose membrane.
+
+**Northern Blotting:** The transfer of RNA to
+nitrocellulose membrane.
+
+**Western Blotting:** Electrophoretic transfer of
+Proteins to nitrocellulose membrane.
+
+**Southern Blotting Techniques - DNA**
+
+The transfer of denatured DNA from Agarose
+gel to Nitrocellulose Blotting or Filter Paper
+technique was introduced by Southern in 1975
+and this technique is called Southern Blotting
+Technique.
+
+**Steps**
+
+The transfer of DNA from agarose gel to
+nitrocellulose filter paper is achieved by
+Capillary Action.
+
+A buffer Sodium Saline Citrate (SSC) is
+used, in which DNA is highly soluble, it can be
+drawn up through the gel into the Nitrocellulose
+membrane.
+
+By this process ss-DNA becomes ‘**Trapped**’
+in the membrane matrix.
+This DNA is hybridized with a nucleic acid
+and can be detected by autoradiography.
+Autoradiography - A technique that captures
+the image formed in a photographic emulsion
+due to emission of light or radioactivity from
+a labelled component placed together with
+unexposed film.
+
+**figure 4.21**
+
+**Northern Blot**
+
+It was found that RNA is not binding to cellulose
+nitrate. Therefore, Alwin et al. (1979) devised a
+procedure in which RNA bands are transferred
+from the agarose gel into nitrocellulose filter
+paper. This transfer of RNA from gel to special
+filter paper is called Northern Blot hybridization.
+The filter paper used for Northern blot is Amino
+Benzyloxymethyl Paper which can be prepared
+from Whatman 540 paper.
+
+**Western Blot**
+
+Refers to the electrophoretic transfer of proteins
+to blotting papers. Nitrocellulose filter paper can
+be used for western blot technique. A particular
+protein is then identified by probing the blot
+with a radio-labelled antibody which binds on
+the specific protein to which the antibody was
+prepared.
+
+##### 4.6.6 Bioassay for Target Gene Effect
+
+Target gene is target DNA, foreign DNA,
+passenger DNA, exogenous DNA, gene of
+interest or insert DNA that is to be either
+cloned or specifically mutated. Gene targeting
+experiments have been targeting the nuclei
+and this leads to ‘gene knock-out’. For this
+purpose, two types of targeting vectors are used.
+They are insertion vectors and replacement or
+transplacement vectors.
+
+1. Insertion vectors are entirely inserted into
+targeted locus as the vectors are linearized
+within the homology region. Initially, these 
+vectors are circular but during insertion,
+become linear. It leads to duplication of
+sequences adjacent to selectable markers.
+
+**figure 2.22**
+
+**table 4.2**
+
+2. The replacement vector has the homology
+region and it is co-linear with target. This
+vector is linearized prior to transfection
+outside the homology region and then
+consequently a crossing over occurs to
+replace the endogenous DNA with the
+incoming DNA.
+
+***Transfection: Introduction of foreign nucleic acids into cells by non-viral methods.***
