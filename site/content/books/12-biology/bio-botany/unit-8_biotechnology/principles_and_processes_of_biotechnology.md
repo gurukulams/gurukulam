@@ -522,7 +522,7 @@ These are Multiple Cloning Site (MCS) or
 polylinker. Presence of MCS facilitates the
 use of restriction enzyme of choice
 
-**figure**
+![bio-botant image](/books/12-biology/botany/img1.png )
 
 The following are the features that are required
 to facilitate cloning into a vector.
@@ -533,7 +533,7 @@ and piece of DNA when linked to this
 sequence can be made to replicate within
 the host cells
 
-**figure 4.8**
+![bio-botant image](/books/12-biology/botany/4.8.png )
 
 2. **Selectable marker**: In addition to ori the
 vector requires a selectable marker, which
@@ -560,11 +560,11 @@ cells in addition to the bacterial chromosome.
 Plasmids contain Genetic information for their
 own replication.
 
-**figure 4.9**
+![bio-botant image](/books/12-biology/botany/4.9.png )
 
 **pBR 322 Plasmid**
 
-**figure 4.10**
+![bio-botant image](/books/12-biology/botany/4.10.png )
 
 pBR 322 plasmid is a reconstructed plasmid
 and most widely used as cloning vector; it
@@ -583,7 +583,7 @@ involved in the replication of the plasmid.
 
 **Ti Plasmid Bacteria**
 
-**figure 4.11**
+![bio-botant image](/books/12-biology/botany/4.11.png )
 
 Ti plasmid is found
 in Agrobacterium
@@ -691,7 +691,7 @@ transient pores in the plasma membrane
 through which uptake of foreign DNA
 occurs.
 
-**figure 4.14**
+![bio-botant image](/books/12-biology/botany/4.14.png )
 
 **d. Liposome mediated method of Gene Transfer**: Liposomes the artificial
 phospholipid vesicles are useful in gene
@@ -707,7 +707,7 @@ and tonoplast of vacuole fusion resulted
 in gene transfer. This process is called
 lipofection.
 
-**figure 4.15**
+![bio-botant image](/books/12-biology/botany/4.15.png )
 
 **e. Biolistics:** The foreign DNA is coated onto
 the surface of minute gold or tungsten
@@ -718,7 +718,7 @@ gun/shotgun). Then the bombarded cells
 or tissues are cultured on selected medium to regenerate plants from the transformed
 cells.(Figure 4.16)
 
-**figure 4.16**
+![bio-botant image](/books/12-biology/botany/4.16.png )
 
 ##### 4.5.2 Indirect or Vector-Mediated Gene Transfer
 
@@ -747,7 +747,7 @@ kanamycin are cloned in the T DNA region
 of Ti-plasmid in place of unwanted DNA
 sequences.(Figure 4.17)
 
-**Figure 4.17**
+![bio-botant image](/books/12-biology/botany/4.17.png )
 
 #### 4.6 Screening for Recombinants
 
@@ -783,7 +783,7 @@ DNA will develop the blue coloured colonies.
 On the basis of colony colour, the recombinants
 can be selected.
 
-**figure 4.18**
+![bio-botant image](/books/12-biology/botany/4.18.png )
 
 ##### 4.6.2 Antibiotic resistant markers
 
@@ -813,7 +813,7 @@ plate will differ from that used in the first. It may
 include an antibiotic or exclude a growth factor.
 In this way, transformed cells can be selected.
 
-**figure 4.19**
+![bio-botant image](/books/12-biology/botany/4.19.png )
 
 ##### 4.6.4 Molecular Techniques - Isolation of Genetic Material and Gel Electrophoresis
 
@@ -828,7 +828,7 @@ migrate according to the type of charges
 they have. The electrical charges on different
 molecules are variable. 
 
-**figure**
+![bio-botant image](/books/12-biology/botany/img8.png )
 
 **Agarose GEL Electrophoresis**
 
@@ -854,7 +854,7 @@ detected as visible fluorescence illuminated in
 UV light will give orange fluorescence, which
 can be photographed.
 
-**figure 4.20**
+![bio-botant image](/books/12-biology/botany/4.20.png )
 
 
 {{< box title="" type="" >}}
@@ -931,7 +931,7 @@ due to emission of light or radioactivity from
 a labelled component placed together with
 unexposed film.
 
-**figure 4.21**
+![bio-botant image](/books/12-biology/botany/4.21.png )
 
 **Northern Blot**
 
@@ -974,9 +974,11 @@ vectors are circular but during insertion,
 become linear. It leads to duplication of
 sequences adjacent to selectable markers.
 
-**figure 2.22**
+![bio-botant image](/books/12-biology/botany/4.22.png )
 
-**table 4.2**
+
+
+![bio-botant image](/books/12-biology/botany/table2.png )
 
 2. The replacement vector has the homology
 region and it is co-linear with target. This
@@ -1019,7 +1021,7 @@ two taxa. It also shows antiquity or modernity
 of any taxon with respect to one another (See
 also Unit-2, Chapter-5 of XI Std.)
 
-**figure**
+![bio-botant image](/books/12-biology/botany/img2.png )
 
 ##### 4.6.9 Genome editing and CRISPR - Cas9
 
@@ -1086,6 +1088,8 @@ siRNA is unwound during RISC assembly
 and the single-stranded RNA hybridizes with
 mRNA target. This RNAi is seen in plant
 feeding nematodes.
+
+![bio-botant image](/books/12-biology/botany/4.23.png )
 
 #### 4.7 Transgenic Plants / Genetically Modified Crops (Gm Crops)
 
@@ -1186,7 +1190,7 @@ The advantages of Bt cotton are:
 
 - Potential reduction in the cost of cultivation.
 
-**figure 4.25**
+![bio-botant image](/books/12-biology/botany/4.25.png )
 
 **Disadvantages**
 
@@ -1202,7 +1206,7 @@ Bt cotton has some limitations:
 
 **ii. Bt Brinjal**
 
-**figure 4.26**
+![bio-botant image](/books/12-biology/botany/4.26.png )
 
 The Bt brinjal is another
 transgenic plant created
@@ -1222,7 +1226,7 @@ Fruit and Shoot Borer (Leucinodes orbonalis).
 
 **iii. Dhara Mustard Hybrid (DMH)**
 
-figure 4.27
+![bio-botant image](/books/12-biology/botany/4.27.png )
 
 DMH -11 is transgenic
 mustard developed by
@@ -1253,7 +1257,7 @@ enzymes which can deactivate viral DNA.
 
 **4.7.5 FlavrSavr Tomato**
 
-figure 4.28
+![bio-botant image](/books/12-biology/botany/4.28.png )
 
 Agrobacterium mediated
 genetic engineering
@@ -1298,7 +1302,7 @@ Beta-carotene. This has been done using
 Recombinant DNA technology. Golden rice can
 control childhood blindness - Xerophthalmia.
 
-figure 4.29
+![bio-botant image](/books/12-biology/botany/4.29.png )
 
 **GM Food - Benefits**
 
@@ -1364,7 +1368,7 @@ are used: lactic acid, and the cyclic diester,
 lactide. The most common route is the ringopening polymerization of lactide with metal catalysts like tin octoate in solution. The metalcatalyzed reaction results in equal amount of d
 and polylactic acid.
 
-FIGURE 4.30
+![bio-botant image](/books/12-biology/botany/4.30.png )
 
 ##### 4.7.9 Green Fluorescent Protein (GFP)
 
@@ -1491,7 +1495,7 @@ for making biodiesel and other biofuels on lands
 unsuitable for agriculture. Botryococcus braunii
 is normally used to produce algal biofuel.
 
-figure 4.31
+![bio-botant image](/books/12-biology/botany/4.31.png )
 
 **Biological hydrogen production by algae**
 
@@ -1506,7 +1510,7 @@ and the electrons are transported to ferredoxins.
 [Fe]-hydrogenase enzymes combine them into
 the production of hydrogen gas.
 
-figure 4.32
+![bio-botant image](/books/12-biology/botany/4.32.png )
 
 4.8.13 Bioprospecting
 Bioprospecting is the process of discovery and
@@ -1816,8 +1820,14 @@ technique to carry new genes into foreign cells.
 
 **Wild Type:** Natural form of organisms.
 
+# APPENDIX
+![bio-botant image](/books/12-biology/botany/img3.png )
 
 
 
+![bio-botant image](/books/12-biology/botany/img4.png )
+![bio-botant image](/books/12-biology/botany/img5.png )
 
 
+![bio-botant image](/books/12-biology/botany/img6.png )
+![bio-botant image](/books/12-biology/botany/img7.png )
