@@ -188,6 +188,7 @@ habitat and niche of any organism is called
     <td class="tg-0pky">Organisms may<br>change their niche<br>with time and season</td>
   </tr>
 </tbody>
+
 </table>
 
 
@@ -210,8 +211,491 @@ areas management and also help us plan
 landscapes and environmental impact
 designing for the futuristic ecology.
 
+{{< /box >}}
+
 #### <u> 6.1.5 Ecological equivalents </u>
 
 Taxonomically different species occupying
 similar habitats (Niches) in different geographical
 regions are called **Ecological equivalents.**
+
+**Examples:**
+
+* Certain species of epiphytic orchids of
+Western Ghats of India differ from the
+epiphytic orchids of South America. But
+they are epiphytes.
+
+* Species of the grass lands of Western Ghats
+of India differ from the grass species of
+temperate grass lands of Steppe in North
+America. But they are all ecologically
+primary producers and fulfilling similar
+roles in their respective communities.
+
+![Figure 6.1: Environmental factors affecting a plant](/books/12-biology/botany/Ecology/pic3.png )
+
+#### <u> 6.2 Ecological factors </u>
+
+Many organisms, co-exist in an environment.
+The environment (surrounding) includes
+physical, chemical and biological components.
+When a component surrounding an organism
+affects the life of an organism, it becomes a
+factor. All such factors together are called
+environmental factors or ecological factors.
+These factors can be classified into living
+(biotic) and non-living (abiotic) which make
+the environment of an organism. However the
+ecological factors are meaningfully grouped
+into four classes, which are as follows:
+
+i. Climatic factors
+
+ii. Edaphic factors
+
+iii. Topographic factors
+
+iv. Biotic factors
+
+We will discuss the above factors in a concise
+manner.
+
+{{< box title="Learning Objectives" type="objective" >}}
+
+###### DO YOU KNOW? 
+
+
+Flowers of poppy, chicory,
+dog rose and many other
+plants, blossom before the
+break of dawn (4 – 5 am),
+evening primrose open up with the onset
+of dusk (5 – 6 pm) due to diurnal rhythm.
+
+{{< /box >}}
+
+#### <u> 6.2.1 Climatic Factors </u>
+
+Climate is one of the important natural factors
+controlling the plant life. The climatic factors
+includes light, temperature, water, wind and
+fire.
+
+**a. Light**
+
+Light is a well known factor needed for the
+basic physiological processes of plants, such as
+photosynthesis, transpiration, seed germination
+and flowering. The portion of the sunlight which
+can be resolved by the human eye is called
+**visible light.** The visible part of light is madeup of wavelength from about 400 nm (violet)
+to 700 nm **(red)**. The rate of photosynthesis is
+maximum at **blue** (400 – 500 nm) and red (600 –
+700 nm). The **green**(500 – 600 nm) wave length
+of spectrum is less strongly absorbed by plants.
+
+**Effects of light on plants**
+
+
+![Figure 6.2: Various effects of light upon a green plant](/books/12-biology/botany/Ecology/pic4.png )
+
+Based on the tolerance to intensities of light,
+the plants are divided into two types. They are 
+
+1. Heliophytes - Light loving plants.
+Example: Angiosperms.
+
+
+2. Sciophytes - Shade loving plants.
+Example: Bryophytes and Pteridophytes.
+
+In deep sea (>500m), the environment is
+dark and its inhabitants are not aware of the
+existence of celestial source of energy called
+Sun. What, then is their source of energy?
+
+
+{{< box title="Learning Objectives" type="objective" >}}
+
+###### DO YOU KNOW? 
+
+Palaeoclimatology–Helps to
+reconstruct past climates of
+our planet and flora, fauna
+and ecosystem in which they
+lived. Example: Air bubbles trapped in ice
+for tens of thousands of years with fossilized
+pollen, coral, plant and animal debris.
+
+{{< /box >}}
+
+
+**b. Temperature**
+
+Temperature is one of the important factors
+which affect almost all the metabolic activities
+of an organism. Every physiological process in
+an organism requires an optimum temperature
+at which it shows the maximum metabolic rate.
+Three limits of temperature can be recognized
+for any organism. They are
+
+1.**Minimum temperature**- Physiological
+activities are lowest.
+
+2. **Optimum temperature**- Physiological
+activities are maximum.
+
+3. **Maximum temperature** - Physiological
+activities will stop.
+
+Based on the temperature prevailing in
+an area, **Raunkiaer** classified the world’s
+vegetation into the following four types. They
+are megatherms, mesotherms, microtherms
+and hekistotherms. In thermal springs and deep
+sea hydrothermal vents the average temperature
+exceed 100<sup>o</sup>C.
+
+Based on the range of **thermal tolerance,**
+organisms are divided into two types.
+
+**1. Eurythermal:** Organisms which can tolerate
+a wide range of temperature fluctuations.
+Example: Zostera (A marine Angiosperm) and
+Artemisia tridentata.
+
+
+**2. Stenothermal:** Organisms which can
+tolerate only small range of temperature
+variations. Example: Mango and Palm
+(Terrestrial Angiosperms).
+
+Mango plant does not grow in temperate
+countries like Canada and Germany
+
+#### <u>Thermal Stratification </u>
+
+It is usually found in aquatic habitat. The
+change in the temperature profile with
+increasing depth in a water body is called
+**thermal stratification**. There are three levels
+of thermal stratifications.
+
+![Figure 6.3: Thermal stratification of pond](/books/12-biology/botany/Ecology/pic5.png )
+
+1. Epilimnion – The upper layer of warmer
+water.
+
+2. Metalimnion – The middle layer with a
+zone of gradual decrease in temperature.
+
+3. Hypolimnion - The bottom layer of colder water.
+
+**Temperature based zonation**
+
+Variations in **latitude** and **altitude** do affect the
+temperature and the vegetation on the earth
+surface. The latitudinal and altitudinal zonation
+of vegetation is illustrated below:
+
+**Latitude:** Latitude is an angle which ranges
+from 00 at the equator to 900 at the poles.
+
+
+**Altitude:** How high a place is located above
+the sea level is called the altitude of the place.
+
+![](/books/12-biology/botany/Ecology/pic6.png )
+
+
+**Timber line / Tree line :** It is an imaginary
+line in a mountain or higher areas of land
+that marks the level above which trees do
+not grow. The altitudinal limit of normal tree
+growth is about **3000 to 4000m.**
+
+**Effects of temperature**
+
+The following physiological processes are
+influenced by temperature:
+
+* Temperature affects the enzymatic action
+of all the bio-chemical reactions in a plant
+body.
+
+* It influences CO2 and O2 solubility in the
+biological systems. Increases respiration
+and stimulates growth of seedlings.
+
+* Low temperature with high humidity can
+cause spread of diseases in plants.
+
+* The varying temperature with moisture
+determines the distribution of the
+vegetation types.
+
+**c. Water**
+
+
+Water is one of the most important climatic
+factors. It affects the vital processes of all living
+organisms. It is believed that even life had
+originated only in water during the evolution of
+Earth. Water covers more than 70% of the earth’s
+surface. In nature, water is available to plants in
+three ways. They are **atmospheric moisture,**
+**precipitation and soil water.**
+
+{{< box title="Learning Objectives" type="objective" >}}
+
+###### DO YOU KNOW? 
+
+**Evergreen forests** – Found
+where heavy rainfall occurs
+throughout the year.
+
+**Sclerophyllous forests** –
+Found where heavy rainfall occurs during
+winter and low rainfall during summer.
+
+{{< /box >}}
+
+The productivity and distribution of plants depend
+upon the availability of water. Further the quality
+of water is also important especially for the aquatic
+organisms. The total amount of water salinity in
+different water bodies are :i).5% in inland water
+(Fresh water) ii).30 – 35% in sea water and iii).
+More than 100% in hypersaline water **(Lagoons)**
+Based on the range of tolerance of salinity,
+organisms are divided into two types.
+
+**1. Euryhaline:** Organisms which can live in
+water with wide range of salinity. Examples:
+Marine algae and marina angiosperms
+
+
+**2. Stenohaline:** Organisms which can withstand 
+only small range of salinity. Example: Plants of
+estuaries.
+
+![Table 6.2: Tolerance of Environmental factor](/books/12-biology/botany/Ecology/pic7.png )
+
+
+**Examples of tolerance to toxicity**
+
+i. Soyabean and tomato manage to tolerate
+presence of cadmium poisoning by isolating
+cadmium and storing into few group of cells
+and prevent cadmium affecting other cells .
+ii. Rice and Eichhornia (water hyacinth ) tolerate
+cadmium by binding it to their proteins.
+
+These plants otherwise can also be used to
+remove cadmium from contaminated soil ,this
+is known as **Phytoremediation.**
+
+**d. Wind**
+
+
+Air in motion is called wind. It is also a
+vital ecological factor. The atmospheric air
+contains a number of gases, particles and
+other constituents. The composition of gases
+in atmosphere is as follows: Nitrogen -78% ,
+Oxygen -21%, Carbon-di-oxide -0.03%, Argon
+and other gases - 0.93%. The other components
+of wind are water vapour, gaseous pollutants,
+dust, smoke particles, microorganisms,
+pollen grains, spores, etc. **Anemometer** is the
+instrument used to measure the speed of wind.
+
+{{< box title="Learning Objectives" type="objective" >}}
+
+###### DO YOU KNOW? 
+
+**Green House Effect Albedo Effect**
+
+Gases let out to atmosphere
+causes climatic change.
+Emission of dust and aerosols (small solids
+or liquid particles in suspension in the
+atmosphere) from industries, automobiles,
+forest fire, So2 and DMS (dimethyl sulphur)
+play an important role in disturbing the
+temperature level of any region. Aerosols
+with small particles is reflecting the
+solar radiation entering the atmosphere.
+This is known as **Albedo effect.** So it
+reduces the temperature (cooling) limits,
+photosynthesis and respiration. The
+sulphur compounds are responsible for
+**acid rain** due to acidification of rain water
+and destroy the ozone.
+
+**Effects of wind**
+
+*  Wind is an important factor for the
+formation of rain
+
+*  Causes wave formation in lakes and ocean,
+promotes aeration of water
+
+*  Strong wind causes soil erosion and reduces
+soil fertility
+
+*  Increases the rate of transpiration
+
+* Helps in pollination in anemophilous plants
+
+* It also helps in dispersal of many
+fruits, seeds, spores, etc.
+
+
+* Strong wind may cause up-rooting of big trees
+
+
+*  Unidirectional wind stimulates the
+development of flag forms in trees.
+
+![](/books/12-biology/botany/Ecology/pic8.png )
+
+**e. Fire**
+
+Fire is an exothermic factor caused due to the
+chemical process of combustion, releasing heat
+and light. It is mostly man-made and sometimes develops naturally due to the friction
+between the tree surfaces. Fire is generally
+divided into
+
+1. Ground fire – Which is flameless and
+subterranean.
+
+2. Surface fire – Which consumes the herbs
+and shrubs.
+
+3. Crown fire – Which burns the forest canopy.
+Effects of fire
+
+* Fire has a dir ect lethal effect on plants
+
+*  Burning scars are the suitable places for the
+entry of parasitic fungi and insects
+
+*  It brings out the alteration of light, rainfall,
+nutrient cycle, fertility of soil, pH, soil flora
+and fauna
+
+*  Some fungi which grow in soil of burnt areas
+called pyrophilous.
+*Example: Pyronema confluens*
+
+**Indicators of fire** – *Pteris* ( fern ) and
+*Pyronema*(fungus) indicates the burnt up
+and fire disturbed areas. So they are called
+indicators of fire.
+
+
+**Fire break**– It is a gap made in the vegetation
+that acts as a barrier to slow down or stop the
+progress of fire.
+
+
+**A natural fire break**may occur when there
+is a lack of vegetation such as River, lake and
+canyon found in between vegetation may act
+as a natural fire break.
+
+
+**Rhytidome:** It is the structural defense by
+plants against fire .The outer bark of trees
+which extends to the last formed periderm is
+called Rhytidome. It is composed of multiple
+layers of suberized periderm, cortical and
+phloem tissues. It protects the stem against
+fire , water loss, invasion of insects and
+prevents infections by microorganisms.
+
+
+#### <u> 6.2.2 Edaphic factors </u>
+
+Edaphic factors, the abiotic factors related
+to soil, include the physical and chemical
+composition of the soil formed in a particular
+area. The study of soils is called Pedology.
+
+**The soil**
+
+Soil is the weathered superficial layer of the
+Earth in which plants can grow. It is a complex
+composite mass consisting of soil constituents,
+soil water, soil air and soil organisms, etc.
+
+**Soil formation**
+
+
+Soil originates from rocks and develops gradually
+at different rates, depending upon the ecological
+and climatic conditions. Soil formation is
+initiated by the weathering process. Biological
+weathering takes place when organisms like
+bacteria, fungi, lichens and plants help in the
+breakdown of rocks through the production of
+acids and certain chemical substances. 
+
+**Soil types**
+
+Based on soil formation (pedogenesis),
+the soils are divided into
+
+**1. Residual soils** –These are soils formed by
+weathering and pedogenesis of the rock.
+
+**2. Transported soils** – These are transported
+by various agencies.
+
+The important edaphic factors which affect
+vegetation are as follows:
+
+**1. Soil moisture:** Plants absorbs rain water
+and moisture directly from the air
+
+**2. Soil water:** Soil water is more important
+than any other ecological factors affecting the
+distribution of plants. Rain is the main source
+of soil water. Capillary water held between
+pore spaces of soil particles and angles
+between them is the most important form of
+water available to the plants.
+
+**3. Soil reactions:** Soil may be acidic or
+alkaline or neutral in their reaction. pH value
+of the soil solution determines the availability
+of plant nutrients. The best pH range of the soil
+for cultivation of crop plants is **5.5 to 6.8.**
+
+
+**4. Soil nutrients:**Soil fertility and productivity
+is the ability of soil to provide all essential
+plant nutrients such as minerals and organic
+nutrients in the form of ions.
+
+
+**5. Soil temperature:** Soil temperature of an
+area plays an important role in determining
+the geographical distribution of plants. Low
+temperature reduces use of water and solute
+absorption by roots.
+
+
+**6. Soil atmosphere:** The spaces left between
+soil particles are called pore spaces which
+contains oxygen and carbon-di-oxide.
+
+**7. Soil organisms:** Many organisms existing
+in the soil like bacteria, fungi, algae,
+protozoans, nematodes,
+insects, earthworms, etc. are
+called soil organisms. 
