@@ -43,10 +43,7 @@ ovules.
  Differentiate the structure of Dicot and
 Monocot seed.
 
-{{< /box >}}
-
-
-
+{{< /box >}}The differences between habitat and niche are as follows.
 {{< box title="Chapter outline " type="objective" >}}
 
 
