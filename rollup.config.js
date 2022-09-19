@@ -4,7 +4,8 @@ export default [{
   input: 'src/js/core/index.js',
   plugins: [
     eslint({
-      /* your options */
+      fix:true,
+      throwOnError:true
     })
   ],
   output: {
