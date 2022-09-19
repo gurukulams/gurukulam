@@ -1016,3 +1016,127 @@ host plants for their entire nutrition are called
 **Holoparasites.** They are also called **total parasites**.
 
 ![Figure 6.14: a) Holoparasite – Cuscuta b) A Partial stem parasite – Viscum c) Root parasite on the brinjal root Orobanche spp. ](/books/12-biology/botany/Ecology/pic18.png )
+
+Examples:
+
+* Cuscuta is a total stem parasite of the
+host plant Acacia, Duranta and many
+other plants. Cuscuta even gets flower
+inducing hormone from its host plant.
+
+* Balanophora, Orobanche and Rafflesia
+are the total root parasites found on
+higher plants.
+
+**Hemiparasites**
+
+The organisms which derive only water
+and minerals from their host plant while
+synthesizing their own food by photosynthesis
+are called **Hemiparasites** They are also called
+**partial parasites**.
+
+**Examples:**
+
+* *Viscum* and *Loranthus* are partial stem
+parasites.
+
+* *Santalum* (Sandal Wood) is a partial root
+parasite.
+
+The parasitic plants produce the **haustorial roots** inside the host plant to absorb nutrients
+from the vascular tissues of host plants.
+
+**c. Competition:** It is an interaction between
+two organisms or species in which both the
+organisms or species are harmed. Competition
+is the severest in population that has irregular
+distribution. Competition is classified into
+intraspecific and interspecific.
+
+**1. Intraspecific competition:** It is an interaction
+between individuals of the same species. This
+competition is very severe because all the
+members of species have similar requirements of
+food, habitat, pollination etc. and they also have
+similar adaptations to fulfill their needs.
+
+
+**2. Interspecific competition:** It is an interaction
+between individuals of different species. In
+grassland, many species of grasses grow well as
+there is little competition when enough nutrients
+and water is available. During drought shortage
+of water occurs . A life and death competition
+starts among the different species of grass lands.
+Survival in both these competitions is determined
+by the quantity of nutrients, availability of water
+and migration to new areas. Different species of
+herbivores, larvae and grass hopper competing
+for fodder or forage plants. Trees, shrubs and
+herbs in a forest struggle for sunlight, water and
+nutrients and also for pollination and dispersal of
+fruits and seeds. The Utricularia (Bladderwort)
+competes with tiny fishes for small crustaceans
+and insectS.
+
+**d. Amensalism:** It is an interspecific interaction
+in which one species is inhibited while the other
+species is neither benefitted nor harmed. The
+inhibition is achieved by the secretion of certain
+chemicals called **allelopathic** substances.
+
+Amensalism is also called **antibiosis.**
+
+* Penicillium notatum produces penicillin to
+inhibit the growth of a variety of bacteria
+especially Staphylococcus.
+
+* Trichoderma inhibits the growth of fungus
+Aspergillus.
+
+*  Roots and hulls of Black Walnut Juglans
+nigra secretes an alkaloid Juglone which
+inhibits the growth of seedlings of Apple,
+Tomato and Alfalfa around it.
+
+**Interspecific interactions/ Co-evolutionary dynamics**
+
+**i. Mimicry:** It is a phenomenon in which
+living organism modifies its form, appearance,
+structure or behavior and looks like another
+living organism as a self defence and increases
+the chance of its survival. Floral mimicry is
+for usually inviting pollinators but animal
+mimicry is often protective. Mimicry is a result
+of evolutionary significance due to shape and
+sudden heritable mutation and preservation by
+natural selection.
+
+
+![](/books/12-biology/botany/Ecology/pic19.png )
+
+Example:
+
+* The plant, Ophrys an orchid, the flower looks
+like a female insect to attract the male insect
+to get pollinated by the male insect and it is
+otherwise called ‘floral mimicry ‘.
+
+
+* Carausium morosus – stick insect or
+walking stick. It is a protective mimicry
+• Phyllium frondosum – leaf insect, another
+example of protective mimicry.
+
+**ii. Myrmecophily:** Sometimes, ants take their
+shelter on some trees such as Mango, Litchi,
+Jamun, Acacia etc. These ants act as body
+guards of the plants against any disturbing
+agent and the plants in turn provide food
+and shelter to these ants. This phenomenon
+is known as Myrmecophily. Example: Acacia
+and acacia ants.
+
+
+
