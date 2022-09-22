@@ -3,7 +3,8 @@ title: 'Chapter 6: Evolution'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 3
----
+---                               {{< box title=" DO YOU KNOW ??" type="objective" >}}
+                                   {{< /box >}}
 
 ![](/books/12-biology/zoology1/pic36.png)
 
