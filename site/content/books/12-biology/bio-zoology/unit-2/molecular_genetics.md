@@ -1251,3 +1251,947 @@ and TΨC arm. These arms have loops such
 as amino acyl binding loop, anticodon loop
 and ribosomal binding loop at their ends.
 In addition it also shows a small lump called
+variable loop or extra arm. The amino acid
+is attached to one end (amino acid acceptor
+end) and the other end consists of three
+anticodon nucleotides. The anticodon pairs
+with a codon in mRNA ensuring that the
+correct amino acid is incorporated into the
+growing polypeptide chain. Four different
+regions of double-stranded RNA are formed
+during the folding process. Modified bases
+are especially common in tRNA. Wobbling
+between anticodon and codon allows some
+tRNA molecules to read more than one codon.
+The process of addition of amino acid
+to tRNA is known as **aminoacylation** or
+**charging** and the resultant product is called
+aminoacyl- tRNA (charged tRNA). Without
+aminoacylation tRNA is known as uncharged
+tRNA **(Fig. 5.12)**. If two such tRNAs are
+brought together peptide bond formation is
+favoured energetically. Numbers of amino
+acids are joined by peptide bonds to form a
+polypeptide chain. This aminoacylation is
+catalyzed by an enzyme **aminoacyl – tRNA**
+**synthetase**. This is an endothermic reaction
+and is associated with ATP hydrolysis. 20 different aminoacyl – tRNA synthetases are
+known. The power to recognize codon on the
+mRNA lies in the tRNA and not in the attached
+amino acid molecule.
+
+
+![Fig. 5.11 Holley’s two-dimensional clover leaf model of transfer RNA](/books/12-biology/zoology1/pic23.png)
+
+![Fig. 5.12 ](/books/12-biology/zoology1/pic24.png)
+
+#### <u> 5.12 Translation  </u>
+Translation refers to the process of
+polymerization of amino acids to form poly
+peptide chain. The decoding process is carried
+out by ribosomes that bind mRNA and charged
+tRNA molecules. The mRNA is translated,
+starting at the 5' end. After binding to mRNA,
+the ribosomes move along it, adding new amino
+acids to the growing polypeptide chain each
+time it reads a codon. Each codon is read by an
+anticodon on the corresponding tRNA. Hence
+the order and sequence of amino acids are
+defined by the sequence of bases in the mRNA.
+
+#### 5.12.1 Mechanism of Translation
+
+The cellular factory
+responsible for synthesizing
+protein is the ribosome.
+The ribosome consists of
+structural RNAs and about 80 different
+proteins. In inactive state, it exists as two
+subunits; large subunit and small subunit.
+When the subunit encounters an mRNA,
+the process of translation of the mRNA to
+protein begins. The prokaryotic ribosome
+(70 S) consists of two subunits, the
+larger subunit (50 S) and smaller subunit
+(30 S). The ribosomes of eukaryotes (80 S) are
+larger, consisting of 60 S and 40 S sub units.
+‘S’ denotes the sedimentation coefficient
+which is expressed as Svedberg unit (S).
+
+
+One of the alternative ways of dividing
+up a sequence of bases in DNA or RNA
+into codons is called **reading frame.** Any
+sequence of DNA or RNA, beginning with
+a start codon and which can be translated
+into a protein is known as an **Open Reading**
+**Frame (ORF)**. A translational unit in mRNA
+is the sequence of RNA that is flanked by
+the start codon (AUG) and the stop codon
+and codes for polypeptides. mRNA also
+have some additional sequences that are not
+translated and are referred to as **Untranslated**
+**Regions (UTR).** UTRs are present at both
+5' end (before start codon) and at 3' end
+(after stop codon). The start codon (AUG)
+begins the coding sequence and is read by a
+special tRNA that carries methionine (met).
+The initiator tRNA charged with methionine
+binds to the AUG start codon. In prokaryotes,
+N - formyl methionine (f met) is attached to
+the initiator tRNA whereas in eukaryotes
+unmodified methionine is used. The 5' end
+of the mRNA of prokaryotes has a special
+sequence which precedes the initial AUG
+start codon of mRNA. This ribosome binding
+site is called the **Shine – Dalgarno sequence**
+
+
+![Fig. 5.12 ](/books/12-biology/zoology1/pic25.png)
+
+or **S-D sequence.** This sequences base-pairs
+with a region of the 16Sr RNA of the small
+ribosomal subunit facilitating initiation. The
+subunits of the ribosomes (30 S and 50 S) are
+usually dissociated from each other when not
+involved in translation **(Fig. 5.13a).**
+
+
+**Initiation** of translation in E. coli begins
+with the formation of an initiation complex,
+consisting of the 30S subunits of the ribosome,
+a messenger RNA and the charged N-formyl
+methionine tRNA (f<sup>met</sup> – t RNA f<sup>met</sup>), three
+proteinaceous initiation factors (IF1, IF2, IF3),
+GTP(Guanine Tri Phosphate) and Mg<sup>+2</sup>.
+
+
+The components that form the initiation
+complex interact in a series of steps. IF3
+binds to the 30S and allows the 30S subunit
+to bind to mRNA. Another initiation protein
+(IF2) then enhances the binding of charged
+formyl methionine tRNA to the small subunit
+in response to the AUG triplet. This step
+‘sets’ the reading frame so that all subsequent
+groups of three ribonucleotides are translated
+accurately.
+
+The assembly of ribosomal subunits, mRNA
+and tRNA represent the initiation complex.
+Once **initiation complex** has been assembled,
+IF3 is released and allows the initiation
+complex to combine with the 50S ribosomal
+subunit to form the complete ribosome
+(70S). In this process a molecule of GTP is
+hydrolyzed providing the required energy
+
+![Fig. 5.13 b- Initiation ](/books/12-biology/zoology1/pic26.png)
+
+and the initiation factors
+(IF1 and IF2 and
+GDP) are released
+**(Fig. 5.13 b).**
+
+
+**Elongation** is the second
+phase of translation. Once
+both subunits of the ribosomes
+are assembled with the mRNA,
+binding sites for two charged
+tRNA molecules are formed.
+The sites in the ribosome are
+referred to as the aminoacyl
+site (A site), the peptidyl site
+(P site) and the exit site (E site).
+The charged initiator tRNA
+binds to the P site. The next
+step in prokaryotic translation
+is to position the second tRNA
+at the ‘A’ site of the ribosome
+to form hydrogen bonds
+between its anticodon and the
+second codon on the mRNA
+(step1). This step requires the
+correct transfer RNA, another
+GTP and two proteins called
+elongation factors (EF-Ts and
+EF-Tu).
+
+
+Once the charged tRNA
+molecule is positioned at the
+A site, the enzyme peptidyl
+transferase catalyses the
+formation of peptide bonds that
+link the two amino acids together
+(step 2). At the same time, the
+covalent bond between the amino acid and tRNA
+occupying the P site is hydrolyzed (broken). The
+product of this reaction is a dipeptide which is
+attached to the 3' end of tRNA still residing in the
+A site. For elongation to be repeated, the tRNA
+attached to the P site, which is now uncharged is
+released from the large subunit. The uncharged
+tRNA moves through the **‘E’ site** on the ribosome.
+
+
+The entire mRNA-tRNA-aa1-aa2 complex
+shifts in the direction of the **‘P’ site** by a distance
+of three nucleotides (step 3). This step requires
+several elongation factors (EFs) and the energy
+derived from hydrolysis of GTP. This results in the
+third triplet of mRNA to accept another charged
+tRNA into the A site (step 4). The sequence of
+elongation is repeated over and over (step 5 and
+step 6). An additional amino acid is added to the
+growing polypeptide, each time mRNA advances
+through the ribosome. Once a polypeptide chain
+
+![Fig. 5.13 c- Elongation of the growing polypeptide](/books/12-biology/zoology1/pic27.png)
+
+is assembled, it emerges out from the base of the
+large subunit **(Fig. 5.13 c).**
+
+
+**Termination** is the third phase of translation.
+Termination of protein synthesis occurs when
+one of the three stop codons appears in the
+‘A’ site of the ribosome. The terminal codon
+signals the action of **GTP – dependent release**
+**factor**, which cleaves the polypeptide chain
+from the terminal tRNA releasing it from
+the translational complex (step 1). The tRNA
+is then released from the ribosome, which
+then dissociates into its subunits (step 2)
+(Fig. 5.13 d).
+
+![Fig. 5.13 d- Termination of the process of translation](/books/12-biology/zoology1/pic28.png)
+
+### <u> 5.13 Regulation of gene expression </u>
+
+We have previously established how DNA
+is organized into genes, how genes store
+genetic information, and how this information
+is expressed. We now consider the most
+fundamental issues in molecular genetics.
+How is genetic expression regulated? Evidence
+in support of the idea that genes can be turned
+on and off is very convincing. Regulation of
+gene expression has been extensively studied
+in prokaryotes, especially in E. coli. Gene
+expression can be controlled or regulated
+at transcriptional or post transcriptional or
+translational level. Here, we are going to discuss
+regulation of gene expression at transcriptional
+level. Usually, small extracellular or intracellular
+metabolites trigger initiation or inhibition
+of gene expression. The clusters of gene with
+related functions are called operons. They
+usually transcribe single mRNA molecules.
+In E.coli, nearly 260 genes are grouped into
+75 different **operons.**
+
+
+ {{< box  >}}
+
+ Many antibiotics do not allow pathogenic
+bacteria to flourish in animal host because
+they inhibit one or the other stage of bacterial
+protein synthesis. The antibiotic tetracycline
+inhibits binding between aminoacyl
+tRNA and mRNA. Neomycin inhibits the
+interaction between tRNA and mRNA.
+Erythromycin inhibits the translocation of
+mRNA along the ribosome. Streptomycin
+inhibits the initiation of translation and
+causes misreading. Chloramphenicol
+inhibits peptidyl transferase and formation
+of peptide bonds.
+
+{{< /box  >}}
+
+**Structure of the operon:** Each operon is a unit
+of gene expression and regulation and consists
+of one or more structural genes and an adjacent
+operator gene that controls transcriptional
+activity of the **structural gene.**
+
+i) The structural gene codes for proteins,
+rRNA and tRNA required by the cell.
+
+ii) Promoters are the signal sequences in
+DNA that initiate RNA synthesis. RNA
+polymerase binds to the promoter prior
+to the initiation of transcription.
+
+iii) The operators are present between the
+promoters and structural genes. The
+repressor protein binds to the operator
+region of the operon.
+
+**The Lac (Lactose) operon:**
+The metabolism of lactose in
+E.coli requires three enzymes –
+permease, β-galactosidase (β-gal)
+and transacetylase. The enzyme
+permease is needed for entry of
+lactose into the cell, β-galactosidase
+brings about hydrolysis of lactose
+to glucose and galactose, while
+transacetylase transfers acetyl
+group from acetyl Co A to
+β-galactosidase.
+
+
+The *lac operon* consists of one
+regulator gene (‘i’ gene refers to
+inhibitor) promoter sites (p), and
+operator site (o). Besides these, it
+has three structural genes namely
+lac z,y and lac a. The lac ‘z’ gene
+codes for β-galactosidase, lac
+‘y’ gene codes for permease and
+‘a’ gene codes for transacetylase.
+
+**Jacob and Monod** proposed the classical model
+of Lac operon to explain gene expression and
+regulation in E.coli. In lac operon, a polycistronic
+structural gene is regulated by a common
+promoter and regulatory gene. When the cell is
+using its normal energy source as glucose, the
+**‘i’** gene transcribes a repressor mRNA and after
+its translation, a **repressor protein** is produced.
+It binds to the operator region of the operon and
+prevents translation, as a result, β-galactosidase is
+not produced. In the absence of preferred carbon
+source such as glucose, if lactose is available as
+an energy source for the bacteria then lactose
+enters the cell as a result of permease enzyme.
+Lactose acts as an inducer and interacts with the
+repressor to inactivate it.
+
+
+The repressor protein binds to the operator
+of the operon and prevents RNA polymerase
+from transcribing the operon. In the presence
+of inducer, such as lactose or allolactose, the
+repressor is inactivated by interaction with the
+inducer. This allows RNA polymerase to bind
+to the promotor site and transcribe the operon
+to produce lac mRNA which enables formation
+
+
+
+![Fig. 5.14 Lac Operon model](/books/12-biology/zoology1/pic29.png)
+
+of all the required enzymes needed for lactose
+metabolism **(Fig. 5.14).**This regulation of
+lac operon by the repressor is an example of
+negative control of transcription initiation.
+Lac operon is also under the control of positive
+regulation as well.
+
+
+### <u> 5.14 Human Genome Project (HGP) </u>
+
+The international human genome project
+was launched in the year 1990. It was a mega
+project and took 13 years to complete. The
+human genome is about 25 times larger than the
+genome of any organism sequenced to date and
+is the first vertebrate genome to be completed.
+Human genome is said to have approximately
+3×109 bp. HGP was closely associated with the
+rapid development of a new area in biology
+called bioinformatics.
+
+#### <u> 5.14.1 Goals and methodologies of Human Genome Project  </u>
+The main goals of Human Genome Project
+are as follows
+
+* Identify all the genes (approximately 30000)
+in human DNA.
+
+* Determine the sequence of the three billion
+chemical base pairs that makeup the human
+DNA.
+
+* To store this information in databases.
+
+* Improve tools for data analysis. 
+
+*  Transfer related technologies to other
+sectors, such as industries.
+
+* Address the ethical, legal and social issues
+(ELSI) that may arise from the project.
+
+The methodologies of the Human Genome
+Project involved two major approaches. One
+approach was focused on identifying all the
+genes that are expressed as RNA **(EST<sub>s</sub> –Expressed Sequence Tags).** The other approach
+was sequence annotation. Here, sequencing the
+whole set of genome was taken, that contains all
+the coding and non-coding sequences and later
+assigning different regions in the sequences with
+functions. For sequencing, the total DNA from
+a cell is isolated and converted into random
+fragments of relatively smaller sizes and cloned
+in suitable hosts using specialized vectors. This
+cloning results in amplification of pieces of
+DNA fragments so that it could subsequently
+be sequenced with ease. Bacteria and yeast
+are two commonly used hosts and these
+vectors are called as**BAC (Bacterial Artificial**
+**Chromosomes) and YAC (Yeast Artificial**
+**Chromosomes**). The fragments are sequenced
+using automated **DNA sequencers**(developed
+by Frederick Sanger). The sequences are then
+arranged based on few overlapping regions,
+using specialized computer based programs.
+These sequences were subsequently annotated
+and are assigned to each chromosome. The
+genetic and physical maps on the genome are
+assigned using information on polymorphism
+of restriction endonuclease recognition
+sites and some repetitive DNA sequences,
+called **microsatellites**. The latest method of
+sequencing even longer fragments is by a
+method called **Shotgun sequencing** using
+super computers, which has replaced the
+traditional sequencing methods.
+
+### <u> 5.14.2 Salient features of Human Genome Project:</u>
+
+* The human genome contains 3 billion
+nucleotide bases.
+
+* An average gene consists of 3000 bases,
+the largest known human gene being
+dystrophin with 2.4 million bases.
+
+* Genes are distributed over
+24 chromosomes. Chromosome 19 has the
+highest gene density. Chromosome 13 and
+Y chromosome have lowest gene densities.
+
+* The chromosomal organization of human
+genes shows diversity.
+
+* There may be 35000-40000 genes in the
+genome and almost 99.9 nucleotide bases
+are exactly the same in all people.
+
+* Functions for over 50 percent of the
+discovered genes are unknown.
+
+* Less than 2 percent of the genome codes
+for proteins.
+
+* Repeated sequences make up very large
+portion of the human genome. Repetitive
+sequences have no direct coding functions
+but they shed light on chromosome
+structure, dynamics and evolution
+(genetic diversity).
+
+* Chromosome 1 has 2968 genes whereas
+chromosome ’Y’ has 231 genes.
+
+* Scientists have identified about
+1.4 million locations where single
+base DNA differences **(SNPs – Single**
+**nucleotidepolymorphism – pronounce as**
+**‘snips’)** occur in humans. Identification of
+‘SNIPS’ is helpful in finding chromosomal
+locations for disease associated sequences
+and tracing human history.
+
+### <u> 5.14.3 Applications and future challenges  </u>
+
+The mapping of human chromosomes is
+possible to examine a person’s DNA and to
+identify genetic abnormalities. This is extremely
+useful in diagnosing diseases and to provide
+genetic counselling to those planning to have
+children. This kind of information would also
+create possibilities for new gene therapies. Besides
+providing clues to understand human biology,
+learning about non-human organisms, DNA
+sequences can lead to an understanding of their
+natural capabilities that can be applied towards
+solving challenges in healthcare, agriculture,
+energy production and environmental
+remediation. A new era of molecular medicine,
+characterized by looking into the most
+fundamental causes of disease than treating the
+symptoms will be an important advantage.
+
+* Once genetic sequence becomes easier
+to determine, some people may attempt
+to use this information for profit or for
+political power.
+
+* Insurance companies may refuse to insure
+people at ‘genetic risk’ and this would save
+the companies the expense of future medical
+bills incurred by ‘less than perfect’ people.
+
+* Another fear is that attempts are being
+made to “breed out” certain genes of
+people from the human population in
+order to create a ‘perfect race’.
+
+{{< box title="Learning Objectives" type="objective" >}}
+
+###### DO YOU KNOW? 
+
+P h a r m a c o g e n o m i c s
+is the study of how
+genes affect a person’s
+response to drugs.
+This relatively new field combines
+pharmacology (the science of drugs)
+and genomics (the study of genes and
+their functions) to develop effective,
+safe medications and doses that will be
+tailored to a person’s genetic makeup.
+
+{{< /box >}}
+
+### <u> 5.15 DNA fingerprinting technique </u>
+
+The DNA fingerprinting technique was first
+developed by Alec Jeffreys in 1985 (Recipient
+of the Royal Society’s Copley Medal in 2014).
+Each of us have the same chemical structure of
+DNA. But there are millions of differences in
+the DNA sequence of base pairs. This makes
+the uniqueness among us so that each of us
+except identical twins is different from each
+other genetically. The DNA of a person and
+finger prints are unique. There are 23 pairs of
+human chromosomes with 1.5 million pairs
+of genes. It is a well known fact that genes are
+segments of DNA which differ in the sequence
+of their nucleotides. Not all segments of
+DNA code for proteins, some DNA segments
+have a regulatory function, while others are
+intervening sequences (introns) and still
+others are repeated DNA sequences. In DNA
+fingerprinting, short repetitive nucleotide
+sequences are specific for a person. These
+nucleotide sequences are called as **variable**
+**number tandem repeats (VNTR)**.The
+VNTRs of two persons generally show
+variations and are useful as genetic markers.
+
+
+
+![Fig. 5.15 Schematic representation of DNA fingerprinting : Few representative chromosomes have been shown to contain different copy number of VNTR](/books/12-biology/zoology1/pic30.png)
+
+
+DNA finger printing involves identifying
+differences in some specific regions in DNA
+sequence called **repetitive DNA**, because
+in these sequences, a small stretch of DNA
+is repeated many times. These repetitive
+DNA are separated from bulk genomic DNA
+as different peaks during density gradient
+centrifugation. The bulk DNA forms a major
+peak and the other small peaks are referred
+to as **satellite DNA.** Depending on base
+composition (A : T rich or G : C rich), length
+of segment and number of repetitive units,
+the satellite DNA is classified into many sub
+categories such as micro-satellites, mini-
+satellites, etc., These sequences do not code for
+any proteins, but they form a large portion of
+human genome. These sequences show high
+degree of polymorphism and form the basis of
+DNA fingerprinting **(Fig. 5.15).**DNA isolated
+from blood, hair, skin cells, or other genetic
+evidences left at the scene of a crime can be
+compared through VNTR patterns, with the
+DNA of a criminal suspect to determine guilt
+or innocence. VNTR patterns are also useful in
+establishing the identity of a homicide victim,
+either from DNA found as evidence or from the
+body itself.
+
+**The Steps in DNA Fingerprinting technique is depicted in Fig. 5.16.**
+
+1. Extraction of DNA
+The process of DNA fingerprinting starts
+with obtaining a sample of DNA from
+blood, semen, vaginal fluids, hair roots,
+teeth, bones, etc.,
+
+2. Polymerase chain reaction (PCR)
+In many situations, there is only a small
+amount of DNA available for DNA
+fingerprinting. If needed many copies
+of the DNA can be produced by PCR
+(DNA amplification).
+
+3. Fragmenting DNA
+DNA is treated with restriction enzymes
+which cut the DNA into smaller fragments
+at specific sites.
+
+
+
+![Fig. 5.16 Steps in DNA finger printing](/books/12-biology/zoology1/pic31.png)
+
+
+**4. Separation of DNA by electrophoresis**
+
+During electrophoresis in an agarose gel, the
+DNA fragments are separated into bands
+of different sizes. The bands of separated
+DNA are sieved out of the gel using a nylon
+membrane (treated with chemicals that
+allow for it to break the hydrogen bonds of
+DNA so there are single strands).
+
+**5. Denaturing DNA**
+
+The DNA on gels is denatured by using
+alkaline chemicals or by heating.
+
+**6. Blotting**
+
+The DNA band pattern in the gel is
+transferred to a thin nylon membrane placed
+over the ‘size fractionated DNA strand’ by
+**Southern blotting.**
+
+7. **Using probes to identify specific DNA**
+A radioactive probe (DNA labeled with
+a radioactive substance) is added to the
+DNA bands. The probe attaches by base
+pairing to those restriction fragments
+that are complementary to its sequence.
+The probes can also be prepared by using
+either ‘fluorescent substance’ or ‘radioactive
+isotopes’.
+
+**8. Hybridization with probe**
+After the probe hybridizes and the excess
+probe washed off, a photographic film is
+placed on the membrane containing ‘DNA
+hybrids’.
+
+**9. Exposure on film to make a genetic/DNA Fingerprint**
+The radioactive label exposes the film to form
+an image (image of bands) corresponding
+to specific DNA bands. The thick and thin
+dark bands form a pattern of bars which
+constitutes a genetic fingerprint.
+
+### <u>Application of DNA finger printing </u>
+
+ * **Forensic analysis -** It can be used in the
+identification of a person involved in
+criminal activities, for settling paternity
+or maternity disputes, and in determining
+relationships for immigration purposes.
+
+* **Pedigree analysis –** inheritance pattern of
+genes through generations and for detecting
+inherited diseases.
+
+* **Conservation of wild life –** protection of
+endangered species. By maintaining DNA
+records for identification of tissues of the
+dead endangered organisms.
+
+* **Anthropological studies–**  It is useful in
+determining the origin and migration of
+human populations and genetic diversities.
+
+## <u> Summary </u>
+
+
+In the twentieth century, one of the landmark
+discovery in biology was the identification of
+DNA, as genetic material of living organisms.
+Gene may be defined as a segment of DNA which
+is responsible for inheritance and expression of a
+particular character.
+In 1953, James Watson and Francis Crick
+proposed DNA structure based on X-ray
+crystallographic studies provided by Maurice
+Wilkins and Rosalind Franklin. Nucleotides
+are the structural units of nucleic acids. Each
+nucleotide has three components, i) pentose sugar
+ii) nitrogenous base and iii) phosphate. DNA
+and RNA are polynucleotides. DNA has double
+stranded helical structure while RNA is a single
+stranded structure. DNA acts as genetic material of
+almost all the living organism except few viruses.
+The non genetic RNAs are of three types;
+m-RNA, r-RNA and t-RNA. They help in protein
+synthesis. DNA has capacity of replication, while
+the three types of RNA are transcribed on DNA.
+Meselson and Stahl (1958) proved experimentally
+the semi-conservative nature of DNA replication
+using heavy isotope of nitrogen N15 in E.coli.
+In 1958 Crick proposed that DNA determines
+the sequence of amino acids in a polypeptide
+(protein) through mRNA, and proposed the
+central dogma of protein synthesis which
+involves transcription and translation. The
+process of copying genetic information from one
+strand of DNA into RNA is termed transcription.
+The DNA transcribed RNA molecules serve as a
+template for the synthesis of polypeptides by a
+process termed translation. Each amino acid in
+a polypeptide chain is represented by a sequence
+of three nucleotides in the RNA known as the
+genetic code. RNA transfers genetic message
+from nucleus to the cytoplasm. DNA is always
+present in the nucleus and synthesis is also
+confined to the nucleus
+Jacob and Monod proposed the classical model
+of Lac operon to explain gene expression and
+regulation in E. coli. In lac operon a polycistronic
+structural gene is regulated by a common
+promoter and regulator. It is an example of
+negative control of transcription initiation.
+Human genome project, a mega project was
+aimed to sequence every gene in the human
+genome. Polymerase chain reaction is an in vitro
+method of synthesis of nucleic acids wherein,
+a specific DNA segment is amplified rapidly
+without concomitant replication of the rest of
+the DNA molecule. DNA fingerprinting is a
+technique to identify variations in individuals of
+a population at the DNA level. It has immense
+applications in the field of forensic analysis,
+pedigree analysis, anthropological studies, and
+conservation of wild life.
+
+### <u>Evaluation  </u>
+
+1. Hershey and Chase
+experiment with
+bacteriophage showed
+that
+a) Protein gets into the bacterial cells
+**b) DNA is the genetic material**
+c) DNA contains radioactive sulphur
+d) Viruses undergo transformation
+
+2. DNA and RNA are similar with respect to
+a) Thymine as a nitrogen base
+b) A single-stranded helix shape
+**c) Nucleotide containing sugars, nitrogen bases and phosphates**
+d) The same sequence of nucleotides for the
+amino acid phenyl alanine
+
+3. A mRNA molecule is produced by
+
+a) Replication 
+**b) Transcription**
+c) Duplication 
+d) Translation
+
+
+4. The total number of nitrogenous bases in
+human genome is estimated to be about
+a) 3.5 million 
+b) 35000
+c) 35 million 
+**d) 3.1 billion**
+
+5. E. coli cell grown on 15N medium are
+transferred to 14N medium and allowed to
+grow for two generations. DNA extracted
+from these cells is ultracentrifuged in a
+cesium chloride density gradient. What
+density distribution of DNA would you
+expect in this experiment?
+
+(a) One high and one low density band.
+(b) One intermediate density band.
+(c) One high and one intermediate density band.
+**(d) One low and one intermediate density band.**
+
+
+6. What is the basis for the difference in the
+synthesis of the leading and lagging strand
+of DNA molecules?
+
+(a) Origin of replication occurs only at the
+5' end of the molecules.
+(b) DNA ligase works only in the 3' → 5'
+direction.
+**(c) DNA polymerase can join new nucleotides only to the 3' end of the growing stand.**
+(d) Helicases and single-strand binding
+proteins that work at the 5' end.
+
+7. Which of the following is the correct
+sequence of event with reference to the
+central dogma?
+(a) Transcription, Translation, Replication
+(b) Transcription, Replication, Translation
+(c) Duplication, Translation, Transcription
+**(d) Replication, Transcription, Translation**
+
+8. Which of the following statements about
+DNA replication is not correct?
+
+(a) Unwinding of DNA molecule occurs
+as hydrogen bonds break.
+**(b) Replication occurs as each base is paired with another exactly like it.**
+(c) Process is known as semi conservative
+replication because one old strand is
+conserved in the new molecule.
+(d) Complementary base pairs are held
+together with hydrogen bonds.
+
+
+9. Which of the following statements is not
+true about DNA replication in eukaryotes?
+(a) Replication begins at a single origin of
+replication.
+(b) Replication is bidirectional from the
+origins.
+(c) Replication occurs at about 1 million
+base pairs per minute.
+**(d) There are numerous different bacterial chromosomes, withreplication ocurring in each at the same time.**
+
+
+10. The first codon to be deciphered was
+__________ which codes for ________.
+(a) AAA, proline 
+(b) GGG, alanine
+**(c) UUU, Phenylalanine**
+(d)TTT, arginine
+
+
+11. Meselson and Stahl’s experiment proved
+(a)Transduction
+(b) Transformation
+(c) DNA is the genetic material
+**(d) Semi-conservative nature of DNA replication**
+
+
+12. Ribosomes are composed of two subunits;
+the smaller subunit of a ribosome has a
+binding site for _________ and the larger
+subunit has two binding sites for two
+__________. **(mRNA, tRNA)**
+
+13. An operon is a:
+(a) Protein that suppresses gene expression
+(b) Protein that accelerates gene expression
+**(c) Cluster of structural genes with related function**
+(d) Gene that switched other genes on or off
+
+14. When lactose is present in the culture
+medium:
+(a) Transcription of lac y, lac z, lac a genes
+occurs.
+(b) Repressor is unable to bind to the
+operator.
+(c) Repressor is able to bind to the
+operator.
+**(d) Both (a) and (b) are correct.**
+
+15. Give reasons: Genetic code is ‘universal’.
+
+16. Name the parts marked ‘A’ and ‘B’ in the
+given transcription unit:
+
+
+![](/books/12-biology/zoology1/pic32.png)
+
+17. Differentiate - Leading stand and lagging
+strand
+
+18. Differentiate - Template strand and
+coding strand.
+
+19. Mention any two ways in which single
+nucleotide polymorphism (SNPs)
+identified in human genome can bring
+revolutionary change in biological and
+medical science.
+
+20. State any three goals of the human genome
+project.
+
+21. In E.coli, three enzymes β- galactosidase,
+permease and transacetylase are produced
+in the presence of lactose. Explain why
+the enzymes are not synthesized in the
+absence of lactose.
+
+22. Distinguish between structural gene,
+regulatory gene and operator gene.
+
+23. A low level of expression of lac operon
+occurs at all the time. Justify the statement.
+
+24. HGP is the windows for treatment of
+various genetic disorders. Justify the
+statement.
+
+25. Why the human genome project is called
+a mega project?
+
+26. From their examination of the structure
+of DNA, What did Watson and Crick
+infer about the probable mechanism of
+DNA replication, coding capability and
+mutation?
+
+27. Why tRNA is called an adapter molecule?
+
+28. What are the three structural differences
+between RNA and DNA?
+
+29. Name the anticodon required to recognize
+the following codons: AAU, CGA, UAU,
+and GCA.
+
+30. a) Identify the figure given below:
+b) Redraw the structure as a replicating
+fork and label the parts.
+
+![](/books/12-biology/zoology1/pic33.png)
+
+c) Write the source of energy for this
+replication and name the enzyme
+involved in this process.
+d) Mention the differences in the synthesis
+of protein, based on the polarity of the
+two template strands.
+
+31. If the coding sequence in a transcription
+unit is written as follows:
+
+5' TGCATGCATGCATGCATGCATGCATGC 3'
+Write down the sequence of mRNA.
+
+32. How is the two stage process of protein
+synthesis advantageous?
+
+33.Why did Hershey and Chase use
+radioactively labelled phosphorous
+and sulphur only? Would they have got
+the same result if they use radiolabelled
+carbon and nitrogen?
+
+34. Explain the formation of a nucleosome.
+
+35. It is established that RNA is the first
+genetic material. Justify giving reasons.
+
+![](/books/12-biology/zoology1/pic34.png)
+
+![](/books/12-biology/zoology1/pic35.png)
+
