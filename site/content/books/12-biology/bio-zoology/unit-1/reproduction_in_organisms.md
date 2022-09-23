@@ -210,7 +210,7 @@ fertilization, the fusion of male and female
 gametes takes place within the body of female
 organisms. e.g. reptiles, aves and mammals.
 
-**POWER OF REGENERATION**
+{{< box title="POWER OF REGENERATION" type="objective">}}
 
 Sponge when macerated
 and squeezed through
@@ -218,6 +218,9 @@ fine silk cloth, the cluster of cells pass
 through, and these can regenerate new
 sponges. This technique is used for
 cultivation of sponges.
+{{< /box >}}
+
+
 
 Different kinds of syngamy (fertilization)
 are prevalent among living organisms.
@@ -303,7 +306,7 @@ animals, parthenogenesis occurs regularly,
 constantly and naturally in their life cycle and
 is known as natural parthenogenesis.
 
-**Natural parthenogenesis are of different types:**
+{{< box title=" Natural parthenogenesis are of different types:" type="objective">}}
 
 a) **Arrhenotoky**: In this type
 only males are produced by parthenogenesis.
@@ -315,6 +318,7 @@ produced by parthenogenesis. e.g. Solenobia
 c) **Amphitoky**: In this type parthenogenetic
 egg may develop into individuals of any sex.
 e.g. Aphis
+{{< /box >}}
 
 Natural parthenogenesis may be of
 two types, viz., complete and incomplete.
@@ -393,53 +397,55 @@ parthenogenesis.
 
 **Evaluation**
 
-1. In which type of
+1.In which type of
 parthenogenesis are
 only males produced?
 
-    a) Arrhenotoky
+**a) Arrhenotoky**
 
-    b) Thelytoky
+b) Thelytoky
 
-    c) Amphitoky d) Both a and b
+c) Amphitoky 
 
-2. The mode of reproduction in bacteria is
+d) Both a and b
+
+2.The mode of reproduction in bacteria is
 by
 
-    a) Formation of gametes
+a) Formation of gametes
 
-    b) Endospore formation
+b) Endospore formation
 
-    c) Conjugation
+**c) Conjugation**
 
-    d) Zoospore formation
+d) Zoospore formation
 
-3. In which mode of reproduction variations
+3.In which mode of reproduction variations
 are seen
 
-    a) Asexual 
+a) Asexual 
 
-    b) Parthenogenesis
+b) Parthenogenesis
 
-    c) Sexual 
+**c) Sexual**
 
-    d) Both a and b
+d) Both a and b
 
-4. Assertion and reasoning questions:
+4.Assertion and reasoning questions:
 In each of the following questions there
 are two statements. One is assertion (A)
 and other is reasoning (R). Mark the
 correct answer as
 
-    A. If both A and R are true and R is correct
-    explanation for A
+A. If both A and R are true and R is correct
+explanation for A
 
-    B. If both A and R are true but R is not the
-    correct explanation for A
+B. If both A and R are true but R is not the
+correct explanation for A
 
-    C. If A is true but R is false
+C. If A is true but R is false
 
-    D. If both A and R are false.
+D. If both A and R are false.
 
 **I.Assertion:**
 
@@ -465,27 +471,27 @@ correct answer as
     involves only mitosis and no meiosis.
     A B C D
 
-5. Name an organism where cell division is
+5.Name an organism where cell division is
 itseslf a mode of reproduction.
 
-6. Name the phenomenon where the female
+6.Name the phenomenon where the female
 gamete directly develops into a new
 organism with an avian example.
 
-7. What is parthenogenesis? Give two
+7.What is parthenogenesis? Give two
 examples from animals.
 
-8. Which type of reproduction is effective
+8.Which type of reproduction is effective
 -Asexual or sexual and why?
 
-9. The unicellular organisms which
+9.The unicellular organisms which
 reproduce by binary fission are considered
 immortal. Justify.
 
-10. Why is the offspring formed by asexual
+10.Why is the offspring formed by asexual
 reproduction referred as a clone?
 
-11. Give reasons for the following:
+11.Give reasons for the following:
 
     (a) Some organisms like honey bees are
     called parthenogenetic animals
@@ -493,7 +499,7 @@ reproduction referred as a clone?
     (b) A male honey bee has 16 chromosomes
     where as its female has 32 chromosomes.
 
-12. Differentiate between the following:
+12.Differentiate between the following:
 
     (a) Binary fission in amoeba and multiple
     fission in Plasmodium
@@ -502,8 +508,8 @@ reproduction referred as a clone?
 
     (c) Regeneration in lizard and Planaria
 
-13. How is juvenile phase different from
+13.How is juvenile phase different from
 reproductive phase?
 
-14. What is the difference between syngamy
+14.What is the difference between syngamy
 and fertilization?

@@ -88,7 +88,21 @@ marriageable age groups about the
 available birth control methods and
 family planning norms.
 
-![lesson 1](/books/12-biology/zoology/unit1/note11.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+
+Globally, about 800 women
+die every day of preventable
+causes related to pregnancy
+and childbirth; 20 per cent of these
+women are from India. Similarly India's
+infant mortality rate was 44 per 1,000 live.
+Although, India has witnessed dramatic
+growth over the last two decades,
+maternal mortality still remains high
+as in comparison to many developing
+nations.
+
+{{< /box >}}
 
 • Creating awareness about care for pregnant
 women, post-natal care of mother and child
@@ -100,7 +114,19 @@ agencies to identify new methods and/or
 to improve upon the existing methods of
 birth control.
 
-![lesson 1](/books/12-biology/zoology/unit1/note12.png )
+{{< box title="" type="">}}
+Health care programmes such as
+massive child immunization, supply of
+nutritional food to the pregnant women,
+Janani Suraksha Yojana, Janani Shishu
+Suraksha Karyakaram, RMNCH+A
+approach (an integrated approach for
+reproductive, maternal, new born, child
+and adolescent health), Pradhan Mantri
+Surakshit Matritva Abhiyan, etc., are
+taken up at the national level by the
+Government of India.
+{{< /box >}}
 
 **3.2. Amniocentesis and its statutory ban**
 
@@ -333,7 +359,17 @@ pregnancy in a non-surgical or non-invasive
 way. Early medical termination is extremely
 safe upto 12 weeks (the first trimester) of
 
-![lesson 1](/books/12-biology/zoology/unit1/note13.png )
+
+{{< box title="CASE STUDY" type="objective">}}
+Approximately half of unintended pregnancies are due to contraceptive
+failure, largely owing to inconsistent or incorrect use of contraceptive
+methods. The effectiveness of long-acting reversible contraception
+(intrauterine devices and contraceptive implants) is superior to that of contraceptive pills,
+patch, or ring and is not altered in adolescents and young women. Educating young women
+about the usage of intrauterine devices and contraceptive implants would dramatically
+reduce the number of unintended pregnancies among women seeking family planning.
+{{< /box >}}
+
 
 pregnancy and generally has no impact on a
 women’s fertility. Abortion during the second
@@ -361,7 +397,15 @@ intimate sexual contact with an infected partner.
 Infections like Hepatitis-B and HIV are
 transmitted sexually as well as by sharing
 
-![lesson 1](/books/12-biology/zoology/unit1/note14.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+According to World Health
+Organization (WHO), 2017
+more than one million people
+globally acquires a sexually
+transmitted infection every day. India has the
+third largest HIV epidemic in the world, with 2.1 million people living with HIV.
+{{< /box >}}
+
 
 of infusion needles, surgical instruments,
 etc with infected people, blood transfusion
@@ -389,7 +433,16 @@ transmission of STI.
     c. In case of doubt, consult a doctor for
     diagnosis and get complete treatment.
 
-![lesson 1](/books/12-biology/zoology/unit1/note15.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+TNHSP (Tamilnadu health
+systems project), a unit
+of the Health and family
+welfare department of the
+Government of Tamilnadu
+does free screening for cervical and
+breast cancer.
+{{< /box >}}
+
 
 **Table 3.1. STD and their symptoms**
 
@@ -565,7 +618,12 @@ her partner's sperm.
 • Males may develop an autoimmune
 response to their own sperm.
 
-![lesson 1](/books/12-biology/zoology/unit1/note16.png )
+{{< box title="" type="objective">}}
+All women are born with ovaries, but some
+do not have functional uterus. This condition
+is called Mayer-Rokitansky syndrome.
+{{< /box >}}
+
 
 **3.8. Assisted reproductive technology (ART)**
 
@@ -626,8 +684,20 @@ The transfer of an embryo with more than
 8 blastomeres stage into uterus is called
 Embryo transfer technique.
 
-![lesson 1](/books/12-biology/zoology/unit1/note17.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
 
+**Cryopreservation**
+
+(or freezing) of embryos
+is often used when there
+are more embryos than
+needed for a single IVF
+transfer. Embryo cryopreservation can
+provide an additional opportunity for
+pregnancy, through a Frozen embryo
+transfer (FET), without undergoing
+another ovarian stimulation and retrieval.
+{{< /box >}}
 **Zygote intra-fallopian transfer (ZIFT)**
 
 As in IVF, the zygote upto 8 blastomere
@@ -697,7 +767,20 @@ first trimester for dating, determination of
 the number of foetuses, and for assessment
 of early pregnancy complications.
 
-![lesson 1](/books/12-biology/zoology/unit1/note18.png )
+{{< box title="" type="">}}
+There are several types of ultrasound
+imaging techniques. As the most common
+type, the 2-D ultrasound provides a flat
+picture of one aspect of the baby. The 3-D
+image allows the health care provider to see
+the width, height and depth of the images,
+which can be helpful during the diagnosis.
+The latest technology is 4-D ultrasound,
+which allows the health care provider to
+visualize the unborn baby moving in real
+time with a three-dimensional image.
+{{< /box >}}
+
 
 **Amniocentesis**
 
@@ -740,7 +823,28 @@ during prenatal visits to count the foetal heart
 rate. During labour, continuous electronic
 foetal monitoring is often used.
 
-![lesson 1](/books/12-biology/zoology/unit1/note20.png )
+{{< box title="" type="">}}
+
+• Vitamin E is known as anti-sterility
+vitamin as it helps in the normal
+functioning of reproductive structures.
+
+• Sex hormones were discovered by
+Adolf Butenandt.
+
+• 11th July is observed as World
+Population Day.
+
+• 1st December is observed as World
+AIDS Day.
+
+• NACO (National AIDS Control
+Organisation) was established in 1992.
+
+• Syphilis and gonorrhoea are commonly
+called as international diseases.
+{{< /box >}}
+
 
 **Summary**
 
@@ -784,66 +888,60 @@ one such method.
 
 **Evaluation**
 
-1. Which of the following
+1.Which of the following
 is correct regarding
 HIV, hepatitis B,
 gonorrhoea and
 trichomoniasis?
     
-    (a) Gonorrhoea is a STD whereas
-    others are not.
+(a) Gonorrhoea is a STD whereas others are not.
     
-    (b) Trichomoniasis is a viral disease
-    whereas others are bacterial.
+(b) Trichomoniasis is a viral disease whereas others are bacterial.
     
-    (c) HIV is a pathogen whereas others
-    are diseases.
+**(c) HIV is a pathogen whereas others are diseases.**
     
-    (d) Hepatitis B is eradicated completely
-    whereas others are not.
+(d) Hepatitis B is eradicated completely whereas others are not.
 
-2. Which one of the following groups
+2.Which one of the following groups
 includes sexually transmitted diseases
 caused by bacteria only?
     
-    (a) Syphilis, gonorrhoea and candidiasis
+(a) Syphilis, gonorrhoea and candidiasis
     
-    (b) Syphilis, chlamydiasis and
-    gonorrhoea
+**(b) Syphilis, chlamydiasis and gonorrhoea**
     
-    (c) Syphilis, gonorrhoea and
-    trichomoniasis
+(c) Syphilis, gonorrhoea and
+trichomoniasis
     
-    (d) Syphilis, trichomoniasis and
-    pediculosis
+(d) Syphilis, trichomoniasis and
+pediculosis
 
-3. Identify the correct statements from
+3.Identify the correct statements from
 the following
     
-    (a) Chlamydiasis is a viral disease.
+(a) Chlamydiasis is a viral disease.
     
-    (b) Gonorrhoea is caused by a spirochaete
-    bacterium, Treponema palladium.
+(b) Gonorrhoea is caused by a spirochaete
+bacterium, Treponema palladium.
     
-    (c) The incubation period for syphilis is
-    is 2 to 14 days in males and 7 to 21
-    days in females.
+(c) The incubation period for syphilis is
+is 2 to 14 days in males and 7 to 21
+days in females.
     
-    (d) Both syphilis and gonorrhoea are
-    easily cured with antibiotics.
+**(d) Both syphilis and gonorrhoea are easily cured with antibiotics.**
 
-4. A contraceptive pill prevents ovulation by
+4.A contraceptive pill prevents ovulation by
     
-    (a) blocking fallopian tube
+(a) blocking fallopian tube
     
-    (b) inhibiting release of FSH and LH
+**(b) inhibiting release of FSH and LH**
     
-    (c) stimulating release of FSH and LH
+(c) stimulating release of FSH and LH
     
-    (d) causing immediate degeneration of
-    released ovum
+(d) causing immediate degeneration of
+released ovum
 
-5. The approach which does not give the
+5.The approach which does not give the
 defined action of contraceptive is
 
  <style type="text/css">
@@ -881,7 +979,7 @@ defined action of contraceptive is
 </tbody>
 </table>
 
-6. Read the given statements and select the
+6.Read the given statements and select the
 correct option.
 
 Statement 1: Diaphragms, cervical caps
@@ -892,20 +990,19 @@ tract to cover the cervix before coitus.
 Statement 2: They are chemical barriers
 of conception and are reusable.
 
-    (a) Both statements 1 and 2 are correct
-    and statement 2 is the correct
-    explanation of statement 1.
+(a) Both statements 1 and 2 are correct
+and statement 2 is the correct
+explanation of statement 1.
 
-    (b) Both statements 1 and 2 are correct
-    but statement 2 is not the correct
-    explanation of statement 1.
+(b) Both statements 1 and 2 are correct
+but statement 2 is not the correct
+explanation of statement 1.
     
-    (c) Statement 1 is correct but statement 2 is incorrect.
+**(c) Statement 1 is correct but statement 2 is incorrect.**
     
-    (d) Both statements 1 and 2 are incorrect.
+(d) Both statements 1 and 2 are incorrect.
 
-7. Match column I with column II and select the
-correct option from the codes given below.
+7.Match column I with column II and select the correct option from the codes given below.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -949,12 +1046,12 @@ correct option from the codes given below.
 
 (c) A-(i), B-(iv),C-(ii), D-(iii)
 
-(d) A-(iv), B-(i), C-(ii), D-(iii)
+**(d) A-(iv), B-(i), C-(ii), D-(iii)**
 
-8. Select the incorrect action of hormonal
+8.Select the incorrect action of hormonal
 contraceptive pills from the following
 
-(a) Inhibition of spermatogenesis.
+**(a) Inhibition of spermatogenesis.**
 
 (b) Inhibition of ovulation.
 
@@ -965,15 +1062,15 @@ transport of sperms.
 (d) Alteration in uterine endometrium to
 make it unsuitable for implantation.
 
-9. What is amniocentesis? Why a statutory
+9.What is amniocentesis? Why a statutory
 ban is imposed on this technique?
 
-10. Select the correct term from the bracket
+10.Select the correct term from the bracket
 and complete the given branching tree
 
 ![lesson 1](/books/12-biology/zoology/unit1/bzf31.png )
 
-11. Correct the following statements
+11.Correct the following statements
 
 a) Transfer of an ovum collected from
 donor into the fallopian tube is called
@@ -986,41 +1083,41 @@ called GIFT.
 c) Multiload 375 is a hormone releasing
 IUD.
 
-12. Which method do you suggest the couple
+12.Which method do you suggest the couple
 to have a baby, if the male partner fails to
 inseminate the female or due to very low
 sperm count in the ejaculate?
 
-13. Expand the following
+13.Expand the following
 
 a) ZIFT 
 
 b) ICSI
 
-14. What are the strategies to be
+14.What are the strategies to be
 implemented in India to attain total
 reproductive health?
 
-15. Differentiate foeticide and infanticide.
+15.Differentiate foeticide and infanticide.
 
-16. Describe the major STDs and their
+16.Describe the major STDs and their
 symptoms.
 
-17. How are STDs transmitted?
+17.How are STDs transmitted?
 
-18. Write the preventive measures of STDs.
+18.Write the preventive measures of STDs.
 
-19. The procedure of GIFT involves the
+19.The procedure of GIFT involves the
 transfer of female gametes into the
 fallopain tube, can gametes be transferred
 to the uterus to achieve the same result?
 Explain.
 
-20. Amniocentesis, the foetal sex
+20.Amniocentesis, the foetal sex
 determination test, is banned in our
 country, Is it necessary? Comment.
 
-21. Open Book Assessment
+21.Open Book Assessment
 ‘Healthy reproduction, legally checked
 birth control measures and proper family
 planning programmes are essential for

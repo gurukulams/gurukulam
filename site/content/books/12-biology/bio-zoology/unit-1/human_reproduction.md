@@ -8,31 +8,43 @@ weight: 2
 **Chapter Outline**
 
     2.1 Human reproductive system
+
     2.2 Gametogenesis
+    
     2.3 Menstrual cycle
+    
     2.4 Fertilization and implantation
+    
     2.5 Maintenance of pregnancy and embryonic development
+    
     2.6 Parturition and
 
-**Learning Objectives**
+{{< box title="Learning Objectives" type="objective">}}
 
     ➢ Creates an awareness towards a
     healthy reproductive life in adolescents.
+    
     ➢ Understands the structure of the male
     and female reproductive systems.
+    
     ➢ Explains the functions of
     the structures associated
     with the male and female
     reproductive system.
+    
     ➢ Compares the process
     of spermatogenesis and
     oogenesis.
+    
     ➢ Discusses the changes in a female body
     during and after Fertilization.
+    
     ➢ Appraises the role of hormones in the
     process of reproduction.
+    
     ➢ Understands the events in pregnancy
     and foetal development.
+{{< /box >}}
 
 
 Every organ system in the human
@@ -45,37 +57,52 @@ offspring, but reproduction is inevitable for the
 existence of a species.
 The reproductive system has four
 main functions namely,
+
 • to produce the gametes namely
 sperms and ova
+
 • to transport and sustain these gametes
+
 • to nurture the developing offspring
+
 • to produce hormones
+
 The major reproductive events in human
 beings are as follows:
+
 • Gametogenesis: Formation of gametes by
 spermatogenesis and oogenesis.
+
 • Insemination: Transfer of sperms by the
 male into the female genital tract.
+
 • Fertilization: Fusion of male and
 female gametes to form zygote, called
 Fertilization.
+
 • Cleavage: Rapid mitotic divisions of
 the zygote which convert the single celled  zygote into a multicellular structure
 called blastocyst.
+
 • Implantation: Attachment of blastocyst
 to the uterine wall.
+
 • Placentation: Formation of placenta
 which is the intimate connection between
 foetus and uterine wall of the mother for
 exchange of nutrients.
+
 • Gastrulation: Process by which
 blastocyst is changed into a gastrula with
 three primary germ layers.
+
 • Organogenesis: Formation of specific
 tissues, organs and organ systems from
 three germ layers.
+
 • Parturition: Expulsion of the foetus from
 the mother’s womb.
+
 These functions are carried out by the
 primary and accessory reproductive organs.
 The primary reproductive organs namely
@@ -103,9 +130,7 @@ skin that hangs outside the abdominal cavity.
 Since viable sperms cannot be produced
 at normal body temperature, the scrotum
 is placed outside the abdominal cavity to
-provide a temperature 2-3o
-
-C lower than the
+provide a temperature 2-3<sup>o</sup>C lower than the
 normal internal body temperature. Thus,
 the scrotum acts as a thermoregulator for
 spermatogenesis.
@@ -139,10 +164,12 @@ These cells are endocrine in nature and secret
 
 ![lesson 1](/books/12-biology/zoology/unit1/bzf11.png )
 
-**CRYPTORCHISM** 
+
+{{< box title="CRYPTORCHISM" type="objective">}}
 
 The failure of one or both testes to descend down into the scrotal sacs is
 known as cryptorchism (crypto – hidden + orchis – testicle). It occurs in 1 – 3 percent of new born males. A surgical correction at a young age can rectify the defect, else these individuals may become sterile and are unable to produce viable sperms.
+{{< /box >}}
 
 
 androgens namely the testosterone hormone
@@ -256,7 +283,10 @@ infundibulum. The edges of the
 infundibulum have many finger
 like projections called fimbriae
 
-![lesson 1](/books/12-biology/zoology/unit1/note1.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+
+Female uterus contains one of the strongest muscles of the human body.
+{{< /box >}}
 
 ![lesson 1](/books/12-biology/zoology/unit1/bzf14.png )
 
@@ -479,7 +509,13 @@ motility for normal fertility.
 
 ![lesson 1](/books/12-biology/zoology/unit1/bzf19.png )
 
-![lesson 1](/books/12-biology/zoology/unit1/note2.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+The sperm is the smallest
+human cell and the
+ovum or egg is the largest
+human cell.
+{{< /box >}}
+
 
 **Oogenesis**
 
@@ -500,8 +536,16 @@ A large number of follicles degenerate during the
 period from birth to puberty, so at puberty only
 60,000 to 80,000 follicles are left in each ovary.
 
-![lesson 1](/books/12-biology/zoology/unit1/note3.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+Out of the million eggs
+women possess during
+birth, only about 300 to
+400 will ovulate before
+menopause.
+{{< /box >}}
 
+On the other hand, males produce more
+than 500 billion sperms in their life time.
 The primary follicle gets surrounded
 by many layers of granulosa cells and a new
 theca layer to form the secondary follicle. A
@@ -627,7 +671,20 @@ tissue called corpus albicans. It also initiates
 the disintegration of the endometrium leading
 to menstruation, marking the next cycle.
 
-![lesson 1](/books/12-biology/zoology/unit1/note4.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+
+**POLY CYSTIC OVARY SYNDROME (PCOS)**
+
+PCOS is a complex endocrine system disorder that affects women in their reproductive
+years. Polycystic means ‘many cysts’. It refers to many partially formed follicles on the ovaries,
+which contain an egg each. But they do not grow to maturity or produce eggs that can be
+fertilized. Women with PCOS may experience irregular menstrual cycles, increased androgen
+levels, excessive facial or body hair growth (hirsutism), acne, obesity, reduced fertility and
+increased risk of diabetes. Treatment for PCOS includes a healthy lifestyle, weight loss and
+targeted hormone therapy.
+{{< /box >}}
+
+
 
 **Menstrual hygiene**
 
@@ -654,7 +711,19 @@ Flushing of sanitary napkins in the drain pipes
 causes choking of the drainage line leading to
 water pollution.
 
-![lesson 1](/books/12-biology/zoology/unit1/note5.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+
+**Disposal of Napkins**
+
+The ecofriendly way to dispose
+menstrual waste scientifically and
+hygienically is to destroy the sanitary napkins
+using incinerators. Measures are being taken
+to install incinerators and napkin vending
+machines in washrooms of schools , colleges
+and public facilities.
+{{< /box >}}
+
 
 **Menopause**
 
@@ -728,7 +797,27 @@ rupture of the fallopian tube.
 
 ![lesson 1](/books/12-biology/zoology/unit1/bzf24.png )
 
-![lesson 1](/books/12-biology/zoology/unit1/note6.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+
+**Twins are two offsprings produced in the same pregnancy.**
+
+➢ Monozygotic (Identical) twins are
+produced when a single fertilized
+egg splits into two during the first
+cleavage. They are of the same sex,
+look alike and share the same genes.
+
+➢ Dizygotic (Fraternal) twins are
+produced when two separate eggs
+are fertilized by two separate sperms.
+The twins may be of the same sex or
+different sex and are non-identical.
+
+➢ Siamese (United) twins are the
+conjoined twins who are joined
+during birth.
+{{< /box >}}
+
 
 **2.5 Maintenance of pregnancy**
 
@@ -826,7 +915,15 @@ is increased several folds in the maternal blood.
 These hormones are essential for supporting
 foetal growth.
 
-![lesson 1](/books/12-biology/zoology/unit1/note7.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+
+A female uterus is
+normally about 3 inches
+long and 2 inches wide
+but can expand 20 times
+during pregnancy.
+{{< /box >}}
+
 
 **2.6 Parturition and lactation**
 
@@ -881,7 +978,22 @@ oxytocin also stimulates the recently emptied
 uterus to contract, helping it to return to
 pre - pregnancy size.
 
-![lesson 1](/books/12-biology/zoology/unit1/note8.png )
+{{< box title=" DID YOU KNOW" type="objective">}}
+
+**Colostrum**
+
+Colostrum, a nutrient rich
+fluid produced by the human female
+immediately after giving birth, is loaded
+with immune, growth and tissue repair
+factors. It acts as a natural antimicrobial
+agent to actively stimulate the maturation
+of the infant’s immune system. No artificial
+feed can substitute the first milk, with all
+its natural benefits and therefore should be
+definitely fed to the baby after birth.
+{{< /box >}}
+
 
 The mammary glands secrete a yellowish
 fluid called colostrum during the initial
@@ -894,7 +1006,19 @@ more proteins, vitamin A and minerals.
 ![lesson 1](/books/12-biology/zoology/unit1/bzf27.png )
 
 
-![lesson 1](/books/12-biology/zoology/unit1/note9.png )
+
+
+{{< box title=" DID YOU KNOW" type="objective">}}
+
+**CAESAREAN** 
+
+When normal vaginal delivery is not possible due to factors like position of
+the baby and nature of the placenta, the baby is delivered through a surgical incision in the
+woman’s abdomen and uterus. It is also termed as abdominal delivery or Caesarean Section or
+‘C’ Section.
+{{< /box >}}
+
+
 
 Colostrum is also rich in IgA antibodies. This
 helps to protect the infant’s digestive tract
@@ -942,140 +1066,145 @@ breast fed by the mother.
 
 **Evaluation**
 
-1. The mature sperms are
+1.The mature sperms are
 stored in the
-    a. Seminiferous tubules
-    
-    b.Vas deferens
-    
-    c. Epididymis
-    
-    d. Seminal vesicle
 
-2. The male sex hormone testosterone is
+a. Seminiferous tubules
+    
+b.Vas deferens
+    
+**c. Epididymis**
+    
+d. Seminal vesicle
+
+2.The male sex hormone testosterone is
 secreted from
 
-    a. Sertoli cells 
+a. Sertoli cells 
     
-    b. Leydig cell
-    
-    c. Epididymis 
-    
-    d. Prostate gland
+**b. Leydig cell**
 
-3. The glandular accessory organ which
+    
+c. Epididymis 
+    
+d. Prostate gland
+
+3.The glandular accessory organ which
 produces the largest proportion of semen is
-    a. Seminal vesicle
+    
+**a. Seminal vesicle**
 
-    b. Bulbourethral gland
+b. Bulbourethral gland
 
-    c. Prostate gland
+c. Prostate gland
 
-    d. Mucous gland
+d. Mucous gland
 
-4. The male homologue of the female clitoris is
-    a. Scrotum 
+4.The male homologue of the female clitoris is
     
-    b. Penis
+a. Scrotum 
     
-    c. Urethra 
+**b. Penis**
     
-    d.Testis
+c. Urethra 
+    
+d.Testis
 
-5. The site of embryo implantation is the
+5.The site of embryo implantation is the
     
-    a. Uterus 
+**a. Uterus** 
     
-    b. Peritoneal cavity
+b. Peritoneal cavity
     
-    c. Vagina 
+c. Vagina 
     
-    d. Fallopian tube
+d. Fallopian tube
 
-6. The foetal membrane that forms the basis
+6.The foetal membrane that forms the basis
 of the umbilical cord is
-    a. Allantois 
+  
+**a. Allantois** 
     
-    b. Amnion
+b. Amnion
     
-    c. Chorion 
+c. Chorion 
     
-    d. Yolk sac
+d. Yolk sac
 
-7. The most important hormone in intiating
+7.The most important hormone in intiating
 and maintaining lactation after birth is
 
-    a. Oestrogen 
+a. Oestrogen 
     
-    b. FSH
+b. FSH
     
-    c. Prolactin 
+**c. Prolactin** 
     
-    d. Oxytocin
+d. Oxytocin
 
-8. Mammalian egg is
+8.Mammalian egg is
     
-    a. Mesolecithal and non cleidoic
+a. Mesolecithal and non cleidoic
 
-    b. Microlecithal and non cleidoic
+b. Microlecithal and non cleidoic
     
-    c. Alecithal and non cleidoic
+**c. Alecithal and non cleidoic**
     
-    d. Alecithal and cleidoic
+d. Alecithal and cleidoic
 
-9. The process which the sperm undergoes
+9.The process which the sperm undergoes
 before penetrating the ovum is
     
-    a. Spermiation
+a. Spermiation
 
-    b. Cortical reaction
+b. Cortical reaction
 
-    c. Spermiogenesis
+c. Spermiogenesis
 
-    d. Capacitation
+**d. Capacitation**
 
-10. The milk secreted by the mammary glands
+10.The milk secreted by the mammary glands
 soon after child birth is called
 
-    a. Mucous 
+a. Mucous 
     
-    b. Colostrum
+**b. Colostrum**
  
-    c. Lactose 
+c. Lactose 
     
-    d. Sucrose
+d. Sucrose
 
-11. Colostrum is rich in
+11.Colostrum is rich in
     
-    a. Ig E 
+a. Ig E 
     
-    b. Ig A
+**b. Ig A**
     
-    c. Ig D 
+c. Ig D 
     
-    d. Ig M
+d. Ig M
 
-12. The Androgen Binding Protein (ABP) is
+12.The Androgen Binding Protein (ABP) is
 produced by
     
-    a. Leydig cells 
+a. Leydig cells 
     
-    b. Hypothalamus
+b. Hypothalamus
     
-    c. Sertoli cells 
+**c. Sertoli cells** 
     
-    d. Pituitary gland
+d. Pituitary gland
 
-13. Find the wrongly matched pair
+13.Find the wrongly matched pair
 
-    a. Bleeding phase - fall in oestrogen and
+a. Bleeding phase - fall in oestrogen and
     progesterone
 
-    b. Follicular phase - rise in oestrogen
+b. Follicular phase - rise in oestrogen
     
-    c. Luteal phase - rise in FSH level
+**c. Luteal phase - rise in FSH level**
     
-    d. Ovulatory phase - LH surge
+d. Ovulatory phase - LH surge
 
 Answer the following type of questions
 Assertion (A) and Reason (R)
@@ -1090,37 +1219,39 @@ Assertion (A) and Reason (R)
 
     d. Both A and R are false
 
-14. A – In human male, testes are extra
+14.A – In human male, testes are extra
 abdominal and lie in scrotal sacs.
+
 R – Scrotum acts as thermoregulator and
 keeps temperature lower by 2oC for
 normal sperm production .
 
-    (a) A and R are true, R is the correct
-    explanation of A
+(a) A and R are true, R is the correct
+explanation of A
 
-15. A – Ovulation is the release of ovum from
-the Graafian follicle.
+15.A – Ovulation is the release of ovum from the Graafian follicle.
+
 R – It occurs during the follicular phase of
 the menstrual cycle.
     
-    (c) A is true, R is false
+(c) A is true, R is false
 
-16. A – Head of the sperm consists of
+16.A – Head of the sperm consists of
 acrosome and mitochondria.
+
 R – Acrosome contains spiral rows of
 mitochondria.
 
-    (d) Both A and R are false
+(d) Both A and R are false
 
-17. Mention the differences between
+17.Mention the differences between
 spermiogenesis and spermatogenesis.
 
-18. At what stage of development are the
+18.At what stage of development are the
 gametes formed in new born male and
 female?
 
-19. Expand the acronyms
+19.Expand the acronyms
 
     a. FSH 
     
@@ -1130,44 +1261,44 @@ female?
     
     d. hPL
 
-20. How is polyspermy avoided in humans?
+20.How is polyspermy avoided in humans?
 
-21. What is colostrum? Write its significance.
+21.What is colostrum? Write its significance.
 
-22. Placenta is an endocrine tissue. Justify.
+22.Placenta is an endocrine tissue. Justify.
 
-23. Draw a labeled sketch of a spermatozoan.
+23.Draw a labeled sketch of a spermatozoan.
 
-24. What is inhibin? State its functions.
+24.What is inhibin? State its functions.
 
-25. Mention the importance of the position of
+25.Mention the importance of the position of
 the testes in humans.
 
-26. What is the composition of semen?
+26.What is the composition of semen?
 
-27. Name the hormones produced from the
+27.Name the hormones produced from the
 placenta during pregnancy.
 
-28. Define gametogenesis.
+28.Define gametogenesis.
 
-29. Describe the structure of the human ovum
+29.Describe the structure of the human ovum
 with a neat labelled diagram.
 
-30. Give a schematic representation of
+30.Give a schematic representation of
 spermatogenesis and oogenesis in humans.
 
-31. Explain the various phases of the
+31.Explain the various phases of the
 menstrual cycle.
 
-32. Explain the role of oxytocin and relaxin in
+32.Explain the role of oxytocin and relaxin in
 parturition and lactation.
 
-33. Identify the given image and label its parts
+33.Identify the given image and label its parts
 marked as a, b, c and d
 
 ![lesson 1](/books/12-biology/zoology/unit1/bzf28.png )
 
-34. The following is the illustration of the
+34.The following is the illustration of the
 sequence of ovarian events (a-i) in a
 human female.
 
