@@ -37,7 +37,7 @@ extensions:
 கோணம் \\(\theta\\) என்க.
 
 
-![](/books/maths/part-1/trigonometry/trig6.png)
+![](/books/11-maths/part-1/trigonometry/trig6.png)
 
  \\(\ \ \ \\ \ \ \ \ \ \  \  \  \  \  \ \  \  \ \  \  \  \ \  \ \ \ எனில்,\theta\\)=\\(\frac{வில்லின் நீளம்}{ஆரம்}\\)
 
@@ -112,7 +112,7 @@ extensions:
 (iii) கோண அளவில் எதுவும் குறிப்பிடப்படவில்லை என்றால், கோண அலகு ஆரையன்களில்
 உள்ளதாகக் கருதுவோம்.
 
-![](/books/maths/part-1/trigonometry/trig7.png)
+![](/books/11-maths/part-1/trigonometry/trig7.png)
 
 
 ஆரையன் அளவுகளில் கணக்கிடுவது மிகவும் எளிது என்பது தெளிவு..
@@ -131,7 +131,7 @@ extensions:
 (vii) சில அறியப்பட்டக் கோணங்கள், ஆரையன்களிலும் மற்றும் அதற்கு ஒத்த பாகை
 அளவுகளிலும் பின்வரும் அட்டவணையில் கொடுக்கப்பட்டுள்ளன.
 
-![](/books/maths/part-1/trigonometry/trig8.png)
+![](/books/11-maths/part-1/trigonometry/trig8.png)
 
 
 

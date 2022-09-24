@@ -57,7 +57,7 @@ extensions:
 அனுமதிக்கப்படுகிறது.
 
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.3.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.3.png "relation")
 
 
 https://www.hawkeyeinnovations.com/sports என்ற இணையதளத்தில் காணலாம்.
@@ -71,7 +71,7 @@ https://www.hawkeyeinnovations.com/sports என்ற இணையதளத்�
 
 இவ்வளைவரையை www.mathworld.wolfram.com/cyloid மற்றும் www.gogebra.org/b/bd2ADu2I வளைதளத்தில் காணலாம்.
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.4.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.4.png "relation")
 
 **விளக்க எடுத்துக்காட்டு 6.3** 
 
@@ -97,7 +97,7 @@ https://www.hawkeyeinnovations.com/sports என்ற இணையதளத்�
 பேட்ரியாட் *(Patriot)* ரக ஏவுகணைகளைப்
 பயன்படுத்தியது.
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.5.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.5.png "relation")
 
 உலக அரங்கில் விண்வெளி ஆராய்ச்சியாளர்கள் செயற்கைக் கோளை வெற்றிகரமாக
 விண்ணில் செலுத்துவதற்கும் அதன் சுற்று வட்டப் பாதையில் நிலை நிறுத்துவதற்கும்
@@ -113,7 +113,7 @@ https://www.hawkeyeinnovations.com/sports என்ற இணையதளத்�
 கொடுக்கப்பட்டுள்ளன.
 
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.6.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.6.png "relation")
 
 ஒரு புள்ளியின் நியமப்பாதையை காணும் வழிமுறைகளைப்பற்றி இங்கு விவாதிக்கலாம்.
 நியமப்பாதையின் சமன்பாடு என்பது அப்பாதையில் அமைந்துள்ள அனைத்து புள்ளிகளின்
@@ -151,7 +151,7 @@ x -அச்சிலிருந்து உள்ள தொலைவானத
 \\(P\\)-ன் நியமப்பாதை \\(y = x\\) என்ற ஆதி வழியே செல்லும்
 கோடாகும்.
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.7.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.7.png "relation")
 
 {{< /box >}}
 
@@ -200,7 +200,7 @@ B(5,0) ஆகும்.
 
 இது \\(y\\)-அச்சிற்கு இணையாக உள்ள நேர்க்கோடு ஆகும்.
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.8.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.8.png "relation")
 
 {{< /box >}}
 
@@ -263,7 +263,7 @@ https://www.geogebra.org/geometry
 
 எனவே, \\(P (h,k) \\)என்ற புள்ளியின் நியமப்பாதை, \\(x^2 + y^2 = 4\\)
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.9.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.9.png "relation")
 
 {{< /box >}}
 
@@ -301,7 +301,7 @@ https://www.geogebra.org/b/bd2ADu2I#material/zCKMj8kE
 மாற்றப்பட்டுள்ளது. ஆனால் சில நேரங்களில் கார்டீசியன் வடிவத்தைவிடத் துணையலகு
 வடிவமே கையாள்வதற்கு எளிதாக பயன்படுகிறது.
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.10.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.10.png "relation")
 
 {{< /box >}}
 

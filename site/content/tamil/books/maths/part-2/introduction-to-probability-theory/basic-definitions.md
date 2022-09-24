@@ -15,7 +15,7 @@ extensions:
 பயன்படுத்திய சில வரையறைகளை நினைவு கூர்வோம்.
 
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.1.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.1.png "probability theory")
 
 {{< box title="வரையறை 12.1" type="objective" >}}
 ஒரு செயல்பாடு வரையறுக்கப்பட்ட முடிவுகளைக் கொண்டிருக்குமேயானால்,
@@ -89,7 +89,7 @@ space) எனப்படும். ஒரு கூறுவெளியின�
 எண்ணிடத்தக்கவையாக அல்லது எண்ணிடத்தக்கவை அல்லாதவையாக இருக்கும் என்பது தெளிவாகிறது.
 
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.2.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.2.png "probability theory")
 
 
 

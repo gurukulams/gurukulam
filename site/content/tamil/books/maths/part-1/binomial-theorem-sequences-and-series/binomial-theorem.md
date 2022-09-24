@@ -119,7 +119,7 @@ extensions:
 **குறிப்பு:**
 
 
-![](/books/maths/part-1/binomial/pic3.png)
+![](/books/11-maths/part-1/binomial/pic3.png)
 
 
 

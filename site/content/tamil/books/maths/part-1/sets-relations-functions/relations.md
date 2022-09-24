@@ -56,7 +56,7 @@ extensions:
 திறனறி தேர்வுகளில் வெகுவாகக் கையாளப்படுகிறது. இதனை அம்புக்குறி படம் மூலமும் (படம் 1.4)
 குறிப்பிடலாம்.
 
-![relation](/books/maths/part-1/sets/relation/1-4.png "relation")
+![relation](/books/11-maths/part-1/sets/relation/1-4.png "relation")
 
 
 இப்போது, \\( C = \lbrace L , E , T , U , S , W , I , N \rbrace  \ மற்றும் \ D = \lbrace  O , H , W , X , V , Z , L , Q  \rbrace \\) என எடுத்துக் கொண்டால் \\( C \times D\\) என்ற கார்டீசியன் பெருக்கலின் உட்கணமாக,
@@ -79,7 +79,7 @@ extensions:
 
 \\( (i) 2x-y=0\\)  \\((ii)x^2-y =0\\) \\((iii) x-y^2 = 0\\)
 
-![relation](/books/maths/part-1/sets/relation/15to17.png "relation")
+![relation](/books/11-maths/part-1/sets/relation/15to17.png "relation")
 
 (i) \\(2x-y = 0\\)
 
@@ -132,7 +132,7 @@ extensions:
 
 \\(X \ W \ X \ Y \ X \ Z \ W \ X \ Z\\) 
 
-(ii) ![](/books/maths/part-1/basic-algebra/pic6.png)
+(ii) ![](/books/11-maths/part-1/basic-algebra/pic6.png)
 
 
 (iii) \\( \lbrace (p, X), (p,W), (q,X),(q,Y),(r,X),(r, Z), (r, W), (s, X), (t, Z) \rbrace\\)
@@ -169,7 +169,7 @@ extensions:
 
 **விளக்க எடுத்துக்காட்டு** 1.3 கீழ்க்காணும் படத்தினை எடுத்துக் கொள்வோம் [படம் 1.8].
 
-![relation](/books/maths/part-1/sets/relation/1.8.png "relation")
+![relation](/books/11-maths/part-1/sets/relation/1.8.png "relation")
 
 
 படத்தில் ஆங்கில அகர வரிசை எழுத்துக்கள் இயல் எண்களோடு கோர்க்கப்படுகிறது. ஒரு
@@ -190,7 +190,7 @@ extensions:
 தொடர்பின் சார்பகம் \\(\R\\) மற்றும் அதன் வீச்சகம் \\([ 0 , \infin )\\) ஆகும் [படம் 1.10]. x\\(x - y^2 = 0\\) என்ற தொடர்பின்
 சார்பகம் [ 0 , 3 ) மற்றும் வீச்சகம் \\(\R\\) ஆகும் [படம் 1.11 மற்றும் 1.12].  
 
-![relation](/books/maths/part-1/sets/relation/1.9to1.1.2.png "relation")
+![relation](/books/11-maths/part-1/sets/relation/1.9to1.1.2.png "relation")
 
 
 

@@ -21,7 +21,7 @@ extensions:
 க�ோணத்தின் பாகை அளவின் வரையறைகளை நினைவு கூறுவோம்.
 
 
-![MarineGEO circle logo](/books/maths/part-1/trigonometry/a-recall-of-basic-results/3-1.png "MarineGEO logo")
+![MarineGEO circle logo](/books/11-maths/part-1/trigonometry/a-recall-of-basic-results/3-1.png "MarineGEO logo")
 
 #### கோணங்கள் (Angles)
 

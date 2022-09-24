@@ -344,13 +344,13 @@ a மீட்டர் விட்டமுடைய வட்ட வடிவ
     (4)  (i) மற்றும் (ii) ஆகிய இரண்டும் உண்மையில்லை.
 
 
-![](/books/maths/part-1/trigonometry/trig30.png)
+![](/books/11-maths/part-1/trigonometry/trig30.png)
 
 
-![](/books/maths/part-1/trigonometry/trig31.png)
+![](/books/11-maths/part-1/trigonometry/trig31.png)
 
 
-![](/books/maths/part-1/trigonometry/trig32.png)
+![](/books/11-maths/part-1/trigonometry/trig32.png)
 
 
 

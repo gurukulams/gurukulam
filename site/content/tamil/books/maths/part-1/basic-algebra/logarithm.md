@@ -104,7 +104,7 @@ extensions:
 
 (v) மடக்கைச் சார்பு மற்றும் அடுக்குச் சார்புகளின் வரைபடம் கீழே கொடுக்கப்பட்டுள்ளது.
 
-![logarithm](/books/maths/part-1/basic-algebra/logarithm/2.9.png )
+![logarithm](/books/11-maths/part-1/basic-algebra/logarithm/2.9.png )
 
 {{< box title="எடுத்துக்காட்டு 2.34 " type="objective" >}}
 

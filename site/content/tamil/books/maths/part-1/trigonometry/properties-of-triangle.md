@@ -21,7 +21,7 @@ extensions:
 பக்கங்கள் மற்றும் மூன்று கோணங்களுக்கிடையே உள்ள தொடர்புகளை பற்றி விவாதிப்போம் மற்றும்
 சைன் மற்றும் கொசைன் விதிகளைத் தருவிப்போம்.
 
-![trigonometry](/books/maths/part-1/trigonometry/properties-of-triangle/3.7.1.png "trigonometry")
+![trigonometry](/books/11-maths/part-1/trigonometry/properties-of-triangle/3.7.1.png "trigonometry")
 
 
 குறியீடு : ஒரு முக்கோணம் ABC என்க. \\(\Delta ABC\\) இன் மூன்று முனைகள் \\(A,B,C\\) இன்
@@ -63,7 +63,7 @@ extensions:
 விரிகோணமாகவோ இருக்கலாம். இங்கு \\(O\\) என்பது \\(\Delta ABC\\)-இன் சுற்றுவட்ட மையம் எனவும் மற்றும்
 R என்பது ஆரம் எனவும் கொள்வோம்.
 
-![](/books/maths/part-1/trigonometry/trig21.png)
+![](/books/11-maths/part-1/trigonometry/trig21.png)
 
 ###### நிலை I
 
@@ -168,7 +168,7 @@ BO ஐ நீட்டும்போது வட்டத்தில் D எ
 பரப்பைக் காணும் சூத்திரத்தை வருவிக்கப் பயன்படுகிறது.
 
 
-![](/books/maths/part-1/trigonometry/trig22.png)
+![](/books/11-maths/part-1/trigonometry/trig22.png)
 
 
 ###### தேற்றம் 3.3 (கொசைன் விதி)
@@ -265,7 +265,7 @@ BO ஐ நீட்டும்போது வட்டத்தில் D எ
 \\(a = b cosC + c cosB\\)
 
 
-![](/books/maths/part-1/trigonometry/trig22.png)
+![](/books/11-maths/part-1/trigonometry/trig22.png)
 
 
 
@@ -285,7 +285,7 @@ BO ஐ நீட்டும்போது வட்டத்தில் D எ
 விரிகோணமுக்கோணத்தில் பரப்பளவு சூத்திரத்தைப்
 பயன்படுத்துவதற்கு முன் உயரம் h-ன் மதிப்பை நாம் காணவேண்டும்.
 
-![](/books/maths/part-1/trigonometry/trig23.png)
+![](/books/11-maths/part-1/trigonometry/trig23.png)
 
 
 ###### தேற்றம் 3.5
@@ -316,7 +316,7 @@ BO ஐ நீட்டும்போது வட்டத்தில் D எ
   
 
 
-![](/books/maths/part-1/trigonometry/trig24.png) 
+![](/books/11-maths/part-1/trigonometry/trig24.png) 
 	
 வட்டத்துண்டு \\(ABD\\) இன் பரப்பு = வட்டக் கோணப் பகுதியின் பரப்பு - \\(\Delta OAB\\)
 
@@ -335,7 +335,7 @@ BO ஐ நீட்டும்போது வட்டத்தில் D எ
 
 8 கி.மீ. விட்டமுள்ள வட்ட வடிவ மிருகக்காட்சி பூங்கா ஒன்றை அமைக்க அரசு திட்டமிடுகிறது. கால்நடை மருத்துவமனை அமைக்க 4 கி.மீ. நிளமுடைய வட்ட நாண் கொண்ட வட்டத்துண்டு தனியாக ஒதுக்கப்படுகிறது. கால்நடை மருத்துவமனை அமைக்க  ஒதுக்கப்பட்ட வட்டத்துண்டின் பரப்பைக் காண்க.
 
-![](/books/maths/part-1/trigonometry/trig25.png) 
+![](/books/11-maths/part-1/trigonometry/trig25.png) 
 
 **தீர்வு:**
 

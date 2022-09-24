@@ -21,7 +21,7 @@ extensions:
 க�ோணத்தின் பாகை அளவின் வரையறைகளை நினைவு கூறுவோம்.
 
 
-![MarineGEO circle logo](/books/maths/part-1/trigonometry/a-recall-of-basic-results/3-1.png "MarineGEO logo")
+![MarineGEO circle logo](/books/11-maths/part-1/trigonometry/a-recall-of-basic-results/3-1.png "MarineGEO logo")
 
 #### கோணங்கள் (Angles)
 
@@ -118,7 +118,7 @@ x-அச்சு அல்லது y-அச்சு வழியாக அம
 Angles) என்று அழைக்கலாம். எனவே,
 மற்றும் 360° ஆகியவை காற்பகுதி கோணங்கள் ஆகும்
 
-![](/books/maths/part-1/trigonometry/trig2.png)
+![](/books/11-maths/part-1/trigonometry/trig2.png)
 
 
 {{< box title="குறிப்பு" type="note" >}}
@@ -141,7 +141,7 @@ Angle) ஏற்படுத்தும்.
 அதாவது ஒரே முனையம் கொண்ட திட்டநிலையில் உள்ள
 கோணங்களை இணை முனையக் கோணங்கள் (coterminal angles) என்று அழைக்கலாம்.
 
-![](/books/maths/part-1/trigonometry/trig3.png)
+![](/books/11-maths/part-1/trigonometry/trig3.png)
 
 \\(\alpha\\) மற்றும் \\(\beta\\) ஆகியவை இணை முனையக் கோணங்கள் எனில் \\( \beta = \alpha + k (360°)\\), இங்கு k என்பது ஒரு முழு எண். திட்ட நிலையில் ஒரே முனையம் கொண்ட கோணங்களின் அளவீட்டு வித்தியாசம்
 360° ன் முழு எண் மடங்கில் இருக்கும்.
@@ -162,7 +162,7 @@ Angle) ஏற்படுத்தும்.
 உருவாக்கும் என்பதை நாம் நன்கறிவோம். அவ்விகிதங்கள் முக்கோணவியலில் ஆறு அடிப்படை
 சார்புகளை வரையறுக்க வழிவகுக்கும்.
 
-![](/books/maths/part-1/trigonometry/trig4.png)
+![](/books/11-maths/part-1/trigonometry/trig4.png)
 
 \\[\sin \theta=\frac{எதிர்ப்பக்கம}{கர்ணம்}\\]
 \\[\cos \theta=\frac{அருகிலுள்ள பக்கம்}{கர்ணம்}\\]
@@ -175,7 +175,7 @@ Angle) ஏற்படுத்தும்.
 அறிந்த கோணங்களின் முக்கோணவியல் சார்புகளின் மதிப்புகளை பட்டியலிடுவோம்.
 
 
-![](/books/maths/part-1/trigonometry/trig5.png)
+![](/books/11-maths/part-1/trigonometry/trig5.png)
 
 **குறிப்பு:**
 

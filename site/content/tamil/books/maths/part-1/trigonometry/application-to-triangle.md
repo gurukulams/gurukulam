@@ -44,7 +44,7 @@ extensions:
 ஒரு பக்கத்தின் அளவீடு ஆவது க�ொடுக்கப்பட்டிருக்க வேண்டும்.
 
 
-![](/books/maths/part-1/trigonometry/trig26.png)
+![](/books/11-maths/part-1/trigonometry/trig26.png)
 
 
 #####  க�ோணம் இடைப்பட்டது இல்லை எனில், ஒன்றுக்கும் மேற்பட்ட முக்கோணங்கள் இருக்கலாம்.
@@ -165,7 +165,7 @@ a cos A + b cos B + c Cos C = \\(\ 2a (\frac {2\delta}{ac})(\frac {2\delta}{ab})
 எந்த நிலையில் உள்ளது மற்றும் கைபேசி நெடுஞ்சாலைக்கு
 எவ்வளவு தொலைவில் உள்ளது என்பதையும் காண்க.
 
-![](/books/maths/part-1/trigonometry/trig27.png)
+![](/books/11-maths/part-1/trigonometry/trig27.png)
 
 
 **தீர்வு:**
@@ -195,7 +195,7 @@ sin \\(sin \theta =  \dfrac{x}{5} \implies x = 5 sin \theta = 5 sin 60\degree = 
 
 
 
-![](/books/maths/part-1/trigonometry/trig28.png)
+![](/books/11-maths/part-1/trigonometry/trig28.png)
 
 
 இரண்டு ரேடார் நிலையங்கள் 100 கி.மீ. இடைவெளியில்
@@ -205,7 +205,7 @@ sin \\(sin \theta =  \dfrac{x}{5} \implies x = 5 sin \theta = 5 sin 60\degree = 
 ப�ோர் விமானம் இருப்பின், அந்நிலையில் ப�ோர் விமானத்தின் உயரத்தினைக் காண்க.
 
 
-![](/books/maths/part-1/trigonometry/trig29.png)
+![](/books/11-maths/part-1/trigonometry/trig29.png)
 
 
 

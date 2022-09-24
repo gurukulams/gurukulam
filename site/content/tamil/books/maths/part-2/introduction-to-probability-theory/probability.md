@@ -12,7 +12,7 @@ extensions:
 
 ##### (Classical definition ( A p r i o r i ) of probability (Bernoulli’s principle of equally likely))
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.7.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.7.png "probability theory")
 
 முன்வகுப்பில்
 நிகழ்தகவின்
@@ -21,7 +21,7 @@ extensions:
 கணிதத்தில் தீர்வு கண்டோம். இங்கு நிகழ்தகவின் அடிப்படைக் 
 கொள்கைகளின் அணுகுமுறையைப் பற்றி அறிவோம் **(பின் நிகழ்தகவு)**.
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.8.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.8.png "probability theory")
 
 பழமையான கொள்கைகளின் கீழ் வரும் அடிப்படைக் கொள்கையில்
 எதேச்சையான சோதனையின் விளைவுகள் சமவாய்ப்பில் இருக்கும்.  ஒரு
@@ -44,7 +44,7 @@ extensions:
 ஒவ்வொரு நிகழ்தகவியல் மாதிரிகளை உள்ளடக்கிய செயல்முறை பின்வரும் படத்தில் விளக்கப்
 பட்டுள்ளன.
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.9.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.9.png "probability theory")
 
 நிகழ்தகவின்
 பழமையான

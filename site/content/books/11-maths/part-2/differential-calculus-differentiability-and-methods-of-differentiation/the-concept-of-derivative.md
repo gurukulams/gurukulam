@@ -51,16 +51,16 @@ m=\\(\frac{y_{2}-y_{1}}{x_2-x_1}\\) எனும் சாய்வு வித
 தொடுவரைப்புள்ளிக்கு மிக அருகே புள்ளிகளைத் தேர்ந்தெடுப்பதன் மூலம் தொடுகோட்டின்
 சாய்விற்கான சிறந்த தோராய மதிப்பினைப் பெற இயலும் என்பதே இம்முறையின் சிறப்பம்சம் ஆகும்.
 
-![relation](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/1.png "relation")
-![relation](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/2.png "relation")
+![relation](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/1.png "relation")
+![relation](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/2.png "relation")
 
 #### விளக்க எடுத்துக்காட்டு 
 f(x) = \\(x_2\\) எனும் வளைவரைக்கு (1, 1)
 என்ற புள்ளியில் தொடுககோட்டின் சாய்வினைக்
 கண்டவோறிம்.
 முதலில்
-![relation](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/3.png "relation")
-![relation](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/3.png "relation")
+![relation](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/3.png "relation")
+![relation](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/3.png "relation")
 
 முதலில் Dx = 0.1 எனக் கருதுவோம்.
 (1, 1) மற்றும் (1.1, \\((1.1)^{2}\\) புள்ளிகள் வழியாகச்
@@ -77,9 +77,9 @@ f(x) = \\(x_2\\) எனும் வளைவரைக்கு (1, 1)
 1-க்கு வலப்பக்கமும் இடப்பக்கமும் அமையும் அடுத்தடுத்த மதிப்புகளைக் கீழ்க்காணும்
 வகையில் அட்டவணைப்படுத்துவோம்.
 
-![relation](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/4.png "relation")
+![relation](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/4.png "relation")
 
-![relation](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/5.png "relation")
+![relation](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/5.png "relation")
 
 \\((x_0,f(x_0))\\) என்ற புள்ளியில் வரையப்பட்ட தொடுகோட்டின் சாய்வு, அப்புள்ளியில்வளைவரையின் சாய்வு எனவும் அழைக்கப்படுகிறது,வரையறையின் மூலம் ஒரு வளைவரை \\((x_{0},f(x_0))\\) என்ற புள்ளியில் ஒரு தொடுவோட்டினைத்தருமாயின் அது தனித்ததாக இருக்கும். ஏனெனில் வோடுக்கப்பட்ட ஒரு புள்ளி மற்றும் சாய்வுவழியாகஒரே ஒரு வோட்டினையே வரைய இயலும்.
 

@@ -83,7 +83,7 @@ class Core {
         sessionStorage.auth
       ).profilePicture;
 
-      document.querySelector(".navbar-brand").href = "books/maths";
+      document.querySelector(".navbar-brand").href = "books/11-maths";
     } else if (document.querySelector(".secured") !== null) {
       document.querySelector(".secured").classList.add("invisible");
     }

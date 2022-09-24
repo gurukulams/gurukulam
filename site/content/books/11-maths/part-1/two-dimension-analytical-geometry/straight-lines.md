@@ -32,7 +32,7 @@ the line that is needed to write down the form. Some of the important data are *
 The **angle of inclination** of a straight line is the angle, say \\(\theta\\), made by the line with the x-axis
 measured in the counter clockwise (positive) direction.
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.13.eng.png  "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.13.eng.png  "relation")
 
 **Definition 6.4**
 
@@ -55,7 +55,7 @@ This is described by the following equation
 
 \\(m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1} = \frac{vertical change}{horizontal change} \\) 
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.14.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.14.eng.png "relation")
 
 
 (iii) When the general form of the linear equation \\(ax + by + c = 0 \\) is given, then the slope of the
@@ -67,7 +67,7 @@ line is ,
 
 ###### The slope of a line can be a positive or negative or zero or undefined as shown below:
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.15.eng.png  "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.15.eng.png  "relation")
 
 **Definition 6.5**
 
@@ -96,11 +96,11 @@ Therefore it is clear that
 
 In the figure \\(OA\\) is the \\(x\\)-intercept and \\(OB\\)  is the \\(y\\)-intercept.
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.16.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.16.eng.png "relation")
 
 Different types of \\(x\\) and \\(y\\)Intercepts:
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.17.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.17.eng.png "relation")
 
 We have learnt the definition and detailed information about the **points**, **slope** and **intercepts**. Using
 these information, let us recall the different forms of an equation of a straight line.
@@ -141,7 +141,7 @@ This is called the slope-intercept form of a straight line
 because \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.
 
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.18.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.18.eng.png "relation")
 
 **Note :** (i) when \\(b = 0\\) and \\(m \ne 0 \\), the line passes through the origin and its equation is
 \\(y = mx\\).
@@ -152,7 +152,7 @@ because \\(m\\) is the slope and \\(b\\) is the \\(y\\)-intercept.
 
 ###### (ii) Point-Slope form
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.19.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.19.eng.png "relation")
 
 Let \\(m\\) be the slope of the line and \\(A(x_1,y_1)\\) be the given
 point on the line. Let \\(P(x,y)\\) be any point other than \\(A\\)
@@ -173,7 +173,7 @@ line is \\(x = x_1\\).
 
 ###### (iii) Two-points form
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.20.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.20.eng.png "relation")
 
 If \\((x_1 , y_1)\\) and \\((x_2 , y_2 \\)) are any two points on the line with \\(x_2 \ne x_1 \\)   and \\(y_1 \ne y_2 \\) then the slope is,
 
@@ -202,7 +202,7 @@ found using intercepts. Suppose \\(x\\)-intercept \\(OA = a\\) and
 line passes through two points \\(A(a, 0)\\) and \\(B(0, b)\\)  is
 
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.21.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.21.eng.png "relation")
 
 \\(\frac{y - 0}{b - 0} + \frac{x - a}{0 - a}\\)
 
@@ -230,7 +230,7 @@ in right \\(\Delta OPB\\), \\(\frac{OP}{OA} = cos (\frac{\pi}{2} - \alpha) = sin
 
 Using the above data in intercepts form
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.22.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.22.eng.png "relation")
 
 \\(\frac{x}{OA} + \frac{y}{OB} = 1\\)
 
@@ -243,7 +243,7 @@ is called the normal form of equation.
 If \\(p\\) is positive in all positions of the line and if \\( \alpha \\) is always measured from \\(x\\)-axis in the
 positive direction, this equation holds in every case as shown in the figure.
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.23.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.23.eng.png "relation")
 
 ###### (vi) Parametric Form
 
@@ -256,7 +256,7 @@ where \\(a\\) and \\(b\\) are constants and \\(r\\) is the parameter.
 
 \\(\frac{x - x_1}{a} = \frac{y - y_1}{b} = r , (a \ne 0 , b \ne 0 ) \\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.24.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.24.eng.png "relation")
 
 Suppose we have the equation of the line passing through the point \\(Q(x_1 , y_1)\\) and making an angle \\(\theta\\) with \\(x\\)-axis. Let \\(P(x, y)\\) be a point on the line at a distance \\(r\\) from \\(Q\\). Drop perpendiculars \\(QN\\) and \\(PM\\) respectively from \\(Q\\) and \\(P\\) to the \\(x\\)-axis-axis and perpendicular \\(QR \bot PM\\).
 
@@ -294,7 +294,7 @@ The general form of the equation of the straight line is
 
 The below table summarizes the types of straight lines related to the given information.
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.25.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.25.eng.png "relation")
 
 If we have two variable quantities, then each can be represented by a variable. If the rate of change
 of one variable with respect to the other variable is constant, then the relationship between them is
@@ -334,7 +334,7 @@ Slope and angle of inclination of the line with the x-axis are 3π respectively,
 
 \\(m = -1\\) and \\(\theta = \frac{3\pi}{4} \\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.26.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.26.eng.png "relation")
 
 {{< /box >}}
 
@@ -363,7 +363,7 @@ That is, \\(y = -\frac{1}{\sqrt{3}} x - 5\\)
 
 \\(x + \sqrt{3}y + 5\sqrt{3} = 0\\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.27.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.27.eng.png "relation")
 
 {{< /box >}}
 
@@ -419,7 +419,7 @@ of the train \\(560\\) m is the negative \\(y\\)-intercept.
 The uniform speed 12.5 m/s is the slope of the motion of the distance train
 \\(  (Speed=(\frac{distance}{time}\\))
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.28.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.28.eng.png "relation")
 
 Since we are given slope and y-intercept, the equation of the
 line is \\(y = mx + b \\) (6.13)
@@ -480,7 +480,7 @@ Equations of lines are
 
 \\(y = \sqrt{3} x + 7 and y = - \sqrt{3}x + 7 \\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.29.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.29.eng.png "relation")
 
 {{< /box >}}
 
@@ -570,7 +570,7 @@ Using two point form, we get the supply function as   \\((Supply function)\\)
 
 \\(\Rightarrow y_S = \frac{1}{3}x + 6 \\) \\((supply function)\\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.30.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.30.eng.png "relation")
 
 (iii) At the market equilibrium the demand equals to supply,
 
@@ -622,7 +622,7 @@ Since it passes through (−1, 1)(-1, 1),
 
 Equation of the line is \\(x - y + 2 = 0 \\)
 
-![relation](/books/maths/part-1/twodimension/straightlines/6.31.eng.png "relation")
+![relation](/books/11-maths/part-1/twodimension/straightlines/6.31.eng.png "relation")
 
 {{< /box >}}
 

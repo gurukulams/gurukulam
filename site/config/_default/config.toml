@@ -17,22 +17,22 @@ languagename = "English"
 [[Languages.en.menu.main]]
   identifier = 'maths'
   name = 'Maths'
-  url = '/books/maths'
+  url = '/books/11-maths'
   weight = 1
 [[Languages.en.menu.main]]
   identifier = 'physics'
   name = 'Physics'
-  url = '/books/physics'
+  url = '/books/11-physics'
   weight = 2
 [[Languages.en.menu.main]]
   identifier = 'chemistry'
   name = 'Chemistry'
-  url = '/books/chemistry'
+  url = '/books/11-chemistry'
   weight = 3
 [[Languages.en.menu.main]]
   identifier = 'biology'
   name = 'Biology'
-  url = '/books/biology'
+  url = '/books/11-biology'
   weight = 4
 
 [Languages.ta]
@@ -43,22 +43,22 @@ contentDir = 'content/tamil'
 [[Languages.ta.menu.main]]
   identifier = 'maths'
   name = 'கணிதவியல்'
-  url = '/books/maths'
+  url = '/books/11-maths'
   weight = 1
 [[Languages.ta.menu.main]]
   identifier = 'physics'
   name = 'இயற்பியல்'
-  url = '/books/physics'
+  url = '/books/11-physics'
   weight = 2
 [[Languages.ta.menu.main]]
   identifier = 'chemistry'
   name = 'வேதியியல்'
-  url = '/books/chemistry'
+  url = '/books/11-chemistry'
   weight = 3
 [[Languages.ta.menu.main]]
   identifier = 'biology'
   name = 'உயிரியல்'
-  url = '/books/biology'
+  url = '/books/11-biology'
   weight = 4
 
 menu = 'main'

@@ -19,7 +19,7 @@ extensions:
 திட்டநிலையில் i-ன் முனையப் பக்கத்தில் ஆதியைத் தவிர வேறு ஒரு புள்ளி P(x, y) என்க.
 OP = r என்க.
 
-![relation](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/7.png "relation")
+![relation](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/7.png "relation")
 
 இதனால் r =\\(\sqrt {x^2+y^2}\\)
 
@@ -58,7 +58,7 @@ P (x, y) ஐ தன்னகத்தே கொண்ட \\(\theta\\) கோண�
 முக்கோணவியல் விகிதங்களைக் காண்போம்.
 
 
-![relation](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/8.png "relation")
+![relation](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/8.png "relation")
 
 \\(x^{2}+y^{2}=1 என்ற சமன்பாட்டை உடைய ஓரலகு
 வட்டத்தைக் கருத்தில் கொள்க. \\(\theta\\)-ன் முனைய பக்கம் ஓர்

@@ -30,7 +30,7 @@ by
 
 \\(v_{ave}= \cfrac{distance travelled}{time of travel}\\)
 
-![](/books/maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/10.1.png)
+![](/books/11-maths/part-2/differential-calculus-differentiability-and-methods-of-differentiation/10.1.png)
 
 
 Consider a runner who

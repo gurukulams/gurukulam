@@ -41,7 +41,7 @@ ii. \\(m,n \in \Z\\)மேலும், \\(a \ne 0\\) எனில்,\\(\dfrac 
 
 (i) \\(f(x)=x^{2n},n \in \N \ \ \ (ii) g(x)=x^{2n+1},n \in \N\\)
 
-![basic algebra Image graph](/books/maths/part-1/basic-algebra/2.81.png )
+![basic algebra Image graph](/books/11-maths/part-1/basic-algebra/2.81.png )
 
 மேலே உள்ள படங்களிலிருந்து, \\(g : \R \rightarrow \R , g ( x ) = x^{2 n +1} \\) மற்றும் \\(n \in \N\\) ஆனது ஒன்றுக்கொன்று
 மற்றும் மேற்கோர்த்தல் சார்பு ஆகும். எனவே, \\( \R \ -லிருந்து \ \R\\) -க்கு நேர்மாறு சார்பு உண்டு. 
@@ -136,7 +136,7 @@ a > 0 என்க. \\(x^n = a \\) -ன் தீர்வு y எனில்,
 
 எனவே, \\(u - v = 0 \Rightarrow u = v \\) . ஆகையால், f ஒரு ஒன்றுக்கொன்றான சார்பாகும்.
 
-![basic algebra Image graph](/books/maths/part-1/basic-algebra/2.7to2.8.png )
+![basic algebra Image graph](/books/11-maths/part-1/basic-algebra/2.7to2.8.png )
 
 வரைபடத்திலிருந்து x அதிகரிக்கும்போது \\(f ( x ) = 2^x \\)-ன் மதிப்பும் அதிகரிக்கிறது என்பது தெளிவு.
 மேலும் f-ன் வீச்சகம் \\(( 0 , \infty \\) ஆகும். இங்கு, \\( 2^0 = 1 \\) என இருப்பதால், அனைத்து x > 0 -க்கும் \\( 2^x > 1 \\)எனக் கிடைக்கிறது. மேலும், அனைத்து x < 0 -க்கும் \\(2^x < 1\\) எனக் கிடைக்கிறது. \\(f \in \R \rightarrow ( 0 , \infty ) \\) ஒரு மேற்கோர்த்தல் சார்பு எனக் கவனிக்க.

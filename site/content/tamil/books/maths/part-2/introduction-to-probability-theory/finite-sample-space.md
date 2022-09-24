@@ -121,7 +121,7 @@ S-இல் உள்ள வெற்றுக் கணம் \\(\text{\o}\\) �
 எளிது என்பதனைக் கீழ்க்காணும் படங்கள் விளக்குகிறது.
 
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.3.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.3.png "probability theory")
 
 {{< box title="வரையறை 12.12" type="objective" >}}
 
@@ -136,12 +136,12 @@ S-இல் உள்ள வெற்றுக் கணம் \\(\text{\o}\\) �
 
 
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.4.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.4.png "probability theory")
 
 (ii) சமவாய்ப்பில்லாத நிகழ்ச்சிகளுக்கு ஒர்  எடுத்துக்காட்டு : படத்தில் காட்டிய ஒரு நிறம்
 பூசப்பட்ட பகடை உருட்டப்படுகிறது.
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.5.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.5.png "probability theory")
 
 இதே போல் ஒரு நாணயத்தைச் சுண்டிவிடும் போது தலை  அல்லது பூ வீழும் நிகழ்ச்சிகள் 
 சமவாய்ப்பு நிகழ்ச்சிகளாகும்.
@@ -165,7 +165,7 @@ S = \\(\lbrace H , T \rbrace × \lbrace H , T \rbrace\\) = \\(\lbrace( H , H ), 
 கூறுவெளியை  எழுதலாம். சில சமவாய்ப்பு சோதனைகளால் கிடைக்கும் கூறுவெளிகள்  பின்வரும்
 அட்டவணையில் பட்டியலிடப்பட்டுள்ளது.
 
-![probability theory](/books/maths/part-2/introduction-to-probability-theory/12.6.png "probability theory")
+![probability theory](/books/11-maths/part-2/introduction-to-probability-theory/12.6.png "probability theory")
 
 **குறியீடுகள்**
 

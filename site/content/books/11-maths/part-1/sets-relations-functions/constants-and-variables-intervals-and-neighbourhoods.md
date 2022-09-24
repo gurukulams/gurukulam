@@ -40,7 +40,7 @@ extensions:
 மெய்யெண்களின் கணம் \\( \R\\)-ஐ படம் 1.2–ல் உள்ளபடி ஒரு கோட்டில் உள்ள புள்ளிகளாகவும், கோட்டிலுள்ள ஒவ்வொரு புள்ளியையும் தனித்த ஒரு மெய்யெண்ணாகவும் கருத இயலும்.எனவே
 ஒவ்வொரு மெய்யெண்ணும், கோட்டில் உள்ள ஒவ்வொரு புள்ளியுடன் தொடர்புபடுத்தப்படுகிறது. இதனால் இக்கோட்டினை மெய்யெண் கோடு (real line) என்கிறோம்.
 
- ![fraction Image graph](/books/maths/part-1/sets\constants-and-variables-intervals-and-neighbourhoods/constants-img1.png "MarineGEO logo")
+ ![fraction Image graph](/books/11-maths/part-1/sets\constants-and-variables-intervals-and-neighbourhoods/constants-img1.png "MarineGEO logo")
 
 வலப்பக்கம் மதிப்பு உயர்ந்தும் இடப்பக்கம் மதிப்பு குறைந்தும் அமைவதைக் காணலாம். \\(x\\) ஆனது \\(y\\) -ன் இடப்பக்கமாக அமைந்தால், \\(x < y\\) எனப் பெறும். மேலும், இக்கோட்டில்
 தொடர்ச்சியற்றத் தன்மை இல்லாததால், எந்த இரண்டு மெய்யெண்களுக்கு இடையேயும் எண்ணிலடங்கா மெய்யெண்கள் அமையும்.
@@ -94,7 +94,7 @@ extensions:
 இடைவெளிகளில் பல வகை உள்ளன. \\(a < b\\) ஆக இருக்குமாறு \\(a,b \in \R\\) என எடுத்துக் கொள்வோம். கீழ்க்காணும் அட்டவணை வெவ்வேறு வகை இடைவெளிகளை உணர்த்துகிறது. ஒரு
 புள்ளியை நீக்கி விட்டு ஒரு கோட்டினை வரைய இயலாது. திறந்த வட்டமான \\(“o”\\)குறியீடு, அப்புள்ளி நீக்கப்பட்டுள்ளதாகவும், நிரம்பிய வட்ட குறியீடான \\('\bullet'\\) ஆனது அப்புள்ளி உள்ளடங்கியது எனவும் பொருள்படும்.
 
-![table](/books/maths/part-1/sets\constants-and-variables-intervals-and-neighbourhoods/constants-img2.png "MarineGEO logo")
+![table](/books/11-maths/part-1/sets\constants-and-variables-intervals-and-neighbourhoods/constants-img2.png "MarineGEO logo")
 
 குறியீட்டு வடிவில் எழுதவும்.
 
@@ -112,4 +112,4 @@ extensions:
 அண்மைப்பகுதியாகும். \\(‘ \epsilon ’\\) என்பது ஒரு மிகை எண், குறிப்பாக மிகச்சிறியது எனில் \\(a\\) யின் \\(\epsilon\\) -அண்மைப் பகுதி என்பது \\((a- \epsilon,a+ \epsilon)\\)என்ற 
 இடைவெளியாகும்.\\(a-\epsilon,a+ \epsilon\\) என்பது \\(a\\) -ஐ நீக்கிய அண்மைப்பகுதி எனவும் அதனை \\(0< |x-a| < \epsilon =\lbrace a \rbrace\\)எனவும் குறிப்பிடப்படுகிறது. [படம் 1.3]
 
-![table](/books/maths/part-1/sets\constants-and-variables-intervals-and-neighbourhoods/constants-img3.png "MarineGEO logo")
+![table](/books/11-maths/part-1/sets\constants-and-variables-intervals-and-neighbourhoods/constants-img3.png "MarineGEO logo")

@@ -50,7 +50,7 @@ extensions:
 கொண்டு ஒரு வளைவரைக்கு கிடைக்கும் பிம்பமே பிரதிபலிப்பாகும் [படம் 1.47].
 
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.47.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.47.png "graphing")
 
 இங்கு, \\(f'\\) என்பது l மீதான f - ன் கண்ணாடி பிம்பமாகும். f - ல் உள்ள ஒவ்வொரு புள்ளிக்கும்
 \\(f'\\) - ல் ஒத்திசைவான ஒரு புள்ளி அமையும்.
@@ -67,7 +67,7 @@ extensions:
 (i) \\(y = x^2 \ \ \ (ii) y = -x^2 \  என்னும் \ சார்புகளைக் \ கருதுக. \\) 	
 
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.48.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.48.png "graphing")
 
 
 \\(f(x)= x^2\\) என்ற சார்புக்கு \\(– f(x)= – x^2\\) ஆகும். ஆகையால் x - அச்சினைப் பொறுத்து
@@ -76,14 +76,14 @@ extensions:
 **விளக்க எடுத்துக்காட்டு 1.6** \\(y^2 = x \ மற்றும் \ y^2 = -x\\) ஆகிய வளைவரைகளின் மிகைக் கிளைகளைக்
 கருத்தில் கொள்க.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.49.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.49.png "graphing")
 
 \\(f(x) =\sqrt {x} \ என்ற \ சார்புக்கு \ f(-x) =\sqrt { – x}\\).ஆகையால் y- அச்சினைப் பொறுத்து
 \\(f(x) =\sqrt {x}\\) –ன் பிரதிபலிப்பு \\(f(-x)= \sqrt {-x}\\) ஆகும். இங்கு x < 0 [படம் 1.49].
 
 **விளக்க எடுத்துக்காட்டு 1.7** \\((i) y = e^x\\)  \\((ii) y = log_e x\\)
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.50.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.50.png "graphing")
 
 
 \\(y = log_e x\\) - ன் நேர்மாறு \\(y = e^x\\) என நாம் அறிவோம். ஆதலால் \\(y = x\\) என்ற கோட்டினைப்
@@ -110,7 +110,7 @@ extensions:
 
 என்ற வளைவரைகளை கருதுக.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.51.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.51.png "graphing")
 
 \\(f(x)=|x-1|\\) என்பதன் வளைவரை \\(f(x)=|x|\\) என்ற வளைவரையை ஒரு அலகு 
 வலப்பக்கமாக நகர்த்திக் கிடைக்கப் பெறுவது ஆகும்.
@@ -124,7 +124,7 @@ extensions:
 
 என்ற வளைவரைகளை கருதுக.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.52.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.52.png "graphing")
 
 \\(f(x) = |x – 1|\\) என்ற வளைவரை, \\(f(x) =|x|\\) என்ற வளைவரையை ஒரு அலகு
 கீழ்நோக்கி நகர்த்திக் கிடைக்கப் பெறுவது ஆகும்.
@@ -149,7 +149,7 @@ extensions:
 \\( (ii) f(x) = x^2 \ \ 	(ii)f(x)= \dfrac{1}{2} x^2 	\	\ (iii) f(x)= 2 x^2\\)
 என்ற வளைவரைகளை கருதுக.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.53.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.53.png "graphing")
 
 
 \\(f(x)= \dfrac {1}{2}x^2\\) என்ற சார்பின் வரைபடம், \\( f(x) = x^2 \\)- ன் வரைபடத்தை x - அச்சை நோக்கி
@@ -166,7 +166,7 @@ y - அச்சை நோக்கி நெருக்குகிறது. 
 
 என்ற வளைவரைகளைக் கருதுக.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.54.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.54.png "graphing")
 
 
 \\( ( f(x) = x^2 +1  \\) என்ற சார்பின் வரைபடம்,\\( f(x) = x^2 \\)ஒரு அலகு செங்குத்தாக
@@ -179,7 +179,7 @@ y - அச்சை நோக்கி நெருக்குகிறது. 
 
 வரைபடங்களை ஒப்பீடு மற்றும் வேறுபடுத்திக் காண்க.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.55to1.57.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.55to1.57.png "graphing")
 
 
 வரைபடங்கள் 1.55 மற்றும் 1.56 ஆகியவை y - அச்சு அளவீட்டில் காண்பதற்கு முன், இவை
@@ -196,7 +196,7 @@ y - அச்சை நோக்கி நெருக்குகிறது. 
 காட்சியளிக்கின்றது. இங்கு x - வெட்டுத்துண்டுகள் வெவ்வேறானாலும் y - வெட்டுத்துண்டுகளில்
 மாற்றம் இல்லை.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.58to1.59.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.58to1.59.png "graphing")
 
 
 **விளக்க எடுத்துக் காட்டு 1.13**
@@ -206,7 +206,7 @@ y - அச்சை நோக்கி நெருக்குகிறது. 
 [படங்கள் 1.60, 1.61 மற்றும் 1.62].
 
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.60to1.62.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.60to1.62.png "graphing")
 
 \\(sin x\\) மற்றும் \\(sin2x\\) ஆகியவற்றின் மீச்சிறு மற்றும் பெரும மதிப்புகளில் மாறுபாடு இல்லை.
 ஆனால் x வெட்டுத்துண்டுகள் வெவ்வேறாக அமையும். \\(y = sin x\\) என்ற சார்பின் x வெட்டுத்துண்டுகள்
@@ -226,7 +226,7 @@ y - அச்சை நோக்கி நெருக்குகிறது. 
 வரையலாம் [படங்கள் 1.63, 1.64, 1.65 மற்றும் 1.66].
 
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.63to1.66.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.63to1.66.png "graphing")
 
 **பயிற்சி 1.4**
 
@@ -235,14 +235,14 @@ y - அச்சை நோக்கி நெருக்குகிறது. 
 
 \\( (i)y=-x^3 \ (ii)y=x^3+1 \ (iii)y=x^3-1 (iv)y=(x+1)^3 \\)
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.67.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.67.png "graphing")
 
 2.கொடுக்கப்பட்டுள்ள [படம் 1.68]  \\(y = x^\binom{1}{2}\\) என்ற வளைவரையைப் பயன்படுத்திக் கீழ்க்காணும்சார்புகளை ஒரே தளத்தில் வரைக.
 
 \\( (i)y =- x^\binom{1}{3}  \ (ii) y = x^\binom{1}{3} + 1 \ (iii) y = x^\binom{1}{3} -1 \ (iv) y = (x+1)^\binom{1}{3} \\)
 
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.68.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.68.png "graphing")
 
 
 3.ஒரே தளத்தில் \\(f(x)= x^3\\) மற்றும் \\(g(x)= ^3\sqrt{x}\\) சார்புகளை வரைபடமாக்குக. \\(f \circ g\\) –ஐ
@@ -279,7 +279,7 @@ BALLS AND RUNS
 
 WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.4ex.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.4ex.png "graphing")
 
 
 1.மேற்கண்ட படத்தில் உள்ள புள்ளி விவரங்களை
@@ -297,7 +297,7 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 வளைவரைகளின் சமன்பாடுகளை அளவீட்டினைக் கண்டுணர்ந்து இனம்
 காண்க.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.69.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.69.png "graphing")
 
 
 {{< /box >}}
@@ -326,7 +326,7 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 
 \\((3) R - ன் \ சார்பகம் \ \lbrace 0, -1, 1, 2\rbrace \\)
 
-![](/books/maths/part-1/basic-algebra/pic13.png)
+![](/books/11-maths/part-1/basic-algebra/pic13.png)
 
 5.R மெய்யெண்களின் கணம் என்க. \\( \R × \R \\) –ல் கீழ்க்கண்ட உட்கணங்களைக் கருதுக.
 
@@ -434,7 +434,7 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 
 \\((3) ஒன்றுக்கொன்று அல்லாத சார்பு \ \ \  (4) சார்பன்று\\)
 
-22. ![](/books/maths/part-1/basic-algebra/pic14.png)
+22. ![](/books/11-maths/part-1/basic-algebra/pic14.png)
 
 
 23.\\(f : \R \rightarrow \R \\)–ல் சார்பு \\(f(x) = 1 – |x|\\) என வரையறுக்கப்படுகிறது எனில் \\(f\\) - ன் வீச்சகம்
@@ -527,7 +527,7 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 
 {{< box title="இணையச் செயல்பாடு – 1 (அ)" type="objective" >}}
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.7ex1.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.7ex1.png "graphing")
 
 
 **படி-1**
@@ -552,7 +552,7 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 அவற்றை ஒவ்வொன்றாகத் தேர்வு செய்தால் இடப் பக்கத்தில் அவற்றின் வரைபடம் தோன்றும்.
 மேலும் “a” என்கிற நழுவுக்கோட்டை நகர்த்தி மாறுதல்களை ஆய்வு செய்க.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.7ex2.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.7ex2.png "graphing")
 
 மேலும் பல பயிற்சித்தாள்களை இப்பணிப்புத்தகத்தில் காணலாம்
 
@@ -566,7 +566,7 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 
 {{< box title="இணையச் செயல்பாடு – 1 (ஆ)" type="objective" >}}
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.7ex3.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.7ex3.png "graphing")
 
 
 **படி-1**
@@ -585,7 +585,7 @@ WHAT A CELEBRATION! WHAT A RELATION WHAT A FUNCTION!
 ஆய்வு செய்க. Sine சார்புகளை ஒப்பீடு செய்ய ஒரு பணித்தாள் கொடுக்கப்பட்டிருக்கும். அனைத்து
 பணித்தாள்களிளும் நழுவுக்கோட்டை நகர்த்தி மாறுதல்களை ஆய்வு செய்க.
 
-![graphing](/books/maths/part-1/sets/graphing-functions/1.7ex4.png "graphing")
+![graphing](/books/11-maths/part-1/sets/graphing-functions/1.7ex4.png "graphing")
 
 *படங்கள் அடையாளத்திற்கு மட்டுமே.
 

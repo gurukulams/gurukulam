@@ -48,7 +48,7 @@ international cricket.
 https://www.hawkeyeinnovations.com/sports
 
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.3.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.3.png "relation")
 
 
 **Illustration 6.2**
@@ -59,7 +59,7 @@ figure. The path traced out by the point P is known as cycloid. (Try yourself by
 the circle. Find the names of the curve from the web site: www.mathworld.wolfram.com
 https://www.geogebra.org/b/bd2ADu2I
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.4.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.4.png "relation")
 
 **Illustration 6.3** 
 
@@ -79,7 +79,7 @@ shuttle successfully, the determination
 of path  plays an crucial role in space
 research.
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.5.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.5.png "relation")
 
 An equation in the two variables  *x* and *y* will ordinarily be satisfied by infinitely many pair of
 real value of *x* and *y*. Every such pair is called a real solution of the equation. Each real solution of
@@ -90,7 +90,7 @@ equation.
 The following table shows some important loci in mathematics
 
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.6.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.6.png "relation")
 
 Now let us discuss the ways of finding the locus of the points. The equation of the locus is the
 relation that exists between the coordinates of all the points strictly lying on the path.
@@ -129,7 +129,7 @@ replacing *h* and *k* by substituting
 The locus of \\(P\\) is, \\(y = x\\) , is a line passing through the
 origin.
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.7.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.7.png "relation")
 
 {{< /box >}}
 
@@ -176,7 +176,7 @@ Therefore the locus of P is  \\(x = 3\\)
 which is a straight line parallel to the \\(y\\)-axis.
 
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.8.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.8.png "relation")
 
 {{< /box >}}
 
@@ -243,7 +243,7 @@ From right \\(\Delta OAB \\),
 
 Locus of \\( (h,k) \\)is a circle, \\(x^2 + y^2 = 4\\)
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.9.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.9.png "relation")
 
 {{< /box >}}
 
@@ -279,7 +279,7 @@ https://www.geogebra.org/b/bd2ADu2I#material/zCKMj8kE
 **Note:** Though, the parametric form given above is converted to Cartesian form, in some cases
 the parametric form may be more useful to work with than the cartesian form.
 
-![relation](/books/maths/part-1/twodimension/locusofapoint/6.10.png "relation")
+![relation](/books/11-maths/part-1/twodimension/locusofapoint/6.10.png "relation")
 
 {{< /box >}}
 
