@@ -1134,3 +1134,655 @@ jasmine), fruits (citrus, straw berry) and wood
 (sandal, eucalyptus).
 
 ![](/books/12-biology/botany/unit10/pic17.png)
+
+**Jasmine**
+Botanical name : *Jasminum grandiflorum*
+
+Family: Oleaceae
+Jasmine, as a
+floral perfume,
+ranks next to
+the rose oil.
+Major
+species
+cultivated on the
+commercial scale
+
+![](/books/12-biology/botany/unit10/pic18.png)
+
+is
+Jasminum
+grandiflorum, a native of the north-western
+Himalayas. In Tamil Nadu, the major jasmine
+cultivation centres are Madurai and Thovalai
+of Kanyakumari District. The essential oil is
+present in the epidermal cells of the inner and
+outer surfaces of both the sepals and petals.
+One ton of Jasmine blossom yields about 2.5
+to 3 kg of essential oil, comprising 0.25 to 3%
+of the weight of the fresh flower.
+
+**Uses**
+
+Jasmine flowers have been used since ancient
+times in India for worship, ceremonial purposes,
+incense and fumigants, as well as for making
+perfumed hair oils, cosmetics and soaps.
+Jasmine oil is an essential oil that is valued for
+its soothing, relaxing, antidepressant qualities.
+
+Jasmine blends well with other perfumes.
+It is much used in modern perfumery and
+cosmetics and has become popular in air
+freshners, anti-perspirants, talcum powders,
+shampoos and deodorants.
+
+#### <u> 10.9 Traditional of Medicines Systems </u>
+
+India has a rich medicinal heritage. A number
+of Traditional Systems of Medicine (TSM)
+are practiced in India some of which come
+from outside India. TSM in India can be
+broadly classified into **institutionalized**
+or documented and **non-institutionalized**
+or oral traditions. Institutionalized Indian
+systems include Siddha and Ayurveda which
+are practiced for about two thousand years.
+These systems have prescribed texts in which
+the symptoms, disease diagnosis, drugs to cure,
+preparation of drugs, dosage and diet regimes,
+daily and seasonal regimens. Non- institutional
+systems, whereas, do not have such records
+and or practiced by rural and tribal peoples
+across India. The knowledge is mostly held in
+oral form. The TSM focus on healthy lifestyle
+and healthy diet for maintaining good health
+and disease reversal.
+
+**Siddha system of medicine**
+
+Siddha is the most popular, widely practiced
+and culturally accepted system in Tamil
+Nadu. It is based on the texts written by 18
+Siddhars. There are different opinions on the
+constitution of 18 Siddhars. The Siddhars are
+not only from Tamil Nadu, but have also come
+from other countries. The entire knowledge is
+documented in the form of poems in Tamil.
+Siddha is principally based on the **Pancabūta**
+philosophy. According to this system three
+humors namely **Vātam, Pittam and Kapam**
+that are responsible for the health of human
+beings and any disturbance in the equilibrium
+of these humors result in ill health. The drug
+sources of Siddha include plants, animal parts,
+marine products and minerals. This system
+specializes in using minerals for preparing
+drugs with the long shelf-life. This system
+uses about 800 herbs as source of drugs. Great
+stress is laid on disease prevention, health
+promotion, rejuvenation and cure.
+
+**Ayurveda system of medicine**
+
+Ayurveda supposed to have originated from
+Brahma. The core knowledge is documented
+by **Charaka, Sushruta and Vagbhata** in
+compendiums written by them. This system
+is also based on three humor principles
+namely, Vatha, Pitha and Kapha which would
+exist in equilibrium for a healthy living. This
+system Uses more of herbs and few animal
+parts as drug sources. Plant sources include
+a good proportion of Himalayan plants. The
+**Ayurvedic Pharmacopoeia** of India lists
+about 500 plants used as source of drugs.
+
+**Folk system of medicine**
+
+Folk systems survive as an oral tradition among
+innumerable rural and tribal communities
+of India. A consolidated study to document
+the plants used by ethnic communities was
+launched by the Ministry of Environment and
+Forests, Government of India in the form of
+All India Coordinated Research Project on
+Ethnobiology. As a result about 8000 plant
+species have been documented which are
+used for medicinal purposes. The efforts to
+document in several under-explored and
+unexplored pockets of India still continue.
+Major tribal communities in Tamil Nadu who
+are known for their medicinal knowledge
+include **Irulas, Malayalis, Kurumbas,**
+**Paliyans and Kaanis.** Some of the important
+medicinal plants are discussed below.
+
+#### 10.10 Medicinal Plants
+
+India is a treasure house of medicinal plants.
+They are linked to local heritage as well as to
+global-trade. All institutional systems in India
+primarily use medicinal plants as drug sources.
+At present, 90% collection of medicinal plants
+is from the non-cultivated sources. Growing
+demand for herbal products has led to quantum
+jump in volume of plant materials traded
+within and across the countries. Increasing
+demand exerts a heavy strain on the existing
+resources. Now efforts are being made to
+introduce cultivation techniques of medicinal
+plants to the farmers.
+
+Medicinal plants play a significant role in
+providing primary health care services to rural
+and tribal people. They serve as therapeutic
+agents as well as important raw materials for
+the manufacture of traditional and modern
+medicines. Medicinally useful molecules
+obtained from plants that are marketed as drugs
+are called Biomedicines. Medicinal plants which
+are marketed as powders or in other modified
+forms are known as Botanical medicines.
+
+**Keezhanelli**
+
+*Botanical name : Phyllanthus amarus*
+
+Family : Euphorbiaceae (Now in Phyllanthaceae)
+
+**Origin and Area of cultivation:** The plant is
+a native of Tropical American region and is
+naturalised in India and other tropical countries.
+It is not cultivated and is collected from moist
+places in plains. Phyllanthus maderspatensis
+is also commonly sold in the medicinal plant
+markets collected from non-forest are as
+
+**keezhanelli.**
+
+**Active principle:** Phyllanthin is the major
+chemical component.
+
+**Medicinal importance**
+
+Phyllanthus is a well-known hepato-protective
+plant generally used in Tamil Nadu for the
+treatment of Jaundice. Research carried out
+by Dr. S P Thyagarajan and his team from
+University of Madras has scientifically proved
+that the extract of P. amarus is effective against
+hepatitis B virus.
+
+
+**Nilavembu**
+
+Botanical name : *Andrographis paniculata*
+Family : Acanthaceae
+Andrographis paniculata, known as the
+King of Bitters is traditionally used in Indian
+systems of medicines.
+Active principle: Andrographolides.
+Medicinal importance:
+Andrographis is a **potent hepatoprotective**
+and is widely used to treat liver disorders.
+Concoction of Andrographis paniculata and
+eight other herbs (Nilavembu Kudineer) is
+effectively used to treat malaria and dengue.
+
+
+![Figure 10.19: Medicinal Plants](/books/12-biology/botany/unit10/pic19.png)
+
+
+**Psychoactive Drugs**
+
+In the above chapter you have learnt about
+plants that are used medicinally to treat
+various diseases. Phytochemicals / drugs
+from some of the plants alter an individual’s
+perceptions of mind by producing
+hallucination are known as psychoactive
+drugs. These drugs are used in all ancient
+culture especially by Shamans and by
+traditional healers. Here we focus on two
+such plants namely Poppy and Marijuana.
+
+**Opium poppy**
+
+Botanical name : *Papaver somniferum*
+Family: Papaveraceae
+
+**Origin and Area of cultivation:**
+
+Opium poppy is native to South Eastern
+Europe and Western Asia. Madhya Pradesh,
+Rajasthan and Uttar Pradesh are the licenced
+states to cultivate opium poppy.
+
+
+![](/books/12-biology/botany/unit10/pic20.png)
+
+Opium is derived from the exudates of
+fruits of poppy plants. It was traditionally
+used to induce sleep and for relieving pain.
+Opium yields **Morphine,** a strong analgesic
+which is used in surgery. However, opium is
+an addiction forming drug.
+
+**Cannabis / Marijuana**
+
+*Botanical name : Cannabis sativa*
+**Family: Cannabiaceae**
+
+**Origin and Area of Cultivation:** Marijuana
+is native to China. States such as Gujarat,
+Himachal Pradesh, Uttarkand, Uttarpradesh
+and Madhaya Pradesh have legally permitted
+to cultivate industrial hemp/Marijuana
+The active principle in Marijuana
+is **trans-tetrahydrocanabinal** (THC). It
+possess a number of medicinal properties.
+It is an effective pain reliever and reduces
+hypertension.
+
+THC is used in treating
+**Glaucoma** a condition in which pressure
+develops in the eyes. THC is also used in
+reducing nausea of cancer patients undergoing
+radiation and chemotherapy. THC provides
+relief to bronchial disorders, especially asthma
+as it dilates bronchial vessels. Because of these
+medicinal properties, cultivation of cannabis
+is legalized in some countries. However,
+prolonged use causes addiction and has an
+effect on individual’s health and society.
+
+Hence most of the countries have banned its
+cultivation and use.
+
+![](/books/12-biology/botany/unit10/pic21.png)
+
+**10.11 Entrepreneurial Botany**
+
+**Entrepreneurial Botany** is the study of
+how new businesses are created using plant
+resources as well as the actual process of
+starting a new business. An **entrepreneur** is
+someone who has an idea and who works to
+create a product or service that people will
+buy, by building an organization to support the
+sales. **Entrepreneurship** is now a popular topic
+for higher secondary students, with a focus on
+developing ideas to create new ventures among
+the young people.
+
+Vast opportunities are there for the students of
+Botany. In the present scenario students should
+acquire ability to merge skills and knowledge
+in a meaningful way. Converting botanical
+knowledge into a business idea that can be
+put into practice for earning a livelihood is the
+much-needed training for the students.
+
+Few
+examples
+for
+activities
+of
+entrepreneurship are Mushroom cultivation,
+Single cell protein (SCP) production, Seaweed
+liquid fertilizer, Organic farming, Terrarium,
+Bonsai and Cultivation of medicinal and
+aromatic plants.
+
+This part of the chapter is dealt about organic
+farming in brief.
+
+#### 10.11.1 Organic farming
+
+Organic farming is an alternative agricultural
+system in which plants/crops are cultivated
+in natural ways by using biological inputs to
+maintain soil fertility and ecological balance
+thereby minimizing pollution and wastage.
+Indians were organic farmers by default until
+the green revolution came into practice.
+
+Use of biofertilizers is one of the important
+components of integrated organic farm
+management, as they are cost effective
+and renewable source of plant nutrients
+to supplement the chemical fertilizers for
+sustainable agriculture. Several microorganisms
+and their association with crop plants are being
+exploited in the production of biofertilizers.
+Organic farming is thus considered as the
+movement directed towards the philosophy of
+**Back to Nature.**
+
+#### I. Organic Pesticide
+
+Pest like aphids, spider and mites can cause
+serious damage to flowers, fruits, and vegetables.
+These creatures attack the garden in swarms, and
+drain the life of the crop and often invite disease
+in the process. Many chemical pesticides prove
+unsafe for human and the environment. It turns
+fruits and vegetables unsafe for consumption.
+Thankfully, there are many homemade, organic
+options to turn to war against pests.
+
+##### II. Bio-pest repellent
+
+Botanical pest repellent and insecticide made
+with the dried leaves of *Azadirachta indica*
+
+**Preparation of Bio-pest repellent**
+
+* 	Pluck leaves from the neem tree and chop
+the leaves finely.
+
+*   e chopped up leaves were put in a 50-liter
+container and fill to half with water; put the
+lid on and leave it for 3 days to brew.
+
+*  sing another container, strain the mixture
+which has brewed for 3 days to remove the
+leaves, through fine mesh sieve. The filtrate
+can be sprayed on the plants to repel pests.
+
+* To make sure that the pest repellent sticks to
+the plants, add 100 ml of
+cooking oil and the same
+amount of soap water.
+(The role of the soap water
+is to break down the oil,
+and the role of the oil is to
+make it stick to the leaves).
+
+* The stewed leaves from the mixture can be
+used in the compost heap or around the base
+of the plants.
+
+### Summary
+
+Early civilization in different parts of the world
+has domesticated different species of plants
+for various purposes. Based on their utility,
+the economically useful plants are classified
+into food plants, fibre plants, timber plants,
+medicinal plants, and plants used in paper
+industries, dyes and cosmetics.
+
+However, food base of majority of the
+population depends on very few Cereals,
+Millets, Pulses, Vegetables, Fruits, Nuts, Sugars,
+Oil seeds, Beverages, Spices and Condiments.
+
+Oils can be classified into two types
+namely, essential oils and vegetable oils. Fatty
+acids in oil may be saturated or unsaturated.
+The oil yielding plants are groundnut and
+sesame. The oils are used in cooking, making
+soaps and other purposes. Beverages contain
+alkaloids that stimulate central nervous
+system. Spices were used throughout the
+world for several years. Cardamom is ‘Queen
+of Spices’ used for flavouring confectionaries
+and beverages. Black pepper is King of Spices.
+
+
+Botanically a fibre is a long, narrow, thick
+walled cell. Cotton and Jute are fibre yielding
+plants. Teak is wood used for making furniture.
+Rubber is produced from the latex of Hevea
+brasiliensis. Paper production is a Chinese
+invention. Dyes have been used since ancient
+times. The orange dye henna is from the leaves of
+Lawsonia. Perfumes are volatile and aromatic in
+nature, manufactured from essential oils which
+are found at different parts of the plant. Medicinal
+plants serve as therapeutic agents. Medicinally
+useful molecules obtained from these plants
+are marketed as drugs are called Biomedicines.
+Whereas phytochemicals from some of the
+plants which alter an individual’s perceptions of
+mind by producing hallucination are known as
+psychoactive drugs.
+
+
+Entrepreneurial Botany is the study of
+how new businesses are created using plant
+resources as well as the actual process of
+starting a new business.
+
+Evaluation
+1.	Consider the following statements and
+choose the right option.
+
+i) Cereals are members of grass family.
+ii) Most of the food grains come from
+monocotyledon.
+a) (i) is correct and (ii) is wrong
+b) Both (i) and (ii) are correct
+c) (i) is wrong and (ii) is correct
+d) Both (i) and (ii) are wrong
+
+
+2. Assertion: Vegetables are
+important part of healthy
+eating.
+	
+Reason: Vegetables are
+succulent
+structures
+of plants with pleasant
+aroma and flavours.
+
+a) Assertion is correct, Reason is wrong
+b) Assertion is wrong, Reason is correct
+c) Both are correct and reason is the correct
+explanation for assertion.
+d) Both are correct and reason is not the
+correct explanation for assertion.
+
+3. Groundnut is native of _____________
+a) Philippines
+b) India
+c) North America
+d) Brazil
+
+4. Statement A: Coffee contains caffeine
+Statement B: Drinking coffee enhances cancer
+a) A is correct, B is wrong
+b) A and B – Both are correct
+c) A is wrong, B is correct
+d) A and B – Both are wrong
+
+
+5. Tectona grandis is coming under family
+a) Lamiaceae
+b) Fabaceae
+c) Dipterocaipaceae 
+e) Ebenaceae
+
+6. Tamarindus indica is indigenous to
+a) Tropical African region
+b) South India, Sri Lanka
+c) South America, Greece
+d) India alone
+
+
+7. New world species of cotton
+a) Gossipium arboretum
+b) G.herbaceum
+c) Both a and b
+d) G.barbadense
+
+8.	Assertion: Turmeric fights various kinds
+of cancer
+
+Reason: Curcumin is an anti-oxidant
+present in turmeric
+
+a) Assertion is correct, Reason is wrong
+b) Assertion is wrong, Reason is correct
+c) Both are correct
+d) Both are wrong
+
+9. Find out the correctly matched pair.
+a) Rubber   Shorea robusta
+b) Dye L    awsonia inermis
+c) Timber   Cyperus papyrus
+d) Pulp     Hevea brasiliensis
+
+10.	Observe the following statements and pick
+out the right option from the following:
+	Statement I – Perfumes are manufactured
+from essential oils.
+	Statement II – Essential oils are formed at
+    different parts of the plants.
+a) Statement I is correct
+b) Statement II is correct
+c) Both statements are correct
+d) Both statements are wrong
+
+
+11. Observe the following statements and pick
+out the right option from the following:
+* Statement I: The drug sources of Siddha
+include plants, animal parts, ores and
+minerals.
+	
+* Statement II: Minerals are used for
+preparing drugs with long shelf-life.
+
+a) Statement I is correct
+b) Statement II is correct
+c) Both statements are correct
+d) Both statements are wrong
+
+
+12.	 The active principle trans-tetra hydro canabial is present in
+
+a) Opium
+b) Curcuma
+c) Marijuana
+d) Andrographis
+
+
+13.	 Which one of the following matches is correct?
+a) Palmyra
+- Native of Brazil
+b) Saccharun - Abundant in Kanyakumari
+c) Steveocide - Natural sweetener
+d) Palmyra sap - Fermented to give ethanol
+
+14. The only cereal that has originated and domesticated from the New world.
+
+a) Oryza sativa
+b)Triticum asetumn
+c) Triticum duram 
+d) Zea mays
+
+15. Write the cosmetic uses of Aloe.
+
+16. What is pseudo cereal? Give an example.
+
+17. Discuss which wood is better for making furniture.
+
+18. A person got irritation while applying chemical dye. What would be your suggestion for alternative?
+
+19. Name the humors that are responsible for the health of human beings.
+
+20. Give definitions for organic farming?
+
+21. Which is called as the “King of Bitters”? Mention their medicinal importance.
+
+22. Differentiate bio-medicines and botanical medicines.
+
+23. Write the origin and area of cultivation of green gram and red gram.
+
+24. What are millets? What are its types? Give example for each type.
+
+25. If a person drinks a cup of coffee daily it will help him for his health. Is this correct? If it is correct, list out the benefits.
+
+
+26. Enumerate the uses of turmeric.
+
+27. What is TSM? How does it classified and what does it focuses on?
+
+28. Write the uses of nuts you have studied.
+
+29. Give an account on the role of Jasminum in perfuming.
+
+30. Give an account of active principle and medicinal values of any two plants you have studied.
+
+31. Write the economic importance of rice.
+
+32. Which TSM is widely practiced and culturally accepted in Tamil Nadu? - explain.
+
+33. What are psychoactive drugs? Add a note Marijuana and Opium
+
+34. What are the King and Queen of spices? Explain about them and their uses.
+
+35. How will you prepare an organic pesticide
+for your home garden with the vegetables
+available from your kitchen?
+
+### Glossary
+
+**Alzheimer’s disease:** A type of dementia that
+causes problems with memory, thinking and
+behavior
+
+
+**Antiperspirant:** Products whose primary
+function is to inhibit perspiration / sweat
+
+**Anti-inflammatory:** the property of a substance
+or treatment that reduces swelling.
+
+**Antioxidant:** A substance that scavenges free
+radicals.
+
+**Carminative:** A drug causing expulsion of gas
+from the stomach or bowel.
+
+**Cirrhosis:** A chronic liver disease typically
+caused by alcoholism or hepatitis.
+
+**Confectionary:** a place where confections/
+sweets are kept or made
+
+**Cosmetics:** substances or products used foe
+personal grooming.
+
+**Diuretic:** Substance that promote productionor nutrients
+Ethnobiology: Ethnobiology is the study of
+relationships between peoples and plants.Odour: Smell (pleasant or unpleasant).
+
+**Fixative:** A substance used to reduce the
+evaporation rate and improve stability when
+added to more volatile components.
+
+**Lubricant:** Oily substance reduces friction.
+
+**Malnutrition:** Deficiencies, excesses or
+imbalances in a person’s intake of energy and / or nutrients
+
+**Odour:** Smell (pleasant or unpleasant).
+
+**Perfumery:** The art or process of making
+perfume
+
+**Pharmacopoeia:** Is a book containing directions
+for the identification of compound medicines,
+and published by the authority of a government
+or a medical or pharmaceutical society.
+
+**Seasoning:** The processing of food with spices
+and condiments to enhance the flavour.
+
+
+![](/books/12-biology/botany/unit10/pic22.png)
