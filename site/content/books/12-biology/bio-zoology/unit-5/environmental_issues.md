@@ -775,3 +775,387 @@ normal process. Degradation or breakdown is
 an essential part of any food chain and hence all
 naturally occurring substances are degradable.
 
+
+
+![](/books/12-biology/zoology1/pic63.png)
+
+#### Biomagnification of DDT
+
+When non-degradable substances enter the food
+chain, they do not get metabolized or broken
+down or expelled and instead get transferred up
+the tropic levels of the food chain. During this
+process, they show an increase in concentration
+which is referred to as **biomagnification.** This
+results in increased toxicity and may even be
+lethal. This phenomenon is well established
+for mercury and DDT. **Fig 12.4** schematically
+shows biomagnification of DDT in an aquatic
+food chain where the concentration of DDT is
+enhanced at successive trophic levels.
+
+#### 12.7 Eutrophication
+
+When run-off from land
+containing nutrients reaches
+water bodies like lakes, it
+results in dense growth of
+plant life. This phenomenon
+is called **Eutrophication.** Natural aging of
+lakes also leads to nutrient enrichment of its
+water. In a lake, the water is cold and clear
+(oligotrophic stage), supporting little life. With
+time, streams draining into the lake introduce
+nutrients such as nitrates and phosphates, which
+encourage the growth of aquatic organisms.
+Aquatic plants and animal life grow rapidly, and
+organic remains begin to be deposited on the
+lake bottom **(mesotrophic stage) (Fig. 12.5).**
+Pollutants from anthropogenic activities
+like effluents from the industries and homes
+can radically accelerate the aging process.
+This phenomenon is known as Cultural or
+**Accelerated Eutrophication.**
+
+Nutrients stimulate the growth of algae, water
+hyacinth and can cause clogging of canals, rivers
+and lakes as well as, displacing native plants. It
+causes unsightly foam and unpleasant odours,
+and deprives the water of dissolved oxygen.
+
+#### 12.7.1 Integrated Wastewater Management
+
+Wastewater Treatment
+Wastewater or sewage originates from
+domestic waste waters, industrial wastes and
+animal wastes. Realizing the importance of
+clean potable water, the Government passed the
+Water (Prevention and Control of Pollution)
+Act in 1974, which made it mandatory to treat
+wastewater in treatment plants. The main
+objective of a wastewater treatment process is
+to reduce organic and inorganic components in
+wastewater to a level that it no longer supports
+microbial growth and to eliminate other
+potentially toxic materials. Microorganisms
+mainly bacteria and some protozoa play an
+essential part in the treatment of sewage to
+make it harmless. Sewage contains pathogenic
+bacteria. These bacteria must be destroyed in
+order to prevent the spread of diseases. Sewage
+treatment is usually performed in the following
+three stages (Fig. 12.6).
+
+
+![](/books/12-biology/zoology1/pic64.png)
+
+
+![](/books/12-biology/zoology1/pic65.png)
+
+### Primary treatment
+
+Primary treatment involves the physical
+removal of solid and particulate organic and
+inorganic materials from the sewage through
+filtration and sedimentation. Floating debris
+is removed by sequential filtration. Then the
+grit (soil and small pebbles) are removed by
+sedimentation. All solids that settle form the
+primary sludge and the supernatant forms the
+effluent. The effluent from the primary settling
+tank is taken for secondary treatment.
+Secondary treatment or biological
+treatment
+
+The primary effluent is passed into large
+aeration tanks where it is constantly agitated
+mechanically and air is pumped into it. This
+allows vigorous growth of useful aerobic
+microbes into floc (masses of bacteria
+associated with fungal filaments to form mesh
+like structures). While growing, these microbes
+consume the major part of the organic matter in
+the effluent. This significantly reduces the BOD
+(Biochemical oxygen demand or Biological
+oxygen demand). BOD refers to the amount
+of the oxygen that would be consumed, if all
+the organic matter in one litre of water were
+oxidized by bacteria. The sewage water is treated
+till the BOD is reduced. The greater the BOD of
+the waste water more is its polluting potential.
+Once the BOD of sewage water is reduced
+significantly, the effluent is then passed into
+a settling tank where the bacterial “flocs” are
+allowed to sediment. This sediment is called
+activated sludge. A small part of activated
+sludge is pumped back into the aeration tank
+to serve as the inoculum. The remaining major
+part of the sludge is pumped into large tanks
+called anaerobic sludge digesters. Here, the
+bacteria which grow anaerobically, digest the
+bacteria and the fungi in the sludge. During this
+digestion, bacteria produce a mixture of gases
+such as methane, hydrogen sulphide and CO2.
+These gases form biogas and can be used as a
+source of energy.
+
+#### Tertiary treatment
+
+Tertiary treatment is the final process
+that improves the quality of the waste water
+before it is reused, recycled or released into
+natural water bodies. This treatment removes
+the remaining inorganic compounds and
+substances, such as nitrogen and phosphorus.
+UV is an ideal disinfectant for wastewater since
+it does not alter the water quality – except for
+inactivating microorganisms. UV is a chemical-
+free process that can completely replace
+the existing chlorination system and also
+
+![](/books/12-biology/zoology1/pic66.png)
+
+inactivates chlorine-resistant microorganisms
+like Cryptosporidium and Giardia.
+Case Study: Auroville, located in South India
+near Puducherry has been experimenting
+with natural wastewater recycling systems
+(Decentralized Waste Water Treatment System
+(DEWATS)) (Fig.12.7a). Such treatment
+plants have now also been implemented in
+Aravind Eye Hospital, Puducherry (Root
+Zone Wastewater Treatment (RZWT))
+(Fig.12.7 b) and the Chennai Mathematical
+Institute, Siruseri IT Park, Chennai.
+
+
+#### 12.8 Organic Farming and Its Implementation
+
+It is a method of farming system which
+primarily aims at cultivating the land and raising
+crops in such a way, so as to keep the soil alive
+and in good health by use of organic wastes
+(crop, animal and farm wastes, aquatic wastes)
+and other biological materials along with
+beneficial microbes (biofertilizers) to release
+nutrients to crops for increased sustainable
+production in an eco-friendly pollution free
+environment.
+
+#### 12.9 Solid Waste Management
+
+Every day, tonnes of solid wastes are disposed
+off at landfill sites. This waste comes from
+homes, offices, industries and various other
+agricultural related activities. These landfill
+sites produce foul smell if waste is not stored
+and treated properly. When hazardous
+wastes like pesticides, batteries containing
+lead, cadmium, mercury or zinc, cleaning
+
+![](/books/12-biology/zoology1/pic67.png)
+
+solvents, radioactive materials, e-waste
+and plastics are mixed up with paper and
+other scraps and burnt, they produce gases
+such as dioxins. These gases are toxic and
+carcinogenic. These pollute the surrounding
+
+
+![](/books/12-biology/zoology1/pic68.png)
+
+
+![](/books/12-biology/zoology1/pic69.png)
+
+air, ground water and can seriously affect
+the health of humans, wildlife and our
+environment (Table 12.1).
+
+Solid Waste management includes the
+activities and actions required to manage waste
+from its inception to its final disposal. This
+includes the collection, transport, treatment and
+disposal of waste, together with monitoring and
+regulation of the waste management process. It
+is all about how solid waste can be changed and
+used as a valuable resource.
+Case Study: The Corporation of Chennai
+looks after clearance and management of solid
+waste in Chennai. Every day around 5400
+Metric Tonnes (MT) of garbage is collected
+from the city. Door to door collection of garbage
+is done in most zones apart from sweeping,
+collecting, and storing the waste in the specified
+bins. At present garbage generated in Chennai
+is dumped at two sites. Proposals are there for
+remediation of the existing landfill or scientific
+closure and to have integrated waste processing
+facilities with waste to energy plants as one of
+the components at the existing Kodungaiyur
+and Perungudi sites.
+
+
+### 12.9.1 Waste management practices
+
+a) Source segregation
+b) Composting
+1. Aerobic 2. Anaerobic
+c) Vermicomposting
+d) Biogas generation
+e) Incineration
+
+### 12.9.2 Radioactive waste
+
+Radioactive wastes are generated during
+various operations of the nuclear power plant.
+Radioactive waste can be in gas, liquid or solid
+form, and its level of radioactivity can vary. The
+waste can remain radioactive for a few hours or
+several months or even hundreds of thousands
+of years. Depending on the level and nature of
+radioactivity, radioactive wastes can be classified
+as exempt waste, Low and Intermediate level
+waste and High Level Waste.
+
+#### Radioactive waste management
+
+Radioactive waste management involves
+the treatment, storage, and disposal of liquid,
+airborne, and solid effluents from the nuclear
+industry.
+
+![](/books/12-biology/zoology1/pic70.png)
+
+#### Methods of disposal of radioactive wastes are
+
+**1. Limit generation**- Limiting the generation
+of waste is the first and most important
+consideration in managing radioactive wastes.
+
+**2. Dilute and disperse** - For wastes having
+low radioactivity, dilution and dispersion
+are adopted.
+
+**3. Delay and decay** - Delay and decay is
+frequently an important strategy because
+much of the radioactivity in nuclear reactors
+and accelerators is very short lived.
+
+**4. Concentrate and confine process** -
+
+Concentrating and containing is the
+objective of treatment activities for longer-
+lived radioactivity. The waste is contained
+in corrosion resistant containers and
+transported to disposal sites. Leaching of
+heavy metals and radionuclides from these
+sites is a problem of growing concern.
+
+#### Control and Management
+
+Three ways are employed to manage nuclear
+wastes
+**• Spent Fuel Pools** - The spent fuel discharged
+from the reactors is temporarily stored in
+the reactor pool. The Spent fuel rods are
+used in stored cooling ponds. They protect
+the surroundings from radiation and absorb
+the heat generated during radioactive decay.
+
+**• Vitrification method** – This prevents
+reaction or degradation of nuclear waste for
+extended periods of time and encased in dry
+cement caskets.
+
+**• Geological Repositories**- A deep geological
+repository is a nuclear waste repository
+excavated deep within a stable geologic
+environment. It is suited to provide a high
+level of long-term isolation and containment
+without future maintenance. In India at
+Tarapur and Kalpakkam, a wet storage
+facility of Spent Fuel is the main mode of
+storage.
+
+
+#### 12.9.3 Medical waste
+
+Any kind of waste that contains infectious
+material generated by hospitals, laboratories,
+medical research centers, Pharmaceutical
+companies and Veterinary clinics are called
+medical wastes.
+
+Medical wastes contain body fluids like blood,
+urine, body parts and other contaminants,
+culture dishes, glasswares, bandages, gloves,
+discarded needles, scalpels, swabs and tissues.
+
+**Management:** The safe and sustainable
+management of biomedical waste is the social
+and legal responsibilities of people working in
+healthcare centers.
+
+
+**Waste disposal:** Involved by incineration,
+chemical disinfection, autoclaving, encapsulation,
+microwave irradiation are methods of waste
+disposals. Final disposal includes landfill and
+burying as per norms inside premises.
+
+#### 12.9.4 E-Waste
+Electronic waste or e-waste describes
+discarded electrical electronic devices as well
+as any refuse created by discarded electronic
+devices and components and substances
+involved in their manufacture or use. Their
+disposal is a growing problem because electronic
+equipment frequently contains hazardous
+substances. In a personal computer, for example,
+there may be lead (Pb) in the cathode ray tube
+(CRT) and soldering compound, mercury
+(Hg) in switches and housing, and cobalt (Co)
+in steel components, among other equally
+toxic substances. E-wastes are basically PCB
+(Polychlorinated biphenyl) based, which are
+non-degradable **(Fig.12.8).**
+
+![](/books/12-biology/zoology1/pic71.png)
+
+Used electronics which are destined for
+reuse, resale, salvage, recycling, or disposal
+are also considered e-waste. Unauthorised
+processing of e-waste in developing countries
+can lead to adverse human health effects and
+environmental pollution.
+Recycling and disposal of e-waste may
+involve significant risk to the health of workers
+and communities in developed countries
+and great care must be taken to avoid unsafe
+exposure in recycling operations and leaking
+of materials such as heavy metals from landfills
+and incinerator ashes.
+
+#### 12.9.5 Plastic Waste – Solutions and Remedies
+
+
+Plastics are low molecular weight organic
+polymers that are non-degradable in the natural
+environment. They are used in several items,
+including cars, bulletproof vests, toys, hospital
+equipment, carry bags and food containers.
+Packaging materials used in supermarkets, retail
+outlets, manufacturing industries, households,
+hotels, hospitals, restaurants and transport
+companies are major contributors to plastic
+waste generation. Plastic waste constitutes a
+major part of municipal solid waste.
+
+
+* Remedies: ‘4R’- Refuse, Reduce, Reuse
+and Recycle mantra is the best available
+remedy for plastic waste pollution.
+
+* Tamil Nadu State government successfully
+implemented the ban on single use
+plastics from 1st January 2019.
