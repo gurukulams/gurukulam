@@ -375,5 +375,83 @@ trophic levels is equal to the number of steps
 in the food chain. The green plants (producers)
 occupying the first trophic level (T 1 ) are
 called **producers**. The energy produced by
+the producers is utilized by the plant eaters
+(herbivores) they are called primary consumers
+and occupy the second trophic level (T2)
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/3.9.png )
+
+
+Herbivores are eaten by carnivores, which occupy
+the third trophic level (T 3). They are also called
+**secondary consumers or primary carnivores**.
+Carnivores are eaten by the other carnivores,
+which occupy the fourth trophic level (T4 ). They
+are called the **tertiary consumers or secondary**
+**carnivores**. Some organisms which eat both
+plants and animals are called as **omnivores**
+(Crow). Such organisms may occupy more than
+one trophic level in the food chain.
+
+
+
+
+##### 7.2.4 Energy flow
+
+
+
+The transfer of energy in an ecosystem between
+trophic levels can be termed as energy flow. It
+is the key function in an ecosystem. Part of the
+energy obtained from the sun by producers is
+transferred to consumers and decomposers
+through each trophic level, while some
+amount of energy is dissipated in the form of
+heat. Energy flow is always unidirectional in
+an ecosystem.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/4.9.png )
+
+
+
+
+##### Laws of thermodynamics
+
+
+The storage and loss of energy in an ecosystem
+is based on two basic laws of thermo-dynamics.
+
+
+
+
+**i. First law of** **thermodynamics**
+
+
+
+It states that energy can be transmitted from
+one system to another in various forms. Energy
+cannot be destroyed or created. But it can be
+transformed from one form to another. As
+a result, the quantity of energy present in the
+universe is constant.
+
+
+
+**Example:**
+
+
+
+In photosynthesis, the product of starch
+(chemical energy) is formed by the combination
+of reactants (chlorophyll, H 2 O, CO 2). The
+energy stored in starch is acquired from the
+external sources (light energy) and so there is
+no gain or loss in total energy. Here light energy
+is converted into chemical energy.
+
+
 
 
