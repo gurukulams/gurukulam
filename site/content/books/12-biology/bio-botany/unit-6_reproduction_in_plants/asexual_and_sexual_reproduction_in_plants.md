@@ -14,31 +14,31 @@ The learner will be able to
 
 
 
-Recall various types of reproduction in
+* Recall various types of reproduction in
 lower and higher organisms.
 
 
- Discuss different methods of vegetative
+* Discuss different methods of vegetative
 reproduction in plants.
 
 
- Recognise modern methods of
+* Recognise modern methods of
 reproduction.
 
 
- Recall the parts of a flower.
+* Recall the parts of a flower.
  Recognise the structure of mature
 anther.
 
 
- Describe the structure and types of
+* Describe the structure and types of
 ovules.
 
 
- Discuss the structure of embryo sac.
+* Discuss the structure of embryo sac.
 
  
- Recognise different types of pollination.
+*  Recognise different types of pollination.
  Identify the types of endosperms.
  Differentiate the structure of Dicot and
 Monocot seed.
@@ -110,21 +110,6 @@ organisms fall under **two major** categories
 ![lesson 1](/books/12-biology/bio-botany/images/1.png )
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **1.1 Asexual Reproduction**
 
 The reproduction method which helps
@@ -148,7 +133,6 @@ also reproduce asexually by different methods
 which are given below:
 
 ## 1.2 Vegetative reproduction
-
 
 ### 1.2.1 Natural methods
 
@@ -1935,13 +1919,7 @@ two **cotyledons** and a **plumule**.
 ![lesson 1](/books/12-biology/bio-botany/images/46.png )
 
 
-
-
-
 ##### Seed
-
-
-
 
 The fertilized ovule is called seed and possesses
 an embryo, endosperm and a protective coat.
@@ -1949,28 +1927,10 @@ Seeds may be endospermous (wheat, maize,
 barley and sunflower) or non endospermo.
 
 
-
-
-
-
 ![lesson 1](/books/12-biology/bio-botany/images/36.png )
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 **Cicer seed (example for Dicot seed)**
-
-
 The mature seeds are attached to the fruit
 wall by a stalk called **funiculus**. The funiculus
 disappears leaving a scar called **hilum**. Below
@@ -1994,16 +1954,7 @@ in pea whereas in other seeds like castor the
 
 
 
-
-
 ![lesson 1](/books/12-biology/bio-botany/images/38.png )
-
-
-
-
-
-
-
 
 
 
@@ -2298,29 +2249,18 @@ act of fertilization is called parthenocarpy.
 
 
 #### Evaluation
-1.Choose
-the
-correct
-statement
-from
-the
-following
 
+1.Choose the correct statement from the following
 
-      a) Gametes are involved in
-asexual reproduction
-reproduce
+a) Gametes are involved inasexual reproduction reproduce
 
+b) Bacteria sexually by budding
 
-      b) Bacteria
-asexually by budding
-
-
-     c) Conidia formation is a method of
+c) Conidia formation is a method of
 sexual reproduction
 
 
-      d) Yeast reproduce by budding
+d) Yeast reproduce by budding
 
 
 
@@ -2479,67 +2419,42 @@ micropyle
 
 
 
-10.	Assertion :	Sporopollenin preserves
-pollen in fossil deposits
+10.	Assertion :	Sporopollenin preserves pollen in fossil deposits
 
 
-Reason :Sporopollenin is resistant
-to physical and biological
-decomposition
+Reason :Sporopollenin is resistant to physical and biological decomposition
 
-
-    a) assertion is true; reason is false
-
+     a) assertion is true; reason is false
 
      b) assertion is false; reason is true
 
-
-
      c) Both Assertion and reason are not true
 
-
-
      d) Both Assertion and reason are true.
-
-
 
 
 11.	Choose the correct statement(s) about
 tenuinucellate ovule
 
-
-
      a) Sporogenous cell is hypodermal
-
 
      b) Ovules have fairly large nucellus
 
-
      c) sporogenous cell is epidermal
 
-
-
      d) ovules have single layer of nucellus tissue
-
-
 
 
 12.	Which of the following represent
 megagametophyte   
 
-
-
      a) Ovule
-     
      
      b)Embryo sac
 
-
-
      c)Nucellus
      
-     
-      d)Endosperm
+     d)Endosperm
 
 
 

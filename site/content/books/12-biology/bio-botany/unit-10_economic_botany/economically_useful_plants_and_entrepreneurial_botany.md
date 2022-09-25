@@ -1785,4 +1785,4 @@ or a medical or pharmaceutical society.
 and condiments to enhance the flavour.
 
 
-![](/books/12-biology/botany/unit10/pic22.png)
+![](/books/12-biology/botany/unit10/pic23.png)
