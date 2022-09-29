@@ -787,3 +787,640 @@ It occurs in the following steps.
 ![lesson 9](/books/12-biology/bio-botany/images/13.9.png )
 
 
+
+
+**a. Fragmentation** -
+
+
+ The breaking down
+of detritus into smaller particles by
+detritivores like bacteria, fungi and earth
+worm is known as **fragmentation**. These
+detritivores secrete certain substances
+to enhance the fragmentation process
+and increase the surface area of detritus
+particles.
+
+
+**b. Catabolism** - The decomposers produce
+some extracellular enzymes in their
+surroundings to break down complex
+organic and inorganic compounds in to
+simpler ones. This is called **catabolism**
+
+
+
+**c. Leaching or Eluviation** - The movement
+of decomposed, water soluble organic and
+inorganic compounds from the surface to
+the lower layer of soil or the carrying away
+of the same by water is called **leaching** or
+**eluviation**.
+
+
+
+**d. Humification** - It is a process by which
+simplified detritus is changed into dark
+coloured amorphous substance called
+**humus**. It is highly resistant to microbial
+action, therefore decomposition is very
+slow. It is the reservoir of nutrients.
+
+
+
+
+**e. Mineralisation** - Some microbes are
+involved in the release of inorganic
+nutrients from the humus of the soil, such
+process is called **mineralisation**.
+
+
+
+##### Factors affecting decomposition
+
+
+
+
+
+Decomposition is affected by climatic factors
+like temperature, soil moisture, soil pH ,oxygen
+and also the chemical quality of detritus.
+
+
+
+
+###### 7.2.9 Biogeochemical cycles (Nutrient
+cycles)
+
+
+
+Exchange of nutrients between organisms and
+their environment is one of the essential aspects
+of an ecosystem. All organisms require nutrients
+for their growth, development, maintenance
+and reproduction. Circulation of nutrients
+within the ecosystem or biosphere is known as
+**biogeochemical** **cycles** and also called as ‘cycling
+of materials.’ There are two basic types,
+
+
+
+
+1. **Gaseous cycle** – It includes atmospheric
+Oxygen, Carbon and Nitrogen cycles.
+
+
+
+2. **Sedimentary cycle** – It includes the cycles
+of Phosphorus, Sulphur and Calcium -
+Which are present as sediments of earth.Many of the cycles mentioned above are studied
+by you in previous classes. Therefore, in this
+chapter, only the carbon and phosphorous
+cycles are explained.
+
+
+
+
+##### Carbon cycle
+
+
+
+The circulation of carbon between organisms
+and environment is known as the **carbon**
+**cycle**. Carbon is an inevitable part of all
+biomolecules and is substantially
+impacted by the change in global
+climate. Cycling of carbon between
+organisms and atmosphere is a
+consequence of two reciprocal
+processes of photosynthesis and
+respiration. The releasing of
+carbon in the atmosphere increases
+due to burning of fossile fuels,
+deforestration, forest fire, volcanic
+eruption and decomposition of
+dead organic matters. The details of
+carbon cycle are given in the figure.
+
+![lesson 9](/books/12-biology/bio-botany/images/14.9.png )
+
+
+
+##### Phosphorus cycle
+
+
+
+It is a type of sedimentary cycle. Already
+we know that phosphorus is found in the
+biomolecules like DNA, RNA, ATP, NADP and
+phospholipid molecules of living organisms.
+Phosphorus is not abundant in the biosphere,
+whereas a bulk quantity of phosphorus is present
+in rock deposits, marine sediments and guano.
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/15.9.png )
+
+
+It is released from these deposits by weathering
+process. After that, it circulates in lithosphere
+as well as hydrosphere. The producers absorb
+phosphorus in the form of phosphate ions,
+and then it is transferred to each trophic level
+of food chain through food. Again death of
+the organisms and degradation by the action
+of decomposers, the phosphorus is released
+back into the lithosphere and hydrosphere to
+maintain phosphorus cycle.
+
+
+
+##### 7.2.10 Types of ecosystem
+
+
+
+Biosphere consists of different types of
+ecosystems, which are as follows
+
+![lesson 9](/books/12-biology/bio-botany/images/17.9.png )
+
+
+Though there are many types of ecosystems
+as charted above. Only the pond ecosystem is
+detailed below.
+
+
+
+##### Structure of Pond ecosystem
+
+
+It is a classical example for natural, aquatic,
+freshwater, lentic type of ecosystem. It helps
+us to understand the structure and function
+of an ecosystem. When rain water gathers in a
+shallow area, gradually over a period of time,
+different kinds of organisms (microbes, plants,
+animals) become part of this ecosystem. This
+pond ecosystem is a self sustaining and self
+regulatory fresh water ecosystem, which shows
+a complex interaction between the abiotic and
+biotic components in it.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/18.9.png )
+
+
+![lesson 9](/books/12-biology/bio-botany/images/19.9.png )
+
+
+**Abiotic components**
+
+
+A pond ecosystem consists of dissolved
+inorganic (CO2 , O2, Ca, N, Phosphate) and
+organic substances (amino acids and humic
+acid) formed from the dead organic matter. The
+function of pond ecosystem is regulated by few
+factors like the amount of light, temperature,
+pH value of water and other climatic conditions.
+
+
+
+
+**Biotic components**
+
+
+They constitute the producers, variety of
+consumers and decomposers (microorganisms).
+
+
+**a. Producers**
+
+
+A variety of phytoplanktons like *Oscillatoria*,
+*Anabaena, Chlamydomonas, Pandorina*,
+*Eudorina, Volvox and Diatoms*. Filamentous
+algae such as *Ulothrix*, *Spirogyra*, *Cladophora*
+and *Oedogonium*; floating plants *Azolla*,
+*Salvia, Pistia*, *Wolffia and Eichhornia*; sub-
+merged plants *Potamogeton and Phragmitis;*
+rooted floating plants *Nymphaea* and *Nelumbo*;
+macrophytes like *Typha* and *Ipomoea*, constitute
+the major producers of a pond ecosystem.
+
+
+
+
+**b. Consumers**
+
+
+
+The animals represent the consumers of a
+pond ecosystem which include zooplanktons
+like Paramoecium and Daphnia (primary
+consumers); benthos (bottom living animals)
+like mollusces and annelids; secondary
+consumers like water beetles and frogs; and
+tertiary consumers (carnivores) like duck ,
+crane and some top carnivores which include
+large fish, hawk ,man, etc.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/20.9.png )
+
+
+##### c. Decomposers
+
+
+They are also called as microconsumers.
+They help to recycle the nutrients in the
+ecosystem. These are present in mud water and
+bottom of the ponds. Example: Bacteria and
+Fungi. Decomposers perform the process of
+decomposition in order to enrich the nutrients
+in the pond ecosystem.
+
+
+
+The cycling of nutrients between abiotic and
+biotic components is evident in the pond
+ecosystem, making itself self sufficient and self
+regulating.
+
+![lesson 9](/books/12-biology/bio-botany/images/21.9.png )
+
+
+##### Stratification of pond ecosystem
+
+
+![lesson 9](/books/12-biology/bio-botany/images/22.9.png )
+
+
+Based on the factors like distance from the
+shore, penetration of light, depth of water,
+types of plants and animals, there may be three
+zones, littoral, limnetic and profundal. The
+littoral zone, which is closest to the shore with
+shallow water region, allows easy penetration of
+light. It is warm and occupied by rooted plant
+species. The limnetic zone refers the open water
+of the pond with an effective penetration of
+light and domination of planktons. The deeper
+region of a pond below the limnetic zone is
+called profundal zone with no effective light
+penetration and predominance of heterotrophs.
+The bottom zone of a pond is termed benthic
+and is occupied by a community of organisms
+called benthos (usually decomposers).The
+primary productivity through photosynthesis of
+littoral and limnetic zone is more due to greater
+penetration of light than the profundal zone
+
+
+
+##### 7.2.11 Ecosystem services ( Benefits)
+
+
+Ecosystem services are defined as the benefits
+that people derive from nature. Robert
+Constanza et al (1927) stated “Ecosystem
+services are the benefits provided to human,
+through the transformation of resources (or
+Environmental assets including land, water,
+vegetation and atmosphere) into a flow of
+essential goods and services”.
+
+
+
+Study on ecosystem services acts as an
+effective tool for gaining knowledge on
+ecosystem benefits and their sustained use.
+Without such knowledge gain, the fate of any
+ecosystem will be at stake and the benefits they
+provide to us in future will become bleak.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/23.9.png )
+
+
+![lesson 9](/books/12-biology/bio-botany/images/24.9.png )
+
+
+
+
+**How do anthropogenic activities affect**
+**ecosystem services?**
+
+
+Now, we all exploit the ecosystem more than
+that of our needs. The **Millennium** **Ecosystem**
+**Assessment** (**2005**) found that “over the past 50
+years, humans have changed the ecosystem more
+rapidly and extensively than in any comparable
+period of time in human history, largely to meet
+rapidly growing demands for food, fresh water,
+medicine, timber, fiber and fuel.”
+
+
+
+
+
+The varieties of benefits obtained from the ecosystem are generally categorized into the following four types
+
+
+![lesson 9](/books/12-biology/bio-botany/images/25.9.png )
+
+
+
+
+Generally the following human activities
+disturb or re-engineer an ecosystem every day.
+
+
+• Habitat destruction
+
+
+• Deforestation and over grazing
+
+
+• Erosion of soils
+
+
+• Introduction of non-native species
+
+
+• Over harvesting of plant material
+
+
+
+• Pollution of land, water and air
+
+
+
+• Run off pesticides, fertilizers and animal
+wastes
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/26.9.png )
+
+
+##### How to protect the ecosystem?
+
+
+It is a practice of protecting ecosystem at
+individual, organisational and governmental
+levels for the benefits of both nature and humans.
+Threats to ecosystems are many, like adverse
+human activities, global warming, pollution, etc.
+Hence, if we change our everyday life style, we
+can help to protect the planet and its ecosystem.
+
+
+
+**“If we fail to protect environment, we will fail to save posterity”**.
+
+
+Therefore, we have to practice the following
+in our day today life:
+
+
+• Buy and use only ecofriendly products and
+recycle them.
+
+
+• Grow more trees
+
+
+• Choose sustained farm products
+(vegetables, fruits, greens, etc.)
+
+
+• Reduce the use of natural resources.
+
+• Recycle the waste and reduce the amount
+of waste you produce.
+
+
+
+• Reduce consumption of water and
+electricity.
+
+
+• Reduce or eliminate the use of house-hold
+chemicals and pesticides.
+
+
+
+• Maintain your cars and vehicles properly.
+(In order to reduce carbon emission)
+
+
+• Create awareness and educate about
+ecosystem protection among your friends
+and family members.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/27.9.png )
+
+
+##### 7.2.12 Ecosystem Management
+
+
+It is a process that integrates ecological, socio
+economic and institutional factors into a
+comprehensive strategy in order to sustain
+and enhance the quality of the ecosystem to
+meet current and future needs.
+
+
+Ecosystem management emphasis on
+human role in judicious use of ecosystem and for sustained benefits through minimal
+human impacts on ecosystems. Environmental
+degradation and biodiversity loss will result
+in depletion of natural resources, ultimately
+affecting the existence of human.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/28.9.png )
+
+
+
+
+**Strategy of ecosystem management**
+
+
+• It is used to maintain
+biodiversity of ecosystems.
+
+
+• It helps in indicating
+the damaged ecosystem
+(Some species indicate the
+health of the ecosystem:
+such species are called a
+flagship species).
+
+
+
+• It is used to recognize the inevitability of
+ecosystem change and plan accordingly.
+
+
+• It is one of the tools used for achieving
+sustainability of ecosystem through
+sustainable development programme (or
+projects).
+
+
+
+• It is also helpful in identifying ecosystems
+which are in need of rehabilitation.
+
+
+
+• It involves collaborative management with
+government agencies, local population,
+communities and NGO’s.
+
+
+
+• It is used to build the capacity of local
+institutions and community groups to assume
+responsibility for long term implementation
+of ecosystem management activities even
+after the completion of the project.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/29.9.png )
+
+**Adayar Poonga**
+
+
+##### 7.3 Plant Succession
+
+
+
+
+We very often see that forests and lands in our
+areas are drastically affected by natural calamities
+(Flood, earthquake) and anthropogenic
+activities (Fire, over grazing, cutting of trees).
+Due to these reasons all plants of an area are
+destroyed and the areas become nude. When we
+observe this area, over a period of a time we can see that it will be gradually covered by
+plant community again and become
+fertile. Such successive replacement
+of one type of plant community by
+the other of the same area/ place is
+known as plant **succession**. The first
+invaded plants in a barren area are
+called **pioneers**. On the other hand,
+a series of transitional developments
+of plant communities one after
+another in a given area are called **seral**
+**communities**. At the end a final stage and a
+final plant community gets established which
+are called as climax and climax community
+respectively.
+
+
+
+
+
+
+##### 7.3.1 Characteristics of ecological succession
+
+
+• It is a systematic process which causes changes
+in specific structure of plant community.
+
+
+• It is resultant of changes of abiotic and
+biotic factors.
+
+
+• It transforms unstable community into a
+stable community.
+
+
+• Gradual progression in species diversity,
+total biomass, niche specialisation, and
+humus content of soil takes place.
+
+
+• It progresses from simple food chain to
+complex food web.
+
+
+• It modifies the lower and simple life form
+to the higher life forms.
+
+
+• It creates inter-dependence of plants and
+animals.
+
+
+##### 7.3.2 Types of succession
+
+
+The various types of succession have been
+classified in different ways on the basis of
+different aspects. These are as follows:
+
+
+
+**1. Primary succession** - The development
+of plant community in a barren area where no
+community existed before is called primary
+succession. The plants which colonize first in a barren area is called **pioneer** **species** or
+**primary community** or **primary colonies**.
+Generally, Primary succession takes a very
+long time for the occurrence in any region.
+
+
+**Example**: Microbes, Lichen, Mosses.
+
+
+
+2. **Secondary succession**- The development of
+a plant community in an area where an already
+developed community has been destroyed by
+some natural disturbance (Fire, flood, human
+activity) is known as **secondary** **succession**.
+Generally, This succession takes less time than
+the time taken for primary succession.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/30.9.png )
+
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/31.9.png )
+
+
+
+**Example**: The forest destroyed by fire and
+excessive lumbering may be re-occupied by
+herbs over a period of times.
+
+
+**3. Allogenic succession**
+
+
+Allogeneic succession occurs as a result of abiotic factors. The replacement of existing
+community is caused by other external factors
+(soil erosion, leaching, etc.,) and not by existing
+organisms.
+
+
+Example: In a forest ecosystem soil erosion
+and leaching alter the nutrient value of the soil
+leading to the change of vegetation in that area.
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/32.9.png )
+
