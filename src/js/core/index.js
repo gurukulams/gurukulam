@@ -257,8 +257,10 @@ class Core {
         if (response !== undefined) {
           subjectUl = document.getElementById("subjectList");
           subjectUl.innerHTML = "";
-          response.forEach((item) => {
-            subjectUl.appendChild(this.createLiElementForSyllabus(item));
+          response.forEach((subject) => {
+            subjectUl.appendChild(
+              this.createLiElementForSyllabus(boardId, gradeId, subject)
+            );
           });
         } else {
           subjectUl = document.getElementById("subjectList");
@@ -267,12 +269,46 @@ class Core {
       });
   }
 
-  createLiElementForSyllabus(item) {
+  createLiElementForSyllabus(boardId, gradeId, subject) {
     let liEl = document.createElement("li");
-    liEl.dataset.id = item.id;
-    liEl.innerHTML = `<a class="nav-link" href="/books/${item.title.toLowerCase()}">${
-      item.title
-    }</a>`;
+    liEl.dataset.id = subject.id;
+    let path = "#";
+    liEl.innerHTML = `<a class="nav-link" href="/books/${path}">${subject.title}</a>`;
+    // Fetch Books under subject.id
+    // book[0].path as href
+    fetch(
+      "/api/boards/" +
+        boardId +
+        "/grades/" +
+        gradeId +
+        "/subjects/" +
+        subject.id +
+        "/books",
+      {
+        headers: {
+          "content-type": "application/json",
+          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+          "Accept-Language": this.locale,
+        },
+      }
+    )
+      .then((response) => {
+        if (response.status === 200) {
+          return response.json();
+        } else if (response.status === 204) {
+          return [];
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      })
+      .then((subjects) => {
+        if (subjects.length !== 0) {
+          path = subjects[0].path;
+          liEl.innerHTML = `<a class="nav-link" href="/books/${path}">${subject.title}</a>`;
+        }
+      });
+
     return liEl;
   }
 }
