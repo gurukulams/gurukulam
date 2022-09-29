@@ -454,4 +454,336 @@ is converted into chemical energy.
 
 
 
+![lesson 9](/books/12-biology/bio-botany/images/9.9.png )
+
+
+
+**ii. Second law of thermodynamics**
+
+
+It states that energy transformation results in the
+reduction of the free energy of the system. Usually
+energy transformation cannot be 100% efficient.
+As energy is transferred from one organism to
+another in the form of food, a portion of it is stored
+as energy in living tissue, whereas a large part of
+energy is dissipated as heat through respiration.
+The transfer of energy is irreversible natural
+process. Example: Ten percent law
+
+
+
+**Ten percent law**
+
+
+
+This law was proposed by Lindeman (1942). It
+states that during transfer of food energy from
+one trophic level to other, only about 10% stored
+at every level and rest of them (90%) is lost in
+respiration, decomposition and in the form of
+heat. Hence, the law is called **ten percent law**.
+
+
+
+**Example**: It is shown that of the 1000 Joules of
+Solar energy trapped by producers. 100 Joules
+of energy is stored as chemical energy through
+photosynthesis. The remaining 900 Joules would
+be lost in the environment. In the next trophic
+level herbivores, which feed on producers get
+only 10 Joules of energy and the remaining
+90 Joules is lost in the environment. Likewise,
+in the next trophic level, carnivores, which eat
+herbivores store only 1 Joule of energy and
+the remaining 9 Joules is dissipated. Finally,
+the carnivores are eaten by tertiary consumers
+which store only 0.1 Joule of energy and the
+remaining 0.9 Joule is lost in the environment.
+Thus, at the successive trophic level, only ten
+percent energy is stored
+
+
+![lesson 9](/books/12-biology/bio-botany/images/5.9.png )
+
+
+
+
+##### 7.2.5 Food chain
+
+
+
+The movement of energy from producers upto
+top carnivores is known as **food chain**, i.e., in
+any food chain, energy flows from producers
+to primary consumers, then from primary
+consumers to secondary consumers, and finally
+secondary consumers to tertiary consumers.
+Hence, it shows linear network links. Generally,
+there are two types of food chain, (1) Grazing
+food chain and (2) Detritus food chain.
+
+
+
+**1. Grazing food chain**
+
+
+Main source of energy for the grazing food
+chain is the **Sun**. It begins with the first link,
+producers (plants). The second link in the food
+chain is primary consumers (mouse) which
+get their food from producers. The third link
+in the food chain is secondary consumers
+(snake) which get their food from primary
+consumers. Fourth link in the food chain is tertiary consumers (eagle) which get their
+food from secondary consumers.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/6.9.png )
+
+
+**2. Detritus food chain:**
+
+
+
+This type of food chain begins with **dead organic**
+**matter** which is an important source of energy.
+A large amount of organic matter is derived from
+the dead plants, animals and their excreta. This
+type of food chain is present in all ecosystems.
+
+
+
+
+The transfer of energy from the dead organic
+matter, is transferred through a series of organisms
+called detritus consumers (detritivores)- small
+carnivores - large (top) carnivores with repeated
+eating and being eaten respectively. This is called
+the detritus food chain.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/7.9.png )
+
+
+
+##### 7.2.6 Food Web
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/8.9.png )
+
+
+
+The inter-locking pattern of a number of food
+chain form a web like arrangement called food **web**. It is the basic unit of an ecosystem, to
+maintain its stability in nature. Which is also
+called homeostasis.
+
+
+
+Example: In a grazing food chain of a grass
+land, in the absence of a rabbit, a mouse may
+also eat food grains. The mouse in turn may be
+eaten directly by a hawk or by a snake and the
+snake may be directly eaten by hawks.
+
+
+
+Hence, this interlocking pattern of food chains
+is the food web and the species of an ecosystem
+may remain balanced to each other by some
+sort of natural check.
+
+
+**Significance of food web**
+
+
+
+• Food web is constructed to describe species
+interaction called direct interaction
+
+
+
+• It can be used to illustrate indirect
+interactions among different species
+
+
+
+• It can be used to study bottom-up or top-
+down control of community structure.
+
+
+
+• It can be used to reveal different patterns
+of energy transfer in terrestrial and aquatic
+ecosystems.
+
+
+
+
+##### 7.2.7 Ecological pyramids
+
+
+
+Graphic representation of the trophic structure
+and function at successive trophic levels of an
+ecosystem is called **ecological** **pyramids**. The
+concept of ecological pyramids was introduced
+by **Charles** **Elton** (**1927**). Thus they are also
+called as **Eltonian** **pyramid**
+
+
+
+There are three types:
+
+ (1) pyramid of number
+(2) pyramid of biomass (3) pyramid of energy.
+
+
+
+**1. Pyramid of number**
+
+
+A graphical representation of the number of
+organisms present at each successive trophic
+level in an ecosystem is called **pyramids** **of**
+**number**. There are three different shapes of
+pyramids upright, spindle and inverted.
+
+
+
+There is a gradual decrease in the number of
+organisms in each trophic level from producers
+to primary consumers and then to secondary
+consumers, and finally to tertiary consumers.
+Therefore, pyramids of number in **grassland**
+and **pond** **ecosystem** are always **upright**.
+
+
+
+In a **forest** **ecosystem** the pyramid of number
+is somewhat different in shape, it is because the
+base (T 1 ) of the pyramid occupies large sized
+trees (Producer) which are lesser in number.
+Herbivores (T2 ) (Fruit eating birds, elephant,
+deer) occupying second trophic level, are more
+in number than the producers. In final trophic
+level (T 4 ), tertiary consumers (lion) are lesser in
+number than the secondary consumer (T3) (fox
+and snake). Therefore, the pyramid of number
+in forest ecosystem looks **spindle** **shaped**.
+
+
+
+The pyramid of number in a **parasite**
+**ecosystem** is always **inverted**, because it
+starts with a single tree. Therefore there is gradual increase in the number of organisms
+in successive tropic levels from producer to
+tertiary consumers.
+
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/10.9.png )
+
+
+
+
+
+**2 Pyramid of biomass**
+
+
+
+A graphical representation of the amount of
+organic material (biomass) present at each
+successive trophic level in an ecosystem is called
+**pyramid of biomass.**
+
+
+
+
+In **grassland** and **forest ecosystems**, there
+is a gradual decrease in biomass of organisms
+at successive trophic levels from producers to
+top carnivores (Tertiary consumer). Therefore,
+these two ecosystems show pyramids as **upright**
+pyramids of biomass.
+
+
+
+
+
+However, in **pond ecosystem**, the bottom of
+the pyramid is occupied by the producers, which
+comprise very small organisms possessing
+the least biomass and so, the value gradually
+increases towards the tip of the pyramid.
+Therefore, the pyramid of biomass is always
+**inverted** in shape.
+
+
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/11.9.png )
+
+
+
+**3. Pyramid of energy**
+
+
+
+A graphical representation of energy flow at
+each successive trophic level in an ecosystem
+is called **pyramid of energy**. The bottom of the
+pyramid of energy is occupied by the producers.
+There is a gradual decrease in energy transfer
+at successive tropic levels from producers to the
+upper levels. Therefore, the pyramid of energy is
+**always upright**.
+
+
+![lesson 9](/books/12-biology/bio-botany/images/12.9.png )
+
+
+
+
+##### 7.2.8 Decomposition:
+
+
+
+Decomposition is a process in which the detritus
+(dead plants, animals and their excreta) are
+breaken down in to simple organic matter by the
+decomposers. It is an essential process for recycling
+and balancing the nutrient pool in an ecosystem.
+
+
+
+##### Nature of decomposition
+
+
+
+The process of decomposition varies based
+on the nature of the organic compounds, i.e.,
+some of the compounds like carbohydrate, fat
+and protein are decomposed rapidly than the
+cellulose, lignin, chitin, hair and bone.
+
+
+
+##### Mechanism of decomposition
+
+
+
+Decomposition is a step wise process of
+degradation mediated by enzymatic reactions.
+Detritus acts as a raw material for decomposition.
+It occurs in the following steps.
+
+
+
+![lesson 9](/books/12-biology/bio-botany/images/13.9.png )
+
 
