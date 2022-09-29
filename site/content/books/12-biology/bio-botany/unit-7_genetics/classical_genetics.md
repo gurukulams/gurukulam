@@ -7,7 +7,9 @@ weight: 1
 
 ## Learning Objectives
 
+The Learner will be able to
 
+<<<<<<< HEAD
 * Differentiate
 classical and modern genetics.
 	
@@ -20,6 +22,19 @@ of principles of inheritance.
 Pleiotropy.
 
 * Analyze extra chromosomal inheritance in cytoplasmic organelles.
+=======
+
+* Differentiate classical and modern genetics.
+	
+* Understand the concepts of principles of inheritance.
+	
+* Describe the extensions of Mendelism.
+	
+* Explain polygenic inheritance and Pleiotropy.
+
+* Analyze extra chromosomal inheritance in cytoplasmic organelles.
+
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 
 {{< box title=" chapter outline" type="objective">}}
 
@@ -38,11 +53,12 @@ dominance, Lethal genes, Epistasis
 
 2.6  Polygenic inheritance in Wheat
 kernel colour, Pleiotropy –
-Pisum sativum
+*Pisum sativum*
 
 2.7 Extra chromosomal inheritance-
 Cytoplasmic inheritance
 in Chloroplast.
+
 {{< /box >}}
 
 Genetics is the study of how living
@@ -57,15 +73,22 @@ Genetics – The Science of heredity (Inheritance)
 -“Genetics” is the branch of biological science
 which deals with the mechanism of transmission
 of characters from parents to offsprings. The term
-Genetics was introduced by W. Bateson in 1906.
+**Genetics** was introduced by **W. Bateson in 1906.**
 The four major subdisciplines of genetics are
 
+<<<<<<< HEAD
 **1.Transmission Genetics / Classical Genetics** - Deals with the transmission of genes
+=======
+**1.Transmission Genetics / Classical Genetics**
+
+– Deals with the transmission of genes
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 from parents to offsprings. The foundation
 of classical genetics came from the study
 of hereditary behaviour of seven genes by
 Gregor Mendel.
 
+<<<<<<< HEAD
 **2.Molecular Genetics** - Deals with the structure and function of a gene at molecular
 level.
 
@@ -74,6 +97,17 @@ in groups of individuals for traits which is
 determined by a few genes.
 
 **4.Quantitative Genetics** - Deals with heredity
+=======
+**2.Molecular Genetics** – Deals with the
+structure and function of a gene at molecular
+level.
+
+**3.Population Genetics** – Deals with heredity
+in groups of individuals for traits which is
+determined by a few genes.
+
+**4.Quantitative Genetics** – Deals with heredity
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 of traits in groups of individuals where
 the traits are governed by many genes
 simultaneously.
@@ -81,7 +115,14 @@ simultaneously.
 
 {{< box title="" type="objective">}}
 
+<<<<<<< HEAD
 **What is the reason for similarities, differences of appearance and skipping of generations?**
+=======
+What is the reason for similarities, differences
+of appearance and skipping of generations?
+
+{{< /box >}}
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 
 Genes – Functional Units of inheritance:
 The basic unit of heredity (biological
@@ -89,21 +130,23 @@ information) which transmits biochemical,
 anatomical and behavioural traits from
 parents to offsprings.
 
-{{< /box >}}
+
 
 
 **2.1 Heredity and variation**
 
 Genetics is often described as a science which
 deals with heredity and variation.
-Heredity: Heredity is the transmission of
+
+**Heredity:** Heredity is the transmission of
 characters from parents to offsprings.
-Variation: The organisms belonging to the
+
+**Variation:** The organisms belonging to the
 same natural population or species that
 shows a difference in the characteristics is
 called variation. Variation is of two types (i)
 Discontinuous variation and (ii) Continuous
-variation
+variation.
 
 **1. Discontinuous Variation:**
 
@@ -137,6 +180,7 @@ height and skin color.
 
 **Importance of variations**
 
+<<<<<<< HEAD
 * Variations make some individuals better
 fitted in the struggle for existence.
 
@@ -152,6 +196,20 @@ and lesser input.
 
 * They constitute the raw materials for
 evolution.
+=======
+*  Variations make some individuals better
+fitted in the struggle for existence.
+
+*  They help the individuals to adapt
+themselves to the changing environment.
+
+*  It provides the genetic material for natural
+selection
+
+*  Variations allow breeders to improve better yield, quicker growth, increased resistance  and lesser input.
+
+*  They constitute the raw materials for evolution.
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 
 **2.2 Mendelism**
 
@@ -160,9 +218,10 @@ Mendelism. It includes all concepts brought out
 by Mendel through his original research on
 plant hybridization. Mendelian genetic concepts
 are basic to modern genetics. Therefore, Mendel
-is called as Father of Genetics
+is called as **Father of Genetics**
 
-### 2.2.1Father of Genetics – Gregor Johann Mendel (1822 – 1884)
+
+### 2.2.1 Father of Genetics – Gregor Johann Mendel (1822 – 1884)
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.1.png )
 
@@ -181,32 +240,57 @@ on pea plants. Mendel discovered the principles
 of heredity by studying the inheritance of seven
 pairs of contrasting traits of pea plant in his
 garden. Mendel crossed and catalogued 24,034
+<<<<<<< HEAD
 plants through many generations. His paper entitled **“Experiments on Plant Hybrids”** was
+=======
+plants through many generations. 
+
+His paper entitled **“Experiments on Plant Hybrids”** was
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 presented and published in The Proceedings of
 the Brunn Society of Natural History in 1866.
 Mendel was the first systematic researcher in
 the field of genetics.
 
-Mendel was successful because:
+**Mendel was successful because:**
 
+<<<<<<< HEAD
 * He applied mathematics and statistical
 methods to biology and laws of probability
 to his breeding experiments.
 
 * He followed scientific methods and kept
+=======
+*  He applied mathematics and statistical
+methods to biology and laws of probability
+to his breeding experiments.
+
+*  He followed scientific methods and kept
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 accurate and detailed records that include
 quantitative data of the outcome of his
 crosses.
 
+<<<<<<< HEAD
 * His experiments were carefully planned
 and he used large samples.
 
 * The pairs of contrasting characters which
+=======
+*  His experiments were carefully planned
+and he used large samples.
+
+*  The pairs of contrasting characters which
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 were controlled by factor (genes)were
 present on separate chromosomes. (Figure
 2.4)
 
+<<<<<<< HEAD
 * The parents selected by Mendel were pure
+=======
+*  The parents selected by Mendel were pure
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 breed lines and the purity was tested by self
 crossing the progeny for many generations.
 
@@ -214,25 +298,44 @@ crossing the progeny for many generations.
 
 He chose pea plant because,
 
+<<<<<<< HEAD
 * It is an annual plant and has clear
 contrasting characters that are controlled
 by a single gene separately.
 
 * Self-fertilization occurred under normal
+=======
+*  It is an annual plant and has clear
+contrasting characters that are controlled
+by a single gene separately.
+
+*  Self-fertilization occurred under normal
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 conditions in garden pea plants. Mendel
 used both self-fertilization and cross-
 fertilization.
 
+<<<<<<< HEAD
 * The flowers are large hence emasculation
+=======
+*  The flowers are large hence emasculation
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 and pollination are very easy for
 hybridization.
 
-2.2.2 Mendel’s experiments on pea plant
+**2.2.2 Mendel’s experiments on pea plant**
+
 Mendel’s theory of inheritance, known as the
 Particulate theory, establishes the existence of
 minute particles or hereditary units or factors,
+<<<<<<< HEAD
 which are now called as genes. He performed
 artificial pollination or cross pollination experiments with several true-breeding lines of pea plants. A true breeding lines (Pure-breeding
+=======
+which are now called as **genes.** He performed
+artificial pollination or cross pollination experiments with several true-breeding lines of
+pea plants. A true breeding lines (Pure-breeding
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 strains) means it has undergone continuous
 self pollination having stable trait inheritance
 from parent to offspring. Matings within pure
@@ -274,6 +377,7 @@ and meticulous work into the mechanism of
 inheritance played an important role which led
 to the development of improved crop varieties
 and a revolution in crop hybridization.
+
 Mendel died in 1884. In 1900 the work of
 Mendel’s experiments were rediscovered by three biologists, **Hugo de Vries** of Holland, **CarlCorrens** of Germany and **Erich von Tschermak**
 of Austria.
@@ -285,11 +389,19 @@ of Austria.
 
 
 Can you identify Mendel’s gene for
+<<<<<<< HEAD
 **regulating white colour** in peas? 
 
 Let us find the **molecular answer** to understand the
 gene function. Now the genetic mystery of
 **Mendel’s white flowers is solved.**
+=======
+**regulating white colour** in peas? Let us find
+the molecular answer to understand the
+gene function. Now the **genetic mystery of**
+**Mendel’s white flowers is solved.**
+
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 It is quite fascinating to trace the Mendel’s
 genes. In 2010, the gene responsible for regulating flower colour in peas were identified by an Figure 2.5: Purple flower international team of Pea with Pea Gene A
 of researchers. and White flower of Pea
@@ -308,6 +420,7 @@ Gene A entered in a small percentage of
 cells of white flowers it is expressed in those
 particular cells, accumulated anthocyanin
 pigments and became purple.
+
 In white flowers the gene A sequence showed
 a single-nucleotide change that makes
 the transcription factor inactive. So the
@@ -317,6 +430,7 @@ anthocyanin and hence they are white.
 {{< /box >}}
 
 
+<<<<<<< HEAD
 
 **2.2.3 Terminology related to Mendelism**
 
@@ -336,8 +450,25 @@ recessive the individual is called **homozygous recessive (tt)** dwarf pea plant
 **dominant (TT)** tall pea plants. One dominant
 allele and one recessive allele (Tt) denotes non-
 true breeding tall pea plants **heterozygous tall.**
+=======
+If an individual has two identical alleles of
+a gene, it is called as **homozygous(TT)**. An
+individual with two different alleles is called
+**heterozygous(Tt)**. Mendels non-true breeding
+plants are heterozygous, called as **hybrids.**
 
-**2.2.4 Mendelian inheritance – Mendel’s Laws of Heredity**
+When the gene has two alleles the dominant
+allele is symbolized with capital letter and the
+recessive with small letter. When both alleles are
+recessive the individual is called **homozygous**
+**recessive** (tt) dwarf pea plants. An individual
+with two **dominant** alleles is called **homozygous**
+dominant (TT) tall pea plants. One dominant
+allele and one recessive allele (Tt) denotes non-
+true breeding tall pea plants **heterozygous tall**.
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
+
+**2.2.4 <u> Mendelian inheritance – Mendel’s Laws of Heredity** </u>
 
 Mendel proposed two rules based on his
 observations on monohybrid cross, today these
@@ -346,6 +477,10 @@ is The Law of Dominance and the second law
 is The Law of Segregation. These scientific laws
 play an important role in the history of evolution.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 **The Law of Dominance:** The characters are
 controlled by discrete units called factors which
 occur in pairs. In a dissimilar pair of factors one
@@ -354,9 +489,15 @@ is recessive. This law gives an explanation to the
 monohybrid cross (a) the expression of only one
 of the parental characters in F<sub>1</sub> generation and (b)
 the expression of both in the F<sub>2</sub> generation. It also
+<<<<<<< HEAD
 explains the proportion of 3:1 obtained at the F<sub>1</sub>
 
 **The Law of Segregation (Law of Purity of gametes):**
+=======
+explains the proportion of 3:1 obtained at the F<sub>2</sub>
+
+**The Law of Segregation (Law of Purity of gametes):** 
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 Alleles do not show any blending,
 both characters are seen as such in the F<sub>2</sub>
 generation although one of the characters is not
@@ -369,19 +510,28 @@ and a heterozygous parent produces two kinds
 of gametes each having one allele with equal
 proportion. **Gametes are never hybrid**.
 
-**2.3 Monohybrid cross**
+### <u> 2.3 Monohybrid cross </u>
 
 Monohybrid inheritance is the inheritance of a
 single character i.e. plant height.It involves the
 inheritance of two alleles of a single gene. When
+<<<<<<< HEAD
 the F<sub>1</sub> generation was selfed Mendel noticed that
 787 of 1064 F<sub>2</sub> plants were tall, while 277 of 1064
 were dwarf. The dwarf trait disappeared in the F<sub>1</sub>
 generation only to reappear in the F<sub>2</sub> generation.
 The term **genotype** is the genetic constitution
 of an individual. The term **phenotype** refers to
+=======
+the F1 generation was selfed Mendel noticed that
+787 of 1064 F<sub>2</sub> plants were tall, while 277 of 1064
+were dwarf. The dwarf trait disappeared in the F1
+generation only to reappear in the F<sub>2</sub> generation.
+The term **genotype** is the genetic constitution
+of an individual. The term phenotype refers to
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 the observable characteristic of an organism. In
-a genetic cross the genotypes and phenotypes
+a genetic cross the genotypes and **phenotypes**
 of offspring, resulting from combining gametes
 during fertilization can be easily understood with
 the help of a diagram called Punnett’s Square named
@@ -396,7 +546,12 @@ It is a graphical representation to calculate the
 probability of all possible genotypes of offsprings
 in a genetic cross.The Law of Dominance and the
 Law of Segregation give suitable explanation to
+<<<<<<< HEAD
 Mendel’s monohybrid cross. 
+=======
+Mendel’s monohybrid cross.
+
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 
 **Reciprocal cross** – In one experiment, the
 tall pea plants were pollinated with the pollens
@@ -411,12 +566,13 @@ reciprocal crosses.The results of the reciprocal
 crosses are the same. So it was concluded that the
 trait is not sex dependent. The results of Mendel’s
 monohybrid crosses were not sex dependent.
+
 The gene for plant height has two alleles: Tall
 (T) x Dwarf (t). The phenotypic and genotypic
 analysis of the crosses has been shown by
 Checker board method or by Forkline method.
 
-**symbol to be add...**
+
 
 **2.3.1 Mendel’s analytical and empirical approach**
 
@@ -424,7 +580,11 @@ Mendel chose two contrasting traits for each
 character. So it seemed logical that two distinct
 factors exist. In F<sub>1</sub> the recessive trait and its
 factors do not disappear and they are hidden or
+<<<<<<< HEAD
 masked only to reappear in  ¼  of the F<sub>2</sub> generation.
+=======
+masked only to reappear in ¼ of the F<sub>2</sub> generation.
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 He concluded that tall and dwarf alleles of F<sub>1</sub>
 heterozygote segregate randomly into gametes.
 Mendel got 3:1 ratio in F<sub>2</sub> between the dominant
@@ -479,20 +639,35 @@ dominant character.
 
 **2.3.3 Back cross**
 
+<<<<<<< HEAD
 * Back cross is a cross of F<sub>1</sub> hybrid with any
+=======
+• Back cross is a cross of F<sub>1</sub> hybrid with any
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 one of the parental genotypes. The back
 cross is of two types; they are dominant
 back cross and recessive back cross.
 
+<<<<<<< HEAD
 * It involves the cross between the F<sub>1</sub> offspring
 with either of the two parents.
 
 * When the F<sub>1</sub> offsprings are crossed with
+=======
+• It involves the cross between the F<sub>1</sub> offspring
+with either of the two parents.
+
+• When the F1offsprings are crossed with
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 the dominant parents all the F<sub>2</sub> develop
 dominant character and no recessive
 individuals are obtained in the progeny.
 
+<<<<<<< HEAD
 * If the F<sub>1</sub> hybrid is crossed with the recessive
+=======
+• If the F<sub>1</sub> hybrid is crossed with the recessive
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 parent individuals of both the phenotypes
 appear in equal proportion and this cross is
 specified as test cross.
@@ -504,15 +679,6 @@ the heterozygosity of the hybrid.
 
 It is a genetic cross which involves individuals
 differing in two characters. Dihybrid inheritance is the inheritance of two separate genes each with two alleles.
-
-**Law of Independent Assortment**
-
-– Whentwo pairs of traits are combined in a hybrid,
-segregation of one pair of characters is
-independent to the other pair of characters. Genes
-that are located in different chromosomes assort independently during meiosis. Many possible combinations of factors can occur in the gametes.
-
-
 
 {{< box title="" type="">}}
 
@@ -543,7 +709,19 @@ non-functional protein, hence they are dwarf.
 
 {{< /box >}}
 
+
+**Law of Independent Assortment**
+
+– Whentwo pairs of traits are combined in a hybrid,
+segregation of one pair of characters is
+independent to the other pair of characters. Genes
+that are located in different chromosomes assort independently during meiosis. Many possible combinations of factors can occur in the gametes.
+
+
+
+
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.9.png )
+
 
 Independent assortment leads to genetic
 diversity. If an individual produces genetically
@@ -626,6 +804,7 @@ resulting in smooth structured round seed.
 resultant gametes thus will be genetically different
 and they are of the following four types:
 
+<<<<<<< HEAD
 1) Yellow round (YR)                      -  9/16
 
 2) Yellow wrinkled (Yr)                   -   3/16
@@ -637,6 +816,19 @@ and they are of the following four types:
 These four types of gametes of  F<sub>1</sub> dihybrids
 unite randomly in the process of fertilization and
 produce sixteen types of individuals in  F<sub>2</sub> in the
+=======
+1) Yellow round (YR) - 9/16
+
+2) Yellow wrinkled (Yr)  -  3/16
+
+3) Green round (yR)  -  3/16
+
+4) Green wrinkled (yr) - 1/16
+
+These four types of gametes of F1 dihybrids
+unite randomly in the process of fertilization and
+produce sixteen types of individuals in F<sub>2</sub> in the
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 ratio of 9:3:3:1 as shown in the figure. Mendel’s
 9:3:3:1 dihybrid ratio is an ideal ratio based on the
 probability including segregation, independent
@@ -693,11 +885,19 @@ Bateson’s factor hypothesis. According to
 Bateson’s factor hypothesis, the gene interactions
 can be classified as
 
+<<<<<<< HEAD
 * Intragenic gene interactions or Intra allelic
 or allelic interactions
 Intergenic gene interactions or inter allelic
 
 *  or non-allelic interactions
+=======
+*  Intragenic gene interactions or Intra allelic
+or allelic interactions
+Intergenic gene interactions or inter allelic
+
+* or non-allelic interactions
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 
 **2.4 Intragenic interactions**
 
@@ -707,15 +907,35 @@ called intragenic or intralocus gene interaction.
 
 It includes the following:
 
+<<<<<<< HEAD
 (1) Incomplete dominance (2) Codominance(3) Multiple alleles (4) Pleiotropic genes are
+=======
+(1) Incomplete dominance 
+
+(2)  Codominance
+
+(3)  Multiple alleles 
+
+(4)  Pleiotropic genes are
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 common examples for intragenic interaction.
 
 **2.4.1. Incomplete dominance – No blending of genes**
 
+<<<<<<< HEAD
 **The German Botanist Carl Correns’s (1905) Experiment** - In 4 O’ clock plant, Mirabilis jalapa when the pure breeding homozygous
 red (R<sup>1</sup>R<sup>1</sup>) parent is crossed with homozygous
 white (R<sup>2</sup>R<sup>2</sup>), the phenotype of the F<sub>1</sub> hybrid is
 heterozygous pink (R<sup>1</sup>R<sup>2</sup>). The F<sub>1</sub> heterozygous
+=======
+**The German Botanist Carl Correns’s (1905) Experiment** - 
+
+In 4 O’ clock plant, Mirabilis
+jalapa when the pure breeding homozygous
+red (R<sup>1</sup>R<sup>1</sup>) parent is crossed with homozygous
+white (R<sup>2</sup>R<sup>2</sup>), the phenotype of the F<sup>1</sup> hybrid is
+heterozygous pink (R<sup>1</sup>R<sup>2</sup>). The F1 heterozygous
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 phenotype differs from both the parental
 homozygous phenotype. This cross did not
 exhibit the character of the dominant parent but
@@ -732,6 +952,7 @@ Genotypic ratio is 1 R<sup>1</sup>R<sup>1</sup> : 2 R<sup>1</sup>R<sup>2</sup> :
 this we conclude that the alleles themselves
 remain discrete and unaltered proving the
 Mendel’s Law of Segregation. The phenotypic and genotypic ratios are the same. There is no
+<<<<<<< HEAD
 blending of genes. In the F<sub>2</sub> generation R<sup>1</sup> and
 R<sup>2</sup> genes segregate and recombine to produce
 red, pink and white in the ratio of 1 : 2 : 1. R<sup>1</sup>
@@ -747,14 +968,37 @@ plants would have pink flowers. It is very clear
 that Mendel’s particulate inheritance takes
 place in this cross which is confirmed by the
 reappearance of original phenotype in F<sub>2</sub>
+=======
+blending of genes. In the F generation R1 and
+R2 genes segregate and recombine to produce
+red, pink and white in the ratio of 1 : 2 : 1. R<sup>1</sup>
+allele codes for an enzyme responsible for the
+formation of red pigment. R<sup>2</sup> allele codes for
+defective enzyme. R<sup>1</sup> and R<sup>2</sup> genotypes produce
+only enough red pigments to make the flower
+pink. Two R<sup>1</sup>R<sup>1</sup> are needed for producing red
+flowers. Two R<sup>2</sup>R<sup>2</sup> genes are needed for white
+flowers. If blending had taken place, the original
+pure traits would not have appeared and all F<sup>2</sup>
+plants would have pink flowers. It is very clear
+that Mendel’s particulate inheritance takes
+place in this cross which is confirmed by the
+reappearance of original phenotype in F<sup>2</sup>
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.14.png )
 
 
+<<<<<<< HEAD
 **2.4.2. Codominance (1 : 2 : 1)** - **This pattern occurs due to simultaneous (joint) expression of both alleles in the heterozygote** - The phenomenon in which two
+=======
+### 2.4.2. Codominance (1 : 2 : 1)
+
+**This pattern occurs due to simultaneous (joint) expression of both alleles in the heterozygote** - The phenomenon in which two
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 alleles are both expressed in the heterozygous
 individual is known as codominance. Example:
-Red and white flowers of Camellia, inheritance
+Red and white flowers of *Camellia*, inheritance
 of sickle cell haemoglobin, ABO blood group
 system in humanbeings. In humanbeings, I<sup>A</sup> and
 
@@ -774,9 +1018,15 @@ which is a defective allele in two copies (R<sup>2</sup> R<sup>2</sup>)
 produces an enzyme which cannot synthesize
 necessary red pigments. The white flower is
 due to the mutation causing complete loss
+<<<<<<< HEAD
 of function. The F<sub>1</sub> intermediate phenotype
 heterozygote (R<sup>1</sup>R<sup>2</sup>) has one copy of the allele
 R<sup>1</sup>. R<sup>1</sup> produces 50% of the functional protein
+=======
+of function. The F<sup>1</sup> intermediate phenotype
+heterozygote (R<sup>1</sup>R<sup>2</sup>) has one copy of the allele
+R1. R1 produces 50% of the functional protein
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 resulting in half of the pigment of red flowered
 plant and so it is pink. The intermediate
 phenotype pink heterogyzote with 50% of
@@ -792,7 +1042,11 @@ Mendels law of segregation. The codominance
 was demonstrated in plants with the help of
 electrophoresis or chromatography for protein
 or flavonoid substance. Example: Gossypium
+<<<<<<< HEAD
 hirsutum and Gossypium sturtianum, their F<sub>1</sub>
+=======
+hirsutum and Gossypium sturtianum, their 
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 hybrid (amphiploid) was tested for seed proteins
 by electrophoresis. Both the parents have
 different banding patterns for their seed proteins.
@@ -802,12 +1056,21 @@ types of proteins similar to their parents.
 The heterozygote genotype gives rise to a
 phenotype distinctly different from either of the
 homozygous genotypes. The F<sub>1</sub> heterozygotes
+<<<<<<< HEAD
 produce a F<sub>2</sub> progeny in a phenotypic and
+=======
+produce a F<sub>1</sub> progeny in a phenotypic and
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 genotypic ratios of 1 : 2 : 1.
 
 **2.4.3. Lethal genes**
 
+<<<<<<< HEAD
 **An allele which has the potential to cause the death of an organism is called a “Lethal Allele”**. In 1907, E. Baur reported a lethal gene in
+=======
+**An allele which has the potential to cause the death of an organism is called a “Lethal Allele”.** 
+In 1907, E. Baur reported a lethal gene in
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 snapdragon (Antirrhinum sp.). It is an example
 for recessive lethality. In snapdragon there are
 three kinds of plants.
@@ -872,12 +1135,18 @@ suppress or mask the phenotypic expression
 of a different pair of alleles of another gene at
 another locus. The gene that suppresses or masks
 the phenotypic expression of a gene at another
+<<<<<<< HEAD
 locus is known as **epistatic.** The gene whose
+=======
+locus is known as **epistatic**. The gene whose
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 expression is interfered by non-allelic genes and
 prevents from exhibiting its character is known
 as **hypostatic**. When both the genes are present
 together, the phenotype is determined by the
 epistatic gene and not by the hypostatic gene.
+
+
 In the summer squash the fruit colour locus
 has a dominant allele ‘W’ for white colour and a
 recessive allele ‘w’ for coloured fruit. ‘W’ allele is
@@ -1029,6 +1298,10 @@ is called polygenic inheritance. It gives
 explanations to the inheritance of continuous
 traits which are compatible with Mendel’s Law.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 The first experiment on polygenic
 inheritance was demonstrated by Swedish
 Geneticist H. Nilsson - Ehle (1909) in wheat
@@ -1036,6 +1309,7 @@ kernels. Kernel colour is controlled by two
 genes each with two alleles, one with red kernel
 colour was dominant to white. He crossed the
 two pure breeding wheat varieties dark red
+<<<<<<< HEAD
 and a white. Dark red genotypes R<sub>1</sub>R<sub>1</sub>R<sub>2</sub>R<sub>2</sub> and
 white genotypes are r<sub>1</sub>r<sub>1</sub>r<sub>2</sub>r<sub>2</sub>. In the F<sub>1</sub>generation  medium red were obtained with the genotype
 R<sub>1</sub>r<sub>1</sub>R<sub>2</sub>r<sub>2</sub>. F<sub>1</sub> wheat plant produces four types of gametes R<sub>1</sub>R<sub>2</sub>, R<sub>1</sub>r<sub>2</sub>, r<sub>1</sub>R<sub>2</sub>, r<sub>1</sub>r<sub>2</sub>. The intensity of the red colour is determined by the number of R genes in the F<sub>2</sub> generation.
@@ -1043,6 +1317,22 @@ R<sub>1</sub>r<sub>1</sub>R<sub>2</sub>r<sub>2</sub>. F<sub>1</sub> wheat plant 
 **Four R genes:** A dark red kernel colour is obtained.**Three R genes:** Medium - dark red kernel colour is obtained.**Two R genes:** Medium-
 red kernel colour is obtained.**One R gene:** Light
 red kernel colour is obtained. **Absence of R gene:**  Results in White kernel colour.
+=======
+and a white. Dark red genotypes R<sub>1</sub>R<sub>1</sub>R<sub>2</sub>R2 and
+white genotypes are r<sub>1</sub>r<sub>1</sub>r<sub>2</sub>r<sub>2</sub>. In the F1 generation
+medium red were obtained with the genotype
+R<sub>1</sub>r<sub>1</sub>R<sub>2</sub>r<sub>2</sub>. F1 wheat plant produces four types of
+gametes R<sub>1</sub>R<sub>2</sub>, R<sub>1</sub>r<sub>1</sub>2, r<sub>1</sub>R<sub>2</sub>, r<sub>1</sub>r<sub>2</sub>. The intensity of the red colour is determined by the number of R genes in the F<sub>2</sub> generation.
+
+
+**Four R genes:** A dark red kernel colour is
+obtained.**Three R genes:** Medium - dark red
+kernel colour is obtained.**Two R genes:** Medium-
+red kernel colour is obtained.One R gene: Light
+red kernel colour is obtained.**Absence of R**
+gene:Results in White kernel colour.
+
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 The R gene in an additive manner produces the
 red kernel colour. The number of each phenotype
 is plotted against the intensity of red kernel
@@ -1145,6 +1435,8 @@ Because the Rf genes do not have any expression
 of their own, unless the sterile cytoplasm is
 present. Rf genes are required to restore fertility
 in S cytoplasm which is responsible for sterility.
+
+
 So the combination of N cytoplasm with rfrf
 and S cytoplasm with RfRf produces plants
 with fertile pollens, while S cytoplasm with rfrf
@@ -1152,13 +1444,21 @@ produces only male sterile plants.
 
 **Atavism**
 
+<<<<<<< HEAD
 Atavism is a modification of a biological
+=======
+**Atavism** is a modification of a biological
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 structure whereby an ancestral trait reappears
 after having been lost through reemergence
 of sexual reproduction in the flowering plant
 Hieracium pilosella is the best example for
 Atavism in plants.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8bede8b (Review completed Unit 7 - chapter 1)
 **Summary**
 
 Gregor Johann Mendel, father of Genetics
