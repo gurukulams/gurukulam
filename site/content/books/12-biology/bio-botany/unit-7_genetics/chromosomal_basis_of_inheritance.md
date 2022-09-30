@@ -681,7 +681,7 @@ different S<sub>1</sub>S<sub>2</sub> plants, the pollen tube did not
 develop normally. But effective pollen tube development was observed when crossing was made with other than S<sub>1</sub>S<sub>2</sub> for example S<sub>3</sub>S<sub>4</sub>
 
 
-**table 3.5 to be add..**
+![lesson 1](/books/12-biology/botany/unit7/btable1.png )
 
 
 When crosses were made between seed
@@ -770,7 +770,12 @@ within a gene
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.32.png )
 
-**table3.8 to be add**
+
+
+
+
+![lesson 1](/books/12-biology/botany/unit7/btable2.png )
+
 
 
 **Point mutation**
