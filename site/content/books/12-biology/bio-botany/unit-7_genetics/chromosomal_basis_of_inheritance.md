@@ -754,19 +754,19 @@ in florets on the ears.
     <td class="tg-53v8">Rudimentary</td>
   </tr>
   <tr>
-    <td class="tg-53v8">ba/ba<br>ts+/ts+<br></td>
+    <td class="tg-53v8">ba/ba<br>ts<sup>+</sup>/ts<sup>+</sup>br></td>
     <td class="tg-53v8">Recessive<br>and<br>dominant<br></td>
     <td class="tg-53v8">Lacks silk and have tassel</td>
     <td class="tg-53v8">Male</td>
   </tr>
   <tr>
-    <td class="tg-53v8">ba+/ba+<br>ts+/ts+</td>
+    <td class="tg-53v8">ba<sup>+</sup>/ba<sup>+</sup><br>ts<sup>+</sup>/ts<sup>+</sup></td>
     <td class="tg-53v8">Double<br>dominant</td>
     <td class="tg-53v8">Have both tassel and cob</td>
     <td class="tg-53v8">Monoecious</td>
   </tr>
   <tr>
-    <td class="tg-53v8">ba+/ba+<br>ts/ts</td>
+    <td class="tg-53v8">ba<sup>+</sup>/ba<sup>+</sup><br>ts/ts</td>
     <td class="tg-53v8">Dominant<br>and<br>recessive</td>
     <td class="tg-53v8">Bears cob and lacks tassel</td>
     <td class="tg-53v8"></td>
