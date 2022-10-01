@@ -723,17 +723,67 @@ in florets on the ears.
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.30.png )
 
-**table 3.7 to be add**
 
 
-3.5 Mutation
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-53v8{border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-weight:bold;text-align:left;
+  vertical-align:top}
+.tg .tg-zqru{background-color:#9698ed;border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-weight:bold;
+  text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-zqru">Genotype</th>
+    <th class="tg-zqru">Dominant /<br>recessive<br></th>
+    <th class="tg-zqru">Modification</th>
+    <th class="tg-zqru">Sex</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-53v8">ba/ba<br>ts/ts<br></td>
+    <td class="tg-53v8">Double<br>recessive<br></td>
+    <td class="tg-53v8">Lacks silk on thestalk, buttransformedtassel topistil<br></td>
+    <td class="tg-53v8">Rudimentary</td>
+  </tr>
+  <tr>
+    <td class="tg-53v8">ba/ba<br>ts+/ts+<br></td>
+    <td class="tg-53v8">Recessive<br>and<br>dominant<br></td>
+    <td class="tg-53v8">Lacks silk and have tassel</td>
+    <td class="tg-53v8">Male</td>
+  </tr>
+  <tr>
+    <td class="tg-53v8">ba+/ba+<br>ts+/ts+</td>
+    <td class="tg-53v8">Double<br>dominant</td>
+    <td class="tg-53v8">Have both tassel and cob</td>
+    <td class="tg-53v8">Monoecious</td>
+  </tr>
+  <tr>
+    <td class="tg-53v8">ba+/ba+<br>ts/ts</td>
+    <td class="tg-53v8">Dominant<br>and<br>recessive</td>
+    <td class="tg-53v8">Bears cob and lacks tassel</td>
+    <td class="tg-53v8"></td>
+  </tr>
+</tbody>
+</table>
+
+
+**Table 3.7: Sex determination in Maize (Superscript (+) denotes dominant character)**
+
+
+**3.5 Mutation**
+
 Genetic variation among
 individuals provides the raw
 material for the ultimate
-source
-of
-evolutionary
-changes. Mutation and
+source of evolutionary changes. Mutation and
 recombination are the two major processes
 responsible for genetic variation. A sudden
 change in the genetic material of an organisms
@@ -761,10 +811,10 @@ of mutagens is called mutagenesis, and the organism is said to be mutagenized.
 
 Let us see the two general classes of gene mutation:
 
-•Mutations affecting single base or base
+* Mutations affecting single base or base
 pair of DNA are called point mutation
 
-•Mutations altering the number of copies
+* Mutations altering the number of copies
 of a small repeated nucleotide sequence
 within a gene
 
@@ -895,9 +945,7 @@ C. Auerback (1944).
 **Comutagens**
 
 The compounds which are not having
-own mutagenic properties but can enhance the effects of known mutagens are called
-
-comutagens.
+own mutagenic properties but can enhance the effects of known mutagens are called comutagens.
 
 Example: Ascorbic acid increase the damage
 caused by hydrogen peroxide.
