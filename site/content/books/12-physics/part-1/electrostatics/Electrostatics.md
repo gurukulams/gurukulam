@@ -359,6 +359,10 @@ point charge q<sub>2</sub>is given by
 
 
 
+\\(\vec{} \\) = \\(\dfrac{1}{4\pi\in_0} \dfrac{q_1q_2}{r^2}\hat{r}_ {12}\\)
+
+
+
 The value of the gravitational constant
 \\(G  = 6.67 × 10^{-11} N m2 kg^{-2}\\). The value
 of the constant k in Coulomb law is
@@ -367,7 +371,57 @@ more greater than G, the electrostatic
 force is always greater in magnitude than
 gravitational force for smaller size objects.
 
-\\(\ vec{F_21}\\) = \\(\dfrac{1}{4\pi\in_0} \dfrac{q_1q_2}{r^2}\hat{r}_ {12}\\).
+\\(\vec{F_21}\\) = \\(\dfrac{1}{4\pi\in_0} \dfrac{q_1q_2}{r^2}\hat{r}_ {12}\\).
 
-Here \\( \hat{r}_ {12}\\)  
+Here \\( \hat{r}_ {12}\\)  is the unit vector from charge q<sub>2</sub> to q<sub>1</sub>.
+
+But \\(\hat{r_21} =   \hat{r_12}\\).
+
+\\(\vec{F_{12}}\\) = \\(\dfrac{1}{4\pi\in_0} \dfrac{q_1q_2}{r^2}(-\hat{r}_ {12})\\).
+
+Therefore, the electrostatic force obeys
+Newton’s third law.
+
+(viii) The expression for Coulomb force
+is true only for point charges. But the point
+charge is an ideal concept. However we
+can apply Coulomb’s law for two charged
+objects whose sizes are very much smaller
+than the distance between them. In fact,
+Coulomb discovered his law by considering
+the charged spheres in the torsion balance
+as point charges. The distance between the
+two charged spheres is much greater than the
+radii of the spheres.
+
+### EXAMPLE 1.2 
+
+Consider two point charges q1 and q2 at rest as shown in the figure.
+
+![](/books/12-physics/unit1/pic3.png)
+
+![](/books/12-physics/unit1/pic4.png)
+
+According to Newton’s third law, the force
+experienced by the charge q<sub></sub>1 due to q<sub>2</sub> is
+
+\\(\vec{F_{12}}\\) = -\\(\vec{F_{21}}\\). Therefore
+
+
+\\(\vec{F_{12}}\\)  = -54 * 10^{-3}\hat{i} N.\\)
+
+The directions of \\(\vec{F_{21}}\\)  and \\(\vec{F_{12}}\\) are shown in the above figure in case (a)
+
+The directions of F<sub>21</sub> and F<sub>12</sub> are shown in
+the above figure in case (a) 
+
+(b) q<sub>1</sub> = +2 μC, q<sub>2</sub> = –3 μC, and r = 1m.
+They are unlike charges. So the force will
+be attractive.
+
+Force experienced by the charge  q<sub>2</sub> due to q<sub>1</sub> iss given by
+
+\\(\vec{F_{12}}\\)  = \\(\dfrac{9*10^9(2*10^{-6})*(-3*10^{-6})}{1^2}\\)  \\( \hat{r}_ {12}\\) 
+
+                                                                                                                                                                                                             
 
