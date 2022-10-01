@@ -293,8 +293,81 @@ the direction opposite to \\( \hat{r}_ {12}\\)
 (iii)  In SI units, \\(\ k = \dfrac{1}{4\pi\in_0}\\) and its value is \\(\ 9 * 10^9 N m^2 C^-2\\). Here \\(\in_0\\) is the permittivity of free
 space or vacuum and its value is 
 
-\\(\ \in_0 = \dfrac{1}{4\pik} = 8.85 * 10^{-12}C^{2}N^{-1}m{-2}\\).
+\\(\ \in_0 = \dfrac{1}{4\pi k} = 8.85 * 10^{-12}C^{2}N^{-1}m{-2}\\).
+
+(iv) The magnitude of the electrostatic
+force between two charges each of one
+coulomb and separated by a distance of 1 m
+is calculated as follows:
+
+
+\\(|F| = \dfrac{9*10^9 *1 *1}{1^2} = 9 * 10^9 N\\)
+
+This is a huge quantity, almost equivalent
+to the weight of one million ton. We
+never come across 1 coulomb of charge in
+practice. Most of the electrical phenomena
+in day-to-day life involve electrical charges
+of the order of µC (micro coulomb) or nC
+(nano coulomb).
+
+
+(v) In SI units, Coulomb’s law in vacuum
+takes the form \\(\ vec{F_21}\\) = \\(\dfrac{1}{4\pi\in_0} \dfrac{q_1q_2}{r^2}\hat{r}_ {12}\\).
+In a medium of permittivity \\(\isin_0\\), the force between two point charges is given by 
+\\(\vec{F_21}\\) = \\(\dfrac{1}{4\pi\in_0} \dfrac{q_1q_2}{r^2}\hat{r}_ {12}\\).
+
+Since \\(\isin \ge \isin_0\\), the force between two point
+charges in a medium other than vacuum is
+always less than that in vacuum. We define
+the relative permittivity for a given medium
+\\(\isin_r = \dfrac{\isin}{\isin_0}.\\) 
+For vacuum or air, \\(\isin_r = 1\\)  and for
+all other media \\(\isin_r \ge 1\\).
+
+**(vi)** Coulomb’s law has same structure
+as Newton’s law of gravitation. Both are
+inversely proportional to the square of
+the distance between the particles. The
+electrostatic force is directly proportional
+to the product of the magnitude of
+two point charges and gravitational force
+is directly proportional to the product
+of two masses. But there are some
+important differences between these two
+laws.
+
+
+* The gravitational force between two
+masses is always attractive but Coulomb
+force between two charges can be attractive
+or repulsive, depending on the nature of
+charges.
+
+* The gravitational force between two
+masses is independent of the medium. For
+example, if 1 kg of two masses are kept in
+air or inside water, the gravitational force
+between two masses remains the same.
+But the electrostatic force between the two
+charges depends on nature of the medium
+in which the two charges are kept at rest.
+
+**(vii)** The force on a charge q<sub>1</sub> exerted by a
+point charge q<sub>2</sub>is given by
 
 
 
+
+The value of the gravitational constant
+\\(G  = 6.67 × 10^{-11} N m2 kg^{-2}\\). The value
+of the constant k in Coulomb law is
+k = 9 × 109 N m2 C–2. Since k is much
+more greater than G, the electrostatic
+force is always greater in magnitude than
+gravitational force for smaller size objects.
+
+\\(\ vec{F_21}\\) = \\(\dfrac{1}{4\pi\in_0} \dfrac{q_1q_2}{r^2}\hat{r}_ {12}\\).
+
+Here \\( \hat{r}_ {12}\\)  
 
