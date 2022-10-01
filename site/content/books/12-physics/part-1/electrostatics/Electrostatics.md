@@ -408,7 +408,7 @@ experienced by the charge q<sub></sub>1 due to q<sub>2</sub> is
 \\(\vec{F_{12}}\\) = -\\(\vec{F_{21}}\\). Therefore
 
 
-\\(\vec{F_{12}}\\)  = -54 * 10^{-3}\hat{i} N.\\)
+\\(\vec{F_{12}}\\)  = \\(\ -54 * 10^{-3}\hat{i} N.\\)
 
 The directions of \\(\vec{F_{21}}\\)  and \\(\vec{F_{12}}\\) are shown in the above figure in case (a)
 
@@ -421,7 +421,38 @@ be attractive.
 
 Force experienced by the charge  q<sub>2</sub> due to q<sub>1</sub> iss given by
 
-\\(\vec{F_{12}}\\)  = \\(\dfrac{9*10^9(2*10^{-6})*(-3*10^{-6})}{1^2}\\)  \\( \hat{r}_ {12}\\) 
+\\( \vec{F_{12}}\\)  = \\( \dfrac{9*10^9(2*10^-6)*(-3*10^-6)}{1^2}\\)\\(\hat{r}_ {12}\\) 
 
-                                                                                                                                                                                                             
+\\( = 54 * 10 ^ -3 i N \\)
+
+The directions of F<sub>21</sub> and F<sub>12</sub> are shown
+in the figure (case (b)).
+
+(c) If these two charges are kept inside
+the water, then the force experienced by q<sub>2</sub>
+due to q<sub>1</sub>
+
+\\(\ \vec{F_{21}^W}\\) = \\(\frac{1}{4\pi\isin_r\isin_0}\\) \\(\frac{q_1q_2}{r^2}\\)\\(\hat{r_12}\\) = \\( \frac{\vec {F_{21}} {\isin_r}\\)
+
+
+
+![](/books/12-physics/unit1/pic4.png)
+
+### EXAMPLE 1.3
+
+
+Two small-sized identical equally charged
+spheres, each having mass 1 g are hanging
+in equilibrium as shown in the figure. The
+length of each string is 10 cm and the angle
+θ is 30° with the vertical. Calculate the
+magnitude of the charge in each sphere.
+(Take g = 10 ms<sup>-2</sup>)
+
+
+
+
+
+
+
 
