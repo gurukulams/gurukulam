@@ -250,11 +250,50 @@ charge plays a vital role.
 
 According to the quantisation of charge,
 
-**q = ne**
+**q = ne**     ----------(1.1)
 
 Here q = 1C. So the number of electrons in
 1 coulomb of charge is
 
+\\( n = \dfrac{q}{e}= \dfrac{IC}{1.6 * 10^-19}\\) =  \\(6.25 * 10^{18} electrons\\).
+
+
+### <u>  1.2 COULOMB’S LAW </u>
+
+n the year 1786, Coulomb deduced
+the expression for the force between two
+stationary point charges in vacuum or
+free space. Consider two point charges q1
+and q2 at rest in vacuum, and separated
+by a distance of r as shown in Figure 1.2.
+According to Coulomb, the force on the
+point charge q<sub>2</sub> exerted by another point
+charge q<sub>1</sub> is
+
+![Figure 1.2 Coulomb force between two positive point charges](/books/12-physics/unit1/pic2.png)
+
+**Important aspects of Coulomb’s law**
+
+(i) Coulomb's law states that the electrostatic
+force is directly proportional to the product of
+the magnitude of the two point charges and
+is inversely proportional to the square of the
+distance between the two point charges.
+
+(ii) The force on the charge q<sub>2</sub> exerted
+by the charge q<sub>1 always lies along the line
+joining the two charges. 
+\\( \hat{r}_ {12}\\) is the unit vector
+pointing from charge q<sub>1</sub> to q<sub>2</sub> .It is shown
+in the Figure 1.2. Likewise, the force on the
+charge q<sub>1</sub> exerted by q<sub>2</sub> is along -\\( \hat{r}_ {12}\\)(i.e., in
+the direction opposite to \\( \hat{r}_ {12}\\)
+.
+
+(iii)  In SI units, \\(\ k = \dfrac{1}{4\pi\in_0}\\) and its value is \\(\ 9 * 10^9 N m^2 C^-2\\). Here \\(\in_0\\) is the permittivity of free
+space or vacuum and its value is 
+
+\\(\ \in_0 = \dfrac{1}{4\pik} = 8.85 * 10^{-12}C^{2}N^{-1}m{-2}\\).
 
 
 
