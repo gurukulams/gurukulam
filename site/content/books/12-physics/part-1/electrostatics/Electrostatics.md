@@ -450,6 +450,93 @@ magnitude of the charge in each sphere.
 (Take g = 10 ms<sup>-2</sup>)
 
 
+![](/books/12-physics/unit1/pic5.png)
+
+### Solution
+
+If the two spheres are neutral, the
+angle between them will be 0o when
+hanged vertically. Since they are positively
+charged spheres, there will be a repulsive
+force between them and they will be at
+equilibrium with each other at an angle
+of 30° with the vertical. At equilibrium,
+each charge experiences zero net force in
+each direction. We can draw a free body
+diagram for one of the charged spheres and
+apply Newton’s second law for both vertical
+and horizontal directions.
+
+The free body diagram is shown below.
+
+![](/books/12-physics/unit1/pic7.png)
+
+In the x-direction, the acceleration of
+the charged sphere is zero.
+
+Using Newton’s second law \\(\ \vec{F_{tot}} = m \vec{a}\\) 
+
+\\(\ Tsin\theta \hat{i}  - F_e \hat{i} = 0\\)
+
+\\(\ Tsin \theta = F-e\\)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
