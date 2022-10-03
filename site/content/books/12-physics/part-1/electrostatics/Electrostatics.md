@@ -478,7 +478,77 @@ Using Newton’s second law \\(\ \vec{F_{tot}} = m \vec{a}\\)
 
 \\(\ Tsin\theta \hat{i}  - F_e \hat{i} = 0\\)
 
-\\(\ Tsin \theta = F-e\\)
+\\(\ Tsin \theta = F_e\\)
+
+Here T is the tension acting on the
+charge due to the string and Fe is the
+electrostatic force between the two charges.
+
+In the y-direction also, the net acceleration
+experienced by the charge is zero.
+
+T cos \\(\theta\\) \\(\ hat{j}  - mg \hat{j} = 0\\)
+
+T cos \\(\theta\\) = mg
+
+By dividing equation (1) by equation (2), 
+
+
+tan \\(\theta\\) = \\(\frac{F_e}{mg}\\)
+
+Since they are equally charged, the
+magnitude of the electrostatic force is
+
+\\(\ F_e = K \dfrac{q^2}{r^2}\\)  where k = \\(\dfrac{1}{4\pi\isin_0}\\)
+
+Here r = 2a = 2Lsinθ. By substituting
+these values in equation (3),
+
+tan \\(\theta\\) = k \\(\dfrac{q^2}{(2L sin \theta)^2}\\)
+
+
+Rearranging the equation (4) to get q
+
+\\(\ q =  2L sin \theta \sqrt { \frac{mg tan \theta}{k}} \\)
+
+
+\\(\ q = 2 * 0.1 * sin 30 \degree * \sqrt {\dfrac {10^{-3} * 10 * tan 30 \degree}{9 * 10^9}}\\)
+
+\\(\ q = 8.01 * 10^-8 C = 80.1 nC\\)
+
+
+### E X A M P L E 1.4
+
+Calculate the electrostatic force and
+gravitational force between the proton and
+the electron in a hydrogen atom. They are
+separated by a distance of 5.3 × 10<sup>-11</sup> m.
+The magnitude of charges on the electron
+and proton are 1.6 × 10<sup>-19</sup> C. Mass of the
+electron is me = 9.1 × 10<sup>-31</sup> kg and mass of
+proton is mp = 1.6 × 10<sup>-27</sup> kg.
+
+**Solution**
+
+The proton and the electron attract each
+other. The magnitude of the electrostatic
+force between these two particles is given by 
+
+\\(\ F_e = \dfrac{ke^2}{r^2}\\) = \\(\dfrac { 9 * 10^9 * (1.6 * 10 ^{-19})^2}{(5.3 * 10^{-11})^2}\\)
+
+\\(\ = \dfrac{9  * 2.56}{28.09} * 10 ^{-7} = 8.2 * 10 ^-8 N \\)
+
+The gravitational force between the
+proton and the electron is attractive.
+The magnitude of the gravitational force
+between these particles is
+
+\\(\ F_G = \dfrac{Gm_em_p}{r^2}\\)
+
+\\(\ = \dfrac{ 6.67 * 10 ^{-11} * 9.1 * 10 ^{-31} * 1.6 * 10 ^{-27}}{(5.3 *10 ^{-11})^2\\)
+
+\\(\ = \dfrac{97.11}{28.09}  * 10^{-47} = 3.4 * 10 ^{-47}N \\)
+
 
 
 
