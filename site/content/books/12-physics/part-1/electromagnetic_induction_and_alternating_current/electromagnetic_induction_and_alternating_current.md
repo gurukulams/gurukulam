@@ -176,74 +176,249 @@ the field and (iii) parallel to the field.
 
 \\((i) θ = 0°;\\)
 
-\\(\phi_B = BA cos \theta = 0.2 \times 5 \times 10^{-2} 0°\\)
+\\(\phi_B = BA cos \theta = 0.2 \times 5 \times 10^{-2} \times cos0°\\)
 
 \\(\phi_B = 1 \times 10^{-3} Wb\\)
 
 \\((ii) θ = 90° – 60° = 30° ;\\)
 
+\\(\phi_B = BA cos \theta = 0.2 \times 5 \times 10^{-2} \times cos30°\\)
 
+\\(\phi_B = 1 \times 10^{-2} \times \frac{\sqrt{3}}{2} = 8.66 \times 10^{-3} Wb\\)
 
+\\((iii) θ = 90°;\\)
 
+\\(\phi_B = BA cos 90° = 0\\)
 
+#### 4.1.3 Faraday’s Experiments on Electromagnetic Induction
 
+**First Experiment**
 
+Consider a closed circuit consisting of a
+coil \\(C\\) of insulated wire and a galvanometer
+\\(G\\) (Figure 4.2(a)). The galvanometer does
+not indicate deflection as there is no electric
+current in the circuit.
 
+When a bar magnet is inserted into the
+stationary coil, with its north pole facing the
+coil, there is a momentary deflection in the
+galvanometer. This indicates that an electric
+current is set up in the coil (Figure 4.2(b)).
+If the magnet is kept stationary inside the coil, the galvanometer does not indicate
+deflection (Figure 4.2(c)). 
 
+**figure**
 
+The bar magnet is now withdrawn from
+the coil, the galvanometer again gives a
+momentary deflection but in the opposite
+direction. So the electric current flows in
+opposite direction (Figure 4.2(d)). Now if
+the magnet is moved faster, it gives a larger
+deflection due to a greater current in the
+circuit (Figure 4.2(e)).
 
+The bar magnet is reversed i.e., the south
+pole now faces the coil. When the above
+experiment is repeated, the deflections are
+opposite to that obtained in the case of north
+pole (Figure 4.2(f)).
 
+If the magnet is kept stationary and the
+coil is moved towards or away from the coil,
+similar results are obtained. It is concluded
+that whenever there is a relative motion
+between the coil and the magnet, there is
+deflection in the galvanometer, indicating
+the electric current setup in the coil.
 
+**Second Experiment**
 
+Consider two closed circuits as shown
+in Figure 4.3(a). The circuit consisting of a
+coil \\(P\\), a battery \\(B\\) and a key \\(K\\) is called as
+primary circuit while the circuit with a coil S
+and a galvanometer \\(G\\) is known as secondary
+circuit. The coils \\(P\\) and \\(S\\) are kept at rest in
+close proximity with respect to one another.
 
+If the primary circuit is closed, electric
+current starts flowing in the primary circuit.
+At that time, the galvanometer gives a
+momentary deflection (Figure 4.3(a)).
 
+After that, when the electric current
+reaches a certain steady value, no deflection
+is observed in the galvanometer.
 
+Likewise if the primary circuit is broken,
+the electric current starts decreasing and
+there is again a sudden deflection but in
+the opposite direction (Figure 4.3(b)). 
 
+**figure 4.3**
 
+When the electric current becomes zero, the
+galvanometer shows no deflection.
 
+From the above observations, it is
+concluded that whenever the electric
+current in the primary circuit changes, the
+galvanometer shows a deflection.
 
+**Faraday’s Law of Electromagnetic Induction**
 
+From the results of his experiments,
+Faraday realized that
 
+**whenever the magnetic flux linked with a closed coil changes, an emf (electromotive force) is induced and hence an electric current flows in the circuit. This current is called an induced current and the emf giving rise to such current is called an induced emf. This phenomenon is known as electromagnetic induction.**
 
+**figure 4.4**
 
+Based on this idea, Faraday’s experiments
+are understood in the following way. In the
+first experiment, when a bar magnet is placed
+close to a coil, some of the magnetic field
+lines of the bar magnet pass through the coil
+i.e., the magnetic flux is linked with the coil.
+When the bar magnet and the coil approach
+each other, the magnetic flux linked with the
+coil increases. So this increase in magnetic
+flux induces an emf and hence a transient
+electric current flows in the circuit in one
+direction (Figure 4.4(a)). 
 
+At the same time, when they recede away
+from one another, the magnetic flux linked
+with the coil decreases. The decrease in
+magnetic flux again induces an emf in opposite direction and hence an electric current flows
+in opposite direction (Figure 4.4(b)). So there
+is deflection in the galvanometer when there
+is a relative motion between the coil and the
+magnet.
 
+In the second experiment, when the
+primary coil P carries an electric current, a
+magnetic field is established around it. The
+magnetic lines of this field pass through
+itself and the neighbouring secondary coil \\(S\\).
 
+When the primary circuit is open, no
+electric current flows in it and hence the
+magnetic flux linked with the secondary
+coil is zero (Figure 4.5(a)).
 
+However, when the primary circuit is
+closed, the increasing current builds up a magnetic field around the primary coil.
+Therefore, the magnetic flux linked with the
+secondary coil increases. This increasing flux
+linked induces a transient electric current in
+the secondary coil (Figure 4.5(b)). When the
+electric current in the primary coil reaches a
+steady value, the magnetic flux linked with
+the secondary coil does not change and the
+electric current in the secondary coil will
+disappear.
 
+**figure 4.5**
 
+Similarly, when the primary circuit is
+broken, the decreasing primary current 
+Similarly, when the primary circuit is
+broken, the decreasing primary current.
 
+The conclusions of Faraday’s experiments
+are stated as two laws.
 
+**First law**
 
+**Whenever magnetic flux linked with a closed circuit changes, an emf is induced in the circuit which lasts in the circuit as long as the magnetic flux is changing.**
 
+**Second law**
 
+**The magnitude of induced emf in a**
+**closed circuit is equal to the time rate**
+**of change of magnetic flux linked with**
+**the circuit.**
 
+If the magnetic flux linked with each
+turn of the coil changes by \\(dΦB\\) in a time
+dt, then the induced emf in each turn is
+given by 
 
+\\(\varepsilon = \frac{d\phi_B}{dt}\\)
 
+If a coil consisting of N turns is tightly
+wound such that each turn covers the same
+area, then the flux through each turn will be
+the same. Then total emf induced in the coil
+is given by
 
+\\(\varepsilon = N \frac{d(\phi_B)}{dt}\\)
 
+\\(\varepsilon = \frac{d(N \phi_B)}{dt}\\)
 
+Here \\(NΦB\\) is called flux linkage, defined
+as the product of number of turns N of the
+coil and the magnetic flux linking each turn
+of the coil \\(ΦB\\).
 
+{{<box title = "Importance of Electromagnetic Induction!">}}
 
+The application of the phenomenon
+of Electromagnetic Induction is almost
+everywhere in the present day life. Right
+from home appliances to huge factory
+machineries, from cellphone to computers
+and internet, from electric guitar to satellite
+communication, all need electricity for
+their operation. There is an ever growing
+demand for electric power.
 
+All these are met with the help of
+electric generators and transformers which
+function on electromagnetic induction.
+The modern, sophisticated human
+life would not be possible without the
+discovery of electromagnetic induction.
 
+{{</box>}}
 
+{{<box title = "ACTIVITY">}}
 
+Exploring Electromagnetic Induction
 
+**figure**
 
+Make a circuit containing a coil of
+insulated wire wound around soft hollow
+core and a galvanometer as shown in
+Figure. It is better to use a thin wire for
+the coil so that we can wind many turns
+in the available space. Perform the steps
+described in first experiment of Faraday
+with the help of a strong bar magnet.
+Students will get hands-on experience
+about electromagnetic induction.
 
+{{</box>}}
 
+#### EXAMPLE 4.3
 
+A cylindrical bar magnet is kept along the
+axis of a circular solenoid. If the magnet is
+rotated about its axis, find out whether an
+electric current is induced in the coil.
 
+**Solution**
 
-
-
-
-
-
-
-
-
+The magnetic field of a cylindrical magnet is
+symmetrical about its axis. As the magnet is
+rotated along the axis of the solenoid, there is
+no induced current in the solenoid because
+the flux linked with the solenoid does not
+change due to the rotation of the magnet.
 
 
 
