@@ -54,7 +54,7 @@ class PracticesScreen {
             return response;
           } else if (response.status === 204) {
             let e = new Error(response.statusText);
-            e.name = "NoContent";
+            e.title = "NoContent";
             e.root = this;
             throw e;
           }
@@ -91,7 +91,7 @@ class PracticesScreen {
           this.registerEvents();
         })
         .catch(function (error) {
-          if (error.name === "NoContent") {
+          if (error.title === "NoContent") {
             error.root.parent.innerHTML =
               '<p class="lead">There are no practices. But you can create one <a href="javascript://">here</a></p>';
             error.root.parent
@@ -196,7 +196,7 @@ class PracticesScreen {
     liEl.practice = item;
     liEl.innerHTML = `
     <div class="card-body">
-    <a class="h5 card-title">${item.name}</a>
+    <a class="h5 card-title">${item.title}</a>
     <p class="card-text">${item.description}</p>
     </div>
     <div class="card-footer bg-transparent border-bottom border-top-0 pt-0">

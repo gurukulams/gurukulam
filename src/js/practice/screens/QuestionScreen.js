@@ -125,6 +125,7 @@ class QuestionScreen {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+        "Accept-Language": "",
       },
     })
       .then((response) => {

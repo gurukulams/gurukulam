@@ -6,7 +6,7 @@ POST {{base}}/auth/login
 Content-Type: application/json
 
 {
-    "userName": "tarun",
+    "userName": "tom",
     "password": "password"
 }
 
@@ -17,7 +17,7 @@ Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
 {
-  "name": "Sports",
+  "title": "Sports",
   "description": "Sports related practices"
 }
 
@@ -49,14 +49,21 @@ Content-Type: application/json
 
 3
 
-#### Update Practice for Tamil
-PUT {{base}}/practices/basic/{{practice.esponse.body.id}}
+#### List Question
+GET {{base}}/practices/basic/1/questions
 Authorization: Bearer {{login.response.body.authToken}}
-Accept-Language: ta
+Content-Type: application/json
+Accept-Language: en-US
+
+
+#### Update Practice for Tamil
+PUT {{base}}/practices/basic/{{practice.response.body.id}}
+Authorization: Bearer {{login.response.body.authToken}}
+Accept-Language: de
 Content-Type: application/json
 
 {
-  "name": "விளையாட்டு",
+  "title": "விளையாட்டு",
   "description": "விளையாட்டு விபரம்"
 }
 
@@ -68,5 +75,5 @@ Content-Type: application/json
 #### Get Practice for Tamil
 GET {{base}}/practices/basic/{{practice.response.body.id}}
 Authorization: Bearer {{login.response.body.authToken}}
-Accept-Language: ta
+Accept-Language: de
 Content-Type: application/json

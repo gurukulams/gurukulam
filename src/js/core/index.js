@@ -183,7 +183,7 @@ class Core {
           ulEl.style.visibility = "hidden";
           myDropDownEla.innerText = response[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
-          this.loadSyllabus(boardId, response[0].id);
+          this.loadSubjects(boardId, response[0].id);
         } else {
           document.getElementById("subjectList").style.visibility = "visible";
           ulEl = document.querySelector("#dropdownMenuButton2 > ul");
@@ -207,7 +207,7 @@ class Core {
             );
           });
 
-          ulEl.firstChild.click();
+          ulEl.lastChild.click();
 
           //this.listSyllabus(id, ulEl.firstChild.dataset.id);
         }
@@ -229,12 +229,12 @@ class Core {
         });
 
       liEl.style.display = "none";
-      this.loadSyllabus(liEl.dataset.boardId, liEl.dataset.id);
+      this.loadSubjects(liEl.dataset.boardId, liEl.dataset.id);
     });
     return liEl;
   }
 
-  loadSyllabus(boardId, gradeId) {
+  loadSubjects(boardId, gradeId) {
     fetch("/api/boards/" + boardId + "/grades/" + gradeId + "/subjects", {
       headers: {
         "content-type": "application/json",
@@ -259,7 +259,7 @@ class Core {
           subjectUl.innerHTML = "";
           response.forEach((subject) => {
             subjectUl.appendChild(
-              this.createLiElementForSyllabus(boardId, gradeId, subject)
+              this.createSubjectMenuItem(boardId, gradeId, subject)
             );
           });
         } else {
@@ -269,7 +269,7 @@ class Core {
       });
   }
 
-  createLiElementForSyllabus(boardId, gradeId, subject) {
+  createSubjectMenuItem(boardId, gradeId, subject) {
     let liEl = document.createElement("li");
     liEl.dataset.id = subject.id;
     let path = "#";

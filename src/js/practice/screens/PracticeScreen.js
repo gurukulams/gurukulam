@@ -40,10 +40,10 @@ class PracticeScreen {
    </div>
    <div class="row">
    <div class="col-12 form-check">
-        <label for="name" class="form-label">Name</label>
-        <input class="form-control" id="name" required>
+        <label for="title" class="form-label">Title</label>
+        <input class="form-control" id="title" required>
         <div class="invalid-feedback">
-          Please choose a Name.
+          Please choose a Title.
         </div>
       </div>
       <div class="col-12 form-check">
@@ -93,11 +93,11 @@ class PracticeScreen {
       })
         .then((response) => response.json())
         .then((exam) => {
-          formEl.querySelector("#name").value = exam.name;
+          formEl.querySelector("#title").value = exam.title;
           formEl.querySelector("#description").value = exam.description;
         });
     }
-    document.getElementById("name").focus();
+    document.getElementById("title").focus();
   }
 
   goBack(btnComponent) {
@@ -111,9 +111,9 @@ class PracticeScreen {
 
   saveExam(event) {
     event.preventDefault();
-    const { name, description } = event.target;
+    const { title, description } = event.target;
 
-    var examObj = { name: name.value, description: description.value };
+    var examObj = { title: title.value, description: description.value };
     if (this._id) {
       fetch("/api/practices/" + this.parent.dataset.type + "/" + this._id, {
         method: "PUT",
