@@ -500,11 +500,11 @@ class QuestionScreen {
 
     const saveFn = () => {
       const promises = [];
-
+      console.log("dffsfsfd", this.bookName);
       this.questions.forEach((question) => {
         const addEndPointUrl = this.bookName
           ? "/api/books/" +
-            this.parent.dataset.type +
+            this.bookName +
             "/questions/" +
             question.type +
             "/" +
@@ -518,7 +518,7 @@ class QuestionScreen {
 
         const updateEndPointUrl = this.bookName
           ? "/api/books/" +
-            this.parent.dataset.type +
+            this.bookName +
             "/questions/" +
             question.type +
             "/" +
