@@ -540,6 +540,7 @@ class QuestionScreen {
                 "content-type": "application/json",
                 Authorization:
                   "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+                "Accept-Language": "",
               },
               body: JSON.stringify(question),
             })
@@ -552,6 +553,7 @@ class QuestionScreen {
                 "content-type": "application/json",
                 Authorization:
                   "Bearer " + JSON.parse(sessionStorage.auth).authToken,
+                "Accept-Language": "",
               },
               body: JSON.stringify(question),
             })

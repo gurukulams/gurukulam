@@ -1,0 +1,91 @@
+@base = http://localhost:8080/api 
+
+#### Login 
+# @name login 
+POST {{base}}/auth/login
+Content-Type: application/json
+
+{
+    "userName": "tom",
+    "password": "password"
+}
+
+#### Get Questions for a Book
+# @name questions
+GET {{base}}/books/12-biology/questions/bio-botany/unit-6_reproduction_in_plants
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+#### Create Question
+# @name question 
+POST {{base}}/books/12-biology/questions/CHOOSE_THE_BEST/bio-botany/unit-6_reproduction_in_plants
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+  "question": "Who is the best cricketer?",
+  "type": "CHOOSE_THE_BEST",
+  "choices": [{
+    "value": "Sachin"
+  }, {
+    "value": "Dhoni"
+  }, {
+    "value": "Dravid",
+    "answer": true
+  }, {
+    "value": "Kapil"
+  }]
+}
+
+#### Create Question
+# @name question 
+PUT {{base}}/books/12-biology/questions/CHOOSE_THE_BEST/1/bio-botany/unit-6_reproduction_in_plants
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+  "question": "Who is the best cricketer 2?",
+  "type": "CHOOSE_THE_BEST",
+  "choices": [{
+      "id": 10,
+      "value": "Dhoni",
+      "answer": true
+    },
+    {
+      "id": 11,
+      "value": "Dravid",
+      "answer": false
+    },
+    {
+      "id": 12,
+      "value": "Kapil",
+      "answer": false
+    }]
+}
+
+#### Create Question
+# @name question 
+POST {{base}}/books/12-biology/questions/CHOOSE_THE_BEST/bio-botany/unit-7_genetics
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+  "question": "Who is the best footballer?",
+  "type": "CHOOSE_THE_BEST",
+  "choices": [{
+    "value": "Ronaldo"
+  }, {
+    "value": "Donaldo"
+  }, {
+    "value": "Messi"
+  }, {
+    "value": "Degabrio",
+    "answer": true
+  }]
+}
+
+#### Get Practice for Tamil
+POST {{base}}/auth/logout
+Authorization: Bearer {{login.response.body.authToken}}
+Accept-Language: de
+Content-Type: application/json
