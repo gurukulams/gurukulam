@@ -20,11 +20,11 @@
         {{ $var = strings.TrimRight "/" .Permalink }}
          <a href="{{replace $var "/books" "/courses/books"}}">
             
-            <i class="fas fa-chalkboard-teacher fa-2x"></i>
+            <i class="fas fa-chalkboard-teacher fa-2x" title="chalkboardTeaching"></i>
         </a>
 
         <a href="{{replace $var "/books" "/practices/books"}}">
-            <i class="fas fa-user-check fa-2x px-2"></i>
+            <i class="fas fa-user-check fa-2x px-2" title="ExamPractice"></i>
         </a>  
     </div>
     {{end}}  
