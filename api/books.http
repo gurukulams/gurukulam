@@ -6,7 +6,7 @@ POST {{base}}/auth/login
 Content-Type: application/json
 
 {
-    "userName": "tom",
+    "userName": "jerry",
     "password": "password"
 }
 
@@ -37,55 +37,46 @@ Content-Type: application/json
   }]
 }
 
-#### Create Question
-# @name question 
-PUT {{base}}/books/12-biology/questions/CHOOSE_THE_BEST/1/bio-botany/unit-6_reproduction_in_plants
+#### Update Question
+PUT {{base}}/books/12-biology/questions/CHOOSE_THE_BEST/{{question.response.body.id}}/bio-botany/unit-6_reproduction_in_plants
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
+Accept-Language: ta
 
 {
-  "question": "Who is the best cricketer 2?",
+  "question": "யார் நல்ல கிரிக்கெட் வீரர் ?",
   "type": "CHOOSE_THE_BEST",
   "choices": [{
-      "id": 10,
-      "value": "Dhoni",
-      "answer": true
-    },
-    {
-      "id": 11,
-      "value": "Dravid",
-      "answer": false
-    },
-    {
-      "id": 12,
-      "value": "Kapil",
-      "answer": false
-    }]
-}
-
-#### Create Question
-# @name question 
-POST {{base}}/books/12-biology/questions/CHOOSE_THE_BEST/bio-botany/unit-7_genetics
-Authorization: Bearer {{login.response.body.authToken}}
-Content-Type: application/json
-
-{
-  "question": "Who is the best footballer?",
-  "type": "CHOOSE_THE_BEST",
-  "choices": [{
-    "value": "Ronaldo"
+    "id" : {{question.response.body.choices[0].id}},
+    "value": "Sachin 2"
   }, {
-    "value": "Donaldo"
+    "id" : {{question.response.body.choices[1].id}},
+    "value": "Dhoni 2"
   }, {
-    "value": "Messi"
-  }, {
-    "value": "Degabrio",
+    "id" : {{question.response.body.choices[2].id}},
+    "value": "Dravid 2",
     "answer": true
+  }, {
+    "id" : {{question.response.body.choices[3].id}},
+    "value": "Kapil 2"
   }]
 }
+
+
+#### List Questions
+GET {{base}}/books/12-biology/questions/bio-botany/unit-6_reproduction_in_plants
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+
+#### List Questions for Locale
+GET {{base}}/books/12-biology/questions/bio-botany/unit-6_reproduction_in_plants
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+Accept-Language: ta
+
 
 #### Get Practice for Tamil
 POST {{base}}/auth/logout
 Authorization: Bearer {{login.response.body.authToken}}
-Accept-Language: de
 Content-Type: application/json

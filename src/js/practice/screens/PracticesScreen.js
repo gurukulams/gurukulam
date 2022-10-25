@@ -12,11 +12,17 @@ class PracticesScreen {
   }
 
   render() {
-    if (window.location.pathname.startsWith("/practices/books/")) {
-      let bookName = window.location.pathname.replace("/practices/books/", "");
+    if (window.location.pathname.includes("/practices/books/")) {
+      let bookName = window.location.pathname.split("/practices/books/")[1];
       const chaptorName = bookName.substring(bookName.indexOf("/") + 1);
       bookName = bookName.substring(0, bookName.indexOf("/"));
       //this.question.render(true, bookName, chaptorName);
+      let localeCode = window.location.pathname.split("/practices/books/")[0];
+      if (localeCode.trim().length === 0) {
+        console.log("Def L");
+      } else {
+        window.LANGUAGE = localeCode.substring(1);
+      }
 
       fetch("/api/books/" + bookName + "/owner", {
         headers: {

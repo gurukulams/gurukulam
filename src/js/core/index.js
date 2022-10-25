@@ -6,6 +6,8 @@ class Core {
       this.locale = undefined;
     }
 
+    window.LANGUAGE = this.locale;
+
     this.handleSecurity();
 
     this.handleModelDialogs();
@@ -94,7 +96,7 @@ class Core {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        "Accept-Language": this.locale,
+        "Accept-Language": window.LANGUAGE,
       },
     })
       .then((response) => {
@@ -157,7 +159,7 @@ class Core {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        "Accept-Language": this.locale,
+        "Accept-Language": window.LANGUAGE,
       },
     })
       .then((response) => {
@@ -239,7 +241,7 @@ class Core {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        "Accept-Language": this.locale,
+        "Accept-Language": window.LANGUAGE,
       },
     })
       .then((response) => {
@@ -288,7 +290,7 @@ class Core {
         headers: {
           "content-type": "application/json",
           Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-          "Accept-Language": this.locale,
+          "Accept-Language": window.LANGUAGE,
         },
       }
     )

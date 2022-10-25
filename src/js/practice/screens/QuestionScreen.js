@@ -125,7 +125,7 @@ class QuestionScreen {
       headers: {
         "content-type": "application/json",
         Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        "Accept-Language": "",
+        "Accept-Language": window.LANGUAGE,
       },
     })
       .then((response) => {
@@ -540,7 +540,7 @@ class QuestionScreen {
                 "content-type": "application/json",
                 Authorization:
                   "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-                "Accept-Language": "",
+                "Accept-Language": window.LANGUAGE,
               },
               body: JSON.stringify(question),
             })
@@ -553,7 +553,7 @@ class QuestionScreen {
                 "content-type": "application/json",
                 Authorization:
                   "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-                "Accept-Language": "",
+                "Accept-Language": window.LANGUAGE,
               },
               body: JSON.stringify(question),
             })
