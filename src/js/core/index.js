@@ -8,6 +8,24 @@ class Core {
 
     window.LANGUAGE = this.locale;
 
+    window.ApplicationHeader = () => {
+      const header = {
+        "content-type": "application/json",
+      };
+
+      if (sessionStorage.auth) {
+        header["Authorization"] =
+          "Bearer " + JSON.parse(sessionStorage.auth).authToken;
+      }
+      if (window.LANGUAGE) {
+        header["Accept-Language"] = window.LANGUAGE;
+      } else {
+        header["Accept-Language"] = "";
+      }
+
+      return header;
+    };
+
     this.handleSecurity();
 
     this.handleModelDialogs();
@@ -93,11 +111,7 @@ class Core {
 
   loadBoards() {
     fetch("/api/boards", {
-      headers: {
-        "content-type": "application/json",
-        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        "Accept-Language": window.LANGUAGE,
-      },
+      headers: window.ApplicationHeader(),
     })
       .then((response) => {
         if (response.status === 200) {
@@ -156,11 +170,7 @@ class Core {
 
   loadGrades(boardId) {
     fetch("/api/boards/" + boardId + "/grades", {
-      headers: {
-        "content-type": "application/json",
-        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        "Accept-Language": window.LANGUAGE,
-      },
+      headers: window.ApplicationHeader(),
     })
       .then((response) => {
         if (response.status === 200) {
@@ -238,11 +248,7 @@ class Core {
 
   loadSubjects(boardId, gradeId) {
     fetch("/api/boards/" + boardId + "/grades/" + gradeId + "/subjects", {
-      headers: {
-        "content-type": "application/json",
-        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        "Accept-Language": window.LANGUAGE,
-      },
+      headers: window.ApplicationHeader(),
     })
       .then((response) => {
         if (response.status === 200) {

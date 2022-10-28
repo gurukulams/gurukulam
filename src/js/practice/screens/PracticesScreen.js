@@ -25,10 +25,7 @@ class PracticesScreen {
       }
 
       fetch("/api/books/" + bookName + "/owner", {
-        headers: {
-          "content-type": "application/json",
-          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        },
+        headers: window.ApplicationHeader(),
       })
         .then((response) => {
           if (response.status === 202) {
@@ -48,11 +45,7 @@ class PracticesScreen {
           "?size=6&page=" +
           this.pageNumber,
         {
-          headers: {
-            "content-type": "application/json",
-            Authorization:
-              "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-          },
+          headers: window.ApplicationHeader(),
         }
       )
         .then((response) => {
@@ -158,11 +151,7 @@ class PracticesScreen {
       el.addEventListener("on-confirmation", () => {
         fetch("/api/practices/" + this.parent.dataset.type + "/" + id, {
           method: "DELETE",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization:
-              "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-          },
+          headers: window.ApplicationHeader(),
         }).then((response) => {
           if (response.status === 200) {
             this.render();

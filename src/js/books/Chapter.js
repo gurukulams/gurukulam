@@ -116,10 +116,7 @@ class Chapter {
 
     fetch("/api/books/" + bookName + "/note/_search", {
       method: "POST",
-      headers: {
-        "content-type": "application/json",
-        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-      },
+      headers: window.ApplicationHeader(),
       body: chapterPath,
     })
       .then((response) => response.json())
@@ -135,11 +132,7 @@ class Chapter {
             marking.onSection = chapterPath;
             fetch("/api/books/" + bookName + "/note", {
               method: "POST",
-              headers: {
-                "content-type": "application/json",
-                Authorization:
-                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-              },
+              headers: window.ApplicationHeader(),
               body: JSON.stringify(marking),
             });
           }

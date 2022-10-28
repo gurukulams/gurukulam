@@ -86,10 +86,7 @@ class PracticeScreen {
 
     if (_id) {
       fetch("/api/practices/" + this.parent.dataset.type + "/" + _id, {
-        headers: {
-          "content-type": "application/json",
-          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        },
+        headers: window.ApplicationHeader(),
       })
         .then((response) => response.json())
         .then((exam) => {
@@ -117,10 +114,7 @@ class PracticeScreen {
     if (this._id) {
       fetch("/api/practices/" + this.parent.dataset.type + "/" + this._id, {
         method: "PUT",
-        headers: {
-          "content-type": "application/json",
-          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        },
+        headers: window.ApplicationHeader(),
         body: JSON.stringify(examObj),
       })
         .then((response) => {
@@ -136,10 +130,7 @@ class PracticeScreen {
     } else {
       fetch("/api/practices/" + this.parent.dataset.type, {
         method: "POST",
-        headers: {
-          "content-type": "application/json",
-          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        },
+        headers: window.ApplicationHeader(),
         body: JSON.stringify(examObj),
       })
         .then((response) => {

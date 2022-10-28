@@ -122,11 +122,7 @@ class QuestionScreen {
     }
 
     fetch(questionsUrl, {
-      headers: {
-        "content-type": "application/json",
-        Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-        "Accept-Language": window.LANGUAGE,
-      },
+      headers: window.ApplicationHeader(),
     })
       .then((response) => {
         // Shorthand to check for an HTTP 2xx response status.
@@ -453,11 +449,7 @@ class QuestionScreen {
               "/answer/",
             {
               method: "POST",
-              headers: {
-                "content-type": "application/json",
-                Authorization:
-                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-              },
+              headers: window.ApplicationHeader(),
               body: answer,
             }
           )
@@ -536,12 +528,7 @@ class QuestionScreen {
           promises.push(
             fetch(addEndPointUrl, {
               method: "POST",
-              headers: {
-                "content-type": "application/json",
-                Authorization:
-                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-                "Accept-Language": window.LANGUAGE,
-              },
+              headers: window.ApplicationHeader(),
               body: JSON.stringify(question),
             })
           );
@@ -549,12 +536,7 @@ class QuestionScreen {
           promises.push(
             fetch(updateEndPointUrl, {
               method: "PUT",
-              headers: {
-                "content-type": "application/json",
-                Authorization:
-                  "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-                "Accept-Language": window.LANGUAGE,
-              },
+              headers: window.ApplicationHeader(),
               body: JSON.stringify(question),
             })
           );
@@ -579,11 +561,7 @@ class QuestionScreen {
         promises.push(
           fetch(deleteEndPointUrl, {
             method: "DELETE",
-            headers: {
-              "content-type": "application/json",
-              Authorization:
-                "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-            },
+            headers: window.ApplicationHeader(),
           })
         );
       });
