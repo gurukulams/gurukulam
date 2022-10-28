@@ -184,6 +184,49 @@ class QuestionScreen {
 
       const selectedQuestion = this.selectedQuestion;
 
+      const editChoice = (event) => {
+        const parentLiEl = event.currentTarget.parentElement.parentElement;
+
+        const choiceIndex =
+          Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
+
+        const label = parentLiEl.children[0].children[1];
+        const eOptions = event.currentTarget.parentElement;
+
+        const textToEdit = document.createElement("input");
+        textToEdit.classList.add("form-control");
+        textToEdit.classList.add("me-2");
+        textToEdit.value = label.innerHTML;
+
+        label.classList.add("d-none");
+        eOptions.classList.add("d-none");
+
+        parentLiEl.children[0].insertBefore(textToEdit, label);
+
+        textToEdit.focus();
+        textToEdit.select();
+
+        const afterSubmit = (event) => {
+          textToEdit.parentElement.removeChild(textToEdit);
+          label.innerHTML = textToEdit.value;
+          selectedQuestion.choices[choiceIndex].value = textToEdit.value;
+          label.classList.remove("d-none");
+          eOptions.classList.remove("d-none");
+        };
+
+        textToEdit.addEventListener("focusout", afterSubmit);
+
+        textToEdit.addEventListener("keydown", (event) => {
+          if (event.isComposing || event.key === "Enter") {
+            afterSubmit(event);
+          }
+        });
+
+        //<input class="form-control me-2" type="search" placeholder="Add New Choice. Press Enter" aria-label="Add New Choice">
+
+        console.log(label);
+      };
+
       const removeChoice = (event) => {
         const parentLiEl = event.currentTarget.parentElement.parentElement;
 
@@ -244,7 +287,7 @@ class QuestionScreen {
   </div>
   ${
     this.isOwner
-      ? `<span class="badge text-dark rounded-pill justify-content-end"><i class="far fa-trash-alt"></i></span>`
+      ? `<span class="badge text-dark rounded-pill justify-content-end"><i class="fa-solid fa-pen px-2"></i><i class="far fa-trash-alt"></i></span>`
       : ``
   }
   
@@ -254,6 +297,7 @@ class QuestionScreen {
   `;
         ulEl.appendChild(liEl);
         if (this.isOwner) {
+          liEl.querySelector(".fa-pen").addEventListener("click", editChoice);
           liEl
             .querySelector(".fa-trash-alt")
             .addEventListener("click", removeChoice);
