@@ -310,10 +310,14 @@ class Core {
       .catch(function (error) {
         console.log(error);
       })
-      .then((subjects) => {
-        if (subjects.length !== 0) {
-          path = subjects[0].path;
-          liEl.innerHTML = `<a class="nav-link" href="/books/${path}">${subject.title}</a>`;
+      .then((books) => {
+        if (books.length !== 0) {
+          path = books[0].path;
+          if (window.LANGUAGE) {
+            liEl.innerHTML = `<a class="nav-link" href="/${window.LANGUAGE}/books/${path}">${subject.title}</a>`;
+          } else {
+            liEl.innerHTML = `<a class="nav-link" href="/books/${path}">${subject.title}</a>`;
+          }
         }
       });
 

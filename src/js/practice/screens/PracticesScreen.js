@@ -19,9 +19,32 @@ class PracticesScreen {
       //this.question.render(true, bookName, chaptorName);
       let localeCode = window.location.pathname.split("/practices/books/")[0];
       if (localeCode.trim().length === 0) {
-        console.log("Def L");
+        const list = document.querySelector(
+          '[aria-labelledby="languageBtn"]'
+        ).children;
+        console.log(list);
+        for (let item of list) {
+          console.log(item);
+          item.children[0].href =
+            item.children[0].dataset.code + window.location.pathname;
+        }
       } else {
         window.LANGUAGE = localeCode.substring(1);
+        const lBtn = document.getElementById("languageBtn");
+        const lBtn2 = document.querySelector(
+          '[data-code="' + window.LANGUAGE + '"]'
+        );
+
+        const eCode = lBtn.dataset.code;
+        const eValue = lBtn.innerHTML;
+
+        lBtn.innerHTML = lBtn2.innerHTML;
+        lBtn.dataset.code = window.LANGUAGE;
+
+        lBtn2.href = window.location.href.split("/" + window.LANGUAGE)[1];
+
+        lBtn2.dataset.code = eCode;
+        lBtn2.innerHTML = eValue;
       }
 
       fetch("/api/books/" + bookName + "/owner", {

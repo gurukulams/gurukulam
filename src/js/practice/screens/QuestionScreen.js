@@ -206,7 +206,7 @@ class QuestionScreen {
         textToEdit.focus();
         textToEdit.select();
 
-        const afterSubmit = (event) => {
+        const afterSubmit = () => {
           textToEdit.parentElement.removeChild(textToEdit);
           label.innerHTML = textToEdit.value;
           selectedQuestion.choices[choiceIndex].value = textToEdit.value;

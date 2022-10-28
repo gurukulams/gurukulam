@@ -10,7 +10,7 @@
         <ul class="dropdown-menu" aria-labelledby="languageBtn">
           {{ range $.Site.Home.Translations }}
           
-          <li><a class="dropdown-item" href="{{ if (ne .Language.Lang "en") }}{{ .Language.Lang }}{{ $.Permalink }} {{ else }}{{ substr $.Permalink 3 }}{{ end }}">{{ .Language.LanguageName }}</a></li>
+          <li><a class="dropdown-item" data-code={{.Language.Lang}} href="{{ if (ne .Language.Lang "en") }}{{ .Language.Lang }}{{ $.Permalink }} {{ else }}{{ substr $.Permalink 3 }}{{ end }}">{{ .Language.LanguageName }}</a></li>
           {{ end }}
         </ul>
 

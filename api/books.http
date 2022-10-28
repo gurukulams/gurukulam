@@ -62,6 +62,31 @@ Accept-Language: ta
   }]
 }
 
+#### Update Question
+PUT {{base}}/books/12-biology/questions/CHOOSE_THE_BEST/{{question.response.body.id}}/bio-botany/unit-6_reproduction_in_plants
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+Accept-Language: ta
+
+{
+  "question": "யார் நல்ல கிரிக்கெட் வீரர் 2 ?",
+  "type": "CHOOSE_THE_BEST",
+  "choices": [{
+    "id" : {{question.response.body.choices[0].id}},
+    "value": "சச்சின்"
+  }, {
+    "id" : {{question.response.body.choices[1].id}},
+    "value": "டோனி 2"
+  }, {
+    "id" : {{question.response.body.choices[2].id}},
+    "value": "டிராவிட்",
+    "answer": true
+  }, {
+    "id" : {{question.response.body.choices[3].id}},
+    "value": "கபில்"
+  }]
+}
+
 
 #### List Questions
 GET {{base}}/books/12-biology/questions/bio-botany/unit-6_reproduction_in_plants
