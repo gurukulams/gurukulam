@@ -39,7 +39,7 @@
     "onchange": "7.1.0",
     "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0",
-    "precss": "^4.0.0",
+    "precss": "^2.0.0",
     "prettier": "2.6.2",
     "rimraf": "3.0.2",
     "rollup": "^2.70.1",
