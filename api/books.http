@@ -48,17 +48,17 @@ Accept-Language: ta
   "type": "CHOOSE_THE_BEST",
   "choices": [{
     "id" : {{question.response.body.choices[0].id}},
-    "value": "Sachin 2"
+    "value": "சச்சின்"
   }, {
     "id" : {{question.response.body.choices[1].id}},
-    "value": "Dhoni 2"
+    "value": "டோனி"
   }, {
     "id" : {{question.response.body.choices[2].id}},
-    "value": "Dravid 2",
+    "value": "டிராவிட்",
     "answer": true
   }, {
     "id" : {{question.response.body.choices[3].id}},
-    "value": "Kapil 2"
+    "value": "கபில்"
   }]
 }
 
