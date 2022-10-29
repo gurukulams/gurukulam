@@ -132,6 +132,7 @@ class Core {
         } else if (boards.length === 1) {
           myDropDownEla.innerText = boards[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
+          this.createSpanElementForBoard(boards[0], "boardsDropdown");
         } else {
           document.getElementById("subjectList").style.visibility = "visible";
           var ulEl = document.createElement("ul");
@@ -155,15 +156,13 @@ class Core {
     let liEl = document.createElement("li");
     liEl.dataset.id = item.id;
     liEl.innerHTML = `<span class="dropdown-item">${item.title}</span>`;
-
+    this.loadGrades(item.id);
     liEl.addEventListener("click", () => {
       document.querySelector("#" + id + " > a").innerText = item.title;
       document.querySelectorAll("#" + id + " > ul > li").forEach((el) => {
         el.style.display = "block";
       });
       liEl.style.display = "none";
-
-      this.loadGrades(liEl.dataset.id);
     });
     return liEl;
   }
@@ -191,11 +190,11 @@ class Core {
           myDropDownEla.innerText = "-";
           document.getElementById("subjectList").style.visibility = "hidden";
         } else if (response.length === 1) {
-          ulEl = document.querySelector("#dropdownMenuButton2 > ul");
-          ulEl.style.visibility = "hidden";
-          myDropDownEla.innerText = response[0].title;
           document.getElementById("subjectList").style.visibility = "visible";
           this.loadSubjects(boardId, response[0].id);
+          myDropDownEla.innerText = response[0].title;
+          ulEl = document.querySelector("#dropdownMenuButton2 > ul");
+          ulEl.style.visibility = "hidden";
         } else {
           document.getElementById("subjectList").style.visibility = "visible";
           ulEl = document.querySelector("#dropdownMenuButton2 > ul");
