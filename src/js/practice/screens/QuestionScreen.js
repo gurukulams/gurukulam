@@ -287,7 +287,7 @@ class QuestionScreen {
   </div>
   ${
     this.isOwner
-      ? `<span class="badge text-dark rounded-pill justify-content-end"><i class="fa-solid fa-pen px-2"></i><i class="far fa-trash-alt"></i></span>`
+      ? `<span class="badge text-dark rounded-pill justify-content-end"><i class="fa-solid fa-pen px-2"></i><i class="far fa-trash-alt" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></span>`
       : ``
   }
   
@@ -300,7 +300,7 @@ class QuestionScreen {
           liEl.querySelector(".fa-pen").addEventListener("click", editChoice);
           liEl
             .querySelector(".fa-trash-alt")
-            .addEventListener("click", removeChoice);
+            .addEventListener("on-confirmation", removeChoice);
         }
 
         liEl
@@ -436,7 +436,7 @@ class QuestionScreen {
 
       // Store Deleted Question Id
       if (this.selectedQuestion.id) {
-        this.deletedQuestionIds.push(this.selectedQuestion.id);
+        this.deletedQuestionIds.push(this.selectedQuestion);
       }
 
       // Change the UI
@@ -587,20 +587,20 @@ class QuestionScreen {
         }
       });
 
-      this.deletedQuestionIds.forEach((dQuestionId, question) => {
+      this.deletedQuestionIds.forEach((question) => {
         const deleteEndPointUrl = this.bookName
           ? "/api/books/" +
-            this.parent.dataset.type +
+            this.bookName +
             "/questions/" +
             question.type +
             "/" +
-            dQuestionId
+            question.id
           : "/api/practices/" +
             this.parent.dataset.type +
             "/" +
             this.practiceId +
             "/questions/" +
-            dQuestionId;
+            question.id;
 
         promises.push(
           fetch(deleteEndPointUrl, {
