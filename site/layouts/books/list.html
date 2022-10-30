@@ -2,8 +2,6 @@
 
 <nav class="navbar">
 
-
-    
     <ol class="breadcrumb">
         <li class="text-info px-2"><i class="fas fa-book fa-2x"></i></li>
         {{if .Parent.Title}}
@@ -32,8 +30,8 @@
   </nav>
   
 
-<main class="pt-3">
-    <ul>
+<span class="w-50 p-3" style="float: left;">
+    <ul class="lead">
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
         <li>
@@ -42,6 +40,11 @@
     {{ end }}
     </ul>
 
+</span>
+
+<span class="lead">
     {{- .Content -}}
-</main>
+</span>
+
 {{ end }}
+
