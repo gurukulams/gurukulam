@@ -30,20 +30,19 @@ class Chapter {
     const highlightMarkings = (marking) => {
       if (marking.text !== "") {
         let text = this.parent.innerHTML;
-        //let re = new RegExp(marking.prevWord + " " + marking.text, "g"); // search for all instances
+        let re = new RegExp(marking.prevWord + " " + marking.text, "g"); // search for all instances
 
         let marked = marking.note
           ? `<mark data-bs-toggle="tooltip" data-bs-placement="top" title="${marking.note}">
         ${marking.text}
         </mark>`
-          : `<mark>
+          : `<mark class='text-dark'>
         ${marking.text}
         </mark>`;
-        let newText = text.replace(
-          marking.prevWord + " " + marking.text,
-          marking.prevWord + " " + marked
-        );
-        this.parent.innerHTML = newText;
+
+        let txt2 = text.replace(re, marked);
+        this.parent.innerHTML = txt2;
+
         _parent.querySelectorAll("mark").forEach((markEl) => {
           markEl.addEventListener("dblclick", (event) => {
             editNote(event);
