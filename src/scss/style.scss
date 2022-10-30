@@ -39,7 +39,7 @@
 }
 
 #hide-sidebar-control>a::before {
-    content: "Hide";
+    content: ">>";
 }
 
 #hide-sidebar:checked~#hide-sidebar-control {
@@ -47,5 +47,5 @@
 }
 
 #hide-sidebar:checked~#hide-sidebar-control>a::before {
-    content: "Show";
+    content: "<<";
 }
