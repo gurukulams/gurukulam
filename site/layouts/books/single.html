@@ -18,7 +18,17 @@
 
 <main id="content" class="pt-3">
   {{- .Content -}}
+  <input type="checkbox" name="hide-sidebar" id="hide-sidebar" value="true" style="display: none;" />
+    <label class="radio" for="hide-sidebar" id="hide-sidebar-control">
+        <a class="button is-small"></a>
+    </label>
+    <div id="sidebar" class="sidebar" role="navigation">
+        <div>Menu Item 1</div>
+        <div>Menu Item 2</div>
+        <div>Menu Item 3</div>
+    </div>
 </main>
+
 {{ if eq $.Page.IsPage true }}
 <!-- Modal -->
 <div class="modal fade" id="noteModel" tabindex="-1" aria-labelledby="noteModelLabel" aria-hidden="true">
