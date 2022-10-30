@@ -193,8 +193,8 @@ class Core {
           document.getElementById("subjectList").style.visibility = "visible";
           this.loadSubjects(boardId, response[0].id);
           myDropDownEla.innerText = response[0].title;
-          ulEl = document.querySelector("#dropdownMenuButton2 > ul");
-          ulEl.style.visibility = "hidden";
+          // ulEl = document.querySelector("#dropdownMenuButton2 > ul");
+          // ulEl.style.visibility = "hidden";
         } else {
           document.getElementById("subjectList").style.visibility = "visible";
           ulEl = document.querySelector("#dropdownMenuButton2 > ul");
