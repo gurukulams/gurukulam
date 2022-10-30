@@ -9,17 +9,18 @@
 
 
 #sidebar {
-    width: 250px;
+    width: 50px;
 }
 
 .sidebar {
     height: 100vh;
-    width: 150px;
+    width: 50px;
     position: fixed;
     top: 0;
     right: 0;
-    padding-top: 40px;
-    background-color: lightblue;
+    padding-top: 50px;
+    background-color: white;
+    display: none;
 }
 
 .sidebar div {
@@ -30,22 +31,22 @@
 
 #hide-sidebar-control {
     position: fixed;
-    bottom: 15px;
-    right: 260px;
-}
-
-#hide-sidebar:checked~#sidebar {
-    display: none;
-}
-
-#hide-sidebar-control>a::before {
-    content: ">>";
-}
-
-#hide-sidebar:checked~#hide-sidebar-control {
+    bottom: 10px;
     right: 0;
 }
 
+#hide-sidebar:checked~#sidebar {
+    display: block;
+}
+
+#hide-sidebar-control>a::before {
+    content: "<";
+}
+
+#hide-sidebar:checked~#hide-sidebar-control {
+    right: 60px;
+}
+
 #hide-sidebar:checked~#hide-sidebar-control>a::before {
-    content: "<<";
+    content: ">";
 }

@@ -19,13 +19,14 @@
 <main id="content" class="pt-3">
   {{- .Content -}}
   <input type="checkbox" name="hide-sidebar" id="hide-sidebar" value="false" style="display: none;" />
-    <label class="radio" for="hide-sidebar" id="hide-sidebar-control">
+    <label class="radio h3" for="hide-sidebar" id="hide-sidebar-control">
         <a class="button is-small"></a>
     </label>
-    <div id="sidebar" class="sidebar" role="navigation">
-        <div>Menu Item 1</div>
-        <div>Menu Item 2</div>
-        <div>Menu Item 3</div>
+    <div id="sidebar" class="sidebar border border-start border-dark" role="navigation">
+      <ul class="list-group">
+        <li class="list-group-item"><i class="fa-solid fa-note-sticky"></i></li>
+        <li class="list-group-item"><i class="fa-solid fa-list-check"></i></li>
+      </ul>
     </div>
 </main>
 
