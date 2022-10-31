@@ -636,38 +636,45 @@ class QuestionScreen {
     };
 
     screen.parent.innerHTML = `<div class="container vh-100">
+
           <div class="row">
+          
             <div class="col-6">
-              ${
-                screen.questions.length !== 0
-                  ? `
-              <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="javascript://" aria-label="Previous" id="previousPagination">
-                    <span aria-hidden="true">&laquo;</span>
-                    </a>
-                  </li>
-                    ${this.questions
-                      .map(
-                        (
-                          _question,
-                          index
-                        ) => ` <li class="page-item q-selector">
-                  <a class="page-link" href="javascript://">${
-                    index + 1
-                  }</a></li>`
-                      )
-                      .join("")}
-                  <li class="page-item">
-                    <a class="page-link" href="javascript://" aria-label="Next" id="nextPagination">
-                    <span aria-hidden="true">&raquo;</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>`
-                  : ``
-              }
+            <div class="row">
+            <div class="col-1 pe-0 text-center">
+              <i class="pt-3 fa-solid fa-question" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Explain'></i>
+            </div>
+            <div class="col-11 px-0">
+            ${
+              screen.questions.length !== 0
+                ? `
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="javascript://" aria-label="Previous" id="previousPagination">
+                  <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                  ${this.questions
+                    .map(
+                      (_question, index) => ` <li class="page-item q-selector">
+                <a class="page-link" href="javascript://">${index + 1}</a></li>`
+                    )
+                    .join("")}
+                <li class="page-item">
+                  <a class="page-link" href="javascript://" aria-label="Next" id="nextPagination">
+                  <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>`
+                : ``
+            }
+            </div>
+            </div>
+            
+              
+              
             </div>
             <div class="col-6">
               <div class="dropdown float-end">
