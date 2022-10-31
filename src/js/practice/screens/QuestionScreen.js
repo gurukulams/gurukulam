@@ -4,6 +4,7 @@ class QuestionScreen {
     this.caller = _caller;
 
     this.questionEditor = null;
+    this.explanationEditor = null;
 
     // Model Objects
     this.questions = [];
@@ -69,14 +70,27 @@ class QuestionScreen {
       this.questionEditor.value(
         this.selectedQuestion.question ? this.selectedQuestion.question : ""
       );
+      this.explanationEditor.value(
+        this.selectedQuestion.explanation
+          ? this.selectedQuestion.explanation
+          : ""
+      );
     } else {
       this.questionEditor.innerHTML = window
         .markdownit()
         .renderInline(
           this.selectedQuestion.question ? this.selectedQuestion.question : ""
         );
+      this.explanationEditor.innerHTML = window
+        .markdownit()
+        .renderInline(
+          this.selectedQuestion.explanation
+            ? this.selectedQuestion.explanation
+            : ""
+        );
       if (window.renderMath) {
         window.renderMath(this.questionEditor);
+        window.renderMath(this.explanationEditor);
       }
     }
 
@@ -421,7 +435,7 @@ class QuestionScreen {
     const addFunction = (event) => {
       this.selectedQuestion = {
         question: "",
-        explanation: "",
+        explanation: "D",
         type: event.currentTarget.dataset.type,
       };
       this.questions.push(this.selectedQuestion);
@@ -627,7 +641,12 @@ class QuestionScreen {
         this.selectedQuestion.updated = true;
       }
     };
-
+    const setETxt = () => {
+      this.selectedQuestion.explanation = this.explanationEditor.value();
+      if (this.selectedQuestion.id) {
+        this.selectedQuestion.updated = true;
+      }
+    };
     const selectQuestionFn = (event) => {
       const pageItem = event.currentTarget;
       this.setSelectedQuestionIndex(
@@ -715,6 +734,11 @@ class QuestionScreen {
                   : `<div class="h-100" id="qTxt"></div>`
               }
               
+              ${
+                screen.isOwner
+                  ? `<textarea class="form-control h-100" placeholder="Explanation" id="eTxt" rows="3"></textarea>`
+                  : `<div class="h-100" id="eTxt"></div>`
+              }
               
             </div>
            </div>
@@ -739,6 +763,14 @@ class QuestionScreen {
 
         this.questionEditor.codemirror.on("change", function () {
           setQTxt();
+        });
+        // eslint-disable-next-line no-undef
+        this.explanationEditor = new SimpleMDE({
+          element: this.parent.querySelector("#eTxt"),
+        });
+
+        this.explanationEditor.codemirror.on("change", function () {
+          setETxt();
         });
       } else {
         // eslint-disable-next-line no-undef
