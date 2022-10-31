@@ -435,7 +435,7 @@ class QuestionScreen {
     const addFunction = (event) => {
       this.selectedQuestion = {
         question: "",
-        explanation: "D",
+        explanation: "",
         type: event.currentTarget.dataset.type,
       };
       this.questions.push(this.selectedQuestion);
@@ -661,7 +661,15 @@ class QuestionScreen {
             <div class="col-6">
             <div class="row">
             <div class="col-1 pe-0 text-center">
-              <i class="pt-3 fa-solid fa-question" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Explain'></i>
+            ${
+              screen.questions.length !== 0
+                ? `
+                <a href="javascript://" id="explainToggle">
+              <i class="pt-3 fa-solid fa-question text-decoration-line-through" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Explain'></i>
+              </a>
+              `
+                : ``
+            }
             </div>
             <div class="col-11 px-0">
             ${
@@ -734,15 +742,16 @@ class QuestionScreen {
                   : `<div class="h-100" id="qTxt"></div>`
               }
               
-              ${
-                screen.isOwner
-                  ? `<textarea class="form-control h-100" placeholder="Explanation" id="eTxt" rows="3"></textarea>`
-                  : `<div class="h-100" id="eTxt"></div>`
-              }
-              
             </div>
            </div>
            <div class="col-6">
+           <span id="explanationContainer" class="d-none">
+           ${
+             screen.isOwner
+               ? `<textarea class="form-control h-100" placeholder="Explanation" id="eTxt" rows="3"></textarea>`
+               : `<div class="h-100" id="eTxt"></div>`
+           }
+           </span>
                <div class="form-floating mb-3 h-100" style="height:100%" id="answerContainer">
                
              </div>
@@ -752,7 +761,19 @@ class QuestionScreen {
 
           
         </div>`;
-
+    document.getElementById("explainToggle").addEventListener("click", () => {
+      if (
+        document.getElementById("answerContainer").classList.contains("d-none")
+      ) {
+        document.getElementById("explanationContainer").classList.add("d-none");
+        document.getElementById("answerContainer").classList.remove("d-none");
+      } else {
+        document
+          .getElementById("explanationContainer")
+          .classList.remove("d-none");
+        document.getElementById("answerContainer").classList.add("d-none");
+      }
+    });
     if (this.questions.length !== 0) {
       if (screen.isOwner) {
         // eslint-disable-next-line no-undef
@@ -775,6 +796,7 @@ class QuestionScreen {
       } else {
         // eslint-disable-next-line no-undef
         this.questionEditor = this.parent.querySelector("#qTxt");
+        this.explanationEditor = this.parent.querySelector("#eTxt");
       }
 
       // setSelectedQuestionIndex(0);
