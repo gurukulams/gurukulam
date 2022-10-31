@@ -421,6 +421,7 @@ class QuestionScreen {
     const addFunction = (event) => {
       this.selectedQuestion = {
         question: "",
+        explanation: "",
         type: event.currentTarget.dataset.type,
       };
       this.questions.push(this.selectedQuestion);

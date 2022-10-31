@@ -23,7 +23,8 @@ Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
 {
-  "question": "Who is the best cricketer?",
+  "question": "Who is the 2 cricketer?",
+  "explanation": "Who is the 2 cricketer?",
   "type": "CHOOSE_THE_BEST",
   "choices": [{
     "value": "Sachin"
