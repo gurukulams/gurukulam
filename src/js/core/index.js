@@ -218,7 +218,7 @@ class Core {
             );
           });
 
-          ulEl.lastChild.click();
+          ulEl.firstChild.click();
 
           //this.listSyllabus(id, ulEl.firstChild.dataset.id);
         }
