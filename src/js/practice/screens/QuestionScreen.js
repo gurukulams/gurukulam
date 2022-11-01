@@ -762,22 +762,25 @@ class QuestionScreen {
           
         </div>`;
 
-        if(document.getElementById("explainToggle")) {
-          document.getElementById("explainToggle").addEventListener("click", () => {
-            if (
-              document.getElementById("answerContainer").classList.contains("d-none")
-            ) {
-              document.getElementById("explanationContainer").classList.add("d-none");
-              document.getElementById("answerContainer").classList.remove("d-none");
-            } else {
-              document
-                .getElementById("explanationContainer")
-                .classList.remove("d-none");
-              document.getElementById("answerContainer").classList.add("d-none");
-            }
-          });
+    if (document.getElementById("explainToggle")) {
+      document.getElementById("explainToggle").addEventListener("click", () => {
+        if (
+          document
+            .getElementById("answerContainer")
+            .classList.contains("d-none")
+        ) {
+          document
+            .getElementById("explanationContainer")
+            .classList.add("d-none");
+          document.getElementById("answerContainer").classList.remove("d-none");
+        } else {
+          document
+            .getElementById("explanationContainer")
+            .classList.remove("d-none");
+          document.getElementById("answerContainer").classList.add("d-none");
         }
-
+      });
+    }
 
     if (this.questions.length !== 0) {
       if (screen.isOwner) {
