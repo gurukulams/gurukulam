@@ -983,13 +983,6 @@ cytoplasms of two different protoplasts;
 development of shoot or root though in vitro
 culture particularly from callus
 
-### APPENDIX
 
-**Composition of MS (Murashige and Skoog) Medium**
 
-**Macronutrients:**
-Ammonium nitrate (NH4NO3)     1650.0 mg/l
-Potassium nitrate (KNO3)      1900.0 mg/l
-Calcium chloride (CaCl2 2H2O) 440.0 mg/l
-Magnesium sulphate (MgSO4 6H2O)370.0 mg/l
-Potassium dihydrogen phosphate (KH2PO4) 170.0 mg/l
+
