@@ -20,6 +20,9 @@ class QuestionScreen {
   }
 
   isValid() {
+    if (!this.isOwner) {
+      return true;
+    }
     let isVal = false;
     if (this.selectedQuestion.question.trim() === "") {
       window.error("Please Enter Question");
