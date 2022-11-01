@@ -19,6 +19,26 @@ class QuestionScreen {
     this.deletedQuestionIds = [];
   }
 
+  isValid() {
+    let isVal = false;
+    if (this.selectedQuestion.question.trim() === "") {
+      window.error("Please Enter Question");
+    } else if (
+      !this.selectedQuestion.choices ||
+      this.selectedQuestion.choices.length < 2
+    ) {
+      window.error("Please Enter 2 Choices Minimum");
+    } else if (
+      this.selectedQuestion.choices.filter((choice) => choice.answer).length ===
+      0
+    ) {
+      window.error("Please Select right answer");
+    } else {
+      isVal = true;
+    }
+    return isVal;
+  }
+
   setSelectedQuestionIndex(selectedQIndex) {
     // Data Changes
     this.selectedQuestion = this.questions[selectedQIndex];
@@ -26,86 +46,95 @@ class QuestionScreen {
     // UI Changes
 
     const goPreviousFn = () => {
-      this.setSelectedQuestionIndex(
-        this.questions.indexOf(this.selectedQuestion) - 1
-      );
+      if (this.isValid()) {
+        this.setSelectedQuestionIndex(
+          this.questions.indexOf(this.selectedQuestion) - 1
+        );
+      }
     };
 
     const goNextFn = () => {
-      this.setSelectedQuestionIndex(
-        this.questions.indexOf(this.selectedQuestion) + 1
-      );
+      if (this.isValid()) {
+        this.setSelectedQuestionIndex(
+          this.questions.indexOf(this.selectedQuestion) + 1
+        );
+      }
     };
 
     const paginationElement = this.parent.querySelector(".pagination");
+    if (paginationElement) {
+      if (selectedQIndex === 0) {
+        paginationElement.firstElementChild.classList.add("disabled");
+        paginationElement.firstElementChild.removeEventListener(
+          "click",
+          goPreviousFn
+        );
+      } else {
+        paginationElement.firstElementChild.classList.remove("disabled");
+        paginationElement.firstElementChild.addEventListener(
+          "click",
+          goPreviousFn
+        );
+      }
 
-    if (selectedQIndex === 0) {
-      paginationElement.firstElementChild.classList.add("disabled");
-      paginationElement.firstElementChild.removeEventListener(
-        "click",
-        goPreviousFn
-      );
-    } else {
-      paginationElement.firstElementChild.classList.remove("disabled");
-      paginationElement.firstElementChild.addEventListener(
-        "click",
-        goPreviousFn
-      );
-    }
+      if (selectedQIndex === this.questions.length - 1) {
+        paginationElement.lastElementChild.classList.add("disabled");
+        paginationElement.lastElementChild.removeEventListener(
+          "click",
+          goNextFn
+        );
+      } else {
+        paginationElement.lastElementChild.classList.remove("disabled");
+        paginationElement.lastElementChild.addEventListener("click", goNextFn);
+      }
 
-    if (selectedQIndex === this.questions.length - 1) {
-      paginationElement.lastElementChild.classList.add("disabled");
-      paginationElement.lastElementChild.removeEventListener("click", goNextFn);
-    } else {
-      paginationElement.lastElementChild.classList.remove("disabled");
-      paginationElement.lastElementChild.addEventListener("click", goNextFn);
-    }
+      if (paginationElement.querySelector(".active")) {
+        paginationElement.querySelector(".active").classList.remove("active");
+      }
 
-    if (paginationElement.querySelector(".active")) {
-      paginationElement.querySelector(".active").classList.remove("active");
-    }
+      paginationElement.children[selectedQIndex + 1].classList.add("active");
 
-    paginationElement.children[selectedQIndex + 1].classList.add("active");
-    if (this.isOwner) {
-      this.questionEditor.value(
-        this.selectedQuestion.question ? this.selectedQuestion.question : ""
-      );
-      this.explanationEditor.value(
-        this.selectedQuestion.explanation
-          ? this.selectedQuestion.explanation
-          : ""
-      );
-    } else {
-      this.questionEditor.innerHTML = window
-        .markdownit()
-        .renderInline(
+      if (this.isOwner) {
+        this.questionEditor.value(
           this.selectedQuestion.question ? this.selectedQuestion.question : ""
         );
-      this.explanationEditor.innerHTML = window
-        .markdownit()
-        .renderInline(
+        this.explanationEditor.value(
           this.selectedQuestion.explanation
             ? this.selectedQuestion.explanation
             : ""
         );
-      if (window.renderMath) {
-        window.renderMath(this.questionEditor);
-        window.renderMath(this.explanationEditor);
+      } else {
+        this.questionEditor.innerHTML = window
+          .markdownit()
+          .renderInline(
+            this.selectedQuestion.question ? this.selectedQuestion.question : ""
+          );
+        this.explanationEditor.innerHTML = window
+          .markdownit()
+          .renderInline(
+            this.selectedQuestion.explanation
+              ? this.selectedQuestion.explanation
+              : ""
+          );
+        if (window.renderMath) {
+          window.renderMath(this.questionEditor);
+          window.renderMath(this.explanationEditor);
+        }
       }
+
+      this.renderAnswerElement();
+
+      // Setting Answer
+      // this.parent.querySelector("#answerElement").value = this.selectedQuestion
+      //   .answer
+      //   ? this.selectedQuestion.answer
+      //   : "";
+      if (this.questionEditor.codemirror) {
+        this.questionEditor.codemirror.focus();
+      }
+
+      document.dispatchEvent(new Event("onrender"));
     }
-
-    this.renderAnswerElement();
-
-    // Setting Answer
-    // this.parent.querySelector("#answerElement").value = this.selectedQuestion
-    //   .answer
-    //   ? this.selectedQuestion.answer
-    //   : "";
-    if (this.questionEditor.codemirror) {
-      this.questionEditor.codemirror.focus();
-    }
-
-    document.dispatchEvent(new Event("onrender"));
   }
 
   render(_owner, practiceId, _chaptorName) {
@@ -456,8 +485,10 @@ class QuestionScreen {
 
       // Change the UI
       const paginationElement = screen.parent.querySelector(".pagination");
-      var liToKill = paginationElement.children[selectedIndex + 1];
-      liToKill.parentNode.removeChild(liToKill);
+      if (paginationElement) {
+        var liToKill = paginationElement.children[selectedIndex + 1];
+        liToKill.parentNode.removeChild(liToKill);
+      }
 
       if (selectedIndex === 0) {
         this.renderQuestions(this);
@@ -550,89 +581,102 @@ class QuestionScreen {
     };
 
     const saveFn = () => {
-      const promises = [];
-      console.log("dffsfsfd", this.bookName);
-      this.questions.forEach((question) => {
-        const addEndPointUrl = this.bookName
-          ? "/api/books/" +
-            this.bookName +
-            "/questions/" +
-            question.type +
-            "/" +
-            this.chaptorPath
-          : "/api/practices/" +
-            this.parent.dataset.type +
-            "/" +
-            this.practiceId +
-            "/questions/" +
-            question.type;
+      if (this.isValid()) {
+        const promises = [];
 
-        const updateEndPointUrl = this.bookName
-          ? "/api/books/" +
-            this.bookName +
-            "/questions/" +
-            question.type +
-            "/" +
-            question.id
-          : "/api/practices/" +
-            this.parent.dataset.type +
-            "/" +
-            this.practiceId +
-            "/questions/" +
-            question.type +
-            "/" +
-            question.id;
+        this.questions.forEach((question) => {
+          const addEndPointUrl = this.bookName
+            ? "/api/books/" +
+              this.bookName +
+              "/questions/" +
+              question.type +
+              "/" +
+              this.chaptorPath
+            : "/api/practices/" +
+              this.parent.dataset.type +
+              "/" +
+              this.practiceId +
+              "/questions/" +
+              question.type;
 
-        if (!question.id) {
+          const updateEndPointUrl = this.bookName
+            ? "/api/books/" +
+              this.bookName +
+              "/questions/" +
+              question.type +
+              "/" +
+              question.id
+            : "/api/practices/" +
+              this.parent.dataset.type +
+              "/" +
+              this.practiceId +
+              "/questions/" +
+              question.type +
+              "/" +
+              question.id;
+
+          if (!question.id) {
+            promises.push(
+              fetch(addEndPointUrl, {
+                method: "POST",
+                headers: window.ApplicationHeader(),
+                body: JSON.stringify(question),
+              })
+            );
+          } else if (question.updated) {
+            promises.push(
+              fetch(updateEndPointUrl, {
+                method: "PUT",
+                headers: window.ApplicationHeader(),
+                body: JSON.stringify(question),
+              })
+            );
+          }
+        });
+
+        this.deletedQuestionIds.forEach((question) => {
+          const deleteEndPointUrl = this.bookName
+            ? "/api/books/" +
+              this.bookName +
+              "/questions/" +
+              question.type +
+              "/" +
+              question.id
+            : "/api/practices/" +
+              this.parent.dataset.type +
+              "/" +
+              this.practiceId +
+              "/questions/" +
+              question.id;
+
           promises.push(
-            fetch(addEndPointUrl, {
-              method: "POST",
+            fetch(deleteEndPointUrl, {
+              method: "DELETE",
               headers: window.ApplicationHeader(),
-              body: JSON.stringify(question),
             })
           );
-        } else if (question.updated) {
-          promises.push(
-            fetch(updateEndPointUrl, {
-              method: "PUT",
-              headers: window.ApplicationHeader(),
-              body: JSON.stringify(question),
-            })
-          );
-        }
-      });
+        });
 
-      this.deletedQuestionIds.forEach((question) => {
-        const deleteEndPointUrl = this.bookName
-          ? "/api/books/" +
-            this.bookName +
-            "/questions/" +
-            question.type +
-            "/" +
-            question.id
-          : "/api/practices/" +
-            this.parent.dataset.type +
-            "/" +
-            this.practiceId +
-            "/questions/" +
-            question.id;
-
-        promises.push(
-          fetch(deleteEndPointUrl, {
-            method: "DELETE",
-            headers: window.ApplicationHeader(),
-          })
-        );
-      });
-
-      // eslint-disable-next-line no-undef
-      Promise.allSettled(promises).then(() => {
-        if (this.bookName) {
-          window.location = "/books/" + this.bookName + "/" + this.chaptorPath;
-        } else {
-          goBack();
-        }
-      });
+        // eslint-disable-next-line no-undef
+        Promise.allSettled(promises).then(() => {
+          if (this.bookName) {
+            if (window.LANGUAGE) {
+              window.location =
+                window.LANGUAGE +
+                "/" +
+                "/books/" +
+                this.bookName +
+                "/" +
+                this.chaptorPath;
+            } else {
+              window.location =
+                "/books/" + this.bookName + "/" + this.chaptorPath;
+            }
+          } else {
+            goBack();
+          }
+        });
+      }
     };
 
     const setQTxt = () => {
@@ -648,10 +692,12 @@ class QuestionScreen {
       }
     };
     const selectQuestionFn = (event) => {
-      const pageItem = event.currentTarget;
-      this.setSelectedQuestionIndex(
-        Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1
-      );
+      if (this.isValid()) {
+        const pageItem = event.currentTarget;
+        this.setSelectedQuestionIndex(
+          Array.from(pageItem.parentNode.children).indexOf(pageItem) - 1
+        );
+      }
     };
 
     screen.parent.innerHTML = `<div class="container vh-100">
