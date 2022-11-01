@@ -1014,64 +1014,66 @@ Hyperploidy and Hypoploidy (Figure 3.21).
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.33.png )
 
-1.Hyperploidy
+**1.Hyperploidy**
+
 Addition of one or more chromosomes to
-diploid sets are called hyperploidy. Diploid
+diploid sets are called **hyperploidy.** Diploid
 set of chromosomes represented as Disomy.
 Hyperploidy can be divided into three types.
 They are as follows,
 
-(a) Trisomy
+**(a) Trisomy**
+
 Addition of single chromosome to diploid set
-is called Simple trisomy(2n+1). Trisomics were
-first reported by Blackeslee (1910) in Datura
-stramonium (Jimson weed). But later it was
-reported in Nicotiana, Pisum and Oenothera.
+is called **Simple trisomy(2n+1)**. Trisomics were
+first reported by Blackeslee (1910) in **Datura stramonium** (Jimson weed). But later it was
+reported in **Nicotiana, Pisum and Oenothera**.
 Sometimes addition of two individual
 chromosome from different chromosomal
-pairs to normal diploid sets are called Double
-trisomy (2n+1+1).
+pairs to normal diploid sets are called **Double trisomy (2n+1+1).**
 
-(b) Tetrasomy
+**(b) Tetrasomy**
 
 Addition of a pair or two individual pairs of
-chromosomes to diploid set is called tetrasomy
-(2n+2) and Double tetrasomy (2n+2+2)
+chromosomes to diploid set is called **tetrasomy**
+(2n+2) and **Double tetrasomy** (2n+2+2)
 respectively. All possible tetrasomics are
 available in Wheat.
 
-(c) Pentasomy
+**(c) Pentasomy**
 
 Addition of three individual chromosome from
 different chromosomal pairs to normal diploid
 set are called pentasomy (2n+3).
 
-2.Hypoploidy
+**2.Hypoploidy**
+
 Loss of one or more chromosome from the
-diploid set in the cell is called hypoploidy. It
+diploid set in the cell is called **hypoploidy.** It
 can be divided into two types. They are
 
-(a) Monosomy
+**(a) Monosomy**
 
 Loss of a single chromosome from the diploid
-set are called monosomy(2n-1). However
+set are called **monosomy(2n-1)**. However
 loss of two individual or three individual
-chromosomes are called double monosomy
-(2n-1-1) and triple monosomy (2n-1-1-1)
+chromosomes are called **double monosomy**
+(2n-1-1) and **triple monosomy** (2n-1-1-1)
 respectively. Double monosomics are observed
 in maize.
 
-(b) Nullisomy
+**(b) Nullisomy**
 
 Loss of a pair of homologous chromosomes or two pairs of homologous chromosomes from
-the diploid set are called Nullisomy (2n-2) and
-double Nullisomy (2n-2-2) respectively. Selfing
+the diploid set are called **Nullisomy (2n-2)** and
+**double Nullisomy** (2n-2-2) respectively. Selfing
 of monosomic plants produce nullisomics. They
 are usually lethal.
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.34.png )
 
-(ii) Euploidy
+**(ii) Euploidy**
+
 Euploidy is a condition where the organisms
 possess one or more basic sets of chromosomes.
 Euploidy is classified as monoploidy, diploidy
@@ -1094,7 +1096,8 @@ polyploidy condition. In a true diploid both the
 monoploid and haploid chromosome number
 are same. Thus a monoploid can be a haploid
 but all haploids cannot be a monoploid.
-Polyploidy
+
+**Polyploidy**
 
 Polyploidy is the condition where an
 organism possesses more than two basic sets of chromosomes. When there are three, four, five or six basic sets of chromosomes, they are called
@@ -1108,14 +1111,15 @@ higher ploidy level leads to death. Polyploidy
 is of two types. They are autopolyploidy and
 allopolyploidy
 
-1.Autopolyploidy
+**1.Autopolyploidy**
+
 The organism which possesses more than two
 haploid sets of chromosomes derived from
 within the same species is called autopolyploid.
 They are divided into two types. Autotriploids
 and autotetraploids.
 
-Autotriploids have three set of its own
+**Autotriploids** have three set of its own
 genomes. They can be produced artificially by
 crossing between autotetraploid and diploid
 species. They are highly sterile due to defective
@@ -1124,15 +1128,16 @@ banana are usually triploids and are seedless
 having larger fruits than diploids. Triploid sugar
 beets have higher sugar content than diploids
 and are resistant to moulds. Common doob grass
-(Cyanodon dactylon) is a natural autotriploid.
+**(Cyanodon dactylon)** is a natural autotriploid.
 Seedless watermelon, apple, sugar beet, tomato,
 banana are man made autotriploids.
-Autotetraploids have four copies of its own
+
+**Autotetraploids** have four copies of its own
 genome. They may be induced by doubling the
 chromosomes of a diploid species. Example: rye,
 grapes, alfalfa, groundnut, potato and coffee.
 
-2.Allopolyploidy
+**2.Allopolyploidy**
 
 An organism which possesses two or more
 basic sets of chromosomes derived from two
@@ -1145,11 +1150,11 @@ formed between closely related species only.
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.35.png )
 
-Example:1
+**Example:1**
 
-Raphanobrassica,G.D.Karpechenko (1927) a Russian geneticist,
-crossed the radish (Raphanus sativus, 2n=18)
-and cabbage (Brassica oleracea, 2n=18) to
+**Raphanobrassica,G.D.Karpechenko (1927)** a Russian geneticist,
+crossed the radish (**Raphanus sativus**, 2n=18)
+and cabbage (**Brassica oleracea**, 2n=18) to
 produce F1 hybrid which was sterile. When he
 doubled the chromosome of F1 hybrid he got
 it fertile. He expected this plant to exhibit the
@@ -1157,7 +1162,7 @@ root of radish and the leaves like cabbage, which
 would make the entire plant edible, but the case
 was vice versa, so he was greatly disappointed.
 
-Example: 2 Triticale, the successful first man
+Example: 2 **Triticale**, the successful first man
 made cereal. Depending on the ploidy level
 Triticale can be divided into three main groups.
 Tetraploidy: Crosses between diploid
@@ -1185,7 +1190,7 @@ be explained by chart below (Figure: 3.23).
 {{< box title="" type="">}}
 
 
-Activity: Solve this
+**Activity:** Solve this
 When two plants (A and B) belonging to the
 same genus but different species are crossed,
 the F1 hybrid is viable and has more ornate
@@ -1197,7 +1202,7 @@ sterility of this hybrid to be reversed.
 
 {{< /box >}}
 
-Significance of Ploidy
+**Significance of Ploidy**
 
 • Many polyploids are more vigorous and
 more adaptable than diploids.
@@ -1216,30 +1221,30 @@ chromosomes.
 • Many angiosperms are allopolyploids and
 they play a role in the evolution of plants.
 
-II	Structural changes in chromosome
-(Structural chromosomal aberration)
+**II	Structural changes in chromosome (Structural chromosomal aberration)**
+
 Structural variations caused by addition or deletion of a part of chromosome leading to
-rearrangement of genes is called structural
-chromosomal aberration. It occurs due to
+rearrangement of genes is called **structural chromosomal aberration.** It occurs due to
 ionizing radiation or chemical compounds. On
 the basis of breaks and reunion in chromosomes,
 there are four types of aberrations. They are
 classified under two groups.
 
-A. Changes in the number of the gene loci
+**A. Changes in the number of the gene loci**
 
 1. Deletion or Deficiency
 
 2. Duplication or Repeat
 
-B. Changes in the arrangement of gene loci
+**B. Changes in the arrangement of gene loci**
 
 3. Inversion
 
 4. Translocation
 
 
-1.Deletion or Deficiency
+**1.Deletion or Deficiency**
+
 Loss of a portion of chromosome is called
 deletion. On the basis of location of breakage
 on chromosome, it is divided into terminal
@@ -1247,7 +1252,8 @@ deletion and intercalary deletion. It occurs
 due to chemicals, drugs and radiations. It is
 observed in Drosophila and Maize. (Figure 3.24)
 
-2.Duplication or Repeat
+**2.Duplication or Repeat**
+
 The process of arrangement of the same order
 of genes repeated more than once in the same
 chromosome is known as duplication. Due to
@@ -1256,7 +1262,8 @@ two copies. It was first reported in Drosophila
 by Bridges (1919) and other examples are Maize
 and Pea. It is three types.
 
-4.Translocation
+**4.Translocation**
+
 The transfer of a segment of chromosome
 to a non-homologous chromosome is called
 translocation. Translocation should not
