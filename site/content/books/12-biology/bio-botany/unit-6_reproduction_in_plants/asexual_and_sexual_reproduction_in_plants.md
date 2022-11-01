@@ -747,7 +747,7 @@ an ovary may be one (paddy, wheat and mango)
 or many (papaya, water melon and orchids).
 
 
-##### Structure of ovule(Megasporangium):
+ <u> Structure of ovule(Megasporangium): </u>
 
 
 Ovule is also called megasporangium and is

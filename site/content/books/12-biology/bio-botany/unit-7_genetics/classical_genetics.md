@@ -91,7 +91,7 @@ information) which transmits biochemical,
 anatomical and behavioural traits from
 parents to offsprings.
 
-
+{{< /box >}}
 
 
 **2.1 Heredity and variation**
