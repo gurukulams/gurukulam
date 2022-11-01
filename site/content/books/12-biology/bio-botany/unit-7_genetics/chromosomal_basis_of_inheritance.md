@@ -25,7 +25,7 @@ examples.
 
 3.1 Chromosomal theory of Inheritance
 
-3.2	Linkage - Eye colour in Drosophila
+3.2	Linkage - Eye colour in *Drosophila*
 and Seed colour in Maize
 
 3.3 Crossing over, Recombination and
@@ -58,7 +58,7 @@ to advancements in microscopy. This led to
 the discovery of structures inside nucleus.
 In eukaryotic cells, worm-shaped structures
 formed during cell division are called
-chromosomes (colored bodies, visualized
+**chromosomes** (colored bodies, visualized
 by staining). An organism which possesses
 two complete basic sets of chromosomes are
 known as diploid. A chromosome consists
@@ -78,38 +78,39 @@ The important cytological findings related
 to the chromosome theory of inheritance are
 given below.
 
-Wilhelm Roux (1883) postulated that the
+* **Wilhelm Roux (1883)** postulated that the
 chromosomes of a cell are responsible for
 transferring heredity.
 
-Montgomery(1901) was first to suggest occurrence of distinct pairs of
+* **Montgomery(1901)** was first to suggest occurrence of distinct pairs of
 chromosomes and he also concluded that
 maternal chromosomes pair with paternal
 chromosomes only during meiosis.
 
 
-T.Boveri (1902) supported the
+**T.Boveri (1902)** supported the
 idea that the chromosomes contain
 genetic determiners, and he was
 largely responsible for developing the
 chromosomal theory of inheritance.
 
 
-W.S. Sutton (1902), a young American
+**W.S. Sutton (1902)**, a young American
 student independently recognized a
 parallelism (similarity) between the
 behaviour of chromosomes and Mendelian
 factors during gamete formation.
-Sutton and Boveri (1903) independently
+
+**Sutton and Boveri (1903)** independently
 proposed the chromosome theory of
 inheritance. Sutton united the knowledge of
 chromosomal segregation with Mendelian
 principles and called it chromosomal theory
-of inheritance
+of inheritance.
 
 **3..1.2 Salient features of the Chromosomal theory of inheritance**
 
-Somatic cells of organisms are derived
+* Somatic cells of organisms are derived
 from the zygote by repeated cell division
 (mitosis). These consist of two identical
 sets of chromosomes. One set is received
@@ -118,15 +119,15 @@ the other from male parent (paternal).
 These two chromosomes constitute the
 homologous pair.
 
-Chromosomes retain their structural
+* Chromosomes retain their structural
 uniqueness and individuality throughout
 the life cycle of an organism.
 
-E ach chromosome carries specific
+* Each chromosome carries specific
 determiners or Mendelian factors which
 are now termed as genes.
 
-The behaviour of chromosomes during
+* The behaviour of chromosomes during
 the gamete formation (meiosis) provides
 evidence to the fact that genes or factors
 are located on chromosomes.
@@ -261,12 +262,14 @@ Table 3.2 : Number of Chromosomes
 
 
 {{< box title=" DID YOU KNOW" type="objective">}}
-Fossil Genes: Some of the
+
+**Fossil Genes:** Some of the
 junk DNA is made up of pseudo
 genes, the sequences presence in
 that was once working genes. They lost their
 ability to make proteins. They tell the story of
 evolution through fossilized parts.
+
 {{< /box >}}
 
 **3.2 Linkage**
@@ -282,16 +285,15 @@ Independent Assortment. Biologists came
 across certain genetic characteristics that did
 not assort out independently in other organisms
 after Mendel’s work. One such case was reported
-in Sweet pea (Lathyrus odoratus) by William
-Bateson and Reginald C. Punnet in 1906.
+in Sweet pea (*Lathyrus odoratus*) by **William Bateson and Reginald C. Punnet in 1906.**
 They crossed one homozygous strain of sweet
-peas having purple flowers and long pollen
-grains with another homozygous strain having
-red flowers and round pollen grains. All the
+peas having **purple flowers and long pollen**
+**grains** with another homozygous strain having
+**red flowers** and **round pollen grains.** All the
 F<sub>1</sub>  progenies had purple flower and long pollen
 grains indicating purple flower long pollen
-(PL/PL) was dominant over red flower round
-pollen (pl/pl). When they crossed the F<sub>1</sub>  with
+**(PL/PL)** was dominant over red flower round
+pollen **(pl/pl)**. When they crossed the F<sub>1</sub>  with
 double recessive parent (test cross) in results,F<sub>2</sub>  progenies did not exhibit in 1:1:1:1 ratio as expected with independent assortment. A
 greater number of F<sub>2</sub> plants had purple flowers
 and long pollen or red flowers and round
@@ -303,16 +305,16 @@ of chromosomes. These genes do not allow
 themselves to be separated. So they do not
 assort independently. This type of tendency
 of genes to stay together during separation of
-chromosomes is called Linkage.
+chromosomes is called **Linkage.**
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.24.png )
 
 Genes located close together on the
 same chromosome and inherited together are
-called linked genes. But the two genes that are
+called **linked genes**. But the two genes that are
 sufficiently far apart on the same chromosome are
-called unlinked genes or syntenic genes (Figure
-3.3). Such condition is known as synteny. It is to
+called **unlinked genes or syntenic genes** (Figure
+3.3). Such condition is known as **synteny**. It is to
 be differentiated by the value of recombination
 frequency. If the recombination frequency value
 is more than 50 % the two genes show unlinked.
@@ -326,7 +328,7 @@ located show weak linkages.
 The two dominant alleles or recessive alleles
 occur in the same homologous chromosomes,
 tend to inherit together into same gamete are
-called coupling or cis configuration (Figure:
+called **coupling or cis configuration** (Figure:
 3.5 ). If dominant or recessive alleles are present
 on two different, but homologous chromosomes
 they inherit apart into different gamete are called
@@ -338,7 +340,7 @@ they inherit apart into different gamete are called
 
 **3.2.2 Kinds of Linkage**
 
-T.H. Morgan found two types of linkage. They
+**T.H. Morgan** found two types of linkage. They
 are complete linkage and incomplete linkage
 depending upon the absence or presence of
 new combination of linked genes.
@@ -350,24 +352,26 @@ genes are not possible those genes always remain
 together as a result, only parental combinations are observed. The linked genes are located
 very close together on the same chromosome
 such genes do not exhibit crossing over. This
-phenomenon is called complete linkage. It is
-rare but has been reported in male Drosophila.
-C.B Bridges (1919) discovered that crossing
+phenomenon is called **complete linkage.** It is
+rare but has been reported in male **Drosophila.**
+**C.B Bridges** (1919) discovered that crossing
 over is completely absent in some species of
-male Drosophila.
-Incomplete Linkage
+male **Drosophila.**
+
+**Incomplete Linkage**
+
 If two linked genes are sufficiently apart,
 the chances of their separation are possible. As a
 result, parental and non-parental combinations
 are observed. The linked genes exhibit some
 crossing over. This phenomenon is called
-incomplete linkage. This was observed in
+**incomplete linkage.** This was observed in
 maize. It was reported by Hutchinson.
 
 **3.2.3 Linkage Groups**
 
 The groups of linearly arranged linked genes
-on a chromosome are called Linkage groups.
+on a chromosome are called **Linkage groups**.
 In any species the number of linkage groups
 corresponds to the number haploid set of chromosomes. Example:
 
@@ -463,7 +467,7 @@ produces new combination of genes by inter-
 changing the corresponding segments between
 non-sister chromatids of homologous pair of
 chromosomes. The term 'crossing over' was
-coined by Morgan (1912). It takes place during
+coined by **Morgan (1912)**. It takes place during
 pachytene stage of prophase I of meiosis. Usually
 crossing over occurs in germinal cells during
 gametogenesis. It is called meiotic or germinal
@@ -478,32 +482,33 @@ Crossing over is a precise process that includes
 stages like synapsis, tetrad formation, cross over
 and terminalization.
 
-(i) Synapsis
+**(i) Synapsis**
+
 Intimate pairing between two homologous
 chromosomes is initiated during zygotene
 stage of prophase I of meiosis I. Homologous
 chromosomes are aligned side by side resulting
 in a pair of homologous chromosomes called
-bivalents. This pairing phenomenon is called
-synapsis or syndesis. It is of three types,
+**bivalents.** This pairing phenomenon is called
+**synapsis or syndesis.** It is of three types,
 
-1.Procentric synapsis: Pairing starts from
+**1.Procentric synapsis:** Pairing starts from
 middle of the chromosome.
 
-2.Proterminal synapsis: Pairing starts from
+**2.Proterminal synapsis:** Pairing starts from
 the telomeres.
 
-3.R andom synapsis: Pairing may start from
+**3.R andom synapsis:** Pairing may start from
 anywhere.
 
-(ii) Tetrad Formation Each homologous chromosome of a bivalent begin to form two identical sister chromatids, which remain held together by a centromere. At this stage each bivalent has fourchromatids. This stage is called tetrad stage.
+**(ii) Tetrad Formation** Each homologous chromosome of a bivalent begin to form two identical sister chromatids, which remain held together by a centromere. At this stage each bivalent has fourchromatids. This stage is called **tetrad stage.**
 
-(iii) Cross Over After tetrad formation, crossing over occurs in
+**(iii) Cross Over** After tetrad formation, crossing over occurs in
 pachytene stage. The non-sister chromatids of
 homologous pair make a contact at one or more
 points. These points of contact between non-
 sister chromatids of homologous chromosomes
-are called Chiasmata (singular-Chiasma). At
+are called **Chiasmata** (singular-Chiasma). At
 chiasma, cross-shaped or X-shaped structures
 are formed, where breaking and rejoining of
 two chromatids occur. This results in reciprocal
@@ -511,16 +516,19 @@ exchange of equal and corresponding segments
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.27.png )
 
-(iv) Terminalisation
+**(iv) Terminalisation**
+
 After crossing over, chiasma starts to move
 towards the terminal end of chromatids. This is
-known as terminalisation. As a result, complete
+known as **terminalisation.** As a result, complete
 separation of homologous chromosomes
 occurs. (Figure 3.10)
 
 
 {{< box title=" Activity" type="objective">}}
-solve this
+
+**solve this**
+
 Consider two hypothetical recessive
 autosomal genes a and b, where a
 heterozygote is testcrossed to a double
@@ -545,19 +553,19 @@ Crossing over occurs in all organisms like
 bacteria, yeast, fungi, higher plants and animals.
 Its importance is
 
-Exchange of segments leads to new gene combinations which plays an important
+- Exchange of segments leads to new gene combinations which plays an important
 role in evolution.
 
-Studies of crossing over reveal that genes
+- Studies of crossing over reveal that genes
 are arranged linearly on the chromosomes.
 
-Genetic maps are made based on the
+- Genetic maps are made based on the
 frequency of crossing over.
 
-Crossing over helps to understand the
+- Crossing over helps to understand the
 nature and mechanism of gene action.
 
-If a useful new combination is formed it
+- If a useful new combination is formed it
 can be used in plant breeding.
 
 **3.3.4 Recombination**
@@ -567,8 +575,10 @@ combination of characters in an organism
 called recombinants. In this, segments of DNA
 are broken and recombined to produce new
 combinations of alleles. This process is called
-Recombination.
-Calculation of Recombination Frequency (RF)
+**Recombination.**
+
+**Calculation of Recombination Frequency (RF)**
+
 The percentage of recombinant progeny
 in a cross is called recombination frequency.
 The recombination frequency (cross over
@@ -594,10 +604,10 @@ on that chromosome.
 **Map distance**
 
 The unit of distance in a genetic map
-is called a map unit (m.u). One map unit is
+is called a **map unit** (m.u). One map unit is
 equivalent to one percent of crossing over
 (Figure 4. ). One map unit is also called a
-centimorgan (cM) in honour of T.H. Morgan.
+centimorgan (cM) in honour of **T.H. Morgan**.
 100 centimorgan is equal to one Morgan (M).
 For example: A distance between A and B genes
 is estimated to be 3.5 map units. It is equal to 3.5
@@ -607,16 +617,16 @@ frequency between the genes.
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.28.png )
 
-Uses of genetic mapping
+**Uses of genetic mapping**
 
-It is used to determine gene order, identify
+- It is used to determine gene order, identify
 the locus of a gene and calculate the
 distances between genes.
 
-They are useful in predicting results of
+- They are useful in predicting results of
 dihybrid and trihybrid crosses.
 
-It allows the geneticists to understand the overall genetic complexity of particular
+- It allows the geneticists to understand the overall genetic complexity of particular
 organism.
 
 **3.4 Multiple alleles**
@@ -628,7 +638,7 @@ homologous chromosome. When any of the
 three or more allelic forms of a gene occupy
 the same locus in a given pair of homologous
 chromosomes, they are said to be called
-multiple alleles.
+**multiple alleles.**
 
 {{< box title="" type="">}}
 Check your Grasp
