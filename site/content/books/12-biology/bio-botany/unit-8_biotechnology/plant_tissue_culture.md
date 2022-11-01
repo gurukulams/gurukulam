@@ -694,3 +694,302 @@ indications.
 
 * It is a special right to the discoverer/inventor
 that has been granted by the government
+through legislation for trading new articles.
+
+* A patent is a personal property which
+can be licensed or sold by the person or
+organisation just like any other property.
+
+* Patent terms give the inventor the rights to
+exclude others from making, using or selling
+his invention.
+
+### 5.7.2 Biosafety and Bioethics
+
+Advances in biotechnology and their
+applications deals with genetic manipulation.
+
+**Biosafety**
+
+Biosafety is the prevention of large-scale
+loss of biological integrity, focusing both on
+ecology and human health. These prevention
+mechanisms include conduction of regular
+reviews of the biosafety in laboratory settings,
+as well as strict guidelines to follow. Many
+laboratories handling biohazards employ an
+ongoing risk management assessment and
+enforcement process for biosafety. Failures to
+follow such protocols can lead to increased risk
+of exposure to biohazards or pathogens.
+
+**Bioethics - Ethical, Implications (ELSI) Legal and Social**
+
+Bioethics refers to the study of ethical issues
+emerging from advances in biology and
+medicine. It is also a moral discernment
+as it relates to medical policy and practice.
+Bioethicists are concerned with the ethical
+questions that arise in the relationships among
+life sciences, biotechnology and medicine. It
+includes the study of values relating to primary
+care and other branches of medicine.
+
+The scope of bioethics is directly related to
+biotechnology, including cloning, gene therapy,
+life extension, human genetic engineering,
+astroethics life in space, and manipulation of
+basic biology through altered DNA, RNA and
+proteins. These developments in biotechnology
+will affect future evolution, and may require new
+principles, such as biotic ethics, that values life
+and its basic biological characters and structures.
+The Ethical, Legal, and Social Implications
+(ELSI) program was founded in 1990 as an
+integral part of the Human Genome Project. The
+mission of the ELSI program was to identify and
+address issues raised by genomic research that
+would affect individuals, families, and society.
+A percentage of the Human Genome Project
+budget at the National Institutes of Health and
+the U.S. Department of Energy was devoted to
+ELSI research.
+
+### Genetic Engineering Appraisal Committee (GEAC)
+
+GEAC is an apex body under Ministry of
+Environment, Forests and Climate change for
+regulating manufacturing, use, import, export
+and storage of hazardous microbes or genetically
+modified organisms (GMOs) and cells in the
+country. It was established as an apex body to accord
+approval of activities involving large scale use of
+hazardous microorganisms and recombinants in
+research and industrial production. The GEAC is
+also responsible for approval of proposals relating
+to release of genetically engineered organisms
+and products into the environment including
+experimental field trials.
+
+### 5.8 Future of Biotechnology
+
+Biotechnology has become a comprehensive
+scientific venture from the point of academic
+and commercial angles, within a short time with
+the sequencing of human genome and genome
+of some important organisms. The future
+developments in biotechnology will be exciting.
+Thus the development in biotechnology will lead
+to a new scientific revolution that would change
+the lives and future of people. Like industrial
+and computer revolution, biotechnological
+revolution will also promise major changes in
+many aspects of modern life.
+
+### Summary
+
+Tissue culture is the in vitro asceptic culture of
+cells, tissues or organs into whole plants under
+controlled nutritional and environmental
+conditions. A German physiologist Gotllieb
+Haberlant in 1902 for the first time attempted
+to culture plant cells in artificial medium,
+hence he was regarded as father of Tissue
+culture. Tissue culture mainly based on
+the concepts totipotency, differentiation,
+redifferentiation and dedifferentiation. Plant
+tissue culture technique involves selection
+of explants, sterilization, media preparation,
+maintaining culture condition, callus formation,
+embryogenesis or organgenesis and hardening.
+Based on the explants chosen the types of tissue
+culture are organ culture, meristem culture,
+protoplast culture and cell suspension culture.
+From the explants, plants can be regenerated
+by somatic embryogenesis or organgenesis is
+said to be plant regeneration pathway. Some
+of the main applications of tissue culture are
+production of somatic hybrids, artificial seeds,
+disease resistant and stress resistant plants,
+germplasm conservation, micropropagation
+and production of secondary metabolites.
+Intellectual Property Right (IPR) is primarily
+aimed at patents, copyrights, trade secret and
+trademark given to the discoverer / inventor
+for the commercial production of transformed
+micro organisms or plants. Biosafety is the
+prevention mechanism to protect harmful
+incidents due to biohazards or pathogens.
+Bioethics dealt with ethical issue emerging from
+biotechnological advancement. ELSI program
+addresses issues related to genenomic research.
+GEAC (Genetic Engineering Appraisal
+Committee) is a regulatory authority for release
+of genetically modified products or organisms
+into the environment.
+
+### Evaluation
+
+Choose the correct answer
+from the given option:
+
+1. Totipotency refers to
+
+a) capacity to generate genetically identical plants.
+
+b) capacity to generate a whole plant from any plant cell / explant.
+
+c) capacity to generate hybrid protoplasts.
+
+d) recovery of healthy plants from diseased plants.
+
+2. Micro propagation involves
+
+a) vegetative multiplication of plants by using micro-organisms.
+
+b)  vegetative multiplication of plants by using small explants.
+
+c) vegetative multiplication of plants by using microspores.
+
+d) Non-vegetative multiplication of plants by using microspores and megaspores.
+
+
+![Figure 5.17: IPR in India](/books/12-biology/botany/unit8/img19.png )
+
+4. The time duration for sterilization process
+by using autoclave is ______ minutes and
+the temperature is _______
+a) 10 to 30 minutes and 125° C
+b) 15 to 30 minutes and 121° C
+c) 15 to 20 minutes and 125° C
+d) 10 to 20 minutes and 121° C
+
+5. Which of the following statement is correct
+a) Agar is not extracted from marine algae
+such as seaweeds.
+
+b) Callus undergoes differentiation and
+produces somatic embryoids.
+
+c) Surface sterilization of explants is done
+by using mercuric bromide
+
+d) PH of the culture medium is 5.0 to 6.0
+
+6. Select the incorrect statement from given
+statement
+
+a) A tonic used for cardiac arrest is obtained
+from Digitalis purpuria
+
+b)	Medicine used to treat Rheumatic pain
+is extracted from Capsicum annum
+
+c) An anti malarial drug is isolated from
+Cinchona officinalis.
+
+d) Anti-cancinogenic property is not seen in
+Catharanthus roseus.
+
+7. Virus free plants are developed from
+a) Organ culture
+b) Meristem culture
+c) Protoplast culture
+d) Cell suspension culture
+
+8. The prevention of large scale loss of
+biological interity
+a) Biopatent
+b) Bioethics
+c) Biosafety
+d) Biofuel
+
+
+9. Cryopreservation means it is a process to
+preserve plant cells, tissues or organs
+
+a) at very low temperature by using ether.
+
+b) at very high temperature by using liquid
+nitrogen
+
+c) at very low temperature of -196 by using
+liquid nitrogen
+
+d) at very low temperature by using liquid
+nitrogen
+
+10. Solidifying agent used in plant tissue
+culture is
+
+a) Nicotinic acid 
+
+b) Cobaltous chloride
+
+c) EDTA
+
+d) Agar
+
+11. What is the name of the process given
+below? Write its 4 types.
+
+![Figure 5.17: IPR in India](/books/12-biology/botany/unit8/img20.png )
+
+12. How will you avoid the growing of microbes
+in nutrient medium during culture process?
+What are the techniques used to remove the microbes?
+
+13. Write the various steps involved in cell
+suspension culture.
+
+14. What do you mean Embryoids? Write its
+application.
+
+15. Give the examples for micro propagation
+performed plants .
+
+16. Explain the basic concepts involved in plant
+tissue culture.
+
+17. Based on the material used, how will you
+classify the culture technology? Explain it.
+
+18. Give an account on Cryopreservation.
+
+19. What do you know about Germplasm
+conservation. Describe it.
+
+20. Write the protocol for artificial seed
+preparation.
+
+### Glossary
+
+**Aseptic condition:** Preparation of materials
+free from microbes in in vitro cultures.
+Cell Culture: Growing of cells in vitro, including
+the culture of single cells or small aggregates of
+cells in a liquid medium.
+
+**Chemically defined medium:** A nutritive
+medium used for culturing cells or tissue; each
+chemical of this medium is known and defined;
+
+**Cybrid:** Cytoplasmic hybrid obtained by
+the fusion of cytoplasm of cells of different
+parental sources; a term applied to the fusion of
+cytoplasms of two different protoplasts;
+
+**Organogenesis:** The process of initiation and
+development of shoot or root though in vitro
+culture particularly from callus
+
+### APPENDIX
+
+**Composition of MS (Murashige and Skoog) Medium**
+
+**Macronutrients:**
+Ammonium nitrate (NH4NO3)     1650.0 mg/l
+Potassium nitrate (KNO3)      1900.0 mg/l
+Calcium chloride (CaCl2 2H2O) 440.0 mg/l
+Magnesium sulphate (MgSO4 6H2O)370.0 mg/l
+Potassium dihydrogen phosphate (KH2PO4) 170.0 mg/l
