@@ -33,5 +33,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         source: "dist"
-        target: ${{ secrets.TARGET_DIR }}/static
+        target: ${{ secrets.TARGET_DIR }}
         strip_components: 1
