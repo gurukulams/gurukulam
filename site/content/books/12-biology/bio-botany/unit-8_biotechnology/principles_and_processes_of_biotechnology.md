@@ -108,9 +108,9 @@ modern biotechnology, its products and
 applications.
 
 
-#### 4.2. Methods of Biotechnology
+#### 4.3. Methods of Biotechnology
 
-##### 4.2.1 Fermentation
+##### 4.3.1 Fermentation
 
 The word fermentation is derived from the
 Latin verb ‘fervere’ which means ‘ to boil’.
@@ -184,7 +184,7 @@ anaerobic.
 f. Withdrawal of product using downstream
 processing methods
 
-###### Application of fermentation in industries
+## Application of fermentation in industries
 
 Fermentation has industrial application such as:
 
@@ -238,7 +238,7 @@ ethanol to acetic acid (vinegar), isopropanol to
 acetone, sorbitol to sorbose (this is used in the
 manufacture of vitamin C), sterols to steroids.
 
-##### 4.2.2 Single Cell Protein (SCP)
+##### 4.3.2 Single Cell Protein (SCP)
 
 Single cell proteins are dried cells of
 microorganism that are used as protein
@@ -300,7 +300,7 @@ be expected to produce 25 tonnes of protein.
 
 - It is used in industries like paper processing, leather processing as foam stabilizers.
 
-#### 4.3 Advancements in Modern Biotechnology
+#### 4.4 Advancements in Modern Biotechnology
 
 Modern biotechnology embraces all the
 genetic manipulations, protoplasmic fusion
@@ -309,7 +309,7 @@ the old biotechnological processes. Some
 of the major advancements in modern
 biotechnology are described below.
 
-##### 4.3.1 Genetic Engineering
+##### 4.4.1 Genetic Engineering
 
 Genetic engineering or recombinant DNA
 technology or gene cloning is a collective term
@@ -334,7 +334,7 @@ like electroporation, gene gun, liposome
 mediated, chemical mediated transfers and
 microinjection.
 
-##### 4.3.2 Steps involved in Recombinant DNA Technology 
+##### 4.4.2 Steps involved in Recombinant DNA Technology 
 
 **The steps involved in recombinant DNA technology are:**
 
@@ -353,7 +353,7 @@ laboratory technique used to make copies
 
 - Wherever vectors are not involved the desired gene is multiplied by PCR technique. The multiple copies are injected into the host cell protoplast or it is shot into the host cell protoplast by shot gun method.
 
-#### 4.4 Tools for Genetic Engineering
+### 4.5 Tools for Genetic Engineering
 
 In order to generate recombinant DNA molecule, certain basic tools are necessary. The basic tools
 are enzymes, vectors and host
@@ -363,7 +363,7 @@ engineering are the restriction
 enzymes, DNA ligase and
 alkaline phosphatase.
 
-##### 4.4.1 Restriction Enzymes
+##### 4.5.1 Restriction Enzymes
 
 The two enzymes responsible
 for restricting the growth of
@@ -393,7 +393,9 @@ the internal phosphodiester bonds within a DNA molecule. e.g. Hind II, EcoRI, Pv
 BamHI, TaqI.
 
 ![bio-botant image](/books/12-biology/botany/table_1.png )
-##### Restriction endonucleases: Molecular scissors
+
+
+### Restriction endonucleases: Molecular scissors
 
 The restriction enzymes are called as molecular
 scissors. These act as foundation of recombinant
@@ -460,7 +462,7 @@ Two other enzymes that play an important
 role in recombinant DNA technology are
 DNA ligase and alkaline phosphatase
 
-##### 4.4.2 DNA Ligase
+##### 4.5.2 DNA Ligase
 
 DNA ligase enzyme joins the sugar and
 phosphate molecules of double stranded
@@ -470,7 +472,7 @@ reaction. This is isolated from T4 phage.
 
 ![bio-botant image](/books/12-biology/botany/4.6.png )
 
-##### 4.4.3 Alkaline Phosphatase
+##### 4.5.3 Alkaline Phosphatase
 
 It is a DNA modifying enzyme and adds
 or removes specific phosphate group at 5’
@@ -480,7 +482,7 @@ from bacteria and calf intestine.
 
 ![bio-botant image](/books/12-biology/botany/4.7.png )
 
-#### 4.4.4 Vectors
+#### 4.5.4 Vectors
 
 Another major component of a gene cloning
 experiment is a vector such as a plasmid. A
@@ -602,7 +604,7 @@ plant DNA. Agrobacterium plasmids have been
 used for introduction of genes of desirable traits
 into plants.
 
-#### 4.4.5 Competent Host (For Transformation with Recombinant DNA)
+#### 4.5.5 Competent Host (For Transformation with Recombinant DNA)
 
 The propagation of the recombinant DNA
 molecules must occur inside a living system or
@@ -640,7 +642,7 @@ properly and post translational modifications
 should also occur, which is not possible by
 prokaryotic cell (E.coli).
 
-#### 4.5 Methods of Gene Transfer
+#### 4.6 Methods of Gene Transfer
 
 The next step after a recombinant DNA molecule
 has been generated is to introduce it into a
@@ -662,7 +664,7 @@ gene transfer methods in plants. It includes:
 - Indirect or vector – mediated gene transfer
 
 
-##### 4.5.1 Direct or Vectorless Gene Transfer
+##### 4.6.1 Direct or Vectorless Gene Transfer
 
 In the direct gene transfer methods, the foreign
 gene of interest is delivered into the host plant
@@ -720,7 +722,7 @@ cells.(Figure 4.16)
 
 ![bio-botant image](/books/12-biology/botany/4.16.png )
 
-##### 4.5.2 Indirect or Vector-Mediated Gene Transfer
+##### 4.6.2 Indirect or Vector-Mediated Gene Transfer
 
 Gene transfer is mediated with the help of a
 plasmid vector is known as indirect or vector
@@ -749,7 +751,7 @@ sequences.(Figure 4.17)
 
 ![bio-botant image](/books/12-biology/botany/4.17.png )
 
-#### 4.6 Screening for Recombinants
+#### 4.7 Screening for Recombinants
 
 After the introduction of r-DNA into a suitable
 host cell, it is essential to identify those cells
@@ -785,7 +787,7 @@ can be selected.
 
 ![bio-botant image](/books/12-biology/botany/4.18.png )
 
-##### 4.6.2 Antibiotic resistant markers
+##### 4.7.2 Antibiotic resistant markers
 
 An antibiotic resistance marker is a gene
 that produces a protein that provides cells
@@ -799,7 +801,7 @@ tetracycline or kanamycin, etc., while others
 may not be able to grow in these media, hence it
 is considered useful selectable marker.
 
-##### 4.6.3. Replica plating technique
+##### 4.7.3. Replica plating technique
 
 A technique in which the pattern of colonies
 growing on a culture plate is copied. A sterile
@@ -815,7 +817,7 @@ In this way, transformed cells can be selected.
 
 ![bio-botant image](/books/12-biology/botany/4.19.png )
 
-##### 4.6.4 Molecular Techniques - Isolation of Genetic Material and Gel Electrophoresis
+##### 4.7.4 Molecular Techniques - Isolation of Genetic Material and Gel Electrophoresis
 
 Electrophoresis is a separating technique used
 to separate different biomolecules with positive
@@ -879,7 +881,7 @@ identification of viruses and other pathogens
 
 {{< /box >}}
 
-##### 4.6.5 Nucleic Acid Hybridization - Blotting Techniques
+##### 4.7.5 Nucleic Acid Hybridization - Blotting Techniques
 
 Blotting techniques are widely used analytical
 tools for the specific identification of desired
@@ -955,7 +957,7 @@ with a radio-labelled antibody which binds on
 the specific protein to which the antibody was
 prepared.
 
-##### 4.6.6 Bioassay for Target Gene Effect
+##### 4.7.6 Bioassay for Target Gene Effect
 
 Target gene is target DNA, foreign DNA,
 passenger DNA, exogenous DNA, gene of
@@ -990,7 +992,7 @@ incoming DNA.
 
 ***Transfection: Introduction of foreign nucleic acids into cells by non-viral methods.***
 
-##### 4.6.7. Genome Sequencing and Plant Genome Projects
+##### 4.7.7. Genome Sequencing and Plant Genome Projects
 
 The whole complement of genes that determine
 all characteristics of an organism is called
@@ -1009,7 +1011,7 @@ Genome content of an organism is expressed in
 terms of number of base pairs or in terms of the
 content of DNA which is expressed as c-value.
 
-#### 4.6.8 Evolutionary pattern assessed using DNA.
+#### 4.7.8 Evolutionary pattern assessed using DNA.
 
 In recent years the evolutionary relationship between different plant taxa is assessed using
 DNA content as well as the similarities and
@@ -1051,7 +1053,7 @@ one can re-engineer rice to
 switch it from a sexual to an
 asexual mode.
 
-##### 4.6.10 RNA Interference (RNAi)
+##### 4.7.10 RNA Interference (RNAi)
 
 All characters of organism are the result
 of expression of different genes which are
@@ -1091,9 +1093,9 @@ feeding nematodes.
 
 ![bio-botant image](/books/12-biology/botany/4.23.png )
 
-#### 4.7 Transgenic Plants / Genetically Modified Crops (Gm Crops)
+#### 4.8 Transgenic Plants / Genetically Modified Crops (Gm Crops)
 
-##### 4.7.1 Herbicide Tolerant – Glyphosate
+##### 4.8.1 Herbicide Tolerant – Glyphosate
 
 Weeds are a constant problem in crop fields.
 Weeds not only compete with crops for
@@ -1133,7 +1135,7 @@ glyphosate degrading enzyme.
 
 - The ability to conserve soil structure and microbes.
 
-##### 4.7.2 Herbicide Tolerant - Basta
+##### 4.8.2 Herbicide Tolerant - Basta
 
 Trade name ‘Basta’ refers to a non-selective
 herbicide containing the chemical compound
@@ -1151,7 +1153,7 @@ introduced into crop plants like potato and
 sugar-beet and transgenic crops have been
 developed.
 
-##### 4.7.3 Insect resistance - Bt Crops:
+##### 4.8.3 Insect resistance - Bt Crops:
 
 **i. Bt Cotton**
 
@@ -1351,7 +1353,7 @@ Bacillussubtilis and Corynebacterium
 glutamicum, Gram-negative bacteria like group
 of Pseudomonas sp. and Alcaligenes eutrophus.
 
-##### 4.7.8 Polylactic acid (PLA)
+##### 4.8.8 Polylactic acid (PLA)
 
 Polylactic acid or
 polylactide (PLA)
@@ -1370,7 +1372,7 @@ and polylactic acid.
 
 ![bio-botant image](/books/12-biology/botany/4.30.png )
 
-##### 4.7.9 Green Fluorescent Protein (GFP)
+##### 4.8.9 Green Fluorescent Protein (GFP)
 
 The green fluorescent protein (GFP) is a protein
 containing 238 amino acid residues of 26.9 kDa
@@ -1386,7 +1388,7 @@ molecular biology, the GFP gene is frequently
 used as a reporter of expression. It has been
 used in modified forms to make biosensors.
 
-##### 4.7.10 Biopharming
+##### 4.8.10 Biopharming
 
 Biopharming also known as molecular
 pharming is the production and use of
@@ -1400,7 +1402,7 @@ modern biotechnology. Many pharmaceutical
 substances can be produced using transgenic
 plants. Example: Golden rice
 
-##### 4.7.11 Bioremediation
+##### 4.8.11 Bioremediation
 
 It is defined as the use of microorganisms or
 plants to manage environmental pollution. It
@@ -1481,7 +1483,7 @@ create genetically modified microorganism
 or a consortium of microbes for
 bioremediation process has great potential.
 
-##### 4.7.12 Biofuel: Algal Biofuel
+##### 4.8.12 Biofuel: Algal Biofuel
 
 Algal fuel, also known as algal biofuel, or
 algal oil is an alternative to liquid fossil fuels,
@@ -1706,6 +1708,7 @@ have received the rDNA molecule. This process
 is called screening. One of the method of
 recombinant screening is blue white selection
 method Replica plating technique in which the
+
 pattern of colonies growing on a culture plate is
 copied. Electrophoresis is a separating technique
 used to separate different biomolecules.

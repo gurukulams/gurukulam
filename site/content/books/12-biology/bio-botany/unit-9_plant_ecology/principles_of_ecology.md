@@ -1138,5 +1138,112 @@ and shelter to these ants. This phenomenon
 is known as Myrmecophily. Example: Acacia
 and acacia ants.
 
+![](/books/12-biology/botany/Ecology/pic20.png )
+
+**iii. Co-evolution:** The interaction between
+organisms, when continues for generations,
+involves reciprocal changes in genetic and
+morphological characters of both organisms.
+This type of evolution is called Co-evolution.
+It is a kind of co- adaptation and mutual
+change among interactive species.
+Examples:
+
+![](/books/12-biology/botany/Ecology/pic21.png )
+
+	
+* Corolla length and proboscis length of
+butterflies and moths ( Habenaria and Moth ).
+
+* Bird’s beak shape and flower shape and size.
+
+*  More examples: Horn bills and birds
+of Scrub jungles ,Slit size of pollinia of
+Apocynaceae members and leg size of
+insects.
+
+### 6.3 Ecological adaptations
+
+The modifications in the structure of
+organisms to survive successfully in an
+environment are called adaptations of
+organisms. Adaptations help the organisms to
+exist under the prevailing ecological habitat.
+Based on the habitats and the corresponding
+adaptations of plants, they are classified
+as hydrophytes, xerophytes, mesophytes,
+epiphytes and halophytes.
+
+**Hydrophytes**
+
+The plants which are living in water or wet
+places are called hydrophytes. According to
+their relation to water and air, they are sub-
+divided into following categories: i) Free
+floating hydrophytes, ii) Rooted- floating
+hydrophytes, iii) Submerged floating
+hydrophytes, iv) Rooted -submerged
+hydrophytes, v) Amphibious hydrophytes.
+i. Free floating hydrophytes: These plants
+float freely on the surface of water. They
+remain in contact with water and air, but not
+with soil. Examples: Eichhornia, Pistia and
+Wolffia (smallest flowering plant).
+ii. Rooted floating hydrophytes: In these
+plants, the roots are fixed in mud, but their
+leaves and flowers are floating on the surface
+of water. These plants are in contact with soil,
+water and air. Examples: *Nelumbo, Nymphaea, Potomogeton and Marsilea.*
+
+**Lotus seeds show highest longevity in plant kingdom.**
+
+**iii. Submerged floating hydrophytes:** These
+plants are completely submerged in water and
+not in contact with soil and air. Examples:
+*Ceratophyllum and Utricularia.*
 
 
+**iv. Rooted- submerged hydrophytes:** These
+plants are completely submerged in water
+and rooted in soil and not in contact with air.
+*Examples: Hydrilla, Vallisneria and Isoetes.*
+
+**v. Amphibious hydrophytes** (Rooted emergent
+hydrophytes): These plants are adapted to both
+
+![](/books/12-biology/botany/Ecology/pic22.png )
+
+![](/books/12-biology/botany/Ecology/pic23.png )
+
+aquatic and terrestrial modes of life. They grow
+in shallow water. Examples: Ranunculus, Typha
+and Sagittaria.
+
+**Hygrophytes:** The plants which can grow
+in moist damp and shady places are called
+hygrophytes. Examples: Habenaria (Orchid),
+Mosses (Bryophytes), etc.
+
+### Morphological adaptations of Hydrophytes:
+**In root**
+
+* Roots are totally absent in Wolffia and
+Salvinia or poorly developed in Hydrilla or
+well developed in *Ranunculus.*
+
+* The root caps are replaced by root pockets.
+*Example: Eichhornia*
+
+**In stem**
+
+
+* The stem is long, slender, spongy and flexible
+in submerged forms.
+
+*  In free floating forms the stem is thick, short
+stoloniferous and spongy; and in rooted
+floating forms, it is a rhizome .
+
+* Vegetative propagation is through runners,
+stolon, stem and root cuttings , tubers,
+dormant apices and offsets.
