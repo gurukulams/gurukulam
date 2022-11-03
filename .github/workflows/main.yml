@@ -21,8 +21,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
+    # Add to run once ssl export BUILD_PRODUCTION=Y
       run: |
-        export BUILD_PRODUCTION=Y
         npm install
       env:
         CI: true
