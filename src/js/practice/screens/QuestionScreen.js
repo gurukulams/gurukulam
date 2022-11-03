@@ -709,18 +709,26 @@ class QuestionScreen {
           
             <div class="col-6">
             <div class="row">
-            <div class="col-1 pe-0 text-center">
+            <div class="col-2 pe-0 text-center">
             ${
               screen.questions.length !== 0
                 ? `
-                <a href="javascript://" id="explainToggle">
-              <i class="pt-3 fa-solid fa-question text-decoration-line-through" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Explain'></i>
-              </a>
+
+                <div class="btn-group" role="group" aria-label="Basic example">
+                <button id="explainToggle" type="button" class="btn btn-outline-primary" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Explain'>
+                <i class="fa-solid fa-question" ></i>
+                </button>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Tags'>
+                <i class="fa-solid fa-tags"></i>
+                </button>
+              </div>
+
+
               `
                 : ``
             }
             </div>
-            <div class="col-11 px-0">
+            <div class="col-10 px-0">
             ${
               screen.questions.length !== 0
                 ? `
@@ -822,11 +830,22 @@ class QuestionScreen {
             .getElementById("explanationContainer")
             .classList.add("d-none");
           document.getElementById("answerContainer").classList.remove("d-none");
+
+          document
+            .getElementById("explainToggle")
+            .classList.add("btn-outline-primary");
+          document
+            .getElementById("explainToggle")
+            .classList.remove("btn-primary");
         } else {
           document
             .getElementById("explanationContainer")
             .classList.remove("d-none");
           document.getElementById("answerContainer").classList.add("d-none");
+          document
+            .getElementById("explainToggle")
+            .classList.remove("btn-outline-primary");
+          document.getElementById("explainToggle").classList.add("btn-primary");
         }
       });
     }
