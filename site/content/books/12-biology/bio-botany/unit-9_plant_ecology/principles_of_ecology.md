@@ -1247,3 +1247,147 @@ floating forms, it is a rhizome .
 * Vegetative propagation is through runners,
 stolon, stem and root cuttings , tubers,
 dormant apices and offsets.
+
+**In leaves**
+
+* The leaves are thin, long and ribbon shaped in
+*Vallisneria* or long and linear in Potamogeton
+or finely dissected in *Ceratophyllum*
+
+* The floating leaves are large and flat as in
+Nymphaea and Nelumbo. In Eichhornia and
+Trapa petioles become swollen and spongy.
+
+* In emergent forms, the leaves show
+heterophylly (Submerged leaves are
+dissected and aerial leaves are entire).
+
+**Example:**
+*Ranunculus,Limnophila , heterophylla and Sagittaria*
+
+**Anatomical adaptations**
+
+* Cuticle is either completely absent or if
+present it is thin and poorly developed
+
+* Single layer of epidermis is present
+
+* Cortex is well developed with aerenchyma
+
+*	Vascular tissues are poorly developed. In
+emergent forms vascular elements are well
+developed.
+
+*	Mechanical tissues are generally absent
+except in some emergent forms. Pith cells
+are sclerenchymatous.
+ 
+ ![](/books/12-biology/botany/Ecology/pic24.png )
+
+ **Physiological adaptations of Hydrophytes:**
+
+* Hydrophytes have the ability to withstand
+anaerobic conditions .
+* They possess special aerating organs.
+
+**Xerophytes**
+
+The plants which are living in dry or xeric
+condition are known as Xerophytes. Xerophytic
+habitat can be of two different types. They are:
+
+**a. Physical dryness:** In these habitats, soil has a
+little amount of water due to the inability of the
+soil to hold water because of low rainfall
+
+**b. Physiological dryness:** In these habitats,
+water is sufficiently present but plants are unable
+to absorb it because of the absence of capillary
+spaces. Example: Plants in salty and acidic soil.
+
+Based on adaptive characters xerophytes
+are classified into three categories. They are
+Ephemerals, Succulents and Non succulent
+plants.
+
+**i. Ephemerals:**
+These are also
+called drought
+escapers
+or **drought evaders.**
+These
+plants
+complete their
+life cycle within
+a short period
+**(single season).**
+These are not true xerophytes. Examples:
+Argemone, Mollugo, Tribulus and Tephrosia.
+
+![](/books/12-biology/botany/Ecology/pic25.png )
+
+**ii. Succulents:** These are also called drought
+**enduring plants**. These plants store water in
+their plant parts during the dry period. These
+plants develop certain adaptive characters to
+resist extreme drought conditions. Examples:
+*Opuntia, Aloe, Bryophyllum and Begonia.*
+
+**iii. Non succulents:** These are also called
+**drought resistant plants ( true xerophytes).**
+They face both external and internal dryness.
+They have many adaptations to resist dry
+conditions. 
+*Examples: Casuarina, Nerium, Zizyphus and Acacia.*
+
+**ii. Succulents:** These are also called drought
+**enduring plants.**These plants store water in
+their plant parts during the dry period. These
+plants develop certain adaptive characters to
+resist extreme drought conditions. 
+*Examples: Opuntia, Aloe, Bryophyllum and Begonia.*
+
+**iii. Non succulents:** These are also called
+**drought resistant plants ( true xerophytes).**
+They face both external and internal dryness.
+They have many adaptations to resist dry
+conditions. *Examples: Casuarina, Nerium,*
+*Zizyphus and Acacia.*
+
+![](/books/12-biology/botany/Ecology/pic26.png )
+
+**Morphological Adaptations**
+
+**In root**
+
+* Root system is well developed and is greater
+than that of shoot system.
+
+* Root hairs and root caps are also well developed.
+
+In xerophytic plants with the leaves and
+stem are covered with hairs are called
+**trichophyllous plants**. Example: Cucurbits
+(Melothria and Mukia )
+
+**In stem**
+
+* Stems are mostly hard and woody. They may
+be aerial or underground
+
+* The stems and leaves are covered with wax
+coating or covered with dense hairs.
+
+* In some xerophytes all the internodes in the
+stem are modified into a fleshy leaf structure
+called **phylloclades (Opuntia)** .
+
+* In some of the others single or occasionally
+two internodes modified into fleshy green
+structure called **cladode** (Asparagus).
+In some the petiole is modified into a fleshy
+leaf like structurcalled phyllode (Acacia
+melanoxylon)..
+
+![](/books/12-biology/botany/Ecology/pic27.png )
+
