@@ -2014,3 +2014,228 @@ c) capillary water
 
 d) hygroscopic water
 
+9.	Read the following statements and fill up
+the blanks with correct option.
+	
+i)	Total soil water content in soil is called
+_________________
+ii)	Soil water not available to plants is called
+_________________
+iii) Soil water available to plants is called
+_________________
+
+13.	Ophrys an orchid resembling the female of
+an insect so as to able to get pollinated is
+due to phenomenon of
+
+a) Myrmecophily 
+
+b) Ecological equivalents
+
+c) Mimicry
+
+d) None of these
+
+14. A free living nitrogen fixing cyanobacterium
+which can also form symbiotic association
+with the water fern Azolla
+a) Nostoc		
+
+b) Anabaena
+
+c) chlorella		
+
+d) Rhizobium
+
+15. Pedogenesis refers to
+
+a) Fossils 
+
+b) Water 
+
+c) Population 
+
+d) Soil
+
+16. Mycorrhiza promotes plant growth by
+
+a) Serving as a plant growth regulators
+
+b) Absorbing inorganic ions from soil
+
+c) Helping the plant in utilizing atmospheric
+nitrogen
+
+d) Protecting the plant from infection
+
+
+17.	Which of the following plant has a non-
+succulent xerophytic and thick leathery
+leaves with waxy coating
+
+a) Bryophyllum 
+
+b) Ruscus
+
+c) Nerium		
+
+d) Calotropis
+
+18. In a fresh water environment like pond,
+rooted autotrophs are
+
+a) Nymphaea and typha
+
+b) Ceratophyllum and Utricularia
+
+c) Wolffia and pistia
+
+d) Azolla and lemna
+
+19. Match the following and choose the correct
+combination from the options given below:
+
+Column I
+
+Column II (Examples)
+(Interaction)
+
+I. Mutualism
+
+i). Trichoderma and
+Penicillium
+
+II. Commensalism 
+ii). Balanophora,
+Orobanche
+
+20. 	Strong, sharp spines that get attached to
+animal’s feet are found in the fruits of
+
+a) Argemone
+
+b) Ecballium
+
+c) Heritier
+
+d) Crossandra
+
+21. Sticky glands of Boerhaavia and Cleome
+support
+
+a) Anemochory 
+
+b) Zoochory
+
+c) Autochory
+
+d) Hydrochory
+
+22. Define ecology.
+What is ecological hierarchy?
+
+23.	 Name the levels of ecological hierarchy.
+
+24.	What are ecological equivalents? Give one
+example .
+
+25. Distinguish habitat and niche
+
+26.	 Why are some organisms called as
+eurythermals and some others as
+stenohaline ?
+
+27.	‘Green algae are not likely to be found in the
+deepest strata of the ocean’. Give at least one
+reason.
+
+28. What is Phytoremediation ?
+
+29.	What is Albedo effect and write their effects?
+
+The organic horizon is generally absent
+30.	 from agricultural soils because tilling, e.g.,
+plowing, buries organic matter. Why is an
+organic horizon generally absent in desert
+soils ?
+
+31.	Soil formation can be initiated by biological
+organisms. Explain how?
+
+32.	Sandy soil is not suitable for cultivation.
+Explain why?
+
+33.	Describe the mutual relationship between
+the fig and wasp and comment on
+the phenomenon that operates in this
+relationship.
+
+34.	Lichen is considered as a good example of
+obligate mutualism. Explain.
+
+35.	 What is mutualism? Mention any two
+example where the organisms involved
+are commercially exploited in modern
+agriculture.
+
+36.	List any two adaptive features evolved in
+parasites enabling them to live successfully
+on their host?
+
+37.	 Mention any two significant roles of
+predation plays in nature.
+
+38.	How does an orchid ophrys ensures its
+pollination by bees ?
+
+
+39.	Water is very essential for life. Write any
+three features for plants which enable them
+to survive in water scarce environment.
+
+40.	 Why do submerged plants receive weak
+illumination than exposed floating plants
+in a lake?
+
+
+41.	 What is vivipary? Name a plant group
+which exhibits vivipary.
+
+42.	 What is thermal stratification? Mention
+their types.
+
+
+43.	How is rhytidome act as the structural
+defence by plants against fire?
+
+
+44.	What is myrmecophily?
+
+45.	What is seed ball?
+
+46. How is anemochory differ from zoochory?
+
+47. What is co evolution?
+
+48.	Explain Raunkiaer classification in the  world’s vegetation based on the temperature.
+
+49. List out the effects of fire to plants.
+
+50.	What is soil profile? Explain the characters
+of different soil horizons.
+
+51.	 Give an account of various types of
+parasitism with examples.
+
+52.	Explain different types of hydrophytes with
+examples.
+
+53.	Enumerate the anatomical adaptations of  xerophytes.
+
+54.	List out any five morphological adaptations
+of halophytes.
+
+55.	What are the advantages of seed dispersal?
+
+56.  Describe dispersal of fruit and seeds by
+animals
