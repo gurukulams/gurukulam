@@ -816,3 +816,355 @@ discussed about the various techniques and
 application of the above mentioned concepts in
 Unit VIII.
 
+
+**New Plant Engineering Techniques / New Breeding Techniques (NBT)**
+
+NBT are a collection of methods that could
+increase and accelerate the development of new
+traits in plant breeding. These techniques often
+involve genome editing, to modify DNA at
+specific locations within the plants to produce
+new traits in crop plants. The various methods
+of achieving these changes in traits include the
+following.
+
+* Cutting and modifying the genome
+during the repair process by tools like CRISPR
+/Cas.
+
+
+*  Genome editing to introduce changes in
+few base pairs using a technique called
+Oligonucleotide-directed
+mutagenesis
+(ODM).
+
+*  Transferring a gene from an identical or
+closely related species (cisgenesis)
+
+
+* Organising processes that alter gene
+activity without altering the DNA itself
+(epigenetic methods).
+
+
+### Summary
+
+Economic Botany deals with the
+relationship between people and economically
+important plants to fulfill the three basic
+needs of life such as food, clothing and
+shelter. Domestication, a term often used for
+a more intricate process, involves the genetic
+alteration of plants which did not appear at
+once, but rather over a substantial period of
+time, perhaps hundreds of years for some
+species. In the history of agriculture Vavilov
+has given the eight main centres of origin of
+plants were now divided into 12 centres of
+origin. In Organic agriculture biofertilizers
+are microbial inoculants which all ecofriendly,
+more effective even though cost effective than
+chemical fertilizers. *Rhizobium, Azolla,* VAM
+and sea weeds are used as fertilizers which
+increase the crop yield many fold.
+
+
+
+Plant breeding is a purposeful manipulation
+of plant species in order to create desirable
+genotype and phenotype for the benefit of
+mankind. Plant introduction, selection,
+hybridization, heterosis, mutation breeding,
+polyploidy breeding and green revolution are
+the different methods of conventional breeding.
+
+Summary
+Economic Botany deals with the
+relationship between people and economically
+important plants to fulfill the three basic
+needs of life such as food, clothing and
+shelter. Domestication, a term often used for
+a more intricate process, involves the genetic
+alteration of plants which did not appear at
+once, but rather over a substantial period of
+time, perhaps hundreds of years for some
+species. In the history of agriculture Vavilov
+has given the eight main centres of origin of
+plants were now divided into 12 centres of
+origin. In Organic agriculture biofertilizers
+are microbial inoculants which all ecofriendly,
+more effective even though cost effective than
+chemical fertilizers. Rhizobium, Azolla, VAM
+and sea weeds are used as fertilizers which
+increase the crop yield many fold.
+Plant breeding is a purposeful manipulation
+of plant species in order to create desirable
+genotype and phenotype for the benefit of
+mankind. Plant introduction, selection,
+hybridization, heterosis, mutation breeding,
+polyploidy breeding and green revolution are
+the different methods of conventional breeding.
+
+
+**Evaluation**
+
+
+**1. Assertion:**
+
+Genetic
+variation provides the
+raw material for selection
+**Reason:**
+
+Genetic
+variations are differences
+in genotypes of the individuals.
+
+a) Assertion is right and reason is wrong.
+
+b) Assertion is wrong and reason is right.
+
+c) Both reason and assertion is right.
+
+d) Both reason and assertion is wrong.
+
+
+2. While studying the history
+of
+domestication of various cultivated plants
+_______ were recognized earlier
+
+a) Centres of origin
+
+b) Centres of domestication
+
+c) Centres of hybrid
+
+d) Centres of variation
+
+
+3. Pick out the odd pair.
+
+a) Mass selection                   - Morphological characters
+b) Purline selection                - Repeated self pollination
+c) Clonal selection                 - Sexually propagated
+d) Natural selection                - Involves nature
+
+4. Match Column I with Column II
+Column I                     Column II
+i) William S. Gaud           I) Heterosis
+ii) Shull                    II) Mutation breeding
+iii) Cotton Mather           III) Green revolution
+iv) Muller and Stadler       IV) Natural hybridization
+
+a) i – I, ii – II, iii – III, iv – IV
+b) i – III, ii – I, iii – IV, iv – II
+c) i – IV, ii – II, iii – I, iv – IV
+d) i – II, ii – IV, iii – III, iv – I
+
+5. The quickest method of plant breeding is
+
+a) Introduction 
+
+b) Selection
+
+c) Hybridization 
+
+d) Mutation breeding
+
+6. Desired improved variety of economically
+useful crops are raised by
+
+b) hybridization
+
+a) Natural Selection
+
+c) mutation
+
+d) biofertilisers
+
+7. Plants having similar genotypes produced
+by plant breeding are called
+
+a) clone
+
+c) autopolyploid
+
+b) haploid
+
+d) genome
+
+
+8. Importing better varieties and plants from
+outside and acclimatising them to local
+environment is called
+
+a) cloning
+
+b) heterosis
+
+c) selection
+
+d) introduction
+
+9. Dwarfing gene of wheat is
+
+a) pal 1
+
+b) Atomita 1
+
+c) Norin 10
+
+d) pelita 2
+
+
+10. Crosses between the plants of the same
+variety are called
+a) interspecific 
+
+b) inter varietal
+
+c) intra varietal 
+
+d) inter generic
+
+
+11. Progeny obtained as a result of repeat self
+pollination a cross pollinated crop to called
+
+a) pure line
+
+b) pedigree line
+
+c) inbreed line
+
+d) heterosis
+
+
+12. Jaya and Ratna are the semi dwarf varieties of
+
+a) wheat
+
+b) rice
+
+c) cowpea
+
+d) mustard
+
+13. Which one of the following are the species that
+are crossed to give sugarcane varieties with
+high sugar, high yield, thick stems and ability
+to grow in the sugarcane belt of North India?
+
+a) Saccharum robustum and Saccharum officinarum
+
+b) Saccharum barberi and Saccharum officinarum
+
+c) Saccharum sinense and Saccharum officinarum
+
+d) Saccharum barberi and Saccharum robustum
+
+
+14. Match column I (crop) with column II
+(Corresponding disease resistant variety)
+and select the correct option from the
+given codes.
+
+Column II                 Column I
+
+I) Cowpea                  i) Himgiri
+
+ii) Pusa komal             II) Wheat
+
+
+III) Chilli                iii) Pusa Sadabahar
+
+IV) Brassica               iv) Pusa Swarnim
+
+
+15. A wheat variety, Atlas 66 which has been
+used as a donor for improving cultivated
+wheat, which is rich in
+a) iron
+
+b) carbohydrates
+
+c) proteins
+
+d) vitamins
+
+16. Which one of the following crop varieties
+correct matches with its resistance to a disease?
+
+<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Variety</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Resistance to disease</th></tr></thead><tbody><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">a) Pusa Komal</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Bacterial blight</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">b) Pusa Sadabahar</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">White rust</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">c) Pusa Shubhra</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Chilli mosaic virus</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">d) Brassica</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">d) Brassica</td></tr></tbody></table>
+
+17. Which of the following is incorrectly paired?
+
+a) Wheat               - Himgiri
+b) Milch breed         - Sahiwal
+c) Rice                - Ratna
+d) Pusa Komal          - Brassica
+
+
+18. Match list I with list II
+
+<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:22px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">List I</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:22px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">List II</th></tr></thead><tbody><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:18px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Biofertilizer</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:18px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Organisms</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">i) Free living N2</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-style:italic;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">a) Aspergillus</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">ii) Symbiotic N2</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-style:italic;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">b) Amanita</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">iii) P Solubilizing</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-style:italic;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">c) Anabaena azollae</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">iv) P Mobilizing</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-style:italic;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">d) Azotobactor</td></tr></tbody></table>
+
+a. ic, iia, iiib, ivd
+
+b. id, iic, iiia, ivb.
+
+c. ia, iic, iiib, ivd
+
+c. ib, iia, iiid, ivc.
+
+
+19. Differentiate primary introduction from
+secondary introduction.
+
+
+20. How are microbial innoculants used to
+increase the soil fertility?
+
+
+21. What are the different types of
+hybridization?
+
+
+22. Explain the best suited type followed by
+plant breeders at present?
+
+
+23. Write a note on heterosis.
+
+
+24. List out the new breeding techniques involved
+in developing new traits in plant breeding.
+
+### Glossary
+
+**Acclimatization :** The adaptation of an individual
+to a changed climate or the adjustment of a
+species or a population to a changed environment
+over a number of generations.
+
+**Agronomy :** Science of farming
+
+**Germplasm Collection :**  The entire collection
+(of plants / seeds) having all the diverse
+alleles for all genes in a given crop is called
+**germplasm collection.**
+
+**Non recurrent parent :** The parent of a hybrid
+that is not again used as a parent in backcrossing
+
+**Quarantine :** Strict isolation imposed to prevent
+the spread of disease
+
+**Strain :** A group of similar individuals from a
+common origin.
+
+
+![](/books/12-biology/botany/unit10/pic41.png) 
+
