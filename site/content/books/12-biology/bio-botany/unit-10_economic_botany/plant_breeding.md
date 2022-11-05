@@ -718,3 +718,101 @@ and selection, for disease resistance to fungi,
 bacteria and viral diseases are released (Table 9.1).
 
 ![](/books/12-biology/botany/unit10/pic36.png) 
+
+**Norman E. Borlaug:** The plant pathologist
+plant breeder devoted his life at the International
+Maize and Wheat improvement centre at
+Sonord in Mexico. He developed a new high
+yielding, rust resistant, non-lodging dwarf
+wheat varieties like Norin-10, Sonora-64, Lerma
+rojo-64, etc. which are now being cultivated in
+many countries. This formed
+the base for ‘green revolution’.
+He was awarded a Nobel prize
+for Peace in 1970.
+
+![](/books/12-biology/botany/unit10/pic37.png) 
+
+**Dr. M. S. Swaminathan:** He
+is a pioneer mutation breeder.
+He has produced Sharbati Sonora, is the amber
+grain coloured variety of wheat by mutation,
+which is responsible for green revolution in India.
+Dr. Swaminathan is called
+“Father of green revolution
+in India”.
+
+![](/books/12-biology/botany/unit10/pic38.png) 
+
+**Nel Jayaraman:**
+Mr.
+Jayaraman,
+hails
+from
+Adirangam village in Tiruvarur district. He
+was a disciple of Dr.Nammalvar and state co-
+ordinator of ‘Save our rice campaign, Tamil
+Nadu. He strived hard for conservation of
+traditional rice varieties. He had trained a team
+of farmers and regularly update them on the
+current issues that affect them.
+
+![](/books/12-biology/botany/unit10/pic39.png) 
+
+In 2005, he organized a first ever
+traditional
+paddy
+seed
+festival in his farm as an
+individual. The seed festival
+in May 2016 at Adhirangam
+was 10th in a row and
+in which 156 different
+traditional varieties were distributed to more
+than 7000 farmers across Tamil Nadu. He was
+invited by the Philippines Government to
+give a talk at the International Rice Research
+Institute (IRRI) on his work and mission. In
+2011, he received the State Award for best
+organic farmer for his contribution to organic
+farming, and in the year 2015, he received the
+National Award for best Genome Savior.
+
+Resistance to yellow mosaic virus in bhindi
+*(Abelmoschus escullentus)* was transferred from
+a wild species and resulted in a new variety of
+A. Escullentus called Parbharni kranti.
+
+**Plant Breeding for Developing Resistance to Insect Pests**
+
+Insect resistance in
+host crop plants may be
+due
+to
+morphological,
+biochemical or physiological
+characteristics. Hairy leaves
+in several plants are associated
+with resistance to insect pests.
+Example: resistance to jassids in cotton and
+cereal leaf beetle in wheat. In wheat, solid stems
+lead to non-preference by the stem sawfly and
+smooth leaves and nectar-less cotton varieties
+do not attract bollworms. High aspartic acid,
+low nitrogen and sugar content in maize leads
+to resistance to maize stem borers.
+
+![](/books/12-biology/botany/unit10/pic40.png) 
+
+**9.8 Modern Plant Breeding**
+
+In the milestones of plant breeding methods
+Genetic Engineering, Plant tissue culture,
+Protoplasmic fusion or somatic hybridisation,
+Molecular marking and DNA finger printing are
+some of the modern plant breeding tools used
+to improve the crop varieties. We have already
+discussed about the various techniques and
+application of the above mentioned concepts in
+Unit VIII.
+
