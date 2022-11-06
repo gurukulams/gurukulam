@@ -533,13 +533,11 @@ class QuestionScreen {
             ? question.answer.join(",")
             : question.answer;
           fetch(
-            "/api/practices/" +
-              this.parent.dataset.type +
-              "/" +
-              this.practiceId +
+            "/api/books/" +
+              this.bookName +
               "/questions/" +
               question.id +
-              "/answer/",
+              "/answer",
             {
               method: "POST",
               headers: window.ApplicationHeader(),
@@ -709,7 +707,7 @@ class QuestionScreen {
           
             <div class="col-6">
             <div class="row">
-            <div class="col-2 pe-0 text-center">
+            <div class="col-1 pe-0 text-center">
             ${
               screen.questions.length !== 0
                 ? `
@@ -718,9 +716,7 @@ class QuestionScreen {
                 <button id="explainToggle" type="button" class="btn btn-outline-primary" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Explain'>
                 <i class="fa-solid fa-question" ></i>
                 </button>
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Tags'>
-                <i class="fa-solid fa-tags"></i>
-                </button>
+
               </div>
 
 
@@ -728,7 +724,7 @@ class QuestionScreen {
                 : ``
             }
             </div>
-            <div class="col-10 px-0">
+            <div class="col-11 px-0">
             ${
               screen.questions.length !== 0
                 ? `
