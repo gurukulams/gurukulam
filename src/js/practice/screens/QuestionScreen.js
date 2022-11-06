@@ -711,15 +711,11 @@ class QuestionScreen {
             ${
               screen.questions.length !== 0
                 ? `
-
                 <div class="btn-group" role="group" aria-label="Basic example">
                 <button id="explainToggle" type="button" class="btn btn-outline-primary" data-bs-toggle='tooltip' data-bs-placement='bottom' title='Explain'>
                 <i class="fa-solid fa-question" ></i>
                 </button>
-
               </div>
-
-
               `
                 : ``
             }
