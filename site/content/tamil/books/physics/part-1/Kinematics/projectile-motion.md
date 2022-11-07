@@ -1,9 +1,0 @@
----
-title: 'எறிபொருளின் இயக்கம் (projectile
-motion)'
-date: 2018-11-14T19:02:50-07:00
-draft: false
-weight: 11
-extensions:
-    - katex
----
