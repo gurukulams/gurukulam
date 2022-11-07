@@ -1,9 +1,0 @@
----
-title: 'வட்ட இயக்கத்தின் இயக்க
-விசையியல்'
-date: 2018-11-14T19:02:50-07:00
-draft: false
-weight: 7
-extensions:
-    - katex
----

@@ -187,7 +187,7 @@ class QuestionScreen {
         }
       })
       .then((data) => {
-        this.questions = data;
+        this.questions = window.shuffle(data);
         this.renderQuestions(this);
         this.setSelectedQuestionIndex(0);
       })
@@ -312,8 +312,6 @@ class QuestionScreen {
             }
           }
         }
-
-        console.log(selectedQuestion);
       };
 
       const renderChoice = (choice) => {
@@ -359,6 +357,7 @@ class QuestionScreen {
       const renderChoices = () => {
         const choiceElms = [];
         if (selectedQuestion.choices !== 0) {
+          window.shuffle(this.selectedQuestion.choices);
           this.selectedQuestion.choices.forEach((choice) => {
             choiceElms.push(renderChoice(choice));
           });
@@ -515,70 +514,51 @@ class QuestionScreen {
     };
 
     const submitFn = () => {
-      this.parent
-        .querySelectorAll(".pagination>.page-item>.page-link")
-        .forEach((el) => {
-          el.parentElement.classList.remove("active");
-          el.classList.remove("border-2");
-          el.classList.remove("border-success");
-          el.classList.remove("border-danger");
-          el.classList.remove("text-danger");
-          el.classList.remove("text-decoration-line-through");
-          el.classList.remove("fw-bolder");
+      if (this.checkedBoxes) {
+        this.checkedBoxes.forEach((input) => {
+          input.parentElement.parentElement.classList.remove("bg-success");
+          input.parentElement.parentElement.classList.remove("bg-danger");
         });
+      }
+      this.checkedBoxes = document.querySelectorAll("input:checked");
 
-      this.questions.forEach((question, index) => {
-        if (question.answer) {
-          const answer = Array.isArray(question.answer)
-            ? question.answer.join(",")
-            : question.answer;
-          fetch(
-            "/api/books/" +
-              this.bookName +
-              "/questions/" +
-              question.id +
-              "/answer",
-            {
-              method: "POST",
-              headers: window.ApplicationHeader(),
-              body: answer,
-            }
-          )
-            .then((response) => {
-              const paginationElement =
-                this.parent.querySelector(".pagination");
-
-              // Shorthand to check for an HTTP 2xx response status.
-              // See https://fetch.spec.whatwg.org/#dom-response-ok
-              if (response.ok) {
-                paginationElement.children[
-                  index + 1
-                ].firstElementChild.classList.add("border-success");
-              } else if (response.status === 406) {
-                paginationElement.children[
-                  index + 1
-                ].firstElementChild.classList.add("border-danger");
-                paginationElement.children[
-                  index + 1
-                ].firstElementChild.classList.add("text-danger");
-                paginationElement.children[
-                  index + 1
-                ].firstElementChild.classList.add(
-                  "text-decoration-line-through"
+      if (this.selectedQuestion.answer) {
+        const answer = Array.isArray(this.selectedQuestion.answer)
+          ? this.selectedQuestion.answer.join(",")
+          : this.selectedQuestion.answer;
+        fetch(
+          "/api/books/" +
+            this.bookName +
+            "/questions/" +
+            this.selectedQuestion.id +
+            "/answer",
+          {
+            method: "POST",
+            headers: window.ApplicationHeader(),
+            body: answer,
+          }
+        )
+          .then((response) => {
+            // Shorthand to check for an HTTP 2xx response status.
+            // See https://fetch.spec.whatwg.org/#dom-response-ok
+            if (response.ok) {
+              this.checkedBoxes.forEach((input) => {
+                console.log(
+                  input.parentElement.parentElement.classList.add("bg-success")
                 );
-                paginationElement.children[
-                  index + 1
-                ].firstElementChild.classList.add("fw-bolder");
-              }
-              paginationElement.children[
-                index + 1
-              ].firstElementChild.classList.add("border-2");
-            })
-            .catch(function (error) {
-              console.log(error);
-            });
-        }
-      });
+              });
+            } else if (response.status === 406) {
+              this.checkedBoxes.forEach((input) => {
+                console.log(
+                  input.parentElement.parentElement.classList.add("bg-danger")
+                );
+              });
+            }
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+      }
     };
 
     const saveFn = () => {
