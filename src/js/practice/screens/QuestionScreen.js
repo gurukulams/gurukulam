@@ -513,12 +513,14 @@ class QuestionScreen {
     };
 
     const submitFn = () => {
-      const checkboxes = document.querySelectorAll("input:checked");
+      if (this.checkedBoxes) {
+        this.checkedBoxes.forEach((input) => {
+          input.parentElement.parentElement.classList.remove("bg-success");
+          input.parentElement.parentElement.classList.remove("bg-danger");
+        });
+      }
+      this.checkedBoxes = document.querySelectorAll("input:checked");
 
-      checkboxes.forEach((input) => {
-        input.nextElementSibling.classList.remove("bg-success");
-        input.nextElementSibling.classList.remove("bg-danger");
-      });
       if (this.selectedQuestion.answer) {
         const answer = Array.isArray(this.selectedQuestion.answer)
           ? this.selectedQuestion.answer.join(",")
@@ -539,15 +541,15 @@ class QuestionScreen {
             // Shorthand to check for an HTTP 2xx response status.
             // See https://fetch.spec.whatwg.org/#dom-response-ok
             if (response.ok) {
-              checkboxes.forEach((input) => {
+              this.checkedBoxes.forEach((input) => {
                 console.log(
-                  input.nextElementSibling.classList.add("bg-success")
+                  input.parentElement.parentElement.classList.add("bg-success")
                 );
               });
             } else if (response.status === 406) {
-              checkboxes.forEach((input) => {
+              this.checkedBoxes.forEach((input) => {
                 console.log(
-                  input.nextElementSibling.classList.add("bg-danger")
+                  input.parentElement.parentElement.classList.add("bg-danger")
                 );
               });
             }
