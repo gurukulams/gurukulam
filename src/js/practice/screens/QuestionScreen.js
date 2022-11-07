@@ -187,7 +187,7 @@ class QuestionScreen {
         }
       })
       .then((data) => {
-        this.questions = data;
+        this.questions = window.shuffle(data);
         this.renderQuestions(this);
         this.setSelectedQuestionIndex(0);
       })
@@ -357,6 +357,7 @@ class QuestionScreen {
       const renderChoices = () => {
         const choiceElms = [];
         if (selectedQuestion.choices !== 0) {
+          window.shuffle(this.selectedQuestion.choices);
           this.selectedQuestion.choices.forEach((choice) => {
             choiceElms.push(renderChoice(choice));
           });
