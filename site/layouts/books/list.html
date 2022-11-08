@@ -12,20 +12,27 @@
         <li class="breadcrumb-item" aria-current="page">{{.Title}}</li>
     </ol>
     {{if .Pages}}
-    {{if (index .Pages 0).IsPage }}
-    {{ $var := "Hugo Page" }}
+    
+    {{ $current_link := "Hugo Page" }}
+    {{ $course_link := "Hugo Page" }}
     <div class="text-end mb-3">
-        {{ $var = strings.TrimRight "/" .Permalink }}
-         <a href="{{replace $var "/books" "/courses/books"}}">
-            
+        {{ $current_link = strings.TrimRight "/" .Permalink }}
+
+        {{ $course_link = replace $current_link "/books" "content/courses/books" }}
+
+        {{ $course_link := print $course_link ".htm"}}
+
+        {{if os.FileExists $course_link }}
+         <a href="{{replace $current_link "/books" "/courses/books"}}">
             <i class="fas fa-chalkboard-teacher fa-2x" title="chalkboardTeaching"></i>
         </a>
+        {{end}}
 
-        <a href="{{replace $var "/books" "/practices/books"}}">
+        <a href="{{replace $current_link "/books" "/practices/books"}}">
             <i class="fas fa-user-check fa-2x px-2" title="ExamPractice"></i>
         </a>  
     </div>
-    {{end}}  
+    
     {{end}}
   </nav>
   
