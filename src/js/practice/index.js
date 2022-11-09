@@ -1,3 +1,3 @@
-import PracticesScreen from "./screens/PracticesScreen";
+import QuestionScreen from "./screens/QuestionScreen";
 
-new PracticesScreen(document.getElementById("content"));
+new QuestionScreen(document.getElementById("content"));

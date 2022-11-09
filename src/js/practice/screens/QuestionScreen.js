@@ -1,5 +1,6 @@
 class QuestionScreen {
   constructor(_parent, _caller) {
+    console.log("S");
     this.parent = _parent;
     this.caller = _caller;
 
@@ -17,6 +18,11 @@ class QuestionScreen {
     this.isOwner = null;
 
     this.deletedQuestionIds = [];
+
+    let bookName = window.location.pathname.split("/practices/books/")[1];
+    const chaptorName = bookName.substring(bookName.indexOf("/") + 1);
+    bookName = bookName.substring(0, bookName.indexOf("/"));
+    this.render(false, bookName, chaptorName);
   }
 
   isValid() {
