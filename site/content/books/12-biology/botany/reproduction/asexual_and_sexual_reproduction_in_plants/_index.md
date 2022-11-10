@@ -43,41 +43,7 @@ ovules.
  Differentiate the structure of Dicot and
 Monocot seed.
 
-{{< /box >}}The differences between habitat and niche are as follows.
-{{< box title="Chapter outline " type="objective" >}}
-
-
-### Chapter outline 
-
-1.1 Asexual reproduction
-
-
-1.2 Vegetative reproduction
-
-
-1.3 Sexual Reproduction
-
-
-1.4 Pre-fertilization
-structure and events
-
-
-1.5 Fertilization
-
-
-1.6 Post fertilization structure and events
-
-
-1.7 Apomixis
-
-
-1.8 Polyembryony
-
-
-1.9 Parthenocarpy
-
-{{< /box >}} 
-
+{{< /box >}}
 
 
 One of the essential features of all living things
