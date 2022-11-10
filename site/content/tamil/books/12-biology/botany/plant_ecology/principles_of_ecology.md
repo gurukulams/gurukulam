@@ -5,4 +5,3 @@ draft: false
 weight: 1
 ---
 
-## CONTENTS WILL BE ADDED SOON
