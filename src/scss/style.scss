@@ -73,3 +73,9 @@ img[src$='#floatright']
     margin: 0.7rem;      /* this margin is totally up to you */
     /* whatever else styles you fancy here */
 }
+
+#content > div.goat.svg-container {
+    width: 25%;
+    height: fit-content;
+    float:left;
+}
