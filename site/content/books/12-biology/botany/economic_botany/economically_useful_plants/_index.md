@@ -36,21 +36,21 @@ fertilisers and bio pest repellants.
 
 ## <u> Chapter Outline  </u>
 
-10.1Food Plants
-
-10.2Spices and Condiments
-
-10.3Fibre
-
-10.4Timber
-
-10.5Latex
-
-10.6Pulp wood
-
-10.7Dye
-
-10.8Cosmetics
+10.1 Food Plants
+ 
+10.2 Spices and Condiments
+ 
+10.3 Fibre
+ 
+10.4 Timber
+ 
+10.5 Latex
+ 
+10.6 Pulp wood
+ 
+10.7 Dye
+ 
+10.8 Cosmetics
 
 10.9 Traditional system of medicines
 
