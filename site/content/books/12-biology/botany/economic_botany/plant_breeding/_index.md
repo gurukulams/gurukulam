@@ -61,7 +61,7 @@ many fields including established disciplines
 such as agronomy, anthropology, archaeology,
 chemistry, trade and commerce.
 
-#### 9.1 R relationship between humans and plants
+#### 9.1 relationship between humans and plants
 
 From the very early times, human beings have
 co-existed with plants which played a vital
@@ -133,7 +133,7 @@ relies on ecological processes, biodiversity and
 cycles adapted to local conditions rather than
 the use of inputs with adverse effects.
 
-#### <u> 9.5.1. Biofertilizers </u>
+#### <u> 9.4.1. Biofertilizers </u>
 
 Biofertilizers are defined as preparations
 containing living cells or latent cells of
@@ -331,52 +331,11 @@ useful for green leaf manure are Cassia fistula,
 Sesbania **grandiflora, Azadirachta indica,**
 **Delonix regia, Pongamia** pinnata etc.
 
-#### 9.6 Plant Breeding
-
-Plant breeding is the science of improvement
-of crop varieties with higher yield, better
-quality, resistance to diseases and shorter
-durations which are suitable to particular
-environment. In other words, it is a purposeful
-manipulation of plant species in order to
-create desired genotype and phenotype for
-the benefit of humans. In early days, plant
-breeding activities were based mainly on
-skills and ability of person involved. But as
-the principles of genetics and cytogenetics
-have elucidated breeding methods such as
-selection, introduction, hybridization, ploidy,
-mutation, tissue culture and biotechnology
-techniques were designed to develop improved
-crop varieties.
-
-
-#### 9.6.1. Objectives of Plant Breeding
-
-*  To increase yield, vigour and fertility of the crop.
-
-* To increase tolerance to environmental
-condition, salinity, temperature
-and drought.
-
-* To prevent the premature falling of buds,
-fruits etc.
-
-To improve synchronous maturity.
-
-* To develop resistance to
-pathogens and pests.
-
-* To develop
-photosensitive and
-thermos-sensitive
-varieties.
-
-![](/books/12-biology/botany/unit10/pic30.png) 
 
 
 
-#### 9.7 Conventional Plant Breeding Methods
+
+#### 9.6 Conventional Plant Breeding Methods
 
 Conventional plant breeding methods resulting
 in hybrid varieties had a tremendous impact on
@@ -388,7 +347,7 @@ the species. In this chapter we will discuss
 about some of the conventional methods of
 plant breeding.
 
-### 9.7.1. Plant Introduction
+### 9.6.1. Plant Introduction
 
 Plant introduction may be defined as the
 introduction of genotypes from a place where it is
@@ -431,7 +390,7 @@ and introduced to different parts of India.
 
 ![](/books/12-biology/botany/unit10/pic31.png) 
 
-#### 9.7.2. Selection
+#### 9.6.2. Selection
 
 Selection is the choice of certain individuals
 from a mixed population for a one or more
@@ -489,7 +448,7 @@ unchanged for a long period of time.
 
 ![](/books/12-biology/botany/unit10/pic33.png) 
 
-### 9.7.3. Hybridization
+### 9.6.3. Hybridization
 
 Hybridization is the method of producing new
 crop varieties in which two or more plants of
@@ -570,7 +529,7 @@ Raphanobrassica, Triticale. (Refer chapter 4
 for detailed illustration)
 
 
-### 9.7.4. Heterosis
+### 9.6.4. Heterosis
 
 Heterosis (hetero- different; sis - condition)
 G.H. Shull was the first scientist to use the
@@ -635,7 +594,7 @@ Triple gene dwarf wheat with increase in
 yield and height. Atomita 2 - rice with salinity
 tolerance and pest resistance.
 
-### 9.7.6. Polyploid Breeding
+### 9.6.6. Polyploid Breeding
 
 Majority of flowering plants are diploid (2n).
 The plants which possess more than two sets of
@@ -664,7 +623,7 @@ sets that are initially derived from two different
 species. Example: Triticale (Triticum durum
 x secale cereale) Raphanobrassica *(Brassica oleraceae x Raphanus sativus)*
 
-#### 9.7.7. Green Revolution
+#### 9.6.7. Green Revolution
 
 Green revolution the term was coined by William
 S.Gaud in (1968). It is defined as the cumulative
@@ -804,107 +763,7 @@ to resistance to maize stem borers.
 
 ![](/books/12-biology/botany/unit10/pic40.png) 
 
-**9.8 Modern Plant Breeding**
 
-In the milestones of plant breeding methods
-Genetic Engineering, Plant tissue culture,
-Protoplasmic fusion or somatic hybridisation,
-Molecular marking and DNA finger printing are
-some of the modern plant breeding tools used
-to improve the crop varieties. We have already
-discussed about the various techniques and
-application of the above mentioned concepts in
-Unit VIII.
-
-
-**New Plant Engineering Techniques / New Breeding Techniques (NBT)**
-
-NBT are a collection of methods that could
-increase and accelerate the development of new
-traits in plant breeding. These techniques often
-involve genome editing, to modify DNA at
-specific locations within the plants to produce
-new traits in crop plants. The various methods
-of achieving these changes in traits include the
-following.
-
-* Cutting and modifying the genome
-during the repair process by tools like CRISPR
-/Cas.
-
-
-*  Genome editing to introduce changes in
-few base pairs using a technique called
-Oligonucleotide-directed
-mutagenesis
-(ODM).
-
-*  Transferring a gene from an identical or
-closely related species (cisgenesis)
-
-
-* Organising processes that alter gene
-activity without altering the DNA itself
-(epigenetic methods).
-
-
-### Summary
-
-Economic Botany deals with the
-relationship between people and economically
-important plants to fulfill the three basic
-needs of life such as food, clothing and
-shelter. Domestication, a term often used for
-a more intricate process, involves the genetic
-alteration of plants which did not appear at
-once, but rather over a substantial period of
-time, perhaps hundreds of years for some
-species. In the history of agriculture Vavilov
-has given the eight main centres of origin of
-plants were now divided into 12 centres of
-origin. In Organic agriculture biofertilizers
-are microbial inoculants which all ecofriendly,
-more effective even though cost effective than
-chemical fertilizers. *Rhizobium, Azolla,* VAM
-and sea weeds are used as fertilizers which
-increase the crop yield many fold.
-
-
-
-Plant breeding is a purposeful manipulation
-of plant species in order to create desirable
-genotype and phenotype for the benefit of
-mankind. Plant introduction, selection,
-hybridization, heterosis, mutation breeding,
-polyploidy breeding and green revolution are
-the different methods of conventional breeding.
-
-Summary
-Economic Botany deals with the
-relationship between people and economically
-important plants to fulfill the three basic
-needs of life such as food, clothing and
-shelter. Domestication, a term often used for
-a more intricate process, involves the genetic
-alteration of plants which did not appear at
-once, but rather over a substantial period of
-time, perhaps hundreds of years for some
-species. In the history of agriculture Vavilov
-has given the eight main centres of origin of
-plants were now divided into 12 centres of
-origin. In Organic agriculture biofertilizers
-are microbial inoculants which all ecofriendly,
-more effective even though cost effective than
-chemical fertilizers. Rhizobium, Azolla, VAM
-and sea weeds are used as fertilizers which
-increase the crop yield many fold.
-Plant breeding is a purposeful manipulation
-of plant species in order to create desirable
-genotype and phenotype for the benefit of
-mankind. Plant introduction, selection,
-hybridization, heterosis, mutation breeding,
-polyploidy breeding and green revolution are
-the different methods of conventional breeding.
 
 
 **Evaluation**
