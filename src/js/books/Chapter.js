@@ -66,7 +66,7 @@ class Chapter {
 
   deleteNote() {
     const note = this.myModal.selectedNote;
-    etch("/api/books/" + this.bookName + "/note/" + note.id, {
+    fetch("/api/books/" + this.bookName + "/note/" + note.id, {
       method: "DELETE",
       headers: window.ApplicationHeader(),
     }).then((response) => {

@@ -23,6 +23,22 @@ class QuestionScreen {
     const chaptorName = bookName.substring(bookName.indexOf("/") + 1);
     bookName = bookName.substring(0, bookName.indexOf("/"));
     this.render(false, bookName, chaptorName);
+
+    const list = document.querySelector(
+      '[aria-labelledby="languageBtn"]'
+    ).children;
+
+    for (let item of list) {
+      console.log(item);
+
+      if (item.children[0].dataset.code === "en") {
+        item.children[0].href =
+          "/practices/books/" + this.bookName + "/" + chaptorName;
+      } else {
+        item.children[0].href =
+          item.children[0].dataset.code + window.location.pathname;
+      }
+    }
   }
 
   isValid() {
