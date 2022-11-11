@@ -150,7 +150,10 @@ class Chapter {
     const searched = note.text;
     let text = this.parent.innerHTML;
     let re = new RegExp(searched, "g"); // search for all instances
-    let newText = text.replace(re, `<mark id="${note.id}">${searched}</mark>`);
+    let newText = text.replace(
+      re,
+      `<mark id="${note.id}" data-bs-toggle="tooltip" data-bs-placement="top" title="${note.note}" >${searched}</mark>`
+    );
     this.parent.innerHTML = newText;
   }
 
