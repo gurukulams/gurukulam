@@ -20,11 +20,8 @@
   {{ block "header" . }}{{ partial "header" . }}{{end}}
   {{ end }}
 
-  <main class="container-fluid mt-5 w-100 h-100">
-    <div class="row py-5 w-100 h-100" id="main-container">
+  <main id="main-container" class="container-fluid mt-5 py-5 w-100 h-100">
       {{ block "main" . }}{{end}}
-    </div>
-    
   </main>
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
