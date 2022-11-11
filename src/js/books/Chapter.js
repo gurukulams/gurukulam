@@ -12,6 +12,17 @@ class Chapter {
     document
       .getElementById("noteModel")
       .addEventListener("shown.bs.modal", function () {
+        if (model.selectedNote.id) {
+          document
+            .getElementById("noteModel")
+            .querySelector(".btn-danger")
+            .classList.remove("d-none");
+        } else {
+          document
+            .getElementById("noteModel")
+            .querySelector(".btn-danger")
+            .classList.add("d-none");
+        }
         document.getElementById("noteText").value =
           model.selectedNote.note || "";
         document.getElementById("noteText").focus();
@@ -60,6 +71,16 @@ class Chapter {
         this.notes = notes;
         this.notes.forEach((note) => {
           this.hightlightNote(note);
+
+          this.parent.querySelectorAll("mark").forEach((markEl) => {
+            markEl.addEventListener("dblclick", () => {
+              this.notes.forEach((note) => {
+                if (note.id === markEl.id) {
+                  this.editNote(note, markEl);
+                }
+              });
+            });
+          });
         });
       });
   }
@@ -85,7 +106,15 @@ class Chapter {
     console.log(note);
 
     if (note.id) {
-      // Update
+      fetch("/api/books/" + this.bookName + "/note/" + note.id, {
+        method: "PUT",
+        headers: window.ApplicationHeader(),
+        body: JSON.stringify(note),
+      })
+        .then((response) => response.json())
+        .then((_note) => {
+          note.id = _note.id;
+        });
     } else {
       fetch("/api/books/" + this.bookName + "/note", {
         method: "POST",
@@ -121,14 +150,8 @@ class Chapter {
     const searched = note.text;
     let text = this.parent.innerHTML;
     let re = new RegExp(searched, "g"); // search for all instances
-    let newText = text.replace(re, `<mark>${searched}</mark>`);
+    let newText = text.replace(re, `<mark id="${note.id}">${searched}</mark>`);
     this.parent.innerHTML = newText;
-
-    if (document.getElementById(note.id)) {
-      document.getElementById(note.id).addEventListener("dblclick", (event) => {
-        this.editNote(note, event.currentTarget);
-      });
-    }
   }
 
   hightlight(note, selection) {
