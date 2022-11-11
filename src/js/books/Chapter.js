@@ -72,6 +72,14 @@ class Chapter {
         this.notes.forEach((note) => {
           this.hightlightNote(note);
 
+          var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+          );
+          tooltipTriggerList.map(function (tooltipTriggerEl) {
+            // eslint-disable-next-line no-undef
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+          });
+
           this.parent.querySelectorAll("mark").forEach((markEl) => {
             markEl.addEventListener("dblclick", () => {
               this.notes.forEach((note) => {
