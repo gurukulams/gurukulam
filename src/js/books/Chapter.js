@@ -24,6 +24,12 @@ class Chapter {
         this.saveNote();
       });
 
+    document
+      .getElementById("noteModel")
+      .querySelector(".btn-danger")
+      .addEventListener("click", () => {
+        this.deleteNote();
+      });
     const tokens = window.location.href.split("/books/")[1].split("/");
 
     this.bookName = tokens[0];
@@ -58,9 +64,18 @@ class Chapter {
       });
   }
 
-  saveNote() {
-    console.log("SAVE");
+  deleteNote() {
+    const note = this.myModal.selectedNote;
+    etch("/api/books/" + this.bookName + "/note/" + note.id, {
+      method: "DELETE",
+      headers: window.ApplicationHeader(),
+    }).then((response) => {
+      console.log(response);
+    });
+    this.myModal.hide();
+  }
 
+  saveNote() {
     const note = this.myModal.selectedNote;
 
     note.onSection = this.chapterPath;
@@ -102,10 +117,11 @@ class Chapter {
   }
 
   hightlightNote(note) {
-    const regex = new RegExp(note.text, "gi");
+    console.log(note);
+    const searched = note.text;
     let text = this.parent.innerHTML;
-    text = text.replace(/(<mark class="highlight">|<\/mark>)/gim, "");
-    const newText = text.replace(regex, '<mark id="' + note.id + '">$&</mark>');
+    let re = new RegExp(searched, "g"); // search for all instances
+    let newText = text.replace(re, `<mark>${searched}</mark>`);
     this.parent.innerHTML = newText;
 
     if (document.getElementById(note.id)) {
