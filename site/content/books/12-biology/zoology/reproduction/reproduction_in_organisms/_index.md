@@ -6,13 +6,6 @@ weight: 1
 ---
 
 
-## Chapter outline
-
-1.1. Modes of reproduction
-
-1.2. Asexual reproduction
-
-1.3. Sexual reproduction
 
 {{< box title=" LEARNING OBJECTIVES" type="objective" >}}
 
@@ -26,11 +19,11 @@ weight: 1
 
 {{< /box >}}
 
+
 Living organisms show a life cycleinvolving birth, growth, development,
 maturation, reproduction and death. Reproduction is the fundamental feature of
 all living organisms. It is a biological process by which organisms produce their young
-ones. The young ones grow and mature to repeat the process. Thus reproduction results in continuation of species and introduces variations in organisms, which are essential
-for adaptation and evolution of their own kind.
+ones. The young ones grow and mature to repeat the process. Thus reproduction results in continuation of species and introduces variations in organisms, which are essential for adaptation and evolution of their own kind.
 
 
 

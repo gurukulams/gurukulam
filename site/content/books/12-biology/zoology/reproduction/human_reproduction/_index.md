@@ -17,7 +17,7 @@ weight: 2
     
     2.5 Maintenance of pregnancy and embryonic development
     
-    2.6 Parturition and
+    2.6 Parturition and lactation
 
 {{< box title="Learning Objectives" type="objective">}}
 
