@@ -10,15 +10,14 @@ Sexual reproduction involves the fusion
 of male and female gametes to form a diploid zygote, which develops into
 a new organism. It leads to genetic variation. The types
 of sexual reproduction seen in animals are syngamy
-(fertilization) and conjugation. In syngamy, the fusion of two
+(fertilization) and conjugation. **In syngamy,** the fusion of two
 haploid gametes takes place to produce a diploid
 zygote. Depending upon the place where the
 fertilization takes place, it is of two types. In
-external fertilization, the fusion of male and
+**external fertilization**, the fusion of male and
 female gametes takes place outside the body
 of female organisms in the water medium.
-e.g. sponges, fishes and amphibians. In internal
-fertilization, the fusion of male and female
+e.g. sponges, fishes and amphibians. In **internal fertilization**, the fusion of male and female
 gametes takes place within the body of female
 organisms. e.g. reptiles, aves and mammals.
 
@@ -85,20 +84,18 @@ Vorticella and bacteria (Prokaryotes).
 **Phases of life cycle:**
 
  Organisms have three phases – Juvenile phase, reproductive phase and
-senescent phase. Juvenile phase/ vegetative
-phase is the period of growth between the birth
+senescent phase. **Juvenile phase/ vegetative**
+**phase** is the period of growth between the birth
 of the individual upto reproductive maturity.
-During reproductive phase/ maturity phase
+During **reproductive phase/ maturity phase**
 the organisms reproduce and their offsprings
 reach maturity period. On the basis of time,
-breeding animals are of two types: seasonal
-breeders and continuous breeders. Seasonal
+breeding animals are of two types: **seasonal breeders and continuous breeders**. Seasonal
 breeders reproduce at particular period of
 the year such as frogs, lizards, most birds,
 deers etc., Continuous breeders continue to
 breed throughout their sexual maturity e.g.
-honey bees, poultry, rabbit etc., Senescent
-phase begins at the end of reproductive phase
+honey bees, poultry, rabbit etc., **Senescent phase** begins at the end of reproductive phase
 when degeneration sets in the structure and
 functioning of the body.
 
@@ -116,7 +113,7 @@ two main types namely, Natural Parthenogenesis
 and Artificial Parthenogenesis. In certain
 animals, parthenogenesis occurs regularly,
 constantly and naturally in their life cycle and
-is known as natural parthenogenesis.
+is known as **natural parthenogenesis.**
 
 {{< box title=" Natural parthenogenesis are of different types:" type="objective">}}
 
@@ -134,12 +131,11 @@ e.g. Aphis
 
 Natural parthenogenesis may be of
 two types, viz., complete and incomplete.
-Complete parthenogenesis is the only form
+**Complete parthenogenesis** is the only form
 of reproduction in certain animals and there is
 no biparental sexual reproduction. There are
 no male organisms and so, such individuals
-are represented by females only. Incomplete
-parthenogenesis is found in some animals
+are represented by females only. **Incomplete parthenogenesis** is found in some animals
 in which both sexual reproduction and
 parthenogenesis occurs. e.g. In honeybees;
 fertilized eggs (zygotes) develop into queen
@@ -150,7 +146,7 @@ produce a new generation of larvae by
 parthenogenesis. It occurs in the sporocysts
 and Redia larvae of liver fluke. It is also seen
 in the larvae of some insects. e.g. Gall fly. In
-artificial parthenogenesis, the unfertilized
+**artificial parthenogenesis**, the unfertilized
 egg (ovum) is induced to develop into a
 complete individual by physical or chemical
 stimuli. e.g., Annelid and seaurchin eggs.
