@@ -38,11 +38,11 @@ All modes of reproduction have some basic features such as synthesis of RNA and
 proteins, replication of DNA, cell division and growth, formation of reproductive units and
 their fertilization to form new individuals. Organisms exhibit two major modes of
 reproduction namely asexual and sexual reproduction. Reproduction by a single parent
-without the involvement of gamete formation is asexual reproduction and the offspring
+without the involvement of gamete formation is **asexual reproduction** and the offspring
 produced are genetically identical. Asexual reproduction is usually by amitotic or mitotic
 division of the somatic (body) cells, hence is also known as somatogenic or blastogenic
 reproduction. When two parents participate in the reproductive process involving two
-types of gametes (ova and sperm), it is called sexual reproduction.
+types of gametes (ova and sperm), it is called **sexual reproduction.**
 
 **1.2. Asexual reproduction**
 
@@ -50,39 +50,21 @@ Asexual reproduction is wide spread among different organisms. It is common in
 members of Protista, Bacteria, Archaea and in multicellular organisms with relatively
 simple organisation. The offsprings show “uniparental inheritance” without any genetic
 variation. The different modes of asexual reproduction seen in animals are fission,
-budding, fragmentation and regeneration. Fission is the division of the parent
-body into two or more identical daughterindividuals. Five types of fission are seen in
-animals. They are binary fission, multiplefission, plasmotomy, strobilation and
-sporulation.
+budding, fragmentation and regeneration. 
 
-In binary fission, the parent organism divides into two halves and
+**Fission** is the division of the parent
+body into two or more identical daughterindividuals. Five types of fission are seen in
+animals. They are binary **fission, multiplefission, plasmotomy, strobilation and sporulation.**
+
+In **binary fission,** the parent organism divides into two halves and
 each half forms a daughter individual.The nucleus divides first amitotically or
 mitotically (karyokinesis), followed by thedivision of the cytoplasm (cytokinesis).
 The resultant offsprings are genetically identical to the parent. Depending on the
 plane of fission, binary fission is of the
 following types,
 
-simple organisation. The offsprings show
-“uniparental inheritance” without any genetic
-variation. The different modes of asexual
-reproduction seen in animals are fission,
-budding, fragmentation and regeneration.
-Fission is the division of the parent
-body into two or more identical daughter
-individuals. Five types of fission are seen in
-animals. They are binary fission, multiple
-fission, plasmotomy, strobilation and
-sporulation.
-In binary fission, the parent
-organism divides into two halves and
-each half forms a daughter individual.
-The nucleus divides first amitotically or
-mitotically (karyokinesis), followed by the
-division of the cytoplasm (cytokinesis).
-The resultant offsprings are genetically
-identical to the parent. Depending on the
-plane of fission, binary fission is of the
-following types,
+![lesson 1](/books/12-biology/zoology/unit1/bzf1.png )
+
 
 i) Simple irregular binary fission
 
@@ -92,7 +74,7 @@ iii) Longitudinal binary fission
 
 iv) Oblique binary fission
 
-Simple irregular binary fission is seen in Amoeba like irregular shaped organisms
+**Simple irregular binary fission** is seen in Amoeba like irregular shaped organisms
 (Fig. 1.1), where the plane of division is hard to observe. The contractile vacuoles
 cease to function and disappear. The nucleoli disintegrate and the nucleus divides
 mitotically. The cell then constricts in the middle, so the cytoplasm divides and forms
