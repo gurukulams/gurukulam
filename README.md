@@ -33,3 +33,12 @@ To watch the application on your local browser
 > docker run -ti -v `pwd`:/docs my-pdfminer:v1 pdf2txt.py -o pdfminer/samples/<<FILE>>.md pdfminer/samples/<<FILE>>.pdf
 
 A Small Changes
+
+
+## Regex Useful
+
+Duplicate Heading
+
+```
+#### ([0-9]+).([0-9]+) (.+)
+```
