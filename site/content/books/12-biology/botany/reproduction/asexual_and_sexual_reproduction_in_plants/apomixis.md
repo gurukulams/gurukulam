@@ -40,7 +40,7 @@ apomixis is given below.
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/40.png )
+![lesson 1](/books/12-biology/botany/images/40.png )
 
 
 

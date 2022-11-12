@@ -88,7 +88,7 @@ the embryo during seed germination. Examples:
 Paddy, Coconut and Castor.
 
 
-![lesson 1](/books/12-biology/bio-botany/images/34.png )
+![lesson 1](/books/12-biology/botany/images/34.png )
 
 
 **Ruminate endosperm**: The endosperm with
@@ -112,7 +112,7 @@ endosperm.
 •	Endosperm regulates the precise mode of embryo development.
 
 
-![lesson 1](/books/12-biology/bio-botany/images/35.png )
+![lesson 1](/books/12-biology/botany/images/35.png )
 
 
 
@@ -137,7 +137,7 @@ two **cotyledons** and a **plumule**.
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/46.png )
+![lesson 1](/books/12-biology/botany/images/46.png )
 
 
 ##### Seed
@@ -148,7 +148,7 @@ Seeds may be endospermous (wheat, maize,
 barley and sunflower) or non endospermo.
 
 
-![lesson 1](/books/12-biology/bio-botany/images/36.png )
+![lesson 1](/books/12-biology/botany/images/36.png )
 
 
 **Cicer seed (example for Dicot seed)**
@@ -171,11 +171,11 @@ in pea whereas in other seeds like castor the
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/37.png )
+![lesson 1](/books/12-biology/botany/images/37.png )
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/38.png )
+![lesson 1](/books/12-biology/botany/images/38.png )
 
 
 
@@ -227,4 +227,4 @@ endosperm with the help of the epithelium
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/39.png )
+![lesson 1](/books/12-biology/botany/images/39.png )

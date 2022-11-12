@@ -71,7 +71,7 @@ organisms fall under **two major** categories
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/1.png )
+![lesson 1](/books/12-biology/botany/images/1.png )
 
 
 

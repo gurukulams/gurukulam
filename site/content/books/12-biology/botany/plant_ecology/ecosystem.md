@@ -112,7 +112,7 @@ defined it as ‘**the system resulting from **the**
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/1.9.png )
+![lesson 9](/books/12-biology/botany/images/1.9.png )
 
 
 
@@ -248,7 +248,7 @@ the summer, PAR often reaches 2000 – 3000
 millimoles /square meter/second.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/2.9.png )
+![lesson 9](/books/12-biology/botany/images/2.9.png )
 
 
 
@@ -386,7 +386,7 @@ and occupy the second trophic level (T2)
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/3.9.png )
+![lesson 9](/books/12-biology/botany/images/3.9.png )
 
 
 Herbivores are eaten by carnivores, which occupy
@@ -418,7 +418,7 @@ heat. Energy flow is always unidirectional in
 an ecosystem.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/4.9.png )
+![lesson 9](/books/12-biology/botany/images/4.9.png )
 
 
 
@@ -459,7 +459,7 @@ is converted into chemical energy.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/9.9.png )
+![lesson 9](/books/12-biology/botany/images/9.9.png )
 
 
 
@@ -509,7 +509,7 @@ Thus, at the successive trophic level, only ten
 percent energy is stored
 
 
-![lesson 9](/books/12-biology/bio-botany/images/5.9.png )
+![lesson 9](/books/12-biology/botany/images/5.9.png )
 
 
 
@@ -544,7 +544,7 @@ consumers. Fourth link in the food chain is tertiary consumers (eagle) which get
 food from secondary consumers.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/6.9.png )
+![lesson 9](/books/12-biology/botany/images/6.9.png )
 
 
 **2. Detritus food chain:**
@@ -568,7 +568,7 @@ eating and being eaten respectively. This is called
 the detritus food chain.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/7.9.png )
+![lesson 9](/books/12-biology/botany/images/7.9.png )
 
 
 
@@ -576,7 +576,7 @@ the detritus food chain.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.9.png )
+![lesson 9](/books/12-biology/botany/images/8.9.png )
 
 
 
@@ -690,7 +690,7 @@ tertiary consumers.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/10.9.png )
+![lesson 9](/books/12-biology/botany/images/10.9.png )
 
 
 
@@ -731,7 +731,7 @@ Therefore, the pyramid of biomass is always
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/11.9.png )
+![lesson 9](/books/12-biology/botany/images/11.9.png )
 
 
 
@@ -749,7 +749,7 @@ upper levels. Therefore, the pyramid of energy is
 **always upright**.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/12.9.png )
+![lesson 9](/books/12-biology/botany/images/12.9.png )
 
 
 
@@ -789,7 +789,7 @@ It occurs in the following steps.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/13.9.png )
+![lesson 9](/books/12-biology/botany/images/13.9.png )
 
 
 
@@ -907,7 +907,7 @@ eruption and decomposition of
 dead organic matters. The details of
 carbon cycle are given in the figure.
 
-![lesson 9](/books/12-biology/bio-botany/images/14.9.png )
+![lesson 9](/books/12-biology/botany/images/14.9.png )
 
 
 
@@ -925,7 +925,7 @@ in rock deposits, marine sediments and guano.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/15.9.png )
+![lesson 9](/books/12-biology/botany/images/15.9.png )
 
 
 It is released from these deposits by weathering
@@ -948,7 +948,7 @@ maintain phosphorus cycle.
 Biosphere consists of different types of
 ecosystems, which are as follows
 
-![lesson 9](/books/12-biology/bio-botany/images/17.9.png )
+![lesson 9](/books/12-biology/botany/images/17.9.png )
 
 
 Though there are many types of ecosystems
@@ -973,10 +973,10 @@ a complex interaction between the abiotic and
 biotic components in it.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/18.9.png )
+![lesson 9](/books/12-biology/botany/images/18.9.png )
 
 
-![lesson 9](/books/12-biology/bio-botany/images/19.9.png )
+![lesson 9](/books/12-biology/botany/images/19.9.png )
 
 
 **Abiotic components**
@@ -1032,7 +1032,7 @@ crane and some top carnivores which include
 large fish, hawk ,man, etc.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/20.9.png )
+![lesson 9](/books/12-biology/botany/images/20.9.png )
 
 
 ##### c. Decomposers
@@ -1053,13 +1053,13 @@ biotic components is evident in the pond
 ecosystem, making itself self sufficient and self
 regulating.
 
-![lesson 9](/books/12-biology/bio-botany/images/21.9.png )
+![lesson 9](/books/12-biology/botany/images/21.9.png )
 
 
 ##### Stratification of pond ecosystem
 
 
-![lesson 9](/books/12-biology/bio-botany/images/22.9.png )
+![lesson 9](/books/12-biology/botany/images/22.9.png )
 
 
 Based on the factors like distance from the
@@ -1106,10 +1106,10 @@ ecosystem will be at stake and the benefits they
 provide to us in future will become bleak.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/23.9.png )
+![lesson 9](/books/12-biology/botany/images/23.9.png )
 
 
-![lesson 9](/books/12-biology/bio-botany/images/24.9.png )
+![lesson 9](/books/12-biology/botany/images/24.9.png )
 
 
 
@@ -1134,7 +1134,7 @@ medicine, timber, fiber and fuel.”
 The varieties of benefits obtained from the ecosystem are generally categorized into the following four types
 
 
-![lesson 9](/books/12-biology/bio-botany/images/25.9.png )
+![lesson 9](/books/12-biology/botany/images/25.9.png )
 
 
 
@@ -1168,7 +1168,7 @@ wastes
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/26.9.png )
+![lesson 9](/books/12-biology/botany/images/26.9.png )
 
 
 ##### How to protect the ecosystem?
@@ -1227,7 +1227,7 @@ ecosystem protection among your friends
 and family members.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/27.9.png )
+![lesson 9](/books/12-biology/botany/images/27.9.png )
 
 
 ##### 7.2.12 Ecosystem Management
@@ -1248,7 +1248,7 @@ in depletion of natural resources, ultimately
 affecting the existence of human.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/28.9.png )
+![lesson 9](/books/12-biology/botany/images/28.9.png )
 
 
 
@@ -1298,7 +1298,7 @@ of ecosystem management activities even
 after the completion of the project.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/29.9.png )
+![lesson 9](/books/12-biology/botany/images/29.9.png )
 
 **Adayar Poonga**
 
@@ -1398,12 +1398,12 @@ Generally, This succession takes less time than
 the time taken for primary succession.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/30.9.png )
+![lesson 9](/books/12-biology/botany/images/30.9.png )
 
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/31.9.png )
+![lesson 9](/books/12-biology/botany/images/31.9.png )
 
 
 
@@ -1427,7 +1427,7 @@ leading to the change of vegetation in that area.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/32.9.png )
+![lesson 9](/books/12-biology/botany/images/32.9.png )
 
 
 
@@ -1437,7 +1437,7 @@ leading to the change of vegetation in that area.
 Detailed study of Hydrosere and Lithosere are
 discussed below
 
-![lesson 9](/books/12-biology/bio-botany/images/33.9.png )
+![lesson 9](/books/12-biology/botany/images/33.9.png )
 
 
 
@@ -1553,7 +1553,7 @@ stages 2 to 6 are occupied by seral communities.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/34.9.png )
+![lesson 9](/books/12-biology/botany/images/34.9.png )
 
 
 
@@ -1886,7 +1886,7 @@ d) b and c
 
 
 
- ![lesson 9](/books/12-biology/bio-botany/images/35.9.png )
+ ![lesson 9](/books/12-biology/botany/images/35.9.png )
 
 
 a) pyramid of number in a grassland
@@ -2160,4 +2160,4 @@ plant communities which are not replaced by
 others.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/36.9.png )
+![lesson 9](/books/12-biology/botany/images/36.9.png )

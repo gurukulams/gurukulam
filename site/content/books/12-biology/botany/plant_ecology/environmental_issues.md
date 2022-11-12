@@ -120,7 +120,7 @@ Now we are going to understand some of the
 environmental issues such as
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.1.png )
+![lesson 9](/books/12-biology/botany/images/8.1.png )
 
 
 
@@ -145,7 +145,7 @@ with around 150 countries.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.2.png )
+![lesson 9](/books/12-biology/botany/images/8.2.png )
 
 
 Drastic increase in population resulted
@@ -182,7 +182,7 @@ like chlorofluorocarbon (CFC). Increase in
 greenhouse gases lead to irreversible changes
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.3.png )
+![lesson 9](/books/12-biology/botany/images/8.3.png )
 
 
 
@@ -230,7 +230,7 @@ fuel and considered to be the major cause of
 global warming.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.4.png )
+![lesson 9](/books/12-biology/botany/images/8.4.png )
 
 
 ##### 8.1.1. Effects of Global Warming
@@ -311,7 +311,7 @@ and burning of organic matter.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.5.png )
+![lesson 9](/books/12-biology/botany/images/8.5.png )
 
 
 
@@ -362,7 +362,7 @@ the sun which is harmful for living organisms
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.6.png )
+![lesson 9](/books/12-biology/botany/images/8.6.png )
 
 
 
@@ -452,7 +452,7 @@ be counted towards meeting Kyoto targets.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.7.png )
+![lesson 9](/books/12-biology/botany/images/8.7.png )
 
 
 
@@ -783,7 +783,7 @@ a range of environmental services including
 carbon sequestration, water retention.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.8.png )
+![lesson 9](/books/12-biology/botany/images/8.8.png )
 
 
 
@@ -956,7 +956,7 @@ recreation and hydropower.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.10.png )
+![lesson 9](/books/12-biology/botany/images/8.10.png )
 
 
 
@@ -984,7 +984,7 @@ erosion and stabilize sand dunes on coastal and
 desert areas. It can absorb hazardous chemicals
 from soil and it is the main source of charcoal.
 
-![lesson 9](/books/12-biology/bio-botany/images/8.11.png )
+![lesson 9](/books/12-biology/botany/images/8.11.png )
 
 
 ##### 8.6 Conservation
@@ -1003,12 +1003,12 @@ ex-situ, in-vitro methods, the endemic as well
 as threatened species can be protected.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.12.png )
+![lesson 9](/books/12-biology/botany/images/8.12.png )
 
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.13.png )
+![lesson 9](/books/12-biology/botany/images/8.13.png )
 
 
 
@@ -1115,7 +1115,7 @@ species are herbs and belong to families such as
 Poaceae. Apiaceae, Asteraceae and Orchidaceae.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.14.png )
+![lesson 9](/books/12-biology/botany/images/8.14.png )
 
 
 Majority of endemic species are threatened
@@ -1125,7 +1125,7 @@ be undertaken for their conservation, otherwise
 these species may become globally extinct.
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.15.png )
+![lesson 9](/books/12-biology/botany/images/8.15.png )
 
 
 
@@ -1214,7 +1214,7 @@ sea food. Poultry requires
 little space, nutrients and less
 pollution compared cattle
 
-![lesson 9](/books/12-biology/bio-botany/images/8.16.png )
+![lesson 9](/books/12-biology/botany/images/8.16.png )
 
 
 
@@ -1247,7 +1247,7 @@ complete burning. Biochar thus has the potential
 to help mitigate climate change via carbon
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.17.png )
+![lesson 9](/books/12-biology/botany/images/8.17.png )
 
 
 sequestration. Independently, biochar when
@@ -1265,7 +1265,7 @@ converting them to carbon storage material.
 ##### 8.8 Rain water harvesting – RWH (Solution to water crisis – A ecological problem)
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.19.png )
+![lesson 9](/books/12-biology/botany/images/8.19.png )
 
 
 
@@ -1422,7 +1422,7 @@ infestations. It is also used for cost effective safe
 method of spraying pesticides and fertilizers,
 which proves very easy and non-harmful.
 
-![lesson 9](/books/12-biology/bio-botany/images/8.20.png )
+![lesson 9](/books/12-biology/botany/images/8.20.png )
 
 
 ##### 8.9.1 Biodiversity Impact Assessment (BIA)
@@ -1592,7 +1592,7 @@ or forests over several years
 • Mapping ocean bottom and its resources
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.21.png )
+![lesson 9](/books/12-biology/botany/images/8.21.png )
 
 
 
@@ -2010,7 +2010,7 @@ needs.
 
 
 
-![lesson 9](/books/12-biology/bio-botany/images/8.22.png )
+![lesson 9](/books/12-biology/botany/images/8.22.png )
 
 
 

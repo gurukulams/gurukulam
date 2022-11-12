@@ -17,7 +17,7 @@ four categories based on its origin.
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/41.png )
+![lesson 1](/books/12-biology/botany/images/41.png )
 
 
 
