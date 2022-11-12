@@ -12,6 +12,7 @@ After fertilization, several changes take place in
 the floral parts up to the formation of the seed
 (Figure 1.20).
 
+![lesson 1](/books/12-biology/botany/images/1.27.png )
 
 The events after fertilization (endosperm,
 embryo development, formation of seed, fruits)
@@ -19,7 +20,7 @@ are called fertilization changes.
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/32.png )
+![lesson 1](/books/12-biology/botany/images/1.28.png )
 
 
 
@@ -61,7 +62,7 @@ formation. Examples: *Adoxa*, *Helianthus* and
 *Scoparia*
 
 
-![lesson 1](/books/12-biology/bio-botany/images/33.png )
+![lesson 1](/books/12-biology/botany/images/1.29.png  )
 
 
 

@@ -12,6 +12,7 @@ gamete is called **fertilization**.
 **Double fertilization** is seen in
 angiosperms.
 
+![lesson 1](/books/12-biology/botany/images/1.23.png )
 
 
 **Events of fertilization**
@@ -70,7 +71,62 @@ disappear the growth of the pollen tube stops.
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/28.png )
+{{< box title="Do You Know" type="objective" >}}
+
+**Pollination – A composite event**
+
+Pollination
+provides
+information
+about
+evolution, ecology, animal learning and
+foraging behaviour. Flowers not only supply
+nectar but also provide microclimate, site and
+shelter for egg laying insects. The association
+of insects benefits the flower by getting
+pollinated and ensures the propagation
+of its own progeny. The floral parts are
+well modified in shape, size to attract the
+pollinators to accomplish pollination .
+
+The relationship between Yucca and
+moth (Tegeticula yuccasella) is an example
+for obligate mutualism. The moth bores a
+hole in the ovary of the flower and lays eggs
+in it. Then it collects pollen and pushes it
+in the form of balls down the hollow end
+of the stigma. Fertilization takes place and
+seeds develop. Larvae
+feed on developing seeds.
+Some seeds remain
+unconsumed for the
+propagation of the plant
+species. It is interesting
+that the moth cannot
+survive without Yucca
+flowers and the plant fails
+to reproduce sexually
+without the moth.
+
+![lesson 1](/books/12-biology/botany/images/1.24.png )
+
+Similarly in Amorphophallus, flowers
+apart from providing floral rewards, also
+forms safe site for laying eggs. Many visitors
+consume pollen and nectar and do not help
+in pollination. They are called pollen / nectar
+robbers.
+
+In Bee orchid (Ophrys) the morphology
+of the flower mimics that of female wasp
+(Colpa). The male wasp mistakes the flowers
+for a female wasp and tries to copulate. This
+act of pseudocopulation helps in polli nation.
+The pollination in Fig (Ficus carica) by the
+Wasp (Blastophaga psenes) is also an example
+for similar Plant – insect interaction.
+
+{{< /box >}}
 
 
 ##### Pollen tube in the style
@@ -147,15 +203,11 @@ style also has transmitting tissue.
 are three types of pollen tube entry into the
 ovule(Figure 1.18).
 
+![lesson 1](/books/12-biology/botany/images/1.25.png )
 
 
 **Porogamy**: when the pollen tube enters
 through the micropyle.
-
-
-
-
-![lesson 1](/books/12-biology/bio-botany/images/29.png )
 
 
 **Chalazogamy**: when the pollen tube enters
@@ -210,20 +262,19 @@ Zygote. (Figure 1.19)
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/30.png )
+![lesson 1](/books/12-biology/botany/images/1.26.png )
 
 
 The second gamete migrates to the central cell
-where it fuses with the **polar** **nuclei** or their
-
-
-![lesson 1](/books/12-biology/bio-botany/images/31.png )
-
-
-
+where it fuses with the **polar** **nuclei** or their 
 fusion product, the secondary nucleus and
 forms the **primary endosperm nucleus (PEN).**
 Since this involves the fusion of three nuclei,
 this phenomenon is called **triple fusion**. This
 act results in endosperm formation which
 forms the nutritive tissue for the embryo.
+
+
+
+
+
