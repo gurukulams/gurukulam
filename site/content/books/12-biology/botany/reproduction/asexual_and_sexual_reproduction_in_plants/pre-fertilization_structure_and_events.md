@@ -61,16 +61,17 @@ locule and develop into pollen grains. The stages
 in the development of microsporangia is given in
 Figure 1.4. In some plants, all the microspores in
 a microsporangium remain held together called
-pollinium. Example: *Calotropis*. Pollinia are attached to a clamp or clip like sticky structure
+pollinium. Example: *Calotropis*. Pollinia are attached 
+to a clamp or clip like sticky structure
 called **corpusculum**. The filamentous or thread
 like part arising from each pollinium is called
 **retinaculum**. The whole structure looks like
 inverted letter 'Y' and is called **translator**
 
 
-![lesson 1](/books/12-biology/bio-botany/images/9.png )
+![lesson 1](/books/12-biology/botany/images/1.6.png )
 
-
+![lesson 1](/books/12-biology/botany/images/1.7.png )
 
 #### T.S. of Mature anther
 
@@ -97,8 +98,19 @@ in function. The cells undergo repeated
 anticlinal divisions to cope up with the rapidly
 enlarging internal tissues.
 
+{{< box title="Activity" type="objective" >}}
 
-![lesson 1](/books/12-biology/bio-botany/images/10.png )
+Collect buds and opened flowers of Datura
+metel. Dissect the stamens, separate the
+anthers and take thin transverse sections and
+observe the structure under the microscope.
+Record the various stages of anther
+development from your observations.
+
+{{< /box >}}
+
+![lesson 1](/books/12-biology/botany/images/1.8.png )
+
 
 **b.Endothecium**: 
 
@@ -186,9 +198,18 @@ Exine proteins responsible for **‘rejection**
 cavities of the exine. These proteins are
 derived from tapetal cells.
 
+{{< box title="Do You Know" type="objective" >}}
 
-![lesson 1](/books/12-biology/bio-botany/images/11.png )
+Many botanists speak of a
+third type of tapetum called
+amoeboid, where the cell wall
+is not lost. The cells protrude
+into the anther cavity through an amoeboid
+movement. This type is often associated with
+male sterility and should not be confused with
+periplasmodial type.
 
+{{< /box >}}
 
 **2. Anther Cavity** : The anther cavity is filled with
 microspores in young stages or with pollen grains
@@ -236,7 +257,27 @@ pollen varies from 10 micrometers in Myosotis
 to 200 micrometers in members of the family
 Cucurbitaceae and Nyctaginaceae
 
-![lesson 1](/books/12-biology/bio-botany/images/12.png )
+{{< box title="Do You Know" type="objective" >}}
+
+Palynology is the study of pollen
+grains.It helps to identify the
+distribution of coal and to locate
+oil fields. Pollen grains reflect
+the vegetation of an area.
+Liquid nitrogen (-1960C) is used to
+preserve pollen in viable condition for
+prolonged duration. This technique is called
+cryopreservation and is used to store pollen
+grains (pollen banks) of economically
+important crops for breeding programmes..
+
+{{< /box >}}
+
+{{< box title="Do You Know" type="objective" >}}
+
+Beepollen is a natural substance and contains high protein,carbohydrate,trace amount of minerals and vitamins. Thefore,it is used as dietary supplement and it sold as pollen tablets and syrups. Futher ,it increases the performance of athletes,race horses and also heals the wounds caused by burns . The study of honey pollen is called mellitopalynology.
+
+{{< /box >}}
 
 
 Pollenkitt is contributed by the tapetum
@@ -270,7 +311,7 @@ the right stigma. The pollen on reaching the stigma
 absorbs moisture and swells.
 
 
-![lesson 1](/books/12-biology/bio-botany/images/13.png )
+![lesson 1](/books/12-biology/botany/images/1.9.png )
 
 
 The intine grows as pollen tube through the germ
@@ -330,12 +371,6 @@ to be **unitegmic** or **bitegmic** ovules respectively.
 The basal region of the body of the ovule where
 the nucellus, the integument and the funicle meet
 or merge is called as **chalaza**. There is a large,
-
-
-![lesson 1](/books/12-biology/bio-botany/images/14.png )
-
-
-
 oval, sac-like structure in the nucellus toward
 the micropylar end called **embryo** **sac** or female
 gametophyte. It develops from the functional
@@ -359,6 +394,8 @@ embryo sac is called **hypostase** and the thick
 -walled cells found above the micropylar end
 above the embryo sac is called **epistase**. The
 structure of ovule is given in Figure 1.7.
+
+![lesson 1](/books/12-biology/botany/images/1.10.png )
 
 
 
@@ -421,10 +458,6 @@ from a megaspore mother cell is called
 
 
 
-
-
-
-
 As the ovule develops, a single hypodermal
 cell in the nucellus becomes enlarged and
 functions as **archesporium**. In some plants,
@@ -467,12 +500,15 @@ and organization the simplest monosporic type
 of development is given below.
 
 
-![lesson 1](/books/12-biology/bio-botany/images/15.png )
+![lesson 1](/books/12-biology/botany/images/1.11.png )
+
+![lesson 1](/books/12-biology/botany/images/1.14.png )
 
 
 The functional megaspore is the first cell of
 the embryo sac or female gametophyte. The
-megaspore elongates along micropylar- chalazal axis. The nucleus undergoes a mitotic division . Wall formation does not follow the nuclear division. A large central vacuole now appears between the two daughter nuclei. The vacuole expands and pushes the nuclei towards the opposite poles of
+megaspore elongates along micropylar- chalazal axis.
+ The nucleus undergoes a mitotic division . Wall formation does not follow the nuclear division. A large central vacuole now appears between the two daughter nuclei. The vacuole expands and pushes the nuclei towards the opposite poles of
 the embryo sac. Both the nuclei divide twice
 mitotically, forming four nuclei at each pole. At
 this stage all the eight nuclei are present in a
@@ -493,13 +529,6 @@ form a **secondary** **nucleus** (central cell). The
 egg apparatus is made up of a central egg cell
 and two synergids, one on each side of the egg
 cell. Synergids secrete chemotropic substances
-
-
-![lesson 1](/books/12-biology/bio-botany/images/16.png )
-
-
-
-
 that help to attract the pollen tube. The special
 cellular thickening called filiform apparatus of
 synergids help in the absorption, conduction of
@@ -510,13 +539,15 @@ structure of embryo sac is given in Figure 1.10.
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/17.png )
+![lesson 1](/books/12-biology/botany/images/1.12.png )
 
 
 
 
 ##### 1.4.3 Pollination
 
+
+![lesson 1](/books/12-biology/botany/images/1.13.png )
 
 Pollination is a wonderful mechanism which
 provides food,
@@ -549,14 +580,6 @@ mechanism which is essential for pollen grains
 to reach the stigma is needed. This process of
 transfer of pollen grains from the anther to a
 stigma of a flower is called **pollination**.
-
-
-
-
-
-
-
-![lesson 1](/books/12-biology/bio-botany/images/18.png )
 
 
 
@@ -622,7 +645,7 @@ it is said to be homogamy. It favours self
 pollination to occur. Example: *Mirabilis jalapa*,
 *Catharanthus roseus*
 
-![lesson 1](/books/12-biology/bio-botany/images/19.png )
+![lesson 1](/books/12-biology/botany/images/1.15.png )
 
 
 3. **Incomplete dichogamy**: In dichogamous
@@ -721,7 +744,7 @@ nodosa and Aristolochia bracteata (Figure1.12b)
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/20.png )
+![lesson 1](/books/12-biology/botany/images/1.17.png )
 
 
 
@@ -735,8 +758,7 @@ superba, the style is reflexed away from the
 stamens and in Hibiscus the stigmas project far above the stamens (Figure 1.13).
 
 
-
-![lesson 1](/books/12-biology/bio-botany/images/21.png )
+![lesson 1](/books/12-biology/botany/images/1.16.png )
 
 
 
@@ -764,7 +786,7 @@ in effective pollination.
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/22.png )
+![lesson 1](/books/12-biology/botany/images/1.18.png )
 
 
 
@@ -918,7 +940,7 @@ beyond leaves. The pollens drop from the tassel
 is caught by the stigma (Figure 1.15).
 
 
-![lesson 1](/books/12-biology/bio-botany/images/23.png )
+![lesson 1](/books/12-biology/botany/images/1.19.png )
 
 
 
@@ -960,7 +982,7 @@ female flower coils and goes under water where
 fruits are produced. (Figure 1.16).
 
 
-![lesson 1](/books/12-biology/bio-botany/images/24.png )
+![lesson 1](/books/12-biology/botany/images/1.20.png )
 
 
 **b. Hypohydrophily**:
@@ -969,8 +991,14 @@ occurs
 inside the water. Examples: *Zostera marina* and
 *Ceratophyllum*.
 
+{{< box title="Activity" type="objective" >}}
 
-![lesson 1](/books/12-biology/bio-botany/images/25.png )
+Visit to a nearby park and observe the
+different flowers. Record the adaptations
+or modifications found in the flowers for
+different types of pollination.
+
+{{< /box >}}
 
 
 **3. Zoophily**: Pollination by the agency of animals
@@ -1040,7 +1068,7 @@ crawling among *Lemna* pollinate them.
 
 
 
-![lesson 1](/books/12-biology/bio-botany/images/26.png )
+![lesson 1](/books/12-biology/botany/images/1.21.png )
 
 
 **D. Entomophily**: Pollination by insects is
@@ -1102,8 +1130,6 @@ The pollen gets deposited on the back of the
 bee. When it visits another flower, the pollen
 gets rubbed against the stigma and completes
 the act of pollination in *Salvia* (Figure 1.17).
-
-
 Some of the other interesting pollination
 mechanisms found in plants are a) Trap
 mechanism (*Aristolochia*);Pit fall mechanism
@@ -1113,4 +1139,4 @@ translator
 mechanism (*Asclepiadaceae*) and piston mechanism (*Papilionaceae*).
 
 
-![lesson 1](/books/12-biology/bio-botany/images/27.png )
+![lesson 1](/books/12-biology/botany/images/1.22.png )

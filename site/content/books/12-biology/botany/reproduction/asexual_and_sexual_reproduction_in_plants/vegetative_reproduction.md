@@ -36,9 +36,16 @@ detached from the parent plant and grow into
 independent plant under suitable condition.
 
 
-![lesson 1](/books/12-biology/bio-botany/images/2.png )
+{{< box title="Activity" type="objective" >}}
 
-![lesson 1](/books/12-biology/bio-botany/images/3.png )
+Visit to a vegetable market and classify the
+vegetables into root, stem or leaf based on
+their utility and identify how many of them
+can be propagated through asexual methods.
+
+{{< /box >}}
+
+![lesson 1](/books/12-biology/botany/images/1.1.png )
 
 
 ### B. Vegetative reproduction in stem
@@ -79,7 +86,7 @@ tips. These buds develop into new plants when
 they touch the soil.
 
 
-![lesson 1](/books/12-biology/bio-botany/images/4.png )
+![lesson 1](/books/12-biology/botany/images/1.2.png )
 
 
 **Advantages of natural vegetative**
@@ -200,17 +207,22 @@ In this method a slit is made in the stock or the
 bark is cut. A twig of scion is inserted and tightly
 bound so that the cambium of the two is joined.
 
+{{< box title="Activity" type="objective" >}}
 
-![lesson 1](/books/12-biology/bio-botany/images/5.png )
+Visit a nursery, observe the method of
+grafting, layering and do these techniques
+with plants growing in your school or home
+{{< /box >}}
 
 **c. Layering:**
+
 
  In this method, the stem of
 a parent plant is allowed to develop roots
 while still intact. When the root develops,
 
 
-![lesson 1](/books/12-biology/bio-botany/images/6.png )
+![lesson 1](/books/12-biology/botany/images/1.3.png )
 
 the rooted part is cut and planted to grow as
 a new plant. Examples: *Ixora* and *Jasminum*.
@@ -229,7 +241,7 @@ in the soil, a cut is made in parent plant so that
 the buried part grow into a new plant.
 
 
-![lesson 1](/books/12-biology/bio-botany/images/7.png )
+![lesson 1](/books/12-biology/botany/images/1.4.png )
 
 
 **ii**. **Air** **layering**: 
