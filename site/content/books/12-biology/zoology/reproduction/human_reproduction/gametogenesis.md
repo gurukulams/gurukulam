@@ -11,7 +11,7 @@ Gametogenesis is the process of formation
 of gametes i.e., sperms and ovary from the
 primary sex organs in all sexually reproducing
 organisms. Meiosis plays the most significant
-role in the process of gametogenesis (Fig.2.5).
+role in the process of gametogenesis **(Fig.2.5).**
 
 **Spermatogenesis**
 
@@ -22,10 +22,11 @@ sperms. During development, the primordial
 germ cells migrate into the testes and become
 immature germ cells called sperm mother
 cells or spermatogonia in the inner surfaces
-of the seminiferous tubules (Fig. 2.6 a). The
+of the seminiferous tubules **(Fig. 2.6 a)**. The
 spermatogonia begin to undergo mitotic
 division at puberty and continue throughout
 life.
+
 In the first stage of spermatogenesis, the
 spermatogonia migrate among sertoli cells
 towards the central lumen of the seminiferous
@@ -44,31 +45,31 @@ with 23 chromosomes each. The secondary
 spermatocytes undergo second meiotic
 division to produce four haploid spermatids.
 The spermatids are transformed into mature
-spermatozoa (sperms) by the process
-called spermiogenesis. Sperms are finally
+**spermatozoa (sperms)** by the process
+called **spermiogenesis.** Sperms are finally
 released into the cavity of seminiferous
-tubules by a process called spermiation.
+tubules by a process called **spermiation.**
 The whole process of spermatogenesis
 takes about 64 days. At any given time,
 different regions of the seminiferous tubules
 contain spermatocytes in different stages
-of development (Fig. 2.6 b). The sperm
+of development **(Fig. 2.6 b).** The sperm
 production remains nearly constant at a rate
 of about 200 million sperms per day.
+
+
 Spermatogenesis starts at the age of
 puberty and is initiated due to the increase
-in the release of Gonadotropin Releasing
-Hormone (GnRH) by the hypothalamus.
+in the release of **Gonadotropin Releasing**
+**Hormone (GnRH)** by the hypothalamus.
 GnRH acts on the anterior pituitary gland and
 stimulates the secretion of two gonadotropins
-namely Follicle Stimulating Hormone
-(FSH) and Lutenizing Hormone (LH). FSH
+namely **Follicle Stimulating Hormone (FSH) and Lutenizing Hormone (LH)**. FSH
 stimulates testicular growth and enhances the
-production of Androgen Binding Protein
-(ABP) by the sertoli cells and helps in the
+production of **Androgen Binding Protein (ABP)** by the sertoli cells and helps in the
 process of spermiogenesis. LH acts on the
 Leydig cells and stimulates the synthesis of
-testosterone which in turn stimulates the
+**testosterone** which in turn stimulates the
 process of spermatogenesis.
 
 ![lesson 1](/books/12-biology/zoology/unit1/bzf18.png )
@@ -76,15 +77,15 @@ process of spermatogenesis.
 **Structure of human spermatozoan**
 
 The human sperm is a microscopic,
-flagellated and motile gamete (Fig. 2.7).
+flagellated and motile gamete **(Fig. 2.7).**
 The whole body of the sperm is enveloped
 by plasma membrane and is composed of a
 head, neck and a tail. The head comprises
 of two parts namely acrosome and nucleus.
-Acrosome is a small cap like pointed
+**Acrosome** is a small cap like pointed
 structure present at the tip of the nucleus
 and is formed mainly from the Golgi body
-of the spermatid. It contains hyaluronidase,
+of the spermatid. It contains **hyaluronidase**,
 a proteolytic enzyme, popularly known as
 sperm lysin which helps to penetrate the
 ovum during Fertilization. The nucleus is flat
@@ -96,14 +97,14 @@ division of the zygote and the distal centriole
 gives rise to the axial filament of the sperm.
 The middle piece possesses mitochondria
 spirally twisted around the axial filament
-called mitochondrial spiral or nebenkern.
+called **mitochondrial spiral or nebenkern**.
 It produces energy in the form of ATP
 molecules for the movement of sperms. The tail is the longest part
 of the sperm and is
 slender and tapering.
 It is formed of a
 central axial filament
-or axoneme and an
+or **axoneme** and an
 outer protoplasmic
 sheath. The lashing
 movements of the
@@ -137,14 +138,14 @@ of the female gamete or ovum or egg in the
 ovaries. During foetal development, certain
 cells in the germinal epithelium of the foetal
 ovary divide by mitosis and produce millions of
-egg mother cells or oogonia. No more oogonia
+**egg mother cells or oogonia.** No more oogonia
 are formed or added after birth. The oogonial
 cells start dividing and enter into Prophase I of
-meiotic division I to form the primary oocytes
+meiotic division I to form the **primary oocytes**
 which are temporarily arrested at this stage.
 The primary oocytes then get surrounded by
 a single layer of granulosa cells to form the
-primordial or primary follicles (Fig. 2.8 a).
+primordial or **primary follicles** (Fig. 2.8 a).
 A large number of follicles degenerate during the
 period from birth to puberty, so at puberty only
 60,000 to 80,000 follicles are left in each ovary.
@@ -161,10 +162,9 @@ On the other hand, males produce more
 than 500 billion sperms in their life time.
 The primary follicle gets surrounded
 by many layers of granulosa cells and a new
-theca layer to form the secondary follicle. A
+theca layer to form the **secondary follicle.** A
 fluid filled space, the antrum develops in the
-follicle and gets transformed into a tertiary
-follicle. The theca layer gets organized into an
+follicle and gets transformed into a **tertiary follicle**. The theca layer gets organized into an
 inner theca interna and an outer theca externa.
 At this time, the primary oocyte within the
 tertiary follicle grows in size and completes its
