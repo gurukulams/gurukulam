@@ -1,5 +1,5 @@
 ---
-title: 'Plant Tissue Culture'
+title: 'Plant Tissue culture'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 2
@@ -20,7 +20,7 @@ detail.
 obtained through cell suspension
 culture.
 
- * nLearn plant regeneration pathway.
+ * Learn plant regeneration pathway.
  Appreciate the uses of micro
 propagation, somatic hybridization,
 shoot meristem culture and germplasm
