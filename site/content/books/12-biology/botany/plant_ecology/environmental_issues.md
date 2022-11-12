@@ -160,7 +160,7 @@ altering climatic conditions.
 
 
 
-##### 8.1 Green House effect and Global Warming
+### Green House effect and Global Warming
 
 
 
@@ -317,7 +317,7 @@ and burning of organic matter.
 
 
 
-##### 8.1.3 Strategies to deal with Global Warming
+#### Strategies to deal with Global Warming
 
 
 • Increasing the vegetation cover, grow more
@@ -456,7 +456,7 @@ be counted towards meeting Kyoto targets.
 
 
 
-##### 8.1.5 Effects of Ozone depletion
+#### Effects of Ozone depletion
 
 
 
@@ -499,14 +499,14 @@ ecosystems affecting flora and fauna.
 
 
 
-##### 8.2 Forestry
+### Forestry
 
 
 
 
 
 
-##### 8.2.1 Agro forestry
+#### Agro forestry
 
 
 
@@ -615,7 +615,7 @@ Example: *Gliricidia sepium, Sesbania grandiflora, Erythrina spp., Acacia spp..*
 
 
 
-##### 8.2.2 Social forestry
+#### Social forestry
 
 
 
@@ -683,7 +683,7 @@ through training and camps.
 
 
 
-##### 8.3 Deforestation
+### Deforestation
 
 
 
@@ -769,7 +769,7 @@ herbs and wild edible fruits.
 
 
 
-##### 8.4 Afforestation
+### Afforestation
 
 
 
@@ -860,7 +860,7 @@ women in forest management.
 
 
 
-##### 8.5 Alien invasive species
+### Alien invasive species
 
 
 
@@ -987,7 +987,7 @@ from soil and it is the main source of charcoal.
 ![lesson 9](/books/12-biology/botany/images/8.11.png )
 
 
-##### 8.6 Conservation
+### Conservation
 
 
 
@@ -1081,7 +1081,7 @@ for the society
 
 
 
-##### 8.6.1 Endemic Centres and Endemic Plants
+#### Endemic Centres and Endemic Plants
 
 
 
@@ -1129,7 +1129,7 @@ these species may become globally extinct.
 
 
 
-##### 8.7 Carbon Capture and Storage (CCS)
+### Carbon Capture and Storage (CCS)
 
 
 
@@ -1262,7 +1262,7 @@ converting them to carbon storage material.
 
 
 
-##### 8.8 Rain water harvesting – RWH (Solution to water crisis – A ecological problem)
+### Rain water harvesting – RWH (Solution to water crisis – A ecological problem)
 
 
 ![lesson 9](/books/12-biology/botany/images/8.19.png )
@@ -1285,7 +1285,7 @@ method for the future.
 
 
 
-##### 8.8.1 Environmental benefits of Rain   Water Harvesting:
+#### Environmental benefits of Rain   Water Harvesting:
 
 
 
@@ -1331,7 +1331,7 @@ storage strategy for local communities.
 
 
 
-##### 8.8.2 Importance of Lakes
+#### Importance of Lakes
 
 
 
@@ -1354,7 +1354,7 @@ nitrogen and carbon sequestration.
 
 
 
-##### 8.9 Environmental Impact Assessment (EIA)
+### Environmental Impact Assessment (EIA)
 
 
 
@@ -1425,7 +1425,7 @@ which proves very easy and non-harmful.
 ![lesson 9](/books/12-biology/botany/images/8.20.png )
 
 
-##### 8.9.1 Biodiversity Impact Assessment (BIA)
+#### Biodiversity Impact Assessment (BIA)
 
 
 
@@ -1473,7 +1473,7 @@ fauna.
 
 
 
-##### 8.10 Geographic Information System
+### Geographic Information System
 
 
 

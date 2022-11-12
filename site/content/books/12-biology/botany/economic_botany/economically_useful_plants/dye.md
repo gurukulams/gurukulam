@@ -5,8 +5,6 @@ draft: false
 weight: 7
 ---
 
-### 10.7 Dyes
-
 The ability to perceive colour is a wonderful
 aspect of human eyes and dyes add colour to
 the goods we use. They have been in use since

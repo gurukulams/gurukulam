@@ -68,7 +68,7 @@ given by **Ernest Haeckel** (1869).
 
 ![Unit 9 - flowchart 1](/books/12-biology/botany/Ecology/pic2.png )
 
-#### <u> 6.1.1 Definitions of ecology </u>
+#### Definitions of ecology </u>
 
 “The study of living organisms, both plants and
 animals, in their natural habitats or homes.”
@@ -80,7 +80,7 @@ relationship between living organisms and their
 environment.” **- Earnest Haeckel (1889)**
 
 
-#### <u> 6.1.2 Ecological hierarchy </u>
+#### Ecological hierarchy </u>
 
 The interaction of organisms with their
 environment results in the establishment of
@@ -93,7 +93,7 @@ systems is illustrated below:
 
 
 
-#### <u> 6.1.3 Branches of Ecology: </u>
+#### Branches of Ecology: </u>
 
 Ecology is mainly divided into two branches,
 they are autecology and synecology
@@ -111,7 +111,7 @@ and branches. Some of the advanced fields are
 Molecular ecology, Eco technology, Statistical
 ecology and Environmental toxicology
 
-#### <u> 6.1.4 Habitat and Niche </u>
+#### Habitat and Niche </u>
 
 **Habitat**
 
@@ -192,7 +192,7 @@ designing for the futuristic ecology.
 
 {{< /box >}}
 
-#### <u> 6.1.5 Ecological equivalents </u>
+#### Ecological equivalents </u>
 
 Taxonomically different species occupying
 similar habitats (Niches) in different geographical

@@ -5,8 +5,6 @@ draft: false
 weight: 6
 ---
 
-### 10.6 Pulp Wood
-
 The term paper is
 derived from the
 word

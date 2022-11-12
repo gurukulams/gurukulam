@@ -6,13 +6,13 @@ weight: 5
 ---
 
 
-### 3.5 Mutation
+### Mutation
 
 Genetic variation among individuals provides the raw material for the ultimate source of evolutionary changes. Mutation and recombination are the two major processes responsible for genetic variation. A sudden change in the genetic material of an organisms is called mutation. The term mutation was introduced by Hugo de Vries (1901) while he has studying on the plant, evening primrose (Oenothera lamarkiana) and proposed ‘Mutation theory’. There are two broad types of changes in genetic material. They are point mutation and chromosomal mutations. Mutational events that take place within individual genes are called gene mutations or point mutation, whereas the changes occur in structure and number of chromosomes is called chromosomal mutation. Agents which are responsible for mutation are called mutagens, that increase the rate of mutation. Mutations can occur either spontaneously or induced. The production of mutants through exposure of mutagens is called mutagenesis, and the organism is said to be mutagenized.
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.31.png )
 
-#### 3.5.1 Types of mutation
+#### Types of mutation
 
 Let us see the two general classes of gene mutation:
 
@@ -65,7 +65,7 @@ The compounds which are not having own mutagenic properties but can enhance the 
 
 Example: Ascorbic acid increase the damage caused by hydrogen peroxide. Caffeine increase the toxicity of methotrexate
 
-#### 3.5.3 Chromosomal mutations
+#### Chromosomal mutations
 
 The genome can also be modified on a larger scale by altering the chromosome structure or by changing the number of chromosomes in a cell. These large-scale variations are termed as chromosomal mutations or chromosomal aberrations. Gene mutations are changes that take place within a gene, whereas chromosomal mutations are changes to a chromosome region consisting of many genes. It can be detected by microscopic examination, genetic analysis, or both. In contrast, gene mutations are never detectable microscopically. Chromosomal mutations are divided into two groups: changes in chromosome number and changes in chromosome structure.
 

@@ -5,8 +5,6 @@ draft: false
 weight: 6
 ---
 
-##### 1.6 Post Fertilization structure and events
-
 
 After fertilization, several changes take place in
 the floral parts up to the formation of the seed

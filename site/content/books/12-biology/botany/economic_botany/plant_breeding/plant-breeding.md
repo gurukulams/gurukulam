@@ -5,8 +5,6 @@ draft: false
 weight: 5
 ---
 
-#### 9.5 Plant Breeding
-
 Plant breeding is the science of improvement
 of crop varieties with higher yield, better
 quality, resistance to diseases and shorter

@@ -5,8 +5,6 @@ draft: false
 weight: 4
 ---
 
-#### 1.4 Pre-fertilization: structures and events
-
 
 The hormonal and structural changes
 in plant lead to the differentiation and
@@ -15,7 +13,7 @@ development of floral primordium
 The structures and events involved in prefertilization are given below 
 
 
-#### 1.4.1 Male Reproductive part -Androecium
+#### Male Reproductive part -Androecium
 
 Androecium is made up of stamens. Each
 stamen possesses an anther and a filament.
@@ -544,7 +542,7 @@ structure of embryo sac is given in Figure 1.10.
 
 
 
-##### 1.4.3 Pollination
+#### Pollination
 
 
 ![lesson 1](/books/12-biology/botany/images/1.13.png )

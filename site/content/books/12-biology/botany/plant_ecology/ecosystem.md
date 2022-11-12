@@ -117,7 +117,7 @@ defined it as ‘**the system resulting from **the**
 
 
 
-#### 7.1  Structure of ecosystem
+###  Structure of ecosystem
 
 
 
@@ -189,7 +189,7 @@ food chain, food web and ecological pyramids.
 
 
 
-#### 7.2 Functions of ecosystem
+### Functions of ecosystem
 
 
 The function of ecosystem include creation of
@@ -206,7 +206,7 @@ trophic level. The quantity of sunlight is directly
 proportional to the production of energy by plants.
 
 
-#### 7.2.1 Photosynthetically Radiation (PAR) Active
+#### Photosynthetically Radiation (PAR) Active
 
 
 
@@ -252,7 +252,7 @@ millimoles /square meter/second.
 
 
 
-#### 7.2.2 Productivity of an ecosystem
+#### Productivity of an ecosystem
 
 
 
@@ -367,7 +367,7 @@ types of ecosystems.
 
 
 
-#### 7.2.3 Concept of trophic level in an ecosystem
+#### Concept of trophic level in an ecosystem
 
 
 (Greek word ‘ trophic’ = to food or feeding)
@@ -403,7 +403,7 @@ one trophic level in the food chain.
 
 
 
-##### 7.2.4 Energy flow
+#### Energy flow
 
 
 
@@ -514,7 +514,7 @@ percent energy is stored
 
 
 
-##### 7.2.5 Food chain
+#### Food chain
 
 
 
@@ -572,7 +572,7 @@ the detritus food chain.
 
 
 
-##### 7.2.6 Food Web
+#### Food Web
 
 
 
@@ -627,7 +627,7 @@ ecosystems.
 
 
 
-##### 7.2.7 Ecological pyramids
+#### Ecological pyramids
 
 
 
@@ -754,7 +754,7 @@ upper levels. Therefore, the pyramid of energy is
 
 
 
-##### 7.2.8 Decomposition:
+#### Decomposition:
 
 
 
@@ -854,7 +854,7 @@ and also the chemical quality of detritus.
 
 
 
-###### 7.2.9 Biogeochemical cycles (Nutrient
+#### Biogeochemical cycles (Nutrient
 cycles)
 
 
@@ -941,7 +941,7 @@ maintain phosphorus cycle.
 
 
 
-##### 7.2.10 Types of ecosystem
+#### Types of ecosystem
 
 
 
@@ -1084,7 +1084,7 @@ penetration of light than the profundal zone
 
 
 
-##### 7.2.11 Ecosystem services ( Benefits)
+#### Ecosystem services ( Benefits)
 
 
 Ecosystem services are defined as the benefits
@@ -1230,7 +1230,7 @@ and family members.
 ![lesson 9](/books/12-biology/botany/images/27.9.png )
 
 
-##### 7.2.12 Ecosystem Management
+#### Ecosystem Management
 
 
 It is a process that integrates ecological, socio
@@ -1303,7 +1303,7 @@ after the completion of the project.
 **Adayar Poonga**
 
 
-##### 7.3 Plant Succession
+### Plant Succession
 
 
 
@@ -1335,7 +1335,7 @@ respectively.
 
 
 
-##### 7.3.1 Characteristics of ecological succession
+#### Characteristics of ecological succession
 
 
 • It is a systematic process which causes changes
@@ -1367,7 +1367,7 @@ to the higher life forms.
 animals.
 
 
-##### 7.3.2 Types of succession
+#### Types of succession
 
 
 The various types of succession have been
@@ -1431,7 +1431,7 @@ leading to the change of vegetation in that area.
 
 
 
-##### 7.3.3 Classification of plant succession
+#### Classification of plant succession
 
 
 Detailed study of Hydrosere and Lithosere are
@@ -1559,7 +1559,7 @@ stages 2 to 6 are occupied by seral communities.
 
 
 
-##### 7.3.4 Significance of Plant Succession
+#### Significance of Plant Succession
 
 
 

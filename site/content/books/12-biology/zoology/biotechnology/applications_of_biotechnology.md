@@ -76,9 +76,9 @@ technology has led to the large scale
 production of various hormones and proteins
 of therapeutic use.
 
-## <u> 9.1 Applications in Medicine </u> 
+### Applications in Medicine </u> 
 
-### 9.1.1 Recombinant Human Insulin
+#### Recombinant Human Insulin
 The Human insulin is synthesized by the
 β cells of Islets of Langerhans in the pancreas. It
 is formed of 51 aminoacids which are arranged
@@ -149,7 +149,7 @@ the normal milk produced by the cows.
 
 {{< /box  >}}
 
-### <u> 9.1.2 Interferons </u>
+#### Interferons </u>
 Interferons are proteinaceous, antiviral,
 species specific substances produced by
 mammalian cells when infected with viruses.
@@ -174,7 +174,7 @@ of the therapeutic applications interferons are
 not within the reach of the common man due to
 high cost for its production.
 
-### <u> 9.1.3 Recombinant Vaccines Recombinant DNA technology </u>
+#### Recombinant Vaccines Recombinant DNA technology </u>
 
 Recombinant DNA technology has been
 used to produce new generation vaccines. The
@@ -448,7 +448,7 @@ popular sources of stem cells, the placenta,
 amniotic sac and amniotic fluid are also rich
 sources in terms of both quantity and quality.
 
-## <u> 9.4 Molecular Diagnostics </u>
+### Molecular Diagnostics </u>
 
 Early diagnosis of infectious diseases
 or inherent genetic defects is essential for
@@ -638,7 +638,7 @@ is very useful for identification of criminals.
 PCR is also used in amplification of specific
 DNA segment to be used in gene therapy.
 
-### <u> 9.5 Transgenic Animals </u>
+### Transgenic Animals </u>
 In early days selective breeding
 methods were carried out to improve the
 genetic characteristics of live stock and
@@ -714,7 +714,7 @@ the quality and quantity of milk, meat,
 eggs and wool production in addition to
 testing drug resistance.
 
-### <u> 9.6 Biological products and their uses </u>
+### Biological products and their uses </u>
 A biological product is a substance
 derived from a living organism and used for
 the prevention or treatment of disease. These
@@ -752,7 +752,7 @@ an immune response, hence could be used
 to reattach tendons and tissues, fill cavities in
 teeth, and repair broken bones.
 
-### <u> 9.7 Animal Cloning  </u>
+### Animal Cloning  </u>
 
 Cloning is the process of producing
 genetically identical individuals of an organism

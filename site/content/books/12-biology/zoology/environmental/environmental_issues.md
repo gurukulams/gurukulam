@@ -91,7 +91,7 @@ classified according to the types of environment
 that is affected. They are mainly air, water and
 soil pollution.
 
-### <u> 12.1.1 Classification of Pollutants </u>
+#### Classification of Pollutants </u>
 
 **In terms of eco-system, pollutants can be classified into two basic groups – Non- degradable and degradable.** Based on the time
 taken to breakdown into their ingredients,
@@ -119,7 +119,7 @@ Toxic elements like lead, mercury, cadmium,
 chromium and nickel are such common
 pollutants.
 
-### 12.2 Air Pollution
+### Air Pollution
 
 Earth is surrounded by a gaseous envelope
 which is called atmosphere. The gaseous
@@ -184,7 +184,7 @@ mining units, cement factories are the main
 sources of particulate matter pollution.
 
 
-### <u> 12.2.1 Sources </u>
+#### Sources </u>
 
 The main sources of air pollution are:
 * **• Transport sources (Fig12.1)** – cars, buses,
@@ -201,7 +201,7 @@ stubble burning, fireplaces
 wildfires, volcanoes.
 
 
-## <u> 12.2.2 Effects of Air Pollution </u>
+#### Effects of Air Pollution </u>
 
 * Affects all organisms as they depend on the
 atmosphere for respiration.
@@ -249,7 +249,7 @@ National Air Quality Index
 
 {{< /box >}}
 
-## <u> 12.2.3 Other notable effects of Air Pollution </u>
+#### Other notable effects of Air Pollution </u>
 
 **Smog** is a type of air pollution caused by tiny
 particles in the air. The word comes from a
@@ -297,7 +297,7 @@ sulphuric acid or nitric acid. It damages trees,
 crops and harms marine animals (coral reefs)
 and induces corrosion.
 
-## <u> 12.2.4 Control of Air Pollution </u>
+#### Control of Air Pollution </u>
 
 Certain measures help to remove pollutants,
 reduce their presence or prevent their entry into
@@ -332,7 +332,7 @@ marble has decolorized to yellow.
 
 {{< /box >}}
 
-### <u> 12.2.5 Legal Protection</u>
+#### Legal Protection</u>
 
 * The Air (Prevention and Control of
 Pollution) Act was enacted in 1981 and
@@ -403,9 +403,9 @@ public how polluted the air is at a given time.
 
 ![](/books/12-biology/zoology1/pic58.png)
 
-### <u> 12.3 Water Pollution </u>
+### Water Pollution </u>
 
-#### 12.3.1 Quality of Water
+#### Quality of Water
 
 Water is essential for life and for the health of
 the environment. As a valuable natural resource,
@@ -420,7 +420,7 @@ A healthy environment is one in which the water
 quality supports a rich and varied community of
 organisms and protects public health.
 
-#### 12.3.2 Water Pollution
+#### Water Pollution
 
 Water pollution occurs when there is a
 change in the chemical, physical or biological
@@ -432,7 +432,7 @@ or man-made materials let into it. When it
 becomes unfit for its intended use, water is
 considered polluted.
 
-#### 12.3.3 Sources of Water Pollution
+#### Sources of Water Pollution
 
 Even though water bodies or sources can be
 polluted by natural causes, water pollution is
@@ -487,7 +487,7 @@ rivers, streams and the marine system by
 precipitation, run-off and the groundwater by
 seepage or percolation.
 
-### <u> 12.3.4 Effect of Water pollution on Ecosystems </u>
+#### Effect of Water pollution on Ecosystems </u>
 
 **1. Destruction of ecosystems:**Ecosystems,
 especially aquatic systems, can be severely
@@ -557,7 +557,7 @@ occur, can be lethal to aquatic organisms.
 
 ![Fig. 12.3 Algal bloom](/books/12-biology/zoology1/pic61.png)
 
-### <u> 12.3.6 Control Measures </u>
+#### Control Measures </u>
 1. Right to clean water is a fundamental
 right under the Indian Constitution
 (Article 21).
@@ -646,7 +646,7 @@ When there is lot of ‘noise’ in the environment,
 it is termed as Noise Pollution. The intensity of
 noise is meaured in decibels (dB).
 
-#### <u> 12.4.1 Sources of Noise Pollution </u>
+#### Sources of Noise Pollution </u>
 
 Vehicle engines, air horns, audio video
 systems, trains, low flying aircrafts, factory
@@ -685,7 +685,7 @@ activities.
 * Fire crackers frighten animals. Birds are
 often affected by increased air traffic.
 
-#### <u>  12.4.3 Control </u>
+#### Control </u>
 
 * Planting trees in and around noise sources
 is an effective solution for noise pollution
@@ -707,7 +707,7 @@ servicing minimizes noise levels.
 the usage of loudspeakers in crowded
 areas and public places.
 
-#### 12.4.4 Legal Protection
+#### Legal Protection
 
 Article 48-A and Article 51-A of the
 Constitution of India, Noise Pollution
@@ -722,7 +722,7 @@ limit of noise in areas categorized as
 commercial is 65 decibels (dB) during day
 and 55 dB during night.
 
-### <u>  12.5 Agrochemicals </u>
+### Agrochemicals </u>
 
 Chemicals which are used in agriculture for
 growth of plants and pest control are called
@@ -794,7 +794,7 @@ shows biomagnification of DDT in an aquatic
 food chain where the concentration of DDT is
 enhanced at successive trophic levels.
 
-#### 12.7 Eutrophication
+### Eutrophication
 
 When run-off from land
 containing nutrients reaches
@@ -823,7 +823,7 @@ and lakes as well as, displacing native plants. It
 causes unsightly foam and unpleasant odours,
 and deprives the water of dissolved oxygen.
 
-#### 12.7.1 Integrated Wastewater Management
+#### Integrated Wastewater Management
 
 Wastewater Treatment
 Wastewater or sewage originates from
@@ -929,7 +929,7 @@ Zone Wastewater Treatment (RZWT))
 Institute, Siruseri IT Park, Chennai.
 
 
-#### 12.8 Organic Farming and Its Implementation
+### Organic Farming and Its Implementation
 
 It is a method of farming system which
 primarily aims at cultivating the land and raising
@@ -942,7 +942,7 @@ nutrients to crops for increased sustainable
 production in an eco-friendly pollution free
 environment.
 
-#### 12.9 Solid Waste Management
+### Solid Waste Management
 
 Every day, tonnes of solid wastes are disposed
 off at landfill sites. This waste comes from
@@ -995,11 +995,11 @@ the components at the existing Kodungaiyur
 and Perungudi sites.
 
 
-### 12.9.1 Waste management practices
+#### Waste management practices
 
 a) Source segregation b) Composting c) Vermicomposting d) Biogas generation e) Incineration
 
-### 12.9.2 Radioactive waste
+#### Radioactive waste
 
 Radioactive wastes are generated during
 various operations of the nuclear power plant.
@@ -1073,7 +1073,7 @@ facility of Spent Fuel is the main mode of
 storage.
 
 
-#### 12.9.3 Medical waste
+#### Medical waste
 
 Any kind of waste that contains infectious
 material generated by hospitals, laboratories,
@@ -1098,7 +1098,7 @@ microwave irradiation are methods of waste
 disposals. Final disposal includes landfill and
 burying as per norms inside premises.
 
-#### 12.9.4 E-Waste
+#### E-Waste
 Electronic waste or e-waste describes
 discarded electrical electronic devices as well
 as any refuse created by discarded electronic
@@ -1131,7 +1131,7 @@ exposure in recycling operations and leaking
 of materials such as heavy metals from landfills
 and incinerator ashes.
 
-#### 12.9.5 Plastic Waste – Solutions and Remedies
+#### Plastic Waste – Solutions and Remedies
 
 
 Plastics are low molecular weight organic
@@ -1155,7 +1155,7 @@ remedy for plastic waste pollution.
 implemented the ban on single use
 plastics from 1st January 2019.
 
-### 12.10 Ecosan Toilets
+### Ecosan Toilets
 
 About 150 liters of wastewater at an average
 is generated by an Indian individual daily, and

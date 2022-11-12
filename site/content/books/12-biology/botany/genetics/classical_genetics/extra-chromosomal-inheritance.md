@@ -5,8 +5,6 @@ draft: false
 weight: 7
 ---
 
-### 2.7 Extra Chromosomal Inheritance or Extra Nuclear Inheritance(Cytoplasmic Inheritance)
-
 DNA is the universal genetic material. Genes
 located in nuclear chromosomes follow
 Mendelian inheritance. But certain traits

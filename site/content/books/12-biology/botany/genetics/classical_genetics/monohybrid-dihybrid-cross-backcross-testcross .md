@@ -5,8 +5,6 @@ draft: false
 weight: 3
 ---
 
-### <u> 2.3 Monohybrid cross </u>
-
 Monohybrid inheritance is the inheritance of a
 single character i.e. plant height.It involves the
 inheritance of two alleles of a single gene. When
@@ -55,7 +53,7 @@ Checker board method or by Forkline method.
 
 
 
-#### 2.3.1 Mendel’s analytical and empirical approach
+#### Mendel’s analytical and empirical approach
 
 Mendel chose two contrasting traits for each
 character. So it seemed logical that two distinct
@@ -81,7 +79,7 @@ determine the relationships which govern hereditary
 traits. This rationale is called an empirical approach.
 Laws that were arrived from an empirical approach is known as empirical laws.
 
-#### 2.3.2 Test cross
+#### Test cross
 
 Test cross is crossing an individual of unknown
 genotype with a homozygous recessive.
@@ -114,7 +112,7 @@ dominant character.
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.7.png )
 
 
-#### 2.3.3 Back cross
+#### Back cross
 
 * Back cross is a cross of F<sub>1</sub> hybrid with any
 one of the parental genotypes. The back
@@ -137,7 +135,7 @@ specified as test cross.
 * The recessive back cross helps to identify
 the heterozygosity of the hybrid.
 
-#### 2.3.4 Dihybrid cross
+#### Dihybrid cross
 
 It is a genetic cross which involves individuals
 differing in two characters. Dihybrid inheritance is the inheritance of two separate genes each with two alleles.
@@ -290,13 +288,13 @@ set of generalisations that we called Mendel's Law
 of independent assortment.
 
 
-#### 2.3.5 The Dihybrid test cross
+#### The Dihybrid test cross
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.12.png )
 
 
 
-#### 2.3.6 Extensions of Mendelian Genetics
+#### Extensions of Mendelian Genetics
 
 Apart from monohybrid, dihybrid and
 trihybrid crosses, there are exceptions to

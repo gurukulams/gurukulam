@@ -5,8 +5,6 @@ draft: false
 weight: 3
 ---
 
-#### <u> 6.2 Ecological factors </u>
-
 Many organisms, co-exist in an environment.
 The environment (surrounding) includes
 physical, chemical and biological components.
@@ -45,7 +43,7 @@ of dusk (5 – 6 pm) due to diurnal rhythm.
 
 {{< /box >}}
 
-#### <u> 6.2.1 Climatic Factors </u>
+#### Climatic Factors </u>
 
 Climate is one of the important natural factors
 controlling the plant life. The climatic factors
@@ -393,7 +391,7 @@ prevents infections by microorganisms.
 
 
 
-### 6.3 Ecological adaptations
+### Ecological adaptations
 
 The modifications in the structure of
 organisms to survive successfully in an
@@ -850,7 +848,7 @@ and Thiruvarur), Muthupet
 Gaja cyclone ( November 2018) due to the
 presence of mangrove forest.
 
-#### 6.4 Dispersal of Fruits and Seeds
+### Dispersal of Fruits and Seeds
 
 Both fruits and seeds possess attractive colour,
 odour, shape and taste needed for the dispersal
@@ -887,7 +885,7 @@ many benefits to communities such as food and
 nutrients, migration of seeds across habitats
 and helps spreading plant genetic diversity.
 
-### 6.4.1 Dispersal by Wind (Anemochory)
+#### Dispersal by Wind (Anemochory)
 
 The individual seeds or the whole fruit may be
 modified to help for the dispersal by wind. Wind

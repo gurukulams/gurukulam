@@ -5,8 +5,6 @@ draft: false
 weight: 8
 ---
 
-### 10.8 Cosmetics
-
 Traditionally in Southern India, people have
 been using turmeric, green gram powder,
 henna, sigaikai and usilai for their skin and
@@ -51,7 +49,7 @@ antifungal and antiseptic. Aloe vera gel is used in skin care cosmetics.
 ![Figure 10.17: Aloe vera](/books/12-biology/botany/unit10/pic16.png)
 
 
-### 10.8.1 Perfumes
+#### Perfumes
 
 The word perfume is derived from the Latin
 word Per (through) and fumus (to smoke),

@@ -5,8 +5,6 @@ draft: false
 weight: 2
 ---
 
-### 2.2 Mendelism
-
 The contribution of Mendel to Genetics is called
 Mendelism. It includes all concepts brought out
 by Mendel through his original research on
@@ -15,7 +13,7 @@ are basic to modern genetics. Therefore, Mendel
 is called as **Father of Genetics**
 
 
-#### 2.2.1 Father of Genetics – Gregor Johann Mendel (1822 – 1884)
+#### Father of Genetics – Gregor Johann Mendel (1822 – 1884)
 
 ![lesson 1](/books/12-biology/botany/unit7/bbf7.1.png )
 
@@ -80,7 +78,7 @@ fertilization.
 and pollination are very easy for
 hybridization.
 
-#### 2.2.2 Mendel’s experiments on pea plant
+#### Mendel’s experiments on pea plant
 
 Mendel’s theory of inheritance, known as the
 Particulate theory, establishes the existence of
@@ -174,7 +172,7 @@ anthocyanin and hence they are white.
 
 
 
-#### 2.2.3 Terminology related to Mendelism
+#### Terminology related to Mendelism
 
 Mendel noticed two different expressions of
 a trait – Example: Tall and dwarf. Traits are
@@ -193,7 +191,7 @@ recessive the individual is called **homozygous recessive (tt)** dwarf pea plant
 allele and one recessive allele (Tt) denotes non-
 true breeding tall pea plants **heterozygous tall.**
 
-#### 2.2.4 <u> Mendelian inheritance – Mendel’s Laws of Heredity </u>
+#### <u> Mendelian inheritance – Mendel’s Laws of Heredity </u>
 
 Mendel proposed two rules based on his
 observations on monohybrid cross, today these

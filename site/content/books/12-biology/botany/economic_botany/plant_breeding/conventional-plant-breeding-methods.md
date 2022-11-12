@@ -5,8 +5,6 @@ draft: false
 weight: 6
 ---
 
-#### 9.6 Conventional Plant Breeding Methods
-
 Conventional plant breeding methods resulting
 in hybrid varieties had a tremendous impact on
 agricultural productivity over the last decades.

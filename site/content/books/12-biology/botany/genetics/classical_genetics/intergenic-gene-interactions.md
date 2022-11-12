@@ -7,7 +7,7 @@ weight: 5
 
 
 
-### 2.5 Intergenic gene interactions**
+### Intergenic gene interactions**
 
 Interlocus interactions take place between the alleles at different loci i.e between alleles of different genes.Itincludes the following:
 

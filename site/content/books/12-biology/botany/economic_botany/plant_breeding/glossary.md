@@ -5,8 +5,6 @@ draft: false
 weight: 8
 ---
 
-### Glossary
-
 **Acclimatization :** The adaptation of an individual
 to a changed climate or the adjustment of a
 species or a population to a changed environment

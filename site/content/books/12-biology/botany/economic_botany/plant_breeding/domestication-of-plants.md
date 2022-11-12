@@ -5,8 +5,6 @@ draft: false
 weight: 2
 ---
 
-###  9.2 Domestication of plants 
-
 Domestication is the process of bringing a
 plant species under the control of humans and
 gradually changing it through careful selection,

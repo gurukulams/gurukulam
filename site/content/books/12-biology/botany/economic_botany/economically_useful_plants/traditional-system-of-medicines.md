@@ -5,8 +5,6 @@ draft: false
 weight: 9
 ---
 
-### <u> 10.9 Traditional of Medicines Systems </u>
-
 India has a rich medicinal heritage. A number
 of Traditional Systems of Medicine (TSM)
 are practiced in India some of which come

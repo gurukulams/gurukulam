@@ -5,8 +5,6 @@ draft: false
 weight: 1
 ---
 
-### 2.1 Heredity and variation
-
 Genetics is often described as a science which
 deals with heredity and variation.
 

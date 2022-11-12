@@ -5,8 +5,6 @@ draft: false
 weight: 1
 ---
 
-#### 9.1 relationship between humans and plants
-
 From the very early times, human beings have
 co-existed with plants which played a vital
 role in their survival. Through a long process

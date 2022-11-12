@@ -5,8 +5,6 @@ draft: false
 weight: 7
 ---
 
-#### 1.7 Apomixis
-
 
 Reproduction involving fertilization in
 flowering plants is called amphimixis and

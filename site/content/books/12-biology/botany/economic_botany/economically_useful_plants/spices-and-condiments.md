@@ -5,8 +5,6 @@ draft: false
 weight: 2
 ---
 
-### 10.2 Spices and Condiments
-
 **Aroma attracts everyone**
 
 **History:**

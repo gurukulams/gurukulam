@@ -5,8 +5,6 @@ draft: false
 weight: 4
 ---
 
-#### 9.4 Organic Agriculture 
-
 Organic farming is an alternative agricultural
 system which originated early in the twentieth
 century in reaction to rapidly changing farming

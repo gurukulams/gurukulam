@@ -5,8 +5,6 @@ draft: false
 weight: 3
 ---
 
-####  9.3 Origin of Agriculture 
-
 Archeological evidence for earliest record
 of agriculture is found in the fertile crescent
 region in and around Tigris and Euphrates river

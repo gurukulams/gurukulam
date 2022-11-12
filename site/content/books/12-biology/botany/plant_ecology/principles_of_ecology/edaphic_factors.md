@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-#### <u> 6.2.2 Edaphic factors </u>
+#### Edaphic factors </u>
 
 Edaphic factors, the abiotic factors related
 to soil, include the physical and chemical
@@ -211,7 +211,7 @@ retention of water in the soil.
 
 ![](/books/12-biology/botany/Ecology/pic12.png )
 
-#### <u> 6.2.4 Biotic factors  </u> 
+#### Biotic factors  </u> 
 
 The interactions among living organisms
 such as plants and animals are called **biotic**

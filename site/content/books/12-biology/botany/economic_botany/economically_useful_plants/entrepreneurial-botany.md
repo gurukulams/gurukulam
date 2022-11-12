@@ -5,8 +5,6 @@ draft: false
 weight: 11
 ---
 
-### 10.11 Entrepreneurial Botany
-
 **Entrepreneurial Botany** is the study of
 how new businesses are created using plant
 resources as well as the actual process of
@@ -41,7 +39,7 @@ aromatic plants.
 This part of the chapter is dealt about organic
 farming in brief.
 
-#### 10.11.1 Organic farming
+#### Organic farming
 
 Organic farming is an alternative agricultural
 system in which plants/crops are cultivated

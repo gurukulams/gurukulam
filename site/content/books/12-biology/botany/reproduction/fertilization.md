@@ -5,8 +5,6 @@ draft: false
 weight: 5
 ---
 
-#### 1.5 Fertilization
-
 The fusion of male and female
 gamete is called **fertilization**.
 **Double fertilization** is seen in

@@ -6,11 +6,11 @@ weight: 3
 ---
 
 
-### 3.3 Crossing Over**
+### Crossing Over**
 
 Crossing over is a biological process that produces new combination of genes by inter- changing the corresponding segments between non-sister chromatids of homologous pair of chromosomes. The term 'crossing over' was coined by **Morgan (1912)**. It takes place during pachytene stage of prophase I of meiosis. Usually crossing over occurs in germinal cells during gametogenesis. It is called meiotic or germinal crossing over. It has universal occurrence and has great significance. Rarely, crossing over occurs in somatic cells during mitosis. It is called somatic or mitotic crossing over.
 
-#### 3.3.1 Mechanism of Crossing Over**
+#### Mechanism of Crossing Over**
 
 Crossing over is a precise process that includes stages like synapsis, tetrad formation, cross over and terminalization.
 
@@ -49,7 +49,7 @@ Consider two hypothetical recessive autosomal genes a and b, where a heterozygot
 
 {{< /box >}}
 
-#### 3.3.2 Importance of Crossing Over**
+#### Importance of Crossing Over**
 
 Crossing over occurs in all organisms like bacteria, yeast, fungi, higher plants and animals. Its importance is
 
@@ -63,7 +63,7 @@ Crossing over occurs in all organisms like bacteria, yeast, fungi, higher plants
 
 - If a useful new combination is formed it can be used in plant breeding.
 
-#### 3.3.3 Recombination
+#### Recombination
 
 Crossing over results in the formation of new combination of characters in an organism called recombinants. In this, segments of DNA are broken and recombined to produce new combinations of alleles. This process is called **Recombination.**
 
@@ -71,7 +71,7 @@ Crossing over results in the formation of new combination of characters in an or
 
 The percentage of recombinant progeny in a cross is called recombination frequency. The recombination frequency (cross over frequency) (RF) is calculated by using the following formula. The data is obtained from alleles in coupling configuration.
 
-#### 3.3.4 Genetic Mapping
+#### Genetic Mapping
 
 Genes are present in a linear order along the chromosome. They are present in a specific location called locus (plural: loci). The diagrammatic representation of position of genes and related distances between the adjacent genes is called genetic mapping. It is directly proportional to the frequency of recombination between them. It is also called as linkage map. The concept of gene mapping was first developed by Morgan’s student Alfred H Sturtevant in 1913. It provides clues about where the genes lies on that chromosome.
 

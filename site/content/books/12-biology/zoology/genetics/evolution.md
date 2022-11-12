@@ -168,7 +168,7 @@ a wide range of organic compounds can be
 synthesized.
 
 
-### <u> 6.2 Geological time scale </u>
+### Geological time scale </u>
 
 The duration of the earth’s history has been
 divided into **eras** that include
@@ -231,7 +231,7 @@ rocks and fossils of known age. **Absolute dating** is used to determine the pre
 of a fossil by using radiometric dating to
 measure the decay of isotopes.
 
-## <u> 6.3 Biological evolution </u>
+### Biological evolution </u>
 
 **Formation of protobionts**
 
@@ -328,7 +328,7 @@ the only source of carbon was methane. Later
 in similar experiments, formation of all types of
 amino acids, and nitrogen bases were noticed.
 
-## <u> 6.4 Evidences for biological evolution </u>
+### Evidences for biological evolution </u>
 
 #### <u>6.4.1 Paleontological evidences</u>
 
@@ -402,7 +402,7 @@ is in Chennai.
 {{< /box >}}
 
 
-### 6.4.2 Evidences from comparative anatomy
+#### Evidences from comparative anatomy
 
 Similarities in structure between groups
 of organisms are accepted as indicators of
@@ -497,7 +497,7 @@ highly evolved organisms is called atavistic
 organs. Example, presence of tail in a human
 baby is an atavistic organ.
 
-### <u> 6.4.3 Embryological evidences </u>
+#### Embryological evidences </u>
 
 Embryology deals with the study of the
 development of individual from the egg to the
@@ -566,8 +566,8 @@ molecular clocks. Molecules that have been used
 to study evolution are cytochrome c (respiratory
 pathway) and rRNA (protein synthesis).
 
-## <u> 6.5 Theories of biological evolution </u>
-### 6.5.1 Lamarck’s theory
+### Theories of biological evolution </u>
+#### Lamarck’s theory
 
 **Jean Baptiste de Lamarck,** was the first to
 postulate the theory of evolution in his famous
@@ -610,7 +610,7 @@ somatic cells to produce certain ‘secretions’
 which reach the sex cells through the blood and
 bring about variations in the offspring.
 
-## 6.5.2 Darwin’s theory of Natural Selection
+#### Darwin’s theory of Natural Selection
 
 **Charles Darwin** explained the theory of
 evolution in his book **‘The Origin of Species by Natural Selection’**. During his journey around
@@ -703,7 +703,7 @@ frequency of genes in population arises due
 to mutation, variation, isolation and Natural selection.
 
 
-### 6.5.3 Mutation theory
+#### Mutation theory
 
 **Hugo de Vries** put forth the Mutation
 theory. Mutations are sudden random changes
@@ -740,7 +740,7 @@ fully fledged.
 * They are strictly subjected to natural
 selection.
 
-### 6.5.4 Modern synthetic theory
+#### Modern synthetic theory
 
 **Sewell Wright, Fisher, Mayer, Huxley, Dobzhansky, Simpson and Haeckel** explained
 Natural Selection in the light of Post-Darwinian
@@ -779,7 +779,7 @@ evolution).
 preventing interbreeding between related
 organisms.
 
-## 6.5.5 Evolution by anthropogenic sources
+#### Evolution by anthropogenic sources
 
 ### Natural Selection (Industrial melanism)
 
@@ -821,7 +821,7 @@ period, then **“nature”** with its vast resources
 and long duration can easily produce new
 species by selection.
 
-## 6.5.6 Adaptive Radiation
+#### Adaptive Radiation
 
 The evolutionary process which
 produces new species diverged from a single
@@ -889,7 +889,7 @@ America.
 
 ![Fig 6.5 Darwin’s finches](/books/12-biology/zoology1/pic41.png)
 
-## <u> 6.6 Mechanism of evolution </u>
+### Mechanism of evolution </u>
 
 Microevolution (evolution on a
 small scale) refers to the changes in allele
@@ -899,7 +899,7 @@ four fundamental forces of evolution such as
 natural selection, genetic drift, mutation and
 gene flow.
 
-### <u> 6.6.1 Natural selection </u>
+#### Natural selection </u>
 It occurs when one allele (or combination
 of alleles of differences) makes an organism
 more or less fit to survive and reproduce
@@ -974,7 +974,7 @@ Group selection and sexual selection are
 other types of selection. The two major group
 selections are Altrusim and Kin selection.
 
-## <u> 6.6.2 Gene flow </u>
+#### Gene flow </u>
 
 Movement of genes through gametes or
 movement of individuals in (immigration) and
@@ -1005,7 +1005,7 @@ to founder’s effect.
 
 ![](/books/12-biology/zoology1/pic44.png)
 
-### 6.6.4 Mutation
+#### Mutation
 
 Although mutation is the original source
 of all genetic variation, mutation rate for
@@ -1013,7 +1013,7 @@ most organisms is low. Hence new mutations
 on an allele frequencies from one generation
 to the next is usually not large.
 
-### 6.7 Hardy - Weinberg Principle
+### Hardy - Weinberg Principle
 
 In nature, populations are usually
 evolving such as the grass in an open meadow,
@@ -1121,7 +1121,7 @@ frequencies changes from one generation to
 the other, evolution will take place.
 
 
-## 6.8 Origin and Evolution of Man
+### Origin and Evolution of Man
 
 Mammals evolved in the
 early Jurassic period, about

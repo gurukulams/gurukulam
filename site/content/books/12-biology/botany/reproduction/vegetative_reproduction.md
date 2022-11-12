@@ -5,9 +5,7 @@ draft: false
 weight: 2
 ---
 
-## 1.2 Vegetative reproduction
-
-### 1.2.1 Natural methods
+#### Natural methods
 
 Natural vegetative reproduction is a form of
 asexual reproduction in which a bud grows
@@ -112,7 +110,7 @@ large scale.
 variation.
 
 
-### 1.2.2 Artificial Methods
+#### Artificial Methods
 
 Apart from the above mentioned natural methods
 of vegetative reproduction, a number of methods

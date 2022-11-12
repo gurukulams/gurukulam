@@ -5,8 +5,6 @@ draft: false
 weight: 3
 ---
 
-### 10.3 Fibres
-
 Botanically a fiber is a long narrow and thick-
 walled cell.
 

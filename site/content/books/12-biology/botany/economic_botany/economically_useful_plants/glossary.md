@@ -5,8 +5,6 @@ draft: false
 weight: 12
 ---
 
-### Glossary
-
 **Alzheimer’s disease:** A type of dementia that
 causes problems with memory, thinking and
 behavior

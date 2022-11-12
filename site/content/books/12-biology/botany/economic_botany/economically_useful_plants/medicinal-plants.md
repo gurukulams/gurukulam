@@ -5,8 +5,6 @@ draft: false
 weight: 10
 ---
 
-### 10.10 Medicinal Plants
-
 India is a treasure house of medicinal plants.
 They are linked to local heritage as well as to
 global-trade. All institutional systems in India

@@ -5,7 +5,7 @@ draft: false
 weight: 4
 ---
 
-### 6.4.2 Dispersal by Water (Hydrochory)
+#### Dispersal by Water (Hydrochory)
 
 Dispersal of seeds and fruits by water usually
 occurs in those plants which grow in or near
@@ -29,7 +29,7 @@ carried by water current. Example: Coconut.
 
 ![](/books/12-biology/botany/Ecology/pic33.png )
 
-### 6.4.3 Dispersal by Animals (Zoochory)
+#### Dispersal by Animals (Zoochory)
 
 Birds and mammals, including human beings
 play an efficient and important role in the
@@ -62,7 +62,7 @@ beings to distant places after consumption.
 ![](/books/12-biology/botany/Ecology/pic34.png )
 
 
-### 6.4.3 Dispersal by Explosive Mechanism (Autochory)
+#### Dispersal by Explosive Mechanism (Autochory)
 
 Some fruits burst suddenly with a force
 enabling to throw seeds to a little distance away

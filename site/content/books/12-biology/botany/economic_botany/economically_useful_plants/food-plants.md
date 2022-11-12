@@ -5,8 +5,6 @@ draft: false
 weight: 1
 ---
 
-### <u> 10.1 Food plants</u>
-
 Currently about 10,000 food plants are being
 used of which only around 1,500 species were
 brought under cultivation. However, food
@@ -14,7 +12,7 @@ base of majority of the population depends
 only on three grass species namely rice, wheat
 and maize.
 
-### <u> 10.1.1 Cereals </u>
+#### Cereals </u>
 
 The word cereal is derived from Ceres, which
 according to the Roman mythology denotes
@@ -185,7 +183,7 @@ source of fermented alcoholic beverage.
 
 ![Figure 10.3: Minor Millets](/books/12-biology/botany/unit10/pic3.png)
 
-## <u> 10.1.3 Minor Millets </u>
+#### Minor Millets </u>
 
 **Foxtail Millet**
 
@@ -217,7 +215,7 @@ to make pudding. Good diuretic and cures
 constipation. Helps to reduce obesity, blood
 sugar and blood pressure.
 
-## <u> 10.1.4 Pulses </u>
+#### Pulses </u>
 
 The word Pulse is derived from the Latin
 words ‘puls’ or ‘pultis’ meaning “thick soup”.
@@ -295,7 +293,7 @@ Fried dehulled and broken or whole green gram
 is used as popular snack. The flour is traditionally
 used as a cosmetic, especially for the skin.
 
-#### <u> 10.1.5 Vegetables </u>
+#### Vegetables </u>
 
 While walking through a market filled with fresh
 vegetables like stacks of lady’s finger, mountains
@@ -379,7 +377,7 @@ be eaten raw with salt and chili. Mango pulp is
 made into jelly. Aerated and non-aerated fruit
 juice is a popular soft drink.
 
-#### <u> 10.1.7 Nuts </u>
+#### Nuts </u>
 Nuts are simple dry fruits composed of a hard
 shell and an edible kernel. They are packed
 with a good source of healthy fats, fibre,
@@ -413,7 +411,7 @@ sauces for curries or some sweets. Roasted and
 raw kernels are used as snacks.
 
 
-#### 10.1.8 Sugars
+#### Sugars
 
 We experienced sweetness while eating the
 stems of sugarcane, roots of sugar beet, fruits
@@ -538,7 +536,7 @@ snacks are popular throughout India.
 
 ![Figure 10.8: Oil Seeds](/books/12-biology/botany/unit10/pic8.png)
 
-#### <u> 10.1.10 Beverages </u>
+#### Beverages </u>
 
 **How about a cup of coffee or tea? We always entertain our guests with this offer.**
 

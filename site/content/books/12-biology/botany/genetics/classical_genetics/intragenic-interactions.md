@@ -5,8 +5,6 @@ draft: false
 weight: 4
 ---
 
-### 2.4 Intragenic interactions
-
 Interactions take place between the alleles of
 the same gene i.e., alleles at the same locus is
 called intragenic or intralocus gene interaction.

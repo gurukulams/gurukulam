@@ -5,8 +5,6 @@ draft: false
 weight: 8
 ---
 
-#### 1.8 Polyembryony
-
 
 Occurrence of more than one embryo in a
 seed is called polyembryony (Figure 1.24).

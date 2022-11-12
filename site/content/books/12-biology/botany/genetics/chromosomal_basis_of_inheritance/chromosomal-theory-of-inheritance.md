@@ -5,11 +5,9 @@ draft: false
 weight: 1
 ---
 
-### 3.1 Chromosomal Theory of Inheritance
-
 G. J. Mendel (1865) studied the inheritance of well-defined characters of pea plant but for several reasons it was unrecognized till 1900. Three scientists (de Vries, Correns and Tschermak) independently rediscovered Mendel’s results on the inheritance of characters. Various cytologists also observed cell division due to advancements in microscopy. This led to the discovery of structures inside nucleus. In eukaryotic cells, worm-shaped structures formed during cell division are called **chromosomes** (colored bodies, visualized by staining). An organism which possesses two complete basic sets of chromosomes are known as diploid. A chromosome consists of long, continuous coiled piece of DNA in which genes are arranged in linear order. Each gene has a definite position (locus) on a chromosome. These genes are hereditary units. Chromosomal theory of inheritance states that Mendelian factors (genes) have specific locus (position) on chromosomes and they carry information from one generation to the next generation.
 
-#### 3.1.1 Historical development of chromosome theory
+#### Historical development of chromosome theory
 
 The important cytological findings related to the chromosome theory of inheritance are given below.
 
@@ -29,7 +27,7 @@ chromosomal segregation with Mendelian
 principles and called it chromosomal theory
 of inheritance.
 
-#### 3.1.2 Salient features of the Chromosomal theory of inheritance**
+#### Salient features of the Chromosomal theory of inheritance**
 
 * Somatic cells of organisms are derived
 from the zygote by repeated cell division
@@ -53,7 +51,7 @@ the gamete formation (meiosis) provides
 evidence to the fact that genes or factors
 are located on chromosomes.
 
-#### 3.1.3 Comparison between gene and chromosome behaviour**
+#### Comparison between gene and chromosome behaviour**
 
 Around twentieth century cytologists established that, generally the total number of
 chromosomes is constant in all cells of a species.

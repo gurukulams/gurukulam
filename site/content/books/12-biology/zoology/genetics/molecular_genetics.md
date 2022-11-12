@@ -110,7 +110,7 @@ regulation of gene expression and the essentials
 of human genome sequencing.
 
 
-##### <u> 5.1 Gene as the functional unit of inheritance </u>
+### Gene as the functional unit of inheritance </u>
 
 A gene is a basic physical and functional
 unit of heredity. The concept of the gene
@@ -182,7 +182,7 @@ molecule.
 
 
 
-##### <u> 5.2 In search of the genetic material </u>
+### In search of the genetic material </u>
 
 As early as 1848, Wilhelm Hofmeister,
 a German botanist, had observed that cell
@@ -244,7 +244,7 @@ S - strain is referred to as **transformation**.
 
 
 
-#### <u> 5.3 DNA is the genetic material </u>
+### DNA is the genetic material </u>
 
 Many biologists despite the earlier
 experiments of Griffith, Avery and others,
@@ -260,7 +260,7 @@ Hershey-Chase experiment finally provided
 convincing evidence that DNA is the genetic
 material.
 
-### 5.3.1 Hershey and Chase experiment on T2 bacteriophage
+#### Hershey and Chase experiment on T2 bacteriophage
 
 **Alfred Hershey** and **Martha Chase** (1952)
 conducted experiments on bacteriophages
@@ -306,7 +306,7 @@ thus conclusively proved that it was DNA,
 not protein, which carries the hereditary
 information from virus to bacteria.
 
-#### 5.4 Chemistry of Nucleic Acids
+### Chemistry of Nucleic Acids
 
 Having identified the genetic material as
 the nucleic acid DNA (or RNA), we proceed
@@ -416,7 +416,7 @@ known, then the sequence in the other strand
 can be predicted. The salient features of DNA
 structure has already been dealt in class XI.
 
-### 5.5 RNA world
+### RNA world
 
 A typical cell contains about ten times as
 much RNA as DNA. The high RNA content
@@ -457,7 +457,7 @@ RNA is an active ingredient in the chemistry of
 life. The types of RNA and their role have been
 discussed in class XI.
 
-### <u> 5.6 Properties of genetic material </u>
+### Properties of genetic material </u>
 
 The experiment by Hershey and Chase
 clearly indicates that it is DNA that acts
@@ -528,7 +528,7 @@ RNA and DNA can function as a genetic
 material. DNA is more stable, and is preferred
 for storage of genetic information.
 
-### <u> 5.7 Packaging of DNA helix </u>
+### Packaging of DNA helix </u>
 
 The distance between two consecutive
 base pairs is 0.34nm (0.34×10-9m) of the
@@ -617,7 +617,7 @@ called heterochromatin. Euchromatin is
 transcriptionally active and heterochromatin
 is transcriptionally inactive.
 
-### <u> 5.8 DNA Replication </u>
+### DNA Replication </u>
 
 Replication of DNA takes place during the
 S phase of cell cycle. During replication, each
@@ -659,7 +659,7 @@ and complementary to the parent strand
 **(Fig. 5.4).**
 
 
-### <u> 5.8.1 Experimental proof of DNA replication </u>
+#### Experimental proof of DNA replication </u>
 
 The mode of DNA replication was
 determined in 1958 by Meselson and Stahl.
@@ -705,7 +705,7 @@ position and one at intermediate position.
 These results confirm Watson and Crick’s
 semi conservative replication hypothesis.
 
-####  <u>  5.8.2 Enzymes and mechanism of replication </u>
+#### Enzymes and mechanism of replication </u>
 
 In prokaryotes, replication process
 requires three types of DNA polymerases
@@ -779,7 +779,7 @@ nucleotide to the new strands in the 5' ---> 3'
 direction, as it can only add nucleotides to the
 3' carbon position.
 
-#### <u> 5.9 Transcription </u>
+### Transcription </u>
 
 Francis Crick proposed the Central dogma
 of protein synthesis in molecular biology
@@ -830,7 +830,7 @@ complementary to each other would be formed.
 This would prevent RNA from being translated
 into proteins.
 
-#### <u> 5.9.1 Transcription unit and gene </u>
+#### Transcription unit and gene </u>
 
 A transcriptional unit in DNA is defined by
 three regions, a **promoter, the structural gene**
@@ -895,7 +895,7 @@ that forms a hair pin structure in the RNA. The
 sub-class of terminators require a recognition
 protein, known as rho (ρ), to function.
 
-### <u> 5.9.2 Process of transcription </u>
+#### Process of transcription </u>
 
 In prokaryotes, there are three major types of
 RNAs: mRNA, tRNA, and rRNA. All three RNAs
@@ -1009,7 +1009,7 @@ eukaryotic cells and between eukaryotic cells.
 HGT is now hypothesized to have played a
 major role in the evolution of life on earth.
 
-#### 5.10 Genetic Code
+### Genetic Code
 
 DNA is the genetic material that carries
 genetic information in a cell and from
@@ -1132,7 +1132,7 @@ and also are known as “non-sense” codons.
 
 ![](/books/12-biology/zoology1/pic20.png)
 
-### <u> 5.10.1 Mutation and genetic code </u>
+#### Mutation and genetic code </u>
 
 Comparative studies of mutations (sudden
 change in a gene) and corresponding
@@ -1285,7 +1285,7 @@ amino acid molecule.
 
 ![Fig. 5.12 ](/books/12-biology/zoology1/pic24.png)
 
-#### <u> 5.12 Translation  </u>
+### Translation  </u>
 Translation refers to the process of
 polymerization of amino acids to form poly
 peptide chain. The decoding process is carried
@@ -1299,7 +1299,7 @@ anticodon on the corresponding tRNA. Hence
 the order and sequence of amino acids are
 defined by the sequence of bases in the mRNA.
 
-#### 5.12.1 Mechanism of Translation
+#### Mechanism of Translation
 
 The cellular factory
 responsible for synthesizing
@@ -1468,7 +1468,7 @@ then dissociates into its subunits (step 2)
 
 ![Fig. 5.13 d- Termination of the process of translation](/books/12-biology/zoology1/pic28.png)
 
-### <u> 5.13 Regulation of gene expression </u>
+### Regulation of gene expression </u>
 
 We have previously established how DNA
 is organized into genes, how genes store
@@ -1593,7 +1593,7 @@ Lac operon is also under the control of positive
 regulation as well.
 
 
-### <u> 5.14 Human Genome Project (HGP) </u>
+### Human Genome Project (HGP) </u>
 
 The international human genome project
 was launched in the year 1990. It was a mega
@@ -1606,7 +1606,7 @@ Human genome is said to have approximately
 rapid development of a new area in biology
 called bioinformatics.
 
-#### <u> 5.14.1 Goals and methodologies of Human Genome Project  </u>
+#### Goals and methodologies of Human Genome Project  </u>
 The main goals of Human Genome Project
 are as follows
 
@@ -1662,7 +1662,7 @@ method called **Shotgun sequencing** using
 super computers, which has replaced the
 traditional sequencing methods.
 
-### <u> 5.14.2 Salient features of Human Genome Project:</u>
+#### Salient features of Human Genome Project:</u>
 
 * The human genome contains 3 billion
 nucleotide bases.
@@ -1708,7 +1708,7 @@ base DNA differences **(SNPs – Single**
 locations for disease associated sequences
 and tracing human history.
 
-### <u> 5.14.3 Applications and future challenges  </u>
+#### Applications and future challenges  </u>
 
 The mapping of human chromosomes is
 possible to examine a person’s DNA and to
@@ -1760,7 +1760,7 @@ tailored to a person’s genetic makeup.
 
 {{< /box >}}
 
-### <u> 5.15 DNA fingerprinting technique </u>
+### DNA fingerprinting technique </u>
 
 The DNA fingerprinting technique was first
 developed by Alec Jeffreys in 1985 (Recipient

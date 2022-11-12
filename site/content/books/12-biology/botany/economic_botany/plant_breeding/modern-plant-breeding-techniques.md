@@ -5,8 +5,6 @@ draft: false
 weight: 7
 ---
 
-#### 9.7 Modern Plant Breeding
-
 In the milestones of plant breeding methods
 Genetic Engineering, Plant tissue culture,
 Protoplasmic fusion or somatic hybridisation,

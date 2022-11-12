@@ -5,8 +5,6 @@ draft: false
 weight: 6
 ---
 
-### 2.6 Polygenic Inheritance in Wheat(Kernel colour)
-
 Polygenic inheritance - Several genes combine
 to affect a single trait.
 

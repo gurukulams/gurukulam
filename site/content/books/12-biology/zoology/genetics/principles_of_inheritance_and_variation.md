@@ -72,7 +72,7 @@ blood groups, sex determination in man, insects
 and birds, sex linked inherited traits and genetic
 disorders.
 
-##### <u> 4.1 Multiple alleles </u>
+### Multiple alleles </u>
 
 The genetic segregations in Mendelian
 inheritance reveal that all genes have two
@@ -87,7 +87,7 @@ locus on the homologous chromosome of an
 organism, they are called multiple alleles and
 their inheritance is called **multiple allelism.**
 
-##### <u> 4.2 Human Blood Groups </u>
+### Human Blood Groups </u>
 
 Multiple allelism occurs in humans,
 particularly in the inheritance of different types
@@ -98,7 +98,7 @@ blood, different types of blood groups (ABO) the
 blood antigens and antibodies were discussed
 in chapter 7 of class XI.
 
-##### <u> 4.2.1 ABO blood types </u>
+#### ABO blood types </u>
 
 **Multiple allele inheritance of ABO blood groups**
 
@@ -250,7 +250,7 @@ negative phenotype.
 Wiener proposed the existence of eight alleles (R<sup>1</sup>, R<sup>2</sup>, R<sup>0</sup> ,R<sup>z</sup>,r, r<sup>1</sup>, r<sup>11</sup>, r<sup>y</sup>) at a single Rh locus. All genotypes carrying a dominant ‘R allele’ (R<sup>1</sup>, R<sup>2</sup>, R<sup>0</sup> ,R<sup>z</sup>) will produce Rh
 will produce Rh positive phenotype and double recessive genotypes (rr, r<sup>1</sup>r<sup>1</sup>, r<sup>11</sup>r<sup>11</sup>, r<sup>y</sup>r<sup>y</sup>) will give rise to Rh negative phenotype.
 
-#### <u> 4.3.1 Incompatibility of Rh Factor – Erythroblastosis foetalis  </u>
+#### Incompatibility of Rh Factor – Erythroblastosis foetalis  </u>
 
 Rh incompatability has great significance
 in child birth. If a woman is Rh negative and
@@ -297,7 +297,7 @@ RBC before the mother’s immune system is
 sensitized. This has to be done whenever the
 woman attains pregnancy.
 
-#### <u> 4.4 Sex Determination </u>
+### Sex Determination </u>
 
 Sex determination is the method by
 which the distinction between male and
@@ -414,7 +414,7 @@ adult male testis.
 
 {{< /box >}}
 
-#### <u> 4.4.1 Dosage compensation - Barr body </u> 
+#### Dosage compensation - Barr body </u> 
 
 In 1949, Barr and Bertram first observed a
 condensed body in the nerve cells of female cat
@@ -583,7 +583,7 @@ F2 generation **(Fig. 4.4)**.
 
 ![Fig. 4.4 Marriage between normal visioned man and colour blind woman](/books/12-biology/Zoology/pic5.png )
 
-### <u> 4.5.2 Inheritance of Y- linked genes </u> 
+#### Inheritance of Y- linked genes </u> 
 
 Genes in the non-homologous region
 of the Y-chromosome are inherited directly
@@ -650,7 +650,7 @@ The photograph of chromosomes are arranged
 in the order of descending length in groups
 from A to G (Fig. 4.5).
 
-### <u> 4.7 Pedigree Analysis </u> 
+### Pedigree Analysis </u> 
 
 Pedigree is a “family tree”, drawn with
 standard genetic symbols, showing the
@@ -761,7 +761,7 @@ usually die between the age of 35 and 40.
 
 
 
-### <u> 4.9 Chromosomal Abnormalities  </u>
+### Chromosomal Abnormalities  </u>
 
 Each human diploid (2n) body cell has
 46 chromosomes (23 pairs). Chromosomal
