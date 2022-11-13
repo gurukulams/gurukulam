@@ -42,3 +42,14 @@ Duplicate Heading
 ```
 (#.+) ([0-9]+).([0-9]+) (.+)
 ```
+
+### Why
+
+Tamil Book is Wrong
+Question Bank is available only in English
+Content is scattered.
+Good Content difficult to find.
+
+Books
+Questions
+Notes
