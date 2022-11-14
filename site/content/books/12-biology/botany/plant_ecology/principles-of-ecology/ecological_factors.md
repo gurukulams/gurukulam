@@ -972,37 +972,3 @@ many benefits to communities such as food and
 nutrients, migration of seeds across habitats
 and helps spreading plant genetic diversity.
 
-#### Dispersal by Wind (Anemochory)
-
-The individual seeds or the whole fruit may be
-modified to help for the dispersal by wind. Wind
-dispersal of fruits and seeds is quite common in
-tall trees. The adaptation of the wind dispersed
-plants are
-
-*  Minute seeds: Seeds are minute, very
-small, light and with inflated covering.
-*Example: Orchids.*
-
-* Wings: Seeds or whole fruits are flattened to
-form a wing. Examples: Maple, Gyrocarpus,
-*Dipterocarpus and Terminalia*
-
-![](/books/12-biology/botany/Ecology/pic32.png )
-
-
-
-* Feathery Appendages: Seeds or fruits may
-have feathery appendages which greatly
-increase their buoyancy to disperse to high
-altitudes. Examples: Vernonia and Asclepias.
-
-* C ensor mechanisms: The fruits of many
-plants open in such a way that the seeds
-can escape only when the fruit is violently
-shaken by a strong wind. Examples:
-Aristolochia and Poppy.
-
-
-Guess!! Who am I…….? I am dispersed by
-ant and I have caruncle.

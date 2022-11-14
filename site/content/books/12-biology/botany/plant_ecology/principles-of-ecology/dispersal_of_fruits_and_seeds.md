@@ -1,9 +1,66 @@
 ---
-title: 'Dispersal by Water'
+title: 'Dispersal of Fruits and Seeds'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 4
 ---
+
+Both fruits and seeds possess attractive colour,
+odour, shape and taste needed for the dispersal
+by birds, mammals, reptiles, fish, ants and
+insects even earthworms. The seed consists
+of an embryo, stored food material and a
+protective covering called seed coat. As seeds
+contain miniature but dormant future plants,
+their dispersal is an important criterion for
+distribution and establishment of plants over
+a wide geographical area. The dissemination of
+seeds and fruits to various distances from the
+parent plant is called seed and fruit dispersal.
+It takes place with the help of ecological factors
+such as wind, water and animals.
+
+Seed dispersal is a regeneration process
+of plant populations and a common means of
+colonizing new areas to avoid seedling level
+competition and from natural enemies like
+herbivores, frugivores and pathogens.
+
+
+Fruit maturation and seed dispersal is
+influenced by many ecologically favourable
+conditions such as Season (Example: Summer),
+suitable environment, and seasonal availability
+of dispersal agents like birds, insects etc.
+
+Seeds require agents for dispersal which
+are crucial in plant community dynamics in
+many ecosystems around the globe. They offer
+many benefits to communities such as food and
+nutrients, migration of seeds across habitats
+and helps spreading plant genetic diversity.
+
+#### Dispersal by Wind (Anemochory)
+
+The individual seeds or the whole fruit may be
+modified to help for the dispersal by wind. Wind
+dispersal of fruits and seeds is quite common in
+tall trees. The adaptation of the wind dispersed
+plants are
+
+* Minute seeds: Seeds are minute, very
+small, light and with inflated covering.
+Example: Orchids.
+
+
+* Wings: Seeds or whole fruits are flattened to
+form a wing. Examples: Maple, Gyrocarpus,
+Dipterocarpus and Terminalia
+
+![](/books/12-biology/botany/Ecology/pic37.png )
+
+
+
 
 #### Dispersal by Water (Hydrochory)
 
@@ -680,3 +737,38 @@ during the day.
 
 **Vivipary:** When seeds or embryos begin to
 develop before they detach from the parent.
+
+#### Dispersal by Wind (Anemochory)
+
+The individual seeds or the whole fruit may be
+modified to help for the dispersal by wind. Wind
+dispersal of fruits and seeds is quite common in
+tall trees. The adaptation of the wind dispersed
+plants are
+
+*  Minute seeds: Seeds are minute, very
+small, light and with inflated covering.
+*Example: Orchids.*
+
+* Wings: Seeds or whole fruits are flattened to
+form a wing. Examples: Maple, Gyrocarpus,
+*Dipterocarpus and Terminalia*
+
+![](/books/12-biology/botany/Ecology/pic32.png )
+
+
+
+* Feathery Appendages: Seeds or fruits may
+have feathery appendages which greatly
+increase their buoyancy to disperse to high
+altitudes. Examples: Vernonia and Asclepias.
+
+* C ensor mechanisms: The fruits of many
+plants open in such a way that the seeds
+can escape only when the fruit is violently
+shaken by a strong wind. Examples:
+Aristolochia and Poppy.
+
+
+Guess!! Who am I…….? I am dispersed by
+ant and I have caruncle.

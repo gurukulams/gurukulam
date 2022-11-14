@@ -9,7 +9,7 @@ weight: 3
 
 The modifications in the structure of
 organisms to survive successfully in an
-environment are called adaptations of
+environment are called **adaptations** of
 organisms. Adaptations help the organisms to
 exist under the prevailing ecological habitat.
 Based on the habitats and the corresponding
@@ -27,12 +27,15 @@ floating hydrophytes, ii) Rooted- floating
 hydrophytes, iii) Submerged floating
 hydrophytes, iv) Rooted -submerged
 hydrophytes, v) Amphibious hydrophytes.
-i. Free floating hydrophytes: These plants
+
+**i. Free floating hydrophytes:** These plants
 float freely on the surface of water. They
 remain in contact with water and air, but not
 with soil. Examples: Eichhornia, Pistia and
 Wolffia (smallest flowering plant).
-ii. Rooted floating hydrophytes: In these
+
+
+**ii. Rooted floating hydrophytes:** In these
 plants, the roots are fixed in mud, but their
 leaves and flowers are floating on the surface
 of water. These plants are in contact with soil,
@@ -155,8 +158,7 @@ plants.
 
 **i. Ephemerals:**
 These are also
-called drought
-escapers
+called **drought escapers**
 or **drought evaders.**
 These
 plants
@@ -165,7 +167,7 @@ life cycle within
 a short period
 **(single season).**
 These are not true xerophytes. Examples:
-Argemone, Mollugo, Tribulus and Tephrosia.
+*Argemone, Mollugo, Tribulus and Tephrosia.*
 
 ![](/books/12-biology/botany/Ecology/pic25.png )
 
@@ -453,7 +455,7 @@ plants .
 * Seeds germinate in the fruits while on the
 mother plant (Vivipary).
 
-**DO YOU KNOW**
+{{< box title="Do You Know" type="objective" >}}
 
 Out of three districts of Tamil
 Nadu (Nagapattinam, Thanjavur
@@ -461,3 +463,5 @@ and Thiruvarur), Muthupet
 (Thiruvarur district) was less damaged by
 Gaja cyclone ( November 2018) due to the
 presence of mangrove forest.
+
+{{< /box >}}
