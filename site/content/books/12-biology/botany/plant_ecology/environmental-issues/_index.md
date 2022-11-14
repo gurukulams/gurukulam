@@ -38,30 +38,6 @@ life need.
 {{< /box >}}
 
 
-
-
-{{< box title="Chapter outline " type="objective" >}}
-
-
-
-
-
-
-
-8.9 Environmental Impact Assessment
-(EIA)
-
-
-
-
-8.10 Geographic Information System
-
-
-{{< /box >}} 
-
-
-
-
 After understanding the structure and functions
 of major ecosystems of the world, now student
 community should observe and understand

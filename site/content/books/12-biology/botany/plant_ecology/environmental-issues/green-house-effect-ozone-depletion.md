@@ -3,6 +3,7 @@ title: 'Green house effect,ozone depletion'
 date: 2018-11-14T19:02:50-07:00
 draft: false
 weight: 1
+_katex.org
 ---
 
 
@@ -43,8 +44,6 @@ One of the reasons for this is over population
 which creates growing need for food, fibre and
 fuel and considered to be the major cause of
 **global warming**.
-
-
 
 
 One of the reasons for this is over population
