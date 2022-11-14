@@ -5,44 +5,6 @@ draft: false
 weight: 1
 ---
 
-```goat
-        .------------. 
-        |  Biosphere |
-        '------------'
-              ^
-              |
-        .------------. 
-        |    Biome   |
-        '------------'
-              ^
-              |
-        .------------. 
-        | Landscape  |
-        '------------'
-              ^
-              |
-        .------------. 
-        | Ecosystem  |
-        '------------'
-              ^
-              |
-        .------------. 
-        |  Community |
-        '------------'
-              ^
-              |
-        .------------. 
-        | Population |
-        '------------'
-              ^
-              |
-   .----------+-----------. 
-   | Individual Organizms |
-   '----------------------'
-                           
-```
-
-
 
 ![Unit 9 ](/books/12-biology/botany/Ecology/pic1.png#floatleft)
 
@@ -66,7 +28,7 @@ given by **Ernest Haeckel** (1869).
 **R. Misra** - Father of Indian Ecology
 
 
-![Unit 9 - flowchart 1](/books/12-biology/botany/Ecology/pic2.png )
+
 
 #### Definitions of ecology </u>
 
@@ -92,16 +54,18 @@ systems is illustrated below:
 
 
 
+![Unit 9 - flowchart 1](/books/12-biology/botany/Ecology/pic2.png )
+
 
 #### Branches of Ecology: </u>
 
 Ecology is mainly divided into two branches,
 they are autecology and synecology
 
-1. Autecology is the ecology of an individual
+**1. Autecology** is the ecology of an individual
 species and is also called species ecology.
 
-2. Synecology is the ecology of a population or
+**2. Synecology** is the ecology of a population or
 community with one or more species and also
 called as community ecology.
 
@@ -212,4 +176,3 @@ America. But they are all ecologically
 primary producers and fulfilling similar
 roles in their respective communities.
 
-![Figure 6.1: Environmental factors affecting a plant](/books/12-biology/botany/Ecology/pic3.png )
