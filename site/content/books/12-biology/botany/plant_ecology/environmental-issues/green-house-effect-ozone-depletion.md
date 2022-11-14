@@ -34,7 +34,7 @@ conditioners release chloro fluoro carbons
 • The fertilizers used in Agriculture which
 release \\( (N_2O) \\)
 
-
+ 
 • The emissions from automobiles.
 The increase in mean global temperature (highest
 in 4000 years) due to increased concentration of
@@ -136,25 +136,22 @@ and burning of organic matter.
 
 
 
-
-
 #### Strategies to deal with Global Warming
 
 
-• Increasing the vegetation cover, grow more
+*  Increasing the vegetation cover, grow more
 trees
 
 
-
-• Reducing the use of fossil fuels and green
+*  Reducing the use of fossil fuels and green
 house gases
 
-• Developing alternate renewable sources of
+*  Developing alternate renewable sources of
 energy
 
 
 
-• Minimising uses of nitrogeneous fertilizers,
+* Minimising uses of nitrogeneous fertilizers,
 and aerosols
 
 
@@ -162,14 +159,11 @@ and aerosols
 ##### 8.1.4. Ozone depletion
 
 
-
-
 Ozone layer is a region of Earth’s stratosphere that
 absorbs most of the Sun’s ultra violet radiation.
 The ozone layer is also called as the **ozone** **shield**
 and it acts as a protective shield, cutting the ultra-
 violet radiation emitted by the sun.
-
 
 
 Just above the atmosphere there are two
@@ -226,11 +220,6 @@ uniform ozone layer is critical for the wellbeing
 of life on earth.
 
 
-
-
-
-
-
 During 1970’s research findings indicated
 that man-made chlorofluorocarbons (CFC)
 reduce and convert ozone molecules in the
@@ -243,14 +232,12 @@ Vienna Convention was agreed upon at the
 Vienna conference of 1985 but entered into force in 1988 provided the frameworks necessary to
 create regulative measures in the form of the
 Montreal protocol. The International treaty
-called the Montreal Protocol (1987) was held in
-Canada on substances that deplete ozone layer
+called the **Montreal Protocol** (1987) was held in
+Canada on **substances that deplete ozone layer**
 and the main goal of it is gradually eliminating
 the production and consumption of ozone
 depleting substances and to limit their damage
 on the Earth’s ozone layer.
-
-
 
 
 **Clean Development Mechanism (CDM)**
@@ -260,7 +247,6 @@ objectives to prevent dangerous climate change
 and to reduce green house gas emissions. CDM
 projects helps the countries to reduce or limit
 emission and stimulate sustainable development.
-
 
 
 An example for CDM project activity, is
@@ -284,35 +270,24 @@ be counted towards meeting Kyoto targets.
 The main ozone depletion effects are:
 
 
-
-• Increases the incidence of cataract, throat
+* Increases the incidence of cataract, throat
 and lung irritation and aggravation of
 asthma or emphysema, skin cancer and
 diminishing the functioning of immune
 system in human beings.
 
+* Juvenile mortality of animals.
 
+* Increased incidence of mutations.
 
-• Juvenile mortality of animals.
-
-
-
-• Increased incidence of mutations.
-
-
-
-
-• In plants, photosynthetic chemicals will be
+* In plants, photosynthetic chemicals will be
 affected and therefore photosynthesis will
 be inhibited. Decreased photosynthesis will
 result in increased atmospheric \\( (CO_2) \\)  resulting
 in global warming and also shortage of food
 leading to food crisis.
 
-
-
-
-• Increase in temperature changes the climate
+* Increase in temperature changes the climate
 and rainfall pattern which may result in
 flood / drought, sea water rise, imbalance in
 ecosystems affecting flora and fauna.
