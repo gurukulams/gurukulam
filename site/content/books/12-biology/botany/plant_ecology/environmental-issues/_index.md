@@ -10,41 +10,30 @@ weight: 3
 
 ### Learning Objectives
 
-Understand the importance of
+* Understand the importance of
 growing more plants to mitigate the
 environmental problems.
 
 
-
-
-Distinguish between the importance
+* Distinguish between the importance
 and conservation of endemic and
 endangered species.
 
-
-
-Appreciate the use of technologies for
+* Appreciate the use of technologies for
 agriculture and forestry.
 
 
-
-
-Participate in community activities to
+* Participate in community activities to
 improve environmental conditions.
 
 
-
-Develop methods in conservation
+* Develop methods in conservation
 of water and plants for sustainable
 development.
 
-
-
-Get acquainted with satellite
+* Get acquainted with satellite
 technology and utilising it in our daily
 life need.
-
-
 
 {{< /box >}}
 
@@ -56,23 +45,6 @@ life need.
 
 
 
-### Chapter outline 
-
-
-8.1 Green house effect, ozone depletion
-8.2 Forestry
-8.3 Deforestation
-8.4 Afforestation
-8.5 Alien invasive
-species
-
-8.6 Conservation
-
-
-8.7 Carbon Capture and Storage (CCS)
-
-
-8.8 Rain water harvesting
 
 
 
