@@ -54,7 +54,7 @@ global warming.
 ![lesson 9](/books/12-biology/botany/images/8.4.png )
 
 
-##### 8.1.1. Effects of Global Warming
+#####  Effects of Global Warming
 
 
 • Rise in global temperature which causes sea
@@ -78,7 +78,7 @@ decreased food production.
 
 
 
-##### 8.1.2. Sources of Green House Gases Emission (Natural and Anthropogenic)
+#####  Sources of Green House Gases Emission (Natural and Anthropogenic)
 
 
 **\\( (CO_2) \\)   (Carbon dioxide)**
@@ -156,7 +156,7 @@ and aerosols
 
 
 
-##### 8.1.4. Ozone depletion
+#####  Ozone depletion
 
 
 Ozone layer is a region of Earth’s stratosphere that
@@ -198,14 +198,7 @@ cleaners in many industries. The decline in the
 thickness of the ozone layer over restricted area
 is called **Ozone** **hole**.
 
-
-
 September 16 is **WORLD OZONE DAY**
-
-
-
-
-
 
 Ozone depletion in the stratosphere
 results in more UV radiations especially UV B

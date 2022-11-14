@@ -36,7 +36,6 @@ the soil (salinity and water table) reduce
 landslide and water run-off problem.
 
 
-
 * Nutrient cycling between species improves
 and organic matter is maintained.
 
@@ -93,15 +92,10 @@ as live fence to protect the property from
 stray animals or other biotic influences.
 
 
-
-
-
 Example: *Gliricidia sepium, Sesbania grandiflora, Erythrina spp., Acacia spp..*
 
 
-
 #### Social forestry
-
 
 
 It refers to the sustainable management of

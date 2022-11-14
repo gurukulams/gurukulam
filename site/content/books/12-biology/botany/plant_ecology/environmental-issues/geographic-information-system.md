@@ -58,8 +58,6 @@ volcanic hazard
 threatened and endemic species.
 
 
-
-
 **Remote** **Sensing** is the process of detecting and
 monitoring the physical characteristics of an area
 by measuring its reflected and emitted radiation
@@ -72,8 +70,6 @@ identification of biodiversity rich or less areas for
 futuristic works on conservation and maintenance
 of various species including commercial crop,
 medicinal plants and threatened plants.
-
-
 
 **Specific uses**
 

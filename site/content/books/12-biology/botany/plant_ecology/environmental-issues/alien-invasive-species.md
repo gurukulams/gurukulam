@@ -5,7 +5,6 @@ draft: false
 weight: 5
 ---
 
-### Alien invasive species
 
 Invasion of alien or introduced species disrupts
 ecosystem processes, threaten biodiversity,
@@ -54,8 +53,6 @@ cause environmental issues are discussed below
 
 ##### Eichhornia crassipes
 
-
-
 It is an invasive
 weed native to
 South America.
@@ -71,7 +68,6 @@ growth of phytoplanktons and finally changing
 the aquatic ecosystem.
 
 
-
 It also decreases the oxygen content of the
 waterbodies which leads to eutrophication. It
 poses a threat to human health because it creates a
@@ -82,18 +78,10 @@ leaves. It also blocks sunlight entering deep and the waterways hampering agricu
 recreation and hydropower.
 
 
-
-
-
-
 ![lesson 9](/books/12-biology/botany/images/8.10.png )
 
 
-
-
 ##### Prosopis juliflora
-
-
 
 *Prosopis juliflora* is an invasive species native
 to Mexico and South America. It was first

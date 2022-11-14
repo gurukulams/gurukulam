@@ -5,9 +5,29 @@ draft: false
 weight: 6
 ---
 
+
+
+India due to its topography, geology and
+climate patterns has diverse life forms. Now
+this huge diversity is under threat due to many
+environmental issues for this conservation
+becomes an important tool by which we can reduce many species getting lost from our native
+land. By employing conservation management
+strategies like germplasm conservation, in situ,
+ex-situ, in-vitro methods, the endemic as well
+as threatened species can be protected.
+
+
+![lesson 9](/books/12-biology/botany/images/8.12.png )
+
+
+
+![lesson 9](/books/12-biology/botany/images/8.13.png )
+
+
+
+
 ##### In-situ conservation
-
-
 
 It means conservation and management of
 genetic resources in their natural habitats. Here
@@ -27,9 +47,7 @@ Mannar are the biosphere reserves of Tamil
 Nadu.
 
 
-
 ##### Sacred groves
-
 
 
 These are the patches or grove of cultivated trees
@@ -48,9 +66,7 @@ provide a number of ecosystem services to
 the neighbourhood like protecting watershed,
 fodder, medicinal plants and micro climate control.
 
-
 ##### Ex-situ conservation
-
 
 It is a method of conservation where species are
 protected outside their natural environment.
@@ -63,11 +79,7 @@ housing and care for endangered species, but
 also have educational and recreational values
 for the society
 
-
-
 #### Endemic Centres and Endemic Plants
-
-
 
 Endemic species are plants and animals that
 exist only in one geographic region. Species can
@@ -75,8 +87,6 @@ be endemic to large or small areas of the earth.
 Some are endemic to a particular continent,
 some to a part of a continent and others to a
 single island.
-
-
 
 Any species found restricted to a specified
 geographical area is referred to as ENDEMIC..

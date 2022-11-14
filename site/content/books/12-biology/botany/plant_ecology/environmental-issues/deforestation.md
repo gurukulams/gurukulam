@@ -5,7 +5,6 @@ draft: false
 weight: 3
 ---
 
-### Deforestation
 
 Deforestation is one of the major contributors
 to enhance green house effect and global
