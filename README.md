@@ -8,7 +8,7 @@ We have below design goals.
 1. Use Low level tools as much as possible
 1. Stablilty over cutting edge
 1. Best Practices and Conventions
-1. Build time Speed 
+1. Build time Speed
 
 We carefuly avoided using image optimization during build time as it is good to do images at design time rather than build time.
 

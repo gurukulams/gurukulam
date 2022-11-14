@@ -53,9 +53,9 @@ class Chapter {
       }
     });
 
-    document.addEventListener("mouseup", () => {
-      this.detectTextHighlight();
-    });
+    // document.addEventListener("mouseup", () => {
+    //   this.detectTextHighlight();
+    // });
 
     this.loadNotes();
   }
