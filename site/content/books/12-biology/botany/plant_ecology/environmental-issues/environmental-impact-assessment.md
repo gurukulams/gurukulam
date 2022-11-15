@@ -21,9 +21,10 @@ may suit local environment by ensuring optimal
 utilization of natural resources and disposal of
 wastes to avoid environmental degradation.
 
+
 **The benefits of EIA to society**
 
-• A healthier environment
+* A healthier environment
 
 • Maintenance of biodiversity
 
@@ -32,9 +33,7 @@ wastes to avoid environmental degradation.
 • Reduction in gas emission and
 environment damage
 
-
 **Biomonitoring**
-
 
 The act of observing and assessing the current
 state and ongoing changes in ecosystem,
@@ -51,11 +50,11 @@ infestations. It is also used for cost effective safe
 method of spraying pesticides and fertilizers,
 which proves very easy and non-harmful.
 
+
 ![lesson 9](/books/12-biology/botany/images/8.20.png )
 
 
 #### Biodiversity Impact Assessment (BIA)
-
 
 
 Biodiversity Impact Assessment can be
@@ -68,7 +67,6 @@ compliant and include mechanisms for the
 conservation of bio-diversity resources and
 provide fair and equitable sharing of the benefits
 arising from the use of bio-diversity.
-
 
 
 **Bio-diversity impacts can be assessed by**

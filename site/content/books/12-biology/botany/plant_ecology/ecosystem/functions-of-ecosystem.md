@@ -5,22 +5,21 @@ draft: false
 weight: 2
 ---
 
+
+
 ### Functions of ecosystem
 
 
 The function of ecosystem include creation of energy creation, sharing of energy and cycling of materials between the living and nonliving components of an ecosystem.
 
 
-
 Before studying the productivity in any ecosystem, we should understand the essential role of sunlight used by producers of the first trophic level. The quantity of sunlight is directly proportional to the production of energy by plants.
-
 
 #### Photosynthetically Radiation (PAR) Active
 
 
 
 The amount of light available for photosynthesis of plants is called **P**hotosynthetically **A**ctive **R**adiation (PAR) which is from of 400-700 nm in wave length. It is essential for photosynthesis and plant growth. PAR is not always constant because of clouds, tree shades, air, dust particles, seasons, latitudes and length of the daylight availability. Generally plants absorb more blue and red light for efficient photosynthesis.
-
 
 
 
@@ -109,7 +108,7 @@ Out of which NPP of oceanic producers is
 only 55 billion tons per year in unit time.
 
 
-##### 2. Secondary productivity
+#### Secondary productivity
 
 
 
@@ -139,7 +138,7 @@ loss is called **net secondary productivity**.
 
 
 
-##### 3. Community productivity
+#### 3. Community productivity
 
 
 The rate of net synthesis of organic matter
@@ -217,7 +216,7 @@ an ecosystem.
 
 
 
-##### Laws of thermodynamics
+#### Laws of thermodynamics
 
 
 The storage and loss of energy in an ecosystem
@@ -560,7 +559,7 @@ and balancing the nutrient pool in an ecosystem.
 
 
 
-##### Nature of decomposition
+#### Nature of decomposition
 
 
 
@@ -572,7 +571,7 @@ cellulose, lignin, chitin, hair and bone.
 
 
 
-##### Mechanism of decomposition
+#### Mechanism of decomposition
 
 
 
@@ -680,7 +679,7 @@ cycles are explained.
 
 
 
-##### Carbon cycle
+#### Carbon cycle
 
 
 
@@ -705,7 +704,7 @@ carbon cycle are given in the figure.
 
 
 
-##### Phosphorus cycle
+#### Phosphorus cycle
 
 
 
@@ -751,7 +750,7 @@ detailed below.
 
 
 
-##### Structure of Pond ecosystem
+#### Structure of Pond ecosystem
 
 
 It is a classical example for natural, aquatic,
@@ -829,7 +828,7 @@ large fish, hawk ,man, etc.
 ![lesson 9](/books/12-biology/botany/images/20.9.png )
 
 
-##### c. Decomposers
+#### c. Decomposers
 
 
 They are also called as microconsumers.
@@ -850,7 +849,7 @@ regulating.
 ![lesson 9](/books/12-biology/botany/images/21.9.png )
 
 
-##### Stratification of pond ecosystem
+#### Stratification of pond ecosystem
 
 
 ![lesson 9](/books/12-biology/botany/images/22.9.png )
@@ -965,7 +964,7 @@ wastes
 ![lesson 9](/books/12-biology/botany/images/26.9.png )
 
 
-##### How to protect the ecosystem?
+#### How to protect the ecosystem?
 
 
 It is a practice of protecting ecosystem at
