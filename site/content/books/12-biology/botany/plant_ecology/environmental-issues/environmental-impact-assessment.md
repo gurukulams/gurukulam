@@ -5,6 +5,7 @@ draft: false
 weight: 9
 ---
 
+
 Environmental Impact Assessment is an
 environmental management tool. It helps to
 regulate and recommend optimal use of natural
