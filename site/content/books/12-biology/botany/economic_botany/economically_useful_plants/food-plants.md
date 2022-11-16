@@ -12,7 +12,7 @@ base of majority of the population depends
 only on three grass species namely rice, wheat
 and maize.
 
-#### Cereals </u>
+#### Cereals 
 
 The word cereal is derived from Ceres, which
 according to the Roman mythology denotes
@@ -49,7 +49,7 @@ Minor Cereals.
 
 ### Major Cereals
 
-#### <u> Rice / Paddy </u>
+#### <u> Rice / Paddy 
 
 *Botanical name : Oryza sativa*
 
@@ -183,7 +183,7 @@ source of fermented alcoholic beverage.
 
 ![Figure 10.3: Minor Millets](/books/12-biology/botany/unit10/pic3.png)
 
-#### Minor Millets </u>
+#### Minor Millets 
 
 **Foxtail Millet**
 
@@ -215,7 +215,7 @@ to make pudding. Good diuretic and cures
 constipation. Helps to reduce obesity, blood
 sugar and blood pressure.
 
-#### Pulses </u>
+#### Pulses 
 
 The word Pulse is derived from the Latin
 words ‘puls’ or ‘pultis’ meaning “thick soup”.
@@ -293,7 +293,7 @@ Fried dehulled and broken or whole green gram
 is used as popular snack. The flour is traditionally
 used as a cosmetic, especially for the skin.
 
-#### Vegetables </u>
+#### Vegetables 
 
 While walking through a market filled with fresh
 vegetables like stacks of lady’s finger, mountains
@@ -377,7 +377,7 @@ be eaten raw with salt and chili. Mango pulp is
 made into jelly. Aerated and non-aerated fruit
 juice is a popular soft drink.
 
-#### Nuts </u>
+#### Nuts 
 Nuts are simple dry fruits composed of a hard
 shell and an edible kernel. They are packed
 with a good source of healthy fats, fibre,
@@ -473,7 +473,7 @@ Endosperm is used as a refreshing summer
 food. Germinated seeds have an elongated embryo
 surrounded by fleshy scale leaf which is edible.
 
-#### <u>10.1.9 Oil Seeds </u>
+#### <u>10.1.9 Oil Seeds 
 
 Why fried foods are tastier than boiled foods?
 There are two kinds of oils namely, essential
@@ -536,7 +536,7 @@ snacks are popular throughout India.
 
 ![Figure 10.8: Oil Seeds](/books/12-biology/botany/unit10/pic8.png)
 
-#### Beverages </u>
+#### Beverages 
 
 **How about a cup of coffee or tea? We always entertain our guests with this offer.**
 

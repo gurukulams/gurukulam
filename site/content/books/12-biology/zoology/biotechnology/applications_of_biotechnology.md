@@ -9,7 +9,7 @@ weight: 1
 
 {{< box >}}
 
-## <u> Chapter Outline  </u>
+## <u> Chapter Outline  
 
 9.1 Applications in Medicine
 9.2 Gene therapy
@@ -25,7 +25,7 @@ their uses
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
+
 
 ➢ Understand the applications of rDNA
 technology in the field of medicine.
@@ -76,7 +76,7 @@ technology has led to the large scale
 production of various hormones and proteins
 of therapeutic use.
 
-### Applications in Medicine </u> 
+### Applications in Medicine  
 
 #### Recombinant Human Insulin
 The Human insulin is synthesized by the
@@ -149,7 +149,7 @@ the normal milk produced by the cows.
 
 {{< /box  >}}
 
-#### Interferons </u>
+#### Interferons 
 Interferons are proteinaceous, antiviral,
 species specific substances produced by
 mammalian cells when infected with viruses.
@@ -174,7 +174,7 @@ of the therapeutic applications interferons are
 not within the reach of the common man due to
 high cost for its production.
 
-#### Recombinant Vaccines Recombinant DNA technology </u>
+#### Recombinant Vaccines Recombinant DNA technology 
 
 Recombinant DNA technology has been
 used to produce new generation vaccines. The
@@ -255,7 +255,7 @@ a subunit vaccine is produced by cloning
 hepatitis B surface antigen (HbsAg) gene in
 the yeast, Saccharomyces cerevisiae **(Fig. 9.2).**
 
-## <u>9.2 Gene Therapy </u>
+## <u>9.2 Gene Therapy 
 
 If a person is born with a hereditary
 disease, can a corrective therapy be given for
@@ -448,7 +448,7 @@ popular sources of stem cells, the placenta,
 amniotic sac and amniotic fluid are also rich
 sources in terms of both quantity and quality.
 
-### Molecular Diagnostics </u>
+### Molecular Diagnostics 
 
 Early diagnosis of infectious diseases
 or inherent genetic defects is essential for
@@ -638,7 +638,7 @@ is very useful for identification of criminals.
 PCR is also used in amplification of specific
 DNA segment to be used in gene therapy.
 
-### Transgenic Animals </u>
+### Transgenic Animals 
 In early days selective breeding
 methods were carried out to improve the
 genetic characteristics of live stock and
@@ -679,7 +679,7 @@ tissue or animals. Transgenic animals such
 as mice, rat, rabbit, pig, cow, goat, sheep
 and fish have been produced **(Fig. 9.7)**.
 
-### <u> Uses Of Transgenesis </u>
+### <u> Uses Of Transgenesis 
 
 • Transgenesis is a powerful tool to study
 gene expression and developmental
@@ -714,7 +714,7 @@ the quality and quantity of milk, meat,
 eggs and wool production in addition to
 testing drug resistance.
 
-### Biological products and their uses </u>
+### Biological products and their uses 
 A biological product is a substance
 derived from a living organism and used for
 the prevention or treatment of disease. These
@@ -752,7 +752,7 @@ an immune response, hence could be used
 to reattach tendons and tissues, fill cavities in
 teeth, and repair broken bones.
 
-### Animal Cloning  </u>
+### Animal Cloning  
 
 Cloning is the process of producing
 genetically identical individuals of an organism
@@ -811,7 +811,7 @@ and only one Dolly was produced.
 
  {{< /box >}}
 
-### <u> Advantages and Disadvantages Of Cloning Animals </u>
+### <u> Advantages and Disadvantages Of Cloning Animals 
 
 • Offers benefits for clinical trials and medical
 research. It can help in the production of
@@ -858,7 +858,7 @@ been made inoperative.
 
 {{< /box >}}
 
-### <u>9.8 Ethical Issues</u>
+### <u>9.8 Ethical Issues
 
 Biotechnology has given to the society cheap
 drugs, better friuts and vegetables, pest resistant

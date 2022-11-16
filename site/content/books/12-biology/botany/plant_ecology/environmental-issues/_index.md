@@ -8,7 +8,7 @@ weight: 3
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
+
 
 * Understand the importance of
 growing more plants to mitigate the

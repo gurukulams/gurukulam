@@ -37,7 +37,7 @@ friendly organic agro inputs and are more
 efficient and cost effective than chemical
 fertilizers.
 
-{{< box title="Do You Know" type="objective" >}}
+{{< box title="Do You Know" type="dyn" >}}
 
 Indian Plant Breeders
 a. Dr. M. S. Swaminathan – He is a

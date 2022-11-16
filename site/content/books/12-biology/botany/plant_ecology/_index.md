@@ -8,9 +8,9 @@ weight: 4
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
 
-The learner will be able to
+
+
 * Understand the interaction between
 organisms and their
 environment.

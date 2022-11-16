@@ -37,7 +37,7 @@ example, curry leaves.
 The following spices and condiment are
 discussed in detail.
 
-#### <u>Spices</u>
+#### <u>Spices
 
 **Cardamom**
 

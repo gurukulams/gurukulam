@@ -7,7 +7,7 @@ weight: 2
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-The learner will be able to
+
 
  * Perceive the concepts of tissue culture.
  Cognize the steps of tissue culture

@@ -7,7 +7,7 @@ weight: 1
 
 ## Learning Objectives
 
-The Learner will be able to
+
 
 * Differentiate
 classical and modern genetics.

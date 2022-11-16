@@ -7,10 +7,10 @@ weight: 2
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
 
 
-The learner will be able to
+
+
 
 *  Acquire knowledge about origin, area
 of cultivation and uses of various food
@@ -34,7 +34,7 @@ fertilisers and bio pest repellants.
 
 {{< box >}}
 
-## <u> Chapter Outline  </u>
+## <u> Chapter Outline  
 
 10.1 Food Plants
  

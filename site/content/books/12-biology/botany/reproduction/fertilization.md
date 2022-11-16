@@ -69,7 +69,7 @@ disappear the growth of the pollen tube stops.
 
 
 
-{{< box title="Do You Know" type="objective" >}}
+{{< box title="Do You Know" type="dyn" >}}
 
 **Pollination – A composite event**
 

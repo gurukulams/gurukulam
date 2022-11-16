@@ -8,7 +8,7 @@ weight: 2
 {{< box >}}
 
 
-### <u> Chapter Outline </u>
+### <u> Chapter Outline 
 
 5.1 Gene as the functional unit of inheritance
 
@@ -45,7 +45,7 @@ weight: 2
 
 {{< box title="" type="objective" >}}
 
-### Learning Objectives
+
 
 * Identifies DNA as the genetic material.
 
@@ -110,7 +110,7 @@ regulation of gene expression and the essentials
 of human genome sequencing.
 
 
-### Gene as the functional unit of inheritance </u>
+### Gene as the functional unit of inheritance 
 
 A gene is a basic physical and functional
 unit of heredity. The concept of the gene
@@ -182,7 +182,7 @@ molecule.
 
 
 
-### In search of the genetic material </u>
+### In search of the genetic material 
 
 As early as 1848, Wilhelm Hofmeister,
 a German botanist, had observed that cell
@@ -244,7 +244,7 @@ S - strain is referred to as **transformation**.
 
 
 
-### DNA is the genetic material </u>
+### DNA is the genetic material 
 
 Many biologists despite the earlier
 experiments of Griffith, Avery and others,
@@ -457,7 +457,7 @@ RNA is an active ingredient in the chemistry of
 life. The types of RNA and their role have been
 discussed in class XI.
 
-### Properties of genetic material </u>
+### Properties of genetic material 
 
 The experiment by Hershey and Chase
 clearly indicates that it is DNA that acts
@@ -528,7 +528,7 @@ RNA and DNA can function as a genetic
 material. DNA is more stable, and is preferred
 for storage of genetic information.
 
-### Packaging of DNA helix </u>
+### Packaging of DNA helix 
 
 The distance between two consecutive
 base pairs is 0.34nm (0.34×10-9m) of the
@@ -617,7 +617,7 @@ called heterochromatin. Euchromatin is
 transcriptionally active and heterochromatin
 is transcriptionally inactive.
 
-### DNA Replication </u>
+### DNA Replication 
 
 Replication of DNA takes place during the
 S phase of cell cycle. During replication, each
@@ -659,7 +659,7 @@ and complementary to the parent strand
 **(Fig. 5.4).**
 
 
-#### Experimental proof of DNA replication </u>
+#### Experimental proof of DNA replication 
 
 The mode of DNA replication was
 determined in 1958 by Meselson and Stahl.
@@ -705,7 +705,7 @@ position and one at intermediate position.
 These results confirm Watson and Crick’s
 semi conservative replication hypothesis.
 
-#### Enzymes and mechanism of replication </u>
+#### Enzymes and mechanism of replication 
 
 In prokaryotes, replication process
 requires three types of DNA polymerases
@@ -779,7 +779,7 @@ nucleotide to the new strands in the 5' ---> 3'
 direction, as it can only add nucleotides to the
 3' carbon position.
 
-### Transcription </u>
+### Transcription 
 
 Francis Crick proposed the Central dogma
 of protein synthesis in molecular biology
@@ -830,7 +830,7 @@ complementary to each other would be formed.
 This would prevent RNA from being translated
 into proteins.
 
-#### Transcription unit and gene </u>
+#### Transcription unit and gene 
 
 A transcriptional unit in DNA is defined by
 three regions, a **promoter, the structural gene**
@@ -895,7 +895,7 @@ that forms a hair pin structure in the RNA. The
 sub-class of terminators require a recognition
 protein, known as rho (ρ), to function.
 
-#### Process of transcription </u>
+#### Process of transcription 
 
 In prokaryotes, there are three major types of
 RNAs: mRNA, tRNA, and rRNA. All three RNAs
@@ -1132,7 +1132,7 @@ and also are known as “non-sense” codons.
 
 ![](/books/12-biology/zoology1/pic20.png)
 
-#### Mutation and genetic code </u>
+#### Mutation and genetic code 
 
 Comparative studies of mutations (sudden
 change in a gene) and corresponding
@@ -1169,7 +1169,7 @@ valine **(Fig. 5.10)**. The mutant haemoglobin
 ![](/books/12-biology/zoology1/pic21.png)
 
 
-#### <u> Wobble Hypothesis </u>
+#### <u> Wobble Hypothesis 
 
 It is a hypothesis proposed by Crick
 (1966) which states that tRNA anticodon
@@ -1285,7 +1285,7 @@ amino acid molecule.
 
 ![Fig. 5.12 ](/books/12-biology/zoology1/pic24.png)
 
-### Translation  </u>
+### Translation  
 Translation refers to the process of
 polymerization of amino acids to form poly
 peptide chain. The decoding process is carried
@@ -1468,7 +1468,7 @@ then dissociates into its subunits (step 2)
 
 ![Fig. 5.13 d- Termination of the process of translation](/books/12-biology/zoology1/pic28.png)
 
-### Regulation of gene expression </u>
+### Regulation of gene expression 
 
 We have previously established how DNA
 is organized into genes, how genes store
@@ -1593,7 +1593,7 @@ Lac operon is also under the control of positive
 regulation as well.
 
 
-### Human Genome Project (HGP) </u>
+### Human Genome Project (HGP) 
 
 The international human genome project
 was launched in the year 1990. It was a mega
@@ -1606,7 +1606,7 @@ Human genome is said to have approximately
 rapid development of a new area in biology
 called bioinformatics.
 
-#### Goals and methodologies of Human Genome Project  </u>
+#### Goals and methodologies of Human Genome Project  
 The main goals of Human Genome Project
 are as follows
 
@@ -1662,7 +1662,7 @@ method called **Shotgun sequencing** using
 super computers, which has replaced the
 traditional sequencing methods.
 
-#### Salient features of Human Genome Project:</u>
+#### Salient features of Human Genome Project:
 
 * The human genome contains 3 billion
 nucleotide bases.
@@ -1708,7 +1708,7 @@ base DNA differences **(SNPs – Single**
 locations for disease associated sequences
 and tracing human history.
 
-#### Applications and future challenges  </u>
+#### Applications and future challenges  
 
 The mapping of human chromosomes is
 possible to examine a person’s DNA and to
@@ -1760,7 +1760,7 @@ tailored to a person’s genetic makeup.
 
 {{< /box >}}
 
-### DNA fingerprinting technique </u>
+### DNA fingerprinting technique 
 
 The DNA fingerprinting technique was first
 developed by Alec Jeffreys in 1985 (Recipient
@@ -1890,7 +1890,7 @@ to specific DNA bands. The thick and thin
 dark bands form a pattern of bars which
 constitutes a genetic fingerprint.
 
-### <u>Application of DNA finger printing </u>
+### <u>Application of DNA finger printing 
 
  * **Forensic analysis -** It can be used in the
 identification of a person involved in
@@ -1911,7 +1911,7 @@ dead endangered organisms.
 determining the origin and migration of
 human populations and genetic diversities.
 
-## <u> Summary </u>
+## <u> Summary 
 
 
 In the twentieth century, one of the landmark
@@ -1973,7 +1973,7 @@ applications in the field of forensic analysis,
 pedigree analysis, anthropological studies, and
 conservation of wild life.
 
-### <u>Evaluation  </u>
+### <u>Evaluation  
 
 1. Hershey and Chase
 experiment with

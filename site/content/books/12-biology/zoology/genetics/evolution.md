@@ -11,7 +11,7 @@ weight: 3
 
 {{< box >}}
 
-## <u> Chapter Outline  </u>
+## <u> Chapter Outline  
 
 6.1 Origin of life - Evolution of life forms
 
@@ -35,7 +35,7 @@ weight: 3
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
+
 
 *  Understands the evolution of life on earth.
 
@@ -85,7 +85,7 @@ puzzle. Many theories have been proposed
 to explain the origin of life. Few have been
 discussed in this chapter.
 
-## <u>6.1 Origin of life – Evolution of life forms  </u>
+## <u>6.1 Origin of life – Evolution of life forms  
 
 
 Theory of special creation states that
@@ -168,7 +168,7 @@ a wide range of organic compounds can be
 synthesized.
 
 
-### Geological time scale </u>
+### Geological time scale 
 
 The duration of the earth’s history has been
 divided into **eras** that include
@@ -231,7 +231,7 @@ rocks and fossils of known age. **Absolute dating** is used to determine the pre
 of a fossil by using radiometric dating to
 measure the decay of isotopes.
 
-### Biological evolution </u>
+### Biological evolution 
 
 **Formation of protobionts**
 
@@ -298,7 +298,7 @@ which could yield large amounts of energy
 by oxidation of food stuffs. Thus Prokaryotes
 and Eukaryotes evolved.
 
-## <u>Experimental approach to the origin of life </u>
+## <u>Experimental approach to the origin of life 
 
 **Urey and Miller (1953)**, paved way
 for understanding the possible synthesis of
@@ -328,9 +328,9 @@ the only source of carbon was methane. Later
 in similar experiments, formation of all types of
 amino acids, and nitrogen bases were noticed.
 
-### Evidences for biological evolution </u>
+### Evidences for biological evolution 
 
-#### <u>6.4.1 Paleontological evidences</u>
+#### <u>6.4.1 Paleontological evidences
 
 Paleontology is the study of prehistoric
 life through fossils. Fossils are described as
@@ -458,7 +458,7 @@ plants have a common function of storage of
 food.
 
 
-### <u>Vestigial organs </u>
+### <u>Vestigial organs 
 
 Structures that are of no use to the
 possessor, and are not necessary for their
@@ -481,7 +481,7 @@ body hair, mammae in male, nictitating
 membrane of the eye, etc.,
 
 
-### <u> Connecting link </u>
+### <u> Connecting link 
 
 The organisms which possess the
 characters of two different groups (transitional
@@ -490,14 +490,14 @@ Peripatus (connecting link between Annelida
 and Arthropoda), Archeopteryx (connecting
 link between Reptiles and Aves).
 
-### <u> Atavistic organs </u>
+### <u> Atavistic organs 
 
 Sudden appearance of vestigial organs in
 highly evolved organisms is called atavistic
 organs. Example, presence of tail in a human
 baby is an atavistic organ.
 
-#### Embryological evidences </u>
+#### Embryological evidences 
 
 Embryology deals with the study of the
 development of individual from the egg to the
@@ -548,7 +548,7 @@ gastrula and are triploblastic. This indicates
 that all the above said animals have evolved
 from a common ancestor.
 
-## <u> Molecular evidences </u>
+## <u> Molecular evidences 
 
 Molecular evolution is the process
 of change in the sequence composition of
@@ -566,7 +566,7 @@ molecular clocks. Molecules that have been used
 to study evolution are cytochrome c (respiratory
 pathway) and rRNA (protein synthesis).
 
-### Theories of biological evolution </u>
+### Theories of biological evolution 
 #### Lamarck’s theory
 
 **Jean Baptiste de Lamarck,** was the first to
@@ -889,7 +889,7 @@ America.
 
 ![Fig 6.5 Darwin’s finches](/books/12-biology/zoology1/pic41.png)
 
-### Mechanism of evolution </u>
+### Mechanism of evolution 
 
 Microevolution (evolution on a
 small scale) refers to the changes in allele
@@ -899,7 +899,7 @@ four fundamental forces of evolution such as
 natural selection, genetic drift, mutation and
 gene flow.
 
-#### Natural selection </u>
+#### Natural selection 
 It occurs when one allele (or combination
 of alleles of differences) makes an organism
 more or less fit to survive and reproduce
@@ -974,7 +974,7 @@ Group selection and sexual selection are
 other types of selection. The two major group
 selections are Altrusim and Kin selection.
 
-#### Gene flow </u>
+#### Gene flow 
 
 Movement of genes through gametes or
 movement of individuals in (immigration) and
@@ -985,7 +985,7 @@ in existing alleles but in different proportions
 than those already in the population. Gene flow
 can be a strong agent of evolution (Fig 6.8).
 
-## <u>6.6.3 Genetic drift / Sewall Wright Effect</u>
+## <u>6.6.3 Genetic drift / Sewall Wright Effect
 
 Genetic drift is a mechanism of evolution in
 which allele frequencies of a population change
@@ -1226,7 +1226,7 @@ species from apes and placental mammals in
 brain size, eating habit and other behavior
 proves that ‘Ontogeny recapitulates Phylogeny’.
 
-## <u> Evaluation </u>
+## <u> Evaluation 
 
 1) The first life on earth
 originated

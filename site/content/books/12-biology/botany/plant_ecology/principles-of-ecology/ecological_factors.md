@@ -43,7 +43,7 @@ of dusk (5 – 6 pm) due to diurnal rhythm.
 
 {{< /box >}}
 
-#### Climatic Factors </u>
+#### Climatic Factors 
 
 Climate is one of the important natural factors
 controlling the plant life. The climatic factors
@@ -145,7 +145,7 @@ variations. Example: Mango and Palm
 Mango plant does not grow in temperate
 countries like Canada and Germany
 
-#### <u>Thermal Stratification </u>
+#### <u>Thermal Stratification 
 
 It is usually found in aquatic habitat. The
 change in the temperature profile with
@@ -393,7 +393,7 @@ fire , water loss, invasion of insects and
 prevents infections by microorganisms.
 
 
-#### Edaphic factors </u>
+#### Edaphic factors 
 
 Edaphic factors, the abiotic factors related
 to soil, include the physical and chemical
@@ -599,7 +599,7 @@ retention of water in the soil.
 
 ![](/books/12-biology/botany/Ecology/pic12.png )
 
-#### Biotic factors  </u> 
+#### Biotic factors   
 
 The interactions among living organisms
 such as plants and animals are called **biotic**
@@ -704,7 +704,7 @@ are some of the examples of epiphytes.
 *  Spanish Moss –Tillandsia grows on the bark
 of Oak and Pine trees.
 
-{{< box title="Do You Know" type="objective" >}}
+{{< box title="Do You Know" type="dyn" >}}
 
 **Proto Cooperation**
 

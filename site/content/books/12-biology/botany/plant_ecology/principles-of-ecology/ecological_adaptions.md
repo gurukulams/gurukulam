@@ -455,7 +455,7 @@ plants .
 * Seeds germinate in the fruits while on the
 mother plant (Vivipary).
 
-{{< box title="Do You Know" type="objective" >}}
+{{< box title="Do You Know" type="dyn" >}}
 
 Out of three districts of Tamil
 Nadu (Nagapattinam, Thanjavur

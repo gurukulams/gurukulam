@@ -30,19 +30,14 @@ given by **Ernest Haeckel** (1869).
 
 
 
-#### Definitions of ecology </u>
+#### Definitions of ecology 
 
-“The study of living organisms, both plants and
-animals, in their natural habitats or homes.”
+> “The study of living organisms, both plants and animals, in their natural habitats or homes.” **- Reiter (1885)**
 
-**- Reiter (1885)**
-
-“Ecology is the study of the reciprocal
-relationship between living organisms and their
-environment.” **- Earnest Haeckel (1889)**
+> “Ecology is the study of the reciprocal relationship between living organisms and their environment.” **- Earnest Haeckel (1889)**
 
 
-#### Ecological hierarchy </u>
+#### Ecological hierarchy 
 
 The interaction of organisms with their
 environment results in the establishment of
@@ -57,7 +52,7 @@ systems is illustrated below:
 ![Unit 9 - flowchart 1](/books/12-biology/botany/Ecology/pic2.png )
 
 
-#### Branches of Ecology: </u>
+#### Branches of Ecology: 
 
 Ecology is mainly divided into two branches,
 they are autecology and synecology
@@ -75,7 +70,7 @@ and branches. Some of the advanced fields are
 Molecular ecology, Eco technology, Statistical
 ecology and Environmental toxicology
 
-#### Habitat and Niche </u>
+#### Habitat and Niche 
 
 **Habitat**
 
@@ -137,7 +132,7 @@ habitat and niche of any organism is called
 
 {{< box title="Do You Know ?? " type="objective" >}}
 
-**<u>Applied ecology or environmental technology :</u>**
+**<u>Applied ecology or environmental technology :**
 
 Application of the
 Science of ecology is
@@ -156,7 +151,7 @@ designing for the futuristic ecology.
 
 {{< /box >}}
 
-#### Ecological equivalents </u>
+#### Ecological equivalents 
 
 Taxonomically different species occupying
 similar habitats (Niches) in different geographical

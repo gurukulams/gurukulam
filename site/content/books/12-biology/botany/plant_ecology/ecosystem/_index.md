@@ -9,9 +9,9 @@ weight: 2
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
 
-The learner will be able to
+
+
 
 
 

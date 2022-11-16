@@ -7,9 +7,9 @@ weight: 1
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
 
-The learner will be able to
+
+
 	
 * Appreciate the relationship between
 humans and plants.

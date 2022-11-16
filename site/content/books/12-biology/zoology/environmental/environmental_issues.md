@@ -9,7 +9,7 @@ weight: 3
 
 {{< box >}}
 
-## <u> Chapter Outline  </u>
+## <u> Chapter Outline  
 
 12.1 Pollution
 
@@ -35,7 +35,7 @@ weight: 3
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
+
 
 * Gain knowledge about our environment and its
 importance.
@@ -80,7 +80,7 @@ floods, tsunami and cyclones.
 aware, regardless of whether they work with
 environmental issues or not.”
 
-## <u>12.1 Pollution </u>
+## <u>12.1 Pollution 
 
 Pollution is any undesirable change in the
 physical, chemical and biological characteristics
@@ -91,7 +91,7 @@ classified according to the types of environment
 that is affected. They are mainly air, water and
 soil pollution.
 
-#### Classification of Pollutants </u>
+#### Classification of Pollutants 
 
 **In terms of eco-system, pollutants can be classified into two basic groups – Non- degradable and degradable.** Based on the time
 taken to breakdown into their ingredients,
@@ -184,7 +184,7 @@ mining units, cement factories are the main
 sources of particulate matter pollution.
 
 
-#### Sources </u>
+#### Sources 
 
 The main sources of air pollution are:
 * **• Transport sources (Fig12.1)** – cars, buses,
@@ -201,7 +201,7 @@ stubble burning, fireplaces
 wildfires, volcanoes.
 
 
-#### Effects of Air Pollution </u>
+#### Effects of Air Pollution 
 
 * Affects all organisms as they depend on the
 atmosphere for respiration.
@@ -249,7 +249,7 @@ National Air Quality Index
 
 {{< /box >}}
 
-#### Other notable effects of Air Pollution </u>
+#### Other notable effects of Air Pollution 
 
 **Smog** is a type of air pollution caused by tiny
 particles in the air. The word comes from a
@@ -297,7 +297,7 @@ sulphuric acid or nitric acid. It damages trees,
 crops and harms marine animals (coral reefs)
 and induces corrosion.
 
-#### Control of Air Pollution </u>
+#### Control of Air Pollution 
 
 Certain measures help to remove pollutants,
 reduce their presence or prevent their entry into
@@ -332,7 +332,7 @@ marble has decolorized to yellow.
 
 {{< /box >}}
 
-#### Legal Protection</u>
+#### Legal Protection
 
 * The Air (Prevention and Control of
 Pollution) Act was enacted in 1981 and
@@ -403,7 +403,7 @@ public how polluted the air is at a given time.
 
 ![](/books/12-biology/zoology1/pic58.png)
 
-### Water Pollution </u>
+### Water Pollution 
 
 #### Quality of Water
 
@@ -487,7 +487,7 @@ rivers, streams and the marine system by
 precipitation, run-off and the groundwater by
 seepage or percolation.
 
-#### Effect of Water pollution on Ecosystems </u>
+#### Effect of Water pollution on Ecosystems 
 
 **1. Destruction of ecosystems:**Ecosystems,
 especially aquatic systems, can be severely
@@ -512,7 +512,7 @@ water from industries when released into
 the water bodies affects aquatic density and
 diversity.
 
-### <u> 12.3.5. Effect of Water pollution on Organisms </u>
+### <u> 12.3.5. Effect of Water pollution on Organisms 
 
 1. Water pollution can be lethal to aquatic
 organisms and others that depend on these
@@ -557,7 +557,7 @@ occur, can be lethal to aquatic organisms.
 
 ![Fig. 12.3 Algal bloom](/books/12-biology/zoology1/pic61.png)
 
-#### Control Measures </u>
+#### Control Measures 
 1. Right to clean water is a fundamental
 right under the Indian Constitution
 (Article 21).
@@ -627,7 +627,7 @@ up to 45 from 35 (Source: The Hindu,
 
 {{< /box >}}
 
-### <u> Case study </u>
+### <u> Case study 
 
 **Namami Gange (National Mission for Clean Ganga) Programme** is an
 Integrated Conservation Mission approved
@@ -638,7 +638,7 @@ twin objectives of effective abatement of
 pollution, conservation and rejuvenation of
 River Ganga.
 
-#### <u>12.4 Noise Pollution</u>
+#### <u>12.4 Noise Pollution
 
 Sound that is unwanted and undesirable or
 can disrupts one’s quality of life is called as Noise.
@@ -646,7 +646,7 @@ When there is lot of ‘noise’ in the environment,
 it is termed as Noise Pollution. The intensity of
 noise is meaured in decibels (dB).
 
-#### Sources of Noise Pollution </u>
+#### Sources of Noise Pollution 
 
 Vehicle engines, air horns, audio video
 systems, trains, low flying aircrafts, factory
@@ -661,7 +661,7 @@ noise must be recognized as a major threat to
 human well-being. This is applicable for all
 living organisms.
 
-#### <u>12.4.2 Effect of Noise Pollution  </u>
+#### <u>12.4.2 Effect of Noise Pollution  
 
 * According to the USEPA (United States
 Environmental Protection Agency) there
@@ -685,7 +685,7 @@ activities.
 * Fire crackers frighten animals. Birds are
 often affected by increased air traffic.
 
-#### Control </u>
+#### Control 
 
 * Planting trees in and around noise sources
 is an effective solution for noise pollution
@@ -722,7 +722,7 @@ limit of noise in areas categorized as
 commercial is 65 decibels (dB) during day
 and 55 dB during night.
 
-### Agrochemicals </u>
+### Agrochemicals 
 
 Chemicals which are used in agriculture for
 growth of plants and pest control are called
@@ -764,7 +764,7 @@ neurotoxicity.
 * Beneficial insects and animals can be
 affected.
 
-### <u>12.6 Biomagnification  </u>
+### <u>12.6 Biomagnification  
 Food chains are components of all
 ecosystems. Producers and consumers form
 trophic levels in a chain through which energy

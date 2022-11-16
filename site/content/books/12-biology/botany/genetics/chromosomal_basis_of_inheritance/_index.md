@@ -7,7 +7,7 @@ weight: 2
 
 {{< box title="Learning Objectives" type="objective">}}
 
-The Learner will be able to
+
 	
 Understand chromosomal theory of inheritance.
 

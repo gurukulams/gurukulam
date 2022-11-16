@@ -7,7 +7,7 @@ weight: 1
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-The learner will be able to
+
 
 - Apply the knowledge of traditional and modern biotechnology in day to day life.
 

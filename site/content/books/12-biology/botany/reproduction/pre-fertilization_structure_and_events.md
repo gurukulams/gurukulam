@@ -178,13 +178,10 @@ coalesces to form a periplasmodium.
 **Functions of Tapetum**:
 
 
-• It supplies nutrition to the developing
-microspores.
+• It supplies nutrition to the developing microspores.
 
 
-• It contributes sporopollenin through
-**ubisch bodies** thus plays an important
-role in pollen wall formation.
+• It contributes sporopollenin through **ubisch bodies** thus plays an important role in pollen wall formation.
 
 The pollenkitt material is contributed by
 tapetal cells and is later transferred to the
@@ -196,7 +193,7 @@ Exine proteins responsible for **‘rejection**
 cavities of the exine. These proteins are
 derived from tapetal cells.
 
-{{< box title="Do You Know" type="objective" >}}
+{{< box title="Do You Know" type="dyn" >}}
 
 Many botanists speak of a
 third type of tapetum called
@@ -255,7 +252,7 @@ pollen varies from 10 micrometers in Myosotis
 to 200 micrometers in members of the family
 Cucurbitaceae and Nyctaginaceae
 
-{{< box title="Do You Know" type="objective" >}}
+{{< box title="Do You Know" type="dyn" >}}
 
 Palynology is the study of pollen
 grains.It helps to identify the
@@ -271,7 +268,7 @@ important crops for breeding programmes..
 
 {{< /box >}}
 
-{{< box title="Do You Know" type="objective" >}}
+{{< box title="Do You Know" type="dyn" >}}
 
 Beepollen is a natural substance and contains high protein,carbohydrate,trace amount of minerals and vitamins. Thefore,it is used as dietary supplement and it sold as pollen tablets and syrups. Futher ,it increases the performance of athletes,race horses and also heals the wounds caused by burns . The study of honey pollen is called mellitopalynology.
 
@@ -344,7 +341,7 @@ an ovary may be one (paddy, wheat and mango)
 or many (papaya, water melon and orchids).
 
 
- <u> Structure of ovule(Megasporangium): </u>
+ <u> Structure of ovule(Megasporangium): 
 
 
 Ovule is also called megasporangium and is

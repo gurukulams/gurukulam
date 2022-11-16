@@ -7,7 +7,7 @@ weight: 1
 
 {{< box >}}
 
-### <u> Chapter Outline </u>
+### <u> Chapter Outline 
 
 4.1 Multiple alleles
 
@@ -33,7 +33,7 @@ weight: 1
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-### Learning Objectives
+
 
 * Learns the inheritance of multiple alleles
 with reference to human blood groups.
@@ -72,7 +72,7 @@ blood groups, sex determination in man, insects
 and birds, sex linked inherited traits and genetic
 disorders.
 
-### Multiple alleles </u>
+### Multiple alleles 
 
 The genetic segregations in Mendelian
 inheritance reveal that all genes have two
@@ -87,7 +87,7 @@ locus on the homologous chromosome of an
 organism, they are called multiple alleles and
 their inheritance is called **multiple allelism.**
 
-### Human Blood Groups </u>
+### Human Blood Groups 
 
 Multiple allelism occurs in humans,
 particularly in the inheritance of different types
@@ -98,7 +98,7 @@ blood, different types of blood groups (ABO) the
 blood antigens and antibodies were discussed
 in chapter 7 of class XI.
 
-#### ABO blood types </u>
+#### ABO blood types 
 
 **Multiple allele inheritance of ABO blood groups**
 
@@ -195,7 +195,7 @@ in the milk of animals.
 
 ![Table 4.1 Genetic basis of the human ABO blood groups](/books/12-biology/Zoology/pic1.png )
 
-#### <u> Rhesus or Rh Factor </u>
+#### <u> Rhesus or Rh Factor 
 
 The Rh factor or Rh antigen is found on
 the surface of erythrocytes. It was discovered
@@ -221,7 +221,7 @@ in the blood of that individual. On the other
 hand, when an Rh positive person receives Rh
 negative blood no effect is seen.
 
-#### <u>4.3 Genetic control of Rh factor</u>
+#### <u>4.3 Genetic control of Rh factor
 
 **Fisher and Race hypothesis:**
 
@@ -245,12 +245,12 @@ produce Rh positive phenotype and double
 recessive genotype ‘dd’ will give rise to Rh
 negative phenotype.
 
-#### <u> Wiener Hypothesis </u>
+#### <u> Wiener Hypothesis 
 
 Wiener proposed the existence of eight alleles (R<sup>1</sup>, R<sup>2</sup>, R<sup>0</sup> ,R<sup>z</sup>,r, r<sup>1</sup>, r<sup>11</sup>, r<sup>y</sup>) at a single Rh locus. All genotypes carrying a dominant ‘R allele’ (R<sup>1</sup>, R<sup>2</sup>, R<sup>0</sup> ,R<sup>z</sup>) will produce Rh
 will produce Rh positive phenotype and double recessive genotypes (rr, r<sup>1</sup>r<sup>1</sup>, r<sup>11</sup>r<sup>11</sup>, r<sup>y</sup>r<sup>y</sup>) will give rise to Rh negative phenotype.
 
-#### Incompatibility of Rh Factor – Erythroblastosis foetalis  </u>
+#### Incompatibility of Rh Factor – Erythroblastosis foetalis  
 
 Rh incompatability has great significance
 in child birth. If a woman is Rh negative and
@@ -281,7 +281,7 @@ foetal RBCs resulting in haemolytic jaundice
 and anaemia. This condition is known as
 Erythoblastosis foetalis or **Haemolytic disease of the new born (HDN)**.
 
-### <u> Prevention of Erythroblastosis foetalis </u>
+### <u> Prevention of Erythroblastosis foetalis 
 
 If the mother is Rh negative and foetus
 is Rh positive, anti D antibodies should be
@@ -297,7 +297,7 @@ RBC before the mother’s immune system is
 sensitized. This has to be done whenever the
 woman attains pregnancy.
 
-### Sex Determination </u>
+### Sex Determination 
 
 Sex determination is the method by
 which the distinction between male and
@@ -327,7 +327,7 @@ about 1,000 genes.
 
 {{< /box >}}
 
-### <u> Chromosomal basis of sex determination Heterogametic Sex Determination: </u>
+### <u> Chromosomal basis of sex determination Heterogametic Sex Determination: 
 
 In heterogametic sex
 determination one of the
@@ -338,7 +338,7 @@ the offspring is determined at the time of
 fertilization.
 
 
-### <u> Heterogametic Males </u>
+### <u> Heterogametic Males 
 
 In this method of sex determination the
 males are heterogametic producing dissimilar
@@ -349,7 +349,7 @@ grasshoppers) and XX-XY type (e.g. Human
 beings and Drosophila).
 
 
-### <u>Heterogametic Females </u>
+### <u>Heterogametic Females 
 
 In this method of sex determination the
 females are heterogametic producing dissimilar
@@ -363,7 +363,7 @@ ZO-ZZ type (eg. Moths, butterflies and
 domestic chickens) and ZW-ZZ type
 (eg. Gypsy moth, fishes, reptiles and birds).
 
-### <u> Sex determination in human beings </u> 
+### <u> Sex determination in human beings  
 
 Genes determining sex in human beings are
 located on two sex chromosomes, called
@@ -382,7 +382,7 @@ chromosomes also exist in *Drosophila*
 
 ![Fig. 4.2 Sex determination in human beings](/books/12-biology/Zoology/pic3.png )
 
-### <u> The Y Chromosome and Male Development </u> 
+### <u> The Y Chromosome and Male Development  
 
 Current analysis of Y chromosomes has
 revealed numerous genes and regions with
@@ -414,7 +414,7 @@ adult male testis.
 
 {{< /box >}}
 
-#### Dosage compensation - Barr body </u> 
+#### Dosage compensation - Barr body  
 
 In 1949, Barr and Bertram first observed a
 condensed body in the nerve cells of female cat
@@ -449,7 +449,7 @@ one Barr body.
 
 {{< /box >}}
 
-### <u> Haplodiploidy in Honeybees </u> 
+### <u> Haplodiploidy in Honeybees  
 
 In hymenopteran insects such as
 honeybees, ants and wasps a mechanism of sex
@@ -478,7 +478,7 @@ as **Kin Selection**. The queen constructs their
 social environment by releasing a hormone that
 suppresses fertility of the workers.
 
-### <u>4.5 Sex Linked Inheritance </u> 
+### <u>4.5 Sex Linked Inheritance  
 
 The inheritance of a
 trait that is determined
@@ -508,14 +508,14 @@ region) do not undergo pairing or crossing
 over during meiosis. The inheritance of X or
 Y linked genes is called sex-linked inheritance.
 
-#### <u>4.5.1 Inheritance of X - linked genes </u> 
+#### <u>4.5.1 Inheritance of X - linked genes  
 
 Red-green colour blindness or daltonism,
 haemophilia and Duchenne’s muscular dystrophy
 are examples of X-linked gene inheritance in
 humans.
 
-#### <u>1. Haemophilia </u>
+#### <u>1. Haemophilia 
 
 Haemophilia is commonly known as
 bleeder’s disease, which is more common in
@@ -533,7 +533,7 @@ Haemophilia follows the characteristic
 criss - cross pattern of inheritance.
 
 
-#### <u> 2. Colour blindness </u>
+#### <u> 2. Colour blindness 
 
 
 In human beings a dominant X – linked
@@ -583,7 +583,7 @@ F2 generation **(Fig. 4.4)**.
 
 ![Fig. 4.4 Marriage between normal visioned man and colour blind woman](/books/12-biology/Zoology/pic5.png )
 
-#### Inheritance of Y- linked genes </u> 
+#### Inheritance of Y- linked genes  
 
 Genes in the non-homologous region
 of the Y-chromosome are inherited directly
@@ -596,7 +596,7 @@ father. Female inherits only X chromosome
 from the father and are not affected.
 
 
-### <u>4.6 Karyotyping </u> 
+### <u>4.6 Karyotyping  
 
 Karyotyping is a technique through which
 a complete set of chromosomes is separated
@@ -619,7 +619,7 @@ is called a **karyotype.** Chromosome banding
 permits structural definitions and differentiation
 of chromosomes.
 
-### <u> Applications of Karyotyping: </u> 
+### <u> Applications of Karyotyping:  
 
 * It helps in gender identification.
 
@@ -640,7 +640,7 @@ detected by this technique.
 
 ![Fig. 4.5 Human karyotype (male)](/books/12-biology/Zoology/pic6.png )
 
-### <u> Human Karyotype </u> 
+### <u> Human Karyotype  
 
 Depending upon the position of the
 centromere and relative length of two arms,
@@ -650,7 +650,7 @@ The photograph of chromosomes are arranged
 in the order of descending length in groups
 from A to G (Fig. 4.5).
 
-### Pedigree Analysis </u> 
+### Pedigree Analysis  
 
 Pedigree is a “family tree”, drawn with
 standard genetic symbols, showing the
@@ -662,7 +662,7 @@ family line for several past generations.
 ![Fig. 4.6 Symbols commonly used in pedigree charts](/books/12-biology/Zoology/pic7.png )
 
 
-#### <u> Genetic Disorders </u> 
+#### <u> Genetic Disorders  
 
 A genetic disorder is a disease or syndrome
 that is caused by an abnormality in an individual
@@ -673,7 +673,7 @@ a set of chromosomes. Genetic disorders are
 of two types namely, Mendelian disorders and
 chromosomal disorders.
 
-### <u>4.8 Mendelian disorders </u> 
+### <u>4.8 Mendelian disorders  
 
 Alteration or mutation in a single gene
 causes Mendelian disorders. These disorders
@@ -685,7 +685,7 @@ cell anaemia, Huntington's chorea, etc., These
 disorders may be dominant or recessive and
 autosomal or sex linked.
 
-#### <u>Thalassemia </u> 
+#### <u>Thalassemia  
 
 Thalassemia is an autosomal recessive
 disorder. It is caused by gene mutation resulting
@@ -712,7 +712,7 @@ as Cooley’s anaemia. In this disorder the alpha
 chain production is increased and damages the
 membranes of RBC.
 
-#### <u> Phenylketonuria </u> 
+#### <u> Phenylketonuria  
 
 It is an inborn error of
 **Phenylalanine** metabolism
@@ -733,7 +733,7 @@ urine.
 
 Phenylalanine -> phenylalanine  hydroxylase ->  Tyrosine
 
-#### <u>Albinism </u> 
+#### <u>Albinism  
 
 Albinism is an inborn error of metabolism,
 caused due to an autosomal recessive gene.
@@ -749,7 +749,7 @@ iris, etc., , but lack melanin pigment.
 
 3, 4 dihydroxy  phenylalanine  (DOPA) -> Tyrosinase -> Melanin
 
-#### <u> Huntington’s chorea </u> 
+#### <u> Huntington’s chorea  
 
 It is inherited as an autosomal dominant
 lethal gene in man. It is characterized by
@@ -761,7 +761,7 @@ usually die between the age of 35 and 40.
 
 
 
-### Chromosomal Abnormalities  </u>
+### Chromosomal Abnormalities  
 
 Each human diploid (2n) body cell has
 46 chromosomes (23 pairs). Chromosomal
@@ -894,7 +894,7 @@ chromosome is XO and in Klinefelter’s syndrome
 the condition is XXY. An idiogram refers to a
 diagrammatic representation of chromosomes.
 
-### <u> Evaluation </u>
+### <u> Evaluation 
 
 1. Haemophilia is more
 common in males
