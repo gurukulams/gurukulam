@@ -5,29 +5,23 @@ draft: false
 weight: 2
 ---
 
-
 ### Functions of ecosystem
 
 The function of ecosystem include creation of energy creation, sharing of energy and cycling of materials between the living and nonliving components of an ecosystem.
 
 Before studying the productivity in any ecosystem, we should understand the essential role of sunlight used by producers of the first trophic level. The quantity of sunlight is directly proportional to the production of energy by plants.
 
-
 #### Photosynthetically Radiation (PAR) Active
-
 
 The amount of light available for photosynthesis of plants is called **P**hotosynthetically **A**ctive **R**adiation (PAR) which is from of 400-700 nm in wave length. It is essential for photosynthesis and plant growth. PAR is not always constant because of clouds, tree shades, air, dust particles, seasons, latitudes and length of the daylight availability. Generally plants absorb more blue and red light for efficient photosynthesis.
 
-
 Of the total sunlight, 34 percent that reaches the atmosphere is reflected back into the atmosphere, moreover 10% is held by ozone, water vapours and atmospheric gases and the remaining 56% reaches the earth’s surface. Out of this 56%, only 2 – 10% of the solar energy is used by green plants for photosynthesis while the remaining portion is dissipated as heat.
-
 
 PAR is generally expressed in millimoles /
 square meter / second by using silicon photo
 voltic detectors which detect only 400 – 700
 nm wavelength of light. PAR values range from
 0 to 3000 millimoles /square meter / second.
-
 
 At night PAR is zero and during midday in
 the summer, PAR often reaches 2000 – 3000
@@ -63,7 +57,6 @@ The total amount of food energy or organic
 matter or biomass produced in an ecosystem by
 autotrophs through the process of photosynthesis.
 is called **gross** **primary** **productivity**
-
 
 **b. Net Primary Productivity (NPP)**
 The proportion of energy which remains
@@ -142,15 +135,7 @@ one trophic level in the food chain.
 
 #### Energy flow
 
-The transfer of energy in an ecosystem between
-trophic levels can be termed as energy flow. It
-is the key function in an ecosystem. Part of the
-energy obtained from the sun by producers is
-transferred to consumers and decomposers
-through each trophic level, while some
-amount of energy is dissipated in the form of
-heat. Energy flow is always unidirectional in
-an ecosystem.
+The transfer of energy in an ecosystem between trophic levels can be termed as energy flow. It is the key function in an ecosystem. Part of the energy obtained from the sun by producers is transferred to consumers and decomposers through each trophic level, while some amount of energy is dissipated in the form of heat. Energy flow is always unidirectional in an ecosystem.
 
 ![lesson 9](/books/12-biology/botany/images/4.9.png)
 
@@ -161,22 +146,11 @@ is based on two basic laws of thermo-dynamics.
 
 **i. First law of** **thermodynamics**
 
-It states that energy can be transmitted from
-one system to another in various forms. Energy
-cannot be destroyed or created. But it can be
-transformed from one form to another. As
-a result, the quantity of energy present in the
-universe is constant.
+It states that energy can be transmitted from one system to another in various forms. Energy cannot be destroyed or created. But it can be transformed from one form to another. As a result, the quantity of energy present in the universe is constant.
 
 **Example:**
 
-In photosynthesis, the product of starch
-(chemical energy) is formed by the combination
-of reactants (chlorophyll, H 2 O, CO 2). The
-energy stored in starch is acquired from the
-external sources (light energy) and so there is
-no gain or loss in total energy. Here light energy
-is converted into chemical energy.
+In photosynthesis, the product of starch (chemical energy) is formed by the combination of reactants (chlorophyll, H 2 O, CO 2). The energy stored in starch is acquired from the external sources (light energy) and so there is no gain or loss in total energy. Here light energy is converted into chemical energy.
 
 ![lesson 9](/books/12-biology/botany/images/9.9.png)
 

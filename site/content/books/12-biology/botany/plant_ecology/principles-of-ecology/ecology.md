@@ -18,9 +18,6 @@ Reiter (1868). However, the
 most widely accepted definition of ecology was
 given by **Ernest Haeckel** (1869). 
 
-
-
-
 **Alexander von Humbolt** - Father of Ecology
 
 **Eugene P. Odum** - Father of modern Ecology

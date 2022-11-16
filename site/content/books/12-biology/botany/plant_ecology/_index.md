@@ -8,9 +8,6 @@ weight: 4
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-
-
-
 * Understand the interaction between
 organisms and their
 environment.

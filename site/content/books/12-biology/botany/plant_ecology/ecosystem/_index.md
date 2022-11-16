@@ -9,12 +9,6 @@ weight: 2
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-
-
-
-
-
-
 * Describe the Structure, functions and
 types of ecosystems
 
