@@ -6,7 +6,7 @@ weight: 1
 ---
 
 
-![Unit 9 ](/books/12-biology/botany/Ecology/pic1.png#floatleft)
+![Unit 9 ](/books/12-biology/botany/Ecology/pic1.png#floatright)
 
 The term “ecology”
 **(oekologie)** is derived from
@@ -36,17 +36,11 @@ given by **Ernest Haeckel** (1869).
 
 #### Ecological hierarchy 
 
-The interaction of organisms with their
-environment results in the establishment of
-grouping of organisms which is called ecological
-hierarchy or ecological levels of organization.
-The basic unit of ecological hierarchy is an
-individual organism. The hierarchy of ecological
-systems is illustrated below:
+The interaction of organisms with their environment results in the establishment of grouping of organisms which is called ecological hierarchy or ecological levels of organization. The basic unit of ecological hierarchy is an individual organism. The hierarchy of ecological systems is illustrated below:
 
 
 
-![Unit 9 - flowchart 1](/books/12-biology/botany/Ecology/pic2.png )
+![Unit 9 - flowchart 1](/books/12-biology/botany/Ecology/pic2.png#floatright)
 
 
 #### Branches of Ecology: 
@@ -70,22 +64,11 @@ ecology and Environmental toxicology
 #### Habitat and Niche 
 
 **Habitat**
-
-Habitat is a specific physical place or locality
-occupied by an organism or any species which
-has a particular combination of abiotic or
-environmental factors. But the environment of
-any community is called **Biotope.**
+Habitat is a specific physical place or locality occupied by an organism or any species which has a particular combination of abiotic or environmental factors. But the environment of any community is called **Biotope.**
 
 **Niche**
 
-An ecological niche refers to an organism’s place
-in the biotic environment and its functional
-role in an ecosystem. The term was coined by
-the naturalist **Roswell Hill Johnson but Grinell**
-(1917) was probably first to use this term. The 
-habitat and niche of any organism is called
-**Ecotope**
+An ecological niche refers to an organism’s place in the biotic environment and its functional role in an ecosystem. The term was coined by the naturalist **Roswell Hill Johnson but Grinell** (1917) was probably first to use this term. The habitat and niche of any organism is called **Ecotope**
 
 **The differences between habitat and niche are as follows.**
 
@@ -127,32 +110,17 @@ habitat and niche of any organism is called
 </table>
 
 
-{{< box title="Do You Know ?? " type="objective" >}}
+{{< box title="Do You Know ?? " type="dyn" >}}
 
-**<u>Applied ecology or environmental technology :**
+**Applied ecology or environmental technology :**
 
-Application of the
-Science of ecology is
-otherwise called as **Applied ecology** or
-**Environmental technology.** It helps us to
-manage and conserve natural resources,
-particularly ecosystems, forest and wild
-life conservative and management.
-Environmental management involves
-Bio-diversity conservation, Ecosystem
-restoration, Habitat management,
-Invasive species management, Protected
-areas management and also help us plan
-landscapes and environmental impact
-designing for the futuristic ecology.
+Application of the Science of ecology is otherwise called as **Applied ecology** or **Environmental technology.** It helps us to manage and conserve natural resources, particularly ecosystems, forest and wild life conservative and management. Environmental management involves Bio-diversity conservation, Ecosystem restoration, Habitat management, Invasive species management, Protected areas management and also help us plan landscapes and environmental impact designing for the futuristic ecology.
 
 {{< /box >}}
 
 #### Ecological equivalents 
 
-Taxonomically different species occupying
-similar habitats (Niches) in different geographical
-regions are called **Ecological equivalents.**
+Taxonomically different species occupying similar habitats (Niches) in different geographical regions are called **Ecological equivalents.**
 
 **Examples:**
 
