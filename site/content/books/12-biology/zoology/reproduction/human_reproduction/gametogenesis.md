@@ -34,11 +34,11 @@ tubule and become modified and enlarged
 to form primary spermatocytes which are
 diploid with 23 pairs i.e., 46 chromosomes.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf16.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf17.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -76,7 +76,7 @@ Leydig cells and stimulates the synthesis of
 **testosterone** which in turn stimulates the
 process of spermatogenesis.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf18.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -127,7 +127,7 @@ at least 40 per cent
 must show vigorous
 motility for normal fertility.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf19.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -205,7 +205,7 @@ coat of follicular cells called corona radiata.
 Between the vitelline membrane and zona
 pellucida is a narrow perivitelline space.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf20.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 

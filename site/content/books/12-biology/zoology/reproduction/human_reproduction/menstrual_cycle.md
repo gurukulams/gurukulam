@@ -40,7 +40,7 @@ menstruation may be an indicator of pregnancy.
 However it could also be due to stress, hormonal
 disorder and anaemia.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf21.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -79,7 +79,7 @@ amount of progesterone which is essential
 for the maintenance of the endometrium.
 If Fertilization takes place, it paves way for
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf22.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 

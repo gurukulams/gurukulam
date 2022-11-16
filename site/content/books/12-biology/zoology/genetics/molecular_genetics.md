@@ -209,7 +209,7 @@ Later, Oswald Avery, Colin Macleod and
 Maclyn McCarty in 1944 repeated Griffith’s
 experiments in an ‘in vitro’ system in order
 
-{{< figure "images/books/12-biology/zoology1/pic9.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.1 Transformation experiment of Avery et. al., (1944)
 {{< /figure >}}
 
@@ -239,12 +239,12 @@ S - strain is referred to as **transformation**.
 
 
 
-{{< figure "images/books/12-biology/zoology1/pic10.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/zoology1/pic11.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -544,7 +544,7 @@ multiplied with the distance between two
 consecutive base pairs (6.6 × 10<sup>9</sup> × 0.34 ×10<sup>-9</sup> m/bp), the length of DNA double helix is
 approximately 2.2 m. (The total length of the
 
-{{< figure "images/books/12-biology/zoology1/pic12.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.3 Condensation of DNA - A - DNA, B-Nucleosomes and Histones, C- Chromatin fiber, D- Coiled chromatin fiber, E- Coiled coil, F- metaphase chromatid
 {{< /figure >}}
 
@@ -643,7 +643,7 @@ new double stranded molecule is synthesized.
 In dispersive replication, the original molecule
 is broken into fragments and each fragment
 
-{{< figure "images/books/12-biology/zoology1/pic13.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.4 Semiconservative DNA replication
 {{< /figure >}}
 
@@ -683,7 +683,7 @@ the nitrogen source (NH4Cl) contained the
 heavy isotope 15N and the ‘light’ culture was
 grown in a medium in which the nitrogen
 
-{{< figure "images/books/12-biology/zoology1/pic14.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.5 Meselson and Stahl experiment to support semiconservative mode of DNAreplication
 {{< /figure >}}
 
@@ -761,7 +761,7 @@ discontinuously synthesized fragments of the
 lagging strand (called the **Okazaki fragments**)
 are joined by the enzyme DNA ligase.
 
-{{< figure "images/books/12-biology/zoology1/pic15.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig 5.6 Mechanism of replication showing a replication fork
 {{< /figure >}}
 
@@ -800,7 +800,7 @@ of protein synthesis in molecular biology
 states that genetic information flows as
 follows:
 
-{{< figure "images/books/12-biology/zoology1/pic16.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -862,7 +862,7 @@ polymerase to stop transcribing. In eukaryotes
 the promoter has AT rich regions called
 **TATA box (Goldberg-Hogness box)** and in
 
-{{< figure "images/books/12-biology/zoology1/pic17.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -941,7 +941,7 @@ are able to catalyse the three steps initiation,
 elongation and termination? The RNA
 
 
-{{< figure "images/books/12-biology/zoology1/pic18.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1010,7 +1010,7 @@ proteins by arranging their exons in several
 different ways through alternate splicing
 
 
-{{< figure "images/books/12-biology/zoology1/pic19.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1152,7 +1152,7 @@ amino acid methionine.
 designated as termination (stop) codons
 and also are known as “non-sense” codons.
 
-{{< figure "images/books/12-biology/zoology1/pic20.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1190,7 +1190,7 @@ change of amino acid residue glutamic acid to
 valine **(Fig. 5.10)**. The mutant haemoglobin
 
 
-{{< figure "images/books/12-biology/zoology1/pic21.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1213,7 +1213,7 @@ is that it reduces the number of tRNAs
 required for polypeptide synthesis and it
 overcomes the effect of code degeneracy.
 
-{{< figure "images/books/12-biology/zoology1/pic22.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1309,11 +1309,11 @@ mRNA lies in the tRNA and not in the attached
 amino acid molecule.
 
 
-{{< figure "images/books/12-biology/zoology1/pic23.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.11 Holley’s two-dimensional clover leaf model of transfer RNA
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology1/pic24.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.12 
 {{< /figure >}}
 
@@ -1379,7 +1379,7 @@ start codon of mRNA. This ribosome binding
 site is called the **Shine – Dalgarno sequence**
 
 
-{{< figure "images/books/12-biology/zoology1/pic25.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.12 
 {{< /figure >}}
 
@@ -1420,7 +1420,7 @@ subunit to form the complete ribosome
 (70S). In this process a molecule of GTP is
 hydrolyzed providing the required energy
 
-{{< figure "images/books/12-biology/zoology1/pic26.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.13 b- Initiation 
 {{< /figure >}}
 
@@ -1484,7 +1484,7 @@ step 6). An additional amino acid is added to the
 growing polypeptide, each time mRNA advances
 through the ribosome. Once a polypeptide chain
 
-{{< figure "images/books/12-biology/zoology1/pic27.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.13 c- Elongation of the growing polypeptide
 {{< /figure >}}
 
@@ -1504,7 +1504,7 @@ is then released from the ribosome, which
 then dissociates into its subunits (step 2)
 (Fig. 5.13 d).
 
-{{< figure "images/books/12-biology/zoology1/pic28.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.13 d- Termination of the process of translation
 {{< /figure >}}
 
@@ -1623,7 +1623,7 @@ to produce lac mRNA which enables formation
 
 
 
-{{< figure "images/books/12-biology/zoology1/pic29.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.14 Lac Operon model
 {{< /figure >}}
 
@@ -1831,7 +1831,7 @@ variations and are useful as genetic markers.
 
 
 
-{{< figure "images/books/12-biology/zoology1/pic30.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.15 Schematic representation of DNA fingerprinting : Few representative chromosomes have been shown to contain different copy number of VNTR
 {{< /figure >}}
 
@@ -1886,7 +1886,7 @@ at specific sites.
 
 
 
-{{< figure "images/books/12-biology/zoology1/pic31.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 5.16 Steps in DNA finger printing
 {{< /figure >}}
 
@@ -2153,7 +2153,7 @@ operator.
 given transcription unit:
 
 
-{{< figure "images/books/12-biology/zoology1/pic32.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -2210,7 +2210,7 @@ and GCA.
 b) Redraw the structure as a replicating
 fork and label the parts.
 
-{{< figure "images/books/12-biology/zoology1/pic33.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -2241,11 +2241,11 @@ carbon and nitrogen?
 35. It is established that RNA is the first
 genetic material. Justify giving reasons.
 
-{{< figure "images/books/12-biology/zoology1/pic34.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology1/pic35.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 

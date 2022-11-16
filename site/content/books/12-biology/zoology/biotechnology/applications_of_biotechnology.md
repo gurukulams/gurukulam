@@ -131,7 +131,7 @@ its effectiveness against diabetes.
 
 {{< /box >}}
 
-{{< figure "images/books/12-biology/zoology1/pic47.png""w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png""w-25 float-end">}}
 Fig. 9.1 Human Insulin Production
 {{< /figure >}}
 
@@ -293,7 +293,7 @@ the world after USA, France and Belgium to develop an indigenous hepatitis B vac
 
 {{< /box >}}
 
-{{< figure "images/books/12-biology/zoology1/pic48.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9.2 Production of recombinant HB Vaccine
 {{< /figure >}}
 
@@ -369,7 +369,7 @@ are introduced into the cells of the early embryonic stages.
 
 {{< /box >}}
 
-{{< figure "images/books/12-biology/zoology1/pic49.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9.3 Process of gene therapy
 {{< /figure >}}
 
@@ -404,7 +404,7 @@ based therapies. Human stem cells could be used
 to test new drugs.
 
 
-{{< figure "images/books/12-biology/zoology1/pic50.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9.4 Embryonic stem cells
 {{< /figure >}}
 
@@ -517,7 +517,7 @@ the amount of the antigen. ELISA is highly
 sensitive and can detect antigens in the range
 of a nanogram.
 
-{{< figure "images/books/12-biology/zoology1/pic51.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9.5 Enzyme Linked Immuno
 {{< /figure >}}
 
@@ -585,7 +585,7 @@ complementary DNA by the enzyme reverse
 transcriptase. The cDNA then serves as the
 template for PCR.
 
-{{< figure "images/books/12-biology/zoology1/pic52.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9.6 Steps involved in PCR
 {{< /figure >}}
 
@@ -668,7 +668,7 @@ manipulations are called **transgenic animals**
 or the **genetically engineered** or genetically
 modified organisms.
 
-{{< figure "images/books/12-biology/zoology1/pic53.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9. 7 Production of transgenic animals 
 {{< /figure >}}
 
@@ -788,7 +788,7 @@ and the phenomenon of totipotency.
 to develop different cells, tissues, organs and
 finally an organism.
 
-{{< figure "images/books/12-biology/zoology1/pic54.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9. 8 Cloning of dolly 
 {{< /figure >}}
 
@@ -1096,6 +1096,6 @@ of cloning.
 28. Explain how recombinant Insulin can be
 produced.
 
-{{< figure "images/books/12-biology/zoology1/pic55.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}

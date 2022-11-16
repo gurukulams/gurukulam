@@ -66,11 +66,11 @@ divides by mitosis.
 In **longitudinal binary fission,** the nucleus and the cytoplasm divides in the longitudinal axis of the organism **(Fig 1.3)**. In flagellates, the
 
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf1.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf2.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -87,11 +87,11 @@ by multiple fission and produces many minute amoebae called **pseudopodiospore o
 pseudopodiospores, each with a fine pseudopodia. They feed and grow rapidly to
 lead an independent life. In some metazoan animals, a special type of transverse fission called **strobilation** occurs
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf3.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf4.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -109,11 +109,11 @@ In **budding**, the parent body produces one or more buds and each bud grows int
 one. The buds separate from the parent to lead a normal life. In sponges, the buds constrict and detach from the parent body and the bud develops into a new sponge (Fig. 1.7).
 
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf5.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf6.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -134,7 +134,7 @@ food-laden archaeocytes. During unfavourable conditions, the sponge disintegrate
 gemmule can withstand adverse conditions. When conditions become favourable, the
 **gemmules** begin to hatch.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf7.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -157,11 +157,11 @@ helps in transferring the developed embryos
 from the primary host (man) to find a secondary
 host (pig).
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf8.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf9.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -186,6 +186,6 @@ whereas in restorative regeneration severed
 body parts can develop. e.g. star fish, tail of wall
 lizard.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf10.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}

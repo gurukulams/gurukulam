@@ -6,10 +6,8 @@ weight: 3
 ---
 
 
-{{< figure "images/books/12-biology/zoology1/pic56.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Unit9
-
-
 {{< /figure >}}
 
 
@@ -148,7 +146,7 @@ produced by human or natural activity. The
 nature and concentration of a pollutant
 determines the severity of detrimental effects
 
-{{< figure "images/books/12-biology/zoology1/pic57.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -409,7 +407,7 @@ by government agencies to communicate to the
 public how polluted the air is at a given time.
 
 
-{{< figure "images/books/12-biology/zoology1/pic58.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -463,7 +461,7 @@ rain, dumping of the plastics in water bodies,
 agriculture chemical run off are common
 examples **(Fig. 12.2 b).**
 
-{{< figure "images/books/12-biology/zoology1/pic59.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig 12.2 Sources of water pollution
 {{< /figure >}}
 
@@ -475,7 +473,7 @@ Sources of water pollution can also be classified
 in three ways. They are municipal wastes,
 industrial wastes, and agricultural wastes.
 
-{{< figure "images/books/12-biology/zoology1/pic60.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -569,7 +567,7 @@ algal blooms which affect the quality
 of water bodies **(Fig. 12.3).** Red tides, if
 occur, can be lethal to aquatic organisms.
 
-{{< figure "images/books/12-biology/zoology1/pic61.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 12.3 Algal bloom
 {{< /figure >}}
 
@@ -763,7 +761,7 @@ chemicals cause air pollution.
 * Inhalation of contaminated air can cause
 respiratory problems.
 
-{{< figure "images/books/12-biology/zoology1/pic62.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -795,7 +793,7 @@ naturally occurring substances are degradable.
 
 
 
-{{< figure "images/books/12-biology/zoology1/pic63.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -867,12 +865,12 @@ treatment is usually performed in the following
 three stages (Fig. 12.6).
 
 
-{{< figure "images/books/12-biology/zoology1/pic64.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/zoology1/pic65.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -937,7 +935,7 @@ inactivating microorganisms. UV is a chemical-
 free process that can completely replace
 the existing chlorination system and also
 
-{{< figure "images/books/12-biology/zoology1/pic66.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -979,7 +977,7 @@ and treated properly. When hazardous
 wastes like pesticides, batteries containing
 lead, cadmium, mercury or zinc, cleaning
 
-{{< figure "images/books/12-biology/zoology1/pic67.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -990,12 +988,12 @@ such as dioxins. These gases are toxic and
 carcinogenic. These pollute the surrounding
 
 
-{{< figure "images/books/12-biology/zoology1/pic68.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/zoology1/pic69.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1051,7 +1049,7 @@ the treatment, storage, and disposal of liquid,
 airborne, and solid effluents from the nuclear
 industry.
 
-{{< figure "images/books/12-biology/zoology1/pic70.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1149,7 +1147,7 @@ toxic substances. E-wastes are basically PCB
 (Polychlorinated biphenyl) based, which are
 non-degradable **(Fig.12.8).**
 
-{{< figure "images/books/12-biology/zoology1/pic71.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 

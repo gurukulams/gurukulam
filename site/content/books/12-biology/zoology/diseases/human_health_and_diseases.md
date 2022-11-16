@@ -74,7 +74,7 @@ malfunction of the mind or body. It involves
 morphological, physiological and psychological
 disturbances which may be due to environmental
 
-{{< figure "images/books/12-biology/zoology/unit3/flow1.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -110,7 +110,7 @@ species is very high, only a few bacteria are
 associated with human diseases and are called
 pathogenic bacteria. Such pathogens may
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.1.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -213,7 +213,7 @@ by inhaling the droplets/aerosols or even
 </tbody>
 </table>
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.2.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -318,7 +318,7 @@ obligate parasites, which multiply within
 </tbody>
 </table>
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.3.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -357,7 +357,7 @@ About 15 genera of protozoans live as
 parasites within the human body and cause
 diseases.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.4.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -376,7 +376,7 @@ in the stool. House flies (Musca domestica)
 acts as a carrier for transmitting the parasite
 from contaminated faeces and water.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.1.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -390,7 +390,7 @@ cause sleeping sickness in man.
 palpalis (Tsetse fly) and causes Gambian or
 Central African sleeping sickness (Fig. 7.2).
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.2.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -466,7 +466,7 @@ mosquito's gut wall and develop into an oocyte.
 The oocyte undergoes meiosis by a process
 called sporogony to form sporozoites. These
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.3.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -568,7 +568,7 @@ Plasmodium to the drugs used to treat it and
 resistance of mosquitoes to DDT and other
 insecticides.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.5.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -592,7 +592,7 @@ as Athlete’s foot caused by Tinea pedis
 from soil or by using clothes, towels and comb
 used by infected persons.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.4.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -604,7 +604,7 @@ diseases called helminthiasis. The two most
 prevalent helminthic diseases are Ascariasis and
 Filariasis.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.5.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -636,7 +636,7 @@ bancrofti, commonly called filarial worm. It is
 found in the lymph vessels and lymph nodes of
 man (Fig. 7.7). Wuchereria bancrofti is sexually
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.6.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -717,7 +717,7 @@ and reacts destructively against the host's
 own molecules; such autoimmune diseases
 can be fatal to the organism.
 
-{{< figure "images/books/12-biology/zoology/unit3/flow2.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -745,7 +745,7 @@ operative non-specifically against a large number
 of microorganisms as shown in the Table 7.4 and
 Fig. 7.10.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.7.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -925,7 +925,7 @@ response, and therefore there is no memory.
 The immune responses may be primary
 or secondary (Table 7.6).
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.6.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1036,11 +1036,11 @@ immunocompetent cells. In mammals, B cell
 maturation occurs in the bone marrow and
 T cells maturation occurs in the thymus.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.8.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.9.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1063,7 +1063,7 @@ and is replaced by adipose tissue (Fig. 7.12).
 Thus thymus is most active during the
 neonatal and pre-adolescent periods.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.10.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1090,11 +1090,11 @@ GALT (Gut-Associated Lymphoid Tissue),
 BALT (Bronchial/Tracheal-Associated
 Lymphoid Tissue).
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.7.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.8.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1117,7 +1117,7 @@ the particulate antigen brought in by the
 lymph will be trapped by the phagocytic cells,
 follicular and interdigitating dendritic cells.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.11.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1149,7 +1149,7 @@ nodes. The most frequently enlarged lymph
 nodes are found in the neck, under the chin, in
 the armpits and in the groin.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.9.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1272,7 +1272,7 @@ B cells do not produce antibodies but become
 memory cells. These cells are responsible for
 secondary immune response. T lymphocytes do not produce antibodies. They recognize antigen- presenting cells and destroy them. The two important types of T cells are Helper T cells and Killer T cells. Helper T cells release a chemical
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.12.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1285,7 +1285,7 @@ Monocytes when they mature into large cells,
 they are called macrophages which perform
 phagocytosis on any foreign organism.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.10.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1302,7 +1302,7 @@ response. Thus an antigen is a substance that is
 specific to an antibody or a T-cell receptor and
 is often used as a synonym for immunogen.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.11.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1319,7 +1319,7 @@ active part of an antigen. A paratope is the antigen
 recognizes and binds to an antigen.
 
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.12.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1368,7 +1368,7 @@ Hence, an antibody is represented by H2 L2.
 The heavy chains have a flexible hinge region
 at their approximate middles.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.13.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1447,7 +1447,7 @@ formation on reacting with antigens are called
 as precipitins.
 
 
-{{< figure "images/books/12-biology/zoology/unit3/flow3.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1495,7 +1495,7 @@ Vaccines deliver only very little amounts of
 inactivated or weakened viruses or bacteria,
 or parts of them. This allows the immune
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.14.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1532,7 +1532,7 @@ generation. The latest revolution in vaccine
 is DNA vaccine or recombinant vaccine
 (Refer Chapter- 9 for details).
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.13.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1622,7 +1622,7 @@ made of proteins. This is followed by another
 layer of matrix proteins as shown in the
 Fig 7.18.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.15.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1719,7 +1719,7 @@ Tumour may be benign or malignant depending
 on its characteristics. Benign or non-cancerous
 tissues are capable of indefinite growth and do
 
-{{< figure "images/books/12-biology/zoology/unit3/table1.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1754,7 +1754,7 @@ immunological surveillance is effective, cancer
 should not occur. The development of tumour
 represents a lapse in surveillance.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.14.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1819,7 +1819,7 @@ stimulating action on the CNS, producing
 increased energy and a sense of euphoria.
 
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.16.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1874,7 +1874,7 @@ lesson 1
 
 
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.17.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1889,7 +1889,7 @@ properties are Atropa belladonna and Datura
 (Fig. 7.21 and Fig. 7.22).
 
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.18.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -1972,7 +1972,7 @@ drinking permanently damages the liver
 and brain.
 
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.15.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -2036,7 +2036,7 @@ de-addiction and rehabilitation programmes to
 help individuals to overcome their problems.
 
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.16.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -2139,7 +2139,7 @@ cancer is achieved by an integrated approach to
 therapy, surgery, radiotherapy, chemotherapy
 and immunotherapy.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.17.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 

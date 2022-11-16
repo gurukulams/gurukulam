@@ -193,7 +193,7 @@ in the milk of animals.
 
 
 
-{{< figure "images/books/12-biology/Zoology/pic1.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Table 4.1 Genetic basis of the human ABO blood groups
 {{< /figure >}}
 
@@ -234,7 +234,7 @@ loci on the chromosome pair. This system is
 more commonly in use today, and uses the 'Cde'
 nomenclature.
 
-{{< figure "images/books/12-biology/Zoology/pic2.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 4.1 Fischer and Race hypothesis
 {{< /figure >}}
 
@@ -384,7 +384,7 @@ of sperms with X and Y chromosomes. An
 independently evolved XX: XY system of sex
 chromosomes also exist in *Drosophila*
 
-{{< figure "images/books/12-biology/Zoology/pic3.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 4.2 Sex determination in human beings
 {{< /figure >}}
 
@@ -571,7 +571,7 @@ male parent to his grandson through carrier
 daughter, which is an example of criss-cross
 pattern of inheritance (Fig. 4.3).
 
-{{< figure "images/books/12-biology/Zoology/pic4.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 4.3 Marriage between colour blind man and normal visioned woman
 {{< /figure >}}
 
@@ -589,7 +589,7 @@ carrier daughter, colourblind daughter, normal
 visioned son and a colourblind son in the
 F2 generation **(Fig. 4.4)**.
 
-{{< figure "images/books/12-biology/Zoology/pic5.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 4.4 Marriage between normal visioned man and colour blind woman
 {{< /figure >}}
 
@@ -648,7 +648,7 @@ relationships between species.
 detected by this technique.
 
 
-{{< figure "images/books/12-biology/Zoology/pic6.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 4.5 Human karyotype (male)
 {{< /figure >}}
 
@@ -671,7 +671,7 @@ characters.(Fig. 4.6). Pedigree analysis is the
 study of traits as they have appeared in a given
 family line for several past generations.
 
-{{< figure "images/books/12-biology/Zoology/pic7.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 4.6 Symbols commonly used in pedigree charts
 {{< /figure >}}
 
@@ -1182,6 +1182,6 @@ d) It occurs in gypsy moth
 37. Explain the inheritance of sex linked characters in human being.
 
 
-{{< figure "images/books/12-biology/Zoology/pic8.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}

@@ -33,7 +33,7 @@ foetus can move. The yolk sac forms a part of
 the gut and is the source of the earliest blood
 cells and blood vessels.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf25.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 

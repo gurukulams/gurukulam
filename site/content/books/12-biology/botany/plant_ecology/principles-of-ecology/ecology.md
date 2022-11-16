@@ -6,10 +6,6 @@ weight: 1
 ---
 
 
-{{< figure "images/Tweety.png" "w-25 float-end">}}
-Hello Caption
-{{< /figure >}}
-
 {{< figure "images/books/12-biology/botany/Ecology/pic1.png" "w-25 float-end">}}
 Unit 9 
 {{< /figure >}}

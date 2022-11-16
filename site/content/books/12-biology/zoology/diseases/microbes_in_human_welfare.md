@@ -72,7 +72,7 @@ millions of Lactobacilli, which under suitable temperature (≤40<sup>0</sup>C) 
 milk as it contains a number of organic acids
 and vitamins.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.18.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -170,12 +170,12 @@ with penicillin. Fleming, Chain and Florey
 were awarded the Nobel prize in 1945 for the
 discovery of penicillin.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.19.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.19.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -233,7 +233,7 @@ are produced without distillation, whereas
 whisky, brandy and rum are obtained by
 fermentation and distillation.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.20.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -258,7 +258,7 @@ beverage made from fermented grain mash by
 Saccharomyces cerevisiae.
 
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.21.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -297,12 +297,12 @@ first generation of biofuel technology. Ethanol is
 often used as a fuel, mainly as a biofuel additive
 for gasoline.
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.22.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/zoology/unit3/note3.23.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -384,7 +384,7 @@ through the membrane to the cathode and the
 electrons pass through the anode to the external
 circuit to generate current.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.20.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -415,7 +415,7 @@ consists of methane, CO2 with some hydrogen,
 nitrogen and other gases in trace amounts.
 
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.21.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -465,7 +465,7 @@ bacterium which can digest the hydrocarbons
 in the oil spills (Fig. 8.4).
 
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.22.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -494,7 +494,7 @@ and digesting polyurethane. This makes the
 fungus a potential candidate for bioremediation
 projects involving large quantities of plastics.
 
-{{< figure "images/books/12-biology/zoology/unit3/bzf3.23.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 

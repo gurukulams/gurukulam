@@ -55,7 +55,7 @@ mass. The inner cell mass of the blastocyst
 develops into the embryo and becomes
 embedded in the endometrium of the uterus.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf23.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -69,7 +69,7 @@ the embryo may cause internal bleeding,
 infection and in some cases even death due to
 rupture of the fallopian tube.
 
-{{< figure "images/books/12-biology/zoology/unit1/bzf24.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 

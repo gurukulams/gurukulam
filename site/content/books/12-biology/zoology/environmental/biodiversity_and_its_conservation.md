@@ -57,7 +57,7 @@ The term biodiversity was introduced by Walter Rosen (1986). Biodiversity is the
 
 Edward Wilson popularized the term ‘Biodiversity’ to describe diversity at all levels of biological organization from populations to biomes. There are three levels of biodiversity – Genetic diversity, Species diversity and Community/Ecosystem diversity (Fig. 11.1). Genetic diversity refers to the differences in genetic make-up (number and types of genes) between distinct species and to the genetic variation within a single species; also covers genetic variation between distinct populations of the same species. Genetic diversity can be measured using a variety of molecular techniques. India has more than 50,000 genetic variants of Paddy and 1000 variants of Mango. Variation of genes of a species increases with diversity in size and habitat. It results in the
 
-{{< figure "images/books/12-biology/zoology/unit5/bzf5.10.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -69,7 +69,7 @@ ii. Beta diversity: It is species diversity between two adjacent ecosystems and 
 iii. Gamma diversity refers to the diversity of the habitats over the total landscape or geographical area.
 
 
-{{< figure "images/books/12-biology/zoology/unit5/bzf5.11.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -99,7 +99,7 @@ Temperature, precipitation, distance from the equator (latitudinal gradient), al
 
 {{< box title="" type="">}}
 
-{{< figure "images/books/12-biology/zoology/unit5/bzf5.12.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -133,7 +133,7 @@ Z = Slope of the line
 C = Y-intercept
 
 
-{{< figure "images/books/12-biology/zoology/unit5/flow5.5.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -312,7 +312,7 @@ zones, (Fig. 11.3 and table 11.1) namely:
 
 
 
-{{< figure "images/books/12-biology/zoology/unit5/bzf5.13.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -549,7 +549,7 @@ animals and loss of trees in forest. Thus,
 climate change is an imminent danger to the
 existing biodiversity (Fig. 11.4).
 
-{{< figure "images/books/12-biology/zoology/unit5/flow5.6.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
@@ -692,7 +692,7 @@ species as endangered (EN) worldwide.
 
 {{< box title="" type="objective">}}
 
-{{< figure "images/books/12-biology/zoology/unit5/bzf5.14.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 

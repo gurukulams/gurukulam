@@ -6,7 +6,7 @@ weight: 3
 ---                               {{< box title=" DO YOU KNOW ??" type="objective" >}}
                                    {{< /box >}}
 
-{{< figure "images/books/12-biology/zoology1/pic36.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -204,7 +204,7 @@ called the **Golden age of reptiles**, is
 divided into three periods namely,
 Triassic (origin of egg laying mammals),
 
-{{< figure "images/books/12-biology/zoology1/pic37.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -318,7 +318,7 @@ chamber that was connected to the boiling
 water. The steam condensed to form water
 
 
-{{< figure "images/books/12-biology/zoology1/pic38.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -429,7 +429,7 @@ similarity with each other and is made of
 similar bones such as humerus, radius, ulna,
 carpals, metacarpals and phalanges.
 
-{{< figure "images/books/12-biology/zoology1/pic39.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -454,7 +454,7 @@ of birds and insects are different structurally
 but perform the same function of flight that
 brings about **convergent evolution (Fig. 6.3).**
 
-{{< figure "images/books/12-biology/zoology1/pic40.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -897,7 +897,7 @@ placental mammals have
 radiated across North
 America.
 
-{{< figure "images/books/12-biology/zoology1/pic41.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig 6.5 Darwin’s finches
 {{< /figure >}}
 
@@ -970,11 +970,11 @@ average phenotype are eliminated. This
 results in splitting of the population into
 
 
-{{< figure "images/books/12-biology/zoology1/pic42.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/zoology1/pic43.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1019,7 +1019,7 @@ to founder’s effect.
 
 
 
-{{< figure "images/books/12-biology/zoology1/pic44.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1194,7 +1194,7 @@ forehead, thin large orbits, heavy brow ridges,
 protruding jaws and no chin. They used animal
 hides to protect their bodies, knew the use of
 
-{{< figure "images/books/12-biology/zoology1/pic45.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
 
@@ -1407,6 +1407,6 @@ sapiens → Ramapithecus → Homo habilis.
 30) How does Neanderthal man differ from
 the modern man in appearance?
 
-{{< figure "images/books/12-biology/zoology1/pic46.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 
 {{< /figure >}}
