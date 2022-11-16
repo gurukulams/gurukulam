@@ -789,7 +789,9 @@ sample of the amniotic fluid that surrounds
 the foetus to diagnose for chromosomal
 abnormalities (Fig. 3.1).
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf30.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf30.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Amniocentesis is generally performed
 in a pregnant woman between the 15th and
@@ -815,7 +817,9 @@ An abnormal foetal heart rate or pattern may
 mean that the foetus is not getting enough
 oxygen and it indicates other problems.
 
-![lesson 1](/books/12-biology/zoology/unit1/note19.png )
+{{< figure "images/books/12-biology/zoology/unit1/note19.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 A hand-held doppler device is often used
@@ -1068,7 +1072,9 @@ ban is imposed on this technique?
 10.Select the correct term from the bracket
 and complete the given branching tree
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf31.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf31.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 11.Correct the following statements
 

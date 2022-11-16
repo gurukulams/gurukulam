@@ -52,7 +52,9 @@ laboratory technique used to make copies
 
 - Generation of recombinant DNA (rDNA) molecule by insertion of the DNA fragment into a carrier molecule called a vector that can self-replicate within the host cell.
 
-![bio-botant image](/books/12-biology/botany/4.4.png )
+{{< figure "images/books/12-biology/botany/4.4.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 - Selection of the transformed host cells is carrying the rDNA and allowing them to multiply thereby multiplying the rDNA molecule.
 
 - The entire process thus generates either a large amount of rDNA or a large amount of protein expressed by the insert.

@@ -56,7 +56,9 @@ initially grown in Botanical Garden of Kolkata
 from which appropriate clones have selected
 and introduced to different parts of India.
 
-![](/books/12-biology/botany/unit10/pic31.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic31.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 #### 9.6.2. Selection
 
@@ -100,7 +102,9 @@ this type is that the new genotypes are never
 created and they are less adaptable and less
 stable to the environmental fluctuations.
 
-![](/books/12-biology/botany/unit10/pic32.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic32.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 **c. Clonal Selection:** In asexually propagated
 crop, progenies derived from a plant
@@ -114,7 +118,9 @@ through vegetative propagation to give rise
 to a clone. The genotype of a clone remains
 unchanged for a long period of time.
 
-![](/books/12-biology/botany/unit10/pic33.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic33.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 ### 9.6.3. Hybridization
 
@@ -144,7 +150,9 @@ dehiscence of anther.
 protected against any undesirable pollen
 grains, by covering it with a bag .
 
-![](/books/12-biology/botany/unit10/pic34.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic34.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 **4. Crossing:** Transfer of pollen grains from
 selected male flower to the stigma of the
@@ -186,7 +194,9 @@ resistance from one species to another.
 
 Example: *Gossypium hirsutum x Gossypium arboreum* – Deviraj.
 
-![](/books/12-biology/botany/unit10/pic35.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic35.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 **iv. Intergeneric hybridization –** The crosses
 are made between the plants belonging to
@@ -344,7 +354,9 @@ Some crop varieties bred by hybridization
 and selection, for disease resistance to fungi,
 bacteria and viral diseases are released (Table 9.1).
 
-![](/books/12-biology/botany/unit10/pic36.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic36.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 **Norman E. Borlaug:** The plant pathologist
 plant breeder devoted his life at the International
@@ -358,7 +370,9 @@ the base for ‘green revolution’.
 He was awarded a Nobel prize
 for Peace in 1970.
 
-![](/books/12-biology/botany/unit10/pic37.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic37.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 **Dr. M. S. Swaminathan:** He
 is a pioneer mutation breeder.
@@ -369,7 +383,9 @@ Dr. Swaminathan is called
 “Father of green revolution
 in India”.
 
-![](/books/12-biology/botany/unit10/pic38.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic38.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 **Nel Jayaraman:**
 Mr.
@@ -384,7 +400,9 @@ traditional rice varieties. He had trained a team
 of farmers and regularly update them on the
 current issues that affect them.
 
-![](/books/12-biology/botany/unit10/pic39.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic39.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 In 2005, he organized a first ever
 traditional
@@ -429,4 +447,6 @@ do not attract bollworms. High aspartic acid,
 low nitrogen and sugar content in maize leads
 to resistance to maize stem borers.
 
-![](/books/12-biology/botany/unit10/pic40.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic40.png" "w-25 float-end">}}
+
+{{< /figure >}} 

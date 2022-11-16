@@ -56,7 +56,9 @@ process includes distillation, centrifuging,filtration and solvent extraction. M
 this process involves the purification of the
 desired product.
 
-![bio-botant image](/books/12-biology/botany/4.2.png )
+{{< figure "images/books/12-biology/botany/4.2.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 ##### Procedure of Fermentation
 
@@ -163,7 +165,9 @@ carbohydrates, fats, vitamins and minerals. It is
 used by Astronauts and Antarctica expedition
 scientists.
 
-![bio-botant image](/books/12-biology/botany/4.3.png )
+{{< figure "images/books/12-biology/botany/4.3.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 Spirulina
 can

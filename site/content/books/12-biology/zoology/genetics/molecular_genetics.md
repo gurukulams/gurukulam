@@ -209,7 +209,9 @@ Later, Oswald Avery, Colin Macleod and
 Maclyn McCarty in 1944 repeated Griffith’s
 experiments in an ‘in vitro’ system in order
 
-![Fig. 5.1 Transformation experiment of Avery et. al., (1944)](/books/12-biology/zoology1/pic9.png)
+{{< figure "images/books/12-biology/zoology1/pic9.png" "w-25 float-end">}}
+Fig. 5.1 Transformation experiment of Avery et. al., (1944)
+{{< /figure >}}
 
 to identify the nature of the transforming
 substance responsible for converting a non-
@@ -237,10 +239,14 @@ S - strain is referred to as **transformation**.
 
 
 
-![](/books/12-biology/zoology1/pic10.png)
+{{< figure "images/books/12-biology/zoology1/pic10.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 
-![](/books/12-biology/zoology1/pic11.png)
+{{< figure "images/books/12-biology/zoology1/pic11.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 
 
@@ -538,7 +544,9 @@ multiplied with the distance between two
 consecutive base pairs (6.6 × 10<sup>9</sup> × 0.34 ×10<sup>-9</sup> m/bp), the length of DNA double helix is
 approximately 2.2 m. (The total length of the
 
-![Fig. 5.3 Condensation of DNA - A - DNA, B-Nucleosomes and Histones, C- Chromatin fiber, D- Coiled chromatin fiber, E- Coiled coil, F- metaphase chromatid](/books/12-biology/zoology1/pic12.png)
+{{< figure "images/books/12-biology/zoology1/pic12.png" "w-25 float-end">}}
+Fig. 5.3 Condensation of DNA - A - DNA, B-Nucleosomes and Histones, C- Chromatin fiber, D- Coiled chromatin fiber, E- Coiled coil, F- metaphase chromatid
+{{< /figure >}}
 
 double helical DNA = total number of base
 pairs × distance between two consecutive
@@ -635,7 +643,9 @@ new double stranded molecule is synthesized.
 In dispersive replication, the original molecule
 is broken into fragments and each fragment
 
-![Fig. 5.4 Semiconservative DNA replication](/books/12-biology/zoology1/pic13.png)
+{{< figure "images/books/12-biology/zoology1/pic13.png" "w-25 float-end">}}
+Fig. 5.4 Semiconservative DNA replication
+{{< /figure >}}
 
 serves as a template for the synthesis of
 complementary fragments. Finally two new
@@ -673,7 +683,9 @@ the nitrogen source (NH4Cl) contained the
 heavy isotope 15N and the ‘light’ culture was
 grown in a medium in which the nitrogen
 
-![Fig. 5.5 Meselson and Stahl experiment to support semiconservative mode of DNAreplication](/books/12-biology/zoology1/pic14.png)
+{{< figure "images/books/12-biology/zoology1/pic14.png" "w-25 float-end">}}
+Fig. 5.5 Meselson and Stahl experiment to support semiconservative mode of DNAreplication
+{{< /figure >}}
 
 source contained light isotope 14N for many
 generations. At the end of growth, they
@@ -749,7 +761,9 @@ discontinuously synthesized fragments of the
 lagging strand (called the **Okazaki fragments**)
 are joined by the enzyme DNA ligase.
 
-![Fig 5.6 Mechanism of replication showing a replication fork](/books/12-biology/zoology1/pic15.png)
+{{< figure "images/books/12-biology/zoology1/pic15.png" "w-25 float-end">}}
+Fig 5.6 Mechanism of replication showing a replication fork
+{{< /figure >}}
 
 As they move away in both directions, newly
 synthesized complementary nucleotides are
@@ -786,7 +800,9 @@ of protein synthesis in molecular biology
 states that genetic information flows as
 follows:
 
-![](/books/12-biology/zoology1/pic16.png)
+{{< figure "images/books/12-biology/zoology1/pic16.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 The process of copying genetic information
 from one strand of DNA into RNA is
@@ -846,7 +862,9 @@ polymerase to stop transcribing. In eukaryotes
 the promoter has AT rich regions called
 **TATA box (Goldberg-Hogness box)** and in
 
-![](/books/12-biology/zoology1/pic17.png)
+{{< figure "images/books/12-biology/zoology1/pic17.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 prokaryotes this region is called **Pribnow box**.
 Besides promoter, eukaryotes also require an
@@ -923,7 +941,9 @@ are able to catalyse the three steps initiation,
 elongation and termination? The RNA
 
 
-![](/books/12-biology/zoology1/pic18.png)
+{{< figure "images/books/12-biology/zoology1/pic18.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 polymerase is only capable of catalyzing the
 process of elongation. The RNA polymerase
@@ -990,7 +1010,9 @@ proteins by arranging their exons in several
 different ways through alternate splicing
 
 
-![](/books/12-biology/zoology1/pic19.png)
+{{< figure "images/books/12-biology/zoology1/pic19.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 patterns, a mechanism known to play an
 important role in generating both protein and
@@ -1130,7 +1152,9 @@ amino acid methionine.
 designated as termination (stop) codons
 and also are known as “non-sense” codons.
 
-![](/books/12-biology/zoology1/pic20.png)
+{{< figure "images/books/12-biology/zoology1/pic20.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 #### Mutation and genetic code 
 
@@ -1166,7 +1190,9 @@ change of amino acid residue glutamic acid to
 valine **(Fig. 5.10)**. The mutant haemoglobin
 
 
-![](/books/12-biology/zoology1/pic21.png)
+{{< figure "images/books/12-biology/zoology1/pic21.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 
 #### <u> Wobble Hypothesis 
@@ -1187,7 +1213,9 @@ is that it reduces the number of tRNAs
 required for polypeptide synthesis and it
 overcomes the effect of code degeneracy.
 
-![](/books/12-biology/zoology1/pic22.png)
+{{< figure "images/books/12-biology/zoology1/pic22.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 In the above example though the
 codon and the anti codon do not match
@@ -1281,9 +1309,13 @@ mRNA lies in the tRNA and not in the attached
 amino acid molecule.
 
 
-![Fig. 5.11 Holley’s two-dimensional clover leaf model of transfer RNA](/books/12-biology/zoology1/pic23.png)
+{{< figure "images/books/12-biology/zoology1/pic23.png" "w-25 float-end">}}
+Fig. 5.11 Holley’s two-dimensional clover leaf model of transfer RNA
+{{< /figure >}}
 
-![Fig. 5.12 ](/books/12-biology/zoology1/pic24.png)
+{{< figure "images/books/12-biology/zoology1/pic24.png" "w-25 float-end">}}
+Fig. 5.12 
+{{< /figure >}}
 
 ### Translation  
 Translation refers to the process of
@@ -1347,7 +1379,9 @@ start codon of mRNA. This ribosome binding
 site is called the **Shine – Dalgarno sequence**
 
 
-![Fig. 5.12 ](/books/12-biology/zoology1/pic25.png)
+{{< figure "images/books/12-biology/zoology1/pic25.png" "w-25 float-end">}}
+Fig. 5.12 
+{{< /figure >}}
 
 or **S-D sequence.** This sequences base-pairs
 with a region of the 16Sr RNA of the small
@@ -1386,7 +1420,9 @@ subunit to form the complete ribosome
 (70S). In this process a molecule of GTP is
 hydrolyzed providing the required energy
 
-![Fig. 5.13 b- Initiation ](/books/12-biology/zoology1/pic26.png)
+{{< figure "images/books/12-biology/zoology1/pic26.png" "w-25 float-end">}}
+Fig. 5.13 b- Initiation 
+{{< /figure >}}
 
 and the initiation factors
 (IF1 and IF2 and
@@ -1448,7 +1484,9 @@ step 6). An additional amino acid is added to the
 growing polypeptide, each time mRNA advances
 through the ribosome. Once a polypeptide chain
 
-![Fig. 5.13 c- Elongation of the growing polypeptide](/books/12-biology/zoology1/pic27.png)
+{{< figure "images/books/12-biology/zoology1/pic27.png" "w-25 float-end">}}
+Fig. 5.13 c- Elongation of the growing polypeptide
+{{< /figure >}}
 
 is assembled, it emerges out from the base of the
 large subunit **(Fig. 5.13 c).**
@@ -1466,7 +1504,9 @@ is then released from the ribosome, which
 then dissociates into its subunits (step 2)
 (Fig. 5.13 d).
 
-![Fig. 5.13 d- Termination of the process of translation](/books/12-biology/zoology1/pic28.png)
+{{< figure "images/books/12-biology/zoology1/pic28.png" "w-25 float-end">}}
+Fig. 5.13 d- Termination of the process of translation
+{{< /figure >}}
 
 ### Regulation of gene expression 
 
@@ -1583,7 +1623,9 @@ to produce lac mRNA which enables formation
 
 
 
-![Fig. 5.14 Lac Operon model](/books/12-biology/zoology1/pic29.png)
+{{< figure "images/books/12-biology/zoology1/pic29.png" "w-25 float-end">}}
+Fig. 5.14 Lac Operon model
+{{< /figure >}}
 
 of all the required enzymes needed for lactose
 metabolism **(Fig. 5.14).**This regulation of
@@ -1789,7 +1831,9 @@ variations and are useful as genetic markers.
 
 
 
-![Fig. 5.15 Schematic representation of DNA fingerprinting : Few representative chromosomes have been shown to contain different copy number of VNTR](/books/12-biology/zoology1/pic30.png)
+{{< figure "images/books/12-biology/zoology1/pic30.png" "w-25 float-end">}}
+Fig. 5.15 Schematic representation of DNA fingerprinting : Few representative chromosomes have been shown to contain different copy number of VNTR
+{{< /figure >}}
 
 
 DNA finger printing involves identifying
@@ -1842,7 +1886,9 @@ at specific sites.
 
 
 
-![Fig. 5.16 Steps in DNA finger printing](/books/12-biology/zoology1/pic31.png)
+{{< figure "images/books/12-biology/zoology1/pic31.png" "w-25 float-end">}}
+Fig. 5.16 Steps in DNA finger printing
+{{< /figure >}}
 
 
 **4. Separation of DNA by electrophoresis**
@@ -2107,7 +2153,9 @@ operator.
 given transcription unit:
 
 
-![](/books/12-biology/zoology1/pic32.png)
+{{< figure "images/books/12-biology/zoology1/pic32.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 17. Differentiate - Leading stand and lagging
 strand
@@ -2162,7 +2210,9 @@ and GCA.
 b) Redraw the structure as a replicating
 fork and label the parts.
 
-![](/books/12-biology/zoology1/pic33.png)
+{{< figure "images/books/12-biology/zoology1/pic33.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 c) Write the source of energy for this
 replication and name the enzyme
@@ -2191,7 +2241,11 @@ carbon and nitrogen?
 35. It is established that RNA is the first
 genetic material. Justify giving reasons.
 
-![](/books/12-biology/zoology1/pic34.png)
+{{< figure "images/books/12-biology/zoology1/pic34.png" "w-25 float-end">}}
 
-![](/books/12-biology/zoology1/pic35.png)
+{{< /figure >}}
+
+{{< figure "images/books/12-biology/zoology1/pic35.png" "w-25 float-end">}}
+
+{{< /figure >}}
 

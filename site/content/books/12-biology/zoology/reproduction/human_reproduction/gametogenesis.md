@@ -34,9 +34,13 @@ tubule and become modified and enlarged
 to form primary spermatocytes which are
 diploid with 23 pairs i.e., 46 chromosomes.
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf16.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf16.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf17.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf17.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Some of the primary spermatocytes
 undergo first meiotic division to form two
@@ -72,7 +76,9 @@ Leydig cells and stimulates the synthesis of
 **testosterone** which in turn stimulates the
 process of spermatogenesis.
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf18.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf18.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Structure of human spermatozoan**
 
@@ -121,7 +127,9 @@ at least 40 per cent
 must show vigorous
 motility for normal fertility.
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf19.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf19.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 {{< box title=" DID YOU KNOW" type="objective">}}
 The sperm is the smallest
@@ -197,5 +205,7 @@ coat of follicular cells called corona radiata.
 Between the vitelline membrane and zona
 pellucida is a narrow perivitelline space.
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf20.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf20.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 

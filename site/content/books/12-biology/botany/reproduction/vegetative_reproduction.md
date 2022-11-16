@@ -43,7 +43,9 @@ can be propagated through asexual methods.
 
 {{< /box >}}
 
-![lesson 1](/books/12-biology/botany/images/1.1.png )
+{{< figure "images/books/12-biology/botany/images/1.1.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 ### B. Vegetative reproduction in stem
@@ -84,7 +86,9 @@ tips. These buds develop into new plants when
 they touch the soil.
 
 
-![lesson 1](/books/12-biology/botany/images/1.2.png )
+{{< figure "images/books/12-biology/botany/images/1.2.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Advantages of natural vegetative**
@@ -220,7 +224,9 @@ a parent plant is allowed to develop roots
 while still intact. When the root develops,
 
 
-![lesson 1](/books/12-biology/botany/images/1.3.png )
+{{< figure "images/books/12-biology/botany/images/1.3.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 the rooted part is cut and planted to grow as
 a new plant. Examples: *Ixora* and *Jasminum*.
@@ -239,7 +245,9 @@ in the soil, a cut is made in parent plant so that
 the buried part grow into a new plant.
 
 
-![lesson 1](/books/12-biology/botany/images/1.4.png )
+{{< figure "images/books/12-biology/botany/images/1.4.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **ii**. **Air** **layering**: 

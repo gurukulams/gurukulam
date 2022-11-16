@@ -10,7 +10,9 @@ weight: 1
 Hello Caption
 {{< /figure >}}
 
-![Unit 9 ](/books/12-biology/botany/Ecology/pic1.png#floatright)
+{{< figure "images/books/12-biology/botany/Ecology/pic1.png" "w-25 float-end">}}
+Unit 9 
+{{< /figure >}}
 
 The term “ecology”
 **(oekologie)** is derived from
@@ -44,7 +46,9 @@ The interaction of organisms with their environment results in the establishment
 
 
 
-![Unit 9 - flowchart 1](/books/12-biology/botany/Ecology/pic2.png#floatright)
+{{< figure "images/books/12-biology/botany/Ecology/pic2.png" "w-25 float-end">}}
+Unit 9 - flowchart 1
+{{< /figure >}}
 
 
 #### Branches of Ecology: 

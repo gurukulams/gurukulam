@@ -27,7 +27,9 @@ final plant community gets established which
 are called as climax and climax community
 respectively.
 
-![lesson 9](/books/12-biology/botany/images/30.9.png )
+{{< figure "images/books/12-biology/botany/images/30.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Characteristics of ecological succession
 
@@ -93,7 +95,9 @@ the time taken for primary succession.
 
 
 
-![lesson 9](/books/12-biology/botany/images/31.9.png )
+{{< figure "images/books/12-biology/botany/images/31.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 
@@ -117,7 +121,9 @@ leading to the change of vegetation in that area.
 
 
 
-![lesson 9](/books/12-biology/botany/images/32.9.png )
+{{< figure "images/books/12-biology/botany/images/32.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 
@@ -127,7 +133,9 @@ leading to the change of vegetation in that area.
 Detailed study of Hydrosere and Lithosere are
 discussed below
 
-![lesson 9](/books/12-biology/botany/images/33.9.png )
+{{< figure "images/books/12-biology/botany/images/33.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 
@@ -243,7 +251,9 @@ stages 2 to 6 are occupied by seral communities.
 
 
 
-![lesson 9](/books/12-biology/botany/images/34.9.png )
+{{< figure "images/books/12-biology/botany/images/34.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 

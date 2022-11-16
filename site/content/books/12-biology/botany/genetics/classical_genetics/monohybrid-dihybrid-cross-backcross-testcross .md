@@ -23,7 +23,9 @@ after a British Geneticist Reginald C.Punnett.
 It is a graphical representation to calculate the
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.5.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.5.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -106,10 +108,14 @@ an individual is homozygous or heterozygous for
 dominant character.
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.6.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.6.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.7.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.7.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 #### Back cross
@@ -165,7 +171,9 @@ two recessive alleles (le le) which code for
 non-functional protein, hence they are dwarf.
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.8.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.8.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 {{< /box >}}
 
@@ -180,7 +188,9 @@ that are located in different chromosomes assort independently during meiosis. M
 
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.9.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.9.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 Independent assortment leads to genetic
@@ -210,7 +220,9 @@ over wrinkled (r) ; in cotyledon colour yellow
 
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.10.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.10.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -255,7 +267,9 @@ balance which minimises the loss of water
 resulting in smooth structured round seed.
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.11.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.11.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 {{< /box >}}
@@ -290,7 +304,9 @@ of independent assortment.
 
 #### The Dihybrid test cross
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.12.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.12.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -316,7 +332,9 @@ the result of interaction between
 two or more genes.
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.13.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.13.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 

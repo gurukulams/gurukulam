@@ -10,7 +10,9 @@ After fertilization, several changes take place in
 the floral parts up to the formation of the seed
 (Figure 1.20).
 
-![lesson 1](/books/12-biology/botany/images/1.27.png )
+{{< figure "images/books/12-biology/botany/images/1.27.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 The events after fertilization (endosperm,
 embryo development, formation of seed, fruits)
@@ -18,7 +20,9 @@ are called fertilization changes.
 
 
 
-![lesson 1](/books/12-biology/botany/images/1.28.png )
+{{< figure "images/books/12-biology/botany/images/1.28.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -60,7 +64,9 @@ formation. Examples: *Adoxa*, *Helianthus* and
 *Scoparia*
 
 
-![lesson 1](/books/12-biology/botany/images/1.29.png  )
+{{< figure "images/books/12-biology/botany/images/1.29.png " "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -86,7 +92,9 @@ the embryo during seed germination. Examples:
 Paddy, Coconut and Castor.
 
 
-![lesson 1](/books/12-biology/botany/images/34.png )
+{{< figure "images/books/12-biology/botany/images/34.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Ruminate endosperm**: The endosperm with
@@ -110,7 +118,9 @@ endosperm.
 •	Endosperm regulates the precise mode of embryo development.
 
 
-![lesson 1](/books/12-biology/botany/images/35.png )
+{{< figure "images/books/12-biology/botany/images/35.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -135,7 +145,9 @@ two **cotyledons** and a **plumule**.
 
 
 
-![lesson 1](/books/12-biology/botany/images/46.png )
+{{< figure "images/books/12-biology/botany/images/46.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 ##### Seed
@@ -146,7 +158,9 @@ Seeds may be endospermous (wheat, maize,
 barley and sunflower) or non endospermo.
 
 
-![lesson 1](/books/12-biology/botany/images/36.png )
+{{< figure "images/books/12-biology/botany/images/36.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Cicer seed (example for Dicot seed)**
@@ -169,11 +183,15 @@ in pea whereas in other seeds like castor the
 
 
 
-![lesson 1](/books/12-biology/botany/images/37.png )
+{{< figure "images/books/12-biology/botany/images/37.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
-![lesson 1](/books/12-biology/botany/images/38.png )
+{{< figure "images/books/12-biology/botany/images/38.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -225,4 +243,6 @@ endosperm with the help of the epithelium
 
 
 
-![lesson 1](/books/12-biology/botany/images/39.png )
+{{< figure "images/books/12-biology/botany/images/39.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}

@@ -131,7 +131,9 @@ its effectiveness against diabetes.
 
 {{< /box >}}
 
-![Fig. 9.1 Human Insulin Production](/books/12-biology/zoology1/pic47.png)
+{{< figure "images/books/12-biology/zoology1/pic47.png" "w-25 float-end">}}
+Fig. 9.1 Human Insulin Production
+{{< /figure >}}
 
 
 {{< box title=" **DO YOU KNOW**??" type="objective" >}}
@@ -291,7 +293,9 @@ the world after USA, France and Belgium to develop an indigenous hepatitis B vac
 
 {{< /box >}}
 
-![Fig. 9.2 Production of recombinant HB Vaccine](/books/12-biology/zoology1/pic48.png)
+{{< figure "images/books/12-biology/zoology1/pic48.png" "w-25 float-end">}}
+Fig. 9.2 Production of recombinant HB Vaccine
+{{< /figure >}}
 
 Somatic cell therapy involves the insertion of
 a fully functional and expressible gene into a
@@ -365,7 +369,9 @@ are introduced into the cells of the early embryonic stages.
 
 {{< /box >}}
 
-![Fig. 9.3 Process of gene therapy](/books/12-biology/zoology1/pic49.png)
+{{< figure "images/books/12-biology/zoology1/pic49.png" "w-25 float-end">}}
+Fig. 9.3 Process of gene therapy
+{{< /figure >}}
 
 
 In mammals there are two main types of
@@ -398,7 +404,9 @@ based therapies. Human stem cells could be used
 to test new drugs.
 
 
-![Fig. 9.4 Embryonic stem cells](/books/12-biology/zoology1/pic50.png)
+{{< figure "images/books/12-biology/zoology1/pic50.png" "w-25 float-end">}}
+Fig. 9.4 Embryonic stem cells
+{{< /figure >}}
 
 
 {{< box >}}
@@ -509,7 +517,9 @@ the amount of the antigen. ELISA is highly
 sensitive and can detect antigens in the range
 of a nanogram.
 
-![Fig. 9.5 Enzyme Linked Immuno](/books/12-biology/zoology1/pic51.png)
+{{< figure "images/books/12-biology/zoology1/pic51.png" "w-25 float-end">}}
+Fig. 9.5 Enzyme Linked Immuno
+{{< /figure >}}
 
 
 There are four kinds of ELISA namely,
@@ -575,7 +585,9 @@ complementary DNA by the enzyme reverse
 transcriptase. The cDNA then serves as the
 template for PCR.
 
-![Fig. 9.6 Steps involved in PCR](/books/12-biology/zoology1/pic52.png)
+{{< figure "images/books/12-biology/zoology1/pic52.png" "w-25 float-end">}}
+Fig. 9.6 Steps involved in PCR
+{{< /figure >}}
 
 **PCR In Clinical Diagnosis**
 
@@ -656,7 +668,9 @@ manipulations are called **transgenic animals**
 or the **genetically engineered** or genetically
 modified organisms.
 
-![Fig. 9. 7 Production of transgenic animals ](/books/12-biology/zoology1/pic53.png)
+{{< figure "images/books/12-biology/zoology1/pic53.png" "w-25 float-end">}}
+Fig. 9. 7 Production of transgenic animals 
+{{< /figure >}}
 
 The various steps involved in the
 production of transgenic organisms are
@@ -774,7 +788,9 @@ and the phenomenon of totipotency.
 to develop different cells, tissues, organs and
 finally an organism.
 
-![Fig. 9. 8 Cloning of dolly ](/books/12-biology/zoology1/pic54.png)
+{{< figure "images/books/12-biology/zoology1/pic54.png" "w-25 float-end">}}
+Fig. 9. 8 Cloning of dolly 
+{{< /figure >}}
 
 The mammary gland udder cells
 (somatic cells) from a donor sheep (ewe) were
@@ -1080,4 +1096,6 @@ of cloning.
 28. Explain how recombinant Insulin can be
 produced.
 
-![](/books/12-biology/zoology1/pic55.png)
+{{< figure "images/books/12-biology/zoology1/pic55.png" "w-25 float-end">}}
+
+{{< /figure >}}

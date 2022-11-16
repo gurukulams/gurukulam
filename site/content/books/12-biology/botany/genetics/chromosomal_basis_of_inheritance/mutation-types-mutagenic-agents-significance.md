@@ -10,7 +10,9 @@ weight: 5
 
 Genetic variation among individuals provides the raw material for the ultimate source of evolutionary changes. Mutation and recombination are the two major processes responsible for genetic variation. A sudden change in the genetic material of an organisms is called mutation. The term mutation was introduced by Hugo de Vries (1901) while he has studying on the plant, evening primrose (Oenothera lamarkiana) and proposed ‘Mutation theory’. There are two broad types of changes in genetic material. They are point mutation and chromosomal mutations. Mutational events that take place within individual genes are called gene mutations or point mutation, whereas the changes occur in structure and number of chromosomes is called chromosomal mutation. Agents which are responsible for mutation are called mutagens, that increase the rate of mutation. Mutations can occur either spontaneously or induced. The production of mutants through exposure of mutagens is called mutagenesis, and the organism is said to be mutagenized.
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.31.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.31.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 #### Types of mutation
 
@@ -20,13 +22,17 @@ Let us see the two general classes of gene mutation:
 
 * Mutations altering the number of copies of a small repeated nucleotide sequence within a gene
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.32.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.32.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
 
 
-![lesson 1](/books/12-biology/botany/unit7/btable2.png )
+{{< figure "images/books/12-biology/botany/unit7/btable2.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -81,7 +87,9 @@ Each cell of living organisms possesses fixed number of chromosomes. It varies i
 
 It is a condition in which diploid number is altered either by addition or deletion of one or more chromosomes. Organisms showing aneuploidy are known as aneuploids or heteroploids. They are of two types, Hyperploidy and Hypoploidy (Figure 3.21).
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.33.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.33.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **1.Hyperploidy**
 
@@ -112,7 +120,9 @@ Loss of a single chromosome from the diploid set are called **monosomy(2n-1)**. 
 **(b) Nullisomy**
 Loss of a pair of homologous chromosomes or two pairs of homologous chromosomes from the diploid set are called **Nullisomy (2n-2)** and **double Nullisomy** (2n-2-2) respectively. Selfing of monosomic plants produce nullisomics. They are usually lethal.
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.34.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.34.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **(ii) Euploidy**
 
@@ -134,7 +144,9 @@ The organism which possesses more than two haploid sets of chromosomes derived f
 
 An organism which possesses two or more basic sets of chromosomes derived from two different species is called allopolyploidy. It can be developed by interspecific crosses and fertility is restored by chromosome doubling with colchicine treatment. Allopolyploids are formed between closely related species only. (Figure 3.22)
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.35.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.35.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Example:1**
 
@@ -149,9 +161,13 @@ Example: 2 **Triticale**, the successful first man made cereal. Depending on the
 (iii). Octoploidy: Crosses between hexaploid wheat T. aestivum (bread wheat) and rye Hexaploidy Triticale hybrid plants demonstrate characteristics of both macaroni wheat and rye. For example, they combine the high-protein content of wheat with rye’s high content of the amino acid lysine, which is low in wheat. It can be explained by chart below (Figure: 3.23).
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.36.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.36.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.37.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.37.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 {{< box title="Activity: " type="">}}
@@ -207,7 +223,9 @@ ii. Shift translocation
 
 iii. Reciprocal translocation
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.38.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.38.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Summary**
 

@@ -43,7 +43,9 @@ weight: 1
 {{< /box >}}
 
 
-![bio-botant image](/books/12-biology/botany/4.1.png )
+{{< figure "images/books/12-biology/botany/4.1.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 Biotechnology is the science of applied biological processes. In other words it is science of development and utilization of biological processes, forms and systems for the benefit of mankind and other life forms. The term biotechnology was coined by Karl Ereky, a Hungarian Engineer in 1919 and has been extended to include any process in which organisms, tissues, cells ,organelles or isolated molecules such as enzymes are used to convert biological or other raw materials to products of greater value.
 
@@ -160,7 +162,9 @@ process includes distillation, centrifuging,filtration and solvent extraction. M
 this process involves the purification of the
 desired product.
 
-![bio-botant image](/books/12-biology/botany/4.2.png )
+{{< figure "images/books/12-biology/botany/4.2.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 ###### Procedure of Fermentation
 
@@ -267,7 +271,9 @@ carbohydrates, fats, vitamins and minerals. It is
 used by Astronauts and Antarctica expedition
 scientists.
 
-![bio-botant image](/books/12-biology/botany/4.3.png )
+{{< figure "images/books/12-biology/botany/4.3.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 Spirulina
 can
@@ -346,7 +352,9 @@ laboratory technique used to make copies
 
 - Generation of recombinant DNA (rDNA) molecule by insertion of the DNA fragment into a carrier molecule called a vector that can self-replicate within the host cell.
 
-![bio-botant image](/books/12-biology/botany/4.4.png )
+{{< figure "images/books/12-biology/botany/4.4.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 - Selection of the transformed host cells is carrying the rDNA and allowing them to multiply thereby multiplying the rDNA molecule.
 
 - The entire process thus generates either a large amount of rDNA or a large amount of protein expressed by the insert.
@@ -392,7 +400,9 @@ b. Endonucleases are enzymes which break
 the internal phosphodiester bonds within a DNA molecule. e.g. Hind II, EcoRI, Pvul,
 BamHI, TaqI.
 
-![bio-botant image](/books/12-biology/botany/table_1.png )
+{{< figure "images/books/12-biology/botany/table_1.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 
 ### Restriction endonucleases: Molecular scissors
@@ -456,7 +466,9 @@ producing protruding and recessed ends known
 as **sticky** or **cohesive end**. Such cut are called
 staggered or asymmetric cuts
 
-![bio-botant image](/books/12-biology/botany/4.5.png )
+{{< figure "images/books/12-biology/botany/4.5.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 Two other enzymes that play an important
 role in recombinant DNA technology are
@@ -470,7 +482,9 @@ DNA (dsDNA) with 5’-PO4 and a 3’-OH in
 an Adenosine Triphosphate (ATP) dependent
 reaction. This is isolated from T4 phage.
 
-![bio-botant image](/books/12-biology/botany/4.6.png )
+{{< figure "images/books/12-biology/botany/4.6.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 #### Alkaline Phosphatase
 
@@ -480,7 +494,9 @@ terminus of double stranded DNA (dsDNA) or single stranded DNA (ssDNA) or RNA. T
 prevents self ligation. This enzyme is purified
 from bacteria and calf intestine.
 
-![bio-botant image](/books/12-biology/botany/4.7.png )
+{{< figure "images/books/12-biology/botany/4.7.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 #### Vectors
 
@@ -524,7 +540,9 @@ These are Multiple Cloning Site (MCS) or
 polylinker. Presence of MCS facilitates the
 use of restriction enzyme of choice
 
-![bio-botant image](/books/12-biology/botany/img1.png )
+{{< figure "images/books/12-biology/botany/img1.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 The following are the features that are required
 to facilitate cloning into a vector.
@@ -535,7 +553,9 @@ and piece of DNA when linked to this
 sequence can be made to replicate within
 the host cells
 
-![bio-botant image](/books/12-biology/botany/4.8.png )
+{{< figure "images/books/12-biology/botany/4.8.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 2. **Selectable marker**: In addition to ori the
 vector requires a selectable marker, which
@@ -562,11 +582,15 @@ cells in addition to the bacterial chromosome.
 Plasmids contain Genetic information for their
 own replication.
 
-![bio-botant image](/books/12-biology/botany/4.9.png )
+{{< figure "images/books/12-biology/botany/4.9.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 **pBR 322 Plasmid**
 
-![bio-botant image](/books/12-biology/botany/4.10.png )
+{{< figure "images/books/12-biology/botany/4.10.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 pBR 322 plasmid is a reconstructed plasmid
 and most widely used as cloning vector; it
@@ -585,7 +609,9 @@ involved in the replication of the plasmid.
 
 **Ti Plasmid Bacteria**
 
-![bio-botant image](/books/12-biology/botany/4.11.png )
+{{< figure "images/books/12-biology/botany/4.11.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 Ti plasmid is found
 in Agrobacterium
@@ -693,7 +719,9 @@ transient pores in the plasma membrane
 through which uptake of foreign DNA
 occurs.
 
-![bio-botant image](/books/12-biology/botany/4.14.png )
+{{< figure "images/books/12-biology/botany/4.14.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 **d. Liposome mediated method of Gene Transfer**: Liposomes the artificial
 phospholipid vesicles are useful in gene
@@ -709,7 +737,9 @@ and tonoplast of vacuole fusion resulted
 in gene transfer. This process is called
 lipofection.
 
-![bio-botant image](/books/12-biology/botany/4.15.png )
+{{< figure "images/books/12-biology/botany/4.15.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 **e. Biolistics:** The foreign DNA is coated onto
 the surface of minute gold or tungsten
@@ -720,7 +750,9 @@ gun/shotgun). Then the bombarded cells
 or tissues are cultured on selected medium to regenerate plants from the transformed
 cells.(Figure 4.16)
 
-![bio-botant image](/books/12-biology/botany/4.16.png )
+{{< figure "images/books/12-biology/botany/4.16.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 #### Indirect or Vector-Mediated Gene Transfer
 
@@ -749,7 +781,9 @@ kanamycin are cloned in the T DNA region
 of Ti-plasmid in place of unwanted DNA
 sequences.(Figure 4.17)
 
-![bio-botant image](/books/12-biology/botany/4.17.png )
+{{< figure "images/books/12-biology/botany/4.17.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 ### Screening for Recombinants
 
@@ -785,7 +819,9 @@ DNA will develop the blue coloured colonies.
 On the basis of colony colour, the recombinants
 can be selected.
 
-![bio-botant image](/books/12-biology/botany/4.18.png )
+{{< figure "images/books/12-biology/botany/4.18.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 #### Antibiotic resistant markers
 
@@ -815,7 +851,9 @@ plate will differ from that used in the first. It may
 include an antibiotic or exclude a growth factor.
 In this way, transformed cells can be selected.
 
-![bio-botant image](/books/12-biology/botany/4.19.png )
+{{< figure "images/books/12-biology/botany/4.19.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 #### Molecular Techniques - Isolation of Genetic Material and Gel Electrophoresis
 
@@ -830,7 +868,9 @@ migrate according to the type of charges
 they have. The electrical charges on different
 molecules are variable. 
 
-![bio-botant image](/books/12-biology/botany/img8.png )
+{{< figure "images/books/12-biology/botany/img8.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 **Agarose GEL Electrophoresis**
 
@@ -856,7 +896,9 @@ detected as visible fluorescence illuminated in
 UV light will give orange fluorescence, which
 can be photographed.
 
-![bio-botant image](/books/12-biology/botany/4.20.png )
+{{< figure "images/books/12-biology/botany/4.20.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 
 {{< box title="" type="" >}}
@@ -933,7 +975,9 @@ due to emission of light or radioactivity from
 a labelled component placed together with
 unexposed film.
 
-![bio-botant image](/books/12-biology/botany/4.21.png )
+{{< figure "images/books/12-biology/botany/4.21.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 **Northern Blot**
 
@@ -976,11 +1020,15 @@ vectors are circular but during insertion,
 become linear. It leads to duplication of
 sequences adjacent to selectable markers.
 
-![bio-botant image](/books/12-biology/botany/4.22.png )
+{{< figure "images/books/12-biology/botany/4.22.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 
 
-![bio-botant image](/books/12-biology/botany/table2.png )
+{{< figure "images/books/12-biology/botany/table2.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 2. The replacement vector has the homology
 region and it is co-linear with target. This
@@ -1023,7 +1071,9 @@ two taxa. It also shows antiquity or modernity
 of any taxon with respect to one another (See
 also Unit-2, Chapter-5 of XI Std.)
 
-![bio-botant image](/books/12-biology/botany/img2.png )
+{{< figure "images/books/12-biology/botany/img2.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 #### Genome editing and CRISPR - Cas9
 
@@ -1091,7 +1141,9 @@ and the single-stranded RNA hybridizes with
 mRNA target. This RNAi is seen in plant
 feeding nematodes.
 
-![bio-botant image](/books/12-biology/botany/4.23.png )
+{{< figure "images/books/12-biology/botany/4.23.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 ### Transgenic Plants / Genetically Modified Crops (Gm Crops)
 
@@ -1192,7 +1244,9 @@ The advantages of Bt cotton are:
 
 - Potential reduction in the cost of cultivation.
 
-![bio-botant image](/books/12-biology/botany/4.25.png )
+{{< figure "images/books/12-biology/botany/4.25.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 **Disadvantages**
 
@@ -1208,7 +1262,9 @@ Bt cotton has some limitations:
 
 **ii. Bt Brinjal**
 
-![bio-botant image](/books/12-biology/botany/4.26.png )
+{{< figure "images/books/12-biology/botany/4.26.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 The Bt brinjal is another
 transgenic plant created
@@ -1228,7 +1284,9 @@ Fruit and Shoot Borer (Leucinodes orbonalis).
 
 **iii. Dhara Mustard Hybrid (DMH)**
 
-![bio-botant image](/books/12-biology/botany/4.27.png )
+{{< figure "images/books/12-biology/botany/4.27.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 DMH -11 is transgenic
 mustard developed by
@@ -1259,7 +1317,9 @@ enzymes which can deactivate viral DNA.
 
 **4.7.5 FlavrSavr Tomato**
 
-![bio-botant image](/books/12-biology/botany/4.28.png )
+{{< figure "images/books/12-biology/botany/4.28.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 Agrobacterium mediated
 genetic engineering
@@ -1304,7 +1364,9 @@ Beta-carotene. This has been done using
 Recombinant DNA technology. Golden rice can
 control childhood blindness - Xerophthalmia.
 
-![bio-botant image](/books/12-biology/botany/4.29.png )
+{{< figure "images/books/12-biology/botany/4.29.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 **GM Food - Benefits**
 
@@ -1370,7 +1432,9 @@ are used: lactic acid, and the cyclic diester,
 lactide. The most common route is the ringopening polymerization of lactide with metal catalysts like tin octoate in solution. The metalcatalyzed reaction results in equal amount of d
 and polylactic acid.
 
-![bio-botant image](/books/12-biology/botany/4.30.png )
+{{< figure "images/books/12-biology/botany/4.30.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 #### Green Fluorescent Protein (GFP)
 
@@ -1497,7 +1561,9 @@ for making biodiesel and other biofuels on lands
 unsuitable for agriculture. Botryococcus braunii
 is normally used to produce algal biofuel.
 
-![bio-botant image](/books/12-biology/botany/4.31.png )
+{{< figure "images/books/12-biology/botany/4.31.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 **Biological hydrogen production by algae**
 
@@ -1512,7 +1578,9 @@ and the electrons are transported to ferredoxins.
 [Fe]-hydrogenase enzymes combine them into
 the production of hydrogen gas.
 
-![bio-botant image](/books/12-biology/botany/4.32.png )
+{{< figure "images/books/12-biology/botany/4.32.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 4.8.13 Bioprospecting
 Bioprospecting is the process of discovery and
@@ -1824,13 +1892,23 @@ technique to carry new genes into foreign cells.
 **Wild Type:** Natural form of organisms.
 
 # APPENDIX
-![bio-botant image](/books/12-biology/botany/img3.png )
+{{< figure "images/books/12-biology/botany/img3.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 
 
-![bio-botant image](/books/12-biology/botany/img4.png )
-![bio-botant image](/books/12-biology/botany/img5.png )
+{{< figure "images/books/12-biology/botany/img4.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
+{{< figure "images/books/12-biology/botany/img5.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
 
 
-![bio-botant image](/books/12-biology/botany/img6.png )
-![bio-botant image](/books/12-biology/botany/img7.png )
+{{< figure "images/books/12-biology/botany/img6.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}
+{{< figure "images/books/12-biology/botany/img7.png" "w-25 float-end">}}
+bio-botant image
+{{< /figure >}}

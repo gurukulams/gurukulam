@@ -90,7 +90,9 @@ sea food. Poultry requires
 little space, nutrients and less
 pollution compared cattle
 
-![lesson 9](/books/12-biology/botany/images/8.16.png )
+{{< figure "images/books/12-biology/botany/images/8.16.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 
@@ -123,7 +125,9 @@ complete burning. Biochar thus has the potential
 to help mitigate climate change via carbon
 
 
-![lesson 9](/books/12-biology/botany/images/8.17.png )
+{{< figure "images/books/12-biology/botany/images/8.17.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 sequestration. Independently, biochar when

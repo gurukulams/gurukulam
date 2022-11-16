@@ -47,7 +47,9 @@ Now we are going to understand some of the
 environmental issues such as
 
 
-![lesson 9](/books/12-biology/botany/images/8.1.png )
+{{< figure "images/books/12-biology/botany/images/8.1.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 
@@ -70,7 +72,9 @@ human-induced issues by signing agreements
 with around 150 countries.
 
 
-![lesson 9](/books/12-biology/botany/images/8.2.png )
+{{< figure "images/books/12-biology/botany/images/8.2.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 Drastic increase in population resulted in demand for more productivity of food materials, fibres, fuels which led to many environmental issues in agriculture, land use modifications resulting in loss of biodiversity, land degradation, reduction in fresh water availability and also resulting in man-made global warming by green house gases even altering climatic conditions.

@@ -10,7 +10,9 @@ gamete is called **fertilization**.
 **Double fertilization** is seen in
 angiosperms.
 
-![lesson 1](/books/12-biology/botany/images/1.23.png )
+{{< figure "images/books/12-biology/botany/images/1.23.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Events of fertilization**
@@ -106,7 +108,9 @@ flowers and the plant fails
 to reproduce sexually
 without the moth.
 
-![lesson 1](/books/12-biology/botany/images/1.24.png )
+{{< figure "images/books/12-biology/botany/images/1.24.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Similarly in Amorphophallus, flowers
 apart from providing floral rewards, also
@@ -201,7 +205,9 @@ style also has transmitting tissue.
 are three types of pollen tube entry into the
 ovule(Figure 1.18).
 
-![lesson 1](/books/12-biology/botany/images/1.25.png )
+{{< figure "images/books/12-biology/botany/images/1.25.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Porogamy**: when the pollen tube enters
@@ -260,7 +266,9 @@ Zygote. (Figure 1.19)
 
 
 
-![lesson 1](/books/12-biology/botany/images/1.26.png )
+{{< figure "images/books/12-biology/botany/images/1.26.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 The second gamete migrates to the central cell

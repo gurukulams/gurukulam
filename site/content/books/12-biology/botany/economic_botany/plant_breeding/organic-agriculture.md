@@ -72,7 +72,9 @@ the wheat granary of India.
 
 {{< /box >}}
 
-![Figure 9.3: Classification of Biofertilizers](/books/12-biology/botany/unit10/pic24.png)
+{{< figure "images/books/12-biology/botany/unit10/pic24.png" "w-25 float-end">}}
+Figure 9.3: Classification of Biofertilizers
+{{< /figure >}}
 
 **Rhizobium**
 
@@ -88,7 +90,9 @@ best suited for the paddy fields which increase
 the yield by 15 – 40%
 
 
-![Figure 9.4 (a) : Root nodules occur on root (b) C.S. of Root nodule](/books/12-biology/botany/unit10/pic25.png)
+{{< figure "images/books/12-biology/botany/unit10/pic25.png" "w-25 float-end">}}
+Figure 9.4 (a) : Root nodules occur on root (b) C.S. of Root nodule
+{{< /figure >}}
 
 **Azolla**
 
@@ -102,7 +106,9 @@ is quite significant particularly for increasing the
 yield of rice crop, as it quickly decompose in soil.
 
 
-![Figure 9.5: (a) Azolla in paddy field (b) Azolla](/books/12-biology/botany/unit10/pic27.png)
+{{< figure "images/books/12-biology/botany/unit10/pic27.png" "w-25 float-end">}}
+Figure 9.5: (a) Azolla in paddy field (b) Azolla
+{{< /figure >}}
 
 
 **Arbuscular mycorrhizae**
@@ -114,7 +120,9 @@ They have the ability to dissolve the phosphates
 found in abundance in the soil.
 
 
-![](/books/12-biology/botany/unit10/pic26.png)
+{{< figure "images/books/12-biology/botany/unit10/pic26.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 
 Apart from increasing the availability of
@@ -135,7 +143,9 @@ but also eco-
 friendly.
 
 
-![](/books/12-biology/botany/unit10/pic28.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic28.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 The
 alginates in the
 seaweed
@@ -175,7 +185,9 @@ to enhance root growth development (3) crop
 productivity (4) resistance to abiotic stress and
 (5) uptake and use of nutrients.
 
-![](/books/12-biology/botany/unit10/pic29.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic29.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 Beauveria species is an entomo-pathogenic
 fungus that grows naturally in soils throughout

@@ -72,7 +72,9 @@ millions of Lactobacilli, which under suitable temperature (≤40<sup>0</sup>C) 
 milk as it contains a number of organic acids
 and vitamins.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.18.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.18.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Yogurt is produced by bacterial
 fermentation of milk, and lactic acid is
@@ -168,10 +170,14 @@ with penicillin. Fleming, Chain and Florey
 were awarded the Nobel prize in 1945 for the
 discovery of penicillin.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.19.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.19.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.19.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.19.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 Tetracycline is a broad spectrum
@@ -227,7 +233,9 @@ are produced without distillation, whereas
 whisky, brandy and rum are obtained by
 fermentation and distillation.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.20.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.20.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Oenology is the science and study of
 wine and wine making. Wine is made from
@@ -250,7 +258,9 @@ beverage made from fermented grain mash by
 Saccharomyces cerevisiae.
 
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.21.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.21.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 In some parts of South India, a traditional
@@ -287,10 +297,14 @@ first generation of biofuel technology. Ethanol is
 often used as a fuel, mainly as a biofuel additive
 for gasoline.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.22.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.22.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.23.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.23.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -370,7 +384,9 @@ through the membrane to the cathode and the
 electrons pass through the anode to the external
 circuit to generate current.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.20.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.20.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **8.4 Microbes in the production of biogas**
@@ -399,7 +415,9 @@ consists of methane, CO2 with some hydrogen,
 nitrogen and other gases in trace amounts.
 
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.21.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.21.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 In a biogas plant, anaerobic digestion is
@@ -447,7 +465,9 @@ bacterium which can digest the hydrocarbons
 in the oil spills (Fig. 8.4).
 
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.22.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.22.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Nitrosomonas europaea is also capable of
 degrading benzene and a variety of halogenated
@@ -474,7 +494,9 @@ and digesting polyurethane. This makes the
 fungus a potential candidate for bioremediation
 projects involving large quantities of plastics.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.23.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.23.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Summary**

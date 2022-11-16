@@ -9,7 +9,9 @@ weight: 1
 Green House Effect is a process by which radiant heat from the sun is captured by gases in the atmosphere that increase the temperature of the earth ultimately. The gases that capture heat are called Green House Gases which include carbon dioxide \\( (CO_2) \\), methane \\( (CH_4) \\), Nitrous Oxide \\( (N_2O) \\) and a variety of manufactured chemicals like chlorofluorocarbon (CFC). Increase in greenhouse gases lead to irreversible changes
 
 
-![lesson 9](/books/12-biology/botany/images/8.3.png )
+{{< figure "images/books/12-biology/botany/images/8.3.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 in major ecosystems and climate patterns. For example, coral ecosystem is affected by increase in temperature, especially **coral** **bleaching** observed in Gulf of Mannar, Tamil Nadu.
@@ -51,7 +53,9 @@ fuel and considered to be the major cause of
 global warming.
 
 
-![lesson 9](/books/12-biology/botany/images/8.4.png )
+{{< figure "images/books/12-biology/botany/images/8.4.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 #####  Effects of Global Warming
@@ -132,7 +136,9 @@ and burning of organic matter.
 
 
 
-![lesson 9](/books/12-biology/botany/images/8.5.png )
+{{< figure "images/books/12-biology/botany/images/8.5.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 
@@ -177,7 +183,9 @@ the sun which is harmful for living organisms
 
 
 
-![lesson 9](/books/12-biology/botany/images/8.6.png )
+{{< figure "images/books/12-biology/botany/images/8.6.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 
@@ -252,7 +260,9 @@ be counted towards meeting Kyoto targets.
 
 
 
-![lesson 9](/books/12-biology/botany/images/8.7.png )
+{{< figure "images/books/12-biology/botany/images/8.7.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 

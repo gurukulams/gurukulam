@@ -31,7 +31,9 @@ When any two of the mutant multiple alleles are crossed the phenotype is always 
  In plants, multiple alleles have been reported in association with self-sterility or self- incompatibility. Self-sterility means that the pollen from a plant is unable to germinate on its own stigma and will not be able to bring about fertilization in the ovules of the same plant. East (1925) observed multiple alleles in Nicotiana which are responsible for self-incompatibility or self-sterility. The gene for self-incompatibility can be designated as S, which has allelic series S<sub>1</sub>, S<sub>2</sub>, S<sub>3</sub>, S<sub>4</sub> and S<sub>5</sub> (Figure 3.17).
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.29.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.29.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 The cross-fertilizing tobacco plants
 were not always homozygous as S<sub>1</sub>S<sub>1</sub> or S<sub>2</sub>S<sub>2</sub>,
@@ -41,14 +43,18 @@ different S<sub>1</sub>S<sub>2</sub> plants, the pollen tube did not
 develop normally. But effective pollen tube development was observed when crossing was made with other than S<sub>1</sub>S<sub>2</sub> for example S<sub>3</sub>S<sub>4</sub>
 
 
-![lesson 1](/books/12-biology/botany/unit7/btable1.png )
+{{< figure "images/books/12-biology/botany/unit7/btable1.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
  When crosses were made between seed parents with S<sub>1</sub>S<sub>2</sub> and pollen parents with S<sub>2</sub>S<sub>3</sub>, two kinds of pollen tubes were distinguished. Pollen grains carrying S<sub>2</sub> were not effective, but the pollen grains carrying S<sub>3</sub> were capable of fertilization. Thus, from the cross S<sub>1</sub>S<sub>2</sub>XS<sub>3</sub>S<sub>4</sub>, all the pollens were effective and four kinds of progeny resulted: S<sub>1</sub>S<sub>3</sub>, S<sub>1</sub>S<sub>4</sub>, S<sub>2</sub>S<sub>3</sub> and S<sub>2</sub>S4. Some combinations are showed in the table-3.5 
 
 #### Sex determination in maize**
 
  Zea mays (maize) is an example for monoecious, which means male and female flowers are present on the same plant. There are two types of inflorescence. The terminal inflorescence which bears staminate florets develops from shoot apical meristem called tassel. The lateral inflorescence which develop pistillate florets from axillary bud is called ear or cob. Unisexuality in maize occurs through the selective abortion of stamens in ear florets and pistils in tassel florets. A substitution of two single gene pairs 'ba' for barren plant and 'ts' for tassel seed makes the difference between monoecious and dioecious (rare) maize plants. The allele for barren plant (ba) when homozygous makes the stalk staminate by eliminating silk and ears. The allele for tassel seed (ts) transforms tassel into a pistillate structure that produce no pollen. The table-3.7 is the resultant sex expression based on the combination of these alleles. Most of these mutations are shown to be defects in gibberellin biosynthesis. Gibberellins play an important role in the suppression of stamens in florets on the ears. 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.30.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.30.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 

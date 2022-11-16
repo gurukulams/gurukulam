@@ -193,7 +193,9 @@ in the milk of animals.
 
 
 
-![Table 4.1 Genetic basis of the human ABO blood groups](/books/12-biology/Zoology/pic1.png )
+{{< figure "images/books/12-biology/Zoology/pic1.png" "w-25 float-end">}}
+Table 4.1 Genetic basis of the human ABO blood groups
+{{< /figure >}}
 
 #### <u> Rhesus or Rh Factor 
 
@@ -232,7 +234,9 @@ loci on the chromosome pair. This system is
 more commonly in use today, and uses the 'Cde'
 nomenclature.
 
-![Fig. 4.1 Fischer and Race hypothesis](/books/12-biology/Zoology/pic2.png )
+{{< figure "images/books/12-biology/Zoology/pic2.png" "w-25 float-end">}}
+Fig. 4.1 Fischer and Race hypothesis
+{{< /figure >}}
 
 In the above Fig. 4.1, three pairs of Rh alleles
 (Cc, Dd and Ee) occur at 3 different loci on
@@ -380,7 +384,9 @@ of sperms with X and Y chromosomes. An
 independently evolved XX: XY system of sex
 chromosomes also exist in *Drosophila*
 
-![Fig. 4.2 Sex determination in human beings](/books/12-biology/Zoology/pic3.png )
+{{< figure "images/books/12-biology/Zoology/pic3.png" "w-25 float-end">}}
+Fig. 4.2 Sex determination in human beings
+{{< /figure >}}
 
 ### <u> The Y Chromosome and Male Development  
 
@@ -565,7 +571,9 @@ male parent to his grandson through carrier
 daughter, which is an example of criss-cross
 pattern of inheritance (Fig. 4.3).
 
-![Fig. 4.3 Marriage between colour blind man and normal visioned woman](/books/12-biology/Zoology/pic4.png )
+{{< figure "images/books/12-biology/Zoology/pic4.png" "w-25 float-end">}}
+Fig. 4.3 Marriage between colour blind man and normal visioned woman
+{{< /figure >}}
 
 **ii) Marriage between normal visioned man and colour blind woman**
 
@@ -581,7 +589,9 @@ carrier daughter, colourblind daughter, normal
 visioned son and a colourblind son in the
 F2 generation **(Fig. 4.4)**.
 
-![Fig. 4.4 Marriage between normal visioned man and colour blind woman](/books/12-biology/Zoology/pic5.png )
+{{< figure "images/books/12-biology/Zoology/pic5.png" "w-25 float-end">}}
+Fig. 4.4 Marriage between normal visioned man and colour blind woman
+{{< /figure >}}
 
 #### Inheritance of Y- linked genes  
 
@@ -638,7 +648,9 @@ relationships between species.
 detected by this technique.
 
 
-![Fig. 4.5 Human karyotype (male)](/books/12-biology/Zoology/pic6.png )
+{{< figure "images/books/12-biology/Zoology/pic6.png" "w-25 float-end">}}
+Fig. 4.5 Human karyotype (male)
+{{< /figure >}}
 
 ### <u> Human Karyotype  
 
@@ -659,7 +671,9 @@ characters.(Fig. 4.6). Pedigree analysis is the
 study of traits as they have appeared in a given
 family line for several past generations.
 
-![Fig. 4.6 Symbols commonly used in pedigree charts](/books/12-biology/Zoology/pic7.png )
+{{< figure "images/books/12-biology/Zoology/pic7.png" "w-25 float-end">}}
+Fig. 4.6 Symbols commonly used in pedigree charts
+{{< /figure >}}
 
 
 #### <u> Genetic Disorders  
@@ -1168,4 +1182,6 @@ d) It occurs in gypsy moth
 37. Explain the inheritance of sex linked characters in human being.
 
 
-![](/books/12-biology/Zoology/pic8.png )
+{{< figure "images/books/12-biology/Zoology/pic8.png" "w-25 float-end">}}
+
+{{< /figure >}}

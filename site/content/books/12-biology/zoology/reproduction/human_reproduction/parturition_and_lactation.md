@@ -81,9 +81,13 @@ few days after parturition. It has less lactose
 than milk and almost no fat, but it contains
 more proteins, vitamin A and minerals.
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf26.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf26.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf27.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf27.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 

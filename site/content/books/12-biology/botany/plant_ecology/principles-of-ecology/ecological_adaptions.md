@@ -57,9 +57,13 @@ and rooted in soil and not in contact with air.
 **v. Amphibious hydrophytes** (Rooted emergent
 hydrophytes): These plants are adapted to both
 
-![](/books/12-biology/botany/Ecology/pic22.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic22.png" "w-25 float-end">}}
 
-![](/books/12-biology/botany/Ecology/pic23.png )
+{{< /figure >}}
+
+{{< figure "images/books/12-biology/botany/Ecology/pic23.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 aquatic and terrestrial modes of life. They grow
 in shallow water. Examples: Ranunculus, Typha
@@ -128,7 +132,9 @@ developed.
 except in some emergent forms. Pith cells
 are sclerenchymatous.
  
- ![](/books/12-biology/botany/Ecology/pic24.png )
+ {{< figure "images/books/12-biology/botany/Ecology/pic24.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
  **Physiological adaptations of Hydrophytes:**
 
@@ -169,7 +175,9 @@ a short period
 These are not true xerophytes. Examples:
 *Argemone, Mollugo, Tribulus and Tephrosia.*
 
-![](/books/12-biology/botany/Ecology/pic25.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic25.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 **ii. Succulents:** These are also called drought
 **enduring plants**. These plants store water in
@@ -199,7 +207,9 @@ They have many adaptations to resist dry
 conditions. *Examples: Casuarina, Nerium,*
 *Zizyphus and Acacia.*
 
-![](/books/12-biology/botany/Ecology/pic26.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic26.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 **Morphological Adaptations**
 
@@ -234,7 +244,9 @@ In some the petiole is modified into a fleshy
 leaf like structurcalled phyllode (Acacia
 melanoxylon)..
 
-![](/books/12-biology/botany/Ecology/pic27.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic27.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 
 a) A succulent xerophyte: Phylloclade – opuntia
@@ -284,7 +296,9 @@ palisade and spongy parenchyma.
 * In succulents the stem possesses a water
 storage region.
 
-![](/books/12-biology/botany/Ecology/pic28.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic28.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 **Physiological adaptations**
 
@@ -390,7 +404,9 @@ greatly reduces transpiration.
 * Succulent epiphytes contain well developed
 parenchymatous cells to store water.
 
-![](/books/12-biology/botany/Ecology/pic29.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic29.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 
 **Physiological adaptations**
@@ -427,10 +443,14 @@ pneumathodes to get sufficient aeration
 are also present. They are called breathing
 roots. *Example: Avicennia*
 
-![](/books/12-biology/botany/Ecology/pic30.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic30.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 
-![](/books/12-biology/botany/Ecology/pic31.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic31.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 ### Anatomical adaptations
 

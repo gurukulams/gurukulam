@@ -35,4 +35,6 @@ This dye has long been used to dye skin, hair and
 finger nails. It is used for colouring leather, for
 the tails of horses and in hair-dyes.
 
-![Figure 10.16: Naturals Dyes](/books/12-biology/botany/unit10/pic15.png)
+{{< figure "images/books/12-biology/botany/unit10/pic15.png" "w-25 float-end">}}
+Figure 10.16: Naturals Dyes
+{{< /figure >}}

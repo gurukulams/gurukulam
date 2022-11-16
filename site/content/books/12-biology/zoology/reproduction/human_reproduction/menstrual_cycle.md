@@ -40,7 +40,9 @@ menstruation may be an indicator of pregnancy.
 However it could also be due to stress, hormonal
 disorder and anaemia.
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf21.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf21.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **2. Follicular or proliferative phase**
 
@@ -77,7 +79,9 @@ amount of progesterone which is essential
 for the maintenance of the endometrium.
 If Fertilization takes place, it paves way for
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf22.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf22.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 the implantation of the fertilized ovum. The
 uterine wall secretes nutritious fluid in the

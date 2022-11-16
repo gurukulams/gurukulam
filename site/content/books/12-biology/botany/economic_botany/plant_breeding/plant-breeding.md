@@ -44,7 +44,9 @@ photosensitive and
 thermos-sensitive
 varieties.
 
-![](/books/12-biology/botany/unit10/pic30.png) 
+{{< figure "images/books/12-biology/botany/unit10/pic30.png" "w-25 float-end">}}
+
+{{< /figure >}} 
 
 
 

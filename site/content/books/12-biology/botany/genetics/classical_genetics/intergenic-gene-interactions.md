@@ -41,7 +41,9 @@ they give rise to F<sub>2</sub> with the phenotypic ratio of 12
 white : 3 yellow : 1 green.
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.16.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.16.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Since W is epistatic to the alleles ‘G’ and
 ‘g’, the white which is dominant, masks the

@@ -121,7 +121,9 @@ variants of Paddy and 1000 variants of Mango.
 Variation of genes of a species increases with
 diversity in size and habitat. It results in the
 
-![lesson 1](/books/12-biology/zoology/unit5/bzf5.10.png )
+{{< figure "images/books/12-biology/zoology/unit5/bzf5.10.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 formation of different races, varieties and
@@ -158,7 +160,9 @@ of the habitats over the total landscape or
 geographical area.
 
 
-![lesson 1](/books/12-biology/zoology/unit5/bzf5.11.png )
+{{< figure "images/books/12-biology/zoology/unit5/bzf5.11.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Community/Ecosystem diversity is the
 variety of habitats, biotic communities, and
@@ -278,7 +282,9 @@ are favourable not only for speciation
 
 {{< box title="" type="">}}
 
-![lesson 1](/books/12-biology/zoology/unit5/bzf5.12.png )
+{{< figure "images/books/12-biology/zoology/unit5/bzf5.12.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Mean Sea Level (MSL) is an average
 level of the surface of one or more of
@@ -338,7 +344,9 @@ Z = Slope of the line
 C = Y-intercept
 
 
-![lesson 1](/books/12-biology/zoology/unit5/flow5.5.png )
+{{< figure "images/books/12-biology/zoology/unit5/flow5.5.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 Regression coefficient Z generally has a
@@ -551,7 +559,9 @@ zones, (Fig. 11.3 and table 11.1) namely:
 
 
 
-![lesson 1](/books/12-biology/zoology/unit5/bzf5.13.png )
+{{< figure "images/books/12-biology/zoology/unit5/bzf5.13.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -786,7 +796,9 @@ animals and loss of trees in forest. Thus,
 climate change is an imminent danger to the
 existing biodiversity (Fig. 11.4).
 
-![lesson 1](/books/12-biology/zoology/unit5/flow5.6.png )
+{{< figure "images/books/12-biology/zoology/unit5/flow5.6.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Shifting or Jhum cultivation (Slash-and-burn agriculture)**
@@ -927,7 +939,9 @@ species as endangered (EN) worldwide.
 
 {{< box title="" type="objective">}}
 
-![lesson 1](/books/12-biology/zoology/unit5/bzf5.14.png )
+{{< figure "images/books/12-biology/zoology/unit5/bzf5.14.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 George the tree snail (Achatinella
 apexfulva) died on January 1, 2019, at

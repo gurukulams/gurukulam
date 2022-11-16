@@ -27,7 +27,9 @@ At night PAR is zero and during midday in
 the summer, PAR often reaches 2000 – 3000
 millimoles /square meter/second.
 
-![lesson 9](/books/12-biology/botany/images/2.9.png)
+{{< figure "images/books/12-biology/botany/images/2.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Productivity of an ecosystem
 
@@ -120,7 +122,9 @@ the producers is utilized by the plant eaters
 (herbivores) they are called primary consumers
 and occupy the second trophic level (T2)
 
-![lesson 9](/books/12-biology/botany/images/3.9.png)
+{{< figure "images/books/12-biology/botany/images/3.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 Herbivores are eaten by carnivores, which occupy
 the third trophic level (T 3). They are also called
@@ -137,7 +141,9 @@ one trophic level in the food chain.
 
 The transfer of energy in an ecosystem between trophic levels can be termed as energy flow. It is the key function in an ecosystem. Part of the energy obtained from the sun by producers is transferred to consumers and decomposers through each trophic level, while some amount of energy is dissipated in the form of heat. Energy flow is always unidirectional in an ecosystem.
 
-![lesson 9](/books/12-biology/botany/images/4.9.png)
+{{< figure "images/books/12-biology/botany/images/4.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Laws of thermodynamics
 
@@ -152,7 +158,9 @@ It states that energy can be transmitted from one system to another in various f
 
 In photosynthesis, the product of starch (chemical energy) is formed by the combination of reactants (chlorophyll, H 2 O, CO 2). The energy stored in starch is acquired from the external sources (light energy) and so there is no gain or loss in total energy. Here light energy is converted into chemical energy.
 
-![lesson 9](/books/12-biology/botany/images/9.9.png)
+{{< figure "images/books/12-biology/botany/images/9.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **ii. Second law of thermodynamics**
 
@@ -192,7 +200,9 @@ remaining 0.9 Joule is lost in the environment.
 Thus, at the successive trophic level, only ten
 percent energy is stored
 
-![lesson 9](/books/12-biology/botany/images/5.9.png)
+{{< figure "images/books/12-biology/botany/images/5.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Food chain
 
@@ -218,7 +228,9 @@ in the food chain is secondary consumers
 consumers. Fourth link in the food chain is tertiary consumers (eagle) which get their
 food from secondary consumers.
 
-![lesson 9](/books/12-biology/botany/images/6.9.png)
+{{< figure "images/books/12-biology/botany/images/6.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **2. Detritus food chain:**
 
@@ -235,11 +247,15 @@ carnivores - large (top) carnivores with repeated
 eating and being eaten respectively. This is called
 the detritus food chain.
 
-![lesson 9](/books/12-biology/botany/images/7.9.png)
+{{< figure "images/books/12-biology/botany/images/7.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Food Web
 
-![lesson 9](/books/12-biology/botany/images/8.9.png)
+{{< figure "images/books/12-biology/botany/images/8.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 The inter-locking pattern of a number of food
 chain form a web like arrangement called food **web**. It is the basic unit of an ecosystem, to
@@ -319,7 +335,9 @@ starts with a single tree. Therefore there is gradual increase in the number of 
 in successive tropic levels from producer to
 tertiary consumers.
 
-![lesson 9](/books/12-biology/botany/images/10.9.png)
+{{< figure "images/books/12-biology/botany/images/10.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **2 Pyramid of biomass**
 
@@ -343,7 +361,9 @@ increases towards the tip of the pyramid.
 Therefore, the pyramid of biomass is always
 **inverted** in shape.
 
-![lesson 9](/books/12-biology/botany/images/11.9.png)
+{{< figure "images/books/12-biology/botany/images/11.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **3. Pyramid of energy**
 
@@ -356,7 +376,9 @@ at successive tropic levels from producers to the
 upper levels. Therefore, the pyramid of energy is
 **always upright**.
 
-![lesson 9](/books/12-biology/botany/images/12.9.png)
+{{< figure "images/books/12-biology/botany/images/12.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Decomposition:
 
@@ -381,7 +403,9 @@ degradation mediated by enzymatic reactions.
 Detritus acts as a raw material for decomposition.
 It occurs in the following steps.
 
-![lesson 9](/books/12-biology/botany/images/13.9.png)
+{{< figure "images/books/12-biology/botany/images/13.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **a. Fragmentation** -
 
@@ -467,7 +491,9 @@ eruption and decomposition of
 dead organic matters. The details of
 carbon cycle are given in the figure.
 
-![lesson 9](/books/12-biology/botany/images/14.9.png)
+{{< figure "images/books/12-biology/botany/images/14.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Phosphorus cycle
 
@@ -479,7 +505,9 @@ Phosphorus is not abundant in the biosphere,
 whereas a bulk quantity of phosphorus is present
 in rock deposits, marine sediments and guano.
 
-![lesson 9](/books/12-biology/botany/images/15.9.png)
+{{< figure "images/books/12-biology/botany/images/15.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 It is released from these deposits by weathering
 process. After that, it circulates in lithosphere
@@ -497,7 +525,9 @@ maintain phosphorus cycle.
 Biosphere consists of different types of
 ecosystems, which are as follows
 
-![lesson 9](/books/12-biology/botany/images/17.9.png)
+{{< figure "images/books/12-biology/botany/images/17.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 Though there are many types of ecosystems
 as charted above. Only the pond ecosystem is
@@ -517,9 +547,13 @@ regulatory fresh water ecosystem, which shows
 a complex interaction between the abiotic and
 biotic components in it.
 
-![lesson 9](/books/12-biology/botany/images/18.9.png)
+{{< figure "images/books/12-biology/botany/images/18.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
-![lesson 9](/books/12-biology/botany/images/19.9.png)
+{{< figure "images/books/12-biology/botany/images/19.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **Abiotic components**
 
@@ -561,7 +595,9 @@ tertiary consumers (carnivores) like duck ,
 crane and some top carnivores which include
 large fish, hawk ,man, etc.
 
-![lesson 9](/books/12-biology/botany/images/20.9.png)
+{{< figure "images/books/12-biology/botany/images/20.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### c. Decomposers
 
@@ -578,11 +614,15 @@ biotic components is evident in the pond
 ecosystem, making itself self sufficient and self
 regulating.
 
-![lesson 9](/books/12-biology/botany/images/21.9.png)
+{{< figure "images/books/12-biology/botany/images/21.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Stratification of pond ecosystem
 
-![lesson 9](/books/12-biology/botany/images/22.9.png)
+{{< figure "images/books/12-biology/botany/images/22.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 Based on the factors like distance from the
 shore, penetration of light, depth of water,
@@ -622,9 +662,13 @@ Without such knowledge gain, the fate of any
 ecosystem will be at stake and the benefits they
 provide to us in future will become bleak.
 
-![lesson 9](/books/12-biology/botany/images/23.9.png)
+{{< figure "images/books/12-biology/botany/images/23.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
-![lesson 9](/books/12-biology/botany/images/24.9.png)
+{{< figure "images/books/12-biology/botany/images/24.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **How do anthropogenic activities affect**
 **ecosystem services?**
@@ -640,7 +684,9 @@ medicine, timber, fiber and fuel.”
 
 The varieties of benefits obtained from the ecosystem are generally categorized into the following four types
 
-![lesson 9](/books/12-biology/botany/images/25.9.png)
+{{< figure "images/books/12-biology/botany/images/25.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 Generally the following human activities
 disturb or re-engineer an ecosystem every day.
@@ -660,7 +706,9 @@ disturb or re-engineer an ecosystem every day.
 • Run off pesticides, fertilizers and animal
 wastes
 
-![lesson 9](/books/12-biology/botany/images/26.9.png)
+{{< figure "images/books/12-biology/botany/images/26.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### How to protect the ecosystem?
 
@@ -703,7 +751,9 @@ chemicals and pesticides.
 ecosystem protection among your friends
 and family members.
 
-![lesson 9](/books/12-biology/botany/images/27.9.png)
+{{< figure "images/books/12-biology/botany/images/27.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 #### Ecosystem Management
 
@@ -720,7 +770,9 @@ degradation and biodiversity loss will result
 in depletion of natural resources, ultimately
 affecting the existence of human.
 
-![lesson 9](/books/12-biology/botany/images/28.9.png)
+{{< figure "images/books/12-biology/botany/images/28.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **Strategy of ecosystem management**
 
@@ -755,6 +807,8 @@ responsibility for long term implementation
 of ecosystem management activities even
 after the completion of the project.
 
-![lesson 9](/books/12-biology/botany/images/29.9.png)
+{{< figure "images/books/12-biology/botany/images/29.9.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 **Adayar Poonga**

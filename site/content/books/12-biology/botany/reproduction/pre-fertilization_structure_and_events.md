@@ -67,9 +67,13 @@ like part arising from each pollinium is called
 inverted letter 'Y' and is called **translator**
 
 
-![lesson 1](/books/12-biology/botany/images/1.6.png )
+{{< figure "images/books/12-biology/botany/images/1.6.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
-![lesson 1](/books/12-biology/botany/images/1.7.png )
+{{< figure "images/books/12-biology/botany/images/1.7.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 #### T.S. of Mature anther
 
@@ -107,7 +111,9 @@ development from your observations.
 
 {{< /box >}}
 
-![lesson 1](/books/12-biology/botany/images/1.8.png )
+{{< figure "images/books/12-biology/botany/images/1.8.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **b.Endothecium**: 
@@ -306,7 +312,9 @@ the right stigma. The pollen on reaching the stigma
 absorbs moisture and swells.
 
 
-![lesson 1](/books/12-biology/botany/images/1.9.png )
+{{< figure "images/books/12-biology/botany/images/1.9.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 The intine grows as pollen tube through the germ
@@ -390,7 +398,9 @@ embryo sac is called **hypostase** and the thick
 above the embryo sac is called **epistase**. The
 structure of ovule is given in Figure 1.7.
 
-![lesson 1](/books/12-biology/botany/images/1.10.png )
+{{< figure "images/books/12-biology/botany/images/1.10.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -495,9 +505,13 @@ and organization the simplest monosporic type
 of development is given below.
 
 
-![lesson 1](/books/12-biology/botany/images/1.11.png )
+{{< figure "images/books/12-biology/botany/images/1.11.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
-![lesson 1](/books/12-biology/botany/images/1.14.png )
+{{< figure "images/books/12-biology/botany/images/1.14.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 The functional megaspore is the first cell of
@@ -534,7 +548,9 @@ structure of embryo sac is given in Figure 1.10.
 
 
 
-![lesson 1](/books/12-biology/botany/images/1.12.png )
+{{< figure "images/books/12-biology/botany/images/1.12.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -542,7 +558,9 @@ structure of embryo sac is given in Figure 1.10.
 #### Pollination
 
 
-![lesson 1](/books/12-biology/botany/images/1.13.png )
+{{< figure "images/books/12-biology/botany/images/1.13.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Pollination is a wonderful mechanism which
 provides food,
@@ -640,7 +658,9 @@ it is said to be homogamy. It favours self
 pollination to occur. Example: *Mirabilis jalapa*,
 *Catharanthus roseus*
 
-![lesson 1](/books/12-biology/botany/images/1.15.png )
+{{< figure "images/books/12-biology/botany/images/1.15.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 3. **Incomplete dichogamy**: In dichogamous
@@ -739,7 +759,9 @@ nodosa and Aristolochia bracteata (Figure1.12b)
 
 
 
-![lesson 1](/books/12-biology/botany/images/1.17.png )
+{{< figure "images/books/12-biology/botany/images/1.17.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -753,7 +775,9 @@ superba, the style is reflexed away from the
 stamens and in Hibiscus the stigmas project far above the stamens (Figure 1.13).
 
 
-![lesson 1](/books/12-biology/botany/images/1.16.png )
+{{< figure "images/books/12-biology/botany/images/1.16.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -781,7 +805,9 @@ in effective pollination.
 
 
 
-![lesson 1](/books/12-biology/botany/images/1.18.png )
+{{< figure "images/books/12-biology/botany/images/1.18.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -935,7 +961,9 @@ beyond leaves. The pollens drop from the tassel
 is caught by the stigma (Figure 1.15).
 
 
-![lesson 1](/books/12-biology/botany/images/1.19.png )
+{{< figure "images/books/12-biology/botany/images/1.19.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -977,7 +1005,9 @@ female flower coils and goes under water where
 fruits are produced. (Figure 1.16).
 
 
-![lesson 1](/books/12-biology/botany/images/1.20.png )
+{{< figure "images/books/12-biology/botany/images/1.20.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **b. Hypohydrophily**:
@@ -1063,7 +1093,9 @@ crawling among *Lemna* pollinate them.
 
 
 
-![lesson 1](/books/12-biology/botany/images/1.21.png )
+{{< figure "images/books/12-biology/botany/images/1.21.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **D. Entomophily**: Pollination by insects is
@@ -1134,4 +1166,6 @@ translator
 mechanism (*Asclepiadaceae*) and piston mechanism (*Papilionaceae*).
 
 
-![lesson 1](/books/12-biology/botany/images/1.22.png )
+{{< figure "images/books/12-biology/botany/images/1.22.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}

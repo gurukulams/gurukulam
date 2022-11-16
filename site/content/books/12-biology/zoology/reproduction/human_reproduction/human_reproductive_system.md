@@ -54,7 +54,9 @@ tissue surrounding the
 seminiferous tubules.
 These cells are endocrine in nature and secret
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf11.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf11.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 {{< box title="CRYPTORCHISM" type="objective">}}
@@ -107,7 +109,9 @@ glands also called **Cowper’s gland** and a single
 alkaline fluid called seminal plasma containing
 fructose sugar, ascorbic acid, prostaglandins and
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf12.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf12.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 a coagulating enzyme called **vesiculase** which
 enhances sperm motility. The bulbourethral
@@ -143,7 +147,9 @@ system consists of a pair of ovaries along with
 a pair of oviducts, uterus, cervix, vagina and
 
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf13.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf13.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 the external genitalia located in the pelvic
@@ -188,7 +194,9 @@ like projections called **fimbriae**
 Female uterus contains one of the strongest muscles of the human body.
 {{< /box >}}
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf14.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf14.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 which help in collection of the ovum after
@@ -273,7 +281,9 @@ up of lobules which contain **acini or alveoli**
 lined by epithelial cells. Cells of the alveoli
 secrete milk. The alveoli open into **mammary tubules**. The tubules of each lobe join to form
 
-![lesson 1](/books/12-biology/zoology/unit1/bzf15.png )
+{{< figure "images/books/12-biology/zoology/unit1/bzf15.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 a **mammary duct**. Several mammary ducts
 join to form a wider **mammary ampulla**

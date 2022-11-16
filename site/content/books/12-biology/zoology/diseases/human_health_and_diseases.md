@@ -74,7 +74,9 @@ malfunction of the mind or body. It involves
 morphological, physiological and psychological
 disturbances which may be due to environmental
 
-![lesson 1](/books/12-biology/zoology/unit3/flow1.png )
+{{< figure "images/books/12-biology/zoology/unit3/flow1.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 factors or pathogens or genetic anomalies or life
 style changes. Diseases can be broadly grouped
@@ -108,7 +110,9 @@ species is very high, only a few bacteria are
 associated with human diseases and are called
 pathogenic bacteria. Such pathogens may
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.1.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.1.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 emit toxins and affects the body. Common
 pathogenic bacteria and the bacterial diseases
@@ -209,7 +213,9 @@ by inhaling the droplets/aerosols or even
 </tbody>
 </table>
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.2.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.2.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 by sharing utensils, dresses with an infected
 person. Typhoid fever can be confirmed by
@@ -312,7 +318,9 @@ obligate parasites, which multiply within
 </tbody>
 </table>
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.3.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.3.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 living cells. Outside the living cells they
 cannot carry out the characteristics of a
@@ -349,7 +357,9 @@ About 15 genera of protozoans live as
 parasites within the human body and cause
 diseases.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.4.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.4.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Amoebiasis also called amoebic dysentery
 or amoebic colitis is caused by Entamoeba
@@ -366,7 +376,9 @@ in the stool. House flies (Musca domestica)
 acts as a carrier for transmitting the parasite
 from contaminated faeces and water.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.1.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.1.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 African sleeping sickness is caused
 by Trypanosoma species. Trypanosoma is
@@ -378,7 +390,9 @@ cause sleeping sickness in man.
 palpalis (Tsetse fly) and causes Gambian or
 Central African sleeping sickness (Fig. 7.2).
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.2.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.2.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 2.T. rhodesiense is transmitted by Glossina
 morsitans causing Rhodesian or East
@@ -452,7 +466,9 @@ mosquito's gut wall and develop into an oocyte.
 The oocyte undergoes meiosis by a process
 called sporogony to form sporozoites. These
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.3.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.3.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 sporozoites migrate to the salivary glands of
 the mosquito. The cycle is now completed and
@@ -552,7 +568,9 @@ Plasmodium to the drugs used to treat it and
 resistance of mosquitoes to DDT and other
 insecticides.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.5.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.5.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **7.1.3 Fungal diseases**
 
@@ -574,7 +592,9 @@ as Athlete’s foot caused by Tinea pedis
 from soil or by using clothes, towels and comb
 used by infected persons.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.4.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.4.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **7.1.4 Helminthic diseases**
 
@@ -584,7 +604,9 @@ diseases called helminthiasis. The two most
 prevalent helminthic diseases are Ascariasis and
 Filariasis.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.5.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.5.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Ascaris is a
 monogenic parasite
@@ -614,7 +636,9 @@ bancrofti, commonly called filarial worm. It is
 found in the lymph vessels and lymph nodes of
 man (Fig. 7.7). Wuchereria bancrofti is sexually
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.6.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.6.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 dimorphic, viviparous and digenic. The life
 cycle is completed in two hosts, man and the
@@ -693,7 +717,9 @@ and reacts destructively against the host's
 own molecules; such autoimmune diseases
 can be fatal to the organism.
 
-![lesson 1](/books/12-biology/zoology/unit3/flow2.png )
+{{< figure "images/books/12-biology/zoology/unit3/flow2.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Almost all the macromolecules e.g.
 proteins, polysaccharides, nucleic acids, etc., as long as they are foreign to recipient organism
@@ -719,7 +745,9 @@ operative non-specifically against a large number
 of microorganisms as shown in the Table 7.4 and
 Fig. 7.10.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.7.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.7.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Table 7.4 Innate immunity- types and mechanisms**
 
@@ -897,7 +925,9 @@ response, and therefore there is no memory.
 The immune responses may be primary
 or secondary (Table 7.6).
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.6.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.6.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Primary immune response**
 
@@ -1006,9 +1036,13 @@ immunocompetent cells. In mammals, B cell
 maturation occurs in the bone marrow and
 T cells maturation occurs in the thymus.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.8.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.8.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.9.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.9.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Thymus**
 
@@ -1029,7 +1063,9 @@ and is replaced by adipose tissue (Fig. 7.12).
 Thus thymus is most active during the
 neonatal and pre-adolescent periods.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.10.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.10.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Bone marrow**
 
@@ -1054,9 +1090,13 @@ GALT (Gut-Associated Lymphoid Tissue),
 BALT (Bronchial/Tracheal-Associated
 Lymphoid Tissue).
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.7.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.7.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.8.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.8.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Lymph node**
 
@@ -1077,7 +1117,9 @@ the particulate antigen brought in by the
 lymph will be trapped by the phagocytic cells,
 follicular and interdigitating dendritic cells.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.11.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.11.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 Lymph node has three zones (Fig. 7.13).
 They are the cortex, paracortex and medulla.
@@ -1107,7 +1149,9 @@ nodes. The most frequently enlarged lymph
 nodes are found in the neck, under the chin, in
 the armpits and in the groin.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.9.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.9.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Cells of the immune system**
@@ -1228,7 +1272,9 @@ B cells do not produce antibodies but become
 memory cells. These cells are responsible for
 secondary immune response. T lymphocytes do not produce antibodies. They recognize antigen- presenting cells and destroy them. The two important types of T cells are Helper T cells and Killer T cells. Helper T cells release a chemical
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.12.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.12.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 called cytokine which activates B cells. Killer
 cells move around the body and destroy cells
@@ -1239,7 +1285,9 @@ Monocytes when they mature into large cells,
 they are called macrophages which perform
 phagocytosis on any foreign organism.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.10.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.10.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **7.3.5 Antigens**
@@ -1254,7 +1302,9 @@ response. Thus an antigen is a substance that is
 specific to an antibody or a T-cell receptor and
 is often used as a synonym for immunogen.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.11.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.11.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 An immunogen is a substance capable of
@@ -1269,7 +1319,9 @@ active part of an antigen. A paratope is the antigen
 recognizes and binds to an antigen.
 
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.12.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.12.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Types of antigens**
@@ -1316,7 +1368,9 @@ Hence, an antibody is represented by H2 L2.
 The heavy chains have a flexible hinge region
 at their approximate middles.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.13.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.13.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -1393,7 +1447,9 @@ formation on reacting with antigens are called
 as precipitins.
 
 
-![lesson 1](/books/12-biology/zoology/unit3/flow3.png )
+{{< figure "images/books/12-biology/zoology/unit3/flow3.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 Whenever a particulate antigen interacts
@@ -1439,7 +1495,9 @@ Vaccines deliver only very little amounts of
 inactivated or weakened viruses or bacteria,
 or parts of them. This allows the immune
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.14.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.14.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 system to recognize the organism without
 actually experiencing the disease. Some
@@ -1474,7 +1532,9 @@ generation. The latest revolution in vaccine
 is DNA vaccine or recombinant vaccine
 (Refer Chapter- 9 for details).
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.13.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.13.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **7.3.9 Vaccination and immunization**
@@ -1562,7 +1622,9 @@ made of proteins. This is followed by another
 layer of matrix proteins as shown in the
 Fig 7.18.
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.15.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.15.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **HIV Transmission**
@@ -1657,7 +1719,9 @@ Tumour may be benign or malignant depending
 on its characteristics. Benign or non-cancerous
 tissues are capable of indefinite growth and do
 
-![lesson 1](/books/12-biology/zoology/unit3/table1.png )
+{{< figure "images/books/12-biology/zoology/unit3/table1.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 not invade other body parts. In the malignant
 tumour, the cells grow indefinitely, detach and
@@ -1690,7 +1754,9 @@ immunological surveillance is effective, cancer
 should not occur. The development of tumour
 represents a lapse in surveillance.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.14.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.14.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Immunotherapy of cancer**
@@ -1753,7 +1819,9 @@ stimulating action on the CNS, producing
 increased energy and a sense of euphoria.
 
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.16.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.16.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Table 7.9 Classification of drugs**
@@ -1806,7 +1874,9 @@ increased energy and a sense of euphoria.
 
 
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.17.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.17.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 Cocaine is a white powder that is obtained
@@ -1819,7 +1889,9 @@ properties are Atropa belladonna and Datura
 (Fig. 7.21 and Fig. 7.22).
 
 
-![lesson 1](/books/12-biology/zoology/unit3/bzf3.18.png )
+{{< figure "images/books/12-biology/zoology/unit3/bzf3.18.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -1900,7 +1972,9 @@ drinking permanently damages the liver
 and brain.
 
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.15.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.15.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 
@@ -1962,7 +2036,9 @@ de-addiction and rehabilitation programmes to
 help individuals to overcome their problems.
 
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.16.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.16.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **7.7 Mental health – Depression**
@@ -2063,7 +2139,9 @@ cancer is achieved by an integrated approach to
 therapy, surgery, radiotherapy, chemotherapy
 and immunotherapy.
 
-![lesson 1](/books/12-biology/zoology/unit3/note3.17.png )
+{{< figure "images/books/12-biology/zoology/unit3/note3.17.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 **Evaluation**
 

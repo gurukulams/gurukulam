@@ -37,10 +37,14 @@ example: Height and skin colour in humans are
 controlled by three pairs of genes.
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.17.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.17.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.18.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.18.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 **Conclusion:**
@@ -54,7 +58,9 @@ in wheat kernel colour. Nilsson – Ehle found
 the ratio of 63 red : 1 white in F<sub>2</sub> generation –
 1 : 6 : 15 : 20 : 15 : 6 : 1 in F<sub>2</sub> generation.
 
-![lesson 1](/books/12-biology/botany/unit7/bbf7.19.png )
+{{< figure "images/books/12-biology/botany/unit7/bbf7.19.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 

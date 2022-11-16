@@ -57,7 +57,9 @@ Example: Orchids.
 form a wing. Examples: Maple, Gyrocarpus,
 Dipterocarpus and Terminalia
 
-![](/books/12-biology/botany/Ecology/pic37.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic37.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 * Feathery Appendages: Seeds or fruits may
 have feathery appendages which greatly
@@ -98,7 +100,9 @@ Heritiera littoralis.
 * Seeds by themselves would not float may be
 carried by water current. Example: Coconut.
 
-![](/books/12-biology/botany/Ecology/pic33.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic33.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 #### Dispersal by Animals (Zoochory)
 
@@ -130,7 +134,9 @@ conspicuous colours are dispersed by human
 beings to distant places after consumption.
 *Example: Mango and Diplocyclos*
 
-![](/books/12-biology/botany/Ecology/pic34.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic34.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 
 #### Dispersal by Explosive Mechanism (Autochory)
@@ -162,7 +168,9 @@ the fruit which leads to the dispersal of seeds.
 
 Example: *Ecballium elatrium* (Squirting cucumber) Gyrocarpus and Dipterocarpus.
 
-![](/books/12-biology/botany/Ecology/pic35.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic35.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 ### Human aided seed dispersal
 
@@ -179,12 +187,16 @@ lands for tree regeneration and vegetation before
 monsoon period where the suitable dispersal
 agents become rare.
 
-![](/books/12-biology/botany/Ecology/pic36.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic36.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 Guess? what is atelochory or Achory?
 
 
-![](/books/12-biology/botany/Ecology/pic38.png )
+{{< figure "images/books/12-biology/botany/Ecology/pic38.png" "w-25 float-end">}}
+
+{{< /figure >}}
 
 **Advantages of seed dispersal:**
 

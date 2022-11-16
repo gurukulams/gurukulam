@@ -7,7 +7,9 @@ weight: 8
 
 
 
-![lesson 9](/books/12-biology/botany/images/8.19.png )
+{{< figure "images/books/12-biology/botany/images/8.19.png" "w-25 float-end">}}
+lesson 9
+{{< /figure >}}
 
 
 

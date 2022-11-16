@@ -15,7 +15,9 @@ four categories based on its origin.
 
 
 
-![lesson 1](/books/12-biology/botany/images/41.png )
+{{< figure "images/books/12-biology/botany/images/41.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
 
 
 

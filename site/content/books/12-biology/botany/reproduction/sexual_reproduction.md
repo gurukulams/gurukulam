@@ -43,4 +43,6 @@ or changes involved in sexual reproduction of
 higher plants include three stages .They are Prefertilization, Fertilization and Post fertilization
 changes. Let us discuss these events in detail.
 
-![lesson 1](/books/12-biology/botany/images/1.5.png )
+{{< figure "images/books/12-biology/botany/images/1.5.png" "w-25 float-end">}}
+lesson 1
+{{< /figure >}}
