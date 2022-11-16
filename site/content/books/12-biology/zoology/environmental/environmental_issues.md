@@ -5,7 +5,8 @@ draft: false
 weight: 3
 ---
 
-{{< figure "images/books/12-biology/zoology1/pic56.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology1/pic56.png""w-25 float-end">}}
+Unit9
 
 {{< /figure >}}
 
@@ -82,7 +83,7 @@ floods, tsunami and cyclones.
 aware, regardless of whether they work with
 environmental issues or not.”
 
-## <u>12.1 Pollution 
+## 12.1 Pollution 
 
 Pollution is any undesirable change in the
 physical, chemical and biological characteristics

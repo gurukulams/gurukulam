@@ -64,7 +64,7 @@ formation. Examples: *Adoxa*, *Helianthus* and
 *Scoparia*
 
 
-{{< figure "images/books/12-biology/botany/images/1.29.png " "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/1.29.png""w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 

@@ -46,7 +46,7 @@ The interaction of organisms with their environment results in the establishment
 
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic2.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic2.png""w-25 float-end">}}
 Unit 9 - flowchart 1
 {{< /figure >}}
 

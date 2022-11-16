@@ -131,7 +131,7 @@ its effectiveness against diabetes.
 
 {{< /box >}}
 
-{{< figure "images/books/12-biology/zoology1/pic47.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/zoology1/pic47.png""w-25 float-end">}}
 Fig. 9.1 Human Insulin Production
 {{< /figure >}}
 
