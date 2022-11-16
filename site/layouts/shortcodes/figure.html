@@ -13,7 +13,8 @@
   {{ errorf "Invalid image processing command: Must be one of Crop, Fit, Fill or Resize."}}
 {{ end }}
 <figure class="figure {{ (.Get 1) }}">
-  <img class="figure-img w-100 img-fluid rounded" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}">
+  <img class="figure-img w-100 img-fluid rounded" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" 
+  height="{{ $img.Height }}">
   <figcaption class="figure-caption">
   
     {{ with .Inner }}

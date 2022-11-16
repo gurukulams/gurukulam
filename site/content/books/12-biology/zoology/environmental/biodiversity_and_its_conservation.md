@@ -44,241 +44,58 @@ causes and effects of extinction.
 {{< /box >}}
 
 
-A wide variety of living organisms including
-plants, animals and micro-organisms with
-whom we share this planet earth makes the world
-a beautiful place to live in. Living organisms exist
-almost everywhere from mountain peaks to the
-ocean depths; from deserts to the rainforests.
-They vary in their habit and behaviour, shape,
-size and colour. The remarkable diversity of
-living organisms forms an inseparable and
-significant part of our planet, however, the ever
-increasing human population is posing serious
-threats to bio-diversity. In this chapter, we shall
-discuss biodiversity – concepts, levels, magnitude
-and patterns, importance of biodiversity,
-biogeographical regions of India, threats to
-biodiversity, causes of biodiversity loss, extinction,
-and biodiversity conservation.
+A wide variety of living organisms including plants, animals and micro-organisms with whom we share this planet earth makes the world a beautiful place to live in. Living organisms exist almost everywhere from mountain peaks to the ocean depths; from deserts to the rainforests. They vary in their habit and behaviour, shape, size and colour. The remarkable diversity of living organisms forms an inseparable and significant part of our planet, however, the ever increasing human population is posing serious threats to bio-diversity. In this chapter, we shall discuss biodiversity – concepts, levels, magnitude and patterns, importance of biodiversity, biogeographical regions of India, threats to biodiversity, causes of biodiversity loss, extinction, and biodiversity conservation.
 
 **11.1 Biodiversity**
-
-The 1992 UN Earth Summit defined
-Biodiversity as the variability among living
-organisms from all sources, including
-terrestrial, marine and other aquatic ecosystems
-and the ecological complexes of which they are
-a part. This includes diversity within species,
-between species and ecosystems of a region.
-It reflects the number of different organisms
-and their relative frequencies in an ecological
-system and constitutes the most important
-functional component of a natural ecosystem.
-It helps to maintain ecological processes,
-create soil, recycle nutrients, influence climate,
-degrade waste and control diseases. It provides
-an index of health of an ecosystem. The survival
-of human race depends on the existence and
-wellbeing of all life forms (plants and animals)
-in the biosphere.
+The 1992 UN Earth Summit defined Biodiversity as the variability among living organisms from all sources, including terrestrial, marine and other aquatic ecosystems and the ecological complexes of which they are a part. This includes diversity within species, between species and ecosystems of a region. It reflects the number of different organisms and their relative frequencies in an ecological system and constitutes the most important functional component of a natural ecosystem. It helps to maintain ecological processes, create soil, recycle nutrients, influence climate, degrade waste and control diseases. It provides an index of health of an ecosystem. The survival of human race depends on the existence and wellbeing of all life forms (plants and animals) in the biosphere.
 
 **11.1.1 Concept of biodiversity**
 
-The term biodiversity was introduced
-by Walter Rosen (1986). Biodiversity is the
-assemblage of different life forms. Each species
-is adapted to live in its specific environments.
-The changes in climatic conditions are
-reflected in the distribution and pattern of
-biodiversity on our planet. The number of
-species per unit area declines as we move
-from tropics towards the poles. The Tundra
-and Taiga of northern Canada, Alaska,
-northern Europe and Russia possess less than
-12 species of trees. The temperate forests of
-the United states have 20-35 species of trees,
-while the tropical forests of Panama have over
-110 species of trees in a relatively small area.
+The term biodiversity was introduced by Walter Rosen (1986). Biodiversity is the assemblage of different life forms. Each species is adapted to live in its specific environments. The changes in climatic conditions are reflected in the distribution and pattern of biodiversity on our planet. The number of species per unit area declines as we move from tropics towards the poles. The Tundra and Taiga of northern Canada, Alaska, northern Europe and Russia possess less than 12 species of trees. The temperate forests of the United states have 20-35 species of trees, while the tropical forests of Panama have over 110 species of trees in a relatively small area.
 
 **11.1.2 Levels of biodiversity**
 
-Edward Wilson popularized the term
-‘Biodiversity’ to describe diversity at all levels
-of biological organization from populations to
-biomes. There are three levels of biodiversity
-– Genetic diversity, Species diversity and
-Community/Ecosystem diversity (Fig. 11.1).
-Genetic diversity refers to the differences
-in genetic make-up (number and types of genes)
-between distinct species and to the genetic
-variation within a single species; also covers
-genetic variation between distinct populations
-of the same species. Genetic diversity can
-be measured using a variety of molecular
-techniques. India has more than 50,000 genetic
-variants of Paddy and 1000 variants of Mango.
-Variation of genes of a species increases with
-diversity in size and habitat. It results in the
+Edward Wilson popularized the term ‘Biodiversity’ to describe diversity at all levels of biological organization from populations to biomes. There are three levels of biodiversity – Genetic diversity, Species diversity and Community/Ecosystem diversity (Fig. 11.1). Genetic diversity refers to the differences in genetic make-up (number and types of genes) between distinct species and to the genetic variation within a single species; also covers genetic variation between distinct populations of the same species. Genetic diversity can be measured using a variety of molecular techniques. India has more than 50,000 genetic variants of Paddy and 1000 variants of Mango. Variation of genes of a species increases with diversity in size and habitat. It results in the
 
 {{< figure "images/books/12-biology/zoology/unit5/bzf5.10.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
+formation of different races, varieties and subspecies. Rouwolfia vomitaria, a medicinal plant growing in different ranges of the Himalayas shows differences in the potency and concentration of the active ingredient reserpine due to genetic diversity. Genetic diversity helps in developing adaptations to changing environmental conditions. Species diversity refers to the variety in number and richness of the species in any habitat. The number of species per unit area at a specific time is called species richness, which denotes the measure of species diversity. The Western Ghats have greater amphibian species diversity than the Eastern Ghats. The more the number of species in an area the more is the species richness (Fig. 11.1a). The three indices of diversity are - Alpha, Beta and Gamma diversity.
 
-formation of different races, varieties and
-subspecies. Rouwolfia vomitaria, a medicinal
-plant growing in different ranges of the
-Himalayas shows differences in the potency
-and concentration of the active ingredient
-reserpine due to genetic diversity. Genetic
-diversity helps in developing adaptations to
-changing environmental conditions.
-Species diversity refers to the variety
-in number and richness of the species in any
-habitat. The number of species per unit area at
-a specific time is called species richness, which
-denotes the measure of species diversity. The
-Western Ghats have greater amphibian species
-diversity than the Eastern Ghats. The more
-the number of species in an area the more is
-the species richness (Fig. 11.1a). The three
-indices of diversity are - Alpha, Beta and
-Gamma diversity.
+i. Alpha diversity: It is measured by counting the number of taxa (usually species) within a particular area, community or ecosystem.
 
-i. Alpha diversity: It is measured by counting
-the number of taxa (usually species) within
-a particular area, community or ecosystem.
-
-ii. Beta diversity: It is species diversity
-between two adjacent ecosystems and is
-obtaining by comparing the number of
-species unique to each of the ecosystem.
-
-iii. Gamma diversity refers to the diversity
-of the habitats over the total landscape or
-geographical area.
+ii. Beta diversity: It is species diversity between two adjacent ecosystems and is obtaining by comparing the number of species unique to each of the ecosystem.
+iii. Gamma diversity refers to the diversity of the habitats over the total landscape or geographical area.
 
 
 {{< figure "images/books/12-biology/zoology/unit5/bzf5.11.png" "w-25 float-end">}}
 lesson 1
 {{< /figure >}}
 
-Community/Ecosystem diversity is the
-variety of habitats, biotic communities, and
-ecological processes in the biosphere. It is the
-diversity at ecosystem level due to diversity of
-niches, trophic levels and ecological processes
-like nutrient cycles, food webs, energy flow
-and several biotic interactions. India with its
-alpine meadows, rain forests, mangroves,
-coral reefs, grass lands and deserts has one of
-the greatest ecosystem diversity on earth.
+Community/Ecosystem diversity is the variety of habitats, biotic communities, and ecological processes in the biosphere. It is the diversity at ecosystem level due to diversity of niches, trophic levels and ecological processes like nutrient cycles, food webs, energy flow and several biotic interactions. India with its alpine meadows, rain forests, mangroves, coral reefs, grass lands and deserts has one of the greatest ecosystem diversity on earth.
 
 **11.1.3 Magnitude of biodiversity**
 
-Biodiversity is often quantified as the
-number of species in a region at a given time.
-The current estimate of different species on
-earth is around 8-9 million. However, we really
-don’t know the exact magnitude of our natural
-wealth. This is called the ‘The Taxonomic
-impediment’. So far about 1.5 million species of
-microorganisms, animals and plants have been described. Each year about 10-15 thousand
-new species are identified and published
-worldwide, of which 75% are invertebrates. The
-number of undescribed species is undoubtedly
-much higher.
-India is very rich in terms of biological
-diversity due to its unique bio-geographical
-location, diversified climatic conditions and
-enormous eco-diversity and geo-diversity.
-According to world biogeographic classification,
-India represents two of the major realms
-(The Palearctic and Indo-Malayan) and three
-biomes (Tropical humid forests, Tropical Dry/
-Deciduous forests and Warm Deserts/Semi
-deserts). With only about 2.4% of the world’s
-total land surface, India is known to have over
-8 % of the species of animals that the world
-holds and this percentage accounts for about
-92,000 known species.
-India is the seventh largest country in the
-world in terms of area. India has a variety of
-ecosystems, biomes with its varied habitats
-like, hills, valleys, plateaus, sea shores,
-mangroves, estuaries, glaciers, grasslands
-and river basins. It also reflects different
-kinds of climates, precipitation, temperature
-distribution, river flow and soil. India is one
-of the 17 mega biodiversity countries of the
-world and has ten biogeographic zones with
-characteristic habitat and biota.
+Biodiversity is often quantified as the number of species in a region at a given time. The current estimate of different species on earth is around 8-9 million. However, we really don’t know the exact magnitude of our natural wealth. This is called the ‘The Taxonomic impediment’. So far about 1.5 million species of microorganisms, animals and plants have been described. Each year about 10-15 thousand new species are identified and published worldwide, of which 75% are invertebrates. The number of undescribed species is undoubtedly much higher. India is very rich in terms of biological diversity due to its unique bio-geographical location, diversified climatic conditions and enormous eco-diversity and geo-diversity. According to world biogeographic classification, India represents two of the major realms (The Palearctic and Indo-Malayan) and three biomes (Tropical humid forests, Tropical Dry/ Deciduous forests and Warm Deserts/Semi deserts). With only about 2.4% of the world’s total land surface, India is known to have over 8 % of the species of animals that the world holds and this percentage accounts for about 92,000 known species. India is the seventh largest country in the world in terms of area. India has a variety of ecosystems, biomes with its varied habitats like, hills, valleys, plateaus, sea shores, mangroves, estuaries, glaciers, grasslands and river basins. It also reflects different kinds of climates, precipitation, temperature distribution, river flow and soil. India is one of the 17 mega biodiversity countries of the world and has ten biogeographic zones with characteristic habitat and biota.
 
 
 {{< box title="" type="">}}
-
-"The world is currently undergoing a very
-rapid loss of biodiversity comparable
-with the great mass extinction events
-that have previously occurred only
-five or six times in the earth's history."
-- **World Wildlife Fund*
+> The world is currently undergoing a very rapid loss of biodiversity comparable with the great mass extinction events that have previously occurred only five or six times in the earth's history." - **World Wildlife Fund*
 
 {{< /box >}}
 
 
 **11.1.4 Patterns of biodiversity distribution**
 
-The distribution of plants and animals
-is not uniform around the world. Organisms
-require different sets of conditions for their optimum metabolism and growth. Within
-this optimal range (habitat) a large number
-and type of organisms are likely to occur,
-grow and multiply. The habitat conditions are
-determined by their latitudes and altitudes.
+The distribution of plants and animals is not uniform around the world. Organisms require different sets of conditions for their optimum metabolism and growth. Within this optimal range (habitat) a large number and type of organisms are likely to occur, grow and multiply. The habitat conditions are determined by their latitudes and altitudes.
 
 **Latitudinal and altitudinal gradients:**
 
-Temperature, precipitation, distance from the
-equator (latitudinal gradient), altitude from sea
-level (altitudinal gradient) are some of the factors
-that determine biodiversity distribution patterns.
-The most important pattern of biodiversity is
-latitudinal gradient in diversity. This means
-that there is an increasing diversity from the
-poles to equator. Diversity increases as one
-moves towards the temperate zones and reaches
-the maximum at the tropics. Thus, tropics
-harbour more biodiversity than temperate or
-polar regions, especially between the latitudes
-of 23.50N and 23.50S (Tropic of Cancer to the
-Tropic of Capricorn). Harsh conditions exist in
-temperate areas during the cold seasons while
-very harsh conditions prevail for most of the year
-in polar regions.
-Columbia located near the equator (00) has
-nearly 1400 species of birds while New York at
-410N has 105 species and Greenland at 710N
-has 56 species. India, with much of its land area
-in the tropical latitudes, is home for more than
-1200 species of birds. Thus it is evident that the
-latitude increases the species diversity.
-Decrease in species diversity occurs as
-one ascends a high mountain due to drop in
-temperature (temperature decreases @ 6.50C
-per Km above mean sea level)
-The reasons for the richness of
-biodiversity in the Tropics are:
+Temperature, precipitation, distance from the equator (latitudinal gradient), altitude from sea level (altitudinal gradient) are some of the factors that determine biodiversity distribution patterns. The most important pattern of biodiversity is latitudinal gradient in diversity. This means that there is an increasing diversity from the poles to equator. Diversity increases as one moves towards the temperate zones and reaches the maximum at the tropics. Thus, tropics harbour more biodiversity than temperate or polar regions, especially between the latitudes of 23.50N and 23.50S (Tropic of Cancer to the Tropic of Capricorn). Harsh conditions exist in temperate areas during the cold seasons while very harsh conditions prevail for most of the year in polar regions. Columbia located near the equator (00) has nearly 1400 species of birds while New York at 410N has 105 species and Greenland at 710N has 56 species. India, with much of its land area in the tropical latitudes, is home for more than 1200 species of birds. Thus it is evident that the latitude increases the species diversity. Decrease in species diversity occurs as one ascends a high mountain due to drop in temperature (temperature decreases @ 6.50C per Km above mean sea level) The reasons for the richness of biodiversity in the Tropics are:
 
-• Warm tropical regions between the tropic
-of Cancer and Capricorn on either side
-of equator possess congenial habitats for
-living organisms.
-
-• Environmental conditions of the tropics
-are favourable not only for speciation
-
+* Warm tropical regions between the tropic of Cancer and Capricorn on either side of equator possess congenial habitats for living organisms.
+* Environmental conditions of the tropics are favourable not only for speciation
 
 {{< box title="" type="">}}
 
@@ -286,49 +103,21 @@ are favourable not only for speciation
 lesson 1
 {{< /figure >}}
 
-Mean Sea Level (MSL) is an average
-level of the surface of one or more of
-Earth’s oceans (or seas) from which
-heights such as elevations may be
-measured.
+Mean Sea Level (MSL) is an average level of the surface of one or more of Earth’s oceans (or seas) from which heights such as elevations may be measured.
 
-As we travel by train we notice names
-of stations on big yellow signboards
-on which is usually written how much
-elevated that place is compared to MSL.
-For example, Erode junction is about
-171 meters above MSL.
+As we travel by train we notice names of stations on big yellow signboards on which is usually written how much elevated that place is compared to MSL. For example, Erode junction is about 171 meters above MSL.
 
 {{< /box >}}
 
-but also for supporting both variety and
-number of organisms.
+but also for supporting both variety and number of organisms.
 
-• The temperatures vary between 250C to
-350C, a range in which most metabolic
-activities of living organisms occur with
-ease and efficiency.
+*  The temperatures vary between 250C to 350C, a range in which most metabolic activities of living organisms occur with ease and efficiency.
 
-• The average rainfall is often more than
-200 mm per year.
+*  The average rainfall is often more than 200 mm per year.
 
-• Climate, seasons, temperature, humidity,
-photoperiods are more or less stable and
-encourage both variety and numbers.
+*  Climate, seasons, temperature, humidity, photoperiods are more or less stable and encourage both variety and numbers.
 
-• Rich resource and nutrient availability.
-Species - Area relationships
-German Naturalist and Geographer
-Alexander von Humboldt explored the
-wilderness of south American jungles and
-found that within a region the species richness
-increased with increasing area but upto a certain limit. The relationship between species
-richness and area for a wide variety of taxa
-(angiosperm plants, birds, bats, freshwater
-fishes) turned out to be the rectangular
-hyperbola. On a logarithmic scale, the
-relationship is a straight line described by the
-equation.
+* Rich resource and nutrient availability. Species - Area relationships German Naturalist and Geographer Alexander von Humboldt explored the wilderness of south American jungles and found that within a region the species richness increased with increasing area but upto a certain limit. The relationship between species richness and area for a wide variety of taxa (angiosperm plants, birds, bats, freshwater fishes) turned out to be the rectangular hyperbola. On a logarithmic scale, the relationship is a straight line described by the equation.
 
 log S = log C + Z log A
 
@@ -349,47 +138,11 @@ lesson 1
 {{< /figure >}}
 
 
-Regression coefficient Z generally has a
-value of 0.1-0.2 regardless of taxonomic group
-or region. However, in case of the species –
-area relationship in very large areas like entire
-continents, the slope of the line appears to
-be much steeper (Z-value in the range of
-0.6-1.2). For example, in case of the fruit eating
-(frugivorous) birds and mammals in the tropical
-forests of different continents, the slope is found
-to be a steeper line of 1.15 (Fig. 11.2).
+Regression coefficient Z generally has a value of 0.1-0.2 regardless of taxonomic group or region. However, in case of the species – area relationship in very large areas like entire continents, the slope of the line appears to be much steeper (Z-value in the range of 0.6-1.2). For example, in case of the fruit eating (frugivorous) birds and mammals in the tropical forests of different continents, the slope is found to be a steeper line of 1.15 (Fig. 11.2).
 
 **11.2 Importance of biodiversity – Global and India**
 
-Biodiversity is the variety of life on earth.
-That is, it is the number of different species of flora and fauna including microorganisms.
-These organisms can inhabit different
-ecosystems with varying conditions like the
-Rainforests, Coral reefs, Grasslands, Deserts,
-Tundra and the Polar ice caps. This variety
-(Biodiversity) is essential for the wellbeing of
-our planet and sustenance of life as a whole.
-Ecologist Paul Ehrlich proposed the 'Rivet
-Popper Hypothesis' for better understanding
-the loss of each species in the ecosystem. He
-compared each species of an ecosystem with
-rivets in the body of an aeroplane. Thousands
-of rivets (species) join all the parts of an
-aeroplane (ecosystem). If every passenger
-travelling in the aeroplane starts taking rivets
-home(loss of species), initially it may not
-affect flight safety (proper functioning of the
-ecosystem). However, the plane becomes
-dangerously weak over a period of time,
-when more and more rivets are removed.
-Moreover, which rivet is removed is also
-important. When the key rivets (removal
-of key stone species) on the wings of the
-aeroplane are removed, undoubtedly it poses
-a serious threat to the flight safety. Thus we
-understand the role of every species for the
-harmonial function of an ecosystem.
+Biodiversity is the variety of life on earth. That is, it is the number of different species of flora and fauna including microorganisms. These organisms can inhabit different ecosystems with varying conditions like the Rainforests, Coral reefs, Grasslands, Deserts, Tundra and the Polar ice caps. This variety (Biodiversity) is essential for the wellbeing of our planet and sustenance of life as a whole. Ecologist Paul Ehrlich proposed the 'Rivet Popper Hypothesis' for better understanding the loss of each species in the ecosystem. He compared each species of an ecosystem with rivets in the body of an aeroplane. Thousands of rivets (species) join all the parts of an aeroplane (ecosystem). If every passenger travelling in the aeroplane starts taking rivets home(loss of species), initially it may not affect flight safety (proper functioning of the ecosystem). However, the plane becomes dangerously weak over a period of time, when more and more rivets are removed. Moreover, which rivet is removed is also important. When the key rivets (removal of key stone species) on the wings of the aeroplane are removed, undoubtedly it poses a serious threat to the flight safety. Thus we understand the role of every species for the harmonial function of an ecosystem.
 
 The importance of biodiversity can be
 viewed and measured as
