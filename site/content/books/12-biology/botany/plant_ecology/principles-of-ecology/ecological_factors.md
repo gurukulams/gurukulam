@@ -444,24 +444,10 @@ pore spaces of soil particles and angles
 between them is the most important form of
 water available to the plants.
 
-**3. Soil reactions:** Soil may be acidic or
-alkaline or neutral in their reaction. pH value
-of the soil solution determines the availability
-of plant nutrients. The best pH range of the soil
-for cultivation of crop plants is **5.5 to 6.8.**
 
 
-**4. Soil nutrients:**Soil fertility and productivity
-is the ability of soil to provide all essential
-plant nutrients such as minerals and organic
-nutrients in the form of ions.
 
 
-**5. Soil temperature:** Soil temperature of an
-area plays an important role in determining
-the geographical distribution of plants. Low
-temperature reduces use of water and solute
-absorption by roots.
 
 
 **6. Soil atmosphere:** The spaces left between
