@@ -6,6 +6,10 @@ weight: 1
 ---
 
 
+{{< figure "images/Tweety.png" "w-25 float-end">}}
+Hello Caption
+{{< /figure >}}
+
 ![Unit 9 ](/books/12-biology/botany/Ecology/pic1.png#floatright)
 
 The term “ecology”
