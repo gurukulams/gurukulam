@@ -4,78 +4,9 @@
 
 @import './base/typography';
 @import './themes/theme';
+@import './components/sidebar';
+
 
 @import './vendors/bootstrap';
 
 
-#sidebar {
-    width: 50px;
-}
-
-.sidebar {
-    height: 100vh;
-    width: 50px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding-top: 50px;
-    background-color: white;
-    display: none;
-}
-
-.sidebar div {
-    padding: 8px;
-    font-size: 24px;
-    display: block;
-}
-
-#hide-sidebar-control {
-    position: fixed;
-    bottom: 10px;
-    right: 0;
-}
-
-#hide-sidebar:checked~#sidebar {
-    display: block;
-}
-
-#hide-sidebar-control>a::before {
-    content: "<";
-}
-
-#hide-sidebar:checked~#hide-sidebar-control {
-    right: 60px;
-}
-
-#hide-sidebar:checked~#hide-sidebar-control>a::before {
-    content: ">";
-}
-
-img[src$='#center']
-{
-    display: block;
-    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
-                            whatever floats your boat, but keep the
-                            horizontal 'auto' for this to work */
-    /* whatever else styles you fancy here */
-}
-
-img[src$='#floatleft']
-{
-    float:left;
-    margin: 0.7rem;      /* this margin is totally up to you */
-    /* whatever else styles you fancy here */
-}
-
-img[src$='']
-{
-    float:right;
-    margin: 0.7rem;      /* this margin is totally up to you */
-    /* whatever else styles you fancy here */
-}
-
-#content > div.goat.svg-container {
-    width: 25%;
-    height: fit-content;
-    float:left;
-}
