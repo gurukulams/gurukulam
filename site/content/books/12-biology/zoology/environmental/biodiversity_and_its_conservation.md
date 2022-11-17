@@ -5,24 +5,6 @@ draft: false
 weight: 2
 ---
 
-## Chapter outline
-
-11.1 Biodiversity
-
-11.2 Importance of biodiversity – Global
-and India
-
-11.3 Biogeographical regions of India
-
-11.4 Threats to biodiversity
-
-11.5. Causes of Biodiversity Loss
-
-11.6 IUCN
-
-11.7 Biodiversity and its conservation
-
-
 {{< box title=" Learning objectives" type="objective">}}
 
 ➢ Acquire knowledge about concept,
