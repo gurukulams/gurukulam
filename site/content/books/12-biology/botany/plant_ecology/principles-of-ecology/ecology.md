@@ -32,12 +32,45 @@ The term “ecology” **(oekologie)** is derived from two Greek words – **oik
 
 The interaction of organisms with their environment results in the establishment of grouping of organisms which is called ecological hierarchy or ecological levels of organization. The basic unit of ecological hierarchy is an individual organism. The hierarchy of ecological systems is illustrated below:
 
+{{< diagram "w-25 float-sm-end min-vh-100" "Flow Chart">}}
 
+```goat
+        .------------. 
+        |  Biosphere |
+        '------------'
+              ^
+              |
+        .------------. 
+        |    Biome   |
+        '------------'
+              ^
+              |
+        .------------. 
+        | Landscape  |
+        '------------'
+              ^
+              |
+        .------------. 
+        | Ecosystem  |
+        '------------'
+              ^
+              |
+        .------------. 
+        |  Community |
+        '------------'
+              ^
+              |
+        .------------. 
+        | Population |
+        '------------'
+              ^
+              |
+   .----------+-----------. 
+   | Individual Organizms |
+   '----------------------'
+```
 
-{{< figure "images/books/12-biology/botany/Ecology/pic2.png""w-20 float-sm-end">}}
-Unit 9 - flowchart 1
-{{< /figure >}}
-
+{{< /diagram >}}
 
 #### Branches of Ecology: 
 

@@ -13,10 +13,10 @@
 <figure class="figure {{ (.Get 1) }}">
   <img class="figure-img w-100 img-fluid rounded" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" 
   height="{{ $img.Height }}">
-  <figcaption class="figure-caption">
+  <figcaption class="figure-caption text-center">
   
     {{ with .Inner }}
-      {{ . }}
+    {{$.Page.RenderString .}}
     {{ else }}
       .{{ $command }} "{{ $options }}"
     {{ end }}

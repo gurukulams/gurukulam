@@ -1,0 +1,14 @@
+<figure class="figure {{ (.Get 0) }}">
+    
+    
+      {{ with .Inner }}
+      {{$.Page.RenderString .}}
+      {{ end }}
+      
+      <figcaption class="figure-caption text-center">
+  
+        {{ (.Get 1) }}
+    
+      </figcaption>
+ 
+  </figure>
