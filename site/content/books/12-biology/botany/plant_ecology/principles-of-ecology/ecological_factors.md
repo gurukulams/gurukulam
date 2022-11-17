@@ -20,12 +20,7 @@ manner.
 
 {{< box title="Learning Objectives" type="dyn" >}}
 
-Flowers of poppy, chicory,
-dog rose and many other
-plants, blossom before the
-break of dawn (4 – 5 am),
-evening primrose open up with the onset
-of dusk (5 – 6 pm) due to diurnal rhythm.
+Flowers of poppy, chicory, dog rose and many other plants, blossom before the break of dawn (4 – 5 am), evening primrose open up with the onset of dusk (5 – 6 pm) due to diurnal rhythm.
 
 {{< /box >}}
 
@@ -44,7 +39,7 @@ Light is a well known factor needed for the basic physiological processes of pla
 **Effects of light on plants**
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic4.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic4.png" "w-25 float-start">}}
 Figure 6.2: Various effects of light upon a green plant
 {{< /figure >}}
 
@@ -391,7 +386,7 @@ Figure 6.10: A nodulated legume plant root with bacteria
 
 The plants which are found growing on other plants without harming them are called epiphytes. They are commonly found in tropical rain forest.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic15.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic15.png" "w-25 float-start">}}
 Figure 6.11: An epiphytic plant-Vanda
 {{< /figure >}}
 

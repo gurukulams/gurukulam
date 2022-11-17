@@ -7,79 +7,42 @@ weight: 3
 
 
 
-The modifications in the structure of
-organisms to survive successfully in an
-environment are called **adaptations** of
-organisms. Adaptations help the organisms to
-exist under the prevailing ecological habitat.
-Based on the habitats and the corresponding
-adaptations of plants, they are classified
-as hydrophytes, xerophytes, mesophytes,
-epiphytes and halophytes.
+The modifications in the structure of organisms to survive successfully in an environment are called **adaptations** of organisms. Adaptations help the organisms to exist under the prevailing ecological habitat. Based on the habitats and the corresponding adaptations of plants, they are classified as hydrophytes, xerophytes, mesophytes, epiphytes and halophytes.
 
 **Hydrophytes**
 
-The plants which are living in water or wet
-places are called hydrophytes. According to
-their relation to water and air, they are sub-
-divided into following categories: i) Free
-floating hydrophytes, ii) Rooted- floating
-hydrophytes, iii) Submerged floating
-hydrophytes, iv) Rooted -submerged
-hydrophytes, v) Amphibious hydrophytes.
+The plants which are living in water or wet places are called hydrophytes. According to their relation to water and air, they are sub- divided into following categories: i) Free floating hydrophytes, ii) Rooted- floating hydrophytes, iii) Submerged floating hydrophytes, iv) Rooted -submerged hydrophytes, v) Amphibious hydrophytes.
 
-**i. Free floating hydrophytes:** These plants
-float freely on the surface of water. They
-remain in contact with water and air, but not
-with soil. Examples: Eichhornia, Pistia and
-Wolffia (smallest flowering plant).
+**i. Free floating hydrophytes:** These plants float freely on the surface of water. They remain in contact with water and air, but not with soil. Examples: Eichhornia, Pistia and Wolffia (smallest flowering plant).
 
 
-**ii. Rooted floating hydrophytes:** In these
-plants, the roots are fixed in mud, but their
-leaves and flowers are floating on the surface
-of water. These plants are in contact with soil,
-water and air. Examples: *Nelumbo, Nymphaea, Potomogeton and Marsilea.*
+**ii. Rooted floating hydrophytes:** In these plants, the roots are fixed in mud, but their leaves and flowers are floating on the surface of water. These plants are in contact with soil, water and air. Examples: *Nelumbo, Nymphaea, Potomogeton and Marsilea.*
 
 **Lotus seeds show highest longevity in plant kingdom.**
 
-**iii. Submerged floating hydrophytes:** These
-plants are completely submerged in water and
-not in contact with soil and air. Examples:
-*Ceratophyllum and Utricularia.*
+**iii. Submerged floating hydrophytes:** These plants are completely submerged in water and not in contact with soil and air. Examples: *Ceratophyllum and Utricularia.*
 
 
-**iv. Rooted- submerged hydrophytes:** These
-plants are completely submerged in water
-and rooted in soil and not in contact with air.
-*Examples: Hydrilla, Vallisneria and Isoetes.*
+**iv. Rooted- submerged hydrophytes:** These plants are completely submerged in water and rooted in soil and not in contact with air. *Examples: Hydrilla, Vallisneria and Isoetes.*
 
-**v. Amphibious hydrophytes** (Rooted emergent
-hydrophytes): These plants are adapted to both
+**v. Amphibious hydrophytes** (Rooted emergent hydrophytes): These plants are adapted to both
 
-{{< figure "images/books/12-biology/botany/Ecology/pic22.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic22.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/Ecology/pic23.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic23.png" "w-40 float-right">}}
 
 {{< /figure >}}
 
-aquatic and terrestrial modes of life. They grow
-in shallow water. Examples: Ranunculus, Typha
-and Sagittaria.
+aquatic and terrestrial modes of life. They grow in shallow water. Examples: Ranunculus, Typha and Sagittaria.
 
-**Hygrophytes:** The plants which can grow
-in moist damp and shady places are called
-hygrophytes. Examples: Habenaria (Orchid),
-Mosses (Bryophytes), etc.
+**Hygrophytes:** The plants which can grow in moist damp and shady places are called hygrophytes. Examples: Habenaria (Orchid), Mosses (Bryophytes), etc.
 
 ### Morphological adaptations of Hydrophytes:
 **In root**
 
-* Roots are totally absent in Wolffia and
-Salvinia or poorly developed in Hydrilla or
-well developed in *Ranunculus.*
+* Roots are totally absent in Wolffia and Salvinia or poorly developed in Hydrilla or well developed in *Ranunculus.*
 
 * The root caps are replaced by root pockets.
 *Example: Eichhornia*
@@ -90,35 +53,24 @@ well developed in *Ranunculus.*
 * The stem is long, slender, spongy and flexible
 in submerged forms.
 
-*  In free floating forms the stem is thick, short
-stoloniferous and spongy; and in rooted
-floating forms, it is a rhizome .
+*  In free floating forms the stem is thick, short stoloniferous and spongy; and in rooted floating forms, it is a rhizome .
 
-* Vegetative propagation is through runners,
-stolon, stem and root cuttings , tubers,
-dormant apices and offsets.
+* Vegetative propagation is through runners, stolon, stem and root cuttings , tubers, dormant apices and offsets.
 
 **In leaves**
 
-* The leaves are thin, long and ribbon shaped in
-*Vallisneria* or long and linear in Potamogeton
-or finely dissected in *Ceratophyllum*
+* The leaves are thin, long and ribbon shaped in *Vallisneria* or long and linear in Potamogeton or finely dissected in *Ceratophyllum*
 
-* The floating leaves are large and flat as in
-Nymphaea and Nelumbo. In Eichhornia and
-Trapa petioles become swollen and spongy.
+* The floating leaves are large and flat as in Nymphaea and Nelumbo. In Eichhornia and Trapa petioles become swollen and spongy.
 
-* In emergent forms, the leaves show
-heterophylly (Submerged leaves are
-dissected and aerial leaves are entire).
+* In emergent forms, the leaves show heterophylly (Submerged leaves are dissected and aerial leaves are entire).
 
 **Example:**
 *Ranunculus,Limnophila , heterophylla and Sagittaria*
 
 **Anatomical adaptations**
 
-* Cuticle is either completely absent or if
-present it is thin and poorly developed
+* Cuticle is either completely absent or if present it is thin and poorly developed
 
 * Single layer of epidermis is present
 
@@ -132,7 +84,7 @@ developed.
 except in some emergent forms. Pith cells
 are sclerenchymatous.
  
- {{< figure "images/books/12-biology/botany/Ecology/pic24.png" "w-25 float-end">}}
+ {{< figure "images/books/12-biology/botany/Ecology/pic24.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -175,9 +127,11 @@ a short period
 These are not true xerophytes. Examples:
 *Argemone, Mollugo, Tribulus and Tephrosia.*
 
-{{< figure "images/books/12-biology/botany/Ecology/pic25.png" "w-25 float-end">}}
+
+{{< figure "images/books/12-biology/botany/Ecology/pic25.png" "w-25 float-right">}}
 
 {{< /figure >}}
+
 
 **ii. Succulents:** These are also called drought
 **enduring plants**. These plants store water in
@@ -207,7 +161,7 @@ They have many adaptations to resist dry
 conditions. *Examples: Casuarina, Nerium,*
 *Zizyphus and Acacia.*
 
-{{< figure "images/books/12-biology/botany/Ecology/pic26.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic26.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -244,7 +198,7 @@ In some the petiole is modified into a fleshy
 leaf like structurcalled phyllode (Acacia
 melanoxylon)..
 
-{{< figure "images/books/12-biology/botany/Ecology/pic27.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic27.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -296,7 +250,7 @@ palisade and spongy parenchyma.
 * In succulents the stem possesses a water
 storage region.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic28.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic28.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -404,7 +358,7 @@ greatly reduces transpiration.
 * Succulent epiphytes contain well developed
 parenchymatous cells to store water.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic29.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic29.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -443,12 +397,12 @@ pneumathodes to get sufficient aeration
 are also present. They are called breathing
 roots. *Example: Avicennia*
 
-{{< figure "images/books/12-biology/botany/Ecology/pic30.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic30.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic31.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic31.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
