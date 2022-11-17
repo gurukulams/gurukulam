@@ -6,9 +6,7 @@ weight: 1
 ---
 
 
-###  Structure of ecosystem
-
-
+####  Structure of ecosystem
 
 Ecosystem comprises of two major components. They are:
 

@@ -32,7 +32,7 @@ The individual seeds or the whole fruit may be modified to help for the dispersa
 * Feathery Appendages: Seeds or fruits may have feathery appendages which greatly increase their buoyancy to disperse to high altitudes. Examples: Vernonia and Asclepias.
 
 
-* C ensor mechanisms: The fruits of many plants open in such a way that the seeds can escape only when the fruit is violently shaken by a strong wind. Examples: Aristolochia and Poppy.
+* Censor mechanisms: The fruits of many plants open in such a way that the seeds can escape only when the fruit is violently shaken by a strong wind. Examples: Aristolochia and Poppy.
 
 
 Guess!! Who am I…….? I am dispersed by ant and I have caruncle.
