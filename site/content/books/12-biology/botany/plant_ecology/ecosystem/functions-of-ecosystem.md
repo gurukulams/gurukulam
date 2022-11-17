@@ -279,11 +279,12 @@ Though there are many types of ecosystems as charted above. Only the pond ecosys
 
 #### Structure of Pond ecosystem
 
-It is a classical example for natural, aquatic, freshwater, lentic type of ecosystem. It helps us to understand the structure and function of an ecosystem. When rain water gathers in a shallow area, gradually over a period of time, different kinds of organisms (microbes, plants, animals) become part of this ecosystem. This pond ecosystem is a self sustaining and self regulatory fresh water ecosystem, which shows a complex interaction between the abiotic and biotic components in it.
-
 {{< figure "images/books/12-biology/botany/images/18.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
+
+It is a classical example for natural, aquatic, freshwater, lentic type of ecosystem. It helps us to understand the structure and function of an ecosystem. When rain water gathers in a shallow area, gradually over a period of time, different kinds of organisms (microbes, plants, animals) become part of this ecosystem. This pond ecosystem is a self sustaining and self regulatory fresh water ecosystem, which shows a complex interaction between the abiotic and biotic components in it.
+
 
 {{< figure "images/books/12-biology/botany/images/19.9.png" "w-25 float-left">}}
 lesson 9
@@ -326,15 +327,16 @@ lesson 9
 
 Based on the factors like distance from the shore, penetration of light, depth of water, types of plants and animals, there may be three zones, littoral, limnetic and profundal. The littoral zone, which is closest to the shore with shallow water region, allows easy penetration of light. It is warm and occupied by rooted plant species. The limnetic zone refers the open water of the pond with an effective penetration of light and domination of planktons. The deeper region of a pond below the limnetic zone is called profundal zone with no effective light penetration and predominance of heterotrophs. The bottom zone of a pond is termed benthic and is occupied by a community of organisms called benthos (usually decomposers).The primary productivity through photosynthesis of littoral and limnetic zone is more due to greater penetration of light than the profundal zone
 
+{{< figure "images/books/12-biology/botany/images/23.9.png" "w-25 float-left">}}
+lesson 9
+{{< /figure >}}
+
 #### Ecosystem services ( Benefits)
 
 Ecosystem services are defined as the benefits that people derive from nature. Robert Constanza et al (1927) stated “Ecosystem services are the benefits provided to human, through the transformation of resources (or Environmental assets including land, water, vegetation and atmosphere) into a flow of essential goods and services”.
 
 Study on ecosystem services acts as an effective tool for gaining knowledge on ecosystem benefits and their sustained use. Without such knowledge gain, the fate of any ecosystem will be at stake and the benefits they provide to us in future will become bleak.
 
-{{< figure "images/books/12-biology/botany/images/23.9.png" "w-25 float-left">}}
-lesson 9
-{{< /figure >}}
 
 {{< figure "images/books/12-biology/botany/images/24.9.png" "w-25 float-left">}}
 lesson 9
@@ -369,7 +371,7 @@ disturb or re-engineer an ecosystem every day.
 • Run off pesticides, fertilizers and animal
 wastes
 
-{{< figure "images/books/12-biology/botany/images/26.9.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/26.9.png" "w-25 float-right">}}
 lesson 9
 {{< /figure >}}
 
