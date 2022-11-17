@@ -6,19 +6,11 @@ weight: 1
 ---
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic1.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic1.png" "w-20 float-sm-end">}}
 Unit 9 
 {{< /figure >}}
 
-The term “ecology”
-**(oekologie)** is derived from
-two Greek words – **oikos**
-(meaning house or dwelling
-place and **logos** meaning
-study) It was first proposed by
-Reiter (1868). However, the
-most widely accepted definition of ecology was
-given by **Ernest Haeckel** (1869). 
+The term “ecology” **(oekologie)** is derived from two Greek words – **oikos** (meaning house or dwelling place and **logos** meaning study) It was first proposed by Reiter (1868). However, the most widely accepted definition of ecology was given by **Ernest Haeckel** (1869). 
 
 **Alexander von Humbolt** - Father of Ecology
 
@@ -42,7 +34,7 @@ The interaction of organisms with their environment results in the establishment
 
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic2.png""w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/Ecology/pic2.png""w-20 float-sm-end">}}
 Unit 9 - flowchart 1
 {{< /figure >}}
 
@@ -128,15 +120,7 @@ Taxonomically different species occupying similar habitats (Niches) in different
 
 **Examples:**
 
-* Certain species of epiphytic orchids of
-Western Ghats of India differ from the
-epiphytic orchids of South America. But
-they are epiphytes.
+* Certain species of epiphytic orchids of Western Ghats of India differ from the epiphytic orchids of South America. But they are epiphytes.
 
-* Species of the grass lands of Western Ghats
-of India differ from the grass species of
-temperate grass lands of Steppe in North
-America. But they are all ecologically
-primary producers and fulfilling similar
-roles in their respective communities.
+* Species of the grass lands of Western Ghats of India differ from the grass species of temperate grass lands of Steppe in North America. But they are all ecologically primary producers and fulfilling similar roles in their respective communities.
 
