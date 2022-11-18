@@ -1,7 +1,7 @@
 class Home {
   constructor() {
     if (sessionStorage.auth) {
-      window.location.href = "books/12-biology";
+      window.location.href = "books/tn-stateboard/12-biology";
     }
 
     const host = window.location.protocol + "//" + window.location.host;
@@ -52,7 +52,7 @@ class Home {
       })
       .then((data) => {
         sessionStorage.auth = JSON.stringify(data);
-        window.location.href = "books/12-biology";
+        window.location.href = "books/tn-stateboard/12-biology";
       })
       .catch((err) => {
         document.querySelector(".invisible").classList.remove("invisible");
