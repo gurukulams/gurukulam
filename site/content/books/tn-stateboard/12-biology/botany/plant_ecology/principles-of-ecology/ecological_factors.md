@@ -28,8 +28,10 @@ Flowers of poppy, chicory, dog rose and many other plants, blossom before the br
 
 Climate is one of the important natural factors controlling the plant life. The climatic factors includes light, temperature, water, wind and fire.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic3.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.1: Environmental factors affecting a plant.png" "w-25 float-left">}}
+
 Figure 6.1: Environmental factors affecting a plant
+
 {{< /figure >}}
 
 **a. Light**
@@ -39,8 +41,10 @@ Light is a well known factor needed for the basic physiological processes of pla
 **Effects of light on plants**
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic4.png" "w-25 float-left">}}
+{{< images/books/12-biology/botany/Plant Ecology/Figure 6.2: Various effects of light upon a green plant.png" "w-25 float-left">}}
+
 Figure 6.2: Various effects of light upon a green plant
+
 {{< /figure >}}
 
 Based on the tolerance to intensities of light, the plants are divided into two types. They are 
@@ -88,8 +92,10 @@ Mango plant does not grow in temperate countries like Canada and Germany
 
 It is usually found in aquatic habitat. The change in the temperature profile with increasing depth in a water body is called **thermal stratification**. There are three levels of thermal stratifications.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic5.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.3: Thermal stratification of pond.png" "w-25 float-left">}}
+
 Figure 6.3: Thermal stratification of pond
+
 {{< /figure >}}
 
 **1. Epilimnion** – The upper layer of warmer water.
@@ -106,7 +112,17 @@ Variations in **latitude** and **altitude** do affect the temperature and the ve
 
 **Altitude:** How high a place is located above the sea level is called the altitude of the place.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic6.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.4: Latitudinal zonation of vegetation.png" "w-25 float-left">}}
+
+Figure 6.4: Latitudinal zonation of vegetation
+
+{{< /figure >}}
+
+
+
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.5: Altitudinal zonation of vegetation.png" "w-25 float-left">}}
+
+Figure 6.5: Altitudinal zonation of vegetation.png
 
 {{< /figure >}}
 
@@ -147,9 +163,9 @@ The productivity and distribution of plants depend upon the availability of wate
 
 **2. Stenohaline:** Organisms which can withstand only small range of salinity. Example: Plants of estuaries.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic7.png" "w-25 float-left">}}
+ {{< figure "images/books/12-biology/botany/Ecology/Table" "w-25 float-left">}}
 Table 6.2: Tolerance of Environmental factor
-{{< /figure >}}
+{{< /figure >}} 
 
 
 **Examples of tolerance to toxicity**
@@ -190,7 +206,9 @@ Gases let out to atmosphere causes climatic change. Emission of dust and aerosol
 
 *  Unidirectional wind stimulates the development of flag forms in trees.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic8.png" "w-20 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.6: Flag form in trees.png.png" "w-20 float-left">}}
+
+Figure 6.6: Flag form in trees.png
 
 {{< /figure >}}
 
@@ -264,8 +282,10 @@ The important edaphic factors which affect vegetation are as follows:
 
 **7. Soil organisms:** Many organisms existing in the soil like bacteria, fungi, algae, protozoans, nematodes, insects, earthworms, etc. are called soil organisms. 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.7: Soil Profile.png" "w-25 float-left">}}
+
 Figure 6.7: Soil Profile
+
 {{< /figure >}}
 
 **Soil Profile**
@@ -276,8 +296,8 @@ Soil is commonly stratified into horizons at different depth. These layers diffe
 
 Based on the relative proportion of soil particles, four types of soil are recognized.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic10.png" "w-25 float-left">}}
-Table 6.3: Types of soil particles
+{{< figure "images/books/12-biology/botany/Ecology/Table 6.3: Types of soil particles.png" "w-25 float-left">}}
+Table 6.3: Types of soil particles 
 {{< /figure >}}
 
 **Loamy soil is ideal soil for cultivation.** It consists of 70% sand and 30% clay or silt or both. It ensures good retention and proper drainage of water. The porosity of soil provides adequate aeration and allows the penetration of roots.
@@ -316,7 +336,9 @@ The surface features of earth are called **topography.** Topographic influence o
 
 Latitudes represent distance from the equator. Temperature values are maximum at the equator and decrease gradually towards poles. Different types of vegetation occur from equator to poles which are illustrated below.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic11.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.8: Latitudinal and Altitudinal Vegetation.png" "w-25 float-left">}}
+
+Figure 6.8: Latitudinal and Altitudinal Vegetation
 
 {{< /figure >}}
 
@@ -337,7 +359,9 @@ Similarly in the soil of aquatic bodies like ponds the center and edge possess d
 
 The steepness of the mountain or hill allows the rain to run off. As a result the loss of water causes water deficit and quick erosion of the top soil resulting in poor vegetation. On the other hand, the plains and valley are rich in vegetation due to the slow drain of surface water and better retention of water in the soil.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic12.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.9: Steepness of mountain.png" "w-25 float-left">}}
+
+Figure 6.9: Steepness of mountain
 
 {{< /figure >}}
 
@@ -355,8 +379,10 @@ When one or both the participating species are benefited, it is positive interac
 
 **Rhizobium**(Bacterium) forms nodules in the roots of leguminous plants and lives symbiotically. The Rhizobium obtains food from leguminous plant and in turn fixes atmospheric nitrogen into nitrate, making it available to host plants.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic13.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Ecology/Table 6.4:" "w-25 float-left">}}
+
 Table 6.4: Different interactions of plant
+
 {{< /figure >}}
 
 **Other examples:**
@@ -376,8 +402,10 @@ Table 6.4: Different interactions of plant
 
 **b. Commensalism:**It is an interaction between two organisms in which one is benefitted and the other is neither benefitted nor harmed. The species that derives benefit is called the **commensal**, while the other species is called the host. The common examples of commensalism are listed below:
 
-{{< figure "images/books/12-biology/botany/Ecology/pic14.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.10: A nodulated legume plant root with bacteria.png" "w-25 float-left">}}
+
 Figure 6.10: A nodulated legume plant root with bacteria
+
 {{< /figure >}}
 
 
@@ -386,8 +414,10 @@ Figure 6.10: A nodulated legume plant root with bacteria
 
 The plants which are found growing on other plants without harming them are called epiphytes. They are commonly found in tropical rain forest.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic15.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.11: An epiphytic plant-Vanda.png" "w-25 float-left">}}
+
 Figure 6.11: An epiphytic plant-Vanda
+
 {{< /figure >}}
 
 The epiphytic higher plant **(Orchid)** gets its nutrients and water from the atmosphere with the help of the hygroscopic roots which contain special type of spongy tissue called **Velamen.** It prepares its own food and does not depend on the host. Using the host plant only they support and does not harm it in any way.
@@ -417,8 +447,10 @@ When one of the interacting species is benefitted and the other is harmed, it is
 
 *  A number of plants like Drosera (Sun dew Plant), Nepenthes (Pitcher Plant), Dionaea (Venus fly trap), Utricularia (Bladder wort) and Sarracenia are predators which consume insects and other small animals for their food as a source of nitrogen. They are also called as **insectivorous plants.**
 
-{{< figure "images/books/12-biology/botany/Ecology/pic16.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.12: Pitcher plant – with insect.png" "w-25 float-left">}}
+
 Figure 6.12: Pitcher plant – with insect
+
 {{< /figure >}}
 
 *  Many herbivores are predators. Cattles, Camels, Goats etc., frequently browse on the tender shoots of herbs, shrubs and trees. Generally annuals suffer more than the perennials. Grazing and browsing may cause remarkable changes in vegetation. Nearly 25 percent of all insects are known as phytophagous(feeds on plant sap and other parts of plant)
