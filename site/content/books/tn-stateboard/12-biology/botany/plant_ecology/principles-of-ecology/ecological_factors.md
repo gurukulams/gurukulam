@@ -28,7 +28,7 @@ Flowers of poppy, chicory, dog rose and many other plants, blossom before the br
 
 Climate is one of the important natural factors controlling the plant life. The climatic factors includes light, temperature, water, wind and fire.
 
-{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.1: Environmental factors affecting a plant.png" "w-25 float-left">}}
+
 
 Figure 6.1: Environmental factors affecting a plant
 
