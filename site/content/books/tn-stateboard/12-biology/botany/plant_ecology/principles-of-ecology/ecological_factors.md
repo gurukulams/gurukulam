@@ -455,8 +455,10 @@ Figure 6.12: Pitcher plant – with insect
 
 *  Many herbivores are predators. Cattles, Camels, Goats etc., frequently browse on the tender shoots of herbs, shrubs and trees. Generally annuals suffer more than the perennials. Grazing and browsing may cause remarkable changes in vegetation. Nearly 25 percent of all insects are known as phytophagous(feeds on plant sap and other parts of plant)
 
-{{< figure "images/books/12-biology/botany/Ecology/pic17.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.13: Insectivorous plant Utricularia.png "w-25 float-left">}}
+
 Figure 6.13: Insectivorous plant Utricularia
+
 {{< /figure >}}
 
 *  Many defense mechanisms are evolved to avoid their predations by plants. Examples: Calotropis produces highly poisonous cardiac glycosides, Tobacco produces nicotine, coffee plants produce caffeine, Cinchona plant produces quinine. Thorns of Bougainvillea, spines of Opuntia, and latex of cacti also protect them from predators.
@@ -468,8 +470,10 @@ Figure 6.13: Insectivorous plant Utricularia
 
 The organisms which are dependent upon the host plants for their entire nutrition are called **Holoparasites.** They are also called **total parasites**.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic18.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.14: a) Holoparasite – Cuscuta b) A Partial stem parasite – Viscum c) Root parasite on the brinjal root Orobanche spp.png" "w-25 float-left">}}
+
 Figure 6.14: a) Holoparasite – Cuscuta b) A Partial stem parasite – Viscum c) Root parasite on the brinjal root Orobanche spp. 
+
 {{< /figure >}}
 
 Examples:
@@ -513,11 +517,14 @@ Aspergillus.
 **i. Mimicry:** It is a phenomenon in which living organism modifies its form, appearance, structure or behavior and looks like another living organism as a self defence and increases the chance of its survival. Floral mimicry is for usually inviting pollinators but animal mimicry is often protective. Mimicry is a result of evolutionary significance due to shape and sudden heritable mutation and preservation by natural selection.
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic19.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.15: Mimicry.png" "w-25 float-left">}}
+
+Figure 6.15: Mimicry
 
 {{< /figure >}}
 
 Example:
+
 * The plant, Ophrys an orchid, the flower looks like a female insect to attract the male insect to get pollinated by the male insect and it is otherwise called ‘floral mimicry ‘.
 
 
@@ -525,13 +532,17 @@ Example:
 
 **ii. Myrmecophily:** Sometimes, ants take their shelter on some trees such as Mango, Litchi, Jamun, Acacia etc. These ants act as body guards of the plants against any disturbing agent and the plants in turn provide food and shelter to these ants. This phenomenon is known as Myrmecophily. Example: Acacia and acacia ants.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic20.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.16: Myrmecophily.png" "w-25 float-left">}}
+
+Figure 6.16: Myrmecophily
 
 {{< /figure >}}
 
 **iii. Co-evolution:** The interaction between organisms, when continues for generations, involves reciprocal changes in genetic and morphological characters of both organisms. This type of evolution is called Co-evolution. It is a kind of co- adaptation and mutual change among interactive species. Examples:
 
-{{< figure "images/books/12-biology/botany/Ecology/pic21.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/Plant Ecology/Figure 6.17: Co-evolution.png" "w-25 float-left">}}
+
+Figure 6.17: Co-evolution
 
 {{< /figure >}}
 
