@@ -5,6 +5,7 @@ draft: false
 weight: 2
 ---
 
+
 Many organisms, co-exist in an environment. The environment (surrounding) includes physical, chemical and biological components. When a component surrounding an organism affects the life of an organism, it becomes a factor. All such factors together are called environmental factors or ecological factors. These factors can be classified into living (biotic) and non-living (abiotic) which make the environment of an organism. However the ecological factors are meaningfully grouped into four classes, which are as follows:
 
 i. Climatic factors
