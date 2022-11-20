@@ -9,6 +9,7 @@ weight: 3
 
 The modifications in the structure of organisms to survive successfully in an environment are called **adaptations** of organisms. Adaptations help the organisms to exist under the prevailing ecological habitat. Based on the habitats and the corresponding adaptations of plants, they are classified as hydrophytes, xerophytes, mesophytes, epiphytes and halophytes.
 
+
 **Hydrophytes**
 
 The plants which are living in water or wet places are called hydrophytes. According to their relation to water and air, they are sub- divided into following categories: i) Free floating hydrophytes, ii) Rooted- floating hydrophytes, iii) Submerged floating hydrophytes, iv) Rooted -submerged hydrophytes, v) Amphibious hydrophytes.
@@ -40,6 +41,7 @@ aquatic and terrestrial modes of life. They grow in shallow water. Examples: Ran
 **Hygrophytes:** The plants which can grow in moist damp and shady places are called hygrophytes. Examples: Habenaria (Orchid), Mosses (Bryophytes), etc.
 
 ### Morphological adaptations of Hydrophytes:
+
 **In root**
 
 * Roots are totally absent in Wolffia and Salvinia or poorly developed in Hydrilla or well developed in *Ranunculus.*
@@ -250,7 +252,7 @@ palisade and spongy parenchyma.
 * In succulents the stem possesses a water
 storage region.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic28.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/pic28.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
