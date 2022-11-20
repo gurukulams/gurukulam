@@ -65,6 +65,7 @@
     "defaults"
   ],
   "dependencies": {
-    "marked": "^4.0.13"
+    "marked": "^4.0.13",
+    "replace-in-file": "^6.3.5"
   }
 }

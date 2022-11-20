@@ -3,6 +3,7 @@
 
 const path = require('path');
 const fs = require('fs');
+const replace = require('replace-in-file');
 
 const listDir = (dir, fileList = []) => {
 
@@ -73,5 +74,23 @@ foundDirectories.forEach(f => {
 
 let foundFiles = listFiles( 'site/assets/images');
 foundFiles.forEach(f => {
+    console.log(f.oldSrc.replaceAll('site/assets/','') + ' => '+ f.newSrc.replaceAll('site/assets/',''))
+    
+    const options = {
+        files: 'site/content/books/**',
+        from: f.oldSrc.replaceAll('site/assets/',''),
+        to: f.newSrc.replaceAll('site/assets/',''),
+      };
+
+      try {
+        const results = replace.sync(options);
+        if(results.length !== 0) {
+            console.log('');
+        }
+      }
+      catch (error) {
+        console.error('Error occurred:', error);
+      }
+    
     fs.renameSync(f.oldSrc, f.newSrc); 
 });

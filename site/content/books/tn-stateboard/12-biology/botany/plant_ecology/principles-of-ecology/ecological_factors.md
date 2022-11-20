@@ -42,7 +42,7 @@ Light is a well known factor needed for the basic physiological processes of pla
 **Effects of light on plants**
 
 
-{{< images/books/12-biology/botany/Plant Ecology/Figure 6.2: Various effects of light upon a green plant.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.2-various-effects-of-light-upon-a-green-plant.png" "w-25 float-left">}}
 
 Figure 6.2: Various effects of light upon a green plant
 
