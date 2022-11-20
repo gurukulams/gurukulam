@@ -28,13 +28,36 @@ The plants which are living in water or wet places are called hydrophytes. Accor
 
 **v. Amphibious hydrophytes** (Rooted emergent hydrophytes): These plants are adapted to both
 
-{{< figure "images/books/12-biology/botany/Ecology/pic22.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/i-free-floating-hydrophyte.png" "w-25 float-right">}}
+
+  i) Free floating hydrophyte  a) Eichhornia  b)Pistia
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/Ecology/pic23.png" "w-40 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/ii-rooted-floating-hydrophyte.png" "w-40 float-right">}}
+
+ii) Rooted floating hydrophyte   c) Nymphaea   d) Marsilea
 
 {{< /figure >}}
+
+{{< figure "images/books/12-biology/botany/plant-ecology/iii) submerged-floating-hydrophyte.png" "w-40 float-right">}}
+
+iii) Submerged floating hydrophyte e) Ceratophyllum f) Utricularia
+
+{{< /figure >}}
+
+{{< figure "images/books/12-biology/botany/plant-ecology/iv-rooted-submerged-hydrophyte.png" "w-40 float-right">}}
+
+iv) Rooted - submerged hydrophyte g) Vallisneria h) Hydrilla
+
+{{< /figure >}}
+
+{{< figure "images/books/12-biology/botany/plant-ecology/6.18-hydrophytes.png" "w-40 float-right">}}
+
+v) Rooted emergent hydrophyte-Heterophylly i) Sagittaria j) Ranunculus Figure 6.18: Hydrophytes
+
+{{< /figure >}}
+
 
 aquatic and terrestrial modes of life. They grow in shallow water. Examples: Ranunculus, Typha and Sagittaria.
 
@@ -86,7 +109,7 @@ developed.
 except in some emergent forms. Pith cells
 are sclerenchymatous.
  
- {{< figure "images/books/12-biology/botany/Ecology/pic24.png" "w-25 float-right">}}
+ {{< figure "images/books/12-biology/botany/plant-ecology/pic24.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -130,7 +153,7 @@ These are not true xerophytes. Examples:
 *Argemone, Mollugo, Tribulus and Tephrosia.*
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic25.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/pic25.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -163,7 +186,7 @@ They have many adaptations to resist dry
 conditions. *Examples: Casuarina, Nerium,*
 *Zizyphus and Acacia.*
 
-{{< figure "images/books/12-biology/botany/Ecology/pic26.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/pic26.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -200,7 +223,7 @@ In some the petiole is modified into a fleshy
 leaf like structurcalled phyllode (Acacia
 melanoxylon)..
 
-{{< figure "images/books/12-biology/botany/Ecology/pic27.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/pic27.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -360,7 +383,7 @@ greatly reduces transpiration.
 * Succulent epiphytes contain well developed
 parenchymatous cells to store water.
 
-{{< figure "images/books/12-biology/botany/Ecology/pic29.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/pic29.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
@@ -399,12 +422,12 @@ pneumathodes to get sufficient aeration
 are also present. They are called breathing
 roots. *Example: Avicennia*
 
-{{< figure "images/books/12-biology/botany/Ecology/pic30.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/pic30.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/botany/Ecology/pic31.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/pic31.png" "w-25 float-right">}}
 
 {{< /figure >}}
 
