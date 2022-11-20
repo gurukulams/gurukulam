@@ -7,27 +7,16 @@ weight: 2
 
 {{< box title="Learning Objectives" type="objective" >}}
 
-
-
- * Perceive the concepts of tissue culture.
+* Perceive the concepts of tissue culture.
  Cognize the steps of tissue culture
 techniques and its types.
 
- * Understand the protoplast culture in
+* Understand the protoplast culture in
 detail.
-
- * Elicit the list of secondary metabolites
-obtained through cell suspension
-culture.
-
- * Learn plant regeneration pathway.
- Appreciate the uses of micro
-propagation, somatic hybridization,
-shoot meristem culture and germplasm
-conservation.
-
- * Acquire the knowledge of patenting
-Biosafety and Bioethics.
+* Elicit the list of secondary metabolites obtained through cell suspension culture.
+* Learn plant regeneration pathway.
+* Appreciate the uses of micro propagation, somatic hybridization, shoot meristem culture and germplasm conservation.
+* Acquire the knowledge of patenting Biosafety and Bioethics.
 
 {{< /box >}}
 
