@@ -285,9 +285,20 @@ palisade and spongy parenchyma.
 * In succulents the stem possesses a water
 storage region.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/pic28.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.23-t.s.-of-nerium-leaf.png" "w-25 float-right">}}
+
+Figure 6.23: T.S. of Nerium leaf
 
 {{< /figure >}}
+
+
+{{< figure "images/books/12-biology/botany/plant-ecology/6.24-a-succulent-leaf-of-peperomia-t.s.-lateral-wing-portion.png" "w-25 float-right">}}
+
+Figure 6.24: A Succulent leaf of Peperomia (T.S.)  (lateral wing portion only)
+
+{{< /figure >}}
+
+
 
 **Physiological adaptations**
 
@@ -393,7 +404,9 @@ greatly reduces transpiration.
 * Succulent epiphytes contain well developed
 parenchymatous cells to store water.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/pic29.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.25-t.s.-of-an-aerial-root-of-orchid-showing-velamen-tissue.png" "w-25 float-right">}}
+
+Figure 6.25: T.S. of an aerial root of Orchid showing velamen tissue
 
 {{< /figure >}}
 
@@ -432,12 +445,24 @@ pneumathodes to get sufficient aeration
 are also present. They are called breathing
 roots. *Example: Avicennia*
 
-{{< figure "images/books/12-biology/botany/plant-ecology/pic30.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.26a-pneumatophores-of-mangrove-plant.png" "w-25 float-right">}}
+
+Figure 6.26a: Pneumatophores of mangrove plant
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/pic31.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.26b-succulent-halophyte-salicornia.png" "w-25 float-right">}}
+
+Figure 6.26b:Succulent halophyte - Salicornia
+
+{{< /figure >}}
+
+* Viviparous mode of seed germination is found in halophytes
+
+{{< figure "images/books/12-biology/botany/plant-ecology/6.27-viviparous-type-of-seed-germination.png" "w-25 float-right">}}
+
+Figure 6.27: Viviparous type of seed germination
 
 {{< /figure >}}
 
