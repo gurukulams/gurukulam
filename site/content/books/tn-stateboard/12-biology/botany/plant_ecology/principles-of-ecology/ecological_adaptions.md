@@ -109,7 +109,9 @@ developed.
 except in some emergent forms. Pith cells
 are sclerenchymatous.
  
- {{< figure "images/books/12-biology/botany/plant-ecology/pic24.png" "w-25 float-right">}}
+ {{< figure "images/books/12-biology/botany/plant-ecology/6.19-t.s.-of-hydrilla-stem.png" "w-25 float-right">}}
+
+ Figure 6.19: T.S. of Hydrilla stem
 
 {{< /figure >}}
 
@@ -153,7 +155,9 @@ These are not true xerophytes. Examples:
 *Argemone, Mollugo, Tribulus and Tephrosia.*
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/pic25.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.20-argemone-mexicana-ephemerals.png" "w-25 float-right">}}
+
+Figure 6.20: Argemone mexicana-Ephemerals
 
 {{< /figure >}}
 
@@ -186,7 +190,11 @@ They have many adaptations to resist dry
 conditions. *Examples: Casuarina, Nerium,*
 *Zizyphus and Acacia.*
 
-{{< figure "images/books/12-biology/botany/plant-ecology/pic26.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.21:a)succulent-xerophyte–aloeb)non-succulent-perennial-ziziphus.png" "w-25 float-right">}}
+
+Figure 6.21: a)Succulent xerophyte – Aloe
+
+b) Non succulent perennial - Ziziphus
 
 {{< /figure >}}
 
@@ -223,7 +231,9 @@ In some the petiole is modified into a fleshy
 leaf like structurcalled phyllode (Acacia
 melanoxylon)..
 
-{{< figure "images/books/12-biology/botany/plant-ecology/pic27.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.22-xerophytes.png" "w-25 float-right">}}
+
+Figure 6.22: Xerophytes
 
 {{< /figure >}}
 
