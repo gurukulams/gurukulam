@@ -15,7 +15,9 @@ Many organisms, co-exist in an environment. The environment (surrounding) includ
 We will discuss the above factors in a concise manner. 
 
 {{< box title="Do you know?" type="dyn" >}}
+
 Flowers of poppy, chicory, dog rose and many other plants, blossom before the break of dawn (4 – 5 am), evening primrose open up with the onset of dusk (5 – 6 pm) due to diurnal rhythm.
+
 {{< /box >}}
 
 #### Climatic Factors 
@@ -23,9 +25,9 @@ Flowers of poppy, chicory, dog rose and many other plants, blossom before the br
 Climate is one of the important natural factors controlling the plant life. The climatic factors includes light, temperature, water, wind and fire.
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.2-various-effects-of-light-upon-a-green-plant.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.1-environmental-factors-affecting-a-plant.png" "w-20 float-left">}}
 
-Figure 6.2: Various effects of light upon a green plant
+Figure 6.1: Environmental factors affecting a plant
 
 {{< /figure >}}
 
@@ -88,7 +90,7 @@ Mango plant does not grow in temperate countries like Canada and Germany
 
 It is usually found in aquatic habitat. The change in the temperature profile with increasing depth in a water body is called **thermal stratification**. There are three levels of thermal stratifications.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/Figure 6.3: Thermal stratification of pond.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.3-thermal-stratification-of-pond.png" "w-25 float-left">}}
 
 Figure 6.3: Thermal stratification of pond
 
@@ -108,7 +110,7 @@ Variations in **latitude** and **altitude** do affect the temperature and the ve
 
 **Altitude:** How high a place is located above the sea level is called the altitude of the place.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/Figure 6.4: Latitudinal zonation of vegetation.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.4-latitudinal-zonation-of-vegetation.png" "w-25 float-left">}}
 
 Figure 6.4: Latitudinal zonation of vegetation
 
@@ -116,7 +118,7 @@ Figure 6.4: Latitudinal zonation of vegetation
 
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/Figure 6.5: Altitudinal zonation of vegetation.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.5-altitudinal-zonation-of-vegetation.png" "w-25 float-left">}}
 
 Figure 6.5: Altitudinal zonation of vegetation.png
 
@@ -160,7 +162,9 @@ The productivity and distribution of plants depend upon the availability of wate
 **2. Stenohaline:** Organisms which can withstand only small range of salinity. Example: Plants of estuaries.
 
  {{< figure "images/books/12-biology/botany/Ecology/Table" "w-25 float-left">}}
+
 Table 6.2: Tolerance of Environmental factor
+
 {{< /figure >}} 
 
 
@@ -202,7 +206,7 @@ Gases let out to atmosphere causes climatic change. Emission of dust and aerosol
 
 *  Unidirectional wind stimulates the development of flag forms in trees.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/Figure 6.6: Flag form in trees.png.png" "w-20 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.6-flag-form-in-trees.png" "w-20 float-left">}}
 
 Figure 6.6: Flag form in trees.png
 
@@ -278,7 +282,7 @@ The important edaphic factors which affect vegetation are as follows:
 
 **7. Soil organisms:** Many organisms existing in the soil like bacteria, fungi, algae, protozoans, nematodes, insects, earthworms, etc. are called soil organisms. 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/Figure 6.7: Soil Profile.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.7-soil-profile.png" "w-25 float-left">}}
 
 Figure 6.7: Soil Profile
 
@@ -332,7 +336,7 @@ The surface features of earth are called **topography.** Topographic influence o
 
 Latitudes represent distance from the equator. Temperature values are maximum at the equator and decrease gradually towards poles. Different types of vegetation occur from equator to poles which are illustrated below.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/Figure 6.8: Latitudinal and Altitudinal Vegetation.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.8-latitudinal-and-altitudinal-vegetation.png" "w-25 float-left">}}
 
 Figure 6.8: Latitudinal and Altitudinal Vegetation
 
@@ -355,7 +359,7 @@ Similarly in the soil of aquatic bodies like ponds the center and edge possess d
 
 The steepness of the mountain or hill allows the rain to run off. As a result the loss of water causes water deficit and quick erosion of the top soil resulting in poor vegetation. On the other hand, the plains and valley are rich in vegetation due to the slow drain of surface water and better retention of water in the soil.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/Figure 6.9: Steepness of mountain.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.9-steepness-of-mountain.png" "w-25 float-left">}}
 
 Figure 6.9: Steepness of mountain
 

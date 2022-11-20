@@ -6,7 +6,7 @@ weight: 1
 ---
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/R.Misra.png" "w-20 float-sm-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/r.misra.png" "w-20 float-sm-end">}}
 
    R.Misra
 
