@@ -5,7 +5,6 @@ draft: false
 weight: 2
 ---
 
-### Functions of ecosystem
 
 The function of ecosystem include creation of energy creation, sharing of energy and cycling of materials between the living and nonliving components of an ecosystem.
 
