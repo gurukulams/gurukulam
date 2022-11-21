@@ -14,7 +14,7 @@ relies on ecological processes, biodiversity and
 cycles adapted to local conditions rather than
 the use of inputs with adverse effects.
 
-####  9.4.1. Biofertilizers 
+#### . Biofertilizers 
 
 Biofertilizers are defined as preparations
 containing living cells or latent cells of

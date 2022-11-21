@@ -84,7 +84,7 @@ floods, tsunami and cyclones.
 aware, regardless of whether they work with
 environmental issues or not.”
 
-## 12.1 Pollution 
+## Pollution 
 
 Pollution is any undesirable change in the
 physical, chemical and biological characteristics

@@ -326,7 +326,7 @@ in the development of male gametophyte is given
 in Figure 1.6.
 
 
-#### 1.4.2 Female reproductive part - Gynoecium
+#### Female reproductive part - Gynoecium
 
 The **gynoecium** represents the female
 reproductive part of the flower. The word

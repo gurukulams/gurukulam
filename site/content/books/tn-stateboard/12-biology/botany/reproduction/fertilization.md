@@ -249,7 +249,7 @@ tube nucleus disorganizes.
 
 
 
-##### 1.5.1 Double fertilization and triple fusion
+##### Double fertilization and triple fusion
 
 
 S.G. Nawaschin and L.Guignard in 1898 and

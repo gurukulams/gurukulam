@@ -23,7 +23,7 @@ techniques were designed to develop improved
 crop varieties.
 
 
-#### 9.5.1. Objectives of Plant Breeding
+#### Objectives of Plant Breeding
 
 *  To increase yield, vigour and fertility of the crop.
 

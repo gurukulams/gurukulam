@@ -837,7 +837,7 @@ tetracycline or kanamycin, etc., while others
 may not be able to grow in these media, hence it
 is considered useful selectable marker.
 
-##### 4.7.3. Replica plating technique
+##### Replica plating technique
 
 A technique in which the pattern of colonies
 growing on a culture plate is copied. A sterile
@@ -1040,7 +1040,7 @@ incoming DNA.
 
 ***Transfection: Introduction of foreign nucleic acids into cells by non-viral methods.***
 
-##### 4.7.7. Genome Sequencing and Plant Genome Projects
+##### Genome Sequencing and Plant Genome Projects
 
 The whole complement of genes that determine
 all characteristics of an organism is called

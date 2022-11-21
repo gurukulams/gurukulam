@@ -15,7 +15,7 @@ the species. In this chapter we will discuss
 about some of the conventional methods of
 plant breeding.
 
-### 9.6.1. Plant Introduction
+### Plant Introduction
 
 Plant introduction may be defined as the
 introduction of genotypes from a place where it is
@@ -60,7 +60,7 @@ and introduced to different parts of India.
 
 {{< /figure >}} 
 
-#### 9.6.2. Selection
+#### Selection
 
 Selection is the choice of certain individuals
 from a mixed population for a one or more
@@ -122,7 +122,7 @@ unchanged for a long period of time.
 
 {{< /figure >}} 
 
-### 9.6.3. Hybridization
+### Hybridization
 
 Hybridization is the method of producing new
 crop varieties in which two or more plants of
@@ -207,7 +207,7 @@ Raphanobrassica, Triticale. (Refer chapter 4
 for detailed illustration)
 
 
-### 9.6.4. Heterosis
+### Heterosis
 
 Heterosis (hetero- different; sis - condition)
 G.H. Shull was the first scientist to use the
@@ -248,7 +248,7 @@ over parents in vegetative growth but not
 in yield and adaptation, usually sterile or
 poorly fertile.
 
-#### 9.6.5. Mutation Breeding
+#### Mutation Breeding
 
 Muller and Stadler (1927- 1928) coined the
 term mutation breeding. It represents a new
@@ -272,7 +272,7 @@ Triple gene dwarf wheat with increase in
 yield and height. Atomita 2 - rice with salinity
 tolerance and pest resistance.
 
-### 9.6.6. Polyploid Breeding
+### Polyploid Breeding
 
 Majority of flowering plants are diploid (2n).
 The plants which possess more than two sets of
@@ -301,7 +301,7 @@ sets that are initially derived from two different
 species. Example: Triticale (Triticum durum
 x secale cereale) Raphanobrassica *(Brassica oleraceae x Raphanus sativus)*
 
-#### 9.6.7. Green Revolution
+#### Green Revolution
 
 Green revolution the term was coined by William
 S.Gaud in (1968). It is defined as the cumulative

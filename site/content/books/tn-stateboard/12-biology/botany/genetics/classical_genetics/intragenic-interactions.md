@@ -14,7 +14,7 @@ It includes the following:
 (1) Incomplete dominance (2) Codominance(3) Multiple alleles (4) Pleiotropic genes are
 common examples for intragenic interaction.
 
-#### 2.4.1. Incomplete dominance – No blending of genes
+#### Incomplete dominance – No blending of genes
 
 **The German Botanist Carl Correns’s (1905) Experiment** - In 4 O’ clock plant, Mirabilis jalapa when the pure breeding homozygous
 red (R<sup>1</sup>R<sup>1</sup>) parent is crossed with homozygous
@@ -57,7 +57,7 @@ lesson 1
 {{< /figure >}}
 
 
-#### 2.4.2. Codominance (1 : 2 : 1) - This pattern occurs due to simultaneous (joint) expression of both alleles in the heterozygote - The phenomenon in which two
+#### Codominance (1 : 2 : 1) - This pattern occurs due to simultaneous (joint) expression of both alleles in the heterozygote - The phenomenon in which two
 
 alleles are both expressed in the heterozygous
 individual is known as codominance. Example:
@@ -112,7 +112,7 @@ homozygous genotypes. The F<sub>1</sub> heterozygotes
 produce a F<sub>2</sub> progeny in a phenotypic and
 genotypic ratios of 1 : 2 : 1.
 
-#### 2.4.3. Lethal genes
+#### Lethal genes
 
 **An allele which has the potential to cause the death of an organism is called a “Lethal Allele”**. In 1907, E. Baur reported a lethal gene in
 snapdragon (Antirrhinum sp.). It is an example
@@ -121,15 +121,11 @@ three kinds of plants.
 
 1.Green plants with chlorophyll. (CC)
 
-2.Yellowish green plants with carotenoids are
-referred to as pale green, golden or aurea
-plants (Cc)
+2.Yellowish green plants with carotenoids are referred to as pale green, golden or aurea plants (Cc)
 
 3.White plants without any chlorophyll. (cc)
 
-The genotype of the homozygous green
-plants is CC. The genotype of the homozygous
-white plant is cc.
+The genotype of the homozygous green plants is CC. The genotype of the homozygous white plant is cc.
 
 The aurea plants have the genotype Cc
 because they are heterozygous of green and
@@ -158,7 +154,7 @@ lesson 1
 {{< /figure >}}
 
 
-#### 2.4.4. Pleiotropy – A single gene affects multiple traits
+#### Pleiotropy – A single gene affects multiple traits
 
 In Pleiotropy, the single gene affects multiple
 traits and alter the phenotype of the organism.
