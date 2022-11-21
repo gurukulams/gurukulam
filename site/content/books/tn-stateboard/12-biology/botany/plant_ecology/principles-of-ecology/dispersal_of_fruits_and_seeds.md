@@ -5,6 +5,7 @@ draft: false
 weight: 4
 ---
 
+
 Both fruits and seeds possess attractive colour, odour, shape and taste needed for the dispersal by birds, mammals, reptiles, fish, ants and insects even earthworms. The seed consists of an embryo, stored food material and a protective covering called seed coat. As seeds contain miniature but dormant future plants, their dispersal is an important criterion for distribution and establishment of plants over a wide geographical area. The dissemination of seeds and fruits to various distances from the parent plant is called seed and fruit dispersal. It takes place with the help of ecological factors such as wind, water and animals.
 
 
@@ -177,3 +178,14 @@ The modifications in the structure of organisms to survive successfully in an en
 
 The dissemination of seeds and fruits to various distances from the parent plant is called **seed and fruit dispersal**. It takes place with the help of ecological factors such as wind, water and animals.
 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
