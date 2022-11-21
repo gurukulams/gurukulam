@@ -11,6 +11,7 @@ The function of ecosystem include creation of energy creation, sharing of energy
 
 Before studying the productivity in any ecosystem, we should understand the essential role of sunlight used by producers of the first trophic level. The quantity of sunlight is directly proportional to the production of energy by plants.
 
+
 #### Photosynthetically Radiation (PAR) Active
 
 The amount of light available for photosynthesis of plants is called **P**hotosynthetically **A**ctive **R**adiation (PAR) which is from of 400-700 nm in wave length. It is essential for photosynthesis and plant growth. PAR is not always constant because of clouds, tree shades, air, dust particles, seasons, latitudes and length of the daylight availability. Generally plants absorb more blue and red light for efficient photosynthesis.
@@ -21,9 +22,28 @@ PAR is generally expressed in millimoles / square meter / second by using silico
 
 At night PAR is zero and during midday in the summer, PAR often reaches 2000 – 3000 millimoles /square meter/second.
 
-{{< figure "images/books/12-biology/botany/images/2.9.png" "w-25 float-left">}}
-lesson 9
-{{< /figure >}}
+
+{{< box title="Do You Know" type="dyn" >}}
+
+**Types of Carbon**
+
+**Green carbon** – carbon stored
+in the biosphere (by the process
+of photosynthesis).
+
+**Grey carbon** – carbon stored in fossil fuel (coal,
+oil and biogas deposits in the lithosphere).
+
+**Blue carbon** – carbon stored in the atmosphere
+and oceans.
+
+**Brown carbon** – carbon stored in industrialized
+forests (wood used in making commercial
+articles)
+
+**Black carbon** – carbon emitted from gas, diesel
+engine and coal fired power plants.
+
 
 #### Productivity of an ecosystem
 
@@ -74,9 +94,13 @@ Primary productivity depends upon the plant species of an area, their photosynth
 
  A trophic level refers to the position of an organism in the food chain. The number of trophic levels is equal to the number of steps in the food chain. The green plants (producers) occupying the first trophic level (T 1 ) are called **producers**. The energy produced by the producers is utilized by the plant eaters (herbivores) they are called primary consumers and occupy the second trophic level (T2)
 
-{{< figure "images/books/12-biology/botany/images/3.9.png" "w-25 float-left">}}
-lesson 9
+{{< figure "images/books/12-biology/botany/plant-ecology/7.2:diagrammatic-representation-of-trophic-levels.png" "w-25 float-left">}}
+
+7.2:diagrammatic-representation-of-trophic-levels.png
+
 {{< /figure >}}
+
+
 
 Herbivores are eaten by carnivores, which occupy the third trophic level (T 3). They are also called **secondary consumers or primary carnivores**. Carnivores are eaten by the other carnivores, which occupy the fourth trophic level (T4 ). They are called the **tertiary consumers or secondary** **carnivores**. Some organisms which eat both plants and animals are called as **omnivores** (Crow). Such organisms may occupy more than one trophic level in the food chain.
 
@@ -85,8 +109,9 @@ Herbivores are eaten by carnivores, which occupy the third trophic level (T 3). 
 The transfer of energy in an ecosystem between trophic levels can be termed as energy flow. It is the key function in an ecosystem. Part of the energy obtained from the sun by producers is transferred to consumers and decomposers through each trophic level, while some amount of energy is dissipated in the form of heat. Energy flow is always unidirectional in an ecosystem.
 
 
-{{< figure "images/books/12-biology/botany/images/4.9.png" "w-25 float-left">}}
-lesson 9
+{{< figure "images/books/12-biology/botany/plant-ecology/7.3diagrammatic-representation-of energy-flow.png" "w-25 float-left">}}
+
+7.3diagrammatic-representation-of energy-flow.png
 
 {{< /figure >}}
 
@@ -102,9 +127,9 @@ It states that energy can be transmitted from one system to another in various f
 
 In photosynthesis, the product of starch (chemical energy) is formed by the combination of reactants (chlorophyll, H 2 O, CO 2). The energy stored in starch is acquired from the external sources (light energy) and so there is no gain or loss in total energy. Here light energy is converted into chemical energy.
 
-{{< figure "images/books/12-biology/botany/images/9.9.png" "w-25 float-left">}}
-lesson 9
-{{< /figure >}}
+6 CO<sub>2</sub> + 6H<sub>2</sub>O ------------------->C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>
+
+Light Energy  -------------------> Chemical Energy
 
 **ii. Second law of thermodynamics**
 
@@ -116,7 +141,7 @@ This law was proposed by Lindeman (1942). It states that during transfer of food
 
 **Example**: It is shown that of the 1000 Joules of Solar energy trapped by producers. 100 Joules of energy is stored as chemical energy through photosynthesis. The remaining 900 Joules would be lost in the environment. In the next trophic level herbivores, which feed on producers get only 10 Joules of energy and the remaining 90 Joules is lost in the environment. Likewise, in the next trophic level, carnivores, which eat herbivores store only 1 Joule of energy and the remaining 9 Joules is dissipated. Finally, the carnivores are eaten by tertiary consumers which store only 0.1 Joule of energy and the remaining 0.9 Joule is lost in the environment. Thus, at the successive trophic level, only ten percent energy is stored
 
-{{< figure "images/books/12-biology/botany/images/5.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/5.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -127,7 +152,7 @@ The movement of energy from producers upto top carnivores is known as **food cha
 **1. Grazing food chain**
 Main source of energy for the grazing food chain is the **Sun**. It begins with the first link, producers (plants). The second link in the food chain is primary consumers (mouse) which get their food from producers. The third link in the food chain is secondary consumers (snake) which get their food from primary consumers. Fourth link in the food chain is tertiary consumers (eagle) which get their food from secondary consumers.
 
-{{< figure "images/books/12-biology/botany/images/6.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -137,13 +162,13 @@ This type of food chain begins with **dead organic** **matter** which is an impo
 
 The transfer of energy from the dead organic matter, is transferred through a series of organisms called detritus consumers (detritivores)- small carnivores - large (top) carnivores with repeated eating and being eaten respectively. This is called the detritus food chain.
 
-{{< figure "images/books/12-biology/botany/images/7.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/7.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
 #### Food Web
 
-{{< figure "images/books/12-biology/botany/images/8.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/8.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -183,7 +208,7 @@ In a **forest** **ecosystem** the pyramid of number is somewhat different in sha
 
 The pyramid of number in a **parasite** **ecosystem** is always **inverted**, because it starts with a single tree. Therefore there is gradual increase in the number of organisms in successive tropic levels from producer to tertiary consumers.
 
-{{< figure "images/books/12-biology/botany/images/10.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/10.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -194,14 +219,14 @@ In **grassland** and **forest ecosystems**, there is a gradual decrease in bioma
 
 However, in **pond ecosystem**, the bottom of the pyramid is occupied by the producers, which comprise very small organisms possessing the least biomass and so, the value gradually increases towards the tip of the pyramid. Therefore, the pyramid of biomass is always **inverted** in shape.
 
-{{< figure "images/books/12-biology/botany/images/11.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/11.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
 **3. Pyramid of energy**
 A graphical representation of energy flow at each successive trophic level in an ecosystem is called **pyramid of energy**. The bottom of the pyramid of energy is occupied by the producers. There is a gradual decrease in energy transfer at successive tropic levels from producers to the upper levels. Therefore, the pyramid of energy is **always upright**.
 
-{{< figure "images/books/12-biology/botany/images/12.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/12.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -217,7 +242,7 @@ The process of decomposition varies based on the nature of the organic compounds
 
 Decomposition is a step wise process of degradation mediated by enzymatic reactions. Detritus acts as a raw material for decomposition. It occurs in the following steps.
 
-{{< figure "images/books/12-biology/botany/images/13.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/13.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -253,7 +278,7 @@ Exchange of nutrients between organisms and their environment is one of the esse
 
 The circulation of carbon between organisms and environment is known as the **carbon** **cycle**. Carbon is an inevitable part of all biomolecules and is substantially impacted by the change in global climate. Cycling of carbon between organisms and atmosphere is a consequence of two reciprocal processes of photosynthesis and respiration. The releasing of carbon in the atmosphere increases due to burning of fossile fuels, deforestration, forest fire, volcanic eruption and decomposition of dead organic matters. The details of carbon cycle are given in the figure.
 
-{{< figure "images/books/12-biology/botany/images/14.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/14.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -261,7 +286,7 @@ lesson 9
 
 It is a type of sedimentary cycle. Already we know that phosphorus is found in the biomolecules like DNA, RNA, ATP, NADP and phospholipid molecules of living organisms. Phosphorus is not abundant in the biosphere, whereas a bulk quantity of phosphorus is present in rock deposits, marine sediments and guano.
 
-{{< figure "images/books/12-biology/botany/images/15.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/15.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -271,7 +296,7 @@ It is released from these deposits by weathering process. After that, it circula
 
 Biosphere consists of different types of ecosystems, which are as follows
 
-{{< figure "images/books/12-biology/botany/images/17.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/17.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -279,14 +304,14 @@ Though there are many types of ecosystems as charted above. Only the pond ecosys
 
 #### Structure of Pond ecosystem
 
-{{< figure "images/books/12-biology/botany/images/18.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/18.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
 It is a classical example for natural, aquatic, freshwater, lentic type of ecosystem. It helps us to understand the structure and function of an ecosystem. When rain water gathers in a shallow area, gradually over a period of time, different kinds of organisms (microbes, plants, animals) become part of this ecosystem. This pond ecosystem is a self sustaining and self regulatory fresh water ecosystem, which shows a complex interaction between the abiotic and biotic components in it.
 
 
-{{< figure "images/books/12-biology/botany/images/19.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/19.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -305,7 +330,7 @@ A variety of phytoplanktons like _Oscillatoria_, _Anabaena, Chlamydomonas, Pando
 
 The animals represent the consumers of a pond ecosystem which include zooplanktons like Paramoecium and Daphnia (primary consumers); benthos (bottom living animals) like mollusces and annelids; secondary consumers like water beetles and frogs; and tertiary consumers (carnivores) like duck , crane and some top carnivores which include large fish, hawk ,man, etc.
 
-{{< figure "images/books/12-biology/botany/images/20.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/20.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -315,19 +340,19 @@ They are also called as microconsumers. They help to recycle the nutrients in th
 
 The cycling of nutrients between abiotic and biotic components is evident in the pond ecosystem, making itself self sufficient and self regulating.
 
-{{< figure "images/books/12-biology/botany/images/21.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/21.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
 #### Stratification of pond ecosystem
 
-{{< figure "images/books/12-biology/botany/images/22.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/22.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
 Based on the factors like distance from the shore, penetration of light, depth of water, types of plants and animals, there may be three zones, littoral, limnetic and profundal. The littoral zone, which is closest to the shore with shallow water region, allows easy penetration of light. It is warm and occupied by rooted plant species. The limnetic zone refers the open water of the pond with an effective penetration of light and domination of planktons. The deeper region of a pond below the limnetic zone is called profundal zone with no effective light penetration and predominance of heterotrophs. The bottom zone of a pond is termed benthic and is occupied by a community of organisms called benthos (usually decomposers).The primary productivity through photosynthesis of littoral and limnetic zone is more due to greater penetration of light than the profundal zone
 
-{{< figure "images/books/12-biology/botany/images/23.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/23.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -338,7 +363,7 @@ Ecosystem services are defined as the benefits that people derive from nature. R
 Study on ecosystem services acts as an effective tool for gaining knowledge on ecosystem benefits and their sustained use. Without such knowledge gain, the fate of any ecosystem will be at stake and the benefits they provide to us in future will become bleak.
 
 
-{{< figure "images/books/12-biology/botany/images/24.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/24.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -349,7 +374,7 @@ Now, we all exploit the ecosystem more than that of our needs. The **Millennium*
 
 The varieties of benefits obtained from the ecosystem are generally categorized into the following four types
 
-{{< figure "images/books/12-biology/botany/images/25.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/25.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -371,7 +396,7 @@ disturb or re-engineer an ecosystem every day.
 • Run off pesticides, fertilizers and animal
 wastes
 
-{{< figure "images/books/12-biology/botany/images/26.9.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/26.9.png" "w-25 float-right">}}
 lesson 9
 {{< /figure >}}
 
@@ -409,7 +434,7 @@ chemicals and pesticides.
 ecosystem protection among your friends
 and family members.
 
-{{< figure "images/books/12-biology/botany/images/27.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/27.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -419,7 +444,7 @@ It is a process that integrates ecological, socio economic and institutional fac
 
 Ecosystem management emphasis on human role in judicious use of ecosystem and for sustained benefits through minimal human impacts on ecosystems. Environmental degradation and biodiversity loss will result in depletion of natural resources, ultimately affecting the existence of human.
 
-{{< figure "images/books/12-biology/botany/images/28.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/28.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
@@ -439,7 +464,7 @@ lesson 9
 
 * It is used to build the capacity of local institutions and community groups to assume responsibility for long term implementation of ecosystem management activities even after the completion of the project.
 
-{{< figure "images/books/12-biology/botany/images/29.9.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/29.9.png" "w-25 float-left">}}
 lesson 9
 {{< /figure >}}
 
