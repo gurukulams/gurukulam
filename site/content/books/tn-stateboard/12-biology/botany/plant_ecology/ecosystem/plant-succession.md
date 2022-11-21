@@ -49,7 +49,7 @@ The various types of succession have been classified in different ways on the ba
 2. **Secondary succession**- The development of a plant community in an area where an already developed community has been destroyed by some natural disturbance (Fire, flood, human activity) is known as **secondary** **succession**. Generally, This succession takes less time than the time taken for primary succession.
 
 
-Table 1
+**Table 1: Differences between primary and secondary succession**
 
 **Example**: The forest destroyed by fire and excessive lumbering may be re-occupied by herbs over a period of times.
 
@@ -64,7 +64,7 @@ Example: In a forest ecosystem soil erosion and leaching alter the nutrient valu
 
 
 
-{{< figure "images/books/12-biology/botany/images/7.19:types-of-succession.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.19:types-of-succession.png" "w-25 float-right">}}
 
 Figure 7.19: Types of succession
 
@@ -79,7 +79,7 @@ Example: In a forest ecosystem soil erosion and leaching alter the nutrient valu
 
 Detailed study of Hydrosere and Lithosere are discussed below
 
-{{< figure "images/books/12-biology/botany/images/7.20:classfication-of-plant-succession.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.20:classfication-of-plant-succession.png" "w-25 float-right">}}
 
 Figure 7.20: Classification of plant succession
 
@@ -111,7 +111,7 @@ In the 7 stages of hydrosere succession, stage1 is occupied by pioneer community
 
 
 
-{{< figure "images/books/12-biology/botany/images/7.21:diagrammatic-representation-shows-different-stages-of-hydrosere.png" "w-25 float-right">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.21:diagrammatic-representation-shows-different-stages-of-hydrosere.png" "w-25 float-right">}}
 
 Figure 7.21: Diagrammatic-representation-shows-different-stages-of-hydrosere.
 
