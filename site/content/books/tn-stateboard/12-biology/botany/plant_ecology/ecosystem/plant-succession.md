@@ -16,35 +16,21 @@ Figure 7.18: Diagrammatic representation of secondary succession
 
 #### Characteristics of ecological succession
 
-
-*  It is a systematic process which causes changes in specific structure of plant community.
-
-* It is resultant of changes of abiotic and biotic factors.
-
-*  It transforms unstable community into a stable community.
-
-
-* Gradual progression in species diversity, total biomass, niche specialisation, and humus content of soil takes place.
-
-* It progresses from simple food chain to complex food web.
-
-
-* It modifies the lower and simple life form to the higher life forms.
-
-
-* It creates inter-dependence of plants and
-animals.
-
+-  It is a systematic process which causes changes in specific structure of plant community.
+- It is resultant of changes of abiotic and biotic factors.
+- It transforms unstable community into a stable community.
+- Gradual progression in species diversity, total biomass, niche specialisation, and humus content of soil takes place.
+- It progresses from simple food chain to complex food web.
+- It modifies the lower and simple life form to the higher life forms.
+- It creates inter-dependence of plants and animals.
 
 #### Types of succession
 
-
 The various types of succession have been classified in different ways on the basis of different aspects. These are as follows:
 
-**1. Primary succession** - The development of plant community in a barren area where no community existed before is called primary succession. The plants which colonize first in a barren area is called **pioneer** **species** or **primary community** or **primary colonies**. Generally, Primary succession takes a very long time for the occurrence in any region.
-
-**Example**: Microbes, Lichen, Mosses.
-
+1. ##### Primary succession
+    The development of plant community in a barren area where no community existed before is called primary succession. The plants which colonize first in a barren area is called **pioneer** **species** or **primary community** or **primary colonies**. Generally, Primary succession takes a very long time for the occurrence in any region.
+    `` Example**: Microbes, Lichen, Mosses.``
 
 2. **Secondary succession**- The development of a plant community in an area where an already developed community has been destroyed by some natural disturbance (Fire, flood, human activity) is known as **secondary** **succession**. Generally, This succession takes less time than the time taken for primary succession.
 
@@ -117,17 +103,7 @@ Figure 7.21: Diagrammatic-representation-shows-different-stages-of-hydrosere.
 
 
 #### Significance of Plant Succession
-
-* Succession is a dynamic process. Hence an ecologist can access and study the seral stages of a plant community found in a particular area.
-* The knowledge of ecological succession helps to understand the controlled growth of one or more species in a forest.
-* Utilizing the knowledge of succession, even dams can be protected by preventing siltation.
-* It gives information about the techniques to be used during reforestation and afforestation.
-* It helps in the maintenance of pastures.
-* Plant succession helps to maintain species diversity in an ecosystem.
-* Patterns of diversity during succession are influenced by resource availability and disturbance by various factors.
-* Primary succession involves the colonization of habitat of an area devoid of life.
-* Secondary succession involves the reestablishment of a plant community in disturbed area or habitat.
-* Forests and vegetation that we come across all over the world are the result of plant succession.
+- Succession is a dynamic process. Hence an ecologist can access and study the seral stages of a plant community found in a particular area.- The knowledge of ecological succession helps to understand the controlled growth of one or more species in a forest.- Utilizing the knowledge of succession, even dams can be protected by preventing siltation.- It gives information about the techniques to be used during reforestation and afforestation.- It helps in the maintenance of pastures.- Plant succession helps to maintain species diversity in an ecosystem.- Patterns of diversity during succession are influenced by resource availability and disturbance by various factors.- Primary succession involves the colonization of habitat of an area devoid of life.- Secondary succession involves the reestablishment of a plant community in disturbed area or habitat.- Forests and vegetation that we come across all over the world are the result of plant succession.
 
 ##### Summary
 
