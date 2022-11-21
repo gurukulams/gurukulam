@@ -7,13 +7,6 @@ weight: 3
 
 We very often see that forests and lands in our areas are drastically affected by natural calamities (Flood, earthquake) and anthropogenic activities (Fire, over grazing, cutting of trees). Due to these reasons all plants of an area are destroyed and the areas become nude. When we observe this area, over a period of a time we can see that it will be gradually covered by plant community again and become fertile. Such successive replacement of one type of plant community by the other of the same area/ place is known as plant **succession**. The first invaded plants in a barren area are called **pioneers**. On the other hand, a series of transitional developments of plant communities one after another in a given area are called **seral** **communities**. At the end a final stage and a final plant community gets established which are called as climax and climax community respectively.
 
-
-{{< figure "images/books/12-biology/botany/eco-system/7.18:diagrammatic-representation-of-secondary-succession.png" "w-25 float-left">}}
-
-Figure 7.18: Diagrammatic representation of secondary succession
-
-{{< /figure >}}
-
 #### Characteristics of ecological succession
 
 -  It is a systematic process which causes changes in specific structure of plant community.
@@ -28,26 +21,33 @@ Figure 7.18: Diagrammatic representation of secondary succession
 
 The various types of succession have been classified in different ways on the basis of different aspects. These are as follows:
 
-1. ##### Primary succession
-    The development of plant community in a barren area where no community existed before is called primary succession. The plants which colonize first in a barren area is called **pioneer** **species** or **primary community** or **primary colonies**. Generally, Primary succession takes a very long time for the occurrence in any region.
-    `` Example**: Microbes, Lichen, Mosses.``
+##### 1.Primary succession -
 
-2. **Secondary succession**- The development of a plant community in an area where an already developed community has been destroyed by some natural disturbance (Fire, flood, human activity) is known as **secondary** **succession**. Generally, This succession takes less time than the time taken for primary succession.
+The development of plant community in a barren area where no community existed before is called primary succession. The plants which colonize first in a barren area is called **pioneer** **species** or **primary community** or **primary colonies**. Generally, Primary succession takes a very long time for the occurrence in any region.
+
+``Example**: Microbes, Lichen, Mosses.``
+
+##### 2. Secondary succession - 
+
+The development of a plant community in an area where an already developed community has been destroyed by some natural disturbance (Fire, flood, human activity) is known as **secondary** **succession**. Generally, This succession takes less time than the time taken for primary succession.
+
+{{< figure "images/books/12-biology/botany/eco-system/7.18:diagrammatic-representation-of-secondary-succession.png" "w-25 float-left">}}
+
+Figure 7.18: Diagrammatic representation of secondary succession
+
+{{< /figure >}}
+
+
+##### 3. Allogenic succession -
+
+Allogeneic succession occurs as a result of abiotic factors. The replacement of existing community is caused by other external factors (soil erosion, leaching, etc.,) and not by existing organisms.
+
+``Example: The forest destroyed by fire and excessive lumbering may be re-occupied by herbs over a period of times.``
 
 
 **Table 1: Differences between primary and secondary succession**
 
-**Example**: The forest destroyed by fire and excessive lumbering may be re-occupied by herbs over a period of times.
-
-
-**3. Allogenic succession**
-
-
-Allogeneic succession occurs as a result of abiotic factors. The replacement of existing community is caused by other external factors (soil erosion, leaching, etc.,) and not by existing organisms.
-
-
-Example: In a forest ecosystem soil erosion and leaching alter the nutrient value of the soil leading to the change of vegetation in that area.
-
+<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="background-color:#009901;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></th><th style="background-color:#009901;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Primary succession</th><th style="background-color:#009901;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Secondary succession</th></tr></thead><tbody><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Developing in an barren area</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Developing in disturbed area</td></tr><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Initiated due to a biological or any other external factors</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Starts due to external factors only</td></tr><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">No soil, while primary succession starts</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">It starts where soil covers is already present</td></tr><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Pioneer species come from outside environment</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Pioneer species  develop from existing environment</td></tr><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">5</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">It takes more time to complete</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">It takes comparatively less time to complete</td></tr></tbody></table>
 
 
 {{< figure "images/books/12-biology/botany/eco-system/7.19:types-of-succession.png" "w-25 float-right">}}
