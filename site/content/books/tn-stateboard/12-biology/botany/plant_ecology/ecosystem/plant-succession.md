@@ -109,8 +109,6 @@ The succession in a freshwater ecosystem is also referred to as hydrosere. Succe
 
 In the 7 stages of hydrosere succession, stage1 is occupied by pioneer community, while the stage 7 is occupied by the climax community. The stages 2 to 6 are occupied by seral communities.
 
-
-
 {{< figure "images/books/12-biology/botany/eco-system/7.21:diagrammatic-representation-shows-different-stages-of-hydrosere.png" "w-25 float-right">}}
 
 Figure 7.21: Diagrammatic-representation-shows-different-stages-of-hydrosere.
