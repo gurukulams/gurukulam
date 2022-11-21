@@ -44,6 +44,7 @@ articles)
 **Black carbon** – carbon emitted from gas, diesel
 engine and coal fired power plants.
 
+{{< /box >}}
 
 #### Productivity of an ecosystem
 
@@ -107,6 +108,7 @@ Herbivores are eaten by carnivores, which occupy the third trophic level (T 3). 
 #### Energy flow
 
 The transfer of energy in an ecosystem between trophic levels can be termed as energy flow. It is the key function in an ecosystem. Part of the energy obtained from the sun by producers is transferred to consumers and decomposers through each trophic level, while some amount of energy is dissipated in the form of heat. Energy flow is always unidirectional in an ecosystem.
+
 
 
 {{< figure "images/books/12-biology/botany/eco-system/7.3diagrammatic-representation-of energy-flow.png" "w-25 float-left">}}
@@ -316,26 +318,31 @@ It is released from these deposits by weathering process. After that, it circula
 
 Biosphere consists of different types of ecosystems, which are as follows
 
-{{< figure "images/books/12-biology/botany/eco-system/17.9.png" "w-25 float-left">}}
-lesson 9
+{{< figure "images/books/12-biology/botany/eco-system/7.14:types-of-ecosystem.png" "w-25 float-left">}}
+
+Figure 7.14: Types of Ecosystem
+
 {{< /figure >}}
 
 Though there are many types of ecosystems as charted above. Only the pond ecosystem is detailed below.
 
 #### Structure of Pond ecosystem
 
-{{< figure "images/books/12-biology/botany/eco-system/18.9.png" "w-25 float-left">}}
-lesson 9
-{{< /figure >}}
-
 It is a classical example for natural, aquatic, freshwater, lentic type of ecosystem. It helps us to understand the structure and function of an ecosystem. When rain water gathers in a shallow area, gradually over a period of time, different kinds of organisms (microbes, plants, animals) become part of this ecosystem. This pond ecosystem is a self sustaining and self regulatory fresh water ecosystem, which shows a complex interaction between the abiotic and biotic components in it.
 
 
-{{< figure "images/books/12-biology/botany/eco-system/19.9.png" "w-25 float-left">}}
-lesson 9
+{{< figure "images/books/12-biology/botany/eco-system/7.15:diagram-shows-structure-of-pond-ecosystem-with-abiotic-and-biotic-components.png" "w-25 float-left">}}
+
+Figure 7.15: Diagram shows structure of pond ecosystem with abiotic and biotic components.
+
 {{< /figure >}}
 
+**Activity**
+
+Collect few living and nonliving components from any water body found near by.
+
 **Abiotic components**
+
 A pond ecosystem consists of dissolved inorganic (CO2 , O2, Ca, N, Phosphate) and organic substances (amino acids and humic acid) formed from the dead organic matter. The function of pond ecosystem is regulated by few factors like the amount of light, temperature, pH value of water and other climatic conditions.
 
 **Biotic components**
@@ -350,31 +357,36 @@ A variety of phytoplanktons like _Oscillatoria_, _Anabaena, Chlamydomonas, Pando
 
 The animals represent the consumers of a pond ecosystem which include zooplanktons like Paramoecium and Daphnia (primary consumers); benthos (bottom living animals) like mollusces and annelids; secondary consumers like water beetles and frogs; and tertiary consumers (carnivores) like duck , crane and some top carnivores which include large fish, hawk ,man, etc.
 
-{{< figure "images/books/12-biology/botany/eco-system/20.9.png" "w-25 float-left">}}
-lesson 9
-{{< /figure >}}
+{{< box title="Do You Know" type="dyn" >}}
 
-#### c. Decomposers
+Sea grasses and mangroves of Estuarine and coastal ecosystems are the most efficient in carbon sequestration. Hence, these ecosystems are called as “ Blue carbon ecosystems”. They are not properly utilized and maintained all over the world although they have rich bioresources potential.
+
+{{< /box >}}
+
+#### c.Decomposers
 
 They are also called as microconsumers. They help to recycle the nutrients in the ecosystem. These are present in mud water and bottom of the ponds. Example: Bacteria and Fungi. Decomposers perform the process of decomposition in order to enrich the nutrients in the pond ecosystem.
 
 The cycling of nutrients between abiotic and biotic components is evident in the pond ecosystem, making itself self sufficient and self regulating.
 
-{{< figure "images/books/12-biology/botany/eco-system/21.9.png" "w-25 float-left">}}
-lesson 9
-{{< /figure >}}
+{{< box title="Do You Know" type="dyn" >}}
+
+**Limnology** 
+It is the study of biological, chemical, physical and geological components of inland fresh water aquatic ecosystems (ponds, lakes, etc.). 
+**Oceanography** – It is the study of biological, chemical, physical and geological components of ocean.
+
+
 
 #### Stratification of pond ecosystem
 
-{{< figure "images/books/12-biology/botany/eco-system/22.9.png" "w-25 float-left">}}
-lesson 9
+{{< figure "images/books/12-biology/botany/eco-system/7.16:diagrammatic-sketch-shows-stratificatio-of-pond-ecosystem.png" "w-25 float-left">}}
+
+Figure 7.16: Diagrammatic sketch shows stratification of Pond ecosystem
+
 {{< /figure >}}
 
 Based on the factors like distance from the shore, penetration of light, depth of water, types of plants and animals, there may be three zones, littoral, limnetic and profundal. The littoral zone, which is closest to the shore with shallow water region, allows easy penetration of light. It is warm and occupied by rooted plant species. The limnetic zone refers the open water of the pond with an effective penetration of light and domination of planktons. The deeper region of a pond below the limnetic zone is called profundal zone with no effective light penetration and predominance of heterotrophs. The bottom zone of a pond is termed benthic and is occupied by a community of organisms called benthos (usually decomposers).The primary productivity through photosynthesis of littoral and limnetic zone is more due to greater penetration of light than the profundal zone
 
-{{< figure "images/books/12-biology/botany/eco-system/23.9.png" "w-25 float-left">}}
-lesson 9
-{{< /figure >}}
 
 #### Ecosystem services ( Benefits)
 
@@ -382,20 +394,40 @@ Ecosystem services are defined as the benefits that people derive from nature. R
 
 Study on ecosystem services acts as an effective tool for gaining knowledge on ecosystem benefits and their sustained use. Without such knowledge gain, the fate of any ecosystem will be at stake and the benefits they provide to us in future will become bleak.
 
+{{< box title="Do You Know" type="dyn" >}}
 
-{{< figure "images/books/12-biology/botany/eco-system/24.9.png" "w-25 float-left">}}
-lesson 9
+Robert Constanza and his
+colleagues estimated the
+value of global ecosystem
+services based on various
+parameters. According to them in 1997, the
+average global value of ecosystems services
+estimated was US $ 33 trillion a year.
+The updated estimate for the total global
+ecosystem services in 2011 is US $ 125
+trillion / year, indicating a four-fold increase
+in ecosystem services from 1997 to 2011.
+
+{{< /box >}}
+
+{{< figure "images/books/12-biology/botany/eco-system/mangrove-ecosystem-services.png" "w-25 float-left">}}
+
+Mangrove Ecosystem Services
+
 {{< /figure >}}
 
-**How do anthropogenic activities affect**
-**ecosystem services?**
+**How do anthropogenic activities affect** **ecosystem services?**
 
 Now, we all exploit the ecosystem more than that of our needs. The **Millennium** **Ecosystem** **Assessment** (**2005**) found that “over the past 50 years, humans have changed the ecosystem more rapidly and extensively than in any comparable period of time in human history, largely to meet rapidly growing demands for food, fresh water, medicine, timber, fiber and fuel.”
 
+
+
 The varieties of benefits obtained from the ecosystem are generally categorized into the following four types
 
-{{< figure "images/books/12-biology/botany/eco-system/25.9.png" "w-25 float-left">}}
-lesson 9
+{{< figure "images/books/12-biology/botany/eco-system/7.17-Types-of-ecosystem-services.png" "w-25 float-left">}}
+
+Figure 7.17: Types of Ecosystem services
+
 {{< /figure >}}
 
 Generally the following human activities
@@ -416,9 +448,14 @@ disturb or re-engineer an ecosystem every day.
 • Run off pesticides, fertilizers and animal
 wastes
 
-{{< figure "images/books/12-biology/botany/eco-system/26.9.png" "w-25 float-right">}}
-lesson 9
-{{< /figure >}}
+{{< box title="Do You Know" type="dyn" >}}
+
+**Ecosystem resilience** 
+
+Ecosystem is damaged by disturbances from fire, flood, predation, infection, drought, etc., removing a great amount of biomasss. However, ecosystem is endowed with the ability to resist the damage and recover quickly. This ability of ecosystem is called ecosystem resilience or ecosystem robustness.
+
+{{< /box >}}
+
 
 #### How to protect the ecosystem?
 
@@ -454,8 +491,10 @@ chemicals and pesticides.
 ecosystem protection among your friends
 and family members.
 
-{{< figure "images/books/12-biology/botany/eco-system/27.9.png" "w-25 float-left">}}
-lesson 9
+{{< figure "images/books/12-biology/botany/eco-system/go-green.png" "w-25 float-left">}}
+
+Go Green
+
 {{< /figure >}}
 
 #### Ecosystem Management
@@ -464,9 +503,11 @@ It is a process that integrates ecological, socio economic and institutional fac
 
 Ecosystem management emphasis on human role in judicious use of ecosystem and for sustained benefits through minimal human impacts on ecosystems. Environmental degradation and biodiversity loss will result in depletion of natural resources, ultimately affecting the existence of human.
 
-{{< figure "images/books/12-biology/botany/eco-system/28.9.png" "w-25 float-left">}}
-lesson 9
-{{< /figure >}}
+{{< box title="Do You Know" type="dyn" >}}
+
+"By 2025, at least 3.5 billion people, nearly 50% of the world’s population are projected to face water scarcity." – IUCN. "Forests house approximately 50% of global bio-diversity and at least 300 million people are dependent on forest’s goods and services to sustain their livelihood." – IUCN
+
+{{< /box >}}
 
 **Strategy of ecosystem management**
 
@@ -484,8 +525,20 @@ lesson 9
 
 * It is used to build the capacity of local institutions and community groups to assume responsibility for long term implementation of ecosystem management activities even after the completion of the project.
 
-{{< figure "images/books/12-biology/botany/eco-system/29.9.png" "w-25 float-left">}}
-lesson 9
+
+**Urban ecosystem restoration model**
+
+* Adayar Poonga is located in Chennai and covers an area around a total of 358 acres of Adayar creek and estuary, of which 58 acres were taken up for eco restoration under the auspices of Government of Tamil Nadu. It is maintained by Chennai Rivers Restoration Trust (CRRT).This was a dumping site previously. 
+
+* Presently it has 6 species of mangroves, about 170 species of littoral and tropical dry evergreen forests (TDF) which have successfully established as a sustainable ecosystem. Restoration of plants species has brought other associated fauna such as butterflies, birds, reptiles, amphibians and other mammals of the ecosystem. 
+
+* Currently Adayar Poonga functions as an environmental education Centre for school and college students and the public. The entire area stands as one of the best examples for urban eco restoration in the state of Tamil Nadu.
+
+
+{{< figure "images/books/12-biology/botany/eco-system/adayar-poonga.png" "w-25 float-left">}}
+
+Adayar Poonga
+
 {{< /figure >}}
 
-**Adayar Poonga**
+
