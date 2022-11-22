@@ -121,7 +121,7 @@ Some fruits burst suddenly with a force enabling to throw seeds to a little dist
 
 Example: *Ecballium elatrium* (Squirting cucumber) Gyrocarpus and Dipterocarpus.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.34:ecballium.png" "w-25 float-start">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.34-ecballium.png" "w-25 float-start">}}
 
 Figure 6.34: Ecballium
 

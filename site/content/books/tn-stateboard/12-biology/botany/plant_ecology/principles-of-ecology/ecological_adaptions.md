@@ -40,7 +40,7 @@ ii) Rooted floating hydrophyte   c) Nymphaea   d) Marsilea
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/plant-ecology/iii) submerged-floating-hydrophyte.png" "w-40 float-start">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/iii-submerged-floating-hydrophyte.png" "w-40 float-start">}}
 
 iii) Submerged floating hydrophyte e) Ceratophyllum f) Utricularia
 

@@ -31,7 +31,7 @@ The development of plant community in a barren area where no community existed b
 
 The development of a plant community in an area where an already developed community has been destroyed by some natural disturbance (Fire, flood, human activity) is known as **secondary** **succession**. Generally, This succession takes less time than the time taken for primary succession.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.18:diagrammatic-representation-of-secondary-succession.png" "w-25 float-start">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.18-diagrammatic-representation-of-secondary-succession.png.png" "w-25 float-start">}}
 
 Figure 7.18: Diagrammatic representation of secondary succession
 
@@ -50,7 +50,7 @@ Allogeneic succession occurs as a result of abiotic factors. The replacement of 
 <table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="background-color:#009901;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"></th><th style="background-color:#009901;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Primary succession</th><th style="background-color:#009901;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Secondary succession</th></tr></thead><tbody><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Developing in an barren area</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Developing in disturbed area</td></tr><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Initiated due to a biological or any other external factors</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Starts due to external factors only</td></tr><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">No soil, while primary succession starts</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">It starts where soil covers is already present</td></tr><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Pioneer species come from outside environment</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Pioneer species  develop from existing environment</td></tr><tr><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">5</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">It takes more time to complete</td><td style="background-color:#ffffff;border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">It takes comparatively less time to complete</td></tr></tbody></table>
 
 
-{{< figure "images/books/12-biology/botany/eco-system/7.19:types-of-succession.png" "w-25 float-start">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.19-types-of-succession.png" "w-25 float-start">}}
 
 Figure 7.19: Types of succession
 
@@ -65,7 +65,7 @@ Example: In a forest ecosystem soil erosion and leaching alter the nutrient valu
 
 Detailed study of Hydrosere and Lithosere are discussed below
 
-{{< figure "images/books/12-biology/botany/eco-system/7.20:classfication-of-plant-succession.png" "w-25 float-start">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.20-classfication-of-plant-succession.png" "w-25 float-start">}}
 
 Figure 7.20: Classification of plant succession
 
@@ -95,7 +95,7 @@ The succession in a freshwater ecosystem is also referred to as hydrosere. Succe
 
 In the 7 stages of hydrosere succession, stage1 is occupied by pioneer community, while the stage 7 is occupied by the climax community. The stages 2 to 6 are occupied by seral communities.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.21:diagrammatic-representation-shows-different-stages-of-hydrosere.png" "w-25 float-start">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.21-diagrammatic-representation-shows-different-stages-of-h.png" "w-25 float-start">}}
 
 Figure 7.21: Diagrammatic-representation-shows-different-stages-of-hydrosere.
 
