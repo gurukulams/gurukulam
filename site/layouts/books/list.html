@@ -32,7 +32,7 @@
   </nav>
   
 
-<span class="w-50 p-3" style="float: left;">
+<nav class="w-50 p-3 float-end">
     <ul class="lead">
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
@@ -42,11 +42,11 @@
     {{ end }}
     </ul>
 
-</span>
+</nav>
 
-<span class="lead" id="content">
+<div class="lead" id="content">
     {{- .Content -}}
-</span>
+</div>
 
 {{ end }}
 

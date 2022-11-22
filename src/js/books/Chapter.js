@@ -3,6 +3,13 @@ class Chapter {
     this.parent = _parent;
 
     // eslint-disable-next-line no-undef
+    var r = Recogito.init({
+      content: document.getElementById("content"), // ID or DOM element
+    });
+
+    console.log(r);
+
+    // eslint-disable-next-line no-undef
     this.nodeModal = new bootstrap.Modal(
       document.getElementById("noteModel"),
       {}
