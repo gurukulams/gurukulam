@@ -89,7 +89,7 @@ or forests over several years
 * Mapping ocean bottom and its resources
 
 
-{{< figure "images/books/12-biology/botany/images/8.21.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/8.21.png" "w-25 float-start">}}
 lesson 9
 {{< /figure >}}
 

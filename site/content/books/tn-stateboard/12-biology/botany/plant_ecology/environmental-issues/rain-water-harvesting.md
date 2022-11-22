@@ -7,7 +7,7 @@ weight: 8
 
 
 
-{{< figure "images/books/12-biology/botany/images/8.19.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/8.19.png" "w-25 float-start">}}
 lesson 9
 {{< /figure >}}
 

@@ -18,13 +18,13 @@ ex-situ, in-vitro methods, the endemic as well
 as threatened species can be protected.
 
 
-{{< figure "images/books/12-biology/botany/images/8.12.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/8.12.png" "w-25 float-start">}}
 lesson 9
 {{< /figure >}}
 
 
 
-{{< figure "images/books/12-biology/botany/images/8.13.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/8.13.png" "w-25 float-start">}}
 lesson 9
 {{< /figure >}}
 
@@ -115,7 +115,7 @@ species are herbs and belong to families such as
 Poaceae. Apiaceae, Asteraceae and Orchidaceae.
 
 
-{{< figure "images/books/12-biology/botany/images/8.14.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/8.14.png" "w-25 float-start">}}
 lesson 9
 {{< /figure >}}
 
@@ -127,7 +127,7 @@ be undertaken for their conservation, otherwise
 these species may become globally extinct.
 
 
-{{< figure "images/books/12-biology/botany/images/8.15.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/8.15.png" "w-25 float-start">}}
 lesson 9
 {{< /figure >}}
 

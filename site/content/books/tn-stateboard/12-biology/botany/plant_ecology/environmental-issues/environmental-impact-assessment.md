@@ -51,7 +51,7 @@ method of spraying pesticides and fertilizers,
 which proves very easy and non-harmful.
 
 
-{{< figure "images/books/12-biology/botany/images/8.20.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/8.20.png" "w-25 float-start">}}
 lesson 9
 {{< /figure >}}
 

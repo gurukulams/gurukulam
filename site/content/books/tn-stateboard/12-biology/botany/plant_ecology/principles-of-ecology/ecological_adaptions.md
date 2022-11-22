@@ -28,31 +28,31 @@ The plants which are living in water or wet places are called hydrophytes. Accor
 
 **v. Amphibious hydrophytes** (Rooted emergent hydrophytes): These plants are adapted to both
 
-{{< figure "images/books/12-biology/botany/plant-ecology/i-free-floating-hydrophyte.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/i-free-floating-hydrophyte.png" "w-25 float-start">}}
 
   i) Free floating hydrophyte  a) Eichhornia  b)Pistia
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/plant-ecology/ii-rooted-floating-hydrophyte.png" "w-40 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/ii-rooted-floating-hydrophyte.png" "w-40 float-start">}}
 
 ii) Rooted floating hydrophyte   c) Nymphaea   d) Marsilea
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/plant-ecology/iii) submerged-floating-hydrophyte.png" "w-40 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/iii) submerged-floating-hydrophyte.png" "w-40 float-start">}}
 
 iii) Submerged floating hydrophyte e) Ceratophyllum f) Utricularia
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/plant-ecology/iv-rooted-submerged-hydrophyte.png" "w-40 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/iv-rooted-submerged-hydrophyte.png" "w-40 float-start">}}
 
 iv) Rooted - submerged hydrophyte g) Vallisneria h) Hydrilla
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.18-hydrophytes.png" "w-40 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.18-hydrophytes.png" "w-40 float-start">}}
 
 v) Rooted emergent hydrophyte-Heterophylly i) Sagittaria j) Ranunculus Figure 6.18: Hydrophytes
 
@@ -109,7 +109,7 @@ developed.
 except in some emergent forms. Pith cells
 are sclerenchymatous.
  
- {{< figure "images/books/12-biology/botany/plant-ecology/6.19-t.s.-of-hydrilla-stem.png" "w-25 float-end">}}
+ {{< figure "images/books/12-biology/botany/plant-ecology/6.19-t.s.-of-hydrilla-stem.png" "w-25 float-start">}}
 
  Figure 6.19: T.S. of Hydrilla stem
 
@@ -155,7 +155,7 @@ These are not true xerophytes. Examples:
 *Argemone, Mollugo, Tribulus and Tephrosia.*
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.20-argemone-mexicana-ephemerals.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.20-argemone-mexicana-ephemerals.png" "w-25 float-start">}}
 
 Figure 6.20: Argemone mexicana-Ephemerals
 
@@ -190,7 +190,7 @@ They have many adaptations to resist dry
 conditions. *Examples: Casuarina, Nerium,*
 *Zizyphus and Acacia.*
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.21:a)succulent-xerophyte–aloeb)non-succulent-perennial-ziziphus.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.21:a)succulent-xerophyte–aloeb)non-succulent-perennial-ziziphus.png" "w-25 float-start">}}
 
 Figure 6.21: a)Succulent xerophyte – Aloe
 
@@ -231,7 +231,7 @@ In some the petiole is modified into a fleshy
 leaf like structurcalled phyllode (Acacia
 melanoxylon)..
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.22-xerophytes.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.22-xerophytes.png" "w-25 float-start">}}
 
 Figure 6.22: Xerophytes
 
@@ -285,14 +285,14 @@ palisade and spongy parenchyma.
 * In succulents the stem possesses a water
 storage region.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.23-t.s.-of-nerium-leaf.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.23-t.s.-of-nerium-leaf.png" "w-25 float-start">}}
 
 Figure 6.23: T.S. of Nerium leaf
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.24-a-succulent-leaf-of-peperomia-t.s.-lateral-wing-portion.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.24-a-succulent-leaf-of-peperomia-t.s.-lateral-wing-portion.png" "w-25 float-start">}}
 
 Figure 6.24: A Succulent leaf of Peperomia (T.S.)  (lateral wing portion only)
 
@@ -404,7 +404,7 @@ greatly reduces transpiration.
 * Succulent epiphytes contain well developed
 parenchymatous cells to store water.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.25-t.s.-of-an-aerial-root-of-orchid-showing-velamen-tissue.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.25-t.s.-of-an-aerial-root-of-orchid-showing-velamen-tissue.png" "w-25 float-start">}}
 
 Figure 6.25: T.S. of an aerial root of Orchid showing velamen tissue
 
@@ -445,14 +445,14 @@ pneumathodes to get sufficient aeration
 are also present. They are called breathing
 roots. *Example: Avicennia*
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.26a-pneumatophores-of-mangrove-plant.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.26a-pneumatophores-of-mangrove-plant.png" "w-25 float-start">}}
 
 Figure 6.26a: Pneumatophores of mangrove plant
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.26b-succulent-halophyte-salicornia.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.26b-succulent-halophyte-salicornia.png" "w-25 float-start">}}
 
 Figure 6.26b:Succulent halophyte - Salicornia
 
@@ -460,7 +460,7 @@ Figure 6.26b:Succulent halophyte - Salicornia
 
 * Viviparous mode of seed germination is found in halophytes
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.27-viviparous-type-of-seed-germination.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.27-viviparous-type-of-seed-germination.png" "w-25 float-start">}}
 
 Figure 6.27: Viviparous type of seed germination
 

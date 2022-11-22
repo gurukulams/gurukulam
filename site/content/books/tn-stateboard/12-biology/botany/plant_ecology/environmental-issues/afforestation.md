@@ -17,7 +17,7 @@ a range of environmental services including
 carbon sequestration, water retention.
 
 
-{{< figure "images/books/12-biology/botany/images/8.8.png" "w-25 float-end">}}
+{{< figure "images/books/12-biology/botany/images/8.8.png" "w-25 float-start">}}
 lesson 9
 {{< /figure >}}
 
