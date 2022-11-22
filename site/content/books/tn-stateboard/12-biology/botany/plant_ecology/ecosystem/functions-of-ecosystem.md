@@ -95,7 +95,7 @@ Primary productivity depends upon the plant species of an area, their photosynth
 
  A trophic level refers to the position of an organism in the food chain. The number of trophic levels is equal to the number of steps in the food chain. The green plants (producers) occupying the first trophic level (T<sub>1</sub>) are called **producers**. The energy produced by the producers is utilized by the plant eaters (herbivores) they are called primary consumers and occupy the second trophic level (T<sub>2</sub>)
 
-{{< figure "images/books/12-biology/botany/eco-system/7.2:diagrammatic-representation-of-trophic-levels.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.2:diagrammatic-representation-of-trophic-levels.png" "w-25 float-start">}}
 
  Figure 7.2:  Diagrammatic representation of trophic levels
 
@@ -111,7 +111,7 @@ The transfer of energy in an ecosystem between trophic levels can be termed as e
 
 
 
-{{< figure "images/books/12-biology/botany/eco-system/7.3diagrammatic-representation-of energy-flow.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.3diagrammatic-representation-of energy-flow.png" "w-25 float-start">}}
 
 Figure 7.3: Diagrammatic representation of energy flow
 
@@ -143,7 +143,7 @@ This law was proposed by Lindeman (1942). It states that during transfer of food
 
 **Example**: It is shown that of the 1000 Joules of Solar energy trapped by producers. 100 Joules of energy is stored as chemical energy through photosynthesis. The remaining 900 Joules would be lost in the environment. In the next trophic level herbivores, which feed on producers get only 10 Joules of energy and the remaining 90 Joules is lost in the environment. Likewise, in the next trophic level, carnivores, which eat herbivores store only 1 Joule of energy and the remaining 9 Joules is dissipated. Finally, the carnivores are eaten by tertiary consumers which store only 0.1 Joule of energy and the remaining 0.9 Joule is lost in the environment. Thus, at the successive trophic level, only ten percent energy is stored
 
-{{< figure "images/books/12-biology/botany/eco-system/7.4-ten-percent-law.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.4-ten-percent-law.png" "w-25 float-start">}}
 
 Figure 7.4 : Ten Percent Law
 
@@ -156,7 +156,7 @@ The movement of energy from producers upto top carnivores is known as **food cha
 **1. Grazing food chain**
 Main source of energy for the grazing food chain is the **Sun**. It begins with the first link, producers (plants). The second link in the food chain is primary consumers (mouse) which get their food from producers. The third link in the food chain is secondary consumers (snake) which get their food from primary consumers. Fourth link in the food chain is tertiary consumers (eagle) which get their food from secondary consumers.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.5 : diagrammatic-representation-of-grazing-food-chain.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.5 : diagrammatic-representation-of-grazing-food-chain.png" "w-25 float-start">}}
 
 Figure 7.5 : Diagrammatic representation of Grazing food chain.
 
@@ -168,7 +168,7 @@ This type of food chain begins with **dead organic** **matter** which is an impo
 
 The transfer of energy from the dead organic matter, is transferred through a series of organisms called detritus consumers (detritivores)- small carnivores - large (top) carnivores with repeated eating and being eaten respectively. This is called the detritus food chain.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.6:diagrammatic-representation-of-detritus-food-chain.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.6:diagrammatic-representation-of-detritus-food-chain.png" "w-25 float-start">}}
 
 Figure 7.6: Diagrammatic representation of Detritus food chain
 
@@ -176,7 +176,7 @@ Figure 7.6: Diagrammatic representation of Detritus food chain
 
 #### Food Web
 
-{{< figure "images/books/12-biology/botany/eco-system/7.7:diagrammatic-representation-of-food-web-in-a-grassland-ecosystem.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.7:diagrammatic-representation-of-food-web-in-a-grassland-ecosystem.png" "w-25 float-start">}}
 
 Figure 7.7 : Diagrammatic representation of Food web in a grassland ecosystem
 
@@ -218,7 +218,7 @@ In a **forest** **ecosystem** the pyramid of number is somewhat different in sha
 
 The pyramid of number in a **parasite** **ecosystem** is always **inverted**, because it starts with a single tree. Therefore there is gradual increase in the number of organisms in successive tropic levels from producer to tertiary consumers.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.8:pyramids-of-numbers-(individuls-per-unit-area-in-different-types-of-ecosystems.png" "w-25 float-left">}} 
+{{< figure "images/books/12-biology/botany/eco-system/7.8:pyramids-of-numbers-(individuls-per-unit-area-in-different-types-of-ecosystems.png" "w-25 float-start">}} 
 
 Figure 7.8: Pyramids of numbers
 
@@ -231,7 +231,7 @@ In **grassland** and **forest ecosystems**, there is a gradual decrease in bioma
 
 However, in **pond ecosystem**, the bottom of the pyramid is occupied by the producers, which comprise very small organisms possessing the least biomass and so, the value gradually increases towards the tip of the pyramid. Therefore, the pyramid of biomass is always **inverted** in shape.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.9:pyramids-of-biomass(dry-weight-per-unit-area)in-different-types-of-ecosystems.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.9:pyramids-of-biomass(dry-weight-per-unit-area)in-different-types-of-ecosystems.png" "w-25 float-start">}}
 
 Figure 7.9 : Pyramids of Biomass ( dry weight per unit area) in different types of ecosystems.
 
@@ -240,7 +240,7 @@ Figure 7.9 : Pyramids of Biomass ( dry weight per unit area) in different types 
 **3. Pyramid of energy**
 A graphical representation of energy flow at each successive trophic level in an ecosystem is called **pyramid of energy**. The bottom of the pyramid of energy is occupied by the producers. There is a gradual decrease in energy transfer at successive tropic levels from producers to the upper levels. Therefore, the pyramid of energy is **always upright**.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.10: pyramids-of-energy-in-any-ecosystem.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.10: pyramids-of-energy-in-any-ecosystem.png" "w-25 float-start">}}
 
 Figure 7.10: Pyramids of Energy (Kcal/unitarea /unit time) in any ecosystem
 
@@ -258,7 +258,7 @@ The process of decomposition varies based on the nature of the organic compounds
 
 Decomposition is a step wise process of degradation mediated by enzymatic reactions. Detritus acts as a raw material for decomposition. It occurs in the following steps.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.11:diagrammatic-representation-process-of-decomposition-and-cycling-of-nutrients.pngpng" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.11:diagrammatic-representation-process-of-decomposition-and-cycling-of-nutrients.pngpng" "w-25 float-start">}}
 
 Figure 7.11 : Diagrammatic representation - Process pf decomposition and cycling of nutrients.
 
@@ -296,7 +296,7 @@ Exchange of nutrients between organisms and their environment is one of the esse
 
 The circulation of carbon between organisms and environment is known as the **carbon** **cycle**. Carbon is an inevitable part of all biomolecules and is substantially impacted by the change in global climate. Cycling of carbon between organisms and atmosphere is a consequence of two reciprocal processes of photosynthesis and respiration. The releasing of carbon in the atmosphere increases due to burning of fossile fuels, deforestration, forest fire, volcanic eruption and decomposition of dead organic matters. The details of carbon cycle are given in the figure.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.12:diagrammatic-sketch-showing-carbon-cycle.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.12:diagrammatic-sketch-showing-carbon-cycle.png" "w-25 float-start">}}
 
 Figure 7.12: Diagrammatic Sketch showing Carbon cycle
 
@@ -306,7 +306,7 @@ Figure 7.12: Diagrammatic Sketch showing Carbon cycle
 
 It is a type of sedimentary cycle. Already we know that phosphorus is found in the biomolecules like DNA, RNA, ATP, NADP and phospholipid molecules of living organisms. Phosphorus is not abundant in the biosphere, whereas a bulk quantity of phosphorus is present in rock deposits, marine sediments and guano.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.13:diagrammatic-sketch-showing-phosphorous-cycle.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.13:diagrammatic-sketch-showing-phosphorous-cycle.png" "w-25 float-start">}}
 
 Figure 7.13: Diagrammatic sketch showing Phosphorous cycle
 
@@ -318,7 +318,7 @@ It is released from these deposits by weathering process. After that, it circula
 
 Biosphere consists of different types of ecosystems, which are as follows
 
-{{< figure "images/books/12-biology/botany/eco-system/7.14:types-of-ecosystem.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.14:types-of-ecosystem.png" "w-25 float-start">}}
 
 Figure 7.14: Types of Ecosystem
 
@@ -331,7 +331,7 @@ Though there are many types of ecosystems as charted above. Only the pond ecosys
 It is a classical example for natural, aquatic, freshwater, lentic type of ecosystem. It helps us to understand the structure and function of an ecosystem. When rain water gathers in a shallow area, gradually over a period of time, different kinds of organisms (microbes, plants, animals) become part of this ecosystem. This pond ecosystem is a self sustaining and self regulatory fresh water ecosystem, which shows a complex interaction between the abiotic and biotic components in it.
 
 
-{{< figure "images/books/12-biology/botany/eco-system/7.15:diagram-shows-structure-of-pond-ecosystem-with-abiotic-and-biotic-components.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.15:diagram-shows-structure-of-pond-ecosystem-with-abiotic-and-biotic-components.png" "w-25 float-start">}}
 
 Figure 7.15: Diagram shows structure of pond ecosystem with abiotic and biotic components.
 
@@ -380,7 +380,7 @@ It is the study of biological, chemical, physical and geological components of i
 
 #### Stratification of pond ecosystem
 
-{{< figure "images/books/12-biology/botany/eco-system/7.16:diagrammatic-sketch-shows-stratificatio-of-pond-ecosystem.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.16:diagrammatic-sketch-shows-stratificatio-of-pond-ecosystem.png" "w-25 float-start">}}
 
 Figure 7.16: Diagrammatic sketch shows stratification of Pond ecosystem
 
@@ -401,7 +401,7 @@ Robert Constanza and his colleagues estimated the value of global ecosystem serv
 
 {{< /box >}}
 
-{{< figure "images/books/12-biology/botany/eco-system/mangrove-ecosystem-services.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/mangrove-ecosystem-services.png" "w-25 float-start">}}
 
 Mangrove Ecosystem Services
 
@@ -415,7 +415,7 @@ Now, we all exploit the ecosystem more than that of our needs. The **Millennium*
 
 The varieties of benefits obtained from the ecosystem are generally categorized into the following four types
 
-{{< figure "images/books/12-biology/botany/eco-system/7.17-Types-of-ecosystem-services.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.17-Types-of-ecosystem-services.png" "w-25 float-start">}}
 
 Figure 7.17: Types of Ecosystem services
 
@@ -482,7 +482,7 @@ chemicals and pesticides.
 ecosystem protection among your friends
 and family members.
 
-{{< figure "images/books/12-biology/botany/eco-system/go-green.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/go-green.png" "w-25 float-start">}}
 
 Go Green
 
@@ -526,7 +526,7 @@ Ecosystem management emphasis on human role in judicious use of ecosystem and fo
 * Currently Adayar Poonga functions as an environmental education Centre for school and college students and the public. The entire area stands as one of the best examples for urban eco restoration in the state of Tamil Nadu.
 
 
-{{< figure "images/books/12-biology/botany/eco-system/adayar-poonga.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/eco-system/adayar-poonga.png" "w-25 float-start">}}
 
 **Adayar Poonga**
 

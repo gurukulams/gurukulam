@@ -26,13 +26,13 @@ The individual seeds or the whole fruit may be modified to help for the dispersa
 * Wings: Seeds or whole fruits are flattened to form a wing. Examples: Maple, Gyrocarpus, Dipterocarpus and Terminalia
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.28-asclepias.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.28-asclepias.png" "w-25 float-start">}}
 
 Figure 6.28: Asclepias
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.29-gyrocarpus.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.29-gyrocarpus.png" "w-25 float-start">}}
 
 Figure 6.29: Gyrocarpus
 
@@ -64,13 +64,13 @@ Dispersal of seeds and fruits by water usually occurs in those plants which grow
 * Seeds by themselves would not float may be carried by water current. Example: Coconut.
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.30-nelumbo.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.30-nelumbo.png" "w-25 float-start">}}
 
 Figure 6.30: Nelumbo
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.31-coconut.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.31-coconut.png" "w-25 float-start">}}
 
 Figure 6.31: Coconut
 
@@ -92,14 +92,14 @@ Birds and mammals, including human beings play an efficient and important role i
 
 **iii.** Fleshy fruits: Some fleshy fruits with conspicuous colours are dispersed by human beings to distant places after consumption. *Example: Mango and Diplocyclos*
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.32-sunflower.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.32-sunflower.png" "w-25 float-start">}}
 
 Figure 6.32: Sunflower
 
 {{< /figure >}}
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.33-papaya.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.33-papaya.png" "w-25 float-start">}}
 
 Figure 6.33: Papaya
 
@@ -121,13 +121,13 @@ Some fruits burst suddenly with a force enabling to throw seeds to a little dist
 
 Example: *Ecballium elatrium* (Squirting cucumber) Gyrocarpus and Dipterocarpus.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.34:ecballium.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.34:ecballium.png" "w-25 float-start">}}
 
 Figure 6.34: Ecballium
 
 {{< /figure >}}
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.35-impatents.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.35-impatents.png" "w-25 float-start">}}
 
 Figure 6.35-impatents.png
 
@@ -138,7 +138,7 @@ Figure 6.35-impatents.png
 
 **Seed Ball:** Seed ball is an ancient Japanese technique of encasing seeds in a mixture of clay and soil humus (also in cow dung) and scattering them on to suitable ground, not planting of trees manually. This method is suitable for barren and degraded lands for tree regeneration and vegetation before monsoon period where the suitable dispersal agents become rare.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.36-seedball.png" "w-25 float-left">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.36-seedball.png" "w-25 float-start">}}
 
 Figure 6.36: Seed ball
 
