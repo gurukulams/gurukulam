@@ -3,12 +3,18 @@ class Chapter {
     this.parent = _parent;
 
     // eslint-disable-next-line no-undef
-    this.myModal = new bootstrap.Modal(
+    this.nodeModal = new bootstrap.Modal(
       document.getElementById("noteModel"),
       {}
     );
 
-    const model = this.myModal;
+    // eslint-disable-next-line no-undef
+    this.imageModel = new bootstrap.Modal(
+      document.getElementById("imageModel"),
+      {}
+    );
+
+    const model = this.nodeModal;
     document
       .getElementById("noteModel")
       .addEventListener("shown.bs.modal", function () {
@@ -57,6 +63,12 @@ class Chapter {
     //   this.detectTextHighlight();
     // });
 
+    document.querySelectorAll("figure>img").forEach((image) => {
+      image.addEventListener("dblclick", (event) => {
+        this.showImage(event);
+      });
+    });
+
     this.loadNotes();
   }
 
@@ -94,18 +106,18 @@ class Chapter {
   }
 
   deleteNote() {
-    const note = this.myModal.selectedNote;
+    const note = this.nodeModal.selectedNote;
     fetch("/api/books/" + this.bookName + "/note/" + note.id, {
       method: "DELETE",
       headers: window.ApplicationHeader(),
     }).then((response) => {
       console.log(response);
     });
-    this.myModal.hide();
+    this.nodeModal.hide();
   }
 
   saveNote() {
-    const note = this.myModal.selectedNote;
+    const note = this.nodeModal.selectedNote;
 
     note.onSection = this.chapterPath;
     note.note = document.getElementById("noteText").value;
@@ -135,7 +147,7 @@ class Chapter {
         });
     }
 
-    this.myModal.hide();
+    this.nodeModal.hide();
   }
 
   detectTextHighlight() {
@@ -180,9 +192,21 @@ class Chapter {
   }
 
   editNote(note, markEl) {
-    this.myModal.selectedNote = note;
-    this.myModal.markEl = markEl;
-    this.myModal.show();
+    this.nodeModal.selectedNote = note;
+    this.nodeModal.markEl = markEl;
+    this.nodeModal.show();
+  }
+
+  showImage(event) {
+    console.log("Show Image");
+
+    document.getElementById("imageModel").querySelector("img").src =
+      event.currentTarget.src;
+
+    document.getElementById("imageModel").querySelector("h5").innerHTML =
+      event.currentTarget.parentElement.querySelector("figcaption").innerHTML;
+
+    this.imageModel.show();
   }
 }
 
