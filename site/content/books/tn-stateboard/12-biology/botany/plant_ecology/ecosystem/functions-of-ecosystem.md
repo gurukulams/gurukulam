@@ -156,7 +156,7 @@ The movement of energy from producers upto top carnivores is known as **food cha
 **1. Grazing food chain**
 Main source of energy for the grazing food chain is the **Sun**. It begins with the first link, producers (plants). The second link in the food chain is primary consumers (mouse) which get their food from producers. The third link in the food chain is secondary consumers (snake) which get their food from primary consumers. Fourth link in the food chain is tertiary consumers (eagle) which get their food from secondary consumers.
 
-{{< figure "images/books/12-biology/botany/eco-system/7.5--diagrammatic-representation-of-grazing-food-chain.png" "w-25 float-start">}}
+{{< figure "images/books/12-biology/botany/eco-system/7.5-diagrammatic-representation-of-grazing-food-chain.png" "w-25 float-start">}}
 
 Figure 7.5 : Diagrammatic representation of Grazing food chain.
 
