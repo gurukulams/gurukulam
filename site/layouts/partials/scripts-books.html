@@ -24,15 +24,23 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="imageModelLabel">Image</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title w-50" id="imageModelLabel">Image</h5>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+          <label class="btn btn-outline-primary" for="btnradio1">Flashlight</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio2">Marker</label>
+        
+          
+        </div>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
       </div>
       <div class="modal-body d-flex align-items-center">
-        
           <div class="box w-100 text-success text-center">
             <img class="figure-img w-50 img-fluid rounded" src="/images/books/12-biology/botany/eco-system/7.2:diagrammatic-representation-of-trophic-levels.png">
           </div>
-        
       </div>
     </div>
   </div>

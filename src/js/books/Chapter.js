@@ -70,16 +70,6 @@ class Chapter {
     //   this.detectTextHighlight();
     // });
 
-    const modelImage = document
-      .getElementById("imageModel")
-      .querySelector("img");
-
-    modelImage.addEventListener("mousemove", (e) => {
-      // Use a circle with a clipPath
-      // and the offsetX and offsetY property
-      modelImage.style.clipPath = `circle(10em at ${e.offsetX}px ${e.offsetY}px)`;
-    });
-
     document.querySelectorAll("figure>img").forEach((image) => {
       image.addEventListener("dblclick", (event) => {
         this.showImage(event);
