@@ -1,14 +1,68 @@
+import { Recogito } from "@recogito/recogito-js";
+const data = [
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    type: "Annotation",
+    body: [
+      {
+        type: "TextualBody",
+        value: "hello",
+        purpose: "commenting",
+      },
+    ],
+    target: {
+      selector: [
+        {
+          type: "TextQuoteSelector",
+          exact: "clones. Higher plants\\nals",
+        },
+        {
+          type: "TextPositionSelector",
+          start: 742,
+          end: 767,
+        },
+      ],
+    },
+    id: "#83c80da3-ca48-4da4-a711-6cd39c20e1df",
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    type: "Annotation",
+    body: [
+      {
+        type: "TextualBody",
+        value: "hello",
+        purpose: "tagging",
+      },
+    ],
+    target: {
+      selector: [
+        {
+          type: "TextQuoteSelector",
+          exact: "metes is referred to as asexual\\nr",
+        },
+        {
+          type: "TextPositionSelector",
+          start: 95,
+          end: 128,
+        },
+      ],
+    },
+    id: "#70bbbb32-8faa-4a13-ad1c-01143e77a9bb",
+  },
+];
 class Chapter {
   constructor(_parent) {
     this.parent = _parent;
 
     // eslint-disable-next-line no-undef
-    var r = Recogito.init({
-      content: document.getElementById("content"), // ID or DOM element
-    });
-
+    const r = new Recogito({ content: "content" });
+    // this is the sample for creating and loading anotaions;
     console.log(r);
-
+    r.on("createAnnotation", function (annotation) {
+      console.log(annotation);
+    });
+    r.setAnnotations(data);
     // eslint-disable-next-line no-undef
     this.nodeModal = new bootstrap.Modal(
       document.getElementById("noteModel"),

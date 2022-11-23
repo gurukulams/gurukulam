@@ -1,4 +1,7 @@
 import eslint from '@rollup/plugin-eslint';
+import babel from "rollup-plugin-babel";
+import commonjs from "rollup-plugin-commonjs";
+import resolve from 'rollup-plugin-node-resolve'
 
 export default [{
   input: 'src/js/core/index.js',
@@ -17,7 +20,8 @@ export default [{
   plugins: [
     eslint({
       /* your options */
-    })
+      
+    }),
   ],
   output: {
     file: 'dist/js/oauth.js',
@@ -51,9 +55,12 @@ export default [{
 {
   input: 'src/js/books/index.js',
   plugins: [
-    eslint({
-      /* your options */
-    })
+    // eslint({
+    //   /* your options */
+    // }),
+    resolve(),
+    commonjs(),
+    babel()
   ],
   output: {
     file: 'dist/js/chapter.js',

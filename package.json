@@ -66,7 +66,11 @@
     "defaults"
   ],
   "dependencies": {
+    "@recogito/recogito-js": "^1.8.1",
     "marked": "^4.0.13",
-    "replace-in-file": "^6.3.5"
+    "replace-in-file": "^6.3.5",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
