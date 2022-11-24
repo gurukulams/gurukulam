@@ -6,9 +6,9 @@ weight: 1
 ---
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/r.misra.png" "w-20 float-sm-end">}}
+{{< figure "images/books/12-biology/botany/plant-ecology/r.misra.png" "w-25 float-sm-end">}}
 
-   R.Misra
+R.Misra
 
 {{< /figure >}}
 
@@ -19,7 +19,6 @@ The term “ecology” **(oekologie)** is derived from two Greek words – **oik
 **Eugene P. Odum** - Father of modern Ecology
 
 **R. Misra** - Father of Indian Ecology
-
 
 
 
@@ -91,6 +90,7 @@ ecology resulted in various new dimensions
 and branches. Some of the advanced fields are
 Molecular ecology, Eco technology, Statistical
 ecology and Environmental toxicology
+
 
 #### Habitat and Niche 
 

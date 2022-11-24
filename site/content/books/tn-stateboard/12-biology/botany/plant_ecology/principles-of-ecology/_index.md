@@ -5,6 +5,7 @@ draft: false
 weight: 1
 ---
 
+
 Ecology is a division of biology which deals with the study of environment in relation to organisms. It can be studied by considering individual organisms, population, community, biome or biosphere and their environment. While observing our different environments, one can ask questions like 
 
 * Why do plants or animals vary with places?

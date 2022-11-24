@@ -25,7 +25,7 @@ Flowers of poppy, chicory, dog rose and many other plants, blossom before the br
 Climate is one of the important natural factors controlling the plant life. The climatic factors includes light, temperature, water, wind and fire.
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.1-environmental-factors-affecting-a-plant.png" "w-20 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.1-environmental-factors-affecting-a-plant.png" "w-25 float-right" >}}
 
 Figure 6.1: Environmental factors affecting a plant
 
@@ -282,11 +282,18 @@ The important edaphic factors which affect vegetation are as follows:
 
 **7. Soil organisms:** Many organisms existing in the soil like bacteria, fungi, algae, protozoans, nematodes, insects, earthworms, etc. are called soil organisms. 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.7-soil-profile.png" "w-25 float-start" >}}
 
-Figure 6.7: Soil Profile
 
-{{< /figure >}}
+
+| Horizon                                                                                                    | Description                                                                                                                                                                                                                                |
+|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| O–Horizon (Organic horizon) Humus                                                                          | It consists of fresh or partially decomposed organic matter. O1 – Freshly fallen leaves, twigs, flowers and fruits  O2 – Dead plants, animals and their excreta  decomposed by micro-organisms.Usually absent in agricultural and deserts. |
+| A–Horizon  (Leached horizon)  Topsoil - Often rich in humus and minerals.                                  | It consists of top soil with humus, living creatures and in-organic minerals.  A1 – Dark and rich in organic matter because of mixture of organic and mineral matters.  A2 – Light coloured layer with large sized mineralparticles.       |
+| B-Horizon (Accumulation horizon) (Subsoil-Poor in humus, rich in minerals)                                 | It consists of iron, aluminium and silica rich clay organic compounds.                                                                                                                                                                     |
+| C - Horizon (Partially weathered horizon)  Weathered rock  Fragments - Little or no  plant or animal life. | It consists of parent materials of soil, composed of little amount of organic matters without life forms.                                                                                                                                  |
+| R – Horizon (Parent material)  Bedrock                                                                     | It is a parent bed rock upon which underground water is found .                                                                                                                                                                            |
+
+
 
 **Soil Profile**
 
