@@ -20,7 +20,8 @@ class QuestionScreen {
     this.deletedQuestionIds = [];
 
     let bookName = window.location.pathname.split("/practices/books/")[1];
-    const chaptorName = bookName.substring(bookName.indexOf("/") + 1);
+    let chaptorName = bookName.substring(bookName.indexOf("/") + 1);
+    chaptorName = chaptorName.substring(chaptorName.indexOf("/") + 1);
     bookName = bookName.substring(0, bookName.indexOf("/"));
     this.render(false, bookName, chaptorName);
 
