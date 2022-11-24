@@ -56,6 +56,12 @@ class Chapter {
     this.parent = _parent;
 
     // eslint-disable-next-line no-undef
+    this.imageModel = new bootstrap.Modal(
+      document.getElementById("imageModel"),
+      {}
+    );
+
+    // eslint-disable-next-line no-undef
     this.recognito = new Recogito({ content: "content" });
     // this is the sample for creating and loading anotaions;
 
@@ -78,6 +84,12 @@ class Chapter {
     });
 
     this.loadNotes();
+
+    document.querySelectorAll("figure>img").forEach((image) => {
+      image.addEventListener("dblclick", (event) => {
+        this.showImage(event);
+      });
+    });
   }
 
   saveAnnotaion(annotation) {
@@ -202,17 +214,17 @@ class Chapter {
   //   this.nodeModal.show();
   // }
 
-  // showImage(event) {
-  //   console.log("Show Image");
+  showImage(event) {
+    console.log("Show Image");
 
-  //   document.getElementById("imageModel").querySelector("img").src =
-  //     event.currentTarget.src;
+    document.getElementById("imageModel").querySelector("img").src =
+      event.currentTarget.src;
 
-  //   document.getElementById("imageModel").querySelector("h5").innerHTML =
-  //     event.currentTarget.parentElement.querySelector("figcaption").innerHTML;
+    document.getElementById("imageModel").querySelector("h5").innerHTML =
+      event.currentTarget.parentElement.querySelector("figcaption").innerHTML;
 
-  //   this.imageModel.show();
-  // }
+    this.imageModel.show();
+  }
 }
 
 export default Chapter;
