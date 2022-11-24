@@ -55,6 +55,10 @@ class Chapter {
   constructor(_parent) {
     this.parent = _parent;
 
+    document.querySelectorAll("table").forEach((table) => {
+      table.classList.add("table");
+    });
+
     // eslint-disable-next-line no-undef
     this.imageModel = new bootstrap.Modal(
       document.getElementById("imageModel"),
