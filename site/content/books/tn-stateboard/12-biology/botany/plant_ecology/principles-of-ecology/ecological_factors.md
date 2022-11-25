@@ -39,7 +39,7 @@ Light is a well known factor needed for the basic physiological processes of pla
 **Effects of light on plants**
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.2-various-effects-of-light-upon-a-green-plant.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.2-various-effects-of-light-upon-a-green-plant.png" "w-25 float-right" >}}
 
 Figure 6.2: Various effects of light upon a green plant
 
@@ -90,7 +90,7 @@ Mango plant does not grow in temperate countries like Canada and Germany
 
 It is usually found in aquatic habitat. The change in the temperature profile with increasing depth in a water body is called **thermal stratification**. There are three levels of thermal stratifications.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.3-thermal-stratification-of-pond.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.3-thermal-stratification-of-pond.png" "w-25 float-right" >}}
 
 Figure 6.3: Thermal stratification of pond
 
@@ -110,7 +110,7 @@ Variations in **latitude** and **altitude** do affect the temperature and the ve
 
 **Altitude:** How high a place is located above the sea level is called the altitude of the place.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.4-latitudinal-zonation-of-vegetation.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.4-latitudinal-zonation-of-vegetation.png" "w-25 float-right" >}}
 
 Figure 6.4: Latitudinal zonation of vegetation
 
@@ -118,7 +118,7 @@ Figure 6.4: Latitudinal zonation of vegetation
 
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.5-altitudinal-zonation-of-vegetation.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.5-altitudinal-zonation-of-vegetation.png" "w-25 float-right" >}}
 
 Figure 6.5: Altitudinal zonation of vegetation.png
 
@@ -161,7 +161,7 @@ The productivity and distribution of plants depend upon the availability of wate
 
 **2. Stenohaline:** Organisms which can withstand only small range of salinity. Example: Plants of estuaries.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/Table" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/Table" "w-25 float-right" >}}
 
 Table 6.2: Tolerance of Environmental factor
 
@@ -206,7 +206,7 @@ Gases let out to atmosphere causes climatic change. Emission of dust and aerosol
 
 *  Unidirectional wind stimulates the development of flag forms in trees.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.6-flag-form-in-trees.png" "w-20 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.6-flag-form-in-trees.png" "w-20 float-right" >}}
 
 Figure 6.6: Flag form in trees.png
 
@@ -303,7 +303,7 @@ Soil is commonly stratified into horizons at different depth. These layers diffe
 
 Based on the relative proportion of soil particles, four types of soil are recognized.
 
-{{< figure "images/books/12-biology/botany/Ecology/Table 6.3: Types of soil particles.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/Ecology/Table 6.3: Types of soil particles.png" "w-25 float-right" >}}
 Table 6.3: Types of soil particles 
 {{< /figure >}}
 
@@ -343,7 +343,7 @@ The surface features of earth are called **topography.** Topographic influence o
 
 Latitudes represent distance from the equator. Temperature values are maximum at the equator and decrease gradually towards poles. Different types of vegetation occur from equator to poles which are illustrated below.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.8-latitudinal-and-altitudinal-vegetation.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.8-latitudinal-and-altitudinal-vegetation.png" "w-25 float-right" >}}
 
 Figure 6.8: Latitudinal and Altitudinal Vegetation
 
@@ -366,7 +366,7 @@ Similarly in the soil of aquatic bodies like ponds the center and edge possess d
 
 The steepness of the mountain or hill allows the rain to run off. As a result the loss of water causes water deficit and quick erosion of the top soil resulting in poor vegetation. On the other hand, the plains and valley are rich in vegetation due to the slow drain of surface water and better retention of water in the soil.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.9-steepness-of-mountain.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.9-steepness-of-mountain.png" "w-25 float-right" >}}
 
 Figure 6.9: Steepness of mountain
 
@@ -386,7 +386,7 @@ When one or both the participating species are benefited, it is positive interac
 
 **Rhizobium**(Bacterium) forms nodules in the roots of leguminous plants and lives symbiotically. The Rhizobium obtains food from leguminous plant and in turn fixes atmospheric nitrogen into nitrate, making it available to host plants.
 
-{{< figure "images/books/12-biology/botany/Ecology/Table 6.4:" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/Ecology/Table 6.4:" "w-25 float-right" >}}
 
 Table 6.4: Different interactions of plant
 
@@ -409,7 +409,7 @@ Table 6.4: Different interactions of plant
 
 **b. Commensalism:**It is an interaction between two organisms in which one is benefitted and the other is neither benefitted nor harmed. The species that derives benefit is called the **commensal**, while the other species is called the host. The common examples of commensalism are listed below:
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.10-a-nodulated-legume-plant-root-with-bacteria.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.10-a-nodulated-legume-plant-root-with-bacteria.png" "w-25 float-right" >}}
 
 Figure 6.10: A nodulated legume plant root with bacteria
 
@@ -421,7 +421,7 @@ Figure 6.10: A nodulated legume plant root with bacteria
 
 The plants which are found growing on other plants without harming them are called epiphytes. They are commonly found in tropical rain forest.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.11-an-epiphytic-plant-vanda.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.11-an-epiphytic-plant-vanda.png" "w-25 float-right" >}}
 
 Figure 6.11: An epiphytic plant-Vanda
 
@@ -454,7 +454,7 @@ When one of the interacting species is benefitted and the other is harmed, it is
 
 *  A number of plants like Drosera (Sun dew Plant), Nepenthes (Pitcher Plant), Dionaea (Venus fly trap), Utricularia (Bladder wort) and Sarracenia are predators which consume insects and other small animals for their food as a source of nitrogen. They are also called as **insectivorous plants.**
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.12-pitcher-plant-with-insect.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.12-pitcher-plant-with-insect.png" "w-25 float-right" >}}
 
 Figure 6.12: Pitcher plant – with insect
 
@@ -462,7 +462,7 @@ Figure 6.12: Pitcher plant – with insect
 
 *  Many herbivores are predators. Cattles, Camels, Goats etc., frequently browse on the tender shoots of herbs, shrubs and trees. Generally annuals suffer more than the perennials. Grazing and browsing may cause remarkable changes in vegetation. Nearly 25 percent of all insects are known as phytophagous(feeds on plant sap and other parts of plant)
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.13-insectivorous-plant-utricularia.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.13-insectivorous-plant-utricularia.png" "w-25 float-right" >}}
 
 Figure 6.13: Insectivorous plant Utricularia
 
@@ -477,7 +477,7 @@ Figure 6.13: Insectivorous plant Utricularia
 
 The organisms which are dependent upon the host plants for their entire nutrition are called **Holoparasites.** They are also called **total parasites**.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.14-a-holoparasite-cuscuta-b-a-partial-stem-parasite-vi.png.png." "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.14-a-holoparasite-cuscuta-b-a-partial-stem-parasite-vi.png.png." "w-25 float-right" >}}
 
 Figure 6.14: a) Holoparasite – Cuscuta b) A Partial stem parasite – Viscum c) Root parasite on the brinjal root Orobanche spp. 
 
@@ -524,7 +524,7 @@ Aspergillus.
 **i. Mimicry:** It is a phenomenon in which living organism modifies its form, appearance, structure or behavior and looks like another living organism as a self defence and increases the chance of its survival. Floral mimicry is for usually inviting pollinators but animal mimicry is often protective. Mimicry is a result of evolutionary significance due to shape and sudden heritable mutation and preservation by natural selection.
 
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.15-mimicry.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.15-mimicry.png" "w-25 float-right" >}}
 
 Figure 6.15: Mimicry
 
@@ -539,7 +539,7 @@ Example:
 
 **ii. Myrmecophily:** Sometimes, ants take their shelter on some trees such as Mango, Litchi, Jamun, Acacia etc. These ants act as body guards of the plants against any disturbing agent and the plants in turn provide food and shelter to these ants. This phenomenon is known as Myrmecophily. Example: Acacia and acacia ants.
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.16-myrmecophily.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.16-myrmecophily.png" "w-25 float-right" >}}
 
 Figure 6.16: Myrmecophily
 
@@ -547,7 +547,7 @@ Figure 6.16: Myrmecophily
 
 **iii. Co-evolution:** The interaction between organisms, when continues for generations, involves reciprocal changes in genetic and morphological characters of both organisms. This type of evolution is called Co-evolution. It is a kind of co- adaptation and mutual change among interactive species. Examples:
 
-{{< figure "images/books/12-biology/botany/plant-ecology/6.17-co-evolution.png" "w-25 float-start" >}}
+{{< figure "images/books/12-biology/botany/plant-ecology/6.17-co-evolution.png" "w-25 float-right" >}}
 
 Figure 6.17: Co-evolution
 
