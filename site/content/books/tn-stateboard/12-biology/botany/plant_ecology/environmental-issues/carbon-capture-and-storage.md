@@ -6,9 +6,6 @@ weight: 7
 ---
 
 
-
-
-
 Carbon capture and storage is a technology of
 capturing carbondioxide and injects it deep into
 the underground rocks to a depth of 1 km or more
@@ -26,7 +23,6 @@ Geological sequestration which involves injecting
 formations (such as declining oil fields, gas fields
 saline aquifers and unmineable coal have been
 suggested as storage sites).
-
 
 
 ##### Carbon Sequestration

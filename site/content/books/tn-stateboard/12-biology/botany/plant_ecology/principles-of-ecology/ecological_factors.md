@@ -32,11 +32,12 @@ Figure 6.1: Environmental factors affecting a plant
 {{< /figure >}}
 
 
-**a. Light**
+##### a. Light
 
 Light is a well known factor needed for the basic physiological processes of plants, such as photosynthesis, transpiration, seed germination and flowering. The portion of the sunlight which can be resolved by the human eye is called **visible light.** The visible part of light is madeup of wavelength from about 400 nm (violet) to 700 nm **(red)**. The rate of photosynthesis is maximum at **blue** (400 – 500 nm) and red (600 – 700 nm). The **green**(500 – 600 nm) wave length of spectrum is less strongly absorbed by plants.
 
-**Effects of light on plants**
+
+##### Effects of light on plants
 
 
 {{< figure "images/books/12-biology/botany/plant-ecology/6.2-various-effects-of-light-upon-a-green-plant.png" "w-25 float-right" >}}
@@ -63,7 +64,7 @@ Palaeoclimatology–Helps to reconstruct past climates of our planet and flora, 
 {{< /box >}}
 
 
-**b. Temperature**
+##### b. Temperature
 
 Temperature is one of the important factors which affect almost all the metabolic activities of an organism. Every physiological process in an organism requires an optimum temperature at which it shows the maximum metabolic rate. Three limits of temperature can be recognized for any organism. They are
 
@@ -102,7 +103,7 @@ Figure 6.3: Thermal stratification of pond
 
 **3. Hypolimnion** - The bottom layer of colder water.
 
-**Temperature based zonation**
+##### Temperature based zonation
 
 Variations in **latitude** and **altitude** do affect the temperature and the vegetation on the earth surface. The latitudinal and altitudinal zonation of vegetation is illustrated below:
 
@@ -127,17 +128,17 @@ Figure 6.5: Altitudinal zonation of vegetation.png
 
 **Timber line / Tree line :** It is an imaginary line in a mountain or higher areas of land that marks the level above which trees do not grow. The altitudinal limit of normal tree growth is about **3000 to 4000m.**
 
-**Effects of temperature**
+##### Effects of temperature
 
 The following physiological processes are influenced by temperature:
 
-* Temperature affects the enzymatic action of all the bio-chemical reactions in a plant body.
+- Temperature affects the enzymatic action of all the bio-chemical reactions in a plant body.
 
-* It influences CO2 and O2 solubility in the biological systems. Increases respiration and stimulates growth of seedlings.
+- It influences CO2 and O2 solubility in the biological systems. Increases respiration and stimulates growth of seedlings.
 
-* Low temperature with high humidity can cause spread of diseases in plants.
+- Low temperature with high humidity can cause spread of diseases in plants.
 
-* The varying temperature with moisture determines the distribution of the vegetation types.
+-  The varying temperature with moisture determines the distribution of the vegetation types.
 
 **c. Water**
 
