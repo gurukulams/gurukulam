@@ -4,6 +4,12 @@ class Chapter {
   constructor(_parent) {
     this.parent = _parent;
 
+    this.path = window.location.pathname.trim();
+
+    if (this.path.endsWith("/")) {
+      this.path = this.path.slice(0, -1);
+    }
+
     document.querySelectorAll("table").forEach((table) => {
       table.classList.add("table");
     });
@@ -52,7 +58,10 @@ class Chapter {
     note.onSection = this.chapterPath;
     note.note = "hello";
     note.text = JSON.stringify(annotation);
-    fetch("/api/annotations/" + this.bookName, {
+
+    console.log(window.href);
+
+    fetch("/api/annotations" + this.path, {
       method: "POST",
       headers: window.ApplicationHeader(),
       body: JSON.stringify(note),
@@ -63,10 +72,9 @@ class Chapter {
       });
   }
   loadNotes() {
-    fetch("/api/annotations/" + this.bookName + "/_search", {
-      method: "POST",
+    fetch("/api/annotations" + this.path, {
+      method: "GET",
       headers: window.ApplicationHeader(),
-      body: this.chapterPath,
     })
       .then((response) => response.json())
       .then((notes) => {
@@ -74,98 +82,6 @@ class Chapter {
         this.recognito.setAnnotations(notes.map((t) => JSON.parse(t.text)));
       });
   }
-
-  // deleteNote() {
-  //   const note = this.nodeModal.selectedNote;
-  //   fetch("/api/annotations/" + this.bookName + "/" + note.id, {
-  //     method: "DELETE",
-  //     headers: window.ApplicationHeader(),
-  //   }).then((response) => {
-  //     console.log(response);
-  //   });
-  //   this.nodeModal.hide();
-  // }
-
-  // saveNote() {
-  //   const note = this.nodeModal.selectedNote;
-
-  //   note.onSection = this.chapterPath;
-  //   note.note = document.getElementById("noteText").value;
-
-  //   console.log(this.bookName);
-  //   console.log(note);
-
-  //   if (note.id) {
-  //     fetch("/api/annotations/" + this.bookName + "/" + note.id, {
-  //       method: "PUT",
-  //       headers: window.ApplicationHeader(),
-  //       body: JSON.stringify(note),
-  //     })
-  //       .then((response) => response.json())
-  //       .then((_note) => {
-  //         note.id = _note.id;
-  //       });
-  //   } else {
-  //     fetch("/api/annotations/" + this.bookName + "", {
-  //       method: "POST",
-  //       headers: window.ApplicationHeader(),
-  //       body: JSON.stringify(note),
-  //     })
-  //       .then((response) => response.json())
-  //       .then((_note) => {
-  //         note.id = _note.id;
-  //       });
-  //   }
-
-  //   this.nodeModal.hide();
-  // }
-
-  // detectTextHighlight() {
-  //   var selection = window.getSelection();
-
-  //   var selection_text = selection.toString();
-
-  //   if (selection.anchorNode && selection_text.trim().length !== 0) {
-  //     var parent = selection.anchorNode.parentElement;
-  //     // if (parent.nodeName !== "MARK") {
-  //     if (parent.nodeName === "P") {
-  //       console.log(selection.anchorNode);
-  //       this.hightlight({ text: selection_text }, selection);
-  //     }
-  //   }
-  // }
-
-  // hightlightNote(note) {
-  //   console.log(note);
-  //   const searched = note.text;
-  //   let text = this.parent.innerHTML;
-  //   let re = new RegExp(searched, "g"); // search for all instances
-  //   let newText = text.replace(
-  //     re,
-  //     `<mark id="${note.id}" data-bs-toggle="tooltip" data-bs-placement="top" title="${note.note}" >${searched}</mark>`
-  //   );
-  //   this.parent.innerHTML = newText;
-  // }
-
-  // hightlight(note, selection) {
-  //   var mark = document.createElement("mark");
-
-  //   mark.textContent = note.text;
-
-  //   mark.addEventListener("dblclick", (event) => {
-  //     this.editNote(note, event.currentTarget);
-  //   });
-
-  //   var range = selection.getRangeAt(0);
-  //   range.deleteContents();
-  //   range.insertNode(mark);
-  // }
-
-  // editNote(note, markEl) {
-  //   this.nodeModal.selectedNote = note;
-  //   this.nodeModal.markEl = markEl;
-  //   this.nodeModal.show();
-  // }
 
   showImage(event) {
     console.log("Show Image");
