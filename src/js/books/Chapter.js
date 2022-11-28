@@ -1,56 +1,5 @@
 import { Recogito } from "@recogito/recogito-js";
-const data = [
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    type: "Annotation",
-    body: [
-      {
-        type: "TextualBody",
-        value: "hello",
-        purpose: "commenting",
-      },
-    ],
-    target: {
-      selector: [
-        {
-          type: "TextQuoteSelector",
-          exact: "clones. Higher plants\\nals",
-        },
-        {
-          type: "TextPositionSelector",
-          start: 742,
-          end: 767,
-        },
-      ],
-    },
-    id: "#83c80da3-ca48-4da4-a711-6cd39c20e1df",
-  },
-  {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    type: "Annotation",
-    body: [
-      {
-        type: "TextualBody",
-        value: "hello",
-        purpose: "tagging",
-      },
-    ],
-    target: {
-      selector: [
-        {
-          type: "TextQuoteSelector",
-          exact: "metes is referred to as asexual\\nr",
-        },
-        {
-          type: "TextPositionSelector",
-          start: 95,
-          end: 128,
-        },
-      ],
-    },
-    id: "#70bbbb32-8faa-4a13-ad1c-01143e77a9bb",
-  },
-];
+
 class Chapter {
   constructor(_parent) {
     this.parent = _parent;
@@ -103,7 +52,7 @@ class Chapter {
     note.onSection = this.chapterPath;
     note.note = "hello";
     note.text = JSON.stringify(annotation);
-    fetch("/api/books/" + this.bookName + "/note", {
+    fetch("/api/annotations/" + this.bookName, {
       method: "POST",
       headers: window.ApplicationHeader(),
       body: JSON.stringify(note),
@@ -114,7 +63,7 @@ class Chapter {
       });
   }
   loadNotes() {
-    fetch("/api/books/" + this.bookName + "/note/_search", {
+    fetch("/api/annotations/" + this.bookName + "/_search", {
       method: "POST",
       headers: window.ApplicationHeader(),
       body: this.chapterPath,
@@ -128,7 +77,7 @@ class Chapter {
 
   // deleteNote() {
   //   const note = this.nodeModal.selectedNote;
-  //   fetch("/api/books/" + this.bookName + "/note/" + note.id, {
+  //   fetch("/api/annotations/" + this.bookName + "/" + note.id, {
   //     method: "DELETE",
   //     headers: window.ApplicationHeader(),
   //   }).then((response) => {
@@ -147,7 +96,7 @@ class Chapter {
   //   console.log(note);
 
   //   if (note.id) {
-  //     fetch("/api/books/" + this.bookName + "/note/" + note.id, {
+  //     fetch("/api/annotations/" + this.bookName + "/" + note.id, {
   //       method: "PUT",
   //       headers: window.ApplicationHeader(),
   //       body: JSON.stringify(note),
@@ -157,7 +106,7 @@ class Chapter {
   //         note.id = _note.id;
   //       });
   //   } else {
-  //     fetch("/api/books/" + this.bookName + "/note", {
+  //     fetch("/api/annotations/" + this.bookName + "", {
   //       method: "POST",
   //       headers: window.ApplicationHeader(),
   //       body: JSON.stringify(note),
