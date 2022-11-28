@@ -55,11 +55,8 @@ class Chapter {
     console.log(annotation);
     // {"text":" referred to as asexual reproducti","onSection":"/12-biology/botany/reproduction/asexual_reproduction","note":"hello"}
     const note = {};
-    note.onSection = this.chapterPath;
-    note.note = "hello";
-    note.text = JSON.stringify(annotation);
 
-    console.log(window.href);
+    note.value = annotation;
 
     fetch("/api/annotations" + this.path, {
       method: "POST",
@@ -79,7 +76,7 @@ class Chapter {
       .then((response) => response.json())
       .then((notes) => {
         console.log(notes);
-        this.recognito.setAnnotations(notes.map((t) => JSON.parse(t.text)));
+        this.recognito.setAnnotations(notes.map((t) => t.value));
       });
   }
 
