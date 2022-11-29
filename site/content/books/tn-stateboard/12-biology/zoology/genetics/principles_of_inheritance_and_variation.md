@@ -7,7 +7,7 @@ weight: 1
 
 {{< box >}}
 
-### <u> Chapter Outline 
+###  Chapter Outline 
 
 4.1 Multiple alleles
 
@@ -197,7 +197,7 @@ in the milk of animals.
 Table 4.1 Genetic basis of the human ABO blood groups
 {{< /figure >}}
 
-#### <u> Rhesus or Rh Factor 
+####  Rhesus or Rh Factor 
 
 The Rh factor or Rh antigen is found on
 the surface of erythrocytes. It was discovered
@@ -249,7 +249,7 @@ produce Rh positive phenotype and double
 recessive genotype ‘dd’ will give rise to Rh
 negative phenotype.
 
-#### <u> Wiener Hypothesis 
+####  Wiener Hypothesis 
 
 Wiener proposed the existence of eight alleles (R<sup>1</sup>, R<sup>2</sup>, R<sup>0</sup> ,R<sup>z</sup>,r, r<sup>1</sup>, r<sup>11</sup>, r<sup>y</sup>) at a single Rh locus. All genotypes carrying a dominant ‘R allele’ (R<sup>1</sup>, R<sup>2</sup>, R<sup>0</sup> ,R<sup>z</sup>) will produce Rh
 will produce Rh positive phenotype and double recessive genotypes (rr, r<sup>1</sup>r<sup>1</sup>, r<sup>11</sup>r<sup>11</sup>, r<sup>y</sup>r<sup>y</sup>) will give rise to Rh negative phenotype.
@@ -285,7 +285,7 @@ foetal RBCs resulting in haemolytic jaundice
 and anaemia. This condition is known as
 Erythoblastosis foetalis or **Haemolytic disease of the new born (HDN)**.
 
-### <u> Prevention of Erythroblastosis foetalis 
+###  Prevention of Erythroblastosis foetalis 
 
 If the mother is Rh negative and foetus
 is Rh positive, anti D antibodies should be
@@ -331,7 +331,7 @@ about 1,000 genes.
 
 {{< /box >}}
 
-### <u> Chromosomal basis of sex determination Heterogametic Sex Determination: 
+###  Chromosomal basis of sex determination Heterogametic Sex Determination: 
 
 In heterogametic sex
 determination one of the
@@ -342,7 +342,7 @@ the offspring is determined at the time of
 fertilization.
 
 
-### <u> Heterogametic Males 
+###  Heterogametic Males 
 
 In this method of sex determination the
 males are heterogametic producing dissimilar
@@ -367,7 +367,7 @@ ZO-ZZ type (eg. Moths, butterflies and
 domestic chickens) and ZW-ZZ type
 (eg. Gypsy moth, fishes, reptiles and birds).
 
-### <u> Sex determination in human beings  
+###  Sex determination in human beings  
 
 Genes determining sex in human beings are
 located on two sex chromosomes, called
@@ -388,7 +388,7 @@ chromosomes also exist in *Drosophila*
 Fig. 4.2 Sex determination in human beings
 {{< /figure >}}
 
-### <u> The Y Chromosome and Male Development  
+###  The Y Chromosome and Male Development  
 
 Current analysis of Y chromosomes has
 revealed numerous genes and regions with
@@ -455,7 +455,7 @@ one Barr body.
 
 {{< /box >}}
 
-### <u> Haplodiploidy in Honeybees  
+###  Haplodiploidy in Honeybees  
 
 In hymenopteran insects such as
 honeybees, ants and wasps a mechanism of sex
@@ -539,7 +539,7 @@ Haemophilia follows the characteristic
 criss - cross pattern of inheritance.
 
 
-#### <u> 2. Colour blindness 
+####  2. Colour blindness 
 
 
 In human beings a dominant X – linked
@@ -629,7 +629,7 @@ is called a **karyotype.** Chromosome banding
 permits structural definitions and differentiation
 of chromosomes.
 
-### <u> Applications of Karyotyping:  
+###  Applications of Karyotyping:  
 
 * It helps in gender identification.
 
@@ -652,7 +652,7 @@ detected by this technique.
 Fig. 4.5 Human karyotype (male)
 {{< /figure >}}
 
-### <u> Human Karyotype  
+###  Human Karyotype  
 
 Depending upon the position of the
 centromere and relative length of two arms,
@@ -676,7 +676,7 @@ Fig. 4.6 Symbols commonly used in pedigree charts
 {{< /figure >}}
 
 
-#### <u> Genetic Disorders  
+####  Genetic Disorders  
 
 A genetic disorder is a disease or syndrome
 that is caused by an abnormality in an individual
@@ -726,7 +726,7 @@ as Cooley’s anaemia. In this disorder the alpha
 chain production is increased and damages the
 membranes of RBC.
 
-#### <u> Phenylketonuria  
+####  Phenylketonuria  
 
 It is an inborn error of
 **Phenylalanine** metabolism
@@ -763,7 +763,7 @@ iris, etc., , but lack melanin pigment.
 
 3, 4 dihydroxy  phenylalanine  (DOPA) -> Tyrosinase -> Melanin
 
-#### <u> Huntington’s chorea  
+####  Huntington’s chorea  
 
 It is inherited as an autosomal dominant
 lethal gene in man. It is characterized by
@@ -908,7 +908,7 @@ chromosome is XO and in Klinefelter’s syndrome
 the condition is XXY. An idiogram refers to a
 diagrammatic representation of chromosomes.
 
-### <u> Evaluation 
+###  Evaluation 
 
 1. Haemophilia is more
 common in males

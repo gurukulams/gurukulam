@@ -199,7 +199,7 @@ recessive the individual is called **homozygous recessive (tt)** dwarf pea plant
 allele and one recessive allele (Tt) denotes non-
 true breeding tall pea plants **heterozygous tall.**
 
-#### <u> Mendelian inheritance – Mendel’s Laws of Heredity 
+####  Mendelian inheritance – Mendel’s Laws of Heredity 
 
 Mendel proposed two rules based on his
 observations on monohybrid cross, today these

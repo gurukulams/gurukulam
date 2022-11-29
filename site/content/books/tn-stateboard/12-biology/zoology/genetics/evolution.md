@@ -13,7 +13,7 @@ weight: 3
 
 {{< box >}}
 
-## <u> Chapter Outline  
+##  Chapter Outline  
 
 6.1 Origin of life - Evolution of life forms
 
@@ -491,7 +491,7 @@ body hair, mammae in male, nictitating
 membrane of the eye, etc.,
 
 
-### <u> Connecting link 
+###  Connecting link 
 
 The organisms which possess the
 characters of two different groups (transitional
@@ -500,7 +500,7 @@ Peripatus (connecting link between Annelida
 and Arthropoda), Archeopteryx (connecting
 link between Reptiles and Aves).
 
-### <u> Atavistic organs 
+###  Atavistic organs 
 
 Sudden appearance of vestigial organs in
 highly evolved organisms is called atavistic
@@ -558,7 +558,7 @@ gastrula and are triploblastic. This indicates
 that all the above said animals have evolved
 from a common ancestor.
 
-## <u> Molecular evidences 
+##  Molecular evidences 
 
 Molecular evolution is the process
 of change in the sequence composition of
@@ -1246,7 +1246,7 @@ species from apes and placental mammals in
 brain size, eating habit and other behavior
 proves that ‘Ontogeny recapitulates Phylogeny’.
 
-## <u> Evaluation 
+##  Evaluation 
 
 1) The first life on earth
 originated

@@ -34,7 +34,7 @@ fertilisers and bio pest repellants.
 
 {{< box >}}
 
-## <u> Chapter Outline  
+##  Chapter Outline  
 
 10.1 Food Plants
  

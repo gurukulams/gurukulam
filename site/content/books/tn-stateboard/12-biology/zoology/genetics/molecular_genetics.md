@@ -8,7 +8,7 @@ weight: 2
 {{< box >}}
 
 
-### <u> Chapter Outline 
+###  Chapter Outline 
 
 5.1 Gene as the functional unit of inheritance
 
@@ -1195,7 +1195,7 @@ valine **(Fig. 5.10)**. The mutant haemoglobin
 {{< /figure >}}
 
 
-#### <u> Wobble Hypothesis 
+####  Wobble Hypothesis 
 
 It is a hypothesis proposed by Crick
 (1966) which states that tRNA anticodon
@@ -1957,7 +1957,7 @@ dead endangered organisms.
 determining the origin and migration of
 human populations and genetic diversities.
 
-## <u> Summary 
+##  Summary 
 
 
 In the twentieth century, one of the landmark

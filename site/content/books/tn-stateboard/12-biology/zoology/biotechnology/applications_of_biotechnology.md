@@ -9,7 +9,7 @@ weight: 1
 
 {{< box >}}
 
-## <u> Chapter Outline  
+##  Chapter Outline  
 
 9.1 Applications in Medicine
 9.2 Gene therapy
@@ -693,7 +693,7 @@ tissue or animals. Transgenic animals such
 as mice, rat, rabbit, pig, cow, goat, sheep
 and fish have been produced **(Fig. 9.7)**.
 
-### <u> Uses Of Transgenesis 
+###  Uses Of Transgenesis 
 
 • Transgenesis is a powerful tool to study
 gene expression and developmental
@@ -827,7 +827,7 @@ and only one Dolly was produced.
 
  {{< /box >}}
 
-### <u> Advantages and Disadvantages Of Cloning Animals 
+###  Advantages and Disadvantages Of Cloning Animals 
 
 • Offers benefits for clinical trials and medical
 research. It can help in the production of

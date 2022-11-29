@@ -49,7 +49,7 @@ Minor Cereals.
 
 ### Major Cereals
 
-#### <u> Rice / Paddy 
+####  Rice / Paddy 
 
 *Botanical name : Oryza sativa*
 

@@ -13,7 +13,7 @@ Unit9
 
 {{< box >}}
 
-## <u> Chapter Outline  
+##  Chapter Outline  
 
 12.1 Pollution
 
@@ -524,7 +524,7 @@ water from industries when released into
 the water bodies affects aquatic density and
 diversity.
 
-### <u> 12.3.5. Effect of Water pollution on Organisms 
+###  12.3.5. Effect of Water pollution on Organisms 
 
 1. Water pollution can be lethal to aquatic
 organisms and others that depend on these
@@ -641,7 +641,7 @@ up to 45 from 35 (Source: The Hindu,
 
 {{< /box >}}
 
-### <u> Case study 
+###  Case study 
 
 **Namami Gange (National Mission for Clean Ganga) Programme** is an
 Integrated Conservation Mission approved
