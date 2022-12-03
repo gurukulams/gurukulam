@@ -13,56 +13,13 @@ getenv = ['^HUGO_','CONTEXT','BUILD_PRODUCTION']
 [Languages.en]
 weight = 0
 languagename = "English"
+contentDir = 'content.en'
 
-[[Languages.en.menu.main]]
-  identifier = 'maths'
-  name = 'Maths'
-  url = '/books/11-maths'
-  weight = 1
-[[Languages.en.menu.main]]
-  identifier = 'physics'
-  name = 'Physics'
-  url = '/books/11-physics'
-  weight = 2
-[[Languages.en.menu.main]]
-  identifier = 'chemistry'
-  name = 'Chemistry'
-  url = '/books/11-chemistry'
-  weight = 3
-[[Languages.en.menu.main]]
-  identifier = 'biology'
-  name = 'Biology'
-  url = '/books/11-biology'
-  weight = 4
 
 [Languages.ta]
 weight = 1
 languagename = "தமிழ்"
-contentDir = 'content/tamil'
-
-[[Languages.ta.menu.main]]
-  identifier = 'maths'
-  name = 'கணிதவியல்'
-  url = '/books/11-maths'
-  weight = 1
-[[Languages.ta.menu.main]]
-  identifier = 'physics'
-  name = 'இயற்பியல்'
-  url = '/books/11-physics'
-  weight = 2
-[[Languages.ta.menu.main]]
-  identifier = 'chemistry'
-  name = 'வேதியியல்'
-  url = '/books/11-chemistry'
-  weight = 3
-[[Languages.ta.menu.main]]
-  identifier = 'biology'
-  name = 'உயிரியல்'
-  url = '/books/11-biology'
-  weight = 4
-
-menu = 'main'
-
+contentDir = 'content.ta'
 
 
 # RSS, categories and tags disabled for an easy start
