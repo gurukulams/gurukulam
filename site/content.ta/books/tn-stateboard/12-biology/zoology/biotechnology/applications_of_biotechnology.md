@@ -7,7 +7,7 @@ weight: 1
 
 
 
-{{< box >}}
+{{< hint >}}
 
 ##  Chapter Outline  
 
@@ -21,9 +21,9 @@ their uses
 9.7 Animal cloning
 9.8 Ethical issues
 
-{{< /box >}}
+{{< /hint >}}
 
-{{< box title="Learning Objectives" type="objective" >}}
+{{< hint info >}}
 
 
 
@@ -40,7 +40,7 @@ and its applications.
 ➢ Create awareness on the
 ethical issues involved in biotechnology.
 
-{{< /box >}}
+{{< /hint >}}
 
 Before we start this chapter, it will be helpful
 if you revise the structure of DNA, Protein
@@ -123,20 +123,20 @@ recombinant insulin for diabetes mellitus was
 given in 1982. In 1986 human insulin was
 marketed under the trade name Humulin.
 
-{{< box title=" **DO YOU KNOW**??" type="objective" >}}
+{{< hint warn >}}
 
 Best and Banting in 1921, isolated insulin from
 the pancreatic islets of a dog and demonstrated
 its effectiveness against diabetes.
 
-{{< /box >}}
+{{< /hint >}}
 
 {{< figure "images/books/12-biology/zoology/Tweety.png""w-25 float-end">}}
 Fig. 9.1 Human Insulin Production
 {{< /figure >}}
 
 
-{{< box title=" **DO YOU KNOW**??" type="objective" >}}
+{{< hint info >}}
 
 
 
@@ -149,7 +149,7 @@ rich milk (2.4 gm/litre) was a nutritionally
 balanced food for new born babies than
 the normal milk produced by the cows.
 
-{{< /box  >}}
+{{< /hint >}}
 
 #### Interferons 
 Interferons are proteinaceous, antiviral,
@@ -212,7 +212,7 @@ use them as live vaccines and such vaccines are
 referred to as attenuated recombinant vaccines.
 
 
-{{< box title=" **DO YOU KNOW**??" type="objective" >}}
+{{< hint info >}}
 
 Edible vaccines are prepared by molecular
 pharming using the science of genetic
@@ -226,7 +226,7 @@ vaccines are produced for human and animal
 diseases like measles, cholera, foot and mouth
 disease and hepatitis.
 
-{{< /box >}}
+{{< /hint >}}
 
 **DNA Vaccines**
 
@@ -285,13 +285,13 @@ the expression of the dominant gene **(Fig. 9.3)**.
 The two approaches to achieve gene therapy
 are **somatic** cell and germ **line gene therapy.**
 
-{{< box title=" DO YOU KNOW ??" type="objective" >}}
+{{< hint info >}}
 
 The recombinant vaccine for hepatitis B (HbsAg) was the first synthetic vaccine launched in 1997
 which was marketed by trade names Recombivax and Engerix-B. India is the fourth country in
 the world after USA, France and Belgium to develop an indigenous hepatitis B vaccine.
 
-{{< /box >}}
+{{< /hint >}}
 
 {{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9.2 Production of recombinant HB Vaccine
@@ -344,7 +344,7 @@ foreign proteins produced by the new genes.
 </tbody>
 </table>
 
-{{< box title="" type="objective" >}}
+{{< hint info >}}
 
 The first clinical gene therapy was given in 1990 by French Anderson to a four
 year old girl with adenosine deaminase (ADA) deficiency. ADA deficiency or SCID
@@ -367,7 +367,7 @@ immortal, the patient requires periodic infusion of such genetically engineered 
 The disease could be cured permanently if the gene for ADA isolated from bone marrow cells
 are introduced into the cells of the early embryonic stages.
 
-{{< /box >}}
+{{< /hint >}}
 
 {{< figure "images/books/12-biology/zoology/Tweety.png" "w-25 float-end">}}
 Fig. 9.3 Process of gene therapy
@@ -409,7 +409,7 @@ Fig. 9.4 Embryonic stem cells
 {{< /figure >}}
 
 
-{{< box >}}
+{{< hint >}}
 
 **Totipotency (Toti-total)** is the ability
 of a single cell to divide and produce all of
@@ -812,7 +812,7 @@ somatic cell taken from an adult animal
 without the process of fertilization **(Fig. 9.8)**.
 
 
-{{< box title=" DO YOU KNOW ??" type="objective" >}}
+{{< hint info >}}
 
 Ian Wilmut and Campbell
 removed 277 cells from
@@ -825,7 +825,7 @@ embryos for 6 days , they implanted 29
 embryos into the surrogate mother's womb
 and only one Dolly was produced.
 
- {{< /box >}}
+ {{< /hint >}}
 
 ###  Advantages and Disadvantages Of Cloning Animals 
 
@@ -865,14 +865,14 @@ disorders in animals.
 • More than 90% of cloning attempts fail to
 produce a viable offspring.
 
-{{< box >}}
+{{< hint >}}
 
 A gene ‘knock out’ is a genetically
 engineered organism that carries one or
 more genes in its chromosomes that have
 been made inoperative.
 
-{{< /box >}}
+{{< /hint >}}
 
 ### <u>9.8 Ethical Issues
 
