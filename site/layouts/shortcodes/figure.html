@@ -3,7 +3,16 @@
 
 {{ if fileExists $image }}
 <figure class="figure {{ (.Get 1) }}">
-  <img class="figure-img w-100 img-fluid rounded" src="../{{ $image }}">
+  
+  {{ if eq .Page.Language.Lang "en" }}
+  <img class="figure-img w-100 img-fluid rounded" src="/{{ $image }}">
+  {{ else }}
+  <picture>
+    <source srcset="/{{ .Page.Language.Lang }}/{{ $image }}">
+    <img class="figure-img w-100 img-fluid rounded" src="/{{ $image }}">
+  </picture>
+  {{ end }}
+
   <figcaption class="figure-caption text-center">
     {{ with .Inner }}
     {{$.Page.RenderString .}}
