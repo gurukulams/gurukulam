@@ -1,22 +1,20 @@
+{{ $image := (printf "%s%s" .Page.File.Dir (.Destination | safeURL )) }}
 
-{{ $image := (printf "%s%s" .Page.File.Dir (.Get 0)) }}
 
 {{ if fileExists $image }}
-<figure class="figure {{ (.Get 1) }}">
+<figure class="figure {{ with .Title }}{{ . }}{{ end }}">
   
   {{ if eq .Page.Language.Lang "en" }}
-  <img class="figure-img w-100 img-fluid rounded" src="/{{ $image }}">
+  <img src="{{ $image }}" alt="{{ .Text }}" class="w-100"/>
   {{ else }}
   <picture>
     <source srcset="/{{ .Page.Language.Lang }}/{{ $image }}">
-    <img class="figure-img w-100 img-fluid rounded" src="/{{ $image }}">
+    <img src="{{ $image }}" alt="{{ .Text }}" class="w-100"/>
   </picture>
   {{ end }}
 
   <figcaption class="figure-caption text-center">
-    {{ with .Inner }}
-    {{$.Page.RenderString .}}
-    {{ end }}
+    {{ .Text }}
   </figcaption>
 </figure>
 

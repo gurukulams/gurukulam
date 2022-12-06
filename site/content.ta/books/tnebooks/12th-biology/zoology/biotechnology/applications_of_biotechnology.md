@@ -7,5 +7,4 @@ weight: 1
 
 Tamil content
 
-{{< figure "figure.png" "w-50">}}
-{{< /figure >}}
+![MarineGEO circle logo](figure.png "w-100")

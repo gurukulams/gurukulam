@@ -16,8 +16,8 @@ weight: 1
 
 {{< /hint >}}
 
-{{< figure "figure.png" "w-50">}}
-{{< /figure >}}
+![MarineGEO circle logo](figure.png "w-50")
+
 
 Before we start this chapter, it will be helpful if you revise the structure of DNA, Protein synthesis and genetic engineering. Genetic engineering involves the manipulation of DNA and naturally occurring processes such as protein synthesis for a wide range of applications including the production of therapeutically important proteins. This also involves extracting a gene from one organism and transferring it to the DNA of another organism, of the same or another species. The DNA produced in this way is referred to as recombinant DNA (rDNA) and this technique as recombinant DNA technology. All these are part of the broad field biotechnology which can be defined as the applications of scientific and engineering principles to the processing of material by biological agents to provide goods and services.
 
