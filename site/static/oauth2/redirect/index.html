@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello OAuth 2</title>
+    <!-- Required tro stop sec : To be removed -->
+    <meta name=”robots” content=”noindex”>
+    <title>Gurukulams</title>
 </head>
 <body>
-    Welcome Ji
     <script type="text/javascript">
         const params = new URLSearchParams(window.location.search)
         console.log("Welcome to OAuth {}", params.get("token"));
@@ -21,10 +22,9 @@
             .then(data => {
                 data.authToken = params.get("token");
                 sessionStorage.auth = JSON.stringify(data);
-                window.location.href = "/books/12-maths";
+                window.location.href = "/books/tnebooks/12th-biology";
             });
 
-        document.write("SSSS");
     </script>
 </body>
 
