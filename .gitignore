@@ -101,20 +101,6 @@ dist/
 *.scss.map
 
 # End of https://www.gitignore.io/api/node,sass
-src/js/books/Chapter.js
-src/js/books/index.js
-src/js/chat/Chat.js
-src/js/chat/index.js
-src/js/core/index.js
-src/js/main/Home.js
-src/js/main/index.js
-src/js/oauth/index.js
-src/js/practice/index.js
-src/js/practice/screens/PracticeScreen.js
-src/js/practice/screens/PracticesScreen.js
-src/js/practice/screens/QuestionScreen.js
-src/js/search/index.js
-src/js/search/Search.js
 package-lock.json
 
-pdfminer/samples
+site/content.*/books
