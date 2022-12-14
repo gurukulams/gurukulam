@@ -1,0 +1,16 @@
+<a href="/questions/{{ template "categories" (dict "p1" . "p2" .) }}">
+    <i class="fas fa-user-check fa-2x px-2" title="Practice"></i>
+</a>
+
+{{ define "categories" }}
+{{ if .p1.Parent }}
+{{ template "categories" (dict "p1" .p1.Parent "p2" .p2 )  }}
+{{ else if not .p1.IsHome }}
+{{ template "categories" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+{{ end }}
+{{ if eq .p1.Kind "section" }}
+{{ if ne .p1.Parent.Title ""}}
+{{ range .p1.Params.categories }}/{{ . }}{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}

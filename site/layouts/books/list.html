@@ -22,9 +22,7 @@
         {{end}}
 
         {{ if ne .Parent.Title "Books"}}
-        <a href="{{replace $current_link "/books" "/questions"}}">
-            <i class="fas fa-user-check fa-2x px-2" title="ExamPractice"></i>
-        </a> 
+        {{ partial "practice-link.html" . }}
         {{end}} 
     </div>
     
