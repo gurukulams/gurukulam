@@ -19,7 +19,7 @@ class QuestionScreen {
 
     this.deletedQuestionIds = [];
 
-    let bookName = window.location.pathname.split("/practices/books/")[1];
+    let bookName = window.location.pathname.split("/questions/")[1];
     let chaptorName = bookName.substring(bookName.indexOf("/") + 1);
     chaptorName = chaptorName.substring(chaptorName.indexOf("/") + 1);
     bookName = bookName.substring(0, bookName.indexOf("/"));
@@ -34,7 +34,7 @@ class QuestionScreen {
 
       if (item.children[0].dataset.code === "en") {
         item.children[0].href =
-          "/practices/books/" + this.bookName + "/" + chaptorName;
+          "/questions/" + this.bookName + "/" + chaptorName;
       } else {
         item.children[0].href =
           item.children[0].dataset.code + window.location.pathname;
@@ -176,8 +176,7 @@ class QuestionScreen {
       this.practiceId = undefined;
       this.bookName = practiceId;
       this.chaptorPath = _chaptorName;
-      questionsUrl =
-        "/api/books/" + this.bookName + "/questions/" + this.chaptorPath;
+      questionsUrl = "/api/books/questions/" + this.chaptorPath;
     } else {
       this.bookName = undefined;
       this.chaptorPath = undefined;
@@ -549,18 +548,11 @@ class QuestionScreen {
         const answer = Array.isArray(this.selectedQuestion.answer)
           ? this.selectedQuestion.answer.join(",")
           : this.selectedQuestion.answer;
-        fetch(
-          "/api/books/" +
-            this.bookName +
-            "/questions/" +
-            this.selectedQuestion.id +
-            "/answer",
-          {
-            method: "POST",
-            headers: window.ApplicationHeader(),
-            body: answer,
-          }
-        )
+        fetch("/api/books/questions/" + this.selectedQuestion.id + "/answer", {
+          method: "POST",
+          headers: window.ApplicationHeader(),
+          body: answer,
+        })
           .then((response) => {
             // Shorthand to check for an HTTP 2xx response status.
             // See https://fetch.spec.whatwg.org/#dom-response-ok
@@ -590,12 +582,7 @@ class QuestionScreen {
 
         this.questions.forEach((question) => {
           const addEndPointUrl = this.bookName
-            ? "/api/books/" +
-              this.bookName +
-              "/questions/" +
-              question.type +
-              "/" +
-              this.chaptorPath
+            ? "/api/books/questions/" + question.type + "/" + this.chaptorPath
             : "/api/practices/" +
               this.parent.dataset.type +
               "/" +
@@ -604,12 +591,7 @@ class QuestionScreen {
               question.type;
 
           const updateEndPointUrl = this.bookName
-            ? "/api/books/" +
-              this.bookName +
-              "/questions/" +
-              question.type +
-              "/" +
-              question.id
+            ? "/api/book/questions/" + question.type + "/" + question.id
             : "/api/practices/" +
               this.parent.dataset.type +
               "/" +
@@ -640,12 +622,7 @@ class QuestionScreen {
 
         this.deletedQuestionIds.forEach((question) => {
           const deleteEndPointUrl = this.bookName
-            ? "/api/books/" +
-              this.bookName +
-              "/questions/" +
-              question.type +
-              "/" +
-              question.id
+            ? "/api/books/questions/" + question.type + "/" + question.id
             : "/api/practices/" +
               this.parent.dataset.type +
               "/" +
