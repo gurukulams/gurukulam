@@ -55,7 +55,7 @@ class Home {
         window.location.href = "books/tnebooks/12th-biology";
       })
       .catch((err) => {
-        document.querySelector(".invisible").classList.remove("invisible");
+        document.querySelector(".d-none").classList.remove("d-none");
         console.error(err);
       });
   }

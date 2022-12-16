@@ -28,7 +28,37 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="subjectList">
       </ul>
 
-      <ul class="navbar-nav secured">
+      {{ if getenv "BUILD_PRODUCTION" }}
+      <a id="login-pane" href="javascript://" class="btn btn-outline-primary text-left mt-1">
+        Get Started | <i class="fab fa-google"></i>
+      </a>
+      
+    {{ else }}
+
+    
+    <form id="login-pane" class="row align-items-center">
+      <div class="col-sm-5">
+        <div class="input-group">
+          <div class="input-group-text"><i class="far fa-user"></i></div>
+          <input type="text" class="form-control" id="userName" placeholder="Username" required>
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <div class="input-group">
+          <div class="input-group-text"><i class="fas fa-key"></i></div>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+      </div>
+      <div class="col-sm-2 justify-content-end">
+        <div class="form-check">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+
+      {{ end }}
+
+      <ul class="navbar-nav d-none secured">
         
         <!-- <li class="nav-item">
           <a class="nav-link" href="chat"><i class="fas fa-search fa-2x pt-2"></i></a>
@@ -73,4 +103,4 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav>  

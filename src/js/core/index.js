@@ -115,6 +115,8 @@ class Core {
 
   handleSecurity() {
     if (sessionStorage.auth) {
+      document.getElementById("login-pane").remove("d-none");
+
       document.querySelector(".logout").addEventListener("click", () => {
         delete sessionStorage.auth;
         window.location.href = "/";
@@ -124,8 +126,10 @@ class Core {
       ).profilePicture;
 
       document.querySelector(".navbar-brand").href = "books/11-maths";
+      document.querySelector(".secured").classList.remove("d-none");
     } else if (document.querySelector(".secured") !== null) {
-      document.querySelector(".secured").classList.add("invisible");
+      document.querySelector(".secured").classList.add("d-none");
+      document.getElementById("login-pane").classList.add("d-none");
     }
   }
 
