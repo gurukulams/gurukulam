@@ -1,10 +1,10 @@
 class Home {
   constructor() {
     if (sessionStorage.auth) {
-      document.getElementById("login-pane").remove("d-none");
+      document.getElementById("login-pane").classList.add("d-none");
       window.location.href = "books/tnebooks/12th-biology";
     } else {
-      document.getElementById("login-pane").add("d-none");
+      document.getElementById("login-pane").classList.remove("d-none");
     }
 
     const host = window.location.protocol + "//" + window.location.host;
