@@ -1,20 +1,49 @@
 {{ define "main" }}
 <div class="container vh-100">
 
-  <div class="row h-50">
+
+  <div class="row">
+    <div class="col-lg-6 col-md-8 mx-auto text-center">
+      <img src="/images/thiruvalluvar.svg" alt="thiruvalluvar" class="img-thumbnail w-25">
+      <p class="lead">எண்ணென்ப ஏனை எழுத்தென்ப இவ்விரண்டும் </br>
+        கண்ணென்ப வாழும் உயிர்க்கு <cite title="குறள் எண்:392">குறள் எண்:392</cite></p>
+      <p>
+    </div>
+  </div>
 
 
-    
-      <figure class="col-4 col-md-4 col-lg-4 text-right">
-        <blockquote class="text-left font-weight-bolder">
-          <p>எண்ணென்ப ஏனை எழுத்தென்ப இவ்விரண்டும் </br>
-            கண்ணென்ப வாழும் உயிர்க்கு</p>
-        </blockquote>
-        <figcaption class="blockquote-footer">
-          <cite title="குறள் எண்:392">குறள் எண்:392</cite>
-        </figcaption>
-      </figure>
 
+  <div class="row"><div class="col-lg-6 col-md-8 mx-auto">
+    <div class="input-group">
+      <!-- <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Books</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Publications</a></li>
+        <li><a class="dropdown-item" href="#">Colleges</a></li>
+      </ul> -->
+      <input type="text" class="form-control" aria-label="Text input with 2 dropdown buttons">
+      <button class="btn btn-outline-primary" type="button"><i class="fas fa-search"></i></button>
+    </div></div>
+  </div>
+
+
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"><a
+          href="/books/tnebooks/12th-biology" class="text-decoration-none">
+          <div class="col d-flex align-items-start"><i class="fa-solid fa-book-open-reader fa-2x"></i>
+            <div class="px-2">
+              <h3 class="fw-bold mb-0 fs-4">12th Biology</h3>
+              <p>Biology text book for 12th standard studnets of tamilnadu stateboard.</p>
+            </div>
+          </div>
+        </a><a href="/books/tnebooks/12th-maths" class="text-decoration-none">
+          <div class="col d-flex align-items-start"><i class="fa-solid fa-book-open-reader fa-2x"></i>
+            <div class="px-2">
+              <h3 class="fw-bold mb-0 fs-4">12th Maths</h3>
+              <p>Maths text book for 12th standard studnets of tamilnadu stateboard.</p>
+            </div>
+          </div>
+        </a>
+      </div>
 
 
 
