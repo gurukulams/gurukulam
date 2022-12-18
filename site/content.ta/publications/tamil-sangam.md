@@ -1,5 +1,5 @@
 ---
-title: 'தமிழ்ச் சங்கம்'
+title: 'தமிழ் இலக்கியம்'
 description: 'புலவர்கள். தமிழாய்வு மாணவர்கள் மற்றும் கவிஞர்களின் ஒருங்கிணைந்த ஒரு கூட்டமைப்பு'
 thumbnail: 'https://cdn.s3waas.gov.in/s3f5f8590cd58a54e94377e6ae2eded4d9/uploads/bfi_thumb/2018062832-olwdoms8jrr8mi0xhbr9vgklmr9cqq10lif04ie9k0.jpg'
 tags: ["t1"]
