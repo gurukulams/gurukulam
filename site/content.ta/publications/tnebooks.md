@@ -1,9 +1,9 @@
 ---
-title: 'பாடப்புத்தகங்கள்'
-date: 2018-11-14T19:02:50-07:00
+title: 'தமிழக பாடப்புத்தகங்கள்'
+description: 'தமிழக அரசு பள்ளி பாடப்புத்தகங்கள் தொகுப்பு'
 thumbnail: 'https://www.oneindia.com/ph-big/2021/10/tn-cm-mk-stalin-surprise-visit-to-government-school-students-hostel_163306361650.jpg'
-draft: false
 tags: ["t1"]
+weight: 1
 ---
 
 தரமான பாடப்புத்தகங்கள் தேவைப்படும் அனைவருக்கும் உரிய நேரத்தில் கிடைக்கச் செய்வதே இந்த கழகத்தின் நோக்கமாகும்

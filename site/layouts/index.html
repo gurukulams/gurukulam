@@ -27,23 +27,26 @@
 
 
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"><a
-          href="/books/tnebooks/12th-biology" class="text-decoration-none">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+
+        {{ range (where .Site.Pages "Section" "publications") }}
+          {{ range .Pages }}
+          <a href="{{ .Permalink }}"
+          class="text-decoration-none">
           <div class="col d-flex align-items-start"><i class="fa-solid fa-book-open-reader fa-2x"></i>
             <div class="px-2">
-              <h3 class="fw-bold mb-0 fs-4">12th Biology</h3>
-              <p>Biology text book for 12th standard studnets of tamilnadu stateboard.</p>
-            </div>
-          </div>
-        </a><a href="/books/tnebooks/12th-maths" class="text-decoration-none">
-          <div class="col d-flex align-items-start"><i class="fa-solid fa-book-open-reader fa-2x"></i>
-            <div class="px-2">
-              <h3 class="fw-bold mb-0 fs-4">12th Maths</h3>
-              <p>Maths text book for 12th standard studnets of tamilnadu stateboard.</p>
+              <h3 class="fw-bold mb-0 fs-4">{{ .Title }}</h3>
+              <p>{{ .Description }}</p>
             </div>
           </div>
         </a>
-      </div>
+          {{ end }}
+        {{ end }}
+
+
+</div>
+
+
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: 'Tamil Nadu Textbooks'
-date: 2018-11-14T19:02:50-07:00
+description: 'Text Books for Tamilnadi Stateboard students'
 thumbnail: 'https://www.oneindia.com/ph-big/2021/10/tn-cm-mk-stalin-surprise-visit-to-government-school-students-hostel_163306361650.jpg'
-draft: false
 tags: ["t1"]
+weight: 1
 ---
 
 The objective of this Corporation is to make available quality textbooks to all who are in need of them, in time
