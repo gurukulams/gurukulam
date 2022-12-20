@@ -2,7 +2,7 @@ class Home {
   constructor() {
     if (sessionStorage.auth) {
       document.getElementById("login-pane").classList.add("d-none");
-      window.location.href = "books/tnebooks/12th-biology";
+      window.location.href = "books/tnebooks/12th-botany";
     } else {
       document.getElementById("login-pane").classList.remove("d-none");
     }
@@ -55,7 +55,7 @@ class Home {
       })
       .then((data) => {
         sessionStorage.auth = JSON.stringify(data);
-        window.location.href = "books/tnebooks/12th-biology";
+        window.location.href = "books/tnebooks/12th-botany";
       })
       .catch((err) => {
         document.querySelector(".d-none").classList.remove("d-none");

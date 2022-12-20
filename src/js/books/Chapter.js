@@ -53,7 +53,7 @@ class Chapter {
 
   saveAnnotaion(annotation) {
     console.log(annotation);
-    // {"text":" referred to as asexual reproducti","onSection":"/12-biology/botany/reproduction/asexual_reproduction","note":"hello"}
+    // {"text":" referred to as asexual reproducti","onSection":"/12th-botany/botany/reproduction/asexual_reproduction","note":"hello"}
     const note = {};
 
     note.value = annotation;
