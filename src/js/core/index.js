@@ -49,30 +49,30 @@ class Core {
     this.handleSecurity();
 
     this.handleModelDialogs();
-
-    this.loadBoards();
   }
 
   handleModelDialogs() {
     var myModalEl = document.getElementById("exampleModal");
-    let cRelatedTarget = null;
-    myModalEl.addEventListener("shown.bs.modal", function (event) {
-      cRelatedTarget = event.relatedTarget;
-      myModalEl
-        .querySelector(".btn-primary")
-        .addEventListener("click", (event) => {
-          if (!event.calledFlag) {
-            event.calledFlag = true;
-            const confirmationEvent = new Event("on-confirmation");
-            cRelatedTarget.dispatchEvent(confirmationEvent, {
-              bubbles: false,
-              detail: { text: () => "textarea.value" },
-            });
-            // eslint-disable-next-line no-undef
-            bootstrap.Modal.getInstance(myModalEl).hide();
-          }
-        });
-    });
+    if (myModalEl) {
+      let cRelatedTarget = null;
+      myModalEl.addEventListener("shown.bs.modal", function (event) {
+        cRelatedTarget = event.relatedTarget;
+        myModalEl
+          .querySelector(".btn-primary")
+          .addEventListener("click", (event) => {
+            if (!event.calledFlag) {
+              event.calledFlag = true;
+              const confirmationEvent = new Event("on-confirmation");
+              cRelatedTarget.dispatchEvent(confirmationEvent, {
+                bubbles: false,
+                detail: { text: () => "textarea.value" },
+              });
+              // eslint-disable-next-line no-undef
+              bootstrap.Modal.getInstance(myModalEl).hide();
+            }
+          });
+      });
+    }
 
     const showStatus = (type, statusMessage) => {
       var delay = 2000;
@@ -115,21 +115,30 @@ class Core {
 
   handleSecurity() {
     if (sessionStorage.auth) {
+      this.loadBoards();
       document.getElementById("login-pane").remove("d-none");
 
       document.querySelector(".logout").addEventListener("click", () => {
         delete sessionStorage.auth;
-        window.location.href = "/";
+        window.location.reload();
       });
       document.querySelector(".avatar").src = JSON.parse(
         sessionStorage.auth
       ).profilePicture;
 
-      document.querySelector(".navbar-brand").href = "books/11-maths";
       document.querySelector(".secured").classList.remove("d-none");
     } else if (document.querySelector(".secured") !== null) {
       document.querySelector(".secured").classList.add("d-none");
-      document.getElementById("login-pane").classList.add("d-none");
+      document.getElementById("login-pane").classList.remove("d-none");
+
+      document
+        .querySelector(".fa-google")
+        .parentElement.addEventListener("click", () => {
+          sessionStorage.setItem("ref_page", window.location.href);
+          window.location.href = `/oauth2/authorize/google?redirect_uri=${
+            window.location.protocol + "//" + window.location.host
+          }/oauth2/redirect`;
+        });
     }
   }
 

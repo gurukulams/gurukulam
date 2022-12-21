@@ -1,21 +1,8 @@
 class Home {
   constructor() {
-    if (sessionStorage.auth) {
-      document.getElementById("login-pane").classList.add("d-none");
-      window.location.href = "books/tnebooks/12th-botany";
-    } else {
-      document.getElementById("login-pane").classList.remove("d-none");
-    }
-
-    const host = window.location.protocol + "//" + window.location.host;
-
     if (document.querySelector("#userName")) {
       document.querySelector("#userName").focus();
       this.registerEvents();
-    } else {
-      document.querySelector(
-        ".fa-google"
-      ).parentElement.href = `/oauth2/authorize/google?redirect_uri=${host}/oauth2/redirect`;
     }
 
     // fetch("/api/info")
@@ -55,7 +42,7 @@ class Home {
       })
       .then((data) => {
         sessionStorage.auth = JSON.stringify(data);
-        window.location.href = "books/tnebooks/12th-botany";
+        location.reload();
       })
       .catch((err) => {
         document.querySelector(".d-none").classList.remove("d-none");

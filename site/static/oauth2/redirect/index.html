@@ -22,7 +22,9 @@
             .then(data => {
                 data.authToken = params.get("token");
                 sessionStorage.auth = JSON.stringify(data);
-                window.location.href = "/books/tnebooks/12th-botany";
+                const refPage = sessionStorage.getItem("ref_page")
+                sessionStorage.removeItem("key");
+                window.location.href = refPage;
             });
 
     </script>
