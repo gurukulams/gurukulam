@@ -8,16 +8,10 @@
     position: fixed;
     top: 0;
     right: 0;
-    padding-top: 40px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: none;
 }
 
-.sidebar div {
-    padding: 8px;
-    font-size: 24px;
-    display: block;
-}
 
 #hide-sidebar-control {
     position: fixed;
