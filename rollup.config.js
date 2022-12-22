@@ -29,14 +29,14 @@ export default [{
   }
 },
 {
-  input: 'src/js/main/index.js',
+  input: 'src/js/login/index.js',
   plugins: [
     eslint({
       /* your options */
     })
   ],
   output: {
-    file: 'dist/js/index.js',
+    file: 'dist/js/login.js',
     format: 'cjs'
   }
 },

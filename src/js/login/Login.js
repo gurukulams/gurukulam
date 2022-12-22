@@ -1,4 +1,4 @@
-class Home {
+class Login {
   constructor() {
     if (document.querySelector("#userName")) {
       document.querySelector("#userName").focus();
@@ -51,4 +51,4 @@ class Home {
   }
 }
 
-export default Home;
+export default Login;
