@@ -1,6 +1,6 @@
 ---
 title: 'Tamil Nadu Textbooks'
-description: 'Text Books for Tamilnadi Stateboard students'
+description: 'Text Books for Tamilnadu Stateboard students'
 thumbnail: 'https://www.oneindia.com/ph-big/2021/10/tn-cm-mk-stalin-surprise-visit-to-government-school-students-hostel_163306361650.jpg'
 tags: ["t1"]
 weight: 1
