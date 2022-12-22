@@ -22,12 +22,39 @@
     <label class="radio h3" for="hide-sidebar" id="hide-sidebar-control">
         <a class="button is-small"></a>
     </label>
-    <div id="sidebar" class="sidebar border border-start border-dark" role="navigation">
+    <div id="sidebar" class="sidebar border border-start container-fluid" role="navigation">
       <div class="row">
-        <div class="col-10"></div>
+        <div class="card col-10">
+          <div class="card-header px-0 py-0">
+            <h5>Videos</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              {{ range .Params.References.Videos }}
+                {{ $video_segments := split . ":"  }}
+                {{ $video_provider := index $video_segments 0  }}
+                <li class="list-group-item">
+                  <div class="ratio ratio-16x9">
+                    {{if eq $video_provider "youtube"}}
+                    <iframe src="https://www.youtube.com/embed/{{ index $video_segments 1 }}" title="YouTube video" allowfullscreen></iframe>
+                    {{ else if eq $video_provider "vimeo"}}
+                    <iframe src="https://player.vimeo.com/video/777650452?h=25996e5502" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    {{ else }}
+
+                    {{ errorf "Video provider %q is not supported" $video_provider }}
+
+                    {{ end }}
+                  </div>
+                </li>
+              {{ end }}
+              
+            </ul>
+          </div>
+        </div>
+
         <ul class="list-group float-end col-2 p-0 mt-0">
+          <li class="list-group-item"><i class="fa-solid fa-photo-film"></i></li>
           <li class="list-group-item"><i class="fa-solid fa-note-sticky"></i></li>
-          <li class="list-group-item"><i class="fa-solid fa-list-check"></i></li>
         </ul>
       </div>
     </div>
