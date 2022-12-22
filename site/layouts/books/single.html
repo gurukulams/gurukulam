@@ -8,7 +8,6 @@
     <div class="col-4 mb-2 text-center">
       <a class="text-dark"
         href="{{strings.TrimRight "/" .Parent.Permalink}}">{{.Parent.Title}}</a>
-         <h3>{{.Title}}</h3>
     </div>
     <div class="col-4 text-end">
       {{if .PrevInSection}}<a href="{{strings.TrimRight "/" .PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a>{{end}}
@@ -16,49 +15,93 @@
   </div>
 </nav>
 
-<main id="content" class="pt-3">
-  {{- .Content -}}
-  <input type="checkbox" name="hide-sidebar" id="hide-sidebar" value="false" style="display: none;" />
-    <label class="radio h3" for="hide-sidebar" id="hide-sidebar-control">
-        <a class="button is-small"></a>
-    </label>
-    <div id="sidebar" class="sidebar border border-start container-fluid py-4" role="navigation">
-      <div class="row py-4 my-1">
-        <div class="card col-10 px-0 py-2 min-vh-100">
-          <div class="card-header">
-            <h5>Videos</h5>
-          </div>
-          <div class="card-body">
-            <ul class="list-group">
-              {{ range .Params.References.Videos }}
-                {{ $video_segments := split . ":"  }}
-                {{ $video_provider := index $video_segments 0  }}
-                <li class="list-group-item">
-                  <div class="ratio ratio-16x9">
-                    {{if eq $video_provider "youtube"}}
-                    <iframe src="https://www.youtube.com/embed/{{ index $video_segments 1 }}" title="YouTube video" allowfullscreen></iframe>
-                    {{ else if eq $video_provider "vimeo"}}
-                    <iframe src="https://player.vimeo.com/video/777650452?h=25996e5502" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    {{ else }}
 
-                    {{ errorf "Video provider %q is not supported" $video_provider }}
 
-                    {{ end }}
-                  </div>
-                </li>
-              {{ end }}
-              
-            </ul>
-          </div>
-        </div>
 
-        <ul class="list-group float-end col-2 p-0 mt-0">
-          <li class="list-group-item"><i class="fa-solid fa-photo-film"></i></li>
-          <li class="list-group-item"><i class="fa-solid fa-note-sticky"></i></li>
-        </ul>
+<div class="container-fluid">
+  <main id="content" class="row">
+      <div class="col min-vh-100 p-4">
+          <!-- toggler -->
+          <button class="btn float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos" role="button">
+            <i class="fa-solid fa-photo-film" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos"></i>
+          </button>
+
+          <button class="btn float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links" role="button">
+            <i class="fa-solid fa-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links"></i>
+          </button>
+
+          <h3>{{ .Title }}</h3>
+          {{- .Content -}}
       </div>
-    </div>
-</main>
+  </main>
+</div>
+
+
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-videos" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas-videos">Videos</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body px-0">
+      <ul class="list-group" id="menu">
+        {{ range .Params.References.Videos }}
+        {{ $video_segments := split . ":"  }}
+        {{ $video_provider := index $video_segments 0  }}
+        <li class="list-group-link">
+          <div class="ratio ratio-16x9">
+            {{if eq $video_provider "youtube"}}
+            <iframe src="https://www.youtube.com/embed/{{ index $video_segments 1 }}" title="YouTube video" allowfullscreen></iframe>
+            {{ else if eq $video_provider "vimeo"}}
+            <iframe src="https://player.vimeo.com/video/777650452?h=25996e5502" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            {{ else }}
+
+            {{ errorf "Video provider %q is not supported" $video_provider }}
+
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+      </ul>
+  </div>
+</div>
+
+
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-links" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas-links">Links</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body px-0">
+      <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+          <li class="nav-item">
+              <a href="#" class="nav-link text-truncate">
+                  <span class="ms-1 d-none d-sm-inline">Link 1</span>
+              </a>
+          </li>
+      </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 {{ end }}
