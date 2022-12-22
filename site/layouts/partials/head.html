@@ -28,9 +28,17 @@
     />
     <link rel="manifest" href="/images/site.webmanifest" />
 
-    {{ if ne .Language.Lang "en" }}
-    <!-- Do not index non english pages for now : To be removed -->
-    <meta name=”robots” content=”noindex”>
+    <!-- Multi lingual SEO https://weglot.com/4-key-seo-tips-multilingual-website/-->
+    {{ if .IsTranslated }}
+
+      {{ range .Translations }}
+
+      <link rel=”alternate” hreflang=”{{ .Lang }}” href=”http://www.gurukulams.com{{ .Permalink }}” />
+
+        
+      
+      {{ end }}
+
     {{ end }}
 
     {{ template "_internal/opengraph.html" . }}
