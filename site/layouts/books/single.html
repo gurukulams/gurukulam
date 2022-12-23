@@ -47,12 +47,12 @@
       <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas-videos">Videos</h6>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div class="offcanvas-body px-0">
-      <ul class="list-group" id="menu">
+  <div class="offcanvas-body">
+      <ul class="list-group">
         {{ range .Params.References.Videos }}
         {{ $video_segments := split . ":"  }}
         {{ $video_provider := index $video_segments 0  }}
-        <li class="list-group-link">
+        <li class="list-group-item">
           <div class="ratio ratio-16x9">
             {{if eq $video_provider "youtube"}}
             <iframe src="https://www.youtube.com/embed/{{ index $video_segments 1 }}" title="YouTube video" allowfullscreen></iframe>
@@ -76,15 +76,15 @@
       <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas-links">Links</h6>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div class="offcanvas-body px-0">
-      <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
-          <li class="nav-item">
-              <a href="#" class="nav-link text-truncate">
-                  <span class="ms-1 d-none d-sm-inline">Link 1</span>
-              </a>
-          </li>
-      </ul>
-  </div>
+  <div class="offcanvas-body">
+    <ol class="list-group list-group-numbered">
+      {{ range .Params.References.Links }}
+      <li class="list-group-link">
+        <a href="{{ . }}" target="_blank">{{ . }}</a>
+      </li>
+    {{ end }}
+    </ol>
+</div>
 </div>
 
 
