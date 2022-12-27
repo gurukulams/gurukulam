@@ -67,6 +67,7 @@
   "dependencies": {
     "@recogito/recogito-js": "^1.8.1",
     "marked": "^4.0.13",
+    "pdf2html": "^2.6.7",
     "replace-in-file": "^6.3.5",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
