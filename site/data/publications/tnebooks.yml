@@ -4,7 +4,7 @@ books:
       title: 12th Botany
       description: Botany text book for 12th standard students of tamilnadu stateboard.
 
-  - path: 12th-maths
+  - path: 12th-microbiology
     fields:
-      title: 12th Maths
-      description: Maths text book for 12th standard students of tamilnadu stateboard.
+      title: 12th Micro Biology
+      description: Microbiology text book for 12th standard students of tamilnadu stateboard.
