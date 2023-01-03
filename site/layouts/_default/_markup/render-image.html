@@ -5,11 +5,12 @@
 <figure class="figure {{ with .Title }}{{ . }}{{ end }}">
   
   {{ if eq .Page.Language.Lang "en" }}
-  <img src="{{ $image }}" alt="{{ .Text }}" class="w-100"/>
+  <img src="{{ $image | absURL }}" alt="{{ .Text }}" class="w-100"/>
   {{ else }}
   <picture>
-    <source srcset="/{{ .Page.Language.Lang }}/{{ $image }}">
-    <img src="{{ $image }}" alt="{{ .Text }}" class="w-100"/>
+    {{ $image := (printf "%s%s%s" .Page.Language.Lang "/" $image ) }}
+    <source srcset="{{ $image | absURL }}">
+    <img src="{{ $image | absURL }}" alt="{{ .Text }}" class="w-100"/>
   </picture>
   {{ end }}
 
@@ -19,5 +20,5 @@
 </figure>
 
 {{ else }}
-{{ errorf "Failed to image at %q" $image }}
+{{ errorf "Failed to image %q at %q" $image .Page.File }}
 {{ end }}

@@ -42,50 +42,7 @@
 </div>
 
 
-<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-videos" data-bs-keyboard="false" data-bs-backdrop="false">
-  <div class="offcanvas-header">
-      <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas-videos">Videos</h6>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-      <ul class="list-group">
-        {{ range .Params.References.Videos }}
-        {{ $video_segments := split . ":"  }}
-        {{ $video_provider := index $video_segments 0  }}
-        <li class="list-group-item">
-          <div class="ratio ratio-16x9">
-            {{if eq $video_provider "youtube"}}
-            <iframe src="https://www.youtube.com/embed/{{ index $video_segments 1 }}" title="YouTube video" allowfullscreen></iframe>
-            {{ else if eq $video_provider "vimeo"}}
-            <iframe src="https://player.vimeo.com/video/777650452?h=25996e5502" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-            {{ else }}
 
-            {{ errorf "Video provider %q is not supported" $video_provider }}
-
-            {{ end }}
-          </div>
-        </li>
-      {{ end }}
-      </ul>
-  </div>
-</div>
-
-
-<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-links" data-bs-keyboard="false" data-bs-backdrop="false">
-  <div class="offcanvas-header">
-      <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas-links">Links</h6>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <ol class="list-group list-group-numbered">
-      {{ range .Params.References.Links }}
-      <li class="list-group-link">
-        <a href="{{ . }}" target="_blank">{{ . }}</a>
-      </li>
-    {{ end }}
-    </ol>
-</div>
-</div>
 
 
 

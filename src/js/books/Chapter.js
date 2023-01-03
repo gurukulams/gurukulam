@@ -21,7 +21,7 @@ class Chapter {
     );
 
     // eslint-disable-next-line no-undef
-    this.recognito = new Recogito({ content: "content" });
+    this.recognito = new Recogito({ content: "content", readOnly: true });
     // this is the sample for creating and loading anotaions;
 
     this.recognito.on("createAnnotation", (annotation) =>
@@ -29,6 +29,12 @@ class Chapter {
     );
     // recognito.setAnnotations(data);
     // eslint-disable-next-line no-undef
+
+    const checkbox = document.getElementById("btn-check-outlined");
+
+    checkbox.addEventListener("change", (event) => {
+      this.recognito.readOnly = !event.currentTarget.checked;
+    });
 
     const tokens = window.location.href.split("/books/")[1].split("/");
 
