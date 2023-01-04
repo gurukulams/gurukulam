@@ -1,5 +1,5 @@
-<a href="/questions/{{ template "categories" (dict "p1" . "p2" .) }}">
-    <i class="fas fa-user-check fa-2x px-2" title="Practice"></i>
+<a class="btn" href="/questions{{ template "categories" (dict "p1" . "p2" .) }}">
+    <i class="fas fa-user-check" title="Practice"></i>
 </a>
 
 {{ define "categories" }}

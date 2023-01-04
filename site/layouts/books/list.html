@@ -4,41 +4,49 @@
 
     {{ partial "breadcrumbs.html" . }}
     
-    {{if .Pages}}
+
     
-    {{ $current_link := "Hugo Page" }}
-    {{ $course_link := "Hugo Page" }}
+        
+    
+    
+    
     <div class="text-end mb-3">
-        {{ $current_link = strings.TrimRight "/" .Permalink }}
+
+      <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label>
+
+      {{if .Pages}}
+    
+      {{ $current_link := "Hugo Page" }}
+      {{ $course_link := "Hugo Page" }}
+
+      {{ $current_link = strings.TrimRight "/" .Permalink }}
 
         {{ $course_link = replace $current_link "/books" "content/courses/books" }}
 
         {{ $course_link := print $course_link ".htm"}}
 
         {{if os.FileExists $course_link }}
-         <a href="{{replace $current_link "/books" "/courses/books"}}">
-            <i class="fas fa-chalkboard-teacher fa-2x" title="chalkboardTeaching"></i>
+         <a class="btn" href="{{replace $current_link "/books" "/courses/books"}}">
+            <i class="fas fa-chalkboard-teacher" title="chalkboardTeaching"></i>
         </a>
         {{end}}
 
         {{ if ne .Parent.Title "Books"}}
         {{ partial "practice-link.html" . }}
         {{end}} 
-    </div>
-    
-    {{end}}
-    <div class="text-end mb-3">
+        {{end}}
+
     <!-- toggler -->
-      <button class="btn float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos" role="button">
+      <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos" role="button">
         <i class="fa-solid fa-photo-film" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos"></i>
       </button>
 
-      <button class="btn float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links" role="button">
+      <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links" role="button">
         <i class="fa-solid fa-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links"></i>
       </button>
 
-      <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
-      <label class="btn btn-outline-primary float-end" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label><br>
+
     </div>
   </nav>
   
