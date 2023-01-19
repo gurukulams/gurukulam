@@ -12,7 +12,7 @@ export default [{
     })
   ],
   output: {
-    file: 'dist/js/core.js',
+    file: 'dist/js/app.js',
     format: 'cjs'
   }
 }, {
