@@ -135,9 +135,9 @@ class Core {
         .querySelector(".fa-google")
         .parentElement.addEventListener("click", () => {
           sessionStorage.setItem("ref_page", window.location.href);
-          window.location.href = `/oauth2/authorize/google?redirect_uri=${
+          window.location.href = `/oauth/authorize/google?redirect_uri=${
             window.location.protocol + "//" + window.location.host
-          }/oauth2/redirect`;
+          }/oauth/redirect`;
         });
     }
   }
