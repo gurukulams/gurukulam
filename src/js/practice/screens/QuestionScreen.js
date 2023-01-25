@@ -15,7 +15,7 @@ class QuestionScreen {
     this.bookName = null;
     this.chaptorPath = null;
 
-    this.isOwner = null;
+    this.isOwner = false;
 
     this.deletedQuestionIds = [];
 
@@ -23,7 +23,7 @@ class QuestionScreen {
     let chaptorName = bookName.substring(bookName.indexOf("/") + 1);
     chaptorName = chaptorName.substring(chaptorName.indexOf("/") + 1);
     bookName = bookName.substring(0, bookName.indexOf("/"));
-    this.render(false, bookName, chaptorName);
+    this.render(this.isOwner, bookName, chaptorName);
 
     const list = document.querySelector(
       '[aria-labelledby="languageBtn"]'

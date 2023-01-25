@@ -1,4 +1,4 @@
-@base = http://localhost:8080/api 
+@base = http://localhost:8080/api
 
 #### Login
 # @name login 
@@ -10,51 +10,22 @@ Content-Type: application/json
     "password": "password"
 }
 
-### Listing boards
+### Listing boards  
 GET {{base}}/boards
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
-### Create board
-# @name board 
-POST {{base}}/boards
+#### Refresh
+# @name login 
+POST {{base}}/auth/refresh
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
 {
-    "title": "PTU",
-    "description": "PTU"
+    "token": "{{login.response.body.refreshToken}}"
 }
 
-### Update board
-PUT {{base}}/boards/{{board.response.body.id}}
+#### Logout
+POST {{base}}/auth/logout
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
-Accept-Language: pa
-
-{
-    "title": "ਪੀ.ਟੀ.ਯੂ",
-    "description": "ਪੀ.ਟੀ.ਯੂ"
-}
-
-### Get board by id
-GET {{base}}/boards/{{board.response.body.id}}
-Authorization: Bearer {{login.response.body.authToken}}
-Content-Type: application/json
-
-### Get board by id for punjob
-GET {{base}}/boards/{{board.response.body.id}}
-Authorization: Bearer {{login.response.body.authToken}}
-Content-Type: application/json
-Accept-Language: pa
-
-### List boards
-GET {{base}}/boards
-Authorization: Bearer {{login.response.body.authToken}}
-Content-Type: application/json
-
-### List boards for Punjob
-GET {{base}}/boards
-Authorization: Bearer {{login.response.body.authToken}}
-Content-Type: application/json
-Accept-Language: pa
