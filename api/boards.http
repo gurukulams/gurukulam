@@ -2,16 +2,32 @@
 
 #### Login
 # @name login 
+POST {{base}}/auth/signup
+Content-Type: application/json
+
+{
+    "email": "tom@email.com",
+    "password": "password",
+    "imageUrl": "/images/tom.png"
+}
+
+#### Login
+# @name login 
 POST {{base}}/auth/login
 Content-Type: application/json
 
 {
-    "userName": "tom",
+    "userName": "tom@email.com",
     "password": "password"
 }
 
 ### Listing boards  
 GET {{base}}/boards
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+### Get Me  
+GET {{base}}/auth/me
 Authorization: Bearer {{login.response.body.authToken}}
 Content-Type: application/json
 
