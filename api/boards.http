@@ -21,6 +21,26 @@ Content-Type: application/json
     "password": "password"
 }
 
+### Create Board  
+POST {{base}}/boards
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+  "title": "Sports",
+  "description": "Sports related practices"
+}
+
+### Create Board  
+POST {{base}}/boards
+Authorization: Bearer {{login.response.body.authToken}}
+Content-Type: application/json
+
+{
+  "title": "Entertainment",
+  "description": "Sports related practices"
+}
+
 ### Listing boards  
 GET {{base}}/boards
 Authorization: Bearer {{login.response.body.authToken}}

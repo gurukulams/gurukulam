@@ -8,14 +8,45 @@ class Core {
 
     window.LANGUAGE = this.locale;
 
+    const getAuthToken = () => {
+      const authObj = JSON.parse(sessionStorage.auth);
+
+      if (Date.now() > authObj.expiresIn) {
+        const data = JSON.stringify({
+          token: authObj.refreshToken,
+        });
+
+        const xhr = new XMLHttpRequest();
+        xhr.withCredentials = true;
+
+        xhr.open("POST", "/api/auth/refresh", false);
+        xhr.setRequestHeader("authorization", "Bearer " + authObj.authToken);
+        xhr.setRequestHeader("content-type", "application/json");
+
+        xhr.send(data);
+
+        if (xhr.status === 200) {
+          const data = JSON.parse(xhr.responseText);
+          data.expiresIn = Date.now() + data.expiresIn;
+
+          sessionStorage.auth = JSON.stringify(data);
+
+          return data.authToken;
+        } else if (xhr.status === 401) {
+          console.log("Invalid Refresh Token");
+        }
+      }
+
+      return authObj.authToken;
+    };
+
     window.ApplicationHeader = () => {
       const header = {
         "content-type": "application/json",
       };
 
       if (sessionStorage.auth) {
-        header["Authorization"] =
-          "Bearer " + JSON.parse(sessionStorage.auth).authToken;
+        header["Authorization"] = "Bearer " + getAuthToken();
       }
       if (window.LANGUAGE) {
         header["Accept-Language"] = window.LANGUAGE;
@@ -131,14 +162,16 @@ class Core {
       document.querySelector(".secured").classList.add("d-none");
       document.getElementById("login-pane").classList.remove("d-none");
 
-      document
-        .querySelector(".fa-google")
-        .parentElement.addEventListener("click", () => {
-          sessionStorage.setItem("ref_page", window.location.href);
-          window.location.href = `/oauth2/authorize/google?redirect_uri=${
-            window.location.protocol + "//" + window.location.host
-          }/oauth/redirect`;
-        });
+      if (document.querySelector(".fa-google")) {
+        document
+          .querySelector(".fa-google")
+          .parentElement.addEventListener("click", () => {
+            sessionStorage.setItem("ref_page", window.location.href);
+            window.location.href = `/oauth2/authorize/google?redirect_uri=${
+              window.location.protocol + "//" + window.location.host
+            }/oauth/redirect`;
+          });
+      }
     }
   }
 

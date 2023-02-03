@@ -41,6 +41,8 @@ class Login {
         return response.json();
       })
       .then((data) => {
+        data.expiresIn = Date.now() + data.expiresIn;
+
         sessionStorage.auth = JSON.stringify(data);
         location.reload();
       })

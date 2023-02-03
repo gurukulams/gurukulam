@@ -21,6 +21,7 @@
             .then(response => response.json())
             .then(data => {
                 data.authToken = params.get("token");
+                data.expiresIn = Date.now() + data.expiresIn;
                 sessionStorage.auth = JSON.stringify(data);
                 const refPage = sessionStorage.getItem("ref_page")
                 sessionStorage.removeItem("key");
