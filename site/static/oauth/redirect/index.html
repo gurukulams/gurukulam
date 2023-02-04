@@ -15,7 +15,7 @@
         fetch('/api/auth/me', {
             headers: {
                 "content-type": "application/json",
-                Authorization: "Bearer " + params.get("token"),
+                Authorization: params.get("token"),
             },
         })
             .then(response => response.json())
