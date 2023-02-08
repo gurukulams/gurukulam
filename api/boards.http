@@ -1,7 +1,6 @@
 @base = http://localhost:8080/api
 
-#### Login
-# @name login 
+#### Sign Up
 POST {{base}}/auth/signup
 Content-Type: application/json
 
