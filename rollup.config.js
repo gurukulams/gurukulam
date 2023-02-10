@@ -16,7 +16,7 @@ export default [{
     format: 'cjs'
   }
 }, {
-  input: 'src/js/oauth/index.js',
+  input: 'src/js/welcome/index.js',
   plugins: [
     eslint({
       /* your options */
@@ -24,7 +24,7 @@ export default [{
     }),
   ],
   output: {
-    file: 'dist/js/oauth.js',
+    file: 'dist/js/welcome.js',
     format: 'cjs'
   }
 },
