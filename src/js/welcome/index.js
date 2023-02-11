@@ -39,8 +39,10 @@ class Welcome {
     sessionStorage.removeItem("ref_page");
     if (refPage) {
       window.location.href = refPage;
+      window.location.replace(refPage);
     } else {
       window.location.href = "/";
+      window.location.replace("/");
     }
   }
 
