@@ -16,9 +16,7 @@ class Welcome {
             auth_response.authToken = params.get("token");
             auth_response.expiresIn = Date.now() + auth_response.expiresIn;
             sessionStorage.auth = JSON.stringify(auth_response);
-            const refPage = sessionStorage.getItem("ref_page");
-            sessionStorage.removeItem("key");
-            window.location.href = refPage;
+            this.reload();
           } else {
             this.register(
               auth_response.registrationToken,
@@ -36,9 +34,20 @@ class Welcome {
     }
   }
 
+  reload() {
+    const refPage = sessionStorage.getItem("ref_page");
+    sessionStorage.removeItem("ref_page");
+    if (refPage) {
+      window.location.href = refPage;
+    } else {
+      window.location.href = "/";
+    }
+  }
+
   register(registrationToken, profile_pic) {
     document.body.querySelector("img").src = profile_pic;
     document.querySelector("main").classList.remove("d-none");
+    document.querySelector("#id").focus();
 
     document.querySelector("form").addEventListener("submit", (event) => {
       event.token = registrationToken;
@@ -67,9 +76,7 @@ class Welcome {
         .then((auth_response) => {
           auth_response.expiresIn = Date.now() + auth_response.expiresIn;
           sessionStorage.auth = JSON.stringify(auth_response);
-          const refPage = sessionStorage.getItem("ref_page");
-          sessionStorage.removeItem("key");
-          window.location.href = refPage;
+          this.reload();
         })
         .catch((err) => {
           document.querySelector(".d-none").classList.remove("d-none");
