@@ -90,6 +90,18 @@ export default [{
     file: 'dist/js/search.js',
     format: 'cjs'
   }
+},{
+  input: 'src/js/events/index.js',
+  plugins: [
+    eslint({
+      /* your options */
+      
+    }),
+  ],
+  output: {
+    file: 'dist/js/events.js',
+    format: 'cjs'
+  }
 }
 ];
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language.Lang }}">
+
+<head>
+
+
+  {{ block "head" . }}{{ partial "head" . }}{{end}}
+
+  {{ if templates.Exists ( printf "partials/head-%s.html" .Type ) }}
+  {{ $partialPath := printf "head-%s" .Type }}
+  {{ partial $partialPath . }}
+  {{ end }}
+
+
+</head>
+
+<body>
+  
+ 
+  {{ block "header" . }}{{ partial "header" . }}{{end}}
+ 
+  <main id="main-container" class="container-fluid mt-5 py-4 w-100 h-100">
+    {{- .Content -}}
+  </main>
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+
+
+      <!-- /.container -->
+  {{ block "scripts" . }}{{ partial "scripts" . }}{{end}}
+
+  {{ if templates.Exists ( printf "partials/scripts-%s.html" .Type ) }}
+  {{ $partialPath := printf "scripts-%s" .Type }}
+  {{ partial $partialPath . }}
+  {{ end }}
+    
+  
+</body>
+
+</html>

@@ -158,19 +158,44 @@ class Core {
       ).profilePicture;
 
       document.querySelector(".secured").classList.remove("d-none");
-    } else if (document.querySelector(".secured") !== null) {
-      document.querySelector(".secured").classList.add("d-none");
-      document.getElementById("login-pane").classList.remove("d-none");
+    } else {
+      const securedUrls = ["/events"];
 
-      if (document.querySelector(".fa-google")) {
-        document
-          .querySelector(".fa-google")
-          .parentElement.addEventListener("click", () => {
-            sessionStorage.setItem("ref_page", window.location.href);
-            window.location.href = `/oauth2/authorize/google?redirect_uri=${
-              window.location.protocol + "//" + window.location.host
-            }/welcome`;
-          });
+      if (securedUrls.includes(window.location.pathname)) {
+        document.body.querySelector("main").innerHTML = `
+        <div class="d-flex align-items-center justify-content-center vh-100">
+            <div class="text-center row">
+                <div class=" col-md-6">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/09/12/31/error-2129569__340.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class=" col-md-6 mt-5">
+                    <p class="fs-3"> <span class="text-danger">Opps!</span> Page not found.</p>
+                    <p class="lead">
+                        The page you’re looking for doesn’t exist.
+                    </p>
+                    <a href="/" class="btn btn-primary">Go Home</a>
+                </div>
+
+            </div>
+        </div>
+        `;
+      }
+
+      if (document.querySelector(".secured") !== null) {
+        document.querySelector(".secured").classList.add("d-none");
+        document.getElementById("login-pane").classList.remove("d-none");
+
+        if (document.querySelector(".fa-google")) {
+          document
+            .querySelector(".fa-google")
+            .parentElement.addEventListener("click", () => {
+              sessionStorage.setItem("ref_page", window.location.href);
+              window.location.href = `/oauth2/authorize/google?redirect_uri=${
+                window.location.protocol + "//" + window.location.host
+              }/welcome`;
+            });
+        }
       }
     }
   }
