@@ -6,9 +6,12 @@ class Events {
     const eventForm = document.createElement("div");
     eventForm.innerHTML = document.querySelector("#event-form").innerHTML;
 
+    const orginalSaveBtnTxt = document.getElementById("saveBtn").innerHTML;
+
     const showForm = () => {
       document.getElementById("cancelBtn").classList.remove("d-none");
-      document.getElementById("saveBtn").innerHTML = "Save";
+      document.getElementById("saveBtn").innerHTML =
+        document.getElementById("saveBtn").dataset.altLabel;
       mainBox.innerHTML = "";
 
       mainBox.appendChild(eventForm);
@@ -18,7 +21,8 @@ class Events {
 
     const showEvents = (refresh) => {
       document.getElementById("cancelBtn").classList.add("d-none");
-      document.getElementById("saveBtn").innerHTML = "Create New";
+
+      document.getElementById("saveBtn").innerHTML = orginalSaveBtnTxt;
       mainBox.innerHTML = "";
 
       if (refresh) {
