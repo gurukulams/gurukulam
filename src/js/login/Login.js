@@ -44,8 +44,9 @@ class Login {
         }
       })
       .catch((err) => {
-        document.querySelector(".d-none").classList.remove("d-none");
-        console.error(err);
+        // document.querySelector(".d-none").classList.remove("d-none");
+
+        alert(err);
       });
   }
 }
