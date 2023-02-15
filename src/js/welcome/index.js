@@ -49,16 +49,16 @@ class Welcome {
   register(registrationToken, profile_pic) {
     document.body.querySelector("img").src = profile_pic;
     document.querySelector("main").classList.remove("d-none");
-    document.querySelector("#id").focus();
+    document.querySelector("#firstName").focus();
 
     document.querySelector("form").addEventListener("submit", (event) => {
       event.token = registrationToken;
       event.preventDefault();
 
       let regRequest = {
-        id: document.querySelector("#id").value,
         firstName: document.querySelector("#firstName").value,
         lastName: document.querySelector("#lastName").value,
+        dob: document.querySelector("#dob").value,
       };
 
       fetch("/api/auth/register", {
