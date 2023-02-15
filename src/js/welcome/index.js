@@ -81,7 +81,6 @@ class Welcome {
           this.reload();
         })
         .catch((err) => {
-          document.querySelector(".d-none").classList.remove("d-none");
           console.error(err);
         });
     });
