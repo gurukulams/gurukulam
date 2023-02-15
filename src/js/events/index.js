@@ -44,7 +44,7 @@ class Events {
               <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="card-body">
-                      <h5 class="card-title">${event.title}</h5>
+                      <a href="/events/${event.id}" class="card-title h5">${event.title}</a>
                       <p class="card-text">${event.description}</p>
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
