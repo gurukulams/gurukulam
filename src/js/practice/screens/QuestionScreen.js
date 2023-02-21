@@ -15,7 +15,7 @@ class QuestionScreen {
     this.bookName = null;
     this.chaptorPath = null;
 
-    this.isOwner = false;
+    this.isOwner = true;
 
     this.deletedQuestionIds = [];
 
@@ -525,16 +525,6 @@ class QuestionScreen {
       }
     };
 
-    const goBack = () => {
-      // Navigate Back to Listing Screen
-      const screen = this;
-      this.parent.removeChild(this.parent.lastChild);
-      this.oldChildNodes.forEach((child) => {
-        screen.parent.appendChild(child);
-      });
-      this.caller.render();
-    };
-
     const submitFn = () => {
       if (this.checkedBoxes) {
         this.checkedBoxes.forEach((input) => {
@@ -640,21 +630,17 @@ class QuestionScreen {
 
         // eslint-disable-next-line no-undef
         Promise.allSettled(promises).then(() => {
-          if (this.bookName) {
-            if (window.LANGUAGE) {
-              window.location =
-                window.LANGUAGE +
-                "/" +
-                "/books/" +
-                this.bookName +
-                "/" +
-                this.chaptorPath;
-            } else {
-              window.location =
-                "/books/" + this.bookName + "/" + this.chaptorPath;
-            }
+          if (window.LANGUAGE) {
+            window.location =
+              window.LANGUAGE +
+              "/" +
+              "/questions/" +
+              this.bookName +
+              "/" +
+              this.chaptorPath;
           } else {
-            goBack();
+            window.location =
+              "/questions/" + this.bookName + "/" + this.chaptorPath;
           }
         });
       }
