@@ -1,6 +1,5 @@
 class QuestionScreen {
   constructor(_parent, _caller) {
-    console.log("S");
     this.parent = _parent;
     this.caller = _caller;
 
@@ -581,7 +580,7 @@ class QuestionScreen {
               question.type;
 
           const updateEndPointUrl = this.bookName
-            ? "/api/book/questions/" + question.type + "/" + question.id
+            ? "/api/books/questions/" + question.type + "/" + question.id
             : "/api/practices/" +
               this.parent.dataset.type +
               "/" +
@@ -630,18 +629,7 @@ class QuestionScreen {
 
         // eslint-disable-next-line no-undef
         Promise.allSettled(promises).then(() => {
-          if (window.LANGUAGE) {
-            window.location =
-              window.LANGUAGE +
-              "/" +
-              "/questions/" +
-              this.bookName +
-              "/" +
-              this.chaptorPath;
-          } else {
-            window.location =
-              "/questions/" + this.bookName + "/" + this.chaptorPath;
-          }
+          window.success("Questions Saved Successfully");
         });
       }
     };
