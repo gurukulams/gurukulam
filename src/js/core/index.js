@@ -219,13 +219,10 @@ class Core {
         var myDropDownEla = document.querySelector("#boardsDropdown > a");
         if (boards === undefined) {
           myDropDownEla.innerText = "-";
-          document.getElementById("subjectList").style.visibility = "hidden";
         } else if (boards.length === 1) {
           myDropDownEla.innerText = boards[0].title;
-          document.getElementById("subjectList").style.visibility = "visible";
           this.createSpanElementForBoard(boards[0], "boardsDropdown");
         } else {
-          document.getElementById("subjectList").style.visibility = "visible";
           var ulEl = document.createElement("ul");
           ulEl.classList.add("dropdown-menu");
           ulEl.setAttribute("aria-labelledby", "boardsDropdown");
@@ -279,15 +276,11 @@ class Core {
         var ulEl;
         if (response === undefined) {
           myDropDownEla.innerText = "-";
-          document.getElementById("subjectList").style.visibility = "hidden";
         } else if (response.length === 1) {
-          document.getElementById("subjectList").style.visibility = "visible";
-          this.loadSubjects(boardId, response[0].id);
           myDropDownEla.innerText = response[0].title;
           // ulEl = document.querySelector("#dropdownMenuButton2 > ul");
           // ulEl.style.visibility = "hidden";
         } else {
-          document.getElementById("subjectList").style.visibility = "visible";
           ulEl = document.querySelector("#dropdownMenuButton2 > ul");
           if (ulEl === null) {
             ulEl = document.createElement("ul");
@@ -331,40 +324,8 @@ class Core {
         });
 
       liEl.style.display = "none";
-      this.loadSubjects(liEl.dataset.boardId, liEl.dataset.id);
     });
     return liEl;
-  }
-
-  loadSubjects(boardId, gradeId) {
-    fetch("/api/boards/" + boardId + "/grades/" + gradeId + "/subjects", {
-      headers: window.ApplicationHeader(),
-    })
-      .then((response) => {
-        if (response.status === 200) {
-          return response.json();
-        } else if (response.status === 204) {
-          return response.json();
-        }
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
-      .then((response) => {
-        var subjectUl;
-        if (response !== undefined) {
-          subjectUl = document.getElementById("subjectList");
-          subjectUl.innerHTML = "";
-          response.forEach((subject) => {
-            subjectUl.appendChild(
-              this.createSubjectMenuItem(boardId, gradeId, subject)
-            );
-          });
-        } else {
-          subjectUl = document.getElementById("subjectList");
-          subjectUl.innerHTML = "";
-        }
-      });
   }
 
   createSubjectMenuItem(boardId, gradeId, subject) {
