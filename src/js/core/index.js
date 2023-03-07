@@ -79,7 +79,7 @@ class Core {
 
     this.handleSecurity();
 
-    this.handleModelDialogs();
+    // this.handleModelDialogs();
   }
 
   handleModelDialogs() {

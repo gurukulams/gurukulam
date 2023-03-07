@@ -30,12 +30,6 @@ Content-Type: application/json
   "title": "Reproduction"
 }
 
-#### Get Questions for a Book
-# @name questions
-GET {{base}}/books/questions/botany/reproduction
-Authorization: Bearer {{login.response.body.authToken}}
-Content-Type: application/json
-
 #### Create Question
 # @name question
 POST {{base}}/books/questions/CHOOSE_THE_BEST/botany/reproduction
