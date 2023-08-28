@@ -4,7 +4,7 @@ class Welcome {
 
     const token = params.get("token");
     if (token) {
-      fetch("/api/auth/me", {
+      fetch("/api/auth/welcome", {
         headers: {
           "content-type": "application/json",
           Authorization: params.get("token"),

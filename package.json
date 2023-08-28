@@ -1,7 +1,7 @@
 {
-  "name": "gurukulam-web",
+  "name": "workout-web",
   "version": "1.0.0",
-  "description": "Gurukulams Web Portal",
+  "description": "Workout Web Portal",
   "author": "Sathish Kumar Thiyagarajan",
   "license": "GPL-3.0",
   "repository": {

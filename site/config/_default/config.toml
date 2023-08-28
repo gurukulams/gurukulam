@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Gurukulams School"
+title = " Gurukulams"
 defaultContentLanguage = "en"
 
 [security]
