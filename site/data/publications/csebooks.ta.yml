@@ -1,0 +1,5 @@
+books:
+  - path: c-programming
+    fields:
+      title: C நிரலாக்கம்
+      description: C நிரலாக்க குறிப்புகள்.
