@@ -5,9 +5,9 @@ POST {{base}}/auth/signup
 Content-Type: application/json
 
 {
-    "email": "tom@email.com",
+    "email": "jerry@email.com",
     "password": "password",
-    "imageUrl": "/images/tom.png"
+    "imageUrl": "/images/jerry.png"
 }
 
 #### Login
