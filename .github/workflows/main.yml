@@ -24,7 +24,6 @@ jobs:
       run: |
         export BUILD_PRODUCTION=
         npm install
-        rm dist/js/login.js
       env:
         CI: true
     - name: Deploy

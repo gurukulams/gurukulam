@@ -1,4 +1,4 @@
-@base = http://localhost:8080/api
+@base = https://gurukulams.com/api
 
 #### Sign Up
 POST {{base}}/auth/signup
