@@ -22,7 +22,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
-        export BUILD_PRODUCTION=Y
+        export BUILD_PRODUCTION=
         npm install
         rm dist/js/login.js
       env:
