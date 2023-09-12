@@ -14,7 +14,7 @@ class QuestionScreen {
     this.bookName = null;
     this.chaptorPath = null;
 
-    this.isOwner = true;
+    this.isOwner = false;
 
     this.deletedQuestionIds = [];
 
@@ -22,7 +22,18 @@ class QuestionScreen {
     let chaptorName = bookName.substring(bookName.indexOf("/") + 1);
     chaptorName = chaptorName.substring(chaptorName.indexOf("/") + 1);
     bookName = bookName.substring(0, bookName.indexOf("/"));
-    this.render(this.isOwner, bookName, chaptorName);
+
+    fetch("/api/books/" + bookName + "/owner", {
+      headers: window.ApplicationHeader(),
+    })
+      .then((response) => {
+        this.isOwner = response.status === 202;
+        this.render(this.isOwner, bookName, chaptorName);
+      })
+      .catch(function () {
+        this.isOwner = false;
+        this.render(this.isOwner, bookName, chaptorName);
+      });
 
     const list = document.querySelector(
       '[aria-labelledby="languageBtn"]'
