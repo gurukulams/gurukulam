@@ -11,9 +11,23 @@
  |
  */
 // eslint-disable-next-line no-undef
+const { readFile } = require('fs/promises')
 module.exports = {
     files: ["dist/css/*.css", "dist/js/*.js", "dist/**/*.html"],
     serveStatic: ['dist'],
     proxy: "http://localhost:8080",
+    middleware: [
+        {
+            route: "/questions",
+            handle: async function (req, res, next) {
+                async function content(path) {
+                    return await readFile(path, 'utf8')
+                }
+                const text = await content('./dist/practices/basic/index.html')
+                res.write(text);
+                res.end();
+            }
+        }
+    ],
     ghostMode: false,
 };
