@@ -9,15 +9,15 @@ layout: fullpage
       <h1 class="h3 mb-3 fw-normal">Welcome to Gurukulams</h1>
 
       <div class="form-floating">
-        <input  class="form-control" id="name" placeholder="">
+        <input  class="form-control" id="name" placeholder="" required title="Please enter valid name">
         <label for="name">Name</label>
       </div>
       <div class="form-floating">
-        <input  class="form-control" type="date" id="dob" placeholder="">
+        <input  class="form-control" id="dob" type="date"  placeholder="" required>
         <label for="dob">Date Of Birth</label>
       </div>
       <div class="form-floating">
-        <input  class="form-control" id="aadhar" type="password">
+        <input  class="form-control" id="aadhar" type="password" required title="Please enter valid Aadhar number">
         <label for="aadhar">Aadhar</label>
       </div>
       <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
