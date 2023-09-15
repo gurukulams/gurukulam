@@ -1,5 +1,7 @@
 class Core {
   constructor() {
+    this.handleModelDialogs();
+
     this.locale = document.getElementById("languageBtn").dataset.code;
 
     if (this.locale === "en") {
@@ -78,8 +80,6 @@ class Core {
     };
 
     this.handleSecurity();
-
-    // this.handleModelDialogs();
   }
 
   handleModelDialogs() {
