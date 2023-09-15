@@ -49,15 +49,15 @@ class Welcome {
   register(registrationToken, profile_pic) {
     document.body.querySelector("img").src = profile_pic;
     document.querySelector("main").classList.remove("d-none");
-    document.querySelector("#firstName").focus();
+    document.querySelector("#name").focus();
 
     document.querySelector("form").addEventListener("submit", (event) => {
       event.token = registrationToken;
       event.preventDefault();
 
       let regRequest = {
-        firstName: document.querySelector("#firstName").value,
-        lastName: document.querySelector("#lastName").value,
+        name: document.querySelector("#name").value,
+        aadhar: document.querySelector("#aadhar").value,
         dob: document.querySelector("#dob").value,
       };
 
