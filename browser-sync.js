@@ -27,6 +27,17 @@ module.exports = {
                 res.write(text);
                 res.end();
             }
+        },
+        {
+            route: "/ta/questions",
+            handle: async function (req, res, next) {
+                async function content(path) {
+                    return await readFile(path, 'utf8')
+                }
+                const text = await content('./dist/ta/practices/basic/index.html')
+                res.write(text);
+                res.end();
+            }
         }
     ],
     ghostMode: false,
