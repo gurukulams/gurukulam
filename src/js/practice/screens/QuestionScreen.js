@@ -186,7 +186,7 @@ class QuestionScreen {
       this.practiceId = undefined;
       this.bookName = practiceId;
       this.chaptorPath = _chaptorName;
-      questionsUrl = "/api/books/questions/" + this.chaptorPath;
+      questionsUrl = "/api/questions/" + this.chaptorPath;
     } else {
       this.bookName = undefined;
       this.chaptorPath = undefined;
@@ -548,7 +548,7 @@ class QuestionScreen {
         const answer = Array.isArray(this.selectedQuestion.answer)
           ? this.selectedQuestion.answer.join(",")
           : this.selectedQuestion.answer;
-        fetch("/api/books/questions/" + this.selectedQuestion.id + "/answer", {
+        fetch("/api/questions/" + this.selectedQuestion.id + "/answer", {
           method: "POST",
           headers: window.ApplicationHeader(),
           body: answer,
@@ -582,7 +582,7 @@ class QuestionScreen {
 
         this.questions.forEach((question) => {
           const addEndPointUrl = this.bookName
-            ? "/api/books/questions/" + question.type + "/" + this.chaptorPath
+            ? "/api/questions/" + question.type + "/" + this.chaptorPath
             : "/api/practices/" +
               this.parent.dataset.type +
               "/" +
@@ -591,7 +591,7 @@ class QuestionScreen {
               question.type;
 
           const updateEndPointUrl = this.bookName
-            ? "/api/books/questions/" + question.type + "/" + question.id
+            ? "/api/questions/" + question.type + "/" + question.id
             : "/api/practices/" +
               this.parent.dataset.type +
               "/" +
@@ -622,7 +622,7 @@ class QuestionScreen {
 
         this.deletedQuestionIds.forEach((question) => {
           const deleteEndPointUrl = this.bookName
-            ? "/api/books/questions/" + question.type + "/" + question.id
+            ? "/api/questions/" + question.type + "/" + question.id
             : "/api/practices/" +
               this.parent.dataset.type +
               "/" +
