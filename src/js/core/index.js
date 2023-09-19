@@ -146,7 +146,7 @@ class Core {
 
   handleSecurity() {
     if (sessionStorage.auth) {
-      this.loadBoards();
+      //this.loadBoards();
       document.getElementById("login-pane").remove("d-none");
 
       document.querySelector(".logout").addEventListener("click", () => {
