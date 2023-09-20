@@ -3,3 +3,7 @@ books:
     fields:
       title: C நிரலாக்கம்
       description: C நிரலாக்க குறிப்புகள்.
+  - path: java-programming
+    fields:
+      title: ஜாவா நிரலாக்கம்
+      description: ஜாவா நிரலாக்க குறிப்புகள்.
