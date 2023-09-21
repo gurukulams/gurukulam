@@ -12,4 +12,8 @@ books:
     fields:
       title: 12th Botany Book
       description: Botany text book for 12th standard students of tamilnadu stateboard.
+  - path: 11th-botany
+    fields:
+      title: 11th Botany Book
+      description: Botany text book for 11th standard students of tamilnadu stateboard.
 
