@@ -8,4 +8,8 @@ books:
     fields:
       title: 10th Social Science
       description: Social Science text book for 10th standard students of tamilnadu stateboard.
+  - path: 12th-botany
+    fields:
+      title: 12th Botany Book
+      description: Botany text book for 12th standard students of tamilnadu stateboard.
 
