@@ -10,19 +10,15 @@ class QuestionScreen {
     this.questions = [];
     this.selectedQuestion = null;
 
-    this.practiceId = null;
-    this.bookName = null;
     this.chaptorPath = null;
 
     this.isOwner = true;
 
     this.deletedQuestionIds = [];
 
-    let bookName = window.location.pathname.split("/questions/")[1];
-    let chaptorName = window.location.pathname.split("/questions/")[1];
-    bookName = bookName.substring(0, bookName.indexOf("/"));
+    this.chaptorName = window.location.pathname.split("/questions/")[1];
 
-    this.render(this.isOwner, bookName, chaptorName);
+    this.render(this.isOwner, this.chaptorName);
 
     const list = document.querySelector(
       '[aria-labelledby="languageBtn"]'
@@ -30,7 +26,7 @@ class QuestionScreen {
 
     for (let item of list) {
       if (item.children[0].dataset.code === "en") {
-        item.children[0].href = "/questions/" + chaptorName;
+        item.children[0].href = "/questions/" + this.chaptorName;
       } else {
         item.children[0].href =
           item.children[0].dataset.code + window.location.pathname;
@@ -159,7 +155,7 @@ class QuestionScreen {
     }
   }
 
-  render(_owner, practiceId, _chaptorName) {
+  render(_owner, _chaptorName) {
     this.isOwner = _owner;
 
     this.oldChildNodes = [];
@@ -169,20 +165,8 @@ class QuestionScreen {
 
     let questionsUrl;
     if (_chaptorName) {
-      this.practiceId = undefined;
-      this.bookName = practiceId;
       this.chaptorPath = _chaptorName;
       questionsUrl = "/api/questions/" + this.chaptorPath;
-    } else {
-      this.bookName = undefined;
-      this.chaptorPath = undefined;
-      this.practiceId = practiceId;
-      questionsUrl =
-        "/api/practices/" +
-        this.parent.dataset.type +
-        "/" +
-        practiceId +
-        "/questions";
     }
 
     fetch(questionsUrl, {
@@ -561,31 +545,20 @@ class QuestionScreen {
           });
       }
     };
-
+    const toggleFn = () => {
+      this.isOwner = !this.isOwner;
+      this.render(this.isOwner, this.chaptorName);
+    };
     const saveFn = () => {
       if (this.isValid()) {
         const promises = [];
 
         this.questions.forEach((question) => {
-          const addEndPointUrl = this.bookName
-            ? "/api/questions/" + question.type + "/" + this.chaptorPath
-            : "/api/practices/" +
-              this.parent.dataset.type +
-              "/" +
-              this.practiceId +
-              "/questions/" +
-              question.type;
+          const addEndPointUrl =
+            "/api/questions/" + question.type + "/" + this.chaptorPath;
 
-          const updateEndPointUrl = this.bookName
-            ? "/api/questions/" + question.type + "/" + question.id
-            : "/api/practices/" +
-              this.parent.dataset.type +
-              "/" +
-              this.practiceId +
-              "/questions/" +
-              question.type +
-              "/" +
-              question.id;
+          const updateEndPointUrl =
+            "/api/questions/" + question.type + "/" + question.id;
 
           if (!question.id) {
             promises.push(
@@ -607,14 +580,8 @@ class QuestionScreen {
         });
 
         this.deletedQuestionIds.forEach((question) => {
-          const deleteEndPointUrl = this.bookName
-            ? "/api/questions/" + question.type + "/" + question.id
-            : "/api/practices/" +
-              this.parent.dataset.type +
-              "/" +
-              this.practiceId +
-              "/questions/" +
-              question.id;
+          const deleteEndPointUrl =
+            "/api/questions/" + question.type + "/" + question.id;
 
           promises.push(
             fetch(deleteEndPointUrl, {
@@ -627,6 +594,7 @@ class QuestionScreen {
         // eslint-disable-next-line no-undef
         Promise.allSettled(promises).then(() => {
           window.success("Questions Saved Successfully");
+          toggleFn();
         });
       }
     };
@@ -720,9 +688,10 @@ class QuestionScreen {
                 
                     
                   </ul>
-                  
+                  <button type="button" class="toggle-btn btn"><i class="fa-regular fa-eye"></i></button>
                   <button type="button" class="save-btn btn"><i class="fa-solid fa-floppy-disk"></i></button>`
-                  : `<button type="button" class="submit-btn btn">Submit</button>`
+                  : `<button type="button" class="toggle-btn btn"><i class="fa-solid fa-pencil"></i></button>
+                  <button type="button" class="submit-btn btn"><i class="fa-solid fa-check"></i></button>`
               }
 
               </div>
@@ -850,6 +819,9 @@ class QuestionScreen {
         .querySelector(".submit-btn")
         .addEventListener("click", submitFn);
     }
+    screen.parent
+      .querySelector(".toggle-btn")
+      .addEventListener("click", toggleFn);
   }
 }
 export default QuestionScreen;
