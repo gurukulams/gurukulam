@@ -708,8 +708,11 @@ class QuestionScreen {
               ${
                 screen.isOwner
                   ? `
+
+                  <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="far fa-trash-alt"></i></button> 
+
                   <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  Add
+                  <i class="fa-solid fa-plus"></i>
                   </button>
                   <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
                     <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
@@ -717,8 +720,8 @@ class QuestionScreen {
                 
                     
                   </ul>
-                  <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button> 
-                  <button type="button" class="save-btn btn">Save</button>`
+                  
+                  <button type="button" class="save-btn btn"><i class="fa-solid fa-floppy-disk"></i></button>`
                   : `<button type="button" class="submit-btn btn">Submit</button>`
               }
 
