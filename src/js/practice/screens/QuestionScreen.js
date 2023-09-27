@@ -580,11 +580,8 @@ class QuestionScreen {
         });
 
         this.deletedQuestionIds.forEach((question) => {
-          const deleteEndPointUrl =
-            "/api/questions/" + question.type + "/" + question.id;
-
           promises.push(
-            fetch(deleteEndPointUrl, {
+            fetch("/api/questions/" + question.type + "/" + question.id, {
               method: "DELETE",
               headers: window.ApplicationHeader(),
             })
