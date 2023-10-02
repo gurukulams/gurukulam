@@ -2,8 +2,7 @@ import QuestionScreen from "./QuestionScreen";
 
 export default class QuestionController extends QuestionScreen {
   constructor(_parent) {
-    super();
-    this.parent = _parent;
+    super(_parent);
 
     fetch(this.questionsUrl, {
       headers: window.ApplicationHeader(),

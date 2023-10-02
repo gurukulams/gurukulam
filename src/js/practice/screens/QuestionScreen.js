@@ -1,10 +1,11 @@
 export default class QuestionScreen {
-  constructor() {
-    this.chaptorName = window.location.pathname.split("/questions/")[1];
-
+  constructor(_parent) {
+    this.parent = _parent;
     this.isEditable = false;
     this.questions = [];
     this.selectedQuestionIndex = 0;
+
+    this.deletedQuestionIds = [];
 
     // Model Objects
     const urlTokens = window.location.pathname.split("/questions/");
@@ -110,6 +111,15 @@ export default class QuestionScreen {
         this.answer();
       });
 
+    document
+      .querySelector("i.fa-floppy-disk")
+      .parentElement.addEventListener("click", () => {
+        this.save();
+      });
+    document
+      .querySelector("i.fa-trash-alt")
+      .parentElement.addEventListener("on-confirmation", () => this.delete());
+
     this.previousBtn = document.querySelector('[aria-label="Previous"]');
     this.nextBtn = document.querySelector('[aria-label="Next"]');
     this.previousBtn.addEventListener("click", () => {
@@ -119,6 +129,11 @@ export default class QuestionScreen {
     this.nextBtn.addEventListener("click", () => {
       this.next();
     });
+  }
+
+  save() {
+    console.log("Save");
+    console.log(this.deletedQuestionIds);
   }
 
   toggleEditor(event) {
@@ -177,6 +192,20 @@ export default class QuestionScreen {
     this.setCurrentQuestion();
   }
 
+  delete() {
+    const indexTobeDeleted = this.selectedQuestionIndex;
+    this.deletedQuestionIds.push(this.questions[indexTobeDeleted].id);
+
+    // Last Element. Go to First
+    if (indexTobeDeleted === this.questions.length - 1) {
+      this.selectedQuestionIndex = 0;
+    }
+
+    this.questions.splice(indexTobeDeleted, 1);
+
+    this.setCurrentQuestion();
+  }
+
   previous() {
     this.selectedQuestionIndex = this.selectedQuestionIndex - 1;
     this.setCurrentQuestion();
@@ -188,18 +217,24 @@ export default class QuestionScreen {
   }
 
   setCurrentQuestion() {
-    this.setQuestion(this.questions[this.selectedQuestionIndex]);
+    if (this.questions[this.selectedQuestionIndex]) {
+      this.setQuestion(this.questions[this.selectedQuestionIndex]);
 
-    if (this.selectedQuestionIndex === this.questions.length - 1) {
-      this.nextBtn.parentElement.classList.add("disabled");
-    } else {
-      this.nextBtn.parentElement.classList.remove("disabled");
-    }
+      if (this.selectedQuestionIndex === this.questions.length - 1) {
+        this.nextBtn.parentElement.classList.add("disabled");
+      } else {
+        this.nextBtn.parentElement.classList.remove("disabled");
+      }
 
-    if (this.selectedQuestionIndex === 0) {
-      this.previousBtn.parentElement.classList.add("disabled");
+      if (this.selectedQuestionIndex === 0) {
+        this.previousBtn.parentElement.classList.add("disabled");
+      } else {
+        this.previousBtn.parentElement.classList.remove("disabled");
+      }
     } else {
-      this.previousBtn.parentElement.classList.remove("disabled");
+      document.getElementById(
+        "questionPane"
+      ).innerHTML = `<p class="lead">There are no questions. But you can create one</p>`;
     }
   }
 
