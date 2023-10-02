@@ -66,6 +66,7 @@
   ],
   "dependencies": {
     "@recogito/recogito-js": "^1.8.1",
+    "easymde": "^2.18.0",
     "marked": "^4.0.13",
     "pdf2html": "^2.6.7",
     "replace-in-file": "^6.3.5",

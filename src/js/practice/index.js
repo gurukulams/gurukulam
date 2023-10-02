@@ -1,3 +1,3 @@
-import QuestionScreen from "./screens/QuestionScreen";
+import QuestionController from "./screens/QuestionController";
 
-new QuestionScreen(document.getElementById("content"));
+new QuestionController(document.getElementById("content"));

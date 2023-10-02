@@ -44,21 +44,21 @@ weight: 1
       <div class="dropdown float-end">
 
 
-        <button type="button" class="delete-btn btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+        <button type="button" class="btn d-none" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
             class="far fa-trash-alt"></i></button>
 
-        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        <button class="btn dropdown-toggle d-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
           aria-expanded="false">
           <i class="fa-solid fa-plus"></i>
         </button>
         <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
           <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
           <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multi-choice</a></li>
-
-
         </ul>
-        <button type="button" class="toggle-btn btn"><i class="fa-regular fa-eye"></i></button>
-        <button type="button" class="save-btn btn"><i class="fa-solid fa-floppy-disk"></i></button>
+        <button type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
+        <button type="button" class="btn d-none"><i class="fa-solid fa-floppy-disk"></i></button>
+
+        <button type="button" class="btn"><i class="fa-solid fa-check"></i></button>
 
       </div>
 
@@ -69,118 +69,18 @@ weight: 1
     <div class="col-6 ">
 
       <div class="form-floating mb-3 h-100">
-        <textarea class="form-control h-100" placeholder="Question" id="qTxt" rows="3"
-          style="display: none;"></textarea>
-        <div class="editor-toolbar"><a title="Bold (Cmd-B)" tabindex="-1" class="fa fa-bold"></a><a
-            title="Italic (Cmd-I)" tabindex="-1" class="fa fa-italic"></a><a title="Heading (Cmd-H)" tabindex="-1"
-            class="fa fa-header"></a><i class="separator">|</i><a title="Quote (Cmd-')" tabindex="-1"
-            class="fa fa-quote-left"></a><a title="Generic List (Cmd-L)" tabindex="-1" class="fa fa-list-ul"></a><a
-            title="Numbered List (Cmd-⌥-L)" tabindex="-1" class="fa fa-list-ol"></a><i class="separator">|</i><a
-            title="Create Link (Cmd-K)" tabindex="-1" class="fa fa-link"></a><a title="Insert Image (Cmd-⌥-I)"
-            tabindex="-1" class="fa fa-picture-o"></a><i class="separator">|</i><a title="Toggle Preview (Cmd-P)"
-            tabindex="-1" class="fa fa-eye no-disable"></a><a title="Toggle Side by Side (F9)" tabindex="-1"
-            class="fa fa-columns no-disable no-mobile"></a><a title="Toggle Fullscreen (F11)" tabindex="-1"
-            class="fa fa-arrows-alt no-disable no-mobile"></a><i class="separator">|</i><a title="Markdown Guide"
-            tabindex="-1" class="fa fa-question-circle" href="https://simplemde.com/markdown-guide" target="_blank"></a>
-        </div>
-        <div class="CodeMirror cm-s-paper CodeMirror-wrap">
-          <div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 15.1042px; left: 15.1042px;">
-            <textarea autocorrect="off" autocapitalize="off" spellcheck="false"
-              style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"
-              tabindex="0"></textarea></div>
-          <div class="CodeMirror-vscrollbar" cm-not-content="true" style="width: 18px; pointer-events: none;">
-            <div style="min-width: 1px; height: 0px;"></div>
-          </div>
-          <div class="CodeMirror-hscrollbar" cm-not-content="true" style="height: 18px; pointer-events: none;">
-            <div style="height: 100%; min-height: 1px; width: 0px;"></div>
-          </div>
-          <div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div>
-          <div class="CodeMirror-gutter-filler" cm-not-content="true"></div>
-          <div class="CodeMirror-scroll" tabindex="-1">
-            <div class="CodeMirror-sizer"
-              style="margin-left: 0px; margin-bottom: 0px; border-right-width: 30px; min-height: 32px; padding-right: 0px; padding-bottom: 0px;">
-              <div style="position: relative; top: 0px;">
-                <div class="CodeMirror-lines">
-                  <div style="position: relative; outline: none;">
-                    <div class="CodeMirror-measure"></div>
-                    <div class="CodeMirror-measure"></div>
-                    <div style="position: relative; z-index: 1;"></div>
-                    <div class="CodeMirror-cursors" style="">
-                      <div class="CodeMirror-cursor" style="left: 3.99306px; top: 0px; height: 24.0104px;">&nbsp;</div>
-                    </div>
-                    <div class="CodeMirror-code">
-                      <pre
-                        class=" CodeMirror-line "><span style="padding-right: 0.1px;">What is the range of values that can be stored by int datatype in C?</span></pre>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div style="position: absolute; height: 30px; width: 1px; border-bottom: 0px solid transparent; top: 32px;">
-            </div>
-            <div class="CodeMirror-gutters" style="display: none; height: 62px;"></div>
-          </div>
-        </div>
-        <div class="editor-preview-side"></div>
-        <div class="editor-statusbar"><span class="autosave"></span><span class="lines">1</span><span
-            class="words">15</span><span class="cursor">0:0</span></div>
-
+        <textarea class="form-control h-100" placeholder="Question" id="qTxt" rows="3"></textarea>
       </div>
     </div>
+    
+    
     <div class="col-6">
+
       <span id="explanationContainer" class="d-none">
-        <textarea class="form-control h-100" placeholder="Explanation" id="eTxt" rows="3"
-          style="display: none;"></textarea>
-        <div class="editor-toolbar"><a title="Bold (Cmd-B)" tabindex="-1" class="fa fa-bold"></a><a
-            title="Italic (Cmd-I)" tabindex="-1" class="fa fa-italic"></a><a title="Heading (Cmd-H)" tabindex="-1"
-            class="fa fa-header"></a><i class="separator">|</i><a title="Quote (Cmd-')" tabindex="-1"
-            class="fa fa-quote-left"></a><a title="Generic List (Cmd-L)" tabindex="-1" class="fa fa-list-ul"></a><a
-            title="Numbered List (Cmd-⌥-L)" tabindex="-1" class="fa fa-list-ol"></a><i class="separator">|</i><a
-            title="Create Link (Cmd-K)" tabindex="-1" class="fa fa-link"></a><a title="Insert Image (Cmd-⌥-I)"
-            tabindex="-1" class="fa fa-picture-o"></a><i class="separator">|</i><a title="Toggle Preview (Cmd-P)"
-            tabindex="-1" class="fa fa-eye no-disable"></a><a title="Toggle Side by Side (F9)" tabindex="-1"
-            class="fa fa-columns no-disable no-mobile"></a><a title="Toggle Fullscreen (F11)" tabindex="-1"
-            class="fa fa-arrows-alt no-disable no-mobile"></a><i class="separator">|</i><a title="Markdown Guide"
-            tabindex="-1" class="fa fa-question-circle" href="https://simplemde.com/markdown-guide" target="_blank"></a>
-        </div>
-        <div class="CodeMirror cm-s-paper CodeMirror-wrap CodeMirror-empty">
-          <div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off"
-              autocapitalize="off" spellcheck="false" tabindex="0"
-              style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div>
-          <div class="CodeMirror-vscrollbar" cm-not-content="true">
-            <div style="min-width: 1px;"></div>
-          </div>
-          <div class="CodeMirror-hscrollbar" cm-not-content="true">
-            <div style="height: 100%; min-height: 1px;"></div>
-          </div>
-          <div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div>
-          <div class="CodeMirror-gutter-filler" cm-not-content="true"></div>
-          <div class="CodeMirror-scroll" tabindex="-1">
-            <div class="CodeMirror-sizer" style="margin-left: 0px;">
-              <div style="position: relative;">
-                <div class="CodeMirror-lines">
-                  <div style="position: relative; outline: none;">
-                    <pre class="CodeMirror-placeholder" style="height: 0px; overflow: visible;">Explanation</pre>
-                    <div class="CodeMirror-measure">
-                      <pre><span>xxxxxxxxxx</span></pre>
-                    </div>
-                    <div class="CodeMirror-measure"></div>
-                    <div style="position: relative; z-index: 1;"></div>
-                    <div class="CodeMirror-cursors"></div>
-                    <div class="CodeMirror-code"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div style="position: absolute; height: 30px; width: 1px;"></div>
-            <div class="CodeMirror-gutters" style="display: none;"></div>
-          </div>
-        </div>
-        <div class="editor-preview-side"></div>
-        <div class="editor-statusbar"><span class="autosave"></span><span class="lines">1</span><span
-            class="words">0</span><span class="cursor">0:0</span></div>
+        <textarea class="form-control h-100" placeholder="Explanation" id="eTxt" rows="3"></textarea>
       </span>
-      <div class="form-floating mb-3 h-100" style="height:100%" id="answerContainer">
+
+      <div class="form-floating mb-3 h-100" id="answerContainer">
         <ul class="list-group">
 
           <li class="list-group-item">
@@ -244,6 +144,7 @@ weight: 1
           </li>
         </ul>
       </div>
+
     </div>
   </div>
 

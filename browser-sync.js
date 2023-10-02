@@ -34,7 +34,7 @@ module.exports = {
                 async function content(path) {
                     return await readFile(path, 'utf8')
                 }
-                const text = await content('./dist/ta/practices/basic/index.html')
+                const text = await content('./dist/practices/basic/index.html')
                 res.write(text);
                 res.end();
             }
