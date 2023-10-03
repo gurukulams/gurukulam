@@ -351,31 +351,39 @@ export default class QuestionScreen {
           }
         });
 
-        fetch("/api/questions/" + selectedQuestion.id + "/answer", {
-          method: "POST",
-          headers: window.ApplicationHeader(),
-          body: answers.join(","),
-        })
-          .then((response) => {
-            // Shorthand to check for an HTTP 2xx response status.
-            // See https://fetch.spec.whatwg.org/#dom-response-ok
-            if (response.ok) {
-              selectedCheckBoxes.forEach((input) => {
-                if (input.checked) {
-                  input.parentElement.parentElement.classList.add("bg-success");
-                }
-              });
-            } else if (response.status === 406) {
-              selectedCheckBoxes.forEach((input) => {
-                if (input.checked) {
-                  input.parentElement.parentElement.classList.add("bg-danger");
-                }
-              });
-            }
+        if (answers.length === 0) {
+          window.error("Please Select Answer");
+        } else {
+          fetch("/api/questions/" + selectedQuestion.id + "/answer", {
+            method: "POST",
+            headers: window.ApplicationHeader(),
+            body: answers.join(","),
           })
-          .catch(function (error) {
-            console.log(error);
-          });
+            .then((response) => {
+              // Shorthand to check for an HTTP 2xx response status.
+              // See https://fetch.spec.whatwg.org/#dom-response-ok
+              if (response.ok) {
+                selectedCheckBoxes.forEach((input) => {
+                  if (input.checked) {
+                    input.parentElement.parentElement.classList.add(
+                      "bg-success"
+                    );
+                  }
+                });
+              } else if (response.status === 406) {
+                selectedCheckBoxes.forEach((input) => {
+                  if (input.checked) {
+                    input.parentElement.parentElement.classList.add(
+                      "bg-danger"
+                    );
+                  }
+                });
+              }
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+        }
 
         break;
     }
