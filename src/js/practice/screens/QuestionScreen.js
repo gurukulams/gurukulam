@@ -5,7 +5,7 @@ export default class QuestionScreen {
     this.questions = [];
     this.selectedQuestionIndex = 0;
 
-    this.deletedQuestionIds = new Set();
+    this.deletedQuestions = new Set();
     this.updatedQuestions = new Set();
     this.addedQuestions = new Set();
 
@@ -154,11 +154,70 @@ export default class QuestionScreen {
   save() {
     if (this.getQuestion()) {
       console.log("Save");
-      console.log(this.deletedQuestionIds);
+      const promises = [];
+      this.deletedQuestions.forEach((question) => {
+        promises.push(
+          fetch("/api/questions/" + question.type + "/" + question.id, {
+            method: "DELETE",
+            headers: window.ApplicationHeader(),
+          })
+        );
+      });
 
-      console.log(this.updatedQuestions);
-      console.log(this.addedQuestions);
+      this.updatedQuestions.forEach((question) => {
+        promises.push(
+          fetch("/api/questions/" + question.type + "/" + question.id, {
+            method: "PUT",
+            headers: window.ApplicationHeader(),
+            body: JSON.stringify(question),
+          })
+        );
+      });
+
+      this.addedQuestions.forEach((question) => {
+        promises.push(
+          fetch("/api/questions/" + question.type + "/" + this.chaptorPath, {
+            method: "POST",
+            headers: window.ApplicationHeader(),
+            body: JSON.stringify(question),
+          })
+        );
+      });
+
+      // eslint-disable-next-line no-undef
+      Promise.allSettled(promises).then(() => {
+        window.success("Questions Saved Successfully");
+        this.loadQuestions();
+      });
     }
+  }
+
+  loadQuestions() {
+    fetch(this.questionsUrl, {
+      headers: window.ApplicationHeader(),
+    })
+      .then((response) => {
+        // Shorthand to check for an HTTP 2xx response status.
+        // See https://fetch.spec.whatwg.org/#dom-response-ok
+        if (response.ok) {
+          if (response.status === 204) {
+            this.questions = [];
+            this.renderQuestions(this);
+            throw Error("Empty Content 3");
+          }
+          return response.json();
+        } else {
+          // Raise an exception to reject the promise and trigger the outer .catch() handler.
+          // By default, an error response status (4xx, 5xx) does NOT cause the promise to reject!
+          throw Error(response.statusText);
+        }
+      })
+      .then((data) => {
+        this.setQuestions(window.shuffle(data));
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   }
 
   toggleEditor(event) {
@@ -228,7 +287,7 @@ export default class QuestionScreen {
       }
     });
 
-    this.deletedQuestionIds.add(questionId);
+    this.deletedQuestions.add(this.questions[indexTobeDeleted]);
 
     // Last Element. Go to First
     if (indexTobeDeleted === this.questions.length - 1) {
