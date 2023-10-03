@@ -7,6 +7,7 @@ export default class QuestionScreen {
 
     this.deletedQuestionIds = new Set();
     this.updatedQuestions = new Set();
+    this.addedQuestions = new Set();
 
     // Model Objects
     const urlTokens = window.location.pathname.split("/questions/");
@@ -101,6 +102,12 @@ export default class QuestionScreen {
     });
 
     document
+      .querySelector(".add-btns")
+      .childNodes.forEach((element) =>
+        element.addEventListener("click", () => this.createQuestion(event))
+      );
+
+    document
       .querySelector("i.fa-pencil")
       .parentElement.addEventListener("click", (event) => {
         this.toggleEditor(event);
@@ -132,12 +139,25 @@ export default class QuestionScreen {
     });
   }
 
+  createQuestion(event) {
+    const newQuestion = {
+      question: "",
+      explanation: "",
+      type: event.currentTarget.dataset.type,
+    };
+    this.questions.push(newQuestion);
+    this.selectedQuestionIndex = this.questions.length - 1;
+    this.addedQuestions.add(newQuestion);
+    this.setCurrentQuestion();
+  }
+
   save() {
     if (this.getQuestion()) {
       console.log("Save");
       console.log(this.deletedQuestionIds);
 
       console.log(this.updatedQuestions);
+      console.log(this.addedQuestions);
     }
   }
 
@@ -326,7 +346,7 @@ export default class QuestionScreen {
         }
 
         if (isChanged) {
-          this.updatedQuestions.add(selectedQuestion);
+          this.markUpdated(selectedQuestion);
         }
         return true;
       } else {
@@ -480,9 +500,7 @@ ${
       if (textToEdit.value !== selectedQuestion.choices[choiceIndex].value) {
         label.innerHTML = textToEdit.value;
         selectedQuestion.choices[choiceIndex].value = textToEdit.value;
-        if (selectedQuestion.id) {
-          this.updatedQuestions.add(selectedQuestion);
-        }
+        this.markUpdated(selectedQuestion);
       }
       label.classList.remove("d-none");
       eOptions.classList.remove("d-none");
@@ -497,15 +515,19 @@ ${
     });
   }
 
+  markUpdated(selectedQuestion) {
+    if (selectedQuestion.id) {
+      this.updatedQuestions.add(selectedQuestion);
+    }
+  }
+
   removeChoice(event) {
     const selectedQuestion = this.questions[this.selectedQuestionIndex];
     const parentLiEl = event.currentTarget.parentElement.parentElement;
 
     const choiceIndex =
       Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
-    if (selectedQuestion.id) {
-      this.updatedQuestions.add(selectedQuestion);
-    }
+    this.markUpdated(selectedQuestion);
 
     selectedQuestion.choices.splice(choiceIndex, 1);
     parentLiEl.parentElement.removeChild(parentLiEl);
