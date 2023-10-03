@@ -436,7 +436,78 @@ ${
 
 `;
     ulEl.appendChild(liEl);
+
+    if (this.isEditable) {
+      liEl
+        .querySelector(".fa-pen")
+        .addEventListener("click", (event) => this.editChoice(event));
+      liEl
+        .querySelector(".fa-trash-alt")
+        .addEventListener("on-confirmation", (event) =>
+          this.removeChoice(event)
+        );
+    }
+
     liEl.firstElementChild.children[1].innerHTML = choice.value;
     return liEl;
+  }
+
+  editChoice(event) {
+    const selectedQuestion = this.questions[this.selectedQuestionIndex];
+    const parentLiEl = event.currentTarget.parentElement.parentElement;
+
+    const choiceIndex =
+      Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
+
+    const label = parentLiEl.children[0].children[1];
+    const eOptions = event.currentTarget.parentElement;
+
+    const textToEdit = document.createElement("input");
+    textToEdit.classList.add("form-control");
+    textToEdit.classList.add("me-2");
+    textToEdit.value = label.innerHTML;
+
+    label.classList.add("d-none");
+    eOptions.classList.add("d-none");
+
+    parentLiEl.children[0].insertBefore(textToEdit, label);
+
+    textToEdit.focus();
+    textToEdit.select();
+
+    const afterSubmit = () => {
+      textToEdit.parentElement.removeChild(textToEdit);
+      if (textToEdit.value !== selectedQuestion.choices[choiceIndex].value) {
+        label.innerHTML = textToEdit.value;
+        selectedQuestion.choices[choiceIndex].value = textToEdit.value;
+        if (selectedQuestion.id) {
+          this.updatedQuestions.add(selectedQuestion);
+        }
+      }
+      label.classList.remove("d-none");
+      eOptions.classList.remove("d-none");
+    };
+
+    textToEdit.addEventListener("focusout", afterSubmit);
+
+    textToEdit.addEventListener("keydown", (event) => {
+      if (event.isComposing || event.key === "Enter") {
+        afterSubmit(event);
+      }
+    });
+  }
+
+  removeChoice(event) {
+    const selectedQuestion = this.questions[this.selectedQuestionIndex];
+    const parentLiEl = event.currentTarget.parentElement.parentElement;
+
+    const choiceIndex =
+      Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
+    if (selectedQuestion.id) {
+      this.updatedQuestions.add(selectedQuestion);
+    }
+
+    selectedQuestion.choices.splice(choiceIndex, 1);
+    parentLiEl.parentElement.removeChild(parentLiEl);
   }
 }
