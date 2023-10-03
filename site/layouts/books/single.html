@@ -6,8 +6,9 @@
       {{if .NextInSection}}<a href="{{strings.TrimRight "/" .NextInSection.Permalink}}">{{.NextInSection.Title}}</a>{{end}}
     </div>
     <div class="col-4 mb-2 text-center">
-      <a class="text-dark"
+      <a class="text-dark d-block"
         href="{{strings.TrimRight "/" .Parent.Permalink}}">{{.Parent.Title}}</a>
+        <h5>{{.Title}}</h5>
     </div>
     <div class="col-4 text-end">
       {{if .PrevInSection}}<a href="{{strings.TrimRight "/" .PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a>{{end}}
@@ -31,11 +32,8 @@
           </button>
 
           <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
-          <label class="btn btn-outline-primary float-end" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label><br>
-
-
-
-          <h3>{{ .Title }}</h3>
+          <label class="btn btn-outline-primary float-end d-none" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label><br>
+          
           {{- .Content -}}
       </div>
   </main>
