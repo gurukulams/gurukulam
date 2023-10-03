@@ -6,6 +6,7 @@ export default class QuestionScreen {
     this.selectedQuestionIndex = 0;
 
     this.deletedQuestionIds = [];
+    this.updatedQuestions = [];
 
     // Model Objects
     const urlTokens = window.location.pathname.split("/questions/");
@@ -134,6 +135,8 @@ export default class QuestionScreen {
   save() {
     console.log("Save");
     console.log(this.deletedQuestionIds);
+
+    console.log(this.updatedQuestions);
   }
 
   toggleEditor(event) {
@@ -207,13 +210,17 @@ export default class QuestionScreen {
   }
 
   previous() {
-    this.selectedQuestionIndex = this.selectedQuestionIndex - 1;
-    this.setCurrentQuestion();
+    if (this.getQuestion()) {
+      this.selectedQuestionIndex = this.selectedQuestionIndex - 1;
+      this.setCurrentQuestion();
+    }
   }
 
   next() {
-    this.selectedQuestionIndex = this.selectedQuestionIndex + 1;
-    this.setCurrentQuestion();
+    if (this.getQuestion()) {
+      this.selectedQuestionIndex = this.selectedQuestionIndex + 1;
+      this.setCurrentQuestion();
+    }
   }
 
   setCurrentQuestion() {
@@ -282,6 +289,40 @@ export default class QuestionScreen {
 
         break;
     }
+  }
+
+  getQuestion() {
+    if (this.isEditable) {
+      const selectedQuestion = this.questions[this.selectedQuestionIndex];
+      if (selectedQuestion && this.isValid()) {
+        let isChanged = false;
+        if (selectedQuestion.question !== this.questionEditor.value()) {
+          selectedQuestion.question = this.questionEditor.value();
+          isChanged = true;
+        }
+        if (selectedQuestion.explanation !== this.explanationEditor.value()) {
+          selectedQuestion.explanation = this.explanationEditor.value();
+          isChanged = true;
+        }
+        if (isChanged) {
+          this.updatedQuestions.push(selectedQuestion);
+        }
+        return true;
+      } else {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  isValid() {
+    let isVal = false;
+    if (this.questionEditor.value().trim() === "") {
+      window.error("Please Enter Question");
+    } else {
+      isVal = true;
+    }
+    return isVal;
   }
 
   setQuestion(selectedQuestion) {
