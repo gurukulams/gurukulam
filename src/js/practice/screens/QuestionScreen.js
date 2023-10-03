@@ -5,8 +5,8 @@ export default class QuestionScreen {
     this.questions = [];
     this.selectedQuestionIndex = 0;
 
-    this.deletedQuestionIds = [];
-    this.updatedQuestions = [];
+    this.deletedQuestionIds = new Set();
+    this.updatedQuestions = new Set();
 
     // Model Objects
     const urlTokens = window.location.pathname.split("/questions/");
@@ -133,10 +133,12 @@ export default class QuestionScreen {
   }
 
   save() {
-    console.log("Save");
-    console.log(this.deletedQuestionIds);
+    if (this.getQuestion()) {
+      console.log("Save");
+      console.log(this.deletedQuestionIds);
 
-    console.log(this.updatedQuestions);
+      console.log(this.updatedQuestions);
+    }
   }
 
   toggleEditor(event) {
@@ -197,7 +199,16 @@ export default class QuestionScreen {
 
   delete() {
     const indexTobeDeleted = this.selectedQuestionIndex;
-    this.deletedQuestionIds.push(this.questions[indexTobeDeleted].id);
+
+    const questionId = this.questions[indexTobeDeleted].id;
+
+    this.updatedQuestions.forEach((question) => {
+      if (question.id === questionId) {
+        this.updatedQuestions.delete(question);
+      }
+    });
+
+    this.deletedQuestionIds.add(questionId);
 
     // Last Element. Go to First
     if (indexTobeDeleted === this.questions.length - 1) {
@@ -304,8 +315,18 @@ export default class QuestionScreen {
           selectedQuestion.explanation = this.explanationEditor.value();
           isChanged = true;
         }
+
+        if (selectedQuestion.choices) {
+          selectedQuestion.choices.forEach((choice) => {
+            // There is New Choice
+            if (!choice.id) {
+              isChanged = true;
+            }
+          });
+        }
+
         if (isChanged) {
-          this.updatedQuestions.push(selectedQuestion);
+          this.updatedQuestions.add(selectedQuestion);
         }
         return true;
       } else {
@@ -367,6 +388,24 @@ export default class QuestionScreen {
     selectedQuestion.choices.forEach((choice) => {
       this.setChoice(isSingle, choice);
     });
+
+    if (this.isEditable) {
+      this.answerContainer
+        .querySelector(".form-control")
+        .addEventListener("keyup", (event) => {
+          if (event.keyCode === 13) {
+            event.preventDefault();
+            if (event.currentTarget.value !== "") {
+              const choice = {
+                value: event.currentTarget.value,
+              };
+              selectedQuestion.choices.push(choice);
+              event.currentTarget.value = "";
+              this.setChoice(isSingle, choice);
+            }
+          }
+        });
+    }
   }
 
   setChoice(isSingle, choice) {
