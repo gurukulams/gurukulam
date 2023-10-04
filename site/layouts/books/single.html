@@ -33,6 +33,25 @@
 
           <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
           <label class="btn btn-outline-primary float-end d-none" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label><br>
+
+          {{ $current_link := "Hugo Page" }}
+      {{ $course_link := "Hugo Page" }}
+
+      {{ $current_link = strings.TrimRight "/" .Permalink }}
+
+        {{ $course_link = replace $current_link "/books" "courses/books" }}
+
+        {{ $course_link := print $course_link ".htm"}}
+
+        {{if os.FileExists $course_link }}
+         <a class="btn btn-outline-primary float-end" href="{{replace $current_link "/books" "/courses/books"}}">
+            <i class="fas fa-chalkboard-teacher" title="chalkboardTeaching"></i>
+        </a>
+        {{end}}
+
+        {{ if ne .Parent.Title "Books"}}
+        {{ partial "practice-link.html" . }}
+        {{end}} 
           
           {{- .Content -}}
       </div>
