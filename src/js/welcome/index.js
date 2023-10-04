@@ -47,6 +47,8 @@ class Welcome {
   }
 
   register(registrationToken, profile_pic) {
+    this.errorPane = document.querySelector(".text-danger");
+
     document.body.querySelector("img").src = profile_pic;
     document.querySelector("main").classList.remove("d-none");
     document.querySelector("#name").focus();
@@ -54,7 +56,7 @@ class Welcome {
     document.querySelector("form").addEventListener("submit", (event) => {
       event.token = registrationToken;
       event.preventDefault();
-
+      this.errorPane.classList.add("d-none");
       let regRequest = {
         name: document.querySelector("#name").value,
         aadhar: document.querySelector("#aadhar").value,
@@ -71,19 +73,25 @@ class Welcome {
       })
         .then((response) => {
           if (!response.ok) {
-            throw Error(response.statusText);
+            this.showError("Unable to register. Please contact admin");
+          } else {
+            return response.json();
           }
-          return response.json();
         })
         .then((auth_response) => {
           auth_response.expiresIn = Date.now() + auth_response.expiresIn;
           sessionStorage.auth = JSON.stringify(auth_response);
           this.reload();
         })
-        .catch((err) => {
-          console.error(err);
+        .catch(() => {
+          this.showError("Unable to register. Please contact admin");
         });
     });
+  }
+
+  showError(errorTxt) {
+    this.errorPane.classList.remove("d-none");
+    this.errorPane.innerHTML = errorTxt;
   }
 }
 
