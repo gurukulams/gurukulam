@@ -68,18 +68,6 @@ export default [{
   }
 },
 {
-  input: 'src/js/chat/index.js',
-  plugins: [
-    eslint({
-      /* your options */
-    })
-  ],
-  output: {
-    file: 'dist/js/chat.js',
-    format: 'cjs'
-  }
-},
-{
   input: 'src/js/search/index.js',
   plugins: [
     eslint({
