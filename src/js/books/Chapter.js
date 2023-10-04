@@ -4,7 +4,7 @@ class Chapter {
   constructor(_parent) {
     this.parent = _parent;
 
-    if (sessionStorage.auth) {
+    if (sessionStorage.auth && document.querySelector(".fa-pencil")) {
       document
         .querySelector(".fa-pencil")
         .parentElement.classList.remove("d-none");

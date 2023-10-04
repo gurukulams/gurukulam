@@ -6,12 +6,10 @@
     
  
     <div class="text-end mb-3 d-none secured">
-
+      {{if .Content }}
       <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
-      <label class="btn btn-outline-primary d-none" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label>
-
-      
-    
+      <label class="btn btn-outline-primary d-none" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label>   
+      {{end}} 
       {{ $current_link := "Hugo Page" }}
       {{ $course_link := "Hugo Page" }}
 

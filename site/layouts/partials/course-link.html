@@ -1,0 +1,14 @@
+{{ $current_link := "Hugo Page" }}
+{{ $course_link := "Hugo Page" }}
+
+{{ $current_link = strings.TrimRight "/" .Permalink }}
+
+{{ $course_link = replace $current_link "/books" "courses/books" }}
+
+{{ $course_link := print $course_link ".htm"}}
+
+{{if os.FileExists $course_link }}
+<a href="{{replace $current_link "/books" "/courses/books"}}" class="btn float-end" role="button">
+<i class="fas fa-chalkboard-teacher" title="chalkboardTeaching"></i>
+</a>
+{{end}}
