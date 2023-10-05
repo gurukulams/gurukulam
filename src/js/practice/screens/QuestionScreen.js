@@ -110,13 +110,13 @@ export default class QuestionScreen {
     document
       .querySelector(".add-btns")
       .childNodes.forEach((element) =>
-        element.addEventListener("click", () => this.createQuestion(event))
+        element.addEventListener("click", (event) => this.createQuestion(event))
       );
 
     document
       .querySelector("i.fa-pencil")
-      .parentElement.addEventListener("click", (event) => {
-        this.toggleEditor(event);
+      .parentElement.addEventListener("click", () => {
+        this.toggleEditor();
       });
 
     document
@@ -208,8 +208,6 @@ export default class QuestionScreen {
         if (response.ok) {
           if (response.status === 204) {
             this.questions = [];
-            this.renderQuestions(this);
-            throw Error("Empty Content 3");
           }
           return response.json();
         } else {
@@ -226,15 +224,17 @@ export default class QuestionScreen {
       });
   }
 
-  toggleEditor(event) {
+  toggleEditor(intial = false) {
     this.isEditable = !this.isEditable;
 
-    this.setCurrentQuestion();
+    if (!intial) {
+      this.setCurrentQuestion();
+    }
 
     this.questionEditor.togglePreview();
     this.explanationEditor.togglePreview();
 
-    const icon = event.currentTarget.firstChild;
+    const icon = document.getElementById("toggleViewBtn").firstChild;
     const saveBtn = document.querySelector(".fa-floppy-disk").parentElement;
     const addBtn = document.querySelector(".fa-plus").parentElement;
     const deleteBtn = document.querySelector(".fa-trash-alt").parentElement;
@@ -321,6 +321,19 @@ export default class QuestionScreen {
 
   setCurrentQuestion() {
     if (this.questions[this.selectedQuestionIndex]) {
+      document.getElementById("questionPane").classList.remove("d-none");
+      document.getElementById("emptyPane").classList.add("d-none");
+      document.getElementById("navPane").classList.remove("invisible");
+
+      document
+        .getElementById("actionsPane")
+        .querySelectorAll("i")
+        .forEach((element) => {
+          if (!element.classList.contains("fa-plus")) {
+            element.classList.remove("d-none");
+          }
+        });
+
       this.setQuestion(this.questions[this.selectedQuestionIndex]);
 
       if (this.selectedQuestionIndex === this.questions.length - 1) {
@@ -335,9 +348,21 @@ export default class QuestionScreen {
         this.previousBtn.parentElement.classList.remove("disabled");
       }
     } else {
-      document.getElementById(
-        "questionPane"
-      ).innerHTML = `<p class="lead">There are no questions. But you can create one</p>`;
+      document.getElementById("questionPane").classList.add("d-none");
+      document.getElementById("emptyPane").classList.remove("d-none");
+
+      document.getElementById("navPane").classList.add("invisible");
+
+      document
+        .getElementById("actionsPane")
+        .querySelectorAll("i")
+        .forEach((element) => {
+          if (!element.classList.contains("fa-plus")) {
+            element.classList.add("d-none");
+          }
+        });
+
+      this.toggleEditor(true);
     }
   }
 
