@@ -11,7 +11,13 @@ export default class QuestionScreen {
 
     // Model Objects
     const urlTokens = window.location.pathname.split("/questions/");
+
+    if (!urlTokens[1] || urlTokens[1].trim() === "") {
+      window.location.href = "/";
+    }
+
     this.chaptorPath = urlTokens[1];
+
     this.questionsUrl = "/api/questions/" + this.chaptorPath;
 
     this.setupLanguage(urlTokens);
