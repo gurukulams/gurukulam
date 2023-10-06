@@ -10,26 +10,14 @@
       <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
       <label class="btn btn-outline-primary d-none" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label>   
       {{end}} 
-      {{ $current_link := "Hugo Page" }}
-      {{ $course_link := "Hugo Page" }}
-
-      {{ $current_link = strings.TrimRight "/" .Permalink }}
-
-        {{ $course_link = replace $current_link "/books" "courses/books" }}
-
-        {{ $course_link := print $course_link ".htm"}}
-
-        {{if os.FileExists $course_link }}
-         <a class="btn" href="{{replace $current_link "/books" "/courses/books"}}">
-            <i class="fas fa-chalkboard-teacher" title="chalkboardTeaching"></i>
-        </a>
-        {{end}}
+      
 
         {{ if ne .Parent.Title "Books"}}
         {{ partial "practice-link.html" . }}
         {{end}} 
         
-
+        {{ partial "course-link.html" . }}
+        
     <!-- toggler -->
       <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos" role="button">
         <i class="fa-solid fa-photo-film" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos"></i>
