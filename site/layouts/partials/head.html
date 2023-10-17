@@ -48,3 +48,11 @@
     {{ if in .Params.extensions "jsxgraph" }}
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" />
     {{ end }}   
+
+
+  <!-- Type Sepcific Head-->
+
+    {{ if templates.Exists ( printf "partials/head-%s.html" .Type ) }}
+    {{ $partialPath := printf "head-%s" .Type }}
+    {{ partial $partialPath . }}
+    {{ end }}

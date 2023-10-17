@@ -124,3 +124,10 @@
 <script type="text/javascript" src="/js/login.js"></script>
 {{ end }}
 <script type="text/javascript" src="/js/app.js"></script>
+
+
+<!-- Load Type Specific Scrpts-->
+{{ if templates.Exists ( printf "partials/scripts-%s.html" .Type ) }}
+{{ $partialPath := printf "scripts-%s" .Type }}
+{{ partial $partialPath . }}
+{{ end }}
