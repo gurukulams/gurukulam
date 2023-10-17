@@ -28,22 +28,9 @@
     />
     <link rel="manifest" href="/images/site.webmanifest" />
 
-    <!-- Stop SEO Indexing https://blog.hubspot.com/marketing/how-to-unindex-pages-from-search-engines-->
-    <META NAME="robots" CONTENT="noindex,nofollow">
 
 
-    <!-- Multi lingual SEO https://weglot.com/4-key-seo-tips-multilingual-website/-->
-    {{ if .IsTranslated }}
-
-      {{ range .Translations }}
-
-      <!-- <link rel=”alternate” hreflang=”{{ .Lang }}” href=”http://www.gurukulams.com{{ .Permalink }}” /> -->
-      
-      {{ end }}
-
-    {{ end }}
-
-    {{ template "_internal/opengraph.html" . }}
+    {{ block "seo" . }}{{ partial "seo" . }}{{end}}
 
     <!-- Required meta tags -->
     <meta charset="utf-8" />
