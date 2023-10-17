@@ -1,17 +1,10 @@
 ---
 title: 'Tamil Nadu Textbooks'
 description: 'Text Books for Tamilnadu Stateboard students'
-thumbnail: 'https://www.oneindia.com/ph-big/2021/10/tn-cm-mk-stalin-surprise-visit-to-government-school-students-hostel_163306361650.jpg'
-tags: ["t1"]
-weight: 1
+weight: 2
 ---
 
-The objective of this Corporation is to make available quality textbooks to all who are in need of them, in time
+TNEBooks is on a mission to provide top-notch study materials to Tamil Nadu government school students, irrespective of their socio-economic backgrounds. Our dedicated community of volunteers passionately believes in the right to education for all.
 
-Under Article III of the Memorandum of Association the following are some of the objects for which the Society has been established:
-
-- To publish, print, sell, supply or otherwise deal in text and other books and exercise and copy books and literature on all subjects in all language for all Educational Institutions
-- To carry on business as publishers, printers, sellers and distributors in all its branches and of all kinds and types of literary, scientific, technical, artistic and other books and publications.
-
-Textbook Corporation is continuously endeavoring to supply Quality Textbooks at affordable prices to the school students of Tamil Nadu in time. Continuous efforts are being taken to upgrade the quality of Textbooks. 
+We are committed to eliminating the digital divide in education. Through collaborative efforts, we create comprehensive study materials aligned with Tamil Nadu's curriculum. Our aim is to empower every child, ensuring equal access to quality education. Additionally, we provide resources that enable students to prepare confidently for competitive exams like NEET, JEE, and more.
 
