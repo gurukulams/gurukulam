@@ -1,5 +1,5 @@
 ---
-title: 'Tamil Literature'
+title: 'Tamil Sangam'
 description: 'Assemblies of Tamil scholars and poets'
 weight: 3
 ---
