@@ -9,6 +9,16 @@ on:
     secrets:
       token:
         required: true
+      HOST:
+        required: true
+      USERNAME:
+        required: true
+      PASSWORD:
+        required: true
+      TARGET_DIR:
+        required: true
+      QUESTIONS_DIR:
+        required: true
 
 jobs:
   build:
