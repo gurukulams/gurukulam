@@ -7,4 +7,9 @@ books:
     fields:
       title: Java Programming
       description: Java Programming Notes.
+  - path: cybersecurity
+    fields:
+      title: CyberSecurity
+      description: CyberSecurity Notes.
+  
 

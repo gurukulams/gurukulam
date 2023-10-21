@@ -7,3 +7,7 @@ books:
     fields:
       title: ஜாவா நிரலாக்கம்
       description: ஜாவா நிரலாக்க குறிப்புகள்.
+  - path: cybersecurity
+    fields:
+      title: இணைய பாதுகாப்பு
+      description: இணைய பாதுகாப்பு குறிப்புகள்.
