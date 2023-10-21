@@ -31,4 +31,10 @@ books:
     fields:
       title: Data Structure And Algorithms
       description: Data Structure And Algorithms Notes.
+  - path: artificial-intelligence
+    fields:
+      title: Artificial Intelligence
+      description: Artificial Intelligence Notes.
+
+
   

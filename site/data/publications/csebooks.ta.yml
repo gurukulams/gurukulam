@@ -15,6 +15,10 @@ books:
     fields:
       title: இணைய அத்தியாவசியங்கள்
       description: இணைய அத்தியாவசியங்கள் குறிப்புகள்.
+  - path: artificial-intelligence
+    fields:
+      title: செயற்கை அறிவு
+      description: செயற்கை அறிவு குறிப்புகள்.
   - path: relational-databases
     fields:
       title: தொடர்புடைய தரவுத்தளங்கள்
