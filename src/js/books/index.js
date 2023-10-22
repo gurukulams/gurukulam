@@ -1,3 +1,10 @@
-import Chapter from "./Chapter";
+import TextNotes from "./TextNotes";
+import ImageNotes from "./ImageNotes";
 
-new Chapter(document.getElementById("content"));
+if (sessionStorage.auth) {
+  const contentEl = document.getElementById("content");
+
+  new TextNotes(contentEl);
+
+  new ImageNotes(contentEl);
+}

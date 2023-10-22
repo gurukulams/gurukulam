@@ -1,10 +1,10 @@
 import { Recogito } from "@recogito/recogito-js";
 
-class Chapter {
+class TextNotes {
   constructor(_parent) {
     this.parent = _parent;
 
-    if (sessionStorage.auth && document.querySelector(".fa-pencil")) {
+    if (document.querySelector(".fa-pencil")) {
       document
         .querySelector(".fa-pencil")
         .parentElement.classList.remove("d-none");
@@ -17,12 +17,6 @@ class Chapter {
       document.querySelectorAll("table").forEach((table) => {
         table.classList.add("table");
       });
-
-      // eslint-disable-next-line no-undef
-      this.imageModel = new bootstrap.Modal(
-        document.getElementById("imageModel"),
-        {}
-      );
 
       // eslint-disable-next-line no-undef
       this.recognito = new Recogito({ content: "content", readOnly: true });
@@ -53,12 +47,6 @@ class Chapter {
       });
 
       this.loadNotes();
-
-      document.querySelectorAll("figure>img").forEach((image) => {
-        image.addEventListener("dblclick", (event) => {
-          this.showImage(event);
-        });
-      });
     }
   }
 
@@ -87,19 +75,9 @@ class Chapter {
       .then((response) => response.json())
       .then((notes) => {
         console.log(notes);
-        this.recognito.setAnnotations(notes.map((t) => t.value));
+        this.recognito.setAnnotations(notes.map((t) => JSON.parse(t.value)));
       });
-  }
-
-  showImage(event) {
-    document.getElementById("imageModel").querySelector("img").src =
-      event.currentTarget.src;
-
-    document.getElementById("imageModel").querySelector("h5").innerHTML =
-      event.currentTarget.parentElement.querySelector("figcaption").innerHTML;
-
-    this.imageModel.show();
   }
 }
 
-export default Chapter;
+export default TextNotes;
