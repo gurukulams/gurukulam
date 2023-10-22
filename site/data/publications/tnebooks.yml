@@ -35,7 +35,3 @@ books:
     fields:
       title: 12th MicroBiology Book
       description: MicroBiology text book for 12th standard students of tamilnadu stateboard.
-  - path: 12th-biochemistry
-    fields:
-      title: 12th Biochemistry Book
-      description: Biochemistry text book for 12th standard students of tamilnadu stateboard.
