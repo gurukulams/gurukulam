@@ -1,7 +1,16 @@
-class ImageNotes {
-  constructor(_parent) {
-    this.parent = _parent;
+import CoreNotes from "./CoreNotes";
 
+class ImageNotes extends CoreNotes {
+  constructor(_parent) {
+    // eslint-disable-next-line no-undef
+    super(
+      _parent,
+      Annotorious.init({
+        image: document.getElementById("imageModel").querySelector("img"),
+        readOnly: true,
+      }),
+      document.getElementById("btn-check-notes")
+    );
     // eslint-disable-next-line no-undef
     this.imageModel = new bootstrap.Modal(
       document.getElementById("imageModel"),
@@ -9,10 +18,6 @@ class ImageNotes {
     );
 
     this.imgEl = document.getElementById("imageModel").querySelector("img");
-
-    // eslint-disable-next-line no-undef
-    var anno = Annotorious.init({ image: this.imgEl });
-
     this.figureEl = document
       .getElementById("imageModel")
       .querySelector("figure");
