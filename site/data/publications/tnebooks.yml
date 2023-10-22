@@ -10,8 +10,8 @@ books:
       description: Social Science text book for 10th standard students of tamilnadu stateboard.
   - path: 11th-physics
     fields:
-      title: 12th Physics Book
-      description: Physics text book for 12th standard students of tamilnadu stateboard.
+      title: 11th Physics Book
+      description: Physics text book for 11th standard students of tamilnadu stateboard.
   - path: 11th-botany
     fields:
       title: 11th Botany Book
