@@ -3,7 +3,6 @@ books:
     fields:
       title: 10th Science
       description: Science text book for 10th standard students of tamilnadu stateboard.
-
   - path: 10th-social-science
     fields:
       title: 10th Social Science
@@ -28,3 +27,15 @@ books:
     fields:
       title: 12th Zoology Book
       description: Zoology text book for 12th standard students of tamilnadu stateboard.
+  - path: 12th-chemistry
+    fields:
+      title: 12th Chemistry Book
+      description: Chemistry text book for 12th standard students of tamilnadu stateboard.
+  - path: 12th-microbiology
+    fields:
+      title: 12th MicroBiology Book
+      description: MicroBiology text book for 12th standard students of tamilnadu stateboard.
+  - path: 12th-biochemistry
+    fields:
+      title: 12th Biochemistry Book
+      description: Biochemistry text book for 12th standard students of tamilnadu stateboard.
