@@ -15,10 +15,6 @@ books:
     fields:
       title: 11th MicroBiology Book
       description: MicroBiology text book for 11th standard students of tamilnadu stateboard.
-  - path: 11th-chemistry
-    fields:
-      title: 11th Chemistry Book
-      description: Chemistry text book for 11th standard students of tamilnadu stateboard.
   - path: 12th-physics
     fields:
       title: 12th Physics Book
