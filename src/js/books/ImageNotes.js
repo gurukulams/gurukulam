@@ -9,6 +9,10 @@ class ImageNotes {
     );
 
     this.imgEl = document.getElementById("imageModel").querySelector("img");
+
+    // eslint-disable-next-line no-undef
+    var anno = Annotorious.init({ image: this.imgEl });
+
     this.figureEl = document
       .getElementById("imageModel")
       .querySelector("figure");
