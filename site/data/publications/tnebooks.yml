@@ -1,12 +1,4 @@
 books:
-  - path: 10th-science
-    fields:
-      title: 10th Science
-      description: Science text book for 10th standard students of tamilnadu stateboard.
-  - path: 10th-social-science
-    fields:
-      title: 10th Social Science
-      description: Social Science text book for 10th standard students of tamilnadu stateboard.
   - path: 11th-physics
     fields:
       title: 11th Physics Book
