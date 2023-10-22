@@ -30,7 +30,13 @@ class ImageNotes {
     this.imgEl.classList.add("d-none");
     this.figureEl.classList.remove("d-none");
 
-    this.figureEl.innerHTML = event.currentTarget.parentElement.innerHTML;
+    document.getElementById("imageModel").querySelector("h5").innerHTML =
+      event.currentTarget.parentElement.parentElement.querySelector(
+        "figcaption"
+      ).innerHTML;
+
+    this.figureEl.childNodes[0].innerHTML =
+      event.currentTarget.parentElement.innerHTML;
 
     this.imageModel.show();
   }
