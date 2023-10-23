@@ -1,10 +1,6 @@
 ---
 title: 'Tom'
-
-thumbnail: 'https://cdn.s3waas.gov.in/s3f5f8590cd58a54e94377e6ae2eded4d9/uploads/bfi_thumb/2018062832-olwdoms8jrr8mi0xhbr9vgklmr9cqq10lif04ie9k0.jpg'
-
-tags: ["t1"]
+weight: 1
 ---
 
-Tom da
-
+Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.
