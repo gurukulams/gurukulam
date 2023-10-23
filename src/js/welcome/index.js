@@ -13,7 +13,8 @@ class Welcome {
         .then((response) => response.json())
         .then((auth_response) => {
           if (auth_response.authToken) {
-            auth_response.authToken = params.get("token");
+            // Why day ? Why ?
+            // auth_response.authToken = params.get("token");
             auth_response.expiresIn = Date.now() + auth_response.expiresIn;
             sessionStorage.auth = JSON.stringify(auth_response);
             this.reload();
