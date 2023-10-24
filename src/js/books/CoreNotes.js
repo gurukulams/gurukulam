@@ -41,8 +41,7 @@ class CoreNotes {
     })
       .then((response) => response.json())
       .then((notes) => {
-        console.log(notes);
-        this.annobase.setAnnotations(notes.map((t) => JSON.parse(t.value)));
+        this.annobase.setAnnotations(notes.map((t) => t.value));
       });
   }
 }
