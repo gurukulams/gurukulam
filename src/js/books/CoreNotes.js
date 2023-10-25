@@ -22,7 +22,7 @@ class CoreNotes {
     // {"text":" referred to as asexual reproducti","onSection":"/12th-botany/botany/reproduction/asexual_reproduction","note":"hello"}
     const note = {};
 
-    note.value = annotation;
+    note.note = annotation;
 
     fetch("/api/annotations" + this.path, {
       method: "POST",
@@ -41,7 +41,7 @@ class CoreNotes {
     })
       .then((response) => response.json())
       .then((notes) => {
-        this.annobase.setAnnotations(notes.map((t) => t.value));
+        this.annobase.setAnnotations(notes.map((t) => t.note));
       });
   }
 }
