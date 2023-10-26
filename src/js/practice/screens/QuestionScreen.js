@@ -557,6 +557,20 @@ ${
 
     if (this.isEditable) {
       liEl
+        .querySelector("input.form-check-input")
+        .addEventListener("change", (event) => {
+          if (isSingle) {
+            const selectedQuestion = this.questions[this.selectedQuestionIndex];
+            if (selectedQuestion.choices) {
+              selectedQuestion.choices.forEach((choice) => {
+                delete choice.answer;
+              });
+            }
+          }
+          choice.answer = event.currentTarget.checked;
+        });
+
+      liEl
         .querySelector(".fa-pen")
         .addEventListener("click", (event) => this.editChoice(event));
       liEl
