@@ -4,6 +4,8 @@ languageLang = "en"
 title = "Gurukulams School"
 defaultContentLanguage = "en"
 
+googleAnalytics = "G-PQ5VGSBFCH"
+
 [security]
 enableInlineShortcodes = true
 [security.funcs]
