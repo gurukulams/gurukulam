@@ -13,10 +13,20 @@ class CoreNotes {
     this.annobase.on("createAnnotation", (annotation) =>
       this.saveAnnotaion(annotation)
     );
+    this.annobase.on("deleteAnnotation", (annotation) =>
+      this.deleteNote(annotation)
+    );
     // recognito.setAnnotations(data);
     // eslint-disable-next-line no-undef
   }
-
+  deleteNote(annotation) {
+    let id = annotation.id;
+    let ontype = this.path.split("/")[1];
+    fetch("/api/annotations/" + ontype + "/" + id, {
+      method: "DELETE",
+      headers: window.ApplicationHeader(),
+    }).then(console.log);
+  }
   saveAnnotaion(annotation) {
     console.log(annotation);
     // {"text":" referred to as asexual reproducti","onSection":"/12th-botany/botany/reproduction/asexual_reproduction","note":"hello"}
@@ -41,7 +51,9 @@ class CoreNotes {
     })
       .then((response) => response.json())
       .then((notes) => {
-        this.annobase.setAnnotations(notes.map((t) => t.note));
+        this.annobase.setAnnotations(
+          notes.map((t) => ({ ...t.note, id: t.id }))
+        );
       });
   }
 }

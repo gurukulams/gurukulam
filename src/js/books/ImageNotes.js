@@ -11,6 +11,7 @@ class ImageNotes extends CoreNotes {
       }),
       document.getElementById("btn-check-notes")
     );
+
     // eslint-disable-next-line no-undef
     this.imageModel = new bootstrap.Modal(
       document.getElementById("imageModel"),
@@ -57,7 +58,8 @@ class ImageNotes extends CoreNotes {
 
     document.getElementById("imageModel").querySelector("h5").innerHTML =
       event.currentTarget.parentElement.querySelector("figcaption").innerHTML;
-
+    this.path = "/" + this.imgEl.src.split("/").slice(3).join("/");
+    this.loadNotes();
     this.imageModel.show();
   }
 }
