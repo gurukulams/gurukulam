@@ -60,7 +60,6 @@ class Welcome {
       this.errorPane.classList.add("d-none");
       let regRequest = {
         name: document.querySelector("#name").value,
-        aadhar: document.querySelector("#aadhar").value,
         dob: document.querySelector("#dob").value,
       };
 
