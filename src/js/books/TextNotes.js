@@ -18,6 +18,13 @@ class TextNotes extends CoreNotes {
         const temp = modeIcon2.className;
         modeIcon2.className = modeIcon1.className;
         modeIcon1.className = temp;
+
+        const annotationMode = modeIcon1.classList.contains("fa-pencil")
+          ? "ANNOTATION"
+          : "RELATIONS";
+
+        console.log("Annotation mode is " + annotationMode);
+        this.annobase.setMode(annotationMode);
       });
 
     this.path = window.location.pathname.trim();
