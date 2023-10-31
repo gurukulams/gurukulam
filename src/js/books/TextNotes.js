@@ -9,18 +9,15 @@ class TextNotes extends CoreNotes {
       document.getElementById("btn-check-outlined")
     );
 
-    const modeIcon = document.querySelector(".fa-pencil");
-
-    document
-      .querySelector(".fa-pencil")
-      .parentElement.classList.remove("d-none");
+    const modeIcon1 = document.querySelector(".fa-pencil");
+    const modeIcon2 = document.querySelector(".fa-bezier-curve");
 
     document
       .querySelector(".fa-bezier-curve")
-      .addEventListener("click", (event) => {
-        const temp = event.currentTarget.className;
-        event.currentTarget.className = modeIcon.className;
-        modeIcon.className = temp;
+      .parentElement.addEventListener("click", () => {
+        const temp = modeIcon2.className;
+        modeIcon2.className = modeIcon1.className;
+        modeIcon1.className = temp;
       });
 
     this.path = window.location.pathname.trim();
