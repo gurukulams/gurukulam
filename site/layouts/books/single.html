@@ -20,37 +20,11 @@
 
 
 <div class="container-fluid">
+
+  {{ partial "books-options.html" . }}
+  
   <main id="content" class="row">
       <div class="col min-vh-100">
-          <!-- toggler -->
-          <button class="btn float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos" role="button">
-            <i class="fa-solid fa-photo-film" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos"></i>
-          </button>
-
-          <button class="btn float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links" role="button">
-            <i class="fa-solid fa-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links"></i>
-          </button>
-
-          
-          {{ if ne .Parent.Title "Books"}}
-          {{ partial "practice-link.html" . }}
-          {{end}} 
-  
-          {{ partial "course-link.html" . }}
-
-          <div class="btn-group float-end">
-            <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
-            <label class="btn btn-outline-primary d-none" for="btn-check-outlined"><i class="fa-solid fa-pencil"></i></label><br>
-
-            <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-              <span class="visually-hidden">Toggle Dropdown</span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="javascript://"><i class="fa-solid fa-bezier-curve"></i></a></li>
-            </ul>
-          </div>
-          
-          
           {{- .Content -}}
       </div>
   </main>
