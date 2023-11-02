@@ -3,6 +3,7 @@ class CoreNotes {
     this.parent = _parent;
 
     this.annobase = _annobase;
+    this.checkbox = _checkbox;
 
     _checkbox.addEventListener("change", (event) => {
       this.annobase.readOnly = !event.currentTarget.checked;
@@ -28,8 +29,6 @@ class CoreNotes {
     }).then(console.log);
   }
   saveAnnotaion(annotation) {
-    console.log(annotation);
-    // {"text":" referred to as asexual reproducti","onSection":"/12th-botany/botany/reproduction/asexual_reproduction","note":"hello"}
     const note = {};
 
     note.note = annotation;

@@ -25,6 +25,8 @@ class TextNotes extends CoreNotes {
 
         console.log("Annotation mode is " + annotationMode);
         this.annobase.setMode(annotationMode);
+
+        this.checkbox.checked = true;
       });
 
     this.path = window.location.pathname.trim();
