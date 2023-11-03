@@ -1,14 +1,12 @@
-{{ $current_link := "Hugo Page" }}
-{{ $course_link := "Hugo Page" }}
+{{ $slide_link := "" }}
 
-{{ $current_link = strings.TrimRight "/" .Permalink }}
+{{ $slide_link = replace .File.Path ".md" ".htm"}}
+{{ $slide_link := print "courses/" $slide_link }}
 
-{{ $course_link = replace $current_link "/books" "courses/books" }}
-
-{{ $course_link := print $course_link ".htm"}}
-
-{{if os.FileExists $course_link }}
-<a href="{{replace $current_link "/books" "/courses/books"}}" class="btn float-end" role="button">
-<i class="fas fa-chalkboard-teacher" title="chalkboardTeaching"></i>
-</a>
+{{if os.FileExists $slide_link }}
+    {{ $current_link := "" }}
+    {{ $current_link = strings.TrimRight "/" .Permalink }}
+    <a href="{{replace $current_link "/books" "/courses/books"}}" class="btn float-end" role="button">
+        <i class="fas fa-chalkboard-teacher" title="chalkboardTeaching"></i>
+    </a>
 {{end}}
