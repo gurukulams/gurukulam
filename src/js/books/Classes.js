@@ -112,7 +112,7 @@ class Classes {
               <small class="card-link"><i class="fa-regular fa-calendar"></i> ${new Date(
                 event.eventDate
               ).toDateString()}</small>
-              <a href="#" class="card-link float-end">&#8377; 10</a>
+              <a href="javascript://" class="btn btn-success rounded-pill float-end">&#8377; 10</a>
             </div>
           `;
           this.eventsView.appendChild(liElement);
@@ -121,6 +121,13 @@ class Classes {
             .querySelector(".card-title")
             .addEventListener("click", () => {
               this.openEvent(event);
+            });
+
+          liElement
+            .querySelector(".rounded-pill")
+            .addEventListener("click", () => {
+              liElement.classList.add("w-100");
+              liElement.classList.add("h-100");
             });
         });
       });
