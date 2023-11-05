@@ -1,9 +1,15 @@
+import QRious from "qrious";
 class Classes {
   constructor(_parent) {
     this.parent = _parent;
     this.chaptersPath = document.querySelector(
       "i.fa-chalkboard-user"
     ).parentElement.dataset.path;
+
+    const myOffcanvas = document.getElementById("offcanvas-classes");
+    myOffcanvas.addEventListener("hidden.bs.offcanvas", (event) => {
+      this.showEvents();
+    });
 
     const classesPane = document.getElementById("offcanvas-classes");
     this.editForm = classesPane.querySelector("#event-form");
@@ -72,6 +78,11 @@ class Classes {
     }
   }
 
+  showEvents() {
+    this.eventsView.classList.remove("d-none");
+    this.editForm.classList.add("d-none");
+  }
+
   deleteEvent() {
     if (this.event.id) {
       fetch("/api/events/" + this.event.id, {
@@ -126,14 +137,41 @@ class Classes {
           liElement
             .querySelector(".rounded-pill")
             .addEventListener("click", () => {
-              liElement.classList.add("w-100");
-              liElement.classList.add("h-100");
+              const ulEl = liElement.parentElement;
+              ulEl.classList.add("d-none");
+
+              const buyEvent = document.createElement("div");
+              buyEvent.classList.add("card");
+
+              buyEvent.innerHTML = `
+              <div class="card">
+                <div class="card-header">
+                  <span class="h6">${event.title}</span>
+                  <a href="javascript://" class="btn btn-secondary float-end">Cancel</a>
+                </div>
+                <div class="card-body">
+                  <canvas id="qr" class="w-100"></canvas>
+                  <p class="card-text lead">${event.description}</p>
+                </div>
+              </div>`;
+              ulEl.parentElement.appendChild(buyEvent);
+
+              var qr = new QRious({
+                element: buyEvent.querySelector("#qr"),
+                value: "https://github.com/neocotic/qrious",
+              });
+
+              buyEvent
+                .querySelector(".btn-secondary")
+                .addEventListener("click", () => {
+                  ulEl.parentElement.removeChild(buyEvent);
+                  ulEl.classList.remove("d-none");
+                });
             });
         });
       });
 
-    this.eventsView.classList.remove("d-none");
-    this.editForm.classList.add("d-none");
+    this.showEvents();
   }
 }
 
