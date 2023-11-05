@@ -8,17 +8,26 @@ layout: fullpage
       <img class="mb-4" src="#" alt="" width="72" height="57">
       <h1 class="h3 mb-3 fw-normal">Welcome to Gurukulams</h1>
 
-      <label class="text-danger d-none">Errord</label>
+      <label class="text-danger d-none">Error</label>
 
       <div class="form-floating">
-        <input  class="form-control" id="name" placeholder="" required title="Please enter valid name">
+        <input  class="form-control" id="name" placeholder="" required
+        pattern="([a-zA-Z]+\s)*[a-zA-Z]+$"
+        title="Username should only contain letters. e.g. john">
         <label for="name">Name</label>
       </div>
       <div class="form-floating">
         <input  class="form-control" id="dob" type="date"  placeholder="" required>
         <label for="dob">Date Of Birth</label>
       </div>
-      <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
+
+      <div class="col-12 py-4">
+        <img src="/images/upi-icon.svg" class="float-start" style="width: 100px;" alt="UPI" >
+        <button class="btn btn-primary float-end mt-2" type="submit">&#8377; 100 | Register</button>
+      </div>
+    
+
+      
 
     </form>
   </main>

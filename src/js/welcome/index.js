@@ -63,30 +63,55 @@ class Welcome {
         dob: document.querySelector("#dob").value,
       };
 
-      fetch("/api/auth/register", {
-        method: "POST",
-        headers: {
-          "content-type": "application/json",
-          Authorization: "Bearer " + event.token,
-        },
-        body: JSON.stringify(regRequest),
-      })
-        .then((response) => {
-          if (!response.ok) {
+      if (this.getAge(regRequest.dob) < 12) {
+        this.showError("Please Enter valid Date of Birth");
+      } else {
+        fetch("/api/auth/register", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+            Authorization: "Bearer " + event.token,
+          },
+          body: JSON.stringify(regRequest),
+        })
+          .then((response) => {
+            if (!response.ok) {
+              this.showError("Unable to register. Please contact admin");
+            } else {
+              return response.json();
+            }
+          })
+          .then((auth_response) => {
+            auth_response.expiresIn = Date.now() + auth_response.expiresIn;
+            sessionStorage.auth = JSON.stringify(auth_response);
+            this.reload();
+          })
+          .catch(() => {
             this.showError("Unable to register. Please contact admin");
-          } else {
-            return response.json();
-          }
-        })
-        .then((auth_response) => {
-          auth_response.expiresIn = Date.now() + auth_response.expiresIn;
-          sessionStorage.auth = JSON.stringify(auth_response);
-          this.reload();
-        })
-        .catch(() => {
-          this.showError("Unable to register. Please contact admin");
-        });
+          });
+      }
     });
+  }
+
+  getAge(value) {
+    var selectedDate = new Date(value);
+    var now = new Date();
+
+    if (selectedDate > now) {
+      return -1;
+    }
+
+    //calculate month difference from current date in time
+    var month_diff = now - selectedDate.getTime();
+
+    //convert the calculated difference in date format
+    var age_dt = new Date(month_diff);
+
+    //extract year from date
+    var year = age_dt.getUTCFullYear();
+
+    //now calculate the age of the user
+    return Math.abs(year - 1970);
   }
 
   showError(errorTxt) {
