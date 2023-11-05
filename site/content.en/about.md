@@ -3,7 +3,9 @@ title: 'About'
 weight: 1
 ---
 
-Gurukulams approchable and affordable learning platform inspired from the cherished tradition of 10Rs shops at India's temple festivals, making education as essential and accessible as life's necessities.
+
+> Gurukulams approchable and affordable learning platform inspired from the cherished tradition of 10Rs shops at India's temple festivals, making education as essential and accessible as life's necessities.
+
 
 ##### Our Journey: to Educational Equality
 
