@@ -7,6 +7,6 @@
     {{ $current_link := "" }}
     {{ $current_link = strings.TrimRight "/" .Permalink }}
     <a href="{{replace $current_link "/books" "/courses/books"}}" class="btn float-end" role="button">
-        <i class="fas fa-chalkboard-teacher" title="Presentation"></i>
+        <i class="fa-solid fa-file-powerpoint" title="Presentation"></i>
     </a>
 {{end}}

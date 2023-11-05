@@ -57,10 +57,53 @@
 
 <div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-classes" data-bs-keyboard="false" data-bs-backdrop="false">
   <div class="offcanvas-header">
-      <h6 class="offcanvas-title d-none d-sm-block">Classes</h6>
+      
+
+    <div class="d-flex align-items-center w-100">
+      <span class="offcanvas-title d-none d-sm-block">Classes</span>
+      <div class="d-flex ms-auto">
+        <button type="button" class="btn">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+    </div>
+
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
+
+      <form id="event-form" class="d-none">
+
+        <div class="mb-3">
+          <label for="titleTxt" class="col-form-label">Title</label>
+          
+            <input class="form-control" id="titleTxt">
+  
+        </div>
+
+        <div class="mb-3">
+          <label for="eventDateTxt" class="col-form-label">Date and time</label>
+        
+          <input type="datetime-local" class="form-control" id="eventDateTxt">
+     
+        </div>
+
+        <div class="mb-3">
+          <label for="descriptionTxt" class="col-form-label">Description</label>
+        
+            <textarea class="form-control" id="descriptionTxt"></textarea>
+     
+        </div>
+
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="far fa-trash-alt"></i>
+        </button>
+
+        <button type="button" class="btn btn-primary float-end">Save</button>
+      
+      </form>
+
+
       <ul class="list-group">
         <li class="list-group-item card">
             <div class="card-body">

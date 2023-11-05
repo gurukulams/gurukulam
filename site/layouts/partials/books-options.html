@@ -1,8 +1,6 @@
 <div id="bookOptionsPane" class="d-flex justify-content-end d-none">
 
-    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-classes" role="button">
-        <i class="fa-solid fa-chalkboard-user" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-classes" title="Classes"></i>
-    </button>
+    {{ partial "classes-link.html" . }}
 
 
     <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos" role="button">
