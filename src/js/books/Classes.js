@@ -16,6 +16,7 @@ class Classes {
     this.eventsView = classesPane.querySelector("ul");
 
     this.titleTxt = classesPane.querySelector("#titleTxt");
+    this.meetingUrlTxt = classesPane.querySelector("#meetingUrlTxt");
     this.descriptionTxt = classesPane.querySelector("#descriptionTxt");
     this.eventDateTxt = classesPane.querySelector("#eventDateTxt");
 
@@ -41,6 +42,9 @@ class Classes {
   openEvent(_event) {
     this.event = _event;
     this.titleTxt.value = this.event.title ? this.event.title : "";
+    this.meetingUrlTxt.value = this.event.meetingUrl
+      ? this.event.meetingUrl
+      : "";
     this.descriptionTxt.value = this.event.description
       ? this.event.description
       : "";
@@ -51,6 +55,7 @@ class Classes {
 
   saveEvent() {
     this.event.title = this.titleTxt.value;
+    this.event.meetingUrl = this.meetingUrlTxt.value;
     this.event.description = this.descriptionTxt.value;
     this.event.eventDate = this.eventDateTxt.value;
     if (this.event.id) {
