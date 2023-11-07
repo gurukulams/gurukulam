@@ -1,22 +1,23 @@
 class Login {
   constructor() {
-    if (document.querySelector("#userName")) {
-      document.querySelector("#userName").focus();
+    if (document.querySelector("#users-group")) {
       this.registerEvents();
     }
   }
 
   registerEvents() {
-    document
-      .querySelector("form")
-      .addEventListener("submit", (e) => this.login(e));
+    document.querySelectorAll("#users-group>button").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        this.login(e);
+      });
+    });
   }
 
   login(event) {
     event.preventDefault();
     let authRequest = {
-      userName: document.querySelector("#userName").value,
-      password: document.querySelector("#password").value,
+      userName: event.currentTarget.name + "@email.com",
+      password: event.currentTarget.name + "password",
     };
     fetch("/api/auth/login", {
       method: "POST",

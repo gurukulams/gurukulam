@@ -37,25 +37,19 @@
     {{ else }}
 
     
-    <form id="login-pane" class="row align-items-center">
-      <div class="col-sm-5">
-        <div class="input-group">
-          <div class="input-group-text"><i class="far fa-user"></i></div>
-          <input type="text" class="form-control" id="userName" placeholder="Username" required>
-        </div>
+    
+    <div id="login-pane" class="row align-items-center">
+
+      <div id="users-group" class="btn-group" role="group" aria-label="Basic outlined example">
+        {{ range readDir "static/images/users" }}
+          <button type="button" name="{{ replace .Name ".png" "" }}" class="btn">
+            <img src="/images/users/{{ .Name }}" class="img-circle img-thumbnail"
+                style="vertical-align: middle;border-radius: 50%;width: 42px;" alt="avatar">
+          </button>  
+        {{ end }}
       </div>
-      <div class="col-sm-5">
-        <div class="input-group">
-          <div class="input-group-text"><i class="fas fa-key"></i></div>
-          <input type="password" class="form-control" id="password" placeholder="Password">
-        </div>
-      </div>
-      <div class="col-sm-2 justify-content-end">
-        <div class="form-check">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </div>
-    </form>
+      
+    </div>
 
       {{ end }}
 
@@ -100,3 +94,4 @@
     </div>
   </div>
 </nav>  
+
