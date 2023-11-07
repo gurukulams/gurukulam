@@ -168,40 +168,51 @@ class Classes {
 
               const regButton = buyEvent.querySelector(".btn-success");
               const qrEl = buyEvent.querySelector("#qr");
+              const backToListing = () => {
+                ulEl.parentElement.removeChild(buyEvent);
+                ulEl.classList.remove("d-none");
+                this.listEvents();
+              };
+
+              const regAction = () => {
+                var qr = new QRious({
+                  element: qrEl,
+                  value: "https://github.com/neocotic/qrious",
+                });
+                qrEl.parentElement.classList.remove("d-none");
+                regButton.addEventListener("click", () => {
+                  fetch("/api/events/" + event.id, {
+                    method: "POST",
+                    headers: window.ApplicationHeader(),
+                  }).then(() => {
+                    window.success("Event registered successfully");
+                    backToListing();
+                  });
+                });
+              };
 
               fetch("/api/events/" + event.id, {
                 method: "HEAD",
                 headers: window.ApplicationHeader(),
               })
-                .then(() => {
-                  regButton.classList.remove("btn-success");
-                  regButton.classList.remove("btn");
-                  regButton.classList.add("text-primary");
-                  regButton.innerHTML = "Attending";
+                .then((response) => {
+                  if (response.ok) {
+                    regButton.classList.remove("btn-success");
+                    regButton.classList.remove("btn");
+                    regButton.classList.add("text-primary");
+                    regButton.innerHTML = "Attending";
+                  } else {
+                    regAction();
+                  }
                 })
                 .catch(() => {
-                  var qr = new QRious({
-                    element: qrEl,
-                    value: "https://github.com/neocotic/qrious",
-                  });
-                  qrEl.parentElement.classList.remove("d-none");
-                  regButton.addEventListener("click", () => {
-                    fetch("/api/events/" + event.id, {
-                      method: "POST",
-                      headers: window.ApplicationHeader(),
-                    }).then(() => {
-                      window.success("Event registered successfully");
-                      ulEl.parentElement.removeChild(buyEvent);
-                      ulEl.classList.remove("d-none");
-                    });
-                  });
+                  regAction();
                 });
 
               buyEvent
                 .querySelector(".btn-secondary")
                 .addEventListener("click", () => {
-                  ulEl.parentElement.removeChild(buyEvent);
-                  ulEl.classList.remove("d-none");
+                  backToListing();
                 });
             };
 
