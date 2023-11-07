@@ -114,7 +114,7 @@ export default class QuestionScreen {
       );
 
     document
-      .querySelector("i.fa-pencil")
+      .querySelector("pencilbtn")
       .parentElement.addEventListener("click", () => {
         this.toggleEditor();
       });
