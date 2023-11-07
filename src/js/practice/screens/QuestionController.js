@@ -5,7 +5,7 @@ export default class QuestionController extends QuestionScreen {
     super(_parent);
     if (sessionStorage.auth) {
       if (JSON.parse(sessionStorage.auth).userName !== "tom") {
-        document.querySelector("pencilbtn").classList.add("invisible");
+        document.querySelector("i.fa-pencil").classList.add("invisible");
       }
 
       this.loadQuestions();
