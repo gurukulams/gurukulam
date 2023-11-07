@@ -123,20 +123,19 @@ class Classes {
               <small class="card-link"><i class="fa-regular fa-calendar"></i> ${new Date(
                 event.eventDate
               ).toDateString()}</small>
-              <a href="javascript://" class="btn btn-success rounded-pill float-end">&#8377; 10</a>
+              <a href="javascript://" class="btn btn-success rounded-pill float-end d-none">&#8377; 10</a>
             </div>
           `;
           this.eventsView.appendChild(liElement);
 
-          liElement
-            .querySelector(".card-title")
-            .addEventListener("click", () => {
-              this.openEvent(event);
-            });
-
-          liElement
-            .querySelector(".rounded-pill")
-            .addEventListener("click", () => {
+          if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
+            liElement
+              .querySelector(".card-title")
+              .addEventListener("click", () => {
+                this.openEvent(event);
+              });
+          } else {
+            const registerEvent = () => {
               const ulEl = liElement.parentElement;
               ulEl.classList.add("d-none");
 
@@ -144,16 +143,22 @@ class Classes {
               buyEvent.classList.add("card");
 
               buyEvent.innerHTML = `
-              <div class="card">
-                <div class="card-header">
-                  <span class="h6">${event.title}</span>
-                  <a href="javascript://" class="btn btn-secondary float-end">Cancel</a>
-                </div>
-                <div class="card-body">
-                  <canvas id="qr" class="w-100"></canvas>
-                  <p class="card-text lead">${event.description}</p>
-                </div>
-              </div>`;
+            <div class="card h-100">
+              <div class="card-header">
+                <span class="h6">${event.title}</span>
+                <a href="javascript://" class="btn btn-secondary float-end">Cancel</a>
+              </div>
+              <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <canvas id="qr" class="w-50"></canvas>
+              </div>
+                
+                <p class="card-text lead">${event.description}</p>
+              </div>
+              <div class="card-footer">
+                <a href="javascript://" class="btn btn-success float-end">Register</a>
+              </div>
+            </div>`;
               ulEl.parentElement.appendChild(buyEvent);
 
               var qr = new QRious({
@@ -167,7 +172,18 @@ class Classes {
                   ulEl.parentElement.removeChild(buyEvent);
                   ulEl.classList.remove("d-none");
                 });
-            });
+            };
+
+            liElement.querySelector(".rounded-pill").classList.remove("d-none");
+
+            liElement
+              .querySelector(".rounded-pill")
+              .addEventListener("click", registerEvent);
+
+            liElement
+              .querySelector(".card-title")
+              .addEventListener("click", registerEvent);
+          }
         });
       });
 
