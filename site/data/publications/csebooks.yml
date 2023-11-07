@@ -35,9 +35,6 @@ books:
     fields:
       title: Artificial Intelligence
       description: Artificial Intelligence Notes.
-  - path: artificial-intelligence
-    fields:
-      title: Artificial Intelligence
-      description: Artificial Intelligence Notes.
+
 
   
