@@ -128,7 +128,7 @@ class Classes {
               <small class="card-link"><i class="fa-regular fa-calendar"></i> ${new Date(
                 event.eventDate
               ).toDateString()}</small>
-              <a href="javascript://" class="btn btn-success rounded-pill float-end d-none">&#8377; 10</a>
+              
             </div>
           `;
           this.eventsView.appendChild(liElement);
@@ -154,22 +154,48 @@ class Classes {
                 <a href="javascript://" class="btn btn-secondary float-end">Cancel</a>
               </div>
               <div class="card-body">
-              <div class="d-flex justify-content-center">
+              <div class="d-flex justify-content-center d-none">
                 <canvas id="qr" class="w-50"></canvas>
               </div>
                 
                 <p class="card-text lead">${event.description}</p>
               </div>
               <div class="card-footer">
-                <a href="javascript://" class="btn btn-success float-end">Register</a>
+                <a href="javascript://" class="btn btn-success float-end">&#8377; 10 | Register</a>
               </div>
             </div>`;
               ulEl.parentElement.appendChild(buyEvent);
 
-              var qr = new QRious({
-                element: buyEvent.querySelector("#qr"),
-                value: "https://github.com/neocotic/qrious",
-              });
+              const regButton = buyEvent.querySelector(".btn-success");
+              const qrEl = buyEvent.querySelector("#qr");
+
+              fetch("/api/events/" + event.id, {
+                method: "HEAD",
+                headers: window.ApplicationHeader(),
+              })
+                .then(() => {
+                  regButton.classList.remove("btn-success");
+                  regButton.classList.remove("btn");
+                  regButton.classList.add("text-primary");
+                  regButton.innerHTML = "Attending";
+                })
+                .catch(() => {
+                  var qr = new QRious({
+                    element: qrEl,
+                    value: "https://github.com/neocotic/qrious",
+                  });
+                  qrEl.parentElement.classList.remove("d-none");
+                  regButton.addEventListener("click", () => {
+                    fetch("/api/events/" + event.id, {
+                      method: "POST",
+                      headers: window.ApplicationHeader(),
+                    }).then(() => {
+                      window.success("Event registered successfully");
+                      ulEl.parentElement.removeChild(buyEvent);
+                      ulEl.classList.remove("d-none");
+                    });
+                  });
+                });
 
               buyEvent
                 .querySelector(".btn-secondary")
@@ -178,12 +204,6 @@ class Classes {
                   ulEl.classList.remove("d-none");
                 });
             };
-
-            liElement.querySelector(".rounded-pill").classList.remove("d-none");
-
-            liElement
-              .querySelector(".rounded-pill")
-              .addEventListener("click", registerEvent);
 
             liElement
               .querySelector(".card-title")
