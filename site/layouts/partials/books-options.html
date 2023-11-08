@@ -7,8 +7,8 @@
         <i class="fa-solid fa-tv" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos" title="Videos"></i>
     </button>
 
-    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links" role="button">
-        <i class="fa-solid fa-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-links" title="References"></i>
+    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-references" role="button">
+        <i class="fa-solid fa-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-references" title="References"></i>
     </button>
 
 
@@ -17,6 +17,10 @@
     {{end}}
 
     {{ partial "course-link.html" . }}
+
+    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-notes" role="button">
+        <i class="fas fa-search" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-notes" title="Notes"></i>
+    </button>
 
     <div class="btn-group">
         <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">

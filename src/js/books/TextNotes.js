@@ -22,8 +22,6 @@ class TextNotes extends CoreNotes {
         const annotationMode = modeIcon1.classList.contains("fa-pencil")
           ? "ANNOTATION"
           : "RELATIONS";
-
-        console.log("Annotation mode is " + annotationMode);
         this.annobase.setMode(annotationMode);
 
         this.checkbox.checked = true;
@@ -35,7 +33,48 @@ class TextNotes extends CoreNotes {
       this.path = this.path.slice(0, -1);
     }
 
+    const offcanvasNotes = document.getElementById("offcanvas-notes");
+
+    const notesPane = offcanvasNotes.querySelector(".offcanvas-body>ul");
+
+    const searchBox = offcanvasNotes.querySelector('input[type="search"]');
+
+    searchBox.addEventListener("keyup", () => {
+      this.listAnnotations(
+        notesPane,
+        this.findNotes(this.annobase.getAnnotations(), searchBox.value)
+      );
+    });
+
+    offcanvasNotes.addEventListener("show.bs.offcanvas", () => {
+      searchBox.focus();
+    });
+
+    offcanvasNotes.addEventListener("show.bs.offcanvas", () => {
+      this.listAnnotations(notesPane, this.annobase.getAnnotations());
+    });
+
     this.loadNotes();
+  }
+
+  listAnnotations(notesPane, annotations) {
+    notesPane.innerHTML = "";
+
+    annotations.forEach((annnotation) => {
+      const liElement = document.createElement("li");
+      liElement.classList.add("list-group-item");
+      liElement.innerHTML = annnotation.body[0].value;
+      notesPane.appendChild(liElement);
+    });
+  }
+
+  findNotes(items, text) {
+    text = text.split(" ");
+    return items.filter((item) => {
+      return text.every((el) => {
+        return item.body[0].value.includes(el);
+      });
+    });
   }
 }
 
