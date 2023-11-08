@@ -25,8 +25,9 @@ class Classes {
     });
 
     classesPane
-      .querySelector("button.btn-primary")
-      .addEventListener("click", () => {
+      .querySelector("#event-form")
+      .addEventListener("submit", (event) => {
+        event.preventDefault();
         this.saveEvent();
       });
 
@@ -53,33 +54,56 @@ class Classes {
     this.editForm.classList.remove("d-none");
   }
 
+  isValid() {
+    let isValid = true;
+    const eventDate = new Date(this.eventDateTxt.value);
+    var after = function (d1, d2) {
+      var diff = d1.getTime() - d2.getTime();
+      return Math.round(diff / (1000 * 60 * 60 * 24));
+    };
+    const afterinDays = after(eventDate, new Date());
+
+    if (afterinDays < 0 || afterinDays > 20) {
+      isValid = false;
+      window.error("Events can not be schduled after 20 days");
+    }
+
+    return isValid;
+  }
+
   saveEvent() {
-    this.event.title = this.titleTxt.value;
-    this.event.meetingUrl = this.meetingUrlTxt.value;
-    this.event.description = this.descriptionTxt.value;
-    this.event.eventDate = this.eventDateTxt.value;
-    if (this.event.id) {
-      fetch("/api/events/" + this.event.id, {
-        method: "PUT",
-        headers: window.ApplicationHeader(),
-        body: JSON.stringify(this.event),
-      })
-        .then((response) => response.json())
-        .then(() => {
-          window.success("Event updated successfully");
-          this.listEvents();
+    if (this.isValid()) {
+      this.event.title = this.titleTxt.value;
+      this.event.meetingUrl = this.meetingUrlTxt.value;
+      this.event.description = this.descriptionTxt.value;
+      this.event.eventDate = this.eventDateTxt.value;
+      if (this.event.id) {
+        fetch("/api/events/" + this.event.id, {
+          method: "PUT",
+          headers: window.ApplicationHeader(),
+          body: JSON.stringify(this.event),
+        }).then((response) => {
+          if (response.ok) {
+            window.success("Event updated successfully");
+            this.listEvents();
+          } else {
+            window.error("Unable to update event");
+          }
         });
-    } else {
-      fetch("/api/events" + this.chaptersPath, {
-        method: "POST",
-        headers: window.ApplicationHeader(),
-        body: JSON.stringify(this.event),
-      })
-        .then((response) => response.json())
-        .then(() => {
-          window.success("Event created successfully");
-          this.listEvents();
+      } else {
+        fetch("/api/events" + this.chaptersPath, {
+          method: "POST",
+          headers: window.ApplicationHeader(),
+          body: JSON.stringify(this.event),
+        }).then((response) => {
+          if (response.status === 201) {
+            window.success("Event created successfully");
+            this.listEvents();
+          } else {
+            window.error("Unable to create event");
+          }
         });
+      }
     }
   }
 
@@ -109,11 +133,14 @@ class Classes {
       method: "GET",
       headers: window.ApplicationHeader(),
     })
-      .then((response) => response.json())
+      .then((response) => {
+        if (response.status === 204) {
+          this.eventsView.innerHTML = "There are no events schduled";
+        }
+        return response.json();
+      })
       .then((_events) => {
-        console.log(_events);
         this.events = _events;
-
         this.events.forEach((event) => {
           const liElement = document.createElement("li");
           liElement.classList.add("list-group-item");

@@ -63,7 +63,9 @@ class Welcome {
         dob: document.querySelector("#dob").value,
       };
 
-      if (this.getAge(regRequest.dob) < 12) {
+      const age = this.getAge(regRequest.dob);
+
+      if (age < 10 || age > 80) {
         this.showError("Please Enter valid Date of Birth");
       } else {
         fetch("/api/auth/register", {
