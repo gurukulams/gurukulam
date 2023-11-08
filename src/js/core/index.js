@@ -60,7 +60,7 @@ class Core {
     };
 
     window.getUser = async (id) => {
-      const response = await fetch(`/api/learner/${id}`, {
+      const response = await fetch(`/api/profiles/${id}`, {
         method: "GET",
         headers: window.ApplicationHeader(),
       });
