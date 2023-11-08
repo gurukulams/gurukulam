@@ -147,17 +147,32 @@ class Classes {
           liElement.classList.add("card");
           liElement.innerHTML = `
           <div class="card-body">
+              <div class="d-flex gap-2">
+              <img src="/images/users/jerry.png" class="img-circle img-thumbnail avatar" style="vertical-align:middle;border-radius:50%;width:3rem;margin-right:10px" alt="avatar">
+              <div>
               <h5 class="card-title">${event.title}</h5>
               <h6 class="card-subtitle mb-2 text-primary">${
                 event.createdBy
               }</h6>
-              <p class="card-text">${event.description}</p>
-              <small class="card-link"><i class="fa-regular fa-calendar"></i> ${new Date(
-                event.eventDate
-              ).toDateString()}</small>
+              </div>
+          </div>
+              <p class="card-text pt-2">${event.description}</p>
+              
               
             </div>
+            <div class="card-footer">
+            <small class="card-link"><i class="fa-regular fa-calendar"></i> ${new Date(
+              event.eventDate
+            ).toDateString()}</small>
+            </div>
           `;
+
+          window.getUser(event.createdBy).then((user) => {
+            console.log(user);
+
+            liElement.querySelector(".card-body>div>img").src = user.imageUrl;
+          });
+
           this.eventsView.appendChild(liElement);
 
           if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {

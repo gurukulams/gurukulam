@@ -59,6 +59,15 @@ class Core {
       return header;
     };
 
+    window.getUser = async (id) => {
+      const response = await fetch(`/api/learner/${id}`, {
+        method: "GET",
+        headers: window.ApplicationHeader(),
+      });
+      const json = await response.json();
+      return json;
+    };
+
     window.shuffle = (array) => {
       let currentIndex = array.length,
         randomIndex;
@@ -200,181 +209,6 @@ class Core {
         }
       }
     }
-  }
-
-  loadBoards() {
-    fetch("/api/boards", {
-      headers: window.ApplicationHeader(),
-    })
-      .then((response) => {
-        if (response.status === 200) {
-          return response.json();
-        } else if (response.status === 204) {
-          return response.json();
-        }
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
-      .then((boards) => {
-        var myDropDownEl = document.getElementById("boardsDropdown");
-        var myDropDownEla = document.querySelector("#boardsDropdown > a");
-        if (boards === undefined) {
-          myDropDownEla.innerText = "-";
-        } else if (boards.length === 1) {
-          myDropDownEla.innerText = boards[0].title;
-          this.createSpanElementForBoard(boards[0], "boardsDropdown");
-        } else {
-          var ulEl = document.createElement("ul");
-          ulEl.classList.add("dropdown-menu");
-          ulEl.setAttribute("aria-labelledby", "boardsDropdown");
-          ulEl.innerHTML = "";
-
-          myDropDownEl.appendChild(ulEl);
-          boards.forEach((item) => {
-            ulEl.appendChild(
-              this.createSpanElementForBoard(item, "boardsDropdown")
-            );
-          });
-
-          ulEl.firstChild.click();
-        }
-      });
-  }
-
-  createSpanElementForBoard(item, id) {
-    let liEl = document.createElement("li");
-    liEl.dataset.id = item.id;
-    liEl.innerHTML = `<span class="dropdown-item">${item.title}</span>`;
-    this.loadGrades(item.id);
-    liEl.addEventListener("click", () => {
-      document.querySelector("#" + id + " > a").innerText = item.title;
-      document.querySelectorAll("#" + id + " > ul > li").forEach((el) => {
-        el.style.display = "block";
-      });
-      liEl.style.display = "none";
-    });
-    return liEl;
-  }
-
-  loadGrades(boardId) {
-    fetch("/api/boards/" + boardId + "/grades", {
-      headers: window.ApplicationHeader(),
-    })
-      .then((response) => {
-        if (response.status === 200) {
-          return response.json();
-        } else if (response.status === 204) {
-          return response.json();
-        }
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
-      .then((response) => {
-        var myDropDownEl = document.getElementById("dropdownMenuButton2");
-        var myDropDownEla = document.querySelector("#dropdownMenuButton2 > a");
-
-        var ulEl;
-        if (response === undefined) {
-          myDropDownEla.innerText = "-";
-        } else if (response.length === 1) {
-          myDropDownEla.innerText = response[0].title;
-          // ulEl = document.querySelector("#dropdownMenuButton2 > ul");
-          // ulEl.style.visibility = "hidden";
-        } else {
-          ulEl = document.querySelector("#dropdownMenuButton2 > ul");
-          if (ulEl === null) {
-            ulEl = document.createElement("ul");
-            ulEl.classList.add("dropdown-menu");
-            ulEl.setAttribute("aria-labelledby", "dropdownMenuButton2");
-          }
-
-          ulEl.style.visibility = "visible";
-          ulEl.innerHTML = "";
-
-          myDropDownEl.appendChild(ulEl);
-          response.forEach((item) => {
-            ulEl.appendChild(
-              this.createSpanElementForGrade(
-                item,
-                "dropdownMenuButton2",
-                boardId
-              )
-            );
-          });
-
-          ulEl.firstChild.click();
-
-          //this.listSyllabus(id, ulEl.firstChild.dataset.id);
-        }
-      });
-  }
-
-  createSpanElementForGrade(item, elementId, boardId) {
-    let liEl = document.createElement("li");
-    liEl.dataset.id = item.id;
-    liEl.dataset.boardId = boardId;
-    liEl.innerHTML = `<span class="dropdown-item">${item.title}</span>`;
-
-    liEl.addEventListener("click", () => {
-      document.querySelector("#" + elementId + " > a").innerText = item.title;
-      document
-        .querySelectorAll("#" + elementId + " > ul > li")
-        .forEach((el) => {
-          el.style.display = "block";
-        });
-
-      liEl.style.display = "none";
-    });
-    return liEl;
-  }
-
-  createSubjectMenuItem(boardId, gradeId, subject) {
-    let liEl = document.createElement("li");
-    liEl.dataset.id = subject.id;
-    let path = "#";
-    liEl.innerHTML = `<a class="nav-link" href="/books/${path}">${subject.title}</a>`;
-    // Fetch Books under subject.id
-    // book[0].path as href
-    fetch(
-      "/api/boards/" +
-        boardId +
-        "/grades/" +
-        gradeId +
-        "/subjects/" +
-        subject.id +
-        "/books",
-      {
-        headers: {
-          "content-type": "application/json",
-          Authorization: "Bearer " + JSON.parse(sessionStorage.auth).authToken,
-          "Accept-Language": window.LANGUAGE,
-        },
-      }
-    )
-      .then((response) => {
-        if (response.status === 200) {
-          return response.json();
-        } else if (response.status === 204) {
-          return [];
-        }
-      })
-      .catch(function (error) {
-        console.log(error);
-      })
-      .then((books) => {
-        if (books.length !== 0) {
-          path = books[0].path;
-          if (window.LANGUAGE) {
-            liEl.innerHTML = `<a class="nav-link" href="/${window.LANGUAGE}/books/${path}">${subject.title}</a>`;
-          } else {
-            liEl.innerHTML = `<a class="nav-link" href="/books/${path}">${subject.title}</a>`;
-          }
-        }
-      });
-
-    return liEl;
   }
 }
 
