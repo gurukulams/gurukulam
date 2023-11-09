@@ -20,6 +20,12 @@ class Classes {
     this.descriptionTxt = classesPane.querySelector("#descriptionTxt");
     this.eventDateTxt = classesPane.querySelector("#eventDateTxt");
 
+    this.deleteEventBtn = classesPane.querySelector("button.btn-danger");
+
+    this.deleteEventBtn.addEventListener("on-confirmation", () => {
+      this.deleteEvent();
+    });
+
     classesPane.querySelector("i.fa-plus").addEventListener("click", () => {
       this.openEvent({});
     });
@@ -29,12 +35,6 @@ class Classes {
       .addEventListener("submit", (event) => {
         event.preventDefault();
         this.saveEvent();
-      });
-
-    classesPane
-      .querySelector("button.btn-danger")
-      .addEventListener("on-confirmation", () => {
-        this.deleteEvent();
       });
 
     classesPane
@@ -58,6 +58,13 @@ class Classes {
     this.eventDateTxt.value = this.event.eventDate ? this.event.eventDate : "";
     this.eventsView.classList.add("d-none");
     this.editForm.classList.remove("d-none");
+    this.titleTxt.focus();
+
+    if (_event.id) {
+      this.deleteEventBtn.classList.remove("d-none");
+    } else {
+      this.deleteEventBtn.classList.add("d-none");
+    }
   }
 
   isValid() {
@@ -166,13 +173,13 @@ class Classes {
     liElement.querySelector(".card-subtitle").innerHTML = event.createdBy;
     liElement.querySelector(".card-text").innerHTML = event.description;
 
-    liElement.querySelector(".card-link").innerHTML = new Date(
-      event.eventDate
-    ).toLocaleDateString();
+    const eventDate = new Date(event.eventDate);
 
-    liElement.querySelector(".card-link:last-of-type").innerHTML = new Date(
-      event.eventDate
-    ).toLocaleTimeString();
+    liElement.querySelector(".card-link").innerHTML =
+      eventDate.toLocaleDateString();
+
+    liElement.querySelector(".card-link:last-of-type").innerHTML =
+      eventDate.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 
     const callToActionBtn = liElement.querySelector("button.btn");
     const imageEl = liElement.querySelector("img");
@@ -193,9 +200,13 @@ class Classes {
         headers: window.ApplicationHeader(),
       }).then((response) => {
         if (response.ok) {
-          callToActionBtn.classList.remove("btn-outline-primary");
-          callToActionBtn.classList.add("btn-outline-info");
-          callToActionBtn.innerHTML = "Attending";
+          if (this.doesStartShortly(eventDate)) {
+            callToActionBtn.innerHTML = "Join";
+          } else {
+            callToActionBtn.classList.remove("btn-outline-primary");
+            callToActionBtn.classList.add("btn-outline-info");
+            callToActionBtn.innerHTML = "Attending";
+          }
         } else {
           this.setupRegisteration(liElement, event, callToActionBtn);
         }
@@ -256,6 +267,12 @@ class Classes {
     };
 
     callToActionBtn.addEventListener("click", registerEvent);
+  }
+
+  doesStartShortly(eventDate) {
+    const now = new Date();
+    now.setMinutes(now.getMinutes() + 10);
+    return eventDate.getTime() < now;
   }
 }
 
