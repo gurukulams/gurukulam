@@ -142,10 +142,20 @@ class Classes {
       .then((_events) => {
         this.events = _events;
         this.events.forEach((event) => {
-          const liElement = document.createElement("li");
-          liElement.classList.add("list-group-item");
-          liElement.classList.add("card");
-          liElement.innerHTML = `
+          const liElement = this.createEventCard(event);
+
+          this.eventsView.appendChild(liElement);
+        });
+      });
+
+    this.showEvents();
+  }
+
+  createEventCard(event) {
+    const liElement = document.createElement("li");
+    liElement.classList.add("list-group-item");
+    liElement.classList.add("card");
+    liElement.innerHTML = `
           <div class="card-body">
               <div class="d-flex gap-2">
               <img src="/images/users/jerry.png" class="img-circle img-thumbnail avatar" style="vertical-align:middle;border-radius:50%;width:3rem;margin-right:10px" alt="avatar">
@@ -163,33 +173,49 @@ class Classes {
             <div class="card-footer">
             <small class="card-link"><i class="fa-regular fa-calendar"></i> ${new Date(
               event.eventDate
-            ).toDateString()}</small>
+            ).toLocaleDateString()}</small>
+
+            <small class="card-link"><i class="fa-regular fa-clock"></i> ${new Date(
+              event.eventDate
+            ).toLocaleTimeString()}</small>
+
+            <button class="btn btn-outline-primary float-end" role="button">
+              Register
+            </button>
+
             </div>
           `;
 
-          window.getUser(event.createdBy).then((user) => {
-            console.log(user);
+    const callToActionBtn = liElement.querySelector("button.btn");
 
-            liElement.querySelector(".card-body>div>img").src = user.imageUrl;
-          });
+    window.getUser(event.createdBy).then((user) => {
+      liElement.querySelector(".card-body>div>img").src = user.imageUrl;
+    });
 
-          this.eventsView.appendChild(liElement);
+    if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
+      callToActionBtn.innerHTML =
+        '<i class="fa-solid fa-pencil" title="Edit Event"></i>';
+      callToActionBtn.addEventListener("click", () => {
+        this.openEvent(event);
+      });
+    } else {
+      fetch("/api/events/" + event.id, {
+        method: "HEAD",
+        headers: window.ApplicationHeader(),
+      }).then((response) => {
+        if (response.ok) {
+          callToActionBtn.classList.remove("btn-outline-primary");
+          callToActionBtn.classList.add("btn-outline-info");
+          callToActionBtn.innerHTML = "Attending";
+        } else {
+          const registerEvent = () => {
+            const ulEl = liElement.parentElement;
+            ulEl.classList.add("d-none");
 
-          if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
-            liElement
-              .querySelector(".card-title")
-              .addEventListener("click", () => {
-                this.openEvent(event);
-              });
-          } else {
-            const registerEvent = () => {
-              const ulEl = liElement.parentElement;
-              ulEl.classList.add("d-none");
+            const buyEvent = document.createElement("div");
+            buyEvent.classList.add("card");
 
-              const buyEvent = document.createElement("div");
-              buyEvent.classList.add("card");
-
-              buyEvent.innerHTML = `
+            buyEvent.innerHTML = `
             <div class="card h-100">
               <div class="card-header">
                 <span class="h6">${event.title}</span>
@@ -206,66 +232,44 @@ class Classes {
                 <a href="javascript://" class="btn btn-success float-end">&#8377; 10 | Register</a>
               </div>
             </div>`;
-              ulEl.parentElement.appendChild(buyEvent);
+            ulEl.parentElement.appendChild(buyEvent);
 
-              const regButton = buyEvent.querySelector(".btn-success");
-              const qrEl = buyEvent.querySelector("#qr");
-              const backToListing = () => {
-                ulEl.parentElement.removeChild(buyEvent);
-                ulEl.classList.remove("d-none");
-                this.listEvents();
-              };
-
-              const regAction = () => {
-                var qr = new QRious({
-                  element: qrEl,
-                  value: "https://github.com/neocotic/qrious",
-                });
-                qrEl.parentElement.classList.remove("d-none");
-                regButton.addEventListener("click", () => {
-                  fetch("/api/events/" + event.id, {
-                    method: "POST",
-                    headers: window.ApplicationHeader(),
-                  }).then(() => {
-                    window.success("Event registered successfully");
-                    backToListing();
-                  });
-                });
-              };
-
-              fetch("/api/events/" + event.id, {
-                method: "HEAD",
-                headers: window.ApplicationHeader(),
-              })
-                .then((response) => {
-                  if (response.ok) {
-                    regButton.classList.remove("btn-success");
-                    regButton.classList.remove("btn");
-                    regButton.classList.add("text-primary");
-                    regButton.innerHTML = "Attending";
-                  } else {
-                    regAction();
-                  }
-                })
-                .catch(() => {
-                  regAction();
-                });
-
-              buyEvent
-                .querySelector(".btn-secondary")
-                .addEventListener("click", () => {
-                  backToListing();
-                });
+            const regButton = buyEvent.querySelector(".btn-success");
+            const qrEl = buyEvent.querySelector("#qr");
+            const backToListing = () => {
+              ulEl.parentElement.removeChild(buyEvent);
+              ulEl.classList.remove("d-none");
+              this.listEvents();
             };
 
-            liElement
-              .querySelector(".card-title")
-              .addEventListener("click", registerEvent);
-          }
-        });
-      });
+            var qr = new QRious({
+              element: qrEl,
+              value: "https://github.com/neocotic/qrious",
+            });
+            qrEl.parentElement.classList.remove("d-none");
+            regButton.addEventListener("click", () => {
+              fetch("/api/events/" + event.id, {
+                method: "POST",
+                headers: window.ApplicationHeader(),
+              }).then(() => {
+                window.success("Event registered successfully");
+                backToListing();
+              });
+            });
 
-    this.showEvents();
+            buyEvent
+              .querySelector(".btn-secondary")
+              .addEventListener("click", () => {
+                backToListing();
+              });
+          };
+
+          callToActionBtn.addEventListener("click", registerEvent);
+        }
+      });
+    }
+
+    return liElement;
   }
 }
 
