@@ -189,11 +189,15 @@ class Classes {
     });
 
     if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
-      callToActionBtn.innerHTML =
-        '<i class="fa-solid fa-pencil" title="Edit Event"></i>';
-      callToActionBtn.addEventListener("click", () => {
-        this.openEvent(event);
-      });
+      if (this.doesStartShortly(eventDate)) {
+        callToActionBtn.innerHTML = "Start";
+      } else {
+        callToActionBtn.innerHTML =
+          '<i class="fa-solid fa-pencil" title="Edit Event"></i>';
+        callToActionBtn.addEventListener("click", () => {
+          this.openEvent(event);
+        });
+      }
     } else {
       fetch("/api/events/" + event.id, {
         method: "HEAD",
