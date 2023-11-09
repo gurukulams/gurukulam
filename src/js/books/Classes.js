@@ -37,6 +37,12 @@ class Classes {
         this.deleteEvent();
       });
 
+    classesPane
+      .querySelector("button.btn-secondary")
+      .addEventListener("click", () => {
+        this.listEvents();
+      });
+
     this.listEvents();
   }
 
@@ -205,23 +211,19 @@ class Classes {
 
       const buyEvent = document.createElement("div");
       buyEvent.classList.add("card");
+      buyEvent.classList.add("h-100");
 
       buyEvent.innerHTML = `
-            <div class="card h-100">
-              <div class="card-header">
-                <span class="h6">${event.title}</span>
-                <a href="javascript://" class="btn btn-secondary float-end">Cancel</a>
-              </div>
               <div class="card-body">
               <div class="d-flex justify-content-center d-none">
                 <canvas id="qr" class="w-50"></canvas>
               </div>
-                
+              <h6>${event.title}</h6>
                 <p class="card-text lead">${event.description}</p>
               </div>
               <div class="card-footer">
+              <a href="javascript://" class="btn btn-secondary">Cancel</a>
                 <a href="javascript://" class="btn btn-success float-end">&#8377; 10 | Register</a>
-              </div>
             </div>`;
       this.eventsView.parentElement.appendChild(buyEvent);
 

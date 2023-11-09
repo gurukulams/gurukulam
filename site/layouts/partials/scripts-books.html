@@ -72,8 +72,8 @@
   </div>
   <div class="offcanvas-body">
 
-      <form id="event-form" class="d-none">
-
+      <form id="event-form" class="card h-100 d-none">
+        <div class="card-body">
         <div class="mb-3">
           <label for="titleTxt" class="col-form-label">Title</label>
           <input class="form-control" id="titleTxt" required>
@@ -93,13 +93,17 @@
           <label for="descriptionTxt" class="col-form-label">Description</label>
           <textarea class="form-control" id="descriptionTxt" required></textarea>
         </div>
+      </div>
+        <div class="card-footer">
 
         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <i class="far fa-trash-alt" title="Delete"></i>
         </button>
 
+        <button type="button" class="btn btn-secondary">Cancel</button>
+
         <button type="submit" class="btn btn-primary float-end">Save</button>
-      
+      </div>
       </form>
 
 
