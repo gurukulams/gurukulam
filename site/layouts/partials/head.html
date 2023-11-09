@@ -28,16 +28,14 @@
     />
     <link rel="manifest" href="/images/site.webmanifest" />
 
-
-
     {{ block "seo" . }}{{ partial "seo" . }}{{end}}
 
+    {{ if getenv "BUILD_PRODUCTION" }}
     <!-- Google Analytics Start -->
-
     {{ template "_internal/google_analytics.html" . }}
     {{ template "_internal/google_analytics_async.html" . }}
-
     <!-- Google Analytics End -->
+    {{ end }}
 
     <!-- Required meta tags -->
     <meta charset="utf-8" />

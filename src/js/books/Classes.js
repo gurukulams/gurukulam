@@ -152,44 +152,27 @@ class Classes {
   }
 
   createEventCard(event) {
-    const liElement = document.createElement("li");
-    liElement.classList.add("list-group-item");
-    liElement.classList.add("card");
-    liElement.innerHTML = `
-          <div class="card-body">
-              <div class="d-flex gap-2">
-              <img src="/images/users/jerry.png" class="img-circle img-thumbnail avatar" style="vertical-align:middle;border-radius:50%;width:3rem;margin-right:10px" alt="avatar">
-              <div>
-              <h5 class="card-title">${event.title}</h5>
-              <h6 class="card-subtitle mb-2 text-primary">${
-                event.createdBy
-              }</h6>
-              </div>
-          </div>
-              <p class="card-text pt-2">${event.description}</p>
-              
-              
-            </div>
-            <div class="card-footer">
-            <small class="card-link"><i class="fa-regular fa-calendar"></i> ${new Date(
-              event.eventDate
-            ).toLocaleDateString()}</small>
+    const liElement = document
+      .querySelector("#event-card")
+      .content.cloneNode(true);
 
-            <small class="card-link"><i class="fa-regular fa-clock"></i> ${new Date(
-              event.eventDate
-            ).toLocaleTimeString()}</small>
+    liElement.querySelector(".card-title").innerHTML = event.title;
+    liElement.querySelector(".card-subtitle").innerHTML = event.createdBy;
+    liElement.querySelector(".card-text").innerHTML = event.description;
 
-            <button class="btn btn-outline-primary float-end" role="button">
-              Register
-            </button>
+    liElement.querySelector(".card-link").innerHTML = new Date(
+      event.eventDate
+    ).toLocaleDateString();
 
-            </div>
-          `;
+    liElement.querySelector(".card-link:last-of-type").innerHTML = new Date(
+      event.eventDate
+    ).toLocaleTimeString();
 
     const callToActionBtn = liElement.querySelector("button.btn");
+    const imageEl = liElement.querySelector("img");
 
     window.getUser(event.createdBy).then((user) => {
-      liElement.querySelector(".card-body>div>img").src = user.imageUrl;
+      imageEl.src = user.imageUrl;
     });
 
     if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
@@ -208,14 +191,22 @@ class Classes {
           callToActionBtn.classList.add("btn-outline-info");
           callToActionBtn.innerHTML = "Attending";
         } else {
-          const registerEvent = () => {
-            const ulEl = liElement.parentElement;
-            ulEl.classList.add("d-none");
+          this.setupRegisteration(liElement, event, callToActionBtn);
+        }
+      });
+    }
 
-            const buyEvent = document.createElement("div");
-            buyEvent.classList.add("card");
+    return liElement;
+  }
 
-            buyEvent.innerHTML = `
+  setupRegisteration(liElement, event, callToActionBtn) {
+    const registerEvent = () => {
+      this.eventsView.classList.add("d-none");
+
+      const buyEvent = document.createElement("div");
+      buyEvent.classList.add("card");
+
+      buyEvent.innerHTML = `
             <div class="card h-100">
               <div class="card-header">
                 <span class="h6">${event.title}</span>
@@ -232,44 +223,37 @@ class Classes {
                 <a href="javascript://" class="btn btn-success float-end">&#8377; 10 | Register</a>
               </div>
             </div>`;
-            ulEl.parentElement.appendChild(buyEvent);
+      this.eventsView.parentElement.appendChild(buyEvent);
 
-            const regButton = buyEvent.querySelector(".btn-success");
-            const qrEl = buyEvent.querySelector("#qr");
-            const backToListing = () => {
-              ulEl.parentElement.removeChild(buyEvent);
-              ulEl.classList.remove("d-none");
-              this.listEvents();
-            };
+      const regButton = buyEvent.querySelector(".btn-success");
+      const qrEl = buyEvent.querySelector("#qr");
+      const backToListing = () => {
+        this.eventsView.parentElement.removeChild(buyEvent);
+        this.eventsView.classList.remove("d-none");
+        this.listEvents();
+      };
 
-            var qr = new QRious({
-              element: qrEl,
-              value: "https://github.com/neocotic/qrious",
-            });
-            qrEl.parentElement.classList.remove("d-none");
-            regButton.addEventListener("click", () => {
-              fetch("/api/events/" + event.id, {
-                method: "POST",
-                headers: window.ApplicationHeader(),
-              }).then(() => {
-                window.success("Event registered successfully");
-                backToListing();
-              });
-            });
-
-            buyEvent
-              .querySelector(".btn-secondary")
-              .addEventListener("click", () => {
-                backToListing();
-              });
-          };
-
-          callToActionBtn.addEventListener("click", registerEvent);
-        }
+      var qr = new QRious({
+        element: qrEl,
+        value: "https://github.com/neocotic/qrious",
       });
-    }
+      qrEl.parentElement.classList.remove("d-none");
+      regButton.addEventListener("click", () => {
+        fetch("/api/events/" + event.id, {
+          method: "POST",
+          headers: window.ApplicationHeader(),
+        }).then(() => {
+          window.success("Event registered successfully");
+          backToListing();
+        });
+      });
 
-    return liElement;
+      buyEvent.querySelector(".btn-secondary").addEventListener("click", () => {
+        backToListing();
+      });
+    };
+
+    callToActionBtn.addEventListener("click", registerEvent);
   }
 }
 
