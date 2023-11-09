@@ -170,7 +170,6 @@ class Classes {
       .content.cloneNode(true);
 
     liElement.querySelector(".card-title").innerHTML = event.title;
-    liElement.querySelector(".card-subtitle").innerHTML = event.createdBy;
     liElement.querySelector(".card-text").innerHTML = event.description;
 
     const eventDate = new Date(event.eventDate);
@@ -183,9 +182,11 @@ class Classes {
 
     const callToActionBtn = liElement.querySelector("button.btn");
     const imageEl = liElement.querySelector("img");
+    const nameEl = liElement.querySelector(".card-subtitle");
 
     window.getUser(event.createdBy).then((user) => {
       imageEl.src = user.imageUrl;
+      nameEl.innerHTML = user.name;
     });
 
     if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
