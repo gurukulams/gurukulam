@@ -89,6 +89,15 @@ class Core {
     };
 
     this.handleSecurity();
+
+    const popoverTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="popover"]'
+    );
+
+    [...popoverTriggerList].map((popoverTriggerEl) => {
+      // eslint-disable-next-line no-undef
+      new bootstrap.Popover(popoverTriggerEl);
+    });
   }
 
   handleModelDialogs() {
