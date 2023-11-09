@@ -139,6 +139,21 @@ class Classes {
     }
   }
 
+  joinEvent(event) {
+    console.log("Will Join event at ", event.id);
+
+    fetch("/api/events/" + event.id + "/_join", {
+      method: "POST",
+      headers: window.ApplicationHeader(),
+    }).then((response) => {
+      if (response.status === 201) {
+        window.open(response.headers.get("location"), "_gmeet");
+      } else {
+        window.error("Event not available ");
+      }
+    });
+  }
+
   listEvents() {
     this.eventsView.innerHTML = "";
 
@@ -192,6 +207,9 @@ class Classes {
     if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
       if (this.doesStartShortly(eventDate)) {
         callToActionBtn.innerHTML = "Start";
+        callToActionBtn.addEventListener("click", () => {
+          this.joinEvent(event);
+        });
       } else {
         callToActionBtn.innerHTML =
           '<i class="fa-solid fa-pencil" title="Edit Event"></i>';
@@ -207,6 +225,9 @@ class Classes {
         if (response.ok) {
           if (this.doesStartShortly(eventDate)) {
             callToActionBtn.innerHTML = "Join";
+            callToActionBtn.addEventListener("click", () => {
+              this.joinEvent(event);
+            });
           } else {
             callToActionBtn.classList.remove("btn-outline-primary");
             callToActionBtn.classList.add("btn-outline-info");
