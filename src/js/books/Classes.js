@@ -16,7 +16,6 @@ class Classes {
     this.eventsView = classesPane.querySelector("ul");
 
     this.titleTxt = classesPane.querySelector("#titleTxt");
-    this.meetingUrlTxt = classesPane.querySelector("#meetingUrlTxt");
     this.descriptionTxt = classesPane.querySelector("#descriptionTxt");
     this.eventDateTxt = classesPane.querySelector("#eventDateTxt");
 
@@ -49,9 +48,6 @@ class Classes {
   openEvent(_event) {
     this.event = _event;
     this.titleTxt.value = this.event.title ? this.event.title : "";
-    this.meetingUrlTxt.value = this.event.meetingUrl
-      ? this.event.meetingUrl
-      : "";
     this.descriptionTxt.value = this.event.description
       ? this.event.description
       : "";
@@ -87,7 +83,6 @@ class Classes {
   saveEvent() {
     if (this.isValid()) {
       this.event.title = this.titleTxt.value;
-      this.event.meetingUrl = this.meetingUrlTxt.value;
       this.event.description = this.descriptionTxt.value;
       this.event.eventDate = this.eventDateTxt.value;
       if (this.event.id) {
@@ -139,17 +134,24 @@ class Classes {
     }
   }
 
-  joinEvent(event) {
-    console.log("Will Join event at ", event.id);
-
+  setupJoining(event, callToActionBtn) {
     fetch("/api/events/" + event.id + "/_join", {
       method: "POST",
       headers: window.ApplicationHeader(),
     }).then((response) => {
       if (response.status === 201) {
-        window.open(response.headers.get("location"), "_gmeet");
-      } else {
-        window.error("Event not available ");
+        const joinLink = document.createElement("a");
+        joinLink.classList.add("btn");
+        joinLink.classList.add("btn-success");
+        joinLink.classList.add("float-end");
+        joinLink.target = "_GMEET";
+        joinLink.innerHTML = "Join";
+        joinLink.href = response.headers.get("location");
+
+        const parentElement = callToActionBtn.parentElement;
+
+        parentElement.removeChild(callToActionBtn);
+        parentElement.appendChild(joinLink);
       }
     });
   }
@@ -208,8 +210,9 @@ class Classes {
       if (this.doesStartShortly(eventDate)) {
         callToActionBtn.innerHTML = "Start";
         callToActionBtn.addEventListener("click", () => {
-          this.joinEvent(event);
+          this.setupStart(event, callToActionBtn);
         });
+        this.setupJoining(event, callToActionBtn);
       } else {
         callToActionBtn.innerHTML =
           '<i class="fa-solid fa-pencil" title="Edit Event"></i>';
@@ -223,18 +226,13 @@ class Classes {
         headers: window.ApplicationHeader(),
       }).then((response) => {
         if (response.ok) {
-          if (this.doesStartShortly(eventDate)) {
-            callToActionBtn.innerHTML = "Join";
-            callToActionBtn.addEventListener("click", () => {
-              this.joinEvent(event);
-            });
-          } else {
-            callToActionBtn.classList.remove("btn-outline-primary");
-            callToActionBtn.classList.add("btn-outline-info");
-            callToActionBtn.innerHTML = "Attending";
-          }
+          callToActionBtn.classList.remove("btn-outline-primary");
+          callToActionBtn.classList.add("btn-outline-info");
+          callToActionBtn.innerHTML = "Attending";
+
+          this.setupJoining(event, callToActionBtn);
         } else {
-          this.setupRegisteration(liElement, event, callToActionBtn);
+          this.setupRegisteration(event, callToActionBtn);
         }
       });
     }
@@ -242,7 +240,65 @@ class Classes {
     return liElement;
   }
 
-  setupRegisteration(liElement, event, callToActionBtn) {
+  setupStart(event, callToActionBtn) {
+    const registerEvent = () => {
+      this.eventsView.classList.add("d-none");
+
+      const buyEvent = document.createElement("div");
+      buyEvent.classList.add("card");
+      buyEvent.classList.add("h-100");
+
+      buyEvent.innerHTML = `
+              <div class="card-header">
+                <input class="form-control" type="url" placeholder="Enter Event URL" aria-label="default input example">
+              </div>
+              <div class="card-body">
+              <div class="d-flex justify-content-center">
+                <img src="/images/meeting.svg" alt="meeting" class="img-thumbnail w-50">
+              </div>
+              <h6>${event.title}</h6>
+                <p class="card-text lead">${event.description}</p>
+              </div>
+              <div class="card-footer">
+              <a href="javascript://" class="btn btn-secondary">Cancel</a>
+                <a href="javascript://" class="btn btn-success float-end">Start</a>
+            </div>`;
+      this.eventsView.parentElement.appendChild(buyEvent);
+
+      const textInput = buyEvent.querySelector("input");
+
+      const startButton = buyEvent.querySelector(".btn-success");
+
+      const backToListing = () => {
+        this.eventsView.parentElement.removeChild(buyEvent);
+        this.eventsView.classList.remove("d-none");
+        this.listEvents();
+      };
+
+      startButton.addEventListener("click", () => {
+        fetch("/api/events/" + event.id + "/_start", {
+          method: "POST",
+          headers: window.ApplicationHeader(),
+          body: textInput.value,
+        }).then((response) => {
+          if (response.status === 201) {
+            window.open(response.headers.get("location"), "_gmeet");
+            backToListing();
+          } else {
+            window.error("Event not available ");
+          }
+        });
+      });
+
+      buyEvent.querySelector(".btn-secondary").addEventListener("click", () => {
+        backToListing();
+      });
+    };
+
+    callToActionBtn.addEventListener("click", registerEvent);
+  }
+
+  setupRegisteration(event, callToActionBtn) {
     const registerEvent = () => {
       this.eventsView.classList.add("d-none");
 
@@ -297,7 +353,7 @@ class Classes {
 
   doesStartShortly(eventDate) {
     const now = new Date();
-    now.setMinutes(now.getMinutes() + 10);
+    now.setMinutes(now.getMinutes() + 60);
     return eventDate.getTime() < now;
   }
 }
