@@ -244,13 +244,13 @@ class Classes {
     const registerEvent = () => {
       this.eventsView.classList.add("d-none");
 
-      const buyEvent = document.createElement("div");
-      buyEvent.classList.add("card");
-      buyEvent.classList.add("h-100");
+      const buyEventForm = document.createElement("form");
+      buyEventForm.classList.add("card");
+      buyEventForm.classList.add("h-100");
 
-      buyEvent.innerHTML = `
+      buyEventForm.innerHTML = `
               <div class="card-header">
-                <input class="form-control" type="url" placeholder="Enter Event URL" aria-label="default input example">
+                <input class="form-control" type="url" placeholder="Enter Event URL" aria-label="default input example" required>
               </div>
               <div class="card-body">
               <div class="d-flex justify-content-center">
@@ -261,21 +261,27 @@ class Classes {
               </div>
               <div class="card-footer">
               <a href="javascript://" class="btn btn-secondary">Cancel</a>
-                <a href="javascript://" class="btn btn-success float-end">Start</a>
+                <button type="submit" type="role" class="btn btn-success float-end">Start</a>
             </div>`;
-      this.eventsView.parentElement.appendChild(buyEvent);
+      this.eventsView.parentElement.appendChild(buyEventForm);
 
-      const textInput = buyEvent.querySelector("input");
+      const textInput = buyEventForm.querySelector("input");
 
-      const startButton = buyEvent.querySelector(".btn-success");
+      const startButton = buyEventForm.querySelector("button.btn-success");
 
       const backToListing = () => {
-        this.eventsView.parentElement.removeChild(buyEvent);
+        this.eventsView.parentElement.removeChild(buyEventForm);
         this.eventsView.classList.remove("d-none");
         this.listEvents();
       };
 
-      startButton.addEventListener("click", () => {
+      buyEventForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        console.log("Event is " + event.id);
+        console.log("textInput.value is ", textInput.value);
+
         fetch("/api/events/" + event.id + "/_start", {
           method: "POST",
           headers: window.ApplicationHeader(),
@@ -290,9 +296,11 @@ class Classes {
         });
       });
 
-      buyEvent.querySelector(".btn-secondary").addEventListener("click", () => {
-        backToListing();
-      });
+      buyEventForm
+        .querySelector(".btn-secondary")
+        .addEventListener("click", () => {
+          backToListing();
+        });
     };
 
     callToActionBtn.addEventListener("click", registerEvent);
