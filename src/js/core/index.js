@@ -175,9 +175,10 @@ class Core {
         sessionStorage.auth
       ).profilePicture;
 
-      document
-        .querySelectorAll(".secured")
-        .forEach((el) => el.classList.remove("d-none"));
+      document.querySelectorAll(".secured").forEach((el) => {
+        el.classList.remove("invisible");
+        el.classList.remove("d-none");
+      });
     } else {
       const securedUrls = ["/events"];
 

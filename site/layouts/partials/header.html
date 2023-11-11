@@ -26,8 +26,26 @@
 
     <div class="collapse navbar-collapse px-2" id="navbarMain">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <!-- <li class="nav-item"><a href="/events" class="nav-link px-2 text-muted">Events</a></li> -->
+        <li class="nav-item invisible secured"><a href="/events" class="nav-link px-2 text-muted">Events</a></li>
       </ul>
+
+      <form class="d-flex input-group w-25 invisible secured" role="search">
+          <span id="basic-addon1" class="input-group-text p-0 m-0">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-search"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Events</a></li>
+                <li><a class="dropdown-item" href="#">Books</a></li>
+                <li><a class="dropdown-item" href="#">Organizations</a></li>
+              </ul>
+            </div>
+
+            
+        </span>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
 
       {{ if getenv "BUILD_PRODUCTION" }}
       <a id="login-pane" href="javascript://" class="btn btn-outline-primary text-left mt-1">
