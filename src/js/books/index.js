@@ -1,6 +1,6 @@
 import TextNotes from "./TextNotes";
 import ImageNotes from "./ImageNotes";
-import Classes from "./Classes";
+import Classes from "./classes/Classes";
 
 if (sessionStorage.auth) {
   const contentEl = document.getElementById("content");

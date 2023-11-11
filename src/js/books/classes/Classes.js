@@ -210,7 +210,7 @@ class Classes {
       if (this.doesStartShortly(eventDate)) {
         callToActionBtn.innerHTML = "Start";
         callToActionBtn.addEventListener("click", () => {
-          this.setupStart(event, callToActionBtn);
+          this.setupStart(event);
         });
         this.setupJoining(event, callToActionBtn);
       } else {
@@ -240,15 +240,14 @@ class Classes {
     return liElement;
   }
 
-  setupStart(event, callToActionBtn) {
-    const registerEvent = () => {
-      this.eventsView.classList.add("d-none");
+  setupStart(event) {
+    this.eventsView.classList.add("d-none");
 
-      const buyEventForm = document.createElement("form");
-      buyEventForm.classList.add("card");
-      buyEventForm.classList.add("h-100");
+    const buyEventForm = document.createElement("form");
+    buyEventForm.classList.add("card");
+    buyEventForm.classList.add("h-100");
 
-      buyEventForm.innerHTML = `
+    buyEventForm.innerHTML = `
               <div class="card-header">
                 <input class="form-control" type="url" placeholder="Enter Event URL" aria-label="default input example" required>
               </div>
@@ -263,47 +262,44 @@ class Classes {
               <a href="javascript://" class="btn btn-secondary">Cancel</a>
                 <button type="submit" type="role" class="btn btn-success float-end">Start</a>
             </div>`;
-      this.eventsView.parentElement.appendChild(buyEventForm);
+    this.eventsView.parentElement.appendChild(buyEventForm);
 
-      const textInput = buyEventForm.querySelector("input");
+    const textInput = buyEventForm.querySelector("input");
 
-      const startButton = buyEventForm.querySelector("button.btn-success");
+    const startButton = buyEventForm.querySelector("button.btn-success");
 
-      const backToListing = () => {
-        this.eventsView.parentElement.removeChild(buyEventForm);
-        this.eventsView.classList.remove("d-none");
-        this.listEvents();
-      };
-
-      buyEventForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-
-        console.log("Event is " + event.id);
-        console.log("textInput.value is ", textInput.value);
-
-        fetch("/api/events/" + event.id + "/_start", {
-          method: "POST",
-          headers: window.ApplicationHeader(),
-          body: textInput.value,
-        }).then((response) => {
-          if (response.status === 201) {
-            window.open(response.headers.get("location"), "_gmeet");
-            backToListing();
-          } else {
-            window.error("Event not available ");
-          }
-        });
-      });
-
-      buyEventForm
-        .querySelector(".btn-secondary")
-        .addEventListener("click", () => {
-          backToListing();
-        });
+    const backToListing = () => {
+      this.eventsView.parentElement.removeChild(buyEventForm);
+      this.eventsView.classList.remove("d-none");
+      this.listEvents();
     };
 
-    callToActionBtn.addEventListener("click", registerEvent);
+    buyEventForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      console.log("Event is " + event.id);
+      console.log("textInput.value is ", textInput.value);
+
+      fetch("/api/events/" + event.id + "/_start", {
+        method: "POST",
+        headers: window.ApplicationHeader(),
+        body: textInput.value,
+      }).then((response) => {
+        if (response.status === 201) {
+          window.open(response.headers.get("location"), "_gmeet");
+          backToListing();
+        } else {
+          window.error("Event not available ");
+        }
+      });
+    });
+
+    buyEventForm
+      .querySelector(".btn-secondary")
+      .addEventListener("click", () => {
+        backToListing();
+      });
   }
 
   setupRegisteration(event, callToActionBtn) {
