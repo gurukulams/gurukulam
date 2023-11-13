@@ -5,6 +5,8 @@ class EventCard extends HTMLElement {
   connectedCallback() {
     this.textContent = "Hello World!";
   }
+
+  // Say HEllo
 }
 
 // register component
