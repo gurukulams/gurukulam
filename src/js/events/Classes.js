@@ -4,7 +4,9 @@ class Classes {
     this.chaptersPath = _chaptersPath ? _chaptersPath : "";
 
     this.editView = classesPane.querySelector("#event-form");
-    this.listView = classesPane.querySelector("ul");
+    this.listView = document.createElement("ul");
+    this.listView.classList.add("list-group");
+    classesPane.appendChild(this.listView);
 
     this.titleTxt = classesPane.querySelector("#titleTxt");
     this.descriptionTxt = classesPane.querySelector("#descriptionTxt");
