@@ -82,9 +82,12 @@ export default [{
 {
   input: 'src/js/events/index.js',
   plugins: [
-    eslint({
-      /* your options */
-    })
+        // eslint({
+    //   /* your options */
+    // }),
+    resolve(),
+    commonjs(),
+    babel()
   ],
   output: {
     file: 'dist/js/events.js',
