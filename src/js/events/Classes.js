@@ -196,7 +196,7 @@ class Classes {
     });
 
     if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
-      if (this.doesStartShortly(eventDate)) {
+      if (this.readyToStart(eventDate)) {
         callToActionBtn.innerHTML = "Start";
         callToActionBtn.addEventListener("click", () => {
           this.setupStart(event);
@@ -337,10 +337,13 @@ class Classes {
     });
   }
 
-  doesStartShortly(eventDate) {
-    const now = new Date();
-    now.setMinutes(now.getMinutes() + 60);
-    return eventDate.getTime() < now;
+  readyToStart(eventDate) {
+    const start = new Date();
+    start.setMinutes(start.getMinutes() - 10);
+
+    const end = new Date();
+    end.setMinutes(end.getMinutes() + 10);
+    return eventDate.getTime() > start && eventDate.getTime() < end;
   }
 }
 
