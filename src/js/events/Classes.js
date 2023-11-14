@@ -1,17 +1,8 @@
 import QRious from "qrious";
 class Classes {
-  constructor(_parent) {
-    this.parent = _parent;
-    this.chaptersPath = document.querySelector(
-      "i.fa-chalkboard-user"
-    ).parentElement.dataset.path;
+  constructor(classesPane, _chaptersPath) {
+    this.chaptersPath = _chaptersPath;
 
-    const myOffcanvas = document.getElementById("offcanvas-classes");
-    myOffcanvas.addEventListener("hidden.bs.offcanvas", (event) => {
-      this.showEvents();
-    });
-
-    const classesPane = document.getElementById("offcanvas-classes");
     this.editForm = classesPane.querySelector("#event-form");
     this.eventsView = classesPane.querySelector("ul");
 
@@ -19,14 +10,10 @@ class Classes {
     this.descriptionTxt = classesPane.querySelector("#descriptionTxt");
     this.eventDateTxt = classesPane.querySelector("#eventDateTxt");
 
-    this.deleteEventBtn = classesPane.querySelector("button.btn-danger");
+    this.deleteEventBtn = this.editForm.querySelector("button.btn-danger");
 
     this.deleteEventBtn.addEventListener("on-confirmation", () => {
       this.deleteEvent();
-    });
-
-    classesPane.querySelector("i.fa-plus").addEventListener("click", () => {
-      this.openEvent({});
     });
 
     classesPane

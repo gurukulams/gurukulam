@@ -11,5 +11,17 @@ if (sessionStorage.auth) {
 
   new ImageNotes(contentEl);
 
-  new Classes(contentEl);
+  const classes = new Classes(
+    document.getElementById("event-container"),
+    document.querySelector("i.fa-chalkboard-user").parentElement.dataset.path
+  );
+
+  const myOffcanvas = document.getElementById("offcanvas-classes");
+  myOffcanvas.addEventListener("hidden.bs.offcanvas", () => {
+    classes.showEvents();
+  });
+
+  myOffcanvas.querySelector("i.fa-plus").addEventListener("click", () => {
+    classes.openEvent({});
+  });
 }
