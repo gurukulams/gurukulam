@@ -214,7 +214,8 @@ class Classes {
       }).then((response) => {
         if (response.ok) {
           callToActionBtn.classList.remove("btn-primary");
-          callToActionBtn.classList.add("btn-success");
+          callToActionBtn.classList.add("btn-outline-success");
+          callToActionBtn.disabled = true;
           callToActionBtn.innerHTML = "Attending";
 
           this.setupJoining(event, callToActionBtn);
