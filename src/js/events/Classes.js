@@ -226,8 +226,8 @@ class Classes {
         headers: window.ApplicationHeader(),
       }).then((response) => {
         if (response.ok) {
-          callToActionBtn.classList.remove("btn-outline-primary");
-          callToActionBtn.classList.add("btn-outline-info");
+          callToActionBtn.classList.remove("btn-primary");
+          callToActionBtn.classList.add("btn-success");
           callToActionBtn.innerHTML = "Attending";
 
           this.setupJoining(event, callToActionBtn);
