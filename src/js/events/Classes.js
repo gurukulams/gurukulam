@@ -1,16 +1,16 @@
 import QRious from "qrious";
 class Classes {
   constructor(classesPane, _chaptersPath) {
-    this.chaptersPath = _chaptersPath;
+    this.chaptersPath = _chaptersPath ? _chaptersPath : "";
 
-    this.editForm = classesPane.querySelector("#event-form");
-    this.eventsView = classesPane.querySelector("ul");
+    this.editView = classesPane.querySelector("#event-form");
+    this.listView = classesPane.querySelector("ul");
 
     this.titleTxt = classesPane.querySelector("#titleTxt");
     this.descriptionTxt = classesPane.querySelector("#descriptionTxt");
     this.eventDateTxt = classesPane.querySelector("#eventDateTxt");
 
-    this.deleteEventBtn = this.editForm.querySelector("button.btn-danger");
+    this.deleteEventBtn = this.editView.querySelector("button.btn-danger");
 
     this.deleteEventBtn.addEventListener("on-confirmation", () => {
       this.deleteEvent();
@@ -39,8 +39,8 @@ class Classes {
       ? this.event.description
       : "";
     this.eventDateTxt.value = this.event.eventDate ? this.event.eventDate : "";
-    this.eventsView.classList.add("d-none");
-    this.editForm.classList.remove("d-none");
+    this.listView.classList.add("d-none");
+    this.editView.classList.remove("d-none");
     this.titleTxt.focus();
 
     if (_event.id) {
@@ -103,8 +103,8 @@ class Classes {
   }
 
   showEvents() {
-    this.eventsView.classList.remove("d-none");
-    this.editForm.classList.add("d-none");
+    this.listView.classList.remove("d-none");
+    this.editView.classList.add("d-none");
   }
 
   deleteEvent() {
@@ -144,7 +144,7 @@ class Classes {
   }
 
   listEvents() {
-    this.eventsView.innerHTML = "";
+    this.listView.innerHTML = "";
 
     fetch("/api/events" + this.chaptersPath, {
       method: "GET",
@@ -152,7 +152,7 @@ class Classes {
     })
       .then((response) => {
         if (response.status === 204) {
-          this.eventsView.innerHTML = "There are no events schduled";
+          this.listView.innerHTML = "There are no events schduled";
         }
         return response.json();
       })
@@ -161,7 +161,7 @@ class Classes {
         this.events.forEach((event) => {
           const liElement = this.createEventCard(event);
 
-          this.eventsView.appendChild(liElement);
+          this.listView.appendChild(liElement);
         });
       });
 
@@ -220,7 +220,9 @@ class Classes {
 
           this.setupJoining(event, callToActionBtn);
         } else {
-          this.setupRegisteration(event, callToActionBtn);
+          callToActionBtn.addEventListener("click", () =>
+            this.setupRegisteration(event)
+          );
         }
       });
     }
@@ -229,13 +231,13 @@ class Classes {
   }
 
   setupStart(event) {
-    this.eventsView.classList.add("d-none");
+    this.listView.classList.add("d-none");
 
-    const buyEventForm = document.createElement("form");
-    buyEventForm.classList.add("card");
-    buyEventForm.classList.add("h-100");
+    const startEventForm = document.createElement("form");
+    startEventForm.classList.add("card");
+    startEventForm.classList.add("h-100");
 
-    buyEventForm.innerHTML = `
+    startEventForm.innerHTML = `
               <div class="card-header">
                 <input class="form-control" type="url" placeholder="Enter Event URL" aria-label="default input example" required>
               </div>
@@ -250,25 +252,19 @@ class Classes {
               <a href="javascript://" class="btn btn-secondary">Cancel</a>
                 <button type="submit" type="role" class="btn btn-success float-end">Start</a>
             </div>`;
-    this.eventsView.parentElement.appendChild(buyEventForm);
+    this.listView.parentElement.appendChild(startEventForm);
 
-    const textInput = buyEventForm.querySelector("input");
-
-    const startButton = buyEventForm.querySelector("button.btn-success");
+    const textInput = startEventForm.querySelector("input");
 
     const backToListing = () => {
-      this.eventsView.parentElement.removeChild(buyEventForm);
-      this.eventsView.classList.remove("d-none");
+      this.listView.parentElement.removeChild(startEventForm);
+      this.listView.classList.remove("d-none");
       this.listEvents();
     };
 
-    buyEventForm.addEventListener("submit", (e) => {
+    startEventForm.addEventListener("submit", (e) => {
       e.preventDefault();
       e.stopPropagation();
-
-      console.log("Event is " + event.id);
-      console.log("textInput.value is ", textInput.value);
-
       fetch("/api/events/" + event.id + "/_start", {
         method: "POST",
         headers: window.ApplicationHeader(),
@@ -283,22 +279,21 @@ class Classes {
       });
     });
 
-    buyEventForm
+    startEventForm
       .querySelector(".btn-secondary")
       .addEventListener("click", () => {
         backToListing();
       });
   }
 
-  setupRegisteration(event, callToActionBtn) {
-    const registerEvent = () => {
-      this.eventsView.classList.add("d-none");
+  setupRegisteration(event) {
+    this.listView.classList.add("d-none");
 
-      const buyEvent = document.createElement("div");
-      buyEvent.classList.add("card");
-      buyEvent.classList.add("h-100");
+    const buyEvent = document.createElement("div");
+    buyEvent.classList.add("card");
+    buyEvent.classList.add("h-100");
 
-      buyEvent.innerHTML = `
+    buyEvent.innerHTML = `
               <div class="card-body">
               <div class="d-flex justify-content-center d-none">
                 <canvas id="qr" class="w-50"></canvas>
@@ -310,37 +305,34 @@ class Classes {
               <a href="javascript://" class="btn btn-secondary">Cancel</a>
                 <a href="javascript://" class="btn btn-success float-end">&#8377; 10 | Register</a>
             </div>`;
-      this.eventsView.parentElement.appendChild(buyEvent);
+    this.listView.parentElement.appendChild(buyEvent);
 
-      const regButton = buyEvent.querySelector(".btn-success");
-      const qrEl = buyEvent.querySelector("#qr");
-      const backToListing = () => {
-        this.eventsView.parentElement.removeChild(buyEvent);
-        this.eventsView.classList.remove("d-none");
-        this.listEvents();
-      };
-
-      var qr = new QRious({
-        element: qrEl,
-        value: "https://github.com/neocotic/qrious",
-      });
-      qrEl.parentElement.classList.remove("d-none");
-      regButton.addEventListener("click", () => {
-        fetch("/api/events/" + event.id, {
-          method: "POST",
-          headers: window.ApplicationHeader(),
-        }).then(() => {
-          window.success("Event registered successfully");
-          backToListing();
-        });
-      });
-
-      buyEvent.querySelector(".btn-secondary").addEventListener("click", () => {
-        backToListing();
-      });
+    const regButton = buyEvent.querySelector(".btn-success");
+    const qrEl = buyEvent.querySelector("#qr");
+    const backToListing = () => {
+      this.listView.parentElement.removeChild(buyEvent);
+      this.listView.classList.remove("d-none");
+      this.listEvents();
     };
 
-    callToActionBtn.addEventListener("click", registerEvent);
+    var qr = new QRious({
+      element: qrEl,
+      value: "https://github.com/neocotic/qrious",
+    });
+    qrEl.parentElement.classList.remove("d-none");
+    regButton.addEventListener("click", () => {
+      fetch("/api/events/" + event.id, {
+        method: "POST",
+        headers: window.ApplicationHeader(),
+      }).then(() => {
+        window.success("Event registered successfully");
+        backToListing();
+      });
+    });
+
+    buyEvent.querySelector(".btn-secondary").addEventListener("click", () => {
+      backToListing();
+    });
   }
 
   doesStartShortly(eventDate) {
