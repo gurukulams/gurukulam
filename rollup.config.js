@@ -15,6 +15,20 @@ export default [{
     file: 'dist/js/app.js',
     format: 'cjs'
   }
+},{
+  input: 'src/js/home/index.js',
+  plugins: [
+    // eslint({
+    //   /* your options */
+    // }),
+    resolve(),
+    commonjs(),
+    babel()
+  ],
+  output: {
+    file: 'dist/js/home.js',
+    format: 'cjs'
+  }
 }, {
   input: 'src/js/welcome/index.js',
   plugins: [
@@ -76,21 +90,6 @@ export default [{
   ],
   output: {
     file: 'dist/js/search.js',
-    format: 'cjs'
-  }
-},
-{
-  input: 'src/js/events/index.js',
-  plugins: [
-        // eslint({
-    //   /* your options */
-    // }),
-    resolve(),
-    commonjs(),
-    babel()
-  ],
-  output: {
-    file: 'dist/js/events.js',
     format: 'cjs'
   }
 }

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container">
+<main class="container-fluid h-100">
 
 
   <div class="row">
@@ -9,7 +9,7 @@
         கண்ணென்ப வாழும் உயிர்க்கு <cite title="குறள் எண்:392">குறள் எண்:392</cite></p>
       <p>
         <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
 </button> -->
 
@@ -33,33 +33,72 @@
 
 
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
 
-        {{ range (where .Site.Pages "Section" "publications") }}
+    {{ range (where .Site.Pages "Section" "publications") }}
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="text-decoration-none">
+      <div class="col d-flex align-items-start"><i class="fa-solid fa-book-open-reader fa-2x"></i>
+        <div class="px-2">
+          <h3 class="fw-bold mb-0 fs-4">{{ .Title }}</h3>
+          <p>{{ .Description }}</p>
+        </div>
+      </div>
+    </a>
+    {{ end }}
+    {{ end }}
+
+
+
+  </div>
+
+
+</main>
+
+<template id="personal-home">
+  <div class="row">
+    <div class="col card">
+        <div class="card-header">
+          Events
+        </div>
+        <div id="event-container" class="card-body">
+          {{ partial "event-manager" . }}
+        </div>
+    </div>
+    <div class="col card">
+      <div class="card-header">
+        Subjects
+      </div>
+      <div class="card-body">
+        <ul class="list-group">
+          {{ range (where .Site.Pages "Section" "publications") }}
           {{ range .Pages }}
-          <a href="{{ .Permalink }}"
-          class="text-decoration-none">
-          <div class="col d-flex align-items-start"><i class="fa-solid fa-book-open-reader fa-2x"></i>
-            <div class="px-2">
-              <h3 class="fw-bold mb-0 fs-4">{{ .Title }}</h3>
-              <p>{{ .Description }}</p>
-            </div>
-          </div>
-        </a>
+          <li class="list-group-item">
+            <a href="{{ .Permalink }}" class="text-decoration-none">
+              <div class="col d-flex align-items-start"><i class="fa-solid fa-book-open-reader fa-2x"></i>
+                <div class="px-2">
+                  <h3 class="fw-bold mb-0 fs-4">{{ .Title }}</h3>
+                  <p>{{ .Description }}</p>
+                </div>
+              </div>
+            </a>
+          </li>
           {{ end }}
-        {{ end }}
-
-
+          {{ end }}
+        </ul>
+      </div>
+  </div>
+  <div class="col card">
+    <div class="card-header">
+      Organizations
+    </div>
+    <div class="card-body">
+      
+    </div>
 </div>
-
-
-
-
-
-
-
-
-</div>
+  </div>
+  
+</template>
 
 
 
