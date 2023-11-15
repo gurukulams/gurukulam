@@ -1,0 +1,66 @@
+<form id="org-form" class="card h-100 d-none">
+    <div class="card-body">
+
+      <div class="mb-3">
+        <label for="idTxt" class="col-form-label">Id</label>
+        <input class="form-control" id="idTxt" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="typeSelect" class="col-form-label">Type</label>
+        <select id="typeSelect" class="form-select" aria-label="Default select example" required>
+          <option value="company">Company</option>
+          <option value="school">School</option>
+          <option value="community">Community</option>
+        </select>
+      </div>
+
+    <div class="mb-3">
+      <label for="titleTxt" class="col-form-label">Title</label>
+      <input class="form-control" id="titleTxt" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="imageUrlTxt" class="col-form-label">Image URL</label>
+      <input type="url" class="form-control" id="imageUrlTxt" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="descriptionTxt" class="col-form-label">Description</label>
+      <textarea class="form-control" id="descriptionTxt" required></textarea>
+    </div>
+  </div>
+    <div class="card-footer">
+
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <i class="far fa-trash-alt" title="Delete"></i>
+    </button>
+
+    <button type="button" class="btn btn-secondary">Cancel</button>
+
+    <button type="submit" class="btn btn-primary float-end">Save</button>
+  </div>
+  </form>
+
+
+  <template id="org-card">
+    <li class="list-group-item card">
+      <div class="card-body">
+        <div class="d-flex gap-2">
+          <img src="#" class="img-circle img-thumbnail avatar"
+            style="vertical-align:middle;border-radius:50%;width:3rem;margin-right:10px" alt="avatar">
+          <div>
+            <h5 class="card-title">Jerry's Event</h5>
+            <h6 class="card-subtitle mb-2 text-primary">jerry</h6>
+          </div>
+        </div>
+        <p class="card-text pt-2">Jerry's Event Happening</p>
+      </div>
+      <div class="card-footer">
+        <i class="fa-regular fa-calendar pe-1"></i><small class="card-link">Company</small>
+        <button type="button" class="btn btn-primary float-end" role="button">
+          &#8377; 10 | Register
+        </button>
+      </div>
+    </li>
+  </template>

@@ -1,4 +1,5 @@
 import Classes from "../events/Classes";
+import Organizations from "../orgs/Organizations";
 
 class Home {
   constructor() {
@@ -17,6 +18,14 @@ class Home {
       mainContainer.appendChild(personalContent);
 
       new Classes(document.getElementById("event-container"));
+
+      const organizations = new Organizations(
+        document.getElementById("org-container")
+      );
+
+      document.querySelector("i.fa-plus").addEventListener("click", () => {
+        organizations.openEvent({});
+      });
     }
   }
 }
