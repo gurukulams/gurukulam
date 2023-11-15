@@ -23,9 +23,13 @@ class Home {
         document.getElementById("org-container")
       );
 
-      document.querySelector("i.fa-plus").addEventListener("click", () => {
-        organizations.openEvent({});
-      });
+      if (window.hasFeature("MANAGE_ORG")) {
+        const createOrgBtn = document.querySelector("i.fa-plus");
+        createOrgBtn.classList.remove("d-none");
+        createOrgBtn.addEventListener("click", () => {
+          organizations.openEvent({});
+        });
+      }
     }
   }
 }

@@ -42,6 +42,13 @@ class Core {
       return authObj.authToken;
     };
 
+    window.hasFeature = (feature) => {
+      const authObj = JSON.parse(sessionStorage.auth);
+      console.log(authObj.features);
+
+      return authObj.features && authObj.features.includes(feature);
+    };
+
     window.ApplicationHeader = () => {
       const header = {
         "content-type": "application/json",
