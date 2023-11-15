@@ -59,7 +59,7 @@
   <div class="row">
     <div class="col card">
         <div class="card-header">
-          Events
+          <span class="h5"><i class="fa-regular fa-calendar-days pe-2"></i>Events</span>
         </div>
         <div id="event-container" class="card-body">
           {{ partial "event-manager" . }}
@@ -67,7 +67,7 @@
     </div>
     <div class="col card">
       <div class="card-header">
-        Subjects
+        <span class="h5"><i class="fa-solid fa-book pe-2"></i> Subjects</span>
       </div>
       <div class="card-body">
         <ul class="list-group">
@@ -90,7 +90,9 @@
   </div>
   <div class="col card">
     <div class="card-header">
-      Organizations
+      <span class="h5"><i class="fa-regular fa-building pe-2"></i>Organizations</span>
+      <i class="fa-solid fa-plus float-end" data-bs-toggle="tooltip"
+      data-bs-placement="bottom" title="Create Organization"></i>
     </div>
     <div class="card-body">
       
