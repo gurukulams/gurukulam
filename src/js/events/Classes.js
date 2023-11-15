@@ -155,6 +155,7 @@ class Classes {
       .then((response) => {
         if (response.status === 204) {
           this.listView.innerHTML = "There are no events schduled";
+          return [];
         }
         return response.json();
       })

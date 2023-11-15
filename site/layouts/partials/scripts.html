@@ -4,9 +4,7 @@
 
 
 
-{{ if .IsHome }}
 
-{{ else }}
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -117,7 +115,7 @@
     brd1.create('text',[-6,-3,function(){ return 'Sum='+(JXG.Math.Numerics.riemannsum(f,s.Value(),'left',a.Value(),b.Value())).toFixed(4); }]);
     </script>
     {{ end }}  
-{{ end }}
+
 
 {{ if getenv "BUILD_PRODUCTION" }}
 {{ else }}
