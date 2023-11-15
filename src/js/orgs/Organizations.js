@@ -200,7 +200,7 @@ class Organizations {
           callToActionBtn.classList.remove("btn-primary");
           callToActionBtn.classList.add("btn-outline-success");
           callToActionBtn.disabled = true;
-          callToActionBtn.innerHTML = "Attending";
+          callToActionBtn.innerHTML = "Subscribed";
 
           this.setupJoining(event, callToActionBtn);
         } else {
