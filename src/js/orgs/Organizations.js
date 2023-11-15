@@ -119,28 +119,6 @@ class Organizations {
     }
   }
 
-  setupJoining(event, callToActionBtn) {
-    fetch("/api/orgs/" + event.userHandle + "/_join", {
-      method: "POST",
-      headers: window.ApplicationHeader(),
-    }).then((response) => {
-      if (response.status === 201) {
-        const joinLink = document.createElement("a");
-        joinLink.classList.add("btn");
-        joinLink.classList.add("btn-success");
-        joinLink.classList.add("float-end");
-        joinLink.target = "_GMEET";
-        joinLink.innerHTML = "Join";
-        joinLink.href = response.headers.get("location");
-
-        const parentElement = callToActionBtn.parentElement;
-
-        parentElement.removeChild(callToActionBtn);
-        parentElement.appendChild(joinLink);
-      }
-    });
-  }
-
   listEvents() {
     this.listView.innerHTML = "";
 
@@ -158,7 +136,7 @@ class Organizations {
       .then((_events) => {
         this.events = _events;
         this.events.forEach((event) => {
-          const liElement = this.createEventCard(event);
+          const liElement = this.createOrgCard(event);
 
           this.listView.appendChild(liElement);
         });
@@ -167,7 +145,14 @@ class Organizations {
     this.showEvents();
   }
 
-  createEventCard(event) {
+  getOrgTypeForDisplay(orgType) {
+    let option = [...this.typeSelect.options].filter(
+      (o) => o.value === orgType
+    );
+    return option[0].text;
+  }
+
+  createOrgCard(event) {
     const liElement = document
       .querySelector("#org-card")
       .content.cloneNode(true);
@@ -176,7 +161,9 @@ class Organizations {
     liElement.querySelector(".card-text").innerHTML = event.description;
     liElement.querySelector("img").src = event.imageUrl;
 
-    liElement.querySelector(".card-link").innerHTML = event.orgType;
+    liElement.querySelector(".card-link").innerHTML = this.getOrgTypeForDisplay(
+      event.orgType
+    );
 
     const callToActionBtn = liElement.querySelector("button.btn");
     const nameEl = liElement.querySelector(".card-subtitle");
@@ -201,8 +188,6 @@ class Organizations {
           callToActionBtn.classList.add("btn-outline-success");
           callToActionBtn.disabled = true;
           callToActionBtn.innerHTML = "Subscribed";
-
-          this.setupJoining(event, callToActionBtn);
         } else {
           callToActionBtn.addEventListener("click", () =>
             this.setupRegisteration(event)
