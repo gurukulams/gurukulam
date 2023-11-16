@@ -58,13 +58,16 @@
 <template id="personal-home">
   <div class="row">
     <div class="col card px-2">
-        <div class="card-header">
-          <span class="h5"><i class="fa-regular fa-calendar-days pe-2"></i>Events</span>
-        </div>
-        <div id="event-container" class="card-body">
-          {{ partial "event-manager" . }}
-        </div>
-    </div>
+      <div class="card-header">
+        <span class="h5"><i class="fa-regular fa-building pe-2"></i>Organizations</span>
+        <i class="fa-solid fa-plus d-none float-end" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" title="Create Organization"></i>
+      </div>
+      <div id="org-container" class="card-body">
+        {{ partial "org-manager" . }}
+      </div>
+  </div>
+
     <div class="col card px-2">
       <div class="card-header">
         <span class="h5"><i class="fa-solid fa-book pe-2"></i> Subjects</span>
@@ -72,17 +75,27 @@
       <div class="card-body">
         <ul class="list-group">
 
-          {{ range $.Site.Data.publications.csebooks.books }}
+          {{ $data_file := "csebooks" }}
+
+          {{ if ne .Language.Lang "en" }}
+            {{ $data_file = printf "%s%s%s" $data_file "." .Language.Lang }}
+          {{ end }}
+
+
+          {{ with ( index $.Site.Data.publications $data_file) }}
+
+          {{ range .books }}
             <li class="list-group-item">
-                <div class="col-sm-6 col-xl-4 mt-4">
-                  <a href="/books/csebooks/{{.path}}" class="card border-0 rounded-3 text-decoration-none">
-                      <div class="card-body">
-                        <h3 class="h5 mb-3 text-primary">{{.fields.title}}</h3>
-                        <p class="mb-0 text-black">{{.fields.description}}</p>
-                      </div>
+                
+                  <a href="/books/csebooks/{{.path}}" >
+         
+                        {{.fields.title}}
+
                   </a>
-                </div>
+                
             </li>
+          {{ end }}
+
           {{ end }}
 
 
@@ -90,16 +103,16 @@
         </ul>
       </div>
   </div>
+
   <div class="col card px-2">
     <div class="card-header">
-      <span class="h5"><i class="fa-regular fa-building pe-2"></i>Organizations</span>
-      <i class="fa-solid fa-plus d-none float-end" data-bs-toggle="tooltip"
-      data-bs-placement="bottom" title="Create Organization"></i>
+      <span class="h5"><i class="fa-regular fa-calendar-days pe-2"></i>Events</span>
     </div>
-    <div id="org-container" class="card-body">
-      {{ partial "org-manager" . }}
+    <div id="event-container" class="card-body">
+      {{ partial "event-manager" . }}
     </div>
 </div>
+
   </div>
   
 </template>
