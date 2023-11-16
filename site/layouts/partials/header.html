@@ -1,5 +1,23 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white py-0 fixed-top">
   <div class="container-fluid border-bottom border-top-1 shadow-sm bg-body">
+    <div class="btn-group bg-light">
+            
+      <div class="d-flex bd-highlight">
+        <a class="btn btn-toggle pe-0" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="flex-shrink-1 bd-highlight dropdown">
+          <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="img-circle img-thumbnail avatar"
+            style="vertical-align: middle;border-radius: 50%; width: 3rem; margin-right: 10px;" alt="avatar">
+        </div>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="dropdown03">
+        <!-- <li><a class="dropdown-item" href="/profiles/tom">Profile</a></li> -->
+        <!-- <li><a class="dropdown-item" href="/campuses/tamil-sangam">Campus</a></li> -->
+        <li><a class="dropdown-item logout" href="javascript://">Logout</a></li>
+      </ul>
+
+      </div>
+    
+  </div>
     <span class="navbar-brand lh-1">
       <a href="/{{ if ne .Page.Language.Lang "en" }}{{.Language.Lang}}{{ end }}" class="h5 text-decoration-none"><strong>Gurukulams</strong></a><br>
       
@@ -60,40 +78,6 @@
       <ul class="navbar-nav d-none secured">
         
 
-        <li class="nav-item">
-
-          <div class="btn-group bg-light">
-            
-              <div class="d-flex bd-highlight">
-                <!-- <div class="w-100 bd-highlight text-end">
-                  <div class="dropdown" id="boardsDropdown">
-                    <a href="javascript://" class="text-decoration-none h6 fw-bold"  data-bs-toggle="dropdown" aria-expanded="false">
-                      Board
-                    </a>
-                  
-                  </div>
-                  <div class="dropdown" id="dropdownMenuButton2">
-                    <a href="javascript://" class="text-decoration-none "  data-bs-toggle="dropdown" aria-expanded="false">
-                      Grade
-                    </a>
-                  </div>
-                </div> -->
-                <a class="btn btn-toggle pe-0" data-bs-toggle="dropdown" aria-expanded="false">
-                <div class="flex-shrink-1 bd-highlight dropdown">
-                  <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="img-circle img-thumbnail avatar"
-                    style="vertical-align: middle;border-radius: 50%; width: 3rem; margin-right: 10px;" alt="avatar">
-                </div>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                <!-- <li><a class="dropdown-item" href="/profiles/tom">Profile</a></li> -->
-                <!-- <li><a class="dropdown-item" href="/campuses/tamil-sangam">Campus</a></li> -->
-                <li><a class="dropdown-item logout" href="javascript://">Logout</a></li>
-              </ul>
-
-              </div>
-            
-          </div>
-        </li>
       </ul>
     </div>
   </div>
