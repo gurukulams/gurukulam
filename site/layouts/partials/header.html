@@ -30,21 +30,7 @@
       </ul>
 
       <form class="d-flex input-group w-25 invisible secured" role="search">
-          <span id="basic-addon1" class="input-group-text p-0 m-0">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fas fa-search"></i>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Events</a></li>
-                <li><a class="dropdown-item" href="#">Subjects</a></li>
-                <li><a class="dropdown-item" href="#">Organizations</a></li>
-              </ul>
-            </div>
-
-            
-        </span>
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" autofocus>
       </form>
 
       {{ if getenv "BUILD_PRODUCTION" }}

@@ -57,7 +57,7 @@
 
 <template id="personal-home">
   <div class="row">
-    <div class="col card">
+    <div class="col card px-2">
         <div class="card-header">
           <span class="h5"><i class="fa-regular fa-calendar-days pe-2"></i>Events</span>
         </div>
@@ -65,30 +65,32 @@
           {{ partial "event-manager" . }}
         </div>
     </div>
-    <div class="col card">
+    <div class="col card px-2">
       <div class="card-header">
         <span class="h5"><i class="fa-solid fa-book pe-2"></i> Subjects</span>
       </div>
       <div class="card-body">
         <ul class="list-group">
-          {{ range (where .Site.Pages "Section" "publications") }}
-          {{ range .Pages }}
-          <li class="list-group-item">
-            <a href="{{ .Permalink }}" class="text-decoration-none">
-              <div class="col d-flex align-items-start"><i class="fa-solid fa-book-open-reader fa-2x"></i>
-                <div class="px-2">
-                  <h3 class="fw-bold mb-0 fs-4">{{ .Title }}</h3>
-                  <p>{{ .Description }}</p>
+
+          {{ range $.Site.Data.publications.csebooks.books }}
+            <li class="list-group-item">
+                <div class="col-sm-6 col-xl-4 mt-4">
+                  <a href="/books/csebooks/{{.path}}" class="card border-0 rounded-3 text-decoration-none">
+                      <div class="card-body">
+                        <h3 class="h5 mb-3 text-primary">{{.fields.title}}</h3>
+                        <p class="mb-0 text-black">{{.fields.description}}</p>
+                      </div>
+                  </a>
                 </div>
-              </div>
-            </a>
-          </li>
+            </li>
           {{ end }}
-          {{ end }}
+
+
+          
         </ul>
       </div>
   </div>
-  <div class="col card">
+  <div class="col card px-2">
     <div class="card-header">
       <span class="h5"><i class="fa-regular fa-building pe-2"></i>Organizations</span>
       <i class="fa-solid fa-plus d-none float-end" data-bs-toggle="tooltip"
