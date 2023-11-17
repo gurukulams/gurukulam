@@ -60,13 +60,13 @@
     <div class="col card px-2">
       <div class="card-header">
         <span class="h5"><i class="fa-regular fa-building pe-2"></i>Organizations</span>
-        <i class="fa-solid fa-plus d-none float-end" data-bs-toggle="tooltip"
-        data-bs-placement="bottom" title="Create Organization"></i>
+        <i class="fa-solid fa-plus d-none float-end" data-bs-toggle="tooltip" data-bs-placement="bottom"
+          title="Create Organization"></i>
       </div>
       <div id="org-container" class="card-body">
         {{ partial "org-manager" . }}
       </div>
-  </div>
+    </div>
 
     <div class="col card px-2">
       <div class="card-header">
@@ -78,42 +78,53 @@
           {{ $data_file := "csebooks" }}
 
           {{ if ne .Language.Lang "en" }}
-            {{ $data_file = printf "%s%s%s" $data_file "." .Language.Lang }}
+          {{ $data_file = printf "%s%s%s" $data_file "." .Language.Lang }}
           {{ end }}
 
 
           {{ with ( index $.Site.Data.publications $data_file) }}
 
           {{ range .books }}
-            <li class="list-group-item">
-                
-                  <a href="/books/csebooks/{{.path}}" >
-         
-                        {{.fields.title}}
 
-                  </a>
-                
-            </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="/books/csebooks/{{.path}}">{{.fields.title}}</a>
+            <div class="d-flex justify-content-end">
+              <button class="btn" role="button">
+                <i class="fas fa-user-check" title="Practices"></i>
+              </button>
+              <button class="btn" role="button">
+                <i class="fa-solid fa-chalkboard-user" title="Classes"></i>
+              </button>
+            </div>
+          </li>
+
+
+
+
+
+
+
           {{ end }}
 
           {{ end }}
 
 
-          
+
         </ul>
       </div>
+    </div>
+
+    <div class="col card px-2">
+      <div class="card-header">
+        <span class="h5"><i class="fa-solid fa-chalkboard-user pe-2"></i>Classes</span>
+      </div>
+      <div id="event-container" class="card-body">
+        {{ partial "event-manager" . }}
+      </div>
+    </div>
+
   </div>
 
-  <div class="col card px-2">
-    <div class="card-header">
-      <span class="h5"><i class="fa-regular fa-calendar-days pe-2"></i>Events</span>
-    </div>
-    <div id="event-container" class="card-body">
-      {{ partial "event-manager" . }}
-    </div>
-</div>
-
-  </div>
-  
 </template>
 {{ end }}

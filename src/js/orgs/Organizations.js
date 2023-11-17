@@ -166,11 +166,6 @@ class Organizations {
     );
 
     const callToActionBtn = liElement.querySelector("button.btn");
-    const nameEl = liElement.querySelector(".card-subtitle");
-
-    window.getUser(event.createdBy).then((user) => {
-      nameEl.innerHTML = user.name;
-    });
 
     if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {
       callToActionBtn.innerHTML =
