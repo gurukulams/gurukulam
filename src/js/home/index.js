@@ -17,7 +17,18 @@ class Home {
 
       mainContainer.appendChild(personalContent);
 
-      new Classes(document.getElementById("event-container"));
+      const classes = new Classes(document.getElementById("event-container"));
+
+      mainContainer
+        .querySelectorAll("i.fa-chalkboard-user")
+        .forEach((eventsBtn) => {
+          eventsBtn.addEventListener("click", (event) => {
+            classes.setChaptersPath(
+              event.currentTarget.parentElement.parentElement.parentElement
+                .dataset.path
+            );
+          });
+        });
 
       const organizations = new Organizations(
         document.getElementById("org-container")

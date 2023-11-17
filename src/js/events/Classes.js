@@ -1,8 +1,6 @@
 import QRious from "qrious";
 class Classes {
   constructor(classesPane, _chaptersPath) {
-    this.chaptersPath = _chaptersPath ? _chaptersPath : "";
-
     this.editView = classesPane.querySelector("#event-form");
     this.listView = document.createElement("ul");
     this.listView.classList.add("list-group");
@@ -31,6 +29,11 @@ class Classes {
         this.listEvents();
       });
 
+    this.setChaptersPath(_chaptersPath);
+  }
+
+  setChaptersPath(_chaptersPath) {
+    this.chaptersPath = _chaptersPath ? _chaptersPath : "";
     this.listEvents();
   }
 

@@ -87,16 +87,20 @@
           {{ range .books }}
 
 
-          <li class="list-group-item d-flex justify-content-between align-items-center">
+          <li class="list-group-item d-flex justify-content-between align-items-center"
+              
+          {{ if .fields.chaptersPath }}data-path="{{ .fields.chaptersPath }}"{{ end }}>
             <a href="/books/csebooks/{{.path}}">{{.fields.title}}</a>
+            {{ if .fields.chaptersPath }}
             <div class="d-flex justify-content-end">
-              <button class="btn" role="button">
+              <a class="btn" href="/questions{{ .fields.chaptersPath }}" role="button">
                 <i class="fas fa-user-check" title="Practices"></i>
-              </button>
+              </a>
               <button class="btn" role="button">
                 <i class="fa-solid fa-chalkboard-user" title="Classes"></i>
               </button>
             </div>
+            {{ end }}
           </li>
 
 

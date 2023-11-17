@@ -3,10 +3,12 @@ books:
     fields:
       title: C Programming
       description: C Programming Notes.
+      chaptersPath: /cse/languages/c
   - path: java-programming
     fields:
       title: Java Programming
       description: Java Programming Notes.
+      chaptersPath: /cse/languages/java
   - path: cybersecurity
     fields:
       title: CyberSecurity
