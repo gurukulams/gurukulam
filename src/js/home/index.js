@@ -17,16 +17,30 @@ class Home {
 
       mainContainer.appendChild(personalContent);
 
-      const classes = new Classes(document.getElementById("event-container"));
+      const classContainer = document.getElementById("event-container");
+      const classHeader = classContainer.previousSibling.querySelector("span");
+      const classCloseBtn =
+        classContainer.previousSibling.querySelector("button.btn-close");
+      const originalClassesTitle = classHeader.innerHTML;
+
+      classCloseBtn.addEventListener("click", () => {
+        classHeader.innerHTML = originalClassesTitle;
+        classes.setChaptersPath(null);
+        classCloseBtn.classList.add("d-none");
+      });
+
+      const classes = new Classes(classContainer);
 
       mainContainer
         .querySelectorAll("i.fa-chalkboard-user")
         .forEach((eventsBtn) => {
           eventsBtn.addEventListener("click", (event) => {
-            classes.setChaptersPath(
-              event.currentTarget.parentElement.parentElement.parentElement
-                .dataset.path
-            );
+            const liElement =
+              event.currentTarget.parentElement.parentElement.parentElement;
+            classHeader.innerHTML =
+              liElement.firstChild.innerHTML + " " + originalClassesTitle;
+            classes.setChaptersPath(liElement.dataset.path);
+            classCloseBtn.classList.remove("d-none");
           });
         });
 
