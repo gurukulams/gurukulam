@@ -183,9 +183,6 @@ class Core {
 
       document.querySelector(".avatar").src = userAuth.profilePicture;
 
-      document.getElementById("profileBtn").href =
-        "/profile/" + userAuth.userName;
-
       document.querySelectorAll(".secured").forEach((el) => {
         el.classList.remove("invisible");
         el.classList.remove("d-none");

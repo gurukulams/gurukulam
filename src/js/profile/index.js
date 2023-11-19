@@ -3,6 +3,10 @@ import Organizations from "../orgs/Organizations";
 class Profile {
   constructor() {
     if (sessionStorage.auth) {
+      document.querySelector(".card-header>.h5").innerHTML = JSON.parse(
+        sessionStorage.auth
+      ).displayName;
+
       document.querySelector(".card-body>img.img-thumbnail").src =
         document.querySelector(".avatar").src;
 
