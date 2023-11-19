@@ -43,18 +43,6 @@ class Home {
             classCloseBtn.classList.remove("d-none");
           });
         });
-
-      const organizations = new Organizations(
-        document.getElementById("org-container")
-      );
-
-      if (window.hasFeature("MANAGE_ORG")) {
-        const createOrgBtn = document.querySelector("i.fa-plus");
-        createOrgBtn.classList.remove("d-none");
-        createOrgBtn.addEventListener("click", () => {
-          organizations.openEvent({});
-        });
-      }
     }
   }
 }

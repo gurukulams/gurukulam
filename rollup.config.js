@@ -29,6 +29,20 @@ export default [{
     file: 'dist/js/home.js',
     format: 'cjs'
   }
+},{
+  input: 'src/js/profile/index.js',
+  plugins: [
+    // eslint({
+    //   /* your options */
+    // }),
+    resolve(),
+    commonjs(),
+    babel()
+  ],
+  output: {
+    file: 'dist/js/profile.js',
+    format: 'cjs'
+  }
 }, {
   input: 'src/js/welcome/index.js',
   plugins: [

@@ -174,13 +174,17 @@ class Core {
       //this.loadBoards();
       document.getElementById("login-pane").remove("d-none");
 
-      document.querySelector(".logout").addEventListener("click", () => {
+      document.getElementById("logoutBtn").addEventListener("click", () => {
         delete sessionStorage.auth;
         window.location.reload();
       });
-      document.querySelector(".avatar").src = JSON.parse(
-        sessionStorage.auth
-      ).profilePicture;
+
+      const userAuth = JSON.parse(sessionStorage.auth);
+
+      document.querySelector(".avatar").src = userAuth.profilePicture;
+
+      document.getElementById("profileBtn").href =
+        "/profile/" + userAuth.userName;
 
       document.querySelectorAll(".secured").forEach((el) => {
         el.classList.remove("invisible");
