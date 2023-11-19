@@ -3,6 +3,10 @@ import Organizations from "../orgs/Organizations";
 class Profile {
   constructor() {
     if (sessionStorage.auth) {
+      const urlTokens = window.location.pathname.split("/profile/");
+
+      console.log(urlTokens);
+
       document.querySelector(".card-header>.h5").innerHTML = JSON.parse(
         sessionStorage.auth
       ).displayName;
@@ -21,6 +25,8 @@ class Profile {
           organizations.openEvent({});
         });
       }
+    } else {
+      location.href = "/";
     }
   }
 }

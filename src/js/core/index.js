@@ -44,8 +44,6 @@ class Core {
 
     window.hasFeature = (feature) => {
       const authObj = JSON.parse(sessionStorage.auth);
-      console.log(authObj.features);
-
       return authObj.features && authObj.features.includes(feature);
     };
 
