@@ -1,19 +1,21 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div class="container-fluid">
-  <div class="row justify-content-center">
+
+  <nav class="navbar">
+    <span class="h3" id="handleName">Foundation</span>
+    <div class="d-flex justify-content-end">
+      <button id="subscribeBtn" type="button" class="btn btn-primary float-end d-none" role="button">
+        ₹ 10 | Register
+      </button>
+    </div>
+  </nav>
+
+  <div id="orgContainer" class="row justify-content-center">
      
 
       <div class="col-md-7 col-lg-3 mb-5 mb-lg-0">
         <div class="card border-0 shadow">
-
-          <div class="card-header">
-            <span class="h5">{{.Title}}</span>
-          </div>
-
-    
-            
             <div class="card-body">
-              
               <img src="/images/tom.png" class="img-thumbnail w-100" alt="...">
            
               <div class="d-flex justify-content-between pt-2">
@@ -33,62 +35,79 @@
   
     <div class="col-lg-9">
       <div class="ps-lg-1-6 ps-xl-5">
-          <div id="descriptionTxt" class="lead">
-            Gello
+          <div id="descriptionTxt" class="lead p-3">
+            
           </div>
 
-          <div class="card">
-            <div class="card-header">
-              <span class="h4">Organizations</span>
-              <i class="fa-solid fa-search float-end" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                title="Add Organization"></i>
-              <i class="fa-solid fa-plus d-none float-end" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                title="Create Organization"></i>
+          <div id="companySection" class="py-2 d-none">
+            <div class="text-start mb-1-6 wow fadeIn">
+                <h4 class="mb-0 text-primary">Experience</h4>
             </div>
-            <div id="org-container" class="card-body">
-              {{ partial "org-manager" . }}
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="schoolSection" class="py-2 d-none">
+            <div class="text-start mb-1-6 wow fadeIn">
+                <h4 class="mb-0 text-primary">School</h4>
             </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="collegeSection" class="py-2 d-none">
+            <div class="text-start mb-1-6 wow fadeIn">
+                <h4 class="mb-0 text-primary">College</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="communitySection" class="py-2 d-none">
+            <div class="text-start mb-1-6 wow fadeIn">
+                <h4 class="mb-0 text-primary">Community</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="instituteSection" class="py-2 d-none">
+            <div class="text-start mb-1-6 wow fadeIn">
+                <h4 class="mb-0 text-primary">Institute</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
           </div>
 
 
-          <div class="wow fadeIn">
-              <div class="text-start mb-1-6 wow fadeIn">
-                  <h2 class="mb-0 text-primary">Skills &amp; Experience</h2>
-              </div>
-              <p class="mb-4">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.</p>
-              <div class="progress-style1">
-                  <div class="progress-text">
-                      <div class="row">
-                          <div class="col-6 fw-bold">Wind Turbines</div>
-                          <div class="col-6 text-end">70%</div>
-                      </div>
-                  </div>
-                  <div class="custom-progress progress rounded-3 mb-4">
-                      <div class="animated custom-bar progress-bar slideInLeft" style="width:70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                  </div>
-                  <div class="progress-text">
-                      <div class="row">
-                          <div class="col-6 fw-bold">Solar Panels</div>
-                          <div class="col-6 text-end">90%</div>
-                      </div>
-                  </div>
-                  <div class="custom-progress progress rounded-3 mb-4">
-                      <div class="animated custom-bar progress-bar bg-secondary slideInLeft" style="width:90%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar"></div>
-                  </div>
-                  <div class="progress-text">
-                      <div class="row">
-                          <div class="col-6 fw-bold">Hybrid Energy</div>
-                          <div class="col-6 text-end">80%</div>
-                      </div>
-                  </div>
-                  <div class="custom-progress progress rounded-3">
-                      <div class="animated custom-bar progress-bar bg-dark slideInLeft" style="width:80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar"></div>
-                  </div>
-              </div>
-          </div> 
       </div>
   </div>
   </div>
 </div>
+
+
+<template id="org-card">
+  <li class="list-group-item card">
+    <div class="card-body">
+      <div class="d-flex gap-2">
+        <img src="#" class="img-circle img-thumbnail avatar"
+          style="vertical-align:middle;border-radius:50%;width:3rem;margin-right:10px" alt="avatar">
+        <div>
+          <h5 class="card-title">Jerry's Event</h5>
+        </div>
+      </div>
+      <p class="card-text pt-2">Jerry's Event Happening</p>
+    </div>
+    <div class="card-footer">
+      <small class="card-link">Company</small>
+    </div>
+  </li>
+</template>
+
 
 {{ end }}

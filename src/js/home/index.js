@@ -1,5 +1,4 @@
 import Classes from "../events/Classes";
-import Organizations from "../orgs/Organizations";
 
 class Home {
   constructor() {
