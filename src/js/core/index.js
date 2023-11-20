@@ -93,6 +93,7 @@ class Core {
       return array;
     };
 
+    this.handleSearch();
     this.handleSecurity();
 
     const popoverTriggerList = document.querySelectorAll(
@@ -165,6 +166,53 @@ class Core {
     window.info = (statusMesaage) => {
       showStatus("info", statusMesaage);
     };
+  }
+
+  handleSearch() {
+    if (sessionStorage.auth) {
+      const offcanvasSearch = document.getElementById("offcanvas-search");
+      offcanvasSearch.addEventListener("shown.bs.offcanvas", () => {
+        console.log("Shown Canvas");
+        document.getElementById("searchBox").focus();
+      });
+
+      const searchElements = document
+        .getElementById("search-container")
+        .querySelector("ul");
+
+      const searchBox = document.getElementById("searchBox");
+
+      const renderResults = (results, sText) => {
+        let html = "";
+
+        const filteredResults =
+          sText.trim().length < 2
+            ? results
+            : results.filter((result) => result.description.includes(sText));
+
+        filteredResults.forEach((filteredResult) => {
+          html += `<li class="list-group-item"><a href="/profile/${filteredResult.userHandle}">${filteredResult.title}</a></li>`;
+        });
+
+        searchElements.innerHTML = html;
+      };
+
+      searchBox.addEventListener("keyup", () => {
+        fetch(`/api/orgs`, {
+          method: "GET",
+          headers: window.ApplicationHeader(),
+        })
+          .then((response) => {
+            if (response.status === 204) {
+              return [];
+            }
+            return response.json();
+          })
+          .then((orgs) => {
+            renderResults(orgs, searchBox.value);
+          });
+      });
+    }
   }
 
   handleSecurity() {
