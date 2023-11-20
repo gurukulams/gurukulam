@@ -195,8 +195,8 @@ class Classes {
     const nameEl = liElement.querySelector(".card-subtitle");
 
     window.getUser(event.createdBy).then((user) => {
-      imageEl.src = user.imageUrl;
-      nameEl.innerHTML = user.name;
+      imageEl.src = user.profilePicture;
+      nameEl.innerHTML = user.displayName;
     });
 
     if (JSON.parse(sessionStorage.auth).userName === event.createdBy) {

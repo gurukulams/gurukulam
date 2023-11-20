@@ -38,6 +38,17 @@ module.exports = {
                 res.write(text);
                 res.end();
             }
+        },
+        {
+            route: "/profile",
+            handle: async function (req, res, next) {
+                async function content(path) {
+                    return await readFile(path, 'utf8')
+                }
+                const text = await content('./dist/profile/index.html')
+                res.write(text);
+                res.end();
+            }
         }
     ],
     ghostMode: false,
