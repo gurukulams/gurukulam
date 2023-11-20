@@ -122,6 +122,22 @@
 </div>
 </div>
 
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-books" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      <h6 class="offcanvas-title d-none d-sm-block">Books</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ol class="list-group list-group-numbered">
+      {{ range .Params.References.Books }}
+      <li class="list-group-link">
+        <a href="{{ . }}" target="_blank">{{ . }}</a>
+      </li>
+    {{ end }}
+    </ol>
+</div>
+</div>
+
 <div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-notes" data-bs-keyboard="false" data-bs-backdrop="false">
   <div class="offcanvas-header">
     <div class="input-group flex-nowrap">

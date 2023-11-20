@@ -12,6 +12,10 @@
     </button>
 
 
+    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-books" role="button">
+        <i class="fa-solid fa-book" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-books" title="Books"></i>
+    </button>
+
     {{ if ne .Parent.Title "Books"}}
     {{ partial "practice-link.html" . }}
     {{end}}
