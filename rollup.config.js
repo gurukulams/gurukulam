@@ -94,18 +94,6 @@ export default [{
     file: 'dist/js/chapter.js',
     format: 'cjs'
   }
-},
-{
-  input: 'src/js/search/index.js',
-  plugins: [
-    eslint({
-      /* your options */
-    })
-  ],
-  output: {
-    file: 'dist/js/search.js',
-    format: 'cjs'
-  }
 }
 ];
 

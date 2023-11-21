@@ -188,7 +188,9 @@ class Core {
         const filteredResults =
           sText.trim().length < 2
             ? results
-            : results.filter((result) => result.description.includes(sText));
+            : results.filter((result) =>
+                result.description.toLowerCase().includes(sText.toLowerCase())
+              );
 
         filteredResults.forEach((filteredResult) => {
           html += `<li class="list-group-item"><a href="/profile/${filteredResult.userHandle}">${filteredResult.title}</a></li>`;
