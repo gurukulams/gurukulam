@@ -10,7 +10,10 @@
         </div>
       </a>
       <ul class="dropdown-menu" aria-labelledby="dropdown03">
+        {{ if getenv "BUILD_PRODUCTION" }}
+        {{ else }}
         <li><a class="dropdown-item" href="/profile">Profile</a></li>
+        {{ end }}
         <li><a id="logoutBtn" class="dropdown-item" href="javascript://">Logout</a></li>
       </ul>
 
