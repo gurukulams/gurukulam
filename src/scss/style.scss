@@ -14,3 +14,7 @@
 .offcanvas.show {
     visibility: visible;
 }
+
+.dropup .hide-toggle.dropdown-toggle::after {
+    display: none !important;
+  }

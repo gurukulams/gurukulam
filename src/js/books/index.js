@@ -6,6 +6,7 @@ if (sessionStorage.auth) {
   const contentEl = document.getElementById("content");
 
   document.getElementById("bookOptionsPane").classList.remove("d-none");
+  document.getElementById("notesBtn").classList.remove("d-none");
 
   new TextNotes(contentEl);
 
