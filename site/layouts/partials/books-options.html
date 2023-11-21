@@ -1,6 +1,10 @@
 <div id="bookOptionsPane" class="d-flex justify-content-end d-none">
 
-    {{ partial "classes-link.html" . }}
+    
+   
+
+    {{ partial "course-link.html" . }}
+    {{ partial "practice-link.html" . }}
 
 
     <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-videos" role="button">
@@ -16,17 +20,14 @@
         <i class="fa-solid fa-book" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-books" title="Books"></i>
     </button>
 
-    {{ if ne .Parent.Title "Books"}}
-    {{ partial "practice-link.html" . }}
-    {{end}}
 
-    {{ partial "course-link.html" . }}
 
     <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-notes" role="button">
         <i class="fa-regular fa-clipboard" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-notes" title="Notes"></i>
     </button>
 
-    
+    {{ partial "classes-link.html" . }}
+
 </div>
 
 
