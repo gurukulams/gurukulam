@@ -45,6 +45,8 @@ export default class QuestionScreen {
     this.explanationEditor.togglePreview();
 
     this.registerEvents();
+
+    this.loadQuestions();
   }
 
   setupLanguage(urlTokens) {
@@ -135,14 +137,20 @@ export default class QuestionScreen {
       .parentElement.addEventListener("on-confirmation", () => this.delete());
 
     this.previousBtn = document.querySelector('[aria-label="Previous"]');
-    this.nextBtn = document.querySelector('[aria-label="Next"]');
-    this.previousBtn.addEventListener("click", () => {
-      this.previous();
-    });
 
-    this.nextBtn.addEventListener("click", () => {
-      this.next();
-    });
+    if (this.previousBtn) {
+      this.previousBtn.addEventListener("click", () => {
+        this.previous();
+      });
+    }
+
+    this.nextBtn = document.querySelector('[aria-label="Next"]');
+
+    if (this.nextBtn) {
+      this.nextBtn.addEventListener("click", () => {
+        this.next();
+      });
+    }
   }
 
   createQuestion(event) {
@@ -199,6 +207,7 @@ export default class QuestionScreen {
   }
 
   loadQuestions() {
+    console.log("loadQuestions");
     fetch(this.questionsUrl, {
       headers: window.ApplicationHeader(),
     })
