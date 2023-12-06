@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <nav class="navbar">
 
     {{ partial "breadcrumbs.html" . }}
@@ -7,6 +6,9 @@
  
     {{ partial "books-options.html" . }}  
   </nav>
+  
+<div class="container px-4">
+
   
 
 <nav class="w-50 p-3">
@@ -21,11 +23,10 @@
 
 </nav>
 
-<div class="container-fluid" >
-    <div class="row">
-        <div id="content" class="lead col-sm-10">{{- .Content -}}</div>
+<div id="content" class="row lead" >
+    {{- .Content -}}
+</div>
 
-    </div>
 </div>
 
 {{ end }}

@@ -16,17 +16,12 @@
   </div>
 </nav>
 
-
-
-
-<div class="container-fluid">
+<div class="container px-4">
 
   {{ partial "books-options.html" . }}
   
-  <main id="content" class="row">
-      <div class="col min-vh-100">
-          {{- .Content -}}
-      </div>
+  <main id="content" class="row min-vh-100">
+        {{- .Content -}}
   </main>
 </div>
 
