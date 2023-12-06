@@ -16,6 +16,7 @@ module.exports = {
     files: ["dist/css/*.css", "dist/js/*.js", "dist/**/*.html"],
     serveStatic: ['dist'],
     proxy: "http://localhost:8080",
+    reloadDebounce: 2000,
     middleware: [
         {
             route: "/questions",
