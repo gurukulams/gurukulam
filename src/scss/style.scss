@@ -18,3 +18,11 @@
 .dropup .hide-toggle.dropdown-toggle::after {
     display: none !important;
 }
+
+#userMenu.dropdown-toggle::after {
+    display: inline;
+    position: absolute;
+    bottom: -6px;
+    margin-left: 0;
+    left: 21px;
+}
