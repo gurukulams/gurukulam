@@ -1,0 +1,5 @@
+<a href="{{.Page.Permalink}}#{{ .Anchor | safeURL }}">
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+  {{ .Text | safeHTML }} 
+</h{{ .Level}}>
+</a>
