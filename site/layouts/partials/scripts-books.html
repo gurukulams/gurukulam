@@ -151,9 +151,11 @@
   <div class="offcanvas-body">
     <ol class="list-group list-group-numbered">
       {{ range .Params.References.Books }}
-      <li class="list-group-link">
-        <a href="{{ . }}" target="_blank">{{ . }}</a>
-      </li>
+      {{ range $book_id, $book_value := . }}
+        <li class="list-group-link">
+            <a target="_book" href="{{$book_value.url}}">{{$book_value.title}}</a>
+        </li>
+      {{ end }}
     {{ end }}
     </ol>
 </div>
