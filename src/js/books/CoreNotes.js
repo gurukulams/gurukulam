@@ -29,18 +29,14 @@ class CoreNotes {
     }).then(console.log);
   }
   saveAnnotaion(annotation) {
-    const note = {};
-
-    note.note = annotation;
-
     fetch("/api/annotations" + this.path, {
       method: "POST",
       headers: window.ApplicationHeader(),
-      body: JSON.stringify(note),
+      body: JSON.stringify(annotation),
     })
       .then((response) => response.json())
-      .then((_note) => {
-        console.log(_note.id);
+      .then((_annotation) => {
+        console.log(_annotation);
       });
   }
   loadNotes() {
@@ -49,21 +45,12 @@ class CoreNotes {
       headers: window.ApplicationHeader(),
     })
       .then((response) => response.json())
-      .then((notes) => {
-        const annotations = notes.map((t) => {
-          const annotation = { ...t.note, id: "#" + t.id };
-
-          console.log(annotation);
-
-          if (Array.isArray(annotation.target)) {
-            annotation.target.forEach((target) => {
-              target.id = "#" + target.id;
-            });
-            console.log(annotation);
-          }
-
-          return annotation;
+      .then((annotations) => {
+        annotations.forEach((annotation) => {
+          annotation.body = JSON.parse(annotation.body);
+          annotation.target = JSON.parse(annotation.target);
         });
+
         this.annobase.setAnnotations(annotations);
         console.log(annotations);
       });
