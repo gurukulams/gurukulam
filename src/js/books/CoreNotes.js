@@ -46,13 +46,7 @@ class CoreNotes {
     })
       .then((response) => response.json())
       .then((annotations) => {
-        annotations.forEach((annotation) => {
-          annotation.body = JSON.parse(annotation.body);
-          annotation.target = JSON.parse(annotation.target);
-        });
-
         this.annobase.setAnnotations(annotations);
-        console.log(annotations);
       });
   }
 }
