@@ -50,9 +50,22 @@ class CoreNotes {
     })
       .then((response) => response.json())
       .then((notes) => {
-        this.annobase.setAnnotations(
-          notes.map((t) => ({ ...t.note, id: t.id }))
-        );
+        const annotations = notes.map((t) => {
+          const annotation = { ...t.note, id: "#" + t.id };
+
+          console.log(annotation);
+
+          if (Array.isArray(annotation.target)) {
+            annotation.target.forEach((target) => {
+              target.id = "#" + target.id;
+            });
+            console.log(annotation);
+          }
+
+          return annotation;
+        });
+        this.annobase.setAnnotations(annotations);
+        console.log(annotations);
       });
   }
 }
