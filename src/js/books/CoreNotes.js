@@ -12,7 +12,7 @@ class CoreNotes {
     // this is the sample for creating and loading anotaions;
 
     this.annobase.on("createAnnotation", (annotation) =>
-      this.saveAnnotaion(annotation)
+      this.createAnnotaion(annotation)
     );
     this.annobase.on("deleteAnnotation", (annotation) =>
       this.deleteNote(annotation)
@@ -21,14 +21,16 @@ class CoreNotes {
     // eslint-disable-next-line no-undef
   }
   deleteNote(annotation) {
-    let id = annotation.id;
-    let ontype = this.path.split("/")[1];
-    fetch("/api/annotations/" + ontype + "/" + id, {
-      method: "DELETE",
-      headers: window.ApplicationHeader(),
-    }).then(console.log);
+    let id = annotation.id.split("#")[1];
+    fetch(
+      "/api/annotations/" + this.ontype + "/" + id + "/" + this.oninstance,
+      {
+        method: "DELETE",
+        headers: window.ApplicationHeader(),
+      }
+    ).then(console.log);
   }
-  saveAnnotaion(annotation) {
+  createAnnotaion(annotation) {
     fetch("/api/annotations" + this.path, {
       method: "POST",
       headers: window.ApplicationHeader(),
@@ -46,6 +48,13 @@ class CoreNotes {
     })
       .then((response) => response.json())
       .then((annotations) => {
+        annotations.forEach((annotation) => {
+          if (typeof annotation.body === "string") {
+            annotation.body = JSON.parse(annotation.body);
+            annotation.target = JSON.parse(annotation.target);
+          }
+        });
+
         this.annobase.setAnnotations(annotations);
       });
   }

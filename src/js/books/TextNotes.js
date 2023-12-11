@@ -28,10 +28,12 @@ class TextNotes extends CoreNotes {
       });
 
     this.path = window.location.pathname.trim();
-
     if (this.path.endsWith("/")) {
       this.path = this.path.slice(0, -1);
     }
+
+    this.ontype = this.path.split("/")[1];
+    this.oninstance = this.path.split("/" + this.ontype + "/")[1];
 
     const offcanvasNotes = document.getElementById("offcanvas-notes");
 

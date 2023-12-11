@@ -59,6 +59,8 @@ class ImageNotes extends CoreNotes {
     document.getElementById("imageModel").querySelector("h5").innerHTML =
       event.currentTarget.parentElement.querySelector("figcaption").innerHTML;
     this.path = "/" + this.imgEl.src.split("/").slice(3).join("/");
+    this.ontype = this.path.split("/")[1];
+    this.oninstance = this.path.split("/" + this.ontype + "/")[1];
     this.loadNotes();
     this.imageModel.show();
   }
