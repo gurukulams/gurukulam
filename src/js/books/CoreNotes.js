@@ -14,12 +14,34 @@ class CoreNotes {
     this.annobase.on("createAnnotation", (annotation) =>
       this.createAnnotaion(annotation)
     );
+
+    this.annobase.on("updateAnnotation", (annotation, previous) =>
+      this.updateAnnotation(annotation, previous)
+    );
+
     this.annobase.on("deleteAnnotation", (annotation) =>
       this.deleteNote(annotation)
     );
     // recognito.setAnnotations(data);
     // eslint-disable-next-line no-undef
   }
+
+  updateAnnotation(annotation, previous) {
+    let id = previous.id.split("#")[1];
+    fetch(
+      "/api/annotations/" + this.ontype + "/" + id + "/" + this.oninstance,
+      {
+        method: "PUT",
+        headers: window.ApplicationHeader(),
+        body: JSON.stringify(annotation),
+      }
+    )
+      .then((response) => response.json())
+      .then((_annotation) => {
+        console.log(_annotation);
+      });
+  }
+
   deleteNote(annotation) {
     let id = annotation.id.split("#")[1];
     fetch(
