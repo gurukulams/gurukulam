@@ -68,7 +68,15 @@ class Profile {
         return response.json();
       })
       .then((buddies) => {
-        console.log(buddies);
+        if (buddies.length !== 0) {
+          const buddiesSection = document.getElementById("buddiesSection");
+          buddiesSection.classList.remove("d-none");
+          const ulElement = buddiesSection.querySelector("ul");
+
+          buddies.forEach((buddy) => {
+            ulElement.appendChild(this.createBuddyCard(buddy));
+          });
+        }
       });
 
     if (learnerName !== JSON.parse(sessionStorage.auth).userName) {
@@ -85,6 +93,17 @@ class Profile {
         }
       });
     }
+  }
+
+  createBuddyCard(buddy) {
+    const liElement = document
+      .querySelector("#buddy-card")
+      .content.cloneNode(true);
+    liElement.querySelector("a").href = "/profile/" + buddy.userHandle;
+    liElement.querySelector("h6").innerHTML = buddy.displayName;
+    liElement.querySelector("img").src = buddy.profilePicture;
+
+    return liElement;
   }
 
   listOrgalizations(orgs, section) {
