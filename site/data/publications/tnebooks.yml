@@ -7,10 +7,12 @@ books:
     fields:
       title: 11th Botany
       description: Botany text book for 11th standard students of tamilnadu stateboard.
+      chaptersPath: /biology/botany
   - path: 11th-zoology
     fields:
       title: 11th Zoology
       description: Zoology text book for 11th standard students of tamilnadu stateboard.
+      chaptersPath: /biology/zoology
   - path: 11th-microbiology
     fields:
       title: 11th MicroBiology
@@ -23,10 +25,12 @@ books:
     fields:
       title: 12th Botany
       description: Botany text book for 12th standard students of tamilnadu stateboard.
+      chaptersPath: /biology/botany
   - path: 12th-zoology
     fields:
       title: 12th Zoology
       description: Zoology text book for 12th standard students of tamilnadu stateboard.
+      chaptersPath: /biology/zoology
   - path: 12th-microbiology
     fields:
       title: 12th MicroBiology
