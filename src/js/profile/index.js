@@ -5,35 +5,37 @@ class Profile {
     if (sessionStorage.auth) {
       this.subscribeBtn = document.getElementById("subscribeBtn");
 
-      const userName = window.location.pathname
+      let userName = window.location.pathname
         .split("profile/")[1]
         .replace("/", "");
 
       if (userName.trim().length === 0) {
-        const profile = JSON.parse(sessionStorage.auth);
-        this.setProfile(profile);
-        this.setLearner(profile.userName);
-      } else {
-        window.getUser(userName).then((profile) => {
-          this.setProfile(profile);
-        });
-
-        if (userName.startsWith("org-")) {
-          this.setOrg(userName);
-        } else {
-          this.setLearner(userName);
-        }
+        userName = JSON.parse(sessionStorage.auth).userName;
+        this.subscribeBtn.classList.add("d-none");
+      } else if (userName === JSON.parse(sessionStorage.auth).userName) {
+        this.subscribeBtn.classList.add("d-none");
       }
+
+      window.getUser(userName).then((profile) => {
+        this.setProfile(profile);
+      });
     } else {
       location.href = "/";
     }
   }
 
   setProfile(profile) {
+    this.profile = profile;
     document.getElementById("handleName").innerHTML = profile.displayName;
 
     document.querySelector(".card-body>img.img-thumbnail").src =
       profile.profilePicture;
+
+    if (profile.userHandle.startsWith("org-")) {
+      this.setOrg(profile.userHandle);
+    } else {
+      this.setLearner(profile.userHandle);
+    }
   }
 
   setLearner(learnerName) {
@@ -54,6 +56,35 @@ class Profile {
         this.listOrgalizations(orgs, "community");
         this.listOrgalizations(orgs, "institute");
       });
+
+    fetch(`/api/profiles/${learnerName}/buddies`, {
+      method: "GET",
+      headers: window.ApplicationHeader(),
+    })
+      .then((response) => {
+        if (response.status === 204) {
+          return [];
+        }
+        return response.json();
+      })
+      .then((buddies) => {
+        console.log(buddies);
+      });
+
+    if (learnerName !== JSON.parse(sessionStorage.auth).userName) {
+      fetch("/api/profiles/" + learnerName, {
+        method: "HEAD",
+        headers: window.ApplicationHeader(),
+      }).then((response) => {
+        if (response.ok) {
+          this.setSubscribed();
+        } else {
+          this.subscribeBtn.addEventListener("click", () =>
+            this.setupRegisteration(this.profile)
+          );
+        }
+      });
+    }
   }
 
   listOrgalizations(orgs, section) {
@@ -95,7 +126,6 @@ class Profile {
         }
       })
       .then((org) => {
-        this.subscribeBtn.classList.remove("d-none");
         document.getElementById("descriptionTxt").innerHTML = org.description;
         fetch("/api/orgs/" + org.userHandle, {
           method: "HEAD",
@@ -105,7 +135,7 @@ class Profile {
             this.setSubscribed();
           } else {
             this.subscribeBtn.addEventListener("click", () =>
-              this.setupRegisteration(org)
+              this.setupRegisteration(this.profile)
             );
           }
         });
@@ -159,14 +189,25 @@ class Profile {
     });
     qrEl.parentElement.classList.remove("d-none");
     regButton.addEventListener("click", () => {
-      fetch("/api/orgs/" + org.userHandle, {
-        method: "POST",
-        headers: window.ApplicationHeader(),
-      }).then(() => {
-        window.success("Event registered successfully");
-        this.setSubscribed();
-        backToListing();
-      });
+      if (this.profile.userHandle.startsWith("org-")) {
+        fetch("/api/orgs/" + this.profile.userHandle, {
+          method: "POST",
+          headers: window.ApplicationHeader(),
+        }).then(() => {
+          window.success("Org registered successfully");
+          this.setSubscribed();
+          backToListing();
+        });
+      } else {
+        fetch("/api/profiles/" + this.profile.userHandle, {
+          method: "POST",
+          headers: window.ApplicationHeader(),
+        }).then(() => {
+          window.success("User subscribed successfully");
+          this.setSubscribed();
+          backToListing();
+        });
+      }
     });
 
     buyEvent.querySelector(".btn-secondary").addEventListener("click", () => {
