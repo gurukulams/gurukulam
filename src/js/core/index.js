@@ -188,18 +188,18 @@ class Core {
           sText.trim().length < 2
             ? results
             : results.filter((result) =>
-                result.description.toLowerCase().includes(sText.toLowerCase())
+                result.displayName.toLowerCase().includes(sText.toLowerCase())
               );
 
         filteredResults.forEach((filteredResult) => {
-          html += `<li class="list-group-item"><a href="/profile/${filteredResult.userHandle}">${filteredResult.title}</a></li>`;
+          html += `<li class="list-group-item"><a href="/profile/${filteredResult.userHandle}">${filteredResult.displayName}</a></li>`;
         });
 
         searchElements.innerHTML = html;
       };
 
       searchBox.addEventListener("keyup", () => {
-        fetch(`/api/orgs`, {
+        fetch(`/api/profiles`, {
           method: "GET",
           headers: window.ApplicationHeader(),
         })
