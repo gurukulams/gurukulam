@@ -12,6 +12,10 @@ class TextNotes extends CoreNotes {
     const modeIcon1 = document.querySelector(".fa-pencil");
     const modeIcon2 = document.querySelector(".fa-bezier-curve");
 
+    this.labelElement = document
+      .getElementById("notesBtn")
+      .querySelector("label.btn");
+
     document
       .querySelector(".fa-bezier-curve")
       .parentElement.addEventListener("click", () => {
@@ -113,13 +117,39 @@ class TextNotes extends CoreNotes {
             dMenu.insertBefore(liBuddyElement, liSeparatorElement);
 
             liBuddyElement.addEventListener("click", () => {
-              this.checkbox.checked = false;
-              this.annobase.readOnly = true;
+              this.switchtoBuddy(buddy);
             });
           });
 
           // dMenu.innerHTML = html + dMenu.innerHTML;
         }
+      });
+  }
+
+  switchtoBuddy(buddy) {
+    this.checkbox.checked = false;
+    this.annobase.readOnly = true;
+
+    const buddyEl = document.createElement("span");
+    buddyEl.className = document.getElementById("notesBtn").className;
+
+    buddyEl.innerHTML = `
+    <img src="${buddy.profilePicture}" class="form-control img-circle img-thumbnail avatar" style="vertical-align:middle;border-radius:50%;width:3rem" alt="avatar">
+    <span class="input-group-text" id="basic-addon2"><i class="fa-regular fa-rectangle-xmark"></i></span>
+    `;
+
+    document.getElementById("notesBtn").parentElement.appendChild(buddyEl);
+    document.getElementById("notesBtn").classList.add("d-none");
+    window.ApplicationHeader()["X-Forwarded-For"] = buddy.userHandle;
+    this.loadNotes();
+
+    buddyEl
+      .querySelector("span.input-group-text")
+      .addEventListener("click", () => {
+        document.getElementById("notesBtn").parentElement.removeChild(buddyEl);
+        document.getElementById("notesBtn").classList.remove("d-none");
+        delete window.ApplicationHeader()["X-Forwarded-For"];
+        this.loadNotes();
       });
   }
 }

@@ -47,11 +47,11 @@ class Core {
       return authObj.features && authObj.features.includes(feature);
     };
 
-    window.ApplicationHeader = () => {
-      const header = {
-        "content-type": "application/json",
-      };
+    const header = {
+      "content-type": "application/json",
+    };
 
+    window.ApplicationHeader = () => {
       if (sessionStorage.auth) {
         header["Authorization"] = "Bearer " + getAuthToken();
       }
@@ -60,7 +60,6 @@ class Core {
       } else {
         header["Accept-Language"] = "";
       }
-
       return header;
     };
 
