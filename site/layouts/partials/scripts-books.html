@@ -98,7 +98,25 @@
   </div>
 </div>
 
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-quiz" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      
 
+    <div class="d-flex align-items-center w-100">
+      <span class="offcanvas-title d-none d-sm-block">Quiz</span>
+      <div class="d-flex ms-auto">
+        <button type="button" class="btn">
+          <i class="fa-solid fa-plus" title="Create a new Class"></i>
+        </button>
+      </div>
+    </div>
+
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" title="Close"></button>
+  </div>
+  <div id="event-container" class="offcanvas-body">
+    {{ partial "event-manager" . }}
+  </div>
+</div>
 
 <div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-videos" data-bs-keyboard="false" data-bs-backdrop="false">
   <div class="offcanvas-header">
