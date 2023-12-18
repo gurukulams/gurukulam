@@ -25,6 +25,7 @@ class TextNotes extends CoreNotes {
         this.annobase.setMode(annotationMode);
 
         this.checkbox.checked = true;
+        this.annobase.readOnly = false;
       });
 
     this.path = window.location.pathname.trim();
@@ -57,7 +58,7 @@ class TextNotes extends CoreNotes {
     });
 
     this.loadNotes();
-    // this.listBuddies();
+    this.listBuddies();
   }
 
   listAnnotations(notesPane, annotations) {
@@ -97,15 +98,27 @@ class TextNotes extends CoreNotes {
             .getElementById("notesBtn")
             .querySelector("ul.dropdown-menu");
 
-          let html = '<li><h6 class="dropdown-header">Buddies</h6></li>';
+          let liSeparatorElement = document.createElement("li");
+          liSeparatorElement.innerHTML = `<hr class="dropdown-divider">`;
+          dMenu.insertBefore(liSeparatorElement, dMenu.firstChild);
+
+          let liHeaderElement = document.createElement("li");
+          liHeaderElement.innerHTML = `<h6 class="dropdown-header">Buddies</h6>`;
+          dMenu.insertBefore(liHeaderElement, dMenu.firstChild);
 
           buddies.forEach((buddy) => {
-            html += `<li class="dropdown-item"><img src="${buddy.profilePicture}" class="img-circle img-thumbnail avatar" style="vertical-align:middle;border-radius:50%;width:3rem" alt="avatar"></li>`;
+            let liBuddyElement = document.createElement("li");
+            liBuddyElement.classList.add("dropdown-item");
+            liBuddyElement.innerHTML = `<img src="${buddy.profilePicture}" class="img-circle img-thumbnail avatar" style="vertical-align:middle;border-radius:50%;width:3rem" alt="avatar">`;
+            dMenu.insertBefore(liBuddyElement, liSeparatorElement);
+
+            liBuddyElement.addEventListener("click", () => {
+              this.checkbox.checked = false;
+              this.annobase.readOnly = true;
+            });
           });
 
-          html += '<li><hr class="dropdown-divider"></li>';
-
-          dMenu.innerHTML = html + dMenu.innerHTML;
+          // dMenu.innerHTML = html + dMenu.innerHTML;
         }
       });
   }
