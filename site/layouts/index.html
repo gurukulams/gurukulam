@@ -66,7 +66,7 @@
       <div class="card-body">
         <ul class="list-group">
 
-          {{ $data_file := "tnebooks" }}
+          {{ $data_file := "csebooks" }}
 
           {{ if ne .Language.Lang "en" }}
           {{ $data_file = printf "%s%s%s" $data_file "." .Language.Lang }}
@@ -81,7 +81,7 @@
           <li class="list-group-item d-flex justify-content-between align-items-center"
               
           {{ if .fields.chaptersPath }}data-path="{{ .fields.chaptersPath }}"{{ end }}>
-            <a href="/books/tnebooks/{{.path}}">{{.fields.title}}</a>
+            <a href="/books/csebooks/{{.path}}">{{.fields.title}}</a>
             {{ if .fields.chaptersPath }}
             <div class="d-flex justify-content-end">
               <a class="btn" href="/questions{{ .fields.chaptersPath }}" role="button">
