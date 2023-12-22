@@ -140,7 +140,7 @@ class TextNotes extends CoreNotes {
 
     document.getElementById("notesBtn").parentElement.appendChild(buddyEl);
     document.getElementById("notesBtn").classList.add("d-none");
-    window.ApplicationHeader()["X-Buddy-Forr"] = buddy.userHandle;
+    window.ApplicationHeader()["X-Buddy-For"] = buddy.userHandle;
     this.loadNotes();
 
     buddyEl
@@ -148,7 +148,7 @@ class TextNotes extends CoreNotes {
       .addEventListener("click", () => {
         document.getElementById("notesBtn").parentElement.removeChild(buddyEl);
         document.getElementById("notesBtn").classList.remove("d-none");
-        delete window.ApplicationHeader()["X-Buddy-Forr"];
+        delete window.ApplicationHeader()["X-Buddy-For"];
         this.loadNotes();
       });
   }
