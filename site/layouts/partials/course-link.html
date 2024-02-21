@@ -1,6 +1,6 @@
 {{ $slide_link := "" }}
 
-{{ $slide_link = replace .File.Path ".md" ".htm" }}
+{{ $slide_link = replace .File.Path ".md" ".htm"}}
 {{ $slide_link := print "courses/" $slide_link }}
 
 {{if os.FileExists $slide_link }}
