@@ -6,7 +6,8 @@
 {{if os.FileExists $slide_link }}
     {{ $current_link := "" }}
     {{ $current_link = strings.TrimRight "/" .Permalink }}
-    <a href="{{replace $current_link '/books' '/courses/books'}}" class="btn float-end" role="button">
+
+    <a href="{{replace $current_link "/books" "/courses/books"}}" class="btn float-end" role="button">
         <i class="fa-solid fa-file-powerpoint" title="Presentation"></i>
     </a>
 {{end}}
