@@ -28,7 +28,7 @@ contentDir = 'content.ta'
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [markup]
