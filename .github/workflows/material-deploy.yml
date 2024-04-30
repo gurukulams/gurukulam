@@ -7,7 +7,7 @@ on:
         required: true
       USERNAME:
         required: true
-      PASSWORD:
+      KEY:
         required: true
       TARGET_DIR:
         required: true
@@ -62,7 +62,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          key: ${{ secrets.KEY }}
           source: "gurukulam/site/public"
           target: ${{ secrets.TARGET_DIR }}
           strip_components: 3
@@ -72,6 +72,6 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          key: ${{ secrets.KEY }}
           source: "questions"
           target: ${{ secrets.QUESTIONS_DIR }}
