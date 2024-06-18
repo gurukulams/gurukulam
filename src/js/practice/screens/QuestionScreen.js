@@ -442,7 +442,7 @@ export default class QuestionScreen {
           selectedQuestion.explanation = this.explanationEditor.value();
           isChanged = true;
         }
-
+        // Weset Choices to the Selected Question
         if (selectedQuestion.choices) {
           selectedQuestion.choices.forEach((choice) => {
             // There is New Choice
@@ -464,11 +464,20 @@ export default class QuestionScreen {
   }
 
   isValid() {
-    let isVal = false;
+    let isVal = true;
+    const selectedQuestion = this.questions[this.selectedQuestionIndex];
+    const selectedChoices = selectedQuestion.choices.filter(
+      (choice) => choice.answer
+    );
+
     if (this.questionEditor.value().trim() === "") {
       window.error("Please Enter Question");
-    } else {
-      isVal = true;
+      isVal = false;
+    }
+
+    if (selectedChoices.length === 0) {
+      window.error("Please select an answer");
+      isVal = false;
     }
     return isVal;
   }
