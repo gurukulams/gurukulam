@@ -209,7 +209,6 @@ export default class QuestionScreen {
   }
 
   loadQuestions() {
-    console.log("loadQuestions");
     fetch(this.questionsUrl, {
       headers: window.ApplicationHeader(),
     })
@@ -380,6 +379,7 @@ export default class QuestionScreen {
   answer() {
     const selectedQuestion = this.questions[this.selectedQuestionIndex];
     let selectedCheckBoxes, answers;
+    let answerText;
     switch (selectedQuestion.type) {
       case "CHOOSE_THE_BEST":
       case "MULTI_CHOICE":
@@ -396,39 +396,57 @@ export default class QuestionScreen {
         if (answers.length === 0) {
           window.error("Please Select Answer");
         } else {
-          fetch("/api/questions/" + selectedQuestion.id + "/answer", {
-            method: "POST",
-            headers: window.ApplicationHeader(),
-            body: answers.join(","),
-          })
-            .then((response) => {
-              // Shorthand to check for an HTTP 2xx response status.
-              // See https://fetch.spec.whatwg.org/#dom-response-ok
-              if (response.ok) {
-                selectedCheckBoxes.forEach((input) => {
-                  if (input.checked) {
-                    input.parentElement.parentElement.classList.add(
-                      "bg-success"
-                    );
-                  }
-                });
-              } else if (response.status === 406) {
-                selectedCheckBoxes.forEach((input) => {
-                  if (input.checked) {
-                    input.parentElement.parentElement.classList.add(
-                      "bg-danger"
-                    );
-                  }
-                });
-              }
-            })
-            .catch(function (error) {
-              console.log(error);
-            });
+          answerText = answers.join(",");
+        }
+
+        break;
+
+      case "MATCH_THE_FOLLOWING":
+        answers = [];
+        console.log("Hi Dude");
+        // eslint-disable-next-line no-case-declarations
+        const matchboxes = this.answerContainer.querySelectorAll(".form-check");
+        this.matcheContainer
+          .querySelectorAll(".form-check")
+          .forEach((item, index) => {
+            answers.push(item.attributes["data-id"].value);
+
+            answers.push(matchboxes[index].attributes["data-id"].value);
+          });
+
+        if (answers.length === 0) {
+          window.error("Please Select Answer");
+        } else {
+          answerText = answers.join(",");
         }
 
         break;
     }
+    fetch("/api/questions/" + selectedQuestion.id + "/answer", {
+      method: "POST",
+      headers: window.ApplicationHeader(),
+      body: answerText,
+    })
+      .then((response) => {
+        // Shorthand to check for an HTTP 2xx response status.
+        // See https://fetch.spec.whatwg.org/#dom-response-ok
+        if (response.ok) {
+          selectedCheckBoxes.forEach((input) => {
+            if (input.checked) {
+              input.parentElement.parentElement.classList.add("bg-success");
+            }
+          });
+        } else if (response.status === 406) {
+          selectedCheckBoxes.forEach((input) => {
+            if (input.checked) {
+              input.parentElement.parentElement.classList.add("bg-danger");
+            }
+          });
+        }
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   }
 
   getQuestion() {
@@ -596,7 +614,7 @@ export default class QuestionScreen {
     liEl.classList.add("d-flex");
     liEl.classList.add("justify-content-between");
     liEl.classList.add("align-items-center");
-    liEl.innerHTML = `<div class="form-check">
+    liEl.innerHTML = `<div class="form-check" data-id="${choice.id}">
   <input class="form-check-input" type="${isSingle ? "radio" : "checkbox"}" ${
       this.isEditable && choice.answer ? "checked" : ""
     }
