@@ -444,8 +444,8 @@ export default class QuestionScreen {
           isChanged = true;
         }
         // Weset Choices to the Selected Question
-        if (selectedQuestion.choices) {
-          selectedQuestion.choices.forEach((choice) => {
+        if (selectedQuestion[propertyName]) {
+          selectedQuestion[propertyName].forEach((choice) => {
             // There is New Choice
             if (!choice.id) {
               isChanged = true;
@@ -467,7 +467,7 @@ export default class QuestionScreen {
   isValid() {
     let isVal = true;
     const selectedQuestion = this.questions[this.selectedQuestionIndex];
-    const selectedChoices = selectedQuestion.choices.filter(
+    const selectedChoices = selectedQuestion[propertyName].filter(
       (choice) => choice.answer
     );
 
@@ -494,19 +494,19 @@ export default class QuestionScreen {
 
     switch (selectedQuestion.type) {
       case "CHOOSE_THE_BEST":
-        this.setChoices(true, selectedQuestion);
+        this.setChoices(true, selectedQuestion, "choices");
         break;
       case "MULTI_CHOICE":
-        this.setChoices(false, selectedQuestion);
+        this.setChoices(false, selectedQuestion, "choices");
         break;
       case "MATCH_THE_FOLLOWING":
-        this.setChoices(false, selectedQuestion);
+        this.setChoices(false, selectedQuestion, "matches");
         this.questionContainer.classList.add("d-none");
         break;
     }
   }
 
-  setChoices(isSingle, selectedQuestion) {
+  setChoices(isSingle, selectedQuestion, propertyName) {
     this.answerContainer.innerHTML = `<ul class="list-group">
 
     ${
@@ -521,13 +521,13 @@ export default class QuestionScreen {
     
   </ul>`;
 
-    if (selectedQuestion.choices) {
-      window.shuffle(selectedQuestion.choices);
+    if (selectedQuestion[propertyName]) {
+      window.shuffle(selectedQuestion[propertyName]);
     } else {
-      selectedQuestion.choices = [];
+      selectedQuestion[propertyName] = [];
     }
 
-    selectedQuestion.choices.forEach((choice) => {
+    selectedQuestion[propertyName].forEach((choice) => {
       this.setChoice(isSingle, choice);
     });
 
@@ -541,7 +541,7 @@ export default class QuestionScreen {
               const choice = {
                 value: event.currentTarget.value,
               };
-              selectedQuestion.choices.push(choice);
+              selectedQuestion[propertyName].push(choice);
               event.currentTarget.value = "";
               this.setChoice(isSingle, choice);
             }
@@ -585,8 +585,8 @@ ${
         .addEventListener("change", (event) => {
           if (isSingle) {
             const selectedQuestion = this.questions[this.selectedQuestionIndex];
-            if (selectedQuestion.choices) {
-              selectedQuestion.choices.forEach((choice) => {
+            if (selectedQuestion[propertyName]) {
+              selectedQuestion[propertyName].forEach((choice) => {
                 delete choice.answer;
               });
             }
@@ -633,9 +633,11 @@ ${
 
     const afterSubmit = () => {
       textToEdit.parentElement.removeChild(textToEdit);
-      if (textToEdit.value !== selectedQuestion.choices[choiceIndex].value) {
+      if (
+        textToEdit.value !== selectedQuestion[propertyName][choiceIndex].value
+      ) {
         label.innerHTML = textToEdit.value;
-        selectedQuestion.choices[choiceIndex].value = textToEdit.value;
+        selectedQuestion[propertyName][choiceIndex].value = textToEdit.value;
         this.markUpdated(selectedQuestion);
       }
       label.classList.remove("d-none");
@@ -665,7 +667,7 @@ ${
       Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
     this.markUpdated(selectedQuestion);
 
-    selectedQuestion.choices.splice(choiceIndex, 1);
+    selectedQuestion[propertyName].splice(choiceIndex, 1);
     parentLiEl.parentElement.removeChild(parentLiEl);
   }
 }
