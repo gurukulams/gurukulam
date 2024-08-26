@@ -33,6 +33,7 @@ export default class QuestionScreen {
     });
 
     this.answerContainer = document.getElementById("answerContainer");
+    this.questionContainer = document.getElementById("questionContainer");
 
     document
       .querySelectorAll(".editor-toolbar")
@@ -483,6 +484,7 @@ export default class QuestionScreen {
   }
 
   setQuestion(selectedQuestion) {
+    this.questionContainer.classList.remove("d-none");
     this.questionEditor.value(
       selectedQuestion.question ? selectedQuestion.question : ""
     );
@@ -496,6 +498,10 @@ export default class QuestionScreen {
         break;
       case "MULTI_CHOICE":
         this.setChoices(false, selectedQuestion);
+        break;
+      case "MATCH_THE_FOLLOWING":
+        this.setChoices(false, selectedQuestion);
+        this.questionContainer.classList.add("d-none");
         break;
     }
   }
