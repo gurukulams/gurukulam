@@ -445,8 +445,8 @@ export default class QuestionScreen {
           isChanged = true;
         }
         // Weset Choices to the Selected Question
-        if (selectedQuestion[propertyName]) {
-          selectedQuestion[propertyName].forEach((choice) => {
+        if (selectedQuestion.choices) {
+          selectedQuestion.choices.forEach((choice) => {
             // There is New Choice
             if (!choice.id) {
               isChanged = true;
@@ -468,7 +468,7 @@ export default class QuestionScreen {
   isValid() {
     let isVal = true;
     const selectedQuestion = this.questions[this.selectedQuestionIndex];
-    const selectedChoices = selectedQuestion[propertyName].filter(
+    const selectedChoices = selectedQuestion.choices.filter(
       (choice) => choice.answer
     );
 
@@ -524,6 +524,21 @@ export default class QuestionScreen {
           "matches",
           this.answerContainer
         );
+
+        this.matcheContainer
+          .querySelectorAll("input[type='checkbox'")
+          .forEach((checkbox) => {
+            checkbox.classList.add("d-none");
+            checkbox.parentElement.innerHTML =
+              checkbox.nextElementSibling.innerHTML;
+          });
+        this.answerContainer
+          .querySelectorAll("input[type='checkbox'")
+          .forEach((checkbox) => {
+            checkbox.classList.add("d-none");
+            checkbox.parentElement.innerHTML =
+              checkbox.nextElementSibling.innerHTML;
+          });
         this.questionContainer.classList.add("d-none");
         this.matcheContainer.classList.remove("d-none");
         break;
@@ -552,7 +567,7 @@ export default class QuestionScreen {
     }
 
     selectedQuestion[propertyName].forEach((choice) => {
-      this.setChoice(isSingle, choice, theContainer);
+      this.setChoice(isSingle, choice, theContainer, propertyName);
     });
 
     if (this.isEditable) {
@@ -567,14 +582,14 @@ export default class QuestionScreen {
               };
               selectedQuestion[propertyName].push(choice);
               event.currentTarget.value = "";
-              this.setChoice(isSingle, choice, theContainer);
+              this.setChoice(isSingle, choice, theContainer, propertyName);
             }
           }
         });
     }
   }
 
-  setChoice(isSingle, choice, theContainer) {
+  setChoice(isSingle, choice, theContainer, propertyName) {
     const ulEl = theContainer.firstElementChild;
     const liEl = document.createElement("li");
     liEl.classList.add("list-group-item");
@@ -657,11 +672,9 @@ ${
 
     const afterSubmit = () => {
       textToEdit.parentElement.removeChild(textToEdit);
-      if (
-        textToEdit.value !== selectedQuestion[propertyName][choiceIndex].value
-      ) {
+      if (textToEdit.value !== selectedQuestion.choices[choiceIndex].value) {
         label.innerHTML = textToEdit.value;
-        selectedQuestion[propertyName][choiceIndex].value = textToEdit.value;
+        selectedQuestion.choices[choiceIndex].value = textToEdit.value;
         this.markUpdated(selectedQuestion);
       }
       label.classList.remove("d-none");
@@ -691,7 +704,7 @@ ${
       Array.from(parentLiEl.parentNode.children).indexOf(parentLiEl) - 1;
     this.markUpdated(selectedQuestion);
 
-    selectedQuestion[propertyName].splice(choiceIndex, 1);
+    selectedQuestion.choices.splice(choiceIndex, 1);
     parentLiEl.parentElement.removeChild(parentLiEl);
   }
 }
