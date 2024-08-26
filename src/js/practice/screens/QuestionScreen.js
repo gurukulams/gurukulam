@@ -34,6 +34,7 @@ export default class QuestionScreen {
 
     this.answerContainer = document.getElementById("answerContainer");
     this.questionContainer = document.getElementById("questionContainer");
+    this.matcheContainer = document.getElementById("matcheContainer");
 
     document
       .querySelectorAll(".editor-toolbar")
@@ -485,6 +486,7 @@ export default class QuestionScreen {
 
   setQuestion(selectedQuestion) {
     this.questionContainer.classList.remove("d-none");
+    this.matcheContainer.classList.add("d-none");
     this.questionEditor.value(
       selectedQuestion.question ? selectedQuestion.question : ""
     );
@@ -494,20 +496,42 @@ export default class QuestionScreen {
 
     switch (selectedQuestion.type) {
       case "CHOOSE_THE_BEST":
-        this.setChoices(true, selectedQuestion, "choices");
+        this.setChoices(
+          true,
+          selectedQuestion,
+          "choices",
+          this.answerContainer
+        );
         break;
       case "MULTI_CHOICE":
-        this.setChoices(false, selectedQuestion, "choices");
+        this.setChoices(
+          false,
+          selectedQuestion,
+          "choices",
+          this.answerContainer
+        );
         break;
       case "MATCH_THE_FOLLOWING":
-        this.setChoices(false, selectedQuestion, "matches");
+        this.setChoices(
+          false,
+          selectedQuestion,
+          "choices",
+          this.matcheContainer
+        );
+        this.setChoices(
+          false,
+          selectedQuestion,
+          "matches",
+          this.answerContainer
+        );
         this.questionContainer.classList.add("d-none");
+        this.matcheContainer.classList.remove("d-none");
         break;
     }
   }
 
-  setChoices(isSingle, selectedQuestion, propertyName) {
-    this.answerContainer.innerHTML = `<ul class="list-group">
+  setChoices(isSingle, selectedQuestion, propertyName, theContainer) {
+    theContainer.innerHTML = `<ul class="list-group">
 
     ${
       this.isEditable
@@ -528,11 +552,11 @@ export default class QuestionScreen {
     }
 
     selectedQuestion[propertyName].forEach((choice) => {
-      this.setChoice(isSingle, choice);
+      this.setChoice(isSingle, choice, theContainer);
     });
 
     if (this.isEditable) {
-      this.answerContainer
+      theContainer
         .querySelector(".form-control")
         .addEventListener("keyup", (event) => {
           if (event.keyCode === 13) {
@@ -543,15 +567,15 @@ export default class QuestionScreen {
               };
               selectedQuestion[propertyName].push(choice);
               event.currentTarget.value = "";
-              this.setChoice(isSingle, choice);
+              this.setChoice(isSingle, choice, theContainer);
             }
           }
         });
     }
   }
 
-  setChoice(isSingle, choice) {
-    const ulEl = this.answerContainer.firstElementChild;
+  setChoice(isSingle, choice, theContainer) {
+    const ulEl = theContainer.firstElementChild;
     const liEl = document.createElement("li");
     liEl.classList.add("list-group-item");
     liEl.classList.add("d-flex");
