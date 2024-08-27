@@ -431,11 +431,19 @@ export default class QuestionScreen {
         // Shorthand to check for an HTTP 2xx response status.
         // See https://fetch.spec.whatwg.org/#dom-response-ok
         if (response.ok) {
-          selectedCheckBoxes.forEach((input) => {
-            if (input.checked) {
-              input.parentElement.parentElement.classList.add("bg-success");
-            }
-          });
+          if (selectedCheckBoxes) {
+            selectedCheckBoxes.forEach((input) => {
+              if (input.checked) {
+                input.parentElement.parentElement.classList.add("bg-success");
+              }
+            });
+          } else {
+            this.answerContainer
+              .querySelectorAll("ul>li")
+              .forEach((element) => {
+                element.classList.add("bg-success");
+              });
+          }
         } else if (response.status === 406) {
           selectedCheckBoxes.forEach((input) => {
             if (input.checked) {
@@ -534,13 +542,15 @@ export default class QuestionScreen {
           false,
           selectedQuestion,
           "choices",
-          this.matcheContainer
+          this.matcheContainer,
+          true
         );
         this.setChoices(
           false,
           selectedQuestion,
           "matches",
-          this.answerContainer
+          this.answerContainer,
+          true
         );
 
         this.matcheContainer
@@ -563,7 +573,13 @@ export default class QuestionScreen {
     }
   }
 
-  setChoices(isSingle, selectedQuestion, propertyName, theContainer) {
+  setChoices(
+    isSingle,
+    selectedQuestion,
+    propertyName,
+    theContainer,
+    skipShuffle
+  ) {
     theContainer.innerHTML = `<ul class="list-group">
 
     ${
@@ -573,13 +589,12 @@ export default class QuestionScreen {
         </li>`
         : ``
     }
-
-    
-    
   </ul>`;
 
     if (selectedQuestion[propertyName]) {
-      window.shuffle(selectedQuestion[propertyName]);
+      if (!skipShuffle) {
+        window.shuffle(selectedQuestion[propertyName]);
+      }
     } else {
       selectedQuestion[propertyName] = [];
     }
