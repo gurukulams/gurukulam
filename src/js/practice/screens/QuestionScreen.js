@@ -403,7 +403,6 @@ export default class QuestionScreen {
 
       case "MATCH_THE_FOLLOWING":
         answers = [];
-        console.log("Hi Dude");
         // eslint-disable-next-line no-case-declarations
         const matchboxes = this.answerContainer.querySelectorAll(".form-check");
         this.matcheContainer
@@ -445,11 +444,19 @@ export default class QuestionScreen {
               });
           }
         } else if (response.status === 406) {
-          selectedCheckBoxes.forEach((input) => {
-            if (input.checked) {
-              input.parentElement.parentElement.classList.add("bg-danger");
-            }
-          });
+          if (selectedCheckBoxes) {
+            selectedCheckBoxes.forEach((input) => {
+              if (input.checked) {
+                input.parentElement.parentElement.classList.add("bg-danger");
+              }
+            });
+          } else {
+            this.answerContainer
+              .querySelectorAll("ul>li")
+              .forEach((element) => {
+                element.classList.add("bg-danger");
+              });
+          }
         }
       })
       .catch(function (error) {
@@ -549,8 +556,7 @@ export default class QuestionScreen {
           false,
           selectedQuestion,
           "matches",
-          this.answerContainer,
-          true
+          this.answerContainer
         );
 
         this.matcheContainer
@@ -563,9 +569,16 @@ export default class QuestionScreen {
         this.answerContainer
           .querySelectorAll("input[type='checkbox'")
           .forEach((checkbox) => {
+            const shiftIcons = document.createElement("span");
+
+            shiftIcons.innerHTML = `<span class="badge text-dark rounded-pill justify-content-start"><i class="fa-solid fa-arrow-up px-2"></i><i
+    class="fa-solid fa-arrow-down"></i></span>`;
+
             checkbox.classList.add("d-none");
+            const parentElement = checkbox.parentElement.parentElement;
             checkbox.parentElement.innerHTML =
               checkbox.nextElementSibling.innerHTML;
+            parentElement.insertBefore(shiftIcons, parentElement.firstChild);
           });
         this.questionContainer.classList.add("d-none");
         this.matcheContainer.classList.remove("d-none");
@@ -627,7 +640,6 @@ export default class QuestionScreen {
     const liEl = document.createElement("li");
     liEl.classList.add("list-group-item");
     liEl.classList.add("d-flex");
-    liEl.classList.add("justify-content-between");
     liEl.classList.add("align-items-center");
     liEl.innerHTML = `<div class="form-check" data-id="${choice.id}">
   <input class="form-check-input" type="${isSingle ? "radio" : "checkbox"}" ${
