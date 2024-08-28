@@ -440,6 +440,7 @@ export default class QuestionScreen {
             this.answerContainer
               .querySelectorAll("ul>li")
               .forEach((element) => {
+                element.classList.remove("bg-danger");
                 element.classList.add("bg-success");
               });
           }
@@ -454,6 +455,7 @@ export default class QuestionScreen {
             this.answerContainer
               .querySelectorAll("ul>li")
               .forEach((element) => {
+                element.classList.remove("bg-success");
                 element.classList.add("bg-danger");
               });
           }
@@ -579,6 +581,40 @@ export default class QuestionScreen {
             checkbox.parentElement.innerHTML =
               checkbox.nextElementSibling.innerHTML;
             parentElement.insertBefore(shiftIcons, parentElement.firstChild);
+
+            shiftIcons
+              .querySelector("i.fa-arrow-up")
+              .addEventListener("click", (event) => {
+                const liEl =
+                  event.currentTarget.parentElement.parentElement.parentElement;
+
+                if (liEl.parentElement.firstChild === liEl) {
+                  liEl.parentNode.insertAfter(liEl, liEl.parentNode.lastChild);
+                } else {
+                  liEl.parentNode.insertBefore(
+                    liEl,
+                    liEl.previousElementSibling
+                  );
+                }
+              });
+
+            shiftIcons
+              .querySelector("i.fa-arrow-down")
+              .addEventListener("click", (event) => {
+                const liEl =
+                  event.currentTarget.parentElement.parentElement.parentElement;
+
+                const ulNode = liEl.parentNode;
+
+                if (liEl.parentElement.lastChild === liEl) {
+                  ulNode.insertBefore(liEl, ulNode.firstChild);
+                } else {
+                  liEl.parentNode.insertBefore(
+                    liEl,
+                    liEl.nextElementSibling.nextElementSibling
+                  );
+                }
+              });
           });
         this.questionContainer.classList.add("d-none");
         this.matcheContainer.classList.remove("d-none");
