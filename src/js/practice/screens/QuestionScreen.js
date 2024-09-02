@@ -403,6 +403,10 @@ export default class QuestionScreen {
 
       case "MATCH_THE_FOLLOWING":
         answers = [];
+
+        // eslint-disable-next-line no-case-declarations
+        const matches = [];
+
         // eslint-disable-next-line no-case-declarations
         const matchboxes = this.answerContainer.querySelectorAll(".form-check");
         this.matcheContainer
@@ -410,9 +414,9 @@ export default class QuestionScreen {
           .forEach((item, index) => {
             answers.push(item.attributes["data-id"].value);
 
-            answers.push(matchboxes[index].attributes["data-id"].value);
+            matches.push(matchboxes[index].attributes["data-id"].value);
           });
-
+        answers.push(matches);
         if (answers.length === 0) {
           window.error("Please Select Answer");
         } else {
