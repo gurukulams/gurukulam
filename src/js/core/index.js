@@ -188,12 +188,16 @@ class Core {
           sText.trim().length < 2
             ? results
             : results.filter((result) =>
-                result.displayName.toLowerCase().includes(sText.toLowerCase())
+                result && result.displayName.toLowerCase().includes(sText.toLowerCase())
               );
 
-        filteredResults.forEach((filteredResult) => {
-          html += `<li class="list-group-item"><a href="/profile/${filteredResult.userHandle}">${filteredResult.displayName}</a></li>`;
-        });
+        if( filteredResults )  {
+          filteredResults.forEach((filteredResult) => {
+            html += `<li class="list-group-item"><a href="/profile/${filteredResult.userHandle}">${filteredResult.displayName}</a></li>`;
+          });
+        }     
+
+        
 
         searchElements.innerHTML = html;
       };
