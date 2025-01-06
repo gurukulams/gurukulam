@@ -38,6 +38,11 @@ body>nav>.container {
     left: 17px;
 }
 
-.row > ul, ol {
+ul, ol {
     list-style-position: inside !important;
+}
+
+#main-container nav .row {
+    margin-left: 0;
+    margin-right: 0;
 }
