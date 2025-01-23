@@ -1,6 +1,9 @@
 {{ $slide_link := "" }}
 
-{{ $slide_link = replace .File.Path ".md" ".htm"}}
+{{ with .File }}
+
+
+{{ $slide_link = replace .Path ".md" ".htm"}}
 {{ $slide_link := print "courses/" $slide_link }}
 
 {{if os.FileExists $slide_link }}
@@ -10,4 +13,6 @@
     <a href="{{replace $current_link "/books" "/courses/books"}}" class="btn float-end" role="button">
         <i class="fa-solid fa-file-powerpoint" title="Presentation"></i>
     </a>
+{{end}}
+
 {{end}}
