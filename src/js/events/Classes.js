@@ -249,7 +249,7 @@ class Classes {
               </div>
               <div class="card-body">
               <div class="d-flex justify-content-center">
-                <img src="/images/meeting.svg" alt="meeting" class="img-thumbnail w-50">
+                <img src="/img/meeting.svg" alt="meeting" class="img-thumbnail w-50">
               </div>
               <h6>${event.title}</h6>
                 <p class="card-text lead">${event.description}</p>
