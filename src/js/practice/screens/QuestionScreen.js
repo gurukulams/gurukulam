@@ -664,7 +664,7 @@ export default class QuestionScreen {
             event.preventDefault();
             if (event.currentTarget.value !== "") {
               const choice = {
-                value: event.currentTarget.value,
+                cValue: event.currentTarget.value,
               };
               selectedQuestion[propertyName].push(choice);
               event.currentTarget.value = "";
@@ -728,7 +728,7 @@ ${
         );
     }
 
-    liEl.firstElementChild.children[1].innerHTML = choice.value;
+    liEl.firstElementChild.children[1].innerHTML = choice.cValue;
     return liEl;
   }
 
