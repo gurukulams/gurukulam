@@ -96,7 +96,7 @@ class Core {
     this.handleSecurity();
 
     const popoverTriggerList = document.querySelectorAll(
-      '[data-bs-toggle="popover"]'
+      '[data-bs-toggle="popover"]',
     );
 
     [...popoverTriggerList].map((popoverTriggerEl) => {
@@ -190,7 +190,9 @@ class Core {
             : results.filter(
                 (result) =>
                   result &&
-                  result.displayName.toLowerCase().includes(sText.toLowerCase())
+                  result.displayName
+                    .toLowerCase()
+                    .includes(sText.toLowerCase()),
               );
 
         if (filteredResults) {

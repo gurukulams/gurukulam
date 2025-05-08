@@ -21,7 +21,7 @@ class Welcome {
           } else {
             this.register(
               auth_response.registrationToken,
-              auth_response.profilePicture
+              auth_response.profilePicture,
             );
           }
         });
@@ -29,7 +29,7 @@ class Welcome {
       if (sessionStorage.getItem("reg_token")) {
         this.register(
           sessionStorage.getItem("reg_token"),
-          sessionStorage.getItem("profile_pic")
+          sessionStorage.getItem("profile_pic"),
         );
       }
     }

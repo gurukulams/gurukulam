@@ -6,7 +6,7 @@ class TextNotes extends CoreNotes {
     super(
       _parent,
       new Recogito({ content: "content", readOnly: true }),
-      document.getElementById("btn-check-outlined")
+      document.getElementById("btn-check-outlined"),
     );
 
     const modeIcon1 = document.querySelector(".fa-pencil");
@@ -49,7 +49,7 @@ class TextNotes extends CoreNotes {
     searchBox.addEventListener("keyup", () => {
       this.listAnnotations(
         notesPane,
-        this.findNotes(this.annobase.getAnnotations(), searchBox.value)
+        this.findNotes(this.annobase.getAnnotations(), searchBox.value),
       );
     });
 

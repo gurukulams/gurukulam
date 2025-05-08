@@ -16,9 +16,18 @@ module.exports = {
     port: 3000,
     open: true,
     setupMiddlewares: (middlewares, devServer) => {
+      
       if (!devServer) {
         throw new Error('webpack-dev-server is not defined');
       }
+
+      middlewares.unshift({
+        name: 'custom-headers',
+        middleware: (req, res, next) => {
+          res.setHeader('X-Content-Type-Options', 'nosniff');
+          next();
+        },
+      });
     
       devServer.app.get(['/questions*', '/ta/questions*'], async (req, res) => {
         const content = await fs.readFile('./dist/practices/basic/index.html', 'utf8');

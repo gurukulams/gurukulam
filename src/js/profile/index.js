@@ -88,7 +88,7 @@ class Profile {
           this.setSubscribed();
         } else {
           this.subscribeBtn.addEventListener("click", () =>
-            this.setupRegisteration(this.profile)
+            this.setupRegisteration(this.profile),
           );
         }
       });
@@ -154,7 +154,7 @@ class Profile {
             this.setSubscribed();
           } else {
             this.subscribeBtn.addEventListener("click", () =>
-              this.setupRegisteration(this.profile)
+              this.setupRegisteration(this.profile),
             );
           }
         });

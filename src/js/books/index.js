@@ -14,7 +14,7 @@ if (sessionStorage.auth) {
 
   const classes = new Classes(
     document.getElementById("event-container"),
-    document.querySelector("i.fa-chalkboard-user").parentElement.dataset.path
+    document.querySelector("i.fa-chalkboard-user").parentElement.dataset.path,
   );
 
   const myOffcanvas = document.getElementById("offcanvas-classes");
@@ -29,7 +29,7 @@ if (sessionStorage.auth) {
 
 let zenMode = false;
 const scrollIndiHeight = getComputedStyle(
-  document.getElementById("main-container")
+  document.getElementById("main-container"),
 ).getPropertyValue("--header-size");
 
 const toggleZenMode = () => {

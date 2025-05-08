@@ -227,7 +227,7 @@ class Classes {
           this.setupJoining(event, callToActionBtn);
         } else {
           callToActionBtn.addEventListener("click", () =>
-            this.setupRegisteration(event)
+            this.setupRegisteration(event),
           );
         }
       });

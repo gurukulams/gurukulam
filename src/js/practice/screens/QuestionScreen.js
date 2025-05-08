@@ -53,7 +53,7 @@ export default class QuestionScreen {
 
   setupLanguage(urlTokens) {
     const elements = document.querySelector(
-      '[aria-labelledby="languageBtn"]'
+      '[aria-labelledby="languageBtn"]',
     ).children;
 
     for (let element of elements) {
@@ -82,7 +82,7 @@ export default class QuestionScreen {
           element.children[0].textContent = "English";
           element.children[0].setAttribute(
             "href",
-            "/questions/" + this.chaptorPath
+            "/questions/" + this.chaptorPath,
           );
 
           break;
@@ -94,7 +94,7 @@ export default class QuestionScreen {
   registerEvents() {
     const explainToggleBtn = document.getElementById("explainToggle");
     const explanationContainer = document.getElementById(
-      "explanationContainer"
+      "explanationContainer",
     );
 
     explainToggleBtn.addEventListener("click", () => {
@@ -114,7 +114,9 @@ export default class QuestionScreen {
     document
       .querySelector(".add-btns")
       .childNodes.forEach((element) =>
-        element.addEventListener("click", (event) => this.createQuestion(event))
+        element.addEventListener("click", (event) =>
+          this.createQuestion(event),
+        ),
       );
 
     document
@@ -176,7 +178,7 @@ export default class QuestionScreen {
           fetch("/api/questions/" + question.type + "/" + question.id, {
             method: "DELETE",
             headers: window.ApplicationHeader(),
-          })
+          }),
         );
       });
 
@@ -186,7 +188,7 @@ export default class QuestionScreen {
             method: "PUT",
             headers: window.ApplicationHeader(),
             body: JSON.stringify(question),
-          })
+          }),
         );
       });
 
@@ -196,7 +198,7 @@ export default class QuestionScreen {
             method: "POST",
             headers: window.ApplicationHeader(),
             body: JSON.stringify(question),
-          })
+          }),
         );
       });
 
@@ -508,7 +510,7 @@ export default class QuestionScreen {
     let isVal = true;
     const selectedQuestion = this.questions[this.selectedQuestionIndex];
     const selectedChoices = selectedQuestion.choices.filter(
-      (choice) => choice.answer
+      (choice) => choice.answer,
     );
 
     if (this.questionEditor.value().trim() === "") {
@@ -527,10 +529,10 @@ export default class QuestionScreen {
     this.questionContainer.classList.remove("d-none");
     this.matcheContainer.classList.add("d-none");
     this.questionEditor.value(
-      selectedQuestion.question ? selectedQuestion.question : ""
+      selectedQuestion.question ? selectedQuestion.question : "",
     );
     this.explanationEditor.value(
-      selectedQuestion.explanation ? selectedQuestion.explanation : ""
+      selectedQuestion.explanation ? selectedQuestion.explanation : "",
     );
 
     switch (selectedQuestion.type) {
@@ -539,7 +541,7 @@ export default class QuestionScreen {
           true,
           selectedQuestion,
           "choices",
-          this.answerContainer
+          this.answerContainer,
         );
         break;
       case "MULTI_CHOICE":
@@ -547,7 +549,7 @@ export default class QuestionScreen {
           false,
           selectedQuestion,
           "choices",
-          this.answerContainer
+          this.answerContainer,
         );
         break;
       case "MATCH_THE_FOLLOWING":
@@ -556,13 +558,13 @@ export default class QuestionScreen {
           selectedQuestion,
           "choices",
           this.matcheContainer,
-          true
+          true,
         );
         this.setChoices(
           false,
           selectedQuestion,
           "matches",
-          this.answerContainer
+          this.answerContainer,
         );
 
         this.matcheContainer
@@ -597,7 +599,7 @@ export default class QuestionScreen {
                 } else {
                   liEl.parentNode.insertBefore(
                     liEl,
-                    liEl.previousElementSibling
+                    liEl.previousElementSibling,
                   );
                 }
               });
@@ -615,7 +617,7 @@ export default class QuestionScreen {
                 } else {
                   liEl.parentNode.insertBefore(
                     liEl,
-                    liEl.nextElementSibling.nextElementSibling
+                    liEl.nextElementSibling.nextElementSibling,
                   );
                 }
               });
@@ -631,7 +633,7 @@ export default class QuestionScreen {
     selectedQuestion,
     propertyName,
     theContainer,
-    skipShuffle
+    skipShuffle,
   ) {
     theContainer.innerHTML = `<ul class="list-group">
 
@@ -683,8 +685,8 @@ export default class QuestionScreen {
     liEl.classList.add("align-items-center");
     liEl.innerHTML = `<div class="form-check" data-id="${choice.id}">
   <input class="form-check-input" type="${isSingle ? "radio" : "checkbox"}" ${
-      this.isEditable && choice.answer ? "checked" : ""
-    }
+    this.isEditable && choice.answer ? "checked" : ""
+  }
     name="flexRadioDefault" value="${choice.id}" id="flexCheckDefault">
   <label class="form-check-label" for="flexCheckDefault">
 
@@ -724,7 +726,7 @@ ${
       liEl
         .querySelector(".fa-trash-alt")
         .addEventListener("on-confirmation", (event) =>
-          this.removeChoice(event)
+          this.removeChoice(event),
         );
     }
 

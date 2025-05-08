@@ -12,15 +12,15 @@ class CoreNotes {
     // this is the sample for creating and loading anotaions;
 
     this.annobase.on("createAnnotation", (annotation) =>
-      this.createAnnotaion(annotation)
+      this.createAnnotaion(annotation),
     );
 
     this.annobase.on("updateAnnotation", (annotation, previous) =>
-      this.updateAnnotation(annotation, previous)
+      this.updateAnnotation(annotation, previous),
     );
 
     this.annobase.on("deleteAnnotation", (annotation) =>
-      this.deleteNote(annotation)
+      this.deleteNote(annotation),
     );
     // recognito.setAnnotations(data);
     // eslint-disable-next-line no-undef
@@ -34,7 +34,7 @@ class CoreNotes {
         method: "PUT",
         headers: window.ApplicationHeader(),
         body: JSON.stringify(annotation),
-      }
+      },
     )
       .then((response) => response.json())
       .then((_annotation) => {
@@ -49,7 +49,7 @@ class CoreNotes {
       {
         method: "DELETE",
         headers: window.ApplicationHeader(),
-      }
+      },
     ).then(console.log);
   }
   createAnnotaion(annotation) {

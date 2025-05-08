@@ -9,13 +9,13 @@ class ImageNotes extends CoreNotes {
         image: document.getElementById("imageModel").querySelector("img"),
         readOnly: true,
       }),
-      document.getElementById("btn-check-notes")
+      document.getElementById("btn-check-notes"),
     );
 
     // eslint-disable-next-line no-undef
     this.imageModel = new bootstrap.Modal(
       document.getElementById("imageModel"),
-      {}
+      {},
     );
 
     this.imgEl = document.getElementById("imageModel").querySelector("img");
@@ -42,7 +42,7 @@ class ImageNotes extends CoreNotes {
 
     document.getElementById("imageModel").querySelector("h5").innerHTML =
       event.currentTarget.parentElement.parentElement.querySelector(
-        "figcaption"
+        "figcaption",
       ).innerHTML;
 
     this.figureEl.childNodes[0].innerHTML =
