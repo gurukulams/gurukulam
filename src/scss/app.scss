@@ -1,0 +1,38 @@
+
+@import './base/typography';
+@import './themes/theme';
+
+@import './components/sidebar';
+@import './components/vertical_tabs';
+@import './components/scroll_indicator';
+@import './components/reveal';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+body>nav>.container {
+    position: relative;
+}
+
+.scroll-indicator {
+    position: absolute;
+    padding-top: 5px;
+    bottom: -3px; 
+    left: 0;
+    height: $scroll-indicator-height;
+    background-color: $scroll-indicator-color;
+    z-index: $scroll-indicator-z-index;
+}
+
+// .secured {
+//     @extend .d-none;
+// }
+
+#userMenu.dropdown-toggle::after {
+    display: inline;
+    position: absolute;
+    bottom: -6px;
+    margin-left: 0;
+    left: 17px;
+}
