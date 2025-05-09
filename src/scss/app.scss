@@ -25,9 +25,9 @@ body>nav>.container {
     z-index: $scroll-indicator-z-index;
 }
 
-// .secured {
-//     @extend .d-none;
-// }
+.secured {
+    @extend .d-none;
+}
 
 #userMenu.dropdown-toggle::after {
     display: inline;

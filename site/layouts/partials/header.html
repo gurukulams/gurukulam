@@ -1,87 +1,63 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white py-0 fixed-top">
-  <div class="container-fluid border-bottom border-top-1 shadow-sm bg-body">
-    <div class="btn-group invisible secured">
-            
-      <div class="d-flex bd-highlight">
-        <a class="navbar-brand pe-0" data-bs-toggle="dropdown" aria-expanded="false">
-        <div id="userMenu" class="flex-shrink-1 bd-highlight dropdown dropdown-toggle">
-          <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="img-circle img-thumbnail avatar"
-            style="vertical-align: middle;border-radius: 50%; width: 3rem;" alt="avatar">
-        </div>
-      </a>
-      <ul class="dropdown-menu" aria-labelledby="dropdown03">
-        {{ if getenv "BUILD_PRODUCTION" }}
-        {{ else }}
-        <li><a class="dropdown-item" href="/profile">Profile</a></li>
-        {{ end }}
-        <li><a id="logoutBtn" class="dropdown-item" href="javascript://">Logout</a></li>
-      </ul>
-
+<nav class="navbar navbar-expand-md py-0 fixed-top">
+  <div class="container border-bottom border-top-1 shadow-sm bg-body position-relative">
+    <div class="btn-group">
+      <div class="d-flex bd-highlight"><a class="navbar-brand me-1"  aria-expanded="false">
+          <div id="userMenu" class="flex-shrink-1 bd-highlight"><img
+              src="/img/apple-touch-icon.png" class="img-circle img-thumbnail avatar"
+              style="vertical-align:middle;border-radius:50%;width:3rem" alt="avatar"></div>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+          <li><a class="dropdown-item" href="/profile">Profile</a></li>
+          <li><a id="logoutBtn" class="dropdown-item" href="javascript://">Logout</a></li>
+        </ul>
       </div>
-    
-  </div>
-    <span class="navbar-brand lh-1">
-      <a href="/{{ if ne .Page.Language.Lang "en" }}{{.Language.Lang}}{{ end }}" class="h5 text-decoration-none"><strong>Gurukulams</strong></a><br>
-      
+    </div>
+
+    <span class="navbar-brand lh-1"><a href="/" class="h4 text-decoration-none"><strong>Gurukulams</strong></a><br>
       <div class="text-muted text-end w-100 p-0 mb-0 dropdown border-0">
         <small data-code={{$.Site.Home.Language.Lang}} class="dropdown-toggle" type="button" id="languageBtn" data-bs-toggle="dropdown" aria-expanded="false">
           {{$.Site.Home.Language.LanguageName}}
         </small>
         <ul class="dropdown-menu" aria-labelledby="languageBtn">
           {{ range $.Site.Home.Translations }}
-          
-          <li><a class="dropdown-item" data-code={{.Language.Lang}} href="{{ if (ne .Language.Lang "en") }}{{ .Language.Lang }}{{ $.Permalink }} {{ else }}{{ substr $.Permalink 3 }}{{ end }}">{{ .Language.LanguageName }}</a></li>
+          <li>
+            <a class="dropdown-item" data-code={{.Language.Lang}} href="{{ if (ne .Language.Lang "en") }}/{{ .Language.Lang }}{{ $.RelPermalink }} {{ else }}{{ substr $.RelPermalink 3 }}{{ end }}">
+              {{ .Language.LanguageName }}
+            </a>
+          </li>
           {{ end }}
         </ul>
-
-        
       </div>
-
     </span>
-
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
       aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse px-2" id="navbarMain">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
-      </ul>
-
-        <i class="fas fa-search invisible secured" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search"></i>
-  
-
-
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+      <i class="fas fa-search secured" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search"></i>
       {{ if getenv "BUILD_PRODUCTION" }}
-      <a id="login-pane" href="javascript://" class="btn btn-outline-primary text-left mt-1">
-        Login | <i class="fab fa-google"></i>
-      </a>
-      
-    {{ else }}
+      <a id="login-pane" href="javascript://" class="btn btn-outline-primary text-left mt-1">Login | <i
+          class="fab fa-google"></i></a>
+      {{ else }}
+      <div id="login-pane" class="row align-items-center">
 
-    
-    
-    <div id="login-pane" class="row align-items-center">
-
-      <div id="users-group" class="btn-group" role="group" aria-label="Basic outlined example">
-        {{ range readDir "static/img/users" }}
+        <div id="users-group" class="btn-group" role="group" aria-label="Basic outlined example">
+          {{ range readDir "static/img/users" }}
           <button type="button" name="{{ replace .Name ".png" "" }}" class="btn">
             <img src="/img/users/{{ .Name }}" class="img-circle img-thumbnail"
-                style="vertical-align: middle;border-radius: 50%;width: 42px;" alt="avatar">
-          </button>  
-        {{ end }}
+              style="vertical-align: middle;border-radius: 50%;width: 42px;" alt="avatar">
+          </button>
+          {{ end }}
+        </div>
+
       </div>
-      
-    </div>
 
       {{ end }}
-
-      <ul class="navbar-nav d-none secured">
-        
-
-      </ul>
+      <ul class="navbar-nav"></ul>
     </div>
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" id="scrollIndicator"></div>
   </div>
-</nav>  
-
+</nav>
