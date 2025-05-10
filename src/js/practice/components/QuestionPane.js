@@ -10,9 +10,7 @@ export default class QuestionPane {
   setQuestion(_question) {
     this.question = _question;
     console.log(_question);
-
     this.qTxt.value = _question.question;
-
     
   }
 

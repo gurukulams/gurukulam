@@ -19,6 +19,7 @@ export default class PracticeScreen {
     } else {
       location.href = "/";
     }
+    this.currentQuestionIndex = 0; 
   }
 
   loadQuestions() {
@@ -46,6 +47,7 @@ export default class PracticeScreen {
 
   setQuestions(_questions) {
     this.questions = _questions;
+    this.currentQuestionIndex = 0;
 
     if(this.questions.length === 0) {
       console.log("Empty Questions");
@@ -90,10 +92,19 @@ export default class PracticeScreen {
 
   doNext() {
     console.log("Next question");
+    this.currentQuestionIndex++;
+    if (this.currentQuestionIndex < this.questions.length) {
+      const nextQ = this.questions[this.currentQuestionIndex];
+      this.questionPane.setQuestion(nextQ);
+    }
   }
 
   doPrevious() {
     console.log("Previous question");
+    if (this.currentQuestionIndex > 0) {
+      this.currentQuestionIndex--;
+      this.questionPane.setQuestion(this.questions[this.currentQuestionIndex]);
+    }
   }
 
   doExplain() {
@@ -106,14 +117,6 @@ export default class PracticeScreen {
   doAdd(QuestionType) {
     console.log("Add Button clicked for " + QuestionType);
   }
-  chooseTheBestAnswer() {
-    console.log("Choose the best answer Button clicked");
-  }
-
-  MultiChoice() {
-    console.log("Multi Choice Button clicked");
-  }
-
 
   doEdit() {
     console.log("Edit Button clicked");
