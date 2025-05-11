@@ -8,7 +8,9 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-
+html {
+    scroll-padding-top: $spacer*4;
+}
 
 body>nav>.container {
     position: relative;
