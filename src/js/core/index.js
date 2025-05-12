@@ -100,43 +100,43 @@ class GurukulamsPage {
   handleValidation() {}
 
   setThemeSetting() {
-    const themeDropdownButton = document.getElementById("themeDropdown");
-    if (themeDropdownButton) {
-      document.addEventListener("DOMContentLoaded", function () {
-        const themeDropdownItems = document.querySelectorAll(
-          ".dropdown-item[data-theme]",
-        );
-        const icons = {
-          light: "sun-fill",
-          dark: "moon-stars-fill",
-          auto: "circle-half",
-        };
+    document.addEventListener("DOMContentLoaded", function () {
+      const themeDropdownItems = document.querySelectorAll(
+        ".dropdown-item[data-theme]",
+      );
+      const icons = {
+        light: "sun-fill",
+        dark: "moon-stars-fill",
+        auto: "circle-half",
+      };
 
-        function setTheme(theme) {
-          let themename;
-          if (theme === "auto") {
-            const prefersDarkScheme = window.matchMedia(
-              "(prefers-color-scheme: dark)",
-            ).matches;
-            theme, (themename = prefersDarkScheme ? "dark" : "light");
-          }
-          console.log(themename);
+      function setTheme(theme) {
+        let themename;
+        if (theme === "auto") {
+          const prefersDarkScheme = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          theme, (themename = prefersDarkScheme ? "dark" : "light");
+        }
+        console.log(themename);
 
-          document.documentElement.setAttribute("data-bs-theme", theme);
+        document.documentElement.setAttribute("data-bs-theme", theme);
+        const themeDropdownButton = document.getElementById("themeDropdown");
+        if (themeDropdownButton) {
           themeDropdownButton.innerHTML = `<svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#${icons[theme]}"></use></svg>`;
         }
+      }
 
-        setTheme("auto");
+      setTheme("auto");
 
-        themeDropdownItems.forEach((item) => {
-          item.addEventListener("click", function (event) {
-            event.preventDefault();
-            const selectedTheme = this.getAttribute("data-theme");
-            setTheme(selectedTheme);
-          });
+      themeDropdownItems.forEach((item) => {
+        item.addEventListener("click", function (event) {
+          event.preventDefault();
+          const selectedTheme = this.getAttribute("data-theme");
+          setTheme(selectedTheme);
         });
       });
-    }
+    });
   }
 
   setScrollIndicator() {
