@@ -1,6 +1,6 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 
-  <nav class="navbar">
+<nav class="navbar">
   <div class="row w-100">
     <div class="col-4 text-start">
       {{if .NextInSection}}<a href="{{strings.TrimRight "/" .NextInSection.Permalink}}">{{.NextInSection.Title}}</a>{{end}}
@@ -14,11 +14,12 @@
       {{if .PrevInSection}}<a href="{{strings.TrimRight "/" .PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a>{{end}}
     </div>
   </div>
+  {{ partial "books-options.html" . }}
 </nav>
 
 <div class="container px-4">
 
-  {{ partial "books-options.html" . }}
+  
   
   <main id="content" class="row min-vh-100">
         {{- .Content -}}

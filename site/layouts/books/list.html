@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-  
-<div class="container px-4">
 
     <nav class="navbar">
 
@@ -11,23 +9,28 @@
         {{ partial "books-options.html" . }}  
       </nav>
 
-<nav class="w-50 p-3">
-    <ul class="lead">
-    <!-- Ranges through content/posts/*.md -->
-    {{ range .Pages }}
-        <li>
-            <a href="{{strings.TrimRight "/" .Permalink}}">{{.Title}}</a>
-        </li>
-    {{ end }}
-    </ul>
+      {{ if eq (len .Pages) 0 }}
+      {{ else }}
+      <nav class="w-50 p-3">
+        <ul class="lead">
+        <!-- Ranges through content/posts/*.md -->
+        {{ range .Pages }}
+            <li>
+                <a href="{{strings.TrimRight "/" .Permalink}}">{{.Title}}</a>
+            </li>
+        {{ end }}
+        </ul>
+    
+    </nav>
+      {{ end }}
 
-</nav>
+
 
 <div id="content" class="row lead" >
     {{- .Content -}}
 </div>
 
-</div>
+
 
 {{ end }}
 
