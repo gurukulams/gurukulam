@@ -100,41 +100,43 @@ class GurukulamsPage {
   handleValidation() {}
 
   setThemeSetting() {
-    document.addEventListener("DOMContentLoaded", function () {
-      const themeDropdownButton = document.getElementById("themeDropdown");
-      const themeDropdownItems = document.querySelectorAll(
-        ".dropdown-item[data-theme]",
-      );
-      const icons = {
-        light: "sun-fill",
-        dark: "moon-stars-fill",
-        auto: "circle-half",
-      };
+    const themeDropdownButton = document.getElementById("themeDropdown");
+    if (themeDropdownButton) {
+      document.addEventListener("DOMContentLoaded", function () {
+        const themeDropdownItems = document.querySelectorAll(
+          ".dropdown-item[data-theme]",
+        );
+        const icons = {
+          light: "sun-fill",
+          dark: "moon-stars-fill",
+          auto: "circle-half",
+        };
 
-      function setTheme(theme) {
-        let themename;
-        if (theme === "auto") {
-          const prefersDarkScheme = window.matchMedia(
-            "(prefers-color-scheme: dark)",
-          ).matches;
-          theme, (themename = prefersDarkScheme ? "dark" : "light");
+        function setTheme(theme) {
+          let themename;
+          if (theme === "auto") {
+            const prefersDarkScheme = window.matchMedia(
+              "(prefers-color-scheme: dark)",
+            ).matches;
+            theme, (themename = prefersDarkScheme ? "dark" : "light");
+          }
+          console.log(themename);
+
+          document.documentElement.setAttribute("data-bs-theme", theme);
+          themeDropdownButton.innerHTML = `<svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#${icons[theme]}"></use></svg>`;
         }
-        console.log(themename);
 
-        document.documentElement.setAttribute("data-bs-theme", theme);
-        themeDropdownButton.innerHTML = `<svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#${icons[theme]}"></use></svg>`;
-      }
+        setTheme("auto");
 
-      setTheme("auto");
-
-      themeDropdownItems.forEach((item) => {
-        item.addEventListener("click", function (event) {
-          event.preventDefault();
-          const selectedTheme = this.getAttribute("data-theme");
-          setTheme(selectedTheme);
+        themeDropdownItems.forEach((item) => {
+          item.addEventListener("click", function (event) {
+            event.preventDefault();
+            const selectedTheme = this.getAttribute("data-theme");
+            setTheme(selectedTheme);
+          });
         });
       });
-    });
+    }
   }
 
   setScrollIndicator() {
