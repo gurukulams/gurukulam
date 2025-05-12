@@ -94,8 +94,33 @@ class GurukulamsPage {
     this.handleSearch();
     this.handleValidation();
     this.handleStatus();
+    this.handleModelDialogs();
     this.setThemeSetting();
     this.setScrollIndicator();
+  }
+
+  handleModelDialogs() {
+    var myModalEl = document.getElementById("exampleModal");
+    if (myModalEl) {
+      let cRelatedTarget = null;
+      myModalEl.addEventListener("shown.bs.modal", function (event) {
+        cRelatedTarget = event.relatedTarget;
+        myModalEl
+          .querySelector(".btn-primary")
+          .addEventListener("click", (event) => {
+            if (!event.calledFlag) {
+              event.calledFlag = true;
+              const confirmationEvent = new Event("on-confirmation");
+              cRelatedTarget.dispatchEvent(confirmationEvent, {
+                bubbles: false,
+                detail: { text: () => "textarea.value" },
+              });
+              // eslint-disable-next-line no-undef
+              bootstrap.Modal.getInstance(myModalEl).hide();
+            }
+          });
+      });
+    }
   }
 
   handleStatus() {
