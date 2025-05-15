@@ -97,6 +97,7 @@ class GurukulamsPage {
     this.handleModelDialogs();
     this.handleTheme();
     this.setScrollIndicator();
+    this.handleZenMode();
   }
 
   handleModelDialogs() {
@@ -195,6 +196,54 @@ class GurukulamsPage {
         });
       });
     }
+  }
+
+  handleZenMode() {
+    let zenMode = false;
+    const scrollIndiHeight = getComputedStyle(
+      document.getElementById("main-container"),
+    ).getPropertyValue("--header-size");
+
+    const toggleZenMode = () => {
+      zenMode = !zenMode;
+
+      const getChildren = (n, skipMe) => {
+        var r = [];
+        for (; n; n = n.nextSibling)
+          if (n.nodeType == 1 && n != skipMe) r.push(n);
+        return r;
+      };
+
+      const getSiblings = (n) => {
+        return getChildren(n.parentNode.firstChild, n);
+      };
+
+      if (zenMode) {
+        getSiblings(document.getElementById("main-container")).forEach((s) => {
+          s.classList.add("d-none");
+        });
+
+        document
+          .querySelector("html")
+          .style.setProperty("--header-size", "5px");
+      } else {
+        getSiblings(document.getElementById("main-container")).forEach((s) => {
+          s.classList.remove("d-none");
+        });
+
+        document
+          .querySelector("html")
+          .style.setProperty("--header-size", scrollIndiHeight);
+      }
+    };
+
+    document.addEventListener("keydown", (event) => {
+      let isZKey = event.key === "z" || event.key === "Z";
+      if (event.shiftKey && isZKey) {
+        console.log("Shift + Z pressed");
+        toggleZenMode();
+      }
+    });
   }
 
   setScrollIndicator() {
