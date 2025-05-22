@@ -317,18 +317,3 @@ class GurukulamsPage {
 class HomePage extends GurukulamsPage {}
 
 new HomePage();
-
-const prevLink = document.querySelector(".col-4.text-start a");
-const nextLink = document.querySelector(".col-4.text-end a");
-
-document.addEventListener("keydown", function (event) {
-  if (event.key === "ArrowLeft") {
-    if (prevLink) {
-      window.location.href = prevLink.href;
-    }
-  } else if (event.key === "ArrowRight") {
-    if (nextLink) {
-      window.location.href = nextLink.href;
-    }
-  }
-});

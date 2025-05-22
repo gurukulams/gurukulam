@@ -16,7 +16,7 @@
 
 
 
-  <main class="container {{ if eq .Type "courses"}}reveal {{ end }}mt-5 py-4">
+  <main id="main-container" class="container {{ if eq .Type "courses"}}reveal {{ end }}mt-5 py-4">
     {{ block "main" . }}{{ end }}
   </main>
 
