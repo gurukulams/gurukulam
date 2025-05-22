@@ -95,7 +95,7 @@ class GurukulamsPage {
     this.handleValidation();
     this.handleStatus();
     this.handleModelDialogs();
-    this.setThemeSetting();
+    this.handleTheme();
     this.setScrollIndicator();
   }
 
@@ -165,35 +165,24 @@ class GurukulamsPage {
 
   handleValidation() {}
 
-  setThemeSetting() {
-    document.addEventListener("DOMContentLoaded", function () {
+  handleTheme() {
+    const theme = localStorage.getItem("theme");
+
+    if (theme) {
+      const setTheme = (theme) => {
+        document.documentElement.setAttribute("data-bs-theme", theme);
+      };
+
+      setTheme(theme);
+
       const themeDropdownItems = document.querySelectorAll(
         ".dropdown-item[data-theme]",
       );
-      const icons = {
-        light: "sun-fill",
-        dark: "moon-stars-fill",
-        auto: "circle-half",
-      };
-
-      function setTheme(theme) {
-        let themename;
-        if (theme === "auto") {
-          const prefersDarkScheme = window.matchMedia(
-            "(prefers-color-scheme: dark)",
-          ).matches;
-          theme, (themename = prefersDarkScheme ? "dark" : "light");
-        }
-        console.log(themename);
-
-        document.documentElement.setAttribute("data-bs-theme", theme);
-        const themeDropdownButton = document.getElementById("themeDropdown");
-        if (themeDropdownButton) {
-          themeDropdownButton.innerHTML = `<svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#${icons[theme]}"></use></svg>`;
-        }
-      }
-
-      setTheme("auto");
+      // const icons = {
+      //   light: "sun-fill",
+      //   dark: "moon-stars-fill",
+      //   auto: "circle-half",
+      // };
 
       themeDropdownItems.forEach((item) => {
         item.addEventListener("click", function (event) {
@@ -202,7 +191,7 @@ class GurukulamsPage {
           setTheme(selectedTheme);
         });
       });
-    });
+    }
   }
 
   setScrollIndicator() {
