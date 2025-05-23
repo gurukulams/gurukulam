@@ -195,6 +195,8 @@ class GurukulamsPage {
           setTheme(selectedTheme);
         });
       });
+    } else {
+      localStorage.setItem("theme", "auto");
     }
   }
 
