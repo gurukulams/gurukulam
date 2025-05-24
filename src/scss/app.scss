@@ -37,3 +37,7 @@ body>nav>.container {
     margin-left: 0;
     left: 17px;
 }
+
+.row > ul, ol {
+    list-style-position: inside;
+}
