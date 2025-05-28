@@ -17,7 +17,7 @@ class Welcome {
             // auth_response.authToken = params.get("token");
             auth_response.expiresIn = Date.now() + auth_response.expiresIn;
             sessionStorage.auth = JSON.stringify(auth_response);
-            this.reload();
+            Welcome.reload();
           } else {
             this.register(
               auth_response.registrationToken,
@@ -35,7 +35,7 @@ class Welcome {
     }
   }
 
-  reload() {
+  static reload() {
     const refPage = sessionStorage.getItem("ref_page");
     sessionStorage.removeItem("ref_page");
     if (refPage) {
@@ -86,7 +86,7 @@ class Welcome {
           .then((auth_response) => {
             auth_response.expiresIn = Date.now() + auth_response.expiresIn;
             sessionStorage.auth = JSON.stringify(auth_response);
-            this.reload();
+            Welcome.reload();
           })
           .catch(() => {
             this.showError("Unable to register. Please contact admin");
@@ -119,6 +119,10 @@ class Welcome {
   showError(errorTxt) {
     this.errorPane.classList.remove("d-none");
     this.errorPane.innerHTML = errorTxt;
+  }
+
+  static cancel() {
+    Welcome.reload();
   }
 }
 
