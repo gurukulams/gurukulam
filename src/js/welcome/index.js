@@ -33,6 +33,7 @@ class Welcome {
         );
       }
     }
+    this.setTheme();
   }
 
   static reload() {
@@ -123,6 +124,15 @@ class Welcome {
 
   static cancel() {
     Welcome.reload();
+  }
+
+  setTheme() {
+    const theme = localStorage.getItem("theme");
+    if (theme) {
+      document.documentElement.setAttribute("data-bs-theme", theme);
+    } else {
+      document.documentElement.setAttribute("data-bs-theme", "auto");
+    }
   }
 }
 
