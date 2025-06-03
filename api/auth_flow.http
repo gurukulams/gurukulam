@@ -1,6 +1,6 @@
 @baseUrl = http://localhost:3000/api
-@username = tom@email.com
-@password = tompassword
+@username = tom
+@password = password
 
 ### Login to get auth token
 # @name auth_res
@@ -8,7 +8,7 @@ POST {{baseUrl}}/auth/login
 Content-Type: application/json
 
 {  
-  "userName": "{{username}}",
+  "userName": "{{username}}@email.com",
   "password": "{{password}}"
 }
 

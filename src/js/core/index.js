@@ -275,6 +275,15 @@ class GurukulamsPage {
       document.getElementById("logoutBtn").addEventListener("click", () => {
         delete sessionStorage.auth;
         window.location.reload();
+        fetch(`/api/auth/logout`, {
+          method: "POST",
+          headers: window.ApplicationHeader(),
+        }).then((response) => {
+          if (response.status === 200) {
+            delete sessionStorage.auth;
+            window.location.reload();
+          }
+        });
       });
 
       const userAuth = JSON.parse(sessionStorage.auth);
