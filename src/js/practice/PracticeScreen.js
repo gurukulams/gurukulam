@@ -92,8 +92,16 @@ export default class PracticeScreen {
   doEdit() {
     if( this.modeBtn.classList.contains("fa-pencil") ) {
       this.modeBtn.className = "fa-regular fa-eye";
+      this.addBtn.parentElement.classList.remove("d-none");
+      this.deleteBtn.parentElement.classList.remove("d-none");
+      this.saveBtn.parentElement.classList.remove("d-none");
+      this.checkBtn.parentElement.classList.add("d-none");
     } else {
       this.modeBtn.className = "fa-solid fa-pencil";
+      this.addBtn.parentElement.classList.add("d-none");
+      this.deleteBtn.parentElement.classList.add("d-none");
+      this.saveBtn.parentElement.classList.add("d-none");
+      this.checkBtn.parentElement.classList.remove("d-none");
     }
   }
 
@@ -116,12 +124,13 @@ export default class PracticeScreen {
         this.modeBtn = element;
         element.addEventListener("click", () => this.doEdit());
       } else if (classList.contains("fa-trash-alt")) {
+        this.deleteBtn = element;
         element.parentElement.addEventListener("on-confirmation", () =>
           this.doDelete()
         );
       } else if (classList.contains("fa-plus")) {
         const ulEl = element.parentElement.nextElementSibling;
-
+        this.addBtn = element;
         ulEl.querySelectorAll("li").forEach((liElement) => {
           liElement.addEventListener("click", () =>
             this.doAdd(liElement.dataset.type)
@@ -129,7 +138,9 @@ export default class PracticeScreen {
         });
       } else if (classList.contains("fa-floppy-disk")) {
         element.addEventListener("click", () => this.doSave());
+        this.saveBtn = element;
       } else if (classList.contains("fa-check")) {
+        this.checkBtn = element;
         element.addEventListener("click", () => this.doCheck());
       }
     });
