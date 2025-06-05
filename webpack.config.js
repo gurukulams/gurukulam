@@ -6,7 +6,7 @@ module.exports = {
   devServer: {
     proxy: [
       {
-        context: ['/api', '/oauth2', '/swagger-ui', '/v3/api-docs'],
+        context: ['/api', '/oauth2', '/swagger-ui', '/v3/api-docs', '/h2-console'],
         target: 'http://localhost:8080',
       },
     ],
