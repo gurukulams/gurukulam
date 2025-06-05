@@ -1,6 +1,6 @@
 @baseUrl = http://localhost:3000/api
-@username = tom@email.com
-@password = tompassword
+@username = tom
+@password = password
 
 ### Login to get auth token
 # @name auth_res
@@ -8,8 +8,19 @@ POST {{baseUrl}}/auth/login
 Content-Type: application/json
 
 {  
-  "userName": "{{username}}",
+  "userName": "{{username}}@email.com",
   "password": "{{password}}"
+}
+
+### Login to get auth token
+# @name auth_res
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+Authorization: Bearer {{auth_res.response.body.$.registrationToken}}
+
+{
+  "name":"{{username}}",
+  "dob":"2000-10-10"
 }
 
 ### Create a Question
@@ -37,12 +48,6 @@ Content-Type: application/json
     }
   ]
 }
-
-### Get Questions using the auth token
-GET {{baseUrl}}/questions/cse/databases/rdbms
-Authorization: Bearer {{auth_res.response.body.$.authToken}}
-Content-Type: application/json
-
 
 ### Logout
 POST {{baseUrl}}/auth/logout
