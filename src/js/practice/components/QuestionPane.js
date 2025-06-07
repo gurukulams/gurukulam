@@ -7,8 +7,15 @@ export default class QuestionPane {
     // eslint-disable-next-line no-undef
     this.questionEditor = new EasyMDE({
       autofocus: true,
-      element: document.querySelector("#qTxt"),
+      element: questionPane.querySelector("#qTxt"),
     });
+
+    this.explanationEditor = new EasyMDE({
+      autofocus: true,
+      element: questionPane.querySelector("#eTxt")
+    });
+
+
   }
 
   setQuestion(_question) {
@@ -16,8 +23,11 @@ export default class QuestionPane {
     this.questionEditor.value(
       _question.question ? _question.question : "",
     );
-  }
 
+    this.explanationEditor.value(
+      _question.explanation ? _question.explanation : "",
+    );
+  }
 
   
 }
