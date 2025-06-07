@@ -9,14 +9,14 @@ books:
       title: ஜாவா நிரலாக்கம்
       description: ஜாவா நிரலாக்க குறிப்புகள்.
       chaptersPath: /cse/languages/java
+  - path: web-essentials
+    fields:
+      title: இணைய அத்தியாவசியங்கள்
+      description: இணைய அத்தியாவசியங்கள் குறிப்புகள்.
   # - path: cybersecurity
   #   fields:
   #     title: இணைய பாதுகாப்பு
   #     description: இணைய பாதுகாப்பு குறிப்புகள்.
-  # - path: web-essentials
-  #   fields:
-  #     title: இணைய அத்தியாவசியங்கள்
-  #     description: இணைய அத்தியாவசியங்கள் குறிப்புகள்.
   # - path: artificial-intelligence
   #   fields:
   #     title: செயற்கை அறிவு

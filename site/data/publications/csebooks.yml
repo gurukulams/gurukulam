@@ -9,14 +9,14 @@ books:
       title: Java Programming
       description: Java Programming Notes.
       chaptersPath: /cse/languages/java
+  - path: web-essentials 
+    fields:
+      title: Web Essentials
+      description: Web Essentials Notes.
   # - path: cybersecurity
   #   fields:
   #     title: CyberSecurity
   #     description: CyberSecurity Notes.
-  # - path: web-essentials 
-  #   fields:
-  #     title: Web Essentials
-  #     description: Web Essentials Notes.
   # - path: relational-databases
   #   fields:
   #     title: Relational Databases
