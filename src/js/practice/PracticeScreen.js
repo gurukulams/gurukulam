@@ -12,6 +12,7 @@ export default class PracticeScreen {
       this.questionsUrl = "/api/questions/" + urlTokens[1];
 
       this.questionPane = new QuestionPane();
+      this.questionPane.readOnly = true;
 
       this.addActions();
       this.loadQuestions();
@@ -97,14 +98,14 @@ export default class PracticeScreen {
       this.deleteBtn.classList.remove("d-none");
       this.saveBtn.classList.remove("d-none");
       this.checkBtn.classList.add("d-none");
-      this.questionPane.readOnly = true;
+      this.questionPane.readOnly = false;
     } else {
       this.modeBtn.className = "fa-solid fa-pencil";
       this.addBtn.classList.add("d-none");
       this.deleteBtn.classList.add("d-none");
       this.saveBtn.classList.add("d-none");
       this.checkBtn.classList.remove("d-none");
-      this.questionPane.readOnly = false;
+      this.questionPane.readOnly = true;
     }
   }
 
