@@ -1,6 +1,7 @@
-import TextNotes from "./TextNotes";
-import ImageNotes from "./ImageNotes";
-import Classes from "./../events/Classes";
+import TextNotes from "./books/TextNotes";
+import ImageNotes from "./books/ImageNotes";
+import Classes from "./events/Classes";
+import Dropdown from "bootstrap";
 
 if (sessionStorage.auth) {
   const contentEl = document.getElementById("content");

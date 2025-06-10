@@ -1,4 +1,4 @@
-import Classes from "../events/Classes";
+import Classes from "./events/Classes";
 
 class Home {
   constructor() {

@@ -1,21 +1,33 @@
 const fs = require('fs').promises;
 const path = require('path');
+const glob = require('glob');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
+const proxyConfig = require('./proxy.config.js');
 
 module.exports = {
-  mode: 'development',
-  devServer: {
-    proxy: [
-      {
-        context: ['/api', '/oauth2', '/swagger-ui', '/v3/api-docs', '/h2-console'],
-        target: 'http://localhost:8080',
-      },
-    ],
-    static: {
-      directory: path.join(__dirname, 'dist'),
+    // Dynamically find all JS files in the src/js folder
+    entry: glob.sync('./src/js/*.js').reduce((entries, file) => {
+        const name = path.basename(file, '.js'); // Use filename as entry key
+        entries[name] = file;
+        return entries;
+    }, {}),
+    output: {
+        filename: 'js/[name].js', // Output JS bundles under the `js/` folder in dist
+        path: path.resolve(__dirname, 'dist'),
     },
-    port: 3000,
-    open: true,
-    setupMiddlewares: (middlewares, devServer) => {
+    // plugins: [new CleanWebpackPlugin()],
+    mode: 'production', // Change to 'production' for production builds
+    devServer: {
+      proxy: proxyConfig,
+      static: {
+        directory: path.join(__dirname, 'dist'),
+      },
+      port: 3000, // The port you want to use
+      open: true,
+      hot:true,
+      liveReload: true,
+      setupMiddlewares: (middlewares, devServer) => {
       
       if (!devServer) {
         throw new Error('webpack-dev-server is not defined');
@@ -40,6 +52,10 @@ module.exports = {
       });
     
       return middlewares;
-    },    
-  },
+    },       
+    },
+    performance: {
+        maxEntrypointSize: 1500000,
+        maxAssetSize: 1500000, // 1500 KB
+    }
 };

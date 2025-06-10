@@ -1,3 +1,5 @@
+
+
 class GurukulamsPage {
   constructor() {
     this.locale = document.getElementById("languageBtn").dataset.code;

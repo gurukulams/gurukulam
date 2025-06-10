@@ -1,4 +1,4 @@
-import QRious from "qrious";
+import {QRious} from "qrious";
 class Classes {
   constructor(classesPane, _chaptersPath) {
     this.editView = classesPane.querySelector("#event-form");
