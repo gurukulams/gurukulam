@@ -6,7 +6,7 @@ class Profile {
       this.subscribeBtn = document.getElementById("subscribeBtn");
 
       let userName = window.location.pathname
-        .split("profile/")[1]
+        .split("profile")[1]
         .replace("/", "");
 
       if (userName.trim().length === 0) {
