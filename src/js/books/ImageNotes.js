@@ -9,7 +9,6 @@ class ImageNotes extends CoreNotes {
         image: document.getElementById("imageModel").querySelector("img"),
         readOnly: true,
       }),
-      document.getElementById("btn-check-outlined"),
     );
 
     // eslint-disable-next-line no-undef

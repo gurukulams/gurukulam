@@ -1,13 +1,8 @@
 class CoreNotes {
-  constructor(_parent, _annobase, _checkbox) {
+  constructor(_parent, _annobase) {
     this.parent = _parent;
 
     this.annobase = _annobase;
-    this.checkbox = _checkbox;
-
-    _checkbox.addEventListener("change", (event) => {
-      this.annobase.readOnly = !event.currentTarget.checked;
-    });
 
     // this is the sample for creating and loading anotaions;
 

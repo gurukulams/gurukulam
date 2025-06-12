@@ -11,9 +11,14 @@ class Book {
       document.getElementById("bookOptionsPane").classList.remove("d-none");
       document.getElementById("notesBtn").classList.remove("d-none");
 
-      new TextNotes(contentEl);
+      const textNotes = new TextNotes(contentEl);
+      const imageNotes = new ImageNotes(contentEl);
 
-      new ImageNotes(contentEl);
+      document.getElementById("btn-check-outlined")
+        .addEventListener("change", (event) => {
+          textNotes.annobase.readOnly = !event.currentTarget.checked;
+          imageNotes.annobase.readOnly = !event.currentTarget.checked;
+      });
     
       const classes = new Classes(
         document.getElementById("event-container"),
