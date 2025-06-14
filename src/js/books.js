@@ -3,9 +3,7 @@ import ImageNotes from "./books/ImageNotes";
 import Classes from "./events/Classes";
 class Book {
   constructor() {
-    console.log("Book class initialized");
     if(sessionStorage.auth) {
-      console.log("User is authenticated");
       const contentEl = document.getElementById("content");
 
       document.getElementById("bookOptionsPane").classList.remove("d-none");
