@@ -43,12 +43,11 @@ export default class QuestionScreen {
       .querySelectorAll(".editor-statusbar")
       .forEach((element) => element.classList.add("d-none"));
 
-    this.questionEditor.togglePreview();
-    this.explanationEditor.togglePreview();
-
     this.registerEvents();
 
     this.loadQuestions();
+
+    this.toggleEditor(false);
   }
 
   setupLanguage(urlTokens) {
@@ -74,7 +73,6 @@ export default class QuestionScreen {
 
       for (let element of elements) {
         if (languageCode === element.children[0].dataset.code) {
-          console.log(element.children[0]);
 
           document.getElementById("languageBtn").textContent =
             element.children[0].textContent;
@@ -171,7 +169,6 @@ export default class QuestionScreen {
 
   save() {
     if (this.getQuestion()) {
-      console.log("Save");
       const promises = [];
       this.deletedQuestions.forEach((question) => {
         promises.push(
@@ -236,7 +233,7 @@ export default class QuestionScreen {
       });
   }
 
-  toggleEditor(intial = false) {
+  toggleEditor(intial) {
     this.isEditable = !this.isEditable;
 
     if (!intial) {
