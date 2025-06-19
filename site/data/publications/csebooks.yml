@@ -1,9 +1,4 @@
 books:
-  - path: c-programming
-    fields:
-      title: C Programming
-      description: C Programming Notes.
-      chaptersPath: /cse/languages/c
   - path: java-programming
     fields:
       title: Java Programming
@@ -13,14 +8,19 @@ books:
     fields:
       title: Web Essentials
       description: Web Essentials Notes.
+  - path: relational-databases
+    fields:
+      title: Relational Databases
+      description: Relational Databases Notes.
+  # - path: c-programming
+  #   fields:
+  #     title: C Programming
+  #     description: C Programming Notes.
+  #     chaptersPath: /cse/languages/c
   # - path: cybersecurity
   #   fields:
   #     title: CyberSecurity
   #     description: CyberSecurity Notes.
-  # - path: relational-databases
-  #   fields:
-  #     title: Relational Databases
-  #     description: Relational Databases Notes.
   # - path: computer-networking
   #   fields:
   #     title: Computer Networking
