@@ -576,7 +576,7 @@ export default class QuestionScreen {
           .forEach((checkbox) => {
             const shiftIcons = document.createElement("span");
 
-            shiftIcons.innerHTML = `<span class="badge text-dark rounded-pill justify-content-start"><i class="fa-solid fa-arrow-up px-2"></i><i
+            shiftIcons.innerHTML = `<span class="justify-content-start"><i class="fa-solid fa-arrow-up px-2"></i><i
     class="fa-solid fa-arrow-down"></i></span>`;
 
             checkbox.classList.add("d-none");
