@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:3000/api
+@baseUrl = http://localhost:8080/api
 @username = tom
 @password = password
 
@@ -34,20 +34,25 @@ Content-Type: application/json
   "type": "CHOOSE_THE_BEST",
   "choices": [
     {
-      "value": "Document Database"
+      "cValue": "Document Database"
     },
     {
-      "value": "Relational Database",
-      "answer": true
+      "cValue": "Relational Database",
+      "isAnswer": true
     },
     {
-      "value": "Key Value Store"
+      "cValue": "Key Value Store"
     },
     {
-      "value": "None of the above"
+      "cValue": "None of the above"
     }
   ]
 }
+
+### List Questions
+GET {{baseUrl}}/questions/cse/databases/rdbms
+Authorization: Bearer {{auth_res.response.body.$.authToken}}
+Content-Type: application/json
 
 ### Logout
 POST {{baseUrl}}/auth/logout
