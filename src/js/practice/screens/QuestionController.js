@@ -1,8 +1,8 @@
 import QuestionScreen from "./QuestionScreen";
 
 export default class QuestionController extends QuestionScreen {
-  constructor(_parent) {
-    super(_parent);
+  constructor() {
+    super(document.getElementById("content"));
     if (sessionStorage.auth) {
       if (window.hasFeature("MANAGE_QUESTION")) {
         document
