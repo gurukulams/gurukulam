@@ -12,6 +12,8 @@ export default class PracticeScreen {
 
       this.questionsUrl = "/api/questions/" + urlTokens[1];
 
+      this.questionPane = new QuestionPane();
+
       this.addActions();
       this.loadQuestions();
     } else {
@@ -44,7 +46,12 @@ export default class PracticeScreen {
 
   setQuestions(_questions) {
     this.questions = _questions;
-    console.log(this.questions);
+
+    if(this.questions.length === 0) {
+      console.log("Empty Questions");
+    } else {
+      this.questionPane.setQuestion(this.questions[0]);
+    }
   }
 
   addActions() {
