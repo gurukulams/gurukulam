@@ -7,61 +7,11 @@ export default class PracticeScreen {
       location.href = "/";
     }
 
-    this.nextButton = document.querySelector('a.page-link[aria-label="Next"]');
-    this.previousButton = document.querySelector('a.page-link[aria-label="Previous"]');
-    this.explainBtn = document.getElementById("explainToggle");
-    this.deleteButton = document.querySelector('.fa-trash-alt');
-    this.addButton = document.getElementById('dropdownMenuButton1');
-    this.editButton = document.querySelector('.fa-pencil');
-    this.saveButton = document.querySelector('.fa-floppy-disk');
-    this.checkButton = document.querySelector('.fa-check');
+    const navPane = document.getElementById("navPane");
 
-    if (this.nextButton) {
-      this.nextButton.addEventListener('click', () => {
-        this.doNext();
-      });
-    }
-
-    if (this.previousButton) {
-      this.previousButton.addEventListener('click', () => {
-        this.doPrevious();
-      });
-    }
-
-    if (this.explainBtn) {
-      this.explainBtn.addEventListener('click', () => {
-        this.doExplain();
-      });
-    }
-
-    if (this.deleteButton) {
-      this.deleteButton.addEventListener('click', () => 
-        this.doDelete());
-    }
-
-    if (this.addButton) {
-      this.addButton.addEventListener('click', () => {
-        this.doAdd();
-      });
-    }
-
-    if (this.editButton) {
-      this.editButton.addEventListener('click', () => {
-        this.doEdit();
-      });
-    }
-
-    if (this.saveButton) {
-      this.saveButton.addEventListener('click', () => {
-        this.doSave();
-      });
-    }
-
-    if (this.checkButton) {
-      this.checkButton.addEventListener('click', () => {
-        this.doCheck();
-      });
-    }
+    navPane.querySelectorAll("i").forEach(element => {
+      console.log(element);
+    });
 
   }
 
