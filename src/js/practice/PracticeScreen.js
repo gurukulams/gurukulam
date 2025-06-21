@@ -21,7 +21,12 @@ export default class PracticeScreen {
       } else if(classList.contains("fa-trash-alt")) {
         element.parentElement.addEventListener("on-confirmation", () => this.doDelete());
       } else if(classList.contains("fa-plus")) {
-        element.addEventListener("click", () => this.doAdd());
+        const ulEl = element.parentElement.nextElementSibling;
+
+        ulEl.querySelectorAll("li").forEach(liElement => {
+            liElement.addEventListener("click", () => this.doAdd(liElement.dataset.type));
+        })
+
       } else if(classList.contains("fa-floppy-disk")) {
         element.addEventListener("click", () => this.doSave());
       } else if(classList.contains("fa-check")) {
@@ -53,10 +58,17 @@ export default class PracticeScreen {
   doDelete() {
     console.log("Delete Button clicked");
   }
-
-  doAdd() {
-    console.log("Add Button clicked");
+  doAdd(QuestionType) {
+    console.log("Add Button clicked for " + QuestionType);
   }
+  chooseTheBestAnswer() {
+    console.log("Choose the best answer Button clicked");
+  }
+
+  MultiChoice() {
+    console.log("Multi Choice Button clicked");
+  }
+
 
   doEdit() {
     console.log("Edit Button clicked");
