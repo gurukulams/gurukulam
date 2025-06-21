@@ -3,13 +3,12 @@ title: 'Questions'
 weight: 1
 ---
 
-<div class="container vh-100">
+<div id="practicePane" class="container vh-100">
 
-  <div class="row" >
-    <div class="col-6" id="navPane">
+  <div class="row">
+    <div class="col-6 px-0" id="navPane">
       <div class="row">
         <div class="col-1 pe-0 text-center">
-
           <div class="btn-group" role="group" aria-label="Basic example">
             <button id="explainToggle" type="button" class="btn btn-outline-primary" data-bs-toggle="tooltip"
               data-bs-placement="bottom" title="Explain">
@@ -37,14 +36,14 @@ weight: 1
         </div>
       </div>
     </div>
-    <div class="col-6" id="actionsPane">
+    <div class="col-6 px-0" id="actionsPane">
       <div class="dropdown float-end">
 
 
-        <button type="button" class="btn d-none" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
             class="far fa-trash-alt"></i></button>
 
-        <button class="btn dropdown-toggle d-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
           aria-expanded="false">
           <i class="fa-solid fa-plus"></i>
         </button>
@@ -52,8 +51,8 @@ weight: 1
           <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
           <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multi-choice</a></li>
         </ul>
-        <button id="toggleViewBtn" type="button" class="btn d-none"><i class="fa-solid fa-pencil"></i></button>
-        <button type="button" class="btn d-none"><i class="fa-solid fa-floppy-disk"></i></button>
+        <button id="toggleViewBtn" type="button" class="btn"><i class="fa-solid fa-pencil"></i></button>
+        <button type="button" class="btn"><i class="fa-solid fa-floppy-disk"></i></button>
 
         <button type="button" class="btn"><i class="fa-solid fa-check"></i></button>
 
@@ -61,31 +60,23 @@ weight: 1
 
     </div>
   </div>
-
-  <div id="emptyPane" class="row h-50 d-none">
-    <p class="lead">There are no questions. But you can create one</p>
-  </div>
-
   
 
-  
-  <div id="questionPane" class="row h-50 d-none">
+  <div id="questionPane" class="row h-50">
 
     <div class="col-6 ">
-
-      <div class="form-floating mb-3 h-100 d-none" id="matcheContainer">
-        JImmbale JImmbale JImbakku JImba
-      </div>
-
-      <div class="form-floating mb-3 h-100" id="questionContainer">
-        <textarea class="form-control h-100" placeholder="Question" id="qTxt" rows="3"></textarea>
+      <span id="questionContainer">
+        <textarea class="form-control h-100" placeholder="Question" id="eTxt" rows="3"></textarea>
+      </span>
+      <div class="form-floating mb-3 h-100" id="matcheContainer">
+        
       </div>
     </div>
     
     
     <div class="col-6">
 
-      <span id="explanationContainer" class="d-none">
+      <span id="explanationContainer">
         <textarea class="form-control h-100" placeholder="Explanation" id="eTxt" rows="3"></textarea>
       </span>
 
@@ -95,5 +86,6 @@ weight: 1
 
     </div>
   </div>
+
 
 </div>
