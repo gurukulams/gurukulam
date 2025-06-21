@@ -13,12 +13,12 @@ export default class PracticeScreen {
     const navPane = document.getElementById("navPane");
 
     navPane.querySelectorAll("i").forEach(element => {
-      if(element.classList.contains("fa-question")) {
-        element.addEventListener("click", event => {
-          this.doExplain();
-        });
+      const classList = element.classList;
+      if(classList.contains("fa-question")) {
+        element.addEventListener("click", () => this.doExplain());
+      } else if(classList.contains("fa-pencil")) {
+        element.addEventListener("click", () => this.doEdit());
       }
-      console.log(element);
     });
 
     navPane.querySelectorAll("a.page-link").forEach(element => {
