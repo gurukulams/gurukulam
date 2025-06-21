@@ -19,7 +19,7 @@ export default class PracticeScreen {
       } else if(classList.contains("fa-pencil")) {
         element.addEventListener("click", () => this.doEdit());
       } else if(classList.contains("fa-trash-alt")) {
-        element.addEventListener("on-confirmation", () => this.doDelete());
+        element.parentElement.addEventListener("on-confirmation", () => this.doDelete());
       } else if(classList.contains("fa-plus")) {
         element.addEventListener("click", () => this.doAdd());
       } else if(classList.contains("fa-floppy-disk")) {
