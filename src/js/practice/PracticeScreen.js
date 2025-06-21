@@ -3,10 +3,48 @@ import QuestionPane from "./components/QuestionPane";
 export default class PracticeScreen {
   constructor() {
     if (sessionStorage.auth) {
+
+      const urlTokens = window.location.pathname.split("/questions/");
+
+      if (!urlTokens[1] || urlTokens[1].trim() === "") {
+        window.location.href = "/";
+      }
+
+      this.questionsUrl = "/api/questions/" + urlTokens[1];
+
       this.addActions();
+      this.loadQuestions();
     } else {
       location.href = "/";
     }
+  }
+
+  loadQuestions() {
+    fetch(this.questionsUrl, {
+      headers: window.ApplicationHeader(),
+    })
+      .then((response) => {
+        if (response.ok) {
+          if (response.status === 204) {
+            this.setQuestions([]);
+          }
+          return response.json();
+        } else {
+          throw Error(response.statusText);
+        }
+      })
+      .then((data) => {
+        this.setQuestions(window.shuffle(data));
+
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }
+
+  setQuestions(_questions) {
+    this.questions = _questions;
+    console.log(this.questions);
   }
 
   addActions() {
@@ -14,30 +52,30 @@ export default class PracticeScreen {
 
     navPane.querySelectorAll("i").forEach(element => {
       const classList = element.classList;
-      if(classList.contains("fa-question")) {
+      if (classList.contains("fa-question")) {
         element.addEventListener("click", () => this.doExplain());
-      } else if(classList.contains("fa-pencil")) {
+      } else if (classList.contains("fa-pencil")) {
         element.addEventListener("click", () => this.doEdit());
-      } else if(classList.contains("fa-trash-alt")) {
+      } else if (classList.contains("fa-trash-alt")) {
         element.parentElement.addEventListener("on-confirmation", () => this.doDelete());
-      } else if(classList.contains("fa-plus")) {
+      } else if (classList.contains("fa-plus")) {
         const ulEl = element.parentElement.nextElementSibling;
 
         ulEl.querySelectorAll("li").forEach(liElement => {
-            liElement.addEventListener("click", () => this.doAdd(liElement.dataset.type));
+          liElement.addEventListener("click", () => this.doAdd(liElement.dataset.type));
         })
 
-      } else if(classList.contains("fa-floppy-disk")) {
+      } else if (classList.contains("fa-floppy-disk")) {
         element.addEventListener("click", () => this.doSave());
-      } else if(classList.contains("fa-check")) {
+      } else if (classList.contains("fa-check")) {
         element.addEventListener("click", () => this.doCheck());
       }
     });
 
     navPane.querySelectorAll("a.page-link").forEach(element => {
-      if(element.ariaLabel === "Next") {
+      if (element.ariaLabel === "Next") {
         element.addEventListener("click", () => this.doNext());
-      } else if(element.ariaLabel === "Previous") {
+      } else if (element.ariaLabel === "Previous") {
         element.addEventListener("click", () => this.doPrevious());
       }
     });
