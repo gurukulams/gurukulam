@@ -13,6 +13,11 @@ export default class PracticeScreen {
     const navPane = document.getElementById("navPane");
 
     navPane.querySelectorAll("i").forEach(element => {
+      if(element.classList.contains("fa-question")) {
+        element.addEventListener("click", event => {
+          this.doExplain();
+        });
+      }
       console.log(element);
     });
 
