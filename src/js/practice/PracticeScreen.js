@@ -92,16 +92,16 @@ export default class PracticeScreen {
   doEdit() {
     if( this.modeBtn.classList.contains("fa-pencil") ) {
       this.modeBtn.className = "fa-regular fa-eye";
-      this.addBtn.parentElement.classList.remove("d-none");
-      this.deleteBtn.parentElement.classList.remove("d-none");
-      this.saveBtn.parentElement.classList.remove("d-none");
-      this.checkBtn.parentElement.classList.add("d-none");
+      this.addBtn.classList.remove("d-none");
+      this.deleteBtn.classList.remove("d-none");
+      this.saveBtn.classList.remove("d-none");
+      this.checkBtn.classList.add("d-none");
     } else {
       this.modeBtn.className = "fa-solid fa-pencil";
-      this.addBtn.parentElement.classList.add("d-none");
-      this.deleteBtn.parentElement.classList.add("d-none");
-      this.saveBtn.parentElement.classList.add("d-none");
-      this.checkBtn.parentElement.classList.remove("d-none");
+      this.addBtn.classList.add("d-none");
+      this.deleteBtn.classList.add("d-none");
+      this.saveBtn.classList.add("d-none");
+      this.checkBtn.classList.remove("d-none");
     }
   }
 
@@ -119,39 +119,39 @@ export default class PracticeScreen {
     navPane.querySelectorAll("i").forEach((element) => {
       const classList = element.classList;
       if (classList.contains("fa-question")) {
-        element.addEventListener("click", () => this.doExplain());
+        element.parentElement.addEventListener("click", () => this.doExplain());
       } else if (classList.contains("fa-pencil")) {
         this.modeBtn = element;
-        element.addEventListener("click", () => this.doEdit());
+        element.parentElement.addEventListener("click", () => this.doEdit());
       } else if (classList.contains("fa-trash-alt")) {
-        this.deleteBtn = element;
+        this.deleteBtn = element.parentElement;
         element.parentElement.addEventListener("on-confirmation", () =>
           this.doDelete()
         );
       } else if (classList.contains("fa-plus")) {
         const ulEl = element.parentElement.nextElementSibling;
-        this.addBtn = element;
+        this.addBtn = element.parentElement;
         ulEl.querySelectorAll("li").forEach((liElement) => {
-          liElement.addEventListener("click", () =>
+          liElement.parentElement.addEventListener("click", () =>
             this.doAdd(liElement.dataset.type)
           );
         });
       } else if (classList.contains("fa-floppy-disk")) {
-        element.addEventListener("click", () => this.doSave());
-        this.saveBtn = element;
+        element.parentElement.addEventListener("click", () => this.doSave());
+        this.saveBtn = element.parentElement;
       } else if (classList.contains("fa-check")) {
-        this.checkBtn = element;
-        element.addEventListener("click", () => this.doCheck());
+        this.checkBtn = element.parentElement;
+        element.parentElement.addEventListener("click", () => this.doCheck());
       }
     });
 
     navPane.querySelectorAll("a.page-link").forEach((element) => {
       if (element.ariaLabel === "Next") {
         this.nextBtn = element;
-        element.addEventListener("click", () => this.doNext());
+        element.parentElement.addEventListener("click", () => this.doNext());
       } else if (element.ariaLabel === "Previous") {
         this.previousBtn = element;
-        element.addEventListener("click", () => this.doPrevious());
+        element.parentElement.addEventListener("click", () => this.doPrevious());
       }
     });
   }
