@@ -4,12 +4,18 @@ export default class QuestionPane {
   constructor() {
     const questionPane = document.getElementById("questionPane");
 
-    this.qTxt = document.getElementById("qTxt");
+    // eslint-disable-next-line no-undef
+    this.questionEditor = new EasyMDE({
+      autofocus: true,
+      element: document.querySelector("#qTxt"),
+    });
   }
 
   setQuestion(_question) {
     this.question = _question;
-    this.qTxt.value = _question.question;
+    this.questionEditor.value(
+      _question.question ? _question.question : "",
+    );
   }
 
 
