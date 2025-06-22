@@ -3,7 +3,6 @@ import QuestionPane from "./components/QuestionPane";
 export default class PracticeScreen {
   constructor() {
     if (sessionStorage.auth) {
-
       const urlTokens = window.location.pathname.split("/questions/");
 
       if (!urlTokens[1] || urlTokens[1].trim() === "") {
@@ -19,7 +18,6 @@ export default class PracticeScreen {
     } else {
       location.href = "/";
     }
-    this.currentQuestionIndex = 0; 
   }
 
   loadQuestions() {
@@ -38,7 +36,6 @@ export default class PracticeScreen {
       })
       .then((data) => {
         this.setQuestions(window.shuffle(data));
-
       })
       .catch(function (error) {
         console.log(error);
@@ -49,62 +46,36 @@ export default class PracticeScreen {
     this.questions = _questions;
     this.currentQuestionIndex = 0;
 
-    if(this.questions.length === 0) {
+    if (this.questions.length === 0) {
       console.log("Empty Questions");
     } else {
-      this.questionPane.setQuestion(this.questions[0]);
+      this.setQuestion(0);
     }
   }
 
-  addActions() {
-    const navPane = document.getElementById("navPane");
+  setQuestion(questionIndex) {
+    this.currentQuestionIndex = questionIndex;
+    this.questionPane.setQuestion(this.questions[this.currentQuestionIndex]);
 
-    navPane.querySelectorAll("i").forEach(element => {
-      const classList = element.classList;
-      if (classList.contains("fa-question")) {
-        element.addEventListener("click", () => this.doExplain());
-      } else if (classList.contains("fa-pencil")) {
-        element.addEventListener("click", () => this.doEdit());
-      } else if (classList.contains("fa-trash-alt")) {
-        element.parentElement.addEventListener("on-confirmation", () => this.doDelete());
-      } else if (classList.contains("fa-plus")) {
-        const ulEl = element.parentElement.nextElementSibling;
+    if (this.currentQuestionIndex === this.questions.length - 1) {
+      this.nextBtn.parentElement.classList.add("disabled");
+    } else {
+      this.nextBtn.parentElement.classList.remove("disabled");
+    }
 
-        ulEl.querySelectorAll("li").forEach(liElement => {
-          liElement.addEventListener("click", () => this.doAdd(liElement.dataset.type));
-        })
-
-      } else if (classList.contains("fa-floppy-disk")) {
-        element.addEventListener("click", () => this.doSave());
-      } else if (classList.contains("fa-check")) {
-        element.addEventListener("click", () => this.doCheck());
-      }
-    });
-
-    navPane.querySelectorAll("a.page-link").forEach(element => {
-      if (element.ariaLabel === "Next") {
-        element.addEventListener("click", () => this.doNext());
-      } else if (element.ariaLabel === "Previous") {
-        element.addEventListener("click", () => this.doPrevious());
-      }
-    });
+    if (this.currentQuestionIndex === 0) {
+      this.previousBtn.parentElement.classList.add("disabled");
+    } else {
+      this.previousBtn.parentElement.classList.remove("disabled");
+    }
   }
 
   doNext() {
-    console.log("Next question");
-    this.currentQuestionIndex++;
-    if (this.currentQuestionIndex < this.questions.length) {
-      const nextQ = this.questions[this.currentQuestionIndex];
-      this.questionPane.setQuestion(nextQ);
-    }
+    this.setQuestion(this.currentQuestionIndex + 1);
   }
 
   doPrevious() {
-    console.log("Previous question");
-    if (this.currentQuestionIndex > 0) {
-      this.currentQuestionIndex--;
-      this.questionPane.setQuestion(this.questions[this.currentQuestionIndex]);
-    }
+    this.setQuestion(this.currentQuestionIndex - 1);
   }
 
   doExplain() {
@@ -130,4 +101,42 @@ export default class PracticeScreen {
     console.log("Check Button clicked");
   }
 
+  addActions() {
+    const navPane = document.getElementById("navPane");
+
+    navPane.querySelectorAll("i").forEach((element) => {
+      const classList = element.classList;
+      if (classList.contains("fa-question")) {
+        element.addEventListener("click", () => this.doExplain());
+      } else if (classList.contains("fa-pencil")) {
+        element.addEventListener("click", () => this.doEdit());
+      } else if (classList.contains("fa-trash-alt")) {
+        element.parentElement.addEventListener("on-confirmation", () =>
+          this.doDelete()
+        );
+      } else if (classList.contains("fa-plus")) {
+        const ulEl = element.parentElement.nextElementSibling;
+
+        ulEl.querySelectorAll("li").forEach((liElement) => {
+          liElement.addEventListener("click", () =>
+            this.doAdd(liElement.dataset.type)
+          );
+        });
+      } else if (classList.contains("fa-floppy-disk")) {
+        element.addEventListener("click", () => this.doSave());
+      } else if (classList.contains("fa-check")) {
+        element.addEventListener("click", () => this.doCheck());
+      }
+    });
+
+    navPane.querySelectorAll("a.page-link").forEach((element) => {
+      if (element.ariaLabel === "Next") {
+        this.nextBtn = element;
+        element.addEventListener("click", () => this.doNext());
+      } else if (element.ariaLabel === "Previous") {
+        this.previousBtn = element;
+        element.addEventListener("click", () => this.doPrevious());
+      }
+    });
+  }
 }
