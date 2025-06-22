@@ -54,20 +54,21 @@ export default class PracticeScreen {
   }
 
   setQuestion(questionIndex) {
+    
+    if (questionIndex === this.questions.length - 1) {
+      this.nextBtn.classList.add("disabled");
+    } else {
+      this.nextBtn.classList.remove("disabled");
+    }
+
+    if (questionIndex === 0) {
+      this.previousBtn.classList.add("disabled");
+    } else {
+      this.previousBtn.classList.remove("disabled");
+    }
+
     this.currentQuestionIndex = questionIndex;
     this.questionPane.setQuestion(this.questions[this.currentQuestionIndex]);
-
-    if (this.currentQuestionIndex === this.questions.length - 1) {
-      this.nextBtn.parentElement.classList.add("disabled");
-    } else {
-      this.nextBtn.parentElement.classList.remove("disabled");
-    }
-
-    if (this.currentQuestionIndex === 0) {
-      this.previousBtn.parentElement.classList.add("disabled");
-    } else {
-      this.previousBtn.parentElement.classList.remove("disabled");
-    }
   }
 
   doNext() {
@@ -148,10 +149,10 @@ export default class PracticeScreen {
     navPane.querySelectorAll("a.page-link").forEach((element) => {
       if (element.ariaLabel === "Next") {
         this.nextBtn = element;
-        element.parentElement.addEventListener("click", () => this.doNext());
+        element.addEventListener("click", () => this.doNext());
       } else if (element.ariaLabel === "Previous") {
         this.previousBtn = element;
-        element.parentElement.addEventListener("click", () => this.doPrevious());
+        element.addEventListener("click", () => this.doPrevious());
       }
     });
   }
