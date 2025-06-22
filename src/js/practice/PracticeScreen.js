@@ -81,7 +81,15 @@ export default class PracticeScreen {
   }
 
   doExplain() {
-    console.log("explanation Button clicked");
+    if (this.explainToggleBtn.classList.contains("btn-primary")) {
+      this.explainToggleBtn.classList.remove("btn-primary");
+      this.explainToggleBtn.classList.add("btn-outline-primary");
+      this.questionPane.doExplain(false);
+    } else {
+      this.explainToggleBtn.classList.remove("btn-outline-primary");
+      this.explainToggleBtn.classList.add("btn-primary");
+      this.questionPane.doExplain(true);
+    }
   }
 
   doDelete() {
@@ -123,7 +131,8 @@ export default class PracticeScreen {
     navPane.querySelectorAll("i").forEach((element) => {
       const classList = element.classList;
       if (classList.contains("fa-question")) {
-        element.parentElement.addEventListener("click", () => this.doExplain());
+        this.explainToggleBtn = element.parentElement;
+        this.explainToggleBtn.addEventListener("click", () => this.doExplain());
       } else if (classList.contains("fa-pencil")) {
         this.modeBtn = element;
         element.parentElement.addEventListener("click", () => this.doEdit());

@@ -15,6 +15,8 @@ export default class QuestionPane {
       element: this.questionPane.querySelector("#eTxt")
     });
 
+    this.explanationContainer = this.questionPane.querySelector("#explanationContainer");
+
     this.readOnly = true;
 
   }
@@ -46,5 +48,13 @@ export default class QuestionPane {
     }
   }
   
+  doExplain(flag) {
+    if(flag) {
+      this.explanationContainer.classList.remove("d-none");
+    } else {
+      this.explanationContainer.classList.add("d-none");
+    }
+
+  }
   
 }
