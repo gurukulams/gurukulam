@@ -15,6 +15,7 @@ export default class QuestionPane {
       element: questionPane.querySelector("#eTxt")
     });
 
+    this.readOnly = true;
 
   }
 
@@ -27,6 +28,11 @@ export default class QuestionPane {
     this.explanationEditor.value(
       _question.explanation ? _question.explanation : "",
     );
+  }
+
+  set readOnly(flag) {
+    this.questionEditor.togglePreview();
+    this.explanationEditor.togglePreview();
   }
 
   

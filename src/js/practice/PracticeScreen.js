@@ -97,12 +97,14 @@ export default class PracticeScreen {
       this.deleteBtn.classList.remove("d-none");
       this.saveBtn.classList.remove("d-none");
       this.checkBtn.classList.add("d-none");
+      this.questionPane.readOnly = true;
     } else {
       this.modeBtn.className = "fa-solid fa-pencil";
       this.addBtn.classList.add("d-none");
       this.deleteBtn.classList.add("d-none");
       this.saveBtn.classList.add("d-none");
       this.checkBtn.classList.remove("d-none");
+      this.questionPane.readOnly = false;
     }
   }
 
