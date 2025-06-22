@@ -90,7 +90,11 @@ export default class PracticeScreen {
   }
 
   doEdit() {
-    console.log("Edit Button clicked");
+    if( this.modeBtn.classList.contains("fa-pencil") ) {
+      this.modeBtn.className = "fa-regular fa-eye";
+    } else {
+      this.modeBtn.className = "fa-solid fa-pencil";
+    }
   }
 
   doSave() {
@@ -109,6 +113,7 @@ export default class PracticeScreen {
       if (classList.contains("fa-question")) {
         element.addEventListener("click", () => this.doExplain());
       } else if (classList.contains("fa-pencil")) {
+        this.modeBtn = element;
         element.addEventListener("click", () => this.doEdit());
       } else if (classList.contains("fa-trash-alt")) {
         element.parentElement.addEventListener("on-confirmation", () =>
