@@ -10,8 +10,7 @@ export default class QuestionPane {
     this.matcheContainer = document.getElementById("matcheContainer");
     this.explanationContainer = document.getElementById("explanationContainer");
 
-    this.chooseTheBestList = new ChoiceList(true);
-    this.mcqList = new ChoiceList(false);
+
 
     // eslint-disable-next-line no-undef
     this.questionEditor = new EasyMDE({
@@ -38,33 +37,18 @@ export default class QuestionPane {
       _question.explanation ? _question.explanation : "",
     );
 
-    if(this.answerContainer.firstChild) {
-      this.answerContainer.firstChild.classList.add("d-none");
-    }
+    this.answerContainer.innerHTML = '';
 
     switch (_question.type) {
       case "CHOOSE_THE_BEST":
-        this.chooseTheBestList.setChoices(_question.choices);
+        this.chooseTheBestList = new ChoiceList(true, _question.choices);
         this.answerContainer.appendChild(this.chooseTheBestList.element);
-        if(this.chooseTheBestList.element.classList) {
-          this.chooseTheBestList.element.classList.remove("d-none");
-        }
-        
         break;
       case "MULTI_CHOICE":
-        this.mcqList.setChoices(_question.choices);
+        this.mcqList = new ChoiceList(false, _question.choices);
         this.answerContainer.appendChild(this.mcqList.element);
-        if(this.mcqList.element.classList) {
-          this.mcqList.element.classList.remove("d-none");
-        }
-        
         break;
     }
-  }
-
-  setChoices(isSingle) {
-    this.answerContainer.innerHTML = 'Set Choice Called ' + isSingle
-    console.log('Set Choice Called');
   }
 
   set readOnly(flag) {
