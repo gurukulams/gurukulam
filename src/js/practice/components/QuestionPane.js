@@ -1,4 +1,5 @@
-// web component
+import ChoiceList from "./ChoiceList";
+
 export default class QuestionPane {
   
   constructor() {
@@ -8,6 +9,9 @@ export default class QuestionPane {
     this.questionContainer = document.getElementById("questionContainer");
     this.matcheContainer = document.getElementById("matcheContainer");
     this.explanationContainer = document.getElementById("explanationContainer");
+
+    this.chooseTheBestList = new ChoiceList(true);
+    this.mcqList = new ChoiceList(false);
 
     // eslint-disable-next-line no-undef
     this.questionEditor = new EasyMDE({
@@ -19,8 +23,6 @@ export default class QuestionPane {
       autofocus: true,
       element: this.questionPane.querySelector("#eTxt")
     });
-
-    
 
     this.readOnly = true;
 
@@ -36,114 +38,33 @@ export default class QuestionPane {
       _question.explanation ? _question.explanation : "",
     );
 
+    if(this.answerContainer.firstChild) {
+      this.answerContainer.firstChild.classList.add("d-none");
+    }
+
     switch (_question.type) {
       case "CHOOSE_THE_BEST":
-        this.setChoices(
-          true,
-          _question,
-          "choices",
-          this.answerContainer,
-          true
-        );
+        this.chooseTheBestList.setChoices(_question.choices);
+        this.answerContainer.appendChild(this.chooseTheBestList.element);
+        if(this.chooseTheBestList.element.classList) {
+          this.chooseTheBestList.element.classList.remove("d-none");
+        }
+        
+        break;
+      case "MULTI_CHOICE":
+        this.mcqList.setChoices(_question.choices);
+        this.answerContainer.appendChild(this.mcqList.element);
+        if(this.mcqList.element.classList) {
+          this.mcqList.element.classList.remove("d-none");
+        }
+        
         break;
     }
   }
 
-  setChoices(
-    isSingle,
-    question,
-    propertyName,
-    theContainer,
-    skipShuffle,
-  ) {
-    theContainer.innerHTML = `<ul class="list-group"></ul>`;
-
-    if (question[propertyName]) {
-      if (!skipShuffle) {
-        window.shuffle(question[propertyName]);
-      }
-    } else {
-      question[propertyName] = [];
-    }
-
-    question[propertyName].forEach((choice) => {
-      this.setChoice(isSingle, choice, theContainer, propertyName);
-    });
-
-    if (this.isEditable) {
-      theContainer
-        .querySelector(".form-control")
-        .addEventListener("keyup", (event) => {
-          if (event.keyCode === 13) {
-            event.preventDefault();
-            if (event.currentTarget.value !== "") {
-              const choice = {
-                cValue: event.currentTarget.value,
-              };
-              question[propertyName].push(choice);
-              event.currentTarget.value = "";
-              this.setChoice(isSingle, choice, theContainer, propertyName);
-            }
-          }
-        });
-    }
-  }
-
-  setChoice(isSingle, choice, theContainer, propertyName) {
-    const ulEl = theContainer.firstElementChild;
-    const liEl = document.createElement("li");
-    liEl.classList.add("list-group-item");
-    liEl.classList.add("d-flex");
-    liEl.classList.add("align-items-center");
-    liEl.innerHTML = `<div class="form-check" data-id="${choice.id}">
-  <input class="form-check-input" type="${isSingle ? "radio" : "checkbox"}" ${
-    this.isEditable && choice.answer ? "checked" : ""
-  }
-    name="flexRadioDefault" value="${choice.id}" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-
-  </label>
-</div>
-${
-  this.isEditable
-    ? `<span class="badge text-dark rounded-pill justify-content-end"><i class="fa-solid fa-pen px-2"></i><i
-    class="far fa-trash-alt" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></span>`
-    : ``
-}
-
-
-
-
-`;
-    ulEl.appendChild(liEl);
-
-    if (this.isEditable) {
-      liEl
-        .querySelector("input.form-check-input")
-        .addEventListener("change", (event) => {
-          if (isSingle) {
-            const question = questions[this.questionIndex];
-            if (question[propertyName]) {
-              question[propertyName].forEach((choice) => {
-                delete choice.answer;
-              });
-            }
-          }
-          choice.answer = event.currentTarget.checked;
-        });
-
-      liEl
-        .querySelector(".fa-pen")
-        .addEventListener("click", (event) => this.editChoice(event));
-      liEl
-        .querySelector(".fa-trash-alt")
-        .addEventListener("on-confirmation", (event) =>
-          this.removeChoice(event),
-        );
-    }
-
-    liEl.firstElementChild.children[1].innerHTML = choice.cValue;
-    return liEl;
+  setChoices(isSingle) {
+    this.answerContainer.innerHTML = 'Set Choice Called ' + isSingle
+    console.log('Set Choice Called');
   }
 
   set readOnly(flag) {

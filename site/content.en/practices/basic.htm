@@ -1,21 +1,24 @@
 ---
-title: 'Questions'
+title: "Questions"
 weight: 1
 ---
 
 <div id="practicePane" class="container vh-100">
-
   <div id="navPane" class="row">
     <div class="col-6 px-0">
       <div class="row">
         <div class="col-1 pe-0 text-center">
           <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-outline-primary" data-bs-toggle="tooltip"
-              data-bs-placement="bottom" title="Explain">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Explain"
+            >
               <i class="fa-solid fa-question"></i>
             </button>
           </div>
-
         </div>
         <div class="col-11 px-0">
           <nav aria-label="Page Navigation">
@@ -24,7 +27,7 @@ weight: 1
                 <a class="page-link" href="javascript://" aria-label="Previous">
                   <span aria-hidden="true">&laquo;</span>
                 </a>
-              </li>     
+              </li>
               <li class="page-item" title="Next Question">
                 <a class="page-link" href="javascript://" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
@@ -32,59 +35,108 @@ weight: 1
               </li>
             </ul>
           </nav>
-          
         </div>
       </div>
     </div>
     <div class="col-6 px-0">
       <div class="dropdown float-end">
+        <button
+          type="button"
+          class="btn d-none"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          title="Delete"
+        >
+          <i class="far fa-trash-alt text-danger"></i>
+        </button>
 
-
-        <button type="button" class="btn d-none" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Delete"><i
-            class="far fa-trash-alt text-danger"></i></button>
-
-        <button class="btn dropdown-toggle d-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-          aria-expanded="false" title="Add question">
+        <button
+          class="btn dropdown-toggle d-none"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          title="Add question"
+        >
           <i class="fa-solid fa-plus"></i>
         </button>
-        <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
-          <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
-          <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multi-choice</a></li>
+        <ul
+          class="dropdown-menu add-btns"
+          aria-labelledby="dropdownMenuButton1"
+        >
+          <li data-type="CHOOSE_THE_BEST">
+            <a class="dropdown-item" href="javascript://">Choose the best</a>
+          </li>
+          <li data-type="MULTI_CHOICE">
+            <a class="dropdown-item" href="javascript://">Multi-choice</a>
+          </li>
         </ul>
-        <button id="toggleViewBtn" type="button" class="btn" title="Edit Question"><i class="fa-solid fa-pencil"></i></button>
-        <button type="button" class="btn d-none" title="Save Question"><i class="fa-solid fa-floppy-disk"></i></button>
-        <button type="button" class="btn" title="Check Question"><i class="fa-solid fa-check"></i></button>
-
+        <button
+          id="toggleViewBtn"
+          type="button"
+          class="btn"
+          title="Edit Question"
+        >
+          <i class="fa-solid fa-pencil"></i>
+        </button>
+        <button type="button" class="btn d-none" title="Save Question">
+          <i class="fa-solid fa-floppy-disk"></i>
+        </button>
+        <button type="button" class="btn" title="Check Question">
+          <i class="fa-solid fa-check"></i>
+        </button>
       </div>
-
     </div>
   </div>
-  
 
   <div id="questionPane" class="row h-50">
-
-    <div class="col-6 ">
-      <span id="questionContainer">
-        <textarea class="form-control h-100" placeholder="Question" id="qTxt" rows="3"></textarea>
-      </span>
-      <div class="form-floating mb-3 h-100" id="matcheContainer">
-        
-      </div>
-    </div>
-    
-    
     <div class="col-6">
+      <span id="questionContainer">
+        <textarea
+          class="form-control h-100"
+          placeholder="Question"
+          id="qTxt"
+          rows="3"
+        ></textarea>
+      </span>
+      <div class="form-floating mb-3 h-100" id="matcheContainer"></div>
+    </div>
 
+    <div class="col-6">
       <span id="explanationContainer" class="d-none">
-        <textarea class="form-control h-100" placeholder="Explanation" id="eTxt" rows="3"></textarea>
+        <textarea
+          class="form-control h-100"
+          placeholder="Explanation"
+          id="eTxt"
+          rows="3"
+        ></textarea>
       </span>
 
       <div class="form-floating mb-3 h-100" id="answerContainer">
         
       </div>
-
     </div>
   </div>
-
-
 </div>
+
+<template id="radioList">
+  <ul class="list-group">
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check" >
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexCheckDefault"/>
+        <label class="form-check-label" for="flexCheckDefault">C1</label>
+      </div>
+    </li>
+  </ul>
+</template>
+
+<template id="checkboxList">
+  <ul class="list-group">
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check" >
+        <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexCheckDefault"/>
+        <label class="form-check-label" for="flexCheckDefault">C1</label>
+      </div>
+    </li>
+  </ul>
+</template>
