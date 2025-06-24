@@ -1,11 +1,7 @@
 export default class ChoiceList {
-    constructor(isSingle) {
+    constructor(isSingle, choices) {
         const template = document.querySelector(isSingle ? "#radioList" : "#checkboxList");
         this._element = template.content.cloneNode(true);
-    }
-
-    setChoices(choices) {
-
     }
 
     get element()  {
