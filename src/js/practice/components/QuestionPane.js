@@ -27,6 +27,26 @@ export default class QuestionPane {
 
   }
 
+  getAnswer() {
+    let answer ;
+
+    switch (this.question.type) {
+      case "CHOOSE_THE_BEST":
+        answer = this.chooseTheBestList.answer.join(",");
+        break;
+      case "MULTI_CHOICE":
+        answer = this.mcqList.answer.join(",");
+        break
+    }
+
+    return answer;
+
+  }
+
+  getQuestion() {
+    return this.question;
+  }
+
   setQuestion(_question) {
     this.question = _question;
     this.questionEditor.value(

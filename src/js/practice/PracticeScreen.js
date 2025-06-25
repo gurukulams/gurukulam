@@ -123,6 +123,33 @@ export default class PracticeScreen {
 
   doCheck() {
     console.log("Check Button clicked");
+    const question = this.questionPane.getQuestion();
+    const answerText = this.questionPane.getAnswer();
+
+    if(answerText === '') {
+      window.error("Please Select Answer");
+    } else {
+      fetch("/api/questions/" + question.id + "/answer", {
+        method: "POST",
+        headers: window.ApplicationHeader(),
+        body: answerText,
+      })
+        .then((response) => {
+          // Shorthand to check for an HTTP 2xx response status.
+          // See https://fetch.spec.whatwg.org/#dom-response-ok
+          if (response.ok) {
+            console.log("Success");
+          } else if (response.status === 406) {
+            console.log("Success Not");
+          }
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+
+    }
+
+
   }
 
   addActions() {

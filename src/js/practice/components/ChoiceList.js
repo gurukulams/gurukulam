@@ -15,7 +15,7 @@ export default class ChoiceList {
     } else {
         choices.forEach((choice, index) => {
             const liEl = this._element.children[index];
-            liEl.querySelector("input").value = choice.cValue;
+            liEl.querySelector("input").value = choice.id;
             liEl.querySelector("label").textContent = choice.cValue;
             length++;
         });
@@ -26,6 +26,17 @@ export default class ChoiceList {
     for (let index = length; index < total; index++) {
       this._element.removeChild(this._element.children[length]);
     }
+  }
+
+  get answer() {
+    const selectedCheckBoxes = document.querySelectorAll("input");
+    const answers = [];
+    selectedCheckBoxes.forEach((input) => {
+      if (input.checked) {
+        answers.push(input.value);
+      }
+    });
+    return answers;
   }
 
   get element() {
