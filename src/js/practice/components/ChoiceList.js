@@ -7,9 +7,12 @@ export default class ChoiceList {
     let length = 0;
 
     if(templateName === "matchesList") {
+        this.isMatches = true;
         choices.forEach((choice, index) => {
             const liEl = this._element.children[index];
-            liEl.querySelector("label").textContent = choice.cValue;
+            const labelEl = liEl.querySelector("label");
+            labelEl.attributes["data-id"] = choice.id;
+            labelEl.textContent = choice.cValue;
             length++;
         });
     } else {
@@ -29,13 +32,23 @@ export default class ChoiceList {
   }
 
   get answer() {
-    const selectedCheckBoxes = document.querySelectorAll("input");
+
     const answers = [];
-    selectedCheckBoxes.forEach((input) => {
-      if (input.checked) {
-        answers.push(input.value);
-      }
-    });
+    if(this.isMatches) {
+      
+      this._element.querySelectorAll("label")
+      .forEach((element) => answers.push(element.attributes["data-id"]));
+    } else {
+      const selectedCheckBoxes = this._element.querySelectorAll("input");
+      selectedCheckBoxes.forEach((input) => {
+        if (input.checked) {
+          answers.push(input.value);
+        }
+      });
+    }
+    
+    console.log(answers);
+
     return answers;
   }
 

@@ -36,7 +36,12 @@ export default class QuestionPane {
         break;
       case "MULTI_CHOICE":
         answer = this.mcqList.answer.join(",");
-        break
+        break;
+      case "MATCH_THE_FOLLOWING":
+        const matches = this.mtfList.answer;
+        const choices = this.mtfChoicesList.answer;
+        answer = '';
+        break;
     }
 
     return answer;
