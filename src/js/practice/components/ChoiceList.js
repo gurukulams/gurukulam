@@ -66,6 +66,8 @@ export default class ChoiceList {
 
   get answer() {
 
+    this.reset();
+
     const answers = [];
     if(this.isMatches) {
       
@@ -88,4 +90,43 @@ export default class ChoiceList {
   get element() {
     return this._element;
   }
+
+  reset() {
+    this._element.querySelectorAll("li").forEach(liEl => {
+      liEl.classList.remove("bg-success");
+      liEl.classList.remove("bg-danger");
+    })
+  }
+
+  verify(success) {
+    if(success) {
+      if(this.isMatches) {
+        this._element.querySelectorAll("li").forEach(liEl => {
+          liEl.classList.add("bg-success");
+        })
+      } else {
+        this._element.querySelectorAll("li").forEach(liEl => {
+          const input = liEl.querySelector("input");
+          if (input.checked) {
+            liEl.classList.add("bg-success");
+          }
+        })
+      }
+    } else {
+      if(this.isMatches) {
+        this._element.querySelectorAll("li").forEach(liEl => {
+          liEl.classList.add("bg-danger");
+        })
+      }else {
+        this._element.querySelectorAll("li").forEach(liEl => {
+          const input = liEl.querySelector("input");
+          if (input.checked) {
+            liEl.classList.add("bg-danger");
+          }
+        })
+      }
+    }
+    
+  }
+
 }

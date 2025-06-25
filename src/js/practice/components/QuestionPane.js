@@ -27,6 +27,20 @@ export default class QuestionPane {
 
   }
 
+  verify(success) {
+    switch (this.question.type) {
+      case "CHOOSE_THE_BEST":
+        this.chooseTheBestList.verify(success)
+        break;
+      case "MULTI_CHOICE":
+        this.mcqList.verify(success)
+        break;
+      case "MATCH_THE_FOLLOWING":
+        this.mtfList.verify(success)
+        break;
+    }
+  }
+
   getAnswer() {
     let answer ;
 

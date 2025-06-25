@@ -138,9 +138,9 @@ export default class PracticeScreen {
           // Shorthand to check for an HTTP 2xx response status.
           // See https://fetch.spec.whatwg.org/#dom-response-ok
           if (response.ok) {
-            console.log("Success");
+            this.questionPane.verify(true);
           } else if (response.status === 406) {
-            console.log("Success Not");
+            this.questionPane.verify(false);
           }
         })
         .catch(function (error) {
