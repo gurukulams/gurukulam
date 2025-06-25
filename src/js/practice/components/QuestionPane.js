@@ -41,12 +41,16 @@ export default class QuestionPane {
 
     switch (_question.type) {
       case "CHOOSE_THE_BEST":
-        this.chooseTheBestList = new ChoiceList(true, _question.choices);
+        this.chooseTheBestList = new ChoiceList("radioList", _question.choices);
         this.answerContainer.appendChild(this.chooseTheBestList.element);
         break;
       case "MULTI_CHOICE":
-        this.mcqList = new ChoiceList(false, _question.choices);
+        this.mcqList = new ChoiceList("checkboxList", _question.choices);
         this.answerContainer.appendChild(this.mcqList.element);
+        break;
+        case "MATCH_THE_FOLLOWING":
+        this.mtfList = new ChoiceList("matchesList", _question.matches);
+        this.answerContainer.appendChild(this.mtfList.element);
         break;
     }
   }

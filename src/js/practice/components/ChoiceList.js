@@ -1,21 +1,21 @@
 export default class ChoiceList {
-  constructor(isSingle, choices) {
-    const template = document.querySelector(isSingle ? "#radioList" : "#checkboxList");
+  constructor(templateName, choices) {
+    const template = document.getElementById(templateName);
 
-    this._element = document.createElement("ul");
-    this._element.className = "list-group";
+    this._element = template.content.cloneNode(true).firstChild;
 
-    choices.forEach((choice) => {
-      const clone = template.content.cloneNode(true);
-      const li = clone.querySelector("li");
-      const input = li.querySelector("input");
-      const label = li.querySelector("label");
-
-      input.value = choice.cValue;
-      label.textContent = choice.cValue;
-
-      this._element.appendChild(li);
-    });
+    if(templateName === "matchesList") {
+        choices.forEach((choice, index) => {
+            const liEl = this._element.children[index];
+            liEl.querySelector(".form-check").innerHTML = choice.cValue;
+        });
+    } else {
+        choices.forEach((choice, index) => {
+            const liEl = this._element.children[index];
+            liEl.querySelector("input").value = choice.cValue;
+            liEl.querySelector("label").textContent = choice.cValue;
+        });
+    }
   }
 
   get element() {
