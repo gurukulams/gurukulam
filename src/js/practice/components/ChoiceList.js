@@ -7,7 +7,7 @@ export default class ChoiceList {
     if(templateName === "matchesList") {
         choices.forEach((choice, index) => {
             const liEl = this._element.children[index];
-            liEl.querySelector(".form-check").innerHTML = choice.cValue;
+            liEl.querySelector("label").textContent = choice.cValue;
         });
     } else {
         choices.forEach((choice, index) => {
