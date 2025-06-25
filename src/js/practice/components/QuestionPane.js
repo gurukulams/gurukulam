@@ -39,6 +39,10 @@ export default class QuestionPane {
 
     this.answerContainer.innerHTML = '';
 
+    this.questionContainer.classList.remove('d-none');
+    this.matcheContainer.classList.add('d-none');
+    
+
     switch (_question.type) {
       case "CHOOSE_THE_BEST":
         this.chooseTheBestList = new ChoiceList("radioList", _question.choices);
@@ -48,9 +52,14 @@ export default class QuestionPane {
         this.mcqList = new ChoiceList("checkboxList", _question.choices);
         this.answerContainer.appendChild(this.mcqList.element);
         break;
-        case "MATCH_THE_FOLLOWING":
+      case "MATCH_THE_FOLLOWING":
         this.mtfList = new ChoiceList("matchesList", _question.matches);
         this.answerContainer.appendChild(this.mtfList.element);
+        this.mtfChoicesList = new ChoiceList("matchesList", _question.choices);
+        this.matcheContainer.innerHTML = '';
+        this.matcheContainer.appendChild(this.mtfChoicesList.element);
+        this.matcheContainer.classList.remove('d-none');
+        this.questionContainer.classList.add('d-none');
         break;
     }
   }
