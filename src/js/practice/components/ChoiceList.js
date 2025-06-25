@@ -13,6 +13,39 @@ export default class ChoiceList {
             const labelEl = liEl.querySelector("label");
             labelEl.attributes["data-id"] = choice.id;
             labelEl.textContent = choice.cValue;
+
+            liEl.querySelector("i.fa-arrow-up").addEventListener("click", (event) => {
+              const liEl =
+                  event.currentTarget.parentElement.parentElement.parentElement;
+
+                if (liEl.parentElement.firstChild === liEl) {
+                  liEl.parentNode.insertAfter(liEl, liEl.parentNode.lastChild);
+                } else {
+                  liEl.parentNode.insertBefore(
+                    liEl,
+                    liEl.previousElementSibling,
+                  );
+                }
+            });
+
+            liEl
+              .querySelector("i.fa-arrow-down")
+              .addEventListener("click", (event) => {
+                const liEl =
+                  event.currentTarget.parentElement.parentElement.parentElement;
+
+                const ulNode = liEl.parentNode;
+
+                if (liEl.parentElement.lastChild === liEl) {
+                  ulNode.insertBefore(liEl, ulNode.firstChild);
+                } else {
+                  liEl.parentNode.insertBefore(
+                    liEl,
+                    liEl.nextElementSibling.nextElementSibling,
+                  );
+                }
+              });
+
             length++;
         });
     } else {

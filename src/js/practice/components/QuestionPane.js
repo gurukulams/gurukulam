@@ -40,7 +40,11 @@ export default class QuestionPane {
       case "MATCH_THE_FOLLOWING":
         const matches = this.mtfList.answer;
         const choices = this.mtfChoicesList.answer;
-        answer = '';
+
+        choices.push(matches.slice(0, choices.length));
+        
+
+        answer = choices.join(",");
         break;
     }
 
