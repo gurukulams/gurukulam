@@ -1,3 +1,3 @@
-import QuestionController from "./practice/screens/QuestionController";
+import PracticeScreen from "./practice/PracticeScreen";
 
-new QuestionController();
+new PracticeScreen();

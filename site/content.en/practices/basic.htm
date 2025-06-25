@@ -1,99 +1,223 @@
 ---
-title: 'Questions'
+title: "Questions"
 weight: 1
 ---
 
-<div class="container vh-100">
-
-  <div class="row" >
-    <div class="col-6" id="navPane">
+<div id="practicePane" class="container vh-100">
+  <div id="navPane" class="row">
+    <div class="col-6 px-0">
       <div class="row">
         <div class="col-1 pe-0 text-center">
-
           <div class="btn-group" role="group" aria-label="Basic example">
-            <button id="explainToggle" type="button" class="btn btn-outline-primary" data-bs-toggle="tooltip"
-              data-bs-placement="bottom" title="Explain">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Explain"
+            >
               <i class="fa-solid fa-question"></i>
             </button>
           </div>
-
         </div>
         <div class="col-11 px-0">
           <nav aria-label="Page Navigation">
             <ul class="pagination">
-              <li class="page-item">
+              <li class="page-item" title="Previous Question">
                 <a class="page-link" href="javascript://" aria-label="Previous">
                   <span aria-hidden="true">&laquo;</span>
                 </a>
-              </li>     
-              <li class="page-item">
+              </li>
+              <li class="page-item" title="Next Question">
                 <a class="page-link" href="javascript://" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
                 </a>
               </li>
             </ul>
           </nav>
-          
         </div>
       </div>
     </div>
-    <div class="col-6" id="actionsPane">
+    <div class="col-6 px-0">
       <div class="dropdown float-end">
+        <button
+          type="button"
+          class="btn d-none"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          title="Delete"
+        >
+          <i class="far fa-trash-alt text-danger"></i>
+        </button>
 
-
-        <button type="button" class="btn d-none" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-            class="far fa-trash-alt"></i></button>
-
-        <button class="btn dropdown-toggle d-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-          aria-expanded="false">
+        <button
+          class="btn dropdown-toggle d-none"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          title="Add question"
+        >
           <i class="fa-solid fa-plus"></i>
         </button>
-        <ul class="dropdown-menu add-btns" aria-labelledby="dropdownMenuButton1">
-          <li data-type="CHOOSE_THE_BEST"><a class="dropdown-item" href="javascript://">Choose the best</a></li>
-          <li data-type="MULTI_CHOICE"><a class="dropdown-item" href="javascript://">Multi-choice</a></li>
+        <ul
+          class="dropdown-menu add-btns"
+          aria-labelledby="dropdownMenuButton1"
+        >
+          <li data-type="CHOOSE_THE_BEST">
+            <a class="dropdown-item" href="javascript://">Choose the best</a>
+          </li>
+          <li data-type="MULTI_CHOICE">
+            <a class="dropdown-item" href="javascript://">Multi-choice</a>
+          </li>
         </ul>
-        <button id="toggleViewBtn" type="button" class="btn d-none"><i class="fa-solid fa-pencil"></i></button>
-        <button type="button" class="btn d-none"><i class="fa-solid fa-floppy-disk"></i></button>
-
-        <button type="button" class="btn"><i class="fa-solid fa-check"></i></button>
-
+        <button
+          id="toggleViewBtn"
+          type="button"
+          class="btn"
+          title="Edit Question"
+        >
+          <i class="fa-solid fa-pencil"></i>
+        </button>
+        <button type="button" class="btn d-none" title="Save Question">
+          <i class="fa-solid fa-floppy-disk"></i>
+        </button>
+        <button type="button" class="btn" title="Check Question">
+          <i class="fa-solid fa-check"></i>
+        </button>
       </div>
-
     </div>
   </div>
 
-  <div id="emptyPane" class="row h-50 d-none">
-    <p class="lead">There are no questions. But you can create one</p>
-  </div>
-
-  
-
-  
-  <div id="questionPane" class="row h-50 d-none">
-
-    <div class="col-6 ">
-
-      <div class="form-floating mb-3 h-100 d-none" id="matcheContainer">
-        JImmbale JImmbale JImbakku JImba
-      </div>
-
-      <div class="form-floating mb-3 h-100" id="questionContainer">
-        <textarea class="form-control h-100" placeholder="Question" id="qTxt" rows="3"></textarea>
-      </div>
-    </div>
-    
-    
+  <div id="questionPane" class="row h-50">
     <div class="col-6">
+      <span id="questionContainer">
+        <textarea
+          class="form-control h-100"
+          placeholder="Question"
+          id="qTxt"
+          rows="3"
+        ></textarea>
+      </span>
+      <div class="form-floating mb-3 h-100" id="matcheContainer"></div>
+    </div>
 
+    <div class="col-6">
       <span id="explanationContainer" class="d-none">
-        <textarea class="form-control h-100" placeholder="Explanation" id="eTxt" rows="3"></textarea>
+        <textarea
+          class="form-control h-100"
+          placeholder="Explanation"
+          id="eTxt"
+          rows="3"
+        ></textarea>
       </span>
 
-      <div class="form-floating mb-3 h-100" id="answerContainer">
-        
-      </div>
-
+      <div class="form-floating mb-3 h-100" id="answerContainer"></div>
     </div>
   </div>
-
 </div>
+
+<template id="radioList">
+  <ul class="list-group">
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c1" />
+        <label class="form-check-label" for="c1"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c2" />
+        <label class="form-check-label" for="c2"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c3" />
+        <label class="form-check-label" for="c3"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c4" />
+        <label class="form-check-label" for="c4"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c5" />
+        <label class="form-check-label" for="c5"></label>
+      </div>
+    </li>
+  </ul>
+</template>
+
+<template id="checkboxList">
+  <ul class="list-group">
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="mc1" id="mc1" />
+        <label class="form-check-label" for="mc1"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="mc2" id="mc2" />
+        <label class="form-check-label" for="mc2"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="mc3" id="mc3" />
+        <label class="form-check-label" for="mc3"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="mc4" id="mc4" />
+        <label class="form-check-label" for="mc4"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="mc5" id="mc5" />
+        <label class="form-check-label" for="mc5"></label>
+      </div>
+    </li>
+  </ul>
+</template>
+
+<template id="matchesList">
+  <ul class="list-group">
+    <li class="list-group-item d-flex align-items-center">
+      <span><span class="justify-content-start"><i class="fa-solid fa-arrow-up px-2"></i><i class="fa-solid fa-arrow-down"></i></span></span>
+      <div class="form-check">
+        <label class="form-check-label"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <span><span class="justify-content-start"><i class="fa-solid fa-arrow-up px-2"></i><i class="fa-solid fa-arrow-down"></i></span></span>
+      <div class="form-check">
+        <label class="form-check-label"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <span><span class="justify-content-start"><i class="fa-solid fa-arrow-up px-2"></i><i class="fa-solid fa-arrow-down"></i></span></span>
+      <div class="form-check">
+        <label class="form-check-label"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <span><span class="justify-content-start"><i class="fa-solid fa-arrow-up px-2"></i><i class="fa-solid fa-arrow-down"></i></span></span>
+      <div class="form-check">
+        <label class="form-check-label"></label>
+      </div>
+    </li>
+    <li class="list-group-item d-flex align-items-center">
+      <span><span class="justify-content-start"><i class="fa-solid fa-arrow-up px-2"></i><i class="fa-solid fa-arrow-down"></i></span></span>
+      <div class="form-check">
+        <label class="form-check-label"></label>
+      </div>
+    </li>
+  </ul>
+</template>

@@ -52,3 +52,12 @@ ul, ol {
 .img-drawing {
     fill: var(--bs-emphasis-color) ;
 }
+
+.dropdown button:hover {
+    color: var(--bs-primary);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+}
