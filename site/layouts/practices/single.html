@@ -1,5 +1,88 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div id="content" data-type="{{.File.TranslationBaseName}}">
+    <div id="navPane" class="row">
+        <div class="col-6 px-0">
+          <div class="row">
+            <div class="col-1 pe-0 text-center">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Explain"
+                >
+                  <i class="fa-solid fa-question"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-11 px-0">
+              <nav aria-label="Page Navigation">
+                <ul class="pagination">
+                  <li class="page-item" title="Previous Question">
+                    <a class="page-link" href="javascript://" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item" title="Next Question">
+                    <a class="page-link" href="javascript://" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 px-0">
+          <div class="dropdown float-end">
+            <button
+              type="button"
+              class="btn d-none"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              title="Delete"
+            >
+              <i class="far fa-trash-alt text-danger"></i>
+            </button>
+    
+            <button
+              class="btn dropdown-toggle d-none"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              title="Add question"
+            >
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <ul
+              class="dropdown-menu add-btns"
+              aria-labelledby="dropdownMenuButton1"
+            >
+              <li data-type="CHOOSE_THE_BEST">
+                <a class="dropdown-item" href="javascript://">Choose the best</a>
+              </li>
+              <li data-type="MULTI_CHOICE">
+                <a class="dropdown-item" href="javascript://">Multi-choice</a>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="btn{{ if getenv "BUILD_PRODUCTION" }} d-none{{ end }}"
+              title="Edit Question"
+            >
+              <i class="fa-solid fa-pencil"></i>
+            </button>
+            <button type="button" class="btn d-none" title="Save Question">
+              <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+            <button type="button" class="btn" title="Check Question">
+              <i class="fa-solid fa-check"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     {{- .Content -}}
 </div>
 
