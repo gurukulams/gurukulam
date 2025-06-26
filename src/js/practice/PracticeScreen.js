@@ -2,6 +2,14 @@ import QuestionPane from "./components/QuestionPane";
 
 export default class PracticeScreen {
   constructor() {
+
+    // On the current page:
+    const urlParams = new URLSearchParams(window.location.search);
+    const previousPageTitle = urlParams.get('prevTitle');
+    if (previousPageTitle) {
+        console.log("Previous page title:", previousPageTitle);
+    }
+
     if (sessionStorage.auth) {
       const urlTokens = window.location.pathname.split("/questions/");
 

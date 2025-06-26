@@ -61,3 +61,7 @@ ul, ol {
     background-color: var(--bs-primary);
     color: var(--bs-white);
 }
+
+label {
+    user-select: none;
+  }
