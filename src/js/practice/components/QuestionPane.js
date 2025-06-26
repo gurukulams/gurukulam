@@ -130,8 +130,10 @@ export default class QuestionPane {
   doExplain(flag) {
     if(flag) {
       this.explanationContainer.classList.remove("d-none");
+      this.answerContainer.classList.add("d-none");
     } else {
       this.explanationContainer.classList.add("d-none");
+      this.answerContainer.classList.remove("d-none");
     }
 
   }
