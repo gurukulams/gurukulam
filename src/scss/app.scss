@@ -57,11 +57,11 @@ ul, ol {
     color: var(--bs-primary);
 }
 
-.dropdown-menu .dropdown-item:hover {
+.dropdown-menu .dropdown-item:hover, .list-group-item:hover {
     background-color: var(--bs-primary);
     color: var(--bs-white);
 }
 
 label {
     user-select: none;
-  }
+}
