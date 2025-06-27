@@ -88,17 +88,17 @@ export default class QuestionPane {
 
     switch (_question.type) {
       case "CHOOSE_THE_BEST":
-        this.chooseTheBestList = new ChoiceList("radioList", _question.choices);
+        this.chooseTheBestList = new ChoiceList(this.isEditable, "radioList", _question.choices);
         this.answerContainer.appendChild(this.chooseTheBestList.element);
         break;
       case "MULTI_CHOICE":
-        this.mcqList = new ChoiceList("checkboxList", _question.choices);
+        this.mcqList = new ChoiceList(this.isEditable,"checkboxList", _question.choices);
         this.answerContainer.appendChild(this.mcqList.element);
         break;
       case "MATCH_THE_FOLLOWING":
-        this.mtfList = new ChoiceList("matchesList", _question.matches);
+        this.mtfList = new ChoiceList(this.isEditable,"matchesList", _question.matches);
         this.answerContainer.appendChild(this.mtfList.element);
-        this.mtfChoicesList = new ChoiceList("matchesList", _question.choices);
+        this.mtfChoicesList = new ChoiceList(this.isEditable,"matchesList", _question.choices);
         this.matcheContainer.innerHTML = '';
         this.matcheContainer.appendChild(this.mtfChoicesList.element);
         this.mtfChoicesList.element.querySelectorAll("li>span").forEach(element=> {
@@ -125,6 +125,10 @@ export default class QuestionPane {
       this.questionPane.querySelectorAll(".editor-statusbar")
       .forEach((element) => element.classList.remove("d-none"));
     }
+    if(this.question) {
+      this.setQuestion(this.question)
+    }
+    
   }
   
   doExplain(flag) {

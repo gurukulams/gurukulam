@@ -1,5 +1,5 @@
 export default class ChoiceList {
-  constructor(templateName, choices) {
+  constructor(isPracticeMode, templateName, choices) {
     const template = document.getElementById(templateName);
 
     this._element = template.content.cloneNode(true).firstChild;
@@ -53,7 +53,9 @@ export default class ChoiceList {
             const liEl = this._element.children[index];
             const input = liEl.querySelector("input");
             input.value = choice.id;
-            input.checked = choice.isAnswer;
+            if(isPracticeMode) {
+              input.checked = choice.isAnswer;
+            }
             liEl.querySelector("label").textContent = choice.cValue;
             length++;
         });
