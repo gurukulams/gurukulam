@@ -80,34 +80,58 @@ export default class QuestionPane {
       _question.explanation ? _question.explanation : "",
     );
 
-    this.answerContainer.innerHTML = '';
+    // this.answerContainer.innerHTML = '';
 
     this.questionContainer.classList.remove('d-none');
     this.matcheContainer.classList.add('d-none');
+
+    const answerComponent = this.getAnswerComponent( _question.id);
+    if(!answerComponent) {
+      switch (_question.type) {
+        case "CHOOSE_THE_BEST":
+          this.chooseTheBestList = new ChoiceList(this.isEditable, "radioList", _question.choices);
+          this.answerContainer.appendChild(this.chooseTheBestList.element);
+          this.chooseTheBestList.element.name = _question.id;
+          break;
+        case "MULTI_CHOICE":
+          this.mcqList = new ChoiceList(this.isEditable,"checkboxList", _question.choices);
+          this.answerContainer.appendChild(this.mcqList.element);
+          this.mcqList.element.name = _question.id;
+          break;
+        case "MATCH_THE_FOLLOWING":
+          this.mtfList = new ChoiceList(this.isEditable,"matchesList", _question.matches);
+          this.answerContainer.appendChild(this.mtfList.element);
+          this.mtfList.element.name = _question.id;
+  
+          this.mtfChoicesList = new ChoiceList(this.isEditable,"matchesList", _question.choices);
+          this.matcheContainer.innerHTML = '';
+          this.matcheContainer.appendChild(this.mtfChoicesList.element);
+          this.mtfChoicesList.element.querySelectorAll("li>span").forEach(element=> {
+            element.parentElement.removeChild(element);
+          })
+          this.matcheContainer.classList.remove('d-none');
+          this.questionContainer.classList.add('d-none');
+          break;
+      }
+    }
     
 
-    switch (_question.type) {
-      case "CHOOSE_THE_BEST":
-        this.chooseTheBestList = new ChoiceList(this.isEditable, "radioList", _question.choices);
-        this.answerContainer.appendChild(this.chooseTheBestList.element);
-        break;
-      case "MULTI_CHOICE":
-        this.mcqList = new ChoiceList(this.isEditable,"checkboxList", _question.choices);
-        this.answerContainer.appendChild(this.mcqList.element);
-        break;
-      case "MATCH_THE_FOLLOWING":
-        this.mtfList = new ChoiceList(this.isEditable,"matchesList", _question.matches);
-        this.answerContainer.appendChild(this.mtfList.element);
-        this.mtfChoicesList = new ChoiceList(this.isEditable,"matchesList", _question.choices);
-        this.matcheContainer.innerHTML = '';
-        this.matcheContainer.appendChild(this.mtfChoicesList.element);
-        this.mtfChoicesList.element.querySelectorAll("li>span").forEach(element=> {
-          element.parentElement.removeChild(element);
-        })
-        this.matcheContainer.classList.remove('d-none');
-        this.questionContainer.classList.add('d-none');
-        break;
-    }
+
+  }
+
+  getAnswerComponent(questionId) {
+    const answerComponents = this.answerContainer.childNodes;
+    let answerComponent;
+
+    answerComponents.forEach(element => {
+      if(questionId === element.name) {
+        element.classList.remove('d-none');
+        answerComponent = element;
+      } else {
+        element.classList.add('d-none');
+      }
+    })
+    return answerComponent;
   }
 
   set readOnly(flag) {
