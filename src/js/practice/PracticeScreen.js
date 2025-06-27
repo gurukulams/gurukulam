@@ -115,6 +115,7 @@ export default class PracticeScreen {
       this.saveBtn.classList.remove("d-none");
       this.checkBtn.classList.add("d-none");
       this.questionPane.readOnly = false;
+      this.loadQuestions();
     } else {
       this.modeBtn.className = "fa-solid fa-pencil";
       this.addBtn.classList.add("d-none");
