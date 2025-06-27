@@ -6,6 +6,11 @@ export default class ChoiceList {
 
     let length = 0;
 
+    if(!isPracticeMode) {
+      window.shuffle(choices);    
+    }
+    
+
     if(templateName === "matchesList") {
         this.isMatches = true;
         choices.forEach((choice, index) => {
