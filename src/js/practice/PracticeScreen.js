@@ -113,6 +113,7 @@ export default class PracticeScreen {
       this.addBtn.classList.remove("d-none");
       this.deleteBtn.classList.remove("d-none");
       this.saveBtn.classList.remove("d-none");
+      this.explainToggleBtn.classList.remove("d-none");
       this.checkBtn.classList.add("d-none");
       this.questionPane.readOnly = false;
       this.loadQuestions();
@@ -121,6 +122,7 @@ export default class PracticeScreen {
       this.addBtn.classList.add("d-none");
       this.deleteBtn.classList.add("d-none");
       this.saveBtn.classList.add("d-none");
+      this.explainToggleBtn.classList.add("d-none");
       this.checkBtn.classList.remove("d-none");
       this.questionPane.readOnly = true;
     }

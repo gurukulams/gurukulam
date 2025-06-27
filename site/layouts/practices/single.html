@@ -1,21 +1,8 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div id="content" data-type="{{.File.TranslationBaseName}}">
     <div id="navPane" class="row">
-        <div class="col-6 px-0">
+        <div class="col-6">
           <div class="row">
-            <div class="col-1 pe-0 text-center">
-              <div class="btn-group" role="group" aria-label="Basic example">
-                <button
-                  type="button"
-                  class="btn btn-outline-primary"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="bottom"
-                  title="Explain"
-                >
-                  <i class="fa-solid fa-question"></i>
-                </button>
-              </div>
-            </div>
             <div class="col-11 px-0">
               <nav aria-label="Page Navigation">
                 <ul class="pagination">
@@ -68,12 +55,22 @@
               </li>
             </ul>
             <button
+                  type="button"
+                  class="btn btn-outline-info d-none"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Explain"
+                >
+                  <i class="fa-solid fa-question"></i>
+                </button>
+            <button
               type="button"
               class="btn{{ if getenv "BUILD_PRODUCTION" }} d-none{{ end }}"
               title="Edit Question"
             >
               <i class="fa-solid fa-pencil"></i>
             </button>
+            
             <button type="button" class="btn d-none" title="Save Question">
               <i class="fa-solid fa-floppy-disk"></i>
             </button>
