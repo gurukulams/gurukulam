@@ -51,7 +51,9 @@ export default class ChoiceList {
     } else {
         choices.forEach((choice, index) => {
             const liEl = this._element.children[index];
-            liEl.querySelector("input").value = choice.id;
+            const input = liEl.querySelector("input");
+            input.value = choice.id;
+            input.checked = choice.isAnswer;
             liEl.querySelector("label").textContent = choice.cValue;
             length++;
         });
