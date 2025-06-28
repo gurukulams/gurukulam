@@ -26,6 +26,8 @@ export default class PracticeScreen {
 
       }
 
+      this.statusTxt = document.getElementById("statusTxt");
+
       this.questionPane = new QuestionPane();
       this.questionPane.readOnly = true;
 
@@ -70,6 +72,7 @@ export default class PracticeScreen {
   }
 
   setQuestion(questionIndex) {
+    this.statusTxt.innerHTML = '';
     
     if (questionIndex === this.questions.length - 1) {
       this.nextBtn.classList.add("disabled");
@@ -157,8 +160,14 @@ export default class PracticeScreen {
           // See https://fetch.spec.whatwg.org/#dom-response-ok
           if (response.ok) {
             this.questionPane.verify(true);
+            this.statusTxt.innerHTML = 'Correct Answer'
+            this.statusTxt.classList.add('text-success');
+            this.statusTxt.classList.remove('text-danger');
           } else if (response.status === 406) {
             this.questionPane.verify(false);
+            this.statusTxt.innerHTML = 'Wrong Answer'
+            this.statusTxt.classList.add('text-danger');
+            this.statusTxt.classList.remove('text-success');
           }
         })
         .catch(function (error) {
