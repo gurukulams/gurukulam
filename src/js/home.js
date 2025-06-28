@@ -30,10 +30,16 @@ class Home {
 
       const classes = new Classes(classContainer);
 
-      document.querySelector("i.fa-user-check")
-      .parentElement.addEventListener("click", () => {
-           console.log("You clicked on user check icon");
+      document.querySelectorAll("i.fa-user-check")
+      .forEach((element) => {
+        element.parentElement.addEventListener("click", (event) => {
+
+          
+          localStorage.setItem('titleBar', event.currentTarget.parentElement.previousSibling.outerHTML);            
+          window.location = event.currentTarget.dataset.link;
+     });
       });
+      
 
       mainContainer
         .querySelectorAll("i.fa-chalkboard-user")

@@ -17,13 +17,14 @@ export default class PracticeScreen {
       if(titleBarTxt) {
         document.querySelector(".breadcrumb").innerHTML = titleBarTxt;
         const lastBEl = document.querySelector(".breadcrumb").querySelector(".active");
-        const anchorEl = document.createElement('a');
-        anchorEl.href = document.referrer;
-        anchorEl.innerHTML = lastBEl.innerHTML;
-        lastBEl.innerHTML = '';
-        lastBEl.appendChild(anchorEl);
+        if(lastBEl) {
+          const anchorEl = document.createElement('a');
+          anchorEl.href = document.referrer;
+          anchorEl.innerHTML = lastBEl.innerHTML;
+          lastBEl.innerHTML = '';
+          lastBEl.appendChild(anchorEl);
+        }
         localStorage.removeItem("titleBar");
-
       }
 
       this.statusTxt = document.getElementById("statusTxt");
