@@ -1,6 +1,6 @@
 {{ $page := partial "practices-path" . }}
 {{ with $page }}
-<a class="btn float-end" href="/questions{{ $page }}" role="button">
+<a class="btn float-end" href="javascript://" data-link="/questions{{ $page }}"  role="button">
     <i class="fas fa-user-check" title="Practice"></i>
 </a>
 {{ end }}

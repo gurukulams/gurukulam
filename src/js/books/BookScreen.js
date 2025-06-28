@@ -10,6 +10,14 @@ export default class BookScreen {
       document.getElementById("bookOptionsPane").classList.remove("d-none");
       document.getElementById("notesBtn").classList.remove("d-none");
 
+      document.querySelector("i.fa-user-check")
+                .parentElement
+                    .addEventListener("click", (event) => {
+          localStorage.setItem('titleBar', document.querySelector(".breadcrumb").innerHTML);            
+          window.location = event.currentTarget.dataset.link;
+
+      });
+
       const textNotes = new TextNotes(contentEl);
       const imageNotes = new ImageNotes(contentEl);
 

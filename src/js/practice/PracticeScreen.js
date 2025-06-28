@@ -3,13 +3,6 @@ import QuestionPane from "./components/QuestionPane";
 export default class PracticeScreen {
   constructor() {
 
-    // On the current page:
-    const urlParams = new URLSearchParams(window.location.search);
-    const previousPageTitle = urlParams.get('prevTitle');
-    if (previousPageTitle) {
-        console.log("Previous page title:", previousPageTitle);
-    }
-
     if (sessionStorage.auth) {
       const urlTokens = window.location.pathname.split("/questions/");
 
@@ -18,6 +11,20 @@ export default class PracticeScreen {
       }
 
       this.questionsUrl = "/api/questions/" + urlTokens[1];
+
+      const titleBarTxt = localStorage.getItem("titleBar");
+
+      if(titleBarTxt) {
+        document.querySelector(".breadcrumb").innerHTML = titleBarTxt;
+        const lastBEl = document.querySelector(".breadcrumb").querySelector(".active");
+        const anchorEl = document.createElement('a');
+        anchorEl.href = document.referrer;
+        anchorEl.innerHTML = lastBEl.innerHTML;
+        lastBEl.innerHTML = '';
+        lastBEl.appendChild(anchorEl);
+        localStorage.removeItem("titleBar");
+
+      }
 
       this.questionPane = new QuestionPane();
       this.questionPane.readOnly = true;
