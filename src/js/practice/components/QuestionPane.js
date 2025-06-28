@@ -104,15 +104,20 @@ export default class QuestionPane {
           this.mtfList.element.name = _question.id;
   
           this.mtfChoicesList = new ChoiceList(this.isEditable,"matchesList", _question.choices);
-          this.matcheContainer.innerHTML = '';
+          
+          break;
+      }
+    }
+
+    if(_question.type === "MATCH_THE_FOLLOWING") {
+      this.matcheContainer.innerHTML = '';
           this.matcheContainer.appendChild(this.mtfChoicesList.element);
           this.mtfChoicesList.element.querySelectorAll("li>span").forEach(element=> {
             element.parentElement.removeChild(element);
           })
           this.matcheContainer.classList.remove('d-none');
           this.questionContainer.classList.add('d-none');
-          break;
-      }
+      
     }
     
 
