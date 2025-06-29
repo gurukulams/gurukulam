@@ -1,0 +1,19 @@
+{
+  "question": "Which of the following is part of the java.util package?",
+  "explanation": "",
+  "choices": [
+    {
+      "label": "ArrayList"
+    },
+    {
+      "label": "Scanner"
+    },
+    {
+      "label": "Collections"
+    },
+    {
+      "label": "All of the above",
+      "answer": true
+    }
+  ]
+}

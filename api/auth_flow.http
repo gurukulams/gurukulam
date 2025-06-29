@@ -23,34 +23,8 @@ Authorization: Bearer {{auth_res.response.body.$.registrationToken}}
   "dob":"2000-10-10"
 }
 
-### Create a Question
-POST {{baseUrl}}/questions/CHOOSE_THE_BEST/cse/databases/rdbms
-Authorization: Bearer {{auth_res.response.body.$.authToken}}
-Content-Type: application/json
-
-{
-  "question": "What is Postgress ?",
-  "explanation": "",
-  "type": "CHOOSE_THE_BEST",
-  "choices": [
-    {
-      "cValue": "Document Database"
-    },
-    {
-      "cValue": "Relational Database",
-      "isAnswer": true
-    },
-    {
-      "cValue": "Key Value Store"
-    },
-    {
-      "cValue": "None of the above"
-    }
-  ]
-}
-
 ### List Questions
-GET {{baseUrl}}/questions/cse/databases/rdbms
+GET {{baseUrl}}/questions/cse/languages/java
 Authorization: Bearer {{auth_res.response.body.$.authToken}}
 Content-Type: application/json
 

@@ -17,7 +17,7 @@ export default class ChoiceList {
             const liEl = this._element.children[index];
             const labelEl = liEl.querySelector("label");
             labelEl.attributes["data-id"] = choice.id;
-            labelEl.textContent = choice.cValue;
+            labelEl.textContent = choice.label;
 
             liEl.querySelector("i.fa-arrow-up").addEventListener("click", (event) => {
               const liEl =
@@ -59,9 +59,9 @@ export default class ChoiceList {
             const input = liEl.querySelector("input");
             input.value = choice.id;
             if(isPracticeMode) {
-              input.checked = choice.isAnswer;
+              input.checked = choice.answer;
             }
-            liEl.querySelector("label").textContent = choice.cValue;
+            liEl.querySelector("label").textContent = choice.label;
             length++;
         });
     }
