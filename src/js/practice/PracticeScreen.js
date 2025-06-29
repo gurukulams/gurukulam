@@ -73,7 +73,12 @@ export default class PracticeScreen {
   }
 
   setQuestion(questionIndex) {
-    this.statusTxt.innerHTML = '';
+    
+    // is Practice Mode
+    if( !this.checkBtn.classList.contains('d-none') ) {
+      this.statusTxt.innerHTML = '';
+      this.explainToggleBtn.classList.add("d-none");
+    }
     
     if (questionIndex === this.questions.length - 1) {
       this.nextBtn.classList.add("disabled");
@@ -162,11 +167,13 @@ export default class PracticeScreen {
           if (response.ok) {
             this.questionPane.verify(true);
             this.statusTxt.innerHTML = 'Correct Answer'
+            this.explainToggleBtn.classList.remove("d-none");
             this.statusTxt.classList.add('text-success');
             this.statusTxt.classList.remove('text-danger');
           } else if (response.status === 406) {
             this.questionPane.verify(false);
             this.statusTxt.innerHTML = 'Wrong Answer'
+            this.explainToggleBtn.classList.remove("d-none");
             this.statusTxt.classList.add('text-danger');
             this.statusTxt.classList.remove('text-success');
           }
