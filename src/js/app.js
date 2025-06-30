@@ -267,7 +267,7 @@ class GurukulamsPage {
     // If User is Logged in
     if (sessionStorage.auth) {
       document
-        .querySelector("a.navbar-brand")
+        .getElementById("userBtn")
         .setAttribute("data-bs-toggle", "dropdown");
 
       // data-bs-toggle="dropdown"
