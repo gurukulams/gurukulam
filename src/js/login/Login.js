@@ -1,12 +1,12 @@
 class Login {
   constructor() {
-    if (document.querySelector("#users-group")) {
+    if (document.querySelector("#login-pane")) {
       this.registerEvents();
     }
   }
 
   registerEvents() {
-    document.querySelectorAll("#users-group>button").forEach((btn) => {
+    document.querySelectorAll("#login-pane>button").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         this.login(e);
       });
