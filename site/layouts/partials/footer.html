@@ -1,23 +1,41 @@
 {{ if ne .Type "courses"}}
 
-<footer>
-  <nav class="navbar navbar-expand-md py-0 fixed-bottom z-1">    
-    <div class="container border-bottom border-top-1 shadow-sm bg-body position-relative">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link px-2 text-body-secoundary " href="/terms-and-conditions">Terms and conditions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-2 text-body-secoundary" href="/refund-policy">Refund Policy</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-2 text-body-secoundary justify-content-end" href="/about">About</a>
-        </li>
-      </ul>
-      <p class="mb-0 text-body-secoundary" > Ⓒ OurKadai Technologies </p>
+<footer class="container">
 
+  <div class="container navbar navbar-expand-md py-0 fixed-bottom z-1">
 
+      <div class="col">
+        <ul class="nav">
+          <li class="nav-item">
+            <a
+              class="nav-link px-2 text-body-secoundary"
+              href="/terms-and-conditions"
+              ><small>Terms and conditions</small></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-body-secoundary" href="/refund-policy"
+              ><small>Refund Policy</small></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link px-2 text-body-secoundary justify-content-end"
+              href="/about"
+              ><small>About</small></a
+            >
+          </li>
+        </ul>
+      </div>
+      <small class="col text-center">
+        Ⓒ OurKadai Technologie
+      </small>
+      <div class="col">
+        
+      </div>
     </div>
-  </nav>
+
+
+  
 </footer>
 {{ end }}
