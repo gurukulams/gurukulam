@@ -36,7 +36,30 @@
 
     <div class="collapse navbar-collapse px-2" id="navbarMain">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+ 
       <i class="fas fa-search secured" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search"></i>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" id="themeDropdown" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+            <use href="#circle-half"></use>
+          </svg>
+        </button>
+        <ul class="dropdown-menu me-auto" aria-labelledby="themeDropdown">
+          <li><a class="dropdown-item" href="#" data-theme="auto"> <svg class="bi my-1 theme-icon-active" width="1em"
+                height="1em">
+                <use href="#circle-half"></use>
+              </svg> Auto</a></li>
+          <li><a class="dropdown-item" href="#" data-theme="light"> <svg class="bi my-1 theme-icon-active" width="1em"
+                height="1em">
+                <use href="#sun-fill"></use>
+              </svg> Light</a></li>
+          <li><a class="dropdown-item" href="#" data-theme="dark"> <svg class="bi my-1 theme-icon-active" width="1em"
+                height="1em">
+                <use href="#moon-stars-fill"></use>
+              </svg> Dark</a></li>
+        </ul>
+      </div>
       {{ if getenv "BUILD_PRODUCTION" }}
       <a id="login-pane" href="javascript://" class="btn btn-outline-primary text-left mt-1">Login | <i
           class="fab fa-google"></i></a>
