@@ -12,7 +12,7 @@ export default class PracticeScreen {
 
       this.questionsUrl = "/api/questions/" + urlTokens[1];
 
-      const titleBarTxt = localStorage.getItem("titleBar");
+      const titleBarTxt = sessionStorage.getItem("titleBar");
 
       if(titleBarTxt) {
         document.querySelector(".breadcrumb").innerHTML = titleBarTxt;
@@ -24,10 +24,9 @@ export default class PracticeScreen {
           lastBEl.innerHTML = '';
           lastBEl.appendChild(anchorEl);
         }
-        localStorage.removeItem("titleBar");
       }
 
-      this.statusTxt = document.getElementById("statusTxt");
+      
 
       this.questionPane = new QuestionPane();
       this.questionPane.readOnly = true;
@@ -76,7 +75,6 @@ export default class PracticeScreen {
     
     // is Practice Mode
     if( !this.checkBtn.classList.contains('d-none') ) {
-      this.statusTxt.innerHTML = '';
       this.explainToggleBtn.classList.add("d-none");
     }
     
@@ -166,16 +164,16 @@ export default class PracticeScreen {
           // See https://fetch.spec.whatwg.org/#dom-response-ok
           if (response.ok) {
             this.questionPane.verify(true);
-            this.statusTxt.innerHTML = 'Correct Answer'
+            window.success('Correct Answer');
+            this.explainToggleBtn.classList.remove("btn-outline-danger");
+            this.explainToggleBtn.classList.add("btn-outline-success");
             this.explainToggleBtn.classList.remove("d-none");
-            this.statusTxt.classList.add('text-success');
-            this.statusTxt.classList.remove('text-danger');
           } else if (response.status === 406) {
             this.questionPane.verify(false);
-            this.statusTxt.innerHTML = 'Wrong Answer'
+            window.error('Wrong Answer');
+            this.explainToggleBtn.classList.remove("btn-outline-success");
+            this.explainToggleBtn.classList.add("btn-outline-danger");
             this.explainToggleBtn.classList.remove("d-none");
-            this.statusTxt.classList.add('text-danger');
-            this.statusTxt.classList.remove('text-success');
           }
         })
         .catch(function (error) {

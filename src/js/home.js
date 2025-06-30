@@ -35,7 +35,7 @@ class Home {
         element.parentElement.addEventListener("click", (event) => {
 
           
-          localStorage.setItem('titleBar', event.currentTarget.parentElement.previousSibling.outerHTML);            
+          sessionStorage.setItem('titleBar', event.currentTarget.parentElement.previousSibling.outerHTML);            
           window.location = event.currentTarget.dataset.link;
      });
       });

@@ -131,9 +131,9 @@ class GurukulamsPage {
       var delay = 2000;
 
       var toastConainerElement = document.getElementById("toast-container");
-      toastConainerElement.innerHTML = `<div class="toast align-items-center  border-0" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="d-flex">
-        <div class="toast-body text-${type}">
+      toastConainerElement.innerHTML = `<div class="toast align-items-center border-0 text-${type}" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex border border-${type}">
+        <div class="toast-body">
           ${statusMessage}
         </div>
         <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>

@@ -13,7 +13,7 @@ export default class BookScreen {
       document.querySelector("i.fa-user-check")
                 .parentElement
                     .addEventListener("click", (event) => {
-          localStorage.setItem('titleBar', document.querySelector(".breadcrumb").innerHTML);            
+          sessionStorage.setItem('titleBar', document.querySelector(".breadcrumb").innerHTML);            
           window.location = event.currentTarget.dataset.link;
 
       });
