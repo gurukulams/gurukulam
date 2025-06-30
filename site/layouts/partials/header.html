@@ -1,17 +1,6 @@
 <nav class="navbar navbar-expand-md py-0 fixed-top">
   <div class="container border-bottom border-top-1 shadow-sm bg-body position-relative">
-    <div class="btn-group">
-      <div class="d-flex bd-highlight"><a class="navbar-brand me-1"  aria-expanded="false">
-          <div id="userMenu" class="flex-shrink-1 bd-highlight"><img
-              src="/img/apple-touch-icon.png" class="img-circle img-thumbnail avatar"
-              style="vertical-align:middle;border-radius:50%;width:3rem" alt="avatar"></div>
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="dropdown03">
-          <li><a class="dropdown-item" href="/profile">Profile</a></li>
-          <li><a id="logoutBtn" class="dropdown-item" href="javascript://">Logout</a></li>
-        </ul>
-      </div>
-    </div>
+
 
     <span class="navbar-brand lh-1"><a href="/" class="h4 text-decoration-none"><strong>Gurukulams</strong></a><br>
       <div class="text-muted text-end w-100 p-0 mb-0 dropdown border-0">
@@ -73,6 +62,19 @@
               style="vertical-align: middle;border-radius: 50%;width: 42px;" alt="avatar">
           </button>
           {{ end }}
+      </div>
+
+      <div class="btn-group secured">
+        <div class="d-flex bd-highlight"><a class="navbar-brand me-1"  aria-expanded="false">
+            <div id="userMenu" class="flex-shrink-1 bd-highlight"><img
+                src="/img/apple-touch-icon.png" class="img-circle img-thumbnail avatar"
+                style="vertical-align:middle;border-radius:50%;width:3rem" alt="avatar"></div>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown03">
+            <li><a class="dropdown-item" href="/profile">Profile</a></li>
+            <li><a id="logoutBtn" class="dropdown-item" href="javascript://">Logout</a></li>
+          </ul>
+        </div>
       </div>
 
   
