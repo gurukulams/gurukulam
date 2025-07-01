@@ -2,15 +2,13 @@
 
 {{ with .File }}
 
-
 {{ $slide_link = replace .Path ".md" ".htm"}}
+{{ $slide_link = replace $slide_link "/_index" ""}}
 {{ $slide_link := print "courses/" $slide_link }}
 
 {{if os.FileExists $slide_link }}
-    {{ $current_link := "" }}
-    {{ $current_link = strings.TrimRight "/" .Permalink }}
-
-    <a href="{{replace $current_link "/books" "/courses/books"}}" class="btn float-end" role="button">
+    {{ $slide_link = replace $slide_link ".htm" ""}}
+    <a href="/{{$slide_link}}" class="btn float-end" role="button">
         <i class="fa-solid fa-file-powerpoint" title="Presentation"></i>
     </a>
 {{end}}
