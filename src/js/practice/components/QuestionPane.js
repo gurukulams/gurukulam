@@ -103,7 +103,7 @@ export default class QuestionPane {
           this.answerContainer.appendChild(this.mtfList.element);
           this.mtfList.element.name = _question.id;
   
-          this.mtfChoicesList = new ChoiceList(this.isEditable,"matchesList", _question.choices);
+          this.mtfChoicesList = new ChoiceList(this.isEditable,"matchesList", _question.choices, true);
           
           break;
       }

@@ -1,12 +1,12 @@
 export default class ChoiceList {
-  constructor(isPracticeMode, templateName, choices) {
+  constructor(isPracticeMode, templateName, choices, keepOrder) {
     const template = document.getElementById(templateName);
 
     this._element = template.content.cloneNode(true).firstChild;
 
     let length = 0;
 
-    if(!isPracticeMode) {
+    if(!keepOrder) {
       window.shuffle(choices);    
     }
     
