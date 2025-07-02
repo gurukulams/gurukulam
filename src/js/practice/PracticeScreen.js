@@ -76,6 +76,7 @@ export default class PracticeScreen {
     // is Practice Mode
     if( !this.checkBtn.classList.contains('d-none') ) {
       this.explainToggleBtn.classList.add("d-none");
+      this.doExplain(false);
     }
     
     if (questionIndex === this.questions.length - 1) {
@@ -102,16 +103,15 @@ export default class PracticeScreen {
     this.setQuestion(this.currentQuestionIndex - 1);
   }
 
-  doExplain() {
-    if (this.explainToggleBtn.classList.contains("btn-primary")) {
-      this.explainToggleBtn.classList.remove("btn-primary");
-      this.explainToggleBtn.classList.add("btn-outline-primary");
-      this.questionPane.doExplain(false);
-    } else {
+  doExplain(explain) {
+    if (explain) {
       this.explainToggleBtn.classList.remove("btn-outline-primary");
       this.explainToggleBtn.classList.add("btn-primary");
-      this.questionPane.doExplain(true);
+    } else {
+      this.explainToggleBtn.classList.remove("btn-primary");
+      this.explainToggleBtn.classList.add("btn-outline-primary");
     }
+    this.questionPane.doExplain(explain);
   }
 
   doDelete() {
@@ -192,7 +192,7 @@ export default class PracticeScreen {
       const classList = element.classList;
       if (classList.contains("fa-question")) {
         this.explainToggleBtn = element.parentElement;
-        this.explainToggleBtn.addEventListener("click", () => this.doExplain());
+        this.explainToggleBtn.addEventListener("click", () => this.doExplain(!this.explainToggleBtn.classList.contains("btn-primary")));
       } else if (classList.contains("fa-pencil")) {
         this.modeBtn = element;
         element.parentElement.addEventListener("click", () => this.doEdit());
