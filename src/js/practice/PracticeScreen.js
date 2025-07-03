@@ -62,9 +62,17 @@ export default class PracticeScreen {
           console.log(error);
         });
     } else {
-      const qObjects = JSON.parse(questions);
-      console.log(qObjects);
-      this.setQuestions(window.shuffle(qObjects));
+      const loadFromCache = () => {
+        const qObjects = JSON.parse(questions);
+        console.log(qObjects);
+        this.setQuestions(window.shuffle(qObjects));
+      };
+    
+      // After 1 second
+      setTimeout(() => {
+        loadFromCache();
+      }, 1000); 
+    
     }
     
   }
