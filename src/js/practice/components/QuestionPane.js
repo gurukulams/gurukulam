@@ -76,6 +76,8 @@ export default class QuestionPane {
       _question.question ? _question.question : "",
     );
 
+    console.log("Value is set as " + (_question.question ? _question.question : ""));
+
     this.explanationEditor.value(
       _question.explanation ? _question.explanation : "",
     );
