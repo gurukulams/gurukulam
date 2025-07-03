@@ -9,7 +9,7 @@ export default class ChoiceList {
     if(!keepOrder) {
       window.shuffle(choices);    
     }
-    
+  
 
     if(templateName === "matchesList") {
         this.isMatches = true;
@@ -58,11 +58,16 @@ export default class ChoiceList {
             const liEl = this._element.children[index];
             const input = liEl.querySelector("input");
             input.value = choice.id;
+            input.name = `c${choices[0].id}`;
+            input.id = choice.id;
+            const clabel = liEl.querySelector("label");
+            clabel.textContent = choice.label;
+            clabel.htmlFor = choice.id;
             if(isPracticeMode) {
               input.checked = choice.answer;
             }
-            liEl.querySelector("label").textContent = choice.label;
             length++;
+            
         });
     }
     
