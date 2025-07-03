@@ -39,25 +39,34 @@ export default class PracticeScreen {
   }
 
   loadQuestions() {
-    fetch(this.questionsUrl, {
-      headers: window.ApplicationHeader(),
-    })
-      .then((response) => {
-        if (response.ok) {
-          if (response.status === 204) {
-            this.setQuestions([]);
+    const questions = sessionStorage.getItem(this.questionsUrl);
+    if(!questions) {
+      fetch(this.questionsUrl, {
+        headers: window.ApplicationHeader(),
+      })
+        .then((response) => {
+          if (response.ok) {
+            if (response.status === 204) {
+              this.setQuestions([]);
+            }
+            return response.json();
+          } else {
+            throw Error(response.statusText);
           }
-          return response.json();
-        } else {
-          throw Error(response.statusText);
-        }
-      })
-      .then((data) => {
-        this.setQuestions(window.shuffle(data));
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+        })
+        .then((data) => {
+          sessionStorage.setItem(this.questionsUrl, JSON.stringify(data))
+          this.setQuestions(window.shuffle(data));
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    } else {
+      const qObjects = JSON.parse(questions);
+      console.log(qObjects);
+      this.setQuestions(window.shuffle(qObjects));
+    }
+    
   }
 
   setQuestions(_questions) {
