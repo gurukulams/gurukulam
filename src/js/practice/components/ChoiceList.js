@@ -3,6 +3,7 @@ export default class ChoiceList {
     const template = document.getElementById(templateName);
 
     this._element = template.content.cloneNode(true).firstChild;
+    this._element.container = this;
 
     let length = 0;
 

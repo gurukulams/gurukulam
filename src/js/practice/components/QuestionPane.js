@@ -109,6 +109,21 @@ export default class QuestionPane {
           
           break;
       }
+    } else {
+      switch (_question.type) {
+        case "CHOOSE_THE_BEST":
+          this.chooseTheBestList = answerComponent.container ;
+          break;
+        case "MULTI_CHOICE":
+          this.mcqList = answerComponent.container ;
+          break;
+        case "MATCH_THE_FOLLOWING":
+          this.mtfList = answerComponent.container ;
+  
+          this.mtfChoicesList = new ChoiceList(this.isEditable,"matchesList", _question.choices, true);
+          
+          break;
+      }
     }
 
     if(_question.type === "MATCH_THE_FOLLOWING") {
