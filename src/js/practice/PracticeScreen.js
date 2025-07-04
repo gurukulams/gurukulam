@@ -2,7 +2,6 @@ import QuestionPane from "./components/QuestionPane";
 
 export default class PracticeScreen {
   constructor() {
-
     if (sessionStorage.auth) {
       const urlTokens = window.location.pathname.split("/questions/");
 
@@ -14,19 +13,19 @@ export default class PracticeScreen {
 
       const titleBarTxt = sessionStorage.getItem("titleBar");
 
-      if(titleBarTxt) {
+      if (titleBarTxt) {
         document.querySelector(".breadcrumb").innerHTML = titleBarTxt;
-        const lastBEl = document.querySelector(".breadcrumb").querySelector(".active");
-        if(lastBEl) {
-          const anchorEl = document.createElement('a');
+        const lastBEl = document
+          .querySelector(".breadcrumb")
+          .querySelector(".active");
+        if (lastBEl) {
+          const anchorEl = document.createElement("a");
           anchorEl.href = document.referrer;
           anchorEl.innerHTML = lastBEl.innerHTML;
-          lastBEl.innerHTML = '';
+          lastBEl.innerHTML = "";
           lastBEl.appendChild(anchorEl);
         }
       }
-
-      
 
       this.questionPane = new QuestionPane();
       this.questionPane.readOnly = true;
@@ -40,7 +39,7 @@ export default class PracticeScreen {
 
   loadQuestions() {
     const questions = sessionStorage.getItem(this.questionsUrl);
-    if(!questions) {
+    if (!questions) {
       fetch(this.questionsUrl, {
         headers: window.ApplicationHeader(),
       })
@@ -55,7 +54,7 @@ export default class PracticeScreen {
           }
         })
         .then((data) => {
-          sessionStorage.setItem(this.questionsUrl, JSON.stringify(data))
+          sessionStorage.setItem(this.questionsUrl, JSON.stringify(data));
           this.setQuestions(window.shuffle(data));
         })
         .catch(function (error) {
@@ -67,14 +66,12 @@ export default class PracticeScreen {
         console.log(qObjects);
         this.setQuestions(window.shuffle(qObjects));
       };
-    
+
       // After 1 second
       setTimeout(() => {
         loadFromCache();
-      }, 1000); 
-    
+      }, 1000);
     }
-    
   }
 
   setQuestions(_questions) {
@@ -89,13 +86,12 @@ export default class PracticeScreen {
   }
 
   setQuestion(questionIndex) {
-    
     // is Practice Mode
-    if( !this.checkBtn.classList.contains('d-none') ) {
+    if (!this.checkBtn.classList.contains("d-none")) {
       this.explainToggleBtn.classList.add("d-none");
       this.doExplain(false);
     }
-    
+
     if (questionIndex === this.questions.length - 1) {
       this.nextBtn.classList.add("disabled");
     } else {
@@ -139,7 +135,7 @@ export default class PracticeScreen {
   }
 
   doEdit() {
-    if( this.modeBtn.classList.contains("fa-pencil") ) {
+    if (this.modeBtn.classList.contains("fa-pencil")) {
       this.modeBtn.className = "fa-regular fa-eye";
       this.addBtn.classList.remove("d-none");
       this.deleteBtn.classList.remove("d-none");
@@ -164,42 +160,71 @@ export default class PracticeScreen {
   }
 
   doCheck() {
-    console.log("Check Button clicked");
     const question = this.questionPane.getQuestion();
     const answerText = this.questionPane.getAnswer();
+    let isCorrect = false;
 
-    if(answerText === '') {
+    if (answerText === "") {
       window.error("Please Select Answer");
     } else {
-      fetch("/api/questions/" + question.id + "/answer", {
-        method: "POST",
-        headers: window.ApplicationHeader(),
-        body: answerText,
-      })
-        .then((response) => {
-          // Shorthand to check for an HTTP 2xx response status.
-          // See https://fetch.spec.whatwg.org/#dom-response-ok
-          if (response.ok) {
-            this.questionPane.verify(true);
-            window.success('Correct Answer');
-            this.explainToggleBtn.classList.remove("btn-outline-danger");
-            this.explainToggleBtn.classList.add("btn-outline-success");
-            this.explainToggleBtn.classList.remove("d-none");
-          } else if (response.status === 406) {
-            this.questionPane.verify(false);
-            window.error('Wrong Answer');
-            this.explainToggleBtn.classList.remove("btn-outline-success");
-            this.explainToggleBtn.classList.add("btn-outline-danger");
-            this.explainToggleBtn.classList.remove("d-none");
-          }
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
+      switch (question.type) {
+        case "CHOOSE_THE_BEST": {
+          const correctChoice = question.choices.find(
+            (choice) => choice.answer === true
+          );
+          isCorrect = correctChoice && correctChoice.id === answerText;
+          break;
+        }
 
+        case "MULTI_CHOICE": {
+          const correctChoiceIds = question.choices
+            .filter((choice) => choice.answer === true)
+            .map((choice) => choice.id)
+            .sort();
+
+          const selectedChoiceIds = answerText
+            .split(",")
+            .map((id) => id.trim())
+            .sort();
+
+          isCorrect =
+            JSON.stringify(correctChoiceIds) ===
+            JSON.stringify(selectedChoiceIds);
+          break;
+        }
+
+        case "MATCH_THE_FOLLOWING": {
+          const storedQuestionsRaw = sessionStorage.getItem(this.questionsUrl);
+          if (storedQuestionsRaw) {
+            const storedQuestions = JSON.parse(storedQuestionsRaw);
+            const originalQuestion = storedQuestions.find((q) => q.id === question.id);
+
+            if (originalQuestion) {
+              const fullList = [...originalQuestion.choices,...originalQuestion.matches.slice
+                (0,originalQuestion.choices.length),
+              ];
+              const correctAnswer = fullList.map((item) => item.id).join(",");
+              isCorrect = correctAnswer === answerText;
+            } 
+          } 
+          break;
+        }
+      }
+
+      if (isCorrect) {
+        this.questionPane.verify(true);
+        window.success("Correct Answer");
+        this.explainToggleBtn.classList.remove("btn-outline-danger");
+        this.explainToggleBtn.classList.add("btn-outline-success");
+        this.explainToggleBtn.classList.remove("d-none");
+      } else {
+        this.questionPane.verify(false);
+        window.error("Wrong Answer");
+        this.explainToggleBtn.classList.remove("btn-outline-success");
+        this.explainToggleBtn.classList.add("btn-outline-danger");
+        this.explainToggleBtn.classList.remove("d-none");
+      }
     }
-
-
   }
 
   addActions() {
@@ -209,7 +234,11 @@ export default class PracticeScreen {
       const classList = element.classList;
       if (classList.contains("fa-question")) {
         this.explainToggleBtn = element.parentElement;
-        this.explainToggleBtn.addEventListener("click", () => this.doExplain(!this.explainToggleBtn.classList.contains("btn-primary")));
+        this.explainToggleBtn.addEventListener("click", () =>
+          this.doExplain(
+            !this.explainToggleBtn.classList.contains("btn-primary")
+          )
+        );
       } else if (classList.contains("fa-pencil")) {
         this.modeBtn = element;
         element.parentElement.addEventListener("click", () => this.doEdit());
