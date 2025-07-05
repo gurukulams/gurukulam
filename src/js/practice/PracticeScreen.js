@@ -229,6 +229,18 @@ export default class PracticeScreen {
 
   addActions() {
     const navPane = document.getElementById("navPane");
+    const fabPane = document.getElementById("fabPane");
+
+    fabPane.querySelectorAll("i").forEach((element) => {
+      const classList = element.classList;
+      if (classList.contains("fa-floppy-disk")) {
+        element.parentElement.addEventListener("click", () => this.doSave());
+        this.saveBtn = element.parentElement;
+      } else if (classList.contains("fa-check")) {
+        this.checkBtn = element.parentElement;
+        element.parentElement.addEventListener("click", () => this.doCheck());
+      }
+    });
 
     navPane.querySelectorAll("i").forEach((element) => {
       const classList = element.classList;
@@ -255,12 +267,6 @@ export default class PracticeScreen {
             this.doAdd(liElement.dataset.type)
           );
         });
-      } else if (classList.contains("fa-floppy-disk")) {
-        element.parentElement.addEventListener("click", () => this.doSave());
-        this.saveBtn = element.parentElement;
-      } else if (classList.contains("fa-check")) {
-        this.checkBtn = element.parentElement;
-        element.parentElement.addEventListener("click", () => this.doCheck());
       }
     });
 

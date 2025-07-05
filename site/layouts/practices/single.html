@@ -1,93 +1,96 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 <div id="content" data-type="{{.File.TranslationBaseName}}">
-    <div id="navPane" class="row">
-        <div class="col-6">
-          <div class="row">
-            <div class="col-11 px-0">
-              <nav aria-label="Page Navigation">
-                <ul class="pagination">
-                  <!--NEED tO REMOVE-->
-                  <li class="page-item" title="Previous Question">
-                    <a class="page-link" href="javascript://" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>
-                    </a>
-                  </li>
-                  <li class="page-item" title="Next Question">
-                    <a class="page-link" href="javascript://" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                    </a>
-                  </li>
-                  <li class="page-item py-2 px-4 w-100">
-                    <ol class="breadcrumb"></ol>
-                  </li>
-                </ul>
-              </nav>
-              
-            </div>
-          </div>
-        </div>
-        <div class="col-6 px-0">
-          
-          <div class="float-end">
-            <span id="statusTxt" class="lead"></span>
-            <button
+
+  <div id="navPane" class="d-flex">
+    <div class="flex-grow-1"><ol class="breadcrumb"></ol></div>
+    <div>
+        <span id="statusTxt" class="lead"></span>
+        <button
+          type="button"
+          class="btn d-none"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          title="Delete"
+        >
+          <i class="far fa-trash-alt text-danger"></i>
+        </button>
+
+        <button
+          class="btn dropdown-toggle d-none"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          title="Add question"
+        >
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <ul
+          class="dropdown-menu add-btns"
+          aria-labelledby="dropdownMenuButton1"
+        >
+          <li data-type="CHOOSE_THE_BEST">
+            <a class="dropdown-item" href="javascript://">Choose the best</a>
+          </li>
+          <li data-type="MULTI_CHOICE">
+            <a class="dropdown-item" href="javascript://">Multi-choice</a>
+          </li>
+        </ul>
+        <button
               type="button"
               class="btn d-none"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              title="Delete"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="Explain"
             >
-              <i class="far fa-trash-alt text-danger"></i>
+              <i class="fa-solid fa-question"></i>
             </button>
-    
-            <button
-              class="btn dropdown-toggle d-none"
-              type="button"
-              id="dropdownMenuButton1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-              title="Add question"
-            >
-              <i class="fa-solid fa-plus"></i>
-            </button>
-            <ul
-              class="dropdown-menu add-btns"
-              aria-labelledby="dropdownMenuButton1"
-            >
-              <li data-type="CHOOSE_THE_BEST">
-                <a class="dropdown-item" href="javascript://">Choose the best</a>
-              </li>
-              <li data-type="MULTI_CHOICE">
-                <a class="dropdown-item" href="javascript://">Multi-choice</a>
-              </li>
-            </ul>
-            <button
-                  type="button"
-                  class="btn d-none"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="bottom"
-                  title="Explain"
-                >
-                  <i class="fa-solid fa-question"></i>
-                </button>
-            <button
-              type="button"
-              class="btn{{ if getenv "BUILD_PRODUCTION" }} d-none{{ end }}"
-              title="Edit Question"
-            >
-              <i class="fa-solid fa-pencil"></i>
-            </button>
-            
-            <button type="button" class="btn btn-primary d-none" title="Save Question">
-              <i class="fa-solid fa-floppy-disk"></i> | Save&nbsp;
-            </button>
-            <button type="button" class="btn btn-primary" title="Check Question">
-              <i class="fa-solid fa-check"></i> | Verify
-            </button>
-          </div>
-        </div>
-      </div>
+        <button
+          type="button"
+          class="btn{{ if getenv "BUILD_PRODUCTION" }} d-none{{ end }}"
+          title="Edit Question"
+        >
+          <i class="fa-solid fa-pencil"></i>
+        </button>
+
+
+      
+    </div>
+    <div><nav aria-label="Page Navigation">
+      <ul class="pagination">
+        <!--NEED tO REMOVE-->
+        <li class="page-item" title="Previous Question">
+          <a class="page-link" href="javascript://" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item" title="Next Question">
+          <a class="page-link" href="javascript://" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+        <li class="page-item py-2 px-4 w-100">
+          
+        </li>
+      </ul>
+    </nav></div>
+  </div>
+
+
+ 
     {{- .Content -}}
 </div>
+
+<div id="fabPane" class="dropup btn-group position-fixed bottom-0 end-0 rounded-circle me-2 mb-4 z-3">
+
+  <button type="button" class="btn btn-primary d-none" title="Save Question">
+    <i class="fa-solid fa-floppy-disk"></i> | Save&nbsp;
+  </button>
+  <button type="button" class="btn btn-primary" title="Check Question">
+    <i class="fa-solid fa-check"></i> | Verify
+  </button>
+
+</div>
+
 
 {{ end }}
