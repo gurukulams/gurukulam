@@ -1,0 +1,27 @@
+{{ $image := (printf "%s%s" .Page.File.Dir (.Destination | safeURL )) }}
+{{ $localizedimage := (printf "%s%s%s" .Page.Language.Lang "/" $image ) }}
+{{ $image_file_path := (printf "content.%s/%s" .Page.Language.Lang $image ) }}
+
+
+{{ if fileExists $image }}
+<figure class="figure img-fluid {{ with .Title }}{{ . }}{{ end }}">
+  
+  {{ if eq .Page.Language.Lang "en" }}
+  <img src="{{ $image | absURL }}" alt="{{ .Text }}" class="w-100"/>
+  {{ else }}
+  {{ if fileExists $image_file_path }}
+  <img src="{{ $localizedimage | absURL }}" alt="{{ .Text }}" class="w-100"/>
+  {{ else }}
+  <img src="{{ $image | absURL }}" alt="{{ .Text }}" class="w-100"/>
+  {{ end }}
+
+  {{ end }}
+
+  <figcaption class="figure-caption text-center">
+    {{ .Text }}
+  </figcaption>
+</figure>
+
+{{ else }}
+{{ errorf "Failed to image %q at %q" $image .Page.File }}
+{{ end }}

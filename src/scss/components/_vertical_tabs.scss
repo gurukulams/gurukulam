@@ -1,0 +1,317 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// When the view is narrower than this tabs turn into an accordion,
+// otherwise horizontal tabs are used up until $vertical-tabs-min width
+$horizontal-tabs-min: 428px; // iPhone 13 Pro Max (as a proxy for "largest smartphone")
+
+// When the view is wider than this, vertical tabs are used
+$vertical-tabs-min: 767px; // Need it to be just 1px less than 768px Bootstrap column breakpoint
+
+// Set this depending on the longest expected caption text of the tabs
+// If the text is still longer than that, it will be truncated with ellipsis
+// NOTE: there are practical limits on this value, the "good" values
+// seem to be somewhere beetween 4 and 12rem;
+$fixed-tab-size: 8rem;
+
+// These only apply to regular (not sideways) vertical tabs
+// In all other cases the text is center-aligned
+$left-tabs-text-align: left;
+$right-tabs-text-align: right;
+
+
+ 
+ // Magic numbers
+ $magic-horizontal-value: 3.2rem;
+ $magic-vertical-value: 5rem;
+ $sideways-tabs-height: 1rem;
+ 
+ // Placeholders
+ %sideways-tabs {
+   margin-top: $magic-vertical-value;
+   border: none;
+   position: relative;
+   margin-bottom: 0;
+ }
+ 
+ // Used in vertical tab configuration (wide view)
+ %flex-tabs {
+   height: 100%;
+   flex-direction: column;
+ }
+ 
+ @mixin limit-text-length {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+ }
+ 
+ // Mixins (can be reused inside @media scope)
+ @mixin fixed-tab($size: $fixed-tab-size) {
+   width: $size;
+   text-align: center;
+   @include limit-text-length;
+ }
+ 
+ // Used in horizontal tab configuration (narrow views)
+ @mixin flex-tabs-h {
+   flex-direction: row;
+   border-right: none;
+   border-left: none;
+   min-width: 100%;
+ }
+ 
+ .ellipsis {
+   @include limit-text-length;
+   padding-right: 0.5rem;
+ }
+ 
+ // Workaround for Safari issue :/
+ // Bootstrap 5 uses <button type="button"> for tabs, but
+ // <button> doesn't work for vertical orientation, and applying type="button"
+ // to another element (e.g. <div>) will render it in Safari as an "early 21st century style" button,
+ // with gray gradient, border, etc. So we don't set type="button", but then we need
+ // to change the cursor to indicate that the tab is "clickable"
+ .vtabs .tab-clickable {
+   cursor: pointer;
+ }
+ 
+ // Left vertical tabs
+ .left-tabs.nav-tabs {
+   @extend %flex-tabs;
+   border-right: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-bottom: none;
+ }
+ 
+ .left-tabs .nav-link {
+   border-top-left-radius: $nav-tabs-border-radius;
+   border-bottom-left-radius: $nav-tabs-border-radius;
+   border-bottom-right-radius: 0;
+   border-top-right-radius: 0;
+   margin-right: -$nav-tabs-border-width;
+   text-align: $left-tabs-text-align;
+ }
+ 
+ .left-tabs .nav-link:hover {
+   border-right: $nav-tabs-border-width solid transparent;
+ }
+ 
+ .left-tabs .nav-link.active {
+   border-top: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-right: $nav-tabs-border-width solid transparent;
+   border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-left: $nav-tabs-border-width solid $nav-tabs-border-color;
+ }
+ 
+ // Right vertical tabs
+ .right-tabs.nav-tabs {
+   @extend %flex-tabs;
+   border-left: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-bottom: none;
+ }
+ 
+ .right-tabs .nav-link {
+   border-top-right-radius: $nav-tabs-border-radius;
+   border-bottom-right-radius: $nav-tabs-border-radius;
+   border-bottom-left-radius: 0;
+   border-top-left-radius: 0;
+   margin-left: -$nav-tabs-border-width;
+   text-align: $right-tabs-text-align;
+ }
+ 
+ .right-tabs .nav-link:hover {
+   border-left: $nav-tabs-border-width solid transparent;
+ }
+ 
+ .right-tabs .nav-link.active {
+   border-top: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-right: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-left: $nav-tabs-border-width solid transparent;
+ }
+ 
+ // Sideways left vertical tabs
+ .left-tabs.sideways-tabs {
+   @extend %sideways-tabs;
+   @extend %flex-tabs;
+   border-right: none;
+   left: -$magic-horizontal-value;
+ }
+ 
+ .sideways-tabs.left-tabs .nav-item {
+   transform: rotate(-90deg); // ccw
+   height: $sideways-tabs-height;
+   margin-bottom: calc(#{$fixed-tab-size} - #{$sideways-tabs-height});
+ }
+ 
+ // NOTE: all top-bottom-left-right are before the rotation transform
+ .sideways-tabs.left-tabs .nav-link {
+   @include fixed-tab;
+   border-top-right-radius: $nav-tabs-border-radius;
+   border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+   border-top-left-radius: $nav-tabs-border-radius;
+   border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+ }
+ 
+ .sideways-tabs.left-tabs .nav-link:hover {
+   border-right: $nav-tabs-border-width solid $gray-200;
+ }
+ 
+ .sideways-tabs.left-tabs .nav-link.active {
+   border-top: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-right: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-bottom: $nav-tabs-border-width solid transparent;
+   border-left: $nav-tabs-border-width solid $nav-tabs-border-color;
+ }
+ 
+ // Sideways right vertical tabs
+ .right-tabs.sideways-tabs {
+   @extend %sideways-tabs;
+   @extend %flex-tabs;
+   border-left: none;
+   right: $magic-horizontal-value;
+ }
+ 
+ .sideways-tabs.right-tabs .nav-item {
+   transform: rotate(90deg); // cw
+   height: $sideways-tabs-height;
+   margin-bottom: calc(#{$fixed-tab-size} - #{$sideways-tabs-height});
+ }
+ 
+ // NOTE: all top-bottom-left-right are before the rotation transform
+ .sideways-tabs.right-tabs .nav-link {
+   @include fixed-tab;
+   border-top-right-radius: $nav-tabs-border-radius;
+   border-bottom-right-radius: 0;
+   border-bottom-left-radius: 0;
+   border-top-left-radius: $nav-tabs-border-radius;
+   border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+ }
+ 
+ .sideways-tabs.right-tabs .nav-link:hover {
+   border-left: $nav-tabs-border-width solid $gray-200;
+ }
+ 
+ .sideways-tabs.right-tabs .nav-link.active {
+   border-top: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-right: $nav-tabs-border-width solid $nav-tabs-border-color;
+   border-bottom: $nav-tabs-border-width solid transparent;
+   border-left: $nav-tabs-border-width solid $nav-tabs-border-color;
+ }
+ 
+ // Do not display accordion when in tab mode (wide view)
+ .vtabs .accordion-header {
+   display: none;
+ }
+ 
+ // Use horizontal tabs when the view is too narrow for the vertical tabs on the side
+ @media (max-width: $vertical-tabs-min) {
+   .left-tabs.nav-tabs {
+     @include flex-tabs-h;
+     border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+     left: auto;
+     margin-top: auto;
+   }
+ 
+   .left-tabs .nav-link {
+     @include fixed-tab;
+     border-top-right-radius: $nav-tabs-border-radius;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+     border-top-left-radius: $nav-tabs-border-radius;
+     margin-right: 0;
+     margin-bottom: -$nav-tabs-border-width;
+   }
+ 
+   .left-tabs .nav-link.nav-link:hover {
+     border-right-color: $nav-tabs-border-color;
+     border-bottom-color: transparent;
+   }
+ 
+   .left-tabs .nav-link.active {
+     border-top-color: $nav-tabs-border-color;
+     border-right-color: $nav-tabs-border-color;
+     border-bottom-color: transparent;
+     border-left-color: $nav-tabs-border-color;
+   }
+ 
+   .sideways-tabs.left-tabs .nav-item,
+   .sideways-tabs.right-tabs .nav-item {
+     transform: none;
+     height: auto;
+     width: auto;
+     margin-bottom: 0;
+   }
+ 
+   // Right tabs wrap into the bottom (upside-down) tabs
+   .right-tabs.nav-tabs {
+     @include flex-tabs-h;
+     border-top: $nav-tabs-border-width solid $nav-tabs-border-color;
+     right: auto;
+     margin-top: auto;
+   }
+ 
+   .sideways-tabs.right-tabs .nav-link,
+   .right-tabs .nav-link {
+     @include fixed-tab;
+     border-top-right-radius: 0;
+     border-bottom-right-radius: $nav-tabs-border-radius;
+     border-bottom-left-radius: $nav-tabs-border-radius;
+     border-top-left-radius: 0;
+     margin-left: 0;
+     margin-top: -$nav-tabs-border-width;
+     border-bottom-color: transparent;
+   }
+ 
+   .right-tabs .nav-link:hover {
+     border-top-color: transparent;
+     border-left-color: $nav-tabs-border-color;
+     border-bottom-color: $gray-200;
+   }
+ 
+   .sideways-tabs.right-tabs .nav-link.active,
+   .right-tabs .nav-link.active {
+     border-top-color: transparent;
+     border-right-color: $nav-tabs-border-color;
+     border-bottom-color: $nav-tabs-border-color;
+     border-left-color: $nav-tabs-border-color;
+   }
+ }
+ 
+ // Turn tabs into an accordion when the view is very narrow...
+ @media (max-width: $horizontal-tabs-min) {
+   .left-tabs.nav-tabs {
+     display: none;
+   }
+ 
+   .right-tabs.nav-tabs {
+     display: none;
+   }
+ 
+   // This is to ensure that all tabs are visible at once (in an accordion)
+   .vtabs .tab-content > .tab-pane {
+     display: block !important;
+     opacity: 1;
+   }
+ 
+   .vtabs .accordion-header {
+     display: block;
+   }
+ 
+   .vtabs button.accordion-button:focus {
+     border: none;
+     outline: none;
+     box-shadow: none;
+   }
+ }
+ 
+ // ...and disable any accordion-ness when it is wider
+ @media (min-width: $horizontal-tabs-min + 1) {
+   .vtabs .accordion-item {
+     border: none; // Display border only when it is in accordion mode (narrow view)
+   }
+ 
+   .vtabs .accordion-body.collapse {
+     display: block; // Always display (tab) content in wide view even if it was collapsed in accordion
+   }
+ }

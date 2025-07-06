@@ -1,0 +1,10 @@
+<ol class="breadcrumb">
+    {{- range .Ancestors.Reverse }}
+      {{ if (and .IsSection (ne .Title "Books") ) }}
+      <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{- end }}
+    {{- end }}
+    <li class="breadcrumb-item active" aria-current="page">
+      {{ .Title }}
+    </li>
+</ol>

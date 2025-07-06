@@ -1,0 +1,39 @@
+books:
+  - path: relational-databases
+    fields:
+      title: தொடர்புடைய தரவுத்தளங்கள்
+      description: தொடர்புடைய தரவுத்தளங்கள் குறிப்புகள்.
+  - path: java-programming
+    fields:
+      title: ஜாவா நிரலாக்கம்
+      description: ஜாவா நிரலாக்க குறிப்புகள்.
+      chaptersPath: /cse/languages/java
+  - path: web-essentials
+    fields:
+      title: இணைய அத்தியாவசியங்கள்
+      description: இணைய அத்தியாவசியங்கள் குறிப்புகள்.
+  # - path: c-programming
+  #   fields:
+  #     title: C நிரலாக்கம்
+  #     description: C நிரலாக்க குறிப்புகள்.
+  #     chaptersPath: /cse/languages/c
+  # - path: cybersecurity
+  #   fields:
+  #     title: இணைய பாதுகாப்பு
+  #     description: இணைய பாதுகாப்பு குறிப்புகள்.
+  # - path: artificial-intelligence
+  #   fields:
+  #     title: செயற்கை அறிவு
+  #     description: செயற்கை அறிவு குறிப்புகள்.
+  # - path: computer-networking
+  #   fields:
+  #     title: கணினி நெட்வொர்க்கிங்
+  #     description: கணினி நெட்வொர்க்கிங் குறிப்புகள்.
+  # - path: operating-systems
+  #   fields:
+  #     title: இயக்க முறைமைகள்
+  #     description: இயக்க முறைமைகள் குறிப்புகள்.
+  # - path: ds-algorithms
+  #   fields:
+  #     title: தரவு கட்டமைப்பு மற்றும் வழிமுறைகள்
+  #     description: தரவு கட்டமைப்பு மற்றும் வழிமுறைகள் குறிப்புகள்.

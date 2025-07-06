@@ -1,0 +1,49 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Gurukulams School"
+defaultContentLanguage = "en"
+
+googleAnalytics = "G-PQ5VGSBFCH"
+
+[security]
+enableInlineShortcodes = true
+[security.funcs]
+getenv = ['^HUGO_','CONTEXT','BUILD_PRODUCTION']
+
+[Languages]
+[Languages.en]
+weight = 0
+languagename = "English"
+contentDir = 'content.en'
+
+
+[Languages.ta]
+weight = 1
+languagename = "தமிழ்"
+contentDir = 'content.ta'
+
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+[markup.goldmark.renderer]
+  unsafe= true
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[markup]
+  [markup.asciidocExt]
+    backend = "html5"
+    extensions = []
+    failureLevel = "fatal"
+    noHeaderOrFooter = true
+    preserveTOC = false
+    safeMode = "unsafe"
+    sectionNumbers = false
+    trace = true
+    verbose = false
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+
+[taxonomies]
+  tag = "tags"

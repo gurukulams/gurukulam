@@ -1,0 +1,22 @@
+<meta name=”robots” content="index, follow">
+
+<!-- Multi lingual SEO https://weglot.com/4-key-seo-tips-multilingual-website/-->
+{{ if .IsTranslated }}
+
+{{ range .Translations }}
+
+<link rel=”alternate” hreflang=”{{ .Lang }}” href=”http://www.gurukulams.com{{ .Permalink }}” />
+
+{{ end }}
+
+{{ end }}
+
+
+<!-- Load Type Specific SEO-->
+{{ if templates.Exists ( printf "partials/seo-%s.html" .Type ) }}
+{{ $partialPath := printf "seo-%s" .Type }}
+{{ partial $partialPath . }}
+{{ end }}
+
+
+{{ template "_internal/opengraph.html" . }}

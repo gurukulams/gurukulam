@@ -1,0 +1,33 @@
+@baseUrl = http://localhost:8080/api
+@username = tom
+@password = password
+
+### Login to get auth token
+# @name auth_res
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{  
+  "userName": "{{username}}@email.com",
+  "password": "{{password}}"
+}
+
+### Login to get auth token
+# @name auth_res
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+Authorization: Bearer {{auth_res.response.body.$.registrationToken}}
+
+{
+  "name":"{{username}}",
+  "dob":"2000-10-10"
+}
+
+### List Questions
+GET {{baseUrl}}/questions/cse/languages/java
+Authorization: Bearer {{auth_res.response.body.$.authToken}}
+Content-Type: application/json
+
+### Logout
+POST {{baseUrl}}/auth/logout
+Authorization: Bearer {{auth_res.response.body.$.authToken}}

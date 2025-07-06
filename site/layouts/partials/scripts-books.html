@@ -1,0 +1,205 @@
+
+<div id="notesBtn" class="dropup btn-group position-fixed bottom-0 end-0 rounded-circle me-2 mb-4 z-3 d-none">
+
+    <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btn-check-outlined">
+      <i class="fa-solid fa-pencil" title="Take Notes"></i></label>
+      
+    <br>
+  
+    <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="javascript://"><i class="fa-solid fa-bezier-curve"></i></a></li>
+    </ul>
+ 
+</div>
+
+
+
+
+
+<div class="modal fade" id="noteModel" tabindex="-1" aria-labelledby="noteModelLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="noteModelLabel">Note</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <textarea class="form-control" id="noteText" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="imageModel" tabindex="-1" aria-labelledby="imageModelLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header py-0">
+        <h5 class="modal-title w-50" id="imageModelLabel">Image</h5>
+        
+
+          
+       
+        <!-- <div class=" w-100 py-4 me-4 text-end">
+
+               -->
+            <div class="float-end text-end" role="group" aria-label="Basic radio toggle button group">
+              <div id="toolbar"></div>
+            </div>
+
+      
+      
+    
+   
+
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+      </div>
+      <div class="modal-body d-flex align-items-center">
+          <div class="box w-100 text-center">
+            <img class="figure-img img-fluid rounded d-none" src="#">
+
+            <figure class="img-fluid w-75 d-none"><div class="goat svg-container w-75 h-75"></div></figure>
+
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-classes" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      
+
+    <div class="d-flex align-items-center w-100">
+      <span class="offcanvas-title d-none d-sm-block">Classes</span>
+      <div class="d-flex ms-auto">
+        <button type="button" class="btn">
+          <i class="fa-solid fa-plus" title="Create a new Class"></i>
+        </button>
+      </div>
+    </div>
+
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" title="Close"></button>
+  </div>
+  <div id="event-container" class="offcanvas-body">
+    {{ partial "event-manager" . }}
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-quiz" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      
+
+    <div class="d-flex align-items-center w-100">
+      <span class="offcanvas-title d-none d-sm-block">Quiz</span>
+      <div class="d-flex ms-auto">
+        <button type="button" class="btn">
+          <i class="fa-solid fa-plus" title="Create a new Class"></i>
+        </button>
+      </div>
+    </div>
+
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" title="Close"></button>
+  </div>
+  <div id="event-container" class="offcanvas-body">
+    {{ partial "event-manager" . }}
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-videos" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      <h6 class="offcanvas-title d-none d-sm-block">Videos</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <ul class="list-group">
+        {{ range .Params.References.Videos }}
+        {{ $video_segments := split . ":"  }}
+        {{ $video_provider := index $video_segments 0  }}
+        <li class="list-group-item">
+          <div class="ratio ratio-16x9">
+            {{if eq $video_provider "youtube"}}
+            <iframe src="https://www.youtube.com/embed/{{ index $video_segments 1 }}" title="YouTube video" allowfullscreen></iframe>
+            {{ else if eq $video_provider "vimeo"}}
+            <iframe src="https://player.vimeo.com/video/777650452?h=25996e5502" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            {{ else }}
+
+            {{ errorf "Video provider %q is not supported" $video_provider }}
+
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+      </ul>
+  </div>
+</div>
+
+
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-references" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      <h6 class="offcanvas-title d-none d-sm-block">References</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ol class="list-group list-group-numbered">
+      {{ range .Params.References.Links }}
+      <li class="list-group-link">
+        <a href="{{ . }}" target="_blank">{{ . }}</a>
+      </li>
+    {{ end }}
+    </ol>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-books" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+      <h6 class="offcanvas-title d-none d-sm-block">Books</h6>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ol class="list-group list-group-numbered">
+      {{ range .Params.References.Books }}
+      {{ range $book_id, $book_value := . }}
+        <li class="list-group-link">
+            <a target="_book" href="{{$book_value.url}}">{{$book_value.title}}</a>
+        </li>
+      {{ end }}
+    {{ end }}
+    </ol>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-end w-25" tabindex="-1" id="offcanvas-notes" data-bs-keyboard="false" data-bs-backdrop="false">
+  <div class="offcanvas-header">
+    <div class="input-group flex-nowrap">
+      <span class="input-group-text" id="addon-wrapping"><i class="fas fa-search"></i></span>
+      <input type="search" class="form-control" placeholder="Search Notes" aria-label="Notes" aria-describedby="addon-wrapping">
+    </div>
+     
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-group">
+      
+    </ul>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious@latest/dist/annotorious.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-toolbar@latest/dist/annotorious-toolbar.min.js"></script>
+<script type="text/javascript" src="/js/books.js"></script>
+

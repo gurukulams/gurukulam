@@ -1,0 +1,31 @@
+---
+title: Welcome
+layout: fullpage
+---
+
+<main class="d-none col-lg-6 col-md-8 mx-auto text-center">
+    <form>
+      <img class="mb-4" src="#" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Welcome to Gurukulams</h1>
+
+      <label class="text-danger d-none">Error</label>
+
+      <div class="form-floating">
+        <input  class="form-control" id="name" placeholder="" required
+        pattern="([a-zA-Z]+\s)*[a-zA-Z]+$"
+        title="Username should only contain letters. e.g. john">
+        <label for="name">Name</label>
+      </div>
+      <div class="form-floating">
+        <input  class="form-control" id="dob" type="date"  placeholder="" required>
+        <label for="dob">Date Of Birth</label>
+      </div>
+
+      <div class="col-12 py-4">
+         <button class="btn btn-secondary float-start mt-2" onclick="Welcome.reload()"  type="button" >Cancel</button>
+      <!--&#8377; 10 -->
+        <button class="btn btn-primary float-end mt-2" type="submit">Register</button>
+      </div>
+  
+    </form>
+  </main>

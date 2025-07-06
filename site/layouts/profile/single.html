@@ -1,0 +1,132 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+<div class="container-fluid">
+
+  <nav class="navbar">
+    <span class="h3" id="handleName">Foundation</span>
+    <div class="d-flex justify-content-end">
+      <button id="subscribeBtn" type="button" class="btn btn-primary float-end" role="button">
+        ₹ 10 | Register
+      </button>
+    </div>
+  </nav>
+
+  <div id="orgContainer" class="row justify-content-center">
+     
+
+      <div class="col-md-7 col-lg-3 mb-5 mb-lg-0">
+        <div class="card border-0 shadow">
+            <div class="card-body">
+              <img src="#" class="img-thumbnail w-100" alt="...">
+           
+              <div class="d-flex justify-content-between pt-2">
+                <button class="btn btn-outline-info" role="button">
+                  <i class="fab fa-twitter" title="Twitter"></i>
+                </button>
+                <button class="btn btn-outline-info" role="button">
+                <i class="fab fa-linkedin-in" title="Linked In"></i>
+               </button>
+              </div>
+
+                
+            </div>
+        </div>
+    </div>
+  
+  
+    <div class="col-lg-9">
+      <div class="ps-lg-1-6 ps-xl-5">
+          <div id="descriptionTxt" class="lead p-2">
+            
+          </div>
+
+          <div id="companySection" class="py-2 d-none">
+            <div class="text-start mb-1-6">
+                <h4 class="text-primary">Experience</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="schoolSection" class="py-2 d-none">
+            <div class="text-start mb-1-6">
+                <h4 class="text-primary">School</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="collegeSection" class="py-2 d-none">
+            <div class="text-start mb-1-6">
+                <h4 class="text-primary">College</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="communitySection" class="py-2 d-none">
+            <div class="text-start mb-1-6">
+                <h4 class="text-primary">Community</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="instituteSection" class="py-2 d-none">
+            <div class="text-start mb-1-6">
+                <h4 class="text-primary">Institute</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+          <div id="buddiesSection" class="py-2 d-none">
+            <div class="text-start mb-1-6">
+                <h4 class="text-primary">Buddies</h4>
+            </div>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+
+
+      </div>
+  </div>
+  </div>
+</div>
+
+
+<template id="org-card">
+  <li class="list-group-item card">
+    <div class="card-body">
+      <div class="d-flex gap-2">
+        <img src="#" class="img-circle img-thumbnail avatar"
+          style="vertical-align:middle;border-radius:50%;width:3rem;margin-right:10px" alt="avatar">
+        <div>
+          <h5 class="card-title">Jerry's Event</h5>
+        </div>
+      </div>
+      <p class="card-text pt-2">Jerry's Event Happening</p>
+    </div>
+    <div class="card-footer">
+      <small class="card-link">Company</small>
+    </div>
+  </li>
+</template>
+
+<template id="buddy-card">
+
+    <li class="list-group-item" >
+      <a class="d-flex gap-3 py-3" href="/profile" aria-current="true">
+        <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+        <h6 class="mb-0">List group item heading</h6>
+      </a>
+    </li>
+</template>
+
+
+{{ end }}

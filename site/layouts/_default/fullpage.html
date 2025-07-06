@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language.Lang }}">
+
+<head>
+
+
+  {{ block "head" . }}{{ partial "head" . }}{{end}}
+
+  {{ if templates.Exists ( printf "partials/head-%s.html" .Type ) }}
+  {{ $partialPath := printf "head-%s" .Type }}
+  {{ partial $partialPath . }}
+  {{ end }}
+
+
+</head>
+
+<body>
+  
+ 
+{{- .Content -}}
+
+
+
+  {{ if templates.Exists ( printf "partials/scripts-%s.html" .Type ) }}
+  {{ $partialPath := printf "scripts-%s" .Type }}
+  {{ partial $partialPath . }}
+  {{ end }}
+    
+  
+</body>
+
+</html>

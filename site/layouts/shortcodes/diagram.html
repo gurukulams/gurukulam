@@ -1,0 +1,13 @@
+<figure class="img-fluid {{ (.Get 1) }}">
+    
+      {{ with .Inner }}
+      {{$.Page.RenderString .}}
+      {{ end }}
+      
+      <figcaption class="figure-caption text-center">
+  
+        {{ (.Get 0) }}
+    
+      </figcaption>
+ 
+  </figure>

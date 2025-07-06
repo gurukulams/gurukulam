@@ -1,0 +1,62 @@
+{
+
+	"2-column-table": {
+		"prefix": "md-tbl-2",
+		"body": [
+			"{.table}",
+			"|  $1 | $2  |",
+			"|---|---|",
+			"| $3  |  $4 |"
+		],
+		"description": "Generate 2 Column Table"
+	},
+	"3-column-table": {
+		"prefix": "md-tbl-3",
+		"body": [
+			"{.table}",
+			"|  $1 | $2  | $3 |",
+			"|---|---|---|",
+			"| $4  |  $5 |  $6 |"
+		],
+		"description": "Generate 2 Column Table"
+
+
+	},
+
+	"4-column-table": {
+		"prefix": "md-tbl-4",
+		"body": [
+			"{.table}",
+			"| $1 | $2 | $3 | $4 |",
+			"|---|---|---|---|",
+			"| $5 | $6 | $7 | $8 |"
+			
+		],
+		"description": "Generate 4 coloumn Table"
+	},
+
+	"5-column-table": {
+		"prefix": "md-tbl-5",
+		"body": [
+			"{.table}",
+			"| $1 | $2 | $3 | $4 | $5|",
+			"|---|---|---|---|---|",
+			"| $6 | $7 | $8 | $9 | $10|"
+		],
+		"description": "Generate 5 coloumn Table"
+		
+	},
+	"6-column-table": {
+		"prefix": "md-tbl-6",
+		"body": [
+			"{.table}",
+			"| $1 | $2 | $3 | $4 | $5 | $6 |",
+			"|---|---|---|---|---|---|",
+		    "| $7 | $8 | $9 | $10 | $11 | $12 |"
+		],
+		"description": "Generate 6 column Table"
+			
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+#sidebar {
+    width: 250px;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+
+
+#hide-sidebar-control {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+}
+
+#hide-sidebar:checked~#sidebar {
+    display: block;
+}
+
+#hide-sidebar-control>a::before {
+    content: "<";
+}
+
+#hide-sidebar:checked~#hide-sidebar-control {
+    right: 260px;
+}
+
+#hide-sidebar:checked~#hide-sidebar-control>a::before {
+    content: ">";
+}

@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+
+    <nav class="navbar">
+
+        {{ partial "breadcrumbs.html" . }}
+        
+     
+        {{ partial "books-options.html" . }}  
+      </nav>
+
+      {{ if eq (len .Pages) 0 }}
+      {{ else }}
+      <nav class="w-50 p-3">
+        <ul class="lead">
+        <!-- Ranges through content/posts/*.md -->
+        {{ range .Pages }}
+            <li>
+                <a href="{{strings.TrimRight "/" .Permalink}}">{{.Title}}</a>
+            </li>
+        {{ end }}
+        </ul>
+    
+    </nav>
+      {{ end }}
+
+
+
+<div id="content" class="row" >
+    {{- .Content -}}
+</div>
+
+
+
+{{ end }}
+

@@ -1,0 +1,29 @@
+{
+    "question": "Match the following",
+    "explanation": "Design Patterns",
+    "choices": [
+      {
+        "label": "Collection Streams API"
+      },
+      {
+        "label": "Buffered Reader"
+      },
+      {
+        "label": "Container"
+      }
+    ],
+    "matches": [
+      {
+        "label": "Builder"
+      },
+      {
+        "label": "Decorator"
+      },
+      {
+        "label": "Composite"
+      },
+      {
+        "label": "Visitor"
+      }
+    ]
+  }

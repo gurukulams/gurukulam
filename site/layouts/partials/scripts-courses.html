@@ -1,0 +1,19 @@
+{{ if eq $.Page.IsPage true }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/markdown/markdown.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/reveal.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.2.1/plugin/math/math.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    Reveal.initialize({
+        plugins: [ RevealMarkdown ],
+        dependencies: [
+            {
+                src: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js', 
+                async: true, 
+                callback: function () { hljs.highlightAll(); }
+            }
+        ]
+    });
+</script>
+
+{{ end }}

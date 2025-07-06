@@ -1,0 +1,71 @@
+
+@import './base/typography';
+@import './themes/theme';
+
+@import './components/sidebar';
+@import './components/vertical_tabs';
+@import './components/reveal';
+@import './components/easymde';
+@import './components/annotorious';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+html {
+    scroll-padding-top: $spacer*4;
+}
+
+body>nav>.container {
+    position: relative;
+}
+
+.scroll-indicator {
+    position: absolute;
+    padding-top: 5px;
+    bottom: -3px; 
+    left: 0;
+    height: $scroll-indicator-height;
+    background-color: $scroll-indicator-color;
+    z-index: $scroll-indicator-z-index;
+}
+
+.secured {
+    @extend .d-none;
+}
+
+#userMenu.dropdown-toggle::after {
+    display: inline;
+    position: absolute;
+    bottom: -6px;
+    margin-left: 0;
+    left: 20px;
+}
+
+ul, ol {
+    list-style-position: inside !important;
+}
+
+#main-container nav .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.img-drawing {
+    fill: var(--bs-emphasis-color) ;
+}
+
+.dropdown button:hover {
+    color: var(--bs-primary);
+}
+
+.dropdown-menu .dropdown-item:hover, .list-group-item:hover {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+label {
+    user-select: none;
+}
+
+.svg-container {
+    max-width: 50%;
+}

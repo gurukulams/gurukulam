@@ -1,0 +1,6 @@
+{{ $page := partial "practices-path" . }}
+{{ with $page }}
+<button class="btn" data-path="{{ $page }}" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-classes" role="button">
+    <i class="fa-solid fa-chalkboard-user" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-classes" title="Classes"></i>
+</button>
+{{ end }}

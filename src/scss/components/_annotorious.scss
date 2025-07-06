@@ -1,0 +1,45 @@
+.r6o-footer {
+    color: var(--bs-emphasis-color) !important;
+
+    .r6o-btn {
+        background-color: var(--bs-primary) !important;
+    }
+
+    button.outline {
+        background-color: transparent !important;
+    }
+
+    button.left {
+        background-color: transparent !important;
+    }
+
+    button.delete-annotation {
+        color: var(--bs-danger) !important;
+    }
+
+}
+
+.r6o-tag input {
+    color: var(--bs-emphasis-color) !important;
+}
+
+.r6o-editor-inner {
+    background-color: var(--bs-body-bg) !important;
+}
+
+.r6o-widget.comment.editable {
+    background-color: var(--bs-body-bg) !important;
+}
+
+.r6o-widget.r6o-tag {
+    background-color: var(--bs-body-bg) !important;
+}
+
+.r6o-editor {
+    @extend .border;
+    @extend .border-info;
+}
+
+.r6o-arrow::after {
+    background-color: var(--bs-info) !important;
+}

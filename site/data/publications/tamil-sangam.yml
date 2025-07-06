@@ -1,0 +1,9 @@
+books:
+  - path: aticuti
+    fields:
+      title: Aticudi
+      description: Collection of single-line quotations written by Avvaiyar and organized in alphabetical order.
+  - path: thirukural 
+    fields:
+      title: Thirukural 
+      description: The Tirukkuṟaḷ, or shortly the Kural, is a classic Tamil language text consisting of 1,330 short couplets, or kurals, of seven words each. The text is divided into three books with aphoristic teachings on virtue, wealth and love, respectively.
