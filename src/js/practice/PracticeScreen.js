@@ -38,8 +38,7 @@ export default class PracticeScreen {
   }
 
   loadQuestions() {
-    const questions = sessionStorage.getItem(this.questionsUrl);
-    if (!questions) {
+    
       fetch(this.questionsUrl, {
         headers: window.ApplicationHeader(),
       })
@@ -54,24 +53,13 @@ export default class PracticeScreen {
           }
         })
         .then((data) => {
-          sessionStorage.setItem(this.questionsUrl, JSON.stringify(data));
+          this.originalQuestions = JSON.parse(JSON.stringify(data));
           this.setQuestions(window.shuffle(data));
         })
         .catch(function (error) {
           console.log(error);
         });
-    } else {
-      const loadFromCache = () => {
-        const qObjects = JSON.parse(questions);
-        console.log(qObjects);
-        this.setQuestions(window.shuffle(qObjects));
-      };
-
-      // After 1 second
-      setTimeout(() => {
-        loadFromCache();
-      }, 1000);
-    }
+    
   }
 
   setQuestions(_questions) {
@@ -202,10 +190,10 @@ export default class PracticeScreen {
         }
 
         case "MATCH_THE_FOLLOWING": {
-          const storedQuestionsRaw = sessionStorage.getItem(this.questionsUrl);
-          if (storedQuestionsRaw) {
-            const storedQuestions = JSON.parse(storedQuestionsRaw);
-            const originalQuestion = storedQuestions.find((q) => q.id === question.id);
+          
+          if (this.originalQuestions) {
+ 
+            const originalQuestion = this.originalQuestions.find((q) => q.id === question.id);
 
             if (originalQuestion) {
               const fullList = [...originalQuestion.choices,...originalQuestion.matches.slice

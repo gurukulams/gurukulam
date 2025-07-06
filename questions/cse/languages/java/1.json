@@ -1,6 +1,6 @@
 {
     "question": "Match the following",
-    "explanation": "",
+    "explanation": "Design Patterns",
     "choices": [
       {
         "label": "Collection Streams API"
