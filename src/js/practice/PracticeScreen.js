@@ -80,8 +80,16 @@ export default class PracticeScreen {
 
     if (this.questions.length === 0) {
       console.log("Empty Questions");
+      document.getElementById("notfound").classList.remove("d-none");
+      document.getElementById("content").classList.add("d-none");
+      const primaryAnchor = document.getElementById("notfound").querySelector("a.btn-primary");
+      primaryAnchor.href = document.referrer;
+      primaryAnchor.innerHTML = "Go Back";
+      
     } else {
       this.setQuestion(0);
+      document.getElementById("notfound").classList.add("d-none");
+      document.getElementById("content").classList.remove("d-none");
     }
   }
 

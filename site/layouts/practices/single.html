@@ -1,5 +1,5 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
-<div id="content" data-type="{{.File.TranslationBaseName}}">
+<div id="content" class="d-none" data-type="{{.File.TranslationBaseName}}">
 
   <div id="navPane" class="d-flex">
     <div class="flex-grow-1"><ol class="breadcrumb"></ol></div>
@@ -74,6 +74,18 @@
         </li>
       </ul>
     </nav></div>
+
+    <div id="fabPane" class="dropup btn-group position-fixed bottom-0 end-0 rounded-circle me-2 mb-4 z-3">
+
+      <button type="button" class="btn btn-primary d-none" title="Save Question">
+        <i class="fa-solid fa-floppy-disk"></i> | Save&nbsp;
+      </button>
+      <button type="button" class="btn btn-primary" title="Check Question">
+        <i class="fa-solid fa-check"></i> | Verify
+      </button>
+    
+    </div>
+
   </div>
 
 
@@ -81,16 +93,10 @@
     {{- .Content -}}
 </div>
 
-<div id="fabPane" class="dropup btn-group position-fixed bottom-0 end-0 rounded-circle me-2 mb-4 z-3">
-
-  <button type="button" class="btn btn-primary d-none" title="Save Question">
-    <i class="fa-solid fa-floppy-disk"></i> | Save&nbsp;
-  </button>
-  <button type="button" class="btn btn-primary" title="Check Question">
-    <i class="fa-solid fa-check"></i> | Verify
-  </button>
-
+<div id="notfound" class="row d-none">
+  {{ partial "error-page.html" . }}
 </div>
 
+ 
 
 {{ end }}
