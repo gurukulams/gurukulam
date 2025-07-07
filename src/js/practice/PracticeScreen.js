@@ -3,7 +3,8 @@ import QuestionPane from "./components/QuestionPane";
 export default class PracticeScreen {
   constructor() {
     if (sessionStorage.auth) {
-      const urlTokens = window.location.pathname.split("/questions/");
+      const pathname = window.location.pathname;
+      const urlTokens = pathname.includes("/questions/") ? pathname.split("/questions/") : pathname.split("/quiz/");
 
       if (!urlTokens[1] || urlTokens[1].trim() === "") {
         window.location.href = "/";
@@ -83,7 +84,7 @@ export default class PracticeScreen {
 
   setQuestion(questionIndex) {
     // is Practice Mode
-    if (!this.checkBtn.classList.contains("d-none")) {
+    if (this.checkBtn && !this.checkBtn.classList.contains("d-none")) {
       this.explainToggleBtn.classList.add("d-none");
       this.doExplain(false);
     }
@@ -155,6 +156,26 @@ export default class PracticeScreen {
     console.log("Save Button clicked");
   }
 
+  doSubmit() {
+    console.log("Submit Button clicked");
+
+    const statusTxt = document.getElementById("statusTxt");
+
+    statusTxt.innerHTML = ""
+
+    let correctAnswers = 0;
+    
+    for (let i = 0; i < this.questions.length; i++) {
+      this.setQuestion(i);
+      if(this.doCheck()) {
+        correctAnswers++;
+      }
+    }
+
+    statusTxt.innerHTML = "<span class='text-primary'>Congratulations !</span> You Scored <span class='text-success'>" + correctAnswers + "</span> out of " + this.questions.length;
+
+  }
+
   doCheck() {
     const question = this.questionPane.getQuestion();
     const answerText = this.questionPane.getAnswer();
@@ -210,16 +231,22 @@ export default class PracticeScreen {
       if (isCorrect) {
         this.questionPane.verify(true);
         window.success("Correct Answer");
-        this.explainToggleBtn.classList.remove("btn-outline-danger");
-        this.explainToggleBtn.classList.add("btn-outline-success");
-        this.explainToggleBtn.classList.remove("d-none");
+        if(this.explainToggleBtn) {
+          this.explainToggleBtn.classList.remove("btn-outline-danger");
+          this.explainToggleBtn.classList.add("btn-outline-success");
+          this.explainToggleBtn.classList.remove("d-none");
+        }
+        
       } else {
         this.questionPane.verify(false);
         window.error("Wrong Answer");
-        this.explainToggleBtn.classList.remove("btn-outline-success");
-        this.explainToggleBtn.classList.add("btn-outline-danger");
-        this.explainToggleBtn.classList.remove("d-none");
+        if(this.explainToggleBtn) {
+          this.explainToggleBtn.classList.remove("btn-outline-success");
+          this.explainToggleBtn.classList.add("btn-outline-danger");
+          this.explainToggleBtn.classList.remove("d-none");
+        }
       }
+      return isCorrect;
     }
   }
 
@@ -235,6 +262,9 @@ export default class PracticeScreen {
       } else if (classList.contains("fa-check")) {
         this.checkBtn = element.parentElement;
         element.parentElement.addEventListener("click", () => this.doCheck());
+      } else if (classList.contains("fa-envelope")) {
+        this.submitBtn = element.parentElement;
+        element.parentElement.addEventListener("click", () => this.doSubmit());
       }
     });
 

@@ -42,7 +42,12 @@ module.exports = {
       });
     
       devServer.app.get(['/questions*', '/ta/questions*'], async (req, res) => {
-        const content = await fs.readFile('./dist/practices/basic/index.html', 'utf8');
+        const content = await fs.readFile('./dist/practices/question/index.html', 'utf8');
+        res.send(content);
+      });
+
+      devServer.app.get(['/quiz*', '/ta/quiz*'], async (req, res) => {
+        const content = await fs.readFile('./dist/practices/quiz/index.html', 'utf8');
         res.send(content);
       });
     
@@ -55,7 +60,7 @@ module.exports = {
     },       
     },
     performance: {
-        maxEntrypointSize: 400000,
-        maxAssetSize: 400000, // 1500 KB
+        maxEntrypointSize: 500000,
+        maxAssetSize: 500000, // 1500 KB
     }
 };
