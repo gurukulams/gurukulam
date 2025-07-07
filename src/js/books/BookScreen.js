@@ -8,7 +8,7 @@ export default class BookScreen {
       const contentEl = document.getElementById("content");
 
       document.getElementById("bookOptionsPane").classList.remove("d-none");
-      document.getElementById("notesBtn").classList.remove("d-none");
+      // document.getElementById("notesBtn").classList.remove("d-none");
 
       document.querySelector("i.fa-user-check")
                 .parentElement
