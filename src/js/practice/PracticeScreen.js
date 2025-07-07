@@ -3,7 +3,8 @@ import QuestionPane from "./components/QuestionPane";
 export default class PracticeScreen {
   constructor() {
     if (sessionStorage.auth) {
-      const urlTokens = window.location.pathname.split("/questions/");
+      const pathname = window.location.pathname;
+      const urlTokens = pathname.includes("/questions/") ? pathname.split("/questions/") : pathname.split("/quiz/");
 
       if (!urlTokens[1] || urlTokens[1].trim() === "") {
         window.location.href = "/";
@@ -83,7 +84,7 @@ export default class PracticeScreen {
 
   setQuestion(questionIndex) {
     // is Practice Mode
-    if (!this.checkBtn.classList.contains("d-none")) {
+    if (this.checkBtn && !this.checkBtn.classList.contains("d-none")) {
       this.explainToggleBtn.classList.add("d-none");
       this.doExplain(false);
     }

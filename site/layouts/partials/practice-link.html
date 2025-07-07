@@ -1,5 +1,8 @@
 {{ $page := partial "practices-path" . }}
 {{ with $page }}
+<a class="btn float-end" href="javascript://" data-link="/quiz{{ $page }}"  role="button">
+    <i class="fa-solid fa-trophy" title="Quiz"></i>
+</a>
 <a class="btn float-end" href="javascript://" data-link="/questions{{ $page }}"  role="button">
     <i class="fas fa-user-check" title="Practice"></i>
 </a>

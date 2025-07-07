@@ -45,6 +45,11 @@ module.exports = {
         const content = await fs.readFile('./dist/practices/question/index.html', 'utf8');
         res.send(content);
       });
+
+      devServer.app.get(['/quiz*', '/ta/quiz*'], async (req, res) => {
+        const content = await fs.readFile('./dist/practices/quiz/index.html', 'utf8');
+        res.send(content);
+      });
     
       devServer.app.get('/profile*', async (req, res) => {
         const content = await fs.readFile('./dist/profile/index.html', 'utf8');

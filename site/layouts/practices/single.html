@@ -3,6 +3,7 @@
 
   <div id="navPane" class="d-flex">
     <div class="flex-grow-1"><ol class="breadcrumb"></ol></div>
+    {{ if eq .File.BaseFileName "question"}}
     <div>
         <span id="statusTxt" class="lead"></span>
         <button
@@ -56,6 +57,7 @@
 
       
     </div>
+    {{ end }}
     <div><nav aria-label="Page Navigation">
       <ul class="pagination">
         <!--NEED tO REMOVE-->
@@ -73,14 +75,18 @@
     </nav></div>
 
     <div id="fabPane" class="dropup btn-group position-fixed bottom-0 end-0 rounded-circle me-2 mb-4 z-3">
-
-      <button type="button" class="btn btn-primary d-none" title="Save Question">
-        <i class="fa-solid fa-floppy-disk"></i> | Save&nbsp;
+      {{ if eq .File.BaseFileName "question"}}
+        <button type="button" class="btn btn-primary d-none" title="Save Question">
+          <i class="fa-solid fa-floppy-disk"></i> | Save&nbsp;
+        </button>
+        <button type="button" class="btn btn-primary" title="Check Question">
+          <i class="fa-solid fa-check"></i> | Verify
+        </button>
+      {{else}}
+      <button type="button" class="btn btn-primary" title="Submit Answers">
+        <i class="fa-regular fa-envelope"></i> | Submit
       </button>
-      <button type="button" class="btn btn-primary" title="Check Question">
-        <i class="fa-solid fa-check"></i> | Verify
-      </button>
-    
+      {{ end }}
     </div>
 
   </div>

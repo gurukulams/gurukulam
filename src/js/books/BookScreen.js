@@ -10,12 +10,13 @@ export default class BookScreen {
       document.getElementById("bookOptionsPane").classList.remove("d-none");
       // document.getElementById("notesBtn").classList.remove("d-none");
 
-      document.querySelector("i.fa-user-check")
-                .parentElement
-                    .addEventListener("click", (event) => {
-          sessionStorage.setItem('titleBar', document.querySelector(".breadcrumb").innerHTML);            
-          window.location = event.currentTarget.dataset.link;
-
+      document.querySelectorAll("i.fa-user-check,i.fa-trophy")
+        .forEach((element) => {
+          element.parentElement
+                      .addEventListener("click", (event) => {
+            sessionStorage.setItem('titleBar', document.querySelector(".breadcrumb").innerHTML);            
+            window.location = event.currentTarget.dataset.link;
+        })
       });
 
       const textNotes = new TextNotes(contentEl);
