@@ -10,18 +10,18 @@ export default class QuestionPane {
     this.matcheContainer = document.getElementById("matcheContainer");
     this.explanationContainer = document.getElementById("explanationContainer");
 
-
+    this.mdEditor = new EasyMDE({element: this.questionPane.querySelector("#qTxt")});
 
     // eslint-disable-next-line no-undef
-    this.questionEditor = new EasyMDE({
-      autofocus: true,
-      element: this.questionPane.querySelector("#qTxt"),
-    });
+    // this.questionEditor = new EasyMDE({
+    //   autofocus: true,
+    //   element: this.questionPane.querySelector("#qTxt"),
+    // });
 
-    this.explanationEditor = new EasyMDE({
-      autofocus: true,
-      element: this.questionPane.querySelector("#eTxt")
-    });
+    // this.explanationEditor = new EasyMDE({
+    //   autofocus: true,
+    //   element: this.questionPane.querySelector("#eTxt")
+    // });
 
     this.readOnly = true;
 
@@ -72,15 +72,17 @@ export default class QuestionPane {
 
   setQuestion(_question) {
     this.question = _question;
-    this.questionEditor.value(
-      _question.question ? _question.question : "",
-    );
+    // this.questionEditor.value(
+    //   _question.question ? _question.question : "",
+    // );
 
-    console.log("Value is set as " + (_question.question ? _question.question : ""));
+    // this.explanationEditor.value(
+    //   _question.explanation ? _question.explanation : "",
+    // );
 
-    this.explanationEditor.value(
-      _question.explanation ? _question.explanation : "",
-    );
+    this.questionContainer.innerHTML = this.mdEditor.markdown(_question.question);
+
+    this.explanationContainer.innerHTML = this.mdEditor.markdown(_question.explanation);
 
     // this.answerContainer.innerHTML = '';
 
@@ -158,8 +160,8 @@ export default class QuestionPane {
 
   set readOnly(flag) {
     this.isEditable = !flag;
-    this.questionEditor.togglePreview();
-    this.explanationEditor.togglePreview();
+    // this.questionEditor.togglePreview();
+    // this.explanationEditor.togglePreview();
     if (flag) {
       this.questionPane.querySelectorAll(".editor-toolbar")
       .forEach((element) => element.classList.add("d-none"));
