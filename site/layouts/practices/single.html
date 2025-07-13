@@ -2,7 +2,14 @@
 <div id="content" class="d-none" data-type="{{.File.TranslationBaseName}}">
 
   <div id="navPane" class="d-flex">
-    <div class="flex-grow-1"><ol class="breadcrumb"></ol></div>
+    <div class="flex-grow-1">
+
+      <div class="d-flex align-items-center gap-1">
+        <span class="text-muted">Books /</span>
+        <ol class="breadcrumb mb-1"></ol>
+      </div>
+      
+      </div>
     {{ if eq .File.BaseFileName "question"}}
     <div>
         <button
