@@ -170,8 +170,8 @@ class GurukulamsPage {
     const theme = localStorage.getItem("theme");
     const themeBtn = document.getElementById("themeBtn");
     const icons = {
-      light: "sun-fill",
-      dark: "moon-stars-fill",
+      light: "moon-stars-fill",
+      dark:  "sun-fill",
     };
 
     const setTheme = (theme) => {
