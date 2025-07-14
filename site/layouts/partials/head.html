@@ -1,63 +1,55 @@
 <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover"
-    />
-    <base href="{{ if getenv " CONTEXT" }}{{ cond (eq "production" (getenv
-    "CONTEXT" )) (getenv "URL" ) (getenv "DEPLOY_PRIME_URL" ) }}{{ else }}{{
-    $.Site.BaseURL }}{{ end }}">
-    <title>{{ $.Site.Title }}</title>
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, viewport-fit=cover"
+/>
+<base href="{{ if getenv " CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT"
+)) (getenv "URL" ) (getenv "DEPLOY_PRIME_URL" ) }}{{ else }}{{ $.Site.BaseURL
+}}{{ end }}">
+<title>{{ $.Site.Title }}</title>
 
-    <!--Fav Icon-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/img/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/img/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/img/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/img/site.webmanifest" />
+<!--Fav Icon-->
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+<link rel="manifest" href="/img/site.webmanifest" />
 
-    {{ block "seo" . }}{{ partial "seo" . }}{{end}}
+{{ block "seo" . }}{{ partial "seo" . }}{{end}} {{ if getenv "BUILD_PRODUCTION"
+}}
+<!-- Google Analytics Start -->
+{{ template "_internal/google_analytics.html" . }}
+<!-- Google Analytics End -->
+{{ end }}
 
-    {{ if getenv "BUILD_PRODUCTION" }}
-    <!-- Google Analytics Start -->
-    {{ template "_internal/google_analytics.html" . }}
-    <!-- Google Analytics End -->
-    {{ end }}
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/css/style.css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
 
+{{ if in .Params.extensions "katex" }}
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css"
+  integrity="sha384-zTROYFVGOfTw7JV7KUu8udsvW2fx4lWOsCEDqhBreBwlHI4ioVRtmIvEThzJHGET"
+  crossorigin="anonymous"
+/>
+{{ end }} {{ if in .Params.extensions "jsxgraph" }}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css"
+/>
+{{ end }}
 
-    <link rel="stylesheet" href="/css/app.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Type Sepcific Head-->
 
-
-    {{ if in .Params.extensions "katex" }}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css" integrity="sha384-zTROYFVGOfTw7JV7KUu8udsvW2fx4lWOsCEDqhBreBwlHI4ioVRtmIvEThzJHGET" crossorigin="anonymous">
-    {{ end }}
-
-    {{ if in .Params.extensions "jsxgraph" }}
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" />
-    {{ end }}   
-
-
-  <!-- Type Sepcific Head-->
-
-    {{ if templates.Exists ( printf "partials/head-%s.html" .Type ) }}
-    {{ $partialPath := printf "head-%s" .Type }}
-    {{ partial $partialPath . }}
-    {{ end }}
-
+{{ if templates.Exists ( printf "partials/head-%s.html" .Type ) }} {{
+$partialPath := printf "head-%s" .Type }} {{ partial $partialPath . }} {{ end }}
