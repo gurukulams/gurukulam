@@ -1,5 +1,3 @@
-
-
 class GurukulamsPage {
   constructor() {
     this.locale = document.getElementById("languageBtn").dataset.code;
@@ -170,42 +168,40 @@ class GurukulamsPage {
 
   handleTheme() {
     const theme = localStorage.getItem("theme");
-    const themeDropdownButton = document.getElementById("themeDropdown");
+    const themeBtn = document.getElementById("themeBtn");
     const icons = {
       light: "sun-fill",
       dark: "moon-stars-fill",
-      auto: "circle-half",
     };
 
+    const setTheme = (theme) => {
+      console.log("Set Theme " + theme);
+      document.documentElement.setAttribute("data-bs-theme", theme);
+      themeBtn.innerHTML = `<svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#${icons[theme]}"></use></svg>`;
+      localStorage.setItem("theme", theme);
+    };
+
+    themeBtn.addEventListener("click", function (event) {
+      event.preventDefault();
+      const selectedTheme =
+        document.documentElement.getAttribute("data-bs-theme") === "light"
+          ? "dark"
+          : "light";
+      console.log("selectedTheme" + selectedTheme);
+      setTheme(selectedTheme);
+    });
+
     if (theme) {
-      const setTheme = (theme) => {
-        document.documentElement.setAttribute("data-bs-theme", theme);
-        themeDropdownButton.innerHTML = `<svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#${icons[theme]}"></use></svg>`;
-        localStorage.setItem("theme", theme);
-      };
-
       setTheme(theme);
-
-      const themeDropdownItems = document.querySelectorAll(
-        ".dropdown-item[data-theme]",
-      );
-
-      themeDropdownItems.forEach((item) => {
-        item.addEventListener("click", function (event) {
-          event.preventDefault();
-          const selectedTheme = this.getAttribute("data-theme");
-          setTheme(selectedTheme);
-        });
-      });
     } else {
-      localStorage.setItem("theme", "auto");
+      localStorage.setItem("theme", "light");
     }
   }
 
   handleZenMode() {
     let zenMode = false;
     const scrollIndiHeight = getComputedStyle(
-      document.getElementById("main-container"),
+      document.getElementById("main-container")
     ).getPropertyValue("--header-size");
 
     const toggleZenMode = () => {
@@ -343,9 +339,7 @@ class GurukulamsPage {
             : results.filter(
                 (result) =>
                   result &&
-                  result.displayName
-                    .toLowerCase()
-                    .includes(sText.toLowerCase()),
+                  result.displayName.toLowerCase().includes(sText.toLowerCase())
               );
 
         if (filteredResults) {

@@ -75,3 +75,7 @@ label {
 .list-group-item:hover > a {
   color: var(--bs-body-bg);
 }
+
+.theme-icon-active {
+  fill: var(--bs-emphasis-color);
+}
