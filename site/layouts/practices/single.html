@@ -2,7 +2,14 @@
 <div id="content" class="d-none" data-type="{{.File.TranslationBaseName}}">
 
   <div id="navPane" class="d-flex">
-    <div class="flex-grow-1"><ol class="breadcrumb"></ol></div>
+    <div class="flex-grow-1">
+
+      <div class="d-flex align-items-center gap-1">
+        <span class="text-muted">Books /</span>
+        <ol class="breadcrumb mb-1"></ol>
+      </div>
+      
+      </div>
     {{ if eq .File.BaseFileName "question"}}
     <div>
         <button
@@ -64,12 +71,12 @@
         <!--NEED tO REMOVE-->
         <li class="page-item" title="Previous Question">
           <a class="page-link" href="javascript://" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
+            <span aria-hidden="true"><i class="fa-solid fa-backward-step"></i></span>
           </a>
         </li>
         <li class="page-item" title="Next Question">
           <a class="page-link" href="javascript://" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
+            <span aria-hidden="true"><i class="fa-solid fa-forward-step"></i></span>
           </a>
         </li>
       </ul>
@@ -128,72 +135,74 @@
 
 <template id="radioList">
   <ul class="list-group">
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c1" />
-        <label class="form-check-label w-100" for="c1"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="c1" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="c1" />
+        <span class="form-check-label w-100">Option 1</span>
+      </label>
     </li>
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c2" />
-        <label class="form-check-label w-100" for="c2"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="c2" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="c2" />
+        <span class="form-check-label w-100">Option 2</span>
+      </label>
     </li>
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c3" />
-        <label class="form-check-label w-100" for="c3"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="c3" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="c3" />
+        <span class="form-check-label w-100">Option 3</span>
+      </label>
     </li>
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c4" />
-        <label class="form-check-label w-100" for="c4"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="c4" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="c4" />
+        <span class="form-check-label w-100">Option 4</span>
+      </label>
     </li>
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="c5" />
-        <label class="form-check-label w-100" for="c5"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="c5" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="c5" />
+        <span class="form-check-label w-100">Option 5</span>
+      </label>
     </li>
   </ul>
+  
 </template>
 
 <template id="checkboxList">
   <ul class="list-group">
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="checkbox" name="mc1" id="mc1" />
-        <label class="form-check-label w-100" for="mc1"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="mc1" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="checkbox" name="mc1" id="mc1" />
+        <span class="form-check-label w-100">Option 1</span>
+      </label>
     </li>
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="checkbox" name="mc2" id="mc2" />
-        <label class="form-check-label w-100" for="mc2"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="mc2" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="checkbox" name="mc2" id="mc2" />
+        <span class="form-check-label w-100">Option 2</span>
+      </label>
     </li>
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="checkbox" name="mc3" id="mc3" />
-        <label class="form-check-label w-100" for="mc3"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="mc3" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="checkbox" name="mc3" id="mc3" />
+        <span class="form-check-label w-100">Option 3</span>
+      </label>
     </li>
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="checkbox" name="mc4" id="mc4" />
-        <label class="form-check-label w-100" for="mc4"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="mc4" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="checkbox" name="mc4" id="mc4" />
+        <span class="form-check-label w-100">Option 4</span>
+      </label>
     </li>
-    <li class="list-group-item d-flex align-items-center">
-      <div class="form-check w-100">
-        <input class="form-check-input" type="checkbox" name="mc5" id="mc5" />
-        <label class="form-check-label w-100" for="mc5"></label>
-      </div>
+    <li class="list-group-item p-0">
+      <label for="mc5" class="d-flex align-items-center p-2 w-100 m-0">
+        <input class="form-check-input me-2" type="checkbox" name="mc5" id="mc5" />
+        <span class="form-check-label w-100">Option 5</span>
+      </label>
     </li>
   </ul>
+  
 </template>
 
 <template id="matchesList">
