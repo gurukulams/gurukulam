@@ -76,6 +76,6 @@ label {
   color: var(--bs-body-bg);
 }
 
-.theme-icon-active {
+button > svg {
   fill: var(--bs-emphasis-color);
 }
