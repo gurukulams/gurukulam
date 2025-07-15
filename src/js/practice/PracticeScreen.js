@@ -34,59 +34,72 @@ export default class PracticeScreen {
       this.questionPane.readOnly = true;
 
       this.addActions();
-      this.loadQuestions(urlTokens[1]);
+      if (pathname.includes("/questions/")) {
+        this.loadQuestions(urlTokens[1]);
+      } else {
+        this.loadQuestions(urlTokens[1], 10);
+      }
     } else {
       location.href = "/";
     }
   }
 
-  loadQuestions(category) {
-    this.getQuestions(category).then((questions) => {
+  loadQuestions(category, maxQuestions = null) {
+    this.getQuestions(category, maxQuestions).then((questions) => {
       this.originalQuestions = JSON.parse(JSON.stringify(questions));
       this.setQuestions(window.shuffle(questions));
     });
   }
 
-  async getQuestions(category) {
-    const allQuestions = [];
+  async getQuestions(category, maxQuestions = null) {
+    const baseUrl = `${this.questionsUrl}`;
+    let allQuestions = [];
 
-    // Load main questions.json
-    try {
-      const mainRes = await fetch(`${this.questionsUrl}/questions.json`);
-      if (mainRes.ok) {
-        const main = await mainRes.json();
-        allQuestions.push(...main);
+    const fetchJSON = async (url) => {
+      try {
+        const res = await fetch(url);
+        return res.ok ? await res.json() : [];
+      } catch (err) {
+        return [];
       }
-    } catch (err) {
-      console.warn(`[WARN] No main questions.json for ${category}`);
+    };
+
+    // Load main category questions
+    const mainQuestions = await fetchJSON(`${baseUrl}/questions.json`);
+    allQuestions.push(...mainQuestions);
+
+    // Early return if enough from main
+    if (maxQuestions && allQuestions.length >= maxQuestions) {
+      return this.shuffle(allQuestions).slice(0, maxQuestions);
     }
 
-    // Load sub-questions.json to find subfolders
-    try {
-      const subRes = await fetch(`${this.questionsUrl}/sub-questions.json`);
-      if (subRes.ok) {
-        const subfolders = await subRes.json();
+    // Load subfolder list
+    const subfolders = await fetchJSON(`${baseUrl}/sub-questions.json`);
+    this.shuffle(subfolders); // Randomize traversal order
 
-        const fetches = subfolders.map(async (sub) => {
-          const subUrl = `${this.questionsUrl}/${sub}/questions.json`;
-          try {
-            const subFile = await fetch(subUrl);
-            if (subFile.ok) {
-              const subData = await subFile.json();
-              allQuestions.push(...subData);
-            }
-          } catch (err) {
-            console.warn(`[WARN] Failed to load: ${subUrl}`);
-          }
-        });
+    for (const sub of subfolders) {
+      const subPath = `${baseUrl}/${sub}/questions.json`;
+      const subQuestions = await fetchJSON(subPath);
+      allQuestions.push(...subQuestions);
 
-        await Promise.all(fetches);
+      // Stop if enough questions
+      if (maxQuestions && allQuestions.length >= maxQuestions) {
+        break;
       }
-    } catch (err) {
-      // silently ignore
     }
 
-    return allQuestions;
+    return maxQuestions
+      ? this.shuffle(allQuestions).slice(0, maxQuestions)
+      : allQuestions;
+  }
+
+  // Fisher-Yates shuffle
+  shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
   }
 
   setQuestions(_questions) {
