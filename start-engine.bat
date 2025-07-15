@@ -26,7 +26,7 @@ if not exist "%JDK_FOLDER%\bin\java.exe" (
 
     echo [INFO] Moving JDK contents...
     powershell -Command ^
-      "Get-ChildItem -Path 'tmp_jdk' -Directory | ForEach-Object { Move-Item -Path $_.FullName\* -Destination '%JDK_FOLDER%' -Force }"
+      "Get-ChildItem -Path 'tmp_jdk' -Directory | ForEach-Object { Move-Item -Path (Join-Path $_.FullName '*') -Destination '%JDK_FOLDER%' -Force }"
 
     rd /s /q tmp_jdk
     del openjdk.zip
