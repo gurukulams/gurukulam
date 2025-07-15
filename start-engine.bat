@@ -10,21 +10,20 @@ REM === Config ===
 set "FOLDER=engine-%TAG%"
 set "JDK_FOLDER=jdk"
 set "JAR_PATH=%FOLDER%\%JAR_NAME%"
-set "JDK_URL=https://download.oracle.com/java/24/latest/jdk-24_windows-x64_bin.tar.gz"
+set "JDK_ZIP=%FOLDER%\openjdk.zip"
+set "JDK_URL=https://github.com/adoptium/temurin24-binaries/releases/latest/download/OpenJDK24U-jdk_x64_windows_hotspot_24.0.1_1.zip"
 
 REM === Create engine folder if missing ===
 if not exist "%FOLDER%" mkdir "%FOLDER%"
 
 REM === Download and extract JDK if not already present ===
 if not exist "%FOLDER%\%JDK_FOLDER%\bin\java.exe" (
-    echo [INFO] Downloading JDK...
-    curl -L -o "%FOLDER%\openjdk.tar.gz" "%JDK_URL%"
+    echo [INFO] Downloading Adoptium JDK...
+    curl -L -o "%JDK_ZIP%" "%JDK_URL%"
 
     echo [INFO] Extracting JDK...
-    mkdir "%FOLDER%\%JDK_FOLDER%"
-    tar -xzf "%FOLDER%\openjdk.tar.gz" -C "%FOLDER%\%JDK_FOLDER%"
-
-    del "%FOLDER%\openjdk.tar.gz"
+    powershell -Command "Expand-Archive -Path '%JDK_ZIP%' -DestinationPath '%FOLDER%\%JDK_FOLDER%'"
+    del "%JDK_ZIP%"
 ) else (
     echo [INFO] JDK already present, skipping download.
 )
