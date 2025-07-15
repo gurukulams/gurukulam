@@ -11,15 +11,25 @@ set "FOLDER=engine-%TAG%"
 set "JDK_FOLDER=jdk"
 set "JAR_PATH=%FOLDER%\%JAR_NAME%"
 set "JDK_ZIP=%FOLDER%\openjdk.zip"
-set "JDK_URL=https://github.com/adoptium/temurin24-binaries/releases/latest/download/OpenJDK24U-jdk_x64_windows_hotspot_24.0.1_1.zip"
+set "JDK_URL=https://github.com/adoptium/temurin24-binaries/releases/download/jdk-24.0.1%2B1/OpenJDK24U-jdk_x64_windows_hotspot_24.0.1_1.zip"
 
 REM === Create engine folder if missing ===
 if not exist "%FOLDER%" mkdir "%FOLDER%"
 
 REM === Download and extract JDK if not already present ===
 if not exist "%FOLDER%\%JDK_FOLDER%\bin\java.exe" (
-    echo [INFO] Downloading Adoptium JDK...
+    echo [INFO] Downloading JDK...
+
+    if exist "%JDK_ZIP%" del "%JDK_ZIP%"
+
     curl -L -o "%JDK_ZIP%" "%JDK_URL%"
+
+    echo [INFO] Verifying downloaded ZIP...
+    powershell -Command "Try { Add-Type -Assembly 'System.IO.Compression.FileSystem'; [System.IO.Compression.ZipFile]::OpenRead('%JDK_ZIP%').Dispose(); exit 0 } Catch { exit 1 }"
+    if %errorlevel% neq 0 (
+        echo [ERROR] JDK ZIP appears to be corrupt. Aborting.
+        exit /b 1
+    )
 
     echo [INFO] Extracting JDK...
     powershell -Command "Expand-Archive -Path '%JDK_ZIP%' -DestinationPath '%FOLDER%\%JDK_FOLDER%'"
