@@ -42,7 +42,14 @@ if ! find "$JDK_FOLDER" -type f -name java -path "*/bin/java" | grep -q .; then
   rm openjdk.tar.gz
 fi
 
-JAVA_PATH=$(find "$JDK_FOLDER" -type f -path "*/bin/java" -perm +111 | head -n 1)
+# === Detect Java binary path ===
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  # macOS
+  JAVA_PATH=$(find "$JDK_FOLDER" -type f -path "*/bin/java" -perm +111 | head -n 1)
+else
+  # Linux (Ubuntu)
+  JAVA_PATH=$(find "$JDK_FOLDER" -type f -path "*/bin/java" -perm /111 | head -n 1)
+fi
 
 if [ ! -x "$JAVA_PATH" ]; then
   echo "Java binary not found."
