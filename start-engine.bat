@@ -48,6 +48,6 @@ cd ..
 
 REM === Start Java process from project root ===
 echo [INFO] Starting Java process...
-start "" "%CD%\%FOLDER%\%JDK_FOLDER%\bin\java.exe" -jar "%CD%\%JAR_PATH%"
+start "" "%CD%\%FOLDER%\%JDK_FOLDER%\java.exe" -jar "%CD%\%JAR_PATH%"
 
 echo [INFO] Done.
