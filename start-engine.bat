@@ -16,30 +16,38 @@ REM === Create working directory ===
 if not exist "%FOLDER%" mkdir "%FOLDER%"
 cd "%FOLDER%"
 
-REM === Download JDK if needed ===
+REM === Download and extract JDK if needed ===
 if not exist "%JDK_FOLDER%\bin\java.exe" (
-    echo Downloading JDK...
+    echo [INFO] Downloading JDK...
     powershell -Command "Invoke-WebRequest -Uri '%JDK_URL%' -OutFile 'openjdk.zip'"
-    powershell -Command "Expand-Archive -Path 'openjdk.zip' -DestinationPath '%JDK_FOLDER%'"
+
+    echo [INFO] Extracting JDK...
+    powershell -Command "Expand-Archive -Path 'openjdk.zip' -DestinationPath 'tmp_jdk'"
+
+    echo [INFO] Moving JDK contents...
+    powershell -Command ^
+      "Get-ChildItem -Path 'tmp_jdk' -Directory | ForEach-Object { Move-Item -Path $_.FullName\* -Destination '%JDK_FOLDER%' -Force }"
+
+    rd /s /q tmp_jdk
     del openjdk.zip
 )
 
 REM === Download JAR if needed ===
 if not exist "%JAR_NAME%" (
-    echo Downloading engine jar...
+    echo [INFO] Downloading engine jar...
     powershell -Command "Invoke-WebRequest -Uri 'https://github.com/%REPO%/releases/download/%TAG%/%JAR_NAME%' -OutFile '%JAR_NAME%'"
 )
 
 REM === Kill existing process ===
 for /f "tokens=2" %%p in ('tasklist ^| findstr /i "%JAR_NAME%"') do (
-    echo Killing process %%p
+    echo [INFO] Killing process %%p
     taskkill /PID %%p /F
 )
 
 cd ..
 
-REM === Start Java process from root ===
-echo Starting Java process...
-start "" "%CD%\%JDK_FOLDER%\bin\java.exe" -jar "%CD%\%JAR_PATH%"
+REM === Start Java process from project root ===
+echo [INFO] Starting Java process...
+start "" "%CD%\%FOLDER%\%JDK_FOLDER%\bin\java.exe" -jar "%CD%\%JAR_PATH%"
 
-echo Done.
+echo [INFO] Done.
