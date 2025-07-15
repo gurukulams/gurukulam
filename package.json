@@ -8,6 +8,7 @@
   "scripts": {
     "watch:sass": "onchange \"src/scss\" -- run-s build:sass",
     "watch:site": "onchange \"site\" -- run-s build:site",
+    "watch:questions": "onchange \"questions\" -- run-s build:questions",
     "start": "npm run build && run-p watch:* serve",
     "serve": "webpack serve",
     "build:js": "webpack",

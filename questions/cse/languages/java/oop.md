@@ -10,4 +10,4 @@ answer:
 explanation: "These are the two primary OOP principles."
 ---
 
-## Which of the following are core OOP principles?
+Which of the following are core OOP principles?
