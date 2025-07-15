@@ -1,45 +1,58 @@
 @echo off
 setlocal ENABLEDELAYEDEXPANSION
 
-REM === Load from .env ===
+REM === Load variables from .env ===
 for /f "usebackq tokens=1,* delims==" %%A in (".env") do (
     set %%A=%%B
 )
 
+REM === Config ===
 set "FOLDER=engine-%TAG%"
-set "JDK_FOLDER=%FOLDER%\jdk"
+set "JDK_FOLDER=jdk"
 set "JAR_PATH=%FOLDER%\%JAR_NAME%"
-set "JDK_ARCH=windows-x64"
-set "JDK_URL=https://download.oracle.com/java/24/latest/jdk-24_%JDK_ARCH%_bin.zip"
+set "JDK_URL=https://download.oracle.com/java/24/latest/jdk-24_windows-x64_bin.tar.gz"
 
-REM === Create working directory ===
+REM === Create engine folder if missing ===
 if not exist "%FOLDER%" mkdir "%FOLDER%"
-cd "%FOLDER%"
 
-REM === Download JDK if needed ===
-if not exist "%JDK_FOLDER%\bin\java.exe" (
-    echo Downloading JDK...
-    powershell -Command "Invoke-WebRequest -Uri '%JDK_URL%' -OutFile 'openjdk.zip'"
-    powershell -Command "Expand-Archive -Path 'openjdk.zip' -DestinationPath '%JDK_FOLDER%'"
-    del openjdk.zip
+REM === Download and extract JDK if not already present ===
+if not exist "%FOLDER%\%JDK_FOLDER%\bin\java.exe" (
+    echo [INFO] Downloading JDK...
+    curl -L -o "%FOLDER%\openjdk.tar.gz" "%JDK_URL%"
+
+    echo [INFO] Extracting JDK...
+    mkdir "%FOLDER%\%JDK_FOLDER%"
+    tar -xzf "%FOLDER%\openjdk.tar.gz" -C "%FOLDER%\%JDK_FOLDER%"
+
+    del "%FOLDER%\openjdk.tar.gz"
+) else (
+    echo [INFO] JDK already present, skipping download.
 )
 
-REM === Download JAR if needed ===
-if not exist "%JAR_NAME%" (
-    echo Downloading engine jar...
-    powershell -Command "Invoke-WebRequest -Uri 'https://github.com/%REPO%/releases/download/%TAG%/%JAR_NAME%' -OutFile '%JAR_NAME%'"
+REM === Download engine jar if missing ===
+if not exist "%JAR_PATH%" (
+    echo [INFO] Downloading engine JAR...
+    curl -L -o "%JAR_PATH%" "https://github.com/%REPO%/releases/download/%TAG%/%JAR_NAME%"
+) else (
+    echo [INFO] Engine JAR already present, skipping download.
 )
 
-REM === Kill existing process ===
+REM === Kill existing Java process ===
 for /f "tokens=2" %%p in ('tasklist ^| findstr /i "%JAR_NAME%"') do (
-    echo Killing process %%p
+    echo [INFO] Killing existing process PID %%p
     taskkill /PID %%p /F
 )
 
-cd ..
+REM === Start engine ===
+echo [INFO] Starting engine...
 
-REM === Start Java process from root ===
-echo Starting Java process...
-start "" "%CD%\%JDK_FOLDER%\bin\java.exe" -jar "%CD%\%JAR_PATH%"
+REM Find java.exe in the extracted folder (first match)
+for /f "delims=" %%j in ('dir /b /s "%FOLDER%\%JDK_FOLDER%\bin\java.exe"') do (
+    set "JAVA_EXE=%%j"
+    goto :foundjava
+)
+:foundjava
 
-echo Done.
+start "" cmd /c ""!JAVA_EXE!" -jar "%CD%\%JAR_PATH%" > engine.log 2>&1"
+
+echo [INFO] Done. Output will be written to engine.log.
