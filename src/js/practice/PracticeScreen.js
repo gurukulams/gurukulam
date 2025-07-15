@@ -12,7 +12,7 @@ export default class PracticeScreen {
         window.location.href = "/";
       }
 
-      this.questionsUrl = "/data/" + urlTokens[1] + "/questions.json";
+      this.questionsUrl = "/data/" + urlTokens[1];
 
       const titleBarTxt = sessionStorage.getItem("titleBar");
 
@@ -34,33 +34,59 @@ export default class PracticeScreen {
       this.questionPane.readOnly = true;
 
       this.addActions();
-      this.loadQuestions();
+      this.loadQuestions(urlTokens[1]);
     } else {
       location.href = "/";
     }
   }
 
-  loadQuestions() {
-    fetch(this.questionsUrl, {
-      headers: window.ApplicationHeader(),
-    })
-      .then((response) => {
-        if (response.ok) {
-          if (response.status === 204) {
-            this.setQuestions([]);
+  loadQuestions(category) {
+    this.getQuestions(category).then((questions) => {
+      this.originalQuestions = JSON.parse(JSON.stringify(questions));
+      this.setQuestions(window.shuffle(questions));
+    });
+  }
+
+  async getQuestions(category) {
+    const allQuestions = [];
+
+    // Load main questions.json
+    try {
+      const mainRes = await fetch(`${this.questionsUrl}/questions.json`);
+      if (mainRes.ok) {
+        const main = await mainRes.json();
+        allQuestions.push(...main);
+      }
+    } catch (err) {
+      console.warn(`[WARN] No main questions.json for ${category}`);
+    }
+
+    // Load sub-questions.json to find subfolders
+    try {
+      const subRes = await fetch(`${this.questionsUrl}/sub-questions.json`);
+      if (subRes.ok) {
+        const subfolders = await subRes.json();
+
+        const fetches = subfolders.map(async (sub) => {
+          const subUrl = `${this.questionsUrl}/${sub}/questions.json`;
+          try {
+            const subFile = await fetch(subUrl);
+            if (subFile.ok) {
+              const subData = await subFile.json();
+              allQuestions.push(...subData);
+            }
+          } catch (err) {
+            console.warn(`[WARN] Failed to load: ${subUrl}`);
           }
-          return response.json();
-        } else {
-          throw Error(response.statusText);
-        }
-      })
-      .then((data) => {
-        this.originalQuestions = JSON.parse(JSON.stringify(data));
-        this.setQuestions(window.shuffle(data));
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+        });
+
+        await Promise.all(fetches);
+      }
+    } catch (err) {
+      // silently ignore
+    }
+
+    return allQuestions;
   }
 
   setQuestions(_questions) {
