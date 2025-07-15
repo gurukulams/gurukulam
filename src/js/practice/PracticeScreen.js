@@ -12,7 +12,7 @@ export default class PracticeScreen {
         window.location.href = "/";
       }
 
-      this.questionsUrl = "/api/questions/" + urlTokens[1];
+      this.questionsUrl = "/data/" + urlTokens[1] + "/questions.json";
 
       const titleBarTxt = sessionStorage.getItem("titleBar");
 
