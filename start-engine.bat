@@ -17,29 +17,6 @@ REM === Create working directory ===
 if not exist "%FOLDER%" mkdir "%FOLDER%"
 cd "%FOLDER%"
 
-REM === Download and extract JDK if not already extracted ===
-if not exist "%JDK_FOLDER%\bin\java.exe" (
-    echo [INFO] JDK not found, downloading...
-
-    if not exist "%JDK_ZIP%" (
-        echo [INFO] Downloading JDK ZIP...
-        powershell -Command "Invoke-WebRequest -Uri '%JDK_URL%' -OutFile '%JDK_ZIP%'"
-    ) else (
-        echo [INFO] JDK ZIP already downloaded, skipping download.
-    )
-
-    echo [INFO] Extracting JDK...
-    powershell -Command "Expand-Archive -Path '%JDK_ZIP%' -DestinationPath 'tmp_jdk'"
-
-    echo [INFO] Moving JDK contents into %JDK_FOLDER%...
-    powershell -Command ^
-      "Get-ChildItem -Path 'tmp_jdk' -Directory | ForEach-Object { Move-Item -Path (Join-Path $_.FullName '*') -Destination '%JDK_FOLDER%' -Force }"
-
-    rd /s /q tmp_jdk
-    del "%JDK_ZIP%"
-) else (
-    echo [INFO] JDK already exists, skipping download.
-)
 
 REM === Download engine JAR if not already present ===
 if not exist "%JAR_NAME%" (
@@ -59,6 +36,7 @@ cd ..
 
 REM === Start Java process from root ===
 echo [INFO] Starting Java process...
-start "" "%CD%\%FOLDER%\%JDK_FOLDER%\bin\java.exe" -jar "%CD%\%JAR_PATH%"
+echo "" "%CD%\%FOLDER%\%JDK_FOLDER%\java.exe" -jar "%CD%\%JAR_PATH%"
+start java -jar engine-1.0\engine-0.0.1-SNAPSHOT.jar
 
 echo [INFO] Done.
