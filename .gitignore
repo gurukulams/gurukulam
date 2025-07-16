@@ -102,8 +102,17 @@ dist/
 # End of https://www.gitignore.io/api/node,sass
 package-lock.json
 
-# site/content.*/books
-# site/content.*/courses/books
+# Ignore everything inside books and courses/books
+/site/content.*/books/*
+/site/content.*/courses/books/*
+
+# But allow the gurukulams subfolder inside them
+!site/content.*/books/gurukulams/
+/site/content.*/books/gurukulams/*
+
+!site/content.*/courses/books/gurukulams/
+/site/content.*/courses/books/gurukulams/*
+
 
 data
 engine-*
