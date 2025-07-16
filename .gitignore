@@ -102,8 +102,8 @@ dist/
 # End of https://www.gitignore.io/api/node,sass
 package-lock.json
 
-site/content.*/books
-site/content.*/courses/books
+# site/content.*/books
+# site/content.*/courses/books
 
 data
 engine-*
