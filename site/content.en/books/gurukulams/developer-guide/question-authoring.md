@@ -5,7 +5,7 @@ weight: 1
 
 Thank you for contributing to the **Question Builder**. Please follow the instructions below to ensure your questions are valid and consistent.
 
-## ✅ Folder & File Naming Conventions
+## Folder & File Naming Conventions
 
 - All **folder names** and **file names** must be in **lowercase** and use **hyphens** to separate words.
 
@@ -16,18 +16,14 @@ Thank you for contributing to the **Question Builder**. Please follow the instru
 - For **localized versions**, add locale suffix before `.md`:
   - Example: `interfaces.md` (default), `interfaces_ta.md` (Tamil)
 
----
-
-## 🧾 File Format
+## File Format
 
 Each file must have:
 
 1. **YAML Frontmatter** (for metadata)
 2. **Markdown Body** (the actual question)
 
----
-
-## 📝 Example – Multiple Choice Question
+## Example – Multiple Choice Question
 
 ```md
 ---
@@ -44,9 +40,7 @@ explanation: "In Java, an interface can extend multiple interfaces. Private meth
 ## Which of the following statements about Java interfaces is true?
 ```
 
----
-
-## 🔀 Match the Following
+## Match the Following
 
 ```md
 ---
@@ -67,7 +61,7 @@ explanation: "Match the components with the design patterns they represent."
 
 ---
 
-## 🌐 Localization Rules
+## Localization Rules
 
 - Localized files **must** have a corresponding **default (English)** file.
 
@@ -75,8 +69,6 @@ explanation: "Match the components with the design patterns they represent."
   - ❌ `match_ta.md` alone → ❌ **Invalid**
 
 - Localized file should contain **all fields** (`choices`, `answer`, `explanation`, `matches`) present in the default file.
-
----
 
 ## 📂 Folder Structure
 
@@ -94,7 +86,7 @@ questions/
 
 ---
 
-## ⚠️ Validation Rules
+## Validation Rules
 
 During the build:
 
@@ -102,9 +94,7 @@ During the build:
 - Missing required fields or invalid structure will **fail the build**.
 - Localized files without a default counterpart will also **fail**.
 
----
-
-## 🤝 Contribution Tip
+## Contribution Tip
 
 - Keep questions **simple**, **clear**, and **relevant**.
 - Markdown syntax (e.g. `##`, `*`, `-`) is allowed and rendered.
