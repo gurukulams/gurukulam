@@ -129,7 +129,7 @@ function buildAll() {
       locales[dir][locale][name] = question;
     }
 
-    pathMap.add(dir);
+    pathMap.add(dir.split(path.sep).join(path.posix.sep));
   }
 
   // Write default questions.json
@@ -195,7 +195,9 @@ function buildAll() {
           .readdirSync(fullPath, { withFileTypes: true })
           .filter((d) => d.isDirectory())
           .map((d) => d.name)
-          .filter((name) => pathMap.has(path.posix.join(base, name)))
+          .filter((name) =>
+            pathMap.has((base + "/" + name).replace(/\\/g, "/"))
+          )
       : [];
 
     if (subdirs.length > 0) {
