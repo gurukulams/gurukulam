@@ -35,62 +35,72 @@ export default class PracticeScreen {
 
       this.addActions();
       if (pathname.includes("/questions/")) {
-        this.loadQuestions(urlTokens[1]);
+        this.loadQuestions(urlTokens[1], undefined, undefined);
       } else {
-        this.loadQuestions(urlTokens[1], 10);
+        this.loadQuestions(urlTokens[1], 10, undefined);
       }
     } else {
       location.href = "/";
     }
   }
 
-  loadQuestions(category, maxQuestions = null) {
-    this.getQuestions(category, maxQuestions).then((questions) => {
+  loadQuestions(category, maxQuestions = null, locale = null) {
+    this.getQuestions(category, maxQuestions, locale).then((questions) => {
       this.originalQuestions = JSON.parse(JSON.stringify(questions));
       this.setQuestions(window.shuffle(questions));
     });
   }
 
-  async getQuestions(category, maxQuestions = null) {
+  async getQuestions(category, maxQuestions = null, locale = null) {
     const baseUrl = `${this.questionsUrl}`;
-    let allQuestions = [];
+    const allQuestions = [];
 
     const fetchJSON = async (url) => {
       try {
         const res = await fetch(url);
-        return res.ok ? await res.json() : [];
-      } catch (err) {
-        return [];
+        return res.ok ? await res.json() : null;
+      } catch {
+        return null;
       }
     };
 
-    // Load main category questions
-    const mainQuestions = await fetchJSON(`${baseUrl}/questions.json`);
-    allQuestions.push(...this.assignIds(mainQuestions, category));
+    const resolveLocalized = (localized, fallback) => {
+      return localized.map((q, i) => (typeof q === "number" ? fallback[q] : q));
+    };
 
-    // Early return if enough from main
-    if (maxQuestions && allQuestions.length >= maxQuestions) {
-      return this.shuffle(allQuestions).slice(0, maxQuestions);
-    }
+    const collectQuestions = async (folderUrl) => {
+      const defaultQs = (await fetchJSON(`${folderUrl}/questions.json`)) || [];
+      const localizedQs = locale
+        ? await fetchJSON(`${folderUrl}/questions_${locale}.json`)
+        : null;
 
-    // Load subfolder list
+      const finalQs = localizedQs
+        ? resolveLocalized(localizedQs, defaultQs)
+        : defaultQs;
+
+      return this.assignIds(
+        finalQs,
+        folderUrl.replace(this.questionsUrl + "/", "")
+      );
+    };
+
+    // === Load main category questions ===
+    allQuestions.push(...(await collectQuestions(baseUrl)));
+
+    // === Load subfolders recursively ===
     const subfolders = await fetchJSON(`${baseUrl}/sub-questions.json`);
-    this.shuffle(subfolders); // Randomize traversal order
-
-    for (const sub of subfolders) {
-      const subPath = `${baseUrl}/${sub}/questions.json`;
-      const subQuestions = await fetchJSON(subPath);
-      allQuestions.push(...this.assignIds(subQuestions, subPath));
-
-      // Stop if enough questions
-      if (maxQuestions && allQuestions.length >= maxQuestions) {
-        break;
-      }
+    if (subfolders?.length) {
+      const fetches = subfolders.map(async (sub) => {
+        const subPath = `/${sub}`;
+        const subUrl = `${this.questionsUrl}/${subPath}`;
+        const subQs = await collectQuestions(subUrl);
+        allQuestions.push(...subQs);
+      });
+      await Promise.all(fetches);
     }
 
-    return maxQuestions
-      ? this.shuffle(allQuestions).slice(0, maxQuestions)
-      : allQuestions;
+    const shuffled = this.shuffle(allQuestions);
+    return maxQuestions ? shuffled.slice(0, maxQuestions) : shuffled;
   }
 
   assignIds(questions, baseId) {
@@ -106,7 +116,6 @@ export default class PracticeScreen {
         id: `${questionId}-m${i}`,
         questionId,
       }));
-
       return {
         ...q,
         id: questionId,
@@ -116,7 +125,6 @@ export default class PracticeScreen {
     });
   }
 
-  // Fisher-Yates shuffle
   shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
