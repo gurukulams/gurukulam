@@ -4,6 +4,45 @@ export default class PracticeScreen {
   constructor() {
     if (sessionStorage.auth) {
       const pathname = window.location.pathname;
+
+      const [languageCode, category] = (() => {
+        const parts = window.location.pathname.split("/").filter(Boolean);
+        return parts[0] === "questions"
+          ? [undefined, parts.slice(1).join("/")]
+          : [parts[0], parts.slice(2).join("/")];
+      })();
+
+      console.log("category");
+
+      console.log(category);
+
+      console.log("languageCode");
+
+      console.log(languageCode);
+
+      const languageBtn = document.getElementById("languageBtn");
+      const languagesEl = languageBtn.nextElementSibling;
+
+      if (languageCode) {
+        for (const child of languagesEl.children) {
+          const anchorEl = child.firstChild;
+          if (anchorEl.dataset.code === languageCode) {
+            console.log("FGGA" + languageBtn.innerHTML);
+            const languageText = anchorEl.innerHTML;
+            anchorEl.innerHTML = languageBtn.innerHTML;
+            languageBtn.innerHTML = languageText;
+            anchorEl.href = pathname.substring(languageCode.length + 1);
+          } else {
+            anchorEl.href = "/" + anchorEl.dataset.code + pathname;
+          }
+        }
+      } else {
+        for (const child of languagesEl.children) {
+          const anchorEl = child.firstChild;
+          anchorEl.href = "/" + anchorEl.dataset.code + pathname;
+        }
+      }
+
       const urlTokens = pathname.includes("/questions/")
         ? pathname.split("/questions/")
         : pathname.split("/quiz/");
@@ -34,10 +73,12 @@ export default class PracticeScreen {
       this.questionPane.readOnly = true;
 
       this.addActions();
+
+      console.log(window.LANGUAGE);
       if (pathname.includes("/questions/")) {
-        this.loadQuestions(urlTokens[1], undefined, undefined);
+        this.loadQuestions(urlTokens[1], undefined, languageCode);
       } else {
-        this.loadQuestions(urlTokens[1], 10, undefined);
+        this.loadQuestions(urlTokens[1], 10, languageCode);
       }
     } else {
       location.href = "/";
