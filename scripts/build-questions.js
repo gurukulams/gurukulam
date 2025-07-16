@@ -40,7 +40,6 @@ const schema = {
   additionalProperties: false,
 };
 
-// === Transform one file ===
 function transformMarkdown(filePath) {
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
@@ -50,22 +49,29 @@ function transformMarkdown(filePath) {
     explanation: data.explanation || "",
   };
 
-  if (Array.isArray(data.choices)) {
-    question.choices = data.choices.map((label) => ({ label }));
+  // Handle MATCH_THE_FOLLOWING
+  if (Array.isArray(data.matches)) {
+    question.type = "MATCH_THE_FOLLOWING";
+
+    if (Array.isArray(data.choices)) {
+      question.choices = data.choices.map((label) => ({ label }));
+    }
+
+    question.matches = data.matches.map((label) => ({ label }));
+    return question;
   }
 
-  if (Array.isArray(data.matches)) {
-    question.matches = data.matches.map((label) => ({ label }));
-    question.type = "MATCH_THE_FOLLOWING";
-  } else if (Array.isArray(data.answer) && question.choices) {
-    const answerSet = new Set(data.answer);
-    let correctCount = 0;
-    question.choices = question.choices.map((choice) => {
-      const isCorrect = answerSet.has(choice.label);
-      if (isCorrect) correctCount++;
-      return { ...choice, answer: isCorrect };
-    });
+  // Handle CHOOSE_THE_BEST and MULTI_CHOICE
+  const answerSet = new Set(data.answer || []);
+  const rawChoices = new Set([...(data.choices || []), ...(data.answer || [])]);
 
+  if (rawChoices.size > 0) {
+    question.choices = [...rawChoices].map((label) => ({
+      label,
+      answer: answerSet.has(label),
+    }));
+
+    const correctCount = question.choices.filter((c) => c.answer).length;
     question.type = correctCount > 1 ? "MULTI_CHOICE" : "CHOOSE_THE_BEST";
   }
 

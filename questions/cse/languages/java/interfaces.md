@@ -1,7 +1,6 @@
 ---
 choices:
   - "An interface can have private methods."
-  - "An interface can extend multiple interfaces."
   - "A class can extend multiple interfaces."
   - "An interface can have constructors."
 answer:

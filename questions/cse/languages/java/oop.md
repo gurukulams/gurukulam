@@ -1,7 +1,5 @@
 ---
 choices:
-  - "Encapsulation"
-  - "Inheritance"
   - "Polymorphism"
   - "Abstraction"
 answer:
