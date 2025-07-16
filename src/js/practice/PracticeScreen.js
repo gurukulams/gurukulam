@@ -66,7 +66,7 @@ export default class PracticeScreen {
 
     // Load main category questions
     const mainQuestions = await fetchJSON(`${baseUrl}/questions.json`);
-    allQuestions.push(...mainQuestions);
+    allQuestions.push(...this.assignIds(mainQuestions, category));
 
     // Early return if enough from main
     if (maxQuestions && allQuestions.length >= maxQuestions) {
@@ -80,7 +80,7 @@ export default class PracticeScreen {
     for (const sub of subfolders) {
       const subPath = `${baseUrl}/${sub}/questions.json`;
       const subQuestions = await fetchJSON(subPath);
-      allQuestions.push(...subQuestions);
+      allQuestions.push(...this.assignIds(subQuestions, subPath));
 
       // Stop if enough questions
       if (maxQuestions && allQuestions.length >= maxQuestions) {
@@ -91,6 +91,29 @@ export default class PracticeScreen {
     return maxQuestions
       ? this.shuffle(allQuestions).slice(0, maxQuestions)
       : allQuestions;
+  }
+
+  assignIds(questions, baseId) {
+    return questions.map((q, qIndex) => {
+      const questionId = `${baseId}-q${qIndex}`;
+      const choices = (q.choices || []).map((c, i) => ({
+        ...c,
+        id: `${questionId}-c${i}`,
+        questionId,
+      }));
+      const matches = (q.matches || []).map((m, i) => ({
+        ...m,
+        id: `${questionId}-m${i}`,
+        questionId,
+      }));
+
+      return {
+        ...q,
+        id: questionId,
+        choices,
+        matches,
+      };
+    });
   }
 
   // Fisher-Yates shuffle

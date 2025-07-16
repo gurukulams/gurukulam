@@ -7,9 +7,8 @@ const { validate } = require("jsonschema");
 // === Schema for validation ===
 const schema = {
   type: "object",
-  required: ["id", "question", "type"],
+  required: ["question", "type"],
   properties: {
-    id: { type: "string" },
     question: { type: "string" },
     explanation: { type: "string" },
     type: {
@@ -20,9 +19,8 @@ const schema = {
       type: "array",
       items: {
         type: "object",
-        required: ["id", "label"],
+        required: ["label"],
         properties: {
-          id: { type: "string" },
           label: { type: "string" },
           answer: { type: "boolean" },
         },
@@ -32,9 +30,8 @@ const schema = {
       type: "array",
       items: {
         type: "object",
-        required: ["id", "label"],
+        required: ["label"],
         properties: {
-          id: { type: "string" },
           label: { type: "string" },
         },
       },
@@ -50,26 +47,20 @@ function transformMarkdown(filePath) {
   const relativePath = path
     .relative("questions", filePath)
     .replace(/\.md$/, "");
-  const questionId = relativePath.replace(/\\/g, "/").replace(/\//g, "-");
 
   const question = {
-    id: questionId,
     question: content.trim(),
     explanation: data.explanation || "",
   };
 
-  let idCounter = 1;
-
   if (Array.isArray(data.choices)) {
     question.choices = data.choices.map((label) => ({
-      id: String(idCounter++),
       label,
     }));
   }
 
   if (Array.isArray(data.matches)) {
     question.matches = data.matches.map((label) => ({
-      id: String(idCounter++),
       label,
     }));
     question.type = "MATCH_THE_FOLLOWING";
