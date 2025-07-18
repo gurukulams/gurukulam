@@ -2,7 +2,13 @@ const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
 const glob = require("glob");
+const chokidar = require("chokidar");
 const { validate } = require("jsonschema");
+
+// === Configurable questions folder ===
+const QUESTIONS_DIR = process.env.QUESTIONS_FOLDER
+  ? path.resolve(process.env.QUESTIONS_FOLDER)
+  : "questions";
 
 // === Schema for validation ===
 const schema = {
@@ -49,19 +55,15 @@ function transformMarkdown(filePath) {
     explanation: data.explanation || "",
   };
 
-  // Handle MATCH_THE_FOLLOWING
   if (Array.isArray(data.matches)) {
     question.type = "MATCH_THE_FOLLOWING";
-
     if (Array.isArray(data.choices)) {
       question.choices = data.choices.map((label) => ({ label }));
     }
-
     question.matches = data.matches.map((label) => ({ label }));
     return question;
   }
 
-  // Handle CHOOSE_THE_BEST and MULTI_CHOICE
   const answerSet = new Set(data.answer || []);
   const rawChoices = new Set([...(data.choices || []), ...(data.answer || [])]);
 
@@ -78,19 +80,17 @@ function transformMarkdown(filePath) {
   return question;
 }
 
-// === Main logic ===
 function buildAll() {
-  const files = glob.sync("questions/**/*.md");
+  const files = glob.sync("**/*.md", { cwd: QUESTIONS_DIR, absolute: true });
   const grouped = {};
   const locales = {};
   const pathMap = new Set();
 
   for (const file of files) {
-    const rel = path.relative("questions", file);
+    const rel = path.relative(QUESTIONS_DIR, file);
     const dir = path.dirname(rel);
     const base = path.basename(file, ".md");
 
-    // Validate name like: match.md, design-pattern_ta.md
     const match = base.match(/^([a-z0-9\-]+)(?:_([a-z]+))?$/);
     if (!match) {
       console.error(`❌ Invalid filename: ${file}`);
@@ -99,7 +99,6 @@ function buildAll() {
 
     const name = match[1];
     const locale = match[2] || "default";
-    const fullKey = path.posix.join(dir, name);
     const outDir = path.join("dist", "data", dir);
 
     const question = transformMarkdown(file);
@@ -119,8 +118,8 @@ function buildAll() {
     if (locale === "default") {
       grouped[dir][name] = question;
     } else {
-      // Localized files must have default base
-      if (!fs.existsSync(path.join("questions", dir, `${name}.md`))) {
+      const basePath = path.join(QUESTIONS_DIR, dir, `${name}.md`);
+      if (!fs.existsSync(basePath)) {
         console.error(`❌ Missing base file for localized: ${file}`);
         process.exit(1);
       }
@@ -132,7 +131,6 @@ function buildAll() {
     pathMap.add(dir.split(path.sep).join(path.posix.sep));
   }
 
-  // Write default questions.json
   for (const dir in grouped) {
     const outDir = path.join("dist", "data", dir);
     fs.mkdirSync(outDir, { recursive: true });
@@ -148,7 +146,6 @@ function buildAll() {
     console.log(`✅ Generated: ${path.join(outDir, "questions.json")}`);
   }
 
-  // Write localized questions_<locale>.json
   for (const dir in locales) {
     for (const locale in locales[dir]) {
       const localized = [];
@@ -159,7 +156,6 @@ function buildAll() {
 
       for (const name of names) {
         if (trans[name]) {
-          // Validate localized fields match base
           const missing = Object.keys(base[name]).filter(
             (k) => !(k in trans[name])
           );
@@ -187,9 +183,8 @@ function buildAll() {
     }
   }
 
-  // Write sub-questions.json
   for (const base of pathMap) {
-    const fullPath = path.join("questions", base);
+    const fullPath = path.join(QUESTIONS_DIR, base);
     const subdirs = fs.existsSync(fullPath)
       ? fs
           .readdirSync(fullPath, { withFileTypes: true })
@@ -212,4 +207,32 @@ function buildAll() {
   }
 }
 
+// === CLI flag check ===
+const isWatchMode = process.argv.includes("--watch");
+
+// === Watch mode setup ===
+const startWatching = () => {
+  chokidar
+    .watch(QUESTIONS_DIR, {
+      persistent: true,
+      ignoreInitial: true,
+      awaitWriteFinish: true,
+    })
+    .on("all", (event, filePath) => {
+      console.log(`📌 Detected ${event} in ${filePath}`);
+      try {
+        buildAll();
+      } catch (err) {
+        console.error("❌ Rebuild failed:", err);
+      }
+    });
+
+  console.log(`👀 Watching for changes in: ${QUESTIONS_DIR}`);
+};
+
+// === Execution ===
 buildAll();
+
+if (isWatchMode) {
+  startWatching();
+}

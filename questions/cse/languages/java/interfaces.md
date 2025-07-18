@@ -8,4 +8,4 @@ answer:
 explanation: "In Java, an interface can extend multiple interfaces. Private methods were added in Java 9, but an interface cannot have constructors."
 ---
 
-## Which of the following statements about Java interfaces is true?
+Which of the following statement about Java interfaces is true?
