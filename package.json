@@ -6,6 +6,7 @@
   "author": "Sathish Kumar Thiyagarajan",
   "license": "ISC",
   "scripts": {
+    "clean": "rimraf dist",
     "watch:sass": "onchange \"src/scss\" -- run-s build:sass",
     "watch:site": "onchange \"site\" -- run-s build:site",
     "watch:questions": "node scripts/build-questions.js --watch",
@@ -15,7 +16,7 @@
     "build:sass": "sass src/scss:dist/css",
     "build:site": "hugo --minify -d ../dist -s site",
     "build:questions": "node scripts/build-questions.js",
-    "build": "run-s build:*",
+    "build": "run-s clean build:*",
     "postinstall": "npm run build"
   },
   "devDependencies": {
@@ -27,6 +28,10 @@
     "npm-run-all": "4.1.5",
     "onchange": "^7.1.0",
     "qrious": "^4.0.2",
+    "rimraf": "^6.0.1",
+    "chokidar": "^4.0.3",
+    "gray-matter": "^4.0.3",
+    "jsonschema": "^1.5.0",
     "sass": "1.89.1",
     "webpack": "5.99.9",
     "webpack-cli": "^6.0.1",
@@ -34,10 +39,5 @@
   },
   "browserslist": [
     "defaults"
-  ],
-  "dependencies": {
-    "chokidar": "^4.0.3",
-    "gray-matter": "^4.0.3",
-    "jsonschema": "^1.5.0"
-  }
+  ]
 }
