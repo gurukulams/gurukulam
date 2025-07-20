@@ -80,6 +80,39 @@ function transformMarkdown(filePath) {
   return question;
 }
 
+function findFoldersMissingQuestionsJson(startPath) {
+  let folders = [];
+
+  function walk(currentPath) {
+    let hasQuestionsJson = false;
+    try {
+      const entries = fs.readdirSync(currentPath, { withFileTypes: true });
+
+      // Check if questions.json exists directly in this folder
+      hasQuestionsJson = entries.some(
+        (entry) => entry.isFile() && entry.name === "questions.json"
+      );
+
+      if (!hasQuestionsJson) {
+        folders.push(currentPath);
+      }
+
+      // Recurse into subdirectories
+      for (const entry of entries) {
+        if (entry.isDirectory()) {
+          const subdirPath = path.join(currentPath, entry.name);
+          walk(subdirPath);
+        }
+      }
+    } catch (err) {
+      console.error(`Error reading directory: ${currentPath}`, err.message);
+    }
+  }
+
+  walk(startPath);
+  return folders;
+}
+
 function buildAll() {
   const files = glob.sync("**/*.md", { cwd: QUESTIONS_DIR, absolute: true });
   const grouped = {};
@@ -205,6 +238,8 @@ function buildAll() {
       console.log(`📁 Indexed: ${path.join(targetDir, "sub-questions.json")}`);
     }
   }
+
+  console.log(findFoldersMissingQuestionsJson("dist/data"));
 }
 
 // === CLI flag check ===
