@@ -193,11 +193,25 @@ function buildAll() {
     }
   }
 
-  console.log(Object.keys(grouped));
+  // Generate Sub Questions.
+  const subQMap = {};
   for (const dir of Object.keys(grouped)) {
-    const outDir = path.join("dist", "data", dir);
-    console.log(dir.split("/"));
+    const tokens = dir.split("/");
+    if (tokens.length > 3) {
+      const dirName = tokens[tokens.length - 1];
+      const parentDir = path.join(
+        "dist",
+        "data",
+        dir.replace("/" + dirName, "")
+      );
+      if (parentDir in subQMap) {
+        subQMap[parentDir].push(dirName);
+      } else {
+        subQMap[parentDir] = [dirName];
+      }
+    }
   }
+  console.log(subQMap);
 }
 
 // === CLI flag check ===
