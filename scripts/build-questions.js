@@ -108,7 +108,7 @@ function generateSubQuestions(startPath) {
   }
 
   const outputFile = path.join(startPath, "sub-questions.json");
-  fs.writeFileSync(outputFile, JSON.stringify(subFoldersWithQuestions, null, 2));
+  fs.writeFileSync(outputFile, JSON.stringify(subFoldersWithQuestions, null, 0));
 }
 
 function buildAll() {
@@ -214,7 +214,11 @@ function buildAll() {
     }
   }
 
-  generateSubQuestions("dist/data/cse/languages/java");
+  for (const dir of Object.keys(grouped)) {
+    const outDir = path.join("dist", "data", dir);
+    generateSubQuestions(outDir);
+  }
+
 }
 
 // === CLI flag check ===
