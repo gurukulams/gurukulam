@@ -4,6 +4,45 @@ export default class PracticeScreen {
   constructor() {
     if (sessionStorage.auth) {
       const pathname = window.location.pathname;
+
+      const [languageCode, category] = (() => {
+        const parts = window.location.pathname.split("/").filter(Boolean);
+        return parts[0] === "questions"
+          ? [undefined, parts.slice(1).join("/")]
+          : [parts[0], parts.slice(2).join("/")];
+      })();
+
+      console.log("category");
+
+      console.log(category);
+
+      console.log("languageCode");
+
+      console.log(languageCode);
+
+      const languageBtn = document.getElementById("languageBtn");
+      const languagesEl = languageBtn.nextElementSibling;
+
+      if (languageCode) {
+        for (const child of languagesEl.children) {
+          const anchorEl = child.firstChild;
+          if (anchorEl.dataset.code === languageCode) {
+            console.log("FGGA" + languageBtn.innerHTML);
+            const languageText = anchorEl.innerHTML;
+            anchorEl.innerHTML = languageBtn.innerHTML;
+            languageBtn.innerHTML = languageText;
+            anchorEl.href = pathname.substring(languageCode.length + 1);
+          } else {
+            anchorEl.href = "/" + anchorEl.dataset.code + pathname;
+          }
+        }
+      } else {
+        for (const child of languagesEl.children) {
+          const anchorEl = child.firstChild;
+          anchorEl.href = "/" + anchorEl.dataset.code + pathname;
+        }
+      }
+
       const urlTokens = pathname.includes("/questions/")
         ? pathname.split("/questions/")
         : pathname.split("/quiz/");
@@ -12,7 +51,7 @@ export default class PracticeScreen {
         window.location.href = "/";
       }
 
-      this.questionsUrl = "/api/questions/" + urlTokens[1];
+      this.questionsUrl = "/data/" + urlTokens[1];
 
       const titleBarTxt = sessionStorage.getItem("titleBar");
 
@@ -34,33 +73,105 @@ export default class PracticeScreen {
       this.questionPane.readOnly = true;
 
       this.addActions();
-      this.loadQuestions();
+
+      console.log(window.LANGUAGE);
+      if (pathname.includes("/questions/")) {
+        this.loadQuestions(urlTokens[1], undefined, languageCode);
+      } else {
+        this.loadQuestions(urlTokens[1], 10, languageCode);
+      }
     } else {
       location.href = "/";
     }
   }
 
-  loadQuestions() {
-    fetch(this.questionsUrl, {
-      headers: window.ApplicationHeader(),
-    })
-      .then((response) => {
-        if (response.ok) {
-          if (response.status === 204) {
-            this.setQuestions([]);
-          }
-          return response.json();
-        } else {
-          throw Error(response.statusText);
-        }
-      })
-      .then((data) => {
-        this.originalQuestions = JSON.parse(JSON.stringify(data));
-        this.setQuestions(window.shuffle(data));
-      })
-      .catch(function (error) {
-        console.log(error);
+  loadQuestions(category, maxQuestions = null, locale = null) {
+    this.getQuestions(category, maxQuestions, locale).then((questions) => {
+      this.originalQuestions = JSON.parse(JSON.stringify(questions));
+      this.setQuestions(window.shuffle(questions));
+    });
+  }
+
+  async getQuestions(category, maxQuestions = null, locale = null) {
+    const baseUrl = `${this.questionsUrl}`;
+    const allQuestions = [];
+
+    const fetchJSON = async (url) => {
+      try {
+        const res = await fetch(url);
+        return res.ok ? await res.json() : null;
+      } catch {
+        return null;
+      }
+    };
+
+    const resolveLocalized = (localized, fallback) => {
+      return localized.map((q, i) => (typeof q === "number" ? fallback[q] : q));
+    };
+
+    const collectQuestions = async (folderUrl) => {
+      const defaultQs = (await fetchJSON(`${folderUrl}/questions.json`)) || [];
+      const localizedQs = locale
+        ? await fetchJSON(`${folderUrl}/questions_${locale}.json`)
+        : null;
+
+      const finalQs = localizedQs
+        ? resolveLocalized(localizedQs, defaultQs)
+        : defaultQs;
+
+      return this.assignIds(
+        finalQs,
+        folderUrl.replace(this.questionsUrl + "/", "")
+      );
+    };
+
+    // === Load main category questions ===
+    allQuestions.push(...(await collectQuestions(baseUrl)));
+
+    // === Load subfolders recursively ===
+    const subfolders = await fetchJSON(`${baseUrl}/sub-questions.json`);
+    if (subfolders?.length) {
+      const fetches = subfolders.map(async (sub) => {
+        const subPath = `/${sub}`;
+        const subUrl = `${this.questionsUrl}/${subPath}`;
+        const subQs = await collectQuestions(subUrl);
+        allQuestions.push(...subQs);
       });
+      await Promise.all(fetches);
+    }
+
+    const shuffled = this.shuffle(allQuestions);
+    return maxQuestions ? shuffled.slice(0, maxQuestions) : shuffled;
+  }
+
+  assignIds(questions, baseId) {
+    return questions.map((q, qIndex) => {
+      const questionId = `${baseId}-q${qIndex}`;
+      const choices = (q.choices || []).map((c, i) => ({
+        ...c,
+        id: `${questionId}-c${i}`,
+        questionId,
+      }));
+      const matches = (q.matches || []).map((m, i) => ({
+        ...m,
+        id: `${questionId}-m${i}`,
+        questionId,
+      }));
+      return {
+        ...q,
+        id: questionId,
+        choices,
+        matches,
+      };
+    });
+  }
+
+  shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
   }
 
   setQuestions(_questions) {

@@ -22,11 +22,11 @@ export default class ChoiceList {
         liEl
           .querySelector("i.fa-arrow-up")
           .addEventListener("click", (event) => {
-            const liEl =
-              event.currentTarget.parentElement.parentElement.parentElement;
+            const liEl = event.currentTarget.parentElement.parentElement.parentElement;  // current value
 
             if (liEl.parentElement.firstChild === liEl) {
-              liEl.parentNode.insertAfter(liEl, liEl.parentNode.lastChild);
+
+              liEl.parentNode.appendChild(liEl);
             } else {
               liEl.parentNode.insertBefore(liEl, liEl.previousElementSibling);
             }

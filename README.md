@@ -1,9 +1,11 @@
 # Architecture Principles
+
 1. Micro Front End (Material)
-2. Zero Defect Policy 
+2. Zero Defect Policy
 3. Git Ops
 
 # Design Philosophy
+
 1. Minimalistic - One Task at a Time
 2. Consistant
 3. Personalized
@@ -15,6 +17,8 @@
 Download and run [Engine](https://github.com/gurukulams/engine)
 
 ```shell
+chmod +x start-engine.sh
+./start-engine.sh
 nvm i
 npm i
 npm start
