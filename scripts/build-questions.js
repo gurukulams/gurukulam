@@ -1,3 +1,13 @@
+/**
+ * Build Questions from materials.
+ * It will load questions markdown files (*.md) from questions folder.
+ *
+ * For Each Folders, It generats below file
+ * 1. questions.json - JSON Array of all the questions in the folder
+ * 2. questions-<<LANGUAGE_CODE>>.json - Localized JSON Array of all the questions in the folder.
+ *    For the questions that doesn ot have language specific content, it uses the corresponding index from questions.json
+ * 3. sub-questions.json - JSON Array of all the subfolders that have questions.json
+ */
 const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
@@ -80,37 +90,8 @@ function transformMarkdown(filePath) {
   return question;
 }
 
-function findFoldersMissingQuestionsJson(startPath) {
-  let folders = [];
-
-  function walk(currentPath) {
-    let hasQuestionsJson = false;
-    try {
-      const entries = fs.readdirSync(currentPath, { withFileTypes: true });
-
-      // Check if questions.json exists directly in this folder
-      hasQuestionsJson = entries.some(
-        (entry) => entry.isFile() && entry.name === "questions.json"
-      );
-
-      if (!hasQuestionsJson) {
-        folders.push(currentPath);
-      }
-
-      // Recurse into subdirectories
-      for (const entry of entries) {
-        if (entry.isDirectory()) {
-          const subdirPath = path.join(currentPath, entry.name);
-          walk(subdirPath);
-        }
-      }
-    } catch (err) {
-      console.error(`Error reading directory: ${currentPath}`, err.message);
-    }
-  }
-
-  walk(startPath);
-  return folders;
+function generateSubQuestions(startPath) {
+  console.log("Generating Sub Questions for " + startPath);
 }
 
 function buildAll() {
@@ -216,30 +197,7 @@ function buildAll() {
     }
   }
 
-  for (const base of pathMap) {
-    const fullPath = path.join(QUESTIONS_DIR, base);
-    const subdirs = fs.existsSync(fullPath)
-      ? fs
-          .readdirSync(fullPath, { withFileTypes: true })
-          .filter((d) => d.isDirectory())
-          .map((d) => d.name)
-          .filter((name) =>
-            pathMap.has((base + "/" + name).replace(/\\/g, "/"))
-          )
-      : [];
-
-    if (subdirs.length > 0) {
-      const targetDir = path.join("dist", "data", base);
-      fs.mkdirSync(targetDir, { recursive: true });
-      fs.writeFileSync(
-        path.join(targetDir, "sub-questions.json"),
-        JSON.stringify(subdirs, null, 0)
-      );
-      console.log(`📁 Indexed: ${path.join(targetDir, "sub-questions.json")}`);
-    }
-  }
-
-  console.log(findFoldersMissingQuestionsJson("dist/data"));
+  generateSubQuestions("dist/data/cse/languages/java");
 }
 
 // === CLI flag check ===

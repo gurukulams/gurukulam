@@ -1,4 +1,4 @@
-name: Reusable workflow example
+name: Build Material
 
 on:
   workflow_call:
@@ -20,7 +20,7 @@ jobs:
     strategy:
       matrix:
         hugo-version:
-          - '0.117.0'
+          - "0.117.0"
     steps:
       - uses: actions/checkout@v2
 
@@ -51,7 +51,7 @@ jobs:
       - name: Run Hugo
         working-directory: gurukulam/site
         run: env BUILD_PRODUCTION=Y hugo --themesDir ../..
- 
+
       - name: Cleanup
         run: |
           rm -rf gurukulam/site/public/*.* && rm -rf gurukulam/site/public/tags && rm -rf gurukulam/site/public/en
@@ -66,12 +66,3 @@ jobs:
           source: "gurukulam/site/public"
           target: ${{ secrets.TARGET_DIR }}
           strip_components: 3
-
-      - name: Upload Questions
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
-          source: "questions"
-          target: ${{ secrets.QUESTIONS_DIR }}
