@@ -92,6 +92,23 @@ function transformMarkdown(filePath) {
 
 function generateSubQuestions(startPath) {
   console.log("Generating Sub Questions for " + startPath);
+    const subFoldersWithQuestions = [];
+
+  const entries = fs.readdirSync(startPath, { withFileTypes: true });
+
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      const subfolderPath = path.join(startPath, entry.name);
+      const questionsFile = path.join(subfolderPath, "questions.json");
+
+      if (fs.existsSync(questionsFile)) {
+        subFoldersWithQuestions.push(entry.name);
+      }
+    }
+  }
+
+  const outputFile = path.join(startPath, "sub-questions.json");
+  fs.writeFileSync(outputFile, JSON.stringify(subFoldersWithQuestions, null, 2));
 }
 
 function buildAll() {
