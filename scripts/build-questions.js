@@ -90,27 +90,6 @@ function transformMarkdown(filePath) {
   return question;
 }
 
-function generateSubQuestions(startPath) {
-  console.log("Generating Sub Questions for " + startPath);
-    const subFoldersWithQuestions = [];
-
-  const entries = fs.readdirSync(startPath, { withFileTypes: true });
-
-  for (const entry of entries) {
-    if (entry.isDirectory()) {
-      const subfolderPath = path.join(startPath, entry.name);
-      const questionsFile = path.join(subfolderPath, "questions.json");
-
-      if (fs.existsSync(questionsFile)) {
-        subFoldersWithQuestions.push(entry.name);
-      }
-    }
-  }
-
-  const outputFile = path.join(startPath, "sub-questions.json");
-  fs.writeFileSync(outputFile, JSON.stringify(subFoldersWithQuestions, null, 0));
-}
-
 function buildAll() {
   const files = glob.sync("**/*.md", { cwd: QUESTIONS_DIR, absolute: true });
   const grouped = {};
@@ -214,11 +193,11 @@ function buildAll() {
     }
   }
 
+  console.log(Object.keys(grouped));
   for (const dir of Object.keys(grouped)) {
     const outDir = path.join("dist", "data", dir);
-    generateSubQuestions(outDir);
+    console.log(dir.split("/"));
   }
-
 }
 
 // === CLI flag check ===
