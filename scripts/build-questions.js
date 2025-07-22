@@ -196,13 +196,13 @@ function buildAll() {
   // Generate Sub Questions.
   const subQMap = {};
   for (const dir of Object.keys(grouped)) {
-    const tokens = dir.split("/");
+    const tokens = dir.split(path.sep);
     if (tokens.length > 3) {
       const dirName = tokens[tokens.length - 1];
       const parentDir = path.join(
         "dist",
         "data",
-        dir.replace("/" + dirName, "")
+        dir.replace(path.sep + dirName, "")
       );
       if (parentDir in subQMap) {
         subQMap[parentDir].push(dirName);
