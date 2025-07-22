@@ -188,7 +188,7 @@ function buildAll() {
         JSON.stringify(localized, null, 0)
       );
       console.log(
-        `🌐 Generated: ${path.join(outDir, `questions_${locale}.json`)}`
+        `✅ Generated: ${path.join(outDir, `questions_${locale}.json`)}`
       );
     }
   }
@@ -211,7 +211,15 @@ function buildAll() {
       }
     }
   }
-  console.log(subQMap);
+
+  for (const dir of Object.keys(subQMap)) {
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(
+      path.join(dir, `sub-questions.json`),
+      JSON.stringify(subQMap[dir], null, 0)
+    );
+    console.log(`✅ Generated: ${path.join(dir, `sub-questions.json`)}`);
+  }
 }
 
 // === CLI flag check ===
