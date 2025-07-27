@@ -7,6 +7,7 @@
   "license": "ISC",
   "scripts": {
     "clean": "rimraf dist",
+    "copy:fonts": "cpy \"node_modules/@fortawesome/fontawesome-free/webfonts/**/*\" dist/webfonts",
     "watch:sass": "onchange \"src/scss\" -- run-s build:sass",
     "watch:site": "onchange \"site\" -- run-s build:site",
     "watch:questions": "node scripts/build-questions.js --watch",
@@ -16,28 +17,32 @@
     "build:sass": "sass src/scss:dist/css",
     "build:site": "hugo --minify -d ../dist -s site",
     "build:questions": "node scripts/build-questions.js",
-    "build": "run-s clean build:*",
+    "build": "run-s clean copy:fonts build:*",
     "postinstall": "npm run build"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.8",
     "@recogito/recogito-js": "1.8.4",
     "bootstrap": "^5.3.7",
+    "chokidar": "^4.0.3",
     "clean-webpack-plugin": "^4.0.0",
+    "cpy-cli": "^5.0.0",
+    "gray-matter": "^4.0.3",
     "hugo-bin": "0.144.8",
+    "jsonschema": "^1.5.0",
     "npm-run-all": "4.1.5",
     "onchange": "^7.1.0",
     "qrious": "^4.0.2",
     "rimraf": "^6.0.1",
-    "chokidar": "^4.0.3",
-    "gray-matter": "^4.0.3",
-    "jsonschema": "^1.5.0",
-    "sass": "1.89.1",
+    "sass": "1.89.2",
     "webpack": "5.99.9",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "5.2.2"
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0"
+  }
 }
