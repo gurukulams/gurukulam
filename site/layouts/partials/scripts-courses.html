@@ -1,14 +1,14 @@
 {{ if eq $.Page.IsPage true }}
-<script src="vendor/reveal.js"></script>
-<script src="vendor/markdown.min.js"></script>
-<script src="vendor/math.js"></script>
-<script src="vendor/highlight.min.js"></script>
+<script src="/vendor/reveal.js"></script>
+<script src="/vendor/markdown.min.js"></script>
+<script src="/vendor/math.js"></script>
+<script src="/vendor/highlight.min.js"></script>
 <script>
     Reveal.initialize({
         plugins: [ RevealMarkdown ],
         dependencies: [
             {
-                src: 'vendor/highlight.min.js', 
+                src: '/vendor/highlight.min.js', 
                 async: true, 
                 callback: function () { hljs.highlightAll(); }
             }

@@ -79,7 +79,7 @@
 
 {{ if in .Params.extensions "katex" }}
 <script type="module">
-  import renderMathInElement from "https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/contrib/auto-render.mjs";
+  import renderMathInElement from "/vendor/auto-render.js";
 
   const onRender = () => {
     renderMathInElement(document.getElementById("main-container"), {
@@ -129,7 +129,7 @@
 <script
   type="text/javascript"
   charset="UTF-8"
-  src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js"
+  src="/vendor/jsxgraphcore.js"
 ></script>
 
 <script>
@@ -229,4 +229,4 @@
 $partialPath := printf "scripts-%s" .Type }} {{ partial $partialPath . }} {{ end
 }}
 
-<script src="https://getbootstrap.com/docs/5.3/assets/js/color-modes.js"></script>
+<script src="/vendor/color-modes.js"></script>

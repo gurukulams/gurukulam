@@ -30,15 +30,13 @@
 {{ if in .Params.extensions "katex" }}
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css"
-  integrity="sha384-zTROYFVGOfTw7JV7KUu8udsvW2fx4lWOsCEDqhBreBwlHI4ioVRtmIvEThzJHGET"
-  crossorigin="anonymous"
+  href="/vendor/katex.min.css"
 />
 {{ end }} {{ if in .Params.extensions "jsxgraph" }}
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css"
+  href="/vendor/jsxgraph.css"
 />
 {{ end }}
 
