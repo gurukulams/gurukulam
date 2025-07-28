@@ -1,6 +1,26 @@
+const hljs = require('highlight.js/lib/core')
 class GurukulamsPage {
   constructor() {
+    
     this.locale = document.getElementById("languageBtn").dataset.code;
+
+    hljs.highlightAll();
+    // Add copy button to each highlighted code block
+    document.querySelectorAll('pre code').forEach((block) => {
+      const button = document.createElement('button');
+      button.className = 'hljs-copy-btn';
+      button.innerHTML = '<i class="fa fa-copy"></i>';
+      button.style = 'position:absolute;top:5px;right:5px;z-index:10;padding:2px 8px;font-size:1em;background:transparent;border:none;cursor:pointer;';
+      const pre = block.parentElement;
+      pre.style.position = 'relative';
+      pre.appendChild(button);
+      button.addEventListener('click', () => {
+        navigator.clipboard.writeText(block.textContent).then(() => {
+          button.innerHTML = '<i class="fa fa-check"></i>';
+          setTimeout(() => (button.innerHTML = '<i class="fa fa-copy"></i>'), 1200);
+        });
+      });
+    });
 
     if (this.locale === "en") {
       this.locale = undefined;

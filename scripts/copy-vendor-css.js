@@ -7,22 +7,19 @@ if (!fs.existsSync(vendorDir)) {
 }
 
 const filesToCopy = [
-  {
-    src: 'node_modules/reveal.js/dist/reveal.css',
-    dest: 'dist/vendor/reveal.css'
-  },
-  {
-    src: 'node_modules/reveal.js/dist/theme/simple.css',
-    dest: 'dist/vendor/simple.css'
-  },
-  {
-    src: 'node_modules/reveal.js/dist/theme/white.css',
-    dest: 'dist/vendor/white.css'
-  },
-  {
-    src: 'node_modules/highlight.js/styles/default.css',
-    dest: 'dist/vendor/highlight-default.css'
-  }
+  // CSS
+  { src: 'node_modules/reveal.js/dist/reveal.css', dest: 'dist/vendor/reveal.css' },
+  { src: 'node_modules/reveal.js/dist/theme/simple.css', dest: 'dist/vendor/simple.css' },
+  { src: 'node_modules/reveal.js/dist/theme/white.css', dest: 'dist/vendor/white.css' },
+  { src: 'node_modules/highlight.js/styles/default.css', dest: 'dist/vendor/highlight-default.css' },
+  
+  // JS
+  { src: 'node_modules/reveal.js/dist/reveal.js', dest: 'dist/vendor/reveal.js' },
+  { src: 'node_modules/reveal.js/plugin/markdown/markdown.js', dest: 'dist/vendor/markdown.js' },
+  { src: 'node_modules/reveal.js/plugin/math/math.js', dest: 'dist/vendor/math.js' },
+  { src: 'node_modules/highlight.js/lib/index.js', dest: 'dist/vendor/highlight.js' },
+  { src: 'node_modules/highlight.js/lib/core.js', dest: 'dist/vendor/highlight-core.js' },
+  { src: 'node_modules/highlight.js/lib/highlight.js', dest: 'dist/vendor/highlight.min.js' }
 ];
 
 filesToCopy.forEach(({src, dest}) => {

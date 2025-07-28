@@ -13,6 +13,8 @@ $fa-font-path: "../webfonts"; // or wherever you serve them from
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
 
+@import "../../node_modules/highlight.js/styles/default";
+
 html {
   scroll-padding-top: $spacer * 4;
 }
