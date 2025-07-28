@@ -7,6 +7,8 @@
   "license": "ISC",
   "scripts": {
     "clean": "rimraf dist",
+    "copy:bootstrap": "cpy \"node_modules/bootstrap/dist/**/*\" dist/bootstrap",
+    "copy:vendor-css": "node scripts/copy-vendor-css.js",
     "copy:fonts": "cpy \"node_modules/@fortawesome/fontawesome-free/webfonts/**/*\" dist/webfonts",
     "watch:sass": "onchange \"src/scss\" -- run-s build:sass",
     "watch:site": "onchange \"site\" -- run-s build:site",
@@ -17,7 +19,7 @@
     "build:sass": "sass src/scss:dist/css",
     "build:site": "hugo --minify -d ../dist -s site",
     "build:questions": "node scripts/build-questions.js",
-    "build": "run-s clean copy:fonts build:*",
+    "build": "run-s clean copy:fonts copy:bootstrap copy:vendor-css build:*",
     "postinstall": "npm run build"
   },
   "devDependencies": {
@@ -43,6 +45,8 @@
     "defaults"
   ],
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.0.0"
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "highlight.js": "^11.11.1",
+    "reveal.js": "^5.2.1"
   }
 }
