@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "copy:bootstrap": "cpy \"node_modules/bootstrap/dist/**/*\" dist/bootstrap",
-    "copy:vendor-css": "node scripts/copy-vendor-css.js",
+    "copy:vendor": "node scripts/copy-vendor-css.js",
     "copy:fonts": "cpy \"node_modules/@fortawesome/fontawesome-free/webfonts/**/*\" dist/webfonts",
     "watch:sass": "onchange \"src/scss\" -- run-s build:sass",
     "watch:site": "onchange \"site\" -- run-s build:site",
@@ -19,7 +19,7 @@
     "build:sass": "sass src/scss:dist/css",
     "build:site": "hugo --minify -d ../dist -s site",
     "build:questions": "node scripts/build-questions.js",
-    "build": "run-s clean copy:fonts copy:bootstrap copy:vendor-css build:*",
+    "build": "run-s clean copy:fonts copy:bootstrap copy:vendor build:*",
     "postinstall": "npm run build"
   },
   "devDependencies": {
