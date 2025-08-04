@@ -24,6 +24,8 @@ const filesToCopy = [
     { src: 'node_modules/highlight.js/lib/index.js', dest: 'dist/vendor/highlight.js' },
     { src: 'node_modules/highlight.js/lib/core.js', dest: 'dist/vendor/highlight-core.js' },
     { src: 'node_modules/highlight.js/lib/highlight.js', dest: 'dist/vendor/highlight.min.js' },
+    { src: 'node_modules/highlight.js/lib/index.js', dest: 'dist/vendor/highlight.min.js' },
+    { src: 'node_modules/reveal.js/plugin/markdown/markdown.js', dest: 'dist/vendor/markdown.min.js' },
   // Recogito & Annotorious CSS
     { src: 'node_modules/@recogito/recogito-js/dist/recogito.min.css', dest: 'dist/vendor/recogito.min.css' },
     { src: 'node_modules/@recogito/annotorious/dist/annotorious.min.css', dest: 'dist/vendor/annotorious.min.css' },
