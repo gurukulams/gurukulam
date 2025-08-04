@@ -36,7 +36,7 @@ class Login {
         if (auth_response.expiresIn) {
           auth_response.expiresIn = Date.now() + auth_response.expiresIn;
           sessionStorage.auth = JSON.stringify(auth_response);
-          // location.reload();
+          location.reload();
         } else {
           sessionStorage.setItem("ref_page", window.location.href);
           sessionStorage.setItem("reg_token", auth_response.registrationToken);

@@ -11,7 +11,6 @@ class ImageNotes extends CoreNotes {
       }),
     );
 
-    Toolbar(this.annobase, document.getElementById('toolbar'));
 
     // eslint-disable-next-line no-undef
     this.imageModel = new bootstrap.Modal(
