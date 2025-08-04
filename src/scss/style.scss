@@ -1,3 +1,37 @@
+// Highlight.js copy button theming for dark/light mode
+.hljs-copy-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 10;
+  padding: 2px 8px;
+  font-size: 1em;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--bs-emphasis-color);
+  transition: background 0.2s, color 0.2s;
+}
+
+.hljs-copy-btn:hover, .hljs-copy-btn:focus {
+  background: var(--bs-secondary-bg);
+  color: var(--bs-gray-900);
+}
+
+[data-bs-theme="dark"] .hljs-copy-btn {
+  color: var(--bs-light);
+}
+
+[data-bs-theme="dark"] .hljs-copy-btn:hover, [data-bs-theme="dark"] .hljs-copy-btn:focus {
+  background: var(--bs-secondary-bg);
+  color: var(--bs-warning);
+}
+
+pre {
+  position: relative;
+  white-space: pre !important;
+}
 @import "./base/typography";
 @import "./themes/theme";
 
