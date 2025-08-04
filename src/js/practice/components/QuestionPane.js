@@ -1,4 +1,5 @@
 import ChoiceList from "./ChoiceList";
+import EasyMDE from "easymde";
 
 export default class QuestionPane {
   

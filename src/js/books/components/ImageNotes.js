@@ -1,8 +1,8 @@
 import CoreNotes from "./CoreNotes";
+import Annotorious from "@recogito/annotorious";
 
 class ImageNotes extends CoreNotes {
   constructor(_parent) {
-    // eslint-disable-next-line no-undef
     super(
       _parent,
       Annotorious.init({

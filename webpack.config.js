@@ -60,7 +60,7 @@ module.exports = {
     },       
     },
     performance: {
-        maxEntrypointSize: 500000,
-        maxAssetSize: 500000, // 1500 KB
+        maxEntrypointSize: 1048576, // 1 MiB
+        maxAssetSize: 1048576, // 1 MiB
     }
 };

@@ -1,6 +1,3 @@
-  // Bootstrap color-modes JS
-  
-  // KaTeX auto-render JS
   
 const fs = require('fs');
 const path = require('path');
@@ -27,7 +24,7 @@ const filesToCopy = [
     { src: 'node_modules/highlight.js/lib/index.js', dest: 'dist/vendor/highlight.js' },
     { src: 'node_modules/highlight.js/lib/core.js', dest: 'dist/vendor/highlight-core.js' },
     { src: 'node_modules/highlight.js/lib/highlight.js', dest: 'dist/vendor/highlight.min.js' },
-    // Recogito & Annotorious CSS
+  // Recogito & Annotorious CSS
     { src: 'node_modules/@recogito/recogito-js/dist/recogito.min.css', dest: 'dist/vendor/recogito.min.css' },
     { src: 'node_modules/@recogito/annotorious/dist/annotorious.min.css', dest: 'dist/vendor/annotorious.min.css' },
     // Quill CSS
@@ -36,6 +33,8 @@ const filesToCopy = [
     { src: 'node_modules/katex/dist/katex.min.css', dest: 'dist/vendor/katex.min.css' },
     // JSXGraph CSS
     { src: 'node_modules/jsxgraph/distrib/jsxgraph.css', dest: 'dist/vendor/jsxgraph.css' },
+    // EasyMDE CSS
+    { src: 'node_modules/easymde/dist/easymde.min.css', dest: 'dist/vendor/easymde.min.css' },
     // KaTeX auto-render JS
     { src: 'node_modules/katex/dist/contrib/auto-render.js', dest: 'dist/vendor/auto-render.js' },
     // JSXGraph core JS
