@@ -1,17 +1,17 @@
 import CoreNotes from "./CoreNotes";
-import Annotorious from "@recogito/annotorious";
+import { init, Toolbar } from "@recogito/annotorious";
 
 class ImageNotes extends CoreNotes {
   constructor(_parent) {
     super(
       _parent,
-      Annotorious.init({
+      init({
         image: document.getElementById("imageModel").querySelector("img"),
         readOnly: true,
       }),
     );
 
-    Annotorious.Toolbar(this.annobase, document.getElementById('toolbar'));
+    Toolbar(this.annobase, document.getElementById('toolbar'));
 
     // eslint-disable-next-line no-undef
     this.imageModel = new bootstrap.Modal(
