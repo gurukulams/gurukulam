@@ -117,14 +117,6 @@ class GurukulamsPage {
     this.handleTheme();
     this.setScrollIndicator();
     this.handleZenMode();
-
-    const isLocal =
-      window.location.hostname === "localhost" ||
-      window.location.hostname === "127.0.0.1";
-
-    if (!isLocal) {
-      document.getElementById("login-pane").classList.add("d-none");
-    }
   }
 
   handleModelDialogs() {

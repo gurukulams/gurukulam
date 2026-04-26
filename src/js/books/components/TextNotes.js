@@ -36,6 +36,8 @@ class TextNotes extends CoreNotes {
       this.path = this.path.slice(0, -1);
     }
 
+    console.log("Path is " + this.path);
+
     this.ontype = this.path.split("/")[1];
     this.oninstance = this.path.split("/" + this.ontype + "/")[1];
 

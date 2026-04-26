@@ -4,6 +4,13 @@ class CoreNotes {
 
     this.annobase = _annobase;
 
+    this.path = window.location.pathname.trim();
+    if (this.path.endsWith("/")) {
+      this.path = this.path.slice(0, -1);
+    }
+
+    console.log("Path is CN " + this.path);
+
     // this is the sample for creating and loading anotaions;
 
     this.annobase.on("createAnnotation", (annotation) =>
@@ -19,6 +26,8 @@ class CoreNotes {
     );
     // recognito.setAnnotations(data);
     // eslint-disable-next-line no-undef
+
+    this.loadNotes()
   }
 
   updateAnnotation(annotation, previous) {
