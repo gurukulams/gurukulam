@@ -8,7 +8,10 @@ export default class BookScreen {
       const contentEl = document.getElementById("content");
 
       document.getElementById("bookOptionsPane").classList.remove("d-none");
-      // document.getElementById("notesBtn").classList.remove("d-none");
+      if (sessionStorage.auth) {
+        document.getElementById("notesBtn").classList.remove("d-none");
+      }
+      
 
       document.querySelectorAll("i.fa-user-check,i.fa-trophy")
         .forEach((element) => {
