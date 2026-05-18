@@ -16,7 +16,7 @@ class Login {
   login(event) {
     event.preventDefault();
     let authRequest = {
-      userName: event.currentTarget.name + "@email.com",
+      email: event.currentTarget.name + "@email.com",
       password: event.currentTarget.name + "password",
     };
     fetch("/api/auth/login", {

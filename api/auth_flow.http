@@ -8,7 +8,7 @@ POST {{baseUrl}}/auth/login
 Content-Type: application/json
 
 {  
-  "userName": "{{username}}@email.com",
+  "email": "{{username}}@email.com",
   "password": "{{password}}"
 }
 
