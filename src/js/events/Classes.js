@@ -1,4 +1,4 @@
-import {QRious} from "qrious";
+import QRious from "qrious";
 class Classes {
   constructor(classesPane, _chaptersPath) {
     this.editView = classesPane.querySelector("#event-form");
@@ -330,9 +330,15 @@ class Classes {
       fetch("/api/events/" + event.id, {
         method: "POST",
         headers: window.ApplicationHeader(),
-      }).then(() => {
-        window.success("Event registered successfully");
-        backToListing();
+      }).then((response) => {
+        if (response.ok) {
+          window.success("Event registered successfully");
+          backToListing();
+        } else {
+          window.error("Unable to register event");
+        }
+      }).catch(() => {
+        window.error("Unable to connect to server");
       });
     });
 

@@ -212,19 +212,31 @@ class Profile {
         fetch("/api/orgs/" + this.profile.userHandle, {
           method: "POST",
           headers: window.ApplicationHeader(),
-        }).then(() => {
-          window.success("Org registered successfully");
-          this.setSubscribed();
-          backToListing();
+        }).then((response) => {
+          if (response.ok) {
+            window.success("Org registered successfully");
+            this.setSubscribed();
+            backToListing();
+          } else {
+            window.error("Unable to register org");
+          }
+        }).catch(() => {
+          window.error("Unable to connect to server");
         });
       } else {
         fetch("/api/profiles/" + this.profile.userHandle, {
           method: "POST",
           headers: window.ApplicationHeader(),
-        }).then(() => {
-          window.success("User subscribed successfully");
-          this.setSubscribed();
-          backToListing();
+        }).then((response) => {
+          if (response.ok) {
+            window.success("User subscribed successfully");
+            this.setSubscribed();
+            backToListing();
+          } else {
+            window.error("Unable to subscribe user");
+          }
+        }).catch(() => {
+          window.error("Unable to connect to server");
         });
       }
     });
